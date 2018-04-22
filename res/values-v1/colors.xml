@@ -18,13 +18,9 @@
     <color name="kik_green">#ff5dcd11</color>
     <color name="kik_shrek_green">#ff91d013</color>
     <color name="kik_star_rating_yellow">#ffffb922</color>
-	<color name="list_divider_color">@color/gray_2</color>
+	<color name="list_divider_color">@color/divider</color>
 	<color name="status_bar_grey">#ff999999</color>
     <color name="status_bar_grey_v2">#3d37394b</color>
 	<color name="trans">#00000000</color>
 	<color name="warning_red">#fffa0164</color>
-	<color name="incoming_bubble_color">#ffffffff</color>
-	<color name="kinky_chat_background">#ffeeeeee</color>
-	<color name="sub_section_background">#ffeeeeee</color>
-	<color name="sub_section_text">#ff101010</color>
 </resources>

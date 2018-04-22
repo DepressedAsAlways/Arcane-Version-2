@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="kinky_material_orange">#ffff9800</color>
+	<color name="kinky_material_orange_dark">#fff57c00</color>
+	<color name="kinky_material_orange_light">#ffffab40</color>
+	<color name="kinky_material_red">#fff44336</color>
+	<color name="kinky_material_red_dark">#ffd32f2f</color>
+	<color name="kinky_material_red_light">#ffff5252</color>
+	<color name="kinky_material_blue">#ff3f51b5</color>
+	<color name="kinky_material_blue_dark">#ff303f9f</color>
+	<color name="kinky_material_blue_light">#ff3d5afe</color>
+	<color name="kinky_material_green">#ff4caf50</color>
+	<color name="kinky_material_green_dark">#ff388e3c</color>
+	<color name="kinky_material_green_light">#ffb2ff59</color>
+	<color name="kinky_material_white">#ffcccccc</color>
+	<color name="kinky_material_white_dark">#ffeeeeee</color>
+	<color name="kinky_material_white_light">#ffffffff</color>
+	<color name="kinky_material_black">#ff212121</color>
+	<color name="kinky_material_black_dark">#ff000000</color>
+	<color name="kinky_material_black_light">#ff404040</color>
+	<color name="kinky_material_pink">#ffe91e63</color>
+	<color name="kinky_material_pink_dark">#ffc2185b</color>
+	<color name="kinky_material_pink_light">#ffec407a</color>
+	<color name="kinky_material_purple">#ff9c27b0</color>
+	<color name="kinky_material_purple_dark">#ff7b1fa2</color>
+	<color name="kinky_material_purple_light">#ffe040fb</color>
+</resources>

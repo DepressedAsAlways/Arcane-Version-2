@@ -225,6 +225,11 @@
     </style>
     <style name="AppTheme" parent="@style/BaseAppTheme">
         <item name="selectableItemBackground">@drawable/selectable_item_background_grey</item>
+		<item name="colorPrimaryDark">@color/gray_5</item>
+    </style>
+	<style name="ConvoTheme" parent="@style/BaseAppTheme">
+        <item name="selectableItemBackground">@drawable/selectable_item_background_grey</item>
+		<item name="colorPrimaryDark">@color/theme_dark</item>
     </style>
     <style name="Base.TextAppearance.AppCompat" parent="@android:style/TextAppearance">
         <item name="android:textSize">@dimen/abc_text_size_body_1_material</item>
@@ -1105,7 +1110,7 @@
         <item name="tabPaddingStart">12.0dip</item>
         <item name="tabPaddingEnd">12.0dip</item>
     </style>
-    <style name="BaseAppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="BaseAppTheme" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@color/white</item>
         <item name="android:windowNoTitle">false</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -1115,7 +1120,6 @@
         <item name="android:checkboxStyle">@style/KikCheckboxStyle</item>
         <item name="android:windowActionBar">false</item>
         <item name="colorPrimary">@color/gray_1</item>
-        <item name="colorPrimaryDark">@color/gray_5</item>
         <item name="colorAccent">@color/kik_blue</item>
     </style>
     <style name="ChatsSearchUsernameDrawable">
@@ -1422,15 +1426,16 @@
     <style name="KikAlertDialog.List" parent="@style/KikAlertDialog">
         <item name="android:textColorSecondary">@color/gray_2</item>
     </style>
-    <style name="KikAlertDialogBase" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+    <style name="KikAlertDialogBase" parent="@android:style/Theme.Material.Dialog.Alert">
         <item name="android:textColorPrimary">@color/gray_5</item>
         <item name="android:windowTitleStyle">@style/KikAlertDialogTitle</item>
         <item name="android:checkboxStyle">@style/KikCheckboxStyle</item>
         <item name="android:listViewStyle">@style/KikListView</item>
         <item name="android:radioButtonStyle">@style/KikRadioButtonStyle</item>
         <item name="android:textColorLink">@color/kik_blue</item>
-        <item name="android:background">@color/white</item>
+        <item name="android:backgroundTint">@color/white</item>
         <item name="colorAccent">@color/kik_blue</item>
+		<item name="colorControlHighlight">@color/theme</item>
     </style>
     <style name="KikAlertDialogTitle">
         <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
@@ -1906,7 +1911,7 @@
         <item name="android:layout_height">25.0dip</item>
         <item name="android:layout_marginLeft">25.0dip</item>
     </style>
-    <style name="SplashTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="SplashTheme" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@drawable/splash_background</item>
         <item name="colorPrimaryDark">@color/status_bar_grey_v2</item>
     </style>
@@ -2055,12 +2060,12 @@
     <style name="ThemeOverlay.AppCompat.Dialog" parent="@style/Base.ThemeOverlay.AppCompat.Dialog" />
     <style name="ThemeOverlay.AppCompat.Dialog.Alert" parent="@style/Base.ThemeOverlay.AppCompat.Dialog.Alert" />
     <style name="ThemeOverlay.AppCompat.Light" parent="@style/Base.ThemeOverlay.AppCompat.Light" />
-    <style name="TransparentTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="TransparentTheme" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="colorPrimaryDark">@android:color/transparent</item>
     </style>
-    <style name="TransparentTheme.NoAnimation" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="TransparentTheme.NoAnimation" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowAnimationStyle">@null</item>

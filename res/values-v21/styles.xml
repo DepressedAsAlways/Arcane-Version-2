@@ -35,6 +35,11 @@
         <item name="android:statusBarColor">@color/status_bar_grey_v2</item>
         <item name="android:datePickerDialogTheme">@style/KikDatePickerDialogTheme.Spinner</item>
     </style>
+	<style name="ConvoTheme" parent="@style/BaseAppTheme">
+        <item name="android:colorControlHighlight">@color/gray_2</item>
+        <item name="android:statusBarColor">@color/theme_dark</item>
+        <item name="android:datePickerDialogTheme">@style/KikDatePickerDialogTheme.Spinner</item>
+    </style>
     <style name="Base.TextAppearance.AppCompat" parent="@android:style/TextAppearance.Material" />
     <style name="Base.TextAppearance.AppCompat.Body1" parent="@android:style/TextAppearance.Material.Body1" />
     <style name="Base.TextAppearance.AppCompat.Body2" parent="@android:style/TextAppearance.Material.Body2" />
@@ -266,7 +271,7 @@
     <style name="Base.V21.ThemeOverlay.AppCompat.Dialog" parent="@style/Base.V11.ThemeOverlay.AppCompat.Dialog">
         <item name="android:windowElevation">@dimen/abc_floating_window_z</item>
     </style>
-    <style name="KikDatePickerDialogTheme" parent="@android:style/Theme.Material.Light.Dialog.Alert">
+    <style name="KikDatePickerDialogTheme" parent="@android:style/Theme.Material.Dialog.Alert">
         <item name="android:windowTitleStyle">@style/KikAlertDialogTitle</item>
         <item name="android:colorControlNormal">@color/kik_blue</item>
         <item name="android:colorAccent">@color/kik_blue</item>

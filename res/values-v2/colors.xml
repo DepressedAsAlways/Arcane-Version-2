@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- the theme hexes are red decided to do red while testing this time -->
+	<color name="theme">#fff44336</color>
+	<color name="theme_dark">#ffd32f2f</color>
+	<color name="theme_light">#ffff5252</color>
+	<color name="topbars">#ff101010</color>
+	<color name="bg">#ff151515</color>
+	<color name="tab">#ff262626</color>
+	<color name="divider">#ff202020</color>
+	<color name="fab_buttons">#ff1d1d1d</color>
+	<color name="fab_shadows">#66212121</color>
+	<color name="incoming_bubble_color">#ffffffff</color>
+	<color name="kinky_chat_background">@color/bg</color>
+	<color name="sub_section_background">@color/bg</color>
+	<color name="sub_section_text">#ffeeeeee</color>
+</resources>

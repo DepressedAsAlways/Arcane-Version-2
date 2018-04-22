@@ -133,7 +133,7 @@
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.kik.cards.usermedia.CustomGalleryActivity"/>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="kik.android.chat.fragment.SimpleFragmentWrapperActivity"/>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="kik.android.chat.activity.KikWelcomeFragmentActivity"/>
-        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="kik.android.chat.activity.ConversationsActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:theme="@style/ConvoTheme" android:name="kik.android.chat.activity.ConversationsActivity"/>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTop" android:name="kik.android.chat.activity.ChatActivity" android:windowSoftInputMode="adjustResize"/>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="kik.android.chat.activity.MissedConversationsActivity"/>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="kik.android.chat.activity.FragmentWrapperActivity" android:windowSoftInputMode="adjustResize"/>
