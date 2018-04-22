@@ -1,0 +1,100 @@
+.class public final Lcom/google/android/gms/internal/zzadx;
+.super Ljava/lang/Object;
+
+
+# instance fields
+.field private mErrorCode:I
+
+.field private zzcbm:Ljava/lang/String;
+
+.field private zzcwj:Ljava/lang/String;
+
+.field private zzcwk:J
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method static synthetic zza(Lcom/google/android/gms/internal/zzadx;)Ljava/lang/String;
+    .locals 1
+
+    iget-object v0, p0, Lcom/google/android/gms/internal/zzadx;->zzcbm:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method static synthetic zzb(Lcom/google/android/gms/internal/zzadx;)Ljava/lang/String;
+    .locals 1
+
+    iget-object v0, p0, Lcom/google/android/gms/internal/zzadx;->zzcwj:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method static synthetic zzc(Lcom/google/android/gms/internal/zzadx;)I
+    .locals 1
+
+    iget v0, p0, Lcom/google/android/gms/internal/zzadx;->mErrorCode:I
+
+    return v0
+.end method
+
+.method static synthetic zzd(Lcom/google/android/gms/internal/zzadx;)J
+    .locals 2
+
+    iget-wide v0, p0, Lcom/google/android/gms/internal/zzadx;->zzcwk:J
+
+    return-wide v0
+.end method
+
+
+# virtual methods
+.method public final zzaa(I)Lcom/google/android/gms/internal/zzadx;
+    .locals 0
+
+    iput p1, p0, Lcom/google/android/gms/internal/zzadx;->mErrorCode:I
+
+    return-object p0
+.end method
+
+.method public final zzbw(Ljava/lang/String;)Lcom/google/android/gms/internal/zzadx;
+    .locals 0
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/zzadx;->zzcbm:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method public final zzbx(Ljava/lang/String;)Lcom/google/android/gms/internal/zzadx;
+    .locals 0
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/zzadx;->zzcwj:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method public final zzg(J)Lcom/google/android/gms/internal/zzadx;
+    .locals 1
+
+    iput-wide p1, p0, Lcom/google/android/gms/internal/zzadx;->zzcwk:J
+
+    return-object p0
+.end method
+
+.method public final zzox()Lcom/google/android/gms/internal/zzadv;
+    .locals 2
+
+    new-instance v0, Lcom/google/android/gms/internal/zzadv;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, p0, v1}, Lcom/google/android/gms/internal/zzadv;-><init>(Lcom/google/android/gms/internal/zzadx;Lcom/google/android/gms/internal/ad;)V
+
+    return-object v0
+.end method

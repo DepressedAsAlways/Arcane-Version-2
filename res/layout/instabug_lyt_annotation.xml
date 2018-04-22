@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/InstabugBaseContainer">
+    <include layout="@layout/instabug_lyt_toolbar" />
+    <LinearLayout style="@style/InstabugAnnotationContainer">
+        <include layout="@layout/instabug_annotation_view" />
+    </LinearLayout>
+</LinearLayout>

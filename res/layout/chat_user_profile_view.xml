@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/chat_user_profile_view_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:tag="binding_1" android:paddingTop="@dimen/native_topbar_height" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/layout_chat_profile_top_images" />
+            <TextView android:textSize="20.0sp" android:textColor="@color/text_primary" android:ellipsize="end" android:gravity="center" android:id="@id/profile_name" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:maxLines="1" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/text_tertiary" android:ellipsize="end" android:gravity="center" android:id="@id/profile_username" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+            <include android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" layout="@layout/layout_five_star_rating" />
+            <include android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" layout="@layout/layout_days_on_kik" />
+            <org.apmem.tools.layouts.FlowLayout android:gravity="center" android:tag="binding_4" android:paddingTop="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+            <include android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="4.0dip" layout="@layout/layout_badge_collection" />
+            <include android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" layout="@layout/layout_bio" />
+            <include android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" android:layout_marginTop="24.0dip" layout="@layout/list_divider" />
+            <LinearLayout android:orientation="vertical" android:tag="binding_5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <kik.android.widget.SeparatorLineRecyclerView android:tag="binding_6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+                <include layout="@layout/list_divider" />
+                <include android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" android:layout_marginTop="17.0dip" layout="@layout/list_divider" />
+            </LinearLayout>
+            <kik.android.widget.SeparatorLineRecyclerView android:tag="binding_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+            <include layout="@layout/list_divider" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <include layout="@layout/kik_databound_navbar" />
+</FrameLayout>

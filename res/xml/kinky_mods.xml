@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Mods"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:kik="http://schemas.android.com/apk/res-auto">
+	<kinky.Empty android:title="A/B test" />
+	<kinky.Toggle android:key="kinky.multi" android:title="Multi Photos" android:summary="when sharing photos you can send more than one at once" />
+	<kinky.Toggle android:key="kinky.vid" android:title="Disable Video Chat" android:summary="ever accidentally click the video chat toggle and face expose? Well this should help you prevent that" />
+	<kinky.Toggle android:key="kinky.gif" android:title="Gif Favorites" android:summary="store your the gifs you like in gif tray" />
+	<kinky.Toggle android:key="kinky.blur" android:title="Blur Media" android:summary="incoming media in public groups will be censored" />
+	<kinky.Toggle android:key="kinky.admin" android:title="Admin Badges" android:summary="displays who is admin in chat" />
+	<kinky.Toggle android:key="kinky.pgnoti" android:title="Public Group Notifications" android:summary="changes the mute button in chat info" />
+	<kinky.Toggle android:key="kinky.bio" android:title="Bios" android:summary="change your bio in settings" />
+	<kinky.List android:key="kinky.groupbio" android:title="Group Descriptions" android:summary="if admin you make set a bio for your group chat" android:entries="@array/group_bios" android:entryValues="@array/group_bios" />
+	<kinky.Toggle android:key="kinky.newchatreport" android:title="New Chat Reporting" android:summary="when someone new messages you there is a button for if you wish to report them" />
+	<kinky.Empty android:title="Chat" />
+	<kinky.Toggle android:key="kinky.typing" android:title="Disable isTyping" android:summary="other users will not be able to see when you are typing" />
+	<kinky.Toggle android:key="kinky.fakecam" android:title="Fake Camera" android:summary="gallery pictures you send will appear as being sent from camera" />
+	<kinky.List android:key="kinky.incomingtext" android:title="Change Incoming Text Color" android:entries="@array/kinky_colors" android:entryValues="@array/kinky_colors" />
+	<kinky.List android:key="kinky.receipt" android:title="Read Receipts" android:summary="choose whether other users know if you read their messages or not" android:entries="@array/kinky_receipts" android:entryValues="@array/kinky_receipts" />
+	<kinky.Toggle android:key="kinky.squareincom" android:title="Square Incoming Bubbles" />
+	<kinky.Toggle android:key="kinky.squareoutgo" android:title="Square Outgoing Bubbles" />
+	<kinky.Empty android:title="Other" />
+	<kinky.Toggle android:key="kinky.pull" android:title="No Pull" android:summary="disables the pull to search feature on conversations" />
+	<kinky.Toggle android:key="kinky.disturb" android:title="Do Not Disturb" android:summary="auto leave groups that you are added to" />
+	<kinky.Toggle android:key="kinky.private" android:title="Privacy Mode" android:summary="hide messages on conversations screen" />
+</PreferenceScreen>

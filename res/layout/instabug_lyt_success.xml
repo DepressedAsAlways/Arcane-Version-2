@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/instabug_success_dialog_container" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" style="@style/InstabugDialogContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/instabug_success_dialog_items_container" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <include layout="@layout/instabug_lyt_dialog_toolbar" />
+        <include layout="@layout/instabug_vertical_separator" />
+        <TextView android:gravity="center" android:id="@id/instabug_txt_success_note" android:padding="20.0dip" android:text="@string/instabug_str_success_note" style="@style/InstabugText" />
+        <LinearLayout android:gravity="center" android:id="@id/instabug_option_ok" android:visibility="gone" style="@style/InstabugDialogItemContainer">
+            <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/instabug_str_ok" style="@style/InstabugDialogButtonText" />
+        </LinearLayout>
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/instabug_success_dialog_items_container" layout="@layout/instabug_lyt_pbi" />
+</RelativeLayout>

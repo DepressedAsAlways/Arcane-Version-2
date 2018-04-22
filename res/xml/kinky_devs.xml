@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="Developers"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <kinky.Empty android:title="Base Creators" />
+	<kinky.Dev android:title="Morty" android:summary="added disable typing, read receipts and fake camera" android:key="kik.help">
+		<intent android:action="android.intent.action.VIEW" android:data="kik://users/morty117/profile" />
+	</kinky.Dev>
+	<kinky.Dev android:title="Kinky God" android:summary="enabled a/b test, added all mods morty didn't" android:key="kik.help">
+		<intent android:action="android.intent.action.VIEW" android:data="kik://users/.no_u/profile" />
+	</kinky.Dev>
+	<kinky.Empty android:title="Click on name to view profile" />
+</PreferenceScreen>

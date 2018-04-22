@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/instabug_survey_dialog_container" android:background="@color/instabug_dialog_bg_color" android:paddingLeft="@dimen/instabug_dialog_padding_left_right" android:paddingTop="@dimen/instabug_dialog_padding_top_bottom" android:paddingRight="@dimen/instabug_dialog_padding_left_right" android:paddingBottom="@dimen/instabug_dialog_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/instabug_dialog_survey_container" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.instabug.survey.ui.InstabugScrollView android:id="@id/ib_dialog_survey_scrollview_container" android:background="?instabug_background_color" android:paddingTop="30.0dip" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="28.0dip" android:layout_weight="1.0">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:gravity="start" android:id="@id/instabug_text_view_question" android:background="?instabug_survey_dialog_header_transition" android:paddingLeft="24.0dip" android:paddingTop="0.0dip" android:paddingRight="24.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" style="@style/InstabugDialogIQuestion" />
+                    <RadioGroup android:gravity="start" android:id="@id/instabug_radio_group_answers" android:background="?instabug_background_color" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:focusable="false" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </com.instabug.survey.ui.InstabugScrollView>
+            <LinearLayout android:gravity="end|center" android:orientation="vertical" android:id="@id/instabug_btn_submit_container" android:background="?instabug_survey_dialog_footer_transition" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip">
+                <View android:id="@id/instabug_survey_bottom_separator" android:background="#ffb9b9b9" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="1.0dip" />
+                <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Button android:textSize="18.0sp" android:gravity="center" android:layout_gravity="end" android:id="@id/instabug_btn_dismiss" android:background="@null" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:minWidth="64.0dip" android:text="@string/instabug_str_dismiss" android:alpha="0.5" />
+                    <Button android:textSize="18.0sp" android:gravity="center" android:layout_gravity="end" android:id="@id/instabug_btn_submit" android:background="@null" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_margin="8.0dip" android:minWidth="64.0dip" android:text="@string/instabug_str_action_submit" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/instabug_survey_top_separator" android:background="#ffb9b9b9" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="58.0dip" />
+        <com.instabug.library.view.IconView android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/instabug_ic_survey_logo" android:layout_width="56.0dip" android:layout_height="56.0dip" app:instabug_icon="survey" />
+    </FrameLayout>
+    <include layout="@layout/instabug_lyt_pbi" />
+</LinearLayout>

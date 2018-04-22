@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+package common.entity.v1;
+option java_package = "com.kik.entity.model";
+option java_generate_equals_and_hash = true;
+option objc_class_prefix = "SUBS";
+option go_package = "github.com/kikinteractive/xiphias-model-common/generated/go/entity/v1;entity";
+
+import "protobuf_validation.proto";
+import "entity/v1/entity_common.proto";
+
+//**************************************************
+//
+// Contains a dictionary of shared objects between
+// mobile and internal services
+//
+//**************************************************
+
+message RosterSyncToken{
+       // Clients MUST NOT interpret this message.
+    bytes payload = 1 [(kik.validation.field_validation) = {
+        mandatory: true
+        min_byte_length:  1
+        max_byte_length: 5120 }];
+}
+
+message RosterEntry {
+    // OneOf user or group
+    oneof roster_entry_kind {
+        common.entity.v1.EntityUserRosterEntry user_data = 1;
+        common.entity.v1.EntityGroupRosterEntry group_data = 2;
+    }
+
+    // Only applies to user rosters
+    // Has this person being blocked by roster owner?
+    bool is_blocked = 3;
+}

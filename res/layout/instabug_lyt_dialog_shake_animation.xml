@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:id="@id/instabug_intro_dialog" android:background="@android:color/white" android:padding="@dimen/instabug_dialog_container_padding" android:layout_width="wrap_content" style="@style/InstabugBaseContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instabug.library.internal.view.AnimatedImageView android:id="@id/animation_frame" android:padding="10.0dip" android:layout_width="220.0dip" android:layout_height="120.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/instabug_normal_text_size" android:textColor="@android:color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/animation_description" android:background="@android:color/white" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-32.0dip" android:layout_below="@id/animation_frame" android:layout_centerHorizontal="true" />
+</RelativeLayout>

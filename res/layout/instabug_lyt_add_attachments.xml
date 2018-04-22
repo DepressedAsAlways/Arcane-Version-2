@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/instabug_attachments_bottom_sheet_dim_view" android:background="@color/instabug_dialog_bg_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/instabug_attachments_actions_bottom_sheet" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="@style/InstabugBottomSheetContainer">
+        <LinearLayout android:id="@id/instabug_attach_screenshot" style="@style/InstabugBottomSheetItemContainer">
+            <ImageView android:layout_marginRight="16.0dip" android:src="@drawable/instabug_ic_capture_screenshot" android:tint="?instabug_theme_tinting_color" style="@style/InstabugBottomSheetItemImage" />
+            <TextView android:id="@id/instabug_attach_screenshot_text" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/instabug_str_take_screenshot" style="@style/InstabugBottomSheetItemText" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/instabug_attach_video" style="@style/InstabugBottomSheetItemContainer">
+            <ImageView android:layout_marginRight="16.0dip" android:src="@drawable/instabug_ic_record_video" android:tint="?instabug_theme_tinting_color" style="@style/InstabugBottomSheetItemImage" />
+            <TextView android:id="@id/instabug_attach_video_text" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/instabug_str_record_video" style="@style/InstabugBottomSheetItemText" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/instabug_attach_gallery_image" style="@style/InstabugBottomSheetItemContainer">
+            <ImageView android:layout_marginRight="16.0dip" android:src="@drawable/instabug_ic_attach_gallery_image" android:tint="?instabug_theme_tinting_color" style="@style/InstabugBottomSheetItemImage" />
+            <TextView android:id="@id/instabug_attach_gallery_image_text" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/instabug_str_add_photo" style="@style/InstabugBottomSheetItemText" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/instabug_attach_voice_note" style="@style/InstabugBottomSheetItemContainer">
+            <ImageView android:layout_marginRight="16.0dip" android:src="@drawable/instabug_ic_record_audio" android:tint="?instabug_theme_tinting_color" style="@style/InstabugBottomSheetItemImage" />
+            <TextView android:id="@id/instabug_attach_voice_note_text" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/instabug_str_record_audio" style="@style/InstabugBottomSheetItemText" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,156 @@
+syntax = "proto3";
+
+package common.entity.v1;
+option java_package = "com.kik.entity.model";
+option java_generate_equals_and_hash = true;
+option objc_class_prefix = "ENT";
+option go_package = "github.com/kikinteractive/xiphias-model-common/generated/go/entity/v1;entity";
+
+import "protobuf_validation.proto";
+import "common_model.proto";
+import "google/protobuf/timestamp.proto";
+
+//**************************************************
+//
+// Contains a dictionary of all elements that are
+// managed by the entity warehouse and
+// communicatied from server to mobile client
+//
+//**************************************************
+
+message BioElement {
+    // a biography or short biographical profile of someone or some group
+    string bio = 1 [(kik.validation.field_validation) = { max_byte_length: 5000 }];
+}
+
+message BylineElement {
+  // a short description of a bot, user or a group
+  string byline = 1 [(kik.validation.field_validation) = { max_byte_length: 500 }];
+}
+
+message RegistrationElement {
+
+    // System time of when the user/group is created or registered
+    google.protobuf.Timestamp creation_date = 2;
+}
+
+// Original Profile Pic Extension
+message OriginalProfilePicExtensionElement {
+    // The details of this profile pic extension
+    ProfilePicExtensionDetail extension_detail = 1;
+}
+
+// Background Pic Extension
+message BackgroundProfilePicExtensionElement {
+    // The details of this profile pic extension
+    ProfilePicExtensionDetail extension_detail = 1;
+}
+
+message ProfilePicExtensionDetail {
+    oneof kind {
+        // A picture element. If the user uploads a picture use this
+        InnerPicElement pic = 2;
+        // A Kik Asset element. If the original pic is something we provide, use this
+        InnerKikAssetElement kik_asset = 3;
+    }
+}
+
+// Contains the details of any pic that is accessible by URL
+message InnerPicElement {
+    // Full Sized Pic URL
+    string full_sized_url = 1 [(kik.validation.field_validation) = { max_byte_length: 1000 }];
+
+    // Thumbnail Sized Pic URL
+    string thumbnail_url = 2 [(kik.validation.field_validation) = { max_byte_length: 1000 }];
+    
+    google.protobuf.Timestamp last_updated_timestamp = 3;
+}
+
+// Contains an kik asset id. A Kik Asset is something that is premade by us and provided to users
+// A kik_asset_id might be something like SMILEY_FACE or FLAG_USA if those assets existed
+message InnerKikAssetElement {
+    // The id of a Kik Asset
+    string kik_asset_id = 1 [(kik.validation.field_validation) = { max_byte_length: 500 }];
+}
+
+message EmojiStatusElement {
+    InnerKikAssetElement emoji_status = 1;
+}
+
+// The maximum number of members allowed in the group concurrently
+message MaxGroupSizeElement {
+    // A zero value is more likely to mean there's a widespread problem with groups in general
+    // than that this group's maximum member size is really zero. In either case, program
+    // defensively and don't allow users to join a group if its size is zero.
+    uint32 max_group_size = 1;
+}
+
+// Contains the rating details for an entity.
+message RatingSummary {
+    double average_rating = 1 [(kik.validation.field_validation) = {
+        min_double_val: 0.0
+        max_double_val: 5.0
+    }];
+    uint64 total_ratings_count = 2;
+}
+
+// All the roster info for a single group member that's part of a GroupRosterEntry
+message GroupMemberRoster {
+    common.XiBareUserJid user_jid = 1 [(kik.validation.field_validation) = { mandatory: true }];
+    
+    AdminStatus admin_status = 2;
+    enum AdminStatus {
+        NONE = 0;
+        ADMIN = 1;
+        SUPER_ADMIN = 2;
+    }
+}
+
+message GroupMemberListElement {
+    repeated GroupMemberRoster group_members = 1;
+}
+
+message UsernameElement {
+    string username = 1 [(kik.validation.field_validation) = { max_byte_length: 1024 }];
+}
+
+message DisplayNameElement {
+    string display_name = 1 [(kik.validation.field_validation) = { max_byte_length: 1024 }];
+}
+
+message ProfilePicElement {
+    string url = 1 [(kik.validation.field_validation) = { max_byte_length: 1024 }];
+    google.protobuf.Timestamp last_updated_timestamp = 2;
+}
+
+message PublicElement {
+    bool is_public = 1;
+}
+
+// Hashtag for a group
+message GroupCodeElement {
+    string code = 1 [(kik.validation.field_validation) = { max_byte_length: 1000 }];
+}
+
+message GroupNameElement {
+    string name = 1 [(kik.validation.field_validation) = { max_byte_length: 1000 }];
+}
+
+message TrustedElement {
+    bool is_trusted = 1;
+}
+
+// Eventually this element will contain fields such as isTrusted and other attributes
+// Even while empty, the presence of this Element in a UserRosterEntry indicates that that User is a bot
+message BotExtensionElement {
+    TrustedElement trusted_element = 1;
+}
+
+message InterestsElement {
+    repeated InterestItem interests_element = 1 [(kik.validation.field_validation) = { max_repetitions: 20 }];
+    message InterestItem {
+        string id = 1 [(kik.validation.field_validation) = { mandatory: true }];
+        string localized_verbiage = 2; 
+    }
+}
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Instabug_text_medium">22.0sp</dimen>
+    <dimen name="abc_action_bar_default_height_material">48.0dip</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">32.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14.0dip</dimen>
+    <dimen name="instabug_button_text_size">14.0sp</dimen>
+    <dimen name="instabug_date_text_size">12.0sp</dimen>
+    <dimen name="instabug_dialog_padding_left_right">40.0dip</dimen>
+    <dimen name="instabug_dialog_padding_top_bottom">24.0dip</dimen>
+    <dimen name="instabug_normal_text_size">16.0sp</dimen>
+    <dimen name="instabug_question_text_size">18.0sp</dimen>
+    <dimen name="instabug_remove_attachment_button_padding">8.0dip</dimen>
+    <dimen name="instabug_remove_attachment_button_size">34.0dip</dimen>
+    <dimen name="instabug_toolbar_button_padding">12.0dip</dimen>
+</resources>
