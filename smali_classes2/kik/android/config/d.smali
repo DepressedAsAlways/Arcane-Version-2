@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/config/d;
+.class final synthetic Lkik/arcane/config/d;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/config/d;
+.field private static final a:Lkik/arcane/config/d;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/config/d;
+    new-instance v0, Lkik/arcane/config/d;
 
-    invoke-direct {v0}, Lkik/android/config/d;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/config/d;-><init>()V
 
-    sput-object v0, Lkik/android/config/d;->a:Lkik/android/config/d;
+    sput-object v0, Lkik/arcane/config/d;->a:Lkik/arcane/config/d;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lrx/functions/b;
     .locals 1
 
-    sget-object v0, Lkik/android/config/d;->a:Lkik/android/config/d;
+    sget-object v0, Lkik/arcane/config/d;->a:Lkik/arcane/config/d;
 
     return-object v0
 .end method

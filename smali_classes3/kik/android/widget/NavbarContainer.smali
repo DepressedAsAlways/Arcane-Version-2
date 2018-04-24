@@ -1,10 +1,10 @@
-.class public Lkik/android/widget/NavbarContainer;
+.class public Lkik/arcane/widget/NavbarContainer;
 .super Landroid/widget/FrameLayout;
 .source "SourceFile"
 
 
 # instance fields
-.field protected a:Lkik/android/util/by;
+.field protected a:Lkik/arcane/util/by;
 
 
 # direct methods
@@ -16,7 +16,7 @@
     invoke-direct {p0, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
     .line 44
-    invoke-direct {p0}, Lkik/android/widget/NavbarContainer;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/NavbarContainer;->a()V
 
     .line 45
     return-void
@@ -30,7 +30,7 @@
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 50
-    invoke-direct {p0}, Lkik/android/widget/NavbarContainer;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/NavbarContainer;->a()V
 
     .line 51
     return-void
@@ -44,7 +44,7 @@
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 56
-    invoke-direct {p0}, Lkik/android/widget/NavbarContainer;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/NavbarContainer;->a()V
 
     .line 57
     return-void
@@ -55,17 +55,17 @@
 
     .prologue
     .line 91
-    new-instance v0, Lkik/android/util/by;
+    new-instance v0, Lkik/arcane/util/by;
 
-    invoke-direct {v0, p0}, Lkik/android/util/by;-><init>(Landroid/view/View;)V
+    invoke-direct {v0, p0}, Lkik/arcane/util/by;-><init>(Landroid/view/View;)V
 
-    iput-object v0, p0, Lkik/android/widget/NavbarContainer;->a:Lkik/android/util/by;
+    iput-object v0, p0, Lkik/arcane/widget/NavbarContainer;->a:Lkik/arcane/util/by;
 
     .line 92
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/NavbarContainer;Lrx/d;)V
+.method public static a(Lkik/arcane/widget/NavbarContainer;Lrx/d;)V
     .locals 2
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -76,7 +76,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/NavbarContainer;",
+            "Lkik/arcane/widget/NavbarContainer;",
             "Lrx/d",
             "<",
             "Ljava/lang/Boolean;",
@@ -93,7 +93,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/widget/cp;->a(Lkik/android/widget/NavbarContainer;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/cp;->a(Lkik/arcane/widget/NavbarContainer;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -104,7 +104,7 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/NavbarContainer;Z)V
+.method static synthetic a(Lkik/arcane/widget/NavbarContainer;Z)V
     .locals 9
 
     .prologue
@@ -113,7 +113,7 @@
     const/high16 v1, -0x80000000
 
     .line 67
-    invoke-virtual {p0}, Lkik/android/widget/NavbarContainer;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/NavbarContainer;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -145,17 +145,17 @@
     invoke-virtual {v3, v1}, Landroid/view/Window;->addFlags(I)V
 
     .line 85
-    invoke-static {p0}, Lkik/android/util/ca;->a(Landroid/view/View;)Lkik/android/util/ca$b;
+    invoke-static {p0}, Lkik/arcane/util/ca;->a(Landroid/view/View;)Lkik/arcane/util/ca$b;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lkik/android/util/ca$b;->a(I)Lkik/android/util/ca$b;
+    invoke-virtual {v1, v0}, Lkik/arcane/util/ca$b;->a(I)Lkik/arcane/util/ca$b;
 
     goto :goto_0
 
     .line 1098
     :cond_1
-    invoke-virtual {p0}, Lkik/android/widget/NavbarContainer;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/NavbarContainer;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -184,7 +184,7 @@
     if-nez v0, :cond_2
 
     .line 1106
-    invoke-virtual {p0}, Lkik/android/widget/NavbarContainer;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/NavbarContainer;->getResources()Landroid/content/res/Resources;
 
     move-result-object v4
 
@@ -202,7 +202,7 @@
     if-lez v4, :cond_2
 
     .line 1108
-    invoke-virtual {p0}, Lkik/android/widget/NavbarContainer;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/NavbarContainer;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -245,13 +245,13 @@
 
     .line 65
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/NavbarContainer;->a:Lkik/android/util/by;
+    iget-object v0, p0, Lkik/arcane/widget/NavbarContainer;->a:Lkik/arcane/util/by;
 
-    invoke-static {p0, p1}, Lkik/android/widget/cq;->a(Lkik/android/widget/NavbarContainer;Z)Ljava/lang/Runnable;
+    invoke-static {p0, p1}, Lkik/arcane/widget/cq;->a(Lkik/arcane/widget/NavbarContainer;Z)Ljava/lang/Runnable;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/util/by;->a(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/util/by;->a(Ljava/lang/Runnable;)V
 
     goto :goto_0
 .end method

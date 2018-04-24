@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/util/KeyboardManipulator;
+.class public interface abstract Lkik/arcane/util/KeyboardManipulator;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/util/KeyboardManipulator$InputMode;
+        Lkik/arcane/util/KeyboardManipulator$InputMode;
     }
 .end annotation
 
@@ -25,7 +25,7 @@
     .end param
 .end method
 
-.method public abstract setInputMode(Lkik/android/util/KeyboardManipulator$InputMode;)V
+.method public abstract setInputMode(Lkik/arcane/util/KeyboardManipulator$InputMode;)V
 .end method
 
 .method public abstract setKeyboardHandlingPaused(Z)V

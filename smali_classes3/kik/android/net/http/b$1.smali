@@ -1,4 +1,4 @@
-.class final Lkik/android/net/http/b$1;
+.class final Lkik/arcane/net/http/b$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/net/http/b;
+    value = Lkik/arcane/net/http/b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/net/http/b;
+.field final synthetic a:Lkik/arcane/net/http/b;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/net/http/b;)V
+.method constructor <init>(Lkik/arcane/net/http/b;)V
     .locals 0
 
     .prologue
     .line 76
-    iput-object p1, p0, Lkik/android/net/http/b$1;->a:Lkik/android/net/http/b;
+    iput-object p1, p0, Lkik/arcane/net/http/b$1;->a:Lkik/arcane/net/http/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -51,12 +51,12 @@
 
     .prologue
     .line 80
-    invoke-static {}, Lkik/android/net/http/b;->b()Lorg/slf4j/b;
+    invoke-static {}, Lkik/arcane/net/http/b;->b()Lorg/slf4j/b;
 
     .line 81
-    iget-object v0, p0, Lkik/android/net/http/b$1;->a:Lkik/android/net/http/b;
+    iget-object v0, p0, Lkik/arcane/net/http/b$1;->a:Lkik/arcane/net/http/b;
 
-    invoke-static {v0}, Lkik/android/net/http/b;->a(Lkik/android/net/http/b;)V
+    invoke-static {v0}, Lkik/arcane/net/http/b;->a(Lkik/arcane/net/http/b;)V
 
     .line 82
     return-void

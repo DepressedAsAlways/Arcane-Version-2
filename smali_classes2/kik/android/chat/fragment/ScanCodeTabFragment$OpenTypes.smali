@@ -1,11 +1,11 @@
-.class public final enum Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+.class public final enum Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 .super Ljava/lang/Enum;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/ScanCodeTabFragment;
+    value = Lkik/arcane/chat/fragment/ScanCodeTabFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,28 +17,28 @@
     value = {
         "Ljava/lang/Enum",
         "<",
-        "Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;",
+        "Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;",
         ">;"
     }
 .end annotation
 
 
 # static fields
-.field private static final synthetic $VALUES:[Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+.field private static final synthetic $VALUES:[Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
-.field public static final enum DEEP_LINK:Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+.field public static final enum DEEP_LINK:Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
-.field public static final enum FIND_PEOPLE:Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+.field public static final enum FIND_PEOPLE:Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
-.field public static final enum GROUP:Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+.field public static final enum GROUP:Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
-.field public static final enum PLUS:Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+.field public static final enum PLUS:Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
-.field public static final enum PULL:Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+.field public static final enum PULL:Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
-.field public static final enum SETTINGS:Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+.field public static final enum SETTINGS:Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
-.field public static final enum TALK_TO:Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+.field public static final enum TALK_TO:Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
 
 # instance fields
@@ -61,62 +61,62 @@
     const/4 v4, 0x0
 
     .line 60
-    new-instance v0, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    new-instance v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     const-string v1, "PULL"
 
     const-string v2, "Pull"
 
-    invoke-direct {v0, v1, v4, v2}, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-direct {v0, v1, v4, v2}, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
-    sput-object v0, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;->PULL:Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    sput-object v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;->PULL:Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     .line 61
-    new-instance v0, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    new-instance v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     const-string v1, "SETTINGS"
 
     const-string v2, "Settings"
 
-    invoke-direct {v0, v1, v5, v2}, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-direct {v0, v1, v5, v2}, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
-    sput-object v0, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;->SETTINGS:Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    sput-object v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;->SETTINGS:Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     .line 62
-    new-instance v0, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    new-instance v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     const-string v1, "FIND_PEOPLE"
 
     const-string v2, "Find People"
 
-    invoke-direct {v0, v1, v6, v2}, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-direct {v0, v1, v6, v2}, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
-    sput-object v0, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;->FIND_PEOPLE:Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    sput-object v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;->FIND_PEOPLE:Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     .line 63
-    new-instance v0, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    new-instance v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     const-string v1, "TALK_TO"
 
     const-string v2, "Talk To"
 
-    invoke-direct {v0, v1, v7, v2}, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-direct {v0, v1, v7, v2}, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
-    sput-object v0, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;->TALK_TO:Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    sput-object v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;->TALK_TO:Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     .line 64
-    new-instance v0, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    new-instance v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     const-string v1, "PLUS"
 
     const-string v2, "Plus"
 
-    invoke-direct {v0, v1, v8, v2}, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-direct {v0, v1, v8, v2}, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
-    sput-object v0, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;->PLUS:Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    sput-object v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;->PLUS:Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     .line 65
-    new-instance v0, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    new-instance v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     const-string v1, "GROUP"
 
@@ -124,12 +124,12 @@
 
     const-string v3, "Group Info"
 
-    invoke-direct {v0, v1, v2, v3}, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-direct {v0, v1, v2, v3}, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
-    sput-object v0, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;->GROUP:Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    sput-object v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;->GROUP:Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     .line 66
-    new-instance v0, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    new-instance v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     const-string v1, "DEEP_LINK"
 
@@ -137,48 +137,48 @@
 
     const-string v3, "Deep Link"
 
-    invoke-direct {v0, v1, v2, v3}, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;-><init>(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-direct {v0, v1, v2, v3}, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;-><init>(Ljava/lang/String;ILjava/lang/String;)V
 
-    sput-object v0, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;->DEEP_LINK:Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    sput-object v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;->DEEP_LINK:Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     .line 59
     const/4 v0, 0x7
 
-    new-array v0, v0, [Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    new-array v0, v0, [Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
-    sget-object v1, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;->PULL:Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    sget-object v1, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;->PULL:Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     aput-object v1, v0, v4
 
-    sget-object v1, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;->SETTINGS:Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    sget-object v1, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;->SETTINGS:Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     aput-object v1, v0, v5
 
-    sget-object v1, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;->FIND_PEOPLE:Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    sget-object v1, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;->FIND_PEOPLE:Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     aput-object v1, v0, v6
 
-    sget-object v1, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;->TALK_TO:Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    sget-object v1, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;->TALK_TO:Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     aput-object v1, v0, v7
 
-    sget-object v1, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;->PLUS:Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    sget-object v1, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;->PLUS:Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     aput-object v1, v0, v8
 
     const/4 v1, 0x5
 
-    sget-object v2, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;->GROUP:Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    sget-object v2, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;->GROUP:Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x6
 
-    sget-object v2, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;->DEEP_LINK:Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    sget-object v2, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;->DEEP_LINK:Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     aput-object v2, v0, v1
 
-    sput-object v0, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;->$VALUES:[Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    sput-object v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;->$VALUES:[Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     return-void
 .end method
@@ -198,40 +198,40 @@
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 71
-    iput-object p3, p0, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;->_eventName:Ljava/lang/String;
+    iput-object p3, p0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;->_eventName:Ljava/lang/String;
 
     .line 72
     return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+.method public static valueOf(Ljava/lang/String;)Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
     .locals 1
 
     .prologue
     .line 59
-    const-class v0, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    const-class v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    check-cast v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     return-object v0
 .end method
 
-.method public static values()[Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+.method public static values()[Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
     .locals 1
 
     .prologue
     .line 59
-    sget-object v0, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;->$VALUES:[Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    sget-object v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;->$VALUES:[Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
-    invoke-virtual {v0}, [Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;
+    check-cast v0, [Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;
 
     return-object v0
 .end method
@@ -243,7 +243,7 @@
 
     .prologue
     .line 76
-    iget-object v0, p0, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;->_eventName:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;->_eventName:Ljava/lang/String;
 
     return-object v0
 .end method

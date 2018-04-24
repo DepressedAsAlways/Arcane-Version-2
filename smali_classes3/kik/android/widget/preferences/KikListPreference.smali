@@ -1,5 +1,5 @@
-.class public Lkik/android/widget/preferences/KikListPreference;
-.super Lkik/android/widget/preferences/KikAppCompatListPreference;
+.class public Lkik/arcane/widget/preferences/KikListPreference;
+.super Lkik/arcane/widget/preferences/KikAppCompatListPreference;
 .source "SourceFile"
 
 
@@ -17,20 +17,20 @@
     const/4 v1, 0x0
 
     .line 18
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/preferences/KikAppCompatListPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/preferences/KikAppCompatListPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 19
     const v0, 0x7f040137
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/preferences/KikListPreference;->setLayoutResource(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/preferences/KikListPreference;->setLayoutResource(I)V
 
     .line 21
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/preferences/KikListPreference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/preferences/KikListPreference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
     .line 23
-    sget-object v0, Lkik/android/R$styleable;->KikPreference:[I
+    sget-object v0, Lkik/arcane/R$styleable;->KikPreference:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -41,7 +41,7 @@
 
     move-result v0
 
-    iput v0, p0, Lkik/android/widget/preferences/KikListPreference;->a:I
+    iput v0, p0, Lkik/arcane/widget/preferences/KikListPreference;->a:I
 
     .line 26
     return-void
@@ -71,15 +71,15 @@
 
     .prologue
     .line 31
-    invoke-super {p0, p1}, Lkik/android/widget/preferences/KikAppCompatListPreference;->onBindView(Landroid/view/View;)V
+    invoke-super {p0, p1}, Lkik/arcane/widget/preferences/KikAppCompatListPreference;->onBindView(Landroid/view/View;)V
 
     .line 32
-    iput-object p1, p0, Lkik/android/widget/preferences/KikListPreference;->b:Landroid/view/View;
+    iput-object p1, p0, Lkik/arcane/widget/preferences/KikListPreference;->b:Landroid/view/View;
 
     .line 33
-    iget v0, p0, Lkik/android/widget/preferences/KikListPreference;->a:I
+    iget v0, p0, Lkik/arcane/widget/preferences/KikListPreference;->a:I
 
-    invoke-static {p1, v0}, Lkik/android/widget/preferences/KikPreference;->a(Landroid/view/View;I)V
+    invoke-static {p1, v0}, Lkik/arcane/widget/preferences/KikPreference;->a(Landroid/view/View;I)V
 
     .line 34
     return-void
@@ -90,11 +90,11 @@
 
     .prologue
     .line 39
-    invoke-static {p1}, Lkik/android/widget/preferences/d;->a(Landroid/preference/Preference$OnPreferenceClickListener;)Landroid/preference/Preference$OnPreferenceClickListener;
+    invoke-static {p1}, Lkik/arcane/widget/preferences/d;->a(Landroid/preference/Preference$OnPreferenceClickListener;)Landroid/preference/Preference$OnPreferenceClickListener;
 
     move-result-object v0
 
-    invoke-super {p0, v0}, Lkik/android/widget/preferences/KikAppCompatListPreference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
+    invoke-super {p0, v0}, Lkik/arcane/widget/preferences/KikAppCompatListPreference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
     .line 45
     return-void

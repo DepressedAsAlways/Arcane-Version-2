@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/fragment/ChatBubbleSelectionFragment$b;
+.class public final Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment$b;
 .super Lcom/kik/ui/fragment/FragmentBase$FragmentBundle;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/ChatBubbleSelectionFragment;
+    value = Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

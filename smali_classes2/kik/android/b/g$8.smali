@@ -1,4 +1,4 @@
-.class final Lkik/android/b/g$8;
+.class final Lkik/arcane/b/g$8;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/b/g;->g(Ljava/lang/String;)Lcom/kik/events/Promise;
+    value = Lkik/arcane/b/g;->g(Ljava/lang/String;)Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -33,22 +33,22 @@
 
 .field final synthetic b:Z
 
-.field final synthetic c:Lkik/android/b/g;
+.field final synthetic c:Lkik/arcane/b/g;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/b/g;Ljava/lang/String;)V
+.method constructor <init>(Lkik/arcane/b/g;Ljava/lang/String;)V
     .locals 1
 
     .prologue
     .line 271
-    iput-object p1, p0, Lkik/android/b/g$8;->c:Lkik/android/b/g;
+    iput-object p1, p0, Lkik/arcane/b/g$8;->c:Lkik/arcane/b/g;
 
-    iput-object p2, p0, Lkik/android/b/g$8;->a:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/b/g$8;->a:Ljava/lang/String;
 
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/b/g$8;->b:Z
+    iput-boolean v0, p0, Lkik/arcane/b/g$8;->b:Z
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -72,7 +72,7 @@
 
     invoke-direct {v0}, Lcom/kik/xdata/model/browser/XBrowserDomainInfo;-><init>()V
 
-    iget-object v1, p0, Lkik/android/b/g$8;->a:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/b/g$8;->a:Ljava/lang/String;
 
     .line 1277
     invoke-virtual {v0, v1}, Lcom/kik/xdata/model/browser/XBrowserDomainInfo;->a(Ljava/lang/String;)Lcom/kik/xdata/model/browser/XBrowserDomainInfo;
@@ -161,7 +161,7 @@
 
     .line 1300
     :cond_3
-    iget-boolean v1, p0, Lkik/android/b/g$8;->b:Z
+    iget-boolean v1, p0, Lkik/arcane/b/g$8;->b:Z
 
     if-eqz v1, :cond_4
 

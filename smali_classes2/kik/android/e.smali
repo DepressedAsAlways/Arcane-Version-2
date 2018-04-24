@@ -1,4 +1,4 @@
-.class public final Lkik/android/e;
+.class public final Lkik/arcane/e;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/e$a;
+        Lkik/arcane/e$a;
     }
 .end annotation
 
@@ -38,19 +38,19 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/e;->a:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/e;->a:Lorg/slf4j/b;
 
     .line 67
     new-instance v0, Ljava/util/Vector;
 
     invoke-direct {v0}, Ljava/util/Vector;-><init>()V
 
-    sput-object v0, Lkik/android/e;->b:Ljava/util/Vector;
+    sput-object v0, Lkik/arcane/e;->b:Ljava/util/Vector;
 
     return-void
 .end method
 
-.method public static a(Ljava/io/File;Ljava/io/File;ILjava/lang/String;Lkik/core/net/e;ZLkik/core/interfaces/ad;)Lkik/android/e$a;
+.method public static a(Ljava/io/File;Ljava/io/File;ILjava/lang/String;Lkik/core/net/e;ZLkik/core/interfaces/ad;)Lkik/arcane/e$a;
     .locals 3
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -63,7 +63,7 @@
     .prologue
     .line 117
     .line 1157
-    invoke-static {p0, p1, p2, p4, p6}, Lkik/android/e;->b(Ljava/io/File;Ljava/io/File;ILkik/core/net/e;Lkik/core/interfaces/ad;)Lkik/android/net/http/e;
+    invoke-static {p0, p1, p2, p4, p6}, Lkik/arcane/e;->b(Ljava/io/File;Ljava/io/File;ILkik/core/net/e;Lkik/core/interfaces/ad;)Lkik/arcane/net/http/e;
 
     move-result-object v1
 
@@ -111,11 +111,11 @@
 
     move-result-object v0
 
-    invoke-virtual {v1, v0}, Lkik/android/net/http/e;->setURI(Ljava/net/URI;)V
+    invoke-virtual {v1, v0}, Lkik/arcane/net/http/e;->setURI(Ljava/net/URI;)V
 
     .line 1130
     :cond_0
-    invoke-static {v1}, Lkik/android/e;->a(Lkik/android/net/http/e;)Lkik/android/e$a;
+    invoke-static {v1}, Lkik/arcane/e;->a(Lkik/arcane/net/http/e;)Lkik/arcane/e$a;
 
     move-result-object v0
 
@@ -129,7 +129,7 @@
     goto :goto_0
 .end method
 
-.method public static a(Ljava/io/File;Ljava/io/File;ILkik/core/net/e;Lkik/core/interfaces/ad;)Lkik/android/e$a;
+.method public static a(Ljava/io/File;Ljava/io/File;ILkik/core/net/e;Lkik/core/interfaces/ad;)Lkik/arcane/e$a;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -142,12 +142,12 @@
     .prologue
     .line 123
     .line 2136
-    invoke-static {p0, p1, p2, p3, p4}, Lkik/android/e;->b(Ljava/io/File;Ljava/io/File;ILkik/core/net/e;Lkik/core/interfaces/ad;)Lkik/android/net/http/e;
+    invoke-static {p0, p1, p2, p3, p4}, Lkik/arcane/e;->b(Ljava/io/File;Ljava/io/File;ILkik/core/net/e;Lkik/core/interfaces/ad;)Lkik/arcane/net/http/e;
 
     move-result-object v0
 
     .line 2137
-    invoke-static {v0}, Lkik/android/e;->a(Lkik/android/net/http/e;)Lkik/android/e$a;
+    invoke-static {v0}, Lkik/arcane/e;->a(Lkik/arcane/net/http/e;)Lkik/arcane/e$a;
 
     move-result-object v0
 
@@ -155,7 +155,7 @@
     return-object v0
 .end method
 
-.method private static a(Lkik/android/net/http/e;)Lkik/android/e$a;
+.method private static a(Lkik/arcane/net/http/e;)Lkik/arcane/e$a;
     .locals 3
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -167,15 +167,15 @@
 
     .prologue
     .line 143
-    new-instance v1, Lkik/android/e$a;
+    new-instance v1, Lkik/arcane/e$a;
 
-    invoke-direct {v1}, Lkik/android/e$a;-><init>()V
+    invoke-direct {v1}, Lkik/arcane/e$a;-><init>()V
 
     .line 144
     const/4 v0, -0x1
 
     .line 2230
-    invoke-static {p0}, Lkik/android/e;->a(Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;
+    invoke-static {p0}, Lkik/arcane/e;->a(Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;
 
     move-result-object v2
 
@@ -193,13 +193,13 @@
 
     .line 151
     :cond_0
-    iput v0, v1, Lkik/android/e$a;->a:I
+    iput v0, v1, Lkik/arcane/e$a;->a:I
 
     .line 152
     return-object v1
 .end method
 
-.method public static a(Ljava/lang/String;Lkik/core/z;)Lkik/android/net/d;
+.method public static a(Ljava/lang/String;Lkik/core/z;)Lkik/arcane/net/d;
     .locals 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -207,7 +207,7 @@
             "Ljava/lang/String;",
             "Lkik/core/z;",
             ")",
-            "Lkik/android/net/d",
+            "Lkik/arcane/net/d",
             "<[B>;"
         }
     .end annotation
@@ -220,17 +220,17 @@
 
     .line 74
     :try_start_0
-    new-instance v0, Lkik/android/net/http/d;
+    new-instance v0, Lkik/arcane/net/http/d;
 
-    invoke-direct {v0, p0, p1}, Lkik/android/net/http/d;-><init>(Ljava/lang/String;Lkik/core/z;)V
+    invoke-direct {v0, p0, p1}, Lkik/arcane/net/http/d;-><init>(Ljava/lang/String;Lkik/core/z;)V
 
     .line 75
     const/16 v3, 0x2710
 
-    invoke-virtual {v0, v3}, Lkik/android/net/http/d;->setTimeout(I)V
+    invoke-virtual {v0, v3}, Lkik/arcane/net/http/d;->setTimeout(I)V
 
     .line 76
-    invoke-static {v0}, Lkik/android/e;->a(Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;
+    invoke-static {v0}, Lkik/arcane/e;->a(Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;
 
     move-result-object v0
 
@@ -309,9 +309,9 @@
 
     .line 105
     :goto_2
-    new-instance v2, Lkik/android/net/d;
+    new-instance v2, Lkik/arcane/net/d;
 
-    invoke-direct {v2, v1, v0}, Lkik/android/net/d;-><init>(Ljava/lang/Object;I)V
+    invoke-direct {v2, v1, v0}, Lkik/arcane/net/d;-><init>(Ljava/lang/Object;I)V
 
     move-object v1, v2
 
@@ -385,7 +385,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -402,7 +402,7 @@
     return-object v0
 .end method
 
-.method private static b(Ljava/io/File;Ljava/io/File;ILkik/core/net/e;Lkik/core/interfaces/ad;)Lkik/android/net/http/e;
+.method private static b(Ljava/io/File;Ljava/io/File;ILkik/core/net/e;Lkik/core/interfaces/ad;)Lkik/arcane/net/http/e;
     .locals 4
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -449,9 +449,9 @@
     invoke-direct {v3, v0}, Lorg/apache/http/entity/ByteArrayEntity;-><init>([B)V
 
     .line 188
-    new-instance v0, Lkik/android/net/http/e;
+    new-instance v0, Lkik/arcane/net/http/e;
 
-    invoke-direct {v0, v1, v2}, Lkik/android/net/http/e;-><init>(Ljava/lang/String;Lkik/core/z;)V
+    invoke-direct {v0, v1, v2}, Lkik/arcane/net/http/e;-><init>(Ljava/lang/String;Lkik/core/z;)V
 
     .line 195
     invoke-static {p1}, Lkik/core/util/p;->a(Ljava/io/File;)Ljava/lang/String;
@@ -464,7 +464,7 @@
     .line 198
     const-string v2, "x-kik-sha1-scaled"
 
-    invoke-virtual {v0, v2, v1}, Lkik/android/net/http/e;->addHeader(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lkik/arcane/net/http/e;->addHeader(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 201
     :cond_0
@@ -478,7 +478,7 @@
     .line 204
     const-string v2, "x-kik-blockhash-scaled"
 
-    invoke-virtual {v0, v2, v1}, Lkik/android/net/http/e;->addHeader(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lkik/arcane/net/http/e;->addHeader(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 207
     :cond_1
@@ -496,7 +496,7 @@
     .line 214
     const-string v2, "x-kik-sha1-original"
 
-    invoke-virtual {v0, v2, v1}, Lkik/android/net/http/e;->addHeader(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Lkik/arcane/net/http/e;->addHeader(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/OutOfMemoryError; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -507,17 +507,17 @@
 
     const-string v2, "Content"
 
-    invoke-static {v2}, Lkik/android/util/DeviceUtils;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/util/DeviceUtils;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lkik/android/net/http/e;->addHeader(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lkik/arcane/net/http/e;->addHeader(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 223
-    invoke-virtual {v0, v3}, Lkik/android/net/http/e;->setEntity(Lorg/apache/http/HttpEntity;)V
+    invoke-virtual {v0, v3}, Lkik/arcane/net/http/e;->setEntity(Lorg/apache/http/HttpEntity;)V
 
     .line 224
-    invoke-virtual {v0, p2}, Lkik/android/net/http/e;->setTimeout(I)V
+    invoke-virtual {v0, p2}, Lkik/arcane/net/http/e;->setTimeout(I)V
 
     .line 225
     return-object v0

@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/util/bg$1;
+.class final synthetic Lkik/arcane/util/bg$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/bg;
+    value = Lkik/arcane/util/bg;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     .prologue
     .line 52
-    invoke-static {}, Lkik/android/util/HashtagAction;->values()[Lkik/android/util/HashtagAction;
+    invoke-static {}, Lkik/arcane/util/HashtagAction;->values()[Lkik/arcane/util/HashtagAction;
 
     move-result-object v0
 
@@ -32,14 +32,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/util/bg$1;->a:[I
+    sput-object v0, Lkik/arcane/util/bg$1;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/util/bg$1;->a:[I
+    sget-object v0, Lkik/arcane/util/bg$1;->a:[I
 
-    sget-object v1, Lkik/android/util/HashtagAction;->CONTAINS_VALID_HASHTAG:Lkik/android/util/HashtagAction;
+    sget-object v1, Lkik/arcane/util/HashtagAction;->CONTAINS_VALID_HASHTAG:Lkik/arcane/util/HashtagAction;
 
-    invoke-virtual {v1}, Lkik/android/util/HashtagAction;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/util/HashtagAction;->ordinal()I
 
     move-result v1
 

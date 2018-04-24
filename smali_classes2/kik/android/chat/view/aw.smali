@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/view/aw;
+.class final synthetic Lkik/arcane/chat/view/aw;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/view/ValidateableInputView;
+.field private final a:Lkik/arcane/chat/view/ValidateableInputView;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/view/ValidateableInputView;)V
+.method private constructor <init>(Lkik/arcane/chat/view/ValidateableInputView;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/view/aw;->a:Lkik/android/chat/view/ValidateableInputView;
+    iput-object p1, p0, Lkik/arcane/chat/view/aw;->a:Lkik/arcane/chat/view/ValidateableInputView;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/view/ValidateableInputView;)Ljava/lang/Runnable;
+.method public static a(Lkik/arcane/chat/view/ValidateableInputView;)Ljava/lang/Runnable;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/view/aw;
+    new-instance v0, Lkik/arcane/chat/view/aw;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/view/aw;-><init>(Lkik/android/chat/view/ValidateableInputView;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/view/aw;-><init>(Lkik/arcane/chat/view/ValidateableInputView;)V
 
     return-object v0
 .end method
@@ -35,9 +35,9 @@
 .method public final run()V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/chat/view/aw;->a:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/view/aw;->a:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/ValidateableInputView;->i()V
+    invoke-virtual {v0}, Lkik/arcane/chat/view/ValidateableInputView;->i()V
 
     return-void
 .end method

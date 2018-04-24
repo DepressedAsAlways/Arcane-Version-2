@@ -1,4 +1,4 @@
-.class final Lkik/android/gallery/vm/a$1;
+.class final Lkik/arcane/gallery/vm/a$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/gallery/vm/a;->a(Lkik/android/gallery/vm/a;Lcom/kik/cache/GalleryImageRequest;Lrx/j;)V
+    value = Lkik/arcane/gallery/vm/a;->a(Lkik/arcane/gallery/vm/a;Lcom/kik/cache/GalleryImageRequest;Lrx/j;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Lrx/j;
 
-.field final synthetic b:Lkik/android/gallery/vm/a;
+.field final synthetic b:Lkik/arcane/gallery/vm/a;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/gallery/vm/a;Lrx/j;)V
+.method constructor <init>(Lkik/arcane/gallery/vm/a;Lrx/j;)V
     .locals 0
 
     .prologue
     .line 129
-    iput-object p1, p0, Lkik/android/gallery/vm/a$1;->b:Lkik/android/gallery/vm/a;
+    iput-object p1, p0, Lkik/arcane/gallery/vm/a$1;->b:Lkik/arcane/gallery/vm/a;
 
-    iput-object p2, p0, Lkik/android/gallery/vm/a$1;->a:Lrx/j;
+    iput-object p2, p0, Lkik/arcane/gallery/vm/a$1;->a:Lrx/j;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,7 +45,7 @@
 
     .prologue
     .line 133
-    iget-object v0, p0, Lkik/android/gallery/vm/a$1;->a:Lrx/j;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a$1;->a:Lrx/j;
 
     const/4 v1, 0x0
 
@@ -70,7 +70,7 @@
 
     .line 142
     :cond_0
-    iget-object v0, p0, Lkik/android/gallery/vm/a$1;->a:Lrx/j;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a$1;->a:Lrx/j;
 
     invoke-virtual {p1}, Lcom/kik/cache/KikVolleyImageLoader$c;->b()Landroid/graphics/Bitmap;
 
@@ -84,11 +84,11 @@
 
     .line 145
     :cond_1
-    iget-object v0, p0, Lkik/android/gallery/vm/a$1;->b:Lkik/android/gallery/vm/a;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a$1;->b:Lkik/arcane/gallery/vm/a;
 
-    iget-object v0, v0, Lkik/android/gallery/vm/a;->i:Lkik/android/gallery/IGalleryCursorLoader;
+    iget-object v0, v0, Lkik/arcane/gallery/vm/a;->i:Lkik/arcane/gallery/IGalleryCursorLoader;
 
-    invoke-interface {v0}, Lkik/android/gallery/IGalleryCursorLoader;->e()V
+    invoke-interface {v0}, Lkik/arcane/gallery/IGalleryCursorLoader;->e()V
 
     goto :goto_0
 .end method

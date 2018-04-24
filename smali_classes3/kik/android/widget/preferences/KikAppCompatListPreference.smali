@@ -1,10 +1,10 @@
-.class public Lkik/android/widget/preferences/KikAppCompatListPreference;
+.class public Lkik/arcane/widget/preferences/KikAppCompatListPreference;
 .super Landroid/preference/ListPreference;
 .source "SourceFile"
 
 
 # instance fields
-.field private a:Lkik/android/chat/fragment/KikScopedDialogFragment;
+.field private a:Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
 .field private b:Landroid/app/Dialog;
 
@@ -54,21 +54,21 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/preferences/KikAppCompatListPreference;Landroid/content/DialogInterface;I)V
+.method static synthetic a(Lkik/arcane/widget/preferences/KikAppCompatListPreference;Landroid/content/DialogInterface;I)V
     .locals 2
 
     .prologue
     .line 60
     if-ltz p2, :cond_0
 
-    invoke-virtual {p0}, Lkik/android/widget/preferences/KikAppCompatListPreference;->getEntryValues()[Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/KikAppCompatListPreference;->getEntryValues()[Ljava/lang/CharSequence;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
     .line 61
-    invoke-virtual {p0}, Lkik/android/widget/preferences/KikAppCompatListPreference;->getEntryValues()[Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/KikAppCompatListPreference;->getEntryValues()[Ljava/lang/CharSequence;
 
     move-result-object v0
 
@@ -79,28 +79,28 @@
     move-result-object v0
 
     .line 62
-    invoke-virtual {p0, v0}, Lkik/android/widget/preferences/KikAppCompatListPreference;->callChangeListener(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/preferences/KikAppCompatListPreference;->callChangeListener(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    invoke-virtual {p0}, Lkik/android/widget/preferences/KikAppCompatListPreference;->isPersistent()Z
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/KikAppCompatListPreference;->isPersistent()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
     .line 63
-    invoke-virtual {p0, v0}, Lkik/android/widget/preferences/KikAppCompatListPreference;->setValue(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/preferences/KikAppCompatListPreference;->setValue(Ljava/lang/String;)V
 
     .line 66
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/preferences/KikAppCompatListPreference;->a:Lkik/android/chat/fragment/KikScopedDialogFragment;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/KikAppCompatListPreference;->a:Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikScopedDialogFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 67
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
@@ -111,12 +111,12 @@
 
 
 # virtual methods
-.method public final a(Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
     .locals 0
 
     .prologue
     .line 88
-    iput-object p1, p0, Lkik/android/widget/preferences/KikAppCompatListPreference;->a:Lkik/android/chat/fragment/KikScopedDialogFragment;
+    iput-object p1, p0, Lkik/arcane/widget/preferences/KikAppCompatListPreference;->a:Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     .line 89
     return-void
@@ -127,7 +127,7 @@
 
     .prologue
     .line 49
-    iget-object v0, p0, Lkik/android/widget/preferences/KikAppCompatListPreference;->b:Landroid/app/Dialog;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/KikAppCompatListPreference;->b:Landroid/app/Dialog;
 
     return-object v0
 .end method
@@ -140,11 +140,11 @@
     invoke-super {p0}, Landroid/preference/ListPreference;->onActivityDestroy()V
 
     .line 81
-    iget-object v0, p0, Lkik/android/widget/preferences/KikAppCompatListPreference;->b:Landroid/app/Dialog;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/KikAppCompatListPreference;->b:Landroid/app/Dialog;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/widget/preferences/KikAppCompatListPreference;->b:Landroid/app/Dialog;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/KikAppCompatListPreference;->b:Landroid/app/Dialog;
 
     invoke-virtual {v0}, Landroid/app/Dialog;->isShowing()Z
 
@@ -153,7 +153,7 @@
     if-eqz v0, :cond_0
 
     .line 82
-    iget-object v0, p0, Lkik/android/widget/preferences/KikAppCompatListPreference;->b:Landroid/app/Dialog;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/KikAppCompatListPreference;->b:Landroid/app/Dialog;
 
     invoke-virtual {v0}, Landroid/app/Dialog;->dismiss()V
 
@@ -167,21 +167,21 @@
 
     .prologue
     .line 55
-    invoke-virtual {p0}, Lkik/android/widget/preferences/KikAppCompatListPreference;->getValue()Ljava/lang/String;
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/KikAppCompatListPreference;->getValue()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/preferences/KikAppCompatListPreference;->findIndexOfValue(Ljava/lang/String;)I
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/preferences/KikAppCompatListPreference;->findIndexOfValue(Ljava/lang/String;)I
 
     move-result v0
 
     .line 56
-    new-instance v1, Lkik/android/chat/fragment/KikDialogFragment$a;
+    new-instance v1, Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
-    invoke-direct {v1}, Lkik/android/chat/fragment/KikDialogFragment$a;-><init>()V
+    invoke-direct {v1}, Lkik/arcane/chat/fragment/KikDialogFragment$a;-><init>()V
 
     .line 57
-    invoke-virtual {p0}, Lkik/android/widget/preferences/KikAppCompatListPreference;->getDialogTitle()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/KikAppCompatListPreference;->getDialogTitle()Ljava/lang/CharSequence;
 
     move-result-object v2
 
@@ -189,46 +189,46 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikDialogFragment$a;->a(Ljava/lang/String;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a(Ljava/lang/String;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     move-result-object v1
 
     .line 58
-    invoke-virtual {v1}, Lkik/android/chat/fragment/KikDialogFragment$a;->a()Lkik/android/chat/fragment/KikDialogFragment;
+    invoke-virtual {v1}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a()Lkik/arcane/chat/fragment/KikDialogFragment;
 
     move-result-object v1
 
     .line 59
-    invoke-virtual {p0}, Lkik/android/widget/preferences/KikAppCompatListPreference;->getEntries()[Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/KikAppCompatListPreference;->getEntries()[Ljava/lang/CharSequence;
 
     move-result-object v2
 
-    invoke-static {p0}, Lkik/android/widget/preferences/a;->a(Lkik/android/widget/preferences/KikAppCompatListPreference;)Landroid/content/DialogInterface$OnClickListener;
+    invoke-static {p0}, Lkik/arcane/widget/preferences/a;->a(Lkik/arcane/widget/preferences/KikAppCompatListPreference;)Landroid/content/DialogInterface$OnClickListener;
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v0, v3}, Lkik/android/chat/fragment/KikDialogFragment;->a([Ljava/lang/CharSequence;ILandroid/content/DialogInterface$OnClickListener;)V
+    invoke-virtual {v1, v2, v0, v3}, Lkik/arcane/chat/fragment/KikDialogFragment;->a([Ljava/lang/CharSequence;ILandroid/content/DialogInterface$OnClickListener;)V
 
     .line 70
-    invoke-virtual {v1}, Lkik/android/chat/fragment/KikDialogFragment;->getDialog()Landroid/app/Dialog;
+    invoke-virtual {v1}, Lkik/arcane/chat/fragment/KikDialogFragment;->getDialog()Landroid/app/Dialog;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/preferences/KikAppCompatListPreference;->b:Landroid/app/Dialog;
+    iput-object v0, p0, Lkik/arcane/widget/preferences/KikAppCompatListPreference;->b:Landroid/app/Dialog;
 
     .line 71
     if-eqz p1, :cond_0
 
     .line 72
-    iget-object v0, p0, Lkik/android/widget/preferences/KikAppCompatListPreference;->b:Landroid/app/Dialog;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/KikAppCompatListPreference;->b:Landroid/app/Dialog;
 
     invoke-virtual {v0, p1}, Landroid/app/Dialog;->onRestoreInstanceState(Landroid/os/Bundle;)V
 
     .line 74
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/preferences/KikAppCompatListPreference;->a:Lkik/android/chat/fragment/KikScopedDialogFragment;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/KikAppCompatListPreference;->a:Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikScopedDialogFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 75
     return-void

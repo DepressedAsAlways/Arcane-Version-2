@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/chat/vm/bb;
+.class public interface abstract Lkik/arcane/chat/vm/bb;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -10,7 +10,7 @@
             "()",
             "Lrx/d",
             "<",
-            "Lkik/android/chat/vm/cy;",
+            "Lkik/arcane/chat/vm/cy;",
             ">;"
         }
     .end annotation

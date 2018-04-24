@@ -1,11 +1,11 @@
-.class Lkik/android/videochat/VideoChatManager$InstanceError;
+.class Lkik/arcane/videochat/VideoChatManager$InstanceError;
 .super Ljava/lang/Exception;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/videochat/VideoChatManager;
+    value = Lkik/arcane/videochat/VideoChatManager;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

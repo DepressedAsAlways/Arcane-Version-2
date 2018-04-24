@@ -1,4 +1,4 @@
-.class final synthetic Lcom/kik/android/stickers/j;
+.class final synthetic Lcom/kik/arcane/stickers/j;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lcom/kik/android/stickers/j;
+.field private static final a:Lcom/kik/arcane/stickers/j;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lcom/kik/android/stickers/j;
+    new-instance v0, Lcom/kik/arcane/stickers/j;
 
-    invoke-direct {v0}, Lcom/kik/android/stickers/j;-><init>()V
+    invoke-direct {v0}, Lcom/kik/arcane/stickers/j;-><init>()V
 
-    sput-object v0, Lcom/kik/android/stickers/j;->a:Lcom/kik/android/stickers/j;
+    sput-object v0, Lcom/kik/arcane/stickers/j;->a:Lcom/kik/arcane/stickers/j;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lcom/google/common/base/Predicate;
     .locals 1
 
-    sget-object v0, Lcom/kik/android/stickers/j;->a:Lcom/kik/android/stickers/j;
+    sget-object v0, Lcom/kik/arcane/stickers/j;->a:Lcom/kik/arcane/stickers/j;
 
     return-object v0
 .end method
@@ -45,7 +45,7 @@
 
     check-cast p1, Lkik/core/datatypes/y;
 
-    invoke-static {p1}, Lcom/kik/android/stickers/c;->d(Lkik/core/datatypes/y;)Z
+    invoke-static {p1}, Lcom/kik/arcane/stickers/c;->d(Lkik/core/datatypes/y;)Z
 
     move-result v0
 

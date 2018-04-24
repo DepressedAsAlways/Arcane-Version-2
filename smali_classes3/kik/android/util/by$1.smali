@@ -1,4 +1,4 @@
-.class final Lkik/android/util/by$1;
+.class final Lkik/arcane/util/by$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/util/by;-><init>(Landroid/view/View;)V
+    value = Lkik/arcane/util/by;-><init>(Landroid/view/View;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/util/by;
+.field final synthetic a:Lkik/arcane/util/by;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/util/by;)V
+.method constructor <init>(Lkik/arcane/util/by;)V
     .locals 0
 
     .prologue
     .line 24
-    iput-object p1, p0, Lkik/android/util/by$1;->a:Lkik/android/util/by;
+    iput-object p1, p0, Lkik/arcane/util/by$1;->a:Lkik/arcane/util/by;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,9 +41,9 @@
 
     .prologue
     .line 29
-    iget-object v0, p0, Lkik/android/util/by$1;->a:Lkik/android/util/by;
+    iget-object v0, p0, Lkik/arcane/util/by$1;->a:Lkik/arcane/util/by;
 
-    invoke-static {v0}, Lkik/android/util/by;->a(Lkik/android/util/by;)Landroid/view/View;
+    invoke-static {v0}, Lkik/arcane/util/by;->a(Lkik/arcane/util/by;)Landroid/view/View;
 
     move-result-object v0
 
@@ -53,9 +53,9 @@
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/util/by$1;->a:Lkik/android/util/by;
+    iget-object v0, p0, Lkik/arcane/util/by$1;->a:Lkik/arcane/util/by;
 
-    invoke-static {v0}, Lkik/android/util/by;->a(Lkik/android/util/by;)Landroid/view/View;
+    invoke-static {v0}, Lkik/arcane/util/by;->a(Lkik/arcane/util/by;)Landroid/view/View;
 
     move-result-object v0
 
@@ -67,14 +67,14 @@
 
     .line 30
     :cond_0
-    iget-object v0, p0, Lkik/android/util/by$1;->a:Lkik/android/util/by;
+    iget-object v0, p0, Lkik/arcane/util/by$1;->a:Lkik/arcane/util/by;
 
-    invoke-static {v0}, Lkik/android/util/by;->b(Lkik/android/util/by;)Z
+    invoke-static {v0}, Lkik/arcane/util/by;->b(Lkik/arcane/util/by;)Z
 
     .line 31
-    iget-object v0, p0, Lkik/android/util/by$1;->a:Lkik/android/util/by;
+    iget-object v0, p0, Lkik/arcane/util/by$1;->a:Lkik/arcane/util/by;
 
-    invoke-static {v0}, Lkik/android/util/by;->c(Lkik/android/util/by;)Ljava/util/List;
+    invoke-static {v0}, Lkik/arcane/util/by;->c(Lkik/arcane/util/by;)Ljava/util/List;
 
     move-result-object v1
 
@@ -82,9 +82,9 @@
 
     .line 32
     :try_start_0
-    iget-object v0, p0, Lkik/android/util/by$1;->a:Lkik/android/util/by;
+    iget-object v0, p0, Lkik/arcane/util/by$1;->a:Lkik/arcane/util/by;
 
-    invoke-static {v0}, Lkik/android/util/by;->c(Lkik/android/util/by;)Ljava/util/List;
+    invoke-static {v0}, Lkik/arcane/util/by;->c(Lkik/arcane/util/by;)Ljava/util/List;
 
     move-result-object v0
 
@@ -106,9 +106,9 @@
     check-cast v0, Ljava/lang/Runnable;
 
     .line 33
-    iget-object v3, p0, Lkik/android/util/by$1;->a:Lkik/android/util/by;
+    iget-object v3, p0, Lkik/arcane/util/by$1;->a:Lkik/arcane/util/by;
 
-    invoke-static {v3}, Lkik/android/util/by;->a(Lkik/android/util/by;)Landroid/view/View;
+    invoke-static {v3}, Lkik/arcane/util/by;->a(Lkik/arcane/util/by;)Landroid/view/View;
 
     move-result-object v3
 
@@ -129,9 +129,9 @@
     .line 36
     :cond_1
     :try_start_1
-    iget-object v0, p0, Lkik/android/util/by$1;->a:Lkik/android/util/by;
+    iget-object v0, p0, Lkik/arcane/util/by$1;->a:Lkik/arcane/util/by;
 
-    invoke-static {v0}, Lkik/android/util/by;->c(Lkik/android/util/by;)Ljava/util/List;
+    invoke-static {v0}, Lkik/arcane/util/by;->c(Lkik/arcane/util/by;)Ljava/util/List;
 
     move-result-object v0
 
@@ -143,9 +143,9 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 38
-    iget-object v0, p0, Lkik/android/util/by$1;->a:Lkik/android/util/by;
+    iget-object v0, p0, Lkik/arcane/util/by$1;->a:Lkik/arcane/util/by;
 
-    invoke-static {v0}, Lkik/android/util/by;->a(Lkik/android/util/by;)Landroid/view/View;
+    invoke-static {v0}, Lkik/arcane/util/by;->a(Lkik/arcane/util/by;)Landroid/view/View;
 
     move-result-object v0
 

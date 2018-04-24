@@ -1,13 +1,13 @@
-.class public abstract Lkik/android/chat/vm/chats/search/a;
-.super Lkik/android/chat/vm/e;
+.class public abstract Lkik/arcane/chat/vm/chats/search/a;
+.super Lkik/arcane/chat/vm/e;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel;
+.implements Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel;
 
 
 # instance fields
-.field a:Lcom/kik/android/Mixpanel;
+.field a:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -27,10 +27,10 @@
 
     .prologue
     .line 28
-    invoke-direct {p0}, Lkik/android/chat/vm/e;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/e;-><init>()V
 
     .line 29
-    iput-boolean p1, p0, Lkik/android/chat/vm/chats/search/a;->b:Z
+    iput-boolean p1, p0, Lkik/arcane/chat/vm/chats/search/a;->b:Z
 
     .line 30
     return-void
@@ -43,13 +43,13 @@
 
     .prologue
     .line 40
-    iput p1, p0, Lkik/android/chat/vm/chats/search/a;->d:I
+    iput p1, p0, Lkik/arcane/chat/vm/chats/search/a;->d:I
 
     .line 41
-    iput p2, p0, Lkik/android/chat/vm/chats/search/a;->c:I
+    iput p2, p0, Lkik/arcane/chat/vm/chats/search/a;->c:I
 
     .line 42
-    iput-object p3, p0, Lkik/android/chat/vm/chats/search/a;->e:Ljava/lang/String;
+    iput-object p3, p0, Lkik/arcane/chat/vm/chats/search/a;->e:Ljava/lang/String;
 
     .line 43
     return-void
@@ -65,7 +65,7 @@
     .line 82
     const-string v1, "Pull to Search"
 
-    iget-object v2, p0, Lkik/android/chat/vm/chats/search/a;->e:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/vm/chats/search/a;->e:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -85,7 +85,7 @@
     :cond_1
     const-string v1, "Send To"
 
-    iget-object v2, p0, Lkik/android/chat/vm/chats/search/a;->e:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/vm/chats/search/a;->e:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -118,7 +118,7 @@
 
     .prologue
     .line 54
-    iget-boolean v0, p0, Lkik/android/chat/vm/chats/search/a;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/vm/chats/search/a;->b:Z
 
     return v0
 .end method
@@ -130,7 +130,7 @@
     .line 65
     const-string v0, "Send To"
 
-    iget-object v1, p0, Lkik/android/chat/vm/chats/search/a;->e:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/chat/vm/chats/search/a;->e:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -149,7 +149,7 @@
     :cond_0
     const-string v0, "Pull to Search"
 
-    iget-object v1, p0, Lkik/android/chat/vm/chats/search/a;->e:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/chat/vm/chats/search/a;->e:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -174,18 +174,18 @@
 
     .prologue
     .line 96
-    iget-object v0, p0, Lkik/android/chat/vm/chats/search/a;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/search/a;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Chat Search Result Tapped"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 97
-    iget-object v1, p0, Lkik/android/chat/vm/chats/search/a;->e:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/chat/vm/chats/search/a;->e:Ljava/lang/String;
 
-    invoke-static {v1}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v1}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -194,41 +194,41 @@
     .line 98
     const-string v1, "Source"
 
-    iget-object v2, p0, Lkik/android/chat/vm/chats/search/a;->e:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/vm/chats/search/a;->e:Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
     const-string v2, "Total Search Results"
 
-    iget v3, p0, Lkik/android/chat/vm/chats/search/a;->c:I
+    iget v3, p0, Lkik/arcane/chat/vm/chats/search/a;->c:I
 
     int-to-long v4, v3
 
     .line 99
-    invoke-virtual {v1, v2, v4, v5}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v4, v5}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
     const-string v2, "Chat Position"
 
-    iget v3, p0, Lkik/android/chat/vm/chats/search/a;->d:I
+    iget v3, p0, Lkik/arcane/chat/vm/chats/search/a;->d:I
 
     add-int/lit8 v3, v3, 0x1
 
     int-to-long v4, v3
 
     .line 100
-    invoke-virtual {v1, v2, v4, v5}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v4, v5}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     .line 102
     :cond_0
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 103
     return-void

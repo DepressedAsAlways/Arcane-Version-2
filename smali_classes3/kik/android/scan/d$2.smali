@@ -1,4 +1,4 @@
-.class final Lkik/android/scan/d$2;
+.class final Lkik/arcane/scan/d$2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/scan/d;
+    value = Lkik/arcane/scan/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/scan/d;
+.field final synthetic a:Lkik/arcane/scan/d;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/scan/d;)V
+.method constructor <init>(Lkik/arcane/scan/d;)V
     .locals 0
 
     .prologue
     .line 68
-    iput-object p1, p0, Lkik/android/scan/d$2;->a:Lkik/android/scan/d;
+    iput-object p1, p0, Lkik/arcane/scan/d$2;->a:Lkik/arcane/scan/d;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,9 +41,9 @@
 
     .prologue
     .line 73
-    iget-object v0, p0, Lkik/android/scan/d$2;->a:Lkik/android/scan/d;
+    iget-object v0, p0, Lkik/arcane/scan/d$2;->a:Lkik/arcane/scan/d;
 
-    invoke-static {v0}, Lkik/android/scan/d;->a(Lkik/android/scan/d;)Landroid/widget/ImageView;
+    invoke-static {v0}, Lkik/arcane/scan/d;->a(Lkik/arcane/scan/d;)Landroid/widget/ImageView;
 
     move-result-object v0
 
@@ -53,35 +53,35 @@
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/scan/d$2;->a:Lkik/android/scan/d;
+    iget-object v0, p0, Lkik/arcane/scan/d$2;->a:Lkik/arcane/scan/d;
 
-    invoke-static {v0}, Lkik/android/scan/d;->a(Lkik/android/scan/d;)Landroid/widget/ImageView;
+    invoke-static {v0}, Lkik/arcane/scan/d;->a(Lkik/arcane/scan/d;)Landroid/widget/ImageView;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/ca;->b(Landroid/view/View;)Z
+    invoke-static {v0}, Lkik/arcane/util/ca;->b(Landroid/view/View;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 74
-    iget-object v0, p0, Lkik/android/scan/d$2;->a:Lkik/android/scan/d;
+    iget-object v0, p0, Lkik/arcane/scan/d$2;->a:Lkik/arcane/scan/d;
 
-    invoke-static {v0}, Lkik/android/scan/d;->a(Lkik/android/scan/d;)Landroid/widget/ImageView;
+    invoke-static {v0}, Lkik/arcane/scan/d;->a(Lkik/arcane/scan/d;)Landroid/widget/ImageView;
 
     move-result-object v0
 
     const/16 v1, 0x12c
 
-    invoke-static {v0, v1}, Lkik/android/util/ao;->b(Landroid/view/View;I)V
+    invoke-static {v0, v1}, Lkik/arcane/util/ao;->b(Landroid/view/View;I)V
 
     .line 76
     :cond_0
     if-nez p1, :cond_1
 
     .line 77
-    invoke-static {}, Lkik/android/scan/d;->f()Lorg/slf4j/b;
+    invoke-static {}, Lkik/arcane/scan/d;->f()Lorg/slf4j/b;
 
     move-result-object v0
 
@@ -95,13 +95,13 @@
 
     .line 81
     :cond_1
-    invoke-static {}, Lkik/android/scan/d;->g()Ljava/util/concurrent/ExecutorService;
+    invoke-static {}, Lkik/arcane/scan/d;->g()Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/scan/d$2$1;
+    new-instance v1, Lkik/arcane/scan/d$2$1;
 
-    invoke-direct {v1, p0, p1, p2}, Lkik/android/scan/d$2$1;-><init>(Lkik/android/scan/d$2;[BLandroid/hardware/Camera;)V
+    invoke-direct {v1, p0, p1, p2}, Lkik/arcane/scan/d$2$1;-><init>(Lkik/arcane/scan/d$2;[BLandroid/hardware/Camera;)V
 
     invoke-interface {v0, v1}, Ljava/util/concurrent/ExecutorService;->submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
 

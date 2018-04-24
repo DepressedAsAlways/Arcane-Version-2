@@ -1,4 +1,4 @@
-.class public final Lkik/android/scan/b;
+.class public final Lkik/arcane/scan/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -30,10 +30,10 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 49
-    iput p4, p0, Lkik/android/scan/b;->f:I
+    iput p4, p0, Lkik/arcane/scan/b;->f:I
 
     .line 50
-    iput p5, p0, Lkik/android/scan/b;->g:I
+    iput p5, p0, Lkik/arcane/scan/b;->g:I
 
     .line 52
     add-int/lit8 v0, p4, 0x0
@@ -54,19 +54,19 @@
 
     .line 56
     :cond_1
-    iput-object p1, p0, Lkik/android/scan/b;->a:[B
+    iput-object p1, p0, Lkik/arcane/scan/b;->a:[B
 
     .line 57
-    iput p2, p0, Lkik/android/scan/b;->b:I
+    iput p2, p0, Lkik/arcane/scan/b;->b:I
 
     .line 58
-    iput p3, p0, Lkik/android/scan/b;->c:I
+    iput p3, p0, Lkik/arcane/scan/b;->c:I
 
     .line 59
-    iput v2, p0, Lkik/android/scan/b;->d:I
+    iput v2, p0, Lkik/arcane/scan/b;->d:I
 
     .line 60
-    iput v2, p0, Lkik/android/scan/b;->e:I
+    iput v2, p0, Lkik/arcane/scan/b;->e:I
 
     .line 64
     return-void
@@ -82,22 +82,22 @@
 
     .line 82
     .line 1158
-    iget v3, p0, Lkik/android/scan/b;->f:I
+    iget v3, p0, Lkik/arcane/scan/b;->f:I
 
     .line 1163
-    iget v4, p0, Lkik/android/scan/b;->g:I
+    iget v4, p0, Lkik/arcane/scan/b;->g:I
 
     .line 87
-    iget v0, p0, Lkik/android/scan/b;->b:I
+    iget v0, p0, Lkik/arcane/scan/b;->b:I
 
     if-ne v3, v0, :cond_1
 
-    iget v0, p0, Lkik/android/scan/b;->c:I
+    iget v0, p0, Lkik/arcane/scan/b;->c:I
 
     if-ne v4, v0, :cond_1
 
     .line 88
-    iget-object v0, p0, Lkik/android/scan/b;->a:[B
+    iget-object v0, p0, Lkik/arcane/scan/b;->a:[B
 
     .line 108
     :cond_0
@@ -112,23 +112,23 @@
     new-array v0, v5, [B
 
     .line 93
-    iget v2, p0, Lkik/android/scan/b;->e:I
+    iget v2, p0, Lkik/arcane/scan/b;->e:I
 
-    iget v6, p0, Lkik/android/scan/b;->b:I
+    iget v6, p0, Lkik/arcane/scan/b;->b:I
 
     mul-int/2addr v2, v6
 
-    iget v6, p0, Lkik/android/scan/b;->d:I
+    iget v6, p0, Lkik/arcane/scan/b;->d:I
 
     add-int/2addr v2, v6
 
     .line 96
-    iget v6, p0, Lkik/android/scan/b;->b:I
+    iget v6, p0, Lkik/arcane/scan/b;->b:I
 
     if-ne v3, v6, :cond_2
 
     .line 97
-    iget-object v3, p0, Lkik/android/scan/b;->a:[B
+    iget-object v3, p0, Lkik/arcane/scan/b;->a:[B
 
     invoke-static {v3, v2, v0, v1, v5}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
@@ -136,7 +136,7 @@
 
     .line 102
     :cond_2
-    iget-object v5, p0, Lkik/android/scan/b;->a:[B
+    iget-object v5, p0, Lkik/arcane/scan/b;->a:[B
 
     .line 103
     :goto_1
@@ -149,7 +149,7 @@
     invoke-static {v5, v2, v0, v6, v3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 106
-    iget v6, p0, Lkik/android/scan/b;->b:I
+    iget v6, p0, Lkik/arcane/scan/b;->b:I
 
     add-int/2addr v2, v6
 

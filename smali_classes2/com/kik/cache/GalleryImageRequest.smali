@@ -25,16 +25,16 @@
 
 .field private _decodeOptions:Landroid/graphics/BitmapFactory$Options;
 
-.field private _galleryItem:Lkik/android/gallery/a;
+.field private _galleryItem:Lkik/arcane/gallery/a;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/gallery/a;Ljava/lang/String;ILandroid/graphics/BitmapFactory$Options;Landroid/content/ContentResolver;Lcom/android/volley/h$b;Lcom/android/volley/h$a;)V
+.method public constructor <init>(Lkik/arcane/gallery/a;Ljava/lang/String;ILandroid/graphics/BitmapFactory$Options;Landroid/content/ContentResolver;Lcom/android/volley/h$b;Lcom/android/volley/h$a;)V
     .locals 8
 
     .prologue
     .line 39
-    iget-wide v0, p1, Lkik/android/gallery/a;->c:J
+    iget-wide v0, p1, Lkik/arcane/gallery/a;->c:J
 
     invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -64,7 +64,7 @@
     iput-object v0, p0, Lcom/kik/cache/GalleryImageRequest;->_decodeLock:Ljava/lang/Object;
 
     .line 40
-    iput-object p1, p0, Lcom/kik/cache/GalleryImageRequest;->_galleryItem:Lkik/android/gallery/a;
+    iput-object p1, p0, Lcom/kik/cache/GalleryImageRequest;->_galleryItem:Lkik/arcane/gallery/a;
 
     .line 41
     iput-object p4, p0, Lcom/kik/cache/GalleryImageRequest;->_decodeOptions:Landroid/graphics/BitmapFactory$Options;
@@ -114,9 +114,9 @@
     .line 63
     :cond_0
     :try_start_0
-    iget-object v0, p0, Lcom/kik/cache/GalleryImageRequest;->_galleryItem:Lkik/android/gallery/a;
+    iget-object v0, p0, Lcom/kik/cache/GalleryImageRequest;->_galleryItem:Lkik/arcane/gallery/a;
 
-    iget-boolean v0, v0, Lkik/android/gallery/a;->d:Z
+    iget-boolean v0, v0, Lkik/arcane/gallery/a;->d:Z
 
     if-eqz v0, :cond_1
 
@@ -196,11 +196,11 @@
     .line 74
     :cond_2
     :try_start_3
-    iget-object v2, p0, Lcom/kik/cache/GalleryImageRequest;->_galleryItem:Lkik/android/gallery/a;
+    iget-object v2, p0, Lcom/kik/cache/GalleryImageRequest;->_galleryItem:Lkik/arcane/gallery/a;
 
-    iget-object v2, v2, Lkik/android/gallery/a;->a:Ljava/lang/String;
+    iget-object v2, v2, Lkik/arcane/gallery/a;->a:Ljava/lang/String;
 
-    invoke-static {v2}, Lkik/android/util/h;->a(Ljava/lang/String;)I
+    invoke-static {v2}, Lkik/arcane/util/h;->a(Ljava/lang/String;)I
 
     move-result v2
 
@@ -208,7 +208,7 @@
     if-ltz v2, :cond_3
 
     .line 76
-    invoke-static {v0, v2}, Lkik/android/util/h;->b(Landroid/graphics/Bitmap;I)Landroid/graphics/Bitmap;
+    invoke-static {v0, v2}, Lkik/arcane/util/h;->b(Landroid/graphics/Bitmap;I)Landroid/graphics/Bitmap;
     :try_end_3
     .catch Ljava/lang/OutOfMemoryError; {:try_start_3 .. :try_end_3} :catch_3
     .catch Ljava/lang/RuntimeException; {:try_start_3 .. :try_end_3} :catch_1
@@ -267,7 +267,7 @@
     goto :goto_2
 .end method
 
-.method public static getGalleryImageRequest(Lkik/android/gallery/a;ILandroid/graphics/BitmapFactory$Options;Landroid/content/ContentResolver;Lcom/android/volley/h$b;Lcom/android/volley/h$a;)Lcom/kik/cache/GalleryImageRequest;
+.method public static getGalleryImageRequest(Lkik/arcane/gallery/a;ILandroid/graphics/BitmapFactory$Options;Landroid/content/ContentResolver;Lcom/android/volley/h$b;Lcom/android/volley/h$a;)Lcom/kik/cache/GalleryImageRequest;
     .locals 8
 
     .prologue
@@ -278,7 +278,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-wide v2, p0, Lkik/android/gallery/a;->c:J
+    iget-wide v2, p0, Lkik/arcane/gallery/a;->c:J
 
     invoke-virtual {v0, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
@@ -303,7 +303,7 @@
 
     move-object v7, p5
 
-    invoke-direct/range {v0 .. v7}, Lcom/kik/cache/GalleryImageRequest;-><init>(Lkik/android/gallery/a;Ljava/lang/String;ILandroid/graphics/BitmapFactory$Options;Landroid/content/ContentResolver;Lcom/android/volley/h$b;Lcom/android/volley/h$a;)V
+    invoke-direct/range {v0 .. v7}, Lcom/kik/cache/GalleryImageRequest;-><init>(Lkik/arcane/gallery/a;Ljava/lang/String;ILandroid/graphics/BitmapFactory$Options;Landroid/content/ContentResolver;Lcom/android/volley/h$b;Lcom/android/volley/h$a;)V
 
     return-object v0
 .end method

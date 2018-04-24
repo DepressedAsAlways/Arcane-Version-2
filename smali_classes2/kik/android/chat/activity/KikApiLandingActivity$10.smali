@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/activity/KikApiLandingActivity$10;
+.class final Lkik/arcane/chat/activity/KikApiLandingActivity$10;
 .super Lcom/kik/a/b;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/activity/KikApiLandingActivity;
+    value = Lkik/arcane/chat/activity/KikApiLandingActivity;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic b:Lkik/android/chat/activity/KikApiLandingActivity;
+.field final synthetic b:Lkik/arcane/chat/activity/KikApiLandingActivity;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
+.method constructor <init>(Lkik/arcane/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
     .locals 0
 
     .prologue
     .line 145
-    iput-object p1, p0, Lkik/android/chat/activity/KikApiLandingActivity$10;->b:Lkik/android/chat/activity/KikApiLandingActivity;
+    iput-object p1, p0, Lkik/arcane/chat/activity/KikApiLandingActivity$10;->b:Lkik/arcane/chat/activity/KikApiLandingActivity;
 
     invoke-direct {p0, p2}, Lcom/kik/a/b;-><init>(Ljava/lang/String;)V
 
@@ -55,9 +55,9 @@
 
     .prologue
     .line 149
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity$10;->b:Lkik/android/chat/activity/KikApiLandingActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity$10;->b:Lkik/arcane/chat/activity/KikApiLandingActivity;
 
-    iget-object v0, v0, Lkik/android/chat/activity/KikApiLandingActivity;->g:Lkik/core/interfaces/ad;
+    iget-object v0, v0, Lkik/arcane/chat/activity/KikApiLandingActivity;->g:Lkik/core/interfaces/ad;
 
     invoke-static {v0}, Lkik/core/z;->a(Lkik/core/interfaces/ad;)Z
 
@@ -66,9 +66,9 @@
     if-nez v0, :cond_0
 
     .line 150
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity$10;->b:Lkik/android/chat/activity/KikApiLandingActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity$10;->b:Lkik/arcane/chat/activity/KikApiLandingActivity;
 
-    invoke-static {v0}, Lkik/android/chat/activity/KikApiLandingActivity;->b(Lkik/android/chat/activity/KikApiLandingActivity;)V
+    invoke-static {v0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->b(Lkik/arcane/chat/activity/KikApiLandingActivity;)V
 
     .line 160
     :goto_0
@@ -88,17 +88,17 @@
     if-nez v0, :cond_1
 
     .line 155
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity$10;->b:Lkik/android/chat/activity/KikApiLandingActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity$10;->b:Lkik/arcane/chat/activity/KikApiLandingActivity;
 
-    invoke-static {v0}, Lkik/android/chat/activity/KikApiLandingActivity;->c(Lkik/android/chat/activity/KikApiLandingActivity;)V
+    invoke-static {v0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->c(Lkik/arcane/chat/activity/KikApiLandingActivity;)V
 
     goto :goto_0
 
     .line 158
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity$10;->b:Lkik/android/chat/activity/KikApiLandingActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity$10;->b:Lkik/arcane/chat/activity/KikApiLandingActivity;
 
-    invoke-static {v0}, Lkik/android/chat/activity/KikApiLandingActivity;->e(Lkik/android/chat/activity/KikApiLandingActivity;)V
+    invoke-static {v0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->e(Lkik/arcane/chat/activity/KikApiLandingActivity;)V
 
     goto :goto_0
 .end method

@@ -1,4 +1,4 @@
-.class final Lkik/android/b/g$7;
+.class final Lkik/arcane/b/g$7;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/b/g;->f(Ljava/lang/String;)Lcom/kik/events/Promise;
+    value = Lkik/arcane/b/g;->f(Ljava/lang/String;)Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -31,18 +31,18 @@
 # instance fields
 .field final synthetic a:Ljava/lang/String;
 
-.field final synthetic b:Lkik/android/b/g;
+.field final synthetic b:Lkik/arcane/b/g;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/b/g;Ljava/lang/String;)V
+.method constructor <init>(Lkik/arcane/b/g;Ljava/lang/String;)V
     .locals 0
 
     .prologue
     .line 249
-    iput-object p1, p0, Lkik/android/b/g$7;->b:Lkik/android/b/g;
+    iput-object p1, p0, Lkik/arcane/b/g$7;->b:Lkik/arcane/b/g;
 
-    iput-object p2, p0, Lkik/android/b/g$7;->a:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/b/g$7;->a:Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -66,7 +66,7 @@
 
     invoke-direct {v0}, Lcom/kik/xdata/model/browser/XBrowserDomainInfo;-><init>()V
 
-    iget-object v1, p0, Lkik/android/b/g$7;->a:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/b/g$7;->a:Ljava/lang/String;
 
     .line 1255
     invoke-virtual {v0, v1}, Lcom/kik/xdata/model/browser/XBrowserDomainInfo;->a(Ljava/lang/String;)Lcom/kik/xdata/model/browser/XBrowserDomainInfo;

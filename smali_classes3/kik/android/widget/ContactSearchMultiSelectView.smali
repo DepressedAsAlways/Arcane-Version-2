@@ -1,5 +1,5 @@
-.class public Lkik/android/widget/ContactSearchMultiSelectView;
-.super Lkik/android/widget/ContactSearchView;
+.class public Lkik/arcane/widget/ContactSearchMultiSelectView;
+.super Lkik/arcane/widget/ContactSearchView;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
     .prologue
     .line 17
-    invoke-direct {p0, p1}, Lkik/android/widget/ContactSearchView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lkik/arcane/widget/ContactSearchView;-><init>(Landroid/content/Context;)V
 
     .line 18
     return-void
@@ -20,7 +20,7 @@
 
     .prologue
     .line 22
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/ContactSearchView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/ContactSearchView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 23
     return-void
@@ -31,7 +31,7 @@
 
     .prologue
     .line 27
-    invoke-direct {p0, p1, p2, p3}, Lkik/android/widget/ContactSearchView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lkik/arcane/widget/ContactSearchView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 28
     return-void
@@ -54,7 +54,7 @@
 
     .prologue
     .line 38
-    iget-object v0, p0, Lkik/android/widget/ContactSearchMultiSelectView;->a:Landroid/view/ViewGroup;
+    iget-object v0, p0, Lkik/arcane/widget/ContactSearchMultiSelectView;->a:Landroid/view/ViewGroup;
 
     const v1, 0x7f100318
 

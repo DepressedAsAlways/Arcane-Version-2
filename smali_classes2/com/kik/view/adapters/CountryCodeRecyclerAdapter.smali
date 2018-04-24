@@ -27,7 +27,7 @@
         value = {
             "Ljava/util/List",
             "<",
-            "Lkik/android/challenge/CountryCode;",
+            "Lkik/arcane/challenge/CountryCode;",
             ">;"
         }
     .end annotation
@@ -45,7 +45,7 @@
     invoke-direct {p0}, Landroid/support/v7/widget/RecyclerView$Adapter;-><init>()V
 
     .line 33
-    sget-object v0, Lkik/android/challenge/CountryCode;->b:Ljava/util/List;
+    sget-object v0, Lkik/arcane/challenge/CountryCode;->b:Ljava/util/List;
 
     iput-object v0, p0, Lcom/kik/view/adapters/CountryCodeRecyclerAdapter;->a:Ljava/util/List;
 
@@ -94,7 +94,7 @@
     if-eqz v0, :cond_0
 
     .line 129
-    sget-object v0, Lkik/android/challenge/CountryCode;->b:Ljava/util/List;
+    sget-object v0, Lkik/arcane/challenge/CountryCode;->b:Ljava/util/List;
 
     iput-object v0, p0, Lcom/kik/view/adapters/CountryCodeRecyclerAdapter;->a:Ljava/util/List;
 
@@ -109,7 +109,7 @@
     :cond_0
     new-instance v0, Ljava/util/ArrayList;
 
-    sget-object v1, Lkik/android/challenge/CountryCode;->b:Ljava/util/List;
+    sget-object v1, Lkik/arcane/challenge/CountryCode;->b:Ljava/util/List;
 
     new-instance v2, Lcom/kik/view/adapters/CountryCodeRecyclerAdapter$1;
 
@@ -203,12 +203,12 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/challenge/CountryCode;
+    check-cast v0, Lkik/arcane/challenge/CountryCode;
 
     .line 97
     check-cast p1, Lcom/kik/view/adapters/CountryCodeRecyclerAdapter$CountryCodeViewHolder;
 
-    invoke-virtual {p1, v0}, Lcom/kik/view/adapters/CountryCodeRecyclerAdapter$CountryCodeViewHolder;->a(Lkik/android/challenge/CountryCode;)V
+    invoke-virtual {p1, v0}, Lcom/kik/view/adapters/CountryCodeRecyclerAdapter$CountryCodeViewHolder;->a(Lkik/arcane/challenge/CountryCode;)V
 
     goto :goto_0
 
@@ -276,9 +276,9 @@
     move-result-object v1
 
     .line 85
-    new-instance v0, Lkik/android/widget/de;
+    new-instance v0, Lkik/arcane/widget/de;
 
-    invoke-direct {v0, v1}, Lkik/android/widget/de;-><init>(Landroid/view/View;)V
+    invoke-direct {v0, v1}, Lkik/arcane/widget/de;-><init>(Landroid/view/View;)V
 
     goto :goto_0
 

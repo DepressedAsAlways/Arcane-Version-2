@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/ArcImageView;
+.class public Lkik/arcane/widget/ArcImageView;
 .super Landroid/view/View;
 .source "SourceFile"
 
@@ -24,20 +24,20 @@
     .line 22
     const v0, 0x7f0e0023
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->d(I)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->d(I)I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/widget/ArcImageView;->c:I
+    iput v0, p0, Lkik/arcane/widget/ArcImageView;->c:I
 
     .line 23
     const/high16 v0, 0x40a00000    # 5.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/widget/ArcImageView;->d:I
+    iput v0, p0, Lkik/arcane/widget/ArcImageView;->d:I
 
     .line 28
     return-void
@@ -52,7 +52,7 @@
     .line 48
     const/high16 v0, 0x43870000    # 270.0f
 
-    iput v0, p0, Lkik/android/widget/ArcImageView;->a:F
+    iput v0, p0, Lkik/arcane/widget/ArcImageView;->a:F
 
     .line 49
     return-void
@@ -63,10 +63,10 @@
 
     .prologue
     .line 53
-    iput p1, p0, Lkik/android/widget/ArcImageView;->b:F
+    iput p1, p0, Lkik/arcane/widget/ArcImageView;->b:F
 
     .line 54
-    invoke-virtual {p0}, Lkik/android/widget/ArcImageView;->invalidate()V
+    invoke-virtual {p0}, Lkik/arcane/widget/ArcImageView;->invalidate()V
 
     .line 55
     return-void
@@ -86,13 +86,13 @@
     .line 34
     new-instance v1, Landroid/graphics/RectF;
 
-    invoke-virtual {p0}, Lkik/android/widget/ArcImageView;->getWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/ArcImageView;->getWidth()I
 
     move-result v0
 
     int-to-float v0, v0
 
-    invoke-virtual {p0}, Lkik/android/widget/ArcImageView;->getHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/ArcImageView;->getHeight()I
 
     move-result v2
 
@@ -101,13 +101,13 @@
     invoke-direct {v1, v3, v3, v0, v2}, Landroid/graphics/RectF;-><init>(FFFF)V
 
     .line 36
-    iget v0, p0, Lkik/android/widget/ArcImageView;->d:I
+    iget v0, p0, Lkik/arcane/widget/ArcImageView;->d:I
 
     div-int/lit8 v0, v0, 0x2
 
     int-to-float v0, v0
 
-    iget v2, p0, Lkik/android/widget/ArcImageView;->d:I
+    iget v2, p0, Lkik/arcane/widget/ArcImageView;->d:I
 
     div-int/lit8 v2, v2, 0x2
 
@@ -116,7 +116,7 @@
     invoke-virtual {v1, v0, v2}, Landroid/graphics/RectF;->inset(FF)V
 
     .line 37
-    iget v0, p0, Lkik/android/widget/ArcImageView;->c:I
+    iget v0, p0, Lkik/arcane/widget/ArcImageView;->c:I
 
     invoke-virtual {v5, v0}, Landroid/graphics/Paint;->setColor(I)V
 
@@ -131,16 +131,16 @@
     invoke-virtual {v5, v0}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
     .line 40
-    iget v0, p0, Lkik/android/widget/ArcImageView;->d:I
+    iget v0, p0, Lkik/arcane/widget/ArcImageView;->d:I
 
     int-to-float v0, v0
 
     invoke-virtual {v5, v0}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     .line 41
-    iget v2, p0, Lkik/android/widget/ArcImageView;->a:F
+    iget v2, p0, Lkik/arcane/widget/ArcImageView;->a:F
 
-    iget v3, p0, Lkik/android/widget/ArcImageView;->b:F
+    iget v3, p0, Lkik/arcane/widget/ArcImageView;->b:F
 
     const/4 v4, 0x0
 

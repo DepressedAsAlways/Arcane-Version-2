@@ -1,5 +1,5 @@
 .class public Lcom/kik/ui/fragment/FragmentBase$FragmentBundle;
-.super Lkik/android/util/ae;
+.super Lkik/arcane/util/ae;
 .source "SourceFile"
 
 
@@ -26,7 +26,7 @@
 
     .prologue
     .line 610
-    invoke-direct {p0}, Lkik/android/util/ae;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/util/ae;-><init>()V
 
     return-void
 .end method

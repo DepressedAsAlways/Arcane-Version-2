@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/MissedConversationsFragment$1;
+.class final Lkik/arcane/chat/fragment/MissedConversationsFragment$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/MissedConversationsFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    value = Lkik/arcane/chat/fragment/MissedConversationsFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,43 +24,43 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/MissedConversationsFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/MissedConversationsFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/MissedConversationsFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/MissedConversationsFragment;)V
     .locals 0
 
     .prologue
     .line 102
-    iput-object p1, p0, Lkik/android/chat/fragment/MissedConversationsFragment$1;->a:Lkik/android/chat/fragment/MissedConversationsFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment$1;->a:Lkik/arcane/chat/fragment/MissedConversationsFragment;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/MissedConversationsFragment$1;)V
+.method static synthetic a(Lkik/arcane/chat/fragment/MissedConversationsFragment$1;)V
     .locals 2
 
     .prologue
     .line 109
-    iget-object v0, p0, Lkik/android/chat/fragment/MissedConversationsFragment$1;->a:Lkik/android/chat/fragment/MissedConversationsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment$1;->a:Lkik/arcane/chat/fragment/MissedConversationsFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/MissedConversationsFragment;->_conversationList:Landroid/widget/ListView;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/MissedConversationsFragment;->_conversationList:Landroid/widget/ListView;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/MissedConversationsFragment$1;->a:Lkik/android/chat/fragment/MissedConversationsFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment$1;->a:Lkik/arcane/chat/fragment/MissedConversationsFragment;
 
-    invoke-static {v1}, Lkik/android/chat/fragment/MissedConversationsFragment;->e(Lkik/android/chat/fragment/MissedConversationsFragment;)Landroid/view/View;
+    invoke-static {v1}, Lkik/arcane/chat/fragment/MissedConversationsFragment;->e(Lkik/arcane/chat/fragment/MissedConversationsFragment;)Landroid/view/View;
 
     move-result-object v1
 
     invoke-static {v0, v1}, Lcom/kik/util/ct;->a(Landroid/widget/ListView;Landroid/view/View;)V
 
     .line 110
-    iget-object v0, p0, Lkik/android/chat/fragment/MissedConversationsFragment$1;->a:Lkik/android/chat/fragment/MissedConversationsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment$1;->a:Lkik/arcane/chat/fragment/MissedConversationsFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/MissedConversationsFragment;->d:Lkik/core/e/c;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/MissedConversationsFragment;->d:Lkik/core/e/c;
 
     invoke-interface {v0}, Lkik/core/e/c;->f()V
 
@@ -85,9 +85,9 @@
     if-nez v0, :cond_0
 
     .line 1107
-    iget-object v0, p0, Lkik/android/chat/fragment/MissedConversationsFragment$1;->a:Lkik/android/chat/fragment/MissedConversationsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment$1;->a:Lkik/arcane/chat/fragment/MissedConversationsFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/MissedConversationsFragment;->e(Lkik/android/chat/fragment/MissedConversationsFragment;)Landroid/view/View;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/MissedConversationsFragment;->e(Lkik/arcane/chat/fragment/MissedConversationsFragment;)Landroid/view/View;
 
     move-result-object v0
 
@@ -97,7 +97,7 @@
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/chat/fragment/ey;->a(Lkik/android/chat/fragment/MissedConversationsFragment$1;)Landroid/view/View$OnClickListener;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/ey;->a(Lkik/arcane/chat/fragment/MissedConversationsFragment$1;)Landroid/view/View$OnClickListener;
 
     move-result-object v1
 
@@ -105,13 +105,13 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1112
-    iget-object v0, p0, Lkik/android/chat/fragment/MissedConversationsFragment$1;->a:Lkik/android/chat/fragment/MissedConversationsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment$1;->a:Lkik/arcane/chat/fragment/MissedConversationsFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/MissedConversationsFragment;->_conversationList:Landroid/widget/ListView;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/MissedConversationsFragment;->_conversationList:Landroid/widget/ListView;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/MissedConversationsFragment$1;->a:Lkik/android/chat/fragment/MissedConversationsFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment$1;->a:Lkik/arcane/chat/fragment/MissedConversationsFragment;
 
-    invoke-static {v1}, Lkik/android/chat/fragment/MissedConversationsFragment;->e(Lkik/android/chat/fragment/MissedConversationsFragment;)Landroid/view/View;
+    invoke-static {v1}, Lkik/arcane/chat/fragment/MissedConversationsFragment;->e(Lkik/arcane/chat/fragment/MissedConversationsFragment;)Landroid/view/View;
 
     move-result-object v1
 

@@ -1,10 +1,10 @@
-.class public Lkik/android/chat/activity/KikApiLandingActivity;
-.super Lkik/android/chat/activity/KikIqActivityBase;
+.class public Lkik/arcane/chat/activity/KikApiLandingActivity;
+.super Lkik/arcane/chat/activity/KikIqActivityBase;
 .source "SourceFile"
 
 
 # instance fields
-.field protected a:Lcom/kik/android/Mixpanel;
+.field protected a:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -24,7 +24,7 @@
     .end annotation
 .end field
 
-.field protected h:Lkik/android/util/t;
+.field protected h:Lkik/arcane/util/t;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -43,7 +43,7 @@
 
 .field private o:Lcom/kik/a/c;
 
-.field private p:Lkik/android/chat/vm/bd;
+.field private p:Lkik/arcane/chat/vm/bd;
 
 .field private q:Lcom/kik/a/b;
 
@@ -72,97 +72,97 @@
 
     .prologue
     .line 52
-    invoke-direct {p0}, Lkik/android/chat/activity/KikIqActivityBase;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/activity/KikIqActivityBase;-><init>()V
 
     .line 66
-    new-instance v0, Lkik/android/chat/activity/KikApiLandingActivity$1;
+    new-instance v0, Lkik/arcane/chat/activity/KikApiLandingActivity$1;
 
     const-string v1, "default"
 
-    invoke-direct {v0, p0, v1}, Lkik/android/chat/activity/KikApiLandingActivity$1;-><init>(Lkik/android/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
+    invoke-direct {v0, p0, v1}, Lkik/arcane/chat/activity/KikApiLandingActivity$1;-><init>(Lkik/arcane/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
 
-    iput-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->q:Lcom/kik/a/b;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->q:Lcom/kik/a/b;
 
     .line 79
-    new-instance v0, Lkik/android/chat/activity/KikApiLandingActivity$4;
+    new-instance v0, Lkik/arcane/chat/activity/KikApiLandingActivity$4;
 
     const-string v1, "(?:http(?:s)?://)?(?:www.)?kik.me/g/{invite}"
 
-    invoke-direct {v0, p0, v1}, Lkik/android/chat/activity/KikApiLandingActivity$4;-><init>(Lkik/android/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
+    invoke-direct {v0, p0, v1}, Lkik/arcane/chat/activity/KikApiLandingActivity$4;-><init>(Lkik/arcane/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
 
-    iput-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->r:Lcom/kik/a/b;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->r:Lcom/kik/a/b;
 
     .line 99
-    new-instance v0, Lkik/android/chat/activity/KikApiLandingActivity$5;
+    new-instance v0, Lkik/arcane/chat/activity/KikApiLandingActivity$5;
 
     const-string v1, "kik://api.kik.com/users/{username}/profile"
 
-    invoke-direct {v0, p0, v1}, Lkik/android/chat/activity/KikApiLandingActivity$5;-><init>(Lkik/android/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
+    invoke-direct {v0, p0, v1}, Lkik/arcane/chat/activity/KikApiLandingActivity$5;-><init>(Lkik/arcane/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
 
-    iput-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->s:Lcom/kik/a/b;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->s:Lcom/kik/a/b;
 
     .line 108
-    new-instance v0, Lkik/android/chat/activity/KikApiLandingActivity$6;
+    new-instance v0, Lkik/arcane/chat/activity/KikApiLandingActivity$6;
 
     const-string v1, "(?:http(?:s)?://)?(?:www.)?kik.com/u/open/{username}"
 
-    invoke-direct {v0, p0, v1}, Lkik/android/chat/activity/KikApiLandingActivity$6;-><init>(Lkik/android/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
+    invoke-direct {v0, p0, v1}, Lkik/arcane/chat/activity/KikApiLandingActivity$6;-><init>(Lkik/arcane/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
 
-    iput-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->t:Lcom/kik/a/b;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->t:Lcom/kik/a/b;
 
     .line 117
-    new-instance v0, Lkik/android/chat/activity/KikApiLandingActivity$7;
+    new-instance v0, Lkik/arcane/chat/activity/KikApiLandingActivity$7;
 
     const-string v1, "(?:http(?:s)?://)?(?:www.)?kik.me/{username}"
 
-    invoke-direct {v0, p0, v1}, Lkik/android/chat/activity/KikApiLandingActivity$7;-><init>(Lkik/android/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
+    invoke-direct {v0, p0, v1}, Lkik/arcane/chat/activity/KikApiLandingActivity$7;-><init>(Lkik/arcane/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
 
-    iput-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->u:Lcom/kik/a/b;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->u:Lcom/kik/a/b;
 
     .line 126
-    new-instance v0, Lkik/android/chat/activity/KikApiLandingActivity$8;
+    new-instance v0, Lkik/arcane/chat/activity/KikApiLandingActivity$8;
 
     const-string v1, "kik://users/{username}/profile"
 
-    invoke-direct {v0, p0, v1}, Lkik/android/chat/activity/KikApiLandingActivity$8;-><init>(Lkik/android/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
+    invoke-direct {v0, p0, v1}, Lkik/arcane/chat/activity/KikApiLandingActivity$8;-><init>(Lkik/arcane/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
 
-    iput-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->v:Lcom/kik/a/b;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->v:Lcom/kik/a/b;
 
     .line 135
-    new-instance v0, Lkik/android/chat/activity/KikApiLandingActivity$9;
+    new-instance v0, Lkik/arcane/chat/activity/KikApiLandingActivity$9;
 
     const-string v1, "kik-share://kik.com/u/{username}"
 
-    invoke-direct {v0, p0, v1}, Lkik/android/chat/activity/KikApiLandingActivity$9;-><init>(Lkik/android/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
+    invoke-direct {v0, p0, v1}, Lkik/arcane/chat/activity/KikApiLandingActivity$9;-><init>(Lkik/arcane/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
 
-    iput-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->w:Lcom/kik/a/b;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->w:Lcom/kik/a/b;
 
     .line 144
-    new-instance v0, Lkik/android/chat/activity/KikApiLandingActivity$10;
+    new-instance v0, Lkik/arcane/chat/activity/KikApiLandingActivity$10;
 
     const-string v1, "kik-share://kik.com/g/{tag}"
 
-    invoke-direct {v0, p0, v1}, Lkik/android/chat/activity/KikApiLandingActivity$10;-><init>(Lkik/android/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
+    invoke-direct {v0, p0, v1}, Lkik/arcane/chat/activity/KikApiLandingActivity$10;-><init>(Lkik/arcane/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
 
-    iput-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->x:Lcom/kik/a/b;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->x:Lcom/kik/a/b;
 
     .line 163
-    new-instance v0, Lkik/android/chat/activity/KikApiLandingActivity$11;
+    new-instance v0, Lkik/arcane/chat/activity/KikApiLandingActivity$11;
 
     const-string v1, "kik-share://kik.com/back"
 
-    invoke-direct {v0, p0, v1}, Lkik/android/chat/activity/KikApiLandingActivity$11;-><init>(Lkik/android/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
+    invoke-direct {v0, p0, v1}, Lkik/arcane/chat/activity/KikApiLandingActivity$11;-><init>(Lkik/arcane/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
 
-    iput-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->y:Lcom/kik/a/b;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->y:Lcom/kik/a/b;
 
     .line 180
-    new-instance v0, Lkik/android/chat/activity/KikApiLandingActivity$2;
+    new-instance v0, Lkik/arcane/chat/activity/KikApiLandingActivity$2;
 
     const-string v1, "kik-share://kik.com/send/{parameters}"
 
-    invoke-direct {v0, p0, v1}, Lkik/android/chat/activity/KikApiLandingActivity$2;-><init>(Lkik/android/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
+    invoke-direct {v0, p0, v1}, Lkik/arcane/chat/activity/KikApiLandingActivity$2;-><init>(Lkik/arcane/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
 
-    iput-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->z:Lcom/kik/a/b;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->z:Lcom/kik/a/b;
 
     return-void
 .end method
@@ -172,7 +172,7 @@
 
     .prologue
     .line 52
-    invoke-static {p0}, Lkik/android/chat/activity/KikApiLandingActivity;->c(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -184,7 +184,7 @@
 
     .prologue
     .line 338
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikApiLandingActivity;->b()V
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->b()V
 
     .line 340
     invoke-virtual {p1}, Landroid/content/Intent;->getData()Landroid/net/Uri;
@@ -226,7 +226,7 @@
 
     .line 346
     :cond_1
-    iget-object v1, p0, Lkik/android/chat/activity/KikApiLandingActivity;->g:Lkik/core/interfaces/ad;
+    iget-object v1, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->g:Lkik/core/interfaces/ad;
 
     invoke-static {v1}, Lkik/core/z;->a(Lkik/core/interfaces/ad;)Z
 
@@ -235,43 +235,43 @@
     if-nez v1, :cond_2
 
     .line 347
-    invoke-direct {p0}, Lkik/android/chat/activity/KikApiLandingActivity;->e()V
+    invoke-direct {p0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->e()V
 
     goto :goto_0
 
     .line 350
     :cond_2
-    new-instance v1, Lkik/android/chat/fragment/KikConversationsFragment$a;
+    new-instance v1, Lkik/arcane/chat/fragment/KikConversationsFragment$a;
 
-    invoke-direct {v1}, Lkik/android/chat/fragment/KikConversationsFragment$a;-><init>()V
+    invoke-direct {v1}, Lkik/arcane/chat/fragment/KikConversationsFragment$a;-><init>()V
 
     .line 351
     invoke-virtual {v0}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {v1, v0}, Lkik/android/chat/fragment/KikConversationsFragment$a;->b(Ljava/lang/String;)Lkik/android/chat/fragment/KikConversationsFragment$a;
+    invoke-virtual {v1, v0}, Lkik/arcane/chat/fragment/KikConversationsFragment$a;->b(Ljava/lang/String;)Lkik/arcane/chat/fragment/KikConversationsFragment$a;
 
     .line 352
-    invoke-static {v1, p0}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/util/ae;Landroid/content/Context;)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-static {v1, p0}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/util/ae;Landroid/content/Context;)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a()Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a()Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
 
     goto :goto_0
 
     .line 355
     :cond_3
-    iget-object v1, p0, Lkik/android/chat/activity/KikApiLandingActivity;->a:Lcom/kik/android/Mixpanel;
+    iget-object v1, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v2, "Launched From URI"
 
-    invoke-virtual {v1, v2}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
@@ -282,7 +282,7 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
@@ -295,17 +295,17 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
     .line 358
-    invoke-virtual {v1}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
     .line 359
-    invoke-virtual {v1}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v1}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 361
     const-string v1, "KikChatFragment.RequestFromKikChat"
@@ -317,7 +317,7 @@
     move-result v1
 
     .line 362
-    iget-object v2, p0, Lkik/android/chat/activity/KikApiLandingActivity;->o:Lcom/kik/a/c;
+    iget-object v2, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->o:Lcom/kik/a/c;
 
     invoke-virtual {v0}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
@@ -328,33 +328,33 @@
     goto :goto_0
 .end method
 
-.method static synthetic a(Lkik/android/chat/activity/KikApiLandingActivity;)V
+.method static synthetic a(Lkik/arcane/chat/activity/KikApiLandingActivity;)V
     .locals 1
 
     .prologue
     .line 463
     const v0, 0x7f090245
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/activity/KikApiLandingActivity;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lkik/android/chat/activity/KikApiLandingActivity;->b(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->b(Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
+.method static synthetic a(Lkik/arcane/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
     .locals 0
 
     .prologue
     .line 52
-    invoke-direct {p0, p1}, Lkik/android/chat/activity/KikApiLandingActivity;->b(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lkik/arcane/chat/activity/KikApiLandingActivity;->b(Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/activity/KikApiLandingActivity;Ljava/lang/String;Lcom/kik/core/domain/users/a/c;)V
+.method static synthetic a(Lkik/arcane/chat/activity/KikApiLandingActivity;Ljava/lang/String;Lcom/kik/core/domain/users/a/c;)V
     .locals 3
 
     .prologue
@@ -364,14 +364,14 @@
     if-eqz p2, :cond_0
 
     .line 457
-    new-instance v0, Lkik/android/chat/a/a$b;
+    new-instance v0, Lkik/arcane/chat/a/a$b;
 
     const-string v1, "web-kik-me"
 
-    invoke-direct {v0, v1, v2, p1, v2}, Lkik/android/chat/a/a$b;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v2, p1, v2}, Lkik/arcane/chat/a/a$b;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 458
-    invoke-direct {p0}, Lkik/android/chat/activity/KikApiLandingActivity;->f()Lkik/android/chat/vm/bd;
+    invoke-direct {p0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->f()Lkik/arcane/chat/vm/bd;
 
     move-result-object v1
 
@@ -379,12 +379,12 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lkik/android/chat/vm/profile/ea;->a(Lcom/kik/core/network/xmpp/jid/a;)Lkik/android/chat/vm/profile/ea;
+    invoke-static {v2}, Lkik/arcane/chat/vm/profile/ea;->a(Lcom/kik/core/network/xmpp/jid/a;)Lkik/arcane/chat/vm/profile/ea;
 
     move-result-object v2
 
     .line 459
-    invoke-virtual {v2, v0}, Lkik/android/chat/vm/profile/ea;->a(Lkik/android/chat/a/a$b;)Lkik/android/chat/vm/profile/ea;
+    invoke-virtual {v2, v0}, Lkik/arcane/chat/vm/profile/ea;->a(Lkik/arcane/chat/a/a$b;)Lkik/arcane/chat/vm/profile/ea;
 
     move-result-object v0
 
@@ -393,30 +393,30 @@
 
     move-result v2
 
-    invoke-virtual {v0, v2}, Lkik/android/chat/vm/profile/ea;->a(Z)Lkik/android/chat/vm/profile/ea;
+    invoke-virtual {v0, v2}, Lkik/arcane/chat/vm/profile/ea;->a(Z)Lkik/arcane/chat/vm/profile/ea;
 
     move-result-object v0
 
     .line 461
-    invoke-virtual {v0}, Lkik/android/chat/vm/profile/ea;->b()Lkik/android/chat/vm/profile/dt;
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/profile/ea;->b()Lkik/arcane/chat/vm/profile/dt;
 
     move-result-object v0
 
     .line 458
-    invoke-interface {v1, v0}, Lkik/android/chat/vm/bd;->a(Lkik/android/chat/vm/profile/dt;)Lrx/d;
+    invoke-interface {v1, v0}, Lkik/arcane/chat/vm/bd;->a(Lkik/arcane/chat/vm/profile/dt;)Lrx/d;
 
     .line 463
     :cond_0
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/activity/KikApiLandingActivity;Ljava/lang/String;Ljava/lang/String;)V
+.method static synthetic a(Lkik/arcane/chat/activity/KikApiLandingActivity;Ljava/lang/String;Ljava/lang/String;)V
     .locals 3
 
     .prologue
     .line 52
     .line 1468
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->i:Lcom/kik/core/domain/a/c;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->i:Lcom/kik/core/domain/a/c;
 
     invoke-interface {v0, p1}, Lcom/kik/core/domain/a/c;->a(Ljava/lang/String;)Lrx/d;
 
@@ -436,11 +436,11 @@
 
     move-result-object v0
 
-    invoke-static {p0, p2, p1}, Lkik/android/chat/activity/h;->a(Lkik/android/chat/activity/KikApiLandingActivity;Ljava/lang/String;Ljava/lang/String;)Lrx/functions/b;
+    invoke-static {p0, p2, p1}, Lkik/arcane/chat/activity/h;->a(Lkik/arcane/chat/activity/KikApiLandingActivity;Ljava/lang/String;Ljava/lang/String;)Lrx/functions/b;
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/chat/activity/i;->a(Lkik/android/chat/activity/KikApiLandingActivity;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/activity/i;->a(Lkik/arcane/chat/activity/KikApiLandingActivity;)Lrx/functions/b;
 
     move-result-object v2
 
@@ -451,7 +451,7 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/activity/KikApiLandingActivity;Ljava/lang/String;Ljava/lang/String;Lcom/kik/core/domain/a/a/c;)V
+.method static synthetic a(Lkik/arcane/chat/activity/KikApiLandingActivity;Ljava/lang/String;Ljava/lang/String;Lcom/kik/core/domain/a/a/c;)V
     .locals 6
 
     .prologue
@@ -466,11 +466,11 @@
 
     .line 478
     :cond_0
-    new-instance v0, Lkik/android/chat/a/a$b;
+    new-instance v0, Lkik/arcane/chat/a/a$b;
 
     const-string v1, "web-kik-me"
 
-    invoke-direct {v0, v1, v4, p1, v4}, Lkik/android/chat/a/a$b;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v4, p1, v4}, Lkik/arcane/chat/a/a$b;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 481
     invoke-interface {p3}, Lcom/kik/core/domain/a/a/c;->f()Z
@@ -484,7 +484,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lkik/android/chat/vm/profile/ea;->a(Lcom/kik/core/network/xmpp/jid/a;)Lkik/android/chat/vm/profile/ea;
+    invoke-static {v1}, Lkik/arcane/chat/vm/profile/ea;->a(Lcom/kik/core/network/xmpp/jid/a;)Lkik/arcane/chat/vm/profile/ea;
 
     move-result-object v1
 
@@ -493,27 +493,27 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/vm/profile/ea;->a(Lkik/core/datatypes/MemberPermissions;)Lkik/android/chat/vm/profile/ea;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/vm/profile/ea;->a(Lkik/core/datatypes/MemberPermissions;)Lkik/arcane/chat/vm/profile/ea;
 
     move-result-object v1
 
     .line 485
-    invoke-virtual {v1, v0}, Lkik/android/chat/vm/profile/ea;->a(Lkik/android/chat/a/a$b;)Lkik/android/chat/vm/profile/ea;
+    invoke-virtual {v1, v0}, Lkik/arcane/chat/vm/profile/ea;->a(Lkik/arcane/chat/a/a$b;)Lkik/arcane/chat/vm/profile/ea;
 
     move-result-object v0
 
     .line 486
-    invoke-virtual {v0}, Lkik/android/chat/vm/profile/ea;->b()Lkik/android/chat/vm/profile/dt;
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/profile/ea;->b()Lkik/arcane/chat/vm/profile/dt;
 
     move-result-object v0
 
     .line 494
     :goto_1
-    invoke-direct {p0}, Lkik/android/chat/activity/KikApiLandingActivity;->f()Lkik/android/chat/vm/bd;
+    invoke-direct {p0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->f()Lkik/arcane/chat/vm/bd;
 
     move-result-object v1
 
-    invoke-interface {v1, v0}, Lkik/android/chat/vm/bd;->a(Lkik/android/chat/vm/profile/dt;)Lrx/d;
+    invoke-interface {v1, v0}, Lkik/arcane/chat/vm/bd;->a(Lkik/arcane/chat/vm/profile/dt;)Lrx/d;
 
     goto :goto_0
 
@@ -523,26 +523,26 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
     .line 489
-    new-instance v0, Lkik/android/chat/vm/profile/bl;
+    new-instance v0, Lkik/arcane/chat/vm/profile/bl;
 
     invoke-interface {p3}, Lcom/kik/core/domain/a/a/c;->a()Lcom/kik/core/network/xmpp/jid/a;
 
     move-result-object v1
 
-    invoke-direct {v0, v1, p2}, Lkik/android/chat/vm/profile/bl;-><init>(Lcom/kik/core/network/xmpp/jid/a;Ljava/lang/String;)V
+    invoke-direct {v0, v1, p2}, Lkik/arcane/chat/vm/profile/bl;-><init>(Lcom/kik/core/network/xmpp/jid/a;Ljava/lang/String;)V
 
     goto :goto_1
 
     .line 492
     :cond_2
-    new-instance v0, Lkik/android/chat/vm/profile/ax;
+    new-instance v0, Lkik/arcane/chat/vm/profile/ax;
 
     invoke-interface {p3}, Lcom/kik/core/domain/a/a/c;->a()Lcom/kik/core/network/xmpp/jid/a;
 
@@ -556,12 +556,12 @@
 
     move-object v3, p2
 
-    invoke-direct/range {v0 .. v5}, Lkik/android/chat/vm/profile/ax;-><init>(Lcom/kik/core/network/xmpp/jid/a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
+    invoke-direct/range {v0 .. v5}, Lkik/arcane/chat/vm/profile/ax;-><init>(Lcom/kik/core/network/xmpp/jid/a;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V
 
     goto :goto_1
 .end method
 
-.method static synthetic a(Lkik/android/chat/activity/KikApiLandingActivity;Ljava/lang/Throwable;)V
+.method static synthetic a(Lkik/arcane/chat/activity/KikApiLandingActivity;Ljava/lang/Throwable;)V
     .locals 2
 
     .prologue
@@ -585,22 +585,22 @@
     .line 5526
     const v0, 0x7f090198
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/activity/KikApiLandingActivity;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lkik/android/chat/activity/KikApiLandingActivity;->b(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->b(Ljava/lang/String;)V
 
     .line 5532
     :cond_0
     :goto_0
     const v0, 0x7f090196
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/activity/KikApiLandingActivity;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lkik/android/chat/activity/KikApiLandingActivity;->b(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->b(Ljava/lang/String;)V
 
     .line 0
     return-void
@@ -624,16 +624,16 @@
     .line 5529
     const v0, 0x7f090199
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/activity/KikApiLandingActivity;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lkik/android/chat/activity/KikApiLandingActivity;->b(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->b(Ljava/lang/String;)V
 
     goto :goto_0
 .end method
 
-.method static synthetic a(Lkik/android/chat/activity/KikApiLandingActivity;Ljava/util/Map;Ljava/lang/String;ZZ)V
+.method static synthetic a(Lkik/arcane/chat/activity/KikApiLandingActivity;Ljava/util/Map;Ljava/lang/String;ZZ)V
     .locals 6
 
     .prologue
@@ -643,7 +643,7 @@
 
     .line 52
     .line 2210
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->g:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->g:Lkik/core/interfaces/ad;
 
     invoke-static {v0}, Lkik/core/z;->a(Lkik/core/interfaces/ad;)Z
 
@@ -652,7 +652,7 @@
     if-nez v0, :cond_0
 
     .line 2211
-    invoke-direct {p0, v5}, Lkik/android/chat/activity/KikApiLandingActivity;->a(Z)V
+    invoke-direct {p0, v5}, Lkik/arcane/chat/activity/KikApiLandingActivity;->a(Z)V
 
     .line 3409
     :goto_0
@@ -672,7 +672,7 @@
     if-nez v0, :cond_1
 
     .line 2219
-    invoke-direct {p0}, Lkik/android/chat/activity/KikApiLandingActivity;->d()V
+    invoke-direct {p0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->d()V
 
     goto :goto_0
 
@@ -701,7 +701,7 @@
 
     .line 2227
     :cond_2
-    invoke-static {v0}, Lkik/android/chat/activity/KikApiLandingActivity;->c(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -715,37 +715,37 @@
     if-eqz v1, :cond_4
 
     .line 2501
-    new-instance v0, Lkik/android/chat/fragment/UserProfileFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/UserProfileFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/UserProfileFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/UserProfileFragment$a;-><init>()V
 
     .line 2503
     if-nez p3, :cond_3
 
     .line 2504
-    invoke-virtual {v0}, Lkik/android/chat/fragment/UserProfileFragment$a;->b()Lkik/android/chat/fragment/UserProfileFragment$a;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/UserProfileFragment$a;->b()Lkik/arcane/chat/fragment/UserProfileFragment$a;
 
     .line 2505
-    invoke-static {v0, p0}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/util/ae;Landroid/content/Context;)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-static {v0, p0}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/util/ae;Landroid/content/Context;)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b()Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b()Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
     .line 2510
     :goto_1
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->f()Lcom/kik/events/Promise;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->f()Lcom/kik/events/Promise;
 
     .line 2511
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikApiLandingActivity;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->finish()V
 
     goto :goto_0
 
     .line 2508
     :cond_3
-    invoke-static {v0, p0}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/util/ae;Landroid/content/Context;)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-static {v0, p0}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/util/ae;Landroid/content/Context;)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
@@ -753,14 +753,14 @@
 
     .line 3401
     :cond_4
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v1
 
     if-nez v1, :cond_7
 
     .line 3402
-    iget-object v1, p0, Lkik/android/chat/activity/KikApiLandingActivity;->f:Lkik/core/interfaces/v;
+    iget-object v1, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->f:Lkik/core/interfaces/v;
 
     invoke-interface {v1, v0}, Lkik/core/interfaces/v;->a(Ljava/lang/String;)Lkik/core/datatypes/l;
 
@@ -794,14 +794,14 @@
 
     .line 3430
     :goto_3
-    new-instance v3, Lkik/android/chat/a/a$b;
+    new-instance v3, Lkik/arcane/chat/a/a$b;
 
     const-string v4, "web-kik-me"
 
-    invoke-direct {v3, v4, v2, p2, v2}, Lkik/android/chat/a/a$b;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v3, v4, v2, p2, v2}, Lkik/arcane/chat/a/a$b;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 3432
-    invoke-direct {p0}, Lkik/android/chat/activity/KikApiLandingActivity;->f()Lkik/android/chat/vm/bd;
+    invoke-direct {p0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->f()Lkik/arcane/chat/vm/bd;
 
     move-result-object v2
 
@@ -809,22 +809,22 @@
 
     move-result-object v4
 
-    invoke-static {v4}, Lkik/android/chat/vm/profile/ea;->a(Lcom/kik/core/network/xmpp/jid/a;)Lkik/android/chat/vm/profile/ea;
+    invoke-static {v4}, Lkik/arcane/chat/vm/profile/ea;->a(Lcom/kik/core/network/xmpp/jid/a;)Lkik/arcane/chat/vm/profile/ea;
 
     move-result-object v4
 
     .line 3433
-    invoke-virtual {v4, v0}, Lkik/android/chat/vm/profile/ea;->a(Lkik/core/datatypes/MemberPermissions;)Lkik/android/chat/vm/profile/ea;
+    invoke-virtual {v4, v0}, Lkik/arcane/chat/vm/profile/ea;->a(Lkik/core/datatypes/MemberPermissions;)Lkik/arcane/chat/vm/profile/ea;
 
     move-result-object v0
 
     .line 3434
-    invoke-virtual {v0, v3}, Lkik/android/chat/vm/profile/ea;->a(Lkik/android/chat/a/a$b;)Lkik/android/chat/vm/profile/ea;
+    invoke-virtual {v0, v3}, Lkik/arcane/chat/vm/profile/ea;->a(Lkik/arcane/chat/a/a$b;)Lkik/arcane/chat/vm/profile/ea;
 
     move-result-object v0
 
     .line 3435
-    invoke-virtual {v0}, Lkik/android/chat/vm/profile/ea;->a()Lkik/android/chat/vm/profile/ea;
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/profile/ea;->a()Lkik/arcane/chat/vm/profile/ea;
 
     move-result-object v0
 
@@ -833,50 +833,50 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/vm/profile/ea;->a(Z)Lkik/android/chat/vm/profile/ea;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/vm/profile/ea;->a(Z)Lkik/arcane/chat/vm/profile/ea;
 
     move-result-object v0
 
     .line 3437
-    invoke-virtual {v0}, Lkik/android/chat/vm/profile/ea;->b()Lkik/android/chat/vm/profile/dt;
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/profile/ea;->b()Lkik/arcane/chat/vm/profile/dt;
 
     move-result-object v0
 
     .line 3432
-    invoke-interface {v2, v0}, Lkik/android/chat/vm/bd;->a(Lkik/android/chat/vm/profile/dt;)Lrx/d;
+    invoke-interface {v2, v0}, Lkik/arcane/chat/vm/bd;->a(Lkik/arcane/chat/vm/profile/dt;)Lrx/d;
 
     .line 3438
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikApiLandingActivity;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->finish()V
 
     .line 3406
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Profile Link Loaded"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Is User New"
 
     .line 3407
-    invoke-virtual {v0, v1, v5}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v5}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 3408
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 3409
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     goto/16 :goto_0
 
     .line 3451
     :cond_5
-    iget-object v1, p0, Lkik/android/chat/activity/KikApiLandingActivity;->j:Lcom/kik/core/domain/users/a;
+    iget-object v1, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->j:Lcom/kik/core/domain/users/a;
 
     invoke-interface {v1, v0}, Lcom/kik/core/domain/users/a;->a(Ljava/lang/String;)Lrx/d;
 
@@ -896,11 +896,11 @@
 
     move-result-object v0
 
-    invoke-static {p0, p2}, Lkik/android/chat/activity/f;->a(Lkik/android/chat/activity/KikApiLandingActivity;Ljava/lang/String;)Lrx/functions/b;
+    invoke-static {p0, p2}, Lkik/arcane/chat/activity/f;->a(Lkik/arcane/chat/activity/KikApiLandingActivity;Ljava/lang/String;)Lrx/functions/b;
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/chat/activity/g;->a(Lkik/android/chat/activity/KikApiLandingActivity;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/activity/g;->a(Lkik/arcane/chat/activity/KikApiLandingActivity;)Lrx/functions/b;
 
     move-result-object v2
 
@@ -920,33 +920,33 @@
     goto :goto_2
 .end method
 
-.method static synthetic a(Lkik/android/chat/activity/KikApiLandingActivity;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
+.method static synthetic a(Lkik/arcane/chat/activity/KikApiLandingActivity;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
     .locals 2
 
     .prologue
     .line 5254
-    invoke-static {}, Lkik/android/internal/platform/PlatformHelper;->a()Lkik/android/internal/platform/PlatformHelper;
+    invoke-static {}, Lkik/arcane/internal/platform/PlatformHelper;->a()Lkik/arcane/internal/platform/PlatformHelper;
 
     move-result-object v0
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, p1, v1}, Lkik/android/internal/platform/PlatformHelper;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Z)V
+    invoke-virtual {v0, p1, v1}, Lkik/arcane/internal/platform/PlatformHelper;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Z)V
 
     .line 5256
-    new-instance v0, Lkik/android/chat/fragment/KikConversationsFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/KikConversationsFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/KikConversationsFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/KikConversationsFragment$a;-><init>()V
 
     .line 5257
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikConversationsFragment$a;->c()Lkik/android/chat/fragment/KikConversationsFragment$a;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikConversationsFragment$a;->c()Lkik/arcane/chat/fragment/KikConversationsFragment$a;
 
     .line 5258
-    invoke-static {v0, p0}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/util/ae;Landroid/content/Context;)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-static {v0, p0}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/util/ae;Landroid/content/Context;)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
 
     .line 52
     return-void
@@ -961,7 +961,7 @@
     .line 308
     new-instance v0, Landroid/content/Intent;
 
-    const-class v1, Lkik/android/chat/activity/IntroActivity;
+    const-class v1, Lkik/arcane/chat/activity/IntroActivity;
 
     invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
@@ -980,10 +980,10 @@
 
     .line 316
     :goto_0
-    invoke-virtual {p0, v0}, Lkik/android/chat/activity/KikApiLandingActivity;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->startActivity(Landroid/content/Intent;)V
 
     .line 317
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikApiLandingActivity;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->finish()V
 
     .line 318
     return-void
@@ -1002,25 +1002,25 @@
 
     .prologue
     .line 238
-    new-instance v0, Lkik/android/chat/activity/KikApiLandingActivity$3;
+    new-instance v0, Lkik/arcane/chat/activity/KikApiLandingActivity$3;
 
-    invoke-direct {v0, p0, p1}, Lkik/android/chat/activity/KikApiLandingActivity$3;-><init>(Lkik/android/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
+    invoke-direct {v0, p0, p1}, Lkik/arcane/chat/activity/KikApiLandingActivity$3;-><init>(Lkik/arcane/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/activity/KikApiLandingActivity;->runOnUiThread(Ljava/lang/Runnable;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->runOnUiThread(Ljava/lang/Runnable;)V
 
     .line 249
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikApiLandingActivity;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->finish()V
 
     .line 250
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/chat/activity/KikApiLandingActivity;)V
+.method static synthetic b(Lkik/arcane/chat/activity/KikApiLandingActivity;)V
     .locals 0
 
     .prologue
     .line 52
-    invoke-direct {p0}, Lkik/android/chat/activity/KikApiLandingActivity;->e()V
+    invoke-direct {p0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->e()V
 
     return-void
 .end method
@@ -1077,12 +1077,12 @@
     goto :goto_0
 .end method
 
-.method static synthetic c(Lkik/android/chat/activity/KikApiLandingActivity;)V
+.method static synthetic c(Lkik/arcane/chat/activity/KikApiLandingActivity;)V
     .locals 0
 
     .prologue
     .line 52
-    invoke-direct {p0}, Lkik/android/chat/activity/KikApiLandingActivity;->d()V
+    invoke-direct {p0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->d()V
 
     return-void
 .end method
@@ -1094,25 +1094,25 @@
     .line 295
     new-instance v0, Landroid/content/Intent;
 
-    const-class v1, Lkik/android/chat/activity/IntroActivity;
+    const-class v1, Lkik/arcane/chat/activity/IntroActivity;
 
     invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
     .line 296
-    invoke-virtual {p0, v0}, Lkik/android/chat/activity/KikApiLandingActivity;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->startActivity(Landroid/content/Intent;)V
 
     .line 297
     return-void
 .end method
 
-.method static synthetic d(Lkik/android/chat/activity/KikApiLandingActivity;)V
+.method static synthetic d(Lkik/arcane/chat/activity/KikApiLandingActivity;)V
     .locals 1
 
     .prologue
     .line 52
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lkik/android/chat/activity/KikApiLandingActivity;->a(Z)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->a(Z)V
 
     return-void
 .end method
@@ -1124,78 +1124,78 @@
     .line 301
     new-instance v0, Landroid/content/Intent;
 
-    const-class v1, Lkik/android/chat/activity/IntroActivity;
+    const-class v1, Lkik/arcane/chat/activity/IntroActivity;
 
     invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
     .line 302
-    invoke-virtual {p0, v0}, Lkik/android/chat/activity/KikApiLandingActivity;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->startActivity(Landroid/content/Intent;)V
 
     .line 303
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikApiLandingActivity;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->finish()V
 
     .line 304
     return-void
 .end method
 
-.method static synthetic e(Lkik/android/chat/activity/KikApiLandingActivity;)V
+.method static synthetic e(Lkik/arcane/chat/activity/KikApiLandingActivity;)V
     .locals 2
 
     .prologue
     .line 4393
-    new-instance v0, Lkik/android/chat/fragment/KikConversationsFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/KikConversationsFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/KikConversationsFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/KikConversationsFragment$a;-><init>()V
 
     .line 4394
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikConversationsFragment$a;->b(Z)Lkik/android/chat/fragment/KikConversationsFragment$a;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikConversationsFragment$a;->b(Z)Lkik/arcane/chat/fragment/KikConversationsFragment$a;
 
     .line 4395
-    invoke-static {v0, p0}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/util/ae;Landroid/content/Context;)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-static {v0, p0}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/util/ae;Landroid/content/Context;)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b()Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b()Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
 
     .line 52
     return-void
 .end method
 
-.method static synthetic f(Lkik/android/chat/activity/KikApiLandingActivity;)Landroid/widget/Toast;
+.method static synthetic f(Lkik/arcane/chat/activity/KikApiLandingActivity;)Landroid/widget/Toast;
     .locals 1
 
     .prologue
     .line 52
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->n:Landroid/widget/Toast;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->n:Landroid/widget/Toast;
 
     return-object v0
 .end method
 
-.method private f()Lkik/android/chat/vm/bd;
+.method private f()Lkik/arcane/chat/vm/bd;
     .locals 1
 
     .prologue
     .line 516
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->p:Lkik/android/chat/vm/bd;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->p:Lkik/arcane/chat/vm/bd;
 
     if-nez v0, :cond_0
 
     .line 517
-    new-instance v0, Lkik/android/chat/vm/cc;
+    new-instance v0, Lkik/arcane/chat/vm/cc;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/vm/cc;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/vm/cc;-><init>(Landroid/content/Context;)V
 
-    iput-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->p:Lkik/android/chat/vm/bd;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->p:Lkik/arcane/chat/vm/bd;
 
     .line 520
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->p:Lkik/android/chat/vm/bd;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->p:Lkik/arcane/chat/vm/bd;
 
     return-object v0
 .end method
@@ -1207,90 +1207,90 @@
 
     .prologue
     .line 264
-    invoke-super {p0, p1}, Lkik/android/chat/activity/KikIqActivityBase;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/activity/KikIqActivityBase;->onCreate(Landroid/os/Bundle;)V
 
     .line 266
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikApiLandingActivity;->getApplication()Landroid/app/Application;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->getApplication()Landroid/app/Application;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/e;
+    check-cast v0, Lkik/arcane/chat/e;
 
-    invoke-interface {v0}, Lkik/android/chat/e;->a()Lcom/kik/components/CoreComponent;
+    invoke-interface {v0}, Lkik/arcane/chat/e;->a()Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 
-    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/activity/KikApiLandingActivity;)V
+    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/activity/KikApiLandingActivity;)V
 
     .line 268
     new-instance v0, Lcom/kik/a/c;
 
-    iget-object v1, p0, Lkik/android/chat/activity/KikApiLandingActivity;->q:Lcom/kik/a/b;
+    iget-object v1, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->q:Lcom/kik/a/b;
 
     invoke-direct {v0, v1}, Lcom/kik/a/c;-><init>(Lcom/kik/a/b;)V
 
-    iput-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->o:Lcom/kik/a/c;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->o:Lcom/kik/a/c;
 
     .line 269
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->o:Lcom/kik/a/c;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->o:Lcom/kik/a/c;
 
-    iget-object v1, p0, Lkik/android/chat/activity/KikApiLandingActivity;->s:Lcom/kik/a/b;
+    iget-object v1, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->s:Lcom/kik/a/b;
 
     invoke-virtual {v0, v1}, Lcom/kik/a/c;->a(Lcom/kik/a/b;)V
 
     .line 270
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->o:Lcom/kik/a/c;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->o:Lcom/kik/a/c;
 
-    iget-object v1, p0, Lkik/android/chat/activity/KikApiLandingActivity;->w:Lcom/kik/a/b;
+    iget-object v1, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->w:Lcom/kik/a/b;
 
     invoke-virtual {v0, v1}, Lcom/kik/a/c;->a(Lcom/kik/a/b;)V
 
     .line 271
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->o:Lcom/kik/a/c;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->o:Lcom/kik/a/c;
 
-    iget-object v1, p0, Lkik/android/chat/activity/KikApiLandingActivity;->t:Lcom/kik/a/b;
+    iget-object v1, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->t:Lcom/kik/a/b;
 
     invoke-virtual {v0, v1}, Lcom/kik/a/c;->a(Lcom/kik/a/b;)V
 
     .line 272
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->o:Lcom/kik/a/c;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->o:Lcom/kik/a/c;
 
-    iget-object v1, p0, Lkik/android/chat/activity/KikApiLandingActivity;->v:Lcom/kik/a/b;
+    iget-object v1, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->v:Lcom/kik/a/b;
 
     invoke-virtual {v0, v1}, Lcom/kik/a/c;->a(Lcom/kik/a/b;)V
 
     .line 273
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->o:Lcom/kik/a/c;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->o:Lcom/kik/a/c;
 
-    iget-object v1, p0, Lkik/android/chat/activity/KikApiLandingActivity;->x:Lcom/kik/a/b;
+    iget-object v1, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->x:Lcom/kik/a/b;
 
     invoke-virtual {v0, v1}, Lcom/kik/a/c;->a(Lcom/kik/a/b;)V
 
     .line 274
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->o:Lcom/kik/a/c;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->o:Lcom/kik/a/c;
 
-    iget-object v1, p0, Lkik/android/chat/activity/KikApiLandingActivity;->y:Lcom/kik/a/b;
+    iget-object v1, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->y:Lcom/kik/a/b;
 
     invoke-virtual {v0, v1}, Lcom/kik/a/c;->a(Lcom/kik/a/b;)V
 
     .line 275
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->o:Lcom/kik/a/c;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->o:Lcom/kik/a/c;
 
-    iget-object v1, p0, Lkik/android/chat/activity/KikApiLandingActivity;->z:Lcom/kik/a/b;
+    iget-object v1, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->z:Lcom/kik/a/b;
 
     invoke-virtual {v0, v1}, Lcom/kik/a/c;->a(Lcom/kik/a/b;)V
 
     .line 278
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->o:Lcom/kik/a/c;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->o:Lcom/kik/a/c;
 
-    iget-object v1, p0, Lkik/android/chat/activity/KikApiLandingActivity;->r:Lcom/kik/a/b;
+    iget-object v1, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->r:Lcom/kik/a/b;
 
     invoke-virtual {v0, v1}, Lcom/kik/a/c;->a(Lcom/kik/a/b;)V
 
     .line 279
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->o:Lcom/kik/a/c;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->o:Lcom/kik/a/c;
 
-    iget-object v1, p0, Lkik/android/chat/activity/KikApiLandingActivity;->u:Lcom/kik/a/b;
+    iget-object v1, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->u:Lcom/kik/a/b;
 
     invoke-virtual {v0, v1}, Lcom/kik/a/c;->a(Lcom/kik/a/b;)V
 
@@ -1303,10 +1303,10 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->n:Landroid/widget/Toast;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->n:Landroid/widget/Toast;
 
     .line 282
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->g:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->g:Lkik/core/interfaces/ad;
 
     const-string v1, "challenge.OnDemandCaptchaManager.shown"
 
@@ -1322,9 +1322,9 @@
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->h:Lkik/android/util/t;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->h:Lkik/arcane/util/t;
 
-    invoke-virtual {v0}, Lkik/android/util/t;->a()Z
+    invoke-virtual {v0}, Lkik/arcane/util/t;->a()Z
 
     move-result v0
 
@@ -1332,11 +1332,11 @@
 
     .line 283
     :cond_0
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikApiLandingActivity;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->finish()V
 
     .line 285
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity;->g:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity;->g:Lkik/core/interfaces/ad;
 
     const-string v1, "temporary.ban.manager.exists"
 
@@ -1351,27 +1351,27 @@
     if-eqz v0, :cond_2
 
     .line 1330
-    new-instance v0, Lkik/android/chat/fragment/KikConversationsFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/KikConversationsFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/KikConversationsFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/KikConversationsFragment$a;-><init>()V
 
     .line 1331
-    invoke-static {v0, p0}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/util/ae;Landroid/content/Context;)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-static {v0, p0}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/util/ae;Landroid/content/Context;)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a()Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a()Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->c()Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->c()Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
 
     .line 1333
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikApiLandingActivity;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->finish()V
 
     .line 291
     :goto_0
@@ -1379,11 +1379,11 @@
 
     .line 289
     :cond_2
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikApiLandingActivity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lkik/android/chat/activity/KikApiLandingActivity;->a(Landroid/content/Intent;)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->a(Landroid/content/Intent;)V
 
     goto :goto_0
 .end method
@@ -1393,10 +1393,10 @@
 
     .prologue
     .line 323
-    invoke-super {p0, p1}, Lkik/android/chat/activity/KikIqActivityBase;->onNewIntent(Landroid/content/Intent;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/activity/KikIqActivityBase;->onNewIntent(Landroid/content/Intent;)V
 
     .line 324
-    invoke-direct {p0, p1}, Lkik/android/chat/activity/KikApiLandingActivity;->a(Landroid/content/Intent;)V
+    invoke-direct {p0, p1}, Lkik/arcane/chat/activity/KikApiLandingActivity;->a(Landroid/content/Intent;)V
 
     .line 325
     return-void

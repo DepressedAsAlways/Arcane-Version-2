@@ -1,4 +1,4 @@
-.class public Lkik/android/chat/activity/KikCropActivity_ViewBinding;
+.class public Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field private a:Lkik/android/chat/activity/KikCropActivity;
+.field private a:Lkik/arcane/chat/activity/KikCropActivity;
 
 .field private b:Landroid/view/View;
 
@@ -21,7 +21,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/chat/activity/KikCropActivity;Landroid/view/View;)V
+.method public constructor <init>(Lkik/arcane/chat/activity/KikCropActivity;Landroid/view/View;)V
     .locals 3
 
     .prologue
@@ -29,22 +29,22 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 35
-    iput-object p1, p0, Lkik/android/chat/activity/KikCropActivity_ViewBinding;->a:Lkik/android/chat/activity/KikCropActivity;
+    iput-object p1, p0, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;->a:Lkik/arcane/chat/activity/KikCropActivity;
 
     .line 38
     const v0, 0x7f100128
 
     const-string v1, "field \'_cropView\'"
 
-    const-class v2, Lkik/android/widget/KikCropView;
+    const-class v2, Lkik/arcane/widget/KikCropView;
 
     invoke-static {p2, v0, v1, v2}, Lbutterknife/internal/Utils;->findRequiredViewAsType(Landroid/view/View;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/widget/KikCropView;
+    check-cast v0, Lkik/arcane/widget/KikCropView;
 
-    iput-object v0, p1, Lkik/android/chat/activity/KikCropActivity;->_cropView:Lkik/android/widget/KikCropView;
+    iput-object v0, p1, Lkik/arcane/chat/activity/KikCropActivity;->_cropView:Lkik/arcane/widget/KikCropView;
 
     .line 39
     const v0, 0x7f100120
@@ -56,12 +56,12 @@
     move-result-object v0
 
     .line 40
-    iput-object v0, p0, Lkik/android/chat/activity/KikCropActivity_ViewBinding;->b:Landroid/view/View;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;->b:Landroid/view/View;
 
     .line 41
-    new-instance v1, Lkik/android/chat/activity/KikCropActivity_ViewBinding$1;
+    new-instance v1, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding$1;
 
-    invoke-direct {v1, p0, p1}, Lkik/android/chat/activity/KikCropActivity_ViewBinding$1;-><init>(Lkik/android/chat/activity/KikCropActivity_ViewBinding;Lkik/android/chat/activity/KikCropActivity;)V
+    invoke-direct {v1, p0, p1}, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding$1;-><init>(Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;Lkik/arcane/chat/activity/KikCropActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -75,12 +75,12 @@
     move-result-object v0
 
     .line 48
-    iput-object v0, p0, Lkik/android/chat/activity/KikCropActivity_ViewBinding;->c:Landroid/view/View;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;->c:Landroid/view/View;
 
     .line 49
-    new-instance v1, Lkik/android/chat/activity/KikCropActivity_ViewBinding$2;
+    new-instance v1, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding$2;
 
-    invoke-direct {v1, p0, p1}, Lkik/android/chat/activity/KikCropActivity_ViewBinding$2;-><init>(Lkik/android/chat/activity/KikCropActivity_ViewBinding;Lkik/android/chat/activity/KikCropActivity;)V
+    invoke-direct {v1, p0, p1}, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding$2;-><init>(Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;Lkik/arcane/chat/activity/KikCropActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -94,12 +94,12 @@
     move-result-object v0
 
     .line 56
-    iput-object v0, p0, Lkik/android/chat/activity/KikCropActivity_ViewBinding;->d:Landroid/view/View;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;->d:Landroid/view/View;
 
     .line 57
-    new-instance v1, Lkik/android/chat/activity/KikCropActivity_ViewBinding$3;
+    new-instance v1, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding$3;
 
-    invoke-direct {v1, p0, p1}, Lkik/android/chat/activity/KikCropActivity_ViewBinding$3;-><init>(Lkik/android/chat/activity/KikCropActivity_ViewBinding;Lkik/android/chat/activity/KikCropActivity;)V
+    invoke-direct {v1, p0, p1}, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding$3;-><init>(Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;Lkik/arcane/chat/activity/KikCropActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -113,12 +113,12 @@
     move-result-object v0
 
     .line 64
-    iput-object v0, p0, Lkik/android/chat/activity/KikCropActivity_ViewBinding;->e:Landroid/view/View;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;->e:Landroid/view/View;
 
     .line 65
-    new-instance v1, Lkik/android/chat/activity/KikCropActivity_ViewBinding$4;
+    new-instance v1, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding$4;
 
-    invoke-direct {v1, p0, p1}, Lkik/android/chat/activity/KikCropActivity_ViewBinding$4;-><init>(Lkik/android/chat/activity/KikCropActivity_ViewBinding;Lkik/android/chat/activity/KikCropActivity;)V
+    invoke-direct {v1, p0, p1}, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding$4;-><init>(Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;Lkik/arcane/chat/activity/KikCropActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -132,12 +132,12 @@
     move-result-object v0
 
     .line 72
-    iput-object v0, p0, Lkik/android/chat/activity/KikCropActivity_ViewBinding;->f:Landroid/view/View;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;->f:Landroid/view/View;
 
     .line 73
-    new-instance v1, Lkik/android/chat/activity/KikCropActivity_ViewBinding$5;
+    new-instance v1, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding$5;
 
-    invoke-direct {v1, p0, p1}, Lkik/android/chat/activity/KikCropActivity_ViewBinding$5;-><init>(Lkik/android/chat/activity/KikCropActivity_ViewBinding;Lkik/android/chat/activity/KikCropActivity;)V
+    invoke-direct {v1, p0, p1}, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding$5;-><init>(Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;Lkik/arcane/chat/activity/KikCropActivity;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -154,7 +154,7 @@
     const/4 v1, 0x0
 
     .line 84
-    iget-object v0, p0, Lkik/android/chat/activity/KikCropActivity_ViewBinding;->a:Lkik/android/chat/activity/KikCropActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;->a:Lkik/arcane/chat/activity/KikCropActivity;
 
     .line 85
     if-nez v0, :cond_0
@@ -169,50 +169,50 @@
 
     .line 86
     :cond_0
-    iput-object v1, p0, Lkik/android/chat/activity/KikCropActivity_ViewBinding;->a:Lkik/android/chat/activity/KikCropActivity;
+    iput-object v1, p0, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;->a:Lkik/arcane/chat/activity/KikCropActivity;
 
     .line 88
-    iput-object v1, v0, Lkik/android/chat/activity/KikCropActivity;->_cropView:Lkik/android/widget/KikCropView;
+    iput-object v1, v0, Lkik/arcane/chat/activity/KikCropActivity;->_cropView:Lkik/arcane/widget/KikCropView;
 
     .line 90
-    iget-object v0, p0, Lkik/android/chat/activity/KikCropActivity_ViewBinding;->b:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;->b:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 91
-    iput-object v1, p0, Lkik/android/chat/activity/KikCropActivity_ViewBinding;->b:Landroid/view/View;
+    iput-object v1, p0, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;->b:Landroid/view/View;
 
     .line 92
-    iget-object v0, p0, Lkik/android/chat/activity/KikCropActivity_ViewBinding;->c:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;->c:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 93
-    iput-object v1, p0, Lkik/android/chat/activity/KikCropActivity_ViewBinding;->c:Landroid/view/View;
+    iput-object v1, p0, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;->c:Landroid/view/View;
 
     .line 94
-    iget-object v0, p0, Lkik/android/chat/activity/KikCropActivity_ViewBinding;->d:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;->d:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 95
-    iput-object v1, p0, Lkik/android/chat/activity/KikCropActivity_ViewBinding;->d:Landroid/view/View;
+    iput-object v1, p0, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;->d:Landroid/view/View;
 
     .line 96
-    iget-object v0, p0, Lkik/android/chat/activity/KikCropActivity_ViewBinding;->e:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;->e:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 97
-    iput-object v1, p0, Lkik/android/chat/activity/KikCropActivity_ViewBinding;->e:Landroid/view/View;
+    iput-object v1, p0, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;->e:Landroid/view/View;
 
     .line 98
-    iget-object v0, p0, Lkik/android/chat/activity/KikCropActivity_ViewBinding;->f:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;->f:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 99
-    iput-object v1, p0, Lkik/android/chat/activity/KikCropActivity_ViewBinding;->f:Landroid/view/View;
+    iput-object v1, p0, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;->f:Landroid/view/View;
 
     .line 100
     return-void

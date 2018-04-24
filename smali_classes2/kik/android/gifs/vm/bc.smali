@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/gifs/vm/bc;
+.class final synthetic Lkik/arcane/gifs/vm/bc;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -15,7 +15,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/gifs/vm/bc;->a:Lrx/subjects/a;
+    iput-object p1, p0, Lkik/arcane/gifs/vm/bc;->a:Lrx/subjects/a;
 
     return-void
 .end method
@@ -23,9 +23,9 @@
 .method public static a(Lrx/subjects/a;)Lrx/functions/b;
     .locals 1
 
-    new-instance v0, Lkik/android/gifs/vm/bc;
+    new-instance v0, Lkik/arcane/gifs/vm/bc;
 
-    invoke-direct {v0, p0}, Lkik/android/gifs/vm/bc;-><init>(Lrx/subjects/a;)V
+    invoke-direct {v0, p0}, Lkik/arcane/gifs/vm/bc;-><init>(Lrx/subjects/a;)V
 
     return-object v0
 .end method
@@ -35,7 +35,7 @@
 .method public final call(Ljava/lang/Object;)V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/gifs/vm/bc;->a:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/bc;->a:Lrx/subjects/a;
 
     check-cast p1, Ljava/lang/Boolean;
 

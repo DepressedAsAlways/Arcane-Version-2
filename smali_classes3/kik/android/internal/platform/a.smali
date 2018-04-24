@@ -1,4 +1,4 @@
-.class public final Lkik/android/internal/platform/a;
+.class public final Lkik/arcane/internal/platform/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -67,36 +67,36 @@
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    iput-object v0, p0, Lkik/android/internal/platform/a;->a:Ljava/util/HashMap;
+    iput-object v0, p0, Lkik/arcane/internal/platform/a;->a:Ljava/util/HashMap;
 
     .line 34
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    iput-object v0, p0, Lkik/android/internal/platform/a;->b:Ljava/util/HashMap;
+    iput-object v0, p0, Lkik/arcane/internal/platform/a;->b:Ljava/util/HashMap;
 
     .line 35
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    iput-object v0, p0, Lkik/android/internal/platform/a;->c:Ljava/util/HashMap;
+    iput-object v0, p0, Lkik/arcane/internal/platform/a;->c:Ljava/util/HashMap;
 
     .line 37
-    iput-boolean v2, p0, Lkik/android/internal/platform/a;->e:Z
+    iput-boolean v2, p0, Lkik/arcane/internal/platform/a;->e:Z
 
     .line 49
     new-instance v0, Landroid/graphics/BitmapFactory$Options;
 
     invoke-direct {v0}, Landroid/graphics/BitmapFactory$Options;-><init>()V
 
-    iput-object v0, p0, Lkik/android/internal/platform/a;->h:Landroid/graphics/BitmapFactory$Options;
+    iput-object v0, p0, Lkik/arcane/internal/platform/a;->h:Landroid/graphics/BitmapFactory$Options;
 
     .line 83
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/internal/platform/a;->i:I
+    iput v0, p0, Lkik/arcane/internal/platform/a;->i:I
 
     .line 84
     invoke-virtual {p1}, Ljava/lang/String;->length()I
@@ -104,14 +104,14 @@
     move-result v0
 
     .line 1416
-    iget v1, p0, Lkik/android/internal/platform/a;->i:I
+    iget v1, p0, Lkik/arcane/internal/platform/a;->i:I
 
     add-int/2addr v0, v1
 
-    iput v0, p0, Lkik/android/internal/platform/a;->i:I
+    iput v0, p0, Lkik/arcane/internal/platform/a;->i:I
 
     .line 85
-    iput-object p1, p0, Lkik/android/internal/platform/a;->g:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/internal/platform/a;->g:Ljava/lang/String;
 
     .line 87
     invoke-static {}, Ljava/util/UUID;->randomUUID()Ljava/util/UUID;
@@ -122,10 +122,10 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/internal/platform/a;->f:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/internal/platform/a;->f:Ljava/lang/String;
 
     .line 89
-    iget-object v0, p0, Lkik/android/internal/platform/a;->h:Landroid/graphics/BitmapFactory$Options;
+    iget-object v0, p0, Lkik/arcane/internal/platform/a;->h:Landroid/graphics/BitmapFactory$Options;
 
     iput-boolean v2, v0, Landroid/graphics/BitmapFactory$Options;->inJustDecodeBounds:Z
 
@@ -140,7 +140,7 @@
     .line 187
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/internal/platform/a;->a(Landroid/graphics/drawable/BitmapDrawable;F)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/internal/platform/a;->a(Landroid/graphics/drawable/BitmapDrawable;F)V
 
     .line 188
     return-void
@@ -153,7 +153,7 @@
     .line 192
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lkik/android/internal/platform/a;->a([B)V
+    invoke-direct {p0, v0}, Lkik/arcane/internal/platform/a;->a([B)V
 
     .line 193
     if-eqz p1, :cond_0
@@ -438,7 +438,7 @@
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lkik/android/internal/platform/a;->a([B)V
+    invoke-direct {p0, v0}, Lkik/arcane/internal/platform/a;->a([B)V
 
     .line 247
     :try_start_0
@@ -463,7 +463,7 @@
     if-eqz p1, :cond_0
 
     .line 434
-    iget-object v0, p0, Lkik/android/internal/platform/a;->c:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/internal/platform/a;->c:Ljava/util/HashMap;
 
     const-string v1, "preview"
 
@@ -475,7 +475,7 @@
 
     .line 437
     :cond_0
-    iget-object v0, p0, Lkik/android/internal/platform/a;->c:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/internal/platform/a;->c:Ljava/util/HashMap;
 
     const-string v1, "preview"
 
@@ -491,7 +491,7 @@
 
     .prologue
     .line 100
-    iget-object v0, p0, Lkik/android/internal/platform/a;->f:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/internal/platform/a;->f:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -503,42 +503,42 @@
     .line 386
     const-string v0, "com.kik.platform.content.EXTRA_EXTRA_HASH"
 
-    iget-object v1, p0, Lkik/android/internal/platform/a;->b:Ljava/util/HashMap;
+    iget-object v1, p0, Lkik/arcane/internal/platform/a;->b:Ljava/util/HashMap;
 
     invoke-virtual {p1, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
     .line 387
     const-string v0, "com.kik.platform.content.EXTRA_STRING_HASH"
 
-    iget-object v1, p0, Lkik/android/internal/platform/a;->a:Ljava/util/HashMap;
+    iget-object v1, p0, Lkik/arcane/internal/platform/a;->a:Ljava/util/HashMap;
 
     invoke-virtual {p1, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
     .line 388
     const-string v0, "com.kik.platform.content.EXTRA_IMAGE_HASH"
 
-    iget-object v1, p0, Lkik/android/internal/platform/a;->c:Ljava/util/HashMap;
+    iget-object v1, p0, Lkik/arcane/internal/platform/a;->c:Ljava/util/HashMap;
 
     invoke-virtual {p1, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
     .line 389
     const-string v0, "allow-forward"
 
-    iget-boolean v1, p0, Lkik/android/internal/platform/a;->e:Z
+    iget-boolean v1, p0, Lkik/arcane/internal/platform/a;->e:Z
 
     invoke-virtual {p1, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     .line 391
     const-string v0, "com.kik.platform.content.EXTRA_APP_ID"
 
-    iget-object v1, p0, Lkik/android/internal/platform/a;->g:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/internal/platform/a;->g:Ljava/lang/String;
 
     invoke-virtual {p1, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 392
     const-string v0, "com.kik.platform.content.EXTRA_CONTENT_ID"
 
-    iget-object v1, p0, Lkik/android/internal/platform/a;->f:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/internal/platform/a;->f:Ljava/lang/String;
 
     invoke-virtual {p1, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
@@ -572,7 +572,7 @@
 
     invoke-direct {v0, v1}, Landroid/graphics/drawable/BitmapDrawable;-><init>(Landroid/graphics/Bitmap;)V
 
-    invoke-direct {p0, v0}, Lkik/android/internal/platform/a;->a(Landroid/graphics/drawable/BitmapDrawable;)V
+    invoke-direct {p0, v0}, Lkik/arcane/internal/platform/a;->a(Landroid/graphics/drawable/BitmapDrawable;)V
 
     .line 297
     :goto_0
@@ -584,12 +584,12 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/h;->b(Ljava/lang/String;)F
+    invoke-static {v0}, Lkik/arcane/util/h;->b(Ljava/lang/String;)F
 
     move-result v0
 
     .line 276
-    invoke-direct {p0, v1}, Lkik/android/internal/platform/a;->a([B)V
+    invoke-direct {p0, v1}, Lkik/arcane/internal/platform/a;->a([B)V
 
     .line 280
     :try_start_0
@@ -600,7 +600,7 @@
     .line 281
     const/4 v2, 0x0
 
-    iget-object v3, p0, Lkik/android/internal/platform/a;->h:Landroid/graphics/BitmapFactory$Options;
+    iget-object v3, p0, Lkik/arcane/internal/platform/a;->h:Landroid/graphics/BitmapFactory$Options;
 
     invoke-static {v1, v2, v3}, Landroid/graphics/BitmapFactory;->decodeStream(Ljava/io/InputStream;Landroid/graphics/Rect;Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
 
@@ -615,11 +615,11 @@
     invoke-direct {v2}, Landroid/graphics/BitmapFactory$Options;-><init>()V
 
     .line 285
-    iget-object v3, p0, Lkik/android/internal/platform/a;->h:Landroid/graphics/BitmapFactory$Options;
+    iget-object v3, p0, Lkik/arcane/internal/platform/a;->h:Landroid/graphics/BitmapFactory$Options;
 
     iget v3, v3, Landroid/graphics/BitmapFactory$Options;->outWidth:I
 
-    iget-object v4, p0, Lkik/android/internal/platform/a;->h:Landroid/graphics/BitmapFactory$Options;
+    iget-object v4, p0, Lkik/arcane/internal/platform/a;->h:Landroid/graphics/BitmapFactory$Options;
 
     iget v4, v4, Landroid/graphics/BitmapFactory$Options;->outHeight:I
 
@@ -657,7 +657,7 @@
 
     invoke-direct {v2, v1}, Landroid/graphics/drawable/BitmapDrawable;-><init>(Landroid/graphics/Bitmap;)V
 
-    invoke-direct {p0, v2, v0}, Lkik/android/internal/platform/a;->a(Landroid/graphics/drawable/BitmapDrawable;F)V
+    invoke-direct {p0, v2, v0}, Lkik/arcane/internal/platform/a;->a(Landroid/graphics/drawable/BitmapDrawable;F)V
 
     goto :goto_0
 
@@ -673,7 +673,7 @@
 
     .prologue
     .line 147
-    iget-object v0, p0, Lkik/android/internal/platform/a;->a:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/internal/platform/a;->a:Ljava/util/HashMap;
 
     const-string v1, "text"
 
@@ -696,12 +696,12 @@
 
     .prologue
     .line 341
-    iget-object v0, p0, Lkik/android/internal/platform/a;->d:Ljava/io/File;
+    iget-object v0, p0, Lkik/arcane/internal/platform/a;->d:Ljava/io/File;
 
     if-eqz v0, :cond_1
 
     .line 342
-    iget-object v0, p0, Lkik/android/internal/platform/a;->d:Ljava/io/File;
+    iget-object v0, p0, Lkik/arcane/internal/platform/a;->d:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
@@ -720,7 +720,7 @@
 
     .line 345
     :cond_0
-    iget-object v0, p0, Lkik/android/internal/platform/a;->d:Ljava/io/File;
+    iget-object v0, p0, Lkik/arcane/internal/platform/a;->d:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->length()J
 
@@ -743,7 +743,7 @@
 
     .line 349
     :cond_1
-    iput-object p1, p0, Lkik/android/internal/platform/a;->d:Ljava/io/File;
+    iput-object p1, p0, Lkik/arcane/internal/platform/a;->d:Ljava/io/File;
 
     .line 350
     return-void
@@ -754,7 +754,7 @@
 
     .prologue
     .line 158
-    iget-object v0, p0, Lkik/android/internal/platform/a;->a:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/internal/platform/a;->a:Ljava/util/HashMap;
 
     const-string v1, "title"
 
@@ -771,18 +771,18 @@
     .locals 5
     .annotation system Ldalvik/annotation/Throws;
         value = {
-            Lkik/android/internal/platform/KikClient$KikException;
+            Lkik/arcane/internal/platform/KikClient$KikException;
         }
     .end annotation
 
     .prologue
     .line 354
-    iget-object v0, p0, Lkik/android/internal/platform/a;->d:Ljava/io/File;
+    iget-object v0, p0, Lkik/arcane/internal/platform/a;->d:Ljava/io/File;
 
     if-eqz v0, :cond_4
 
     .line 355
-    iget-object v0, p0, Lkik/android/internal/platform/a;->d:Ljava/io/File;
+    iget-object v0, p0, Lkik/arcane/internal/platform/a;->d:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
@@ -791,17 +791,17 @@
     if-nez v0, :cond_0
 
     .line 356
-    new-instance v0, Lkik/android/internal/platform/KikClient$KikException;
+    new-instance v0, Lkik/arcane/internal/platform/KikClient$KikException;
 
     const-string v1, "Cannot attach file because it does not exist!"
 
-    invoke-direct {v0, v1}, Lkik/android/internal/platform/KikClient$KikException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lkik/arcane/internal/platform/KikClient$KikException;-><init>(Ljava/lang/String;)V
 
     throw v0
 
     .line 358
     :cond_0
-    iget-object v0, p0, Lkik/android/internal/platform/a;->d:Ljava/io/File;
+    iget-object v0, p0, Lkik/arcane/internal/platform/a;->d:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->length()J
 
@@ -814,24 +814,24 @@
     if-lez v0, :cond_1
 
     .line 359
-    new-instance v0, Lkik/android/internal/platform/KikClient$KikException;
+    new-instance v0, Lkik/arcane/internal/platform/KikClient$KikException;
 
     const-string v1, "File too large! Cannot exceed 10000000 bytes"
 
-    invoke-direct {v0, v1}, Lkik/android/internal/platform/KikClient$KikException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lkik/arcane/internal/platform/KikClient$KikException;-><init>(Ljava/lang/String;)V
 
     throw v0
 
     .line 361
     :cond_1
-    iget-object v0, p0, Lkik/android/internal/platform/a;->d:Ljava/io/File;
+    iget-object v0, p0, Lkik/arcane/internal/platform/a;->d:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->getName()Ljava/lang/String;
 
     move-result-object v0
 
     .line 362
-    iget-object v1, p0, Lkik/android/internal/platform/a;->d:Ljava/io/File;
+    iget-object v1, p0, Lkik/arcane/internal/platform/a;->d:Ljava/io/File;
 
     invoke-virtual {v1}, Ljava/io/File;->length()J
 
@@ -875,7 +875,7 @@
 
     .line 2409
     :cond_2
-    iget-object v1, p0, Lkik/android/internal/platform/a;->a:Ljava/util/HashMap;
+    iget-object v1, p0, Lkik/arcane/internal/platform/a;->a:Ljava/util/HashMap;
 
     const-string v4, "file-name"
 
@@ -883,7 +883,7 @@
 
     .line 2411
     :cond_3
-    iget-object v0, p0, Lkik/android/internal/platform/a;->a:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/internal/platform/a;->a:Ljava/util/HashMap;
 
     const-string v1, "file-size"
 
@@ -902,39 +902,39 @@
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
-            Lkik/android/internal/platform/KikClient$KikException;
+            Lkik/arcane/internal/platform/KikClient$KikException;
         }
     .end annotation
 
     .prologue
     .line 369
-    iget v0, p0, Lkik/android/internal/platform/a;->i:I
+    iget v0, p0, Lkik/arcane/internal/platform/a;->i:I
 
     const/16 v1, 0x2710
 
     if-le v0, v1, :cond_0
 
     .line 370
-    new-instance v0, Lkik/android/internal/platform/KikClient$KikException;
+    new-instance v0, Lkik/arcane/internal/platform/KikClient$KikException;
 
     const-string v1, "Message is invalid and cannot send because total data size exceeds limit of 10000 bytes."
 
-    invoke-direct {v0, v1}, Lkik/android/internal/platform/KikClient$KikException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lkik/arcane/internal/platform/KikClient$KikException;-><init>(Ljava/lang/String;)V
 
     throw v0
 
     .line 372
     :cond_0
-    iget v0, p0, Lkik/android/internal/platform/a;->i:I
+    iget v0, p0, Lkik/arcane/internal/platform/a;->i:I
 
     if-gez v0, :cond_1
 
     .line 373
-    new-instance v0, Lkik/android/internal/platform/KikClient$KikException;
+    new-instance v0, Lkik/arcane/internal/platform/KikClient$KikException;
 
     const-string v1, "Message is invalid and cannot send because data size has somehow become negative."
 
-    invoke-direct {v0, v1}, Lkik/android/internal/platform/KikClient$KikException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lkik/arcane/internal/platform/KikClient$KikException;-><init>(Ljava/lang/String;)V
 
     throw v0
 
@@ -947,13 +947,13 @@
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
-            Lkik/android/internal/platform/KikClient$KikException;
+            Lkik/arcane/internal/platform/KikClient$KikException;
         }
     .end annotation
 
     .prologue
     .line 379
-    iget-object v0, p0, Lkik/android/internal/platform/a;->g:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/internal/platform/a;->g:Ljava/lang/String;
 
     const-string v1, "[a-zA-Z0-9\\.-]{5,128}"
 
@@ -964,11 +964,11 @@
     if-nez v0, :cond_0
 
     .line 380
-    new-instance v0, Lkik/android/internal/platform/KikClient$KikException;
+    new-instance v0, Lkik/arcane/internal/platform/KikClient$KikException;
 
     const-string v1, "Message is invalid and cannot send because of invalid app Id."
 
-    invoke-direct {v0, v1}, Lkik/android/internal/platform/KikClient$KikException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lkik/arcane/internal/platform/KikClient$KikException;-><init>(Ljava/lang/String;)V
 
     throw v0
 
@@ -982,7 +982,7 @@
 
     .prologue
     .line 399
-    iget-object v0, p0, Lkik/android/internal/platform/a;->d:Ljava/io/File;
+    iget-object v0, p0, Lkik/arcane/internal/platform/a;->d:Ljava/io/File;
 
     return-object v0
 .end method
@@ -994,7 +994,7 @@
     const/4 v1, 0x0
 
     .line 446
-    iget-object v0, p0, Lkik/android/internal/platform/a;->c:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/internal/platform/a;->c:Ljava/util/HashMap;
 
     const-string v2, "preview"
 
@@ -1094,7 +1094,7 @@
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lkik/android/internal/platform/a;->a([B)V
+    invoke-direct {p0, v0}, Lkik/arcane/internal/platform/a;->a([B)V
 
     goto :goto_0
 .end method
@@ -1114,7 +1114,7 @@
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 476
-    iget-object v0, p0, Lkik/android/internal/platform/a;->g:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/internal/platform/a;->g:Ljava/lang/String;
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1124,7 +1124,7 @@
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 478
-    iget-object v0, p0, Lkik/android/internal/platform/a;->f:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/internal/platform/a;->f:Ljava/lang/String;
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1134,7 +1134,7 @@
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 480
-    iget v0, p0, Lkik/android/internal/platform/a;->i:I
+    iget v0, p0, Lkik/arcane/internal/platform/a;->i:I
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -1144,7 +1144,7 @@
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 482
-    iget-boolean v0, p0, Lkik/android/internal/platform/a;->e:Z
+    iget-boolean v0, p0, Lkik/arcane/internal/platform/a;->e:Z
 
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
 
@@ -1154,7 +1154,7 @@
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 484
-    iget-object v0, p0, Lkik/android/internal/platform/a;->d:Ljava/io/File;
+    iget-object v0, p0, Lkik/arcane/internal/platform/a;->d:Ljava/io/File;
 
     if-nez v0, :cond_0
 
@@ -1169,7 +1169,7 @@
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 486
-    iget-object v0, p0, Lkik/android/internal/platform/a;->c:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/internal/platform/a;->c:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->entrySet()Ljava/util/Set;
 
@@ -1254,7 +1254,7 @@
 
     .line 484
     :cond_0
-    iget-object v0, p0, Lkik/android/internal/platform/a;->d:Ljava/io/File;
+    iget-object v0, p0, Lkik/arcane/internal/platform/a;->d:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
@@ -1274,7 +1274,7 @@
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 495
-    iget-object v0, p0, Lkik/android/internal/platform/a;->b:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/internal/platform/a;->b:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->entrySet()Ljava/util/Set;
 

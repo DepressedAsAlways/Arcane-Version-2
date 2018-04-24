@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/vm/cz$1;
+.class final Lkik/arcane/chat/vm/cz$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/cz;->q()V
+    value = Lkik/arcane/chat/vm/cz;->q()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,18 +26,18 @@
 # instance fields
 .field final synthetic a:Lkik/core/datatypes/l;
 
-.field final synthetic b:Lkik/android/chat/vm/cz;
+.field final synthetic b:Lkik/arcane/chat/vm/cz;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/cz;Lkik/core/datatypes/l;)V
+.method constructor <init>(Lkik/arcane/chat/vm/cz;Lkik/core/datatypes/l;)V
     .locals 0
 
     .prologue
     .line 196
-    iput-object p1, p0, Lkik/android/chat/vm/cz$1;->b:Lkik/android/chat/vm/cz;
+    iput-object p1, p0, Lkik/arcane/chat/vm/cz$1;->b:Lkik/arcane/chat/vm/cz;
 
-    iput-object p2, p0, Lkik/android/chat/vm/cz$1;->a:Lkik/core/datatypes/l;
+    iput-object p2, p0, Lkik/arcane/chat/vm/cz$1;->a:Lkik/core/datatypes/l;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -51,9 +51,9 @@
 
     .prologue
     .line 200
-    iget-object v0, p0, Lkik/android/chat/vm/cz$1;->b:Lkik/android/chat/vm/cz;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cz$1;->b:Lkik/arcane/chat/vm/cz;
 
-    invoke-static {v0}, Lkik/android/chat/vm/cz;->b(Lkik/android/chat/vm/cz;)Lrx/subjects/a;
+    invoke-static {v0}, Lkik/arcane/chat/vm/cz;->b(Lkik/arcane/chat/vm/cz;)Lrx/subjects/a;
 
     move-result-object v0
 
@@ -66,13 +66,13 @@
     invoke-virtual {v0, v1}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 
     .line 202
-    iget-object v0, p0, Lkik/android/chat/vm/cz$1;->b:Lkik/android/chat/vm/cz;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cz$1;->b:Lkik/arcane/chat/vm/cz;
 
     const-string v1, "Muted"
 
-    iget-object v2, p0, Lkik/android/chat/vm/cz$1;->a:Lkik/core/datatypes/l;
+    iget-object v2, p0, Lkik/arcane/chat/vm/cz$1;->a:Lkik/core/datatypes/l;
 
-    invoke-static {v0, v1, v2}, Lkik/android/chat/vm/cz;->a(Lkik/android/chat/vm/cz;Ljava/lang/String;Lkik/core/datatypes/l;)V
+    invoke-static {v0, v1, v2}, Lkik/arcane/chat/vm/cz;->a(Lkik/arcane/chat/vm/cz;Ljava/lang/String;Lkik/core/datatypes/l;)V
 
     .line 203
     return-void

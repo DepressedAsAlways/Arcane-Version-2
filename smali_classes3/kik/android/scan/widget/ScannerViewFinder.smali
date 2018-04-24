@@ -1,4 +1,4 @@
-.class public Lkik/android/scan/widget/ScannerViewFinder;
+.class public Lkik/arcane/scan/widget/ScannerViewFinder;
 .super Landroid/widget/FrameLayout;
 .source "SourceFile"
 
@@ -25,7 +25,7 @@
     .line 31
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/scan/widget/ScannerViewFinder;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/scan/widget/ScannerViewFinder;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 32
     return-void
@@ -38,7 +38,7 @@
     .line 36
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/scan/widget/ScannerViewFinder;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/scan/widget/ScannerViewFinder;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 37
     return-void
@@ -62,54 +62,54 @@
 
     invoke-direct {v0}, Landroid/graphics/Paint;-><init>()V
 
-    iput-object v0, p0, Lkik/android/scan/widget/ScannerViewFinder;->a:Landroid/graphics/Paint;
+    iput-object v0, p0, Lkik/arcane/scan/widget/ScannerViewFinder;->a:Landroid/graphics/Paint;
 
     .line 23
     const v0, 0x7f0e0014
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->d(I)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->d(I)I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/scan/widget/ScannerViewFinder;->b:I
+    iput v0, p0, Lkik/arcane/scan/widget/ScannerViewFinder;->b:I
 
     .line 24
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0}, Landroid/graphics/Paint;-><init>()V
 
-    iput-object v0, p0, Lkik/android/scan/widget/ScannerViewFinder;->c:Landroid/graphics/Paint;
+    iput-object v0, p0, Lkik/arcane/scan/widget/ScannerViewFinder;->c:Landroid/graphics/Paint;
 
     .line 25
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/scan/widget/ScannerViewFinder;->d:I
+    iput v0, p0, Lkik/arcane/scan/widget/ScannerViewFinder;->d:I
 
     .line 26
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/scan/widget/ScannerViewFinder;->e:I
+    iput v0, p0, Lkik/arcane/scan/widget/ScannerViewFinder;->e:I
 
     .line 27
     const/high16 v0, 0x43480000    # 200.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/scan/widget/ScannerViewFinder;->f:I
+    iput v0, p0, Lkik/arcane/scan/widget/ScannerViewFinder;->f:I
 
     .line 43
-    iget-object v0, p0, Lkik/android/scan/widget/ScannerViewFinder;->a:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/scan/widget/ScannerViewFinder;->a:Landroid/graphics/Paint;
 
     invoke-virtual {v0, v3}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
     .line 44
-    iget-object v0, p0, Lkik/android/scan/widget/ScannerViewFinder;->a:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/scan/widget/ScannerViewFinder;->a:Landroid/graphics/Paint;
 
     const/16 v1, 0x51
 
@@ -120,26 +120,26 @@
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
     .line 45
-    iget-object v0, p0, Lkik/android/scan/widget/ScannerViewFinder;->a:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/scan/widget/ScannerViewFinder;->a:Landroid/graphics/Paint;
 
     sget-object v1, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
     .line 46
-    iget-object v0, p0, Lkik/android/scan/widget/ScannerViewFinder;->a:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/scan/widget/ScannerViewFinder;->a:Landroid/graphics/Paint;
 
     const/high16 v1, 0x40800000    # 4.0f
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     .line 47
-    iget-object v0, p0, Lkik/android/scan/widget/ScannerViewFinder;->c:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/scan/widget/ScannerViewFinder;->c:Landroid/graphics/Paint;
 
     invoke-virtual {v0, v3}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
     .line 48
-    iget-object v0, p0, Lkik/android/scan/widget/ScannerViewFinder;->c:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/scan/widget/ScannerViewFinder;->c:Landroid/graphics/Paint;
 
     new-instance v1, Landroid/graphics/PorterDuffXfermode;
 
@@ -152,12 +152,12 @@
     .line 49
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/scan/widget/ScannerViewFinder;->setWillNotDraw(Z)V
+    invoke-virtual {p0, v0}, Lkik/arcane/scan/widget/ScannerViewFinder;->setWillNotDraw(Z)V
 
     .line 50
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v3, v0}, Lkik/android/scan/widget/ScannerViewFinder;->setLayerType(ILandroid/graphics/Paint;)V
+    invoke-virtual {p0, v3, v0}, Lkik/arcane/scan/widget/ScannerViewFinder;->setLayerType(ILandroid/graphics/Paint;)V
 
     .line 51
     return-void
@@ -172,17 +172,17 @@
     .line 56
     new-instance v0, Landroid/graphics/Point;
 
-    invoke-virtual {p0}, Lkik/android/scan/widget/ScannerViewFinder;->getMeasuredWidth()I
+    invoke-virtual {p0}, Lkik/arcane/scan/widget/ScannerViewFinder;->getMeasuredWidth()I
 
     move-result v1
 
     div-int/lit8 v1, v1, 0x2
 
-    invoke-virtual {p0}, Lkik/android/scan/widget/ScannerViewFinder;->getMeasuredHeight()I
+    invoke-virtual {p0}, Lkik/arcane/scan/widget/ScannerViewFinder;->getMeasuredHeight()I
 
     move-result v2
 
-    iget v3, p0, Lkik/android/scan/widget/ScannerViewFinder;->f:I
+    iget v3, p0, Lkik/arcane/scan/widget/ScannerViewFinder;->f:I
 
     sub-int/2addr v2, v3
 
@@ -201,28 +201,28 @@
     invoke-super {p0, p1}, Landroid/widget/FrameLayout;->onDraw(Landroid/graphics/Canvas;)V
 
     .line 63
-    iget v0, p0, Lkik/android/scan/widget/ScannerViewFinder;->b:I
+    iget v0, p0, Lkik/arcane/scan/widget/ScannerViewFinder;->b:I
 
     invoke-virtual {p1, v0}, Landroid/graphics/Canvas;->drawColor(I)V
 
     .line 64
-    invoke-virtual {p0}, Lkik/android/scan/widget/ScannerViewFinder;->getWidth()I
+    invoke-virtual {p0}, Lkik/arcane/scan/widget/ScannerViewFinder;->getWidth()I
 
     move-result v0
 
-    iget v1, p0, Lkik/android/scan/widget/ScannerViewFinder;->d:I
+    iget v1, p0, Lkik/arcane/scan/widget/ScannerViewFinder;->d:I
 
     sub-int/2addr v0, v1
 
-    iget v1, p0, Lkik/android/scan/widget/ScannerViewFinder;->e:I
+    iget v1, p0, Lkik/arcane/scan/widget/ScannerViewFinder;->e:I
 
     sub-int/2addr v0, v1
 
-    invoke-virtual {p0}, Lkik/android/scan/widget/ScannerViewFinder;->getHeight()I
+    invoke-virtual {p0}, Lkik/arcane/scan/widget/ScannerViewFinder;->getHeight()I
 
     move-result v1
 
-    iget v2, p0, Lkik/android/scan/widget/ScannerViewFinder;->f:I
+    iget v2, p0, Lkik/arcane/scan/widget/ScannerViewFinder;->f:I
 
     sub-int/2addr v1, v2
 
@@ -231,7 +231,7 @@
     move-result v0
 
     .line 65
-    invoke-virtual {p0}, Lkik/android/scan/widget/ScannerViewFinder;->getWidth()I
+    invoke-virtual {p0}, Lkik/arcane/scan/widget/ScannerViewFinder;->getWidth()I
 
     move-result v1
 
@@ -239,11 +239,11 @@
 
     int-to-float v1, v1
 
-    invoke-virtual {p0}, Lkik/android/scan/widget/ScannerViewFinder;->getHeight()I
+    invoke-virtual {p0}, Lkik/arcane/scan/widget/ScannerViewFinder;->getHeight()I
 
     move-result v2
 
-    iget v3, p0, Lkik/android/scan/widget/ScannerViewFinder;->f:I
+    iget v3, p0, Lkik/arcane/scan/widget/ScannerViewFinder;->f:I
 
     sub-int/2addr v2, v3
 
@@ -255,12 +255,12 @@
 
     int-to-float v3, v3
 
-    iget-object v4, p0, Lkik/android/scan/widget/ScannerViewFinder;->c:Landroid/graphics/Paint;
+    iget-object v4, p0, Lkik/arcane/scan/widget/ScannerViewFinder;->c:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v1, v2, v3, v4}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
     .line 66
-    invoke-virtual {p0}, Lkik/android/scan/widget/ScannerViewFinder;->getWidth()I
+    invoke-virtual {p0}, Lkik/arcane/scan/widget/ScannerViewFinder;->getWidth()I
 
     move-result v1
 
@@ -268,11 +268,11 @@
 
     int-to-float v1, v1
 
-    invoke-virtual {p0}, Lkik/android/scan/widget/ScannerViewFinder;->getHeight()I
+    invoke-virtual {p0}, Lkik/arcane/scan/widget/ScannerViewFinder;->getHeight()I
 
     move-result v2
 
-    iget v3, p0, Lkik/android/scan/widget/ScannerViewFinder;->f:I
+    iget v3, p0, Lkik/arcane/scan/widget/ScannerViewFinder;->f:I
 
     sub-int/2addr v2, v3
 
@@ -284,7 +284,7 @@
 
     int-to-float v0, v0
 
-    iget-object v3, p0, Lkik/android/scan/widget/ScannerViewFinder;->a:Landroid/graphics/Paint;
+    iget-object v3, p0, Lkik/arcane/scan/widget/ScannerViewFinder;->a:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v1, v2, v0, v3}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 

@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/g/g;
+.class final synthetic Lkik/arcane/g/g;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/g/g;
+.field private static final a:Lkik/arcane/g/g;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/g/g;
+    new-instance v0, Lkik/arcane/g/g;
 
-    invoke-direct {v0}, Lkik/android/g/g;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/g/g;-><init>()V
 
-    sput-object v0, Lkik/android/g/g;->a:Lkik/android/g/g;
+    sput-object v0, Lkik/arcane/g/g;->a:Lkik/arcane/g/g;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lcom/kik/events/p;
     .locals 1
 
-    sget-object v0, Lkik/android/g/g;->a:Lkik/android/g/g;
+    sget-object v0, Lkik/arcane/g/g;->a:Lkik/arcane/g/g;
 
     return-object v0
 .end method

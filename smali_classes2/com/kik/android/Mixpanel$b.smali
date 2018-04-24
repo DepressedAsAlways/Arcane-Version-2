@@ -1,11 +1,11 @@
-.class final Lcom/kik/android/Mixpanel$b;
+.class final Lcom/kik/arcane/Mixpanel$b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/kik/android/Mixpanel;
+    value = Lcom/kik/arcane/Mixpanel;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
         value = {
             "Ljava/util/List",
             "<",
-            "Lcom/kik/android/Mixpanel$a;",
+            "Lcom/kik/arcane/Mixpanel$a;",
             ">;"
         }
     .end annotation
@@ -40,7 +40,7 @@
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Lcom/kik/android/Mixpanel$b;->a:Ljava/util/List;
+    iput-object v0, p0, Lcom/kik/arcane/Mixpanel$b;->a:Ljava/util/List;
 
     .line 1490
     return-void
@@ -69,7 +69,7 @@
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     .line 1526
-    iget-object v0, p0, Lcom/kik/android/Mixpanel$b;->a:Ljava/util/List;
+    iget-object v0, p0, Lcom/kik/arcane/Mixpanel$b;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -86,10 +86,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/Mixpanel$a;
+    check-cast v0, Lcom/kik/arcane/Mixpanel$a;
 
     .line 1527
-    iget-object v0, v0, Lcom/kik/android/Mixpanel$a;->a:Ljava/util/Set;
+    iget-object v0, v0, Lcom/kik/arcane/Mixpanel$a;->a:Ljava/util/Set;
 
     invoke-interface {v1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 

@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/fragment/KikScopedDialogFragment_MembersInjector;
+.class public final Lkik/arcane/chat/fragment/KikScopedDialogFragment_MembersInjector;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/b",
         "<",
-        "Lkik/android/chat/fragment/KikScopedDialogFragment;",
+        "Lkik/arcane/chat/fragment/KikScopedDialogFragment;",
         ">;"
     }
 .end annotation
@@ -52,7 +52,7 @@
 
     .prologue
     .line 9
-    const-class v0, Lkik/android/chat/fragment/KikScopedDialogFragment_MembersInjector;
+    const-class v0, Lkik/arcane/chat/fragment/KikScopedDialogFragment_MembersInjector;
 
     invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
 
@@ -63,7 +63,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    sput-boolean v0, Lkik/android/chat/fragment/KikScopedDialogFragment_MembersInjector;->a:Z
+    sput-boolean v0, Lkik/arcane/chat/fragment/KikScopedDialogFragment_MembersInjector;->a:Z
 
     return-void
 
@@ -94,7 +94,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 21
-    sget-boolean v0, Lkik/android/chat/fragment/KikScopedDialogFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/KikScopedDialogFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_0
 
@@ -108,10 +108,10 @@
 
     .line 22
     :cond_0
-    iput-object p1, p0, Lkik/android/chat/fragment/KikScopedDialogFragment_MembersInjector;->b:Ljavax/inject/Provider;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikScopedDialogFragment_MembersInjector;->b:Ljavax/inject/Provider;
 
     .line 23
-    sget-boolean v0, Lkik/android/chat/fragment/KikScopedDialogFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/KikScopedDialogFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_1
 
@@ -125,7 +125,7 @@
 
     .line 24
     :cond_1
-    iput-object p2, p0, Lkik/android/chat/fragment/KikScopedDialogFragment_MembersInjector;->c:Ljavax/inject/Provider;
+    iput-object p2, p0, Lkik/arcane/chat/fragment/KikScopedDialogFragment_MembersInjector;->c:Ljavax/inject/Provider;
 
     .line 25
     return-void
@@ -146,26 +146,26 @@
             ">;)",
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/KikScopedDialogFragment;",
+            "Lkik/arcane/chat/fragment/KikScopedDialogFragment;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 29
-    new-instance v0, Lkik/android/chat/fragment/KikScopedDialogFragment_MembersInjector;
+    new-instance v0, Lkik/arcane/chat/fragment/KikScopedDialogFragment_MembersInjector;
 
-    invoke-direct {v0, p0, p1}, Lkik/android/chat/fragment/KikScopedDialogFragment_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;)V
+    invoke-direct {v0, p0, p1}, Lkik/arcane/chat/fragment/KikScopedDialogFragment_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;)V
 
     return-object v0
 .end method
 
-.method public static a(Lkik/android/chat/fragment/KikScopedDialogFragment;Ljavax/inject/Provider;)V
+.method public static a(Lkik/arcane/chat/fragment/KikScopedDialogFragment;Ljavax/inject/Provider;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/chat/fragment/KikScopedDialogFragment;",
+            "Lkik/arcane/chat/fragment/KikScopedDialogFragment;",
             "Ljavax/inject/Provider",
             "<",
             "Lkik/core/interfaces/ad;",
@@ -181,18 +181,18 @@
 
     check-cast v0, Lkik/core/interfaces/ad;
 
-    iput-object v0, p0, Lkik/android/chat/fragment/KikScopedDialogFragment;->_storage:Lkik/core/interfaces/ad;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->_storage:Lkik/core/interfaces/ad;
 
     .line 44
     return-void
 .end method
 
-.method public static b(Lkik/android/chat/fragment/KikScopedDialogFragment;Ljavax/inject/Provider;)V
+.method public static b(Lkik/arcane/chat/fragment/KikScopedDialogFragment;Ljavax/inject/Provider;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/chat/fragment/KikScopedDialogFragment;",
+            "Lkik/arcane/chat/fragment/KikScopedDialogFragment;",
             "Ljavax/inject/Provider",
             "<",
             "Lcom/kik/metrics/c/d;",
@@ -208,7 +208,7 @@
 
     check-cast v0, Lcom/kik/metrics/c/d;
 
-    iput-object v0, p0, Lkik/android/chat/fragment/KikScopedDialogFragment;->_metricsService:Lcom/kik/metrics/c/d;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->_metricsService:Lcom/kik/metrics/c/d;
 
     .line 49
     return-void
@@ -221,7 +221,7 @@
 
     .prologue
     .line 9
-    check-cast p1, Lkik/android/chat/fragment/KikScopedDialogFragment;
+    check-cast p1, Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     .line 1034
     if-nez p1, :cond_0
@@ -237,7 +237,7 @@
 
     .line 1037
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/KikScopedDialogFragment_MembersInjector;->b:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikScopedDialogFragment_MembersInjector;->b:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -245,10 +245,10 @@
 
     check-cast v0, Lkik/core/interfaces/ad;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikScopedDialogFragment;->_storage:Lkik/core/interfaces/ad;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->_storage:Lkik/core/interfaces/ad;
 
     .line 1038
-    iget-object v0, p0, Lkik/android/chat/fragment/KikScopedDialogFragment_MembersInjector;->c:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikScopedDialogFragment_MembersInjector;->c:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -256,7 +256,7 @@
 
     check-cast v0, Lcom/kik/metrics/c/d;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikScopedDialogFragment;->_metricsService:Lcom/kik/metrics/c/d;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->_metricsService:Lcom/kik/metrics/c/d;
 
     .line 9
     return-void

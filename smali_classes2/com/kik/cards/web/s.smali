@@ -1655,7 +1655,7 @@
     .line 645
     if-eqz p0, :cond_1
 
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v0
 

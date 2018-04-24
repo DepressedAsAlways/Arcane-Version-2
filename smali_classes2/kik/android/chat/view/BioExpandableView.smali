@@ -1,5 +1,5 @@
-.class public Lkik/android/chat/view/BioExpandableView;
-.super Lkik/android/widget/ExpandingTextView;
+.class public Lkik/arcane/chat/view/BioExpandableView;
+.super Lkik/arcane/widget/ExpandingTextView;
 .source "SourceFile"
 
 
@@ -10,7 +10,7 @@
 
 .field private d:Lrx/k;
 
-.field private e:Lkik/android/chat/vm/chats/profile/do;
+.field private e:Lkik/arcane/chat/vm/chats/profile/do;
 
 
 # direct methods
@@ -21,7 +21,7 @@
     .line 87
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/chat/view/BioExpandableView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/chat/view/BioExpandableView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 88
     return-void
@@ -34,7 +34,7 @@
     .line 92
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/chat/view/BioExpandableView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/chat/view/BioExpandableView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 93
     return-void
@@ -45,32 +45,32 @@
 
     .prologue
     .line 97
-    invoke-direct {p0, p1, p2, p3}, Lkik/android/widget/ExpandingTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lkik/arcane/widget/ExpandingTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 37
     const/4 v0, -0x1
 
-    iput v0, p0, Lkik/android/chat/view/BioExpandableView;->b:I
+    iput v0, p0, Lkik/arcane/chat/view/BioExpandableView;->b:I
 
     .line 98
     const/high16 v0, 0x40800000    # 4.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
     .line 99
-    invoke-virtual {p0, v0, v0, v0, v0}, Lkik/android/chat/view/BioExpandableView;->setPadding(IIII)V
+    invoke-virtual {p0, v0, v0, v0, v0}, Lkik/arcane/chat/view/BioExpandableView;->setPadding(IIII)V
 
     .line 100
-    new-instance v0, Lkik/android/chat/view/BioExpandableView$1;
+    new-instance v0, Lkik/arcane/chat/view/BioExpandableView$1;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/view/BioExpandableView$1;-><init>(Lkik/android/chat/view/BioExpandableView;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/view/BioExpandableView$1;-><init>(Lkik/arcane/chat/view/BioExpandableView;)V
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/BioExpandableView;->a(Lkik/android/widget/ExpandingTextView$a;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/BioExpandableView;->a(Lkik/arcane/widget/ExpandingTextView$a;)V
 
     .line 121
-    invoke-virtual {p0}, Lkik/android/chat/view/BioExpandableView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/chat/view/BioExpandableView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -80,7 +80,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/BioExpandableView;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/BioExpandableView;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     .line 122
     return-void
@@ -102,7 +102,7 @@
     return-object v0
 .end method
 
-.method static synthetic a(Lkik/android/chat/view/BioExpandableView;Ljava/lang/String;)V
+.method static synthetic a(Lkik/arcane/chat/view/BioExpandableView;Ljava/lang/String;)V
     .locals 5
 
     .prologue
@@ -112,15 +112,15 @@
     invoke-direct {v0, p1}, Landroid/text/SpannableString;-><init>(Ljava/lang/CharSequence;)V
 
     .line 141
-    new-instance v1, Lkik/android/chat/view/text/a;
+    new-instance v1, Lkik/arcane/chat/view/text/a;
 
-    invoke-static {p0}, Lkik/android/chat/view/k;->a(Lkik/android/chat/view/BioExpandableView;)Lrx/functions/a;
+    invoke-static {p0}, Lkik/arcane/chat/view/k;->a(Lkik/arcane/chat/view/BioExpandableView;)Lrx/functions/a;
 
     move-result-object v2
 
     const/high16 v3, -0x1000000
 
-    invoke-direct {v1, v2, v3}, Lkik/android/chat/view/text/a;-><init>(Lrx/functions/a;I)V
+    invoke-direct {v1, v2, v3}, Lkik/arcane/chat/view/text/a;-><init>(Lrx/functions/a;I)V
 
     const/4 v2, 0x0
 
@@ -133,55 +133,55 @@
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/text/SpannableString;->setSpan(Ljava/lang/Object;III)V
 
     .line 142
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/BioExpandableView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/BioExpandableView;->setText(Ljava/lang/CharSequence;)V
 
     .line 143
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/view/BioExpandableView;)Z
+.method static synthetic a(Lkik/arcane/chat/view/BioExpandableView;)Z
     .locals 1
 
     .prologue
     .line 35
-    iget-boolean v0, p0, Lkik/android/chat/view/BioExpandableView;->c:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/view/BioExpandableView;->c:Z
 
     return v0
 .end method
 
-.method static synthetic a(Lkik/android/chat/view/BioExpandableView;Z)Z
+.method static synthetic a(Lkik/arcane/chat/view/BioExpandableView;Z)Z
     .locals 0
 
     .prologue
     .line 35
-    iput-boolean p1, p0, Lkik/android/chat/view/BioExpandableView;->c:Z
+    iput-boolean p1, p0, Lkik/arcane/chat/view/BioExpandableView;->c:Z
 
     return p1
 .end method
 
-.method static synthetic b(Lkik/android/chat/view/BioExpandableView;)Lkik/android/chat/vm/chats/profile/do;
+.method static synthetic b(Lkik/arcane/chat/view/BioExpandableView;)Lkik/arcane/chat/vm/chats/profile/do;
     .locals 1
 
     .prologue
     .line 35
-    iget-object v0, p0, Lkik/android/chat/view/BioExpandableView;->e:Lkik/android/chat/vm/chats/profile/do;
+    iget-object v0, p0, Lkik/arcane/chat/view/BioExpandableView;->e:Lkik/arcane/chat/vm/chats/profile/do;
 
     return-object v0
 .end method
 
 
 # virtual methods
-.method public final a(Lkik/android/chat/vm/chats/profile/do;)V
+.method public final a(Lkik/arcane/chat/vm/chats/profile/do;)V
     .locals 2
 
     .prologue
     .line 126
-    iget-object v0, p0, Lkik/android/chat/view/BioExpandableView;->d:Lrx/k;
+    iget-object v0, p0, Lkik/arcane/chat/view/BioExpandableView;->d:Lrx/k;
 
     if-eqz v0, :cond_0
 
     .line 127
-    iget-object v0, p0, Lkik/android/chat/view/BioExpandableView;->d:Lrx/k;
+    iget-object v0, p0, Lkik/arcane/chat/view/BioExpandableView;->d:Lrx/k;
 
     invoke-interface {v0}, Lrx/k;->unsubscribe()V
 
@@ -195,30 +195,30 @@
 
     .line 1160
     :cond_1
-    instance-of v0, p1, Lkik/android/chat/vm/chats/profile/y;
+    instance-of v0, p1, Lkik/arcane/chat/vm/chats/profile/y;
 
     if-eqz v0, :cond_2
 
     .line 1161
     const/4 v0, 0x1
 
-    iput v0, p0, Lkik/android/chat/view/BioExpandableView;->b:I
+    iput v0, p0, Lkik/arcane/chat/view/BioExpandableView;->b:I
 
     .line 1170
     :goto_1
-    iget v0, p0, Lkik/android/chat/view/BioExpandableView;->b:I
+    iget v0, p0, Lkik/arcane/chat/view/BioExpandableView;->b:I
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/BioExpandableView;->a(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/BioExpandableView;->a(I)V
 
     .line 135
-    iput-object p1, p0, Lkik/android/chat/view/BioExpandableView;->e:Lkik/android/chat/vm/chats/profile/do;
+    iput-object p1, p0, Lkik/arcane/chat/view/BioExpandableView;->e:Lkik/arcane/chat/vm/chats/profile/do;
 
     .line 136
-    invoke-interface {p1}, Lkik/android/chat/vm/chats/profile/do;->a()Lrx/d;
+    invoke-interface {p1}, Lkik/arcane/chat/vm/chats/profile/do;->a()Lrx/d;
 
     move-result-object v0
 
-    invoke-static {}, Lkik/android/chat/view/i;->a()Lrx/functions/g;
+    invoke-static {}, Lkik/arcane/chat/view/i;->a()Lrx/functions/g;
 
     move-result-object v1
 
@@ -236,7 +236,7 @@
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/chat/view/j;->a(Lkik/android/chat/view/BioExpandableView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/view/j;->a(Lkik/arcane/chat/view/BioExpandableView;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -245,17 +245,17 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/view/BioExpandableView;->d:Lrx/k;
+    iput-object v0, p0, Lkik/arcane/chat/view/BioExpandableView;->d:Lrx/k;
 
     goto :goto_0
 
     .line 1163
     :cond_2
-    instance-of v0, p1, Lkik/android/chat/vm/chats/profile/cy;
+    instance-of v0, p1, Lkik/arcane/chat/vm/chats/profile/cy;
 
     if-nez v0, :cond_3
 
-    instance-of v0, p1, Lkik/android/chat/vm/chats/profile/br;
+    instance-of v0, p1, Lkik/arcane/chat/vm/chats/profile/br;
 
     if-eqz v0, :cond_4
 
@@ -263,7 +263,7 @@
     :cond_3
     const/4 v0, 0x2
 
-    iput v0, p0, Lkik/android/chat/view/BioExpandableView;->b:I
+    iput v0, p0, Lkik/arcane/chat/view/BioExpandableView;->b:I
 
     goto :goto_1
 
@@ -271,7 +271,7 @@
     :cond_4
     const/4 v0, 0x3
 
-    iput v0, p0, Lkik/android/chat/view/BioExpandableView;->b:I
+    iput v0, p0, Lkik/arcane/chat/view/BioExpandableView;->b:I
 
     goto :goto_1
 .end method
@@ -281,15 +281,15 @@
 
     .prologue
     .line 176
-    invoke-super {p0}, Lkik/android/widget/ExpandingTextView;->onDetachedFromWindow()V
+    invoke-super {p0}, Lkik/arcane/widget/ExpandingTextView;->onDetachedFromWindow()V
 
     .line 177
-    iget-object v0, p0, Lkik/android/chat/view/BioExpandableView;->d:Lrx/k;
+    iget-object v0, p0, Lkik/arcane/chat/view/BioExpandableView;->d:Lrx/k;
 
     if-eqz v0, :cond_0
 
     .line 178
-    iget-object v0, p0, Lkik/android/chat/view/BioExpandableView;->d:Lrx/k;
+    iget-object v0, p0, Lkik/arcane/chat/view/BioExpandableView;->d:Lrx/k;
 
     invoke-interface {v0}, Lrx/k;->unsubscribe()V
 
@@ -303,18 +303,18 @@
 
     .prologue
     .line 149
-    iget v0, p0, Lkik/android/chat/view/BioExpandableView;->b:I
+    iget v0, p0, Lkik/arcane/chat/view/BioExpandableView;->b:I
 
     const/4 v1, -0x1
 
     if-ne v0, v1, :cond_0
 
     .line 150
-    iput p1, p0, Lkik/android/chat/view/BioExpandableView;->b:I
+    iput p1, p0, Lkik/arcane/chat/view/BioExpandableView;->b:I
 
     .line 153
     :cond_0
-    invoke-super {p0, p1}, Lkik/android/widget/ExpandingTextView;->setMaxLines(I)V
+    invoke-super {p0, p1}, Lkik/arcane/widget/ExpandingTextView;->setMaxLines(I)V
 
     .line 154
     return-void

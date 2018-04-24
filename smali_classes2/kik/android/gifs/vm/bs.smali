@@ -1,6 +1,6 @@
-.class public interface abstract Lkik/android/gifs/vm/bs;
+.class public interface abstract Lkik/arcane/gifs/vm/bs;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/gifs/vm/bp;
+.implements Lkik/arcane/gifs/vm/bp;

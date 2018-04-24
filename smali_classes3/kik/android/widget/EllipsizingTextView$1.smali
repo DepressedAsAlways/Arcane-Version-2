@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/widget/EllipsizingTextView$1;
+.class final synthetic Lkik/arcane/widget/EllipsizingTextView$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/EllipsizingTextView;
+    value = Lkik/arcane/widget/EllipsizingTextView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     .prologue
     .line 167
-    invoke-static {}, Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;->values()[Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;
+    invoke-static {}, Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;->values()[Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;
 
     move-result-object v0
 
@@ -32,14 +32,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/widget/EllipsizingTextView$1;->a:[I
+    sput-object v0, Lkik/arcane/widget/EllipsizingTextView$1;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/widget/EllipsizingTextView$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/EllipsizingTextView$1;->a:[I
 
-    sget-object v1, Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;->TRUNCATING_SUFFIX_TYPE_ELLIPSES:Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;
+    sget-object v1, Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;->TRUNCATING_SUFFIX_TYPE_ELLIPSES:Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;
 
-    invoke-virtual {v1}, Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;->ordinal()I
 
     move-result v1
 
@@ -51,11 +51,11 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/widget/EllipsizingTextView$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/EllipsizingTextView$1;->a:[I
 
-    sget-object v1, Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;->TRUNCATING_SUFFIX_TYPE_CUSTOM:Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;
+    sget-object v1, Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;->TRUNCATING_SUFFIX_TYPE_CUSTOM:Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;
 
-    invoke-virtual {v1}, Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;->ordinal()I
 
     move-result v1
 

@@ -1,14 +1,14 @@
-.class final Lkik/android/chat/vm/chats/profile/bg$1;
+.class final Lkik/arcane/chat/vm/chats/profile/bg$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/IShareUsernameViewModel;
+.implements Lkik/arcane/chat/vm/IShareUsernameViewModel;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/chats/profile/bg;->o()V
+    value = Lkik/arcane/chat/vm/chats/profile/bg;->o()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/chats/profile/bg;
+.field final synthetic a:Lkik/arcane/chat/vm/chats/profile/bg;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/chats/profile/bg;)V
+.method constructor <init>(Lkik/arcane/chat/vm/chats/profile/bg;)V
     .locals 0
 
     .prologue
     .line 124
-    iput-object p1, p0, Lkik/android/chat/vm/chats/profile/bg$1;->a:Lkik/android/chat/vm/chats/profile/bg;
+    iput-object p1, p0, Lkik/arcane/chat/vm/chats/profile/bg$1;->a:Lkik/arcane/chat/vm/chats/profile/bg;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,9 +41,9 @@
 
     .prologue
     .line 128
-    iget-object v0, p0, Lkik/android/chat/vm/chats/profile/bg$1;->a:Lkik/android/chat/vm/chats/profile/bg;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/profile/bg$1;->a:Lkik/arcane/chat/vm/chats/profile/bg;
 
-    invoke-virtual {v0}, Lkik/android/chat/vm/chats/profile/bg;->k()Ljava/lang/String;
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/chats/profile/bg;->k()Ljava/lang/String;
 
     move-result-object v0
 

@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/KikChangeGroupNameFragment$3;
+.class final Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$3;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    value = Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -32,18 +32,18 @@
 # instance fields
 .field final synthetic a:Ljava/lang/String;
 
-.field final synthetic b:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+.field final synthetic b:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikChangeGroupNameFragment;Ljava/lang/String;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;Ljava/lang/String;)V
     .locals 0
 
     .prologue
     .line 131
-    iput-object p1, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$3;->b:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$3;->b:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
-    iput-object p2, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$3;->a:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$3;->a:Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -63,13 +63,13 @@
     .prologue
     .line 131
     .line 1135
-    iget-object v0, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$3;->b:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$3;->b:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->c:Lkik/core/interfaces/l;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->c:Lkik/core/interfaces/l;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$3;->b:Lkik/android/chat/fragment/KikChangeGroupNameFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$3;->b:Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;
 
-    invoke-static {v1}, Lkik/android/chat/fragment/KikChangeGroupNameFragment;->c(Lkik/android/chat/fragment/KikChangeGroupNameFragment;)Lkik/core/datatypes/p;
+    invoke-static {v1}, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;->c(Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;)Lkik/core/datatypes/p;
 
     move-result-object v1
 
@@ -77,7 +77,7 @@
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/chat/fragment/KikChangeGroupNameFragment$3;->a:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment$3;->a:Ljava/lang/String;
 
     invoke-interface {v0, v1, v2}, Lkik/core/interfaces/l;->c(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/events/Promise;
 

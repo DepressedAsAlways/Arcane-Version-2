@@ -194,7 +194,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/internal/platform/PlatformUtils;->a(Ljava/io/File;)J
+    invoke-static {v0}, Lkik/arcane/internal/platform/PlatformUtils;->a(Ljava/io/File;)J
 
     .line 1102
     invoke-static {}, Lcom/kik/cards/web/ExtendedWebView;->p()Lorg/slf4j/b;

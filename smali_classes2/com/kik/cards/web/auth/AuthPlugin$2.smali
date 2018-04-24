@@ -114,13 +114,13 @@
     .line 109
     iget-object v1, p0, Lcom/kik/cards/web/auth/AuthPlugin$2;->b:Lcom/kik/cards/web/auth/AuthPlugin;
 
-    invoke-static {v1}, Lcom/kik/cards/web/auth/AuthPlugin;->access$000(Lcom/kik/cards/web/auth/AuthPlugin;)Lkik/android/b/g;
+    invoke-static {v1}, Lcom/kik/cards/web/auth/AuthPlugin;->access$000(Lcom/kik/cards/web/auth/AuthPlugin;)Lkik/arcane/b/g;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/kik/cards/web/auth/AuthPlugin$2;->a:Ljava/lang/String;
 
-    invoke-virtual {v1, p1, v0, v2}, Lkik/android/b/g;->a([B[BLjava/lang/String;)Lcom/kik/events/Promise;
+    invoke-virtual {v1, p1, v0, v2}, Lkik/arcane/b/g;->a([B[BLjava/lang/String;)Lcom/kik/events/Promise;
     :try_end_0
     .catch Ljava/security/InvalidAlgorithmParameterException; {:try_start_0 .. :try_end_0} :catch_2
     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_0 .. :try_end_0} :catch_1
@@ -137,7 +137,7 @@
 
     .line 115
     :goto_1
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v1
 

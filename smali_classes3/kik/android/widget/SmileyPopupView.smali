@@ -1,10 +1,10 @@
-.class public Lkik/android/widget/SmileyPopupView;
+.class public Lkik/arcane/widget/SmileyPopupView;
 .super Landroid/view/View;
 .source "SourceFile"
 
 
 # instance fields
-.field private a:Lkik/android/chat/vm/widget/w;
+.field private a:Lkik/arcane/chat/vm/widget/w;
 
 
 # direct methods
@@ -55,7 +55,7 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/SmileyPopupView;Ljava/lang/Boolean;)V
+.method static synthetic a(Lkik/arcane/widget/SmileyPopupView;Ljava/lang/Boolean;)V
     .locals 2
 
     .prologue
@@ -67,26 +67,26 @@
     if-eqz v0, :cond_0
 
     .line 2065
-    iget-object v0, p0, Lkik/android/widget/SmileyPopupView;->a:Lkik/android/chat/vm/widget/w;
+    iget-object v0, p0, Lkik/arcane/widget/SmileyPopupView;->a:Lkik/arcane/chat/vm/widget/w;
 
-    invoke-interface {v0}, Lkik/android/chat/vm/widget/w;->j()Lkik/android/chat/presentation/MediaTrayPresenterImpl$b;
+    invoke-interface {v0}, Lkik/arcane/chat/vm/widget/w;->j()Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$b;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/widget/SmileyPopupView;->a:Lkik/android/chat/vm/widget/w;
+    iget-object v1, p0, Lkik/arcane/widget/SmileyPopupView;->a:Lkik/arcane/chat/vm/widget/w;
 
-    invoke-interface {v1}, Lkik/android/chat/vm/widget/w;->k()Lcom/kik/android/b/f;
+    invoke-interface {v1}, Lkik/arcane/chat/vm/widget/w;->k()Lcom/kik/arcane/b/f;
 
     move-result-object v1
 
-    invoke-interface {v0, p0, v1}, Lkik/android/chat/presentation/MediaTrayPresenterImpl$b;->a(Landroid/view/View;Lcom/kik/android/b/f;)Z
+    invoke-interface {v0, p0, v1}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$b;->a(Landroid/view/View;Lcom/kik/arcane/b/f;)Z
 
     .line 32
     :cond_0
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/SmileyPopupView;Lkik/android/chat/vm/widget/w;)V
+.method public static a(Lkik/arcane/widget/SmileyPopupView;Lkik/arcane/chat/vm/widget/w;)V
     .locals 0
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -97,13 +97,13 @@
     .prologue
     .line 38
     .line 1070
-    iput-object p1, p0, Lkik/android/widget/SmileyPopupView;->a:Lkik/android/chat/vm/widget/w;
+    iput-object p1, p0, Lkik/arcane/widget/SmileyPopupView;->a:Lkik/arcane/chat/vm/widget/w;
 
     .line 39
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/SmileyPopupView;Lrx/d;)V
+.method public static a(Lkik/arcane/widget/SmileyPopupView;Lrx/d;)V
     .locals 3
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -114,7 +114,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/SmileyPopupView;",
+            "Lkik/arcane/widget/SmileyPopupView;",
             "Lrx/d",
             "<",
             "Ljava/lang/Boolean;",
@@ -126,7 +126,7 @@
     .line 27
     const v0, 0x10100dc
 
-    invoke-static {p0}, Lkik/android/widget/db;->a(Lkik/android/widget/SmileyPopupView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/db;->a(Lkik/arcane/widget/SmileyPopupView;)Lrx/functions/b;
 
     move-result-object v1
 

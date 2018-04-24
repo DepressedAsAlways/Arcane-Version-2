@@ -1,11 +1,11 @@
-.class final enum Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+.class final enum Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 .super Ljava/lang/Enum;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;
+    value = Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,20 +17,20 @@
     value = {
         "Ljava/lang/Enum",
         "<",
-        "Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;",
+        "Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;",
         ">;"
     }
 .end annotation
 
 
 # static fields
-.field private static final synthetic $VALUES:[Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+.field private static final synthetic $VALUES:[Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
-.field public static final enum OpenChat:Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+.field public static final enum OpenChat:Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
-.field public static final enum RosterMatch:Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+.field public static final enum RosterMatch:Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
-.field public static final enum UsernameMatch:Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+.field public static final enum UsernameMatch:Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
 
 # direct methods
@@ -45,50 +45,50 @@
     const/4 v2, 0x0
 
     .line 72
-    new-instance v0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+    new-instance v0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
     const-string v1, "OpenChat"
 
-    invoke-direct {v0, v1, v2}, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->OpenChat:Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+    sput-object v0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->OpenChat:Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
     .line 73
-    new-instance v0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+    new-instance v0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
     const-string v1, "RosterMatch"
 
-    invoke-direct {v0, v1, v3}, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v3}, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->RosterMatch:Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+    sput-object v0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->RosterMatch:Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
     .line 74
-    new-instance v0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+    new-instance v0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
     const-string v1, "UsernameMatch"
 
-    invoke-direct {v0, v1, v4}, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v4}, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->UsernameMatch:Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+    sput-object v0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->UsernameMatch:Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
     .line 70
     const/4 v0, 0x3
 
-    new-array v0, v0, [Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+    new-array v0, v0, [Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
-    sget-object v1, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->OpenChat:Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+    sget-object v1, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->OpenChat:Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->RosterMatch:Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+    sget-object v1, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->RosterMatch:Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
     aput-object v1, v0, v3
 
-    sget-object v1, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->UsernameMatch:Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+    sget-object v1, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->UsernameMatch:Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
     aput-object v1, v0, v4
 
-    sput-object v0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->$VALUES:[Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+    sput-object v0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->$VALUES:[Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
     return-void
 .end method
@@ -108,34 +108,34 @@
     return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+.method public static valueOf(Ljava/lang/String;)Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
     .locals 1
 
     .prologue
     .line 70
-    const-class v0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+    const-class v0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+    check-cast v0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
     return-object v0
 .end method
 
-.method public static values()[Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+.method public static values()[Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
     .locals 1
 
     .prologue
     .line 70
-    sget-object v0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->$VALUES:[Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+    sget-object v0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->$VALUES:[Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
-    invoke-virtual {v0}, [Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+    check-cast v0, [Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
     return-object v0
 .end method

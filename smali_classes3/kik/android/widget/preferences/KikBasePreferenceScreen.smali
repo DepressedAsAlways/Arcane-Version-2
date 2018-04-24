@@ -1,5 +1,5 @@
-.class public Lkik/android/widget/preferences/KikBasePreferenceScreen;
-.super Lkik/android/widget/preferences/KikPreferenceScreen;
+.class public Lkik/arcane/widget/preferences/KikBasePreferenceScreen;
+.super Lkik/arcane/widget/preferences/KikPreferenceScreen;
 .source "SourceFile"
 
 
@@ -11,7 +11,7 @@
     .line 14
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/preferences/KikPreferenceScreen;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/preferences/KikPreferenceScreen;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
 
     .line 15
     return-void
@@ -24,7 +24,7 @@
     .line 19
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, p3, v0}, Lkik/android/widget/preferences/KikPreferenceScreen;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
+    invoke-direct {p0, p1, p2, p3, v0}, Lkik/arcane/widget/preferences/KikPreferenceScreen;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
 
     .line 20
     return-void

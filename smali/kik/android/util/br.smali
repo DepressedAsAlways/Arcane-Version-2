@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/br;
+.class public final Lkik/arcane/util/br;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/util/br$a;
+        Lkik/arcane/util/br$a;
     }
 .end annotation
 
@@ -53,7 +53,7 @@
 
     invoke-direct {v0, v1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkik/android/util/br;->a:Ljava/text/SimpleDateFormat;
+    sput-object v0, Lkik/arcane/util/br;->a:Ljava/text/SimpleDateFormat;
 
     .line 4080
     new-instance v0, Ljava/text/SimpleDateFormat;
@@ -62,7 +62,7 @@
 
     invoke-direct {v0, v1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkik/android/util/br;->b:Ljava/text/SimpleDateFormat;
+    sput-object v0, Lkik/arcane/util/br;->b:Ljava/text/SimpleDateFormat;
 
     .line 4081
     new-instance v0, Ljava/text/SimpleDateFormat;
@@ -71,7 +71,7 @@
 
     invoke-direct {v0, v1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkik/android/util/br;->c:Ljava/text/SimpleDateFormat;
+    sput-object v0, Lkik/arcane/util/br;->c:Ljava/text/SimpleDateFormat;
 
     .line 4082
     new-instance v0, Ljava/text/SimpleDateFormat;
@@ -80,7 +80,7 @@
 
     invoke-direct {v0, v1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkik/android/util/br;->d:Ljava/text/SimpleDateFormat;
+    sput-object v0, Lkik/arcane/util/br;->d:Ljava/text/SimpleDateFormat;
 
     .line 4083
     new-instance v0, Ljava/text/SimpleDateFormat;
@@ -89,19 +89,19 @@
 
     invoke-direct {v0, v1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkik/android/util/br;->e:Ljava/text/SimpleDateFormat;
+    sput-object v0, Lkik/arcane/util/br;->e:Ljava/text/SimpleDateFormat;
 
     .line 52
     const/4 v0, 0x0
 
-    sput-boolean v0, Lkik/android/util/br;->f:Z
+    sput-boolean v0, Lkik/arcane/util/br;->f:Z
 
     .line 101
     new-instance v0, Ljava/util/Random;
 
     invoke-direct {v0}, Ljava/util/Random;-><init>()V
 
-    sput-object v0, Lkik/android/util/br;->n:Ljava/util/Random;
+    sput-object v0, Lkik/arcane/util/br;->n:Ljava/util/Random;
 
     return-void
 .end method
@@ -119,7 +119,7 @@
 
     const v2, 0x7f0900f5
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v2
 
@@ -129,7 +129,7 @@
 
     const v2, 0x7f0900f6
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v2
 
@@ -139,7 +139,7 @@
 
     const v2, 0x7f0900f7
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v2
 
@@ -149,7 +149,7 @@
 
     const v2, 0x7f0900f8
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v2
 
@@ -159,7 +159,7 @@
 
     const v2, 0x7f0900f9
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v2
 
@@ -169,18 +169,18 @@
 
     const v2, 0x7f0900fa
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v2
 
     aput-object v2, v0, v1
 
     .line 463
-    sput-object v0, Lkik/android/util/br;->m:[Ljava/lang/String;
+    sput-object v0, Lkik/arcane/util/br;->m:[Ljava/lang/String;
 
-    sget-object v1, Lkik/android/util/br;->n:Ljava/util/Random;
+    sget-object v1, Lkik/arcane/util/br;->n:Ljava/util/Random;
 
-    sget-object v2, Lkik/android/util/br;->m:[Ljava/lang/String;
+    sget-object v2, Lkik/arcane/util/br;->m:[Ljava/lang/String;
 
     array-length v2, v2
 
@@ -203,19 +203,19 @@
     invoke-direct {v0, p0, p1}, Ljava/util/Date;-><init>(J)V
 
     .line 626
-    invoke-static {p0, p1, p2, p3, p4}, Lkik/android/util/br;->c(JJLandroid/content/res/Resources;)Ljava/lang/String;
+    invoke-static {p0, p1, p2, p3, p4}, Lkik/arcane/util/br;->c(JJLandroid/content/res/Resources;)Ljava/lang/String;
 
     move-result-object v1
 
     .line 627
-    sget-object v2, Lkik/android/util/br;->d:Ljava/text/SimpleDateFormat;
+    sget-object v2, Lkik/arcane/util/br;->d:Ljava/text/SimpleDateFormat;
 
     invoke-virtual {v2, v0}, Ljava/text/SimpleDateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 629
-    invoke-static {v1, v0}, Lkik/android/util/br;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v0}, Lkik/arcane/util/br;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -325,7 +325,7 @@
     .line 3457
     const v0, 0x7f0903f8
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -466,7 +466,7 @@
     :cond_0
     const v0, 0x7f0903f8
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -505,7 +505,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->a(Lkik/core/datatypes/l;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/br;->a(Lkik/core/datatypes/l;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -515,7 +515,7 @@
 
     .line 421
     :cond_2
-    invoke-static {v1}, Lkik/android/util/br;->a(Ljava/util/List;)Ljava/lang/String;
+    invoke-static {v1}, Lkik/arcane/util/br;->a(Ljava/util/List;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -553,7 +553,7 @@
     :cond_0
     const v0, 0x7f0903f8
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -599,7 +599,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->a(Lkik/core/datatypes/l;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/br;->a(Lkik/core/datatypes/l;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -710,7 +710,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -737,12 +737,12 @@
 
     const v0, 0x7f09031b
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v0
 
     :goto_1
-    invoke-static {v0}, Lkik/android/util/br;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/br;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -766,7 +766,7 @@
     move-result-object v0
 
     .line 331
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -788,7 +788,7 @@
     move-result-object v0
 
     .line 333
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -820,7 +820,7 @@
     .line 1373
     const/4 v1, -0x1
 
-    invoke-static {v0, p1, v1}, Lkik/android/util/br;->a(Ljava/util/List;Lkik/core/interfaces/v;I)Ljava/lang/String;
+    invoke-static {v0, p1, v1}, Lkik/arcane/util/br;->a(Ljava/util/List;Lkik/core/interfaces/v;I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -918,7 +918,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/br;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1205,14 +1205,14 @@
     goto :goto_0
 .end method
 
-.method public static a(Ljava/lang/CharSequence;Lkik/core/util/t;Lcom/kik/android/b/g;)Ljava/util/List;
+.method public static a(Ljava/lang/CharSequence;Lkik/core/util/t;Lcom/kik/arcane/b/g;)Ljava/util/List;
     .locals 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/CharSequence;",
             "Lkik/core/util/t;",
-            "Lcom/kik/android/b/g;",
+            "Lcom/kik/arcane/b/g;",
             ")",
             "Ljava/util/List",
             "<",
@@ -1234,7 +1234,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1284,12 +1284,12 @@
     move-result-object v6
 
     .line 481
-    invoke-virtual {p2, v6}, Lcom/kik/android/b/g;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p2, v6}, Lcom/kik/arcane/b/g;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 482
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v7
 
@@ -1321,7 +1321,7 @@
     goto :goto_0
 .end method
 
-.method public static a(JZ)Lkik/android/util/br$a;
+.method public static a(JZ)Lkik/arcane/util/br$a;
     .locals 12
 
     .prologue
@@ -1334,75 +1334,75 @@
     const/4 v6, 0x0
 
     .line 1088
-    sget-boolean v0, Lkik/android/util/br;->f:Z
+    sget-boolean v0, Lkik/arcane/util/br;->f:Z
 
     if-nez v0, :cond_0
 
     .line 1089
-    sput-boolean v7, Lkik/android/util/br;->f:Z
+    sput-boolean v7, Lkik/arcane/util/br;->f:Z
 
     .line 1091
     const v0, 0x7f0905c6
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/util/br;->g:Ljava/lang/String;
+    sput-object v0, Lkik/arcane/util/br;->g:Ljava/lang/String;
 
     .line 1092
     const v0, 0x7f090287
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/util/br;->h:Ljava/lang/String;
+    sput-object v0, Lkik/arcane/util/br;->h:Ljava/lang/String;
 
     .line 1093
     const v0, 0x7f0904e8
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/util/br;->i:Ljava/lang/String;
+    sput-object v0, Lkik/arcane/util/br;->i:Ljava/lang/String;
 
     .line 1094
     const v0, 0x7f0904e7
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/util/br;->j:Ljava/lang/String;
+    sput-object v0, Lkik/arcane/util/br;->j:Ljava/lang/String;
 
     .line 1095
     const v0, 0x7f090491
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/util/br;->k:Ljava/lang/String;
+    sput-object v0, Lkik/arcane/util/br;->k:Ljava/lang/String;
 
     .line 1096
     const v0, 0x7f0900fc
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/util/br;->l:Ljava/lang/String;
+    sput-object v0, Lkik/arcane/util/br;->l:Ljava/lang/String;
 
     .line 136
     :cond_0
-    new-instance v0, Lkik/android/util/br$a;
+    new-instance v0, Lkik/arcane/util/br$a;
 
-    invoke-direct {v0}, Lkik/android/util/br$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/util/br$a;-><init>()V
 
     .line 137
-    iput v6, v0, Lkik/android/util/br$a;->b:I
+    iput v6, v0, Lkik/arcane/util/br$a;->b:I
 
     .line 138
     invoke-static {}, Lkik/core/util/v;->b()J
@@ -1422,9 +1422,9 @@
     if-eqz p2, :cond_1
 
     .line 141
-    sget-object v1, Lkik/android/util/br;->g:Ljava/lang/String;
+    sget-object v1, Lkik/arcane/util/br;->g:Ljava/lang/String;
 
-    iput-object v1, v0, Lkik/android/util/br$a;->a:Ljava/lang/String;
+    iput-object v1, v0, Lkik/arcane/util/br$a;->a:Ljava/lang/String;
 
     .line 193
     :goto_0
@@ -1432,9 +1432,9 @@
 
     .line 144
     :cond_1
-    sget-object v1, Lkik/android/util/br;->h:Ljava/lang/String;
+    sget-object v1, Lkik/arcane/util/br;->h:Ljava/lang/String;
 
-    iput-object v1, v0, Lkik/android/util/br$a;->a:Ljava/lang/String;
+    iput-object v1, v0, Lkik/arcane/util/br$a;->a:Ljava/lang/String;
 
     goto :goto_0
 
@@ -1450,7 +1450,7 @@
     if-eqz p2, :cond_3
 
     .line 150
-    sget-object v1, Lkik/android/util/br;->i:Ljava/lang/String;
+    sget-object v1, Lkik/arcane/util/br;->i:Ljava/lang/String;
 
     new-array v4, v7, [Ljava/lang/Object;
 
@@ -1466,13 +1466,13 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lkik/android/util/br$a;->a:Ljava/lang/String;
+    iput-object v1, v0, Lkik/arcane/util/br$a;->a:Ljava/lang/String;
 
     goto :goto_0
 
     .line 153
     :cond_3
-    sget-object v1, Lkik/android/util/br;->j:Ljava/lang/String;
+    sget-object v1, Lkik/arcane/util/br;->j:Ljava/lang/String;
 
     new-array v4, v7, [Ljava/lang/Object;
 
@@ -1488,7 +1488,7 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lkik/android/util/br$a;->a:Ljava/lang/String;
+    iput-object v1, v0, Lkik/arcane/util/br$a;->a:Ljava/lang/String;
 
     goto :goto_0
 
@@ -1501,7 +1501,7 @@
     if-gez v1, :cond_8
 
     .line 158
-    sget-object v1, Lkik/android/util/br;->d:Ljava/text/SimpleDateFormat;
+    sget-object v1, Lkik/arcane/util/br;->d:Ljava/text/SimpleDateFormat;
 
     invoke-static {p0, p1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -1512,7 +1512,7 @@
     move-result-object v1
 
     .line 159
-    sget-object v2, Lkik/android/util/br;->e:Ljava/text/SimpleDateFormat;
+    sget-object v2, Lkik/arcane/util/br;->e:Ljava/text/SimpleDateFormat;
 
     invoke-static {p0, p1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -1523,7 +1523,7 @@
     move-result-object v2
 
     .line 160
-    sget-object v3, Lkik/android/util/br;->e:Ljava/text/SimpleDateFormat;
+    sget-object v3, Lkik/arcane/util/br;->e:Ljava/text/SimpleDateFormat;
 
     invoke-static {}, Lkik/core/util/v;->b()J
 
@@ -1547,13 +1547,13 @@
     if-eqz p2, :cond_5
 
     .line 162
-    iput-object v1, v0, Lkik/android/util/br$a;->a:Ljava/lang/String;
+    iput-object v1, v0, Lkik/arcane/util/br$a;->a:Ljava/lang/String;
 
     goto :goto_0
 
     .line 166
     :cond_5
-    sget-object v2, Lkik/android/util/br;->k:Ljava/lang/String;
+    sget-object v2, Lkik/arcane/util/br;->k:Ljava/lang/String;
 
     new-array v3, v7, [Ljava/lang/Object;
 
@@ -1563,16 +1563,16 @@
 
     move-result-object v2
 
-    iput-object v2, v0, Lkik/android/util/br$a;->a:Ljava/lang/String;
+    iput-object v2, v0, Lkik/arcane/util/br$a;->a:Ljava/lang/String;
 
     .line 167
-    iget-object v2, v0, Lkik/android/util/br$a;->a:Ljava/lang/String;
+    iget-object v2, v0, Lkik/arcane/util/br$a;->a:Ljava/lang/String;
 
     invoke-virtual {v2, v1}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v1
 
-    iput v1, v0, Lkik/android/util/br$a;->b:I
+    iput v1, v0, Lkik/arcane/util/br$a;->b:I
 
     goto :goto_0
 
@@ -1581,13 +1581,13 @@
     if-eqz p2, :cond_7
 
     .line 173
-    iput-object v2, v0, Lkik/android/util/br$a;->a:Ljava/lang/String;
+    iput-object v2, v0, Lkik/arcane/util/br$a;->a:Ljava/lang/String;
 
     goto :goto_0
 
     .line 177
     :cond_7
-    sget-object v3, Lkik/android/util/br;->l:Ljava/lang/String;
+    sget-object v3, Lkik/arcane/util/br;->l:Ljava/lang/String;
 
     new-array v4, v8, [Ljava/lang/Object;
 
@@ -1599,22 +1599,22 @@
 
     move-result-object v2
 
-    iput-object v2, v0, Lkik/android/util/br$a;->a:Ljava/lang/String;
+    iput-object v2, v0, Lkik/arcane/util/br$a;->a:Ljava/lang/String;
 
     .line 178
-    iget-object v2, v0, Lkik/android/util/br$a;->a:Ljava/lang/String;
+    iget-object v2, v0, Lkik/arcane/util/br$a;->a:Ljava/lang/String;
 
     invoke-virtual {v2, v1}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v1
 
-    iput v1, v0, Lkik/android/util/br$a;->b:I
+    iput v1, v0, Lkik/arcane/util/br$a;->b:I
 
     goto/16 :goto_0
 
     .line 184
     :cond_8
-    sget-object v1, Lkik/android/util/br;->a:Ljava/text/SimpleDateFormat;
+    sget-object v1, Lkik/arcane/util/br;->a:Ljava/text/SimpleDateFormat;
 
     invoke-static {p0, p1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -1628,13 +1628,13 @@
     if-eqz p2, :cond_9
 
     .line 186
-    iput-object v1, v0, Lkik/android/util/br$a;->a:Ljava/lang/String;
+    iput-object v1, v0, Lkik/arcane/util/br$a;->a:Ljava/lang/String;
 
     goto/16 :goto_0
 
     .line 190
     :cond_9
-    sget-object v2, Lkik/android/util/br;->d:Ljava/text/SimpleDateFormat;
+    sget-object v2, Lkik/arcane/util/br;->d:Ljava/text/SimpleDateFormat;
 
     invoke-static {p0, p1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -1645,7 +1645,7 @@
     move-result-object v2
 
     .line 191
-    sget-object v3, Lkik/android/util/br;->l:Ljava/lang/String;
+    sget-object v3, Lkik/arcane/util/br;->l:Ljava/lang/String;
 
     new-array v4, v8, [Ljava/lang/Object;
 
@@ -1657,16 +1657,16 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lkik/android/util/br$a;->a:Ljava/lang/String;
+    iput-object v1, v0, Lkik/arcane/util/br$a;->a:Ljava/lang/String;
 
     .line 192
-    iget-object v1, v0, Lkik/android/util/br$a;->a:Ljava/lang/String;
+    iget-object v1, v0, Lkik/arcane/util/br$a;->a:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v1
 
-    iput v1, v0, Lkik/android/util/br$a;->b:I
+    iput v1, v0, Lkik/arcane/util/br$a;->b:I
 
     goto/16 :goto_0
 .end method
@@ -1693,7 +1693,7 @@
     return v0
 
     :cond_1
-    sget-object v0, Lkik/android/util/bf;->b:Ljava/util/regex/Pattern;
+    sget-object v0, Lkik/arcane/util/bf;->b:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
@@ -1759,7 +1759,7 @@
     aget-object v3, p0, v1
 
     .line 541
-    invoke-static {v3, p1}, Lkik/android/util/br;->a(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {v3, p1}, Lkik/arcane/util/br;->a(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v3
 
@@ -1782,7 +1782,7 @@
 
     .prologue
     .line 642
-    invoke-static {p0, p1, p2, p3, p4}, Lkik/android/util/br;->c(JJLandroid/content/res/Resources;)Ljava/lang/String;
+    invoke-static {p0, p1, p2, p3, p4}, Lkik/arcane/util/br;->c(JJLandroid/content/res/Resources;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -1813,7 +1813,7 @@
     invoke-direct {v0, p0, p1}, Ljava/util/Date;-><init>(J)V
 
     .line 647
-    sget-object v2, Lkik/android/util/br;->d:Ljava/text/SimpleDateFormat;
+    sget-object v2, Lkik/arcane/util/br;->d:Ljava/text/SimpleDateFormat;
 
     invoke-virtual {v2, v0}, Ljava/text/SimpleDateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
 
@@ -1821,7 +1821,7 @@
 
     .line 650
     :cond_0
-    invoke-static {v1, v0}, Lkik/android/util/br;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v0}, Lkik/arcane/util/br;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -2035,7 +2035,7 @@
     if-ne v0, v1, :cond_2
 
     .line 580
-    sget-object v0, Lkik/android/util/br;->b:Ljava/text/SimpleDateFormat;
+    sget-object v0, Lkik/arcane/util/br;->b:Ljava/text/SimpleDateFormat;
 
     invoke-virtual {v0, v2}, Ljava/text/SimpleDateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
 
@@ -2045,7 +2045,7 @@
 
     .line 583
     :cond_2
-    sget-object v0, Lkik/android/util/br;->c:Ljava/text/SimpleDateFormat;
+    sget-object v0, Lkik/arcane/util/br;->c:Ljava/text/SimpleDateFormat;
 
     invoke-virtual {v0, v2}, Ljava/text/SimpleDateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
 
@@ -2105,7 +2105,7 @@
 
     .prologue
     .line 655
-    invoke-static {p0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {p0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 

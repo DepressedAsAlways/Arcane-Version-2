@@ -1,4 +1,4 @@
-.class public final Lkik/android/h;
+.class public final Lkik/arcane/h;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/h$a;
+        Lkik/arcane/h$a;
     }
 .end annotation
 
@@ -56,7 +56,7 @@
     .end annotation
 .end field
 
-.field private e:Lcom/kik/android/Mixpanel;
+.field private e:Lcom/kik/arcane/Mixpanel;
 
 
 # direct methods
@@ -71,12 +71,12 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/h;->a:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/h;->a:Lorg/slf4j/b;
 
     return-void
 .end method
 
-.method public constructor <init>(Lcom/kik/android/Mixpanel;)V
+.method public constructor <init>(Lcom/kik/arcane/Mixpanel;)V
     .locals 1
 
     .prologue
@@ -88,46 +88,46 @@
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
 
-    iput-object v0, p0, Lkik/android/h;->b:Ljava/util/Map;
+    iput-object v0, p0, Lkik/arcane/h;->b:Ljava/util/Map;
 
     .line 47
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
 
-    iput-object v0, p0, Lkik/android/h;->c:Ljava/util/Map;
+    iput-object v0, p0, Lkik/arcane/h;->c:Ljava/util/Map;
 
     .line 53
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
 
-    iput-object v0, p0, Lkik/android/h;->d:Ljava/util/Map;
+    iput-object v0, p0, Lkik/arcane/h;->d:Ljava/util/Map;
 
     .line 59
-    iput-object p1, p0, Lkik/android/h;->e:Lcom/kik/android/Mixpanel;
+    iput-object p1, p0, Lkik/arcane/h;->e:Lcom/kik/arcane/Mixpanel;
 
     .line 60
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/h;)Ljava/util/Map;
+.method static synthetic a(Lkik/arcane/h;)Ljava/util/Map;
     .locals 1
 
     .prologue
     .line 38
-    iget-object v0, p0, Lkik/android/h;->d:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/h;->d:Ljava/util/Map;
 
     return-object v0
 .end method
 
-.method static synthetic a(Lkik/android/h;Ljava/lang/String;Ljava/io/File;)V
+.method static synthetic a(Lkik/arcane/h;Ljava/lang/String;Ljava/io/File;)V
     .locals 2
 
     .prologue
     .line 38
     .line 1150
-    iget-object v0, p0, Lkik/android/h;->b:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/h;->b:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -139,7 +139,7 @@
     if-eqz v0, :cond_0
 
     .line 1152
-    iget-object v1, p0, Lkik/android/h;->b:Ljava/util/Map;
+    iget-object v1, p0, Lkik/arcane/h;->b:Ljava/util/Map;
 
     invoke-interface {v1, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -151,13 +151,13 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/h;Ljava/lang/String;Ljava/lang/Exception;)V
+.method static synthetic a(Lkik/arcane/h;Ljava/lang/String;Ljava/lang/Exception;)V
     .locals 4
 
     .prologue
     .line 38
     .line 2161
-    iget-object v0, p0, Lkik/android/h;->b:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/h;->b:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -169,7 +169,7 @@
     if-eqz v0, :cond_0
 
     .line 2163
-    sget-object v1, Lkik/android/h;->a:Lorg/slf4j/b;
+    sget-object v1, Lkik/arcane/h;->a:Lorg/slf4j/b;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -202,7 +202,7 @@
     invoke-interface {v1, v2}, Lorg/slf4j/b;->warn(Ljava/lang/String;)V
 
     .line 2164
-    iget-object v1, p0, Lkik/android/h;->b:Ljava/util/Map;
+    iget-object v1, p0, Lkik/arcane/h;->b:Ljava/util/Map;
 
     invoke-interface {v1, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -214,17 +214,17 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/h;Lkik/android/h$a;)V
+.method static synthetic a(Lkik/arcane/h;Lkik/arcane/h$a;)V
     .locals 5
 
     .prologue
     .line 2122
-    invoke-static {p1}, Lkik/android/h$a;->a(Lkik/android/h$a;)Ljava/lang/String;
+    invoke-static {p1}, Lkik/arcane/h$a;->a(Lkik/arcane/h$a;)Ljava/lang/String;
 
     move-result-object v1
 
     .line 2123
-    sget-object v0, Lkik/android/h;->a:Lorg/slf4j/b;
+    sget-object v0, Lkik/arcane/h;->a:Lorg/slf4j/b;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -243,7 +243,7 @@
     invoke-interface {v0, v2}, Lorg/slf4j/b;->warn(Ljava/lang/String;)V
 
     .line 2124
-    iget-object v0, p0, Lkik/android/h;->c:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/h;->c:Ljava/util/Map;
 
     invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -271,7 +271,7 @@
     if-ge v2, v3, :cond_2
 
     .line 2128
-    iget-object v2, p0, Lkik/android/h;->c:Ljava/util/Map;
+    iget-object v2, p0, Lkik/arcane/h;->c:Ljava/util/Map;
 
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
@@ -286,22 +286,22 @@
     invoke-interface {v2, v1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2132
-    invoke-static {p1}, Lkik/android/h$a;->b(Lkik/android/h$a;)Ljava/lang/String;
+    invoke-static {p1}, Lkik/arcane/h$a;->b(Lkik/arcane/h$a;)Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-static {p1}, Lkik/android/h$a;->c(Lkik/android/h$a;)Ljava/io/File;
+    invoke-static {p1}, Lkik/arcane/h$a;->c(Lkik/arcane/h$a;)Ljava/io/File;
 
     move-result-object v3
 
-    invoke-static {p1}, Lkik/android/h$a;->d(Lkik/android/h$a;)I
+    invoke-static {p1}, Lkik/arcane/h$a;->d(Lkik/arcane/h$a;)I
 
     move-result v4
 
-    invoke-direct {p0, v1, v2, v3, v4}, Lkik/android/h;->b(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;I)V
+    invoke-direct {p0, v1, v2, v3, v4}, Lkik/arcane/h;->b(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;I)V
 
     .line 2134
-    sget-object v2, Lkik/android/h;->a:Lorg/slf4j/b;
+    sget-object v2, Lkik/arcane/h;->a:Lorg/slf4j/b;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -349,7 +349,7 @@
 
     .line 2138
     :cond_2
-    iget-object v0, p0, Lkik/android/h;->b:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/h;->b:Ljava/util/Map;
 
     invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -361,7 +361,7 @@
     if-eqz v0, :cond_0
 
     .line 2140
-    sget-object v2, Lkik/android/h;->a:Lorg/slf4j/b;
+    sget-object v2, Lkik/arcane/h;->a:Lorg/slf4j/b;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -380,12 +380,12 @@
     invoke-interface {v2, v3}, Lorg/slf4j/b;->warn(Ljava/lang/String;)V
 
     .line 2141
-    iget-object v2, p0, Lkik/android/h;->b:Ljava/util/Map;
+    iget-object v2, p0, Lkik/arcane/h;->b:Ljava/util/Map;
 
     invoke-interface {v2, v1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2142
-    iget-object v2, p0, Lkik/android/h;->c:Ljava/util/Map;
+    iget-object v2, p0, Lkik/arcane/h;->c:Ljava/util/Map;
 
     invoke-interface {v2, v1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -399,12 +399,12 @@
     goto :goto_1
 .end method
 
-.method static synthetic b(Lkik/android/h;)Lcom/kik/android/Mixpanel;
+.method static synthetic b(Lkik/arcane/h;)Lcom/kik/arcane/Mixpanel;
     .locals 1
 
     .prologue
     .line 38
-    iget-object v0, p0, Lkik/android/h;->e:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/h;->e:Lcom/kik/arcane/Mixpanel;
 
     return-object v0
 .end method
@@ -414,7 +414,7 @@
 
     .prologue
     .line 99
-    new-instance v0, Lkik/android/h$a;
+    new-instance v0, Lkik/arcane/h$a;
 
     move-object v1, p0
 
@@ -426,7 +426,7 @@
 
     move v5, p4
 
-    invoke-direct/range {v0 .. v5}, Lkik/android/h$a;-><init>(Lkik/android/h;Ljava/lang/String;Ljava/lang/String;Ljava/io/File;I)V
+    invoke-direct/range {v0 .. v5}, Lkik/arcane/h$a;-><init>(Lkik/arcane/h;Ljava/lang/String;Ljava/lang/String;Ljava/io/File;I)V
 
     .line 101
     const/4 v1, 0x0
@@ -434,7 +434,7 @@
     :try_start_0
     new-array v1, v1, [Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lkik/android/h$a;->a([Ljava/lang/Object;)Landroid/os/AsyncTask;
+    invoke-virtual {v0, v1}, Lkik/arcane/h$a;->a([Ljava/lang/Object;)Landroid/os/AsyncTask;
     :try_end_0
     .catch Ljava/util/concurrent/RejectedExecutionException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -451,9 +451,9 @@
     invoke-direct {v1}, Landroid/os/Handler;-><init>()V
 
     .line 105
-    new-instance v2, Lkik/android/h$1;
+    new-instance v2, Lkik/arcane/h$1;
 
-    invoke-direct {v2, p0, v0, v1}, Lkik/android/h$1;-><init>(Lkik/android/h;Lkik/android/h$a;Landroid/os/Handler;)V
+    invoke-direct {v2, p0, v0, v1}, Lkik/arcane/h$1;-><init>(Lkik/arcane/h;Lkik/arcane/h$a;Landroid/os/Handler;)V
 
     const-wide/16 v4, 0xc8
 
@@ -501,7 +501,7 @@
 
     .line 85
     :cond_0
-    iget-object v0, p0, Lkik/android/h;->b:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/h;->b:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
@@ -510,7 +510,7 @@
     if-eqz v0, :cond_1
 
     .line 87
-    iget-object v0, p0, Lkik/android/h;->b:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/h;->b:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -522,7 +522,7 @@
 
     .line 90
     :cond_1
-    invoke-direct {p0, p1, p2, p3, p4}, Lkik/android/h;->b(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;I)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lkik/arcane/h;->b(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;I)V
 
     .line 92
     new-instance v0, Lcom/kik/events/Promise;
@@ -530,7 +530,7 @@
     invoke-direct {v0}, Lcom/kik/events/Promise;-><init>()V
 
     .line 93
-    iget-object v1, p0, Lkik/android/h;->b:Ljava/util/Map;
+    iget-object v1, p0, Lkik/arcane/h;->b:Ljava/util/Map;
 
     invoke-interface {v1, p1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -542,7 +542,7 @@
 
     .prologue
     .line 75
-    iget-object v0, p0, Lkik/android/h;->d:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/h;->d:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
@@ -551,7 +551,7 @@
     if-eqz v0, :cond_0
 
     .line 76
-    iget-object v0, p0, Lkik/android/h;->d:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/h;->d:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -565,7 +565,7 @@
 
     .prologue
     .line 64
-    iget-object v0, p0, Lkik/android/h;->d:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/h;->d:Ljava/util/Map;
 
     invoke-interface {v0, p2}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
@@ -573,7 +573,7 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/h;->d:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/h;->d:Ljava/util/Map;
 
     invoke-interface {v0, p2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -583,7 +583,7 @@
 
     .line 65
     :cond_0
-    iget-object v0, p0, Lkik/android/h;->d:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/h;->d:Ljava/util/Map;
 
     new-instance v1, Ljava/util/ArrayList;
 
@@ -592,7 +592,7 @@
     invoke-interface {v0, p2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 66
-    iget-object v0, p0, Lkik/android/h;->d:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/h;->d:Ljava/util/Map;
 
     invoke-interface {v0, p2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -608,7 +608,7 @@
 
     .line 69
     :cond_1
-    iget-object v0, p0, Lkik/android/h;->d:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/h;->d:Ljava/util/Map;
 
     invoke-interface {v0, p2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 

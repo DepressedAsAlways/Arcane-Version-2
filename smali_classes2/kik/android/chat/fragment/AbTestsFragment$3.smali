@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/AbTestsFragment$3;
+.class final Lkik/arcane/chat/fragment/AbTestsFragment$3;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/AbTestsFragment;->registerForegroundEvents(Lcom/kik/events/d;)V
+    value = Lkik/arcane/chat/fragment/AbTestsFragment;->registerForegroundEvents(Lcom/kik/events/d;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/AbTestsFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/AbTestsFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/AbTestsFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/AbTestsFragment;)V
     .locals 0
 
     .prologue
     .line 180
-    iput-object p1, p0, Lkik/android/chat/fragment/AbTestsFragment$3;->a:Lkik/android/chat/fragment/AbTestsFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/AbTestsFragment$3;->a:Lkik/arcane/chat/fragment/AbTestsFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,18 +52,18 @@
     .prologue
     .line 180
     .line 1184
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment$3;->a:Lkik/android/chat/fragment/AbTestsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment$3;->a:Lkik/arcane/chat/fragment/AbTestsFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/AbTestsFragment;->c(Lkik/android/chat/fragment/AbTestsFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/AbTestsFragment;->c(Lkik/arcane/chat/fragment/AbTestsFragment;)V
 
     .line 1185
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment$3;->a:Lkik/android/chat/fragment/AbTestsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment$3;->a:Lkik/arcane/chat/fragment/AbTestsFragment;
 
-    new-instance v1, Lkik/android/chat/fragment/AbTestsFragment$3$1;
+    new-instance v1, Lkik/arcane/chat/fragment/AbTestsFragment$3$1;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/fragment/AbTestsFragment$3$1;-><init>(Lkik/android/chat/fragment/AbTestsFragment$3;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/fragment/AbTestsFragment$3$1;-><init>(Lkik/arcane/chat/fragment/AbTestsFragment$3;)V
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/AbTestsFragment;->runOnUiIfAttached(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/AbTestsFragment;->runOnUiIfAttached(Ljava/lang/Runnable;)V
 
     .line 180
     return-void

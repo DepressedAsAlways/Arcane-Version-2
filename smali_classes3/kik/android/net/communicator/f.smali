@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/net/communicator/f;
+.class final synthetic Lkik/arcane/net/communicator/f;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/net/communicator/CommunicatorService;
+.field private final a:Lkik/arcane/net/communicator/CommunicatorService;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/net/communicator/CommunicatorService;)V
+.method private constructor <init>(Lkik/arcane/net/communicator/CommunicatorService;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/net/communicator/f;->a:Lkik/android/net/communicator/CommunicatorService;
+    iput-object p1, p0, Lkik/arcane/net/communicator/f;->a:Lkik/arcane/net/communicator/CommunicatorService;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/net/communicator/CommunicatorService;)Lcom/kik/events/e;
+.method public static a(Lkik/arcane/net/communicator/CommunicatorService;)Lcom/kik/events/e;
     .locals 1
 
-    new-instance v0, Lkik/android/net/communicator/f;
+    new-instance v0, Lkik/arcane/net/communicator/f;
 
-    invoke-direct {v0, p0}, Lkik/android/net/communicator/f;-><init>(Lkik/android/net/communicator/CommunicatorService;)V
+    invoke-direct {v0, p0}, Lkik/arcane/net/communicator/f;-><init>(Lkik/arcane/net/communicator/CommunicatorService;)V
 
     return-object v0
 .end method
@@ -35,9 +35,9 @@
 .method public final a(Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/net/communicator/f;->a:Lkik/android/net/communicator/CommunicatorService;
+    iget-object v0, p0, Lkik/arcane/net/communicator/f;->a:Lkik/arcane/net/communicator/CommunicatorService;
 
-    invoke-static {v0}, Lkik/android/net/communicator/CommunicatorService;->b(Lkik/android/net/communicator/CommunicatorService;)V
+    invoke-static {v0}, Lkik/arcane/net/communicator/CommunicatorService;->b(Lkik/arcane/net/communicator/CommunicatorService;)V
 
     return-void
 .end method

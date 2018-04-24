@@ -570,7 +570,7 @@
     goto :goto_1
 .end method
 
-.method public prepMigration(Ljava/util/Hashtable;Landroid/content/Context;Lkik/android/util/aj;)V
+.method public prepMigration(Ljava/util/Hashtable;Landroid/content/Context;Lkik/arcane/util/aj;)V
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -581,7 +581,7 @@
             "Lkik/core/datatypes/l;",
             ">;",
             "Landroid/content/Context;",
-            "Lkik/android/util/aj;",
+            "Lkik/arcane/util/aj;",
             ")V"
         }
     .end annotation
@@ -590,7 +590,7 @@
     .line 155
     const-string v0, "Kik.Storage.ContactImageCache.pref"
 
-    invoke-interface {p3, v0}, Lkik/android/util/aj;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
+    invoke-interface {p3, v0}, Lkik/arcane/util/aj;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -816,7 +816,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -923,7 +923,7 @@
     invoke-direct {v0, p3, p1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
     .line 81
-    invoke-static {v0, v1}, Lkik/android/util/e;->a(Ljava/io/File;Ljava/io/File;)V
+    invoke-static {v0, v1}, Lkik/arcane/util/e;->a(Ljava/io/File;Ljava/io/File;)V
 
     .line 83
     const-string v2, "AN"
@@ -1087,7 +1087,7 @@
     goto :goto_1
 .end method
 
-.method public wantsContactsMigration(Lkik/android/util/aj;)Z
+.method public wantsContactsMigration(Lkik/arcane/util/aj;)Z
     .locals 3
 
     .prologue
@@ -1105,7 +1105,7 @@
     :cond_1
     const-string v1, "Kik.Storage.ContactImageCache.pref"
 
-    invoke-interface {p1, v1}, Lkik/android/util/aj;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
+    invoke-interface {p1, v1}, Lkik/arcane/util/aj;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
 
     move-result-object v1
 

@@ -1,5 +1,5 @@
-.class public Lkik/android/chat/fragment/settings/PreferenceFragment;
-.super Lkik/android/chat/fragment/KikIqFragmentBase;
+.class public Lkik/arcane/chat/fragment/settings/PreferenceFragment;
+.super Lkik/arcane/chat/fragment/KikIqFragmentBase;
 .source "SourceFile"
 
 # interfaces
@@ -9,7 +9,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/fragment/settings/PreferenceFragment$a;
+        Lkik/arcane/chat/fragment/settings/PreferenceFragment$a;
     }
 .end annotation
 
@@ -34,7 +34,7 @@
     .end annotation
 .end field
 
-.field protected i:Lkik/android/util/aj;
+.field protected i:Lkik/arcane/util/aj;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -48,7 +48,7 @@
 
 .field private l:Landroid/preference/Preference;
 
-.field private m:Lkik/android/chat/fragment/settings/PreferenceFragment$a;
+.field private m:Lkik/arcane/chat/fragment/settings/PreferenceFragment$a;
 
 .field private n:Landroid/os/Handler;
 
@@ -61,26 +61,26 @@
 
     .prologue
     .line 111
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikIqFragmentBase;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikIqFragmentBase;-><init>()V
 
     .line 65
     const-string v0, "kik.community.guidelines"
 
-    iput-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->c:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->c:Ljava/lang/String;
 
     .line 79
-    new-instance v0, Lkik/android/chat/fragment/settings/PreferenceFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/settings/PreferenceFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/settings/PreferenceFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment$a;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->m:Lkik/android/chat/fragment/settings/PreferenceFragment$a;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->m:Lkik/arcane/chat/fragment/settings/PreferenceFragment$a;
 
     .line 92
-    new-instance v0, Lkik/android/chat/fragment/settings/PreferenceFragment$1;
+    new-instance v0, Lkik/arcane/chat/fragment/settings/PreferenceFragment$1;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/fragment/settings/PreferenceFragment$1;-><init>(Lkik/android/chat/fragment/settings/PreferenceFragment;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment$1;-><init>(Lkik/arcane/chat/fragment/settings/PreferenceFragment;)V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->n:Landroid/os/Handler;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->n:Landroid/os/Handler;
 
     .line 113
     return-void
@@ -93,7 +93,7 @@
     const/4 v1, 0x0
 
     .line 285
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->n:Landroid/os/Handler;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->n:Landroid/os/Handler;
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->hasMessages(I)Z
 
@@ -107,7 +107,7 @@
 
     .line 288
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->n:Landroid/os/Handler;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->n:Landroid/os/Handler;
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->obtainMessage(I)Landroid/os/Message;
 
@@ -118,12 +118,12 @@
     goto :goto_0
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/settings/PreferenceFragment;)V
+.method static synthetic a(Lkik/arcane/chat/fragment/settings/PreferenceFragment;)V
     .locals 0
 
     .prologue
     .line 58
-    invoke-direct {p0}, Lkik/android/chat/fragment/settings/PreferenceFragment;->c()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->c()V
 
     return-void
 .end method
@@ -133,7 +133,7 @@
 
     .prologue
     .line 294
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/PreferenceFragment;->b()Landroid/preference/PreferenceScreen;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->b()Landroid/preference/PreferenceScreen;
 
     move-result-object v3
 
@@ -141,7 +141,7 @@
     if-eqz v3, :cond_8
 
     .line 296
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->b:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->b:Landroid/widget/TextView;
 
     invoke-virtual {v3}, Landroid/preference/PreferenceScreen;->getTitle()Ljava/lang/CharSequence;
 
@@ -150,10 +150,10 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 297
-    invoke-virtual {p0, v3}, Lkik/android/chat/fragment/settings/PreferenceFragment;->a(Landroid/preference/PreferenceScreen;)V
+    invoke-virtual {p0, v3}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->a(Landroid/preference/PreferenceScreen;)V
 
     .line 298
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->k:Landroid/widget/ListView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->k:Landroid/widget/ListView;
 
     invoke-virtual {v3, v0}, Landroid/preference/PreferenceScreen;->bind(Landroid/widget/ListView;)V
 
@@ -176,44 +176,44 @@
     move-result-object v1
 
     .line 302
-    instance-of v0, v1, Lkik/android/widget/preferences/KikPreferenceScreen;
+    instance-of v0, v1, Lkik/arcane/widget/preferences/KikPreferenceScreen;
 
     if-eqz v0, :cond_2
 
     move-object v0, v1
 
     .line 303
-    check-cast v0, Lkik/android/widget/preferences/KikPreferenceScreen;
+    check-cast v0, Lkik/arcane/widget/preferences/KikPreferenceScreen;
 
     .line 304
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/PreferenceFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
 
     move-result-object v5
 
-    invoke-virtual {v0, v5}, Lkik/android/widget/preferences/KikPreferenceScreen;->a(Lcom/kik/components/CoreComponent;)V
+    invoke-virtual {v0, v5}, Lkik/arcane/widget/preferences/KikPreferenceScreen;->a(Lcom/kik/components/CoreComponent;)V
 
     .line 305
-    new-instance v5, Lkik/android/chat/fragment/settings/PreferenceFragment$2;
+    new-instance v5, Lkik/arcane/chat/fragment/settings/PreferenceFragment$2;
 
-    invoke-direct {v5, p0, v0}, Lkik/android/chat/fragment/settings/PreferenceFragment$2;-><init>(Lkik/android/chat/fragment/settings/PreferenceFragment;Lkik/android/widget/preferences/KikPreferenceScreen;)V
+    invoke-direct {v5, p0, v0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment$2;-><init>(Lkik/arcane/chat/fragment/settings/PreferenceFragment;Lkik/arcane/widget/preferences/KikPreferenceScreen;)V
 
     invoke-virtual {v1, v5}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
     .line 316
-    invoke-virtual {v0, p0}, Lkik/android/widget/preferences/KikPreferenceScreen;->a(Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+    invoke-virtual {v0, p0}, Lkik/arcane/widget/preferences/KikPreferenceScreen;->a(Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
 
     .line 346
     :cond_0
     :goto_1
-    instance-of v0, v1, Lkik/android/widget/preferences/KikAppCompatListPreference;
+    instance-of v0, v1, Lkik/arcane/widget/preferences/KikAppCompatListPreference;
 
     if-eqz v0, :cond_1
 
     .line 347
-    check-cast v1, Lkik/android/widget/preferences/KikAppCompatListPreference;
+    check-cast v1, Lkik/arcane/widget/preferences/KikAppCompatListPreference;
 
     .line 348
-    invoke-virtual {v1, p0}, Lkik/android/widget/preferences/KikAppCompatListPreference;->a(Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+    invoke-virtual {v1, p0}, Lkik/arcane/widget/preferences/KikAppCompatListPreference;->a(Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
 
     .line 300
     :cond_1
@@ -225,130 +225,130 @@
 
     .line 318
     :cond_2
-    instance-of v0, v1, Lkik/android/widget/preferences/KikVideoPrefetchPreference;
+    instance-of v0, v1, Lkik/arcane/widget/preferences/KikVideoPrefetchPreference;
 
     if-eqz v0, :cond_3
 
     move-object v0, v1
 
     .line 319
-    check-cast v0, Lkik/android/widget/preferences/KikVideoPrefetchPreference;
+    check-cast v0, Lkik/arcane/widget/preferences/KikVideoPrefetchPreference;
 
     .line 320
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/PreferenceFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
 
     move-result-object v5
 
-    invoke-virtual {v0, v5}, Lkik/android/widget/preferences/KikVideoPrefetchPreference;->a(Lcom/kik/components/CoreComponent;)V
+    invoke-virtual {v0, v5}, Lkik/arcane/widget/preferences/KikVideoPrefetchPreference;->a(Lcom/kik/components/CoreComponent;)V
 
     goto :goto_1
 
     .line 322
     :cond_3
-    instance-of v0, v1, Lkik/android/widget/preferences/AutoplayVideoPreference;
+    instance-of v0, v1, Lkik/arcane/widget/preferences/AutoplayVideoPreference;
 
     if-eqz v0, :cond_4
 
     move-object v0, v1
 
     .line 323
-    check-cast v0, Lkik/android/widget/preferences/AutoplayVideoPreference;
+    check-cast v0, Lkik/arcane/widget/preferences/AutoplayVideoPreference;
 
     .line 324
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/PreferenceFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
 
     move-result-object v5
 
-    invoke-virtual {v0, v5}, Lkik/android/widget/preferences/AutoplayVideoPreference;->a(Lcom/kik/components/CoreComponent;)V
+    invoke-virtual {v0, v5}, Lkik/arcane/widget/preferences/AutoplayVideoPreference;->a(Lcom/kik/components/CoreComponent;)V
 
     goto :goto_1
 
     .line 326
     :cond_4
-    instance-of v0, v1, Lkik/android/widget/preferences/LEDNotificationPreference;
+    instance-of v0, v1, Lkik/arcane/widget/preferences/LEDNotificationPreference;
 
     if-eqz v0, :cond_5
 
     move-object v0, v1
 
     .line 327
-    check-cast v0, Lkik/android/widget/preferences/LEDNotificationPreference;
+    check-cast v0, Lkik/arcane/widget/preferences/LEDNotificationPreference;
 
     .line 328
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/PreferenceFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
 
     move-result-object v5
 
-    invoke-virtual {v0, v5}, Lkik/android/widget/preferences/LEDNotificationPreference;->a(Lcom/kik/components/CoreComponent;)V
+    invoke-virtual {v0, v5}, Lkik/arcane/widget/preferences/LEDNotificationPreference;->a(Lcom/kik/components/CoreComponent;)V
 
     goto :goto_1
 
     .line 330
     :cond_5
-    instance-of v0, v1, Lkik/android/widget/preferences/KikSwitchPreference;
+    instance-of v0, v1, Lkik/arcane/widget/preferences/KikSwitchPreference;
 
     if-eqz v0, :cond_6
 
     move-object v0, v1
 
     .line 331
-    check-cast v0, Lkik/android/widget/preferences/KikSwitchPreference;
+    check-cast v0, Lkik/arcane/widget/preferences/KikSwitchPreference;
 
     .line 332
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/PreferenceFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
 
     move-result-object v5
 
-    invoke-virtual {v0, v5}, Lkik/android/widget/preferences/KikSwitchPreference;->a(Lcom/kik/components/CoreComponent;)V
+    invoke-virtual {v0, v5}, Lkik/arcane/widget/preferences/KikSwitchPreference;->a(Lcom/kik/components/CoreComponent;)V
 
     .line 333
-    invoke-virtual {v0, p0}, Lkik/android/widget/preferences/KikSwitchPreference;->a(Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+    invoke-virtual {v0, p0}, Lkik/arcane/widget/preferences/KikSwitchPreference;->a(Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
 
     goto :goto_1
 
     .line 335
     :cond_6
-    instance-of v0, v1, Lkik/android/widget/preferences/KikModalPreference;
+    instance-of v0, v1, Lkik/arcane/widget/preferences/KikModalPreference;
 
     if-eqz v0, :cond_7
 
     move-object v0, v1
 
     .line 336
-    check-cast v0, Lkik/android/widget/preferences/KikModalPreference;
+    check-cast v0, Lkik/arcane/widget/preferences/KikModalPreference;
 
     .line 337
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/PreferenceFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
 
     move-result-object v5
 
-    invoke-virtual {v0, v5}, Lkik/android/widget/preferences/KikModalPreference;->a(Lcom/kik/components/CoreComponent;)V
+    invoke-virtual {v0, v5}, Lkik/arcane/widget/preferences/KikModalPreference;->a(Lcom/kik/components/CoreComponent;)V
 
     .line 338
-    invoke-virtual {v0, p0}, Lkik/android/widget/preferences/KikModalPreference;->a(Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+    invoke-virtual {v0, p0}, Lkik/arcane/widget/preferences/KikModalPreference;->a(Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
 
     goto :goto_1
 
     .line 340
     :cond_7
-    instance-of v0, v1, Lkik/android/widget/preferences/KikPreference;
+    instance-of v0, v1, Lkik/arcane/widget/preferences/KikPreference;
 
     if-eqz v0, :cond_0
 
     move-object v0, v1
 
     .line 341
-    check-cast v0, Lkik/android/widget/preferences/KikPreference;
+    check-cast v0, Lkik/arcane/widget/preferences/KikPreference;
 
     .line 342
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/PreferenceFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
 
     move-result-object v5
 
-    invoke-virtual {v0, v5}, Lkik/android/widget/preferences/KikPreference;->a(Lcom/kik/components/CoreComponent;)V
+    invoke-virtual {v0, v5}, Lkik/arcane/widget/preferences/KikPreference;->a(Lcom/kik/components/CoreComponent;)V
 
     .line 343
-    invoke-virtual {v0, p0}, Lkik/android/widget/preferences/KikPreference;->a(Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+    invoke-virtual {v0, p0}, Lkik/arcane/widget/preferences/KikPreference;->a(Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
 
     goto :goto_1
 
@@ -397,7 +397,7 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/PreferenceFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v3
 
@@ -444,7 +444,7 @@
 
     .prologue
     .line 468
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->a:Landroid/preference/PreferenceManager;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->a:Landroid/preference/PreferenceManager;
 
     if-nez v0, :cond_0
 
@@ -456,7 +456,7 @@
     return-object v0
 
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->a:Landroid/preference/PreferenceManager;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->a:Landroid/preference/PreferenceManager;
 
     invoke-virtual {v0, p1}, Landroid/preference/PreferenceManager;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
@@ -497,7 +497,7 @@
     invoke-virtual {v0, v1}, Ljava/lang/reflect/Method;->setAccessible(Z)V
 
     .line 422
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->a:Landroid/preference/PreferenceManager;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->a:Landroid/preference/PreferenceManager;
 
     const/4 v2, 0x0
 
@@ -532,7 +532,7 @@
 
     .prologue
     .line 267
-    invoke-super {p0, p1, p2, p3}, Lkik/android/chat/fragment/KikIqFragmentBase;->onActivityResult(IILandroid/content/Intent;)V
+    invoke-super {p0, p1, p2, p3}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->onActivityResult(IILandroid/content/Intent;)V
 
     .line 269
     :try_start_0
@@ -572,7 +572,7 @@
     invoke-virtual {v0, v1}, Ljava/lang/reflect/Method;->setAccessible(Z)V
 
     .line 271
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->a:Landroid/preference/PreferenceManager;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->a:Landroid/preference/PreferenceManager;
 
     const/4 v2, 0x3
 
@@ -620,17 +620,17 @@
 
     .prologue
     .line 118
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/PreferenceFragment;->getArguments()Landroid/os/Bundle;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->getArguments()Landroid/os/Bundle;
 
     move-result-object v0
 
     .line 119
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->m:Lkik/android/chat/fragment/settings/PreferenceFragment$a;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->m:Lkik/arcane/chat/fragment/settings/PreferenceFragment$a;
 
-    invoke-virtual {v1, v0}, Lkik/android/chat/fragment/settings/PreferenceFragment$a;->a(Landroid/os/Bundle;)V
+    invoke-virtual {v1, v0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment$a;->a(Landroid/os/Bundle;)V
 
     .line 120
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikIqFragmentBase;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->onCreate(Landroid/os/Bundle;)V
 
     .line 121
     return-void
@@ -645,40 +645,40 @@
     const/4 v4, 0x0
 
     .line 150
-    invoke-direct {p0}, Lkik/android/chat/fragment/settings/PreferenceFragment;->a()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->a()V
 
     .line 156
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->m:Lkik/android/chat/fragment/settings/PreferenceFragment$a;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->m:Lkik/arcane/chat/fragment/settings/PreferenceFragment$a;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/settings/PreferenceFragment$a;->a(Lkik/android/chat/fragment/settings/PreferenceFragment$a;)I
+    invoke-static {v0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment$a;->a(Lkik/arcane/chat/fragment/settings/PreferenceFragment$a;)I
 
     move-result v2
 
     .line 157
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->m:Lkik/android/chat/fragment/settings/PreferenceFragment$a;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->m:Lkik/arcane/chat/fragment/settings/PreferenceFragment$a;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/settings/PreferenceFragment$a;->b()I
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment$a;->b()I
 
     move-result v1
 
     .line 1201
-    invoke-direct {p0}, Lkik/android/chat/fragment/settings/PreferenceFragment;->d()Landroid/preference/PreferenceManager;
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->d()Landroid/preference/PreferenceManager;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->a:Landroid/preference/PreferenceManager;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->a:Landroid/preference/PreferenceManager;
 
     .line 1202
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->a:Landroid/preference/PreferenceManager;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->a:Landroid/preference/PreferenceManager;
 
     if-eqz v0, :cond_0
 
     .line 1203
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->a:Landroid/preference/PreferenceManager;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->a:Landroid/preference/PreferenceManager;
 
-    iget-object v3, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->i:Lkik/android/util/aj;
+    iget-object v3, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->i:Lkik/arcane/util/aj;
 
-    invoke-interface {v3}, Lkik/android/util/aj;->d()Ljava/lang/String;
+    invoke-interface {v3}, Lkik/arcane/util/aj;->d()Ljava/lang/String;
 
     move-result-object v3
 
@@ -699,7 +699,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->g:Landroid/view/View;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->g:Landroid/view/View;
 
     .line 1209
     const v0, 0x7f1000dd
@@ -710,29 +710,29 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    iput-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->f:Landroid/view/ViewGroup;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->f:Landroid/view/ViewGroup;
 
     .line 1210
     if-eqz v1, :cond_2
 
     .line 1211
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->f:Landroid/view/ViewGroup;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->f:Landroid/view/ViewGroup;
 
     if-eqz v0, :cond_1
 
     .line 1213
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->f:Landroid/view/ViewGroup;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->f:Landroid/view/ViewGroup;
 
     invoke-virtual {v0}, Landroid/view/ViewGroup;->removeAllViews()V
 
     .line 1214
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->f:Landroid/view/ViewGroup;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->f:Landroid/view/ViewGroup;
 
     invoke-virtual {p1, v1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 1216
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->g:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->g:Landroid/view/View;
 
     invoke-virtual {v0, v4}, Landroid/view/View;->setVisibility(I)V
 
@@ -746,7 +746,7 @@
 
     check-cast v0, Landroid/widget/ListView;
 
-    iput-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->k:Landroid/widget/ListView;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->k:Landroid/widget/ListView;
 
     .line 1221
     const/16 v0, 0x9
@@ -758,13 +758,13 @@
     if-nez v0, :cond_3
 
     .line 1222
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->k:Landroid/widget/ListView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->k:Landroid/widget/ListView;
 
     invoke-virtual {v0, v5}, Landroid/widget/ListView;->setOverscrollFooter(Landroid/graphics/drawable/Drawable;)V
 
     .line 1225
     :cond_3
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->k:Landroid/widget/ListView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->k:Landroid/widget/ListView;
 
     invoke-virtual {v0, v4}, Landroid/widget/ListView;->setScrollBarStyle(I)V
 
@@ -777,7 +777,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->b:Landroid/widget/TextView;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->b:Landroid/widget/TextView;
 
     .line 1449
     :try_start_0
@@ -817,7 +817,7 @@
     invoke-virtual {v0, v1}, Ljava/lang/reflect/Method;->setAccessible(Z)V
 
     .line 1451
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->a:Landroid/preference/PreferenceManager;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->a:Landroid/preference/PreferenceManager;
 
     const/4 v4, 0x3
 
@@ -825,7 +825,7 @@
 
     const/4 v5, 0x0
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/PreferenceFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v6
 
@@ -841,7 +841,7 @@
 
     const/4 v5, 0x2
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/PreferenceFragment;->b()Landroid/preference/PreferenceScreen;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->b()Landroid/preference/PreferenceScreen;
 
     move-result-object v6
 
@@ -881,7 +881,7 @@
     invoke-virtual {v1, v4}, Ljava/lang/reflect/Method;->setAccessible(Z)V
 
     .line 2401
-    iget-object v4, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->a:Landroid/preference/PreferenceManager;
+    iget-object v4, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->a:Landroid/preference/PreferenceManager;
 
     const/4 v5, 0x1
 
@@ -907,45 +907,45 @@
     if-eqz v0, :cond_4
 
     .line 2403
-    invoke-direct {p0}, Lkik/android/chat/fragment/settings/PreferenceFragment;->a()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->a()V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
     .line 1228
     :cond_4
     :goto_0
-    iput v2, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->o:I
+    iput v2, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->o:I
 
     .line 1230
-    invoke-direct {p0}, Lkik/android/chat/fragment/settings/PreferenceFragment;->c()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->c()V
 
     .line 1231
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/PreferenceFragment;->b()Landroid/preference/PreferenceScreen;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->b()Landroid/preference/PreferenceScreen;
 
     .line 161
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/PreferenceFragment;->b()Landroid/preference/PreferenceScreen;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->b()Landroid/preference/PreferenceScreen;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->d:Landroid/preference/PreferenceScreen;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->d:Landroid/preference/PreferenceScreen;
 
     .line 162
     const-string v0, "kik.community.guidelines"
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/settings/PreferenceFragment;->a(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->a(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->e:Landroid/preference/Preference;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->e:Landroid/preference/Preference;
 
     .line 163
     const-string v0, "kik.kinwallet"
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/settings/PreferenceFragment;->a(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->a(Ljava/lang/CharSequence;)Landroid/preference/Preference;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->l:Landroid/preference/Preference;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->l:Landroid/preference/Preference;
 
     .line 165
     return-object v3
@@ -975,12 +975,12 @@
 
     .prologue
     .line 252
-    invoke-super {p0}, Lkik/android/chat/fragment/KikIqFragmentBase;->onDestroy()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->onDestroy()V
 
     .line 253
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->k:Landroid/widget/ListView;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->k:Landroid/widget/ListView;
 
     .line 255
     :try_start_0
@@ -1002,7 +1002,7 @@
     invoke-virtual {v0, v1}, Ljava/lang/reflect/Method;->setAccessible(Z)V
 
     .line 257
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->a:Landroid/preference/PreferenceManager;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->a:Landroid/preference/PreferenceManager;
 
     const/4 v2, 0x0
 
@@ -1030,10 +1030,10 @@
 
     .prologue
     .line 191
-    invoke-super {p0}, Lkik/android/chat/fragment/KikIqFragmentBase;->onDestroyView()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->onDestroyView()V
 
     .line 192
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->k:Landroid/widget/ListView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->k:Landroid/widget/ListView;
 
     invoke-virtual {v0}, Landroid/widget/ListView;->getParent()Landroid/view/ViewParent;
 
@@ -1045,7 +1045,7 @@
     .line 194
     check-cast v0, Landroid/view/ViewGroup;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->k:Landroid/widget/ListView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->k:Landroid/widget/ListView;
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
@@ -1069,15 +1069,15 @@
 
     .prologue
     .line 488
-    invoke-super {p0}, Lkik/android/chat/fragment/KikIqFragmentBase;->onResume()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->onResume()V
 
     .line 490
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->l:Landroid/preference/Preference;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->l:Landroid/preference/Preference;
 
     if-eqz v0, :cond_0
 
     .line 3170
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->j:Lkik/core/interfaces/b;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->j:Lkik/core/interfaces/b;
 
     if-nez v0, :cond_1
 
@@ -1089,9 +1089,9 @@
     if-nez v0, :cond_0
 
     .line 491
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->d:Landroid/preference/PreferenceScreen;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->d:Landroid/preference/PreferenceScreen;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->l:Landroid/preference/Preference;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->l:Landroid/preference/Preference;
 
     invoke-virtual {v0, v1}, Landroid/preference/PreferenceScreen;->removePreference(Landroid/preference/Preference;)Z
 
@@ -1101,7 +1101,7 @@
 
     .line 3173
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->j:Lkik/core/interfaces/b;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->j:Lkik/core/interfaces/b;
 
     const-string v1, "kin_wallet_android"
 
@@ -1119,7 +1119,7 @@
 
     .prologue
     .line 238
-    invoke-super {p0}, Lkik/android/chat/fragment/KikIqFragmentBase;->onStop()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->onStop()V
 
     .line 240
     :try_start_0
@@ -1141,7 +1141,7 @@
     invoke-virtual {v0, v1}, Ljava/lang/reflect/Method;->setAccessible(Z)V
 
     .line 242
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->a:Landroid/preference/PreferenceManager;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->a:Landroid/preference/PreferenceManager;
 
     const/4 v2, 0x0
 
@@ -1169,9 +1169,9 @@
 
     .prologue
     .line 127
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment;->m:Lkik/android/chat/fragment/settings/PreferenceFragment$a;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->m:Lkik/arcane/chat/fragment/settings/PreferenceFragment$a;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/settings/PreferenceFragment$a;->a(Lkik/android/chat/fragment/settings/PreferenceFragment$a;)I
+    invoke-static {v0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment$a;->a(Lkik/arcane/chat/fragment/settings/PreferenceFragment$a;)I
 
     move-result v0
 

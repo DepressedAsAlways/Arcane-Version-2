@@ -1,11 +1,11 @@
-.class public final enum Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;
+.class public final enum Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;
 .super Ljava/lang/Enum;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikScopedDialogFragment;
+    value = Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,18 +17,18 @@
     value = {
         "Ljava/lang/Enum",
         "<",
-        "Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;",
+        "Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;",
         ">;"
     }
 .end annotation
 
 
 # static fields
-.field private static final synthetic $VALUES:[Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;
+.field private static final synthetic $VALUES:[Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;
 
-.field public static final enum DialogScopeApplicationModal:Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;
+.field public static final enum DialogScopeApplicationModal:Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;
 
-.field public static final enum DialogScopeFragmentModal:Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;
+.field public static final enum DialogScopeFragmentModal:Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;
 
 
 # direct methods
@@ -41,36 +41,36 @@
     const/4 v2, 0x0
 
     .line 65
-    new-instance v0, Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;
+    new-instance v0, Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;
 
     const-string v1, "DialogScopeApplicationModal"
 
-    invoke-direct {v0, v1, v2}, Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;->DialogScopeApplicationModal:Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;
+    sput-object v0, Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;->DialogScopeApplicationModal:Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;
 
-    new-instance v0, Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;
+    new-instance v0, Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;
 
     const-string v1, "DialogScopeFragmentModal"
 
-    invoke-direct {v0, v1, v3}, Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v3}, Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;->DialogScopeFragmentModal:Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;
+    sput-object v0, Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;->DialogScopeFragmentModal:Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;
 
     .line 63
     const/4 v0, 0x2
 
-    new-array v0, v0, [Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;
+    new-array v0, v0, [Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;
 
-    sget-object v1, Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;->DialogScopeApplicationModal:Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;
+    sget-object v1, Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;->DialogScopeApplicationModal:Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;->DialogScopeFragmentModal:Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;
+    sget-object v1, Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;->DialogScopeFragmentModal:Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;
 
     aput-object v1, v0, v3
 
-    sput-object v0, Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;->$VALUES:[Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;
+    sput-object v0, Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;->$VALUES:[Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;
 
     return-void
 .end method
@@ -90,34 +90,34 @@
     return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;
+.method public static valueOf(Ljava/lang/String;)Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;
     .locals 1
 
     .prologue
     .line 63
-    const-class v0, Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;
+    const-class v0, Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;
+    check-cast v0, Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;
 
     return-object v0
 .end method
 
-.method public static values()[Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;
+.method public static values()[Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;
     .locals 1
 
     .prologue
     .line 63
-    sget-object v0, Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;->$VALUES:[Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;
+    sget-object v0, Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;->$VALUES:[Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;
 
-    invoke-virtual {v0}, [Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;
+    check-cast v0, [Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;
 
     return-object v0
 .end method

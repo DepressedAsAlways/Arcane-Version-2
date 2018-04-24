@@ -1,4 +1,4 @@
-.class final Lkik/android/widget/preferences/UsernamePreference$1;
+.class final Lkik/arcane/widget/preferences/UsernamePreference$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/preferences/UsernamePreference;->onPreferenceClick(Landroid/preference/Preference;)Z
+    value = Lkik/arcane/widget/preferences/UsernamePreference;->onPreferenceClick(Landroid/preference/Preference;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/preferences/UsernamePreference;
+.field final synthetic a:Lkik/arcane/widget/preferences/UsernamePreference;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/preferences/UsernamePreference;)V
+.method constructor <init>(Lkik/arcane/widget/preferences/UsernamePreference;)V
     .locals 0
 
     .prologue
     .line 72
-    iput-object p1, p0, Lkik/android/widget/preferences/UsernamePreference$1;->a:Lkik/android/widget/preferences/UsernamePreference;
+    iput-object p1, p0, Lkik/arcane/widget/preferences/UsernamePreference$1;->a:Lkik/arcane/widget/preferences/UsernamePreference;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -50,13 +50,13 @@
 
     .line 78
     :pswitch_0
-    iget-object v0, p0, Lkik/android/widget/preferences/UsernamePreference$1;->a:Lkik/android/widget/preferences/UsernamePreference;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/UsernamePreference$1;->a:Lkik/arcane/widget/preferences/UsernamePreference;
 
-    invoke-virtual {v0}, Lkik/android/widget/preferences/UsernamePreference;->a()Lkik/android/chat/fragment/KikScopedDialogFragment;
+    invoke-virtual {v0}, Lkik/arcane/widget/preferences/UsernamePreference;->a()Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikScopedDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v0
 
@@ -69,9 +69,9 @@
     check-cast v0, Landroid/text/ClipboardManager;
 
     .line 80
-    iget-object v1, p0, Lkik/android/widget/preferences/UsernamePreference$1;->a:Lkik/android/widget/preferences/UsernamePreference;
+    iget-object v1, p0, Lkik/arcane/widget/preferences/UsernamePreference$1;->a:Lkik/arcane/widget/preferences/UsernamePreference;
 
-    iget-object v1, v1, Lkik/android/widget/preferences/UsernamePreference;->d:Lkik/core/interfaces/ag;
+    iget-object v1, v1, Lkik/arcane/widget/preferences/UsernamePreference;->d:Lkik/core/interfaces/ag;
 
     invoke-interface {v1}, Lkik/core/interfaces/ag;->d()Lkik/core/datatypes/aa;
 
@@ -89,33 +89,33 @@
 
     .line 87
     :pswitch_1
-    iget-object v0, p0, Lkik/android/widget/preferences/UsernamePreference$1;->a:Lkik/android/widget/preferences/UsernamePreference;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/UsernamePreference$1;->a:Lkik/arcane/widget/preferences/UsernamePreference;
 
-    iget-object v0, v0, Lkik/android/widget/preferences/UsernamePreference;->d:Lkik/core/interfaces/ag;
+    iget-object v0, v0, Lkik/arcane/widget/preferences/UsernamePreference;->d:Lkik/core/interfaces/ag;
 
     invoke-interface {v0}, Lkik/core/interfaces/ag;->d()Lkik/core/datatypes/aa;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/widget/preferences/UsernamePreference$1;->a:Lkik/android/widget/preferences/UsernamePreference;
+    iget-object v1, p0, Lkik/arcane/widget/preferences/UsernamePreference$1;->a:Lkik/arcane/widget/preferences/UsernamePreference;
 
-    invoke-static {v1}, Lkik/android/widget/preferences/UsernamePreference;->a(Lkik/android/widget/preferences/UsernamePreference;)Landroid/content/Context;
+    invoke-static {v1}, Lkik/arcane/widget/preferences/UsernamePreference;->a(Lkik/arcane/widget/preferences/UsernamePreference;)Landroid/content/Context;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/widget/preferences/UsernamePreference$1;->a:Lkik/android/widget/preferences/UsernamePreference;
+    iget-object v2, p0, Lkik/arcane/widget/preferences/UsernamePreference$1;->a:Lkik/arcane/widget/preferences/UsernamePreference;
 
-    iget-object v2, v2, Lkik/android/widget/preferences/UsernamePreference;->e:Lcom/kik/android/Mixpanel;
+    iget-object v2, v2, Lkik/arcane/widget/preferences/UsernamePreference;->e:Lcom/kik/arcane/Mixpanel;
 
-    iget-object v3, p0, Lkik/android/widget/preferences/UsernamePreference$1;->a:Lkik/android/widget/preferences/UsernamePreference;
+    iget-object v3, p0, Lkik/arcane/widget/preferences/UsernamePreference$1;->a:Lkik/arcane/widget/preferences/UsernamePreference;
 
-    iget-object v3, v3, Lkik/android/widget/preferences/UsernamePreference;->a:Lkik/core/interfaces/b;
+    iget-object v3, v3, Lkik/arcane/widget/preferences/UsernamePreference;->a:Lkik/core/interfaces/b;
 
-    iget-object v4, p0, Lkik/android/widget/preferences/UsernamePreference$1;->a:Lkik/android/widget/preferences/UsernamePreference;
+    iget-object v4, p0, Lkik/arcane/widget/preferences/UsernamePreference$1;->a:Lkik/arcane/widget/preferences/UsernamePreference;
 
-    iget-object v4, v4, Lkik/android/widget/preferences/UsernamePreference;->f:Lcom/kik/cache/KikVolleyImageLoader;
+    iget-object v4, v4, Lkik/arcane/widget/preferences/UsernamePreference;->f:Lcom/kik/cache/KikVolleyImageLoader;
 
-    invoke-static {v0, v1, v2, v3, v4}, Lkik/android/util/bj;->a(Lkik/core/datatypes/aa;Landroid/content/Context;Lcom/kik/android/Mixpanel;Lkik/core/interfaces/b;Lcom/kik/cache/KikVolleyImageLoader;)V
+    invoke-static {v0, v1, v2, v3, v4}, Lkik/arcane/util/bj;->a(Lkik/core/datatypes/aa;Landroid/content/Context;Lcom/kik/arcane/Mixpanel;Lkik/core/interfaces/b;Lcom/kik/cache/KikVolleyImageLoader;)V
 
     goto :goto_0
 

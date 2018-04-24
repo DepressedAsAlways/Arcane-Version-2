@@ -1,4 +1,4 @@
-.class public abstract Lkik/android/chat/fragment/gb;
+.class public abstract Lkik/arcane/chat/fragment/gb;
 .super Landroid/support/v7/widget/RecyclerView$ViewHolder;
 .source "SourceFile"
 
@@ -15,11 +15,11 @@
     .line 16
     const/high16 v0, 0x41200000    # 10.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
-    sput v0, Lkik/android/chat/fragment/gb;->a:I
+    sput v0, Lkik/arcane/chat/fragment/gb;->a:I
 
     return-void
 .end method

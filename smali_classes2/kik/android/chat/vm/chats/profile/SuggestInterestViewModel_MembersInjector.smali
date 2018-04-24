@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/vm/chats/profile/SuggestInterestViewModel_MembersInjector;
+.class public final Lkik/arcane/chat/vm/chats/profile/SuggestInterestViewModel_MembersInjector;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/b",
         "<",
-        "Lkik/android/chat/vm/chats/profile/du;",
+        "Lkik/arcane/chat/vm/chats/profile/du;",
         ">;"
     }
 .end annotation
@@ -41,7 +41,7 @@
 
     .prologue
     .line 8
-    const-class v0, Lkik/android/chat/vm/chats/profile/SuggestInterestViewModel_MembersInjector;
+    const-class v0, Lkik/arcane/chat/vm/chats/profile/SuggestInterestViewModel_MembersInjector;
 
     invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
 
@@ -52,7 +52,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    sput-boolean v0, Lkik/android/chat/vm/chats/profile/SuggestInterestViewModel_MembersInjector;->a:Z
+    sput-boolean v0, Lkik/arcane/chat/vm/chats/profile/SuggestInterestViewModel_MembersInjector;->a:Z
 
     return-void
 
@@ -79,7 +79,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 18
-    sget-boolean v0, Lkik/android/chat/vm/chats/profile/SuggestInterestViewModel_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/vm/chats/profile/SuggestInterestViewModel_MembersInjector;->a:Z
 
     if-nez v0, :cond_0
 
@@ -93,7 +93,7 @@
 
     .line 19
     :cond_0
-    iput-object p1, p0, Lkik/android/chat/vm/chats/profile/SuggestInterestViewModel_MembersInjector;->b:Ljavax/inject/Provider;
+    iput-object p1, p0, Lkik/arcane/chat/vm/chats/profile/SuggestInterestViewModel_MembersInjector;->b:Ljavax/inject/Provider;
 
     .line 20
     return-void
@@ -110,16 +110,16 @@
             ">;)",
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/profile/du;",
+            "Lkik/arcane/chat/vm/chats/profile/du;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 24
-    new-instance v0, Lkik/android/chat/vm/chats/profile/SuggestInterestViewModel_MembersInjector;
+    new-instance v0, Lkik/arcane/chat/vm/chats/profile/SuggestInterestViewModel_MembersInjector;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/vm/chats/profile/SuggestInterestViewModel_MembersInjector;-><init>(Ljavax/inject/Provider;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/vm/chats/profile/SuggestInterestViewModel_MembersInjector;-><init>(Ljavax/inject/Provider;)V
 
     return-object v0
 .end method
@@ -131,7 +131,7 @@
 
     .prologue
     .line 8
-    check-cast p1, Lkik/android/chat/vm/chats/profile/du;
+    check-cast p1, Lkik/arcane/chat/vm/chats/profile/du;
 
     .line 1029
     if-nez p1, :cond_0
@@ -147,7 +147,7 @@
 
     .line 1032
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/vm/chats/profile/SuggestInterestViewModel_MembersInjector;->b:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/profile/SuggestInterestViewModel_MembersInjector;->b:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -155,7 +155,7 @@
 
     check-cast v0, Lcom/kik/metrics/c/d;
 
-    iput-object v0, p1, Lkik/android/chat/vm/chats/profile/du;->a:Lcom/kik/metrics/c/d;
+    iput-object v0, p1, Lkik/arcane/chat/vm/chats/profile/du;->a:Lcom/kik/metrics/c/d;
 
     .line 8
     return-void

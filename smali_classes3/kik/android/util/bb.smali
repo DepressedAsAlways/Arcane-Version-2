@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/bb;
+.class public final Lkik/arcane/util/bb;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,13 +6,13 @@
 # instance fields
 .field a:Lkik/core/interfaces/v;
 
-.field b:Lcom/kik/android/Mixpanel;
+.field b:Lcom/kik/arcane/Mixpanel;
 
 .field c:Lkik/core/interfaces/IConversation;
 
 
 # direct methods
-.method public constructor <init>(Lkik/core/interfaces/v;Lcom/kik/android/Mixpanel;Lkik/core/interfaces/IConversation;)V
+.method public constructor <init>(Lkik/core/interfaces/v;Lcom/kik/arcane/Mixpanel;Lkik/core/interfaces/IConversation;)V
     .locals 0
 
     .prologue
@@ -20,13 +20,13 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 32
-    iput-object p1, p0, Lkik/android/util/bb;->a:Lkik/core/interfaces/v;
+    iput-object p1, p0, Lkik/arcane/util/bb;->a:Lkik/core/interfaces/v;
 
     .line 33
-    iput-object p2, p0, Lkik/android/util/bb;->b:Lcom/kik/android/Mixpanel;
+    iput-object p2, p0, Lkik/arcane/util/bb;->b:Lcom/kik/arcane/Mixpanel;
 
     .line 34
-    iput-object p3, p0, Lkik/android/util/bb;->c:Lkik/core/interfaces/IConversation;
+    iput-object p3, p0, Lkik/arcane/util/bb;->c:Lkik/core/interfaces/IConversation;
 
     .line 35
     return-void
@@ -34,7 +34,7 @@
 
 
 # virtual methods
-.method public final a(Lkik/core/datatypes/l;Lkik/core/datatypes/f;Ljava/lang/String;)Lkik/android/chat/fragment/KikDialogFragment;
+.method public final a(Lkik/core/datatypes/l;Lkik/core/datatypes/f;Ljava/lang/String;)Lkik/arcane/chat/fragment/KikDialogFragment;
     .locals 3
 
     .prologue
@@ -53,14 +53,14 @@
 
     .line 43
     :cond_1
-    new-instance v1, Lkik/android/chat/fragment/KikDialogFragment$a;
+    new-instance v1, Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
-    invoke-direct {v1}, Lkik/android/chat/fragment/KikDialogFragment$a;-><init>()V
+    invoke-direct {v1}, Lkik/arcane/chat/fragment/KikDialogFragment$a;-><init>()V
 
     .line 44
     const v0, 0x7f0906b0
 
-    invoke-virtual {v1, v0}, Lkik/android/chat/fragment/KikDialogFragment$a;->a(I)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v1, v0}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a(I)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     .line 46
     new-instance v0, Ljava/util/ArrayList;
@@ -70,7 +70,7 @@
     .line 47
     const v2, 0x7f090235
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v2
 
@@ -79,7 +79,7 @@
     .line 48
     const v2, 0x7f090236
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v2
 
@@ -88,7 +88,7 @@
     .line 49
     const v2, 0x7f090234
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v2
 
@@ -108,28 +108,28 @@
     check-cast v0, [Ljava/lang/CharSequence;
 
     .line 55
-    invoke-virtual {v1, v0}, Lkik/android/chat/fragment/KikDialogFragment$a;->a([Ljava/lang/CharSequence;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v1, v0}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a([Ljava/lang/CharSequence;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     .line 56
     const v0, 0x7f09027d
 
-    new-instance v2, Lkik/android/util/bb$1;
+    new-instance v2, Lkik/arcane/util/bb$1;
 
-    invoke-direct {v2, p0, p1, p3, p2}, Lkik/android/util/bb$1;-><init>(Lkik/android/util/bb;Lkik/core/datatypes/l;Ljava/lang/String;Lkik/core/datatypes/f;)V
+    invoke-direct {v2, p0, p1, p3, p2}, Lkik/arcane/util/bb$1;-><init>(Lkik/arcane/util/bb;Lkik/core/datatypes/l;Ljava/lang/String;Lkik/core/datatypes/f;)V
 
-    invoke-virtual {v1, v0, v2}, Lkik/android/chat/fragment/KikDialogFragment$a;->a(ILandroid/content/DialogInterface$OnClickListener;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v1, v0, v2}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a(ILandroid/content/DialogInterface$OnClickListener;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     .line 93
     const v0, 0x7f0903d7
 
-    invoke-static {}, Lkik/android/util/bc;->a()Landroid/content/DialogInterface$OnClickListener;
+    invoke-static {}, Lkik/arcane/util/bc;->a()Landroid/content/DialogInterface$OnClickListener;
 
     move-result-object v2
 
-    invoke-virtual {v1, v0, v2}, Lkik/android/chat/fragment/KikDialogFragment$a;->b(ILandroid/content/DialogInterface$OnClickListener;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v1, v0, v2}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->b(ILandroid/content/DialogInterface$OnClickListener;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     .line 95
-    invoke-virtual {v1}, Lkik/android/chat/fragment/KikDialogFragment$a;->a()Lkik/android/chat/fragment/KikDialogFragment;
+    invoke-virtual {v1}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a()Lkik/arcane/chat/fragment/KikDialogFragment;
 
     move-result-object v0
 

@@ -1,12 +1,12 @@
-.class public Lkik/android/widget/UserMediaImageThumbNailList;
-.super Lkik/android/widget/ThumbNailListView;
+.class public Lkik/arcane/widget/UserMediaImageThumbNailList;
+.super Lkik/arcane/widget/ThumbNailListView;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkik/android/widget/ThumbNailListView",
+        "Lkik/arcane/widget/ThumbNailListView",
         "<",
         "Lcom/kik/cards/usermedia/g;",
         ">;"
@@ -22,7 +22,7 @@
     .line 20
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/UserMediaImageThumbNailList;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/UserMediaImageThumbNailList;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 21
     return-void
@@ -33,10 +33,10 @@
 
     .prologue
     .line 25
-    invoke-direct {p0, p1, p2, p3}, Lkik/android/widget/ThumbNailListView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lkik/arcane/widget/ThumbNailListView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 26
-    invoke-virtual {p0}, Lkik/android/widget/UserMediaImageThumbNailList;->b()V
+    invoke-virtual {p0}, Lkik/arcane/widget/UserMediaImageThumbNailList;->b()V
 
     .line 27
     return-void

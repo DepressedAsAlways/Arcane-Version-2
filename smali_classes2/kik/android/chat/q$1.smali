@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/q$1;
+.class final Lkik/arcane/chat/q$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/q;->a(Lkik/android/chat/q;Lcom/kik/events/Promise;)V
+    value = Lkik/arcane/chat/q;->a(Lkik/arcane/chat/q;Lcom/kik/events/Promise;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,18 +28,18 @@
 # instance fields
 .field final synthetic a:Lcom/kik/events/Promise;
 
-.field final synthetic b:Lkik/android/chat/q;
+.field final synthetic b:Lkik/arcane/chat/q;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/q;Lcom/kik/events/Promise;)V
+.method constructor <init>(Lkik/arcane/chat/q;Lcom/kik/events/Promise;)V
     .locals 0
 
     .prologue
     .line 53
-    iput-object p1, p0, Lkik/android/chat/q$1;->b:Lkik/android/chat/q;
+    iput-object p1, p0, Lkik/arcane/chat/q$1;->b:Lkik/arcane/chat/q;
 
-    iput-object p2, p0, Lkik/android/chat/q$1;->a:Lcom/kik/events/Promise;
+    iput-object p2, p0, Lkik/arcane/chat/q$1;->a:Lcom/kik/events/Promise;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -56,7 +56,7 @@
     check-cast p1, Ljava/util/List;
 
     .line 1057
-    iget-object v0, p0, Lkik/android/chat/q$1;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/chat/q$1;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {v0, p1}, Lcom/kik/events/Promise;->a(Ljava/lang/Object;)V
 
@@ -69,7 +69,7 @@
 
     .prologue
     .line 63
-    iget-object v0, p0, Lkik/android/chat/q$1;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/chat/q$1;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {v0, p1}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 
@@ -82,9 +82,9 @@
 
     .prologue
     .line 69
-    iget-object v0, p0, Lkik/android/chat/q$1;->b:Lkik/android/chat/q;
+    iget-object v0, p0, Lkik/arcane/chat/q$1;->b:Lkik/arcane/chat/q;
 
-    invoke-static {v0}, Lkik/android/chat/q;->a(Lkik/android/chat/q;)Lcom/kik/events/Promise;
+    invoke-static {v0}, Lkik/arcane/chat/q;->a(Lkik/arcane/chat/q;)Lcom/kik/events/Promise;
 
     .line 70
     return-void

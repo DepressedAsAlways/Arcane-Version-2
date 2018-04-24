@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/VelocityControlledViewPager;
+.class public Lkik/arcane/widget/VelocityControlledViewPager;
 .super Landroid/support/v4/view/ViewPager;
 .source "SourceFile"
 
@@ -31,7 +31,7 @@
     .line 24
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/VelocityControlledViewPager;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/VelocityControlledViewPager;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 25
     return-void
@@ -49,14 +49,14 @@
 
     invoke-direct {v0, p0}, Lcom/kik/events/g;-><init>(Ljava/lang/Object;)V
 
-    iput-object v0, p0, Lkik/android/widget/VelocityControlledViewPager;->c:Lcom/kik/events/g;
+    iput-object v0, p0, Lkik/arcane/widget/VelocityControlledViewPager;->c:Lcom/kik/events/g;
 
     .line 30
     new-instance v0, Landroid/support/v4/view/GestureDetectorCompat;
 
     invoke-direct {v0, p1, p0}, Landroid/support/v4/view/GestureDetectorCompat;-><init>(Landroid/content/Context;Landroid/view/GestureDetector$OnGestureListener;)V
 
-    iput-object v0, p0, Lkik/android/widget/VelocityControlledViewPager;->b:Landroid/support/v4/view/GestureDetectorCompat;
+    iput-object v0, p0, Lkik/arcane/widget/VelocityControlledViewPager;->b:Landroid/support/v4/view/GestureDetectorCompat;
 
     .line 31
     return-void
@@ -78,7 +78,7 @@
 
     .prologue
     .line 94
-    iget-object v0, p0, Lkik/android/widget/VelocityControlledViewPager;->c:Lcom/kik/events/g;
+    iget-object v0, p0, Lkik/arcane/widget/VelocityControlledViewPager;->c:Lcom/kik/events/g;
 
     invoke-virtual {v0}, Lcom/kik/events/g;->a()Lcom/kik/events/c;
 
@@ -92,7 +92,7 @@
 
     .prologue
     .line 42
-    iput-boolean p1, p0, Lkik/android/widget/VelocityControlledViewPager;->a:Z
+    iput-boolean p1, p0, Lkik/arcane/widget/VelocityControlledViewPager;->a:Z
 
     .line 43
     return-void
@@ -130,20 +130,20 @@
 
     if-lez v0, :cond_1
 
-    invoke-virtual {p0}, Lkik/android/widget/VelocityControlledViewPager;->getCurrentItem()I
+    invoke-virtual {p0}, Lkik/arcane/widget/VelocityControlledViewPager;->getCurrentItem()I
 
     move-result v0
 
     if-eqz v0, :cond_1
 
     .line 80
-    invoke-virtual {p0}, Lkik/android/widget/VelocityControlledViewPager;->getCurrentItem()I
+    invoke-virtual {p0}, Lkik/arcane/widget/VelocityControlledViewPager;->getCurrentItem()I
 
     move-result v0
 
     add-int/lit8 v0, v0, -0x1
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/VelocityControlledViewPager;->setCurrentItem(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/VelocityControlledViewPager;->setCurrentItem(I)V
 
     .line 89
     :cond_0
@@ -158,11 +158,11 @@
 
     if-gez v0, :cond_0
 
-    invoke-virtual {p0}, Lkik/android/widget/VelocityControlledViewPager;->getCurrentItem()I
+    invoke-virtual {p0}, Lkik/arcane/widget/VelocityControlledViewPager;->getCurrentItem()I
 
     move-result v0
 
-    invoke-virtual {p0}, Lkik/android/widget/VelocityControlledViewPager;->getAdapter()Landroid/support/v4/view/PagerAdapter;
+    invoke-virtual {p0}, Lkik/arcane/widget/VelocityControlledViewPager;->getAdapter()Landroid/support/v4/view/PagerAdapter;
 
     move-result-object v1
 
@@ -175,13 +175,13 @@
     if-eq v0, v1, :cond_0
 
     .line 83
-    invoke-virtual {p0}, Lkik/android/widget/VelocityControlledViewPager;->getCurrentItem()I
+    invoke-virtual {p0}, Lkik/arcane/widget/VelocityControlledViewPager;->getCurrentItem()I
 
     move-result v0
 
     add-int/lit8 v0, v0, 0x1
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/VelocityControlledViewPager;->setCurrentItem(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/VelocityControlledViewPager;->setCurrentItem(I)V
 
     goto :goto_0
 
@@ -194,7 +194,7 @@
     if-gez v0, :cond_0
 
     .line 87
-    iget-object v0, p0, Lkik/android/widget/VelocityControlledViewPager;->c:Lcom/kik/events/g;
+    iget-object v0, p0, Lkik/arcane/widget/VelocityControlledViewPager;->c:Lcom/kik/events/g;
 
     const/4 v1, 0x0
 
@@ -208,7 +208,7 @@
 
     .prologue
     .line 36
-    invoke-virtual {p0, p1}, Lkik/android/widget/VelocityControlledViewPager;->onTouchEvent(Landroid/view/MotionEvent;)Z
+    invoke-virtual {p0, p1}, Lkik/arcane/widget/VelocityControlledViewPager;->onTouchEvent(Landroid/view/MotionEvent;)Z
 
     .line 37
     const/4 v0, 0x0
@@ -259,7 +259,7 @@
     const/4 v1, 0x1
 
     .line 100
-    iget-boolean v0, p0, Lkik/android/widget/VelocityControlledViewPager;->a:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/VelocityControlledViewPager;->a:Z
 
     if-eqz v0, :cond_0
 
@@ -269,7 +269,7 @@
 
     .line 104
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/VelocityControlledViewPager;->b:Landroid/support/v4/view/GestureDetectorCompat;
+    iget-object v0, p0, Lkik/arcane/widget/VelocityControlledViewPager;->b:Landroid/support/v4/view/GestureDetectorCompat;
 
     invoke-virtual {v0, p1}, Landroid/support/v4/view/GestureDetectorCompat;->onTouchEvent(Landroid/view/MotionEvent;)Z
 

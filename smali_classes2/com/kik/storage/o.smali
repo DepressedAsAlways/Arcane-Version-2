@@ -332,7 +332,7 @@
 
     .line 163
     :try_start_3
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v1
 

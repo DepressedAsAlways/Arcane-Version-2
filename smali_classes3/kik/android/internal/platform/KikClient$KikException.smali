@@ -1,11 +1,11 @@
-.class Lkik/android/internal/platform/KikClient$KikException;
+.class Lkik/arcane/internal/platform/KikClient$KikException;
 .super Ljava/lang/Exception;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/internal/platform/KikClient;
+    value = Lkik/arcane/internal/platform/KikClient;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

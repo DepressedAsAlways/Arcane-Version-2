@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/vm/cc$2;
+.class final Lkik/arcane/chat/vm/cc$2;
 .super Lcom/kik/util/cv;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/cc;->a(Lkik/android/chat/vm/ba;)V
+    value = Lkik/arcane/chat/vm/cc;->a(Lkik/arcane/chat/vm/ba;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/cc;
+.field final synthetic a:Lkik/arcane/chat/vm/cc;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/cc;)V
+.method constructor <init>(Lkik/arcane/chat/vm/cc;)V
     .locals 0
 
     .prologue
     .line 386
-    iput-object p1, p0, Lkik/android/chat/vm/cc$2;->a:Lkik/android/chat/vm/cc;
+    iput-object p1, p0, Lkik/arcane/chat/vm/cc$2;->a:Lkik/arcane/chat/vm/cc;
 
     invoke-direct {p0}, Lcom/kik/util/cv;-><init>()V
 
@@ -40,7 +40,7 @@
     .line 391
     const v0, 0x7f0e00c8
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->d(I)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->d(I)I
 
     move-result v0
 
@@ -52,34 +52,34 @@
 
     .prologue
     .line 397
-    iget-object v0, p0, Lkik/android/chat/vm/cc$2;->a:Lkik/android/chat/vm/cc;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cc$2;->a:Lkik/arcane/chat/vm/cc;
 
-    invoke-virtual {v0}, Lkik/android/chat/vm/cc;->m()Landroid/app/Activity;
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/cc;->m()Landroid/app/Activity;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/vm/cc$2;->a:Lkik/android/chat/vm/cc;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cc$2;->a:Lkik/arcane/chat/vm/cc;
 
-    invoke-virtual {v0}, Lkik/android/chat/vm/cc;->m()Landroid/app/Activity;
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/cc;->m()Landroid/app/Activity;
 
     move-result-object v0
 
-    instance-of v0, v0, Lkik/android/f/k;
+    instance-of v0, v0, Lkik/arcane/f/k;
 
     if-eqz v0, :cond_0
 
     .line 398
-    iget-object v0, p0, Lkik/android/chat/vm/cc$2;->a:Lkik/android/chat/vm/cc;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cc$2;->a:Lkik/arcane/chat/vm/cc;
 
-    invoke-virtual {v0}, Lkik/android/chat/vm/cc;->m()Landroid/app/Activity;
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/cc;->m()Landroid/app/Activity;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/f/k;
+    check-cast v0, Lkik/arcane/f/k;
 
-    invoke-interface {v0, p1}, Lkik/android/f/k;->a(I)V
+    invoke-interface {v0, p1}, Lkik/arcane/f/k;->a(I)V
 
     .line 400
     :cond_0
@@ -91,9 +91,9 @@
 
     .prologue
     .line 405
-    iget-object v0, p0, Lkik/android/chat/vm/cc$2;->a:Lkik/android/chat/vm/cc;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cc$2;->a:Lkik/arcane/chat/vm/cc;
 
-    invoke-static {v0}, Lkik/android/chat/vm/cc;->c(Lkik/android/chat/vm/cc;)Lcom/kik/events/g;
+    invoke-static {v0}, Lkik/arcane/chat/vm/cc;->c(Lkik/arcane/chat/vm/cc;)Lcom/kik/events/g;
 
     move-result-object v0
 

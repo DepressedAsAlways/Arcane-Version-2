@@ -1,4 +1,4 @@
-.class public final Lkik/android/scan/fragment/ScanFragment_MembersInjector;
+.class public final Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/b",
         "<",
-        "Lkik/android/scan/fragment/ScanFragment;",
+        "Lkik/arcane/scan/fragment/ScanFragment;",
         ">;"
     }
 .end annotation
@@ -61,7 +61,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -72,7 +72,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/theming/ChatBubbleManager;",
+            "Lkik/arcane/chat/theming/ChatBubbleManager;",
             ">;"
         }
     .end annotation
@@ -94,7 +94,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/scan/c;",
+            "Lkik/arcane/scan/c;",
             ">;"
         }
     .end annotation
@@ -129,7 +129,7 @@
 
     .prologue
     .line 16
-    const-class v0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;
+    const-class v0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;
 
     invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
 
@@ -140,7 +140,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    sput-boolean v0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->a:Z
+    sput-boolean v0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->a:Z
 
     return-void
 
@@ -169,11 +169,11 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/theming/ChatBubbleManager;",
+            "Lkik/arcane/chat/theming/ChatBubbleManager;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -181,7 +181,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/scan/c;",
+            "Lkik/arcane/scan/c;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -199,7 +199,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 49
-    sget-boolean v0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_0
 
@@ -213,10 +213,10 @@
 
     .line 50
     :cond_0
-    iput-object p1, p0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->b:Ljavax/inject/Provider;
+    iput-object p1, p0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->b:Ljavax/inject/Provider;
 
     .line 51
-    sget-boolean v0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_1
 
@@ -230,10 +230,10 @@
 
     .line 52
     :cond_1
-    iput-object p2, p0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->c:Ljavax/inject/Provider;
+    iput-object p2, p0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->c:Ljavax/inject/Provider;
 
     .line 53
-    sget-boolean v0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_2
 
@@ -247,10 +247,10 @@
 
     .line 54
     :cond_2
-    iput-object p3, p0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->d:Ljavax/inject/Provider;
+    iput-object p3, p0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->d:Ljavax/inject/Provider;
 
     .line 55
-    sget-boolean v0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_3
 
@@ -264,10 +264,10 @@
 
     .line 56
     :cond_3
-    iput-object p4, p0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->e:Ljavax/inject/Provider;
+    iput-object p4, p0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->e:Ljavax/inject/Provider;
 
     .line 57
-    sget-boolean v0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_4
 
@@ -281,10 +281,10 @@
 
     .line 58
     :cond_4
-    iput-object p5, p0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->f:Ljavax/inject/Provider;
+    iput-object p5, p0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->f:Ljavax/inject/Provider;
 
     .line 59
-    sget-boolean v0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_5
 
@@ -298,10 +298,10 @@
 
     .line 60
     :cond_5
-    iput-object p6, p0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->g:Ljavax/inject/Provider;
+    iput-object p6, p0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->g:Ljavax/inject/Provider;
 
     .line 61
-    sget-boolean v0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_6
 
@@ -315,10 +315,10 @@
 
     .line 62
     :cond_6
-    iput-object p7, p0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->h:Ljavax/inject/Provider;
+    iput-object p7, p0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->h:Ljavax/inject/Provider;
 
     .line 63
-    sget-boolean v0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_7
 
@@ -332,10 +332,10 @@
 
     .line 64
     :cond_7
-    iput-object p8, p0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->i:Ljavax/inject/Provider;
+    iput-object p8, p0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->i:Ljavax/inject/Provider;
 
     .line 65
-    sget-boolean v0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_8
 
@@ -349,7 +349,7 @@
 
     .line 66
     :cond_8
-    iput-object p9, p0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->j:Ljavax/inject/Provider;
+    iput-object p9, p0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->j:Ljavax/inject/Provider;
 
     .line 67
     return-void
@@ -374,11 +374,11 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/theming/ChatBubbleManager;",
+            "Lkik/arcane/chat/theming/ChatBubbleManager;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -386,7 +386,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/scan/c;",
+            "Lkik/arcane/scan/c;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -398,14 +398,14 @@
             ">;)",
             "Ldagger/b",
             "<",
-            "Lkik/android/scan/fragment/ScanFragment;",
+            "Lkik/arcane/scan/fragment/ScanFragment;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 79
-    new-instance v0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;
+    new-instance v0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;
 
     move-object v1, p0
 
@@ -425,7 +425,7 @@
 
     move-object/from16 v9, p8
 
-    invoke-direct/range {v0 .. v9}, Lkik/android/scan/fragment/ScanFragment_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
+    invoke-direct/range {v0 .. v9}, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
 
     return-object v0
 .end method
@@ -437,7 +437,7 @@
 
     .prologue
     .line 16
-    check-cast p1, Lkik/android/scan/fragment/ScanFragment;
+    check-cast p1, Lkik/arcane/scan/fragment/ScanFragment;
 
     .line 1093
     if-nez p1, :cond_0
@@ -453,44 +453,44 @@
 
     .line 1096
     :cond_0
-    iget-object v0, p0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->b:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->b:Ljavax/inject/Provider;
 
-    invoke-static {p1, v0}, Lkik/android/chat/fragment/KikScopedDialogFragment_MembersInjector;->a(Lkik/android/chat/fragment/KikScopedDialogFragment;Ljavax/inject/Provider;)V
+    invoke-static {p1, v0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment_MembersInjector;->a(Lkik/arcane/chat/fragment/KikScopedDialogFragment;Ljavax/inject/Provider;)V
 
     .line 1098
-    iget-object v0, p0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->c:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->c:Ljavax/inject/Provider;
 
-    invoke-static {p1, v0}, Lkik/android/chat/fragment/KikScopedDialogFragment_MembersInjector;->b(Lkik/android/chat/fragment/KikScopedDialogFragment;Ljavax/inject/Provider;)V
+    invoke-static {p1, v0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment_MembersInjector;->b(Lkik/arcane/chat/fragment/KikScopedDialogFragment;Ljavax/inject/Provider;)V
 
     .line 1100
-    iget-object v0, p0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->d:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->d:Ljavax/inject/Provider;
 
-    invoke-static {p1, v0}, Lkik/android/chat/fragment/KikIqFragmentBase_MembersInjector;->a(Lkik/android/chat/fragment/KikIqFragmentBase;Ljavax/inject/Provider;)V
+    invoke-static {p1, v0}, Lkik/arcane/chat/fragment/KikIqFragmentBase_MembersInjector;->a(Lkik/arcane/chat/fragment/KikIqFragmentBase;Ljavax/inject/Provider;)V
 
     .line 1102
-    iget-object v0, p0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->e:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->e:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/Mixpanel;
+    check-cast v0, Lcom/kik/arcane/Mixpanel;
 
-    iput-object v0, p1, Lkik/android/scan/fragment/ScanFragment;->a:Lcom/kik/android/Mixpanel;
+    iput-object v0, p1, Lkik/arcane/scan/fragment/ScanFragment;->a:Lcom/kik/arcane/Mixpanel;
 
     .line 1103
-    iget-object v0, p0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->f:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->f:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/theming/ChatBubbleManager;
+    check-cast v0, Lkik/arcane/chat/theming/ChatBubbleManager;
 
-    iput-object v0, p1, Lkik/android/scan/fragment/ScanFragment;->b:Lkik/android/chat/theming/ChatBubbleManager;
+    iput-object v0, p1, Lkik/arcane/scan/fragment/ScanFragment;->b:Lkik/arcane/chat/theming/ChatBubbleManager;
 
     .line 1104
-    iget-object v0, p0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->g:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->g:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -498,21 +498,21 @@
 
     check-cast v0, Lkik/core/interfaces/v;
 
-    iput-object v0, p1, Lkik/android/scan/fragment/ScanFragment;->c:Lkik/core/interfaces/v;
+    iput-object v0, p1, Lkik/arcane/scan/fragment/ScanFragment;->c:Lkik/core/interfaces/v;
 
     .line 1105
-    iget-object v0, p0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->h:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->h:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/scan/c;
+    check-cast v0, Lkik/arcane/scan/c;
 
-    iput-object v0, p1, Lkik/android/scan/fragment/ScanFragment;->d:Lkik/android/scan/c;
+    iput-object v0, p1, Lkik/arcane/scan/fragment/ScanFragment;->d:Lkik/arcane/scan/c;
 
     .line 1106
-    iget-object v0, p0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->i:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->i:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -520,10 +520,10 @@
 
     check-cast v0, Lkik/core/interfaces/l;
 
-    iput-object v0, p1, Lkik/android/scan/fragment/ScanFragment;->e:Lkik/core/interfaces/l;
+    iput-object v0, p1, Lkik/arcane/scan/fragment/ScanFragment;->e:Lkik/core/interfaces/l;
 
     .line 1107
-    iget-object v0, p0, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->j:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->j:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -531,7 +531,7 @@
 
     check-cast v0, Lkik/core/interfaces/IConversation;
 
-    iput-object v0, p1, Lkik/android/scan/fragment/ScanFragment;->f:Lkik/core/interfaces/IConversation;
+    iput-object v0, p1, Lkik/arcane/scan/fragment/ScanFragment;->f:Lkik/core/interfaces/IConversation;
 
     .line 16
     return-void

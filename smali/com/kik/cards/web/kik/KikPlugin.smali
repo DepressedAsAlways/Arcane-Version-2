@@ -28,7 +28,7 @@
 
 .field private volatile _sendInProgress:Z
 
-.field private final _smileyManager:Lcom/kik/android/b/g;
+.field private final _smileyManager:Lcom/kik/arcane/b/g;
 
 
 # direct methods
@@ -48,7 +48,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/kik/cards/web/h;Lcom/kik/cards/web/kik/a;Lcom/kik/cards/web/browser/BrowserPlugin$a;Lcom/kik/cards/web/picker/PickerPlugin;Lcom/kik/android/b/g;Ljava/lang/String;Lkik/core/interfaces/v;)V
+.method public constructor <init>(Lcom/kik/cards/web/h;Lcom/kik/cards/web/kik/a;Lcom/kik/cards/web/browser/BrowserPlugin$a;Lcom/kik/cards/web/picker/PickerPlugin;Lcom/kik/arcane/b/g;Ljava/lang/String;Lkik/core/interfaces/v;)V
     .locals 2
 
     .prologue
@@ -83,13 +83,13 @@
     iput-object p4, p0, Lcom/kik/cards/web/kik/KikPlugin;->_pickerPlugin:Lcom/kik/cards/web/picker/PickerPlugin;
 
     .line 65
-    iput-object p5, p0, Lcom/kik/cards/web/kik/KikPlugin;->_smileyManager:Lcom/kik/android/b/g;
+    iput-object p5, p0, Lcom/kik/cards/web/kik/KikPlugin;->_smileyManager:Lcom/kik/arcane/b/g;
 
     .line 66
     iput-object p6, p0, Lcom/kik/cards/web/kik/KikPlugin;->_convoId:Ljava/lang/String;
 
     .line 67
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v0
 
@@ -1536,7 +1536,7 @@
     iput-boolean v5, p0, Lcom/kik/cards/web/kik/KikPlugin;->_sendInProgress:Z
 
     .line 182
-    invoke-static {p1}, Lcom/kik/android/b/g;->c(Lorg/json/JSONObject;)Ljava/util/List;
+    invoke-static {p1}, Lcom/kik/arcane/b/g;->c(Lorg/json/JSONObject;)Ljava/util/List;
 
     move-result-object v0
 

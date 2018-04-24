@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/RobotoTextView;
+.class public Lkik/arcane/widget/RobotoTextView;
 .super Landroid/support/v7/widget/AppCompatTextView;
 .source "SourceFile"
 
@@ -6,15 +6,15 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/RobotoTextView$a;
+        Lkik/arcane/widget/RobotoTextView$a;
     }
 .end annotation
 
 
 # instance fields
-.field private a:Lkik/android/widget/RobotoTextView$a;
+.field private a:Lkik/arcane/widget/RobotoTextView$a;
 
-.field private b:Lkik/android/widget/RobotoTextView$a;
+.field private b:Lkik/arcane/widget/RobotoTextView$a;
 
 
 # direct methods
@@ -25,7 +25,7 @@
     .line 33
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/RobotoTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/RobotoTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 34
     return-void
@@ -38,7 +38,7 @@
     .line 38
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/RobotoTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/RobotoTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 39
     return-void
@@ -54,7 +54,7 @@
     invoke-direct {p0, p1, p2, p3}, Landroid/support/v7/widget/AppCompatTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 45
-    sget-object v1, Lkik/android/R$styleable;->RobotoTextView:[I
+    sget-object v1, Lkik/arcane/R$styleable;->RobotoTextView:[I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -71,7 +71,7 @@
     invoke-virtual {v1}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 49
-    invoke-virtual {p0}, Lkik/android/widget/RobotoTextView;->getTypeface()Landroid/graphics/Typeface;
+    invoke-virtual {p0}, Lkik/arcane/widget/RobotoTextView;->getTypeface()Landroid/graphics/Typeface;
 
     move-result-object v3
 
@@ -79,45 +79,45 @@
     packed-switch v2, :pswitch_data_0
 
     .line 1105
-    sget-object v1, Lkik/android/util/RobotoFontUtils$Type;->NONE:Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v1, Lkik/arcane/util/RobotoFontUtils$Type;->NONE:Lkik/arcane/util/RobotoFontUtils$Type;
 
     .line 51
     :goto_0
     if-nez v3, :cond_0
 
     :goto_1
-    invoke-static {p0, v1, v0}, Lkik/android/util/RobotoFontUtils;->a(Landroid/widget/TextView;Lkik/android/util/RobotoFontUtils$Type;I)V
+    invoke-static {p0, v1, v0}, Lkik/arcane/util/RobotoFontUtils;->a(Landroid/widget/TextView;Lkik/arcane/util/RobotoFontUtils$Type;I)V
 
     .line 52
     return-void
 
     .line 1095
     :pswitch_0
-    sget-object v1, Lkik/android/util/RobotoFontUtils$Type;->BLACK:Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v1, Lkik/arcane/util/RobotoFontUtils$Type;->BLACK:Lkik/arcane/util/RobotoFontUtils$Type;
 
     goto :goto_0
 
     .line 1097
     :pswitch_1
-    sget-object v1, Lkik/android/util/RobotoFontUtils$Type;->CONDENSED:Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v1, Lkik/arcane/util/RobotoFontUtils$Type;->CONDENSED:Lkik/arcane/util/RobotoFontUtils$Type;
 
     goto :goto_0
 
     .line 1099
     :pswitch_2
-    sget-object v1, Lkik/android/util/RobotoFontUtils$Type;->LIGHT:Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v1, Lkik/arcane/util/RobotoFontUtils$Type;->LIGHT:Lkik/arcane/util/RobotoFontUtils$Type;
 
     goto :goto_0
 
     .line 1101
     :pswitch_3
-    sget-object v1, Lkik/android/util/RobotoFontUtils$Type;->MEDIUM:Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v1, Lkik/arcane/util/RobotoFontUtils$Type;->MEDIUM:Lkik/arcane/util/RobotoFontUtils$Type;
 
     goto :goto_0
 
     .line 1103
     :pswitch_4
-    sget-object v1, Lkik/android/util/RobotoFontUtils$Type;->THIN:Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v1, Lkik/arcane/util/RobotoFontUtils$Type;->THIN:Lkik/arcane/util/RobotoFontUtils$Type;
 
     goto :goto_0
 
@@ -144,12 +144,12 @@
 
 
 # virtual methods
-.method public final a(Lkik/android/widget/RobotoTextView$a;)V
+.method public final a(Lkik/arcane/widget/RobotoTextView$a;)V
     .locals 0
 
     .prologue
     .line 70
-    iput-object p1, p0, Lkik/android/widget/RobotoTextView;->a:Lkik/android/widget/RobotoTextView$a;
+    iput-object p1, p0, Lkik/arcane/widget/RobotoTextView;->a:Lkik/arcane/widget/RobotoTextView$a;
 
     .line 71
     return-void
@@ -160,26 +160,26 @@
 
     .prologue
     .line 56
-    iget-object v0, p0, Lkik/android/widget/RobotoTextView;->a:Lkik/android/widget/RobotoTextView$a;
+    iget-object v0, p0, Lkik/arcane/widget/RobotoTextView;->a:Lkik/arcane/widget/RobotoTextView$a;
 
     if-eqz v0, :cond_0
 
     .line 57
-    iget-object v0, p0, Lkik/android/widget/RobotoTextView;->a:Lkik/android/widget/RobotoTextView$a;
+    iget-object v0, p0, Lkik/arcane/widget/RobotoTextView;->a:Lkik/arcane/widget/RobotoTextView$a;
 
-    invoke-interface {v0, p1}, Lkik/android/widget/RobotoTextView$a;->a(Ljava/lang/String;)V
+    invoke-interface {v0, p1}, Lkik/arcane/widget/RobotoTextView$a;->a(Ljava/lang/String;)V
 
     .line 59
     :cond_0
     return-void
 .end method
 
-.method public final b(Lkik/android/widget/RobotoTextView$a;)V
+.method public final b(Lkik/arcane/widget/RobotoTextView$a;)V
     .locals 0
 
     .prologue
     .line 75
-    iput-object p1, p0, Lkik/android/widget/RobotoTextView;->b:Lkik/android/widget/RobotoTextView$a;
+    iput-object p1, p0, Lkik/arcane/widget/RobotoTextView;->b:Lkik/arcane/widget/RobotoTextView$a;
 
     .line 76
     return-void
@@ -190,14 +190,14 @@
 
     .prologue
     .line 63
-    iget-object v0, p0, Lkik/android/widget/RobotoTextView;->b:Lkik/android/widget/RobotoTextView$a;
+    iget-object v0, p0, Lkik/arcane/widget/RobotoTextView;->b:Lkik/arcane/widget/RobotoTextView$a;
 
     if-eqz v0, :cond_0
 
     .line 64
-    iget-object v0, p0, Lkik/android/widget/RobotoTextView;->b:Lkik/android/widget/RobotoTextView$a;
+    iget-object v0, p0, Lkik/arcane/widget/RobotoTextView;->b:Lkik/arcane/widget/RobotoTextView$a;
 
-    invoke-interface {v0, p1}, Lkik/android/widget/RobotoTextView$a;->a(Ljava/lang/String;)V
+    invoke-interface {v0, p1}, Lkik/arcane/widget/RobotoTextView$a;->a(Ljava/lang/String;)V
 
     .line 66
     :cond_0
@@ -222,7 +222,7 @@
     :catch_0
     move-exception v0
 
-    invoke-virtual {p0}, Lkik/android/widget/RobotoTextView;->getText()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Lkik/arcane/widget/RobotoTextView;->getText()Ljava/lang/CharSequence;
 
     move-result-object v0
 
@@ -230,7 +230,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/RobotoTextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/RobotoTextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 87
     invoke-super {p0, p1, p2}, Landroid/support/v7/widget/AppCompatTextView;->onMeasure(II)V

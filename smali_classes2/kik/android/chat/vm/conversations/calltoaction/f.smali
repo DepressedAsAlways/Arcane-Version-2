@@ -1,5 +1,5 @@
-.class public interface abstract Lkik/android/chat/vm/conversations/calltoaction/f;
+.class public interface abstract Lkik/arcane/chat/vm/conversations/calltoaction/f;
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lkik/android/chat/vm/conversations/calltoaction/g;
+.implements Lkik/arcane/chat/vm/conversations/calltoaction/g;

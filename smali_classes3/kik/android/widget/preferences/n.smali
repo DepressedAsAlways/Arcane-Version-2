@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/widget/preferences/n;
+.class final synthetic Lkik/arcane/widget/preferences/n;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/widget/preferences/ResetKikPreference;
+.field private final a:Lkik/arcane/widget/preferences/ResetKikPreference;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/widget/preferences/ResetKikPreference;)V
+.method private constructor <init>(Lkik/arcane/widget/preferences/ResetKikPreference;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/widget/preferences/n;->a:Lkik/android/widget/preferences/ResetKikPreference;
+    iput-object p1, p0, Lkik/arcane/widget/preferences/n;->a:Lkik/arcane/widget/preferences/ResetKikPreference;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/preferences/ResetKikPreference;)Lkik/core/manager/n$b;
+.method public static a(Lkik/arcane/widget/preferences/ResetKikPreference;)Lkik/core/manager/n$b;
     .locals 1
 
-    new-instance v0, Lkik/android/widget/preferences/n;
+    new-instance v0, Lkik/arcane/widget/preferences/n;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/preferences/n;-><init>(Lkik/android/widget/preferences/ResetKikPreference;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/preferences/n;-><init>(Lkik/arcane/widget/preferences/ResetKikPreference;)V
 
     return-object v0
 .end method
@@ -35,9 +35,9 @@
 .method public final a()V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/widget/preferences/n;->a:Lkik/android/widget/preferences/ResetKikPreference;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/n;->a:Lkik/arcane/widget/preferences/ResetKikPreference;
 
-    invoke-static {v0}, Lkik/android/widget/preferences/ResetKikPreference;->c(Lkik/android/widget/preferences/ResetKikPreference;)V
+    invoke-static {v0}, Lkik/arcane/widget/preferences/ResetKikPreference;->c(Lkik/arcane/widget/preferences/ResetKikPreference;)V
 
     return-void
 .end method

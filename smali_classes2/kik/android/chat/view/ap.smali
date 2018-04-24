@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/view/ap;
+.class final synthetic Lkik/arcane/chat/view/ap;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/view/ap;
+.field private static final a:Lkik/arcane/chat/view/ap;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/view/ap;
+    new-instance v0, Lkik/arcane/chat/view/ap;
 
-    invoke-direct {v0}, Lkik/android/chat/view/ap;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/view/ap;-><init>()V
 
-    sput-object v0, Lkik/android/chat/view/ap;->a:Lkik/android/chat/view/ap;
+    sput-object v0, Lkik/arcane/chat/view/ap;->a:Lkik/arcane/chat/view/ap;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lrx/functions/g;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/view/ap;->a:Lkik/android/chat/view/ap;
+    sget-object v0, Lkik/arcane/chat/view/ap;->a:Lkik/arcane/chat/view/ap;
 
     return-object v0
 .end method
@@ -45,7 +45,7 @@
 
     check-cast p1, Ljava/lang/String;
 
-    invoke-static {p1}, Lkik/android/util/br;->c(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lkik/arcane/util/br;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

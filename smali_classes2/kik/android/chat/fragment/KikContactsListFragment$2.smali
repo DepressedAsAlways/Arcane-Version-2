@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/KikContactsListFragment$2;
+.class final Lkik/arcane/chat/fragment/KikContactsListFragment$2;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/KikContactsListFragment;->b(Ljava/lang/String;Ljava/lang/String;)V
+    value = Lkik/arcane/chat/fragment/KikContactsListFragment;->b(Ljava/lang/String;Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikContactsListFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikContactsListFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikContactsListFragment;)V
     .locals 0
 
     .prologue
     .line 1062
-    iput-object p1, p0, Lkik/android/chat/fragment/KikContactsListFragment$2;->a:Lkik/android/chat/fragment/KikContactsListFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$2;->a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -50,18 +50,18 @@
     invoke-super {p0}, Lcom/kik/events/k;->b()V
 
     .line 1068
-    iget-object v0, p0, Lkik/android/chat/fragment/KikContactsListFragment$2;->a:Lkik/android/chat/fragment/KikContactsListFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$2;->a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
     new-instance v1, Landroid/os/Bundle;
 
     invoke-direct {v1}, Landroid/os/Bundle;-><init>()V
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikContactsListFragment;->setResultData(Landroid/os/Bundle;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikContactsListFragment;->setResultData(Landroid/os/Bundle;)V
 
     .line 1069
-    iget-object v0, p0, Lkik/android/chat/fragment/KikContactsListFragment$2;->a:Lkik/android/chat/fragment/KikContactsListFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$2;->a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikContactsListFragment;->finish()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikContactsListFragment;->finish()V
 
     .line 1070
     return-void

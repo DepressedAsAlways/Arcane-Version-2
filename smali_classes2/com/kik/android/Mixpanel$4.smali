@@ -1,4 +1,4 @@
-.class final Lcom/kik/android/Mixpanel$4;
+.class final Lcom/kik/arcane/Mixpanel$4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/kik/android/Mixpanel;->a(ZZ)V
+    value = Lcom/kik/arcane/Mixpanel;->a(ZZ)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/kik/android/Mixpanel;
+.field final synthetic a:Lcom/kik/arcane/Mixpanel;
 
 
 # direct methods
-.method constructor <init>(Lcom/kik/android/Mixpanel;)V
+.method constructor <init>(Lcom/kik/arcane/Mixpanel;)V
     .locals 0
 
     .prologue
     .line 2480
-    iput-object p1, p0, Lcom/kik/android/Mixpanel$4;->a:Lcom/kik/android/Mixpanel;
+    iput-object p1, p0, Lcom/kik/arcane/Mixpanel$4;->a:Lcom/kik/arcane/Mixpanel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,9 +41,9 @@
 
     .prologue
     .line 2483
-    iget-object v0, p0, Lcom/kik/android/Mixpanel$4;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lcom/kik/arcane/Mixpanel$4;->a:Lcom/kik/arcane/Mixpanel;
 
-    invoke-static {v0}, Lcom/kik/android/Mixpanel;->j(Lcom/kik/android/Mixpanel;)V
+    invoke-static {v0}, Lcom/kik/arcane/Mixpanel;->j(Lcom/kik/arcane/Mixpanel;)V
 
     .line 2484
     return-void

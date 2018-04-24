@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/fragment/gg;
+.class public final Lkik/arcane/chat/fragment/gg;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,7 +12,7 @@
 
 .field private b:Landroid/widget/ImageView;
 
-.field private c:Lkik/android/chat/view/TransitionableSearchBarViewImpl;
+.field private c:Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;
 
 .field private d:Landroid/view/View;
 
@@ -40,19 +40,19 @@
     .line 41
     const/16 v0, 0xc8
 
-    sput v0, Lkik/android/chat/fragment/gg;->h:I
+    sput v0, Lkik/arcane/chat/fragment/gg;->h:I
 
     return-void
 .end method
 
-.method public constructor <init>(Landroid/widget/ImageView;Landroid/view/View;Lkik/android/chat/view/TransitionableSearchBarViewImpl;Landroid/view/View;Ljava/util/List;Landroid/widget/ListView;Landroid/view/View;)V
+.method public constructor <init>(Landroid/widget/ImageView;Landroid/view/View;Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;Landroid/view/View;Ljava/util/List;Landroid/widget/ListView;Landroid/view/View;)V
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/widget/ImageView;",
             "Landroid/view/View;",
-            "Lkik/android/chat/view/TransitionableSearchBarViewImpl;",
+            "Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;",
             "Landroid/view/View;",
             "Ljava/util/List",
             "<",
@@ -71,36 +71,36 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 57
-    iput-object p1, p0, Lkik/android/chat/fragment/gg;->b:Landroid/widget/ImageView;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/gg;->b:Landroid/widget/ImageView;
 
     .line 58
-    iput-object p2, p0, Lkik/android/chat/fragment/gg;->a:Landroid/view/View;
+    iput-object p2, p0, Lkik/arcane/chat/fragment/gg;->a:Landroid/view/View;
 
     .line 59
-    iput-object p3, p0, Lkik/android/chat/fragment/gg;->c:Lkik/android/chat/view/TransitionableSearchBarViewImpl;
+    iput-object p3, p0, Lkik/arcane/chat/fragment/gg;->c:Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;
 
     .line 60
-    iput-object p4, p0, Lkik/android/chat/fragment/gg;->d:Landroid/view/View;
+    iput-object p4, p0, Lkik/arcane/chat/fragment/gg;->d:Landroid/view/View;
 
     .line 61
-    iput-object p5, p0, Lkik/android/chat/fragment/gg;->f:Ljava/util/List;
+    iput-object p5, p0, Lkik/arcane/chat/fragment/gg;->f:Ljava/util/List;
 
     .line 62
-    iput-object p6, p0, Lkik/android/chat/fragment/gg;->e:Landroid/widget/ListView;
+    iput-object p6, p0, Lkik/arcane/chat/fragment/gg;->e:Landroid/widget/ListView;
 
     .line 63
-    iput-object p7, p0, Lkik/android/chat/fragment/gg;->g:Landroid/view/View;
+    iput-object p7, p0, Lkik/arcane/chat/fragment/gg;->g:Landroid/view/View;
 
     .line 65
     const/4 v0, 0x1
 
     new-array v0, v0, [Landroid/view/View;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/gg;->b:Landroid/widget/ImageView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/gg;->b:Landroid/widget/ImageView;
 
     aput-object v1, v0, v2
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 1349
     const/16 v0, 0x15
@@ -112,7 +112,7 @@
     if-eqz v0, :cond_0
 
     .line 1350
-    iget-object v0, p0, Lkik/android/chat/fragment/gg;->b:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/gg;->b:Landroid/widget/ImageView;
 
     invoke-virtual {v0}, Landroid/widget/ImageView;->getBackground()Landroid/graphics/drawable/Drawable;
 
@@ -146,7 +146,7 @@
     .line 360
     const v0, 0x7f0a0109
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->c(I)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->c(I)I
 
     move-result v0
 
@@ -157,22 +157,22 @@
     return v0
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/gg;)Lkik/android/chat/view/TransitionableSearchBarViewImpl;
+.method static synthetic a(Lkik/arcane/chat/fragment/gg;)Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;
     .locals 1
 
     .prologue
     .line 30
-    iget-object v0, p0, Lkik/android/chat/fragment/gg;->c:Lkik/android/chat/view/TransitionableSearchBarViewImpl;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/gg;->c:Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;
 
     return-object v0
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/gg;Landroid/animation/ValueAnimator;)V
+.method static synthetic a(Lkik/arcane/chat/fragment/gg;Landroid/animation/ValueAnimator;)V
     .locals 2
 
     .prologue
     .line 249
-    iget-object v1, p0, Lkik/android/chat/fragment/gg;->g:Landroid/view/View;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/gg;->g:Landroid/view/View;
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
@@ -184,7 +184,7 @@
 
     move-result v0
 
-    invoke-static {v1, v0}, Lkik/android/util/ca;->e(Landroid/view/View;I)V
+    invoke-static {v1, v0}, Lkik/arcane/util/ca;->e(Landroid/view/View;I)V
 
     return-void
 .end method
@@ -211,7 +211,7 @@
     invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
     .line 147
-    iget-object v0, p0, Lkik/android/chat/fragment/gg;->f:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/gg;->f:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -269,7 +269,7 @@
     invoke-virtual {v0, v3}, Landroid/animation/AnimatorSet;->playTogether(Ljava/util/Collection;)V
 
     .line 153
-    sget v1, Lkik/android/chat/fragment/gg;->h:I
+    sget v1, Lkik/arcane/chat/fragment/gg;->h:I
 
     int-to-long v2, v1
 
@@ -287,22 +287,22 @@
     .prologue
     .line 76
     .line 2089
-    iget-object v0, p0, Lkik/android/chat/fragment/gg;->c:Lkik/android/chat/view/TransitionableSearchBarViewImpl;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/gg;->c:Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->getMeasuredHeight()I
+    invoke-virtual {v0}, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->getMeasuredHeight()I
 
     move-result v0
 
     int-to-float v0, v0
 
-    invoke-static {}, Lkik/android/chat/fragment/gg;->a()F
+    invoke-static {}, Lkik/arcane/chat/fragment/gg;->a()F
 
     move-result v1
 
     sub-float/2addr v0, v1
 
     .line 2091
-    iget-object v1, p0, Lkik/android/chat/fragment/gg;->d:Landroid/view/View;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/gg;->d:Landroid/view/View;
 
     invoke-virtual {v1}, Landroid/view/View;->getMeasuredHeight()I
 
@@ -311,22 +311,22 @@
     int-to-float v1, v1
 
     .line 2092
-    iget-object v2, p0, Lkik/android/chat/fragment/gg;->c:Lkik/android/chat/view/TransitionableSearchBarViewImpl;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/gg;->c:Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;
 
-    invoke-virtual {v2}, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->getMeasuredWidth()I
+    invoke-virtual {v2}, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->getMeasuredWidth()I
 
     move-result v2
 
     int-to-float v2, v2
 
-    invoke-static {}, Lkik/android/chat/fragment/gg;->a()F
+    invoke-static {}, Lkik/arcane/chat/fragment/gg;->a()F
 
     move-result v3
 
     sub-float/2addr v2, v3
 
     .line 2093
-    iget-object v3, p0, Lkik/android/chat/fragment/gg;->d:Landroid/view/View;
+    iget-object v3, p0, Lkik/arcane/chat/fragment/gg;->d:Landroid/view/View;
 
     invoke-virtual {v3}, Landroid/view/View;->getMeasuredWidth()I
 
@@ -340,7 +340,7 @@
     .line 2097
     const v0, 0x7f0a0107
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->c(I)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->c(I)I
 
     move-result v0
 
@@ -363,7 +363,7 @@
 
     .line 2106
     :cond_0
-    iget-object v2, p0, Lkik/android/chat/fragment/gg;->b:Landroid/widget/ImageView;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/gg;->b:Landroid/widget/ImageView;
 
     sget-object v3, Landroid/widget/ViewAnimator;->SCALE_X:Landroid/util/Property;
 
@@ -380,14 +380,14 @@
     move-result-object v2
 
     .line 2107
-    sget v0, Lkik/android/chat/fragment/gg;->h:I
+    sget v0, Lkik/arcane/chat/fragment/gg;->h:I
 
     int-to-long v4, v0
 
     invoke-virtual {v2, v4, v5}, Landroid/animation/ObjectAnimator;->setDuration(J)Landroid/animation/ObjectAnimator;
 
     .line 2108
-    iget-object v0, p0, Lkik/android/chat/fragment/gg;->b:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/gg;->b:Landroid/widget/ImageView;
 
     sget-object v3, Landroid/widget/ViewAnimator;->SCALE_Y:Landroid/util/Property;
 
@@ -404,16 +404,16 @@
     move-result-object v3
 
     .line 2109
-    sget v0, Lkik/android/chat/fragment/gg;->h:I
+    sget v0, Lkik/arcane/chat/fragment/gg;->h:I
 
     int-to-long v0, v0
 
     invoke-virtual {v3, v0, v1}, Landroid/animation/ObjectAnimator;->setDuration(J)Landroid/animation/ObjectAnimator;
 
     .line 2114
-    iget-object v0, p0, Lkik/android/chat/fragment/gg;->c:Lkik/android/chat/view/TransitionableSearchBarViewImpl;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/gg;->c:Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->d()Landroid/widget/ImageView;
+    invoke-virtual {v0}, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->d()Landroid/widget/ImageView;
 
     move-result-object v0
 
@@ -430,7 +430,7 @@
     move-result-object v0
 
     .line 2115
-    sget v1, Lkik/android/chat/fragment/gg;->h:I
+    sget v1, Lkik/arcane/chat/fragment/gg;->h:I
 
     div-int/lit8 v1, v1, 0x2
 
@@ -439,9 +439,9 @@
     invoke-virtual {v0, v4, v5}, Landroid/animation/ObjectAnimator;->setDuration(J)Landroid/animation/ObjectAnimator;
 
     .line 2116
-    iget-object v1, p0, Lkik/android/chat/fragment/gg;->c:Lkik/android/chat/view/TransitionableSearchBarViewImpl;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/gg;->c:Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;
 
-    invoke-virtual {v1}, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->d()Landroid/widget/ImageView;
+    invoke-virtual {v1}, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->d()Landroid/widget/ImageView;
 
     move-result-object v1
 
@@ -458,7 +458,7 @@
     move-result-object v1
 
     .line 2117
-    sget v4, Lkik/android/chat/fragment/gg;->h:I
+    sget v4, Lkik/arcane/chat/fragment/gg;->h:I
 
     div-int/lit8 v4, v4, 0x4
 
@@ -472,9 +472,9 @@
     invoke-direct {v4}, Landroid/animation/AnimatorSet;-><init>()V
 
     .line 2317
-    new-instance v5, Lkik/android/chat/fragment/gg$1;
+    new-instance v5, Lkik/arcane/chat/fragment/gg$1;
 
-    invoke-direct {v5, p0, p1}, Lkik/android/chat/fragment/gg$1;-><init>(Lkik/android/chat/fragment/gg;Z)V
+    invoke-direct {v5, p0, p1}, Lkik/arcane/chat/fragment/gg$1;-><init>(Lkik/arcane/chat/fragment/gg;Z)V
 
     .line 2121
     invoke-virtual {v0, v5}, Landroid/animation/ObjectAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
@@ -502,22 +502,22 @@
     if-eqz p1, :cond_2
 
     .line 3161
-    iget-object v0, p0, Lkik/android/chat/fragment/gg;->c:Lkik/android/chat/view/TransitionableSearchBarViewImpl;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/gg;->c:Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->getMeasuredHeight()I
+    invoke-virtual {v0}, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->getMeasuredHeight()I
 
     move-result v0
 
     int-to-float v0, v0
 
-    invoke-static {}, Lkik/android/chat/fragment/gg;->a()F
+    invoke-static {}, Lkik/arcane/chat/fragment/gg;->a()F
 
     move-result v1
 
     sub-float/2addr v0, v1
 
     .line 3162
-    iget-object v1, p0, Lkik/android/chat/fragment/gg;->d:Landroid/view/View;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/gg;->d:Landroid/view/View;
 
     invoke-virtual {v1}, Landroid/view/View;->getMeasuredHeight()I
 
@@ -533,22 +533,22 @@
     div-float/2addr v0, v1
 
     .line 3168
-    iget-object v1, p0, Lkik/android/chat/fragment/gg;->c:Lkik/android/chat/view/TransitionableSearchBarViewImpl;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/gg;->c:Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;
 
-    invoke-virtual {v1}, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->getMeasuredWidth()I
+    invoke-virtual {v1}, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->getMeasuredWidth()I
 
     move-result v1
 
     int-to-float v1, v1
 
-    invoke-static {}, Lkik/android/chat/fragment/gg;->a()F
+    invoke-static {}, Lkik/arcane/chat/fragment/gg;->a()F
 
     move-result v9
 
     sub-float/2addr v1, v9
 
     .line 3169
-    iget-object v9, p0, Lkik/android/chat/fragment/gg;->d:Landroid/view/View;
+    iget-object v9, p0, Lkik/arcane/chat/fragment/gg;->d:Landroid/view/View;
 
     invoke-virtual {v9}, Landroid/view/View;->getMeasuredWidth()I
 
@@ -568,7 +568,7 @@
     .line 3171
     const v9, 0x7f0a0109
 
-    invoke-static {v9}, Lkik/android/chat/KikApplication;->c(I)I
+    invoke-static {v9}, Lkik/arcane/chat/KikApplication;->c(I)I
 
     move-result v9
 
@@ -581,7 +581,7 @@
 
     .line 3179
     :goto_0
-    iget-object v8, p0, Lkik/android/chat/fragment/gg;->c:Lkik/android/chat/view/TransitionableSearchBarViewImpl;
+    iget-object v8, p0, Lkik/arcane/chat/fragment/gg;->c:Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;
 
     sget-object v9, Landroid/widget/ViewAnimator;->TRANSLATION_Y:Landroid/util/Property;
 
@@ -598,7 +598,7 @@
     move-result-object v8
 
     .line 3180
-    iget-object v9, p0, Lkik/android/chat/fragment/gg;->b:Landroid/widget/ImageView;
+    iget-object v9, p0, Lkik/arcane/chat/fragment/gg;->b:Landroid/widget/ImageView;
 
     sget-object v10, Landroid/widget/ViewAnimator;->TRANSLATION_Y:Landroid/util/Property;
 
@@ -615,9 +615,9 @@
     move-result-object v0
 
     .line 3181
-    iget-object v9, p0, Lkik/android/chat/fragment/gg;->c:Lkik/android/chat/view/TransitionableSearchBarViewImpl;
+    iget-object v9, p0, Lkik/arcane/chat/fragment/gg;->c:Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;
 
-    invoke-virtual {v9}, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->d()Landroid/widget/ImageView;
+    invoke-virtual {v9}, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->d()Landroid/widget/ImageView;
 
     move-result-object v9
 
@@ -641,7 +641,7 @@
     invoke-direct {v9}, Landroid/animation/AnimatorSet;-><init>()V
 
     .line 3184
-    sget v10, Lkik/android/chat/fragment/gg;->h:I
+    sget v10, Lkik/arcane/chat/fragment/gg;->h:I
 
     int-to-long v10, v10
 
@@ -679,7 +679,7 @@
 
     .line 3226
     :goto_1
-    iget-object v7, p0, Lkik/android/chat/fragment/gg;->b:Landroid/widget/ImageView;
+    iget-object v7, p0, Lkik/arcane/chat/fragment/gg;->b:Landroid/widget/ImageView;
 
     sget-object v8, Landroid/widget/ViewAnimator;->ALPHA:Landroid/util/Property;
 
@@ -704,7 +704,7 @@
     if-eqz p1, :cond_1
 
     .line 3229
-    sget v7, Lkik/android/chat/fragment/gg;->h:I
+    sget v7, Lkik/arcane/chat/fragment/gg;->h:I
 
     add-int/lit8 v7, v7, -0x3c
 
@@ -747,7 +747,7 @@
     invoke-virtual {v6, v0}, Landroid/animation/AnimatorSet;->playTogether([Landroid/animation/Animator;)V
 
     .line 77
-    invoke-direct {p0, p1}, Lkik/android/chat/fragment/gg;->b(Z)Landroid/animation/AnimatorSet;
+    invoke-direct {p0, p1}, Lkik/arcane/chat/fragment/gg;->b(Z)Landroid/animation/AnimatorSet;
 
     move-result-object v2
 
@@ -760,22 +760,22 @@
     if-eqz p1, :cond_4
 
     .line 4240
-    iget-object v0, p0, Lkik/android/chat/fragment/gg;->g:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/gg;->g:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->getMeasuredHeight()I
 
     move-result v0
 
     .line 4241
-    iget-object v1, p0, Lkik/android/chat/fragment/gg;->g:Landroid/view/View;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/gg;->g:Landroid/view/View;
 
     invoke-virtual {v1}, Landroid/view/View;->getMeasuredHeight()I
 
     move-result v1
 
-    iget-object v4, p0, Lkik/android/chat/fragment/gg;->c:Lkik/android/chat/view/TransitionableSearchBarViewImpl;
+    iget-object v4, p0, Lkik/arcane/chat/fragment/gg;->c:Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;
 
-    invoke-virtual {v4}, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->getMeasuredHeight()I
+    invoke-virtual {v4}, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->getMeasuredHeight()I
 
     move-result v4
 
@@ -800,14 +800,14 @@
     move-result-object v0
 
     .line 4249
-    invoke-static {p0}, Lkik/android/chat/fragment/gh;->a(Lkik/android/chat/fragment/gg;)Landroid/animation/ValueAnimator$AnimatorUpdateListener;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/gh;->a(Lkik/arcane/chat/fragment/gg;)Landroid/animation/ValueAnimator$AnimatorUpdateListener;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
     .line 4250
-    sget v1, Lkik/android/chat/fragment/gg;->h:I
+    sget v1, Lkik/arcane/chat/fragment/gg;->h:I
 
     int-to-long v4, v1
 
@@ -825,7 +825,7 @@
     invoke-virtual {v3, v1}, Landroid/animation/AnimatorSet;->play(Landroid/animation/Animator;)Landroid/animation/AnimatorSet$Builder;
 
     .line 4210
-    sget v0, Lkik/android/chat/fragment/gg;->h:I
+    sget v0, Lkik/arcane/chat/fragment/gg;->h:I
 
     int-to-long v0, v0
 
@@ -882,14 +882,14 @@
 
     .line 4244
     :cond_4
-    iget-object v0, p0, Lkik/android/chat/fragment/gg;->g:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/gg;->g:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->getMeasuredHeight()I
 
     move-result v0
 
     .line 4245
-    iget-object v1, p0, Lkik/android/chat/fragment/gg;->d:Landroid/view/View;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/gg;->d:Landroid/view/View;
 
     invoke-virtual {v1}, Landroid/view/View;->getMeasuredHeight()I
 

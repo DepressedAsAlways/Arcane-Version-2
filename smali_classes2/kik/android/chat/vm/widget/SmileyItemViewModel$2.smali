@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/chat/vm/widget/SmileyItemViewModel$2;
+.class final synthetic Lkik/arcane/chat/vm/widget/SmileyItemViewModel$2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/widget/SmileyItemViewModel;
+    value = Lkik/arcane/chat/vm/widget/SmileyItemViewModel;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     .prologue
     .line 103
-    invoke-static {}, Lkik/android/chat/vm/widget/SmileyItemViewModel$IndicatorBackgroundEnum;->values()[Lkik/android/chat/vm/widget/SmileyItemViewModel$IndicatorBackgroundEnum;
+    invoke-static {}, Lkik/arcane/chat/vm/widget/SmileyItemViewModel$IndicatorBackgroundEnum;->values()[Lkik/arcane/chat/vm/widget/SmileyItemViewModel$IndicatorBackgroundEnum;
 
     move-result-object v0
 
@@ -32,14 +32,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/chat/vm/widget/SmileyItemViewModel$2;->a:[I
+    sput-object v0, Lkik/arcane/chat/vm/widget/SmileyItemViewModel$2;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/chat/vm/widget/SmileyItemViewModel$2;->a:[I
+    sget-object v0, Lkik/arcane/chat/vm/widget/SmileyItemViewModel$2;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/widget/SmileyItemViewModel$IndicatorBackgroundEnum;->UNSEEN:Lkik/android/chat/vm/widget/SmileyItemViewModel$IndicatorBackgroundEnum;
+    sget-object v1, Lkik/arcane/chat/vm/widget/SmileyItemViewModel$IndicatorBackgroundEnum;->UNSEEN:Lkik/arcane/chat/vm/widget/SmileyItemViewModel$IndicatorBackgroundEnum;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/widget/SmileyItemViewModel$IndicatorBackgroundEnum;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/widget/SmileyItemViewModel$IndicatorBackgroundEnum;->ordinal()I
 
     move-result v1
 
@@ -51,11 +51,11 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/chat/vm/widget/SmileyItemViewModel$2;->a:[I
+    sget-object v0, Lkik/arcane/chat/vm/widget/SmileyItemViewModel$2;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/widget/SmileyItemViewModel$IndicatorBackgroundEnum;->UNUSED:Lkik/android/chat/vm/widget/SmileyItemViewModel$IndicatorBackgroundEnum;
+    sget-object v1, Lkik/arcane/chat/vm/widget/SmileyItemViewModel$IndicatorBackgroundEnum;->UNUSED:Lkik/arcane/chat/vm/widget/SmileyItemViewModel$IndicatorBackgroundEnum;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/widget/SmileyItemViewModel$IndicatorBackgroundEnum;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/widget/SmileyItemViewModel$IndicatorBackgroundEnum;->ordinal()I
 
     move-result v1
 

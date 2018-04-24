@@ -72,7 +72,7 @@
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 1064
-    invoke-static {p1}, Lkik/android/util/f;->a(Landroid/content/Intent;)Landroid/net/Uri;
+    invoke-static {p1}, Lkik/arcane/util/f;->a(Landroid/content/Intent;)Landroid/net/Uri;
 
     move-result-object v1
 
@@ -86,7 +86,7 @@
 
     move-result-object v2
 
-    invoke-static {v1, v2}, Lkik/android/util/f;->a(Landroid/net/Uri;Landroid/content/Context;)Ljava/io/File;
+    invoke-static {v1, v2}, Lkik/arcane/util/f;->a(Landroid/net/Uri;Landroid/content/Context;)Ljava/io/File;
 
     move-result-object v2
 
@@ -117,7 +117,7 @@
 
     move-result-object v2
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v3
 
@@ -144,7 +144,7 @@
 
     move-result-object v1
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v2
 

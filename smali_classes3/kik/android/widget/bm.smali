@@ -1,5 +1,5 @@
-.class public Lkik/android/widget/bm;
-.super Lkik/android/widget/ac;
+.class public Lkik/arcane/widget/bm;
+.super Lkik/arcane/widget/ac;
 .source "SourceFile"
 
 
@@ -13,10 +13,10 @@
 
     .prologue
     .line 30
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/ac;-><init>(Landroid/content/Context;[I)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/ac;-><init>(Landroid/content/Context;[I)V
 
     .line 31
-    iput p3, p0, Lkik/android/widget/bm;->a:I
+    iput p3, p0, Lkik/arcane/widget/bm;->a:I
 
     .line 32
     return-void
@@ -29,7 +29,7 @@
 
     .prologue
     .line 37
-    invoke-virtual {p0}, Lkik/android/widget/bm;->a()I
+    invoke-virtual {p0}, Lkik/arcane/widget/bm;->a()I
 
     move-result v0
 
@@ -38,9 +38,9 @@
     if-ne v0, v1, :cond_0
 
     .line 38
-    iget v0, p0, Lkik/android/widget/bm;->a:I
+    iget v0, p0, Lkik/arcane/widget/bm;->a:I
 
-    invoke-super {p0, p1}, Lkik/android/widget/ac;->a(Landroid/support/v7/widget/RecyclerView;)I
+    invoke-super {p0, p1}, Lkik/arcane/widget/ac;->a(Landroid/support/v7/widget/RecyclerView;)I
 
     move-result v1
 
@@ -51,7 +51,7 @@
     return v0
 
     :cond_0
-    invoke-super {p0, p1}, Lkik/android/widget/ac;->a(Landroid/support/v7/widget/RecyclerView;)I
+    invoke-super {p0, p1}, Lkik/arcane/widget/ac;->a(Landroid/support/v7/widget/RecyclerView;)I
 
     move-result v0
 
@@ -63,16 +63,16 @@
 
     .prologue
     .line 46
-    invoke-virtual {p0}, Lkik/android/widget/bm;->a()I
+    invoke-virtual {p0}, Lkik/arcane/widget/bm;->a()I
 
     move-result v0
 
     if-nez v0, :cond_0
 
     .line 47
-    iget v0, p0, Lkik/android/widget/bm;->a:I
+    iget v0, p0, Lkik/arcane/widget/bm;->a:I
 
-    invoke-super {p0, p1}, Lkik/android/widget/ac;->b(Landroid/support/v7/widget/RecyclerView;)I
+    invoke-super {p0, p1}, Lkik/arcane/widget/ac;->b(Landroid/support/v7/widget/RecyclerView;)I
 
     move-result v1
 
@@ -83,7 +83,7 @@
     return v0
 
     :cond_0
-    invoke-super {p0, p1}, Lkik/android/widget/ac;->b(Landroid/support/v7/widget/RecyclerView;)I
+    invoke-super {p0, p1}, Lkik/arcane/widget/ac;->b(Landroid/support/v7/widget/RecyclerView;)I
 
     move-result v0
 

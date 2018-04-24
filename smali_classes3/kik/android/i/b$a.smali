@@ -1,11 +1,11 @@
-.class final Lkik/android/i/b$a;
-.super Lkik/android/i/c;
+.class final Lkik/arcane/i/b$a;
+.super Lkik/arcane/i/c;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/i/b;
+    value = Lkik/arcane/i/b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     const/4 v1, 0x1
 
-    invoke-direct {p0, p1, v0, v1}, Lkik/android/i/c;-><init>(Landroid/content/Context;Ljava/lang/String;I)V
+    invoke-direct {p0, p1, v0, v1}, Lkik/arcane/i/c;-><init>(Landroid/content/Context;Ljava/lang/String;I)V
 
     .line 164
     return-void

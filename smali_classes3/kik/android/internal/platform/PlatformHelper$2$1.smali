@@ -1,11 +1,11 @@
-.class final Lkik/android/internal/platform/PlatformHelper$2$1;
+.class final Lkik/arcane/internal/platform/PlatformHelper$2$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/internal/platform/PlatformHelper$2;
+    value = Lkik/arcane/internal/platform/PlatformHelper$2;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/internal/platform/PlatformHelper$2;
+.field final synthetic a:Lkik/arcane/internal/platform/PlatformHelper$2;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/internal/platform/PlatformHelper$2;)V
+.method constructor <init>(Lkik/arcane/internal/platform/PlatformHelper$2;)V
     .locals 0
 
     .prologue
     .line 1540
-    iput-object p1, p0, Lkik/android/internal/platform/PlatformHelper$2$1;->a:Lkik/android/internal/platform/PlatformHelper$2;
+    iput-object p1, p0, Lkik/arcane/internal/platform/PlatformHelper$2$1;->a:Lkik/arcane/internal/platform/PlatformHelper$2;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -47,9 +47,9 @@
 
     .prologue
     .line 1544
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper$2$1;->a:Lkik/android/internal/platform/PlatformHelper$2;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper$2$1;->a:Lkik/arcane/internal/platform/PlatformHelper$2;
 
-    iget-object v0, v0, Lkik/android/internal/platform/PlatformHelper$2;->b:Lcom/kik/cards/web/f;
+    iget-object v0, v0, Lkik/arcane/internal/platform/PlatformHelper$2;->b:Lcom/kik/cards/web/f;
 
     invoke-interface {v0}, Lcom/kik/cards/web/f;->a()V
 

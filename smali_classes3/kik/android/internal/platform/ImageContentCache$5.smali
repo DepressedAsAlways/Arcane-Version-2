@@ -1,4 +1,4 @@
-.class final Lkik/android/internal/platform/ImageContentCache$5;
+.class final Lkik/arcane/internal/platform/ImageContentCache$5;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/internal/platform/ImageContentCache;->getImage(Ljava/lang/String;)Lcom/kik/events/Promise;
+    value = Lkik/arcane/internal/platform/ImageContentCache;->getImage(Ljava/lang/String;)Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/internal/platform/ImageContentCache;
+.field final synthetic a:Lkik/arcane/internal/platform/ImageContentCache;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/internal/platform/ImageContentCache;)V
+.method constructor <init>(Lkik/arcane/internal/platform/ImageContentCache;)V
     .locals 0
 
     .prologue
     .line 148
-    iput-object p1, p0, Lkik/android/internal/platform/ImageContentCache$5;->a:Lkik/android/internal/platform/ImageContentCache;
+    iput-object p1, p0, Lkik/arcane/internal/platform/ImageContentCache$5;->a:Lkik/arcane/internal/platform/ImageContentCache;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -54,7 +54,7 @@
     check-cast p1, [B
 
     .line 1152
-    invoke-static {p1}, Lkik/android/util/h;->a([B)Landroid/graphics/Bitmap;
+    invoke-static {p1}, Lkik/arcane/util/h;->a([B)Landroid/graphics/Bitmap;
 
     move-result-object v0
 

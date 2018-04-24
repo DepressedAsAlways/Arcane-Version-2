@@ -1,5 +1,5 @@
-.class public final Lkik/android/chat/fragment/fy;
-.super Lkik/android/chat/fragment/SuggestedResponseTextViewHolder;
+.class public final Lkik/arcane/chat/fragment/fy;
+.super Lkik/arcane/chat/fragment/SuggestedResponseTextViewHolder;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
     .prologue
     .line 28
-    invoke-direct {p0, p1}, Lkik/android/chat/fragment/SuggestedResponseTextViewHolder;-><init>(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lkik/arcane/chat/fragment/SuggestedResponseTextViewHolder;-><init>(Landroid/view/View;)V
 
     .line 29
     return-void
@@ -73,7 +73,7 @@
     .line 1055
     const v0, 0x7f09017d
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -86,7 +86,7 @@
     :cond_1
     const v0, 0x7f09017c
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -112,11 +112,11 @@
 
     .line 38
     :cond_0
-    invoke-static {p1}, Lkik/android/chat/fragment/fy;->b(Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem;)Ljava/lang/String;
+    invoke-static {p1}, Lkik/arcane/chat/fragment/fy;->b(Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/fy;->b(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/fy;->b(Ljava/lang/String;)V
 
     goto :goto_0
 .end method

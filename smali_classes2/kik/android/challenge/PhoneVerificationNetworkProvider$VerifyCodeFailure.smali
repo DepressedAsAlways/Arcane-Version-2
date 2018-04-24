@@ -1,11 +1,11 @@
-.class public Lkik/android/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;
+.class public Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;
 .super Ljava/lang/Throwable;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/challenge/PhoneVerificationNetworkProvider;
+    value = Lkik/arcane/challenge/PhoneVerificationNetworkProvider;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,7 +27,7 @@
     invoke-direct {p0}, Ljava/lang/Throwable;-><init>()V
 
     .line 71
-    iput p1, p0, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;->reason:I
+    iput p1, p0, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;->reason:I
 
     .line 72
     return-void

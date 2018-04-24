@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lkik/android/gifs/c;",
+        "Lkik/arcane/gifs/c;",
         ">;"
     }
 .end annotation
@@ -41,7 +41,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -87,7 +87,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;)V"
         }
     .end annotation
@@ -163,11 +163,11 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;)",
             "Ldagger/internal/b",
             "<",
-            "Lkik/android/gifs/c;",
+            "Lkik/arcane/gifs/c;",
             ">;"
         }
     .end annotation
@@ -206,9 +206,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/kik/android/Mixpanel;
+    check-cast v1, Lcom/kik/arcane/Mixpanel;
 
-    invoke-virtual {v2, v0, v1}, Lcom/kik/modules/al;->a(Lcom/kik/storage/s;Lcom/kik/android/Mixpanel;)Lkik/android/gifs/c;
+    invoke-virtual {v2, v0, v1}, Lcom/kik/modules/al;->a(Lcom/kik/storage/s;Lcom/kik/arcane/Mixpanel;)Lkik/arcane/gifs/c;
 
     move-result-object v0
 
@@ -219,7 +219,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/gifs/c;
+    check-cast v0, Lkik/arcane/gifs/c;
 
     .line 11
     return-object v0

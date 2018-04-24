@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/HeightConstantClampImageView;
+.class public Lkik/arcane/widget/HeightConstantClampImageView;
 .super Landroid/support/v7/widget/AppCompatImageView;
 .source "SourceFile"
 
@@ -21,7 +21,7 @@
     .line 30
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/HeightConstantClampImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/HeightConstantClampImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 32
     return-void
@@ -39,18 +39,18 @@
     .line 23
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/widget/HeightConstantClampImageView;->a:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/HeightConstantClampImageView;->a:Z
 
     .line 24
-    iput v2, p0, Lkik/android/widget/HeightConstantClampImageView;->b:F
+    iput v2, p0, Lkik/arcane/widget/HeightConstantClampImageView;->b:F
 
     .line 25
     const-wide v0, 0x3ffc71c71c71c71cL    # 1.7777777777777777
 
-    iput-wide v0, p0, Lkik/android/widget/HeightConstantClampImageView;->c:D
+    iput-wide v0, p0, Lkik/arcane/widget/HeightConstantClampImageView;->c:D
 
     .line 38
-    sget-object v0, Lkik/android/R$styleable;->HeightConstantClampImageView:[I
+    sget-object v0, Lkik/arcane/R$styleable;->HeightConstantClampImageView:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -63,7 +63,7 @@
 
     move-result v1
 
-    iput v1, p0, Lkik/android/widget/HeightConstantClampImageView;->b:F
+    iput v1, p0, Lkik/arcane/widget/HeightConstantClampImageView;->b:F
 
     .line 40
     invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
@@ -81,7 +81,7 @@
     const/4 v10, 0x0
 
     .line 75
-    iget v0, p0, Lkik/android/widget/HeightConstantClampImageView;->b:F
+    iget v0, p0, Lkik/arcane/widget/HeightConstantClampImageView;->b:F
 
     cmpg-float v0, v0, v10
 
@@ -101,7 +101,7 @@
     move-result v1
 
     .line 83
-    invoke-virtual {p0}, Lkik/android/widget/HeightConstantClampImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Lkik/arcane/widget/HeightConstantClampImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -126,7 +126,7 @@
     div-double/2addr v4, v6
 
     .line 89
-    iget v0, p0, Lkik/android/widget/HeightConstantClampImageView;->b:F
+    iget v0, p0, Lkik/arcane/widget/HeightConstantClampImageView;->b:F
 
     float-to-double v6, v0
 
@@ -135,27 +135,27 @@
     div-double/2addr v6, v8
 
     .line 92
-    iget-wide v8, p0, Lkik/android/widget/HeightConstantClampImageView;->c:D
+    iget-wide v8, p0, Lkik/arcane/widget/HeightConstantClampImageView;->c:D
 
     cmpg-double v0, v4, v8
 
     if-gez v0, :cond_4
 
-    iget-boolean v0, p0, Lkik/android/widget/HeightConstantClampImageView;->a:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/HeightConstantClampImageView;->a:Z
 
     if-eqz v0, :cond_4
 
     .line 93
-    iget v0, p0, Lkik/android/widget/HeightConstantClampImageView;->b:F
+    iget v0, p0, Lkik/arcane/widget/HeightConstantClampImageView;->b:F
 
-    iget-wide v4, p0, Lkik/android/widget/HeightConstantClampImageView;->c:D
+    iget-wide v4, p0, Lkik/arcane/widget/HeightConstantClampImageView;->c:D
 
     double-to-float v4, v4
 
     mul-float/2addr v0, v4
 
     .line 94
-    iget v4, p0, Lkik/android/widget/HeightConstantClampImageView;->b:F
+    iget v4, p0, Lkik/arcane/widget/HeightConstantClampImageView;->b:F
 
     const/high16 v5, -0x40800000    # -1.0f
 
@@ -173,7 +173,7 @@
 
     .line 97
     :cond_1
-    iget-object v1, p0, Lkik/android/widget/HeightConstantClampImageView;->d:Landroid/widget/ImageView$ScaleType;
+    iget-object v1, p0, Lkik/arcane/widget/HeightConstantClampImageView;->d:Landroid/widget/ImageView$ScaleType;
 
     if-nez v1, :cond_2
 
@@ -201,7 +201,7 @@
 
     float-to-double v4, v1
 
-    iget v1, p0, Lkik/android/widget/HeightConstantClampImageView;->b:F
+    iget v1, p0, Lkik/arcane/widget/HeightConstantClampImageView;->b:F
 
     float-to-double v6, v1
 
@@ -227,10 +227,10 @@
     .line 103
     sget-object v1, Landroid/widget/ImageView$ScaleType;->MATRIX:Landroid/widget/ImageView$ScaleType;
 
-    invoke-virtual {p0, v1}, Lkik/android/widget/HeightConstantClampImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
+    invoke-virtual {p0, v1}, Lkik/arcane/widget/HeightConstantClampImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
 
     .line 104
-    invoke-virtual {p0, v3}, Lkik/android/widget/HeightConstantClampImageView;->setImageMatrix(Landroid/graphics/Matrix;)V
+    invoke-virtual {p0, v3}, Lkik/arcane/widget/HeightConstantClampImageView;->setImageMatrix(Landroid/graphics/Matrix;)V
 
     .line 107
     :cond_2
@@ -245,11 +245,11 @@
     .line 121
     :cond_3
     :goto_1
-    iget v1, p0, Lkik/android/widget/HeightConstantClampImageView;->b:F
+    iget v1, p0, Lkik/arcane/widget/HeightConstantClampImageView;->b:F
 
     float-to-int v1, v1
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/widget/HeightConstantClampImageView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/widget/HeightConstantClampImageView;->setMeasuredDimension(II)V
 
     goto :goto_0
 
@@ -267,24 +267,24 @@
     float-to-int v0, v0
 
     .line 116
-    iget-object v1, p0, Lkik/android/widget/HeightConstantClampImageView;->d:Landroid/widget/ImageView$ScaleType;
+    iget-object v1, p0, Lkik/arcane/widget/HeightConstantClampImageView;->d:Landroid/widget/ImageView$ScaleType;
 
     if-nez v1, :cond_3
 
     .line 117
     sget-object v1, Landroid/widget/ImageView$ScaleType;->CENTER_CROP:Landroid/widget/ImageView$ScaleType;
 
-    invoke-virtual {p0, v1}, Lkik/android/widget/HeightConstantClampImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
+    invoke-virtual {p0, v1}, Lkik/arcane/widget/HeightConstantClampImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
 
     goto :goto_1
 
     .line 124
     :cond_5
-    iget v0, p0, Lkik/android/widget/HeightConstantClampImageView;->b:F
+    iget v0, p0, Lkik/arcane/widget/HeightConstantClampImageView;->b:F
 
     float-to-int v0, v0
 
-    invoke-virtual {p0, v1, v0}, Lkik/android/widget/HeightConstantClampImageView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v1, v0}, Lkik/arcane/widget/HeightConstantClampImageView;->setMeasuredDimension(II)V
 
     goto/16 :goto_0
 .end method

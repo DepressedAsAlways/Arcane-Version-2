@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/UserProfileFragment$4;
+.class final Lkik/arcane/chat/fragment/UserProfileFragment$4;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/UserProfileFragment;
+    value = Lkik/arcane/chat/fragment/UserProfileFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,18 +26,18 @@
 # instance fields
 .field final synthetic a:Landroid/view/ViewGroup;
 
-.field final synthetic b:Lkik/android/chat/fragment/UserProfileFragment;
+.field final synthetic b:Lkik/arcane/chat/fragment/UserProfileFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/UserProfileFragment;Landroid/view/ViewGroup;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/UserProfileFragment;Landroid/view/ViewGroup;)V
     .locals 0
 
     .prologue
     .line 560
-    iput-object p1, p0, Lkik/android/chat/fragment/UserProfileFragment$4;->b:Lkik/android/chat/fragment/UserProfileFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/UserProfileFragment$4;->b:Lkik/arcane/chat/fragment/UserProfileFragment;
 
-    iput-object p2, p0, Lkik/android/chat/fragment/UserProfileFragment$4;->a:Landroid/view/ViewGroup;
+    iput-object p2, p0, Lkik/arcane/chat/fragment/UserProfileFragment$4;->a:Landroid/view/ViewGroup;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -61,11 +61,11 @@
     if-nez v0, :cond_0
 
     .line 1565
-    iget-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment$4;->b:Lkik/android/chat/fragment/UserProfileFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/UserProfileFragment$4;->b:Lkik/arcane/chat/fragment/UserProfileFragment;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/UserProfileFragment$4;->a:Landroid/view/ViewGroup;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/UserProfileFragment$4;->a:Landroid/view/ViewGroup;
 
-    invoke-static {v0, v1}, Lkik/android/chat/fragment/UserProfileFragment;->a(Lkik/android/chat/fragment/UserProfileFragment;Landroid/view/ViewGroup;)V
+    invoke-static {v0, v1}, Lkik/arcane/chat/fragment/UserProfileFragment;->a(Lkik/arcane/chat/fragment/UserProfileFragment;Landroid/view/ViewGroup;)V
 
     .line 560
     :cond_0

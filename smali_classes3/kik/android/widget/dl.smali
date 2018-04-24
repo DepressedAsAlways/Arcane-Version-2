@@ -1,4 +1,4 @@
-.class public final Lkik/android/widget/dl;
+.class public final Lkik/arcane/widget/dl;
 .super Landroid/support/v7/widget/helper/ItemTouchHelper$Callback;
 .source "SourceFile"
 
@@ -16,7 +16,7 @@
 
 .field private final f:I
 
-.field private g:Lkik/android/widget/bk;
+.field private g:Lkik/arcane/widget/bk;
 
 .field private h:Landroid/support/v7/widget/RecyclerView$ViewHolder;
 
@@ -26,7 +26,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/widget/bk;Landroid/support/v7/widget/RecyclerView;)V
+.method public constructor <init>(Lkik/arcane/widget/bk;Landroid/support/v7/widget/RecyclerView;)V
     .locals 5
 
     .prologue
@@ -40,47 +40,47 @@
     .line 22
     const/high16 v0, 0x41000000    # 8.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/widget/dl;->a:I
+    iput v0, p0, Lkik/arcane/widget/dl;->a:I
 
     .line 23
     const/high16 v0, 0x40c00000    # 6.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/widget/dl;->b:I
+    iput v0, p0, Lkik/arcane/widget/dl;->b:I
 
     .line 24
     const/high16 v0, 0x40000000    # 2.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/widget/dl;->c:I
+    iput v0, p0, Lkik/arcane/widget/dl;->c:I
 
     .line 25
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/widget/dl;->d:I
+    iput v0, p0, Lkik/arcane/widget/dl;->d:I
 
     .line 26
     const/4 v0, 0x3
 
-    iput v0, p0, Lkik/android/widget/dl;->e:I
+    iput v0, p0, Lkik/arcane/widget/dl;->e:I
 
     .line 27
     const/16 v0, 0x30
 
-    iput v0, p0, Lkik/android/widget/dl;->f:I
+    iput v0, p0, Lkik/arcane/widget/dl;->f:I
 
     .line 35
-    iput-object p1, p0, Lkik/android/widget/dl;->g:Lkik/android/widget/bk;
+    iput-object p1, p0, Lkik/arcane/widget/dl;->g:Lkik/arcane/widget/bk;
 
     .line 38
     const/16 v0, 0x15
@@ -100,28 +100,28 @@
 
     invoke-direct {v0, v1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    iput-object v0, p0, Lkik/android/widget/dl;->i:Landroid/view/View;
+    iput-object v0, p0, Lkik/arcane/widget/dl;->i:Landroid/view/View;
 
     .line 40
-    iget-object v0, p0, Lkik/android/widget/dl;->i:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/dl;->i:Landroid/view/View;
 
     new-instance v1, Landroid/view/ViewGroup$LayoutParams;
 
-    iget v2, p0, Lkik/android/widget/dl;->a:I
+    iget v2, p0, Lkik/arcane/widget/dl;->a:I
 
     invoke-direct {v1, v3, v2}, Landroid/view/ViewGroup$LayoutParams;-><init>(II)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 41
-    iget-object v0, p0, Lkik/android/widget/dl;->i:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/dl;->i:Landroid/view/View;
 
     const v1, 0x7f02032a
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
     .line 42
-    iget-object v0, p0, Lkik/android/widget/dl;->i:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/dl;->i:Landroid/view/View;
 
     invoke-virtual {v0, v4}, Landroid/view/View;->setVisibility(I)V
 
@@ -134,28 +134,28 @@
 
     invoke-direct {v0, v1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    iput-object v0, p0, Lkik/android/widget/dl;->j:Landroid/view/View;
+    iput-object v0, p0, Lkik/arcane/widget/dl;->j:Landroid/view/View;
 
     .line 44
-    iget-object v0, p0, Lkik/android/widget/dl;->j:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/dl;->j:Landroid/view/View;
 
     new-instance v1, Landroid/view/ViewGroup$LayoutParams;
 
-    iget v2, p0, Lkik/android/widget/dl;->a:I
+    iget v2, p0, Lkik/arcane/widget/dl;->a:I
 
     invoke-direct {v1, v3, v2}, Landroid/view/ViewGroup$LayoutParams;-><init>(II)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 45
-    iget-object v0, p0, Lkik/android/widget/dl;->j:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/dl;->j:Landroid/view/View;
 
     const v1, 0x7f020329
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundResource(I)V
 
     .line 46
-    iget-object v0, p0, Lkik/android/widget/dl;->j:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/dl;->j:Landroid/view/View;
 
     invoke-virtual {v0, v4}, Landroid/view/View;->setVisibility(I)V
 
@@ -166,7 +166,7 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    iget-object v1, p0, Lkik/android/widget/dl;->i:Landroid/view/View;
+    iget-object v1, p0, Lkik/arcane/widget/dl;->i:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
@@ -177,7 +177,7 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    iget-object v1, p0, Lkik/android/widget/dl;->j:Landroid/view/View;
+    iget-object v1, p0, Lkik/arcane/widget/dl;->j:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
@@ -193,10 +193,10 @@
 
     .prologue
     .line 55
-    check-cast p1, Lkik/android/widget/bj;
+    check-cast p1, Lkik/arcane/widget/bj;
 
     .line 56
-    invoke-interface {p1}, Lkik/android/widget/bj;->a()Z
+    invoke-interface {p1}, Lkik/arcane/widget/bj;->a()Z
 
     move-result v0
 
@@ -205,7 +205,7 @@
     const/4 v0, 0x3
 
     :goto_0
-    invoke-static {v0}, Lkik/android/widget/dl;->a(I)I
+    invoke-static {v0}, Lkik/arcane/widget/dl;->a(I)I
 
     move-result v0
 
@@ -225,7 +225,7 @@
     if-eqz p7, :cond_9
 
     .line 83
-    iget-object v0, p0, Lkik/android/widget/dl;->h:Landroid/support/v7/widget/RecyclerView$ViewHolder;
+    iget-object v0, p0, Lkik/arcane/widget/dl;->h:Landroid/support/v7/widget/RecyclerView$ViewHolder;
 
     if-ne v0, p3, :cond_a
 
@@ -283,7 +283,7 @@
     invoke-super/range {v0 .. v7}, Landroid/support/v7/widget/helper/ItemTouchHelper$Callback;->a(Landroid/graphics/Canvas;Landroid/support/v7/widget/RecyclerView;Landroid/support/v7/widget/RecyclerView$ViewHolder;FFIZ)V
 
     .line 95
-    iget-object v0, p0, Lkik/android/widget/dl;->h:Landroid/support/v7/widget/RecyclerView$ViewHolder;
+    iget-object v0, p0, Lkik/arcane/widget/dl;->h:Landroid/support/v7/widget/RecyclerView$ViewHolder;
 
     if-nez v0, :cond_1
 
@@ -298,12 +298,12 @@
     if-eq v0, v1, :cond_1
 
     .line 102
-    iput-object p3, p0, Lkik/android/widget/dl;->h:Landroid/support/v7/widget/RecyclerView$ViewHolder;
+    iput-object p3, p0, Lkik/arcane/widget/dl;->h:Landroid/support/v7/widget/RecyclerView$ViewHolder;
 
     .line 103
-    iget-object v1, p0, Lkik/android/widget/dl;->g:Lkik/android/widget/bk;
+    iget-object v1, p0, Lkik/arcane/widget/dl;->g:Lkik/arcane/widget/bk;
 
-    invoke-interface {v1, v0}, Lkik/android/widget/bk;->h(I)V
+    invoke-interface {v1, v0}, Lkik/arcane/widget/bk;->h(I)V
 
     .line 104
     const/16 v0, 0x15
@@ -315,14 +315,14 @@
     if-eqz v0, :cond_1
 
     .line 105
-    iget-object v0, p0, Lkik/android/widget/dl;->i:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/dl;->i:Landroid/view/View;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     .line 106
-    iget-object v0, p0, Lkik/android/widget/dl;->j:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/dl;->j:Landroid/view/View;
 
     const/4 v1, 0x0
 
@@ -338,12 +338,12 @@
 
     if-eqz v0, :cond_2
 
-    iget-object v0, p0, Lkik/android/widget/dl;->h:Landroid/support/v7/widget/RecyclerView$ViewHolder;
+    iget-object v0, p0, Lkik/arcane/widget/dl;->h:Landroid/support/v7/widget/RecyclerView$ViewHolder;
 
     if-ne v0, p3, :cond_2
 
     .line 112
-    iget-object v0, p0, Lkik/android/widget/dl;->h:Landroid/support/v7/widget/RecyclerView$ViewHolder;
+    iget-object v0, p0, Lkik/arcane/widget/dl;->h:Landroid/support/v7/widget/RecyclerView$ViewHolder;
 
     iget-object v0, v0, Landroid/support/v7/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
@@ -351,12 +351,12 @@
 
     move-result v0
 
-    iget v1, p0, Lkik/android/widget/dl;->b:I
+    iget v1, p0, Lkik/arcane/widget/dl;->b:I
 
     sub-int/2addr v0, v1
 
     .line 113
-    iget-object v1, p0, Lkik/android/widget/dl;->h:Landroid/support/v7/widget/RecyclerView$ViewHolder;
+    iget-object v1, p0, Lkik/arcane/widget/dl;->h:Landroid/support/v7/widget/RecyclerView$ViewHolder;
 
     iget-object v1, v1, Landroid/support/v7/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
@@ -364,7 +364,7 @@
 
     move-result v1
 
-    iget-object v2, p0, Lkik/android/widget/dl;->h:Landroid/support/v7/widget/RecyclerView$ViewHolder;
+    iget-object v2, p0, Lkik/arcane/widget/dl;->h:Landroid/support/v7/widget/RecyclerView$ViewHolder;
 
     iget-object v2, v2, Landroid/support/v7/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
@@ -374,12 +374,12 @@
 
     add-int/2addr v1, v2
 
-    iget v2, p0, Lkik/android/widget/dl;->c:I
+    iget v2, p0, Lkik/arcane/widget/dl;->c:I
 
     add-int/2addr v1, v2
 
     .line 114
-    iget-object v2, p0, Lkik/android/widget/dl;->i:Landroid/view/View;
+    iget-object v2, p0, Lkik/arcane/widget/dl;->i:Landroid/view/View;
 
     int-to-float v0, v0
 
@@ -388,7 +388,7 @@
     invoke-virtual {v2, v0}, Landroid/view/View;->setY(F)V
 
     .line 115
-    iget-object v0, p0, Lkik/android/widget/dl;->j:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/dl;->j:Landroid/view/View;
 
     int-to-float v1, v1
 
@@ -482,12 +482,12 @@
     invoke-super/range {p0 .. p7}, Landroid/support/v7/widget/helper/ItemTouchHelper$Callback;->a(Landroid/graphics/Canvas;Landroid/support/v7/widget/RecyclerView;Landroid/support/v7/widget/RecyclerView$ViewHolder;FFIZ)V
 
     .line 123
-    iget-object v0, p0, Lkik/android/widget/dl;->h:Landroid/support/v7/widget/RecyclerView$ViewHolder;
+    iget-object v0, p0, Lkik/arcane/widget/dl;->h:Landroid/support/v7/widget/RecyclerView$ViewHolder;
 
     if-ne v0, p3, :cond_2
 
     .line 125
-    iget-object v0, p0, Lkik/android/widget/dl;->h:Landroid/support/v7/widget/RecyclerView$ViewHolder;
+    iget-object v0, p0, Lkik/arcane/widget/dl;->h:Landroid/support/v7/widget/RecyclerView$ViewHolder;
 
     invoke-virtual {v0}, Landroid/support/v7/widget/RecyclerView$ViewHolder;->getAdapterPosition()I
 
@@ -499,14 +499,14 @@
     if-eq v0, v1, :cond_2
 
     .line 130
-    iget-object v1, p0, Lkik/android/widget/dl;->g:Lkik/android/widget/bk;
+    iget-object v1, p0, Lkik/arcane/widget/dl;->g:Lkik/arcane/widget/bk;
 
-    invoke-interface {v1, v0}, Lkik/android/widget/bk;->i(I)V
+    invoke-interface {v1, v0}, Lkik/arcane/widget/bk;->i(I)V
 
     .line 131
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/widget/dl;->h:Landroid/support/v7/widget/RecyclerView$ViewHolder;
+    iput-object v0, p0, Lkik/arcane/widget/dl;->h:Landroid/support/v7/widget/RecyclerView$ViewHolder;
 
     .line 132
     const/16 v0, 0x15
@@ -518,14 +518,14 @@
     if-eqz v0, :cond_2
 
     .line 133
-    iget-object v0, p0, Lkik/android/widget/dl;->i:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/dl;->i:Landroid/view/View;
 
     const/16 v1, 0x8
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     .line 134
-    iget-object v0, p0, Lkik/android/widget/dl;->j:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/dl;->j:Landroid/view/View;
 
     const/16 v1, 0x8
 
@@ -598,7 +598,7 @@
 
     .prologue
     .line 62
-    iget-object v0, p0, Lkik/android/widget/dl;->g:Lkik/android/widget/bk;
+    iget-object v0, p0, Lkik/arcane/widget/dl;->g:Lkik/arcane/widget/bk;
 
     invoke-virtual {p1}, Landroid/support/v7/widget/RecyclerView$ViewHolder;->getAdapterPosition()I
 
@@ -608,7 +608,7 @@
 
     move-result v2
 
-    invoke-interface {v0, v1, v2}, Lkik/android/widget/bk;->c(II)V
+    invoke-interface {v0, v1, v2}, Lkik/arcane/widget/bk;->c(II)V
 
     .line 63
     const/4 v0, 0x1

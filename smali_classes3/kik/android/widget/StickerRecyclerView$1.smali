@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/StickerRecyclerView$1;
+.class final Lkik/arcane/widget/StickerRecyclerView$1;
 .super Landroid/support/v7/widget/RecyclerView$ItemDecoration;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/StickerRecyclerView;->a(Lkik/android/widget/StickerRecyclerView;Lkik/android/chat/vm/widget/ae;)V
+    value = Lkik/arcane/widget/StickerRecyclerView;->a(Lkik/arcane/widget/StickerRecyclerView;Lkik/arcane/chat/vm/widget/ae;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -34,7 +34,7 @@
     .line 71
     const/high16 v0, 0x42080000    # 34.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 

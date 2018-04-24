@@ -1,4 +1,4 @@
-.class public final Lkik/android/b/g;
+.class public final Lkik/arcane/b/g;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/b/g$a;
+        Lkik/arcane/b/g$a;
     }
 .end annotation
 
@@ -24,7 +24,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 60
-    iput-object p1, p0, Lkik/android/b/g;->a:Lkik/core/e/f;
+    iput-object p1, p0, Lkik/arcane/b/g;->a:Lkik/core/e/f;
 
     .line 61
     return-void
@@ -85,7 +85,7 @@
     move-result-object v0
 
     .line 66
-    invoke-static {v0}, Lkik/android/b/g;->h(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/b/g;->h(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -103,7 +103,7 @@
     return-object v0
 
     :cond_0
-    iget-object v1, p0, Lkik/android/b/g;->a:Lkik/core/e/f;
+    iget-object v1, p0, Lkik/arcane/b/g;->a:Lkik/core/e/f;
 
     const-string v2, "browser_domain_info"
 
@@ -113,9 +113,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/b/g$1;
+    new-instance v1, Lkik/arcane/b/g$1;
 
-    invoke-direct {v1, p0}, Lkik/android/b/g$1;-><init>(Lkik/android/b/g;)V
+    invoke-direct {v1, p0}, Lkik/arcane/b/g$1;-><init>(Lkik/arcane/b/g;)V
 
     invoke-static {v0, v1}, Lcom/kik/events/l;->b(Lcom/kik/events/Promise;Lcom/kik/events/p;)Lcom/kik/events/Promise;
 
@@ -145,7 +145,7 @@
     move-result-object v2
 
     .line 123
-    invoke-static {v2}, Lkik/android/b/g;->h(Ljava/lang/String;)Z
+    invoke-static {v2}, Lkik/arcane/b/g;->h(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -167,15 +167,15 @@
     return-object v0
 
     :cond_0
-    iget-object v0, p0, Lkik/android/b/g;->a:Lkik/core/e/f;
+    iget-object v0, p0, Lkik/arcane/b/g;->a:Lkik/core/e/f;
 
     const-string v1, "browser_domain_info"
 
     const-class v3, Lcom/kik/xdata/model/browser/XBrowserDomainInfo;
 
-    new-instance v4, Lkik/android/b/g$3;
+    new-instance v4, Lkik/arcane/b/g$3;
 
-    invoke-direct {v4, p0, v2, p2, p1}, Lkik/android/b/g$3;-><init>(Lkik/android/b/g;Ljava/lang/String;[B[B)V
+    invoke-direct {v4, p0, v2, p2, p1}, Lkik/arcane/b/g$3;-><init>(Lkik/arcane/b/g;Ljava/lang/String;[B[B)V
 
     const-wide/16 v6, 0x1388
 
@@ -215,7 +215,7 @@
     move-result-object v0
 
     .line 94
-    invoke-static {v0}, Lkik/android/b/g;->h(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/b/g;->h(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -233,7 +233,7 @@
     return-object v0
 
     :cond_0
-    iget-object v1, p0, Lkik/android/b/g;->a:Lkik/core/e/f;
+    iget-object v1, p0, Lkik/arcane/b/g;->a:Lkik/core/e/f;
 
     const-string v2, "browser_domain_info"
 
@@ -243,9 +243,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/b/g$2;
+    new-instance v1, Lkik/arcane/b/g$2;
 
-    invoke-direct {v1, p0}, Lkik/android/b/g$2;-><init>(Lkik/android/b/g;)V
+    invoke-direct {v1, p0}, Lkik/arcane/b/g$2;-><init>(Lkik/arcane/b/g;)V
 
     invoke-static {v0, v1}, Lcom/kik/events/l;->b(Lcom/kik/events/Promise;Lcom/kik/events/p;)Lcom/kik/events/Promise;
 
@@ -275,7 +275,7 @@
     move-result-object v0
 
     .line 151
-    invoke-static {v0}, Lkik/android/b/g;->h(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/b/g;->h(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -297,7 +297,7 @@
     return-object v0
 
     :cond_0
-    iget-object v1, p0, Lkik/android/b/g;->a:Lkik/core/e/f;
+    iget-object v1, p0, Lkik/arcane/b/g;->a:Lkik/core/e/f;
 
     const-string v2, "browser_domain_info"
 
@@ -307,19 +307,19 @@
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/b/g$a;
+    new-instance v1, Lkik/arcane/b/g$a;
 
     sget-object v2, Lcom/kik/xdata/model/browser/XBrowserPermission$XBrowserPermissionName;->LOCATION:Lcom/kik/xdata/model/browser/XBrowserPermission$XBrowserPermissionName;
 
-    invoke-direct {v1, v2}, Lkik/android/b/g$a;-><init>(Lcom/kik/xdata/model/browser/XBrowserPermission$XBrowserPermissionName;)V
+    invoke-direct {v1, v2}, Lkik/arcane/b/g$a;-><init>(Lcom/kik/xdata/model/browser/XBrowserPermission$XBrowserPermissionName;)V
 
     invoke-static {v0, v1}, Lcom/kik/events/l;->b(Lcom/kik/events/Promise;Lcom/kik/events/p;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/b/g$4;
+    new-instance v1, Lkik/arcane/b/g$4;
 
-    invoke-direct {v1, p0}, Lkik/android/b/g$4;-><init>(Lkik/android/b/g;)V
+    invoke-direct {v1, p0}, Lkik/arcane/b/g$4;-><init>(Lkik/arcane/b/g;)V
 
     invoke-static {v0, v1}, Lcom/kik/events/l;->b(Lcom/kik/events/Promise;Lcom/kik/events/p;)Lcom/kik/events/Promise;
 
@@ -349,7 +349,7 @@
     move-result-object v2
 
     .line 178
-    invoke-static {v2}, Lkik/android/b/g;->h(Ljava/lang/String;)Z
+    invoke-static {v2}, Lkik/arcane/b/g;->h(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -371,15 +371,15 @@
     return-object v0
 
     :cond_0
-    iget-object v0, p0, Lkik/android/b/g;->a:Lkik/core/e/f;
+    iget-object v0, p0, Lkik/arcane/b/g;->a:Lkik/core/e/f;
 
     const-string v1, "browser_domain_info"
 
     const-class v3, Lcom/kik/xdata/model/browser/XBrowserDomainInfo;
 
-    new-instance v4, Lkik/android/b/g$5;
+    new-instance v4, Lkik/arcane/b/g$5;
 
-    invoke-direct {v4, p0, v2}, Lkik/android/b/g$5;-><init>(Lkik/android/b/g;Ljava/lang/String;)V
+    invoke-direct {v4, p0, v2}, Lkik/arcane/b/g$5;-><init>(Lkik/arcane/b/g;Ljava/lang/String;)V
 
     const-wide/16 v6, 0x1388
 
@@ -421,7 +421,7 @@
     move-result-object v0
 
     .line 219
-    invoke-static {v0}, Lkik/android/b/g;->h(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/b/g;->h(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -443,7 +443,7 @@
     return-object v0
 
     :cond_0
-    iget-object v1, p0, Lkik/android/b/g;->a:Lkik/core/e/f;
+    iget-object v1, p0, Lkik/arcane/b/g;->a:Lkik/core/e/f;
 
     const-string v2, "browser_domain_info"
 
@@ -453,19 +453,19 @@
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/b/g$a;
+    new-instance v1, Lkik/arcane/b/g$a;
 
     sget-object v2, Lcom/kik/xdata/model/browser/XBrowserPermission$XBrowserPermissionName;->PROFILE:Lcom/kik/xdata/model/browser/XBrowserPermission$XBrowserPermissionName;
 
-    invoke-direct {v1, v2}, Lkik/android/b/g$a;-><init>(Lcom/kik/xdata/model/browser/XBrowserPermission$XBrowserPermissionName;)V
+    invoke-direct {v1, v2}, Lkik/arcane/b/g$a;-><init>(Lcom/kik/xdata/model/browser/XBrowserPermission$XBrowserPermissionName;)V
 
     invoke-static {v0, v1}, Lcom/kik/events/l;->b(Lcom/kik/events/Promise;Lcom/kik/events/p;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/b/g$6;
+    new-instance v1, Lkik/arcane/b/g$6;
 
-    invoke-direct {v1, p0}, Lkik/android/b/g$6;-><init>(Lkik/android/b/g;)V
+    invoke-direct {v1, p0}, Lkik/arcane/b/g$6;-><init>(Lkik/arcane/b/g;)V
 
     invoke-static {v0, v1}, Lcom/kik/events/l;->b(Lcom/kik/events/Promise;Lcom/kik/events/p;)Lcom/kik/events/Promise;
 
@@ -495,7 +495,7 @@
     move-result-object v2
 
     .line 246
-    invoke-static {v2}, Lkik/android/b/g;->h(Ljava/lang/String;)Z
+    invoke-static {v2}, Lkik/arcane/b/g;->h(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -517,15 +517,15 @@
     return-object v0
 
     :cond_0
-    iget-object v0, p0, Lkik/android/b/g;->a:Lkik/core/e/f;
+    iget-object v0, p0, Lkik/arcane/b/g;->a:Lkik/core/e/f;
 
     const-string v1, "browser_domain_info"
 
     const-class v3, Lcom/kik/xdata/model/browser/XBrowserDomainInfo;
 
-    new-instance v4, Lkik/android/b/g$7;
+    new-instance v4, Lkik/arcane/b/g$7;
 
-    invoke-direct {v4, p0, v2}, Lkik/android/b/g$7;-><init>(Lkik/android/b/g;Ljava/lang/String;)V
+    invoke-direct {v4, p0, v2}, Lkik/arcane/b/g$7;-><init>(Lkik/arcane/b/g;Ljava/lang/String;)V
 
     const-wide/16 v6, 0x1388
 
@@ -567,7 +567,7 @@
     move-result-object v2
 
     .line 267
-    invoke-static {v2}, Lkik/android/b/g;->h(Ljava/lang/String;)Z
+    invoke-static {v2}, Lkik/arcane/b/g;->h(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -589,15 +589,15 @@
     return-object v0
 
     :cond_0
-    iget-object v0, p0, Lkik/android/b/g;->a:Lkik/core/e/f;
+    iget-object v0, p0, Lkik/arcane/b/g;->a:Lkik/core/e/f;
 
     const-string v1, "browser_domain_info"
 
     const-class v3, Lcom/kik/xdata/model/browser/XBrowserDomainInfo;
 
-    new-instance v4, Lkik/android/b/g$8;
+    new-instance v4, Lkik/arcane/b/g$8;
 
-    invoke-direct {v4, p0, v2}, Lkik/android/b/g$8;-><init>(Lkik/android/b/g;Ljava/lang/String;)V
+    invoke-direct {v4, p0, v2}, Lkik/arcane/b/g$8;-><init>(Lkik/arcane/b/g;Ljava/lang/String;)V
 
     const-wide/16 v6, 0x1388
 

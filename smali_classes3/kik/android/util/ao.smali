@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/ao;
+.class public final Lkik/arcane/util/ao;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -17,7 +17,7 @@
 
     invoke-direct {v0}, Landroid/animation/ArgbEvaluator;-><init>()V
 
-    sput-object v0, Lkik/android/util/ao;->a:Landroid/animation/ArgbEvaluator;
+    sput-object v0, Lkik/arcane/util/ao;->a:Landroid/animation/ArgbEvaluator;
 
     return-void
 .end method
@@ -201,9 +201,9 @@
     :cond_0
     const/4 v1, 0x0
 
-    new-instance v3, Lkik/android/util/ao$2;
+    new-instance v3, Lkik/arcane/util/ao$2;
 
-    invoke-direct {v3, p0}, Lkik/android/util/ao$2;-><init>(Landroid/view/View;)V
+    invoke-direct {v3, p0}, Lkik/arcane/util/ao$2;-><init>(Landroid/view/View;)V
 
     move-object v0, p0
 
@@ -211,7 +211,7 @@
 
     move-wide v4, p2
 
-    invoke-static/range {v0 .. v5}, Lkik/android/util/ao;->a(Landroid/view/View;FFLandroid/animation/AnimatorListenerAdapter;J)V
+    invoke-static/range {v0 .. v5}, Lkik/arcane/util/ao;->a(Landroid/view/View;FFLandroid/animation/AnimatorListenerAdapter;J)V
 
     goto :goto_0
 .end method
@@ -223,7 +223,7 @@
     .line 298
     const/4 v0, 0x0
 
-    invoke-static {p0, p1, v0}, Lkik/android/util/ao;->a(Landroid/view/View;ILandroid/animation/Animator$AnimatorListener;)V
+    invoke-static {p0, p1, v0}, Lkik/arcane/util/ao;->a(Landroid/view/View;ILandroid/animation/Animator$AnimatorListener;)V
 
     .line 299
     return-void
@@ -250,7 +250,7 @@
 
     aput-object p0, v0, v1
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 309
     sget-object v0, Landroid/view/View;->ALPHA:Landroid/util/Property;
@@ -302,7 +302,7 @@
     .line 402
     const/16 v0, 0x8
 
-    invoke-static {p0, p1, p2, v0}, Lkik/android/util/ao;->a(Landroid/view/View;ILandroid/view/animation/Animation$AnimationListener;I)V
+    invoke-static {p0, p1, p2, v0}, Lkik/arcane/util/ao;->a(Landroid/view/View;ILandroid/view/animation/Animation$AnimationListener;I)V
 
     .line 403
     return-void
@@ -335,9 +335,9 @@
     invoke-virtual {v0, v2, v3}, Landroid/view/animation/AlphaAnimation;->setDuration(J)V
 
     .line 419
-    new-instance v1, Lkik/android/util/ao$6;
+    new-instance v1, Lkik/arcane/util/ao$6;
 
-    invoke-direct {v1, p2, p0, p3}, Lkik/android/util/ao$6;-><init>(Landroid/view/animation/Animation$AnimationListener;Landroid/view/View;I)V
+    invoke-direct {v1, p2, p0, p3}, Lkik/arcane/util/ao$6;-><init>(Landroid/view/animation/Animation$AnimationListener;Landroid/view/View;I)V
 
     invoke-virtual {v0, v1}, Landroid/view/animation/AlphaAnimation;->setAnimationListener(Landroid/view/animation/Animation$AnimationListener;)V
 
@@ -347,7 +347,7 @@
     goto :goto_0
 .end method
 
-.method public static a(Landroid/view/View;ILcom/kik/android/animation/ColorFade$FadeDirection;)V
+.method public static a(Landroid/view/View;ILcom/kik/arcane/animation/ColorFade$FadeDirection;)V
     .locals 4
 
     .prologue
@@ -356,14 +356,14 @@
     if-eqz p0, :cond_0
 
     .line 1188
-    new-instance v0, Lcom/kik/android/animation/ColorFade;
+    new-instance v0, Lcom/kik/arcane/animation/ColorFade;
 
-    invoke-direct {v0, p0, p1, p2}, Lcom/kik/android/animation/ColorFade;-><init>(Landroid/view/View;ILcom/kik/android/animation/ColorFade$FadeDirection;)V
+    invoke-direct {v0, p0, p1, p2}, Lcom/kik/arcane/animation/ColorFade;-><init>(Landroid/view/View;ILcom/kik/arcane/animation/ColorFade$FadeDirection;)V
 
     .line 1189
     const-wide/16 v2, 0x12c
 
-    invoke-virtual {v0, v2, v3}, Lcom/kik/android/animation/ColorFade;->setDuration(J)V
+    invoke-virtual {v0, v2, v3}, Lcom/kik/arcane/animation/ColorFade;->setDuration(J)V
 
     .line 1213
     invoke-virtual {p0, v0}, Landroid/view/View;->startAnimation(Landroid/view/animation/Animation;)V
@@ -382,7 +382,7 @@
 
     const/4 v1, 0x4
 
-    invoke-static {p0, v0, p1, v1}, Lkik/android/util/ao;->a(Landroid/view/View;ILandroid/view/animation/Animation$AnimationListener;I)V
+    invoke-static {p0, v0, p1, v1}, Lkik/arcane/util/ao;->a(Landroid/view/View;ILandroid/view/animation/Animation$AnimationListener;I)V
 
     .line 408
     return-void
@@ -426,13 +426,13 @@
     .line 1298
     const/4 v0, 0x0
 
-    invoke-static {p0, v1, v0}, Lkik/android/util/ao;->a(Landroid/view/View;ILandroid/animation/Animator$AnimatorListener;)V
+    invoke-static {p0, v1, v0}, Lkik/arcane/util/ao;->a(Landroid/view/View;ILandroid/animation/Animator$AnimatorListener;)V
 
     goto :goto_0
 
     .line 287
     :cond_3
-    invoke-static {p0, v1}, Lkik/android/util/ao;->b(Landroid/view/View;I)V
+    invoke-static {p0, v1}, Lkik/arcane/util/ao;->b(Landroid/view/View;I)V
 
     goto :goto_0
 .end method
@@ -520,7 +520,7 @@
 
     .line 330
     :cond_2
-    invoke-static {p0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {p0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 331
     new-instance v0, Landroid/animation/AnimatorSet;
@@ -560,21 +560,21 @@
     move-result-object v0
 
     .line 154
-    new-instance v1, Lcom/kik/android/animation/a;
+    new-instance v1, Lcom/kik/arcane/animation/a;
 
-    invoke-direct {v1, p0}, Lcom/kik/android/animation/a;-><init>(Landroid/view/View;)V
+    invoke-direct {v1, p0}, Lcom/kik/arcane/animation/a;-><init>(Landroid/view/View;)V
 
     .line 155
     const-wide/16 v2, 0x12c
 
-    invoke-virtual {v1, v2, v3}, Lcom/kik/android/animation/a;->setDuration(J)V
+    invoke-virtual {v1, v2, v3}, Lcom/kik/arcane/animation/a;->setDuration(J)V
 
     .line 156
-    new-instance v2, Lkik/android/util/ao$1;
+    new-instance v2, Lkik/arcane/util/ao$1;
 
-    invoke-direct {v2, p0, v0}, Lkik/android/util/ao$1;-><init>(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
+    invoke-direct {v2, p0, v0}, Lkik/arcane/util/ao$1;-><init>(Landroid/view/View;Landroid/graphics/drawable/Drawable;)V
 
-    invoke-virtual {v1, v2}, Lcom/kik/android/animation/a;->setAnimationListener(Landroid/view/animation/Animation$AnimationListener;)V
+    invoke-virtual {v1, v2}, Lcom/kik/arcane/animation/a;->setAnimationListener(Landroid/view/animation/Animation$AnimationListener;)V
 
     .line 175
     invoke-virtual {p0, v1}, Landroid/view/View;->startAnimation(Landroid/view/animation/Animation;)V
@@ -589,9 +589,9 @@
     .line 234
     const/4 v2, 0x0
 
-    new-instance v3, Lkik/android/util/ao$3;
+    new-instance v3, Lkik/arcane/util/ao$3;
 
-    invoke-direct {v3, p0}, Lkik/android/util/ao$3;-><init>(Landroid/view/View;)V
+    invoke-direct {v3, p0}, Lkik/arcane/util/ao$3;-><init>(Landroid/view/View;)V
 
     move-object v0, p0
 
@@ -599,7 +599,7 @@
 
     move-wide v4, p2
 
-    invoke-static/range {v0 .. v5}, Lkik/android/util/ao;->a(Landroid/view/View;FFLandroid/animation/AnimatorListenerAdapter;J)V
+    invoke-static/range {v0 .. v5}, Lkik/arcane/util/ao;->a(Landroid/view/View;FFLandroid/animation/AnimatorListenerAdapter;J)V
 
     .line 243
     return-void
@@ -612,7 +612,7 @@
     .line 372
     if-eqz p0, :cond_0
 
-    invoke-static {p0}, Lkik/android/util/ca;->b(Landroid/view/View;)Z
+    invoke-static {p0}, Lkik/arcane/util/ca;->b(Landroid/view/View;)Z
 
     move-result v0
 
@@ -639,9 +639,9 @@
     invoke-virtual {v0, v2, v3}, Landroid/view/animation/AlphaAnimation;->setDuration(J)V
 
     .line 378
-    new-instance v1, Lkik/android/util/ao$5;
+    new-instance v1, Lkik/arcane/util/ao$5;
 
-    invoke-direct {v1, p0}, Lkik/android/util/ao$5;-><init>(Landroid/view/View;)V
+    invoke-direct {v1, p0}, Lkik/arcane/util/ao$5;-><init>(Landroid/view/View;)V
 
     invoke-virtual {v0, v1}, Landroid/view/animation/AlphaAnimation;->setAnimationListener(Landroid/view/animation/Animation$AnimationListener;)V
 
@@ -734,7 +734,7 @@
 
     .line 349
     :cond_2
-    invoke-static {p0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {p0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 350
     new-instance v0, Landroid/animation/AnimatorSet;
@@ -750,9 +750,9 @@
     invoke-virtual {v0, v2, v3}, Landroid/animation/AnimatorSet;->setDuration(J)Landroid/animation/AnimatorSet;
 
     .line 353
-    new-instance v1, Lkik/android/util/ao$4;
+    new-instance v1, Lkik/arcane/util/ao$4;
 
-    invoke-direct {v1, p0}, Lkik/android/util/ao$4;-><init>([Landroid/view/View;)V
+    invoke-direct {v1, p0}, Lkik/arcane/util/ao$4;-><init>([Landroid/view/View;)V
 
     invoke-virtual {v0, v1}, Landroid/animation/AnimatorSet;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
@@ -773,7 +773,7 @@
 
     const/4 v1, 0x0
 
-    invoke-static {p0, v0, v1}, Lkik/android/util/ao;->a(Landroid/view/View;ILandroid/animation/Animator$AnimatorListener;)V
+    invoke-static {p0, v0, v1}, Lkik/arcane/util/ao;->a(Landroid/view/View;ILandroid/animation/Animator$AnimatorListener;)V
 
     .line 294
     return-void
@@ -786,7 +786,7 @@
     .line 367
     const/16 v0, 0x1f4
 
-    invoke-static {p0, v0}, Lkik/android/util/ao;->b(Landroid/view/View;I)V
+    invoke-static {p0, v0}, Lkik/arcane/util/ao;->b(Landroid/view/View;I)V
 
     .line 368
     return-void

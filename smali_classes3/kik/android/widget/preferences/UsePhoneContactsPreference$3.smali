@@ -1,4 +1,4 @@
-.class final Lkik/android/widget/preferences/UsePhoneContactsPreference$3;
+.class final Lkik/arcane/widget/preferences/UsePhoneContactsPreference$3;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/preferences/UsePhoneContactsPreference;
+    value = Lkik/arcane/widget/preferences/UsePhoneContactsPreference;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/preferences/UsePhoneContactsPreference;
+.field final synthetic a:Lkik/arcane/widget/preferences/UsePhoneContactsPreference;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/preferences/UsePhoneContactsPreference;)V
+.method constructor <init>(Lkik/arcane/widget/preferences/UsePhoneContactsPreference;)V
     .locals 0
 
     .prologue
     .line 152
-    iput-object p1, p0, Lkik/android/widget/preferences/UsePhoneContactsPreference$3;->a:Lkik/android/widget/preferences/UsePhoneContactsPreference;
+    iput-object p1, p0, Lkik/arcane/widget/preferences/UsePhoneContactsPreference$3;->a:Lkik/arcane/widget/preferences/UsePhoneContactsPreference;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,15 +41,15 @@
 
     .prologue
     .line 156
-    iget-object v0, p0, Lkik/android/widget/preferences/UsePhoneContactsPreference$3;->a:Lkik/android/widget/preferences/UsePhoneContactsPreference;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/UsePhoneContactsPreference$3;->a:Lkik/arcane/widget/preferences/UsePhoneContactsPreference;
 
-    invoke-virtual {v0}, Lkik/android/widget/preferences/UsePhoneContactsPreference;->a()Lkik/android/chat/fragment/KikScopedDialogFragment;
+    invoke-virtual {v0}, Lkik/arcane/widget/preferences/UsePhoneContactsPreference;->a()Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikScopedDialogFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 157
     return-void

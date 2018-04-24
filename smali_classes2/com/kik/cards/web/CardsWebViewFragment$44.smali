@@ -157,7 +157,7 @@
     move-result-object v0
 
     .line 1401
-    invoke-static {}, Lkik/android/chat/KikApplication;->k()Lkik/android/a/b;
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->k()Lkik/arcane/a/b;
 
     move-result-object v1
 
@@ -165,7 +165,7 @@
     if-eqz v1, :cond_1
 
     .line 1403
-    invoke-virtual {v1}, Lkik/android/a/b;->c()Lcom/kik/clientmetrics/f;
+    invoke-virtual {v1}, Lkik/arcane/a/b;->c()Lcom/kik/clientmetrics/f;
 
     move-result-object v1
 
@@ -183,18 +183,18 @@
     :cond_1
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment$44;->b:Lcom/kik/cards/web/CardsWebViewFragment;
 
-    iget-object v0, v0, Lcom/kik/cards/web/CardsWebViewFragment;->d:Lcom/kik/android/Mixpanel;
+    iget-object v0, v0, Lcom/kik/cards/web/CardsWebViewFragment;->d:Lcom/kik/arcane/Mixpanel;
 
     if-eqz v0, :cond_2
 
     .line 1406
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment$44;->b:Lcom/kik/cards/web/CardsWebViewFragment;
 
-    iget-object v0, v0, Lcom/kik/cards/web/CardsWebViewFragment;->d:Lcom/kik/android/Mixpanel;
+    iget-object v0, v0, Lcom/kik/cards/web/CardsWebViewFragment;->d:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Browser Page Loaded"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -203,7 +203,7 @@
     iget-object v2, p0, Lcom/kik/cards/web/CardsWebViewFragment$44;->a:Ljava/lang/String;
 
     .line 1407
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -216,12 +216,12 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 1409
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 379
     :cond_2

@@ -1,11 +1,11 @@
-.class final Lkik/android/util/SponsoredUsersManager$a;
+.class final Lkik/arcane/util/SponsoredUsersManager$a;
 .super Lcom/android/volley/toolbox/JsonArrayRequest;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/SponsoredUsersManager;
+    value = Lkik/arcane/util/SponsoredUsersManager;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -50,10 +50,10 @@
     invoke-direct {p0, p1, p2, p3}, Lcom/android/volley/toolbox/JsonArrayRequest;-><init>(Ljava/lang/String;Lcom/android/volley/h$b;Lcom/android/volley/h$a;)V
 
     .line 410
-    iput-object p2, p0, Lkik/android/util/SponsoredUsersManager$a;->a:Lcom/android/volley/h$b;
+    iput-object p2, p0, Lkik/arcane/util/SponsoredUsersManager$a;->a:Lcom/android/volley/h$b;
 
     .line 411
-    iput-object p3, p0, Lkik/android/util/SponsoredUsersManager$a;->b:Lcom/android/volley/h$a;
+    iput-object p3, p0, Lkik/arcane/util/SponsoredUsersManager$a;->b:Lcom/android/volley/h$a;
 
     .line 412
     return-void
@@ -66,7 +66,7 @@
 
     .prologue
     .line 452
-    iget-object v0, p0, Lkik/android/util/SponsoredUsersManager$a;->b:Lcom/android/volley/h$a;
+    iget-object v0, p0, Lkik/arcane/util/SponsoredUsersManager$a;->b:Lcom/android/volley/h$a;
 
     invoke-interface {v0, p1}, Lcom/android/volley/h$a;->a(Lcom/android/volley/VolleyError;)V
 
@@ -82,7 +82,7 @@
     check-cast p1, Lorg/json/JSONArray;
 
     .line 1446
-    iget-object v0, p0, Lkik/android/util/SponsoredUsersManager$a;->a:Lcom/android/volley/h$b;
+    iget-object v0, p0, Lkik/arcane/util/SponsoredUsersManager$a;->a:Lcom/android/volley/h$b;
 
     invoke-interface {v0, p1}, Lcom/android/volley/h$b;->a(Ljava/lang/Object;)V
 
@@ -114,7 +114,7 @@
 
     const-string v2, ""
 
-    invoke-static {v2}, Lkik/android/util/DeviceUtils;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/util/DeviceUtils;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 

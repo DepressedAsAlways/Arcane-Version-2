@@ -1,11 +1,11 @@
-.class public final enum Lkik/android/chat/vm/DialogViewModel$DialogStyle;
+.class public final enum Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;
 .super Ljava/lang/Enum;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/DialogViewModel;
+    value = Lkik/arcane/chat/vm/DialogViewModel;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,20 +17,20 @@
     value = {
         "Ljava/lang/Enum",
         "<",
-        "Lkik/android/chat/vm/DialogViewModel$DialogStyle;",
+        "Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;",
         ">;"
     }
 .end annotation
 
 
 # static fields
-.field private static final synthetic $VALUES:[Lkik/android/chat/vm/DialogViewModel$DialogStyle;
+.field private static final synthetic $VALUES:[Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;
 
-.field public static final enum CALL_TO_ACTION:Lkik/android/chat/vm/DialogViewModel$DialogStyle;
+.field public static final enum CALL_TO_ACTION:Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;
 
-.field public static final enum PLAIN:Lkik/android/chat/vm/DialogViewModel$DialogStyle;
+.field public static final enum PLAIN:Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;
 
-.field public static final enum SINGLE_SELECT_RADIO:Lkik/android/chat/vm/DialogViewModel$DialogStyle;
+.field public static final enum SINGLE_SELECT_RADIO:Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;
 
 
 # direct methods
@@ -45,48 +45,48 @@
     const/4 v2, 0x0
 
     .line 16
-    new-instance v0, Lkik/android/chat/vm/DialogViewModel$DialogStyle;
+    new-instance v0, Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;
 
     const-string v1, "PLAIN"
 
-    invoke-direct {v0, v1, v2}, Lkik/android/chat/vm/DialogViewModel$DialogStyle;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/chat/vm/DialogViewModel$DialogStyle;->PLAIN:Lkik/android/chat/vm/DialogViewModel$DialogStyle;
+    sput-object v0, Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;->PLAIN:Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;
 
-    new-instance v0, Lkik/android/chat/vm/DialogViewModel$DialogStyle;
+    new-instance v0, Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;
 
     const-string v1, "CALL_TO_ACTION"
 
-    invoke-direct {v0, v1, v3}, Lkik/android/chat/vm/DialogViewModel$DialogStyle;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v3}, Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/chat/vm/DialogViewModel$DialogStyle;->CALL_TO_ACTION:Lkik/android/chat/vm/DialogViewModel$DialogStyle;
+    sput-object v0, Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;->CALL_TO_ACTION:Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;
 
-    new-instance v0, Lkik/android/chat/vm/DialogViewModel$DialogStyle;
+    new-instance v0, Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;
 
     const-string v1, "SINGLE_SELECT_RADIO"
 
-    invoke-direct {v0, v1, v4}, Lkik/android/chat/vm/DialogViewModel$DialogStyle;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v4}, Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/chat/vm/DialogViewModel$DialogStyle;->SINGLE_SELECT_RADIO:Lkik/android/chat/vm/DialogViewModel$DialogStyle;
+    sput-object v0, Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;->SINGLE_SELECT_RADIO:Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;
 
     .line 14
     const/4 v0, 0x3
 
-    new-array v0, v0, [Lkik/android/chat/vm/DialogViewModel$DialogStyle;
+    new-array v0, v0, [Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;
 
-    sget-object v1, Lkik/android/chat/vm/DialogViewModel$DialogStyle;->PLAIN:Lkik/android/chat/vm/DialogViewModel$DialogStyle;
+    sget-object v1, Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;->PLAIN:Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lkik/android/chat/vm/DialogViewModel$DialogStyle;->CALL_TO_ACTION:Lkik/android/chat/vm/DialogViewModel$DialogStyle;
+    sget-object v1, Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;->CALL_TO_ACTION:Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;
 
     aput-object v1, v0, v3
 
-    sget-object v1, Lkik/android/chat/vm/DialogViewModel$DialogStyle;->SINGLE_SELECT_RADIO:Lkik/android/chat/vm/DialogViewModel$DialogStyle;
+    sget-object v1, Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;->SINGLE_SELECT_RADIO:Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;
 
     aput-object v1, v0, v4
 
-    sput-object v0, Lkik/android/chat/vm/DialogViewModel$DialogStyle;->$VALUES:[Lkik/android/chat/vm/DialogViewModel$DialogStyle;
+    sput-object v0, Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;->$VALUES:[Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;
 
     return-void
 .end method
@@ -106,34 +106,34 @@
     return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lkik/android/chat/vm/DialogViewModel$DialogStyle;
+.method public static valueOf(Ljava/lang/String;)Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;
     .locals 1
 
     .prologue
     .line 14
-    const-class v0, Lkik/android/chat/vm/DialogViewModel$DialogStyle;
+    const-class v0, Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/vm/DialogViewModel$DialogStyle;
+    check-cast v0, Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;
 
     return-object v0
 .end method
 
-.method public static values()[Lkik/android/chat/vm/DialogViewModel$DialogStyle;
+.method public static values()[Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;
     .locals 1
 
     .prologue
     .line 14
-    sget-object v0, Lkik/android/chat/vm/DialogViewModel$DialogStyle;->$VALUES:[Lkik/android/chat/vm/DialogViewModel$DialogStyle;
+    sget-object v0, Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;->$VALUES:[Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;
 
-    invoke-virtual {v0}, [Lkik/android/chat/vm/DialogViewModel$DialogStyle;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkik/android/chat/vm/DialogViewModel$DialogStyle;
+    check-cast v0, [Lkik/arcane/chat/vm/DialogViewModel$DialogStyle;
 
     return-object v0
 .end method

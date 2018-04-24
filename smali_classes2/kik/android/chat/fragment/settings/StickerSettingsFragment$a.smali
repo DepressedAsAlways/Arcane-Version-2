@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/fragment/settings/StickerSettingsFragment$a;
+.class public final Lkik/arcane/chat/fragment/settings/StickerSettingsFragment$a;
 .super Lcom/kik/ui/fragment/FragmentBase$FragmentBundle;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/settings/StickerSettingsFragment;
+    value = Lkik/arcane/chat/fragment/settings/StickerSettingsFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

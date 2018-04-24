@@ -49,11 +49,11 @@
 
     iget-object v3, p0, Lcom/kik/cards/web/CardsWebViewFragment$20;->a:Lcom/kik/cards/web/CardsWebViewFragment;
 
-    invoke-static {v3}, Lcom/kik/cards/web/CardsWebViewFragment;->t(Lcom/kik/cards/web/CardsWebViewFragment;)Lkik/android/util/ca$c;
+    invoke-static {v3}, Lcom/kik/cards/web/CardsWebViewFragment;->t(Lcom/kik/cards/web/CardsWebViewFragment;)Lkik/arcane/util/ca$c;
 
     move-result-object v3
 
-    invoke-virtual {v3}, Lkik/android/util/ca$c;->b()Ljava/lang/String;
+    invoke-virtual {v3}, Lkik/arcane/util/ca$c;->b()Ljava/lang/String;
 
     move-result-object v3
 

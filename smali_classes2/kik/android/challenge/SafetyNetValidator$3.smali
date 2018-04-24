@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/challenge/SafetyNetValidator$3;
+.class final synthetic Lkik/arcane/challenge/SafetyNetValidator$3;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/challenge/SafetyNetValidator;
+    value = Lkik/arcane/challenge/SafetyNetValidator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -32,10 +32,10 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/challenge/SafetyNetValidator$3;->a:[I
+    sput-object v0, Lkik/arcane/challenge/SafetyNetValidator$3;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/challenge/SafetyNetValidator$3;->a:[I
+    sget-object v0, Lkik/arcane/challenge/SafetyNetValidator$3;->a:[I
 
     sget-object v1, Lcom/kik/antispam/safetynet/rpc/SafetynetService$VerifyAttestationResultResponse$Result;->OK:Lcom/kik/antispam/safetynet/rpc/SafetynetService$VerifyAttestationResultResponse$Result;
 
@@ -51,7 +51,7 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/challenge/SafetyNetValidator$3;->a:[I
+    sget-object v0, Lkik/arcane/challenge/SafetyNetValidator$3;->a:[I
 
     sget-object v1, Lcom/kik/antispam/safetynet/rpc/SafetynetService$VerifyAttestationResultResponse$Result;->INVALID_NONCE:Lcom/kik/antispam/safetynet/rpc/SafetynetService$VerifyAttestationResultResponse$Result;
 
@@ -67,7 +67,7 @@
 
     :goto_1
     :try_start_2
-    sget-object v0, Lkik/android/challenge/SafetyNetValidator$3;->a:[I
+    sget-object v0, Lkik/arcane/challenge/SafetyNetValidator$3;->a:[I
 
     sget-object v1, Lcom/kik/antispam/safetynet/rpc/SafetynetService$VerifyAttestationResultResponse$Result;->MALFORMED_REQUEST:Lcom/kik/antispam/safetynet/rpc/SafetynetService$VerifyAttestationResultResponse$Result;
 
@@ -83,7 +83,7 @@
 
     :goto_2
     :try_start_3
-    sget-object v0, Lkik/android/challenge/SafetyNetValidator$3;->a:[I
+    sget-object v0, Lkik/arcane/challenge/SafetyNetValidator$3;->a:[I
 
     sget-object v1, Lcom/kik/antispam/safetynet/rpc/SafetynetService$VerifyAttestationResultResponse$Result;->UNRECOGNIZED:Lcom/kik/antispam/safetynet/rpc/SafetynetService$VerifyAttestationResultResponse$Result;
 

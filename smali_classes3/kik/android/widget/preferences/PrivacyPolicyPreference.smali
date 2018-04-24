@@ -1,5 +1,5 @@
-.class public Lkik/android/widget/preferences/PrivacyPolicyPreference;
-.super Lkik/android/widget/preferences/KikModalPreference;
+.class public Lkik/arcane/widget/preferences/PrivacyPolicyPreference;
+.super Lkik/arcane/widget/preferences/KikModalPreference;
 .source "SourceFile"
 
 
@@ -11,7 +11,7 @@
     .line 22
     sget-object v0, Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;->PRIVACY_POLICY:Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/preferences/KikModalPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/preferences/KikModalPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
 
     .line 23
     return-void
@@ -26,25 +26,25 @@
     const/4 v8, 0x1
 
     .line 28
-    invoke-virtual {p0}, Lkik/android/widget/preferences/PrivacyPolicyPreference;->a()Lkik/android/chat/fragment/KikScopedDialogFragment;
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/PrivacyPolicyPreference;->a()Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     move-result-object v0
 
     .line 29
-    new-instance v1, Lkik/android/util/ar;
+    new-instance v1, Lkik/arcane/util/ar;
 
-    invoke-virtual {p0}, Lkik/android/widget/preferences/PrivacyPolicyPreference;->a()Lkik/android/chat/fragment/KikScopedDialogFragment;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Lkik/android/chat/fragment/KikScopedDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/PrivacyPolicyPreference;->a()Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     move-result-object v2
 
-    invoke-direct {v1, v2}, Lkik/android/util/ar;-><init>(Landroid/content/Context;)V
+    invoke-virtual {v2}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+
+    move-result-object v2
+
+    invoke-direct {v1, v2}, Lkik/arcane/util/ar;-><init>(Landroid/content/Context;)V
 
     .line 30
-    invoke-virtual {v1}, Lkik/android/util/ar;->a()Ljava/lang/String;
+    invoke-virtual {v1}, Lkik/arcane/util/ar;->a()Ljava/lang/String;
 
     move-result-object v1
 
@@ -53,11 +53,11 @@
 
     const-string v3, "android.intent.action.VIEW"
 
-    invoke-virtual {p0}, Lkik/android/widget/preferences/PrivacyPolicyPreference;->a()Lkik/android/chat/fragment/KikScopedDialogFragment;
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/PrivacyPolicyPreference;->a()Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lkik/android/chat/fragment/KikScopedDialogFragment;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v4}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v4
 
@@ -80,7 +80,7 @@
     invoke-direct {v2, v3, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
     .line 33
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikScopedDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v0
 

@@ -1,11 +1,11 @@
-.class final Lkik/android/gifs/api/g$3;
+.class final Lkik/arcane/gifs/api/g$3;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/gifs/api/g;
+    value = Lkik/arcane/gifs/api/g;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/gifs/api/g;
+.field final synthetic a:Lkik/arcane/gifs/api/g;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/gifs/api/g;)V
+.method constructor <init>(Lkik/arcane/gifs/api/g;)V
     .locals 0
 
     .prologue
     .line 446
-    iput-object p1, p0, Lkik/android/gifs/api/g$3;->a:Lkik/android/gifs/api/g;
+    iput-object p1, p0, Lkik/arcane/gifs/api/g$3;->a:Lkik/arcane/gifs/api/g;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -47,9 +47,9 @@
 
     .prologue
     .line 450
-    iget-object v0, p0, Lkik/android/gifs/api/g$3;->a:Lkik/android/gifs/api/g;
+    iget-object v0, p0, Lkik/arcane/gifs/api/g$3;->a:Lkik/arcane/gifs/api/g;
 
-    invoke-static {v0}, Lkik/android/gifs/api/g;->d(Lkik/android/gifs/api/g;)Lcom/kik/events/Promise;
+    invoke-static {v0}, Lkik/arcane/gifs/api/g;->d(Lkik/arcane/gifs/api/g;)Lcom/kik/events/Promise;
 
     .line 451
     return-void

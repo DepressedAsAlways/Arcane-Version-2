@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/vm/chats/publicgroups/PublicGroupSearchBarViewModel_MembersInjector;
+.class public final Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupSearchBarViewModel_MembersInjector;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/b",
         "<",
-        "Lkik/android/chat/vm/chats/publicgroups/r;",
+        "Lkik/arcane/chat/vm/chats/publicgroups/r;",
         ">;"
     }
 .end annotation
@@ -28,7 +28,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -41,7 +41,7 @@
 
     .prologue
     .line 8
-    const-class v0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupSearchBarViewModel_MembersInjector;
+    const-class v0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupSearchBarViewModel_MembersInjector;
 
     invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
 
@@ -52,7 +52,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    sput-boolean v0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupSearchBarViewModel_MembersInjector;->a:Z
+    sput-boolean v0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupSearchBarViewModel_MembersInjector;->a:Z
 
     return-void
 
@@ -69,7 +69,7 @@
             "(",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;)V"
         }
     .end annotation
@@ -79,7 +79,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 17
-    sget-boolean v0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupSearchBarViewModel_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupSearchBarViewModel_MembersInjector;->a:Z
 
     if-nez v0, :cond_0
 
@@ -93,7 +93,7 @@
 
     .line 18
     :cond_0
-    iput-object p1, p0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupSearchBarViewModel_MembersInjector;->b:Ljavax/inject/Provider;
+    iput-object p1, p0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupSearchBarViewModel_MembersInjector;->b:Ljavax/inject/Provider;
 
     .line 19
     return-void
@@ -106,20 +106,20 @@
             "(",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;)",
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/publicgroups/r;",
+            "Lkik/arcane/chat/vm/chats/publicgroups/r;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 23
-    new-instance v0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupSearchBarViewModel_MembersInjector;
+    new-instance v0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupSearchBarViewModel_MembersInjector;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/vm/chats/publicgroups/PublicGroupSearchBarViewModel_MembersInjector;-><init>(Ljavax/inject/Provider;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupSearchBarViewModel_MembersInjector;-><init>(Ljavax/inject/Provider;)V
 
     return-object v0
 .end method
@@ -131,7 +131,7 @@
 
     .prologue
     .line 8
-    check-cast p1, Lkik/android/chat/vm/chats/publicgroups/r;
+    check-cast p1, Lkik/arcane/chat/vm/chats/publicgroups/r;
 
     .line 1028
     if-nez p1, :cond_0
@@ -147,15 +147,15 @@
 
     .line 1031
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupSearchBarViewModel_MembersInjector;->b:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupSearchBarViewModel_MembersInjector;->b:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/Mixpanel;
+    check-cast v0, Lcom/kik/arcane/Mixpanel;
 
-    iput-object v0, p1, Lkik/android/chat/vm/chats/publicgroups/r;->a:Lcom/kik/android/Mixpanel;
+    iput-object v0, p1, Lkik/arcane/chat/vm/chats/publicgroups/r;->a:Lcom/kik/arcane/Mixpanel;
 
     .line 8
     return-void

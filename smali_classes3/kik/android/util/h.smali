@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/h;
+.class public final Lkik/arcane/util/h;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 .field private static b:I
 
-.field private static final c:Lkik/android/util/al;
+.field private static final c:Lkik/arcane/util/al;
 
 .field private static final d:Lorg/slf4j/b;
 
@@ -19,25 +19,25 @@
 
     .prologue
     .line 46
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v0
 
-    sput-boolean v0, Lkik/android/util/h;->a:Z
+    sput-boolean v0, Lkik/arcane/util/h;->a:Z
 
     .line 47
     const/16 v0, 0x800
 
-    sput v0, Lkik/android/util/h;->b:I
+    sput v0, Lkik/arcane/util/h;->b:I
 
     .line 48
-    new-instance v0, Lkik/android/util/al;
+    new-instance v0, Lkik/arcane/util/al;
 
-    sget v1, Lkik/android/util/h;->b:I
+    sget v1, Lkik/arcane/util/h;->b:I
 
-    invoke-direct {v0, v1}, Lkik/android/util/al;-><init>(I)V
+    invoke-direct {v0, v1}, Lkik/arcane/util/al;-><init>(I)V
 
-    sput-object v0, Lkik/android/util/h;->c:Lkik/android/util/al;
+    sput-object v0, Lkik/arcane/util/h;->c:Lkik/arcane/util/al;
 
     .line 53
     const-string v0, "BitmapUtils"
@@ -46,7 +46,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/util/h;->d:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/util/h;->d:Lorg/slf4j/b;
 
     return-void
 .end method
@@ -98,7 +98,7 @@
     .line 80
     const/4 v0, 0x4
 
-    invoke-static {p0, v0}, Lkik/android/util/h;->a(Landroid/graphics/Bitmap;I)Landroid/graphics/Bitmap;
+    invoke-static {p0, v0}, Lkik/arcane/util/h;->a(Landroid/graphics/Bitmap;I)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -120,7 +120,7 @@
     if-nez p0, :cond_1
 
     .line 97
-    sget-object v0, Lkik/android/util/h;->d:Lorg/slf4j/b;
+    sget-object v0, Lkik/arcane/util/h;->d:Lorg/slf4j/b;
 
     const-string v1, "createBlurredBitmap: null bitmap"
 
@@ -150,7 +150,7 @@
     move-result v1
 
     .line 106
-    sget-boolean v2, Lkik/android/util/h;->a:Z
+    sget-boolean v2, Lkik/arcane/util/h;->a:Z
 
     if-eqz v2, :cond_2
 
@@ -233,7 +233,7 @@
     move-result-object v0
 
     .line 122
-    sget-boolean v1, Lkik/android/util/h;->a:Z
+    sget-boolean v1, Lkik/arcane/util/h;->a:Z
 
     if-eqz v1, :cond_4
 
@@ -277,7 +277,7 @@
     move-result v7
 
     .line 1158
-    sget-boolean v1, Lkik/android/util/h;->a:Z
+    sget-boolean v1, Lkik/arcane/util/h;->a:Z
 
     if-eqz v1, :cond_5
 
@@ -305,16 +305,16 @@
     mul-int v2, v3, v7
 
     .line 1164
-    sget-object v1, Lkik/android/util/h;->c:Lkik/android/util/al;
+    sget-object v1, Lkik/arcane/util/h;->c:Lkik/arcane/util/al;
 
-    invoke-virtual {v1, v2}, Lkik/android/util/al;->a(I)[I
+    invoke-virtual {v1, v2}, Lkik/arcane/util/al;->a(I)[I
 
     move-result-object v1
 
     .line 1165
-    sget-object v4, Lkik/android/util/h;->c:Lkik/android/util/al;
+    sget-object v4, Lkik/arcane/util/h;->c:Lkik/arcane/util/al;
 
-    invoke-virtual {v4, v2}, Lkik/android/util/al;->a(I)[I
+    invoke-virtual {v4, v2}, Lkik/arcane/util/al;->a(I)[I
 
     move-result-object v9
 
@@ -330,10 +330,10 @@
     invoke-virtual/range {v0 .. v7}, Landroid/graphics/Bitmap;->getPixels([IIIIIII)V
 
     .line 1175
-    invoke-static {v1, v9, v3, v7}, Lkik/android/util/h;->a([I[III)V
+    invoke-static {v1, v9, v3, v7}, Lkik/arcane/util/h;->a([I[III)V
 
     .line 1176
-    invoke-static {v9, v1, v7, v3}, Lkik/android/util/h;->a([I[III)V
+    invoke-static {v9, v1, v7, v3}, Lkik/arcane/util/h;->a([I[III)V
 
     .line 1179
     sget-object v2, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
@@ -343,14 +343,14 @@
     move-result-object v2
 
     .line 1180
-    sget-object v3, Lkik/android/util/h;->c:Lkik/android/util/al;
+    sget-object v3, Lkik/arcane/util/h;->c:Lkik/arcane/util/al;
 
-    invoke-virtual {v3, v1}, Lkik/android/util/al;->a([I)V
+    invoke-virtual {v3, v1}, Lkik/arcane/util/al;->a([I)V
 
     .line 1181
-    sget-object v1, Lkik/android/util/h;->c:Lkik/android/util/al;
+    sget-object v1, Lkik/arcane/util/h;->c:Lkik/arcane/util/al;
 
-    invoke-virtual {v1, v9}, Lkik/android/util/al;->a([I)V
+    invoke-virtual {v1, v9}, Lkik/arcane/util/al;->a([I)V
 
     .line 1182
     invoke-virtual {v0}, Landroid/graphics/Bitmap;->recycle()V
@@ -361,7 +361,7 @@
 
     .line 134
     :goto_1
-    sget-boolean v1, Lkik/android/util/h;->a:Z
+    sget-boolean v1, Lkik/arcane/util/h;->a:Z
 
     if-eqz v1, :cond_6
 
@@ -400,7 +400,7 @@
     move-result-wide v2
 
     .line 148
-    sget-boolean v1, Lkik/android/util/h;->a:Z
+    sget-boolean v1, Lkik/arcane/util/h;->a:Z
 
     if-eqz v1, :cond_7
 
@@ -923,7 +923,7 @@
 
     .prologue
     .line 417
-    invoke-static {p0}, Lkik/android/util/h;->a(Ljava/lang/String;)I
+    invoke-static {p0}, Lkik/arcane/util/h;->a(Ljava/lang/String;)I
 
     move-result v0
 
@@ -976,7 +976,7 @@
     if-nez p0, :cond_0
 
     .line 300
-    sget-object v0, Lkik/android/util/h;->d:Lorg/slf4j/b;
+    sget-object v0, Lkik/arcane/util/h;->d:Lorg/slf4j/b;
 
     const-string v1, "getWhiteTintedBitmap: null bitmap"
 
@@ -1238,7 +1238,7 @@
 
     .line 340
     :goto_1
-    invoke-static {p0, v1, v0}, Lkik/android/util/h;->a(Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
+    invoke-static {p0, v1, v0}, Lkik/arcane/util/h;->a(Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
 
     move-result-object p0
 
@@ -1316,7 +1316,7 @@
     .line 364
     const/16 v1, 0x12c
 
-    invoke-static {p0, v1, v0}, Lkik/android/util/h;->a(Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
+    invoke-static {p0, v1, v0}, Lkik/arcane/util/h;->a(Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
 
     move-result-object p0
 

@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/view/ValidateableInputView_ViewBinding$1;
+.class final Lkik/arcane/chat/view/ValidateableInputView_ViewBinding$1;
 .super Lbutterknife/internal/DebouncingOnClickListener;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/view/ValidateableInputView_ViewBinding;-><init>(Lkik/android/chat/view/ValidateableInputView;Landroid/view/View;)V
+    value = Lkik/arcane/chat/view/ValidateableInputView_ViewBinding;-><init>(Lkik/arcane/chat/view/ValidateableInputView;Landroid/view/View;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,20 +15,20 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/view/ValidateableInputView;
+.field final synthetic a:Lkik/arcane/chat/view/ValidateableInputView;
 
-.field final synthetic b:Lkik/android/chat/view/ValidateableInputView_ViewBinding;
+.field final synthetic b:Lkik/arcane/chat/view/ValidateableInputView_ViewBinding;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/view/ValidateableInputView_ViewBinding;Lkik/android/chat/view/ValidateableInputView;)V
+.method constructor <init>(Lkik/arcane/chat/view/ValidateableInputView_ViewBinding;Lkik/arcane/chat/view/ValidateableInputView;)V
     .locals 0
 
     .prologue
     .line 37
-    iput-object p1, p0, Lkik/android/chat/view/ValidateableInputView_ViewBinding$1;->b:Lkik/android/chat/view/ValidateableInputView_ViewBinding;
+    iput-object p1, p0, Lkik/arcane/chat/view/ValidateableInputView_ViewBinding$1;->b:Lkik/arcane/chat/view/ValidateableInputView_ViewBinding;
 
-    iput-object p2, p0, Lkik/android/chat/view/ValidateableInputView_ViewBinding$1;->a:Lkik/android/chat/view/ValidateableInputView;
+    iput-object p2, p0, Lkik/arcane/chat/view/ValidateableInputView_ViewBinding$1;->a:Lkik/arcane/chat/view/ValidateableInputView;
 
     invoke-direct {p0}, Lbutterknife/internal/DebouncingOnClickListener;-><init>()V
 
@@ -42,9 +42,9 @@
 
     .prologue
     .line 40
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView_ViewBinding$1;->a:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView_ViewBinding$1;->a:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/ValidateableInputView;->onClearButtonClicked()V
+    invoke-virtual {v0}, Lkik/arcane/chat/view/ValidateableInputView;->onClearButtonClicked()V
 
     .line 41
     return-void

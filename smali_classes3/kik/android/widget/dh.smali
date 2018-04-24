@@ -1,4 +1,4 @@
-.class public final Lkik/android/widget/dh;
+.class public final Lkik/arcane/widget/dh;
 .super Landroid/graphics/drawable/Drawable;
 .source "SourceFile"
 
@@ -43,7 +43,7 @@
 
     aput v2, v0, v1
 
-    sput-object v0, Lkik/android/widget/dh;->i:[I
+    sput-object v0, Lkik/arcane/widget/dh;->i:[I
 
     .line 83
     const/4 v0, 0x4
@@ -52,7 +52,7 @@
 
     fill-array-data v0, :array_0
 
-    sput-object v0, Lkik/android/widget/dh;->j:[I
+    sput-object v0, Lkik/arcane/widget/dh;->j:[I
 
     return-void
 
@@ -85,38 +85,38 @@
     .line 69
     sget-object v1, Landroid/text/Layout$Alignment;->ALIGN_NORMAL:Landroid/text/Layout$Alignment;
 
-    iput-object v1, p0, Lkik/android/widget/dh;->d:Landroid/text/Layout$Alignment;
+    iput-object v1, p0, Lkik/arcane/widget/dh;->d:Landroid/text/Layout$Alignment;
 
     .line 77
     const-string v1, ""
 
-    iput-object v1, p0, Lkik/android/widget/dh;->h:Ljava/lang/CharSequence;
+    iput-object v1, p0, Lkik/arcane/widget/dh;->h:Ljava/lang/CharSequence;
 
     .line 94
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
-    iput-object v1, p0, Lkik/android/widget/dh;->a:Landroid/content/res/Resources;
+    iput-object v1, p0, Lkik/arcane/widget/dh;->a:Landroid/content/res/Resources;
 
     .line 96
     new-instance v1, Landroid/graphics/Rect;
 
     invoke-direct {v1}, Landroid/graphics/Rect;-><init>()V
 
-    iput-object v1, p0, Lkik/android/widget/dh;->g:Landroid/graphics/Rect;
+    iput-object v1, p0, Lkik/arcane/widget/dh;->g:Landroid/graphics/Rect;
 
     .line 98
     new-instance v1, Landroid/text/TextPaint;
 
     invoke-direct {v1, v7}, Landroid/text/TextPaint;-><init>(I)V
 
-    iput-object v1, p0, Lkik/android/widget/dh;->b:Landroid/text/TextPaint;
+    iput-object v1, p0, Lkik/arcane/widget/dh;->b:Landroid/text/TextPaint;
 
     .line 99
-    iget-object v1, p0, Lkik/android/widget/dh;->b:Landroid/text/TextPaint;
+    iget-object v1, p0, Lkik/arcane/widget/dh;->b:Landroid/text/TextPaint;
 
-    iget-object v2, p0, Lkik/android/widget/dh;->a:Landroid/content/res/Resources;
+    iget-object v2, p0, Lkik/arcane/widget/dh;->a:Landroid/content/res/Resources;
 
     invoke-virtual {v2}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
 
@@ -127,7 +127,7 @@
     iput v2, v1, Landroid/text/TextPaint;->density:F
 
     .line 100
-    iget-object v1, p0, Lkik/android/widget/dh;->b:Landroid/text/TextPaint;
+    iget-object v1, p0, Lkik/arcane/widget/dh;->b:Landroid/text/TextPaint;
 
     invoke-virtual {v1, v7}, Landroid/text/TextPaint;->setDither(Z)V
 
@@ -139,7 +139,7 @@
 
     move-result-object v1
 
-    sget-object v2, Lkik/android/widget/dh;->i:[I
+    sget-object v2, Lkik/arcane/widget/dh;->i:[I
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources$Theme;->obtainStyledAttributes([I)Landroid/content/res/TypedArray;
 
@@ -157,7 +157,7 @@
     if-eq v1, v0, :cond_8
 
     .line 114
-    sget-object v2, Lkik/android/widget/dh;->j:[I
+    sget-object v2, Lkik/arcane/widget/dh;->j:[I
 
     invoke-virtual {p1, v1, v2}, Landroid/content/Context;->obtainStyledAttributes(I[I)Landroid/content/res/TypedArray;
 
@@ -246,12 +246,12 @@
     if-eqz v0, :cond_2
 
     :goto_4
-    invoke-virtual {p0, v0}, Lkik/android/widget/dh;->a(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/dh;->a(Landroid/content/res/ColorStateList;)V
 
     .line 141
     int-to-float v0, v3
 
-    invoke-direct {p0, v0}, Lkik/android/widget/dh;->a(F)V
+    invoke-direct {p0, v0}, Lkik/arcane/widget/dh;->a(F)V
 
     .line 144
     packed-switch v1, :pswitch_data_1
@@ -270,7 +270,7 @@
 
     .line 1300
     :goto_6
-    invoke-direct {p0, v0}, Lkik/android/widget/dh;->a(Landroid/graphics/Typeface;)V
+    invoke-direct {p0, v0}, Lkik/arcane/widget/dh;->a(Landroid/graphics/Typeface;)V
 
     .line 1302
     if-eqz v0, :cond_4
@@ -286,7 +286,7 @@
     and-int/2addr v0, v2
 
     .line 1304
-    iget-object v1, p0, Lkik/android/widget/dh;->b:Landroid/text/TextPaint;
+    iget-object v1, p0, Lkik/arcane/widget/dh;->b:Landroid/text/TextPaint;
 
     and-int/lit8 v2, v0, 0x1
 
@@ -298,7 +298,7 @@
     invoke-virtual {v1, v6}, Landroid/text/TextPaint;->setFakeBoldText(Z)V
 
     .line 1305
-    iget-object v1, p0, Lkik/android/widget/dh;->b:Landroid/text/TextPaint;
+    iget-object v1, p0, Lkik/arcane/widget/dh;->b:Landroid/text/TextPaint;
 
     and-int/lit8 v0, v0, 0x2
 
@@ -363,17 +363,17 @@
 
     .line 1308
     :cond_6
-    iget-object v0, p0, Lkik/android/widget/dh;->b:Landroid/text/TextPaint;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->b:Landroid/text/TextPaint;
 
     invoke-virtual {v0, v6}, Landroid/text/TextPaint;->setFakeBoldText(Z)V
 
     .line 1309
-    iget-object v0, p0, Lkik/android/widget/dh;->b:Landroid/text/TextPaint;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->b:Landroid/text/TextPaint;
 
     invoke-virtual {v0, v8}, Landroid/text/TextPaint;->setTextSkewX(F)V
 
     .line 1310
-    invoke-direct {p0, v4}, Lkik/android/widget/dh;->a(Landroid/graphics/Typeface;)V
+    invoke-direct {p0, v4}, Lkik/arcane/widget/dh;->a(Landroid/graphics/Typeface;)V
 
     goto :goto_9
 
@@ -416,7 +416,7 @@
 
     .prologue
     .line 217
-    iget-object v0, p0, Lkik/android/widget/dh;->b:Landroid/text/TextPaint;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->b:Landroid/text/TextPaint;
 
     invoke-virtual {v0}, Landroid/text/TextPaint;->getTextSize()F
 
@@ -427,12 +427,12 @@
     if-eqz v0, :cond_0
 
     .line 218
-    iget-object v0, p0, Lkik/android/widget/dh;->b:Landroid/text/TextPaint;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->b:Landroid/text/TextPaint;
 
     invoke-virtual {v0, p1}, Landroid/text/TextPaint;->setTextSize(F)V
 
     .line 220
-    invoke-direct {p0}, Lkik/android/widget/dh;->b()V
+    invoke-direct {p0}, Lkik/arcane/widget/dh;->b()V
 
     .line 222
     :cond_0
@@ -444,7 +444,7 @@
 
     .prologue
     .line 276
-    iget-object v0, p0, Lkik/android/widget/dh;->b:Landroid/text/TextPaint;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->b:Landroid/text/TextPaint;
 
     invoke-virtual {v0}, Landroid/text/TextPaint;->getTypeface()Landroid/graphics/Typeface;
 
@@ -453,12 +453,12 @@
     if-eq v0, p1, :cond_0
 
     .line 277
-    iget-object v0, p0, Lkik/android/widget/dh;->b:Landroid/text/TextPaint;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->b:Landroid/text/TextPaint;
 
     invoke-virtual {v0, p1}, Landroid/text/TextPaint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
 
     .line 279
-    invoke-direct {p0}, Lkik/android/widget/dh;->b()V
+    invoke-direct {p0}, Lkik/arcane/widget/dh;->b()V
 
     .line 281
     :cond_0
@@ -470,7 +470,7 @@
 
     .prologue
     .line 388
-    iget-object v0, p0, Lkik/android/widget/dh;->f:Landroid/content/res/ColorStateList;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->f:Landroid/content/res/ColorStateList;
 
     const/4 v1, -0x1
 
@@ -479,7 +479,7 @@
     move-result v0
 
     .line 389
-    iget-object v1, p0, Lkik/android/widget/dh;->b:Landroid/text/TextPaint;
+    iget-object v1, p0, Lkik/arcane/widget/dh;->b:Landroid/text/TextPaint;
 
     invoke-virtual {v1}, Landroid/text/TextPaint;->getColor()I
 
@@ -488,7 +488,7 @@
     if-eq v1, v0, :cond_0
 
     .line 390
-    iget-object v1, p0, Lkik/android/widget/dh;->b:Landroid/text/TextPaint;
+    iget-object v1, p0, Lkik/arcane/widget/dh;->b:Landroid/text/TextPaint;
 
     invoke-virtual {v1, v0}, Landroid/text/TextPaint;->setColor(I)V
 
@@ -512,32 +512,32 @@
     const/4 v7, 0x0
 
     .line 366
-    iget-object v0, p0, Lkik/android/widget/dh;->e:Landroid/graphics/Path;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->e:Landroid/graphics/Path;
 
     if-eqz v0, :cond_0
 
     .line 368
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/widget/dh;->c:Landroid/text/StaticLayout;
+    iput-object v0, p0, Lkik/arcane/widget/dh;->c:Landroid/text/StaticLayout;
 
     .line 369
-    iget-object v0, p0, Lkik/android/widget/dh;->g:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->g:Landroid/graphics/Rect;
 
     invoke-virtual {v0}, Landroid/graphics/Rect;->setEmpty()V
 
     .line 380
     :goto_0
-    invoke-virtual {p0}, Lkik/android/widget/dh;->invalidateSelf()V
+    invoke-virtual {p0}, Lkik/arcane/widget/dh;->invalidateSelf()V
 
     .line 381
     return-void
 
     .line 373
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/dh;->h:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->h:Ljava/lang/CharSequence;
 
-    iget-object v1, p0, Lkik/android/widget/dh;->b:Landroid/text/TextPaint;
+    iget-object v1, p0, Lkik/arcane/widget/dh;->b:Landroid/text/TextPaint;
 
     invoke-static {v0, v1}, Landroid/text/Layout;->getDesiredWidth(Ljava/lang/CharSequence;Landroid/text/TextPaint;)F
 
@@ -552,13 +552,13 @@
     .line 374
     new-instance v0, Landroid/text/StaticLayout;
 
-    iget-object v1, p0, Lkik/android/widget/dh;->h:Ljava/lang/CharSequence;
+    iget-object v1, p0, Lkik/arcane/widget/dh;->h:Ljava/lang/CharSequence;
 
-    iget-object v2, p0, Lkik/android/widget/dh;->b:Landroid/text/TextPaint;
+    iget-object v2, p0, Lkik/arcane/widget/dh;->b:Landroid/text/TextPaint;
 
     double-to-int v3, v4
 
-    iget-object v4, p0, Lkik/android/widget/dh;->d:Landroid/text/Layout$Alignment;
+    iget-object v4, p0, Lkik/arcane/widget/dh;->d:Landroid/text/Layout$Alignment;
 
     const/high16 v5, 0x3f800000    # 1.0f
 
@@ -566,18 +566,18 @@
 
     invoke-direct/range {v0 .. v7}, Landroid/text/StaticLayout;-><init>(Ljava/lang/CharSequence;Landroid/text/TextPaint;ILandroid/text/Layout$Alignment;FFZ)V
 
-    iput-object v0, p0, Lkik/android/widget/dh;->c:Landroid/text/StaticLayout;
+    iput-object v0, p0, Lkik/arcane/widget/dh;->c:Landroid/text/StaticLayout;
 
     .line 376
-    iget-object v0, p0, Lkik/android/widget/dh;->g:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->g:Landroid/graphics/Rect;
 
-    iget-object v1, p0, Lkik/android/widget/dh;->c:Landroid/text/StaticLayout;
+    iget-object v1, p0, Lkik/arcane/widget/dh;->c:Landroid/text/StaticLayout;
 
     invoke-virtual {v1}, Landroid/text/StaticLayout;->getWidth()I
 
     move-result v1
 
-    iget-object v2, p0, Lkik/android/widget/dh;->c:Landroid/text/StaticLayout;
+    iget-object v2, p0, Lkik/arcane/widget/dh;->c:Landroid/text/StaticLayout;
 
     invoke-virtual {v2}, Landroid/text/StaticLayout;->getHeight()I
 
@@ -599,7 +599,7 @@
 
     const/high16 v1, 0x41600000    # 14.0f
 
-    iget-object v2, p0, Lkik/android/widget/dh;->a:Landroid/content/res/Resources;
+    iget-object v2, p0, Lkik/arcane/widget/dh;->a:Landroid/content/res/Resources;
 
     .line 208
     invoke-virtual {v2}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
@@ -612,7 +612,7 @@
     move-result v0
 
     .line 209
-    invoke-direct {p0, v0}, Lkik/android/widget/dh;->a(F)V
+    invoke-direct {p0, v0}, Lkik/arcane/widget/dh;->a(F)V
 
     .line 210
     return-void
@@ -623,14 +623,14 @@
 
     .prologue
     .line 338
-    iput-object p1, p0, Lkik/android/widget/dh;->f:Landroid/content/res/ColorStateList;
+    iput-object p1, p0, Lkik/arcane/widget/dh;->f:Landroid/content/res/ColorStateList;
 
     .line 339
-    invoke-virtual {p0}, Lkik/android/widget/dh;->getState()[I
+    invoke-virtual {p0}, Lkik/arcane/widget/dh;->getState()[I
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lkik/android/widget/dh;->a([I)Z
+    invoke-direct {p0, v0}, Lkik/arcane/widget/dh;->a([I)Z
 
     .line 340
     return-void
@@ -648,10 +648,10 @@
 
     .line 170
     :cond_0
-    iput-object p1, p0, Lkik/android/widget/dh;->h:Ljava/lang/CharSequence;
+    iput-object p1, p0, Lkik/arcane/widget/dh;->h:Ljava/lang/CharSequence;
 
     .line 172
-    invoke-direct {p0}, Lkik/android/widget/dh;->b()V
+    invoke-direct {p0}, Lkik/arcane/widget/dh;->b()V
 
     .line 173
     return-void
@@ -664,7 +664,7 @@
     const/4 v3, 0x0
 
     .line 452
-    invoke-virtual {p0}, Lkik/android/widget/dh;->getBounds()Landroid/graphics/Rect;
+    invoke-virtual {p0}, Lkik/arcane/widget/dh;->getBounds()Landroid/graphics/Rect;
 
     move-result-object v0
 
@@ -685,12 +685,12 @@
     invoke-virtual {p1, v1, v0}, Landroid/graphics/Canvas;->translate(FF)V
 
     .line 455
-    iget-object v0, p0, Lkik/android/widget/dh;->e:Landroid/graphics/Path;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->e:Landroid/graphics/Path;
 
     if-nez v0, :cond_0
 
     .line 457
-    iget-object v0, p0, Lkik/android/widget/dh;->c:Landroid/text/StaticLayout;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->c:Landroid/text/StaticLayout;
 
     invoke-virtual {v0, p1}, Landroid/text/StaticLayout;->draw(Landroid/graphics/Canvas;)V
 
@@ -703,15 +703,15 @@
 
     .line 461
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/dh;->h:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->h:Ljava/lang/CharSequence;
 
     invoke-interface {v0}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/widget/dh;->e:Landroid/graphics/Path;
+    iget-object v2, p0, Lkik/arcane/widget/dh;->e:Landroid/graphics/Path;
 
-    iget-object v5, p0, Lkik/android/widget/dh;->b:Landroid/text/TextPaint;
+    iget-object v5, p0, Lkik/arcane/widget/dh;->b:Landroid/text/TextPaint;
 
     move-object v0, p1
 
@@ -727,7 +727,7 @@
 
     .prologue
     .line 429
-    iget-object v0, p0, Lkik/android/widget/dh;->g:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->g:Landroid/graphics/Rect;
 
     invoke-virtual {v0}, Landroid/graphics/Rect;->isEmpty()Z
 
@@ -743,11 +743,11 @@
     return v0
 
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/dh;->g:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->g:Landroid/graphics/Rect;
 
     iget v0, v0, Landroid/graphics/Rect;->bottom:I
 
-    iget-object v1, p0, Lkik/android/widget/dh;->g:Landroid/graphics/Rect;
+    iget-object v1, p0, Lkik/arcane/widget/dh;->g:Landroid/graphics/Rect;
 
     iget v1, v1, Landroid/graphics/Rect;->top:I
 
@@ -761,7 +761,7 @@
 
     .prologue
     .line 441
-    iget-object v0, p0, Lkik/android/widget/dh;->g:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->g:Landroid/graphics/Rect;
 
     invoke-virtual {v0}, Landroid/graphics/Rect;->isEmpty()Z
 
@@ -777,11 +777,11 @@
     return v0
 
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/dh;->g:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->g:Landroid/graphics/Rect;
 
     iget v0, v0, Landroid/graphics/Rect;->right:I
 
-    iget-object v1, p0, Lkik/android/widget/dh;->g:Landroid/graphics/Rect;
+    iget-object v1, p0, Lkik/arcane/widget/dh;->g:Landroid/graphics/Rect;
 
     iget v1, v1, Landroid/graphics/Rect;->left:I
 
@@ -795,7 +795,7 @@
 
     .prologue
     .line 477
-    iget-object v0, p0, Lkik/android/widget/dh;->b:Landroid/text/TextPaint;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->b:Landroid/text/TextPaint;
 
     invoke-virtual {v0}, Landroid/text/TextPaint;->getAlpha()I
 
@@ -809,7 +809,7 @@
 
     .prologue
     .line 411
-    iget-object v0, p0, Lkik/android/widget/dh;->f:Landroid/content/res/ColorStateList;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->f:Landroid/content/res/ColorStateList;
 
     invoke-virtual {v0}, Landroid/content/res/ColorStateList;->isStateful()Z
 
@@ -823,7 +823,7 @@
 
     .prologue
     .line 401
-    iget-object v0, p0, Lkik/android/widget/dh;->g:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->g:Landroid/graphics/Rect;
 
     invoke-virtual {v0, p1}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
 
@@ -836,14 +836,14 @@
 
     .prologue
     .line 418
-    invoke-direct {p0, p1}, Lkik/android/widget/dh;->a([I)Z
+    invoke-direct {p0, p1}, Lkik/arcane/widget/dh;->a([I)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 419
-    invoke-virtual {p0}, Lkik/android/widget/dh;->invalidateSelf()V
+    invoke-virtual {p0}, Lkik/arcane/widget/dh;->invalidateSelf()V
 
     .line 420
     const/4 v0, 0x1
@@ -863,7 +863,7 @@
 
     .prologue
     .line 469
-    iget-object v0, p0, Lkik/android/widget/dh;->b:Landroid/text/TextPaint;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->b:Landroid/text/TextPaint;
 
     invoke-virtual {v0}, Landroid/text/TextPaint;->getAlpha()I
 
@@ -872,7 +872,7 @@
     if-eq v0, p1, :cond_0
 
     .line 470
-    iget-object v0, p0, Lkik/android/widget/dh;->b:Landroid/text/TextPaint;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->b:Landroid/text/TextPaint;
 
     invoke-virtual {v0, p1}, Landroid/text/TextPaint;->setAlpha(I)V
 
@@ -886,7 +886,7 @@
 
     .prologue
     .line 483
-    iget-object v0, p0, Lkik/android/widget/dh;->b:Landroid/text/TextPaint;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->b:Landroid/text/TextPaint;
 
     invoke-virtual {v0}, Landroid/text/TextPaint;->getColorFilter()Landroid/graphics/ColorFilter;
 
@@ -895,7 +895,7 @@
     if-eq v0, p1, :cond_0
 
     .line 484
-    iget-object v0, p0, Lkik/android/widget/dh;->b:Landroid/text/TextPaint;
+    iget-object v0, p0, Lkik/arcane/widget/dh;->b:Landroid/text/TextPaint;
 
     invoke-virtual {v0, p1}, Landroid/text/TextPaint;->setColorFilter(Landroid/graphics/ColorFilter;)Landroid/graphics/ColorFilter;
 

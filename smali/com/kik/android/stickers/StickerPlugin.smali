@@ -1,4 +1,4 @@
-.class public Lcom/kik/android/stickers/StickerPlugin;
+.class public Lcom/kik/arcane/stickers/StickerPlugin;
 .super Lcom/kik/cards/web/plugin/BridgePlugin;
 .source "SourceFile"
 
@@ -12,11 +12,11 @@
 # instance fields
 .field private final _isDebug:Z
 
-.field private final _mixpanel:Lcom/kik/android/Mixpanel;
+.field private final _mixpanel:Lcom/kik/arcane/Mixpanel;
 
-.field private final _navigator:Lkik/android/chat/vm/bd;
+.field private final _navigator:Lkik/arcane/chat/vm/bd;
 
-.field private final _smileyManager:Lcom/kik/android/b/g;
+.field private final _smileyManager:Lcom/kik/arcane/b/g;
 
 .field private final _stickerManager:Lkik/core/interfaces/ab;
 
@@ -35,12 +35,12 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/kik/android/stickers/StickerPlugin;->LOG:Lorg/slf4j/b;
+    sput-object v0, Lcom/kik/arcane/stickers/StickerPlugin;->LOG:Lorg/slf4j/b;
 
     return-void
 .end method
 
-.method public constructor <init>(Lkik/core/interfaces/ab;Lcom/kik/android/Mixpanel;Lkik/android/chat/vm/bd;Lcom/kik/android/b/g;)V
+.method public constructor <init>(Lkik/core/interfaces/ab;Lcom/kik/arcane/Mixpanel;Lkik/arcane/chat/vm/bd;Lcom/kik/arcane/b/g;)V
     .locals 2
 
     .prologue
@@ -54,7 +54,7 @@
     .line 28
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/kik/android/stickers/StickerPlugin;->_isDebug:Z
+    iput-boolean v0, p0, Lcom/kik/arcane/stickers/StickerPlugin;->_isDebug:Z
 
     .line 35
     const-string v0, "^(https://stickers\\.kik\\.com|https://cards\\-sticker\\.herokuapp\\.com|https://cards\\-sticker\\-dev\\.herokuapp\\.com|https://my\\.kik\\.com)(.*)"
@@ -65,19 +65,19 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/kik/android/stickers/StickerPlugin;->_validUrls:Ljava/util/regex/Pattern;
+    iput-object v0, p0, Lcom/kik/arcane/stickers/StickerPlugin;->_validUrls:Ljava/util/regex/Pattern;
 
     .line 41
-    iput-object p1, p0, Lcom/kik/android/stickers/StickerPlugin;->_stickerManager:Lkik/core/interfaces/ab;
+    iput-object p1, p0, Lcom/kik/arcane/stickers/StickerPlugin;->_stickerManager:Lkik/core/interfaces/ab;
 
     .line 42
-    iput-object p2, p0, Lcom/kik/android/stickers/StickerPlugin;->_mixpanel:Lcom/kik/android/Mixpanel;
+    iput-object p2, p0, Lcom/kik/arcane/stickers/StickerPlugin;->_mixpanel:Lcom/kik/arcane/Mixpanel;
 
     .line 43
-    iput-object p3, p0, Lcom/kik/android/stickers/StickerPlugin;->_navigator:Lkik/android/chat/vm/bd;
+    iput-object p3, p0, Lcom/kik/arcane/stickers/StickerPlugin;->_navigator:Lkik/arcane/chat/vm/bd;
 
     .line 44
-    iput-object p4, p0, Lcom/kik/android/stickers/StickerPlugin;->_smileyManager:Lcom/kik/android/b/g;
+    iput-object p4, p0, Lcom/kik/arcane/stickers/StickerPlugin;->_smileyManager:Lcom/kik/arcane/b/g;
 
     .line 45
     return-void
@@ -120,7 +120,7 @@
     move-result-object v0
 
     .line 146
-    iget-object v4, p0, Lcom/kik/android/stickers/StickerPlugin;->_stickerManager:Lkik/core/interfaces/ab;
+    iget-object v4, p0, Lcom/kik/arcane/stickers/StickerPlugin;->_stickerManager:Lkik/core/interfaces/ab;
 
     invoke-interface {v4, v0}, Lkik/core/interfaces/ab;->b(Ljava/lang/String;)V
     :try_end_0
@@ -139,7 +139,7 @@
     move-exception v0
 
     .line 149
-    sget-object v4, Lcom/kik/android/stickers/StickerPlugin;->LOG:Lorg/slf4j/b;
+    sget-object v4, Lcom/kik/arcane/stickers/StickerPlugin;->LOG:Lorg/slf4j/b;
 
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -203,9 +203,9 @@
     if-eqz v2, :cond_0
 
     .line 129
-    iget-object v3, p0, Lcom/kik/android/stickers/StickerPlugin;->_smileyManager:Lcom/kik/android/b/g;
+    iget-object v3, p0, Lcom/kik/arcane/stickers/StickerPlugin;->_smileyManager:Lcom/kik/arcane/b/g;
 
-    invoke-virtual {v3, v2}, Lcom/kik/android/b/g;->d(Ljava/lang/String;)V
+    invoke-virtual {v3, v2}, Lcom/kik/arcane/b/g;->d(Ljava/lang/String;)V
 
     .line 126
     :cond_0
@@ -236,13 +236,13 @@
     .line 101
     new-instance v0, Lcom/kik/cards/web/plugin/g;
 
-    iget-object v1, p0, Lcom/kik/android/stickers/StickerPlugin;->_smileyManager:Lcom/kik/android/b/g;
+    iget-object v1, p0, Lcom/kik/arcane/stickers/StickerPlugin;->_smileyManager:Lcom/kik/arcane/b/g;
 
-    invoke-virtual {v1}, Lcom/kik/android/b/g;->f()Ljava/util/List;
+    invoke-virtual {v1}, Lcom/kik/arcane/b/g;->f()Ljava/util/List;
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/kik/android/b/g;->a(Ljava/util/List;)Lorg/json/JSONObject;
+    invoke-static {v1}, Lcom/kik/arcane/b/g;->a(Ljava/util/List;)Lorg/json/JSONObject;
 
     move-result-object v1
 
@@ -258,7 +258,7 @@
 
     .prologue
     .line 64
-    iget-object v0, p0, Lcom/kik/android/stickers/StickerPlugin;->_stickerManager:Lkik/core/interfaces/ab;
+    iget-object v0, p0, Lcom/kik/arcane/stickers/StickerPlugin;->_stickerManager:Lkik/core/interfaces/ab;
 
     invoke-interface {v0}, Lkik/core/interfaces/ab;->j()Ljava/util/List;
 
@@ -336,7 +336,7 @@
 
     .line 76
     :goto_2
-    sget-object v2, Lcom/kik/android/stickers/StickerPlugin;->LOG:Lorg/slf4j/b;
+    sget-object v2, Lcom/kik/arcane/stickers/StickerPlugin;->LOG:Lorg/slf4j/b;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -370,9 +370,9 @@
 
     .prologue
     .line 85
-    iget-object v0, p0, Lcom/kik/android/stickers/StickerPlugin;->_smileyManager:Lcom/kik/android/b/g;
+    iget-object v0, p0, Lcom/kik/arcane/stickers/StickerPlugin;->_smileyManager:Lcom/kik/arcane/b/g;
 
-    invoke-virtual {v0, p1}, Lcom/kik/android/b/g;->a(Lorg/json/JSONObject;)V
+    invoke-virtual {v0, p1}, Lcom/kik/arcane/b/g;->a(Lorg/json/JSONObject;)V
 
     .line 86
     new-instance v0, Lorg/json/JSONObject;
@@ -394,12 +394,12 @@
 
     .prologue
     .line 160
-    invoke-static {p1}, Lcom/kik/android/stickers/b;->a(Lorg/json/JSONObject;)Lkik/core/datatypes/y;
+    invoke-static {p1}, Lcom/kik/arcane/stickers/b;->a(Lorg/json/JSONObject;)Lkik/core/datatypes/y;
 
     move-result-object v0
 
     .line 161
-    iget-object v1, p0, Lcom/kik/android/stickers/StickerPlugin;->_stickerManager:Lkik/core/interfaces/ab;
+    iget-object v1, p0, Lcom/kik/arcane/stickers/StickerPlugin;->_stickerManager:Lkik/core/interfaces/ab;
 
     invoke-interface {v1, v0}, Lkik/core/interfaces/ab;->a(Lkik/core/datatypes/y;)V
 
@@ -418,20 +418,20 @@
 
     .prologue
     .line 168
-    iget-object v0, p0, Lcom/kik/android/stickers/StickerPlugin;->_navigator:Lkik/android/chat/vm/bd;
+    iget-object v0, p0, Lcom/kik/arcane/stickers/StickerPlugin;->_navigator:Lkik/arcane/chat/vm/bd;
 
-    new-instance v1, Lkik/android/chat/vm/widget/bm;
+    new-instance v1, Lkik/arcane/chat/vm/widget/bm;
 
-    invoke-direct {v1}, Lkik/android/chat/vm/widget/bm;-><init>()V
+    invoke-direct {v1}, Lkik/arcane/chat/vm/widget/bm;-><init>()V
 
-    invoke-interface {v0}, Lkik/android/chat/vm/bd;->e()V
+    invoke-interface {v0}, Lkik/arcane/chat/vm/bd;->e()V
 
     .line 169
-    iget-object v0, p0, Lcom/kik/android/stickers/StickerPlugin;->_mixpanel:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lcom/kik/arcane/stickers/StickerPlugin;->_mixpanel:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Sticker Settings Opened"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -440,16 +440,16 @@
     const-string v2, "Web"
 
     .line 170
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 171
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 173
     new-instance v0, Lcom/kik/cards/web/plugin/g;
@@ -468,7 +468,7 @@
 
     .prologue
     .line 93
-    invoke-static {p1}, Lcom/kik/android/b/g;->b(Lorg/json/JSONObject;)V
+    invoke-static {p1}, Lcom/kik/arcane/b/g;->b(Lorg/json/JSONObject;)V
 
     .line 94
     new-instance v0, Lorg/json/JSONObject;
@@ -491,7 +491,7 @@
     if-eqz p2, :cond_0
 
     .line 55
-    iget-object v0, p0, Lcom/kik/android/stickers/StickerPlugin;->_validUrls:Ljava/util/regex/Pattern;
+    iget-object v0, p0, Lcom/kik/arcane/stickers/StickerPlugin;->_validUrls:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0, p2}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
@@ -532,9 +532,9 @@
     move-result-object v1
 
     .line 110
-    iget-object v2, p0, Lcom/kik/android/stickers/StickerPlugin;->_smileyManager:Lcom/kik/android/b/g;
+    iget-object v2, p0, Lcom/kik/arcane/stickers/StickerPlugin;->_smileyManager:Lcom/kik/arcane/b/g;
 
-    invoke-virtual {v2, v0}, Lcom/kik/android/b/g;->e(Ljava/lang/String;)Lcom/kik/android/b/f;
+    invoke-virtual {v2, v0}, Lcom/kik/arcane/b/g;->e(Ljava/lang/String;)Lcom/kik/arcane/b/f;
 
     move-result-object v2
 
@@ -554,7 +554,7 @@
     if-lt v0, v3, :cond_0
 
     .line 113
-    invoke-virtual {v2}, Lcom/kik/android/b/f;->g()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/kik/arcane/b/f;->g()Ljava/lang/String;
 
     move-result-object v0
 
@@ -582,9 +582,9 @@
 
     .line 116
     :cond_1
-    iget-object v0, p0, Lcom/kik/android/stickers/StickerPlugin;->_smileyManager:Lcom/kik/android/b/g;
+    iget-object v0, p0, Lcom/kik/arcane/stickers/StickerPlugin;->_smileyManager:Lcom/kik/arcane/b/g;
 
-    invoke-virtual {v0, v2}, Lcom/kik/android/b/g;->a(Lcom/kik/android/b/f;)V
+    invoke-virtual {v0, v2}, Lcom/kik/arcane/b/g;->a(Lcom/kik/arcane/b/f;)V
 
     .line 117
     new-instance v1, Lorg/json/JSONObject;

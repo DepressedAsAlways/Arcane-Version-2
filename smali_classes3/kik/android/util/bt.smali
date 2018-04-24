@@ -1,4 +1,4 @@
-.class public Lkik/android/util/bt;
+.class public Lkik/arcane/util/bt;
 .super Landroid/text/method/LinkMovementMethod;
 .source "SourceFile"
 
@@ -58,13 +58,13 @@
 
     move-result v0
 
-    const-class v1, Lkik/android/util/av;
+    const-class v1, Lkik/arcane/util/av;
 
     invoke-interface {p1, v2, v0, v1}, Landroid/text/Spannable;->getSpans(IILjava/lang/Class;)[Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkik/android/util/av;
+    check-cast v0, [Lkik/arcane/util/av;
 
     array-length v5, v0
 
@@ -76,7 +76,7 @@
     aget-object v6, v0, v1
 
     .line 1138
-    invoke-virtual {v6, v2}, Lkik/android/util/av;->a(Z)V
+    invoke-virtual {v6, v2}, Lkik/arcane/util/av;->a(Z)V
 
     .line 1137
     add-int/lit8 v1, v1, 0x1
@@ -95,13 +95,13 @@
 
     move-result v0
 
-    const-class v1, Lcom/kik/android/b/c;
+    const-class v1, Lcom/kik/arcane/b/c;
 
     invoke-interface {p1, v2, v0, v1}, Landroid/text/Spannable;->getSpans(IILjava/lang/Class;)[Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lcom/kik/android/b/c;
+    check-cast v0, [Lcom/kik/arcane/b/c;
 
     array-length v5, v0
 
@@ -113,7 +113,7 @@
     aget-object v6, v0, v1
 
     .line 1141
-    invoke-virtual {v6, v2}, Lcom/kik/android/b/c;->b(Z)V
+    invoke-virtual {v6, v2}, Lcom/kik/arcane/b/c;->b(Z)V
 
     .line 1140
     add-int/lit8 v1, v1, 0x1
@@ -268,16 +268,16 @@
     if-lez v0, :cond_9
 
     .line 3095
-    instance-of v0, v1, Lcom/kik/android/b/c;
+    instance-of v0, v1, Lcom/kik/arcane/b/c;
 
     if-eqz v0, :cond_8
 
     move-object v0, v1
 
     .line 3096
-    check-cast v0, Lcom/kik/android/b/c;
+    check-cast v0, Lcom/kik/arcane/b/c;
 
-    invoke-virtual {v0}, Lcom/kik/android/b/c;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/b/c;->b()V
 
     :cond_8
     :goto_5
@@ -288,33 +288,33 @@
 
     .line 4085
     :cond_9
-    instance-of v0, v1, Lcom/kik/android/b/c;
+    instance-of v0, v1, Lcom/kik/arcane/b/c;
 
     if-eqz v0, :cond_a
 
     .line 4086
-    check-cast v1, Lcom/kik/android/b/c;
+    check-cast v1, Lcom/kik/arcane/b/c;
 
-    invoke-virtual {v1}, Lcom/kik/android/b/c;->a()V
+    invoke-virtual {v1}, Lcom/kik/arcane/b/c;->a()V
 
     goto :goto_5
 
     .line 4088
     :cond_a
-    instance-of v0, v1, Lkik/android/util/av;
+    instance-of v0, v1, Lkik/arcane/util/av;
 
     if-eqz v0, :cond_8
 
     .line 4089
-    check-cast v1, Lkik/android/util/av;
+    check-cast v1, Lkik/arcane/util/av;
 
-    invoke-virtual {v1, p0}, Lkik/android/util/av;->onClick(Landroid/view/View;)V
+    invoke-virtual {v1, p0}, Lkik/arcane/util/av;->onClick(Landroid/view/View;)V
 
     goto :goto_5
 
     .line 66
     :cond_b
-    instance-of v4, v1, Lcom/kik/android/b/c;
+    instance-of v4, v1, Lcom/kik/arcane/b/c;
 
     if-eqz v4, :cond_d
 
@@ -323,13 +323,13 @@
 
     move-result v0
 
-    const-class v1, Lcom/kik/android/b/c;
+    const-class v1, Lcom/kik/arcane/b/c;
 
     invoke-interface {p1, v2, v0, v1}, Landroid/text/Spannable;->getSpans(IILjava/lang/Class;)[Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lcom/kik/android/b/c;
+    check-cast v0, [Lcom/kik/arcane/b/c;
 
     array-length v1, v0
 
@@ -339,7 +339,7 @@
     aget-object v4, v0, v2
 
     .line 4125
-    invoke-virtual {v4, v3}, Lcom/kik/android/b/c;->b(Z)V
+    invoke-virtual {v4, v3}, Lcom/kik/arcane/b/c;->b(Z)V
 
     .line 4124
     add-int/lit8 v2, v2, 0x1
@@ -379,14 +379,14 @@
     aget-object v1, v0, v4
 
     .line 5110
-    instance-of v6, v1, Lkik/android/util/av;
+    instance-of v6, v1, Lkik/arcane/util/av;
 
     if-eqz v6, :cond_e
 
     .line 5111
-    check-cast v1, Lkik/android/util/av;
+    check-cast v1, Lkik/arcane/util/av;
 
-    invoke-virtual {v1, v3}, Lkik/android/util/av;->a(Z)V
+    invoke-virtual {v1, v3}, Lkik/arcane/util/av;->a(Z)V
 
     .line 5109
     :cond_e
@@ -406,14 +406,14 @@
     aget-object v1, v0, v2
 
     .line 5116
-    instance-of v5, v1, Lcom/kik/android/b/c;
+    instance-of v5, v1, Lcom/kik/arcane/b/c;
 
     if-eqz v5, :cond_10
 
     .line 5117
-    check-cast v1, Lcom/kik/android/b/c;
+    check-cast v1, Lcom/kik/arcane/b/c;
 
-    invoke-virtual {v1, v3}, Lcom/kik/android/b/c;->b(Z)V
+    invoke-virtual {v1, v3}, Lcom/kik/arcane/b/c;->b(Z)V
 
     .line 5115
     :cond_10

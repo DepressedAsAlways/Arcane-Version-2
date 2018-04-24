@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/widget/preferences/d;
+.class final synthetic Lkik/arcane/widget/preferences/d;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -15,7 +15,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/widget/preferences/d;->a:Landroid/preference/Preference$OnPreferenceClickListener;
+    iput-object p1, p0, Lkik/arcane/widget/preferences/d;->a:Landroid/preference/Preference$OnPreferenceClickListener;
 
     return-void
 .end method
@@ -23,9 +23,9 @@
 .method public static a(Landroid/preference/Preference$OnPreferenceClickListener;)Landroid/preference/Preference$OnPreferenceClickListener;
     .locals 1
 
-    new-instance v0, Lkik/android/widget/preferences/d;
+    new-instance v0, Lkik/arcane/widget/preferences/d;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/preferences/d;-><init>(Landroid/preference/Preference$OnPreferenceClickListener;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/preferences/d;-><init>(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
     return-object v0
 .end method
@@ -35,9 +35,9 @@
 .method public final onPreferenceClick(Landroid/preference/Preference;)Z
     .locals 1
 
-    iget-object v0, p0, Lkik/android/widget/preferences/d;->a:Landroid/preference/Preference$OnPreferenceClickListener;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/d;->a:Landroid/preference/Preference$OnPreferenceClickListener;
 
-    invoke-static {v0, p1}, Lkik/android/widget/preferences/KikListPreference;->a(Landroid/preference/Preference$OnPreferenceClickListener;Landroid/preference/Preference;)Z
+    invoke-static {v0, p1}, Lkik/arcane/widget/preferences/KikListPreference;->a(Landroid/preference/Preference$OnPreferenceClickListener;Landroid/preference/Preference;)Z
 
     move-result v0
 

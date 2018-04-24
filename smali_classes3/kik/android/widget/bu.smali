@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/widget/bu;
+.class final synthetic Lkik/arcane/widget/bu;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,7 +6,7 @@
 
 
 # instance fields
-.field private final a:Lkik/android/widget/InlineVideoPlayerView;
+.field private final a:Lkik/arcane/widget/InlineVideoPlayerView;
 
 .field private final b:I
 
@@ -14,26 +14,26 @@
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/widget/InlineVideoPlayerView;II)V
+.method private constructor <init>(Lkik/arcane/widget/InlineVideoPlayerView;II)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/widget/bu;->a:Lkik/android/widget/InlineVideoPlayerView;
+    iput-object p1, p0, Lkik/arcane/widget/bu;->a:Lkik/arcane/widget/InlineVideoPlayerView;
 
-    iput p2, p0, Lkik/android/widget/bu;->b:I
+    iput p2, p0, Lkik/arcane/widget/bu;->b:I
 
-    iput p3, p0, Lkik/android/widget/bu;->c:I
+    iput p3, p0, Lkik/arcane/widget/bu;->c:I
 
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/InlineVideoPlayerView;II)Ljava/lang/Runnable;
+.method public static a(Lkik/arcane/widget/InlineVideoPlayerView;II)Ljava/lang/Runnable;
     .locals 1
 
-    new-instance v0, Lkik/android/widget/bu;
+    new-instance v0, Lkik/arcane/widget/bu;
 
-    invoke-direct {v0, p0, p1, p2}, Lkik/android/widget/bu;-><init>(Lkik/android/widget/InlineVideoPlayerView;II)V
+    invoke-direct {v0, p0, p1, p2}, Lkik/arcane/widget/bu;-><init>(Lkik/arcane/widget/InlineVideoPlayerView;II)V
 
     return-object v0
 .end method
@@ -43,13 +43,13 @@
 .method public final run()V
     .locals 3
 
-    iget-object v0, p0, Lkik/android/widget/bu;->a:Lkik/android/widget/InlineVideoPlayerView;
+    iget-object v0, p0, Lkik/arcane/widget/bu;->a:Lkik/arcane/widget/InlineVideoPlayerView;
 
-    iget v1, p0, Lkik/android/widget/bu;->b:I
+    iget v1, p0, Lkik/arcane/widget/bu;->b:I
 
-    iget v2, p0, Lkik/android/widget/bu;->c:I
+    iget v2, p0, Lkik/arcane/widget/bu;->c:I
 
-    invoke-static {v0, v1, v2}, Lkik/android/widget/InlineVideoPlayerView;->a(Lkik/android/widget/InlineVideoPlayerView;II)V
+    invoke-static {v0, v1, v2}, Lkik/arcane/widget/InlineVideoPlayerView;->a(Lkik/arcane/widget/InlineVideoPlayerView;II)V
 
     return-void
 .end method

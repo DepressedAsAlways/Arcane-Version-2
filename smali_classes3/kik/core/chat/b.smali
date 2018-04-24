@@ -41,7 +41,7 @@
     iput-object p1, p0, Lkik/core/chat/b;->a:Lkik/core/interfaces/ad;
 
     .line 37
-    const-string v0, "com.kik.android.chat.chats_bypassed"
+    const-string v0, "com.kik.arcane.chat.chats_bypassed"
 
     invoke-direct {p0, v0}, Lkik/core/chat/b;->a(Ljava/lang/String;)Ljava/util/Set;
 
@@ -50,7 +50,7 @@
     iput-object v0, p0, Lkik/core/chat/b;->b:Ljava/util/Set;
 
     .line 38
-    const-string v0, "com.kik.android.chat.chats_new"
+    const-string v0, "com.kik.arcane.chat.chats_new"
 
     invoke-direct {p0, v0}, Lkik/core/chat/b;->a(Ljava/lang/String;)Ljava/util/Set;
 
@@ -94,7 +94,7 @@
     .line 103
     iget-object v0, p0, Lkik/core/chat/b;->a:Lkik/core/interfaces/ad;
 
-    const-string v1, "com.kik.android.chat.chats_bypassed"
+    const-string v1, "com.kik.arcane.chat.chats_bypassed"
 
     iget-object v2, p0, Lkik/core/chat/b;->b:Ljava/util/Set;
 
@@ -103,7 +103,7 @@
     .line 104
     iget-object v0, p0, Lkik/core/chat/b;->a:Lkik/core/interfaces/ad;
 
-    const-string v1, "com.kik.android.chat.chats_new"
+    const-string v1, "com.kik.arcane.chat.chats_new"
 
     iget-object v2, p0, Lkik/core/chat/b;->c:Ljava/util/Set;
 

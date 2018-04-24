@@ -1,9 +1,9 @@
-.class public final Lkik/android/chat/vm/chats/search/k;
-.super Lkik/android/chat/vm/chats/search/e;
+.class public final Lkik/arcane/chat/vm/chats/search/k;
+.super Lkik/arcane/chat/vm/chats/search/e;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/chats/search/h;
+.implements Lkik/arcane/chat/vm/chats/search/h;
 
 
 # direct methods
@@ -12,7 +12,7 @@
 
     .prologue
     .line 17
-    invoke-direct {p0, p1, p2, p3}, Lkik/android/chat/vm/chats/search/e;-><init>(Ljava/lang/String;Ljava/lang/String;Z)V
+    invoke-direct {p0, p1, p2, p3}, Lkik/arcane/chat/vm/chats/search/e;-><init>(Ljava/lang/String;Ljava/lang/String;Z)V
 
     .line 18
     return-void
@@ -20,12 +20,12 @@
 
 
 # virtual methods
-.method public final ab_()Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;
+.method public final ab_()Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;
     .locals 1
 
     .prologue
     .line 23
-    sget-object v0, Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->PrivateGroup:Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;
+    sget-object v0, Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->PrivateGroup:Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;
 
     return-object v0
 .end method
@@ -37,9 +37,9 @@
     const/4 v0, 0x0
 
     .line 29
-    iget-object v1, p0, Lkik/android/chat/vm/chats/search/k;->c:Lkik/core/interfaces/l;
+    iget-object v1, p0, Lkik/arcane/chat/vm/chats/search/k;->c:Lkik/core/interfaces/l;
 
-    iget-object v2, p0, Lkik/android/chat/vm/chats/search/k;->g:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/vm/chats/search/k;->g:Ljava/lang/String;
 
     invoke-interface {v1, v2, v0}, Lkik/core/interfaces/l;->a(Ljava/lang/String;Z)Lkik/core/datatypes/p;
 
@@ -52,7 +52,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v1}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -81,10 +81,10 @@
 
     .prologue
     .line 39
-    iget-object v0, p0, Lkik/android/chat/vm/chats/search/k;->g:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/search/k;->g:Ljava/lang/String;
 
     .line 1045
-    iget-object v1, p0, Lkik/android/chat/vm/chats/search/k;->c:Lkik/core/interfaces/l;
+    iget-object v1, p0, Lkik/arcane/chat/vm/chats/search/k;->c:Lkik/core/interfaces/l;
 
     const/4 v2, 0x0
 
@@ -112,20 +112,20 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v1}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_1
 
     .line 1050
-    iget-object v1, p0, Lkik/android/chat/vm/chats/search/k;->b:Lkik/core/interfaces/v;
+    iget-object v1, p0, Lkik/arcane/chat/vm/chats/search/k;->b:Lkik/core/interfaces/v;
 
-    invoke-static {v0, v1}, Lkik/android/util/br;->a(Lkik/core/datatypes/p;Lkik/core/interfaces/v;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lkik/arcane/util/br;->a(Lkik/core/datatypes/p;Lkik/core/interfaces/v;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->c(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/br;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -137,7 +137,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->c(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/br;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

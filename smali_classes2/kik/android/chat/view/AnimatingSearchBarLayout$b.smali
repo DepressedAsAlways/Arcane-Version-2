@@ -1,11 +1,11 @@
-.class public interface abstract Lkik/android/chat/view/AnimatingSearchBarLayout$b;
+.class public interface abstract Lkik/arcane/chat/view/AnimatingSearchBarLayout$b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/view/AnimatingSearchBarLayout;
+    value = Lkik/arcane/chat/view/AnimatingSearchBarLayout;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -21,7 +21,7 @@
             "()",
             "Ljava/util/EnumSet",
             "<",
-            "Lkik/android/chat/view/AnimatingSearchBarLayout$TransitionRules;",
+            "Lkik/arcane/chat/view/AnimatingSearchBarLayout$TransitionRules;",
             ">;"
         }
     .end annotation
@@ -33,7 +33,7 @@
             "()",
             "Ljava/util/EnumSet",
             "<",
-            "Lkik/android/chat/view/AnimatingSearchBarLayout$TransitionRules;",
+            "Lkik/arcane/chat/view/AnimatingSearchBarLayout$TransitionRules;",
             ">;"
         }
     .end annotation

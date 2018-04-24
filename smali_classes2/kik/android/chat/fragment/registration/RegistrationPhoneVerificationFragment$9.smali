@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$9;
+.class final Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$9;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;->b(Ljava/lang/String;Lkik/android/challenge/PhoneNumberModel;)V
+    value = Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;->b(Ljava/lang/String;Lkik/arcane/challenge/PhoneNumberModel;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;)V
     .locals 0
 
     .prologue
     .line 319
-    iput-object p1, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$9;->a:Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$9;->a:Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -85,9 +85,9 @@
     move-result-object v0
 
     .line 1330
-    iget-object v1, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$9;->a:Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$9;->a:Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;
 
-    invoke-static {v1, v0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;->a(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;->a(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;Ljava/lang/String;)V
 
     .line 1333
     :cond_0
@@ -105,9 +105,9 @@
     if-eqz v1, :cond_2
 
     .line 1333
-    iget-object v0, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$9;->a:Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$9;->a:Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;->a(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;->a(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;)V
 
     goto :goto_0
 
@@ -136,9 +136,9 @@
     if-nez v1, :cond_0
 
     .line 1339
-    iget-object v1, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$9;->a:Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$9;->a:Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;
 
-    invoke-static {v1, v0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;->b(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;->b(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;Ljava/lang/String;)Ljava/lang/String;
 
     goto :goto_0
 .end method

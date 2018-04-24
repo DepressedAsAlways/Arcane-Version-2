@@ -1,19 +1,19 @@
-.class public interface abstract Lkik/android/gifs/vm/bo;
+.class public interface abstract Lkik/arcane/gifs/vm/bo;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/gifs/vm/bn;
+.implements Lkik/arcane/gifs/vm/bn;
 
 
 # virtual methods
 .method public abstract a(Landroid/graphics/Bitmap;)Lkik/core/datatypes/messageExtensions/ContentMessage;
 .end method
 
-.method public abstract a(Lkik/android/gifs/api/GifResponseData$MediaType;)V
+.method public abstract a(Lkik/arcane/gifs/api/GifResponseData$MediaType;)V
 .end method
 
-.method public abstract l()Lkik/android/gifs/api/GifResponseData;
+.method public abstract l()Lkik/arcane/gifs/api/GifResponseData;
 .end method
 
 .method public abstract m()Landroid/graphics/Point;

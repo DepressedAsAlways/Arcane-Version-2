@@ -1,5 +1,5 @@
 .class public Lkinky/Update;
-.super Lkik/android/widget/preferences/KikModalPreference;
+.super Lkik/arcane/widget/preferences/KikModalPreference;
 .source "SourceFile"
 
 
@@ -11,7 +11,7 @@
     .line 19
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/preferences/KikModalPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/preferences/KikModalPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
 
     .line 20
     return-void

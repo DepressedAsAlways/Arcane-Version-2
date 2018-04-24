@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/KikCodeFragment$7$1;
+.class final Lkik/arcane/chat/fragment/KikCodeFragment$7$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikCodeFragment$7;
+    value = Lkik/arcane/chat/fragment/KikCodeFragment$7;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,16 +22,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikCodeFragment$7;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikCodeFragment$7;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikCodeFragment$7;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikCodeFragment$7;)V
     .locals 0
 
     .prologue
     .line 718
-    iput-object p1, p0, Lkik/android/chat/fragment/KikCodeFragment$7$1;->a:Lkik/android/chat/fragment/KikCodeFragment$7;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikCodeFragment$7$1;->a:Lkik/arcane/chat/fragment/KikCodeFragment$7;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -53,18 +53,18 @@
     .line 1723
     new-instance v0, Lcom/kik/scan/RemoteKikCode;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/KikCodeFragment$7$1;->a:Lkik/android/chat/fragment/KikCodeFragment$7;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikCodeFragment$7$1;->a:Lkik/arcane/chat/fragment/KikCodeFragment$7;
 
-    iget v1, v1, Lkik/android/chat/fragment/KikCodeFragment$7;->a:I
+    iget v1, v1, Lkik/arcane/chat/fragment/KikCodeFragment$7;->a:I
 
     invoke-direct {v0, p1, v1}, Lcom/kik/scan/RemoteKikCode;-><init>([BI)V
 
     .line 1724
-    iget-object v1, p0, Lkik/android/chat/fragment/KikCodeFragment$7$1;->a:Lkik/android/chat/fragment/KikCodeFragment$7;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikCodeFragment$7$1;->a:Lkik/arcane/chat/fragment/KikCodeFragment$7;
 
-    iget-object v1, v1, Lkik/android/chat/fragment/KikCodeFragment$7;->b:Lkik/android/chat/fragment/KikCodeFragment;
+    iget-object v1, v1, Lkik/arcane/chat/fragment/KikCodeFragment$7;->b:Lkik/arcane/chat/fragment/KikCodeFragment;
 
-    invoke-static {v1, v0}, Lkik/android/chat/fragment/KikCodeFragment;->b(Lkik/android/chat/fragment/KikCodeFragment;Lcom/kik/scan/KikCode;)V
+    invoke-static {v1, v0}, Lkik/arcane/chat/fragment/KikCodeFragment;->b(Lkik/arcane/chat/fragment/KikCodeFragment;Lcom/kik/scan/KikCode;)V
 
     .line 718
     return-void
@@ -78,19 +78,19 @@
     invoke-super {p0, p1}, Lcom/kik/events/k;->a(Ljava/lang/Throwable;)V
 
     .line 731
-    iget-object v0, p0, Lkik/android/chat/fragment/KikCodeFragment$7$1;->a:Lkik/android/chat/fragment/KikCodeFragment$7;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikCodeFragment$7$1;->a:Lkik/arcane/chat/fragment/KikCodeFragment$7;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/KikCodeFragment$7;->b:Lkik/android/chat/fragment/KikCodeFragment;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/KikCodeFragment$7;->b:Lkik/arcane/chat/fragment/KikCodeFragment;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/KikCodeFragment$7$1;->a:Lkik/android/chat/fragment/KikCodeFragment$7;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikCodeFragment$7$1;->a:Lkik/arcane/chat/fragment/KikCodeFragment$7;
 
-    iget-object v1, v1, Lkik/android/chat/fragment/KikCodeFragment$7;->b:Lkik/android/chat/fragment/KikCodeFragment;
+    iget-object v1, v1, Lkik/arcane/chat/fragment/KikCodeFragment$7;->b:Lkik/arcane/chat/fragment/KikCodeFragment;
 
-    invoke-static {v1}, Lkik/android/chat/fragment/KikCodeFragment;->o(Lkik/android/chat/fragment/KikCodeFragment;)Lkik/android/chat/fragment/KikCodeFragment$c;
+    invoke-static {v1}, Lkik/arcane/chat/fragment/KikCodeFragment;->o(Lkik/arcane/chat/fragment/KikCodeFragment;)Lkik/arcane/chat/fragment/KikCodeFragment$c;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lkik/android/chat/fragment/KikCodeFragment;->a(Lkik/android/chat/fragment/KikCodeFragment;Lkik/android/chat/fragment/KikCodeFragment$c;)V
+    invoke-static {v0, v1}, Lkik/arcane/chat/fragment/KikCodeFragment;->a(Lkik/arcane/chat/fragment/KikCodeFragment;Lkik/arcane/chat/fragment/KikCodeFragment$c;)V
 
     .line 732
     return-void

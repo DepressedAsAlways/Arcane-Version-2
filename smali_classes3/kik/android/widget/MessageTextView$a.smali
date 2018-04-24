@@ -1,11 +1,11 @@
-.class public interface abstract Lkik/android/widget/MessageTextView$a;
+.class public interface abstract Lkik/arcane/widget/MessageTextView$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/MessageTextView;
+    value = Lkik/arcane/widget/MessageTextView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

@@ -1,27 +1,27 @@
-.class public Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;
-.super Lkik/android/chat/fragment/KikIqFragmentBase;
+.class public Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;
+.super Lkik/arcane/chat/fragment/KikIqFragmentBase;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/presentation/bp$a;
+.implements Lkik/arcane/chat/presentation/bp$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$a;
+        Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$a;
     }
 .end annotation
 
 
 # instance fields
-.field _enterCodeView:Lkik/android/chat/view/ad;
+.field _enterCodeView:Lkik/arcane/chat/view/ad;
     .annotation build Lbutterknife/BindView;
         value = 0x7f10020b
     .end annotation
 .end field
 
-.field a:Lkik/android/chat/presentation/bp;
+.field a:Lkik/arcane/chat/presentation/bp;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -31,12 +31,12 @@
     .end annotation
 .end field
 
-.field c:Lkik/android/challenge/PhoneVerificationNetworkProvider;
+.field c:Lkik/arcane/challenge/PhoneVerificationNetworkProvider;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
 
-.field d:Lcom/kik/android/Mixpanel;
+.field d:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -50,12 +50,12 @@
 
     .prologue
     .line 34
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikIqFragmentBase;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikIqFragmentBase;-><init>()V
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
+.method static synthetic a(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
     .locals 3
 
     .prologue
@@ -72,10 +72,10 @@
     invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 6169
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->setResultData(Landroid/os/Bundle;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->setResultData(Landroid/os/Bundle;)V
 
     .line 6170
-    invoke-virtual {p0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->finish()V
 
     .line 34
     return-void
@@ -88,21 +88,21 @@
 
     .prologue
     .line 134
-    iget-object v0, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->d:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->d:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Phone Verification Code Re-requested"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 135
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 136
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 137
     return-void
@@ -117,11 +117,11 @@
     const v3, 0x7f09027d
 
     .line 103
-    iget-object v0, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->d:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->d:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Phone Verification Code Error"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -133,46 +133,46 @@
 
     const-string v2, "Unknown"
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     .line 5329
-    new-instance v1, Lkik/android/chat/fragment/KikBasicDialog$a;
+    new-instance v1, Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v2
 
-    invoke-direct {v1, v2}, Lkik/android/chat/fragment/KikBasicDialog$a;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, v2}, Lkik/arcane/chat/fragment/KikBasicDialog$a;-><init>(Landroid/content/Context;)V
 
     .line 5330
-    invoke-virtual {v1, v4}, Lkik/android/chat/fragment/KikBasicDialog$a;->a(I)Lkik/android/chat/fragment/KikBasicDialog$a;
+    invoke-virtual {v1, v4}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->a(I)Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
     .line 5331
     const v2, 0x7f090246
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikBasicDialog$a;->b(I)Lkik/android/chat/fragment/KikBasicDialog$a;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->b(I)Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
     .line 5332
-    new-instance v2, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$9;
+    new-instance v2, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$9;
 
-    invoke-direct {v2, p0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$9;-><init>(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
+    invoke-direct {v2, p0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$9;-><init>(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
 
-    invoke-virtual {v1, v3, v2}, Lkik/android/chat/fragment/KikBasicDialog$a;->a(ILandroid/view/View$OnClickListener;)Lkik/android/chat/fragment/KikBasicDialog$a;
+    invoke-virtual {v1, v3, v2}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->a(ILandroid/view/View$OnClickListener;)Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
     .line 5339
-    invoke-virtual {v1}, Lkik/android/chat/fragment/KikBasicDialog$a;->b()Lkik/android/chat/fragment/KikBasicDialog;
+    invoke-virtual {v1}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->b()Lkik/arcane/chat/fragment/KikBasicDialog;
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {p0, v1}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 128
     :goto_0
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 129
     return-void
@@ -183,14 +183,14 @@
 
     const-string v2, "Server Down"
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     .line 4249
-    iget-object v1, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->d:Lcom/kik/android/Mixpanel;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->d:Lcom/kik/arcane/Mixpanel;
 
     const-string v2, "Phone Verification Skip Shown"
 
-    invoke-virtual {v1, v2}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
@@ -199,59 +199,59 @@
     const-string v3, "Verify Code"
 
     .line 4250
-    invoke-virtual {v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
     .line 4251
-    invoke-virtual {v1}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
     .line 4252
-    invoke-virtual {v1}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v1}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 4253
-    new-instance v1, Lkik/android/chat/fragment/KikBasicDialog$a;
+    new-instance v1, Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v2
 
-    invoke-direct {v1, v2}, Lkik/android/chat/fragment/KikBasicDialog$a;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, v2}, Lkik/arcane/chat/fragment/KikBasicDialog$a;-><init>(Landroid/content/Context;)V
 
     .line 4254
     const v2, 0x7f090439
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikBasicDialog$a;->a(I)Lkik/android/chat/fragment/KikBasicDialog$a;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->a(I)Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
     .line 4255
     const v2, 0x7f090113
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikBasicDialog$a;->b(I)Lkik/android/chat/fragment/KikBasicDialog$a;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->b(I)Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
     .line 4256
     const v2, 0x7f090460
 
-    new-instance v3, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$4;
+    new-instance v3, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$4;
 
-    invoke-direct {v3, p0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$4;-><init>(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
+    invoke-direct {v3, p0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$4;-><init>(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
 
-    invoke-virtual {v1, v2, v3}, Lkik/android/chat/fragment/KikBasicDialog$a;->a(ILandroid/view/View$OnClickListener;)Lkik/android/chat/fragment/KikBasicDialog$a;
+    invoke-virtual {v1, v2, v3}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->a(ILandroid/view/View$OnClickListener;)Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
     .line 4268
-    new-instance v2, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$5;
+    new-instance v2, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$5;
 
-    invoke-direct {v2, p0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$5;-><init>(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
+    invoke-direct {v2, p0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$5;-><init>(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikBasicDialog$a;->a(Landroid/content/DialogInterface$OnCancelListener;)Lkik/android/chat/fragment/KikBasicDialog$a;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->a(Landroid/content/DialogInterface$OnCancelListener;)Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
     .line 4278
-    invoke-virtual {v1}, Lkik/android/chat/fragment/KikBasicDialog$a;->b()Lkik/android/chat/fragment/KikBasicDialog;
+    invoke-virtual {v1}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->b()Lkik/arcane/chat/fragment/KikBasicDialog;
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {p0, v1}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     goto :goto_0
 
@@ -261,40 +261,40 @@
 
     const-string v2, "Wrong Code"
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     .line 4283
-    new-instance v1, Lkik/android/chat/fragment/KikBasicDialog$a;
+    new-instance v1, Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v2
 
-    invoke-direct {v1, v2}, Lkik/android/chat/fragment/KikBasicDialog$a;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, v2}, Lkik/arcane/chat/fragment/KikBasicDialog$a;-><init>(Landroid/content/Context;)V
 
     .line 4284
     const v2, 0x7f09047d
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikBasicDialog$a;->a(I)Lkik/android/chat/fragment/KikBasicDialog$a;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->a(I)Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
     .line 4285
     const v2, 0x7f090117
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikBasicDialog$a;->b(I)Lkik/android/chat/fragment/KikBasicDialog$a;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->b(I)Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
     .line 4286
-    new-instance v2, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$6;
+    new-instance v2, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$6;
 
-    invoke-direct {v2, p0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$6;-><init>(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
+    invoke-direct {v2, p0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$6;-><init>(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
 
-    invoke-virtual {v1, v3, v2}, Lkik/android/chat/fragment/KikBasicDialog$a;->a(ILandroid/view/View$OnClickListener;)Lkik/android/chat/fragment/KikBasicDialog$a;
+    invoke-virtual {v1, v3, v2}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->a(ILandroid/view/View$OnClickListener;)Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
     .line 4293
-    invoke-virtual {v1}, Lkik/android/chat/fragment/KikBasicDialog$a;->b()Lkik/android/chat/fragment/KikBasicDialog;
+    invoke-virtual {v1}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->b()Lkik/arcane/chat/fragment/KikBasicDialog;
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {p0, v1}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     goto/16 :goto_0
 
@@ -304,38 +304,38 @@
 
     const-string v2, "Unknown"
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     .line 4314
-    new-instance v1, Lkik/android/chat/fragment/KikBasicDialog$a;
+    new-instance v1, Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v2
 
-    invoke-direct {v1, v2}, Lkik/android/chat/fragment/KikBasicDialog$a;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, v2}, Lkik/arcane/chat/fragment/KikBasicDialog$a;-><init>(Landroid/content/Context;)V
 
     .line 4315
-    invoke-virtual {v1, v4}, Lkik/android/chat/fragment/KikBasicDialog$a;->a(I)Lkik/android/chat/fragment/KikBasicDialog$a;
+    invoke-virtual {v1, v4}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->a(I)Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
     .line 4316
     const v2, 0x7f090118
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikBasicDialog$a;->b(I)Lkik/android/chat/fragment/KikBasicDialog$a;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->b(I)Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
     .line 4317
-    new-instance v2, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$8;
+    new-instance v2, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$8;
 
-    invoke-direct {v2, p0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$8;-><init>(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
+    invoke-direct {v2, p0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$8;-><init>(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
 
-    invoke-virtual {v1, v3, v2}, Lkik/android/chat/fragment/KikBasicDialog$a;->a(ILandroid/view/View$OnClickListener;)Lkik/android/chat/fragment/KikBasicDialog$a;
+    invoke-virtual {v1, v3, v2}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->a(ILandroid/view/View$OnClickListener;)Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
     .line 4324
-    invoke-virtual {v1}, Lkik/android/chat/fragment/KikBasicDialog$a;->b()Lkik/android/chat/fragment/KikBasicDialog;
+    invoke-virtual {v1}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->b()Lkik/arcane/chat/fragment/KikBasicDialog;
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {p0, v1}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     goto/16 :goto_0
 
@@ -345,40 +345,40 @@
 
     const-string v2, "Invalid Code"
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     .line 5298
-    new-instance v1, Lkik/android/chat/fragment/KikBasicDialog$a;
+    new-instance v1, Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v2
 
-    invoke-direct {v1, v2}, Lkik/android/chat/fragment/KikBasicDialog$a;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, v2}, Lkik/arcane/chat/fragment/KikBasicDialog$a;-><init>(Landroid/content/Context;)V
 
     .line 5299
     const v2, 0x7f09047c
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikBasicDialog$a;->a(I)Lkik/android/chat/fragment/KikBasicDialog$a;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->a(I)Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
     .line 5300
     const v2, 0x7f090111
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikBasicDialog$a;->b(I)Lkik/android/chat/fragment/KikBasicDialog$a;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->b(I)Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
     .line 5301
-    new-instance v2, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$7;
+    new-instance v2, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$7;
 
-    invoke-direct {v2, p0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$7;-><init>(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
+    invoke-direct {v2, p0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$7;-><init>(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
 
-    invoke-virtual {v1, v3, v2}, Lkik/android/chat/fragment/KikBasicDialog$a;->a(ILandroid/view/View$OnClickListener;)Lkik/android/chat/fragment/KikBasicDialog$a;
+    invoke-virtual {v1, v3, v2}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->a(ILandroid/view/View$OnClickListener;)Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
     .line 5308
-    invoke-virtual {v1}, Lkik/android/chat/fragment/KikBasicDialog$a;->b()Lkik/android/chat/fragment/KikBasicDialog;
+    invoke-virtual {v1}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->b()Lkik/arcane/chat/fragment/KikBasicDialog;
 
     move-result-object v1
 
-    invoke-virtual {p0, v1}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {p0, v1}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     goto/16 :goto_0
 
@@ -399,41 +399,41 @@
 
     .prologue
     .line 143
-    iput-object p1, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->e:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->e:Ljava/lang/String;
 
     .line 144
     return-void
 .end method
 
-.method public final a(Ljava/lang/String;Lkik/android/challenge/PhoneNumberModel;)V
+.method public final a(Ljava/lang/String;Lkik/arcane/challenge/PhoneNumberModel;)V
     .locals 3
 
     .prologue
     .line 97
     .line 4148
-    iget-object v0, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->d:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->d:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Phone Verification Complete"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 4149
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 4150
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 4152
-    invoke-virtual {p2}, Lkik/android/challenge/PhoneNumberModel;->b()Ljava/lang/String;
+    invoke-virtual {p2}, Lkik/arcane/challenge/PhoneNumberModel;->b()Ljava/lang/String;
 
     move-result-object v0
 
     .line 4153
-    iget-object v1, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->b:Lkik/core/interfaces/IAddressBookIntegration;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->b:Lkik/core/interfaces/IAddressBookIntegration;
 
     invoke-interface {v1}, Lkik/core/interfaces/IAddressBookIntegration;->j()Ljava/lang/String;
 
@@ -454,7 +454,7 @@
 
     .line 4156
     :cond_0
-    iget-object v1, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->b:Lkik/core/interfaces/IAddressBookIntegration;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->b:Lkik/core/interfaces/IAddressBookIntegration;
 
     invoke-interface {v1, v0}, Lkik/core/interfaces/IAddressBookIntegration;->e(Ljava/lang/String;)V
 
@@ -477,10 +477,10 @@
     invoke-virtual {v0, v1, p1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 4161
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->setResultData(Landroid/os/Bundle;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->setResultData(Landroid/os/Bundle;)V
 
     .line 4162
-    invoke-virtual {p0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->finish()V
 
     .line 98
     return-void
@@ -491,14 +491,14 @@
 
     .prologue
     .line 54
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikIqFragmentBase;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->onCreate(Landroid/os/Bundle;)V
 
     .line 55
-    invoke-virtual {p0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 
-    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
+    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
 
     .line 56
     return-void
@@ -521,53 +521,53 @@
     invoke-static {p0, v8}, Lbutterknife/ButterKnife;->bind(Ljava/lang/Object;Landroid/view/View;)Lbutterknife/Unbinder;
 
     .line 64
-    iget-object v0, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->a:Lkik/android/chat/presentation/bp;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->a:Lkik/arcane/chat/presentation/bp;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->_enterCodeView:Lkik/android/chat/view/ad;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->_enterCodeView:Lkik/arcane/chat/view/ad;
 
-    invoke-interface {v0, v1}, Lkik/android/chat/presentation/bp;->a(Ljava/lang/Object;)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/presentation/bp;->a(Ljava/lang/Object;)V
 
     .line 65
-    iget-object v0, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->a:Lkik/android/chat/presentation/bp;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->a:Lkik/arcane/chat/presentation/bp;
 
     .line 1241
-    new-instance v1, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$a;
+    new-instance v1, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$a;
 
-    invoke-direct {v1}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$a;-><init>()V
+    invoke-direct {v1}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$a;-><init>()V
 
     .line 1242
-    invoke-virtual {p0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->getArguments()Landroid/os/Bundle;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->getArguments()Landroid/os/Bundle;
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$a;->a(Landroid/os/Bundle;)V
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$a;->a(Landroid/os/Bundle;)V
 
     .line 1243
-    invoke-static {v1}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$a;->b(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$a;)Ljava/lang/String;
+    invoke-static {v1}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$a;->b(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$a;)Ljava/lang/String;
 
     move-result-object v1
 
     .line 2234
-    new-instance v2, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$a;
+    new-instance v2, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$a;
 
-    invoke-direct {v2}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$a;-><init>()V
+    invoke-direct {v2}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$a;-><init>()V
 
     .line 2235
-    invoke-virtual {p0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->getArguments()Landroid/os/Bundle;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->getArguments()Landroid/os/Bundle;
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$a;->a(Landroid/os/Bundle;)V
+    invoke-virtual {v2, v3}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$a;->a(Landroid/os/Bundle;)V
 
     .line 2236
-    invoke-static {v2}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$a;->a(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$a;)Lkik/android/challenge/PhoneNumberModel;
+    invoke-static {v2}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$a;->a(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$a;)Lkik/arcane/challenge/PhoneNumberModel;
 
     move-result-object v2
 
     .line 65
-    iget-object v4, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->c:Lkik/android/challenge/PhoneVerificationNetworkProvider;
+    iget-object v4, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->c:Lkik/arcane/challenge/PhoneVerificationNetworkProvider;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v7
 
@@ -577,14 +577,14 @@
 
     move-object v6, p0
 
-    invoke-interface/range {v0 .. v7}, Lkik/android/chat/presentation/bp;->a(Ljava/lang/String;Lkik/android/challenge/PhoneNumberModel;Lkik/android/util/KeyboardManipulator;Lkik/android/challenge/PhoneVerificationNetworkProvider;Lkik/android/chat/presentation/bp$a;Lkik/android/chat/presentation/r;Landroid/content/Context;)V
+    invoke-interface/range {v0 .. v7}, Lkik/arcane/chat/presentation/bp;->a(Ljava/lang/String;Lkik/arcane/challenge/PhoneNumberModel;Lkik/arcane/util/KeyboardManipulator;Lkik/arcane/challenge/PhoneVerificationNetworkProvider;Lkik/arcane/chat/presentation/bp$a;Lkik/arcane/chat/presentation/r;Landroid/content/Context;)V
 
     .line 67
-    iget-object v0, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->d:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->d:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Phone Verification Code Screen Shown"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -593,17 +593,17 @@
     const-string v2, "Registration"
 
     .line 68
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 69
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 70
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 71
     return-object v8
@@ -627,23 +627,23 @@
     invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 3177
-    iget-object v1, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->e:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->e:Ljava/lang/String;
 
     if-eqz v1, :cond_0
 
     .line 3178
     const-string v1, "extra-verification-reference"
 
-    iget-object v2, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->e:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->e:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 3180
     :cond_0
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->setResultData(Landroid/os/Bundle;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->setResultData(Landroid/os/Bundle;)V
 
     .line 3181
-    invoke-virtual {p0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->finish()V
 
     .line 85
     const/4 v0, 0x1
@@ -662,78 +662,78 @@
     .prologue
     .line 91
     .line 3186
-    new-instance v0, Lkik/android/chat/fragment/KikBasicDialog$a;
+    new-instance v0, Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lkik/android/chat/fragment/KikBasicDialog$a;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lkik/arcane/chat/fragment/KikBasicDialog$a;-><init>(Landroid/content/Context;)V
 
     .line 3187
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikBasicDialog$a;->a(Z)Lkik/android/chat/fragment/KikBasicDialog$a;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->a(Z)Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
     move-result-object v1
 
     const v2, 0x7f0903e3
 
-    new-instance v3, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$3;
+    new-instance v3, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$3;
 
-    invoke-direct {v3, p0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$3;-><init>(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
+    invoke-direct {v3, p0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$3;-><init>(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
 
     .line 3188
-    invoke-virtual {v1, v2, v3}, Lkik/android/chat/fragment/KikBasicDialog$a;->a(ILandroid/view/View$OnClickListener;)Lkik/android/chat/fragment/KikBasicDialog$a;
+    invoke-virtual {v1, v2, v3}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->a(ILandroid/view/View$OnClickListener;)Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
     move-result-object v1
 
     const v2, 0x7f090460
 
-    new-instance v3, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$2;
+    new-instance v3, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$2;
 
-    invoke-direct {v3, p0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$2;-><init>(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
+    invoke-direct {v3, p0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$2;-><init>(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
 
     .line 3199
-    invoke-virtual {v1, v2, v3}, Lkik/android/chat/fragment/KikBasicDialog$a;->b(ILandroid/view/View$OnClickListener;)Lkik/android/chat/fragment/KikBasicDialog$a;
+    invoke-virtual {v1, v2, v3}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->b(ILandroid/view/View$OnClickListener;)Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
     move-result-object v1
 
-    new-instance v2, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$1;
+    new-instance v2, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$1;
 
-    invoke-direct {v2, p0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$1;-><init>(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
+    invoke-direct {v2, p0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment$1;-><init>(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
 
     .line 3211
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikBasicDialog$a;->a(Landroid/content/DialogInterface$OnCancelListener;)Lkik/android/chat/fragment/KikBasicDialog$a;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->a(Landroid/content/DialogInterface$OnCancelListener;)Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
     move-result-object v1
 
     const v2, 0x7f0903ce
 
     .line 3221
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikBasicDialog$a;->a(I)Lkik/android/chat/fragment/KikBasicDialog$a;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->a(I)Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
     move-result-object v1
 
     const v2, 0x7f090115
 
     .line 3222
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikBasicDialog$a;->b(I)Lkik/android/chat/fragment/KikBasicDialog$a;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->b(I)Lkik/arcane/chat/fragment/KikBasicDialog$a;
 
     .line 3223
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikBasicDialog$a;->b()Lkik/android/chat/fragment/KikBasicDialog;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikBasicDialog$a;->b()Lkik/arcane/chat/fragment/KikBasicDialog;
 
     move-result-object v0
 
     .line 3224
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 3226
-    iget-object v0, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->d:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;->d:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Phone Verification Skip Shown"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -742,17 +742,17 @@
     const-string v2, "Verify Code"
 
     .line 3227
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 3228
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 3229
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 92
     return-void

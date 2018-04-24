@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/al;
+.class public final Lkik/arcane/util/al;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -44,11 +44,11 @@
 
     .prologue
     .line 44
-    new-instance v0, Lkik/android/util/al$1;
+    new-instance v0, Lkik/arcane/util/al$1;
 
-    invoke-direct {v0}, Lkik/android/util/al$1;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/util/al$1;-><init>()V
 
-    sput-object v0, Lkik/android/util/al;->a:Ljava/util/Comparator;
+    sput-object v0, Lkik/arcane/util/al;->a:Ljava/util/Comparator;
 
     return-void
 .end method
@@ -65,7 +65,7 @@
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
 
-    iput-object v0, p0, Lkik/android/util/al;->b:Ljava/util/List;
+    iput-object v0, p0, Lkik/arcane/util/al;->b:Ljava/util/List;
 
     .line 32
     new-instance v0, Ljava/util/ArrayList;
@@ -74,15 +74,15 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    iput-object v0, p0, Lkik/android/util/al;->c:Ljava/util/List;
+    iput-object v0, p0, Lkik/arcane/util/al;->c:Ljava/util/List;
 
     .line 35
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/util/al;->d:I
+    iput v0, p0, Lkik/arcane/util/al;->d:I
 
     .line 57
-    iput p1, p0, Lkik/android/util/al;->e:I
+    iput p1, p0, Lkik/arcane/util/al;->e:I
 
     .line 58
     return-void
@@ -97,14 +97,14 @@
 
     :goto_0
     :try_start_0
-    iget v0, p0, Lkik/android/util/al;->d:I
+    iget v0, p0, Lkik/arcane/util/al;->d:I
 
-    iget v1, p0, Lkik/android/util/al;->e:I
+    iget v1, p0, Lkik/arcane/util/al;->e:I
 
     if-le v0, v1, :cond_0
 
     .line 109
-    iget-object v0, p0, Lkik/android/util/al;->b:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/util/al;->b:Ljava/util/List;
 
     const/4 v1, 0x0
 
@@ -115,18 +115,18 @@
     check-cast v0, [I
 
     .line 110
-    iget-object v1, p0, Lkik/android/util/al;->c:Ljava/util/List;
+    iget-object v1, p0, Lkik/arcane/util/al;->c:Ljava/util/List;
 
     invoke-interface {v1, v0}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
     .line 111
-    iget v1, p0, Lkik/android/util/al;->d:I
+    iget v1, p0, Lkik/arcane/util/al;->d:I
 
     array-length v0, v0
 
     sub-int v0, v1, v0
 
-    iput v0, p0, Lkik/android/util/al;->d:I
+    iput v0, p0, Lkik/arcane/util/al;->d:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -161,7 +161,7 @@
     :try_start_0
     array-length v0, p1
 
-    iget v1, p0, Lkik/android/util/al;->e:I
+    iget v1, p0, Lkik/arcane/util/al;->e:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -177,14 +177,14 @@
     .line 93
     :cond_1
     :try_start_1
-    iget-object v0, p0, Lkik/android/util/al;->b:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/util/al;->b:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 94
-    iget-object v0, p0, Lkik/android/util/al;->c:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/util/al;->c:Ljava/util/List;
 
-    sget-object v1, Lkik/android/util/al;->a:Ljava/util/Comparator;
+    sget-object v1, Lkik/arcane/util/al;->a:Ljava/util/Comparator;
 
     invoke-static {v0, p1, v1}, Ljava/util/Collections;->binarySearch(Ljava/util/List;Ljava/lang/Object;Ljava/util/Comparator;)I
 
@@ -200,21 +200,21 @@
 
     .line 98
     :cond_2
-    iget-object v1, p0, Lkik/android/util/al;->c:Ljava/util/List;
+    iget-object v1, p0, Lkik/arcane/util/al;->c:Ljava/util/List;
 
     invoke-interface {v1, v0, p1}, Ljava/util/List;->add(ILjava/lang/Object;)V
 
     .line 99
-    iget v0, p0, Lkik/android/util/al;->d:I
+    iget v0, p0, Lkik/arcane/util/al;->d:I
 
     array-length v1, p1
 
     add-int/2addr v0, v1
 
-    iput v0, p0, Lkik/android/util/al;->d:I
+    iput v0, p0, Lkik/arcane/util/al;->d:I
 
     .line 100
-    invoke-direct {p0}, Lkik/android/util/al;->a()V
+    invoke-direct {p0}, Lkik/arcane/util/al;->a()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -242,7 +242,7 @@
 
     :goto_0
     :try_start_0
-    iget-object v0, p0, Lkik/android/util/al;->c:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/util/al;->c:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -251,7 +251,7 @@
     if-ge v1, v0, :cond_1
 
     .line 71
-    iget-object v0, p0, Lkik/android/util/al;->c:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/util/al;->c:Ljava/util/List;
 
     invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -265,21 +265,21 @@
     if-lt v2, p1, :cond_0
 
     .line 73
-    iget v2, p0, Lkik/android/util/al;->d:I
+    iget v2, p0, Lkik/arcane/util/al;->d:I
 
     array-length v3, v0
 
     sub-int/2addr v2, v3
 
-    iput v2, p0, Lkik/android/util/al;->d:I
+    iput v2, p0, Lkik/arcane/util/al;->d:I
 
     .line 74
-    iget-object v2, p0, Lkik/android/util/al;->c:Ljava/util/List;
+    iget-object v2, p0, Lkik/arcane/util/al;->c:Ljava/util/List;
 
     invoke-interface {v2, v1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     .line 75
-    iget-object v1, p0, Lkik/android/util/al;->b:Ljava/util/List;
+    iget-object v1, p0, Lkik/arcane/util/al;->b:Ljava/util/List;
 
     invoke-interface {v1, v0}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
     :try_end_0

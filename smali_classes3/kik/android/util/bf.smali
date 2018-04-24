@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/bf;
+.class public final Lkik/arcane/util/bf;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -31,7 +31,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/util/bf;->a:Ljava/util/regex/Pattern;
+    sput-object v0, Lkik/arcane/util/bf;->a:Ljava/util/regex/Pattern;
 
     .line 61
     const-string v0, "((?:(kik|card|cards|http|https|Http|Https|rtsp|Rtsp):\\/\\/(?:(?:[a-zA-Z0-9\\$\\-\\_\\.\\+\\!\\*\\\'\\(\\)\\,\\;\\?\\&\\=]|(?:\\%[a-fA-F0-9]{2})){1,64}(?:\\:(?:[a-zA-Z0-9\\$\\-\\_\\.\\+\\!\\*\\\'\\(\\)\\,\\;\\?\\&\\=]|(?:\\%[a-fA-F0-9]{2})){1,25})?\\@)?)?((?:(?:[a-zA-Z0-9\u00a0-\ud7ff\uf900-\ufdcf\ufdf0-\uffef][a-zA-Z0-9\u00a0-\ud7ff\uf900-\ufdcf\ufdf0-\uffef\\-]{0,64}\\.)+(?:(?:aero|arpa|asia|a[cdefgilmnoqrstuwxz])|(?:biz|b[abdefghijmnorstvwyz])|(?:cat|com|coop|c[acdfghiklmnoruvxyz])|d[ejkmoz]|(?:edu|e[cegrstu])|f[ijkmor]|(?:gov|g[abdefghilmnpqrstuwy])|h[kmnrtu]|(?:info|int|i[delmnoqrst])|(?:jobs|j[emop])|k[eghimnprwyz]|l[abcikrstuvy]|(?:mil|mobi|museum|m[acdeghklmnopqrstuvwxyz])|(?:name|net|n[acefgilopruz])|(?:org|om)|(?:pro|p[aefghklmnrstwy])|qa|r[eosuw]|s[abcdeghijklmnortuvyz]|(?:tel|travel|t[cdfghjklmnoprtvwz])|u[agksyz]|v[aceginu]|w[fs]|(?:xn\\-\\-0zwm56d|xn\\-\\-11b5bs3a9aj6g|xn\\-\\-80akhbyknj4f|xn\\-\\-9t4b11yi5a|xn\\-\\-deba0ad|xn\\-\\-g6w251d|xn\\-\\-hgbk6aj7f53bba|xn\\-\\-hlcj6aya9esc7a|xn\\-\\-jxalpdlp|xn\\-\\-kgbechtv|xn\\-\\-zckzah)|y[etu]|z[amw]))|(?:(?:25[0-5]|2[0-4][0-9]|[0-1][0-9]{2}|[1-9][0-9]|[1-9])\\.(?:25[0-5]|2[0-4][0-9]|[0-1][0-9]{2}|[1-9][0-9]|[1-9]|0)\\.(?:25[0-5]|2[0-4][0-9]|[0-1][0-9]{2}|[1-9][0-9]|[1-9]|0)\\.(?:25[0-5]|2[0-4][0-9]|[0-1][0-9]{2}|[1-9][0-9]|[0-9])))(?:\\:\\d{1,5})?)(\\/(?:(?:[a-zA-Z0-9\u00a0-\ud7ff\uf900-\ufdcf\ufdf0-\uffef\\;\\/\\?\\:\\@\\&\\=\\#\\~\\-\\.\\+\\!\\*\\\'\\(\\)\\,\\_])|(?:\\%[a-fA-F0-9]{2}))*)?(?:\\b|$)"
@@ -40,7 +40,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/util/bf;->b:Ljava/util/regex/Pattern;
+    sput-object v0, Lkik/arcane/util/bf;->b:Ljava/util/regex/Pattern;
 
     .line 71
     const-string v0, "((25[0-5]|2[0-4][0-9]|[0-1][0-9]{2}|[1-9][0-9]|[1-9])\\.(25[0-5]|2[0-4][0-9]|[0-1][0-9]{2}|[1-9][0-9]|[1-9]|0)\\.(25[0-5]|2[0-4][0-9]|[0-1][0-9]{2}|[1-9][0-9]|[1-9]|0)\\.(25[0-5]|2[0-4][0-9]|[0-1][0-9]{2}|[1-9][0-9]|[0-9]))"
@@ -49,7 +49,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/util/bf;->c:Ljava/util/regex/Pattern;
+    sput-object v0, Lkik/arcane/util/bf;->c:Ljava/util/regex/Pattern;
 
     .line 73
     new-instance v0, Ljava/lang/StringBuilder;
@@ -58,7 +58,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    sget-object v1, Lkik/android/util/bf;->a:Ljava/util/regex/Pattern;
+    sget-object v1, Lkik/arcane/util/bf;->a:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -70,7 +70,7 @@
 
     move-result-object v0
 
-    sget-object v1, Lkik/android/util/bf;->c:Ljava/util/regex/Pattern;
+    sget-object v1, Lkik/arcane/util/bf;->c:Ljava/util/regex/Pattern;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -90,7 +90,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/util/bf;->d:Ljava/util/regex/Pattern;
+    sput-object v0, Lkik/arcane/util/bf;->d:Ljava/util/regex/Pattern;
 
     .line 75
     const-string v0, "[a-zA-Z0-9\\+\\.\\_\\%\\-\\+]{1,256}\\@[a-zA-Z0-9][a-zA-Z0-9\\-]{0,64}(\\.[a-zA-Z0-9][a-zA-Z0-9\\-]{0,25})+"
@@ -99,7 +99,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/util/bf;->e:Ljava/util/regex/Pattern;
+    sput-object v0, Lkik/arcane/util/bf;->e:Ljava/util/regex/Pattern;
 
     .line 77
     const-string v0, "#[A-Za-z0-9_.]{2,32}\\b"
@@ -108,7 +108,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/util/bf;->f:Ljava/util/regex/Pattern;
+    sput-object v0, Lkik/arcane/util/bf;->f:Ljava/util/regex/Pattern;
 
     .line 93
     const-string v0, "(\\+[0-9]+[\\- \\.]*)?(\\([0-9]+\\)[\\- \\.]*)?([0-9][0-9\\- \\.][0-9\\- \\.]+[0-9])"
@@ -117,7 +117,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/util/bf;->g:Ljava/util/regex/Pattern;
+    sput-object v0, Lkik/arcane/util/bf;->g:Ljava/util/regex/Pattern;
 
     return-void
 .end method

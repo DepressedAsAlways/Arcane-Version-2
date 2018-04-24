@@ -1,4 +1,4 @@
-.class final Lkik/android/KikNotificationHandler$1;
+.class final Lkik/arcane/KikNotificationHandler$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/KikNotificationHandler;
+    value = Lkik/arcane/KikNotificationHandler;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/KikNotificationHandler;
+.field final synthetic a:Lkik/arcane/KikNotificationHandler;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/KikNotificationHandler;)V
+.method constructor <init>(Lkik/arcane/KikNotificationHandler;)V
     .locals 0
 
     .prologue
     .line 157
-    iput-object p1, p0, Lkik/android/KikNotificationHandler$1;->a:Lkik/android/KikNotificationHandler;
+    iput-object p1, p0, Lkik/arcane/KikNotificationHandler$1;->a:Lkik/arcane/KikNotificationHandler;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -54,9 +54,9 @@
     check-cast p2, Ljava/lang/String;
 
     .line 1161
-    iget-object v0, p0, Lkik/android/KikNotificationHandler$1;->a:Lkik/android/KikNotificationHandler;
+    iget-object v0, p0, Lkik/arcane/KikNotificationHandler$1;->a:Lkik/arcane/KikNotificationHandler;
 
-    invoke-static {v0}, Lkik/android/KikNotificationHandler;->a(Lkik/android/KikNotificationHandler;)Lkik/core/interfaces/IConversation;
+    invoke-static {v0}, Lkik/arcane/KikNotificationHandler;->a(Lkik/arcane/KikNotificationHandler;)Lkik/core/interfaces/IConversation;
 
     move-result-object v0
 
@@ -68,13 +68,13 @@
     if-eqz v0, :cond_0
 
     .line 1166
-    iget-object v1, p0, Lkik/android/KikNotificationHandler$1;->a:Lkik/android/KikNotificationHandler;
+    iget-object v1, p0, Lkik/arcane/KikNotificationHandler$1;->a:Lkik/arcane/KikNotificationHandler;
 
     invoke-virtual {v0}, Lkik/core/datatypes/f;->q()Z
 
     move-result v0
 
-    invoke-virtual {v1, v0}, Lkik/android/KikNotificationHandler;->a(Z)V
+    invoke-virtual {v1, v0}, Lkik/arcane/KikNotificationHandler;->a(Z)V
 
     .line 157
     :cond_0

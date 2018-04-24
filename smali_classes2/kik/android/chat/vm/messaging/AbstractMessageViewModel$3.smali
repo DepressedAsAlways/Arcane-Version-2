@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/vm/messaging/AbstractMessageViewModel$3;
+.class final Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$3;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/messaging/AbstractMessageViewModel;
+    value = Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/messaging/AbstractMessageViewModel;
+.field final synthetic a:Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/messaging/AbstractMessageViewModel;)V
+.method constructor <init>(Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;)V
     .locals 0
 
     .prologue
     .line 641
-    iput-object p1, p0, Lkik/android/chat/vm/messaging/AbstractMessageViewModel$3;->a:Lkik/android/chat/vm/messaging/AbstractMessageViewModel;
+    iput-object p1, p0, Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$3;->a:Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -58,9 +58,9 @@
 
     .prologue
     .line 651
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/AbstractMessageViewModel$3;->a:Lkik/android/chat/vm/messaging/AbstractMessageViewModel;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$3;->a:Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;
 
-    iget-object v0, v0, Lkik/android/chat/vm/messaging/AbstractMessageViewModel;->m:Landroid/content/res/Resources;
+    iget-object v0, v0, Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;->m:Landroid/content/res/Resources;
 
     invoke-static {v0, p1, p2}, Lcom/kik/cache/d;->a(Landroid/content/res/Resources;II)Landroid/graphics/Bitmap;
 
@@ -80,7 +80,7 @@
 
     .prologue
     .line 645
-    invoke-direct {p0, p1, p2}, Lkik/android/chat/vm/messaging/AbstractMessageViewModel$3;->b(II)Lrx/d;
+    invoke-direct {p0, p1, p2}, Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$3;->b(II)Lrx/d;
 
     move-result-object v0
 
@@ -92,7 +92,7 @@
 
     .prologue
     .line 641
-    invoke-direct {p0, p1, p2}, Lkik/android/chat/vm/messaging/AbstractMessageViewModel$3;->b(II)Lrx/d;
+    invoke-direct {p0, p1, p2}, Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$3;->b(II)Lrx/d;
 
     move-result-object v0
 

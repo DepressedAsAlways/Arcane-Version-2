@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/KikAddToBlockFragment$1;
+.class final Lkik/arcane/chat/fragment/KikAddToBlockFragment$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikAddToBlockFragment;
+    value = Lkik/arcane/chat/fragment/KikAddToBlockFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikAddToBlockFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikAddToBlockFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikAddToBlockFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikAddToBlockFragment;)V
     .locals 0
 
     .prologue
     .line 41
-    iput-object p1, p0, Lkik/android/chat/fragment/KikAddToBlockFragment$1;->a:Lkik/android/chat/fragment/KikAddToBlockFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikAddToBlockFragment$1;->a:Lkik/arcane/chat/fragment/KikAddToBlockFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -79,9 +79,9 @@
     move-result-object v0
 
     .line 49
-    iget-object v2, p0, Lkik/android/chat/fragment/KikAddToBlockFragment$1;->a:Lkik/android/chat/fragment/KikAddToBlockFragment;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/KikAddToBlockFragment$1;->a:Lkik/arcane/chat/fragment/KikAddToBlockFragment;
 
-    invoke-static {v2, v1, v0}, Lkik/android/chat/fragment/KikAddToBlockFragment;->a(Lkik/android/chat/fragment/KikAddToBlockFragment;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v2, v1, v0}, Lkik/arcane/chat/fragment/KikAddToBlockFragment;->a(Lkik/arcane/chat/fragment/KikAddToBlockFragment;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 50
     return-void

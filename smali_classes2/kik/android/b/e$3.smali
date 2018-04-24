@@ -1,11 +1,11 @@
-.class final Lkik/android/b/e$3;
+.class final Lkik/arcane/b/e$3;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/b/e;->a(IILjava/util/List;ZLjava/util/List;)Lcom/kik/events/Promise;
+    value = Lkik/arcane/b/e;->a(IILjava/util/List;ZLjava/util/List;)Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,20 +28,20 @@
 
 .field final synthetic b:Lcom/kik/events/Promise;
 
-.field final synthetic c:Lkik/android/b/e;
+.field final synthetic c:Lkik/arcane/b/e;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/b/e;Ljava/util/List;Lcom/kik/events/Promise;)V
+.method constructor <init>(Lkik/arcane/b/e;Ljava/util/List;Lcom/kik/events/Promise;)V
     .locals 0
 
     .prologue
     .line 262
-    iput-object p1, p0, Lkik/android/b/e$3;->c:Lkik/android/b/e;
+    iput-object p1, p0, Lkik/arcane/b/e$3;->c:Lkik/arcane/b/e;
 
-    iput-object p2, p0, Lkik/android/b/e$3;->a:Ljava/util/List;
+    iput-object p2, p0, Lkik/arcane/b/e$3;->a:Ljava/util/List;
 
-    iput-object p3, p0, Lkik/android/b/e$3;->b:Lcom/kik/events/Promise;
+    iput-object p3, p0, Lkik/arcane/b/e$3;->b:Lcom/kik/events/Promise;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -88,7 +88,7 @@
     check-cast v0, Lcom/kik/cards/util/UserDataParcelable;
 
     .line 1272
-    iget-object v5, p0, Lkik/android/b/e$3;->a:Ljava/util/List;
+    iget-object v5, p0, Lkik/arcane/b/e$3;->a:Ljava/util/List;
 
     iget-object v6, v0, Lcom/kik/cards/util/UserDataParcelable;->a:Ljava/lang/String;
 
@@ -114,7 +114,7 @@
 
     .line 1278
     :cond_1
-    iget-object v0, p0, Lkik/android/b/e$3;->b:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/b/e$3;->b:Lcom/kik/events/Promise;
 
     invoke-virtual {v0, v2}, Lcom/kik/events/Promise;->a(Ljava/lang/Object;)V
 
@@ -123,7 +123,7 @@
 
     .line 1281
     :cond_2
-    iget-object v0, p0, Lkik/android/b/e$3;->b:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/b/e$3;->b:Lcom/kik/events/Promise;
 
     invoke-virtual {v0}, Lcom/kik/events/Promise;->f()V
 
@@ -135,7 +135,7 @@
 
     .prologue
     .line 294
-    iget-object v0, p0, Lkik/android/b/e$3;->b:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/b/e$3;->b:Lcom/kik/events/Promise;
 
     invoke-virtual {v0, p1}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 
@@ -148,7 +148,7 @@
 
     .prologue
     .line 288
-    iget-object v0, p0, Lkik/android/b/e$3;->b:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/b/e$3;->b:Lcom/kik/events/Promise;
 
     invoke-virtual {v0}, Lcom/kik/events/Promise;->f()V
 

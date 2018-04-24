@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/profile/profileactionvm/aa;
+.class final synthetic Lkik/arcane/chat/vm/profile/profileactionvm/aa;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/vm/profile/profileactionvm/aa;
+.field private static final a:Lkik/arcane/chat/vm/profile/profileactionvm/aa;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/profile/profileactionvm/aa;
+    new-instance v0, Lkik/arcane/chat/vm/profile/profileactionvm/aa;
 
-    invoke-direct {v0}, Lkik/android/chat/vm/profile/profileactionvm/aa;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/vm/profile/profileactionvm/aa;-><init>()V
 
-    sput-object v0, Lkik/android/chat/vm/profile/profileactionvm/aa;->a:Lkik/android/chat/vm/profile/profileactionvm/aa;
+    sput-object v0, Lkik/arcane/chat/vm/profile/profileactionvm/aa;->a:Lkik/arcane/chat/vm/profile/profileactionvm/aa;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Ljava/lang/Runnable;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/vm/profile/profileactionvm/aa;->a:Lkik/android/chat/vm/profile/profileactionvm/aa;
+    sget-object v0, Lkik/arcane/chat/vm/profile/profileactionvm/aa;->a:Lkik/arcane/chat/vm/profile/profileactionvm/aa;
 
     return-object v0
 .end method

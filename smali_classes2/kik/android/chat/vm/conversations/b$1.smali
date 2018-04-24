@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/vm/conversations/b$1;
+.class final Lkik/arcane/chat/vm/conversations/b$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/conversations/b;->f()V
+    value = Lkik/arcane/chat/vm/conversations/b;->f()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/conversations/b;
+.field final synthetic a:Lkik/arcane/chat/vm/conversations/b;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/conversations/b;)V
+.method constructor <init>(Lkik/arcane/chat/vm/conversations/b;)V
     .locals 0
 
     .prologue
     .line 58
-    iput-object p1, p0, Lkik/android/chat/vm/conversations/b$1;->a:Lkik/android/chat/vm/conversations/b;
+    iput-object p1, p0, Lkik/arcane/chat/vm/conversations/b$1;->a:Lkik/arcane/chat/vm/conversations/b;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -50,9 +50,9 @@
     check-cast p1, Ljava/lang/Boolean;
 
     .line 1062
-    iget-object v0, p0, Lkik/android/chat/vm/conversations/b$1;->a:Lkik/android/chat/vm/conversations/b;
+    iget-object v0, p0, Lkik/arcane/chat/vm/conversations/b$1;->a:Lkik/arcane/chat/vm/conversations/b;
 
-    iget-object v0, v0, Lkik/android/chat/vm/conversations/b;->d:Lrx/subjects/a;
+    iget-object v0, v0, Lkik/arcane/chat/vm/conversations/b;->d:Lrx/subjects/a;
 
     invoke-virtual {v0, p1}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 

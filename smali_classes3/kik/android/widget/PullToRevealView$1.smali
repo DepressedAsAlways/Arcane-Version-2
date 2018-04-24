@@ -1,14 +1,14 @@
-.class final Lkik/android/widget/PullToRevealView$1;
+.class final Lkik/arcane/widget/PullToRevealView$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/widget/PullToRevealView$b;
+.implements Lkik/arcane/widget/PullToRevealView$b;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/PullToRevealView;->c()V
+    value = Lkik/arcane/widget/PullToRevealView;->c()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/PullToRevealView;
+.field final synthetic a:Lkik/arcane/widget/PullToRevealView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/PullToRevealView;)V
+.method constructor <init>(Lkik/arcane/widget/PullToRevealView;)V
     .locals 0
 
     .prologue
     .line 160
-    iput-object p1, p0, Lkik/android/widget/PullToRevealView$1;->a:Lkik/android/widget/PullToRevealView;
+    iput-object p1, p0, Lkik/arcane/widget/PullToRevealView$1;->a:Lkik/arcane/widget/PullToRevealView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,9 +41,9 @@
 
     .prologue
     .line 164
-    iget-object v0, p0, Lkik/android/widget/PullToRevealView$1;->a:Lkik/android/widget/PullToRevealView;
+    iget-object v0, p0, Lkik/arcane/widget/PullToRevealView$1;->a:Lkik/arcane/widget/PullToRevealView;
 
-    invoke-static {v0}, Lkik/android/widget/PullToRevealView;->a(Lkik/android/widget/PullToRevealView;)Landroid/view/View;
+    invoke-static {v0}, Lkik/arcane/widget/PullToRevealView;->a(Lkik/arcane/widget/PullToRevealView;)Landroid/view/View;
 
     move-result-object v0
 

@@ -1,9 +1,9 @@
-.class public final Lkik/android/challenge/b;
+.class public final Lkik/arcane/challenge/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/challenge/PhoneVerificationNetworkProvider;
+.implements Lkik/arcane/challenge/PhoneVerificationNetworkProvider;
 
 
 # instance fields
@@ -23,16 +23,16 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 24
-    iput-object p1, p0, Lkik/android/challenge/b;->a:Lkik/core/interfaces/ICommunication;
+    iput-object p1, p0, Lkik/arcane/challenge/b;->a:Lkik/core/interfaces/ICommunication;
 
     .line 25
-    iput-object p2, p0, Lkik/android/challenge/b;->b:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/challenge/b;->b:Ljava/lang/String;
 
     .line 26
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/challenge/b;Lkik/core/net/outgoing/PhoneVerificationInitiationRequest;Lcom/kik/events/Promise;)V
+.method static synthetic a(Lkik/arcane/challenge/b;Lkik/core/net/outgoing/PhoneVerificationInitiationRequest;Lcom/kik/events/Promise;)V
     .locals 4
 
     .prologue
@@ -42,18 +42,18 @@
     move-result-object v0
 
     .line 1100
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
     .line 1101
-    new-instance v0, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;
+    new-instance v0, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;-><init>(I)V
+    invoke-direct {v0, v1}, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;-><init>(I)V
 
     invoke-virtual {p2, v0}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 
@@ -72,7 +72,7 @@
     if-ne v1, v2, :cond_1
 
     .line 1104
-    invoke-static {p1, p2}, Lkik/android/challenge/b;->b(Lkik/core/net/outgoing/PhoneVerificationInitiationRequest;Lcom/kik/events/Promise;)V
+    invoke-static {p1, p2}, Lkik/arcane/challenge/b;->b(Lkik/core/net/outgoing/PhoneVerificationInitiationRequest;Lcom/kik/events/Promise;)V
 
     goto :goto_0
 
@@ -82,7 +82,7 @@
 
     move-result-wide v2
 
-    iput-wide v2, p0, Lkik/android/challenge/b;->c:J
+    iput-wide v2, p0, Lkik/arcane/challenge/b;->c:J
 
     .line 1108
     invoke-virtual {p2, v0}, Lcom/kik/events/Promise;->a(Ljava/lang/Object;)V
@@ -95,7 +95,7 @@
 
     .prologue
     .line 16
-    invoke-static {p0, p1}, Lkik/android/challenge/b;->b(Lkik/core/net/outgoing/PhoneVerificationInitiationRequest;Lcom/kik/events/Promise;)V
+    invoke-static {p0, p1}, Lkik/arcane/challenge/b;->b(Lkik/core/net/outgoing/PhoneVerificationInitiationRequest;Lcom/kik/events/Promise;)V
 
     return-void
 .end method
@@ -111,18 +111,18 @@
     move-result-object v0
 
     .line 1131
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
     .line 1132
-    new-instance v0, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;
+    new-instance v0, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;-><init>(I)V
+    invoke-direct {v0, v1}, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;-><init>(I)V
 
     invoke-virtual {p1, v0}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 
@@ -141,7 +141,7 @@
     if-ne v1, v2, :cond_1
 
     .line 1135
-    invoke-static {p0, p1}, Lkik/android/challenge/b;->c(Lkik/core/net/outgoing/PhoneVerificationVerifyCodeRequest;Lcom/kik/events/Promise;)V
+    invoke-static {p0, p1}, Lkik/arcane/challenge/b;->c(Lkik/core/net/outgoing/PhoneVerificationVerifyCodeRequest;Lcom/kik/events/Promise;)V
 
     goto :goto_0
 
@@ -174,11 +174,11 @@
     sparse-switch v0, :sswitch_data_0
 
     .line 123
-    new-instance v0, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;
+    new-instance v0, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;-><init>(I)V
+    invoke-direct {v0, v1}, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;-><init>(I)V
 
     invoke-virtual {p1, v0}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 
@@ -188,11 +188,11 @@
 
     .line 116
     :sswitch_0
-    new-instance v0, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;
+    new-instance v0, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;
 
     const/16 v1, 0x190
 
-    invoke-direct {v0, v1}, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;-><init>(I)V
+    invoke-direct {v0, v1}, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;-><init>(I)V
 
     invoke-virtual {p1, v0}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 
@@ -200,11 +200,11 @@
 
     .line 119
     :sswitch_1
-    new-instance v0, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;
+    new-instance v0, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;
 
     const/16 v1, 0x1f4
 
-    invoke-direct {v0, v1}, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;-><init>(I)V
+    invoke-direct {v0, v1}, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;-><init>(I)V
 
     invoke-virtual {p1, v0}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 
@@ -225,7 +225,7 @@
 
     .prologue
     .line 16
-    invoke-static {p0, p1}, Lkik/android/challenge/b;->c(Lkik/core/net/outgoing/PhoneVerificationVerifyCodeRequest;Lcom/kik/events/Promise;)V
+    invoke-static {p0, p1}, Lkik/arcane/challenge/b;->c(Lkik/core/net/outgoing/PhoneVerificationVerifyCodeRequest;Lcom/kik/events/Promise;)V
 
     return-void
 .end method
@@ -252,11 +252,11 @@
     sparse-switch v0, :sswitch_data_0
 
     .line 156
-    new-instance v0, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;
+    new-instance v0, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;-><init>(I)V
+    invoke-direct {v0, v1}, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;-><init>(I)V
 
     invoke-virtual {p1, v0}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 
@@ -266,11 +266,11 @@
 
     .line 146
     :sswitch_0
-    new-instance v0, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;
+    new-instance v0, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;
 
     const/16 v1, 0x191
 
-    invoke-direct {v0, v1}, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;-><init>(I)V
+    invoke-direct {v0, v1}, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;-><init>(I)V
 
     invoke-virtual {p1, v0}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 
@@ -278,11 +278,11 @@
 
     .line 149
     :sswitch_1
-    new-instance v0, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;
+    new-instance v0, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;
 
     const/16 v1, 0x190
 
-    invoke-direct {v0, v1}, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;-><init>(I)V
+    invoke-direct {v0, v1}, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;-><init>(I)V
 
     invoke-virtual {p1, v0}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 
@@ -290,11 +290,11 @@
 
     .line 152
     :sswitch_2
-    new-instance v0, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;
+    new-instance v0, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;
 
     const/16 v1, 0x1f4
 
-    invoke-direct {v0, v1}, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;-><init>(I)V
+    invoke-direct {v0, v1}, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;-><init>(I)V
 
     invoke-virtual {p1, v0}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 
@@ -323,7 +323,7 @@
     move-result-wide v0
 
     .line 82
-    iget-wide v2, p0, Lkik/android/challenge/b;->c:J
+    iget-wide v2, p0, Lkik/arcane/challenge/b;->c:J
 
     sub-long/2addr v0, v2
 
@@ -364,7 +364,7 @@
     .line 58
     new-instance v0, Lkik/core/net/outgoing/PhoneVerificationVerifyCodeRequest;
 
-    iget-object v1, p0, Lkik/android/challenge/b;->b:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/challenge/b;->b:Ljava/lang/String;
 
     invoke-direct {v0, p1, p2, v1}, Lkik/core/net/outgoing/PhoneVerificationVerifyCodeRequest;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
@@ -374,15 +374,15 @@
     invoke-direct {v1}, Lcom/kik/events/Promise;-><init>()V
 
     .line 60
-    iget-object v2, p0, Lkik/android/challenge/b;->a:Lkik/core/interfaces/ICommunication;
+    iget-object v2, p0, Lkik/arcane/challenge/b;->a:Lkik/core/interfaces/ICommunication;
 
     invoke-interface {v2, v0}, Lkik/core/interfaces/ICommunication;->a(Lkik/core/net/outgoing/j;)Lcom/kik/events/Promise;
 
     move-result-object v2
 
-    new-instance v3, Lkik/android/challenge/b$2;
+    new-instance v3, Lkik/arcane/challenge/b$2;
 
-    invoke-direct {v3, p0, v1, v0}, Lkik/android/challenge/b$2;-><init>(Lkik/android/challenge/b;Lcom/kik/events/Promise;Lkik/core/net/outgoing/PhoneVerificationVerifyCodeRequest;)V
+    invoke-direct {v3, p0, v1, v0}, Lkik/arcane/challenge/b$2;-><init>(Lkik/arcane/challenge/b;Lcom/kik/events/Promise;Lkik/core/net/outgoing/PhoneVerificationVerifyCodeRequest;)V
 
     invoke-virtual {v2, v3}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -390,12 +390,12 @@
     return-object v1
 .end method
 
-.method public final a(Lkik/android/challenge/PhoneNumberModel;)Lcom/kik/events/Promise;
+.method public final a(Lkik/arcane/challenge/PhoneNumberModel;)Lcom/kik/events/Promise;
     .locals 4
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/challenge/PhoneNumberModel;",
+            "Lkik/arcane/challenge/PhoneNumberModel;",
             ")",
             "Lcom/kik/events/Promise",
             "<",
@@ -406,7 +406,7 @@
 
     .prologue
     .line 31
-    invoke-virtual {p0}, Lkik/android/challenge/b;->a()J
+    invoke-virtual {p0}, Lkik/arcane/challenge/b;->a()J
 
     move-result-wide v0
 
@@ -417,11 +417,11 @@
     if-lez v0, :cond_0
 
     .line 32
-    new-instance v0, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;
+    new-instance v0, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;
 
     const/4 v1, 0x2
 
-    invoke-direct {v0, v1}, Lkik/android/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;-><init>(I)V
+    invoke-direct {v0, v1}, Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;-><init>(I)V
 
     invoke-static {v0}, Lcom/kik/events/l;->a(Ljava/lang/Throwable;)Lcom/kik/events/Promise;
 
@@ -435,7 +435,7 @@
     :cond_0
     new-instance v1, Lkik/core/net/outgoing/PhoneVerificationInitiationRequest;
 
-    invoke-virtual {p1}, Lkik/android/challenge/PhoneNumberModel;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lkik/arcane/challenge/PhoneNumberModel;->b()Ljava/lang/String;
 
     move-result-object v0
 
@@ -443,17 +443,17 @@
 
     move-result-object v0
 
-    invoke-virtual {p1}, Lkik/android/challenge/PhoneNumberModel;->a()Lkik/android/challenge/CountryCode;
+    invoke-virtual {p1}, Lkik/arcane/challenge/PhoneNumberModel;->a()Lkik/arcane/challenge/CountryCode;
 
     move-result-object v2
 
-    iget v2, v2, Lkik/android/challenge/CountryCode;->c:I
+    iget v2, v2, Lkik/arcane/challenge/CountryCode;->c:I
 
     invoke-static {v2}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v2
 
-    iget-object v3, p0, Lkik/android/challenge/b;->b:Ljava/lang/String;
+    iget-object v3, p0, Lkik/arcane/challenge/b;->b:Ljava/lang/String;
 
     invoke-direct {v1, v0, v2, v3}, Lkik/core/net/outgoing/PhoneVerificationInitiationRequest;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
@@ -463,15 +463,15 @@
     invoke-direct {v0}, Lcom/kik/events/Promise;-><init>()V
 
     .line 36
-    iget-object v2, p0, Lkik/android/challenge/b;->a:Lkik/core/interfaces/ICommunication;
+    iget-object v2, p0, Lkik/arcane/challenge/b;->a:Lkik/core/interfaces/ICommunication;
 
     invoke-interface {v2, v1}, Lkik/core/interfaces/ICommunication;->a(Lkik/core/net/outgoing/j;)Lcom/kik/events/Promise;
 
     move-result-object v2
 
-    new-instance v3, Lkik/android/challenge/b$1;
+    new-instance v3, Lkik/arcane/challenge/b$1;
 
-    invoke-direct {v3, p0, v0, v1}, Lkik/android/challenge/b$1;-><init>(Lkik/android/challenge/b;Lcom/kik/events/Promise;Lkik/core/net/outgoing/PhoneVerificationInitiationRequest;)V
+    invoke-direct {v3, p0, v0, v1}, Lkik/arcane/challenge/b$1;-><init>(Lkik/arcane/challenge/b;Lcom/kik/events/Promise;Lkik/core/net/outgoing/PhoneVerificationInitiationRequest;)V
 
     invoke-virtual {v2, v3}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -485,7 +485,7 @@
     .line 94
     const-wide/16 v0, 0x0
 
-    iput-wide v0, p0, Lkik/android/challenge/b;->c:J
+    iput-wide v0, p0, Lkik/arcane/challenge/b;->c:J
 
     .line 95
     return-void

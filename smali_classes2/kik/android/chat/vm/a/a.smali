@@ -1,15 +1,15 @@
-.class public Lkik/android/chat/vm/a/a;
-.super Lkik/android/chat/vm/e;
+.class public Lkik/arcane/chat/vm/a/a;
+.super Lkik/arcane/chat/vm/e;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/a/e;
+.implements Lkik/arcane/chat/vm/a/e;
 
 
 # instance fields
 .field private final a:Lkik/core/datatypes/l;
 
-.field private b:Lkik/android/chat/vm/IBadgeViewModel;
+.field private b:Lkik/arcane/chat/vm/IBadgeViewModel;
 
 
 # direct methods
@@ -18,10 +18,10 @@
 
     .prologue
     .line 21
-    invoke-direct {p0}, Lkik/android/chat/vm/e;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/e;-><init>()V
 
     .line 22
-    iput-object p1, p0, Lkik/android/chat/vm/a/a;->a:Lkik/core/datatypes/l;
+    iput-object p1, p0, Lkik/arcane/chat/vm/a/a;->a:Lkik/core/datatypes/l;
 
     .line 23
     return-void
@@ -29,15 +29,15 @@
 
 
 # virtual methods
-.method public final a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+.method public final a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
     .locals 3
 
     .prologue
     .line 34
-    invoke-super {p0, p1, p2}, Lkik/android/chat/vm/e;->a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+    invoke-super {p0, p1, p2}, Lkik/arcane/chat/vm/e;->a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
 
     .line 36
-    iget-object v0, p0, Lkik/android/chat/vm/a/a;->a:Lkik/core/datatypes/l;
+    iget-object v0, p0, Lkik/arcane/chat/vm/a/a;->a:Lkik/core/datatypes/l;
 
     invoke-virtual {v0}, Lkik/core/datatypes/l;->f()Z
 
@@ -45,7 +45,7 @@
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/vm/a/a;->a:Lkik/core/datatypes/l;
+    iget-object v0, p0, Lkik/arcane/chat/vm/a/a;->a:Lkik/core/datatypes/l;
 
     invoke-virtual {v0}, Lkik/core/datatypes/l;->o()Z
 
@@ -61,24 +61,24 @@
     if-eqz v0, :cond_1
 
     .line 38
-    new-instance v0, Lkik/android/chat/vm/profile/r;
+    new-instance v0, Lkik/arcane/chat/vm/profile/r;
 
-    iget-object v1, p0, Lkik/android/chat/vm/a/a;->a:Lkik/core/datatypes/l;
+    iget-object v1, p0, Lkik/arcane/chat/vm/a/a;->a:Lkik/core/datatypes/l;
 
     invoke-virtual {v1}, Lkik/core/datatypes/l;->a()Lcom/kik/core/network/xmpp/jid/a;
 
     move-result-object v1
 
-    sget-object v2, Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;->BADGE_SIZE_SMALL:Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;
+    sget-object v2, Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;->BADGE_SIZE_SMALL:Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;
 
-    invoke-direct {v0, v1, v2}, Lkik/android/chat/vm/profile/r;-><init>(Lcom/kik/core/network/xmpp/jid/a;Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;)V
+    invoke-direct {v0, v1, v2}, Lkik/arcane/chat/vm/profile/r;-><init>(Lcom/kik/core/network/xmpp/jid/a;Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;)V
 
-    iput-object v0, p0, Lkik/android/chat/vm/a/a;->b:Lkik/android/chat/vm/IBadgeViewModel;
+    iput-object v0, p0, Lkik/arcane/chat/vm/a/a;->b:Lkik/arcane/chat/vm/IBadgeViewModel;
 
     .line 39
-    iget-object v0, p0, Lkik/android/chat/vm/a/a;->b:Lkik/android/chat/vm/IBadgeViewModel;
+    iget-object v0, p0, Lkik/arcane/chat/vm/a/a;->b:Lkik/arcane/chat/vm/IBadgeViewModel;
 
-    invoke-interface {v0, p1, p2}, Lkik/android/chat/vm/IBadgeViewModel;->a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+    invoke-interface {v0, p1, p2}, Lkik/arcane/chat/vm/IBadgeViewModel;->a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
 
     .line 41
     :cond_1
@@ -96,7 +96,7 @@
 
     .prologue
     .line 28
-    iget-object v0, p0, Lkik/android/chat/vm/a/a;->a:Lkik/core/datatypes/l;
+    iget-object v0, p0, Lkik/arcane/chat/vm/a/a;->a:Lkik/core/datatypes/l;
 
     invoke-virtual {v0}, Lkik/core/datatypes/l;->a()Lcom/kik/core/network/xmpp/jid/a;
 
@@ -120,18 +120,18 @@
 
     .prologue
     .line 46
-    iget-object v0, p0, Lkik/android/chat/vm/a/a;->b:Lkik/android/chat/vm/IBadgeViewModel;
+    iget-object v0, p0, Lkik/arcane/chat/vm/a/a;->b:Lkik/arcane/chat/vm/IBadgeViewModel;
 
     if-eqz v0, :cond_0
 
     .line 47
-    iget-object v0, p0, Lkik/android/chat/vm/a/a;->b:Lkik/android/chat/vm/IBadgeViewModel;
+    iget-object v0, p0, Lkik/arcane/chat/vm/a/a;->b:Lkik/arcane/chat/vm/IBadgeViewModel;
 
-    invoke-interface {v0}, Lkik/android/chat/vm/IBadgeViewModel;->al_()V
+    invoke-interface {v0}, Lkik/arcane/chat/vm/IBadgeViewModel;->al_()V
 
     .line 49
     :cond_0
-    invoke-super {p0}, Lkik/android/chat/vm/e;->al_()V
+    invoke-super {p0}, Lkik/arcane/chat/vm/e;->al_()V
 
     .line 50
     return-void
@@ -142,17 +142,17 @@
 
     .prologue
     .line 55
-    iget-object v0, p0, Lkik/android/chat/vm/a/a;->a:Lkik/core/datatypes/l;
+    iget-object v0, p0, Lkik/arcane/chat/vm/a/a;->a:Lkik/core/datatypes/l;
 
     return-object v0
 .end method
 
-.method public final d()Lkik/android/chat/vm/IBadgeViewModel;
+.method public final d()Lkik/arcane/chat/vm/IBadgeViewModel;
     .locals 1
 
     .prologue
     .line 61
-    iget-object v0, p0, Lkik/android/chat/vm/a/a;->b:Lkik/android/chat/vm/IBadgeViewModel;
+    iget-object v0, p0, Lkik/arcane/chat/vm/a/a;->b:Lkik/arcane/chat/vm/IBadgeViewModel;
 
     return-object v0
 .end method

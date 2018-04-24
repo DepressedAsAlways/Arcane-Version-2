@@ -1,16 +1,16 @@
-.class public interface abstract Lkik/android/chat/vm/az;
+.class public interface abstract Lkik/arcane/chat/vm/az;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/bu;
+.implements Lkik/arcane/chat/vm/bu;
 
 
 # virtual methods
 .method public abstract a()V
 .end method
 
-.method public abstract a(Lkik/android/chat/presentation/MediaTrayPresenter;)V
+.method public abstract a(Lkik/arcane/chat/presentation/MediaTrayPresenter;)V
 .end method
 
 .method public abstract b()V

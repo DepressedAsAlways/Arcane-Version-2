@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$2;
+.class final Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding$2;
 .super Lbutterknife/internal/DebouncingOnClickListener;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;-><init>(Lkik/android/chat/fragment/UserProfileFragment;Landroid/view/View;)V
+    value = Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;-><init>(Lkik/arcane/chat/fragment/UserProfileFragment;Landroid/view/View;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,20 +15,20 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/UserProfileFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/UserProfileFragment;
 
-.field final synthetic b:Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;
+.field final synthetic b:Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;Lkik/android/chat/fragment/UserProfileFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;Lkik/arcane/chat/fragment/UserProfileFragment;)V
     .locals 0
 
     .prologue
     .line 50
-    iput-object p1, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$2;->b:Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding$2;->b:Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;
 
-    iput-object p2, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$2;->a:Lkik/android/chat/fragment/UserProfileFragment;
+    iput-object p2, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding$2;->a:Lkik/arcane/chat/fragment/UserProfileFragment;
 
     invoke-direct {p0}, Lbutterknife/internal/DebouncingOnClickListener;-><init>()V
 
@@ -42,9 +42,9 @@
 
     .prologue
     .line 53
-    iget-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$2;->a:Lkik/android/chat/fragment/UserProfileFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding$2;->a:Lkik/arcane/chat/fragment/UserProfileFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/UserProfileFragment;->onKikCodeTapped()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/UserProfileFragment;->onKikCodeTapped()V
 
     .line 54
     return-void

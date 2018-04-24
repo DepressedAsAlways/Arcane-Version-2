@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/ce;
+.class public final Lkik/arcane/util/ce;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -14,7 +14,7 @@
     .line 31
     const v0, 0x7f0900fd
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -25,7 +25,7 @@
     :pswitch_0
     const v0, 0x7f0900fe
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -47,7 +47,7 @@
     .line 37
     const/16 v0, 0x67
 
-    invoke-static {v0}, Lkik/android/util/ce;->a(I)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/ce;->a(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -68,7 +68,7 @@
     packed-switch v0, :pswitch_data_0
 
     .line 46
-    invoke-static {v0}, Lkik/android/util/ce;->a(I)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/ce;->a(I)Ljava/lang/String;
 
     move-result-object v0
 

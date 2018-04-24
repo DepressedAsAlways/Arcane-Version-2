@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/KikCodeFragment$4$1;
+.class final Lkik/arcane/chat/fragment/KikCodeFragment$4$1;
 .super Landroid/animation/AnimatorListenerAdapter;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/KikCodeFragment$4;->run()V
+    value = Lkik/arcane/chat/fragment/KikCodeFragment$4;->run()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikCodeFragment$4;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikCodeFragment$4;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikCodeFragment$4;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikCodeFragment$4;)V
     .locals 0
 
     .prologue
     .line 516
-    iput-object p1, p0, Lkik/android/chat/fragment/KikCodeFragment$4$1;->a:Lkik/android/chat/fragment/KikCodeFragment$4;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikCodeFragment$4$1;->a:Lkik/arcane/chat/fragment/KikCodeFragment$4;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
@@ -44,15 +44,15 @@
 
     const/4 v1, 0x0
 
-    iget-object v2, p0, Lkik/android/chat/fragment/KikCodeFragment$4$1;->a:Lkik/android/chat/fragment/KikCodeFragment$4;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/KikCodeFragment$4$1;->a:Lkik/arcane/chat/fragment/KikCodeFragment$4;
 
-    iget-object v2, v2, Lkik/android/chat/fragment/KikCodeFragment$4;->a:Lkik/android/chat/fragment/KikCodeFragment;
+    iget-object v2, v2, Lkik/arcane/chat/fragment/KikCodeFragment$4;->a:Lkik/arcane/chat/fragment/KikCodeFragment;
 
-    iget-object v2, v2, Lkik/android/chat/fragment/KikCodeFragment;->_fakeCode:Lkik/android/widget/KikCodeBackgroundImageView;
+    iget-object v2, v2, Lkik/arcane/chat/fragment/KikCodeFragment;->_fakeCode:Lkik/arcane/widget/KikCodeBackgroundImageView;
 
     aput-object v2, v0, v1
 
-    invoke-static {v0}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     .line 521
     return-void

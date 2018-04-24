@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/fragment/KikThankYouDialogFragment$a;
-.super Lkik/android/chat/fragment/KikDialogFragment$a;
+.class public final Lkik/arcane/chat/fragment/KikThankYouDialogFragment$a;
+.super Lkik/arcane/chat/fragment/KikDialogFragment$a;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikThankYouDialogFragment;
+    value = Lkik/arcane/chat/fragment/KikThankYouDialogFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,11 +22,11 @@
     const/4 v1, 0x0
 
     .line 24
-    new-instance v0, Lkik/android/chat/fragment/KikThankYouDialogFragment;
+    new-instance v0, Lkik/arcane/chat/fragment/KikThankYouDialogFragment;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/KikThankYouDialogFragment;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/KikThankYouDialogFragment;-><init>()V
 
-    invoke-direct {p0, v0}, Lkik/android/chat/fragment/KikDialogFragment$a;-><init>(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/fragment/KikDialogFragment$a;-><init>(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 27
     const v0, 0x7f0400eb
@@ -35,12 +35,12 @@
 
     move-result-object v0
 
-    invoke-super {p0, v0}, Lkik/android/chat/fragment/KikDialogFragment$a;->a(Landroid/view/View;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-super {p0, v0}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a(Landroid/view/View;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     .line 28
     const v0, 0x7f0903f3
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/chat/fragment/KikThankYouDialogFragment$a;->a(ILandroid/content/DialogInterface$OnClickListener;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/chat/fragment/KikThankYouDialogFragment$a;->a(ILandroid/content/DialogInterface$OnClickListener;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     .line 29
     return-void
@@ -48,7 +48,7 @@
 
 
 # virtual methods
-.method public final a(Landroid/view/View;)Lkik/android/chat/fragment/KikDialogFragment$a;
+.method public final a(Landroid/view/View;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
     .locals 2
 
     .prologue

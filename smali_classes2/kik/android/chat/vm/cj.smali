@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/cj;
+.class final synthetic Lkik/arcane/chat/vm/cj;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/vm/DialogViewModel;
+.field private final a:Lkik/arcane/chat/vm/DialogViewModel;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/vm/DialogViewModel;)V
+.method private constructor <init>(Lkik/arcane/chat/vm/DialogViewModel;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/vm/cj;->a:Lkik/android/chat/vm/DialogViewModel;
+    iput-object p1, p0, Lkik/arcane/chat/vm/cj;->a:Lkik/arcane/chat/vm/DialogViewModel;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/vm/DialogViewModel;)Landroid/content/DialogInterface$OnClickListener;
+.method public static a(Lkik/arcane/chat/vm/DialogViewModel;)Landroid/content/DialogInterface$OnClickListener;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/cj;
+    new-instance v0, Lkik/arcane/chat/vm/cj;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/vm/cj;-><init>(Lkik/android/chat/vm/DialogViewModel;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/vm/cj;-><init>(Lkik/arcane/chat/vm/DialogViewModel;)V
 
     return-object v0
 .end method
@@ -37,10 +37,10 @@
 
     .prologue
     .line 0
-    iget-object v0, p0, Lkik/android/chat/vm/cj;->a:Lkik/android/chat/vm/DialogViewModel;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cj;->a:Lkik/arcane/chat/vm/DialogViewModel;
 
     .line 1733
-    invoke-virtual {v0}, Lkik/android/chat/vm/DialogViewModel;->j()Ljava/util/List;
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/DialogViewModel;->j()Ljava/util/List;
 
     move-result-object v0
 
@@ -56,10 +56,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/vm/DialogViewModel$a;
+    check-cast v0, Lkik/arcane/chat/vm/DialogViewModel$a;
 
     .line 1738
-    invoke-virtual {v0}, Lkik/android/chat/vm/DialogViewModel$a;->b()V
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/DialogViewModel$a;->b()V
 
     .line 0
     :cond_0

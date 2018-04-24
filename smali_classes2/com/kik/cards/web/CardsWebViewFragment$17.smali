@@ -47,26 +47,26 @@
     .line 850
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment$17;->b:Lcom/kik/cards/web/CardsWebViewFragment;
 
-    new-instance v1, Lkik/android/chat/fragment/ProgressDialogFragment;
+    new-instance v1, Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
     iget-object v2, p0, Lcom/kik/cards/web/CardsWebViewFragment$17;->a:Ljava/lang/String;
 
     const/4 v3, 0x0
 
-    invoke-direct {v1, v2, v3}, Lkik/android/chat/fragment/ProgressDialogFragment;-><init>(Ljava/lang/String;Z)V
+    invoke-direct {v1, v2, v3}, Lkik/arcane/chat/fragment/ProgressDialogFragment;-><init>(Ljava/lang/String;Z)V
 
-    invoke-static {v0, v1}, Lcom/kik/cards/web/CardsWebViewFragment;->a(Lcom/kik/cards/web/CardsWebViewFragment;Lkik/android/chat/fragment/ProgressDialogFragment;)Lkik/android/chat/fragment/ProgressDialogFragment;
+    invoke-static {v0, v1}, Lcom/kik/cards/web/CardsWebViewFragment;->a(Lcom/kik/cards/web/CardsWebViewFragment;Lkik/arcane/chat/fragment/ProgressDialogFragment;)Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
     .line 851
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment$17;->b:Lcom/kik/cards/web/CardsWebViewFragment;
 
     iget-object v1, p0, Lcom/kik/cards/web/CardsWebViewFragment$17;->b:Lcom/kik/cards/web/CardsWebViewFragment;
 
-    invoke-static {v1}, Lcom/kik/cards/web/CardsWebViewFragment;->r(Lcom/kik/cards/web/CardsWebViewFragment;)Lkik/android/chat/fragment/ProgressDialogFragment;
+    invoke-static {v1}, Lcom/kik/cards/web/CardsWebViewFragment;->r(Lcom/kik/cards/web/CardsWebViewFragment;)Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcom/kik/cards/web/CardsWebViewFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {v0, v1}, Lcom/kik/cards/web/CardsWebViewFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 852
     return-void

@@ -1,4 +1,4 @@
-.class final Lkik/android/videochat/VideoChatManager$5;
+.class final Lkik/arcane/videochat/VideoChatManager$5;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/videochat/VideoChatManager;->getProfilePictureFor(Ljava/lang/String;Ljava/lang/ref/WeakReference;)Lcom/rounds/kik/participants/ProfilePicture;
+    value = Lkik/arcane/videochat/VideoChatManager;->getProfilePictureFor(Ljava/lang/String;Ljava/lang/ref/WeakReference;)Lcom/rounds/kik/participants/ProfilePicture;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Ljava/lang/ref/WeakReference;
 
-.field final synthetic b:Lkik/android/videochat/VideoChatManager;
+.field final synthetic b:Lkik/arcane/videochat/VideoChatManager;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/videochat/VideoChatManager;Ljava/lang/ref/WeakReference;)V
+.method constructor <init>(Lkik/arcane/videochat/VideoChatManager;Ljava/lang/ref/WeakReference;)V
     .locals 0
 
     .prologue
     .line 535
-    iput-object p1, p0, Lkik/android/videochat/VideoChatManager$5;->b:Lkik/android/videochat/VideoChatManager;
+    iput-object p1, p0, Lkik/arcane/videochat/VideoChatManager$5;->b:Lkik/arcane/videochat/VideoChatManager;
 
-    iput-object p2, p0, Lkik/android/videochat/VideoChatManager$5;->a:Ljava/lang/ref/WeakReference;
+    iput-object p2, p0, Lkik/arcane/videochat/VideoChatManager$5;->a:Ljava/lang/ref/WeakReference;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,11 +45,11 @@
 
     .prologue
     .line 551
-    iget-object v0, p0, Lkik/android/videochat/VideoChatManager$5;->a:Ljava/lang/ref/WeakReference;
+    iget-object v0, p0, Lkik/arcane/videochat/VideoChatManager$5;->a:Ljava/lang/ref/WeakReference;
 
     const/4 v1, 0x0
 
-    invoke-static {v0, v1}, Lkik/android/videochat/VideoChatManager;->a(Ljava/lang/ref/WeakReference;Landroid/graphics/Bitmap;)V
+    invoke-static {v0, v1}, Lkik/arcane/videochat/VideoChatManager;->a(Ljava/lang/ref/WeakReference;Landroid/graphics/Bitmap;)V
 
     .line 552
     return-void
@@ -78,9 +78,9 @@
 
     .line 544
     :cond_1
-    iget-object v1, p0, Lkik/android/videochat/VideoChatManager$5;->a:Ljava/lang/ref/WeakReference;
+    iget-object v1, p0, Lkik/arcane/videochat/VideoChatManager$5;->a:Ljava/lang/ref/WeakReference;
 
-    invoke-static {v1, v0}, Lkik/android/videochat/VideoChatManager;->a(Ljava/lang/ref/WeakReference;Landroid/graphics/Bitmap;)V
+    invoke-static {v1, v0}, Lkik/arcane/videochat/VideoChatManager;->a(Ljava/lang/ref/WeakReference;Landroid/graphics/Bitmap;)V
 
     .line 546
     :cond_2

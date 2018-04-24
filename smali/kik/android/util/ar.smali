@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/ar;
+.class public final Lkik/arcane/util/ar;
 .super Lcom/kik/util/a;
 .source "SourceFile"
 
@@ -22,7 +22,7 @@
     invoke-direct {p0, p1}, Lcom/kik/util/a;-><init>(Landroid/content/Context;)V
 
     .line 19
-    invoke-direct {p0}, Lkik/android/util/ar;->g()V
+    invoke-direct {p0}, Lkik/arcane/util/ar;->g()V
 
     .line 20
     return-void
@@ -33,7 +33,7 @@
 
     .prologue
     .line 60
-    invoke-virtual {p0}, Lkik/android/util/ar;->b()Ljava/util/Properties;
+    invoke-virtual {p0}, Lkik/arcane/util/ar;->b()Ljava/util/Properties;
 
     move-result-object v0
 
@@ -47,7 +47,7 @@
 
     move-result-object v1
 
-    iput-object v1, p0, Lkik/android/util/ar;->a:Ljava/lang/String;
+    iput-object v1, p0, Lkik/arcane/util/ar;->a:Ljava/lang/String;
 
     .line 63
     const-string v1, "build_time"
@@ -56,7 +56,7 @@
 
     move-result-object v1
 
-    iput-object v1, p0, Lkik/android/util/ar;->b:Ljava/lang/String;
+    iput-object v1, p0, Lkik/arcane/util/ar;->b:Ljava/lang/String;
 
     .line 64
     const-string v1, "commit_hash"
@@ -65,7 +65,7 @@
 
     move-result-object v1
 
-    iput-object v1, p0, Lkik/android/util/ar;->c:Ljava/lang/String;
+    iput-object v1, p0, Lkik/arcane/util/ar;->c:Ljava/lang/String;
 
     .line 65
     const-string v1, "hostname"
@@ -74,7 +74,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/util/ar;->d:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/util/ar;->d:Ljava/lang/String;
 
     .line 67
     :cond_0
@@ -88,16 +88,16 @@
 
     .prologue
     .line 25
-    iget-object v0, p0, Lkik/android/util/ar;->a:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/util/ar;->a:Ljava/lang/String;
 
     if-nez v0, :cond_0
 
     .line 26
-    invoke-direct {p0}, Lkik/android/util/ar;->g()V
+    invoke-direct {p0}, Lkik/arcane/util/ar;->g()V
 
     .line 28
     :cond_0
-    iget-object v0, p0, Lkik/android/util/ar;->a:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/util/ar;->a:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -107,16 +107,16 @@
 
     .prologue
     .line 34
-    iget-object v0, p0, Lkik/android/util/ar;->b:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/util/ar;->b:Ljava/lang/String;
 
     if-nez v0, :cond_0
 
     .line 35
-    invoke-direct {p0}, Lkik/android/util/ar;->g()V
+    invoke-direct {p0}, Lkik/arcane/util/ar;->g()V
 
     .line 37
     :cond_0
-    iget-object v0, p0, Lkik/android/util/ar;->b:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/util/ar;->b:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -126,16 +126,16 @@
 
     .prologue
     .line 43
-    iget-object v0, p0, Lkik/android/util/ar;->d:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/util/ar;->d:Ljava/lang/String;
 
     if-nez v0, :cond_0
 
     .line 44
-    invoke-direct {p0}, Lkik/android/util/ar;->g()V
+    invoke-direct {p0}, Lkik/arcane/util/ar;->g()V
 
     .line 46
     :cond_0
-    iget-object v0, p0, Lkik/android/util/ar;->d:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/util/ar;->d:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -145,16 +145,16 @@
 
     .prologue
     .line 52
-    iget-object v0, p0, Lkik/android/util/ar;->c:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/util/ar;->c:Ljava/lang/String;
 
     if-nez v0, :cond_0
 
     .line 53
-    invoke-direct {p0}, Lkik/android/util/ar;->g()V
+    invoke-direct {p0}, Lkik/arcane/util/ar;->g()V
 
     .line 55
     :cond_0
-    iget-object v0, p0, Lkik/android/util/ar;->c:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/util/ar;->c:Ljava/lang/String;
 
     return-object v0
 .end method

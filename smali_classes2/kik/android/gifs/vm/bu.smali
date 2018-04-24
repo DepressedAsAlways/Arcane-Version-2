@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/gifs/vm/bu;
+.class public interface abstract Lkik/arcane/gifs/vm/bu;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -16,7 +16,7 @@
     .end annotation
 .end method
 
-.method public abstract a(Lkik/android/widget/GifTrayPage;)V
+.method public abstract a(Lkik/arcane/widget/GifTrayPage;)V
 .end method
 
 .method public abstract b()Lrx/d;

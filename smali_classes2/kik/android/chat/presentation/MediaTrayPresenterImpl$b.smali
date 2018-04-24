@@ -1,11 +1,11 @@
-.class public interface abstract Lkik/android/chat/presentation/MediaTrayPresenterImpl$b;
+.class public interface abstract Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    value = Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,10 +15,10 @@
 
 
 # virtual methods
-.method public abstract a(Lcom/kik/android/b/f;)V
+.method public abstract a(Lcom/kik/arcane/b/f;)V
 .end method
 
-.method public abstract a(Landroid/view/View;Lcom/kik/android/b/f;)Z
+.method public abstract a(Landroid/view/View;Lcom/kik/arcane/b/f;)Z
 .end method
 
 .method public abstract d()V

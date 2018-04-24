@@ -1,4 +1,4 @@
-.class public Lkik/android/chat/fragment/KikGranReportDialogFragment_ViewBinding;
+.class public Lkik/arcane/chat/fragment/KikGranReportDialogFragment_ViewBinding;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -7,11 +7,11 @@
 
 
 # instance fields
-.field private a:Lkik/android/chat/fragment/KikGranReportDialogFragment;
+.field private a:Lkik/arcane/chat/fragment/KikGranReportDialogFragment;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/chat/fragment/KikGranReportDialogFragment;Landroid/view/View;)V
+.method public constructor <init>(Lkik/arcane/chat/fragment/KikGranReportDialogFragment;Landroid/view/View;)V
     .locals 3
 
     .prologue
@@ -19,7 +19,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 19
-    iput-object p1, p0, Lkik/android/chat/fragment/KikGranReportDialogFragment_ViewBinding;->a:Lkik/android/chat/fragment/KikGranReportDialogFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikGranReportDialogFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/KikGranReportDialogFragment;
 
     .line 21
     const v0, 0x7f100247
@@ -34,7 +34,7 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikGranReportDialogFragment;->_portraitView:Landroid/view/ViewGroup;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikGranReportDialogFragment;->_portraitView:Landroid/view/ViewGroup;
 
     .line 22
     const v0, 0x7f100248
@@ -49,7 +49,7 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikGranReportDialogFragment;->_landscapeView:Landroid/view/ViewGroup;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikGranReportDialogFragment;->_landscapeView:Landroid/view/ViewGroup;
 
     .line 23
     return-void
@@ -64,7 +64,7 @@
     const/4 v1, 0x0
 
     .line 28
-    iget-object v0, p0, Lkik/android/chat/fragment/KikGranReportDialogFragment_ViewBinding;->a:Lkik/android/chat/fragment/KikGranReportDialogFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikGranReportDialogFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/KikGranReportDialogFragment;
 
     .line 29
     if-nez v0, :cond_0
@@ -79,13 +79,13 @@
 
     .line 30
     :cond_0
-    iput-object v1, p0, Lkik/android/chat/fragment/KikGranReportDialogFragment_ViewBinding;->a:Lkik/android/chat/fragment/KikGranReportDialogFragment;
+    iput-object v1, p0, Lkik/arcane/chat/fragment/KikGranReportDialogFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/KikGranReportDialogFragment;
 
     .line 32
-    iput-object v1, v0, Lkik/android/chat/fragment/KikGranReportDialogFragment;->_portraitView:Landroid/view/ViewGroup;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/KikGranReportDialogFragment;->_portraitView:Landroid/view/ViewGroup;
 
     .line 33
-    iput-object v1, v0, Lkik/android/chat/fragment/KikGranReportDialogFragment;->_landscapeView:Landroid/view/ViewGroup;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/KikGranReportDialogFragment;->_landscapeView:Landroid/view/ViewGroup;
 
     .line 34
     return-void

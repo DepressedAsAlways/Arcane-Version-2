@@ -1,4 +1,4 @@
-.class public final Lkik/android/internal/platform/KikClient;
+.class public final Lkik/arcane/internal/platform/KikClient;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,13 +6,13 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/internal/platform/KikClient$KikException;
+        Lkik/arcane/internal/platform/KikClient$KikException;
     }
 .end annotation
 
 
 # direct methods
-.method public static a(Landroid/app/Activity;Lkik/android/internal/platform/a;Ljava/lang/String;)V
+.method public static a(Landroid/app/Activity;Lkik/arcane/internal/platform/a;Ljava/lang/String;)V
     .locals 13
 
     .prologue
@@ -25,18 +25,18 @@
     .line 60
     .line 62
     :try_start_0
-    invoke-virtual {p1}, Lkik/android/internal/platform/a;->d()V
+    invoke-virtual {p1}, Lkik/arcane/internal/platform/a;->d()V
 
     .line 63
-    invoke-virtual {p1}, Lkik/android/internal/platform/a;->e()V
+    invoke-virtual {p1}, Lkik/arcane/internal/platform/a;->e()V
 
     .line 64
-    invoke-virtual {p1}, Lkik/android/internal/platform/a;->f()V
+    invoke-virtual {p1}, Lkik/arcane/internal/platform/a;->f()V
     :try_end_0
-    .catch Lkik/android/internal/platform/KikClient$KikException; {:try_start_0 .. :try_end_0} :catch_0
+    .catch Lkik/arcane/internal/platform/KikClient$KikException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 71
-    invoke-virtual {p1}, Lkik/android/internal/platform/a;->g()Ljava/io/File;
+    invoke-virtual {p1}, Lkik/arcane/internal/platform/a;->g()Ljava/io/File;
 
     move-result-object v5
 
@@ -88,13 +88,13 @@
     .line 115
     :cond_0
     :goto_2
-    invoke-virtual {p1}, Lkik/android/internal/platform/a;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lkik/arcane/internal/platform/a;->b()Ljava/lang/String;
 
     move-result-object v0
 
     if-nez v0, :cond_1
 
-    invoke-virtual {p1}, Lkik/android/internal/platform/a;->c()Ljava/lang/String;
+    invoke-virtual {p1}, Lkik/arcane/internal/platform/a;->c()Ljava/lang/String;
 
     move-result-object v0
 
@@ -102,7 +102,7 @@
 
     .line 116
     :cond_1
-    invoke-virtual {p1}, Lkik/android/internal/platform/a;->h()V
+    invoke-virtual {p1}, Lkik/arcane/internal/platform/a;->h()V
 
     .line 119
     :cond_2
@@ -113,7 +113,7 @@
     invoke-direct {v0, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
     .line 120
-    invoke-virtual {p1, v0}, Lkik/android/internal/platform/a;->a(Landroid/content/Intent;)V
+    invoke-virtual {p1, v0}, Lkik/arcane/internal/platform/a;->a(Landroid/content/Intent;)V
 
     .line 121
     if-eqz v1, :cond_3
@@ -152,7 +152,7 @@
 
     invoke-direct {v1, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {v0}, Lkik/android/internal/platform/KikClient$KikException;->getMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Lkik/arcane/internal/platform/KikClient$KikException;->getMessage()Ljava/lang/String;
 
     move-result-object v3
 
@@ -177,7 +177,7 @@
     invoke-virtual {v1}, Landroid/widget/Toast;->show()V
 
     .line 68
-    invoke-virtual {v0}, Lkik/android/internal/platform/KikClient$KikException;->printStackTrace()V
+    invoke-virtual {v0}, Lkik/arcane/internal/platform/KikClient$KikException;->printStackTrace()V
 
     goto :goto_3
 
@@ -185,7 +185,7 @@
     :cond_4
     if-eqz v3, :cond_5
 
-    const-string v0, "/data/data/kik.android"
+    const-string v0, "/data/data/kik.arcane"
 
     invoke-virtual {v3, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
@@ -222,7 +222,7 @@
 
     if-eqz v0, :cond_7
 
-    const-string v0, "content://kik.android.debug.KikFileProvider"
+    const-string v0, "content://kik.arcane.debug.KikFileProvider"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -322,7 +322,7 @@
     .line 84
     :cond_7
     :try_start_6
-    sget-object v0, Lkik/android/internal/platform/b;->a:Landroid/net/Uri;
+    sget-object v0, Lkik/arcane/internal/platform/b;->a:Landroid/net/Uri;
     :try_end_6
     .catch Ljava/io/IOException; {:try_start_6 .. :try_end_6} :catch_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_1

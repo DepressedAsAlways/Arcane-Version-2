@@ -1,5 +1,5 @@
-.class public Lkik/android/widget/preferences/UsernamePreference;
-.super Lkik/android/widget/preferences/KikModalPreference;
+.class public Lkik/arcane/widget/preferences/UsernamePreference;
+.super Lkik/arcane/widget/preferences/KikModalPreference;
 .source "SourceFile"
 
 
@@ -14,7 +14,7 @@
     .end annotation
 .end field
 
-.field protected e:Lcom/kik/android/Mixpanel;
+.field protected e:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -39,21 +39,21 @@
     .line 42
     sget-object v0, Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;->TELL_OTHER:Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/preferences/KikModalPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/preferences/KikModalPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
 
     .line 43
-    iput-object p1, p0, Lkik/android/widget/preferences/UsernamePreference;->g:Landroid/content/Context;
+    iput-object p1, p0, Lkik/arcane/widget/preferences/UsernamePreference;->g:Landroid/content/Context;
 
     .line 44
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/preferences/UsernamePreference;)Landroid/content/Context;
+.method static synthetic a(Lkik/arcane/widget/preferences/UsernamePreference;)Landroid/content/Context;
     .locals 1
 
     .prologue
     .line 31
-    iget-object v0, p0, Lkik/android/widget/preferences/UsernamePreference;->g:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/UsernamePreference;->g:Landroid/content/Context;
 
     return-object v0
 .end method
@@ -65,7 +65,7 @@
 
     .prologue
     .line 49
-    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/widget/preferences/UsernamePreference;)V
+    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/widget/preferences/UsernamePreference;)V
 
     .line 50
     return-void
@@ -76,7 +76,7 @@
 
     .prologue
     .line 55
-    invoke-super {p0, p1}, Lkik/android/widget/preferences/KikModalPreference;->onBindView(Landroid/view/View;)V
+    invoke-super {p0, p1}, Lkik/arcane/widget/preferences/KikModalPreference;->onBindView(Landroid/view/View;)V
 
     .line 57
     const v0, 0x7f100388
@@ -88,7 +88,7 @@
     check-cast v0, Landroid/widget/TextView;
 
     .line 59
-    iget-object v1, p0, Lkik/android/widget/preferences/UsernamePreference;->d:Lkik/core/interfaces/ag;
+    iget-object v1, p0, Lkik/arcane/widget/preferences/UsernamePreference;->d:Lkik/core/interfaces/ag;
 
     invoke-interface {v1}, Lkik/core/interfaces/ag;->d()Lkik/core/datatypes/aa;
 
@@ -118,13 +118,13 @@
 
     new-array v0, v0, [Ljava/lang/CharSequence;
 
-    invoke-virtual {p0}, Lkik/android/widget/preferences/UsernamePreference;->a()Lkik/android/chat/fragment/KikScopedDialogFragment;
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/UsernamePreference;->a()Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     move-result-object v1
 
     const v2, 0x7f0903e6
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikScopedDialogFragment;->getString(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -132,57 +132,57 @@
 
     const/4 v1, 0x1
 
-    invoke-virtual {p0}, Lkik/android/widget/preferences/UsernamePreference;->a()Lkik/android/chat/fragment/KikScopedDialogFragment;
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/UsernamePreference;->a()Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     move-result-object v2
 
     const v3, 0x7f090659
 
-    invoke-virtual {v2, v3}, Lkik/android/chat/fragment/KikScopedDialogFragment;->getString(I)Ljava/lang/String;
+    invoke-virtual {v2, v3}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
     aput-object v2, v0, v1
 
     .line 70
-    new-instance v1, Lkik/android/chat/fragment/KikDialogFragment$a;
+    new-instance v1, Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
-    invoke-direct {v1}, Lkik/android/chat/fragment/KikDialogFragment$a;-><init>()V
+    invoke-direct {v1}, Lkik/arcane/chat/fragment/KikDialogFragment$a;-><init>()V
 
     .line 71
-    invoke-virtual {p0}, Lkik/android/widget/preferences/UsernamePreference;->a()Lkik/android/chat/fragment/KikScopedDialogFragment;
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/UsernamePreference;->a()Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     move-result-object v2
 
     const v3, 0x7f090411
 
-    invoke-virtual {v2, v3}, Lkik/android/chat/fragment/KikScopedDialogFragment;->getString(I)Ljava/lang/String;
+    invoke-virtual {v2, v3}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->getString(I)Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikDialogFragment$a;->a(Ljava/lang/String;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a(Ljava/lang/String;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     .line 72
-    new-instance v2, Lkik/android/widget/preferences/UsernamePreference$1;
+    new-instance v2, Lkik/arcane/widget/preferences/UsernamePreference$1;
 
-    invoke-direct {v2, p0}, Lkik/android/widget/preferences/UsernamePreference$1;-><init>(Lkik/android/widget/preferences/UsernamePreference;)V
+    invoke-direct {v2, p0}, Lkik/arcane/widget/preferences/UsernamePreference$1;-><init>(Lkik/arcane/widget/preferences/UsernamePreference;)V
 
-    invoke-virtual {v1, v0, v2}, Lkik/android/chat/fragment/KikDialogFragment$a;->a([Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v1, v0, v2}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a([Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     .line 92
-    invoke-virtual {p0}, Lkik/android/widget/preferences/UsernamePreference;->a()Lkik/android/chat/fragment/KikScopedDialogFragment;
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/UsernamePreference;->a()Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     move-result-object v0
 
-    invoke-virtual {v1}, Lkik/android/chat/fragment/KikDialogFragment$a;->a()Lkik/android/chat/fragment/KikDialogFragment;
+    invoke-virtual {v1}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a()Lkik/arcane/chat/fragment/KikDialogFragment;
 
     move-result-object v1
 
-    sget-object v2, Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;->DialogScopeFragmentModal:Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;
+    sget-object v2, Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;->DialogScopeFragmentModal:Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;
 
     const-string v3, "namePreference"
 
-    invoke-virtual {v0, v1, v2, v3}, Lkik/android/chat/fragment/KikScopedDialogFragment;->show(Lkik/android/chat/fragment/KikDialogFragment;Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2, v3}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->show(Lkik/arcane/chat/fragment/KikDialogFragment;Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;Ljava/lang/String;)V
 
     .line 94
     return v4

@@ -1,4 +1,4 @@
-.class final Lkik/android/c/n$1;
+.class final Lkik/arcane/c/n$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/c/n;
+    value = Lkik/arcane/c/n;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/c/n;
+.field final synthetic a:Lkik/arcane/c/n;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/c/n;)V
+.method constructor <init>(Lkik/arcane/c/n;)V
     .locals 0
 
     .prologue
     .line 66
-    iput-object p1, p0, Lkik/android/c/n$1;->a:Lkik/android/c/n;
+    iput-object p1, p0, Lkik/arcane/c/n$1;->a:Lkik/arcane/c/n;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,17 +41,17 @@
 
     .prologue
     .line 70
-    iget-object v0, p0, Lkik/android/c/n$1;->a:Lkik/android/c/n;
+    iget-object v0, p0, Lkik/arcane/c/n$1;->a:Lkik/arcane/c/n;
 
-    invoke-static {v0}, Lkik/android/c/n;->a(Lkik/android/c/n;)Landroid/hardware/Camera;
+    invoke-static {v0}, Lkik/arcane/c/n;->a(Lkik/arcane/c/n;)Landroid/hardware/Camera;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/c/n$1;->a:Lkik/android/c/n;
+    iget-object v0, p0, Lkik/arcane/c/n$1;->a:Lkik/arcane/c/n;
 
-    iget-boolean v0, v0, Lkik/android/c/n;->f:Z
+    iget-boolean v0, v0, Lkik/arcane/c/n;->f:Z
 
     if-nez v0, :cond_1
 
@@ -62,9 +62,9 @@
 
     .line 73
     :cond_1
-    iget-object v0, p0, Lkik/android/c/n$1;->a:Lkik/android/c/n;
+    iget-object v0, p0, Lkik/arcane/c/n$1;->a:Lkik/arcane/c/n;
 
-    invoke-static {v0}, Lkik/android/c/n;->b(Lkik/android/c/n;)Landroid/view/SurfaceView;
+    invoke-static {v0}, Lkik/arcane/c/n;->b(Lkik/arcane/c/n;)Landroid/view/SurfaceView;
 
     move-result-object v0
 
@@ -77,27 +77,27 @@
 
     .line 88
     :try_start_0
-    iget-object v1, p0, Lkik/android/c/n$1;->a:Lkik/android/c/n;
+    iget-object v1, p0, Lkik/arcane/c/n$1;->a:Lkik/arcane/c/n;
 
-    invoke-static {v1}, Lkik/android/c/n;->a(Lkik/android/c/n;)Landroid/hardware/Camera;
+    invoke-static {v1}, Lkik/arcane/c/n;->a(Lkik/arcane/c/n;)Landroid/hardware/Camera;
 
     move-result-object v1
 
     invoke-virtual {v1, v0}, Landroid/hardware/Camera;->setPreviewDisplay(Landroid/view/SurfaceHolder;)V
 
     .line 89
-    iget-object v0, p0, Lkik/android/c/n$1;->a:Lkik/android/c/n;
+    iget-object v0, p0, Lkik/arcane/c/n$1;->a:Lkik/arcane/c/n;
 
-    invoke-static {v0}, Lkik/android/c/n;->a(Lkik/android/c/n;)Landroid/hardware/Camera;
+    invoke-static {v0}, Lkik/arcane/c/n;->a(Lkik/arcane/c/n;)Landroid/hardware/Camera;
 
     move-result-object v0
 
     invoke-virtual {v0}, Landroid/hardware/Camera;->startPreview()V
 
     .line 90
-    iget-object v0, p0, Lkik/android/c/n$1;->a:Lkik/android/c/n;
+    iget-object v0, p0, Lkik/arcane/c/n$1;->a:Lkik/arcane/c/n;
 
-    invoke-static {v0}, Lkik/android/c/n;->b(Lkik/android/c/n;)Landroid/view/SurfaceView;
+    invoke-static {v0}, Lkik/arcane/c/n;->b(Lkik/arcane/c/n;)Landroid/view/SurfaceView;
 
     move-result-object v0
 
@@ -120,18 +120,18 @@
     :catch_1
     move-exception v0
 
-    iget-object v0, p0, Lkik/android/c/n$1;->a:Lkik/android/c/n;
+    iget-object v0, p0, Lkik/arcane/c/n$1;->a:Lkik/arcane/c/n;
 
-    iget-object v0, v0, Lkik/android/c/n;->c:Lkik/android/c/b$b;
+    iget-object v0, v0, Lkik/arcane/c/n;->c:Lkik/arcane/c/b$b;
 
     if-eqz v0, :cond_0
 
     .line 99
-    iget-object v0, p0, Lkik/android/c/n$1;->a:Lkik/android/c/n;
+    iget-object v0, p0, Lkik/arcane/c/n$1;->a:Lkik/arcane/c/n;
 
-    iget-object v0, v0, Lkik/android/c/n;->c:Lkik/android/c/b$b;
+    iget-object v0, v0, Lkik/arcane/c/n;->c:Lkik/arcane/c/b$b;
 
-    invoke-virtual {v0}, Lkik/android/c/b$b;->a()V
+    invoke-virtual {v0}, Lkik/arcane/c/b$b;->a()V
 
     goto :goto_0
 .end method

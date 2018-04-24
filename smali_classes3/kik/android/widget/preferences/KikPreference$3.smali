@@ -1,4 +1,4 @@
-.class final Lkik/android/widget/preferences/KikPreference$3;
+.class final Lkik/arcane/widget/preferences/KikPreference$3;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/preferences/KikPreference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
+    value = Lkik/arcane/widget/preferences/KikPreference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Landroid/preference/Preference$OnPreferenceClickListener;
 
-.field final synthetic b:Lkik/android/widget/preferences/KikPreference;
+.field final synthetic b:Lkik/arcane/widget/preferences/KikPreference;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/preferences/KikPreference;Landroid/preference/Preference$OnPreferenceClickListener;)V
+.method constructor <init>(Lkik/arcane/widget/preferences/KikPreference;Landroid/preference/Preference$OnPreferenceClickListener;)V
     .locals 0
 
     .prologue
     .line 165
-    iput-object p1, p0, Lkik/android/widget/preferences/KikPreference$3;->b:Lkik/android/widget/preferences/KikPreference;
+    iput-object p1, p0, Lkik/arcane/widget/preferences/KikPreference$3;->b:Lkik/arcane/widget/preferences/KikPreference;
 
-    iput-object p2, p0, Lkik/android/widget/preferences/KikPreference$3;->a:Landroid/preference/Preference$OnPreferenceClickListener;
+    iput-object p2, p0, Lkik/arcane/widget/preferences/KikPreference$3;->a:Landroid/preference/Preference$OnPreferenceClickListener;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -47,14 +47,14 @@
     const/4 v3, 0x0
 
     .line 170
-    iget-object v0, p0, Lkik/android/widget/preferences/KikPreference$3;->b:Lkik/android/widget/preferences/KikPreference;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/KikPreference$3;->b:Lkik/arcane/widget/preferences/KikPreference;
 
-    invoke-virtual {v0, p1}, Lkik/android/widget/preferences/KikPreference;->onPreferenceClick(Landroid/preference/Preference;)Z
+    invoke-virtual {v0, p1}, Lkik/arcane/widget/preferences/KikPreference;->onPreferenceClick(Landroid/preference/Preference;)Z
 
     move-result v0
 
     .line 172
-    iget-object v1, p0, Lkik/android/widget/preferences/KikPreference$3;->a:Landroid/preference/Preference$OnPreferenceClickListener;
+    iget-object v1, p0, Lkik/arcane/widget/preferences/KikPreference$3;->a:Landroid/preference/Preference$OnPreferenceClickListener;
 
     invoke-interface {v1, p1}, Landroid/preference/Preference$OnPreferenceClickListener;->onPreferenceClick(Landroid/preference/Preference;)Z
 
@@ -63,9 +63,9 @@
     or-int/2addr v0, v1
 
     .line 174
-    iget-object v1, p0, Lkik/android/widget/preferences/KikPreference$3;->b:Lkik/android/widget/preferences/KikPreference;
+    iget-object v1, p0, Lkik/arcane/widget/preferences/KikPreference$3;->b:Lkik/arcane/widget/preferences/KikPreference;
 
-    invoke-static {v1}, Lkik/android/widget/preferences/KikPreference;->a(Lkik/android/widget/preferences/KikPreference;)Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;
+    invoke-static {v1}, Lkik/arcane/widget/preferences/KikPreference;->a(Lkik/arcane/widget/preferences/KikPreference;)Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;
 
     move-result-object v1
 
@@ -79,9 +79,9 @@
     .line 177
     const-string v1, "s"
 
-    iget-object v2, p0, Lkik/android/widget/preferences/KikPreference$3;->b:Lkik/android/widget/preferences/KikPreference;
+    iget-object v2, p0, Lkik/arcane/widget/preferences/KikPreference$3;->b:Lkik/arcane/widget/preferences/KikPreference;
 
-    invoke-static {v2}, Lkik/android/widget/preferences/KikPreference;->a(Lkik/android/widget/preferences/KikPreference;)Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;
+    invoke-static {v2}, Lkik/arcane/widget/preferences/KikPreference;->a(Lkik/arcane/widget/preferences/KikPreference;)Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;
 
     move-result-object v2
 
@@ -98,9 +98,9 @@
     invoke-interface {v5, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 179
-    iget-object v1, p0, Lkik/android/widget/preferences/KikPreference$3;->b:Lkik/android/widget/preferences/KikPreference;
+    iget-object v1, p0, Lkik/arcane/widget/preferences/KikPreference$3;->b:Lkik/arcane/widget/preferences/KikPreference;
 
-    iget-object v1, v1, Lkik/android/widget/preferences/KikPreference;->c:Lkik/core/interfaces/f;
+    iget-object v1, v1, Lkik/arcane/widget/preferences/KikPreference;->c:Lkik/core/interfaces/f;
 
     invoke-interface {v1}, Lkik/core/interfaces/f;->c()Lcom/kik/clientmetrics/f;
 

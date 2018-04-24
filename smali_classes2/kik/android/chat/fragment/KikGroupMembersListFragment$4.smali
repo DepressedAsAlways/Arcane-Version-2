@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/KikGroupMembersListFragment$4;
+.class final Lkik/arcane/chat/fragment/KikGroupMembersListFragment$4;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/KikGroupMembersListFragment;->onAddButtonPressed()V
+    value = Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->onAddButtonPressed()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikGroupMembersListFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikGroupMembersListFragment;)V
     .locals 0
 
     .prologue
     .line 175
-    iput-object p1, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$4;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$4;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -50,9 +50,9 @@
     check-cast p1, Landroid/os/Bundle;
 
     .line 1179
-    iget-object v0, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$4;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$4;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
-    invoke-static {v0, p1}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->a(Lkik/android/chat/fragment/KikGroupMembersListFragment;Landroid/os/Bundle;)V
+    invoke-static {v0, p1}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->a(Lkik/arcane/chat/fragment/KikGroupMembersListFragment;Landroid/os/Bundle;)V
 
     .line 175
     return-void

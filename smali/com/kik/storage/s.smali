@@ -13,12 +13,12 @@
 .method public abstract a()Lcom/kik/cache/KikVolleyImageLoader;
 .end method
 
-.method public abstract a(Ljava/lang/String;Lcom/kik/android/Mixpanel;)Lcom/kik/events/Promise;
+.method public abstract a(Ljava/lang/String;Lcom/kik/arcane/Mixpanel;)Lcom/kik/events/Promise;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ")",
             "Lcom/kik/events/Promise",
             "<",
@@ -28,12 +28,12 @@
     .end annotation
 .end method
 
-.method public abstract a(Lkik/core/datatypes/messageExtensions/ContentMessage;Lcom/kik/android/Mixpanel;)Lcom/kik/events/Promise;
+.method public abstract a(Lkik/core/datatypes/messageExtensions/ContentMessage;Lcom/kik/arcane/Mixpanel;)Lcom/kik/events/Promise;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lkik/core/datatypes/messageExtensions/ContentMessage;",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ")",
             "Lcom/kik/events/Promise",
             "<",
@@ -43,13 +43,13 @@
     .end annotation
 .end method
 
-.method public abstract a(Lkik/core/datatypes/messageExtensions/ContentMessage;Lkik/core/interfaces/x;Lcom/kik/android/Mixpanel;)Lcom/kik/events/Promise;
+.method public abstract a(Lkik/core/datatypes/messageExtensions/ContentMessage;Lkik/core/interfaces/x;Lcom/kik/arcane/Mixpanel;)Lcom/kik/events/Promise;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lkik/core/datatypes/messageExtensions/ContentMessage;",
             "Lkik/core/interfaces/x;",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ")",
             "Lcom/kik/events/Promise",
             "<",

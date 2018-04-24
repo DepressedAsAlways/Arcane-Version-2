@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder$1;
+.class final Lkik/arcane/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder$1;
 .super Landroid/databinding/OnRebindCallback;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;
+    value = Lkik/arcane/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;
+.field final synthetic a:Lkik/arcane/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;)V
+.method constructor <init>(Lkik/arcane/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;)V
     .locals 0
 
     .prologue
     .line 148
-    iput-object p1, p0, Lkik/android/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder$1;->a:Lkik/android/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;
+    iput-object p1, p0, Lkik/arcane/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder$1;->a:Lkik/arcane/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;
 
     invoke-direct {p0}, Landroid/databinding/OnRebindCallback;-><init>()V
 
@@ -38,18 +38,18 @@
 
     .prologue
     .line 152
-    iget-object v0, p0, Lkik/android/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder$1;->a:Lkik/android/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;
+    iget-object v0, p0, Lkik/arcane/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder$1;->a:Lkik/arcane/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;
 
-    iget-object v0, v0, Lkik/android/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;->_downloadView:Lkik/android/widget/DownloadImageView;
+    iget-object v0, v0, Lkik/arcane/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;->_downloadView:Lkik/arcane/widget/DownloadImageView;
 
     if-eqz v0, :cond_0
 
     .line 153
-    iget-object v0, p0, Lkik/android/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder$1;->a:Lkik/android/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;
+    iget-object v0, p0, Lkik/arcane/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder$1;->a:Lkik/arcane/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;
 
-    iget-object v0, v0, Lkik/android/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;->_downloadView:Lkik/android/widget/DownloadImageView;
+    iget-object v0, v0, Lkik/arcane/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;->_downloadView:Lkik/arcane/widget/DownloadImageView;
 
-    invoke-virtual {v0}, Lkik/android/widget/DownloadImageView;->a()V
+    invoke-virtual {v0}, Lkik/arcane/widget/DownloadImageView;->a()V
 
     .line 155
     :cond_0

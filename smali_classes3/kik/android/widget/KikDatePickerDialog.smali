@@ -1,4 +1,4 @@
-.class public final Lkik/android/widget/KikDatePickerDialog;
+.class public final Lkik/arcane/widget/KikDatePickerDialog;
 .super Landroid/app/DatePickerDialog;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/KikDatePickerDialog$DatePickerInitialisationException;
+        Lkik/arcane/widget/KikDatePickerDialog$DatePickerInitialisationException;
     }
 .end annotation
 
@@ -47,7 +47,7 @@
     .line 31
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/widget/KikDatePickerDialog;->a:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/widget/KikDatePickerDialog;->a:Ljava/lang/String;
 
     .line 43
     return-void
@@ -138,7 +138,7 @@
     .locals 9
     .annotation system Ldalvik/annotation/Throws;
         value = {
-            Lkik/android/widget/KikDatePickerDialog$DatePickerInitialisationException;
+            Lkik/arcane/widget/KikDatePickerDialog$DatePickerInitialisationException;
         }
     .end annotation
 
@@ -158,7 +158,7 @@
 
     const-string v2, "mDatePicker"
 
-    invoke-static {v0, v1, v2}, Lkik/android/widget/KikDatePickerDialog;->a(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-static {v0, v1, v2}, Lkik/arcane/widget/KikDatePickerDialog;->a(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v0
 
@@ -195,7 +195,7 @@
 
     const-string v6, "mDelegate"
 
-    invoke-static {v5, v4, v6}, Lkik/android/widget/KikDatePickerDialog;->a(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-static {v5, v4, v6}, Lkik/arcane/widget/KikDatePickerDialog;->a(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     move-result-object v4
 
@@ -240,7 +240,7 @@
 
     const/4 v7, 0x1
 
-    invoke-virtual {p0}, Lkik/android/widget/KikDatePickerDialog;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/KikDatePickerDialog;->getContext()Landroid/content/Context;
 
     move-result-object v8
 
@@ -298,9 +298,9 @@
     move-exception v0
 
     .line 97
-    new-instance v1, Lkik/android/widget/KikDatePickerDialog$DatePickerInitialisationException;
+    new-instance v1, Lkik/arcane/widget/KikDatePickerDialog$DatePickerInitialisationException;
 
-    invoke-direct {v1, v0}, Lkik/android/widget/KikDatePickerDialog$DatePickerInitialisationException;-><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v1, v0}, Lkik/arcane/widget/KikDatePickerDialog$DatePickerInitialisationException;-><init>(Ljava/lang/Throwable;)V
 
     throw v1
 .end method
@@ -310,10 +310,10 @@
 
     .prologue
     .line 47
-    iput-object p1, p0, Lkik/android/widget/KikDatePickerDialog;->a:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/widget/KikDatePickerDialog;->a:Ljava/lang/String;
 
     .line 48
-    invoke-virtual {p0, p1}, Lkik/android/widget/KikDatePickerDialog;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, p1}, Lkik/arcane/widget/KikDatePickerDialog;->setTitle(Ljava/lang/CharSequence;)V
 
     .line 49
     return-void
@@ -327,14 +327,14 @@
     invoke-super {p0, p1, p2, p3, p4}, Landroid/app/DatePickerDialog;->onDateChanged(Landroid/widget/DatePicker;III)V
 
     .line 55
-    iget-object v0, p0, Lkik/android/widget/KikDatePickerDialog;->a:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/widget/KikDatePickerDialog;->a:Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
     .line 56
-    iget-object v0, p0, Lkik/android/widget/KikDatePickerDialog;->a:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/widget/KikDatePickerDialog;->a:Ljava/lang/String;
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/KikDatePickerDialog;->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/KikDatePickerDialog;->setTitle(Ljava/lang/CharSequence;)V
 
     .line 58
     :cond_0

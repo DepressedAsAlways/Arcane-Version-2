@@ -1,10 +1,10 @@
-.class public Lkik/android/widget/ShownMetricFrameLayout;
+.class public Lkik/arcane/widget/ShownMetricFrameLayout;
 .super Landroid/widget/FrameLayout;
 .source "SourceFile"
 
 
 # instance fields
-.field private a:Lcom/kik/android/Mixpanel$d;
+.field private a:Lcom/kik/arcane/Mixpanel$d;
 
 
 # direct methods
@@ -43,12 +43,12 @@
 
 
 # virtual methods
-.method public final a(Lcom/kik/android/Mixpanel$d;)V
+.method public final a(Lcom/kik/arcane/Mixpanel$d;)V
     .locals 0
 
     .prologue
     .line 49
-    iput-object p1, p0, Lkik/android/widget/ShownMetricFrameLayout;->a:Lcom/kik/android/Mixpanel$d;
+    iput-object p1, p0, Lkik/arcane/widget/ShownMetricFrameLayout;->a:Lcom/kik/arcane/Mixpanel$d;
 
     .line 50
     return-void
@@ -62,25 +62,25 @@
     invoke-super/range {p0 .. p5}, Landroid/widget/FrameLayout;->onLayout(ZIIII)V
 
     .line 56
-    invoke-virtual {p0}, Lkik/android/widget/ShownMetricFrameLayout;->getVisibility()I
+    invoke-virtual {p0}, Lkik/arcane/widget/ShownMetricFrameLayout;->getVisibility()I
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/widget/ShownMetricFrameLayout;->a:Lcom/kik/android/Mixpanel$d;
+    iget-object v0, p0, Lkik/arcane/widget/ShownMetricFrameLayout;->a:Lcom/kik/arcane/Mixpanel$d;
 
     if-eqz v0, :cond_0
 
     .line 57
-    iget-object v0, p0, Lkik/android/widget/ShownMetricFrameLayout;->a:Lcom/kik/android/Mixpanel$d;
+    iget-object v0, p0, Lkik/arcane/widget/ShownMetricFrameLayout;->a:Lcom/kik/arcane/Mixpanel$d;
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 58
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/widget/ShownMetricFrameLayout;->a:Lcom/kik/android/Mixpanel$d;
+    iput-object v0, p0, Lkik/arcane/widget/ShownMetricFrameLayout;->a:Lcom/kik/arcane/Mixpanel$d;
 
     .line 60
     :cond_0

@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/ViewPictureFragment$23;
+.class final Lkik/arcane/chat/fragment/ViewPictureFragment$23;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/ViewPictureFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    value = Lkik/arcane/chat/fragment/ViewPictureFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/ViewPictureFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/ViewPictureFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/ViewPictureFragment;)V
     .locals 0
 
     .prologue
     .line 408
-    iput-object p1, p0, Lkik/android/chat/fragment/ViewPictureFragment$23;->a:Lkik/android/chat/fragment/ViewPictureFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$23;->a:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -54,15 +54,15 @@
     check-cast p1, Landroid/graphics/Bitmap;
 
     .line 1412
-    iget-object v0, p0, Lkik/android/chat/fragment/ViewPictureFragment$23;->a:Lkik/android/chat/fragment/ViewPictureFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$23;->a:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/ViewPictureFragment;->d(Lkik/android/chat/fragment/ViewPictureFragment;)Landroid/os/Handler;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/ViewPictureFragment;->d(Lkik/arcane/chat/fragment/ViewPictureFragment;)Landroid/os/Handler;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/chat/fragment/ViewPictureFragment$23$1;
+    new-instance v1, Lkik/arcane/chat/fragment/ViewPictureFragment$23$1;
 
-    invoke-direct {v1, p0, p1}, Lkik/android/chat/fragment/ViewPictureFragment$23$1;-><init>(Lkik/android/chat/fragment/ViewPictureFragment$23;Landroid/graphics/Bitmap;)V
+    invoke-direct {v1, p0, p1}, Lkik/arcane/chat/fragment/ViewPictureFragment$23$1;-><init>(Lkik/arcane/chat/fragment/ViewPictureFragment$23;Landroid/graphics/Bitmap;)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 

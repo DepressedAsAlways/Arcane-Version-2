@@ -1,14 +1,14 @@
-.class final Lkik/android/widget/preferences/KikNotificationHelpNotice$1;
+.class final Lkik/arcane/widget/preferences/KikNotificationHelpNotice$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/bx;
+.implements Lkik/arcane/chat/vm/bx;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/preferences/KikNotificationHelpNotice;->onPreferenceClick(Landroid/preference/Preference;)Z
+    value = Lkik/arcane/widget/preferences/KikNotificationHelpNotice;->onPreferenceClick(Landroid/preference/Preference;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/preferences/KikNotificationHelpNotice;
+.field final synthetic a:Lkik/arcane/widget/preferences/KikNotificationHelpNotice;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/preferences/KikNotificationHelpNotice;)V
+.method constructor <init>(Lkik/arcane/widget/preferences/KikNotificationHelpNotice;)V
     .locals 0
 
     .prologue
     .line 77
-    iput-object p1, p0, Lkik/android/widget/preferences/KikNotificationHelpNotice$1;->a:Lkik/android/widget/preferences/KikNotificationHelpNotice;
+    iput-object p1, p0, Lkik/arcane/widget/preferences/KikNotificationHelpNotice$1;->a:Lkik/arcane/widget/preferences/KikNotificationHelpNotice;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

@@ -10,7 +10,7 @@
 # instance fields
 .field private _configProvider:Lcom/kik/cards/web/config/a;
 
-.field private _sharedPrefProvider:Lkik/android/util/aj;
+.field private _sharedPrefProvider:Lkik/arcane/util/aj;
 
 
 # direct methods
@@ -30,7 +30,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/kik/cards/web/config/a;Lkik/android/util/aj;)V
+.method public constructor <init>(Lcom/kik/cards/web/config/a;Lkik/arcane/util/aj;)V
     .locals 2
 
     .prologue
@@ -45,18 +45,18 @@
     iput-object p1, p0, Lcom/kik/cards/web/config/ConfigurationPlugin;->_configProvider:Lcom/kik/cards/web/config/a;
 
     .line 33
-    iput-object p2, p0, Lcom/kik/cards/web/config/ConfigurationPlugin;->_sharedPrefProvider:Lkik/android/util/aj;
+    iput-object p2, p0, Lcom/kik/cards/web/config/ConfigurationPlugin;->_sharedPrefProvider:Lkik/arcane/util/aj;
 
     .line 34
     return-void
 .end method
 
-.method private static configTypeToJsonType(Lkik/android/config/Configuration$Type;)Ljava/lang/String;
+.method private static configTypeToJsonType(Lkik/arcane/config/Configuration$Type;)Ljava/lang/String;
     .locals 1
 
     .prologue
     .line 186
-    sget-object v0, Lkik/android/config/Configuration$Type;->String:Lkik/android/config/Configuration$Type;
+    sget-object v0, Lkik/arcane/config/Configuration$Type;->String:Lkik/arcane/config/Configuration$Type;
 
     if-ne p0, v0, :cond_0
 
@@ -69,11 +69,11 @@
 
     .line 189
     :cond_0
-    sget-object v0, Lkik/android/config/Configuration$Type;->Integer:Lkik/android/config/Configuration$Type;
+    sget-object v0, Lkik/arcane/config/Configuration$Type;->Integer:Lkik/arcane/config/Configuration$Type;
 
     if-eq p0, v0, :cond_1
 
-    sget-object v0, Lkik/android/config/Configuration$Type;->Long:Lkik/android/config/Configuration$Type;
+    sget-object v0, Lkik/arcane/config/Configuration$Type;->Long:Lkik/arcane/config/Configuration$Type;
 
     if-ne p0, v0, :cond_2
 
@@ -85,7 +85,7 @@
 
     .line 192
     :cond_2
-    sget-object v0, Lkik/android/config/Configuration$Type;->Boolean:Lkik/android/config/Configuration$Type;
+    sget-object v0, Lkik/arcane/config/Configuration$Type;->Boolean:Lkik/arcane/config/Configuration$Type;
 
     if-ne p0, v0, :cond_3
 
@@ -101,12 +101,12 @@
     goto :goto_0
 .end method
 
-.method private static configValueToJsonValue(Lkik/android/config/Configuration$Type;Ljava/lang/Object;)Ljava/lang/Object;
+.method private static configValueToJsonValue(Lkik/arcane/config/Configuration$Type;Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
 
     .prologue
     .line 201
-    sget-object v0, Lkik/android/config/Configuration$Type;->String:Lkik/android/config/Configuration$Type;
+    sget-object v0, Lkik/arcane/config/Configuration$Type;->String:Lkik/arcane/config/Configuration$Type;
 
     if-ne p0, v0, :cond_0
 
@@ -123,7 +123,7 @@
 
     .line 204
     :cond_0
-    sget-object v0, Lkik/android/config/Configuration$Type;->Long:Lkik/android/config/Configuration$Type;
+    sget-object v0, Lkik/arcane/config/Configuration$Type;->Long:Lkik/arcane/config/Configuration$Type;
 
     if-ne p0, v0, :cond_1
 
@@ -138,7 +138,7 @@
 
     .line 207
     :cond_1
-    sget-object v0, Lkik/android/config/Configuration$Type;->Boolean:Lkik/android/config/Configuration$Type;
+    sget-object v0, Lkik/arcane/config/Configuration$Type;->Boolean:Lkik/arcane/config/Configuration$Type;
 
     if-ne p0, v0, :cond_2
 
@@ -153,7 +153,7 @@
 
     .line 210
     :cond_2
-    sget-object v0, Lkik/android/config/Configuration$Type;->Integer:Lkik/android/config/Configuration$Type;
+    sget-object v0, Lkik/arcane/config/Configuration$Type;->Integer:Lkik/arcane/config/Configuration$Type;
 
     if-ne p0, v0, :cond_3
 
@@ -173,7 +173,7 @@
     goto :goto_0
 .end method
 
-.method private static configurationToTypeDescription(Lkik/android/config/Configuration;)Lorg/json/JSONObject;
+.method private static configurationToTypeDescription(Lkik/arcane/config/Configuration;)Lorg/json/JSONObject;
     .locals 5
 
     .prologue
@@ -186,7 +186,7 @@
     :try_start_0
     const-string v0, "name"
 
-    invoke-virtual {p0}, Lkik/android/config/Configuration;->c()Ljava/lang/String;
+    invoke-virtual {p0}, Lkik/arcane/config/Configuration;->c()Ljava/lang/String;
 
     move-result-object v2
 
@@ -195,18 +195,18 @@
     .line 167
     const-string v0, "type"
 
-    invoke-virtual {p0}, Lkik/android/config/Configuration;->a()Lkik/android/config/Configuration$Type;
+    invoke-virtual {p0}, Lkik/arcane/config/Configuration;->a()Lkik/arcane/config/Configuration$Type;
 
     move-result-object v2
 
-    invoke-static {v2}, Lcom/kik/cards/web/config/ConfigurationPlugin;->configTypeToJsonType(Lkik/android/config/Configuration$Type;)Ljava/lang/String;
+    invoke-static {v2}, Lcom/kik/cards/web/config/ConfigurationPlugin;->configTypeToJsonType(Lkik/arcane/config/Configuration$Type;)Ljava/lang/String;
 
     move-result-object v2
 
     invoke-virtual {v1, v0, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 168
-    invoke-virtual {p0}, Lkik/android/config/Configuration;->e()Ljava/util/List;
+    invoke-virtual {p0}, Lkik/arcane/config/Configuration;->e()Ljava/util/List;
 
     move-result-object v0
 
@@ -218,7 +218,7 @@
     invoke-direct {v0}, Lorg/json/JSONArray;-><init>()V
 
     .line 170
-    invoke-virtual {p0}, Lkik/android/config/Configuration;->e()Ljava/util/List;
+    invoke-virtual {p0}, Lkik/arcane/config/Configuration;->e()Ljava/util/List;
 
     move-result-object v2
 
@@ -238,11 +238,11 @@
     move-result-object v3
 
     .line 171
-    invoke-virtual {p0}, Lkik/android/config/Configuration;->a()Lkik/android/config/Configuration$Type;
+    invoke-virtual {p0}, Lkik/arcane/config/Configuration;->a()Lkik/arcane/config/Configuration$Type;
 
     move-result-object v4
 
-    invoke-static {v4, v3}, Lcom/kik/cards/web/config/ConfigurationPlugin;->configValueToJsonValue(Lkik/android/config/Configuration$Type;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v4, v3}, Lcom/kik/cards/web/config/ConfigurationPlugin;->configValueToJsonValue(Lkik/arcane/config/Configuration$Type;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
@@ -294,15 +294,15 @@
     :cond_1
     const-string v0, "defaultValue"
 
-    invoke-virtual {p0}, Lkik/android/config/Configuration;->a()Lkik/android/config/Configuration$Type;
+    invoke-virtual {p0}, Lkik/arcane/config/Configuration;->a()Lkik/arcane/config/Configuration$Type;
 
     move-result-object v2
 
-    invoke-virtual {p0}, Lkik/android/config/Configuration;->d()Ljava/lang/Object;
+    invoke-virtual {p0}, Lkik/arcane/config/Configuration;->d()Ljava/lang/Object;
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/kik/cards/web/config/ConfigurationPlugin;->configValueToJsonValue(Lkik/android/config/Configuration$Type;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v2, v3}, Lcom/kik/cards/web/config/ConfigurationPlugin;->configValueToJsonValue(Lkik/arcane/config/Configuration$Type;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -311,15 +311,15 @@
     .line 176
     const-string v0, "value"
 
-    invoke-virtual {p0}, Lkik/android/config/Configuration;->a()Lkik/android/config/Configuration$Type;
+    invoke-virtual {p0}, Lkik/arcane/config/Configuration;->a()Lkik/arcane/config/Configuration$Type;
 
     move-result-object v2
 
-    invoke-virtual {p0}, Lkik/android/config/Configuration;->b()Ljava/lang/Object;
+    invoke-virtual {p0}, Lkik/arcane/config/Configuration;->b()Ljava/lang/Object;
 
     move-result-object v3
 
-    invoke-static {v2, v3}, Lcom/kik/cards/web/config/ConfigurationPlugin;->configValueToJsonValue(Lkik/android/config/Configuration$Type;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v2, v3}, Lcom/kik/cards/web/config/ConfigurationPlugin;->configValueToJsonValue(Lkik/arcane/config/Configuration$Type;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -330,12 +330,12 @@
     goto :goto_1
 .end method
 
-.method private static jsonValueToConfigValue(Lkik/android/config/Configuration$Type;Ljava/lang/String;)Ljava/lang/Object;
+.method private static jsonValueToConfigValue(Lkik/arcane/config/Configuration$Type;Ljava/lang/String;)Ljava/lang/Object;
     .locals 2
 
     .prologue
     .line 219
-    sget-object v0, Lkik/android/config/Configuration$Type;->String:Lkik/android/config/Configuration$Type;
+    sget-object v0, Lkik/arcane/config/Configuration$Type;->String:Lkik/arcane/config/Configuration$Type;
 
     if-ne p0, v0, :cond_0
 
@@ -345,7 +345,7 @@
 
     .line 222
     :cond_0
-    sget-object v0, Lkik/android/config/Configuration$Type;->Long:Lkik/android/config/Configuration$Type;
+    sget-object v0, Lkik/arcane/config/Configuration$Type;->Long:Lkik/arcane/config/Configuration$Type;
 
     if-ne p0, v0, :cond_1
 
@@ -362,7 +362,7 @@
 
     .line 225
     :cond_1
-    sget-object v0, Lkik/android/config/Configuration$Type;->Boolean:Lkik/android/config/Configuration$Type;
+    sget-object v0, Lkik/arcane/config/Configuration$Type;->Boolean:Lkik/arcane/config/Configuration$Type;
 
     if-ne p0, v0, :cond_2
 
@@ -379,7 +379,7 @@
 
     .line 228
     :cond_2
-    sget-object v0, Lkik/android/config/Configuration$Type;->Integer:Lkik/android/config/Configuration$Type;
+    sget-object v0, Lkik/arcane/config/Configuration$Type;->Integer:Lkik/arcane/config/Configuration$Type;
 
     if-ne p0, v0, :cond_3
 
@@ -416,11 +416,11 @@
     .line 105
     iget-object v0, p0, Lcom/kik/cards/web/config/ConfigurationPlugin;->_configProvider:Lcom/kik/cards/web/config/a;
 
-    invoke-interface {v0}, Lcom/kik/cards/web/config/a;->c()Lkik/android/config/b;
+    invoke-interface {v0}, Lcom/kik/cards/web/config/a;->c()Lkik/arcane/config/b;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkik/android/config/b;->b()Ljava/util/Hashtable;
+    invoke-interface {v0}, Lkik/arcane/config/b;->b()Ljava/util/Hashtable;
 
     move-result-object v0
 
@@ -624,13 +624,13 @@
     .line 133
     iget-object v0, p0, Lcom/kik/cards/web/config/ConfigurationPlugin;->_configProvider:Lcom/kik/cards/web/config/a;
 
-    invoke-interface {v0}, Lcom/kik/cards/web/config/a;->c()Lkik/android/config/b;
+    invoke-interface {v0}, Lcom/kik/cards/web/config/a;->c()Lkik/arcane/config/b;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/kik/cards/web/config/ConfigurationPlugin;->_sharedPrefProvider:Lkik/android/util/aj;
+    iget-object v1, p0, Lcom/kik/cards/web/config/ConfigurationPlugin;->_sharedPrefProvider:Lkik/arcane/util/aj;
 
-    invoke-interface {v0, v1}, Lkik/android/config/b;->b(Lkik/android/util/aj;)Ljava/lang/String;
+    invoke-interface {v0, v1}, Lkik/arcane/config/b;->b(Lkik/arcane/util/aj;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -727,11 +727,11 @@
     :cond_0
     iget-object v1, p0, Lcom/kik/cards/web/config/ConfigurationPlugin;->_configProvider:Lcom/kik/cards/web/config/a;
 
-    invoke-interface {v1}, Lcom/kik/cards/web/config/a;->c()Lkik/android/config/b;
+    invoke-interface {v1}, Lcom/kik/cards/web/config/a;->c()Lkik/arcane/config/b;
 
     move-result-object v1
 
-    invoke-interface {v1, v0}, Lkik/android/config/b;->a(Ljava/lang/String;)Lkik/android/config/Configuration;
+    invoke-interface {v1, v0}, Lkik/arcane/config/b;->a(Ljava/lang/String;)Lkik/arcane/config/Configuration;
 
     move-result-object v0
 
@@ -757,15 +757,15 @@
     :try_start_0
     const-string v2, "value"
 
-    invoke-virtual {v0}, Lkik/android/config/Configuration;->a()Lkik/android/config/Configuration$Type;
+    invoke-virtual {v0}, Lkik/arcane/config/Configuration;->a()Lkik/arcane/config/Configuration$Type;
 
     move-result-object v3
 
-    invoke-virtual {v0}, Lkik/android/config/Configuration;->b()Ljava/lang/Object;
+    invoke-virtual {v0}, Lkik/arcane/config/Configuration;->b()Ljava/lang/Object;
 
     move-result-object v0
 
-    invoke-static {v3, v0}, Lcom/kik/cards/web/config/ConfigurationPlugin;->configValueToJsonValue(Lkik/android/config/Configuration$Type;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v3, v0}, Lcom/kik/cards/web/config/ConfigurationPlugin;->configValueToJsonValue(Lkik/arcane/config/Configuration$Type;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -826,11 +826,11 @@
     .line 39
     iget-object v0, p0, Lcom/kik/cards/web/config/ConfigurationPlugin;->_configProvider:Lcom/kik/cards/web/config/a;
 
-    invoke-interface {v0}, Lcom/kik/cards/web/config/a;->c()Lkik/android/config/b;
+    invoke-interface {v0}, Lcom/kik/cards/web/config/a;->c()Lkik/arcane/config/b;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkik/android/config/b;->a()Ljava/util/Collection;
+    invoke-interface {v0}, Lkik/arcane/config/b;->a()Ljava/util/Collection;
 
     move-result-object v0
 
@@ -860,10 +860,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/config/Configuration;
+    check-cast v0, Lkik/arcane/config/Configuration;
 
     .line 43
-    invoke-static {v0}, Lcom/kik/cards/web/config/ConfigurationPlugin;->configurationToTypeDescription(Lkik/android/config/Configuration;)Lorg/json/JSONObject;
+    invoke-static {v0}, Lcom/kik/cards/web/config/ConfigurationPlugin;->configurationToTypeDescription(Lkik/arcane/config/Configuration;)Lorg/json/JSONObject;
 
     move-result-object v0
 
@@ -960,11 +960,11 @@
     :cond_0
     iget-object v1, p0, Lcom/kik/cards/web/config/ConfigurationPlugin;->_configProvider:Lcom/kik/cards/web/config/a;
 
-    invoke-interface {v1}, Lcom/kik/cards/web/config/a;->c()Lkik/android/config/b;
+    invoke-interface {v1}, Lcom/kik/cards/web/config/a;->c()Lkik/arcane/config/b;
 
     move-result-object v1
 
-    invoke-interface {v1, v0}, Lkik/android/config/b;->b(Ljava/lang/String;)Z
+    invoke-interface {v1, v0}, Lkik/arcane/config/b;->b(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1045,11 +1045,11 @@
     :cond_1
     iget-object v2, p0, Lcom/kik/cards/web/config/ConfigurationPlugin;->_configProvider:Lcom/kik/cards/web/config/a;
 
-    invoke-interface {v2}, Lcom/kik/cards/web/config/a;->c()Lkik/android/config/b;
+    invoke-interface {v2}, Lcom/kik/cards/web/config/a;->c()Lkik/arcane/config/b;
 
     move-result-object v2
 
-    invoke-interface {v2, v0}, Lkik/android/config/b;->a(Ljava/lang/String;)Lkik/android/config/Configuration;
+    invoke-interface {v2, v0}, Lkik/arcane/config/b;->a(Ljava/lang/String;)Lkik/arcane/config/Configuration;
 
     move-result-object v0
 
@@ -1067,15 +1067,15 @@
 
     .line 94
     :cond_2
-    invoke-virtual {v0}, Lkik/android/config/Configuration;->a()Lkik/android/config/Configuration$Type;
+    invoke-virtual {v0}, Lkik/arcane/config/Configuration;->a()Lkik/arcane/config/Configuration$Type;
 
     move-result-object v2
 
-    invoke-static {v2, v1}, Lcom/kik/cards/web/config/ConfigurationPlugin;->jsonValueToConfigValue(Lkik/android/config/Configuration$Type;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v2, v1}, Lcom/kik/cards/web/config/ConfigurationPlugin;->jsonValueToConfigValue(Lkik/arcane/config/Configuration$Type;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/config/Configuration;->a(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Lkik/arcane/config/Configuration;->a(Ljava/lang/Object;)Z
 
     move-result v0
 

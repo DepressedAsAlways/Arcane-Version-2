@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/SquareFrameLayout;
+.class public Lkik/arcane/widget/SquareFrameLayout;
 .super Landroid/widget/FrameLayout;
 .source "SourceFile"
 

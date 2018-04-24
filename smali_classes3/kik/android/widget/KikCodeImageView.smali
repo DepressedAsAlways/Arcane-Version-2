@@ -1,5 +1,5 @@
-.class public Lkik/android/widget/KikCodeImageView;
-.super Lkik/android/widget/KikCodeBackgroundImageView;
+.class public Lkik/arcane/widget/KikCodeImageView;
+.super Lkik/arcane/widget/KikCodeBackgroundImageView;
 .source "SourceFile"
 
 
@@ -47,62 +47,62 @@
     const/4 v2, 0x1
 
     .line 46
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/KikCodeBackgroundImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/KikCodeBackgroundImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 30
     const v0, 0x3ea3d70a    # 0.32f
 
-    iput v0, p0, Lkik/android/widget/KikCodeImageView;->f:F
+    iput v0, p0, Lkik/arcane/widget/KikCodeImageView;->f:F
 
     .line 31
     const v0, 0x3ed9999a    # 0.425f
 
-    iput v0, p0, Lkik/android/widget/KikCodeImageView;->g:F
+    iput v0, p0, Lkik/arcane/widget/KikCodeImageView;->g:F
 
     .line 32
     const v0, 0x3f733333    # 0.95f
 
-    iput v0, p0, Lkik/android/widget/KikCodeImageView;->h:F
+    iput v0, p0, Lkik/arcane/widget/KikCodeImageView;->h:F
 
     .line 33
     const v0, 0x3dcccccd    # 0.1f
 
-    iput v0, p0, Lkik/android/widget/KikCodeImageView;->i:F
+    iput v0, p0, Lkik/arcane/widget/KikCodeImageView;->i:F
 
     .line 34
     const/4 v0, 0x6
 
-    iput v0, p0, Lkik/android/widget/KikCodeImageView;->j:I
+    iput v0, p0, Lkik/arcane/widget/KikCodeImageView;->j:I
 
     .line 35
     const/16 v0, 0x8
 
-    iput v0, p0, Lkik/android/widget/KikCodeImageView;->k:I
+    iput v0, p0, Lkik/arcane/widget/KikCodeImageView;->k:I
 
     .line 38
-    iput v2, p0, Lkik/android/widget/KikCodeImageView;->n:I
+    iput v2, p0, Lkik/arcane/widget/KikCodeImageView;->n:I
 
     .line 39
     const/4 v0, 0x4
 
     new-array v0, v0, [B
 
-    iput-object v0, p0, Lkik/android/widget/KikCodeImageView;->o:[B
+    iput-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->o:[B
 
     .line 47
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0, v2}, Landroid/graphics/Paint;-><init>(I)V
 
-    iput-object v0, p0, Lkik/android/widget/KikCodeImageView;->d:Landroid/graphics/Paint;
+    iput-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->d:Landroid/graphics/Paint;
 
     .line 48
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->d:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->d:Landroid/graphics/Paint;
 
     invoke-virtual {v0, v2}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
     .line 49
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->d:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->d:Landroid/graphics/Paint;
 
     sget-object v1, Landroid/graphics/Paint$Style;->FILL_AND_STROKE:Landroid/graphics/Paint$Style;
 
@@ -113,34 +113,34 @@
 
     invoke-direct {v0, v2}, Landroid/graphics/Paint;-><init>(I)V
 
-    iput-object v0, p0, Lkik/android/widget/KikCodeImageView;->e:Landroid/graphics/Paint;
+    iput-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->e:Landroid/graphics/Paint;
 
     .line 51
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->e:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->e:Landroid/graphics/Paint;
 
     invoke-virtual {v0, v2}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
     .line 52
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->e:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->e:Landroid/graphics/Paint;
 
     sget-object v1, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
     .line 53
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->e:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->e:Landroid/graphics/Paint;
 
     invoke-virtual {v0, v3, v3, v3, v3}, Landroid/graphics/Paint;->setARGB(IIII)V
 
     .line 54
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->e:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->e:Landroid/graphics/Paint;
 
     sget-object v1, Landroid/graphics/Paint$Cap;->ROUND:Landroid/graphics/Paint$Cap;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStrokeCap(Landroid/graphics/Paint$Cap;)V
 
     .line 55
-    invoke-virtual {p0}, Lkik/android/widget/KikCodeImageView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCodeImageView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -150,10 +150,10 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/KikCodeImageView;->p:Landroid/graphics/drawable/Drawable;
+    iput-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->p:Landroid/graphics/drawable/Drawable;
 
     .line 56
-    invoke-virtual {p0}, Lkik/android/widget/KikCodeImageView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCodeImageView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -165,7 +165,7 @@
 
     check-cast v0, Landroid/graphics/drawable/AnimationDrawable;
 
-    iput-object v0, p0, Lkik/android/widget/KikCodeImageView;->q:Landroid/graphics/drawable/AnimationDrawable;
+    iput-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->q:Landroid/graphics/drawable/AnimationDrawable;
 
     .line 57
     return-void
@@ -178,7 +178,7 @@
 
     .prologue
     .line 182
-    iput-object p1, p0, Lkik/android/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
+    iput-object p1, p0, Lkik/arcane/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
 
     .line 183
     return-void
@@ -196,22 +196,22 @@
 
     new-array v0, v0, [B
 
-    iput-object v0, p0, Lkik/android/widget/KikCodeImageView;->m:[B
+    iput-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->m:[B
 
     .line 167
     const/4 v0, 0x0
 
     :goto_0
-    iget-object v1, p0, Lkik/android/widget/KikCodeImageView;->o:[B
+    iget-object v1, p0, Lkik/arcane/widget/KikCodeImageView;->o:[B
 
     array-length v1, v1
 
     if-ge v0, v1, :cond_0
 
     .line 168
-    iget-object v1, p0, Lkik/android/widget/KikCodeImageView;->m:[B
+    iget-object v1, p0, Lkik/arcane/widget/KikCodeImageView;->m:[B
 
-    iget-object v2, p0, Lkik/android/widget/KikCodeImageView;->o:[B
+    iget-object v2, p0, Lkik/arcane/widget/KikCodeImageView;->o:[B
 
     aget-byte v2, v2, v0
 
@@ -234,7 +234,7 @@
     if-ge v0, v1, :cond_1
 
     .line 171
-    iget-object v1, p0, Lkik/android/widget/KikCodeImageView;->m:[B
+    iget-object v1, p0, Lkik/arcane/widget/KikCodeImageView;->m:[B
 
     add-int/lit8 v2, v0, -0x4
 
@@ -249,7 +249,7 @@
 
     .line 173
     :cond_1
-    invoke-virtual {p0}, Lkik/android/widget/KikCodeImageView;->invalidate()V
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCodeImageView;->invalidate()V
 
     .line 178
     :goto_2
@@ -259,7 +259,7 @@
     :cond_2
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/widget/KikCodeImageView;->m:[B
+    iput-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->m:[B
 
     goto :goto_2
 .end method
@@ -269,14 +269,14 @@
 
     .prologue
     .line 187
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
 
     instance-of v0, v0, Lcom/kik/scan/RemoteKikCode;
 
     if-eqz v0, :cond_0
 
     .line 188
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
 
     check-cast v0, Lcom/kik/scan/RemoteKikCode;
 
@@ -290,14 +290,14 @@
 
     .line 190
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
 
     instance-of v0, v0, Lcom/kik/scan/UsernameKikCode;
 
     if-eqz v0, :cond_1
 
     .line 191
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
 
     check-cast v0, Lcom/kik/scan/UsernameKikCode;
 
@@ -309,14 +309,14 @@
 
     .line 193
     :cond_1
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
 
     instance-of v0, v0, Lcom/kik/scan/GroupKikCode;
 
     if-eqz v0, :cond_2
 
     .line 194
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
 
     check-cast v0, Lcom/kik/scan/GroupKikCode;
 
@@ -340,7 +340,7 @@
 
     .prologue
     .line 203
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
 
     if-nez v0, :cond_1
 
@@ -351,7 +351,7 @@
 
     .line 206
     :cond_1
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
 
     invoke-virtual {v0}, Lcom/kik/scan/KikCode;->getColour()I
 
@@ -360,7 +360,7 @@
     .line 207
     add-int/lit8 v0, v0, 0x1
 
-    invoke-static {}, Lkik/android/chat/theming/AccentColourManager$AccentColours;->values()[Lkik/android/chat/theming/AccentColourManager$AccentColours;
+    invoke-static {}, Lkik/arcane/chat/theming/AccentColourManager$AccentColours;->values()[Lkik/arcane/chat/theming/AccentColourManager$AccentColours;
 
     move-result-object v1
 
@@ -369,19 +369,19 @@
     rem-int v1, v0, v1
 
     .line 1217
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
 
     if-eqz v0, :cond_0
 
     .line 1220
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
 
     instance-of v0, v0, Lcom/kik/scan/RemoteKikCode;
 
     if-eqz v0, :cond_2
 
     .line 1221
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
 
     check-cast v0, Lcom/kik/scan/RemoteKikCode;
 
@@ -394,33 +394,33 @@
 
     invoke-direct {v2, v0, v1}, Lcom/kik/scan/RemoteKikCode;-><init>([BI)V
 
-    iput-object v2, p0, Lkik/android/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
+    iput-object v2, p0, Lkik/arcane/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
 
     .line 1223
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
 
     invoke-virtual {v0}, Lcom/kik/scan/KikCode;->encode()[B
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/KikCodeImageView;->a([B)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/KikCodeImageView;->a([B)V
 
     .line 1239
     :goto_1
-    invoke-virtual {p0}, Lkik/android/widget/KikCodeImageView;->invalidate()V
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCodeImageView;->invalidate()V
 
     goto :goto_0
 
     .line 1225
     :cond_2
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
 
     instance-of v0, v0, Lcom/kik/scan/UsernameKikCode;
 
     if-eqz v0, :cond_3
 
     .line 1226
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
 
     check-cast v0, Lcom/kik/scan/UsernameKikCode;
 
@@ -437,29 +437,29 @@
 
     invoke-direct {v2, v3, v0, v1}, Lcom/kik/scan/UsernameKikCode;-><init>(Ljava/lang/String;II)V
 
-    iput-object v2, p0, Lkik/android/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
+    iput-object v2, p0, Lkik/arcane/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
 
     .line 1228
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
 
     invoke-virtual {v0}, Lcom/kik/scan/KikCode;->encode()[B
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/KikCodeImageView;->a([B)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/KikCodeImageView;->a([B)V
 
     goto :goto_1
 
     .line 1230
     :cond_3
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
 
     instance-of v0, v0, Lcom/kik/scan/GroupKikCode;
 
     if-eqz v0, :cond_4
 
     .line 1231
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
 
     check-cast v0, Lcom/kik/scan/GroupKikCode;
 
@@ -472,16 +472,16 @@
 
     invoke-direct {v2, v0, v1}, Lcom/kik/scan/GroupKikCode;-><init>([BI)V
 
-    iput-object v2, p0, Lkik/android/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
+    iput-object v2, p0, Lkik/arcane/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
 
     .line 1233
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
 
     invoke-virtual {v0}, Lcom/kik/scan/KikCode;->encode()[B
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/KikCodeImageView;->a([B)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/KikCodeImageView;->a([B)V
 
     goto :goto_1
 
@@ -503,14 +503,14 @@
     const/4 v1, 0x4
 
     .line 249
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->o:[B
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->o:[B
 
     array-length v0, v0
 
     if-gt v0, v1, :cond_0
 
     .line 250
-    iput-object p1, p0, Lkik/android/widget/KikCodeImageView;->o:[B
+    iput-object p1, p0, Lkik/arcane/widget/KikCodeImageView;->o:[B
 
     .line 255
     :goto_0
@@ -520,7 +520,7 @@
     :cond_0
     new-array v0, v1, [B
 
-    iput-object v0, p0, Lkik/android/widget/KikCodeImageView;->o:[B
+    iput-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->o:[B
 
     goto :goto_0
 .end method
@@ -530,7 +530,7 @@
 
     .prologue
     .line 244
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->l:Lcom/kik/scan/KikCode;
 
     return-object v0
 .end method
@@ -540,16 +540,16 @@
 
     .prologue
     .line 266
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->c:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->c:Landroid/graphics/Bitmap;
 
     if-nez v0, :cond_0
 
     .line 267
-    invoke-virtual {p0}, Lkik/android/widget/KikCodeImageView;->getWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCodeImageView;->getWidth()I
 
     move-result v0
 
-    invoke-virtual {p0}, Lkik/android/widget/KikCodeImageView;->getHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCodeImageView;->getHeight()I
 
     move-result v1
 
@@ -564,21 +564,21 @@
 
     invoke-direct {v1, v0}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
 
-    invoke-virtual {p0, v1}, Lkik/android/widget/KikCodeImageView;->draw(Landroid/graphics/Canvas;)V
+    invoke-virtual {p0, v1}, Lkik/arcane/widget/KikCodeImageView;->draw(Landroid/graphics/Canvas;)V
 
     .line 269
-    invoke-virtual {p0}, Lkik/android/widget/KikCodeImageView;->getHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCodeImageView;->getHeight()I
 
     move-result v1
 
     div-int/lit8 v1, v1, 0x2
 
     .line 270
-    invoke-virtual {p0}, Lkik/android/widget/KikCodeImageView;->getHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCodeImageView;->getHeight()I
 
     move-result v2
 
-    invoke-virtual {p0}, Lkik/android/widget/KikCodeImageView;->getWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCodeImageView;->getWidth()I
 
     move-result v3
 
@@ -602,11 +602,11 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/KikCodeImageView;->c:Landroid/graphics/Bitmap;
+    iput-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->c:Landroid/graphics/Bitmap;
 
     .line 274
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/KikCodeImageView;->c:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->c:Landroid/graphics/Bitmap;
 
     return-object v0
 .end method
@@ -616,7 +616,7 @@
 
     .prologue
     .line 279
-    iget v0, p0, Lkik/android/widget/KikCodeImageView;->b:F
+    iget v0, p0, Lkik/arcane/widget/KikCodeImageView;->b:F
 
     return v0
 .end method
@@ -628,10 +628,10 @@
     .line 260
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/widget/KikCodeImageView;->c:Landroid/graphics/Bitmap;
+    iput-object v0, p0, Lkik/arcane/widget/KikCodeImageView;->c:Landroid/graphics/Bitmap;
 
     .line 261
-    invoke-super {p0}, Lkik/android/widget/KikCodeBackgroundImageView;->invalidate()V
+    invoke-super {p0}, Lkik/arcane/widget/KikCodeBackgroundImageView;->invalidate()V
 
     .line 262
     return-void
@@ -642,15 +642,15 @@
 
     .prologue
     .line 62
-    invoke-super/range {p0 .. p1}, Lkik/android/widget/KikCodeBackgroundImageView;->onDraw(Landroid/graphics/Canvas;)V
+    invoke-super/range {p0 .. p1}, Lkik/arcane/widget/KikCodeBackgroundImageView;->onDraw(Landroid/graphics/Canvas;)V
 
     .line 63
-    invoke-virtual/range {p0 .. p0}, Lkik/android/widget/KikCodeImageView;->getWidth()I
+    invoke-virtual/range {p0 .. p0}, Lkik/arcane/widget/KikCodeImageView;->getWidth()I
 
     move-result v2
 
     .line 64
-    invoke-virtual/range {p0 .. p0}, Lkik/android/widget/KikCodeImageView;->getHeight()I
+    invoke-virtual/range {p0 .. p0}, Lkik/arcane/widget/KikCodeImageView;->getHeight()I
 
     move-result v3
 
@@ -681,12 +681,12 @@
 
     move-object/from16 v0, p0
 
-    iput v2, v0, Lkik/android/widget/KikCodeImageView;->b:F
+    iput v2, v0, Lkik/arcane/widget/KikCodeImageView;->b:F
 
     .line 74
     move-object/from16 v0, p0
 
-    iget v2, v0, Lkik/android/widget/KikCodeImageView;->b:F
+    iget v2, v0, Lkik/arcane/widget/KikCodeImageView;->b:F
 
     float-to-double v2, v2
 
@@ -699,7 +699,7 @@
     .line 76
     move-object/from16 v0, p0
 
-    iget-object v3, v0, Lkik/android/widget/KikCodeImageView;->m:[B
+    iget-object v3, v0, Lkik/arcane/widget/KikCodeImageView;->m:[B
 
     if-eqz v3, :cond_8
 
@@ -723,7 +723,7 @@
 
     move-object/from16 v0, p0
 
-    iget v3, v0, Lkik/android/widget/KikCodeImageView;->j:I
+    iget v3, v0, Lkik/arcane/widget/KikCodeImageView;->j:I
 
     int-to-float v3, v3
 
@@ -741,7 +741,7 @@
     .line 86
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/widget/KikCodeImageView;->e:Landroid/graphics/Paint;
+    iget-object v2, v0, Lkik/arcane/widget/KikCodeImageView;->e:Landroid/graphics/Paint;
 
     move/from16 v0, v19
 
@@ -750,7 +750,7 @@
     .line 89
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/widget/KikCodeImageView;->d:Landroid/graphics/Paint;
+    iget-object v2, v0, Lkik/arcane/widget/KikCodeImageView;->d:Landroid/graphics/Paint;
 
     const/16 v3, 0xff
 
@@ -775,7 +775,7 @@
     :goto_1
     move-object/from16 v0, p0
 
-    iget v2, v0, Lkik/android/widget/KikCodeImageView;->j:I
+    iget v2, v0, Lkik/arcane/widget/KikCodeImageView;->j:I
 
     if-ge v8, v2, :cond_7
 
@@ -800,7 +800,7 @@
     :cond_0
     move-object/from16 v0, p0
 
-    iget v3, v0, Lkik/android/widget/KikCodeImageView;->k:I
+    iget v3, v0, Lkik/arcane/widget/KikCodeImageView;->k:I
 
     mul-int/2addr v3, v8
 
@@ -859,7 +859,7 @@
     .line 118
     move-object/from16 v0, p0
 
-    iget-object v12, v0, Lkik/android/widget/KikCodeImageView;->m:[B
+    iget-object v12, v0, Lkik/arcane/widget/KikCodeImageView;->m:[B
 
     div-int/lit8 v13, v10, 0x8
 
@@ -903,7 +903,7 @@
     .line 128
     move-object/from16 v0, p0
 
-    iget-object v7, v0, Lkik/android/widget/KikCodeImageView;->m:[B
+    iget-object v7, v0, Lkik/arcane/widget/KikCodeImageView;->m:[B
 
     div-int/lit8 v4, v4, 0x8
 
@@ -976,7 +976,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v7, v0, Lkik/android/widget/KikCodeImageView;->e:Landroid/graphics/Paint;
+    iget-object v7, v0, Lkik/arcane/widget/KikCodeImageView;->e:Landroid/graphics/Paint;
 
     move-object/from16 v2, p1
 
@@ -1063,7 +1063,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/widget/KikCodeImageView;->d:Landroid/graphics/Paint;
+    iget-object v5, v0, Lkik/arcane/widget/KikCodeImageView;->d:Landroid/graphics/Paint;
 
     move-object/from16 v0, p1
 
@@ -1085,7 +1085,7 @@
     :cond_7
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/widget/KikCodeImageView;->p:Landroid/graphics/drawable/Drawable;
+    iget-object v2, v0, Lkik/arcane/widget/KikCodeImageView;->p:Landroid/graphics/drawable/Drawable;
 
     sub-float v3, v14, v16
 
@@ -1108,7 +1108,7 @@
     .line 159
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/widget/KikCodeImageView;->p:Landroid/graphics/drawable/Drawable;
+    iget-object v2, v0, Lkik/arcane/widget/KikCodeImageView;->p:Landroid/graphics/drawable/Drawable;
 
     move-object/from16 v0, p1
 

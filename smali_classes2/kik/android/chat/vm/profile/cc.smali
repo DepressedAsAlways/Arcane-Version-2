@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/vm/profile/cc;
+.class public final Lkik/arcane/chat/vm/profile/cc;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -16,7 +16,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 15
-    iput-object p1, p0, Lkik/android/chat/vm/profile/cc;->a:Lcom/kik/core/network/xmpp/jid/a;
+    iput-object p1, p0, Lkik/arcane/chat/vm/profile/cc;->a:Lcom/kik/core/network/xmpp/jid/a;
 
     .line 16
     return-void
@@ -29,7 +29,7 @@
 
     .prologue
     .line 20
-    iget-object v0, p0, Lkik/android/chat/vm/profile/cc;->a:Lcom/kik/core/network/xmpp/jid/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/cc;->a:Lcom/kik/core/network/xmpp/jid/a;
 
     return-object v0
 .end method

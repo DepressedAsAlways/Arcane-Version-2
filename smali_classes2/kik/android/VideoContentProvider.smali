@@ -1,4 +1,4 @@
-.class public Lkik/android/VideoContentProvider;
+.class public Lkik/arcane/VideoContentProvider;
 .super Landroid/content/ContentProvider;
 .source "SourceFile"
 
@@ -13,13 +13,13 @@
 
     .prologue
     .line 22
-    const-string v0, "content://kik.android.VideoContentProvider/"
+    const-string v0, "content://kik.arcane.VideoContentProvider/"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/VideoContentProvider;->a:Landroid/net/Uri;
+    sput-object v0, Lkik/arcane/VideoContentProvider;->a:Landroid/net/Uri;
 
     return-void
 .end method
@@ -53,7 +53,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v1, Lkik/android/VideoContentProvider;->a:Landroid/net/Uri;
+    sget-object v1, Lkik/arcane/VideoContentProvider;->a:Landroid/net/Uri;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -101,7 +101,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v1, Lkik/android/VideoContentProvider;->a:Landroid/net/Uri;
+    sget-object v1, Lkik/arcane/VideoContentProvider;->a:Landroid/net/Uri;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 

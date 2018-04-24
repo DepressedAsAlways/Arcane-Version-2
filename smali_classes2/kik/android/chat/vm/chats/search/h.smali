@@ -1,9 +1,9 @@
-.class public interface abstract Lkik/android/chat/vm/chats/search/h;
+.class public interface abstract Lkik/arcane/chat/vm/chats/search/h;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel;
+.implements Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel;
 
 
 # virtual methods

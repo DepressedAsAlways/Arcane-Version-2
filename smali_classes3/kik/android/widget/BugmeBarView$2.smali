@@ -1,4 +1,4 @@
-.class final Lkik/android/widget/BugmeBarView$2;
+.class final Lkik/arcane/widget/BugmeBarView$2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/BugmeBarView;
+    value = Lkik/arcane/widget/BugmeBarView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/BugmeBarView;
+.field final synthetic a:Lkik/arcane/widget/BugmeBarView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/BugmeBarView;)V
+.method constructor <init>(Lkik/arcane/widget/BugmeBarView;)V
     .locals 0
 
     .prologue
     .line 176
-    iput-object p1, p0, Lkik/android/widget/BugmeBarView$2;->a:Lkik/android/widget/BugmeBarView;
+    iput-object p1, p0, Lkik/arcane/widget/BugmeBarView$2;->a:Lkik/arcane/widget/BugmeBarView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,31 +41,31 @@
 
     .prologue
     .line 181
-    iget-object v0, p0, Lkik/android/widget/BugmeBarView$2;->a:Lkik/android/widget/BugmeBarView;
+    iget-object v0, p0, Lkik/arcane/widget/BugmeBarView$2;->a:Lkik/arcane/widget/BugmeBarView;
 
     const/4 v1, 0x0
 
-    invoke-static {v0, v1}, Lkik/android/widget/BugmeBarView;->a(Lkik/android/widget/BugmeBarView;Z)Z
+    invoke-static {v0, v1}, Lkik/arcane/widget/BugmeBarView;->a(Lkik/arcane/widget/BugmeBarView;Z)Z
 
     .line 182
-    iget-object v0, p0, Lkik/android/widget/BugmeBarView$2;->a:Lkik/android/widget/BugmeBarView;
+    iget-object v0, p0, Lkik/arcane/widget/BugmeBarView$2;->a:Lkik/arcane/widget/BugmeBarView;
 
-    iget-object v0, v0, Lkik/android/widget/BugmeBarView;->a:Landroid/view/View;
+    iget-object v0, v0, Lkik/arcane/widget/BugmeBarView;->a:Landroid/view/View;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/widget/BugmeBarView$2;->a:Lkik/android/widget/BugmeBarView;
+    iget-object v0, p0, Lkik/arcane/widget/BugmeBarView$2;->a:Lkik/arcane/widget/BugmeBarView;
 
-    invoke-static {v0}, Lkik/android/widget/BugmeBarView;->c(Lkik/android/widget/BugmeBarView;)Landroid/content/Context;
+    invoke-static {v0}, Lkik/arcane/widget/BugmeBarView;->c(Lkik/arcane/widget/BugmeBarView;)Landroid/content/Context;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
     .line 183
-    iget-object v0, p0, Lkik/android/widget/BugmeBarView$2;->a:Lkik/android/widget/BugmeBarView;
+    iget-object v0, p0, Lkik/arcane/widget/BugmeBarView$2;->a:Lkik/arcane/widget/BugmeBarView;
 
-    invoke-static {v0}, Lkik/android/widget/BugmeBarView;->d(Lkik/android/widget/BugmeBarView;)V
+    invoke-static {v0}, Lkik/arcane/widget/BugmeBarView;->d(Lkik/arcane/widget/BugmeBarView;)V
 
     .line 185
     :cond_0

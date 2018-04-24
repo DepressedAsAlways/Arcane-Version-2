@@ -1,11 +1,11 @@
-.class final Lkik/android/deeplinks/PublicGroupDeepLinkActivity$1;
+.class final Lkik/arcane/deeplinks/PublicGroupDeepLinkActivity$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/deeplinks/PublicGroupDeepLinkActivity;->a(Landroid/support/v4/app/TaskStackBuilder;)V
+    value = Lkik/arcane/deeplinks/PublicGroupDeepLinkActivity;->a(Landroid/support/v4/app/TaskStackBuilder;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,18 +26,18 @@
 # instance fields
 .field final synthetic a:Landroid/support/v4/app/TaskStackBuilder;
 
-.field final synthetic b:Lkik/android/deeplinks/PublicGroupDeepLinkActivity;
+.field final synthetic b:Lkik/arcane/deeplinks/PublicGroupDeepLinkActivity;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/deeplinks/PublicGroupDeepLinkActivity;Landroid/support/v4/app/TaskStackBuilder;)V
+.method constructor <init>(Lkik/arcane/deeplinks/PublicGroupDeepLinkActivity;Landroid/support/v4/app/TaskStackBuilder;)V
     .locals 0
 
     .prologue
     .line 22
-    iput-object p1, p0, Lkik/android/deeplinks/PublicGroupDeepLinkActivity$1;->b:Lkik/android/deeplinks/PublicGroupDeepLinkActivity;
+    iput-object p1, p0, Lkik/arcane/deeplinks/PublicGroupDeepLinkActivity$1;->b:Lkik/arcane/deeplinks/PublicGroupDeepLinkActivity;
 
-    iput-object p2, p0, Lkik/android/deeplinks/PublicGroupDeepLinkActivity$1;->a:Landroid/support/v4/app/TaskStackBuilder;
+    iput-object p2, p0, Lkik/arcane/deeplinks/PublicGroupDeepLinkActivity$1;->a:Landroid/support/v4/app/TaskStackBuilder;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -54,9 +54,9 @@
     check-cast p1, Ljava/lang/Boolean;
 
     .line 1026
-    iget-object v1, p0, Lkik/android/deeplinks/PublicGroupDeepLinkActivity$1;->b:Lkik/android/deeplinks/PublicGroupDeepLinkActivity;
+    iget-object v1, p0, Lkik/arcane/deeplinks/PublicGroupDeepLinkActivity$1;->b:Lkik/arcane/deeplinks/PublicGroupDeepLinkActivity;
 
-    iget-object v2, p0, Lkik/android/deeplinks/PublicGroupDeepLinkActivity$1;->a:Landroid/support/v4/app/TaskStackBuilder;
+    iget-object v2, p0, Lkik/arcane/deeplinks/PublicGroupDeepLinkActivity$1;->a:Landroid/support/v4/app/TaskStackBuilder;
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
@@ -67,7 +67,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    invoke-static {v1, v2, v0}, Lkik/android/deeplinks/PublicGroupDeepLinkActivity;->a(Lkik/android/deeplinks/PublicGroupDeepLinkActivity;Landroid/support/v4/app/TaskStackBuilder;Z)V
+    invoke-static {v1, v2, v0}, Lkik/arcane/deeplinks/PublicGroupDeepLinkActivity;->a(Lkik/arcane/deeplinks/PublicGroupDeepLinkActivity;Landroid/support/v4/app/TaskStackBuilder;Z)V
 
     .line 22
     return-void

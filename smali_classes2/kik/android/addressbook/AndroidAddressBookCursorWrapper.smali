@@ -1,4 +1,4 @@
-.class public final Lkik/android/addressbook/AndroidAddressBookCursorWrapper;
+.class public final Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
+        Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
     }
 .end annotation
 
@@ -36,7 +36,7 @@
 
     move-result v0
 
-    iput v0, p0, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->a:I
+    iput v0, p0, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->a:I
 
     .line 41
     const-string v0, "data1"
@@ -45,7 +45,7 @@
 
     move-result v0
 
-    iput v0, p0, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->b:I
+    iput v0, p0, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->b:I
 
     .line 42
     const-string v0, "mimetype"
@@ -54,10 +54,10 @@
 
     move-result v0
 
-    iput v0, p0, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->c:I
+    iput v0, p0, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->c:I
 
     .line 43
-    iput-object p1, p0, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->d:Landroid/database/Cursor;
+    iput-object p1, p0, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->d:Landroid/database/Cursor;
 
     .line 44
     return-void
@@ -70,7 +70,7 @@
 
     .prologue
     .line 48
-    iget-object v0, p0, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->d:Landroid/database/Cursor;
+    iget-object v0, p0, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->d:Landroid/database/Cursor;
 
     invoke-interface {v0}, Landroid/database/Cursor;->isClosed()Z
 
@@ -86,7 +86,7 @@
 
     .line 48
     :cond_0
-    iget-object v0, p0, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->d:Landroid/database/Cursor;
+    iget-object v0, p0, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->d:Landroid/database/Cursor;
 
     invoke-interface {v0}, Landroid/database/Cursor;->getCount()I
 
@@ -95,7 +95,7 @@
     goto :goto_0
 .end method
 
-.method public final a(I)Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
+.method public final a(I)Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
     .locals 5
 
     .prologue
@@ -104,7 +104,7 @@
     const/4 v4, -0x1
 
     .line 55
-    iget-object v0, p0, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->d:Landroid/database/Cursor;
+    iget-object v0, p0, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->d:Landroid/database/Cursor;
 
     invoke-interface {v0}, Landroid/database/Cursor;->isClosed()Z
 
@@ -120,18 +120,18 @@
 
     .line 58
     :cond_0
-    iget-object v0, p0, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->d:Landroid/database/Cursor;
+    iget-object v0, p0, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->d:Landroid/database/Cursor;
 
     invoke-interface {v0, p1}, Landroid/database/Cursor;->moveToPosition(I)Z
 
     .line 59
-    iget v0, p0, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->a:I
+    iget v0, p0, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->a:I
 
     if-eq v0, v4, :cond_1
 
-    iget-object v0, p0, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->d:Landroid/database/Cursor;
+    iget-object v0, p0, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->d:Landroid/database/Cursor;
 
-    iget v1, p0, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->a:I
+    iget v1, p0, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->a:I
 
     invoke-interface {v0, v1}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
@@ -139,13 +139,13 @@
 
     .line 60
     :goto_1
-    iget v1, p0, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->b:I
+    iget v1, p0, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->b:I
 
     if-eq v1, v4, :cond_2
 
-    iget-object v1, p0, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->d:Landroid/database/Cursor;
+    iget-object v1, p0, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->d:Landroid/database/Cursor;
 
-    iget v2, p0, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->b:I
+    iget v2, p0, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->b:I
 
     invoke-interface {v1, v2}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
@@ -153,13 +153,13 @@
 
     .line 61
     :goto_2
-    iget v2, p0, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->c:I
+    iget v2, p0, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->c:I
 
     if-eq v2, v4, :cond_3
 
-    iget-object v2, p0, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->d:Landroid/database/Cursor;
+    iget-object v2, p0, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->d:Landroid/database/Cursor;
 
-    iget v4, p0, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->c:I
+    iget v4, p0, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->c:I
 
     invoke-interface {v2, v4}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
@@ -176,11 +176,11 @@
     if-eqz v4, :cond_4
 
     .line 63
-    new-instance v2, Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
+    new-instance v2, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
 
-    sget-object v3, Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;->Email:Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;
+    sget-object v3, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;->Email:Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;
 
-    invoke-direct {v2, v3, v0, v1}, Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;-><init>(Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v0, v1}, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;-><init>(Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v0, v2
 
@@ -215,11 +215,11 @@
     if-eqz v2, :cond_5
 
     .line 66
-    new-instance v2, Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
+    new-instance v2, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
 
-    sget-object v3, Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;->Phone:Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;
+    sget-object v3, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;->Phone:Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;
 
-    invoke-direct {v2, v3, v0, v1}, Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;-><init>(Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v0, v1}, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;-><init>(Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;Ljava/lang/String;Ljava/lang/String;)V
 
     move-object v0, v2
 
@@ -237,11 +237,11 @@
 
     .prologue
     .line 81
-    iget-object v0, p0, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->d:Landroid/database/Cursor;
+    iget-object v0, p0, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->d:Landroid/database/Cursor;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->d:Landroid/database/Cursor;
+    iget-object v0, p0, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->d:Landroid/database/Cursor;
 
     invoke-interface {v0}, Landroid/database/Cursor;->isClosed()Z
 
@@ -256,7 +256,7 @@
 
     .line 84
     :cond_1
-    iget-object v0, p0, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->d:Landroid/database/Cursor;
+    iget-object v0, p0, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->d:Landroid/database/Cursor;
 
     invoke-interface {v0}, Landroid/database/Cursor;->close()V
 

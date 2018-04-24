@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/n;
+.class public final Lkik/arcane/util/n;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,13 +6,13 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/util/n$a;
+        Lkik/arcane/util/n$a;
     }
 .end annotation
 
 
 # static fields
-.field public static final a:Lkik/android/util/ca$d;
+.field public static final a:Lkik/arcane/util/ca$d;
 
 
 # direct methods
@@ -21,24 +21,24 @@
 
     .prologue
     .line 35
-    new-instance v0, Lkik/android/util/ca$d;
+    new-instance v0, Lkik/arcane/util/ca$d;
 
     const v1, 0x7f0e0039
 
     .line 36
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->d(I)I
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->d(I)I
 
     move-result v1
 
-    invoke-direct {v0, v1}, Lkik/android/util/ca$d;-><init>(I)V
+    invoke-direct {v0, v1}, Lkik/arcane/util/ca$d;-><init>(I)V
 
-    sput-object v0, Lkik/android/util/n;->a:Lkik/android/util/ca$d;
+    sput-object v0, Lkik/arcane/util/n;->a:Lkik/arcane/util/ca$d;
 
     .line 35
     return-void
 .end method
 
-.method public static a(Landroid/view/ViewGroup;Landroid/content/Context;Lcom/kik/components/CoreComponent;Lkik/core/datatypes/messageExtensions/ContentMessage;Ljava/lang/String;Landroid/widget/LinearLayout;Lkik/android/util/n$a;)Landroid/view/View;
+.method public static a(Landroid/view/ViewGroup;Landroid/content/Context;Lcom/kik/components/CoreComponent;Lkik/core/datatypes/messageExtensions/ContentMessage;Ljava/lang/String;Landroid/widget/LinearLayout;Lkik/arcane/util/n$a;)Landroid/view/View;
     .locals 10
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -51,7 +51,7 @@
             "Lkik/core/datatypes/messageExtensions/ContentMessage;",
             "Ljava/lang/String;",
             "Landroid/widget/LinearLayout;",
-            "Lkik/android/util/n$a;",
+            "Lkik/arcane/util/n$a;",
             ")",
             "Landroid/view/View;"
         }
@@ -101,27 +101,27 @@
 
     move-object v6, v0
 
-    check-cast v6, Lkik/android/e/f;
+    check-cast v6, Lkik/arcane/e/f;
 
     .line 59
-    invoke-virtual {v6}, Lkik/android/e/f;->getRoot()Landroid/view/View;
+    invoke-virtual {v6}, Lkik/arcane/e/f;->getRoot()Landroid/view/View;
 
     move-result-object v1
 
-    check-cast v1, Lkik/android/widget/BubbleFramelayout;
+    check-cast v1, Lkik/arcane/widget/BubbleFramelayout;
 
     .line 60
     if-eqz p4, :cond_1
 
     .line 61
-    invoke-virtual {v1, p4}, Lkik/android/widget/BubbleFramelayout;->setTag(Ljava/lang/Object;)V
+    invoke-virtual {v1, p4}, Lkik/arcane/widget/BubbleFramelayout;->setTag(Ljava/lang/Object;)V
 
     .line 63
     :cond_1
     invoke-virtual {p5, v1}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
     .line 65
-    iget-object v0, v6, Lkik/android/e/f;->c:Landroid/databinding/ViewStubProxy;
+    iget-object v0, v6, Lkik/arcane/e/f;->c:Landroid/databinding/ViewStubProxy;
 
     invoke-virtual {v0}, Landroid/databinding/ViewStubProxy;->getViewStub()Landroid/view/ViewStub;
 
@@ -131,16 +131,16 @@
     const/4 v0, 0x0
 
     .line 70
-    invoke-static {p3}, Lkik/android/chat/vm/messaging/a/c;->b(Lkik/core/datatypes/messageExtensions/ContentMessage;)Z
+    invoke-static {p3}, Lkik/arcane/chat/vm/messaging/a/c;->b(Lkik/core/datatypes/messageExtensions/ContentMessage;)Z
 
     move-result v2
 
     if-eqz v2, :cond_2
 
     .line 71
-    new-instance v2, Lkik/android/chat/vm/messaging/a/c;
+    new-instance v2, Lkik/arcane/chat/vm/messaging/a/c;
 
-    invoke-direct {v2, p3}, Lkik/android/chat/vm/messaging/a/c;-><init>(Lkik/core/datatypes/messageExtensions/ContentMessage;)V
+    invoke-direct {v2, p3}, Lkik/arcane/chat/vm/messaging/a/c;-><init>(Lkik/core/datatypes/messageExtensions/ContentMessage;)V
 
     .line 72
     const v3, 0x7f040119
@@ -153,13 +153,13 @@
     :goto_0
     if-eqz v0, :cond_5
 
-    invoke-virtual {v0}, Lkik/android/chat/vm/messaging/a/a;->g()Z
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/messaging/a/a;->g()Z
 
     move-result v4
 
     .line 92
     :goto_1
-    iget-object v9, v6, Lkik/android/e/f;->b:Landroid/widget/Button;
+    iget-object v9, v6, Lkik/arcane/e/f;->b:Landroid/widget/Button;
 
     move-object v0, p5
 
@@ -169,18 +169,18 @@
 
     move-object v5, p3
 
-    invoke-static/range {v0 .. v5}, Lkik/android/util/o;->a(Landroid/widget/LinearLayout;Lkik/android/widget/BubbleFramelayout;Lkik/android/util/n$a;Ljava/lang/String;ZLkik/core/datatypes/messageExtensions/ContentMessage;)Landroid/view/View$OnClickListener;
+    invoke-static/range {v0 .. v5}, Lkik/arcane/util/o;->a(Landroid/widget/LinearLayout;Lkik/arcane/widget/BubbleFramelayout;Lkik/arcane/util/n$a;Ljava/lang/String;ZLkik/core/datatypes/messageExtensions/ContentMessage;)Landroid/view/View$OnClickListener;
 
     move-result-object v0
 
     invoke-virtual {v9, v0}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 97
-    new-instance v0, Lkik/android/chat/vm/cc;
+    new-instance v0, Lkik/arcane/chat/vm/cc;
 
-    invoke-direct {v0, p1}, Lkik/android/chat/vm/cc;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p1}, Lkik/arcane/chat/vm/cc;-><init>(Landroid/content/Context;)V
 
-    invoke-interface {v7, p2, v0}, Lkik/android/chat/vm/messaging/IMessageViewModel;->a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+    invoke-interface {v7, p2, v0}, Lkik/arcane/chat/vm/messaging/IMessageViewModel;->a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
 
     .line 99
     invoke-virtual {v8}, Landroid/view/ViewStub;->inflate()Landroid/view/View;
@@ -195,7 +195,7 @@
     .line 103
     const/16 v2, 0xe
 
-    invoke-virtual {v6, v2, v7}, Lkik/android/e/f;->setVariable(ILjava/lang/Object;)Z
+    invoke-virtual {v6, v2, v7}, Lkik/arcane/e/f;->setVariable(ILjava/lang/Object;)Z
 
     .line 104
     const/16 v2, 0xe
@@ -207,16 +207,16 @@
 
     .line 74
     :cond_2
-    invoke-static {p3}, Lkik/android/chat/vm/messaging/a/b;->b(Lkik/core/datatypes/messageExtensions/ContentMessage;)Z
+    invoke-static {p3}, Lkik/arcane/chat/vm/messaging/a/b;->b(Lkik/core/datatypes/messageExtensions/ContentMessage;)Z
 
     move-result v2
 
     if-eqz v2, :cond_3
 
     .line 75
-    new-instance v2, Lkik/android/chat/vm/messaging/a/b;
+    new-instance v2, Lkik/arcane/chat/vm/messaging/a/b;
 
-    invoke-direct {v2, p3}, Lkik/android/chat/vm/messaging/a/b;-><init>(Lkik/core/datatypes/messageExtensions/ContentMessage;)V
+    invoke-direct {v2, p3}, Lkik/arcane/chat/vm/messaging/a/b;-><init>(Lkik/core/datatypes/messageExtensions/ContentMessage;)V
 
     .line 76
     const v3, 0x7f040115
@@ -229,12 +229,12 @@
 
     .line 79
     :cond_3
-    new-instance v0, Lkik/android/chat/vm/messaging/a/a;
+    new-instance v0, Lkik/arcane/chat/vm/messaging/a/a;
 
-    invoke-direct {v0, p3}, Lkik/android/chat/vm/messaging/a/a;-><init>(Lkik/core/datatypes/messageExtensions/ContentMessage;)V
+    invoke-direct {v0, p3}, Lkik/arcane/chat/vm/messaging/a/a;-><init>(Lkik/core/datatypes/messageExtensions/ContentMessage;)V
 
     .line 80
-    invoke-virtual {v0}, Lkik/android/chat/vm/messaging/a/a;->g()Z
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/messaging/a/a;->g()Z
 
     move-result v2
 
@@ -266,7 +266,7 @@
     goto :goto_1
 .end method
 
-.method static synthetic a(Landroid/widget/LinearLayout;Lkik/android/widget/BubbleFramelayout;Lkik/android/util/n$a;Ljava/lang/String;ZLkik/core/datatypes/messageExtensions/ContentMessage;)V
+.method static synthetic a(Landroid/widget/LinearLayout;Lkik/arcane/widget/BubbleFramelayout;Lkik/arcane/util/n$a;Ljava/lang/String;ZLkik/core/datatypes/messageExtensions/ContentMessage;)V
     .locals 1
 
     .prologue
@@ -278,7 +278,7 @@
 
     move-result-object v0
 
-    invoke-interface {p2, p3, p4, v0}, Lkik/android/util/n$a;->a(Ljava/lang/String;ZLjava/lang/String;)V
+    invoke-interface {p2, p3, p4, v0}, Lkik/arcane/util/n$a;->a(Ljava/lang/String;ZLjava/lang/String;)V
 
     .line 95
     return-void

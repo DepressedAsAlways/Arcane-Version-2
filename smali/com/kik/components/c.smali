@@ -57,7 +57,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/b/a;",
+            "Lkik/arcane/chat/b/a;",
             ">;"
         }
     .end annotation
@@ -68,7 +68,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/videochat/c;",
+            "Lkik/arcane/videochat/c;",
             ">;"
         }
     .end annotation
@@ -158,7 +158,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/b/g;",
+            "Lcom/kik/arcane/b/g;",
             ">;"
         }
     .end annotation
@@ -169,7 +169,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/messaging/eu;",
+            "Lkik/arcane/chat/vm/messaging/eu;",
             ">;"
         }
     .end annotation
@@ -180,7 +180,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/net/http/b;",
+            "Lkik/arcane/net/http/b;",
             ">;"
         }
     .end annotation
@@ -224,7 +224,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/messaging/bx;",
+            "Lkik/arcane/chat/vm/messaging/bx;",
             ">;"
         }
     .end annotation
@@ -246,7 +246,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/messaging/fe;",
+            "Lkik/arcane/chat/vm/messaging/fe;",
             ">;"
         }
     .end annotation
@@ -257,7 +257,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/messaging/er;",
+            "Lkik/arcane/chat/vm/messaging/er;",
             ">;"
         }
     .end annotation
@@ -268,7 +268,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/gifs/c;",
+            "Lkik/arcane/gifs/c;",
             ">;"
         }
     .end annotation
@@ -279,7 +279,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/messaging/db;",
+            "Lkik/arcane/chat/vm/messaging/db;",
             ">;"
         }
     .end annotation
@@ -290,7 +290,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/messaging/AbstractMessageViewModel;",
+            "Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;",
             ">;"
         }
     .end annotation
@@ -301,7 +301,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/messaging/cu;",
+            "Lkik/arcane/chat/vm/messaging/cu;",
             ">;"
         }
     .end annotation
@@ -312,7 +312,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/GalleryWidget;",
+            "Lkik/arcane/widget/GalleryWidget;",
             ">;"
         }
     .end annotation
@@ -323,7 +323,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/gallery/vm/l;",
+            "Lkik/arcane/gallery/vm/l;",
             ">;"
         }
     .end annotation
@@ -334,7 +334,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/gallery/vm/a;",
+            "Lkik/arcane/gallery/vm/a;",
             ">;"
         }
     .end annotation
@@ -345,7 +345,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;",
+            "Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;",
             ">;"
         }
     .end annotation
@@ -356,7 +356,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/activity/KikWelcomeFragmentActivity;",
+            "Lkik/arcane/chat/activity/KikWelcomeFragmentActivity;",
             ">;"
         }
     .end annotation
@@ -367,7 +367,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/activity/IntroActivity;",
+            "Lkik/arcane/chat/activity/IntroActivity;",
             ">;"
         }
     .end annotation
@@ -378,7 +378,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/net/communicator/CommunicatorService;",
+            "Lkik/arcane/net/communicator/CommunicatorService;",
             ">;"
         }
     .end annotation
@@ -389,7 +389,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/activity/KikPlatformLanding;",
+            "Lkik/arcane/chat/activity/KikPlatformLanding;",
             ">;"
         }
     .end annotation
@@ -400,7 +400,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/activity/KikActivityBase;",
+            "Lkik/arcane/chat/activity/KikActivityBase;",
             ">;"
         }
     .end annotation
@@ -411,7 +411,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/activity/KikIqActivityBase;",
+            "Lkik/arcane/chat/activity/KikIqActivityBase;",
             ">;"
         }
     .end annotation
@@ -422,7 +422,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/activity/FragmentWrapperActivity;",
+            "Lkik/arcane/chat/activity/FragmentWrapperActivity;",
             ">;"
         }
     .end annotation
@@ -433,7 +433,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/util/t;",
+            "Lkik/arcane/util/t;",
             ">;"
         }
     .end annotation
@@ -455,7 +455,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/activity/KikApiLandingActivity;",
+            "Lkik/arcane/chat/activity/KikApiLandingActivity;",
             ">;"
         }
     .end annotation
@@ -466,7 +466,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/LEDNotificationPreference;",
+            "Lkik/arcane/widget/preferences/LEDNotificationPreference;",
             ">;"
         }
     .end annotation
@@ -477,7 +477,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/HelpPreference;",
+            "Lkik/arcane/widget/preferences/HelpPreference;",
             ">;"
         }
     .end annotation
@@ -488,7 +488,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/PasswordPreference;",
+            "Lkik/arcane/widget/preferences/PasswordPreference;",
             ">;"
         }
     .end annotation
@@ -499,7 +499,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/settings/EditPasswordFragment;",
+            "Lkik/arcane/chat/fragment/settings/EditPasswordFragment;",
             ">;"
         }
     .end annotation
@@ -510,7 +510,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/NotifyNewPeoplePreference;",
+            "Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;",
             ">;"
         }
     .end annotation
@@ -521,7 +521,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/ShowKikCodePreference;",
+            "Lkik/arcane/widget/preferences/ShowKikCodePreference;",
             ">;"
         }
     .end annotation
@@ -532,7 +532,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/UsernamePreference;",
+            "Lkik/arcane/widget/preferences/UsernamePreference;",
             ">;"
         }
     .end annotation
@@ -543,7 +543,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/NamePreference;",
+            "Lkik/arcane/widget/preferences/NamePreference;",
             ">;"
         }
     .end annotation
@@ -554,7 +554,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/settings/EditNameFragment;",
+            "Lkik/arcane/chat/fragment/settings/EditNameFragment;",
             ">;"
         }
     .end annotation
@@ -565,7 +565,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/AutoplayVideoPreference;",
+            "Lkik/arcane/widget/preferences/AutoplayVideoPreference;",
             ">;"
         }
     .end annotation
@@ -576,7 +576,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/KikVideoPrefetchPreference;",
+            "Lkik/arcane/widget/preferences/KikVideoPrefetchPreference;",
             ">;"
         }
     .end annotation
@@ -587,7 +587,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/KikPreferenceScreen;",
+            "Lkik/arcane/widget/preferences/KikPreferenceScreen;",
             ">;"
         }
     .end annotation
@@ -642,7 +642,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/presentation/bu;",
+            "Lkik/arcane/chat/presentation/bu;",
             ">;"
         }
     .end annotation
@@ -708,7 +708,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/presentation/MediaTrayPresenterImpl;",
+            "Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;",
             ">;"
         }
     .end annotation
@@ -719,7 +719,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/g/b;",
+            "Lkik/arcane/g/b;",
             ">;"
         }
     .end annotation
@@ -730,7 +730,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/g/a;",
+            "Lkik/arcane/g/a;",
             ">;"
         }
     .end annotation
@@ -741,7 +741,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/d;",
+            "Lkik/arcane/chat/d;",
             ">;"
         }
     .end annotation
@@ -752,7 +752,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/videochat/VideoChatViewController;",
+            "Lkik/arcane/videochat/VideoChatViewController;",
             ">;"
         }
     .end annotation
@@ -774,7 +774,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/AddressbookFragmentBase;",
+            "Lkik/arcane/chat/fragment/AddressbookFragmentBase;",
             ">;"
         }
     .end annotation
@@ -796,7 +796,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/challenge/a;",
+            "Lkik/arcane/challenge/a;",
             ">;"
         }
     .end annotation
@@ -807,7 +807,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/challenge/f;",
+            "Lkik/arcane/challenge/f;",
             ">;"
         }
     .end annotation
@@ -818,7 +818,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/net/communicator/a;",
+            "Lkik/arcane/net/communicator/a;",
             ">;"
         }
     .end annotation
@@ -840,7 +840,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/AbTestsFragment;",
+            "Lkik/arcane/chat/fragment/AbTestsFragment;",
             ">;"
         }
     .end annotation
@@ -851,7 +851,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/VideoTrimmingFragment;",
+            "Lkik/arcane/chat/fragment/VideoTrimmingFragment;",
             ">;"
         }
     .end annotation
@@ -873,7 +873,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/video/f;",
+            "Lkik/arcane/video/f;",
             ">;"
         }
     .end annotation
@@ -884,7 +884,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/service/BatteryChangeReceiver;",
+            "Lkik/arcane/chat/service/BatteryChangeReceiver;",
             ">;"
         }
     .end annotation
@@ -906,7 +906,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/KikLoginFragmentAbstract;",
+            "Lkik/arcane/chat/fragment/KikLoginFragmentAbstract;",
             ">;"
         }
     .end annotation
@@ -917,7 +917,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/KikScopedDialogFragment;",
+            "Lkik/arcane/chat/fragment/KikScopedDialogFragment;",
             ">;"
         }
     .end annotation
@@ -928,7 +928,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/UserProfileFragment;",
+            "Lkik/arcane/chat/fragment/UserProfileFragment;",
             ">;"
         }
     .end annotation
@@ -939,7 +939,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/ChatBubbleSelectionFragment;",
+            "Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment;",
             ">;"
         }
     .end annotation
@@ -950,7 +950,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/ConversationsBaseFragment;",
+            "Lkik/arcane/chat/fragment/ConversationsBaseFragment;",
             ">;"
         }
     .end annotation
@@ -1005,7 +1005,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/KikChangeGroupNameFragment;",
+            "Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;",
             ">;"
         }
     .end annotation
@@ -1016,7 +1016,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/KikChatFragment;",
+            "Lkik/arcane/chat/fragment/KikChatFragment;",
             ">;"
         }
     .end annotation
@@ -1027,7 +1027,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/KikIqFragmentBase;",
+            "Lkik/arcane/chat/fragment/KikIqFragmentBase;",
             ">;"
         }
     .end annotation
@@ -1038,7 +1038,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/KikPreregistrationFragmentBase;",
+            "Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase;",
             ">;"
         }
     .end annotation
@@ -1049,7 +1049,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/MediaViewerFragment;",
+            "Lkik/arcane/chat/fragment/MediaViewerFragment;",
             ">;"
         }
     .end annotation
@@ -1060,7 +1060,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/KikContactsListFragment;",
+            "Lkik/arcane/chat/fragment/KikContactsListFragment;",
             ">;"
         }
     .end annotation
@@ -1071,7 +1071,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/ConversationCallToActionHelper;",
+            "Lkik/arcane/chat/ConversationCallToActionHelper;",
             ">;"
         }
     .end annotation
@@ -1082,7 +1082,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/KikConversationsFragment;",
+            "Lkik/arcane/chat/fragment/KikConversationsFragment;",
             ">;"
         }
     .end annotation
@@ -1093,7 +1093,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/KikDefaultContactsListFragment;",
+            "Lkik/arcane/chat/fragment/KikDefaultContactsListFragment;",
             ">;"
         }
     .end annotation
@@ -1104,7 +1104,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/KikGroupMembersListFragment;",
+            "Lkik/arcane/chat/fragment/KikGroupMembersListFragment;",
             ">;"
         }
     .end annotation
@@ -1115,7 +1115,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/KikMultiselectContactsListFragment;",
+            "Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment;",
             ">;"
         }
     .end annotation
@@ -1126,7 +1126,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/KikPermissionsFragment;",
+            "Lkik/arcane/chat/fragment/KikPermissionsFragment;",
             ">;"
         }
     .end annotation
@@ -1137,7 +1137,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/KikPickUsersFragment;",
+            "Lkik/arcane/chat/fragment/KikPickUsersFragment;",
             ">;"
         }
     .end annotation
@@ -1148,7 +1148,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;",
+            "Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;",
             ">;"
         }
     .end annotation
@@ -1170,7 +1170,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/KikStartGroupFragment;",
+            "Lkik/arcane/chat/fragment/KikStartGroupFragment;",
             ">;"
         }
     .end annotation
@@ -1181,7 +1181,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/KikEmailPreference;",
+            "Lkik/arcane/widget/preferences/KikEmailPreference;",
             ">;"
         }
     .end annotation
@@ -1192,7 +1192,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/settings/EditEmailFragment;",
+            "Lkik/arcane/chat/fragment/settings/EditEmailFragment;",
             ">;"
         }
     .end annotation
@@ -1203,7 +1203,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/WebHistoryPreference;",
+            "Lkik/arcane/widget/preferences/WebHistoryPreference;",
             ">;"
         }
     .end annotation
@@ -1214,7 +1214,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/KikSwitchPreference;",
+            "Lkik/arcane/widget/preferences/KikSwitchPreference;",
             ">;"
         }
     .end annotation
@@ -1225,7 +1225,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/KikModalPreference;",
+            "Lkik/arcane/widget/preferences/KikModalPreference;",
             ">;"
         }
     .end annotation
@@ -1236,7 +1236,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/KikPreference;",
+            "Lkik/arcane/widget/preferences/KikPreference;",
             ">;"
         }
     .end annotation
@@ -1247,7 +1247,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/KikNotificationHelpNotice;",
+            "Lkik/arcane/widget/preferences/KikNotificationHelpNotice;",
             ">;"
         }
     .end annotation
@@ -1269,7 +1269,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/ResetKikPreference;",
+            "Lkik/arcane/widget/preferences/ResetKikPreference;",
             ">;"
         }
     .end annotation
@@ -1280,7 +1280,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/ShareOtherPreference;",
+            "Lkik/arcane/widget/preferences/ShareOtherPreference;",
             ">;"
         }
     .end annotation
@@ -1291,7 +1291,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/ShareEmailPreference;",
+            "Lkik/arcane/widget/preferences/ShareEmailPreference;",
             ">;"
         }
     .end annotation
@@ -1302,7 +1302,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/ShareSmsPreference;",
+            "Lkik/arcane/widget/preferences/ShareSmsPreference;",
             ">;"
         }
     .end annotation
@@ -1313,7 +1313,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/ShareSocialPreference;",
+            "Lkik/arcane/widget/preferences/ShareSocialPreference;",
             ">;"
         }
     .end annotation
@@ -1324,7 +1324,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/CommunityGuideLinesPreference;",
+            "Lkik/arcane/widget/preferences/CommunityGuideLinesPreference;",
             ">;"
         }
     .end annotation
@@ -1335,7 +1335,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/KikNotificationHandler;",
+            "Lkik/arcane/KikNotificationHandler;",
             ">;"
         }
     .end annotation
@@ -1346,7 +1346,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/util/SponsoredUsersManager;",
+            "Lkik/arcane/util/SponsoredUsersManager;",
             ">;"
         }
     .end annotation
@@ -1401,7 +1401,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/m;",
+            "Lkik/arcane/chat/m;",
             ">;"
         }
     .end annotation
@@ -1445,7 +1445,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/KikApplication;",
+            "Lkik/arcane/chat/KikApplication;",
             ">;"
         }
     .end annotation
@@ -1478,7 +1478,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/gifs/vm/aj;",
+            "Lkik/arcane/gifs/vm/aj;",
             ">;"
         }
     .end annotation
@@ -1489,7 +1489,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/gifs/vm/ab;",
+            "Lkik/arcane/gifs/vm/ab;",
             ">;"
         }
     .end annotation
@@ -1500,7 +1500,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/gifs/vm/p;",
+            "Lkik/arcane/gifs/vm/p;",
             ">;"
         }
     .end annotation
@@ -1511,7 +1511,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/util/ai;",
+            "Lkik/arcane/util/ai;",
             ">;"
         }
     .end annotation
@@ -1522,7 +1522,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/gifs/vm/d;",
+            "Lkik/arcane/gifs/vm/d;",
             ">;"
         }
     .end annotation
@@ -1533,7 +1533,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/gifs/vm/a;",
+            "Lkik/arcane/gifs/vm/a;",
             ">;"
         }
     .end annotation
@@ -1544,7 +1544,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/gifs/vm/t;",
+            "Lkik/arcane/gifs/vm/t;",
             ">;"
         }
     .end annotation
@@ -1555,7 +1555,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/TemporaryBanDialog;",
+            "Lkik/arcane/chat/fragment/TemporaryBanDialog;",
             ">;"
         }
     .end annotation
@@ -1566,7 +1566,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/presentation/br;",
+            "Lkik/arcane/chat/presentation/br;",
             ">;"
         }
     .end annotation
@@ -1577,7 +1577,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/challenge/PhoneVerificationNetworkProvider;",
+            "Lkik/arcane/challenge/PhoneVerificationNetworkProvider;",
             ">;"
         }
     .end annotation
@@ -1588,7 +1588,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;",
+            "Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;",
             ">;"
         }
     .end annotation
@@ -1599,7 +1599,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/presentation/bp;",
+            "Lkik/arcane/chat/presentation/bp;",
             ">;"
         }
     .end annotation
@@ -1610,7 +1610,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;",
+            "Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;",
             ">;"
         }
     .end annotation
@@ -1621,7 +1621,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/presentation/bn;",
+            "Lkik/arcane/chat/presentation/bn;",
             ">;"
         }
     .end annotation
@@ -1632,7 +1632,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/PhoneVerificationCountryCodePickerFragment;",
+            "Lkik/arcane/chat/fragment/PhoneVerificationCountryCodePickerFragment;",
             ">;"
         }
     .end annotation
@@ -1643,7 +1643,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/net/communicator/RegistrationIntentService;",
+            "Lkik/arcane/net/communicator/RegistrationIntentService;",
             ">;"
         }
     .end annotation
@@ -1654,7 +1654,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/presentation/n;",
+            "Lkik/arcane/chat/presentation/n;",
             ">;"
         }
     .end annotation
@@ -1665,7 +1665,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/CameraFragment;",
+            "Lkik/arcane/chat/fragment/CameraFragment;",
             ">;"
         }
     .end annotation
@@ -1676,7 +1676,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/messaging/fo;",
+            "Lkik/arcane/chat/vm/messaging/fo;",
             ">;"
         }
     .end annotation
@@ -1687,7 +1687,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/WubbleView;",
+            "Lkik/arcane/widget/WubbleView;",
             ">;"
         }
     .end annotation
@@ -1698,7 +1698,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/BugmeBarView;",
+            "Lkik/arcane/widget/BugmeBarView;",
             ">;"
         }
     .end annotation
@@ -1709,7 +1709,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/q;",
+            "Lkik/arcane/chat/q;",
             ">;"
         }
     .end annotation
@@ -1720,7 +1720,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/PublicGroupSearchFragment;",
+            "Lkik/arcane/chat/fragment/PublicGroupSearchFragment;",
             ">;"
         }
     .end annotation
@@ -1731,7 +1731,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/StickerWidget;",
+            "Lkik/arcane/widget/StickerWidget;",
             ">;"
         }
     .end annotation
@@ -1742,7 +1742,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/widget/StickerWidgetViewModel;",
+            "Lkik/arcane/chat/vm/widget/StickerWidgetViewModel;",
             ">;"
         }
     .end annotation
@@ -1753,7 +1753,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/widget/bc;",
+            "Lkik/arcane/chat/vm/widget/bc;",
             ">;"
         }
     .end annotation
@@ -1764,7 +1764,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/KikWelcomeFragment;",
+            "Lkik/arcane/chat/fragment/KikWelcomeFragment;",
             ">;"
         }
     .end annotation
@@ -1775,7 +1775,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/MissedConversationsFragment;",
+            "Lkik/arcane/chat/fragment/MissedConversationsFragment;",
             ">;"
         }
     .end annotation
@@ -1786,7 +1786,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/SendToFragment;",
+            "Lkik/arcane/chat/fragment/SendToFragment;",
             ">;"
         }
     .end annotation
@@ -1797,7 +1797,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/settings/KikPreferenceFragment;",
+            "Lkik/arcane/chat/fragment/settings/KikPreferenceFragment;",
             ">;"
         }
     .end annotation
@@ -1808,7 +1808,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/ViewPictureFragment;",
+            "Lkik/arcane/chat/fragment/ViewPictureFragment;",
             ">;"
         }
     .end annotation
@@ -1819,7 +1819,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/scan/c;",
+            "Lkik/arcane/scan/c;",
             ">;"
         }
     .end annotation
@@ -1830,7 +1830,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/KikCodeFragment;",
+            "Lkik/arcane/chat/fragment/KikCodeFragment;",
             ">;"
         }
     .end annotation
@@ -1841,7 +1841,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/MediaItemFragment;",
+            "Lkik/arcane/chat/fragment/MediaItemFragment;",
             ">;"
         }
     .end annotation
@@ -1852,7 +1852,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/scan/fragment/ScanFragment;",
+            "Lkik/arcane/scan/fragment/ScanFragment;",
             ">;"
         }
     .end annotation
@@ -1863,7 +1863,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/ScanCodeTabFragment;",
+            "Lkik/arcane/chat/fragment/ScanCodeTabFragment;",
             ">;"
         }
     .end annotation
@@ -1874,7 +1874,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/FullScreenAddressbookFragment;",
+            "Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;",
             ">;"
         }
     .end annotation
@@ -1918,7 +1918,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment;",
+            "Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment;",
             ">;"
         }
     .end annotation
@@ -1929,7 +1929,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/presentation/a;",
+            "Lkik/arcane/chat/presentation/a;",
             ">;"
         }
     .end annotation
@@ -1940,7 +1940,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/presentation/c;",
+            "Lkik/arcane/chat/presentation/c;",
             ">;"
         }
     .end annotation
@@ -1951,7 +1951,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/presentation/ac;",
+            "Lkik/arcane/chat/presentation/ac;",
             ">;"
         }
     .end annotation
@@ -1962,7 +1962,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;",
+            "Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;",
             ">;"
         }
     .end annotation
@@ -1973,7 +1973,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/KikComposeFragment;",
+            "Lkik/arcane/chat/fragment/KikComposeFragment;",
             ">;"
         }
     .end annotation
@@ -1984,7 +1984,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/LetFriendsFindMePreference;",
+            "Lkik/arcane/widget/preferences/LetFriendsFindMePreference;",
             ">;"
         }
     .end annotation
@@ -1995,7 +1995,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/UsePhoneContactsPreference;",
+            "Lkik/arcane/widget/preferences/UsePhoneContactsPreference;",
             ">;"
         }
     .end annotation
@@ -2006,7 +2006,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/BlockListPreference;",
+            "Lkik/arcane/widget/preferences/BlockListPreference;",
             ">;"
         }
     .end annotation
@@ -2028,7 +2028,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/GifWidget;",
+            "Lkik/arcane/widget/GifWidget;",
             ">;"
         }
     .end annotation
@@ -2039,7 +2039,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/gifs/vm/z;",
+            "Lkik/arcane/gifs/vm/z;",
             ">;"
         }
     .end annotation
@@ -2050,7 +2050,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/f;",
+            "Lkik/arcane/f;",
             ">;"
         }
     .end annotation
@@ -2074,7 +2074,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/publicgroups/q;",
+            "Lkik/arcane/chat/vm/chats/publicgroups/q;",
             ">;"
         }
     .end annotation
@@ -2085,7 +2085,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/publicgroups/u;",
+            "Lkik/arcane/chat/vm/chats/publicgroups/u;",
             ">;"
         }
     .end annotation
@@ -2096,7 +2096,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/publicgroups/o;",
+            "Lkik/arcane/chat/vm/chats/publicgroups/o;",
             ">;"
         }
     .end annotation
@@ -2107,7 +2107,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/publicgroups/z;",
+            "Lkik/arcane/chat/vm/chats/publicgroups/z;",
             ">;"
         }
     .end annotation
@@ -2118,7 +2118,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/widget/ax;",
+            "Lkik/arcane/chat/vm/widget/ax;",
             ">;"
         }
     .end annotation
@@ -2129,7 +2129,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/widget/SmileyItemViewModel;",
+            "Lkik/arcane/chat/vm/widget/SmileyItemViewModel;",
             ">;"
         }
     .end annotation
@@ -2140,7 +2140,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/widget/au;",
+            "Lkik/arcane/chat/vm/widget/au;",
             ">;"
         }
     .end annotation
@@ -2151,7 +2151,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/widget/av;",
+            "Lkik/arcane/chat/vm/widget/av;",
             ">;"
         }
     .end annotation
@@ -2162,7 +2162,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/cw;",
+            "Lkik/arcane/chat/vm/cw;",
             ">;"
         }
     .end annotation
@@ -2173,7 +2173,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/widget/a;",
+            "Lkik/arcane/chat/vm/widget/a;",
             ">;"
         }
     .end annotation
@@ -2195,7 +2195,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/widget/bn;",
+            "Lkik/arcane/chat/vm/widget/bn;",
             ">;"
         }
     .end annotation
@@ -2206,7 +2206,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/cz;",
+            "Lkik/arcane/chat/vm/cz;",
             ">;"
         }
     .end annotation
@@ -2217,7 +2217,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/view/PreviewResultsViewImpl;",
+            "Lkik/arcane/chat/view/PreviewResultsViewImpl;",
             ">;"
         }
     .end annotation
@@ -2228,7 +2228,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/o;",
+            "Lkik/arcane/chat/vm/o;",
             ">;"
         }
     .end annotation
@@ -2263,7 +2263,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/vm/profile/cb;",
+            "Lkik/arcane/chat/vm/profile/cb;",
             ">;"
         }
     .end annotation
@@ -2274,7 +2274,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/aa;",
+            "Lkik/arcane/chat/vm/profile/aa;",
             ">;"
         }
     .end annotation
@@ -2285,7 +2285,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/y;",
+            "Lkik/arcane/chat/vm/profile/y;",
             ">;"
         }
     .end annotation
@@ -2307,7 +2307,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/ax;",
+            "Lkik/arcane/chat/vm/profile/ax;",
             ">;"
         }
     .end annotation
@@ -2351,7 +2351,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/widget/bq;",
+            "Lkik/arcane/chat/vm/widget/bq;",
             ">;"
         }
     .end annotation
@@ -2362,7 +2362,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/widget/bu;",
+            "Lkik/arcane/chat/vm/widget/bu;",
             ">;"
         }
     .end annotation
@@ -2373,7 +2373,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/widget/bb;",
+            "Lkik/arcane/chat/vm/widget/bb;",
             ">;"
         }
     .end annotation
@@ -2384,7 +2384,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/SmileyWidget;",
+            "Lkik/arcane/widget/SmileyWidget;",
             ">;"
         }
     .end annotation
@@ -2395,7 +2395,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/widget/bm;",
+            "Lkik/arcane/chat/vm/widget/bm;",
             ">;"
         }
     .end annotation
@@ -2406,7 +2406,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/widget/b;",
+            "Lkik/arcane/chat/vm/widget/b;",
             ">;"
         }
     .end annotation
@@ -2417,7 +2417,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/dx;",
+            "Lkik/arcane/chat/vm/dx;",
             ">;"
         }
     .end annotation
@@ -2428,7 +2428,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/PublicGroupIntroFragment;",
+            "Lkik/arcane/chat/fragment/PublicGroupIntroFragment;",
             ">;"
         }
     .end annotation
@@ -2439,7 +2439,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/e;",
+            "Lkik/arcane/chat/vm/chats/e;",
             ">;"
         }
     .end annotation
@@ -2450,7 +2450,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/c;",
+            "Lkik/arcane/chat/vm/chats/c;",
             ">;"
         }
     .end annotation
@@ -2461,7 +2461,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;",
+            "Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;",
             ">;"
         }
     .end annotation
@@ -2472,7 +2472,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/search/j;",
+            "Lkik/arcane/chat/vm/chats/search/j;",
             ">;"
         }
     .end annotation
@@ -2483,7 +2483,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/search/e;",
+            "Lkik/arcane/chat/vm/chats/search/e;",
             ">;"
         }
     .end annotation
@@ -2494,7 +2494,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/search/n;",
+            "Lkik/arcane/chat/vm/chats/search/n;",
             ">;"
         }
     .end annotation
@@ -2505,7 +2505,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/deeplinks/DeepLinkActivity;",
+            "Lkik/arcane/deeplinks/DeepLinkActivity;",
             ">;"
         }
     .end annotation
@@ -2516,7 +2516,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/conversations/calltoaction/b;",
+            "Lkik/arcane/chat/vm/conversations/calltoaction/b;",
             ">;"
         }
     .end annotation
@@ -2527,7 +2527,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/conversations/emptyview/a;",
+            "Lkik/arcane/chat/vm/conversations/emptyview/a;",
             ">;"
         }
     .end annotation
@@ -2538,7 +2538,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel;",
+            "Lkik/arcane/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel;",
             ">;"
         }
     .end annotation
@@ -2549,7 +2549,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/conversations/emptyview/c;",
+            "Lkik/arcane/chat/vm/conversations/emptyview/c;",
             ">;"
         }
     .end annotation
@@ -2560,7 +2560,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/widget/c;",
+            "Lkik/arcane/chat/vm/widget/c;",
             ">;"
         }
     .end annotation
@@ -2571,7 +2571,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/ReportDialogViewModel;",
+            "Lkik/arcane/chat/vm/ReportDialogViewModel;",
             ">;"
         }
     .end annotation
@@ -2582,7 +2582,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/publicgroups/PublicGroupQuickSearchItemViewModel;",
+            "Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupQuickSearchItemViewModel;",
             ">;"
         }
     .end annotation
@@ -2593,7 +2593,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/widget/cd;",
+            "Lkik/arcane/chat/vm/widget/cd;",
             ">;"
         }
     .end annotation
@@ -2604,7 +2604,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/WebWidget;",
+            "Lkik/arcane/widget/WebWidget;",
             ">;"
         }
     .end annotation
@@ -2615,7 +2615,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/widget/cf;",
+            "Lkik/arcane/chat/vm/widget/cf;",
             ">;"
         }
     .end annotation
@@ -2626,7 +2626,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/publicgroups/r;",
+            "Lkik/arcane/chat/vm/chats/publicgroups/r;",
             ">;"
         }
     .end annotation
@@ -2648,7 +2648,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/profileactionvm/ay;",
+            "Lkik/arcane/chat/vm/profile/profileactionvm/ay;",
             ">;"
         }
     .end annotation
@@ -2659,7 +2659,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/profileactionvm/l;",
+            "Lkik/arcane/chat/vm/profile/profileactionvm/l;",
             ">;"
         }
     .end annotation
@@ -2670,7 +2670,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/profileactionvm/ai$a;",
+            "Lkik/arcane/chat/vm/profile/profileactionvm/ai$a;",
             ">;"
         }
     .end annotation
@@ -2681,7 +2681,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/profileactionvm/ai$b;",
+            "Lkik/arcane/chat/vm/profile/profileactionvm/ai$b;",
             ">;"
         }
     .end annotation
@@ -2692,7 +2692,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/profileactionvm/ai$c;",
+            "Lkik/arcane/chat/vm/profile/profileactionvm/ai$c;",
             ">;"
         }
     .end annotation
@@ -2703,7 +2703,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/profileactionvm/ai$d;",
+            "Lkik/arcane/chat/vm/profile/profileactionvm/ai$d;",
             ">;"
         }
     .end annotation
@@ -2714,7 +2714,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/profileactionvm/av;",
+            "Lkik/arcane/chat/vm/profile/profileactionvm/av;",
             ">;"
         }
     .end annotation
@@ -2725,7 +2725,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/eh;",
+            "Lkik/arcane/chat/vm/profile/eh;",
             ">;"
         }
     .end annotation
@@ -2736,7 +2736,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/profileactionvm/g;",
+            "Lkik/arcane/chat/vm/profile/profileactionvm/g;",
             ">;"
         }
     .end annotation
@@ -2747,7 +2747,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/gridvm/k;",
+            "Lkik/arcane/chat/vm/profile/gridvm/k;",
             ">;"
         }
     .end annotation
@@ -2758,7 +2758,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/profileactionvm/x;",
+            "Lkik/arcane/chat/vm/profile/profileactionvm/x;",
             ">;"
         }
     .end annotation
@@ -2769,7 +2769,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/profileactionvm/ae;",
+            "Lkik/arcane/chat/vm/profile/profileactionvm/ae;",
             ">;"
         }
     .end annotation
@@ -2780,7 +2780,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/profile/cy;",
+            "Lkik/arcane/chat/vm/chats/profile/cy;",
             ">;"
         }
     .end annotation
@@ -2791,7 +2791,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/profile/ci;",
+            "Lkik/arcane/chat/vm/chats/profile/ci;",
             ">;"
         }
     .end annotation
@@ -2802,7 +2802,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/profileactionvm/a;",
+            "Lkik/arcane/chat/vm/profile/profileactionvm/a;",
             ">;"
         }
     .end annotation
@@ -2813,7 +2813,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/deeplinks/InternalDeeplinkActivity;",
+            "Lkik/arcane/deeplinks/InternalDeeplinkActivity;",
             ">;"
         }
     .end annotation
@@ -2824,7 +2824,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/deeplinks/ChatInfoDeepLinkActivity;",
+            "Lkik/arcane/deeplinks/ChatInfoDeepLinkActivity;",
             ">;"
         }
     .end annotation
@@ -2835,7 +2835,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/profileactionvm/q;",
+            "Lkik/arcane/chat/vm/profile/profileactionvm/q;",
             ">;"
         }
     .end annotation
@@ -2846,7 +2846,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/bl;",
+            "Lkik/arcane/chat/vm/profile/bl;",
             ">;"
         }
     .end annotation
@@ -2857,7 +2857,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/gridvm/n;",
+            "Lkik/arcane/chat/vm/profile/gridvm/n;",
             ">;"
         }
     .end annotation
@@ -2868,7 +2868,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/profile/br;",
+            "Lkik/arcane/chat/vm/chats/profile/br;",
             ">;"
         }
     .end annotation
@@ -2879,7 +2879,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/as;",
+            "Lkik/arcane/chat/vm/profile/as;",
             ">;"
         }
     .end annotation
@@ -2890,7 +2890,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/SuggestInterestDialogFragment;",
+            "Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;",
             ">;"
         }
     .end annotation
@@ -2901,7 +2901,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/profile/du;",
+            "Lkik/arcane/chat/vm/chats/profile/du;",
             ">;"
         }
     .end annotation
@@ -2912,7 +2912,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/InterestsPickerFragment;",
+            "Lkik/arcane/chat/fragment/InterestsPickerFragment;",
             ">;"
         }
     .end annotation
@@ -2923,7 +2923,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/profile/af;",
+            "Lkik/arcane/chat/vm/chats/profile/af;",
             ">;"
         }
     .end annotation
@@ -2934,7 +2934,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/cd;",
+            "Lkik/arcane/chat/vm/profile/cd;",
             ">;"
         }
     .end annotation
@@ -2945,7 +2945,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/d;",
+            "Lkik/arcane/chat/vm/d;",
             ">;"
         }
     .end annotation
@@ -2956,7 +2956,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/profile/y;",
+            "Lkik/arcane/chat/vm/chats/profile/y;",
             ">;"
         }
     .end annotation
@@ -2967,7 +2967,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/profile/a;",
+            "Lkik/arcane/chat/vm/chats/profile/a;",
             ">;"
         }
     .end annotation
@@ -2978,7 +2978,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/ProfileEditBioDialogFragment;",
+            "Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;",
             ">;"
         }
     .end annotation
@@ -2989,7 +2989,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/dx;",
+            "Lkik/arcane/chat/vm/profile/dx;",
             ">;"
         }
     .end annotation
@@ -3000,7 +3000,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/PicturePickerFragment;",
+            "Lkik/arcane/chat/vm/profile/PicturePickerFragment;",
             ">;"
         }
     .end annotation
@@ -3011,7 +3011,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/profile/bg;",
+            "Lkik/arcane/chat/vm/chats/profile/bg;",
             ">;"
         }
     .end annotation
@@ -3022,7 +3022,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/profile/au;",
+            "Lkik/arcane/chat/vm/chats/profile/au;",
             ">;"
         }
     .end annotation
@@ -3033,7 +3033,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/bz;",
+            "Lkik/arcane/chat/vm/bz;",
             ">;"
         }
     .end annotation
@@ -3044,7 +3044,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/messaging/bt;",
+            "Lkik/arcane/chat/vm/messaging/bt;",
             ">;"
         }
     .end annotation
@@ -3055,7 +3055,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/messaging/ep;",
+            "Lkik/arcane/chat/vm/messaging/ep;",
             ">;"
         }
     .end annotation
@@ -3066,7 +3066,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/u;",
+            "Lkik/arcane/chat/vm/u;",
             ">;"
         }
     .end annotation
@@ -3077,7 +3077,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/publicgroups/a;",
+            "Lkik/arcane/chat/vm/chats/publicgroups/a;",
             ">;"
         }
     .end annotation
@@ -3121,7 +3121,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/profile/k;",
+            "Lkik/arcane/chat/vm/chats/profile/k;",
             ">;"
         }
     .end annotation
@@ -3132,7 +3132,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/eb;",
+            "Lkik/arcane/chat/vm/profile/eb;",
             ">;"
         }
     .end annotation
@@ -3143,7 +3143,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/gridvm/t;",
+            "Lkik/arcane/chat/vm/profile/gridvm/t;",
             ">;"
         }
     .end annotation
@@ -3154,7 +3154,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/gridvm/ap;",
+            "Lkik/arcane/chat/vm/profile/gridvm/ap;",
             ">;"
         }
     .end annotation
@@ -3165,7 +3165,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/gridvm/a;",
+            "Lkik/arcane/chat/vm/profile/gridvm/a;",
             ">;"
         }
     .end annotation
@@ -3176,7 +3176,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/profileactionvm/p;",
+            "Lkik/arcane/chat/vm/profile/profileactionvm/p;",
             ">;"
         }
     .end annotation
@@ -3187,7 +3187,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/profileactionvm/at;",
+            "Lkik/arcane/chat/vm/profile/profileactionvm/at;",
             ">;"
         }
     .end annotation
@@ -3198,7 +3198,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/a;",
+            "Lkik/arcane/chat/vm/profile/a;",
             ">;"
         }
     .end annotation
@@ -3209,7 +3209,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/gridvm/b;",
+            "Lkik/arcane/chat/vm/profile/gridvm/b;",
             ">;"
         }
     .end annotation
@@ -3231,7 +3231,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/profile/az;",
+            "Lkik/arcane/chat/vm/chats/profile/az;",
             ">;"
         }
     .end annotation
@@ -3275,7 +3275,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/r;",
+            "Lkik/arcane/chat/vm/profile/r;",
             ">;"
         }
     .end annotation
@@ -3297,7 +3297,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/l;",
+            "Lkik/arcane/chat/vm/l;",
             ">;"
         }
     .end annotation
@@ -3341,7 +3341,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/profile/m;",
+            "Lkik/arcane/chat/vm/profile/m;",
             ">;"
         }
     .end annotation
@@ -3363,7 +3363,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/f/l;",
+            "Lkik/arcane/f/l;",
             ">;"
         }
     .end annotation
@@ -3374,7 +3374,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/activity/BackgroundPhotoCropFragment;",
+            "Lkik/arcane/chat/activity/BackgroundPhotoCropFragment;",
             ">;"
         }
     .end annotation
@@ -3385,7 +3385,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/profile/s;",
+            "Lkik/arcane/chat/vm/chats/profile/s;",
             ">;"
         }
     .end annotation
@@ -3396,7 +3396,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/profile/an;",
+            "Lkik/arcane/chat/vm/chats/profile/an;",
             ">;"
         }
     .end annotation
@@ -3407,7 +3407,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/profile/bv;",
+            "Lkik/arcane/chat/vm/chats/profile/bv;",
             ">;"
         }
     .end annotation
@@ -3451,7 +3451,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -3484,7 +3484,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/conversations/b;",
+            "Lkik/arcane/chat/vm/conversations/b;",
             ">;"
         }
     .end annotation
@@ -3517,7 +3517,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/theming/ChatBubbleManager;",
+            "Lkik/arcane/chat/theming/ChatBubbleManager;",
             ">;"
         }
     .end annotation
@@ -3528,7 +3528,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/util/aj;",
+            "Lkik/arcane/util/aj;",
             ">;"
         }
     .end annotation
@@ -3594,7 +3594,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/JoinGifTrayHelper;",
+            "Lkik/arcane/chat/JoinGifTrayHelper;",
             ">;"
         }
     .end annotation
@@ -3605,7 +3605,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/messaging/du;",
+            "Lkik/arcane/chat/vm/messaging/du;",
             ">;"
         }
     .end annotation
@@ -3724,7 +3724,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->c:Ljavax/inject/Provider;
 
     .line 5468
-    invoke-static {v1, v2}, Lkik/android/BatteryDrainMetricsManager_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/BatteryDrainMetricsManager_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -3910,7 +3910,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->c:Ljavax/inject/Provider;
 
     .line 5510
-    invoke-static {v1, v2, v3}, Lkik/android/chat/vm/conversations/HashTagTooltipViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/chat/vm/conversations/HashTagTooltipViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -4146,7 +4146,7 @@
     iget-object v14, v0, Lcom/kik/components/c;->l:Ljavax/inject/Provider;
 
     .line 5558
-    invoke-static/range {v1 .. v14}, Lkik/android/chat/vm/messaging/MessageListViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v14}, Lkik/arcane/chat/vm/messaging/MessageListViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -4560,7 +4560,7 @@
     move-object/from16 v20, v0
 
     .line 5649
-    invoke-static/range {v1 .. v20}, Lkik/android/chat/vm/messaging/TextMessageViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v20}, Lkik/arcane/chat/vm/messaging/TextMessageViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -4730,7 +4730,7 @@
     move-object/from16 v23, v0
 
     .line 5684
-    invoke-static/range {v1 .. v23}, Lkik/android/chat/vm/messaging/ContentMessageViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v23}, Lkik/arcane/chat/vm/messaging/ContentMessageViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -4867,7 +4867,7 @@
     move-object/from16 v24, v0
 
     .line 5713
-    invoke-static/range {v1 .. v24}, Lkik/android/chat/vm/messaging/VideoContentMessageViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v24}, Lkik/arcane/chat/vm/messaging/VideoContentMessageViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -4985,7 +4985,7 @@
     move-object/from16 v23, v0
 
     .line 5740
-    invoke-static/range {v1 .. v23}, Lkik/android/chat/vm/messaging/StickerMessageViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v23}, Lkik/arcane/chat/vm/messaging/StickerMessageViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -5136,7 +5136,7 @@
     move-object/from16 v24, v0
 
     .line 5771
-    invoke-static/range {v1 .. v24}, Lkik/android/chat/vm/messaging/GifMessageViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v24}, Lkik/arcane/chat/vm/messaging/GifMessageViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -5224,7 +5224,7 @@
     move-object/from16 v18, v0
 
     .line 5798
-    invoke-static/range {v1 .. v18}, Lkik/android/chat/vm/messaging/AbstractMessageViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v18}, Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -5312,7 +5312,7 @@
     move-object/from16 v18, v0
 
     .line 5819
-    invoke-static/range {v1 .. v18}, Lkik/android/chat/vm/messaging/FriendingMessageViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v18}, Lkik/arcane/chat/vm/messaging/FriendingMessageViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -5666,7 +5666,7 @@
     move-object/from16 v23, v0
 
     .line 5895
-    invoke-static/range {v1 .. v23}, Lkik/android/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v23}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -5757,7 +5757,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->an:Ljavax/inject/Provider;
 
     .line 5936
-    invoke-static {v1, v2, v3}, Lkik/android/videochat/VideoChatViewController_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/videochat/VideoChatViewController_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -5804,7 +5804,7 @@
     iget-object v6, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 5945
-    invoke-static/range {v1 .. v6}, Lkik/android/chat/fragment/AddressbookFragmentBase_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v6}, Lkik/arcane/chat/fragment/AddressbookFragmentBase_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -5883,7 +5883,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->s:Ljavax/inject/Provider;
 
     .line 5969
-    invoke-static {v1, v2, v3}, Lkik/android/net/communicator/AndroidCommunicator_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/net/communicator/AndroidCommunicator_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -5930,7 +5930,7 @@
     iget-object v6, v0, Lcom/kik/components/c;->av:Ljavax/inject/Provider;
 
     .line 5977
-    invoke-static/range {v1 .. v6}, Lkik/android/chat/fragment/AbTestsFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v6}, Lkik/arcane/chat/fragment/AbTestsFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -5952,7 +5952,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->B:Ljavax/inject/Provider;
 
     .line 5986
-    invoke-static {v1, v2, v3}, Lkik/android/chat/fragment/VideoTrimmingFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/chat/fragment/VideoTrimmingFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -5992,7 +5992,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 5994
-    invoke-static {v1, v2}, Lkik/android/video/VideoTranscoder_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/video/VideoTranscoder_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6018,7 +6018,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->u:Ljavax/inject/Provider;
 
     .line 5997
-    invoke-static {v1, v2, v3, v4}, Lkik/android/widget/GalleryWidget_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/widget/GalleryWidget_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6040,7 +6040,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->aj:Ljavax/inject/Provider;
 
     .line 6004
-    invoke-static {v1, v2, v3}, Lkik/android/gallery/vm/GalleryWidgetViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/gallery/vm/GalleryWidgetViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6078,7 +6078,7 @@
     iget-object v7, v0, Lcom/kik/components/c;->aj:Ljavax/inject/Provider;
 
     .line 6008
-    invoke-static/range {v1 .. v7}, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v7}, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6092,7 +6092,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->av:Ljavax/inject/Provider;
 
     .line 6018
-    invoke-static {v1}, Lkik/android/chat/fragment/SimpleFragmentWrapperActivity_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6110,7 +6110,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->k:Ljavax/inject/Provider;
 
     .line 6021
-    invoke-static {v1, v2}, Lkik/android/chat/activity/KikWelcomeFragmentActivity_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/activity/KikWelcomeFragmentActivity_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6136,7 +6136,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 6025
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/activity/IntroActivity_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/activity/IntroActivity_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6162,7 +6162,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->c:Ljavax/inject/Provider;
 
     .line 6032
-    invoke-static {v1, v2, v3, v4}, Lkik/android/net/communicator/CommunicatorService_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/net/communicator/CommunicatorService_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6184,7 +6184,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->B:Ljavax/inject/Provider;
 
     .line 6039
-    invoke-static {v1, v2, v3}, Lkik/android/chat/activity/KikPlatformLanding_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/chat/activity/KikPlatformLanding_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6202,7 +6202,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->av:Ljavax/inject/Provider;
 
     .line 6043
-    invoke-static {v1, v2}, Lkik/android/chat/activity/KikActivityBase_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/activity/KikActivityBase_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6224,7 +6224,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->f:Ljavax/inject/Provider;
 
     .line 6047
-    invoke-static {v1, v2, v3}, Lkik/android/chat/activity/KikIqActivityBase_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/chat/activity/KikIqActivityBase_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6242,7 +6242,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->av:Ljavax/inject/Provider;
 
     .line 6051
-    invoke-static {v1, v2}, Lkik/android/chat/activity/FragmentWrapperActivity_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/activity/FragmentWrapperActivity_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6329,7 +6329,7 @@
     iget-object v10, v0, Lcom/kik/components/c;->J:Ljavax/inject/Provider;
 
     .line 6064
-    invoke-static/range {v1 .. v10}, Lkik/android/chat/activity/KikApiLandingActivity_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v10}, Lkik/arcane/chat/activity/KikApiLandingActivity_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6343,7 +6343,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->c:Ljavax/inject/Provider;
 
     .line 6077
-    invoke-static {v1}, Lkik/android/widget/preferences/LEDNotificationPreference_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/widget/preferences/LEDNotificationPreference_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6365,7 +6365,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->g:Ljavax/inject/Provider;
 
     .line 6080
-    invoke-static {v1, v2, v3}, Lkik/android/widget/preferences/HelpPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/widget/preferences/HelpPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6379,7 +6379,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->y:Ljavax/inject/Provider;
 
     .line 6086
-    invoke-static {v1}, Lkik/android/widget/preferences/PasswordPreference_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/widget/preferences/PasswordPreference_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6401,7 +6401,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->g:Ljavax/inject/Provider;
 
     .line 6089
-    invoke-static {v1, v2, v3}, Lkik/android/chat/fragment/settings/EditPasswordFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/chat/fragment/settings/EditPasswordFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6431,7 +6431,7 @@
     iget-object v5, v0, Lcom/kik/components/c;->k:Ljavax/inject/Provider;
 
     .line 6093
-    invoke-static {v1, v2, v3, v4, v5}, Lkik/android/widget/preferences/NotifyNewPeoplePreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4, v5}, Lkik/arcane/widget/preferences/NotifyNewPeoplePreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6445,7 +6445,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->y:Ljavax/inject/Provider;
 
     .line 6101
-    invoke-static {v1}, Lkik/android/widget/preferences/ShowKikCodePreference_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/widget/preferences/ShowKikCodePreference_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6479,7 +6479,7 @@
     iget-object v6, v0, Lcom/kik/components/c;->F:Ljavax/inject/Provider;
 
     .line 6104
-    invoke-static/range {v1 .. v6}, Lkik/android/widget/preferences/UsernamePreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v6}, Lkik/arcane/widget/preferences/UsernamePreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6497,7 +6497,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->g:Ljavax/inject/Provider;
 
     .line 6113
-    invoke-static {v1, v2}, Lkik/android/widget/preferences/NamePreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/widget/preferences/NamePreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6523,7 +6523,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->o:Ljavax/inject/Provider;
 
     .line 6117
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/fragment/settings/EditNameFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/fragment/settings/EditNameFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6545,7 +6545,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->s:Ljavax/inject/Provider;
 
     .line 6128
-    invoke-static {v1, v2, v3}, Lkik/android/widget/preferences/AutoplayVideoPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/widget/preferences/AutoplayVideoPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6563,7 +6563,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->c:Ljavax/inject/Provider;
 
     .line 6132
-    invoke-static {v1, v2}, Lkik/android/widget/preferences/KikVideoPrefetchPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/widget/preferences/KikVideoPrefetchPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6577,7 +6577,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->y:Ljavax/inject/Provider;
 
     .line 6135
-    invoke-static {v1}, Lkik/android/widget/preferences/KikPreferenceScreen_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/widget/preferences/KikPreferenceScreen_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6599,7 +6599,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->f:Ljavax/inject/Provider;
 
     .line 6138
-    invoke-static {v1, v2, v3}, Lkik/android/widget/preferences/KikEmailPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/widget/preferences/KikEmailPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6625,7 +6625,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->f:Ljavax/inject/Provider;
 
     .line 6144
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/fragment/settings/EditEmailFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/fragment/settings/EditEmailFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6643,7 +6643,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 6151
-    invoke-static {v1, v2}, Lkik/android/widget/preferences/WebHistoryPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/widget/preferences/WebHistoryPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6661,7 +6661,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->aj:Ljavax/inject/Provider;
 
     .line 6155
-    invoke-static {v1, v2}, Lkik/android/widget/preferences/KikSwitchPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/widget/preferences/KikSwitchPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6679,7 +6679,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->s:Ljavax/inject/Provider;
 
     .line 6159
-    invoke-static {v1, v2}, Lkik/android/widget/preferences/KikModalPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/widget/preferences/KikModalPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6693,7 +6693,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->y:Ljavax/inject/Provider;
 
     .line 6163
-    invoke-static {v1}, Lkik/android/widget/preferences/KikPreference_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/widget/preferences/KikPreference_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6711,7 +6711,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->s:Ljavax/inject/Provider;
 
     .line 6166
-    invoke-static {v1, v2}, Lkik/android/widget/preferences/KikNotificationHelpNotice_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/widget/preferences/KikNotificationHelpNotice_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6772,7 +6772,7 @@
     iget-object v8, v0, Lcom/kik/components/c;->s:Ljavax/inject/Provider;
 
     .line 6175
-    invoke-static/range {v1 .. v8}, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v8}, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6790,7 +6790,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->g:Ljavax/inject/Provider;
 
     .line 6186
-    invoke-static {v1, v2}, Lkik/android/widget/preferences/ShareOtherPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/widget/preferences/ShareOtherPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6808,7 +6808,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->g:Ljavax/inject/Provider;
 
     .line 6190
-    invoke-static {v1, v2}, Lkik/android/widget/preferences/ShareEmailPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/widget/preferences/ShareEmailPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6826,7 +6826,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->g:Ljavax/inject/Provider;
 
     .line 6194
-    invoke-static {v1, v2}, Lkik/android/widget/preferences/ShareSmsPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/widget/preferences/ShareSmsPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6844,7 +6844,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->g:Ljavax/inject/Provider;
 
     .line 6198
-    invoke-static {v1, v2}, Lkik/android/widget/preferences/ShareSocialPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/widget/preferences/ShareSocialPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6866,7 +6866,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 6202
-    invoke-static {v1, v2, v3}, Lkik/android/widget/preferences/CommunityGuideLinesPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/widget/preferences/CommunityGuideLinesPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -6908,7 +6908,7 @@
     iget-object v8, v0, Lcom/kik/components/c;->s:Ljavax/inject/Provider;
 
     .line 6206
-    invoke-static/range {v1 .. v8}, Lkik/android/KikNotificationHandler_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v8}, Lkik/arcane/KikNotificationHandler_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -7020,7 +7020,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->k:Ljavax/inject/Provider;
 
     .line 6238
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/p;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/internal/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/p;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/internal/b;
 
     move-result-object v1
 
@@ -7186,7 +7186,7 @@
     move-object/from16 v19, v0
 
     .line 6261
-    invoke-static/range {v1 .. v19}, Lkik/android/chat/KikApplication_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v19}, Lkik/arcane/chat/KikApplication_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -7312,7 +7312,7 @@
     move-object/from16 v17, v0
 
     .line 6294
-    invoke-static/range {v1 .. v17}, Lkik/android/chat/fragment/KikLoginFragmentAbstract_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v17}, Lkik/arcane/chat/fragment/KikLoginFragmentAbstract_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -7330,7 +7330,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->s:Ljavax/inject/Provider;
 
     .line 6314
-    invoke-static {v1, v2}, Lkik/android/chat/fragment/KikScopedDialogFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/fragment/KikScopedDialogFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -7380,7 +7380,7 @@
     iget-object v10, v0, Lcom/kik/components/c;->K:Ljavax/inject/Provider;
 
     .line 6318
-    invoke-static/range {v1 .. v10}, Lkik/android/chat/fragment/UserProfileFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v10}, Lkik/arcane/chat/fragment/UserProfileFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -7406,7 +7406,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 6331
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/fragment/ChatBubbleSelectionFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -7472,7 +7472,7 @@
     iget-object v14, v0, Lcom/kik/components/c;->J:Ljavax/inject/Provider;
 
     .line 6338
-    invoke-static/range {v1 .. v14}, Lkik/android/chat/fragment/ConversationsBaseFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v14}, Lkik/arcane/chat/fragment/ConversationsBaseFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -7621,7 +7621,7 @@
     iget-object v6, v0, Lcom/kik/components/c;->z:Ljavax/inject/Provider;
 
     .line 6382
-    invoke-static/range {v1 .. v6}, Lkik/android/chat/fragment/KikChangeGroupNameFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v6}, Lkik/arcane/chat/fragment/KikChangeGroupNameFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -7739,7 +7739,7 @@
     move-object/from16 v23, v0
 
     .line 6391
-    invoke-static/range {v1 .. v23}, Lkik/android/chat/fragment/KikChatFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v23}, Lkik/arcane/chat/fragment/KikChatFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -7761,7 +7761,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->f:Ljavax/inject/Provider;
 
     .line 6417
-    invoke-static {v1, v2, v3}, Lkik/android/chat/fragment/KikIqFragmentBase_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/chat/fragment/KikIqFragmentBase_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -7811,7 +7811,7 @@
     iget-object v10, v0, Lcom/kik/components/c;->av:Ljavax/inject/Provider;
 
     .line 6421
-    invoke-static/range {v1 .. v10}, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v10}, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -7853,7 +7853,7 @@
     iget-object v8, v0, Lcom/kik/components/c;->R:Ljavax/inject/Provider;
 
     .line 6434
-    invoke-static/range {v1 .. v8}, Lkik/android/chat/fragment/MediaViewerFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v8}, Lkik/arcane/chat/fragment/MediaViewerFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -7915,7 +7915,7 @@
     iget-object v13, v0, Lcom/kik/components/c;->F:Ljavax/inject/Provider;
 
     .line 6445
-    invoke-static/range {v1 .. v13}, Lkik/android/chat/fragment/KikContactsListFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v13}, Lkik/arcane/chat/fragment/KikContactsListFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -7941,7 +7941,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->bh:Ljavax/inject/Provider;
 
     .line 6461
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/b;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/internal/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/b;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/internal/b;
 
     move-result-object v1
 
@@ -8059,7 +8059,7 @@
     move-object/from16 v23, v0
 
     .line 6468
-    invoke-static/range {v1 .. v23}, Lkik/android/chat/fragment/KikConversationsFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v23}, Lkik/arcane/chat/fragment/KikConversationsFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -8129,7 +8129,7 @@
     iget-object v15, v0, Lcom/kik/components/c;->J:Ljavax/inject/Provider;
 
     .line 6494
-    invoke-static/range {v1 .. v15}, Lkik/android/chat/fragment/KikDefaultContactsListFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v15}, Lkik/arcane/chat/fragment/KikDefaultContactsListFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -8175,7 +8175,7 @@
     iget-object v9, v0, Lcom/kik/components/c;->K:Ljavax/inject/Provider;
 
     .line 6512
-    invoke-static/range {v1 .. v9}, Lkik/android/chat/fragment/KikGroupMembersListFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v9}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -8237,7 +8237,7 @@
     iget-object v13, v0, Lcom/kik/components/c;->F:Ljavax/inject/Provider;
 
     .line 6524
-    invoke-static/range {v1 .. v13}, Lkik/android/chat/fragment/KikMultiselectContactsListFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v13}, Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -8271,7 +8271,7 @@
     iget-object v6, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 6540
-    invoke-static/range {v1 .. v6}, Lkik/android/chat/fragment/KikPermissionsFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v6}, Lkik/arcane/chat/fragment/KikPermissionsFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -8337,7 +8337,7 @@
     iget-object v14, v0, Lcom/kik/components/c;->g:Ljavax/inject/Provider;
 
     .line 6549
-    invoke-static/range {v1 .. v14}, Lkik/android/chat/fragment/KikPickUsersFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v14}, Lkik/arcane/chat/fragment/KikPickUsersFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -8403,7 +8403,7 @@
     iget-object v14, v0, Lcom/kik/components/c;->bh:Ljavax/inject/Provider;
 
     .line 6566
-    invoke-static/range {v1 .. v14}, Lkik/android/chat/fragment/KikRegistrationFragmentAbstract_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v14}, Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -8504,7 +8504,7 @@
     move-object/from16 v17, v0
 
     .line 6588
-    invoke-static/range {v1 .. v17}, Lkik/android/chat/fragment/KikStartGroupFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v17}, Lkik/arcane/chat/fragment/KikStartGroupFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -8546,7 +8546,7 @@
     iget-object v8, v0, Lcom/kik/components/c;->bh:Ljavax/inject/Provider;
 
     .line 6608
-    invoke-static/range {v1 .. v8}, Lkik/android/chat/fragment/KikWelcomeFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v8}, Lkik/arcane/chat/fragment/KikWelcomeFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -8628,7 +8628,7 @@
     move-object/from16 v17, v0
 
     .line 6619
-    invoke-static/range {v1 .. v17}, Lkik/android/chat/fragment/MissedConversationsFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v17}, Lkik/arcane/chat/fragment/MissedConversationsFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -8678,7 +8678,7 @@
     iget-object v10, v0, Lcom/kik/components/c;->F:Ljavax/inject/Provider;
 
     .line 6639
-    invoke-static/range {v1 .. v10}, Lkik/android/chat/fragment/SendToFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v10}, Lkik/arcane/chat/fragment/SendToFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -8724,7 +8724,7 @@
     iget-object v9, v0, Lcom/kik/components/c;->ap:Ljavax/inject/Provider;
 
     .line 6652
-    invoke-static/range {v1 .. v9}, Lkik/android/chat/fragment/settings/KikPreferenceFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v9}, Lkik/arcane/chat/fragment/settings/KikPreferenceFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -8778,7 +8778,7 @@
     iget-object v11, v0, Lcom/kik/components/c;->B:Ljavax/inject/Provider;
 
     .line 6664
-    invoke-static/range {v1 .. v11}, Lkik/android/chat/fragment/ViewPictureFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v11}, Lkik/arcane/chat/fragment/ViewPictureFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -8850,7 +8850,7 @@
     iget-object v12, v0, Lcom/kik/components/c;->z:Ljavax/inject/Provider;
 
     .line 6682
-    invoke-static/range {v1 .. v12}, Lkik/android/chat/fragment/KikCodeFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v12}, Lkik/arcane/chat/fragment/KikCodeFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -8892,7 +8892,7 @@
     iget-object v8, v0, Lcom/kik/components/c;->B:Ljavax/inject/Provider;
 
     .line 6697
-    invoke-static/range {v1 .. v8}, Lkik/android/chat/fragment/MediaItemFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v8}, Lkik/arcane/chat/fragment/MediaItemFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -8938,7 +8938,7 @@
     iget-object v9, v0, Lcom/kik/components/c;->n:Ljavax/inject/Provider;
 
     .line 6708
-    invoke-static/range {v1 .. v9}, Lkik/android/scan/fragment/ScanFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v9}, Lkik/arcane/scan/fragment/ScanFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -8964,7 +8964,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->z:Ljavax/inject/Provider;
 
     .line 6720
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/fragment/ScanCodeTabFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/fragment/ScanCodeTabFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -8998,7 +8998,7 @@
     iget-object v6, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 6727
-    invoke-static/range {v1 .. v6}, Lkik/android/chat/fragment/FullScreenAddressbookFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v6}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -9106,7 +9106,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 6759
-    invoke-static {v1}, Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -9217,7 +9217,7 @@
     iget-object v12, v0, Lcom/kik/components/c;->n:Ljavax/inject/Provider;
 
     .line 6777
-    invoke-static/range {v1 .. v12}, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v12}, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -9287,7 +9287,7 @@
     iget-object v15, v0, Lcom/kik/components/c;->J:Ljavax/inject/Provider;
 
     .line 6792
-    invoke-static/range {v1 .. v15}, Lkik/android/chat/fragment/KikComposeFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v15}, Lkik/arcane/chat/fragment/KikComposeFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -9313,7 +9313,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 6810
-    invoke-static {v1, v2, v3, v4}, Lkik/android/widget/preferences/LetFriendsFindMePreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/widget/preferences/LetFriendsFindMePreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -9339,7 +9339,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 6817
-    invoke-static {v1, v2, v3, v4}, Lkik/android/widget/preferences/UsePhoneContactsPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/widget/preferences/UsePhoneContactsPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -9357,7 +9357,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 6824
-    invoke-static {v1, v2}, Lkik/android/widget/preferences/BlockListPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/widget/preferences/BlockListPreference_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -9404,7 +9404,7 @@
     iget-object v6, v0, Lcom/kik/components/c;->w:Ljavax/inject/Provider;
 
     .line 6831
-    invoke-static/range {v1 .. v6}, Lkik/android/widget/GifWidget_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v6}, Lkik/arcane/widget/GifWidget_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -9426,7 +9426,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->f:Ljavax/inject/Provider;
 
     .line 6840
-    invoke-static {v1, v2, v3}, Lkik/android/gifs/vm/GifSearchBarViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/gifs/vm/GifSearchBarViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -9464,7 +9464,7 @@
     iget-object v7, v0, Lcom/kik/components/c;->w:Ljavax/inject/Provider;
 
     .line 6844
-    invoke-static/range {v1 .. v7}, Lkik/android/gifs/vm/GifWidgetViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v7}, Lkik/arcane/gifs/vm/GifWidgetViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -9486,7 +9486,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->f:Ljavax/inject/Provider;
 
     .line 6854
-    invoke-static {v1, v2, v3}, Lkik/android/gifs/vm/GifSearchResultsViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/gifs/vm/GifSearchResultsViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -9508,7 +9508,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->f:Ljavax/inject/Provider;
 
     .line 6858
-    invoke-static {v1, v2, v3}, Lkik/android/gifs/vm/GifFeaturedResultsViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/gifs/vm/GifFeaturedResultsViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -9560,7 +9560,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 6870
-    invoke-static {v1, v2, v3}, Lkik/android/gifs/vm/GifEmojiListViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/gifs/vm/GifEmojiListViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -9574,7 +9574,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->W:Ljavax/inject/Provider;
 
     .line 6874
-    invoke-static {v1}, Lkik/android/gifs/vm/AbstractGifItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/gifs/vm/AbstractGifItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -9596,7 +9596,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->k:Ljavax/inject/Provider;
 
     .line 6877
-    invoke-static {v1, v2, v3}, Lkik/android/gifs/vm/GifPreviewViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/gifs/vm/GifPreviewViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -9614,7 +9614,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 6881
-    invoke-static {v1, v2}, Lkik/android/chat/fragment/TemporaryBanDialog_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/fragment/TemporaryBanDialog_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -9685,7 +9685,7 @@
     iget-object v6, v0, Lcom/kik/components/c;->cJ:Ljavax/inject/Provider;
 
     .line 6893
-    invoke-static/range {v1 .. v6}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v6}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -9737,7 +9737,7 @@
     iget-object v7, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 6906
-    invoke-static/range {v1 .. v7}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v7}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -9777,7 +9777,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 6920
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/fragment/PhoneVerificationCountryCodePickerFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/fragment/PhoneVerificationCountryCodePickerFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -9795,7 +9795,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->c:Ljavax/inject/Provider;
 
     .line 6927
-    invoke-static {v1, v2}, Lkik/android/net/communicator/RegistrationIntentService_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/net/communicator/RegistrationIntentService_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -9851,7 +9851,7 @@
     iget-object v5, v0, Lcom/kik/components/c;->cQ:Ljavax/inject/Provider;
 
     .line 6938
-    invoke-static {v1, v2, v3, v4, v5}, Lkik/android/chat/fragment/CameraFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4, v5}, Lkik/arcane/chat/fragment/CameraFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -9951,7 +9951,7 @@
     move-object/from16 v20, v0
 
     .line 6946
-    invoke-static/range {v1 .. v20}, Lkik/android/chat/vm/messaging/WubbleMessageViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v20}, Lkik/arcane/chat/vm/messaging/WubbleMessageViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -9968,7 +9968,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->bh:Ljavax/inject/Provider;
 
     .line 7614
-    invoke-static {v1}, Lkik/android/deeplinks/InternalDeeplinkActivity_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/deeplinks/InternalDeeplinkActivity_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -9998,7 +9998,7 @@
     iget-object v5, v0, Lcom/kik/components/c;->l:Ljavax/inject/Provider;
 
     .line 7617
-    invoke-static {v1, v2, v3, v4, v5}, Lkik/android/deeplinks/ChatInfoDeepLinkActivity_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4, v5}, Lkik/arcane/deeplinks/ChatInfoDeepLinkActivity_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10020,7 +10020,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->dX:Ljavax/inject/Provider;
 
     .line 7625
-    invoke-static {v1, v2, v3}, Lkik/android/chat/vm/profile/profileactionvm/JoinPrivateGroupActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/chat/vm/profile/profileactionvm/JoinPrivateGroupActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10074,7 +10074,7 @@
     iget-object v11, v0, Lcom/kik/components/c;->F:Ljavax/inject/Provider;
 
     .line 7629
-    invoke-static/range {v1 .. v11}, Lkik/android/chat/vm/profile/DisplayOnlyPrivateGroupProfileViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v11}, Lkik/arcane/chat/vm/profile/DisplayOnlyPrivateGroupProfileViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10100,7 +10100,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->dQ:Ljavax/inject/Provider;
 
     .line 7643
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/vm/profile/gridvm/DisplayOnlyMemberItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/vm/profile/gridvm/DisplayOnlyMemberItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10126,7 +10126,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 7650
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/vm/chats/profile/DisplayOnlyGroupInfoBioViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/vm/chats/profile/DisplayOnlyGroupInfoBioViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10152,7 +10152,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->J:Ljavax/inject/Provider;
 
     .line 7657
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/vm/profile/DaysOnKikViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/vm/profile/DaysOnKikViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10166,7 +10166,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 7664
-    invoke-static {v1}, Lkik/android/chat/fragment/SuggestInterestDialogFragment_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10180,7 +10180,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->s:Ljavax/inject/Provider;
 
     .line 7667
-    invoke-static {v1}, Lkik/android/chat/vm/chats/profile/SuggestInterestViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/chat/vm/chats/profile/SuggestInterestViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10206,7 +10206,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->bv:Ljavax/inject/Provider;
 
     .line 7670
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/fragment/InterestsPickerFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/fragment/InterestsPickerFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10232,7 +10232,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->c:Ljavax/inject/Provider;
 
     .line 7677
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/vm/chats/profile/ChatInfoInterestsViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/vm/chats/profile/ChatInfoInterestsViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10254,7 +10254,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->J:Ljavax/inject/Provider;
 
     .line 7684
-    invoke-static {v1, v2, v3}, Lkik/android/chat/vm/chats/profile/CurrentUserInterestsViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/chat/vm/chats/profile/CurrentUserInterestsViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10343,7 +10343,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->J:Ljavax/inject/Provider;
 
     .line 7705
-    invoke-static {v1, v2, v3}, Lkik/android/chat/vm/profile/BotBadgeViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/chat/vm/profile/BotBadgeViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10407,7 +10407,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->z:Ljavax/inject/Provider;
 
     .line 7723
-    invoke-static {v1, v2}, Lkik/android/chat/vm/ConversationListItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/vm/ConversationListItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10491,7 +10491,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->J:Ljavax/inject/Provider;
 
     .line 7739
-    invoke-static {v1, v2}, Lkik/android/chat/vm/profile/BadgeCollectionViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/vm/profile/BadgeCollectionViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10566,7 +10566,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->K:Ljavax/inject/Provider;
 
     .line 7755
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/activity/BackgroundPhotoCropFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/activity/BackgroundPhotoCropFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10588,7 +10588,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->s:Ljavax/inject/Provider;
 
     .line 7762
-    invoke-static {v1, v2, v3}, Lkik/android/chat/vm/chats/profile/ChatInfoBackgroundPhotoViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/chat/vm/chats/profile/ChatInfoBackgroundPhotoViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10606,7 +10606,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->s:Ljavax/inject/Provider;
 
     .line 7768
-    invoke-static {v1, v2}, Lkik/android/chat/vm/chats/profile/CurrentUserBackgroundPhotoViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/vm/chats/profile/CurrentUserBackgroundPhotoViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10632,7 +10632,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->c:Ljavax/inject/Provider;
 
     .line 7772
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/vm/chats/profile/FullScreenBackgroundPhotoViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/vm/chats/profile/FullScreenBackgroundPhotoViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10694,7 +10694,7 @@
     iget-object v5, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 2973
-    invoke-static {v1, v2, v3, v4, v5}, Lkik/android/widget/WubbleView_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4, v5}, Lkik/arcane/widget/WubbleView_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10724,7 +10724,7 @@
     iget-object v5, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 2981
-    invoke-static {v1, v2, v3, v4, v5}, Lkik/android/widget/BugmeBarView_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4, v5}, Lkik/arcane/widget/BugmeBarView_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10738,7 +10738,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->bY:Ljavax/inject/Provider;
 
     .line 2989
-    invoke-static {v1}, Lkik/android/chat/s;->a(Ljavax/inject/Provider;)Ldagger/internal/b;
+    invoke-static {v1}, Lkik/arcane/chat/s;->a(Ljavax/inject/Provider;)Ldagger/internal/b;
 
     move-result-object v1
 
@@ -10772,7 +10772,7 @@
     iget-object v6, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 2992
-    invoke-static/range {v1 .. v6}, Lkik/android/chat/fragment/PublicGroupSearchFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v6}, Lkik/arcane/chat/fragment/PublicGroupSearchFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10794,7 +10794,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 3001
-    invoke-static {v1, v2, v3}, Lkik/android/widget/StickerWidget_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/widget/StickerWidget_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10824,7 +10824,7 @@
     iget-object v5, v0, Lcom/kik/components/c;->s:Ljavax/inject/Provider;
 
     .line 3005
-    invoke-static {v1, v2, v3, v4, v5}, Lkik/android/chat/vm/widget/StickerWidgetViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4, v5}, Lkik/arcane/chat/vm/widget/StickerWidgetViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10850,7 +10850,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->o:Ljavax/inject/Provider;
 
     .line 3013
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/vm/widget/StickerPackViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/vm/widget/StickerPackViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10864,7 +10864,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->aa:Ljavax/inject/Provider;
 
     .line 3020
-    invoke-static {v1}, Lkik/android/chat/vm/widget/StickerTabBarViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/chat/vm/widget/StickerTabBarViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10882,7 +10882,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->aa:Ljavax/inject/Provider;
 
     .line 3023
-    invoke-static {v1, v2}, Lkik/android/chat/vm/widget/StickerTabViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/vm/widget/StickerTabViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10896,7 +10896,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->R:Ljavax/inject/Provider;
 
     .line 3027
-    invoke-static {v1}, Lkik/android/chat/vm/widget/StickerContentViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/chat/vm/widget/StickerContentViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10922,7 +10922,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 3030
-    invoke-static {v1, v2, v3, v4}, Lkik/android/widget/SmileyWidget_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/widget/SmileyWidget_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10940,7 +10940,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 3037
-    invoke-static {v1, v2}, Lkik/android/chat/vm/widget/StickerSettingsViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/vm/widget/StickerSettingsViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10962,7 +10962,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->u:Ljavax/inject/Provider;
 
     .line 3041
-    invoke-static {v1, v2, v3}, Lkik/android/chat/vm/widget/AbstractStickerSettingsListItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/chat/vm/widget/AbstractStickerSettingsListItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -10980,7 +10980,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->u:Ljavax/inject/Provider;
 
     .line 3047
-    invoke-static {v1, v2}, Lkik/android/chat/vm/SimpleImageTooltipViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/vm/SimpleImageTooltipViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11014,7 +11014,7 @@
     iget-object v6, v0, Lcom/kik/components/c;->l:Ljavax/inject/Provider;
 
     .line 3051
-    invoke-static/range {v1 .. v6}, Lkik/android/chat/fragment/PublicGroupIntroFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v6}, Lkik/arcane/chat/fragment/PublicGroupIntroFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11032,7 +11032,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->k:Ljavax/inject/Provider;
 
     .line 3060
-    invoke-static {v1, v2}, Lkik/android/chat/vm/chats/SuggestedChatsListViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/vm/chats/SuggestedChatsListViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11058,7 +11058,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 3064
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/vm/chats/SuggestedChatViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/vm/chats/SuggestedChatViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11080,7 +11080,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->z:Ljavax/inject/Provider;
 
     .line 3071
-    invoke-static {v1, v2, v3}, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11102,7 +11102,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->G:Ljavax/inject/Provider;
 
     .line 3075
-    invoke-static {v1, v2, v3}, Lkik/android/chat/vm/chats/search/OneToOneChatsSearchResultViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/chat/vm/chats/search/OneToOneChatsSearchResultViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11132,7 +11132,7 @@
     iget-object v5, v0, Lcom/kik/components/c;->G:Ljavax/inject/Provider;
 
     .line 3079
-    invoke-static {v1, v2, v3, v4, v5}, Lkik/android/chat/vm/chats/search/GroupChatsSearchResultViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4, v5}, Lkik/arcane/chat/vm/chats/search/GroupChatsSearchResultViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11158,7 +11158,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->u:Ljavax/inject/Provider;
 
     .line 3087
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/vm/chats/search/UsernameSearchResultViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/vm/chats/search/UsernameSearchResultViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11188,7 +11188,7 @@
     iget-object v5, v0, Lcom/kik/components/c;->l:Ljavax/inject/Provider;
 
     .line 3094
-    invoke-static {v1, v2, v3, v4, v5}, Lkik/android/deeplinks/DeepLinkActivity_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4, v5}, Lkik/arcane/deeplinks/DeepLinkActivity_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11210,7 +11210,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->ap:Ljavax/inject/Provider;
 
     .line 3102
-    invoke-static {v1, v2, v3}, Lkik/android/chat/vm/conversations/calltoaction/AddressBookCallToActionViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/chat/vm/conversations/calltoaction/AddressBookCallToActionViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11224,7 +11224,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 3106
-    invoke-static {v1}, Lkik/android/chat/vm/conversations/emptyview/AddressBookEmptyViewViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/chat/vm/conversations/emptyview/AddressBookEmptyViewViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11254,7 +11254,7 @@
     iget-object v5, v0, Lcom/kik/components/c;->u:Ljavax/inject/Provider;
 
     .line 3109
-    invoke-static {v1, v2, v3, v4, v5}, Lkik/android/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4, v5}, Lkik/arcane/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11272,7 +11272,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 3117
-    invoke-static {v1, v2}, Lkik/android/chat/vm/conversations/emptyview/PublicGroupsEmptyViewViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/vm/conversations/emptyview/PublicGroupsEmptyViewViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11310,7 +11310,7 @@
     iget-object v7, v0, Lcom/kik/components/c;->s:Ljavax/inject/Provider;
 
     .line 3121
-    invoke-static/range {v1 .. v7}, Lkik/android/chat/vm/widget/ChatCoverViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v7}, Lkik/arcane/chat/vm/widget/ChatCoverViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11336,7 +11336,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->o:Ljavax/inject/Provider;
 
     .line 3131
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/vm/ReportDialogViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/vm/ReportDialogViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11350,7 +11350,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 3138
-    invoke-static {v1}, Lkik/android/chat/vm/chats/publicgroups/PublicGroupQuickSearchItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupQuickSearchItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11368,7 +11368,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 3141
-    invoke-static {v1, v2}, Lkik/android/chat/vm/widget/WebTrayItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/vm/widget/WebTrayItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11390,7 +11390,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 3145
-    invoke-static {v1, v2, v3}, Lkik/android/widget/WebWidget_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/widget/WebWidget_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11404,7 +11404,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->u:Ljavax/inject/Provider;
 
     .line 3149
-    invoke-static {v1}, Lkik/android/chat/vm/widget/WebTrayViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/chat/vm/widget/WebTrayViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11418,7 +11418,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 3152
-    invoke-static {v1}, Lkik/android/chat/vm/chats/publicgroups/PublicGroupSearchBarViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupSearchBarViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11466,7 +11466,7 @@
     iget-object v5, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 3159
-    invoke-static {v1, v2, v3, v4, v5}, Lkik/android/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4, v5}, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11492,7 +11492,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 3167
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/vm/chats/publicgroups/PublicGroupSearchingItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupSearchingItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11514,7 +11514,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->u:Ljavax/inject/Provider;
 
     .line 3174
-    invoke-static {v1, v2, v3}, Lkik/android/chat/vm/chats/publicgroups/PublicGroupListViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupListViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11540,7 +11540,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 3178
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/vm/chats/publicgroups/PublicGroupSuggestionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupSuggestionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11566,7 +11566,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->s:Ljavax/inject/Provider;
 
     .line 3185
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/vm/widget/SmileyWidgetViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/vm/widget/SmileyWidgetViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11592,7 +11592,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->c:Ljavax/inject/Provider;
 
     .line 3192
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/vm/widget/SmileyItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/vm/widget/SmileyItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11610,7 +11610,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->c:Ljavax/inject/Provider;
 
     .line 3199
-    invoke-static {v1, v2}, Lkik/android/chat/vm/widget/SmileyPopupViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/vm/widget/SmileyPopupViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11628,7 +11628,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 3203
-    invoke-static {v1, v2}, Lkik/android/chat/vm/widget/SmileyShopItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/vm/widget/SmileyShopItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11650,7 +11650,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->u:Ljavax/inject/Provider;
 
     .line 3206
-    invoke-static {v1, v2, v3}, Lkik/android/chat/vm/MediaTabBarViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/chat/vm/MediaTabBarViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11668,7 +11668,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->R:Ljavax/inject/Provider;
 
     .line 3210
-    invoke-static {v1, v2}, Lkik/android/chat/vm/widget/AbstractStickerContentListViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/vm/widget/AbstractStickerContentListViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11737,7 +11737,7 @@
     iget-object v8, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 3221
-    invoke-static/range {v1 .. v8}, Lkik/android/chat/vm/widget/StickerStaticListViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v8}, Lkik/arcane/chat/vm/widget/StickerStaticListViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11767,7 +11767,7 @@
     iget-object v5, v0, Lcom/kik/components/c;->o:Ljavax/inject/Provider;
 
     .line 3232
-    invoke-static {v1, v2, v3, v4, v5}, Lkik/android/chat/vm/NotificationsViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4, v5}, Lkik/arcane/chat/vm/NotificationsViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11785,7 +11785,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->c:Ljavax/inject/Provider;
 
     .line 3240
-    invoke-static {v1, v2}, Lkik/android/chat/view/PreviewResultsViewImpl_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/view/PreviewResultsViewImpl_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11799,7 +11799,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->n:Ljavax/inject/Provider;
 
     .line 3244
-    invoke-static {v1}, Lkik/android/chat/vm/DialogRadioViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/chat/vm/DialogRadioViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -11959,7 +11959,7 @@
     move-object/from16 v16, v0
 
     .line 3268
-    invoke-static/range {v1 .. v16}, Lkik/android/chat/vm/profile/ContactProfileViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v16}, Lkik/arcane/chat/vm/profile/ContactProfileViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12035,7 +12035,7 @@
     move-object/from16 v16, v0
 
     .line 3287
-    invoke-static/range {v1 .. v16}, Lkik/android/chat/vm/profile/BotProfileViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v16}, Lkik/arcane/chat/vm/profile/BotProfileViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12112,7 +12112,7 @@
     iget-object v11, v0, Lcom/kik/components/c;->k:Ljavax/inject/Provider;
 
     .line 3311
-    invoke-static/range {v1 .. v11}, Lkik/android/chat/vm/profile/DisplayOnlyGroupProfileViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v11}, Lkik/arcane/chat/vm/profile/DisplayOnlyGroupProfileViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12272,7 +12272,7 @@
     move-object/from16 v18, v0
 
     .line 3341
-    invoke-static/range {v1 .. v18}, Lkik/android/chat/vm/profile/GroupProfileViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v18}, Lkik/arcane/chat/vm/profile/GroupProfileViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12286,7 +12286,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->u:Ljavax/inject/Provider;
 
     .line 3362
-    invoke-static {v1}, Lkik/android/chat/vm/AbstractResourceViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/chat/vm/AbstractResourceViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12316,7 +12316,7 @@
     iget-object v5, v0, Lcom/kik/components/c;->c:Ljavax/inject/Provider;
 
     .line 3365
-    invoke-static {v1, v2, v3, v4, v5}, Lkik/android/chat/vm/chats/profile/ChatInfoBioViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4, v5}, Lkik/arcane/chat/vm/chats/profile/ChatInfoBioViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12342,7 +12342,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->c:Ljavax/inject/Provider;
 
     .line 3373
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/vm/chats/profile/BioEditorViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/vm/chats/profile/BioEditorViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12360,7 +12360,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->aM:Ljavax/inject/Provider;
 
     .line 3380
-    invoke-static {v1, v2}, Lkik/android/chat/fragment/ProfileEditBioDialogFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12374,7 +12374,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->u:Ljavax/inject/Provider;
 
     .line 3384
-    invoke-static {v1}, Lkik/android/chat/vm/profile/ImagePickerViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/chat/vm/profile/ImagePickerViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12396,7 +12396,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->ah:Ljavax/inject/Provider;
 
     .line 3387
-    invoke-static {v1, v2, v3}, Lkik/android/chat/vm/profile/PicturePickerFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/chat/vm/profile/PicturePickerFragment_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12442,7 +12442,7 @@
     iget-object v9, v0, Lcom/kik/components/c;->s:Ljavax/inject/Provider;
 
     .line 3391
-    invoke-static/range {v1 .. v9}, Lkik/android/chat/vm/chats/profile/CurrentUserProfileViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v9}, Lkik/arcane/chat/vm/chats/profile/CurrentUserProfileViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12472,7 +12472,7 @@
     iget-object v5, v0, Lcom/kik/components/c;->c:Ljavax/inject/Provider;
 
     .line 3403
-    invoke-static {v1, v2, v3, v4, v5}, Lkik/android/chat/vm/chats/profile/CurrentUserBioViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4, v5}, Lkik/arcane/chat/vm/chats/profile/CurrentUserBioViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12510,7 +12510,7 @@
     iget-object v7, v0, Lcom/kik/components/c;->s:Ljavax/inject/Provider;
 
     .line 3411
-    invoke-static/range {v1 .. v7}, Lkik/android/chat/vm/InterestsListViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v7}, Lkik/arcane/chat/vm/InterestsListViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12524,7 +12524,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->o:Ljavax/inject/Provider;
 
     .line 3421
-    invoke-static {v1}, Lkik/android/chat/vm/messaging/BotMessageRecencyProvider_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/chat/vm/messaging/BotMessageRecencyProvider_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12538,7 +12538,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->o:Ljavax/inject/Provider;
 
     .line 3424
-    invoke-static {v1}, Lkik/android/chat/vm/messaging/MessageRecencyProvider_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/chat/vm/messaging/MessageRecencyProvider_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12572,7 +12572,7 @@
     iget-object v6, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 3427
-    invoke-static/range {v1 .. v6}, Lkik/android/chat/vm/EmojiStatusPickerListViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v6}, Lkik/arcane/chat/vm/EmojiStatusPickerListViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12586,7 +12586,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->aM:Ljavax/inject/Provider;
 
     .line 3436
-    invoke-static {v1}, Lkik/android/chat/vm/chats/publicgroups/AbstractPublicGroupItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/chat/vm/chats/publicgroups/AbstractPublicGroupItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12675,7 +12675,7 @@
     iget-object v5, v0, Lcom/kik/components/c;->c:Ljavax/inject/Provider;
 
     .line 3454
-    invoke-static {v1, v2, v3, v4, v5}, Lkik/android/chat/vm/chats/profile/BotChatInfoBioViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4, v5}, Lkik/arcane/chat/vm/chats/profile/BotChatInfoBioViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12693,7 +12693,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->J:Ljavax/inject/Provider;
 
     .line 3462
-    invoke-static {v1, v2}, Lkik/android/chat/vm/profile/RatingViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/vm/profile/RatingViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12747,7 +12747,7 @@
     iget-object v11, v0, Lcom/kik/components/c;->K:Ljavax/inject/Provider;
 
     .line 3466
-    invoke-static/range {v1 .. v11}, Lkik/android/chat/vm/profile/gridvm/MemberItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v11}, Lkik/arcane/chat/vm/profile/gridvm/MemberItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12773,7 +12773,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->J:Ljavax/inject/Provider;
 
     .line 3480
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/vm/profile/gridvm/MyMemberItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/vm/profile/gridvm/MyMemberItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12791,7 +12791,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 3487
-    invoke-static {v1, v2}, Lkik/android/chat/vm/profile/gridvm/AbstractMemberItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/vm/profile/gridvm/AbstractMemberItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12809,7 +12809,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 3491
-    invoke-static {v1, v2}, Lkik/android/chat/vm/profile/profileactionvm/DiscoverBotsActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/vm/profile/profileactionvm/DiscoverBotsActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12823,7 +12823,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->u:Ljavax/inject/Provider;
 
     .line 3495
-    invoke-static {v1}, Lkik/android/chat/vm/profile/profileactionvm/OpenChatActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/chat/vm/profile/profileactionvm/OpenChatActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12837,7 +12837,7 @@
     iget-object v1, v0, Lcom/kik/components/c;->u:Ljavax/inject/Provider;
 
     .line 3498
-    invoke-static {v1}, Lkik/android/chat/vm/profile/AbstractActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1}, Lkik/arcane/chat/vm/profile/AbstractActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12867,7 +12867,7 @@
     iget-object v5, v0, Lcom/kik/components/c;->dS:Ljavax/inject/Provider;
 
     .line 3501
-    invoke-static {v1, v2, v3, v4, v5}, Lkik/android/chat/vm/profile/gridvm/AddMemberItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4, v5}, Lkik/arcane/chat/vm/profile/gridvm/AddMemberItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12893,7 +12893,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->J:Ljavax/inject/Provider;
 
     .line 3509
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/vm/profile/profileactionvm/StartGroupActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/vm/profile/profileactionvm/StartGroupActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12923,7 +12923,7 @@
     iget-object v5, v0, Lcom/kik/components/c;->J:Ljavax/inject/Provider;
 
     .line 3516
-    invoke-static {v1, v2, v3, v4, v5}, Lkik/android/chat/vm/profile/profileactionvm/DeleteChatActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4, v5}, Lkik/arcane/chat/vm/profile/profileactionvm/DeleteChatActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12945,7 +12945,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->n:Ljavax/inject/Provider;
 
     .line 3524
-    invoke-static {v1, v2, v3}, Lkik/android/chat/vm/profile/profileactionvm/MuteToggleItemViewModels_BaseMuteToggleItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/chat/vm/profile/profileactionvm/MuteToggleItemViewModels_BaseMuteToggleItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12967,7 +12967,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->n:Ljavax/inject/Provider;
 
     .line 3528
-    invoke-static {v1, v2, v3}, Lkik/android/chat/vm/profile/profileactionvm/MuteToggleItemViewModels_ContactMuteToggleViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/chat/vm/profile/profileactionvm/MuteToggleItemViewModels_ContactMuteToggleViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -12993,7 +12993,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->aM:Ljavax/inject/Provider;
 
     .line 3532
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/vm/profile/profileactionvm/MuteToggleItemViewModels_GroupMuteNotificationsItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/vm/profile/profileactionvm/MuteToggleItemViewModels_GroupMuteNotificationsItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -13011,7 +13011,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->n:Ljavax/inject/Provider;
 
     .line 3539
-    invoke-static {v1, v2}, Lkik/android/chat/vm/profile/profileactionvm/MuteToggleItemViewModels_MuteNotificationsItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/vm/profile/profileactionvm/MuteToggleItemViewModels_MuteNotificationsItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -13041,7 +13041,7 @@
     iget-object v5, v0, Lcom/kik/components/c;->bp:Ljavax/inject/Provider;
 
     .line 3543
-    invoke-static {v1, v2, v3, v4, v5}, Lkik/android/chat/vm/profile/profileactionvm/StartChattingActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4, v5}, Lkik/arcane/chat/vm/profile/profileactionvm/StartChattingActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -13071,7 +13071,7 @@
     iget-object v5, v0, Lcom/kik/components/c;->o:Ljavax/inject/Provider;
 
     .line 3551
-    invoke-static {v1, v2, v3, v4, v5}, Lkik/android/chat/vm/profile/UnblockActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4, v5}, Lkik/arcane/chat/vm/profile/UnblockActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -13125,7 +13125,7 @@
     iget-object v11, v0, Lcom/kik/components/c;->s:Ljavax/inject/Provider;
 
     .line 3559
-    invoke-static/range {v1 .. v11}, Lkik/android/chat/vm/profile/profileactionvm/ChangeGroupPhotoActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static/range {v1 .. v11}, Lkik/arcane/chat/vm/profile/profileactionvm/ChangeGroupPhotoActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -13143,7 +13143,7 @@
     iget-object v2, v0, Lcom/kik/components/c;->dA:Ljavax/inject/Provider;
 
     .line 3573
-    invoke-static {v1, v2}, Lkik/android/chat/vm/profile/gridvm/DisplayMemberItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2}, Lkik/arcane/chat/vm/profile/gridvm/DisplayMemberItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -13169,7 +13169,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->c:Ljavax/inject/Provider;
 
     .line 3577
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/vm/profile/profileactionvm/JoinPublicGroupActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/vm/profile/profileactionvm/JoinPublicGroupActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -13195,7 +13195,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->dX:Ljavax/inject/Provider;
 
     .line 3584
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/vm/profile/profileactionvm/LeaveGroupActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/vm/profile/profileactionvm/LeaveGroupActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -13221,7 +13221,7 @@
     iget-object v4, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 3591
-    invoke-static {v1, v2, v3, v4}, Lkik/android/chat/vm/chats/profile/GroupInfoBioViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4}, Lkik/arcane/chat/vm/chats/profile/GroupInfoBioViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -13251,7 +13251,7 @@
     iget-object v5, v0, Lcom/kik/components/c;->c:Ljavax/inject/Provider;
 
     .line 3598
-    invoke-static {v1, v2, v3, v4, v5}, Lkik/android/chat/vm/chats/profile/GroupBioEditorViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3, v4, v5}, Lkik/arcane/chat/vm/chats/profile/GroupBioEditorViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -13273,7 +13273,7 @@
     iget-object v3, v0, Lcom/kik/components/c;->j:Ljavax/inject/Provider;
 
     .line 3606
-    invoke-static {v1, v2, v3}, Lkik/android/chat/vm/profile/profileactionvm/ChangeGroupDescriptionActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v1, v2, v3}, Lkik/arcane/chat/vm/profile/profileactionvm/ChangeGroupDescriptionActionItemViewModel_MembersInjector;->a(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v1
 
@@ -13391,7 +13391,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/KikNotificationHandler;)V
+.method public final a(Lkik/arcane/KikNotificationHandler;)V
     .locals 1
 
     .prologue
@@ -13404,7 +13404,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/KikApplication;)V
+.method public final a(Lkik/arcane/chat/KikApplication;)V
     .locals 1
 
     .prologue
@@ -13417,7 +13417,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/activity/BackgroundPhotoCropFragment;)V
+.method public final a(Lkik/arcane/chat/activity/BackgroundPhotoCropFragment;)V
     .locals 1
 
     .prologue
@@ -13430,7 +13430,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/activity/FragmentWrapperActivity;)V
+.method public final a(Lkik/arcane/chat/activity/FragmentWrapperActivity;)V
     .locals 1
 
     .prologue
@@ -13443,7 +13443,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/activity/IntroActivity;)V
+.method public final a(Lkik/arcane/chat/activity/IntroActivity;)V
     .locals 1
 
     .prologue
@@ -13456,7 +13456,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/activity/KikActivityBase;)V
+.method public final a(Lkik/arcane/chat/activity/KikActivityBase;)V
     .locals 1
 
     .prologue
@@ -13469,7 +13469,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/activity/KikApiLandingActivity;)V
+.method public final a(Lkik/arcane/chat/activity/KikApiLandingActivity;)V
     .locals 1
 
     .prologue
@@ -13482,7 +13482,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/activity/KikIqActivityBase;)V
+.method public final a(Lkik/arcane/chat/activity/KikIqActivityBase;)V
     .locals 1
 
     .prologue
@@ -13495,7 +13495,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/activity/KikPlatformLanding;)V
+.method public final a(Lkik/arcane/chat/activity/KikPlatformLanding;)V
     .locals 1
 
     .prologue
@@ -13508,7 +13508,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/activity/KikWelcomeFragmentActivity;)V
+.method public final a(Lkik/arcane/chat/activity/KikWelcomeFragmentActivity;)V
     .locals 1
 
     .prologue
@@ -13521,7 +13521,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/AbTestsFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/AbTestsFragment;)V
     .locals 1
 
     .prologue
@@ -13534,7 +13534,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;)V
     .locals 1
 
     .prologue
@@ -13547,7 +13547,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/AddressbookFragmentBase;)V
+.method public final a(Lkik/arcane/chat/fragment/AddressbookFragmentBase;)V
     .locals 1
 
     .prologue
@@ -13560,7 +13560,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/CameraFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/CameraFragment;)V
     .locals 1
 
     .prologue
@@ -13573,7 +13573,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/ChatBubbleSelectionFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment;)V
     .locals 1
 
     .prologue
@@ -13586,7 +13586,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/ConversationsBaseFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/ConversationsBaseFragment;)V
     .locals 1
 
     .prologue
@@ -13599,7 +13599,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment;)V
     .locals 1
 
     .prologue
@@ -13612,7 +13612,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/FullScreenAddressbookFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;)V
     .locals 1
 
     .prologue
@@ -13625,7 +13625,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/InterestsPickerFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/InterestsPickerFragment;)V
     .locals 1
 
     .prologue
@@ -13638,7 +13638,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/KikChangeGroupNameFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/KikChangeGroupNameFragment;)V
     .locals 1
 
     .prologue
@@ -13651,7 +13651,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/KikChatFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/KikChatFragment;)V
     .locals 1
 
     .prologue
@@ -13664,7 +13664,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/KikCodeFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/KikCodeFragment;)V
     .locals 1
 
     .prologue
@@ -13677,7 +13677,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/KikComposeFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/KikComposeFragment;)V
     .locals 1
 
     .prologue
@@ -13690,7 +13690,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/KikContactsListFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/KikContactsListFragment;)V
     .locals 1
 
     .prologue
@@ -13703,7 +13703,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/KikConversationsFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/KikConversationsFragment;)V
     .locals 1
 
     .prologue
@@ -13716,7 +13716,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/KikDefaultContactsListFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/KikDefaultContactsListFragment;)V
     .locals 1
 
     .prologue
@@ -13729,7 +13729,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/KikGroupMembersListFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/KikGroupMembersListFragment;)V
     .locals 1
 
     .prologue
@@ -13742,7 +13742,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/KikIqFragmentBase;)V
+.method public final a(Lkik/arcane/chat/fragment/KikIqFragmentBase;)V
     .locals 1
 
     .prologue
@@ -13755,7 +13755,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/KikLoginFragmentAbstract;)V
+.method public final a(Lkik/arcane/chat/fragment/KikLoginFragmentAbstract;)V
     .locals 1
 
     .prologue
@@ -13768,7 +13768,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/KikMultiselectContactsListFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment;)V
     .locals 1
 
     .prologue
@@ -13781,7 +13781,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/KikPermissionsFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/KikPermissionsFragment;)V
     .locals 1
 
     .prologue
@@ -13794,7 +13794,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/KikPickUsersFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/KikPickUsersFragment;)V
     .locals 1
 
     .prologue
@@ -13807,7 +13807,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/KikPreregistrationFragmentBase;)V
+.method public final a(Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase;)V
     .locals 1
 
     .prologue
@@ -13820,7 +13820,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;)V
+.method public final a(Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;)V
     .locals 1
 
     .prologue
@@ -13833,7 +13833,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
     .locals 1
 
     .prologue
@@ -13846,7 +13846,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/KikStartGroupFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/KikStartGroupFragment;)V
     .locals 1
 
     .prologue
@@ -13859,7 +13859,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/KikWelcomeFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/KikWelcomeFragment;)V
     .locals 1
 
     .prologue
@@ -13872,7 +13872,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/MediaItemFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/MediaItemFragment;)V
     .locals 1
 
     .prologue
@@ -13885,7 +13885,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/MediaViewerFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/MediaViewerFragment;)V
     .locals 1
 
     .prologue
@@ -13898,7 +13898,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/MissedConversationsFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/MissedConversationsFragment;)V
     .locals 1
 
     .prologue
@@ -13911,7 +13911,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/PhoneVerificationCountryCodePickerFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/PhoneVerificationCountryCodePickerFragment;)V
     .locals 1
 
     .prologue
@@ -13924,7 +13924,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;)V
     .locals 1
 
     .prologue
@@ -13937,7 +13937,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/PublicGroupIntroFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/PublicGroupIntroFragment;)V
     .locals 1
 
     .prologue
@@ -13950,7 +13950,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/PublicGroupSearchFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/PublicGroupSearchFragment;)V
     .locals 1
 
     .prologue
@@ -13963,7 +13963,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/ScanCodeTabFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/ScanCodeTabFragment;)V
     .locals 1
 
     .prologue
@@ -13976,7 +13976,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/SendToFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/SendToFragment;)V
     .locals 1
 
     .prologue
@@ -13989,7 +13989,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;)V
+.method public final a(Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;)V
     .locals 1
 
     .prologue
@@ -14002,7 +14002,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/SuggestInterestDialogFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;)V
     .locals 1
 
     .prologue
@@ -14015,7 +14015,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/TemporaryBanDialog;)V
+.method public final a(Lkik/arcane/chat/fragment/TemporaryBanDialog;)V
     .locals 1
 
     .prologue
@@ -14028,7 +14028,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/UserProfileFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/UserProfileFragment;)V
     .locals 1
 
     .prologue
@@ -14041,7 +14041,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/VideoTrimmingFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/VideoTrimmingFragment;)V
     .locals 1
 
     .prologue
@@ -14054,7 +14054,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/ViewPictureFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/ViewPictureFragment;)V
     .locals 1
 
     .prologue
@@ -14067,7 +14067,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationEnterCodeFragment;)V
     .locals 1
 
     .prologue
@@ -14080,7 +14080,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;)V
     .locals 1
 
     .prologue
@@ -14093,7 +14093,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/settings/EditEmailFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/settings/EditEmailFragment;)V
     .locals 1
 
     .prologue
@@ -14106,7 +14106,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/settings/EditNameFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/settings/EditNameFragment;)V
     .locals 1
 
     .prologue
@@ -14119,7 +14119,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/settings/EditPasswordFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/settings/EditPasswordFragment;)V
     .locals 1
 
     .prologue
@@ -14132,7 +14132,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/settings/KikPreferenceFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/settings/KikPreferenceFragment;)V
     .locals 1
 
     .prologue
@@ -14145,7 +14145,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/presentation/MediaTrayPresenterImpl;)V
+.method public final a(Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;)V
     .locals 1
 
     .prologue
@@ -14158,7 +14158,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/view/PreviewResultsViewImpl;)V
+.method public final a(Lkik/arcane/chat/view/PreviewResultsViewImpl;)V
     .locals 1
 
     .prologue
@@ -14171,7 +14171,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/ReportDialogViewModel;)V
+.method public final a(Lkik/arcane/chat/vm/ReportDialogViewModel;)V
     .locals 1
 
     .prologue
@@ -14184,7 +14184,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/bz;)V
+.method public final a(Lkik/arcane/chat/vm/bz;)V
     .locals 1
 
     .prologue
@@ -14197,7 +14197,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/c;)V
+.method public final a(Lkik/arcane/chat/vm/chats/c;)V
     .locals 1
 
     .prologue
@@ -14210,7 +14210,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/e;)V
+.method public final a(Lkik/arcane/chat/vm/chats/e;)V
     .locals 1
 
     .prologue
@@ -14223,7 +14223,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/profile/a;)V
+.method public final a(Lkik/arcane/chat/vm/chats/profile/a;)V
     .locals 1
 
     .prologue
@@ -14236,7 +14236,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/profile/af;)V
+.method public final a(Lkik/arcane/chat/vm/chats/profile/af;)V
     .locals 1
 
     .prologue
@@ -14249,7 +14249,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/profile/an;)V
+.method public final a(Lkik/arcane/chat/vm/chats/profile/an;)V
     .locals 1
 
     .prologue
@@ -14262,7 +14262,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/profile/au;)V
+.method public final a(Lkik/arcane/chat/vm/chats/profile/au;)V
     .locals 1
 
     .prologue
@@ -14275,7 +14275,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/profile/az;)V
+.method public final a(Lkik/arcane/chat/vm/chats/profile/az;)V
     .locals 1
 
     .prologue
@@ -14288,7 +14288,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/profile/bg;)V
+.method public final a(Lkik/arcane/chat/vm/chats/profile/bg;)V
     .locals 1
 
     .prologue
@@ -14301,7 +14301,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/profile/br;)V
+.method public final a(Lkik/arcane/chat/vm/chats/profile/br;)V
     .locals 1
 
     .prologue
@@ -14314,7 +14314,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/profile/bv;)V
+.method public final a(Lkik/arcane/chat/vm/chats/profile/bv;)V
     .locals 1
 
     .prologue
@@ -14327,7 +14327,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/profile/ci;)V
+.method public final a(Lkik/arcane/chat/vm/chats/profile/ci;)V
     .locals 1
 
     .prologue
@@ -14340,7 +14340,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/profile/cy;)V
+.method public final a(Lkik/arcane/chat/vm/chats/profile/cy;)V
     .locals 1
 
     .prologue
@@ -14353,7 +14353,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/profile/du;)V
+.method public final a(Lkik/arcane/chat/vm/chats/profile/du;)V
     .locals 1
 
     .prologue
@@ -14366,7 +14366,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/profile/k;)V
+.method public final a(Lkik/arcane/chat/vm/chats/profile/k;)V
     .locals 1
 
     .prologue
@@ -14379,7 +14379,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/profile/s;)V
+.method public final a(Lkik/arcane/chat/vm/chats/profile/s;)V
     .locals 1
 
     .prologue
@@ -14392,7 +14392,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/profile/y;)V
+.method public final a(Lkik/arcane/chat/vm/chats/profile/y;)V
     .locals 1
 
     .prologue
@@ -14405,7 +14405,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/publicgroups/PublicGroupQuickSearchItemViewModel;)V
+.method public final a(Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupQuickSearchItemViewModel;)V
     .locals 1
 
     .prologue
@@ -14418,7 +14418,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/publicgroups/a;)V
+.method public final a(Lkik/arcane/chat/vm/chats/publicgroups/a;)V
     .locals 1
 
     .prologue
@@ -14431,7 +14431,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/publicgroups/o;)V
+.method public final a(Lkik/arcane/chat/vm/chats/publicgroups/o;)V
     .locals 1
 
     .prologue
@@ -14444,7 +14444,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/publicgroups/q;)V
+.method public final a(Lkik/arcane/chat/vm/chats/publicgroups/q;)V
     .locals 1
 
     .prologue
@@ -14457,7 +14457,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/publicgroups/r;)V
+.method public final a(Lkik/arcane/chat/vm/chats/publicgroups/r;)V
     .locals 1
 
     .prologue
@@ -14470,7 +14470,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/publicgroups/u;)V
+.method public final a(Lkik/arcane/chat/vm/chats/publicgroups/u;)V
     .locals 1
 
     .prologue
@@ -14483,7 +14483,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/publicgroups/z;)V
+.method public final a(Lkik/arcane/chat/vm/chats/publicgroups/z;)V
     .locals 1
 
     .prologue
@@ -14496,7 +14496,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;)V
+.method public final a(Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;)V
     .locals 1
 
     .prologue
@@ -14509,7 +14509,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/search/e;)V
+.method public final a(Lkik/arcane/chat/vm/chats/search/e;)V
     .locals 1
 
     .prologue
@@ -14522,7 +14522,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/search/j;)V
+.method public final a(Lkik/arcane/chat/vm/chats/search/j;)V
     .locals 1
 
     .prologue
@@ -14535,7 +14535,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/chats/search/n;)V
+.method public final a(Lkik/arcane/chat/vm/chats/search/n;)V
     .locals 1
 
     .prologue
@@ -14548,7 +14548,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/conversations/b;)V
+.method public final a(Lkik/arcane/chat/vm/conversations/b;)V
     .locals 1
 
     .prologue
@@ -14561,7 +14561,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel;)V
+.method public final a(Lkik/arcane/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel;)V
     .locals 1
 
     .prologue
@@ -14574,7 +14574,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/conversations/calltoaction/b;)V
+.method public final a(Lkik/arcane/chat/vm/conversations/calltoaction/b;)V
     .locals 1
 
     .prologue
@@ -14587,7 +14587,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/conversations/emptyview/a;)V
+.method public final a(Lkik/arcane/chat/vm/conversations/emptyview/a;)V
     .locals 1
 
     .prologue
@@ -14600,7 +14600,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/conversations/emptyview/c;)V
+.method public final a(Lkik/arcane/chat/vm/conversations/emptyview/c;)V
     .locals 1
 
     .prologue
@@ -14613,7 +14613,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/cw;)V
+.method public final a(Lkik/arcane/chat/vm/cw;)V
     .locals 1
 
     .prologue
@@ -14626,7 +14626,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/cz;)V
+.method public final a(Lkik/arcane/chat/vm/cz;)V
     .locals 1
 
     .prologue
@@ -14639,7 +14639,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/d;)V
+.method public final a(Lkik/arcane/chat/vm/d;)V
     .locals 1
 
     .prologue
@@ -14652,7 +14652,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/du;)V
+.method public final a(Lkik/arcane/chat/vm/du;)V
     .locals 1
 
     .prologue
@@ -14668,7 +14668,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/dx;)V
+.method public final a(Lkik/arcane/chat/vm/dx;)V
     .locals 1
 
     .prologue
@@ -14681,7 +14681,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/l;)V
+.method public final a(Lkik/arcane/chat/vm/l;)V
     .locals 1
 
     .prologue
@@ -14694,7 +14694,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/messaging/AbstractMessageViewModel;)V
+.method public final a(Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;)V
     .locals 1
 
     .prologue
@@ -14707,7 +14707,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/messaging/bx;)V
+.method public final a(Lkik/arcane/chat/vm/messaging/bx;)V
     .locals 1
 
     .prologue
@@ -14720,7 +14720,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/messaging/cu;)V
+.method public final a(Lkik/arcane/chat/vm/messaging/cu;)V
     .locals 1
 
     .prologue
@@ -14733,7 +14733,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/messaging/db;)V
+.method public final a(Lkik/arcane/chat/vm/messaging/db;)V
     .locals 1
 
     .prologue
@@ -14746,7 +14746,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/messaging/du;)V
+.method public final a(Lkik/arcane/chat/vm/messaging/du;)V
     .locals 1
 
     .prologue
@@ -14759,7 +14759,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/messaging/ep;)V
+.method public final a(Lkik/arcane/chat/vm/messaging/ep;)V
     .locals 1
 
     .prologue
@@ -14772,7 +14772,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/messaging/er;)V
+.method public final a(Lkik/arcane/chat/vm/messaging/er;)V
     .locals 1
 
     .prologue
@@ -14785,7 +14785,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/messaging/eu;)V
+.method public final a(Lkik/arcane/chat/vm/messaging/eu;)V
     .locals 1
 
     .prologue
@@ -14798,7 +14798,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/messaging/fe;)V
+.method public final a(Lkik/arcane/chat/vm/messaging/fe;)V
     .locals 1
 
     .prologue
@@ -14811,7 +14811,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/messaging/fo;)V
+.method public final a(Lkik/arcane/chat/vm/messaging/fo;)V
     .locals 1
 
     .prologue
@@ -14824,7 +14824,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/o;)V
+.method public final a(Lkik/arcane/chat/vm/o;)V
     .locals 1
 
     .prologue
@@ -14837,7 +14837,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/PicturePickerFragment;)V
+.method public final a(Lkik/arcane/chat/vm/profile/PicturePickerFragment;)V
     .locals 1
 
     .prologue
@@ -14850,7 +14850,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/aa;)V
+.method public final a(Lkik/arcane/chat/vm/profile/aa;)V
     .locals 1
 
     .prologue
@@ -14863,7 +14863,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/as;)V
+.method public final a(Lkik/arcane/chat/vm/profile/as;)V
     .locals 1
 
     .prologue
@@ -14876,7 +14876,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/ax;)V
+.method public final a(Lkik/arcane/chat/vm/profile/ax;)V
     .locals 1
 
     .prologue
@@ -14889,7 +14889,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/bl;)V
+.method public final a(Lkik/arcane/chat/vm/profile/bl;)V
     .locals 1
 
     .prologue
@@ -14902,7 +14902,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/cd;)V
+.method public final a(Lkik/arcane/chat/vm/profile/cd;)V
     .locals 1
 
     .prologue
@@ -14915,7 +14915,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/dx;)V
+.method public final a(Lkik/arcane/chat/vm/profile/dx;)V
     .locals 1
 
     .prologue
@@ -14928,7 +14928,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/eb;)V
+.method public final a(Lkik/arcane/chat/vm/profile/eb;)V
     .locals 1
 
     .prologue
@@ -14941,7 +14941,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/eh;)V
+.method public final a(Lkik/arcane/chat/vm/profile/eh;)V
     .locals 1
 
     .prologue
@@ -14954,7 +14954,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/gridvm/a;)V
+.method public final a(Lkik/arcane/chat/vm/profile/gridvm/a;)V
     .locals 1
 
     .prologue
@@ -14967,7 +14967,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/gridvm/ap;)V
+.method public final a(Lkik/arcane/chat/vm/profile/gridvm/ap;)V
     .locals 1
 
     .prologue
@@ -14980,7 +14980,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/gridvm/b;)V
+.method public final a(Lkik/arcane/chat/vm/profile/gridvm/b;)V
     .locals 1
 
     .prologue
@@ -14993,7 +14993,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/gridvm/k;)V
+.method public final a(Lkik/arcane/chat/vm/profile/gridvm/k;)V
     .locals 1
 
     .prologue
@@ -15006,7 +15006,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/gridvm/n;)V
+.method public final a(Lkik/arcane/chat/vm/profile/gridvm/n;)V
     .locals 1
 
     .prologue
@@ -15019,7 +15019,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/gridvm/t;)V
+.method public final a(Lkik/arcane/chat/vm/profile/gridvm/t;)V
     .locals 1
 
     .prologue
@@ -15032,7 +15032,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/m;)V
+.method public final a(Lkik/arcane/chat/vm/profile/m;)V
     .locals 1
 
     .prologue
@@ -15045,7 +15045,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/profileactionvm/a;)V
+.method public final a(Lkik/arcane/chat/vm/profile/profileactionvm/a;)V
     .locals 1
 
     .prologue
@@ -15058,7 +15058,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/profileactionvm/ae;)V
+.method public final a(Lkik/arcane/chat/vm/profile/profileactionvm/ae;)V
     .locals 1
 
     .prologue
@@ -15071,7 +15071,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/profileactionvm/ai$a;)V
+.method public final a(Lkik/arcane/chat/vm/profile/profileactionvm/ai$a;)V
     .locals 1
 
     .prologue
@@ -15084,7 +15084,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/profileactionvm/ai$b;)V
+.method public final a(Lkik/arcane/chat/vm/profile/profileactionvm/ai$b;)V
     .locals 1
 
     .prologue
@@ -15097,7 +15097,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/profileactionvm/ai$c;)V
+.method public final a(Lkik/arcane/chat/vm/profile/profileactionvm/ai$c;)V
     .locals 1
 
     .prologue
@@ -15110,7 +15110,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/profileactionvm/ai$d;)V
+.method public final a(Lkik/arcane/chat/vm/profile/profileactionvm/ai$d;)V
     .locals 1
 
     .prologue
@@ -15123,7 +15123,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/profileactionvm/at;)V
+.method public final a(Lkik/arcane/chat/vm/profile/profileactionvm/at;)V
     .locals 1
 
     .prologue
@@ -15136,7 +15136,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/profileactionvm/av;)V
+.method public final a(Lkik/arcane/chat/vm/profile/profileactionvm/av;)V
     .locals 1
 
     .prologue
@@ -15149,7 +15149,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/profileactionvm/ay;)V
+.method public final a(Lkik/arcane/chat/vm/profile/profileactionvm/ay;)V
     .locals 1
 
     .prologue
@@ -15162,7 +15162,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/profileactionvm/g;)V
+.method public final a(Lkik/arcane/chat/vm/profile/profileactionvm/g;)V
     .locals 1
 
     .prologue
@@ -15175,7 +15175,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/profileactionvm/l;)V
+.method public final a(Lkik/arcane/chat/vm/profile/profileactionvm/l;)V
     .locals 1
 
     .prologue
@@ -15188,7 +15188,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/profileactionvm/p;)V
+.method public final a(Lkik/arcane/chat/vm/profile/profileactionvm/p;)V
     .locals 1
 
     .prologue
@@ -15201,7 +15201,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/profileactionvm/q;)V
+.method public final a(Lkik/arcane/chat/vm/profile/profileactionvm/q;)V
     .locals 1
 
     .prologue
@@ -15214,7 +15214,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/profileactionvm/x;)V
+.method public final a(Lkik/arcane/chat/vm/profile/profileactionvm/x;)V
     .locals 1
 
     .prologue
@@ -15227,7 +15227,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/r;)V
+.method public final a(Lkik/arcane/chat/vm/profile/r;)V
     .locals 1
 
     .prologue
@@ -15240,7 +15240,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/profile/y;)V
+.method public final a(Lkik/arcane/chat/vm/profile/y;)V
     .locals 1
 
     .prologue
@@ -15253,7 +15253,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/u;)V
+.method public final a(Lkik/arcane/chat/vm/u;)V
     .locals 1
 
     .prologue
@@ -15266,7 +15266,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/widget/SmileyItemViewModel;)V
+.method public final a(Lkik/arcane/chat/vm/widget/SmileyItemViewModel;)V
     .locals 1
 
     .prologue
@@ -15279,7 +15279,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/widget/StickerWidgetViewModel;)V
+.method public final a(Lkik/arcane/chat/vm/widget/StickerWidgetViewModel;)V
     .locals 1
 
     .prologue
@@ -15292,7 +15292,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/widget/a;)V
+.method public final a(Lkik/arcane/chat/vm/widget/a;)V
     .locals 1
 
     .prologue
@@ -15305,7 +15305,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/widget/au;)V
+.method public final a(Lkik/arcane/chat/vm/widget/au;)V
     .locals 1
 
     .prologue
@@ -15318,7 +15318,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/widget/av;)V
+.method public final a(Lkik/arcane/chat/vm/widget/av;)V
     .locals 1
 
     .prologue
@@ -15331,7 +15331,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/widget/ax;)V
+.method public final a(Lkik/arcane/chat/vm/widget/ax;)V
     .locals 1
 
     .prologue
@@ -15344,7 +15344,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/widget/b;)V
+.method public final a(Lkik/arcane/chat/vm/widget/b;)V
     .locals 1
 
     .prologue
@@ -15357,7 +15357,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/widget/bb;)V
+.method public final a(Lkik/arcane/chat/vm/widget/bb;)V
     .locals 1
 
     .prologue
@@ -15370,7 +15370,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/widget/bc;)V
+.method public final a(Lkik/arcane/chat/vm/widget/bc;)V
     .locals 1
 
     .prologue
@@ -15383,7 +15383,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/widget/bm;)V
+.method public final a(Lkik/arcane/chat/vm/widget/bm;)V
     .locals 1
 
     .prologue
@@ -15396,7 +15396,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/widget/bn;)V
+.method public final a(Lkik/arcane/chat/vm/widget/bn;)V
     .locals 1
 
     .prologue
@@ -15409,7 +15409,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/widget/bq;)V
+.method public final a(Lkik/arcane/chat/vm/widget/bq;)V
     .locals 1
 
     .prologue
@@ -15422,7 +15422,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/widget/bu;)V
+.method public final a(Lkik/arcane/chat/vm/widget/bu;)V
     .locals 1
 
     .prologue
@@ -15435,7 +15435,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/widget/c;)V
+.method public final a(Lkik/arcane/chat/vm/widget/c;)V
     .locals 1
 
     .prologue
@@ -15448,7 +15448,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/widget/cd;)V
+.method public final a(Lkik/arcane/chat/vm/widget/cd;)V
     .locals 1
 
     .prologue
@@ -15461,7 +15461,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/vm/widget/cf;)V
+.method public final a(Lkik/arcane/chat/vm/widget/cf;)V
     .locals 1
 
     .prologue
@@ -15474,7 +15474,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/deeplinks/DeepLinkActivity;)V
+.method public final a(Lkik/arcane/deeplinks/DeepLinkActivity;)V
     .locals 1
 
     .prologue
@@ -15487,7 +15487,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/deeplinks/InternalDeeplinkActivity;)V
+.method public final a(Lkik/arcane/deeplinks/InternalDeeplinkActivity;)V
     .locals 1
 
     .prologue
@@ -15500,7 +15500,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/f;)V
+.method public final a(Lkik/arcane/f;)V
     .locals 1
 
     .prologue
@@ -15513,7 +15513,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/gallery/vm/a;)V
+.method public final a(Lkik/arcane/gallery/vm/a;)V
     .locals 1
 
     .prologue
@@ -15526,7 +15526,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/gallery/vm/l;)V
+.method public final a(Lkik/arcane/gallery/vm/l;)V
     .locals 1
 
     .prologue
@@ -15539,7 +15539,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/gifs/vm/a;)V
+.method public final a(Lkik/arcane/gifs/vm/a;)V
     .locals 1
 
     .prologue
@@ -15552,7 +15552,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/gifs/vm/ab;)V
+.method public final a(Lkik/arcane/gifs/vm/ab;)V
     .locals 1
 
     .prologue
@@ -15565,7 +15565,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/gifs/vm/aj;)V
+.method public final a(Lkik/arcane/gifs/vm/aj;)V
     .locals 1
 
     .prologue
@@ -15578,7 +15578,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/gifs/vm/d;)V
+.method public final a(Lkik/arcane/gifs/vm/d;)V
     .locals 1
 
     .prologue
@@ -15591,7 +15591,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/gifs/vm/p;)V
+.method public final a(Lkik/arcane/gifs/vm/p;)V
     .locals 1
 
     .prologue
@@ -15604,7 +15604,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/gifs/vm/t;)V
+.method public final a(Lkik/arcane/gifs/vm/t;)V
     .locals 1
 
     .prologue
@@ -15617,7 +15617,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/gifs/vm/z;)V
+.method public final a(Lkik/arcane/gifs/vm/z;)V
     .locals 1
 
     .prologue
@@ -15630,7 +15630,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/net/communicator/CommunicatorService;)V
+.method public final a(Lkik/arcane/net/communicator/CommunicatorService;)V
     .locals 1
 
     .prologue
@@ -15643,7 +15643,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/net/communicator/RegistrationIntentService;)V
+.method public final a(Lkik/arcane/net/communicator/RegistrationIntentService;)V
     .locals 1
 
     .prologue
@@ -15656,7 +15656,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/net/communicator/a;)V
+.method public final a(Lkik/arcane/net/communicator/a;)V
     .locals 1
 
     .prologue
@@ -15669,7 +15669,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/scan/fragment/ScanFragment;)V
+.method public final a(Lkik/arcane/scan/fragment/ScanFragment;)V
     .locals 1
 
     .prologue
@@ -15682,7 +15682,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/video/f;)V
+.method public final a(Lkik/arcane/video/f;)V
     .locals 1
 
     .prologue
@@ -15695,7 +15695,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/videochat/VideoChatViewController;)V
+.method public final a(Lkik/arcane/videochat/VideoChatViewController;)V
     .locals 1
 
     .prologue
@@ -15708,7 +15708,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/BugmeBarView;)V
+.method public final a(Lkik/arcane/widget/BugmeBarView;)V
     .locals 1
 
     .prologue
@@ -15721,7 +15721,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/GalleryWidget;)V
+.method public final a(Lkik/arcane/widget/GalleryWidget;)V
     .locals 1
 
     .prologue
@@ -15734,7 +15734,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/GifWidget;)V
+.method public final a(Lkik/arcane/widget/GifWidget;)V
     .locals 1
 
     .prologue
@@ -15747,7 +15747,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/SmileyWidget;)V
+.method public final a(Lkik/arcane/widget/SmileyWidget;)V
     .locals 1
 
     .prologue
@@ -15760,7 +15760,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/StickerWidget;)V
+.method public final a(Lkik/arcane/widget/StickerWidget;)V
     .locals 1
 
     .prologue
@@ -15773,7 +15773,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/WebWidget;)V
+.method public final a(Lkik/arcane/widget/WebWidget;)V
     .locals 1
 
     .prologue
@@ -15786,7 +15786,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/WubbleView;)V
+.method public final a(Lkik/arcane/widget/WubbleView;)V
     .locals 1
 
     .prologue
@@ -15799,7 +15799,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/AutoplayVideoPreference;)V
+.method public final a(Lkik/arcane/widget/preferences/AutoplayVideoPreference;)V
     .locals 1
 
     .prologue
@@ -15812,7 +15812,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/BlockListPreference;)V
+.method public final a(Lkik/arcane/widget/preferences/BlockListPreference;)V
     .locals 1
 
     .prologue
@@ -15825,7 +15825,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/CommunityGuideLinesPreference;)V
+.method public final a(Lkik/arcane/widget/preferences/CommunityGuideLinesPreference;)V
     .locals 1
 
     .prologue
@@ -15838,7 +15838,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/HelpPreference;)V
+.method public final a(Lkik/arcane/widget/preferences/HelpPreference;)V
     .locals 1
 
     .prologue
@@ -15851,7 +15851,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/KikEmailPreference;)V
+.method public final a(Lkik/arcane/widget/preferences/KikEmailPreference;)V
     .locals 1
 
     .prologue
@@ -15864,7 +15864,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/KikModalPreference;)V
+.method public final a(Lkik/arcane/widget/preferences/KikModalPreference;)V
     .locals 1
 
     .prologue
@@ -15877,7 +15877,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/KikNotificationHelpNotice;)V
+.method public final a(Lkik/arcane/widget/preferences/KikNotificationHelpNotice;)V
     .locals 1
 
     .prologue
@@ -15890,7 +15890,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/KikPreference;)V
+.method public final a(Lkik/arcane/widget/preferences/KikPreference;)V
     .locals 1
 
     .prologue
@@ -15903,7 +15903,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/KikPreferenceScreen;)V
+.method public final a(Lkik/arcane/widget/preferences/KikPreferenceScreen;)V
     .locals 1
 
     .prologue
@@ -15916,7 +15916,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/KikSwitchPreference;)V
+.method public final a(Lkik/arcane/widget/preferences/KikSwitchPreference;)V
     .locals 1
 
     .prologue
@@ -15929,7 +15929,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/KikVideoPrefetchPreference;)V
+.method public final a(Lkik/arcane/widget/preferences/KikVideoPrefetchPreference;)V
     .locals 1
 
     .prologue
@@ -15942,7 +15942,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/LEDNotificationPreference;)V
+.method public final a(Lkik/arcane/widget/preferences/LEDNotificationPreference;)V
     .locals 1
 
     .prologue
@@ -15955,7 +15955,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/LetFriendsFindMePreference;)V
+.method public final a(Lkik/arcane/widget/preferences/LetFriendsFindMePreference;)V
     .locals 1
 
     .prologue
@@ -15968,7 +15968,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/NamePreference;)V
+.method public final a(Lkik/arcane/widget/preferences/NamePreference;)V
     .locals 1
 
     .prologue
@@ -15981,7 +15981,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/NotifyNewPeoplePreference;)V
+.method public final a(Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;)V
     .locals 1
 
     .prologue
@@ -15994,7 +15994,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/ResetKikPreference;)V
+.method public final a(Lkik/arcane/widget/preferences/ResetKikPreference;)V
     .locals 1
 
     .prologue
@@ -16007,7 +16007,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/ShareEmailPreference;)V
+.method public final a(Lkik/arcane/widget/preferences/ShareEmailPreference;)V
     .locals 1
 
     .prologue
@@ -16020,7 +16020,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/ShareOtherPreference;)V
+.method public final a(Lkik/arcane/widget/preferences/ShareOtherPreference;)V
     .locals 1
 
     .prologue
@@ -16033,7 +16033,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/ShareSmsPreference;)V
+.method public final a(Lkik/arcane/widget/preferences/ShareSmsPreference;)V
     .locals 1
 
     .prologue
@@ -16046,7 +16046,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/ShareSocialPreference;)V
+.method public final a(Lkik/arcane/widget/preferences/ShareSocialPreference;)V
     .locals 1
 
     .prologue
@@ -16059,7 +16059,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/ShowKikCodePreference;)V
+.method public final a(Lkik/arcane/widget/preferences/ShowKikCodePreference;)V
     .locals 1
 
     .prologue
@@ -16072,7 +16072,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/UsePhoneContactsPreference;)V
+.method public final a(Lkik/arcane/widget/preferences/UsePhoneContactsPreference;)V
     .locals 1
 
     .prologue
@@ -16085,7 +16085,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/UsernamePreference;)V
+.method public final a(Lkik/arcane/widget/preferences/UsernamePreference;)V
     .locals 1
 
     .prologue
@@ -16098,7 +16098,7 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/preferences/WebHistoryPreference;)V
+.method public final a(Lkik/arcane/widget/preferences/WebHistoryPreference;)V
     .locals 1
 
     .prologue

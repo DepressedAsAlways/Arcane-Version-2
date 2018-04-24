@@ -1,5 +1,5 @@
-.class public final Lkik/android/chat/vm/conversations/f;
-.super Lkik/android/chat/vm/conversations/b;
+.class public final Lkik/arcane/chat/vm/conversations/f;
+.super Lkik/arcane/chat/vm/conversations/b;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
     .prologue
     .line 7
-    invoke-direct {p0}, Lkik/android/chat/vm/conversations/b;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/conversations/b;-><init>()V
 
     return-void
 .end method
@@ -21,7 +21,7 @@
 
     .prologue
     .line 12
-    iget-boolean v0, p0, Lkik/android/chat/vm/conversations/f;->e:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/vm/conversations/f;->e:Z
 
     return v0
 .end method

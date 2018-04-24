@@ -1,4 +1,4 @@
-.class final Lkik/android/net/communicator/a$1;
+.class final Lkik/arcane/net/communicator/a$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/net/communicator/a;
+    value = Lkik/arcane/net/communicator/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/net/communicator/a;
+.field final synthetic a:Lkik/arcane/net/communicator/a;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/net/communicator/a;)V
+.method constructor <init>(Lkik/arcane/net/communicator/a;)V
     .locals 0
 
     .prologue
     .line 94
-    iput-object p1, p0, Lkik/android/net/communicator/a$1;->a:Lkik/android/net/communicator/a;
+    iput-object p1, p0, Lkik/arcane/net/communicator/a$1;->a:Lkik/arcane/net/communicator/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -44,17 +44,17 @@
     const-string v0, "cellular"
 
     .line 100
-    iget-object v1, p0, Lkik/android/net/communicator/a$1;->a:Lkik/android/net/communicator/a;
+    iget-object v1, p0, Lkik/arcane/net/communicator/a$1;->a:Lkik/arcane/net/communicator/a;
 
-    invoke-static {v1}, Lkik/android/net/communicator/a;->a(Lkik/android/net/communicator/a;)Ljava/lang/String;
+    invoke-static {v1}, Lkik/arcane/net/communicator/a;->a(Lkik/arcane/net/communicator/a;)Ljava/lang/String;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    iget-object v1, p0, Lkik/android/net/communicator/a$1;->a:Lkik/android/net/communicator/a;
+    iget-object v1, p0, Lkik/arcane/net/communicator/a$1;->a:Lkik/arcane/net/communicator/a;
 
-    invoke-static {v1}, Lkik/android/net/communicator/a;->a(Lkik/android/net/communicator/a;)Ljava/lang/String;
+    invoke-static {v1}, Lkik/arcane/net/communicator/a;->a(Lkik/arcane/net/communicator/a;)Ljava/lang/String;
 
     move-result-object v1
 

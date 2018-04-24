@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/DescriptiveDialogFragment$1;
-.super Lkik/android/util/ca$a;
+.class final Lkik/arcane/chat/fragment/DescriptiveDialogFragment$1;
+.super Lkik/arcane/util/ca$a;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/DescriptiveDialogFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    value = Lkik/arcane/chat/fragment/DescriptiveDialogFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,18 +15,18 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/DescriptiveDialogFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/DescriptiveDialogFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/DescriptiveDialogFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/DescriptiveDialogFragment;)V
     .locals 0
 
     .prologue
     .line 40
-    iput-object p1, p0, Lkik/android/chat/fragment/DescriptiveDialogFragment$1;->a:Lkik/android/chat/fragment/DescriptiveDialogFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/DescriptiveDialogFragment$1;->a:Lkik/arcane/chat/fragment/DescriptiveDialogFragment;
 
-    invoke-direct {p0}, Lkik/android/util/ca$a;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/util/ca$a;-><init>()V
 
     return-void
 .end method
@@ -38,9 +38,9 @@
 
     .prologue
     .line 44
-    iget-object v0, p0, Lkik/android/chat/fragment/DescriptiveDialogFragment$1;->a:Lkik/android/chat/fragment/DescriptiveDialogFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/DescriptiveDialogFragment$1;->a:Lkik/arcane/chat/fragment/DescriptiveDialogFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/DescriptiveDialogFragment;->e()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/DescriptiveDialogFragment;->e()V
 
     .line 45
     return-void

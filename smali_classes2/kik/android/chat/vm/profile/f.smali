@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/profile/f;
+.class final synthetic Lkik/arcane/chat/vm/profile/f;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,7 +6,7 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/vm/profile/b;
+.field private final a:Lkik/arcane/chat/vm/profile/b;
 
 .field private final b:Ljava/lang/String;
 
@@ -14,7 +14,7 @@
 
 .field private final d:Ljava/lang/String;
 
-.field private final e:Lkik/android/chat/a/a$b;
+.field private final e:Lkik/arcane/chat/a/a$b;
 
 .field private final f:Lkik/core/datatypes/Message;
 
@@ -22,32 +22,32 @@
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/vm/profile/b;Ljava/lang/String;Lcom/kik/core/network/xmpp/jid/a;Ljava/lang/String;Lkik/android/chat/a/a$b;Lkik/core/datatypes/Message;Lrx/c;)V
+.method private constructor <init>(Lkik/arcane/chat/vm/profile/b;Ljava/lang/String;Lcom/kik/core/network/xmpp/jid/a;Ljava/lang/String;Lkik/arcane/chat/a/a$b;Lkik/core/datatypes/Message;Lrx/c;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/vm/profile/f;->a:Lkik/android/chat/vm/profile/b;
+    iput-object p1, p0, Lkik/arcane/chat/vm/profile/f;->a:Lkik/arcane/chat/vm/profile/b;
 
-    iput-object p2, p0, Lkik/android/chat/vm/profile/f;->b:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/chat/vm/profile/f;->b:Ljava/lang/String;
 
-    iput-object p3, p0, Lkik/android/chat/vm/profile/f;->c:Lcom/kik/core/network/xmpp/jid/a;
+    iput-object p3, p0, Lkik/arcane/chat/vm/profile/f;->c:Lcom/kik/core/network/xmpp/jid/a;
 
-    iput-object p4, p0, Lkik/android/chat/vm/profile/f;->d:Ljava/lang/String;
+    iput-object p4, p0, Lkik/arcane/chat/vm/profile/f;->d:Ljava/lang/String;
 
-    iput-object p5, p0, Lkik/android/chat/vm/profile/f;->e:Lkik/android/chat/a/a$b;
+    iput-object p5, p0, Lkik/arcane/chat/vm/profile/f;->e:Lkik/arcane/chat/a/a$b;
 
-    iput-object p6, p0, Lkik/android/chat/vm/profile/f;->f:Lkik/core/datatypes/Message;
+    iput-object p6, p0, Lkik/arcane/chat/vm/profile/f;->f:Lkik/core/datatypes/Message;
 
-    iput-object p7, p0, Lkik/android/chat/vm/profile/f;->g:Lrx/c;
+    iput-object p7, p0, Lkik/arcane/chat/vm/profile/f;->g:Lrx/c;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/vm/profile/b;Ljava/lang/String;Lcom/kik/core/network/xmpp/jid/a;Ljava/lang/String;Lkik/android/chat/a/a$b;Lkik/core/datatypes/Message;Lrx/c;)Lrx/functions/b;
+.method public static a(Lkik/arcane/chat/vm/profile/b;Ljava/lang/String;Lcom/kik/core/network/xmpp/jid/a;Ljava/lang/String;Lkik/arcane/chat/a/a$b;Lkik/core/datatypes/Message;Lrx/c;)Lrx/functions/b;
     .locals 8
 
-    new-instance v0, Lkik/android/chat/vm/profile/f;
+    new-instance v0, Lkik/arcane/chat/vm/profile/f;
 
     move-object v1, p0
 
@@ -63,7 +63,7 @@
 
     move-object v7, p6
 
-    invoke-direct/range {v0 .. v7}, Lkik/android/chat/vm/profile/f;-><init>(Lkik/android/chat/vm/profile/b;Ljava/lang/String;Lcom/kik/core/network/xmpp/jid/a;Ljava/lang/String;Lkik/android/chat/a/a$b;Lkik/core/datatypes/Message;Lrx/c;)V
+    invoke-direct/range {v0 .. v7}, Lkik/arcane/chat/vm/profile/f;-><init>(Lkik/arcane/chat/vm/profile/b;Ljava/lang/String;Lcom/kik/core/network/xmpp/jid/a;Ljava/lang/String;Lkik/arcane/chat/a/a$b;Lkik/core/datatypes/Message;Lrx/c;)V
 
     return-object v0
 .end method
@@ -73,25 +73,25 @@
 .method public final call(Ljava/lang/Object;)V
     .locals 8
 
-    iget-object v0, p0, Lkik/android/chat/vm/profile/f;->a:Lkik/android/chat/vm/profile/b;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/f;->a:Lkik/arcane/chat/vm/profile/b;
 
-    iget-object v1, p0, Lkik/android/chat/vm/profile/f;->b:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/chat/vm/profile/f;->b:Ljava/lang/String;
 
-    iget-object v2, p0, Lkik/android/chat/vm/profile/f;->c:Lcom/kik/core/network/xmpp/jid/a;
+    iget-object v2, p0, Lkik/arcane/chat/vm/profile/f;->c:Lcom/kik/core/network/xmpp/jid/a;
 
-    iget-object v3, p0, Lkik/android/chat/vm/profile/f;->d:Ljava/lang/String;
+    iget-object v3, p0, Lkik/arcane/chat/vm/profile/f;->d:Ljava/lang/String;
 
-    iget-object v4, p0, Lkik/android/chat/vm/profile/f;->e:Lkik/android/chat/a/a$b;
+    iget-object v4, p0, Lkik/arcane/chat/vm/profile/f;->e:Lkik/arcane/chat/a/a$b;
 
-    iget-object v5, p0, Lkik/android/chat/vm/profile/f;->f:Lkik/core/datatypes/Message;
+    iget-object v5, p0, Lkik/arcane/chat/vm/profile/f;->f:Lkik/core/datatypes/Message;
 
-    iget-object v6, p0, Lkik/android/chat/vm/profile/f;->g:Lrx/c;
+    iget-object v6, p0, Lkik/arcane/chat/vm/profile/f;->g:Lrx/c;
 
     move-object v7, p1
 
-    check-cast v7, Lkik/android/chat/a/a$a;
+    check-cast v7, Lkik/arcane/chat/a/a$a;
 
-    invoke-static/range {v0 .. v7}, Lkik/android/chat/vm/profile/b;->a(Lkik/android/chat/vm/profile/b;Ljava/lang/String;Lcom/kik/core/network/xmpp/jid/a;Ljava/lang/String;Lkik/android/chat/a/a$b;Lkik/core/datatypes/Message;Lrx/c;Lkik/android/chat/a/a$a;)V
+    invoke-static/range {v0 .. v7}, Lkik/arcane/chat/vm/profile/b;->a(Lkik/arcane/chat/vm/profile/b;Ljava/lang/String;Lcom/kik/core/network/xmpp/jid/a;Ljava/lang/String;Lkik/arcane/chat/a/a$b;Lkik/core/datatypes/Message;Lrx/c;Lkik/arcane/chat/a/a$a;)V
 
     return-void
 .end method

@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/ViewModelPagerAdapter;
+.class public Lkik/arcane/widget/ViewModelPagerAdapter;
 .super Landroid/support/v4/view/PagerAdapter;
 .source "SourceFile"
 
@@ -6,14 +6,14 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/ViewModelPagerAdapter$a;
+        Lkik/arcane/widget/ViewModelPagerAdapter$a;
     }
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<ItemViewModel::",
-        "Lkik/android/chat/vm/bv;",
+        "Lkik/arcane/chat/vm/bv;",
         ">",
         "Landroid/support/v4/view/PagerAdapter;"
     }
@@ -21,12 +21,12 @@
 
 
 # instance fields
-.field private final a:Lkik/android/widget/ViewModelPagerAdapter$a;
+.field private final a:Lkik/arcane/widget/ViewModelPagerAdapter$a;
 
-.field private final b:Lkik/android/chat/vm/IListViewModel;
+.field private final b:Lkik/arcane/chat/vm/IListViewModel;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkik/android/chat/vm/IListViewModel",
+            "Lkik/arcane/chat/vm/IListViewModel",
             "<TItemViewModel;>;"
         }
     .end annotation
@@ -38,13 +38,13 @@
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/widget/ViewModelPagerAdapter$a;Lkik/android/chat/vm/IListViewModel;Landroid/content/Context;)V
+.method public constructor <init>(Lkik/arcane/widget/ViewModelPagerAdapter$a;Lkik/arcane/chat/vm/IListViewModel;Landroid/content/Context;)V
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/ViewModelPagerAdapter$a;",
-            "Lkik/android/chat/vm/IListViewModel",
+            "Lkik/arcane/widget/ViewModelPagerAdapter$a;",
+            "Lkik/arcane/chat/vm/IListViewModel",
             "<TItemViewModel;>;",
             "Landroid/content/Context;",
             ")V"
@@ -60,23 +60,23 @@
 
     invoke-direct {v0}, Lrx/f/b;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/ViewModelPagerAdapter;->c:Lrx/f/b;
+    iput-object v0, p0, Lkik/arcane/widget/ViewModelPagerAdapter;->c:Lrx/f/b;
 
     .line 37
-    iput-object p1, p0, Lkik/android/widget/ViewModelPagerAdapter;->a:Lkik/android/widget/ViewModelPagerAdapter$a;
+    iput-object p1, p0, Lkik/arcane/widget/ViewModelPagerAdapter;->a:Lkik/arcane/widget/ViewModelPagerAdapter$a;
 
     .line 38
-    iput-object p2, p0, Lkik/android/widget/ViewModelPagerAdapter;->b:Lkik/android/chat/vm/IListViewModel;
+    iput-object p2, p0, Lkik/arcane/widget/ViewModelPagerAdapter;->b:Lkik/arcane/chat/vm/IListViewModel;
 
     .line 39
-    iput-object p3, p0, Lkik/android/widget/ViewModelPagerAdapter;->d:Landroid/content/Context;
+    iput-object p3, p0, Lkik/arcane/widget/ViewModelPagerAdapter;->d:Landroid/content/Context;
 
     .line 41
-    iget-object v0, p0, Lkik/android/widget/ViewModelPagerAdapter;->c:Lrx/f/b;
+    iget-object v0, p0, Lkik/arcane/widget/ViewModelPagerAdapter;->c:Lrx/f/b;
 
-    iget-object v1, p0, Lkik/android/widget/ViewModelPagerAdapter;->b:Lkik/android/chat/vm/IListViewModel;
+    iget-object v1, p0, Lkik/arcane/widget/ViewModelPagerAdapter;->b:Lkik/arcane/chat/vm/IListViewModel;
 
-    invoke-interface {v1}, Lkik/android/chat/vm/IListViewModel;->b()Lrx/d;
+    invoke-interface {v1}, Lkik/arcane/chat/vm/IListViewModel;->b()Lrx/d;
 
     move-result-object v1
 
@@ -89,7 +89,7 @@
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/widget/dm;->a(Lkik/android/widget/ViewModelPagerAdapter;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/dm;->a(Lkik/arcane/widget/ViewModelPagerAdapter;)Lrx/functions/b;
 
     move-result-object v2
 
@@ -105,12 +105,12 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/ViewModelPagerAdapter;)V
+.method static synthetic a(Lkik/arcane/widget/ViewModelPagerAdapter;)V
     .locals 0
 
     .prologue
     .line 44
-    invoke-virtual {p0}, Lkik/android/widget/ViewModelPagerAdapter;->notifyDataSetChanged()V
+    invoke-virtual {p0}, Lkik/arcane/widget/ViewModelPagerAdapter;->notifyDataSetChanged()V
 
     .line 45
     return-void
@@ -128,20 +128,20 @@
     invoke-virtual {p1, p3}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
     .line 2050
-    iget-object v0, p0, Lkik/android/widget/ViewModelPagerAdapter;->b:Lkik/android/chat/vm/IListViewModel;
+    iget-object v0, p0, Lkik/arcane/widget/ViewModelPagerAdapter;->b:Lkik/arcane/chat/vm/IListViewModel;
 
     .line 73
-    invoke-interface {v0, p2}, Lkik/android/chat/vm/IListViewModel;->d(I)Lkik/android/chat/vm/ay;
+    invoke-interface {v0, p2}, Lkik/arcane/chat/vm/IListViewModel;->d(I)Lkik/arcane/chat/vm/ay;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/vm/bv;
+    check-cast v0, Lkik/arcane/chat/vm/bv;
 
     .line 74
     if-eqz v0, :cond_0
 
     .line 75
-    invoke-interface {v0}, Lkik/android/chat/vm/bv;->al_()V
+    invoke-interface {v0}, Lkik/arcane/chat/vm/bv;->al_()V
 
     .line 77
     :cond_0
@@ -154,10 +154,10 @@
     .prologue
     .line 82
     .line 3050
-    iget-object v0, p0, Lkik/android/widget/ViewModelPagerAdapter;->b:Lkik/android/chat/vm/IListViewModel;
+    iget-object v0, p0, Lkik/arcane/widget/ViewModelPagerAdapter;->b:Lkik/arcane/chat/vm/IListViewModel;
 
     .line 82
-    invoke-interface {v0}, Lkik/android/chat/vm/IListViewModel;->g()I
+    invoke-interface {v0}, Lkik/arcane/chat/vm/IListViewModel;->g()I
 
     move-result v0
 
@@ -180,17 +180,17 @@
     .prologue
     .line 56
     .line 1050
-    iget-object v0, p0, Lkik/android/widget/ViewModelPagerAdapter;->b:Lkik/android/chat/vm/IListViewModel;
+    iget-object v0, p0, Lkik/arcane/widget/ViewModelPagerAdapter;->b:Lkik/arcane/chat/vm/IListViewModel;
 
     .line 56
-    invoke-interface {v0, p2}, Lkik/android/chat/vm/IListViewModel;->d(I)Lkik/android/chat/vm/ay;
+    invoke-interface {v0, p2}, Lkik/arcane/chat/vm/IListViewModel;->d(I)Lkik/arcane/chat/vm/ay;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/vm/bv;
+    check-cast v0, Lkik/arcane/chat/vm/bv;
 
     .line 59
-    iget-object v1, p0, Lkik/android/widget/ViewModelPagerAdapter;->d:Landroid/content/Context;
+    iget-object v1, p0, Lkik/arcane/widget/ViewModelPagerAdapter;->d:Landroid/content/Context;
 
     invoke-static {v1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 

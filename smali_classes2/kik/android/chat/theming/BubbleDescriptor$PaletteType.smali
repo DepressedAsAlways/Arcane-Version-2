@@ -1,11 +1,11 @@
-.class public final enum Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+.class public final enum Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 .super Ljava/lang/Enum;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/theming/BubbleDescriptor;
+    value = Lkik/arcane/chat/theming/BubbleDescriptor;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,20 +17,20 @@
     value = {
         "Ljava/lang/Enum",
         "<",
-        "Lkik/android/chat/theming/BubbleDescriptor$PaletteType;",
+        "Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;",
         ">;"
     }
 .end annotation
 
 
 # static fields
-.field private static final synthetic $VALUES:[Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+.field private static final synthetic $VALUES:[Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 
-.field public static final enum Bright:Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+.field public static final enum Bright:Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 
-.field public static final enum Dark:Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+.field public static final enum Dark:Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 
-.field public static final enum Pastel:Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+.field public static final enum Pastel:Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 
 
 # direct methods
@@ -45,48 +45,48 @@
     const/4 v2, 0x0
 
     .line 24
-    new-instance v0, Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+    new-instance v0, Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 
     const-string v1, "Pastel"
 
-    invoke-direct {v0, v1, v2}, Lkik/android/chat/theming/BubbleDescriptor$PaletteType;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/chat/theming/BubbleDescriptor$PaletteType;->Pastel:Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+    sput-object v0, Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;->Pastel:Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 
-    new-instance v0, Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+    new-instance v0, Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 
     const-string v1, "Bright"
 
-    invoke-direct {v0, v1, v3}, Lkik/android/chat/theming/BubbleDescriptor$PaletteType;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v3}, Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/chat/theming/BubbleDescriptor$PaletteType;->Bright:Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+    sput-object v0, Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;->Bright:Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 
-    new-instance v0, Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+    new-instance v0, Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 
     const-string v1, "Dark"
 
-    invoke-direct {v0, v1, v4}, Lkik/android/chat/theming/BubbleDescriptor$PaletteType;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v4}, Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/chat/theming/BubbleDescriptor$PaletteType;->Dark:Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+    sput-object v0, Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;->Dark:Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 
     .line 23
     const/4 v0, 0x3
 
-    new-array v0, v0, [Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+    new-array v0, v0, [Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 
-    sget-object v1, Lkik/android/chat/theming/BubbleDescriptor$PaletteType;->Pastel:Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+    sget-object v1, Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;->Pastel:Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lkik/android/chat/theming/BubbleDescriptor$PaletteType;->Bright:Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+    sget-object v1, Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;->Bright:Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 
     aput-object v1, v0, v3
 
-    sget-object v1, Lkik/android/chat/theming/BubbleDescriptor$PaletteType;->Dark:Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+    sget-object v1, Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;->Dark:Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 
     aput-object v1, v0, v4
 
-    sput-object v0, Lkik/android/chat/theming/BubbleDescriptor$PaletteType;->$VALUES:[Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+    sput-object v0, Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;->$VALUES:[Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 
     return-void
 .end method
@@ -106,34 +106,34 @@
     return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+.method public static valueOf(Ljava/lang/String;)Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
     .locals 1
 
     .prologue
     .line 23
-    const-class v0, Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+    const-class v0, Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+    check-cast v0, Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 
     return-object v0
 .end method
 
-.method public static values()[Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+.method public static values()[Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
     .locals 1
 
     .prologue
     .line 23
-    sget-object v0, Lkik/android/chat/theming/BubbleDescriptor$PaletteType;->$VALUES:[Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+    sget-object v0, Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;->$VALUES:[Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 
-    invoke-virtual {v0}, [Lkik/android/chat/theming/BubbleDescriptor$PaletteType;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+    check-cast v0, [Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 
     return-object v0
 .end method

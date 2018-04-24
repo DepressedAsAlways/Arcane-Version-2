@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/activity/IntroActivity$2;
+.class final Lkik/arcane/chat/activity/IntroActivity$2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/activity/IntroActivity;
+    value = Lkik/arcane/chat/activity/IntroActivity;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/activity/IntroActivity;
+.field final synthetic a:Lkik/arcane/chat/activity/IntroActivity;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/activity/IntroActivity;)V
+.method constructor <init>(Lkik/arcane/chat/activity/IntroActivity;)V
     .locals 0
 
     .prologue
     .line 124
-    iput-object p1, p0, Lkik/android/chat/activity/IntroActivity$2;->a:Lkik/android/chat/activity/IntroActivity;
+    iput-object p1, p0, Lkik/arcane/chat/activity/IntroActivity$2;->a:Lkik/arcane/chat/activity/IntroActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,36 +52,36 @@
     .prologue
     .line 124
     .line 1128
-    iget-object v0, p0, Lkik/android/chat/activity/IntroActivity$2;->a:Lkik/android/chat/activity/IntroActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/IntroActivity$2;->a:Lkik/arcane/chat/activity/IntroActivity;
 
-    invoke-static {v0}, Lkik/android/chat/activity/IntroActivity;->a(Lkik/android/chat/activity/IntroActivity;)Lcom/kik/events/d;
+    invoke-static {v0}, Lkik/arcane/chat/activity/IntroActivity;->a(Lkik/arcane/chat/activity/IntroActivity;)Lcom/kik/events/d;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/kik/events/d;->a()V
 
     .line 1129
-    iget-object v0, p0, Lkik/android/chat/activity/IntroActivity$2;->a:Lkik/android/chat/activity/IntroActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/IntroActivity$2;->a:Lkik/arcane/chat/activity/IntroActivity;
 
-    invoke-static {v0}, Lkik/android/chat/activity/IntroActivity;->b(Lkik/android/chat/activity/IntroActivity;)Ljava/util/TimerTask;
+    invoke-static {v0}, Lkik/arcane/chat/activity/IntroActivity;->b(Lkik/arcane/chat/activity/IntroActivity;)Ljava/util/TimerTask;
 
     move-result-object v0
 
     invoke-virtual {v0}, Ljava/util/TimerTask;->cancel()Z
 
     .line 1130
-    iget-object v0, p0, Lkik/android/chat/activity/IntroActivity$2;->a:Lkik/android/chat/activity/IntroActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/IntroActivity$2;->a:Lkik/arcane/chat/activity/IntroActivity;
 
-    invoke-static {v0}, Lkik/android/chat/activity/IntroActivity;->c(Lkik/android/chat/activity/IntroActivity;)Ljava/util/Timer;
+    invoke-static {v0}, Lkik/arcane/chat/activity/IntroActivity;->c(Lkik/arcane/chat/activity/IntroActivity;)Ljava/util/Timer;
 
     move-result-object v0
 
     invoke-virtual {v0}, Ljava/util/Timer;->purge()I
 
     .line 1131
-    iget-object v0, p0, Lkik/android/chat/activity/IntroActivity$2;->a:Lkik/android/chat/activity/IntroActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/IntroActivity$2;->a:Lkik/arcane/chat/activity/IntroActivity;
 
-    invoke-static {v0}, Lkik/android/chat/activity/IntroActivity;->d(Lkik/android/chat/activity/IntroActivity;)Landroid/app/ProgressDialog;
+    invoke-static {v0}, Lkik/arcane/chat/activity/IntroActivity;->d(Lkik/arcane/chat/activity/IntroActivity;)Landroid/app/ProgressDialog;
 
     move-result-object v0
 
@@ -92,9 +92,9 @@
     if-eqz v0, :cond_0
 
     .line 1132
-    iget-object v0, p0, Lkik/android/chat/activity/IntroActivity$2;->a:Lkik/android/chat/activity/IntroActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/IntroActivity$2;->a:Lkik/arcane/chat/activity/IntroActivity;
 
-    invoke-static {v0}, Lkik/android/chat/activity/IntroActivity;->d(Lkik/android/chat/activity/IntroActivity;)Landroid/app/ProgressDialog;
+    invoke-static {v0}, Lkik/arcane/chat/activity/IntroActivity;->d(Lkik/arcane/chat/activity/IntroActivity;)Landroid/app/ProgressDialog;
 
     move-result-object v0
 
@@ -102,13 +102,13 @@
 
     .line 1135
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/activity/IntroActivity$2;->a:Lkik/android/chat/activity/IntroActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/IntroActivity$2;->a:Lkik/arcane/chat/activity/IntroActivity;
 
-    new-instance v1, Lkik/android/chat/activity/IntroActivity$2$1;
+    new-instance v1, Lkik/arcane/chat/activity/IntroActivity$2$1;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/activity/IntroActivity$2$1;-><init>(Lkik/android/chat/activity/IntroActivity$2;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/activity/IntroActivity$2$1;-><init>(Lkik/arcane/chat/activity/IntroActivity$2;)V
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/activity/IntroActivity;->runOnUiThread(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/activity/IntroActivity;->runOnUiThread(Ljava/lang/Runnable;)V
 
     .line 124
     return-void

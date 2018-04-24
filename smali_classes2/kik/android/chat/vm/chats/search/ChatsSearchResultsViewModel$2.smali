@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$2;
+.class final synthetic Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;
+    value = Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     .prologue
     .line 176
-    invoke-static {}, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->values()[Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+    invoke-static {}, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->values()[Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
     move-result-object v0
 
@@ -32,14 +32,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$2;->a:[I
+    sput-object v0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$2;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$2;->a:[I
+    sget-object v0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$2;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->OpenChat:Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+    sget-object v1, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->OpenChat:Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->ordinal()I
 
     move-result v1
 
@@ -51,11 +51,11 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$2;->a:[I
+    sget-object v0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$2;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->RosterMatch:Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+    sget-object v1, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->RosterMatch:Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->ordinal()I
 
     move-result v1
 
@@ -67,11 +67,11 @@
 
     :goto_1
     :try_start_2
-    sget-object v0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$2;->a:[I
+    sget-object v0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$2;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->UsernameMatch:Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+    sget-object v1, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->UsernameMatch:Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->ordinal()I
 
     move-result v1
 

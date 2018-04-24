@@ -1,5 +1,5 @@
 .class final Lcom/kik/storage/ab$a;
-.super Lkik/android/i/c;
+.super Lkik/arcane/i/c;
 .source "SourceFile"
 
 
@@ -42,7 +42,7 @@
 
     move-result-object v3
 
-    invoke-direct {p0, p1, v0, v2, v3}, Lkik/android/i/c;-><init>(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-direct {p0, p1, v0, v2, v3}, Lkik/arcane/i/c;-><init>(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 1316
     invoke-virtual {p0}, Lcom/kik/storage/ab$a;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;

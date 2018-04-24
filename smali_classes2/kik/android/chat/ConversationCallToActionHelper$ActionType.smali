@@ -1,11 +1,11 @@
-.class public final enum Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+.class public final enum Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 .super Ljava/lang/Enum;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/ConversationCallToActionHelper;
+    value = Lkik/arcane/chat/ConversationCallToActionHelper;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,20 +17,20 @@
     value = {
         "Ljava/lang/Enum",
         "<",
-        "Lkik/android/chat/ConversationCallToActionHelper$ActionType;",
+        "Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;",
         ">;"
     }
 .end annotation
 
 
 # static fields
-.field private static final synthetic $VALUES:[Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+.field private static final synthetic $VALUES:[Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
-.field public static final enum ADDRESS_BOOK:Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+.field public static final enum ADDRESS_BOOK:Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
-.field public static final enum NONE:Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+.field public static final enum NONE:Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
-.field public static final enum PUBLIC_GROUP:Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+.field public static final enum PUBLIC_GROUP:Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
 
 # direct methods
@@ -45,50 +45,50 @@
     const/4 v2, 0x0
 
     .line 22
-    new-instance v0, Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    new-instance v0, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
     const-string v1, "NONE"
 
-    invoke-direct {v0, v1, v2}, Lkik/android/chat/ConversationCallToActionHelper$ActionType;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/chat/ConversationCallToActionHelper$ActionType;->NONE:Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    sput-object v0, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;->NONE:Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
     .line 23
-    new-instance v0, Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    new-instance v0, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
     const-string v1, "ADDRESS_BOOK"
 
-    invoke-direct {v0, v1, v3}, Lkik/android/chat/ConversationCallToActionHelper$ActionType;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v3}, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/chat/ConversationCallToActionHelper$ActionType;->ADDRESS_BOOK:Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    sput-object v0, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;->ADDRESS_BOOK:Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
     .line 24
-    new-instance v0, Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    new-instance v0, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
     const-string v1, "PUBLIC_GROUP"
 
-    invoke-direct {v0, v1, v4}, Lkik/android/chat/ConversationCallToActionHelper$ActionType;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v4}, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/chat/ConversationCallToActionHelper$ActionType;->PUBLIC_GROUP:Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    sput-object v0, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;->PUBLIC_GROUP:Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
     .line 20
     const/4 v0, 0x3
 
-    new-array v0, v0, [Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    new-array v0, v0, [Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
-    sget-object v1, Lkik/android/chat/ConversationCallToActionHelper$ActionType;->NONE:Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    sget-object v1, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;->NONE:Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lkik/android/chat/ConversationCallToActionHelper$ActionType;->ADDRESS_BOOK:Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    sget-object v1, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;->ADDRESS_BOOK:Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
     aput-object v1, v0, v3
 
-    sget-object v1, Lkik/android/chat/ConversationCallToActionHelper$ActionType;->PUBLIC_GROUP:Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    sget-object v1, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;->PUBLIC_GROUP:Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
     aput-object v1, v0, v4
 
-    sput-object v0, Lkik/android/chat/ConversationCallToActionHelper$ActionType;->$VALUES:[Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    sput-object v0, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;->$VALUES:[Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
     return-void
 .end method
@@ -108,34 +108,34 @@
     return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+.method public static valueOf(Ljava/lang/String;)Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
     .locals 1
 
     .prologue
     .line 20
-    const-class v0, Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    const-class v0, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    check-cast v0, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
     return-object v0
 .end method
 
-.method public static values()[Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+.method public static values()[Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
     .locals 1
 
     .prologue
     .line 20
-    sget-object v0, Lkik/android/chat/ConversationCallToActionHelper$ActionType;->$VALUES:[Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    sget-object v0, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;->$VALUES:[Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
-    invoke-virtual {v0}, [Lkik/android/chat/ConversationCallToActionHelper$ActionType;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    check-cast v0, [Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
     return-object v0
 .end method

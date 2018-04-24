@@ -1,9 +1,9 @@
-.class public final Lkik/android/gifs/vm/z;
-.super Lkik/android/chat/vm/e;
+.class public final Lkik/arcane/gifs/vm/z;
+.super Lkik/arcane/chat/vm/e;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/gifs/vm/br;
+.implements Lkik/arcane/gifs/vm/br;
 
 
 # instance fields
@@ -12,7 +12,7 @@
     .end annotation
 .end field
 
-.field protected b:Lcom/kik/android/Mixpanel;
+.field protected b:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -85,11 +85,11 @@
 
 .field private l:Z
 
-.field private m:Lkik/android/widget/GifTrayPage;
+.field private m:Lkik/arcane/widget/GifTrayPage;
 
-.field private n:Lkik/android/util/bx;
+.field private n:Lkik/arcane/util/bx;
 
-.field private o:Lkik/android/chat/fragment/KikChatFragment$b;
+.field private o:Lkik/arcane/chat/fragment/KikChatFragment$b;
 
 .field private p:Lrx/functions/f;
     .annotation system Ldalvik/annotation/Signature;
@@ -104,13 +104,13 @@
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/util/bx;Lkik/android/chat/fragment/KikChatFragment$b;Lrx/functions/f;)V
+.method public constructor <init>(Lkik/arcane/util/bx;Lkik/arcane/chat/fragment/KikChatFragment$b;Lrx/functions/f;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/util/bx;",
-            "Lkik/android/chat/fragment/KikChatFragment$b;",
+            "Lkik/arcane/util/bx;",
+            "Lkik/arcane/chat/fragment/KikChatFragment$b;",
             "Lrx/functions/f",
             "<",
             "Ljava/lang/Integer;",
@@ -120,33 +120,33 @@
 
     .prologue
     .line 54
-    invoke-direct {p0}, Lkik/android/chat/vm/e;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/e;-><init>()V
 
     .line 31
     const-string v0, ""
 
-    iput-object v0, p0, Lkik/android/gifs/vm/z;->d:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/gifs/vm/z;->d:Ljava/lang/String;
 
     .line 37
     invoke-static {}, Lrx/subjects/PublishSubject;->m()Lrx/subjects/PublishSubject;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/gifs/vm/z;->e:Lrx/subjects/PublishSubject;
+    iput-object v0, p0, Lkik/arcane/gifs/vm/z;->e:Lrx/subjects/PublishSubject;
 
     .line 38
     invoke-static {}, Lrx/subjects/a;->m()Lrx/subjects/a;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/gifs/vm/z;->f:Lrx/subjects/a;
+    iput-object v0, p0, Lkik/arcane/gifs/vm/z;->f:Lrx/subjects/a;
 
     .line 40
     invoke-static {}, Lrx/subjects/a;->m()Lrx/subjects/a;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/gifs/vm/z;->g:Lrx/subjects/a;
+    iput-object v0, p0, Lkik/arcane/gifs/vm/z;->g:Lrx/subjects/a;
 
     .line 41
     const-string v0, ""
@@ -155,34 +155,34 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/gifs/vm/z;->h:Lrx/subjects/a;
+    iput-object v0, p0, Lkik/arcane/gifs/vm/z;->h:Lrx/subjects/a;
 
     .line 42
     invoke-static {}, Lrx/subjects/a;->m()Lrx/subjects/a;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/gifs/vm/z;->i:Lrx/subjects/a;
+    iput-object v0, p0, Lkik/arcane/gifs/vm/z;->i:Lrx/subjects/a;
 
     .line 55
-    iput-object p1, p0, Lkik/android/gifs/vm/z;->n:Lkik/android/util/bx;
+    iput-object p1, p0, Lkik/arcane/gifs/vm/z;->n:Lkik/arcane/util/bx;
 
     .line 56
-    iput-object p2, p0, Lkik/android/gifs/vm/z;->o:Lkik/android/chat/fragment/KikChatFragment$b;
+    iput-object p2, p0, Lkik/arcane/gifs/vm/z;->o:Lkik/arcane/chat/fragment/KikChatFragment$b;
 
     .line 57
-    iput-object p3, p0, Lkik/android/gifs/vm/z;->p:Lrx/functions/f;
+    iput-object p3, p0, Lkik/arcane/gifs/vm/z;->p:Lrx/functions/f;
 
     .line 58
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/gifs/vm/z;Ljava/lang/Boolean;)Ljava/lang/String;
+.method static synthetic a(Lkik/arcane/gifs/vm/z;Ljava/lang/Boolean;)Ljava/lang/String;
     .locals 2
 
     .prologue
     .line 79
-    iget-object v1, p0, Lkik/android/gifs/vm/z;->a:Landroid/content/res/Resources;
+    iget-object v1, p0, Lkik/arcane/gifs/vm/z;->a:Landroid/content/res/Resources;
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
@@ -210,7 +210,7 @@
 
     .prologue
     .line 243
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->a:Landroid/content/res/Resources;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->a:Landroid/content/res/Resources;
 
     invoke-virtual {v0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
 
@@ -238,17 +238,17 @@
 
     .prologue
     .line 248
-    iget-boolean v0, p0, Lkik/android/gifs/vm/z;->k:Z
+    iget-boolean v0, p0, Lkik/arcane/gifs/vm/z;->k:Z
 
     if-eqz v0, :cond_0
 
-    invoke-direct {p0}, Lkik/android/gifs/vm/z;->q()Z
+    invoke-direct {p0}, Lkik/arcane/gifs/vm/z;->q()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->o:Lkik/android/chat/fragment/KikChatFragment$b;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->o:Lkik/arcane/chat/fragment/KikChatFragment$b;
 
     if-eqz v0, :cond_0
 
@@ -279,9 +279,9 @@
 
     .prologue
     .line 79
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->i:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->i:Lrx/subjects/a;
 
-    invoke-static {p0}, Lkik/android/gifs/vm/aa;->a(Lkik/android/gifs/vm/z;)Lrx/functions/g;
+    invoke-static {p0}, Lkik/arcane/gifs/vm/aa;->a(Lkik/arcane/gifs/vm/z;)Lrx/functions/g;
 
     move-result-object v1
 
@@ -298,15 +298,15 @@
     return-object v0
 .end method
 
-.method public final a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+.method public final a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
     .locals 0
 
     .prologue
     .line 63
-    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/gifs/vm/z;)V
+    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/gifs/vm/z;)V
 
     .line 64
-    invoke-super {p0, p1, p2}, Lkik/android/chat/vm/e;->a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+    invoke-super {p0, p1, p2}, Lkik/arcane/chat/vm/e;->a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
 
     .line 65
     return-void
@@ -317,12 +317,12 @@
 
     .prologue
     .line 107
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->g:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->g:Lrx/subjects/a;
 
     invoke-virtual {v0, p1}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 
     .line 108
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->f:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->f:Lrx/subjects/a;
 
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
@@ -337,23 +337,23 @@
     .line 110
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/gifs/vm/z;->l:Z
+    iput-boolean v0, p0, Lkik/arcane/gifs/vm/z;->l:Z
 
     .line 111
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/GifTrayPage;)V
+.method public final a(Lkik/arcane/widget/GifTrayPage;)V
     .locals 2
 
     .prologue
     .line 88
-    iput-object p1, p0, Lkik/android/gifs/vm/z;->m:Lkik/android/widget/GifTrayPage;
+    iput-object p1, p0, Lkik/arcane/gifs/vm/z;->m:Lkik/arcane/widget/GifTrayPage;
 
     .line 89
-    iget-object v1, p0, Lkik/android/gifs/vm/z;->i:Lrx/subjects/a;
+    iget-object v1, p0, Lkik/arcane/gifs/vm/z;->i:Lrx/subjects/a;
 
-    sget-object v0, Lkik/android/widget/GifTrayPage;->EMOJI:Lkik/android/widget/GifTrayPage;
+    sget-object v0, Lkik/arcane/widget/GifTrayPage;->EMOJI:Lkik/arcane/widget/GifTrayPage;
 
     if-ne p1, v0, :cond_0
 
@@ -381,88 +381,88 @@
 
     .prologue
     .line 161
-    iget-boolean v0, p0, Lkik/android/gifs/vm/z;->k:Z
+    iget-boolean v0, p0, Lkik/arcane/gifs/vm/z;->k:Z
 
     if-eq v0, p1, :cond_2
 
     .line 162
-    iput-boolean p1, p0, Lkik/android/gifs/vm/z;->k:Z
+    iput-boolean p1, p0, Lkik/arcane/gifs/vm/z;->k:Z
 
     .line 164
     if-eqz p1, :cond_3
 
     .line 165
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->n:Lkik/android/util/bx;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->n:Lkik/arcane/util/bx;
 
     if-eqz v0, :cond_0
 
     .line 166
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->n:Lkik/android/util/bx;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->n:Lkik/arcane/util/bx;
 
-    invoke-interface {v0}, Lkik/android/util/bx;->d()V
+    invoke-interface {v0}, Lkik/arcane/util/bx;->d()V
 
     .line 2222
     :cond_0
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/gifs/vm/z;->l:Z
+    iput-boolean v0, p0, Lkik/arcane/gifs/vm/z;->l:Z
 
     .line 2223
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->b:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->b:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "GIF Begin Search"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Is Landscape"
 
     .line 2224
-    invoke-direct {p0}, Lkik/android/gifs/vm/z;->q()Z
+    invoke-direct {p0}, Lkik/arcane/gifs/vm/z;->q()Z
 
     move-result v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "GIF Tab"
 
-    iget-object v2, p0, Lkik/android/gifs/vm/z;->m:Lkik/android/widget/GifTrayPage;
+    iget-object v2, p0, Lkik/arcane/gifs/vm/z;->m:Lkik/arcane/widget/GifTrayPage;
 
     .line 2225
-    invoke-static {v2}, Lkik/android/widget/GifTrayPage;->getMetricsGifName(Lkik/android/widget/GifTrayPage;)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/widget/GifTrayPage;->getMetricsGifName(Lkik/arcane/widget/GifTrayPage;)Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 2226
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 169
-    invoke-direct {p0}, Lkik/android/gifs/vm/z;->r()Z
+    invoke-direct {p0}, Lkik/arcane/gifs/vm/z;->r()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
     .line 170
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->o:Lkik/android/chat/fragment/KikChatFragment$b;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->o:Lkik/arcane/chat/fragment/KikChatFragment$b;
 
-    invoke-interface {v0}, Lkik/android/chat/fragment/KikChatFragment$b;->a()V
+    invoke-interface {v0}, Lkik/arcane/chat/fragment/KikChatFragment$b;->a()V
 
     .line 179
     :cond_1
     :goto_0
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->e:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->e:Lrx/subjects/PublishSubject;
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -476,83 +476,83 @@
 
     .line 174
     :cond_3
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->n:Lkik/android/util/bx;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->n:Lkik/arcane/util/bx;
 
     if-eqz v0, :cond_4
 
     .line 175
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->n:Lkik/android/util/bx;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->n:Lkik/arcane/util/bx;
 
-    invoke-interface {v0}, Lkik/android/util/bx;->hideKeyboard()V
+    invoke-interface {v0}, Lkik/arcane/util/bx;->hideKeyboard()V
 
     .line 2231
     :cond_4
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->p:Lrx/functions/f;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->p:Lrx/functions/f;
 
     if-eqz v0, :cond_1
 
     .line 2232
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->b:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->b:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "GIF End Search"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Is Landscape"
 
     .line 2233
-    invoke-direct {p0}, Lkik/android/gifs/vm/z;->q()Z
+    invoke-direct {p0}, Lkik/arcane/gifs/vm/z;->q()Z
 
     move-result v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Search Query"
 
     .line 3186
-    iget-object v2, p0, Lkik/android/gifs/vm/z;->j:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/gifs/vm/z;->j:Ljava/lang/String;
 
     .line 2234
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "GIF Tab"
 
-    iget-object v2, p0, Lkik/android/gifs/vm/z;->m:Lkik/android/widget/GifTrayPage;
+    iget-object v2, p0, Lkik/arcane/gifs/vm/z;->m:Lkik/arcane/widget/GifTrayPage;
 
     .line 2235
-    invoke-static {v2}, Lkik/android/widget/GifTrayPage;->getMetricsGifName(Lkik/android/widget/GifTrayPage;)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/widget/GifTrayPage;->getMetricsGifName(Lkik/arcane/widget/GifTrayPage;)Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Result Count"
 
-    iget-object v2, p0, Lkik/android/gifs/vm/z;->p:Lrx/functions/f;
+    iget-object v2, p0, Lkik/arcane/gifs/vm/z;->p:Lrx/functions/f;
 
     .line 2236
     invoke-interface {v2}, Lrx/functions/f;->call()Ljava/lang/Object;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 2237
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     goto :goto_0
 .end method
@@ -581,7 +581,7 @@
     if-ne v2, v0, :cond_0
 
     .line 140
-    iget-object v2, p0, Lkik/android/gifs/vm/z;->e:Lrx/subjects/PublishSubject;
+    iget-object v2, p0, Lkik/arcane/gifs/vm/z;->e:Lrx/subjects/PublishSubject;
 
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -608,13 +608,13 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/gifs/vm/z;->j:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/gifs/vm/z;->j:Ljava/lang/String;
 
     .line 133
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->h:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->h:Lrx/subjects/a;
 
     .line 1186
-    iget-object v1, p0, Lkik/android/gifs/vm/z;->j:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/gifs/vm/z;->j:Ljava/lang/String;
 
     .line 133
     invoke-virtual {v0, v1}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
@@ -630,16 +630,16 @@
     const/4 v0, 0x0
 
     .line 70
-    iput-object v0, p0, Lkik/android/gifs/vm/z;->n:Lkik/android/util/bx;
+    iput-object v0, p0, Lkik/arcane/gifs/vm/z;->n:Lkik/arcane/util/bx;
 
     .line 71
-    iput-object v0, p0, Lkik/android/gifs/vm/z;->o:Lkik/android/chat/fragment/KikChatFragment$b;
+    iput-object v0, p0, Lkik/arcane/gifs/vm/z;->o:Lkik/arcane/chat/fragment/KikChatFragment$b;
 
     .line 72
-    iput-object v0, p0, Lkik/android/gifs/vm/z;->p:Lrx/functions/f;
+    iput-object v0, p0, Lkik/arcane/gifs/vm/z;->p:Lrx/functions/f;
 
     .line 73
-    invoke-super {p0}, Lkik/android/chat/vm/e;->al_()V
+    invoke-super {p0}, Lkik/arcane/chat/vm/e;->al_()V
 
     .line 74
     return-void
@@ -659,7 +659,7 @@
 
     .prologue
     .line 95
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->g:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->g:Lrx/subjects/a;
 
     return-object v0
 .end method
@@ -686,7 +686,7 @@
 
     .prologue
     .line 101
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->h:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->h:Lrx/subjects/a;
 
     return-object v0
 .end method
@@ -698,7 +698,7 @@
     .line 116
     const-string v0, ""
 
-    invoke-virtual {p0, v0}, Lkik/android/gifs/vm/z;->a(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/gifs/vm/z;->a(Ljava/lang/String;)V
 
     .line 117
     return-void
@@ -709,10 +709,10 @@
 
     .prologue
     .line 149
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->h:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->h:Lrx/subjects/a;
 
     .line 2186
-    iget-object v1, p0, Lkik/android/gifs/vm/z;->j:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/gifs/vm/z;->j:Ljava/lang/String;
 
     .line 149
     invoke-virtual {v0, v1}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
@@ -726,7 +726,7 @@
 
     .prologue
     .line 155
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->e:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->e:Lrx/subjects/PublishSubject;
 
     const/4 v1, 0x0
 
@@ -745,7 +745,7 @@
 
     .prologue
     .line 186
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->j:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->j:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -755,7 +755,7 @@
 
     .prologue
     .line 192
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->e:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->e:Lrx/subjects/PublishSubject;
 
     const/4 v1, 0x0
 
@@ -783,7 +783,7 @@
 
     .prologue
     .line 198
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->e:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->e:Lrx/subjects/PublishSubject;
 
     invoke-virtual {v0}, Lrx/subjects/PublishSubject;->f()Lrx/d;
 
@@ -806,7 +806,7 @@
 
     .prologue
     .line 204
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->f:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->f:Lrx/subjects/a;
 
     return-object v0
 .end method
@@ -816,7 +816,7 @@
 
     .prologue
     .line 210
-    iget-boolean v0, p0, Lkik/android/gifs/vm/z;->l:Z
+    iget-boolean v0, p0, Lkik/arcane/gifs/vm/z;->l:Z
 
     return v0
 .end method
@@ -834,16 +834,16 @@
 
     .prologue
     .line 215
-    invoke-direct {p0}, Lkik/android/gifs/vm/z;->r()Z
+    invoke-direct {p0}, Lkik/arcane/gifs/vm/z;->r()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 216
-    iget-object v0, p0, Lkik/android/gifs/vm/z;->o:Lkik/android/chat/fragment/KikChatFragment$b;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/z;->o:Lkik/arcane/chat/fragment/KikChatFragment$b;
 
-    invoke-interface {v0}, Lkik/android/chat/fragment/KikChatFragment$b;->a()V
+    invoke-interface {v0}, Lkik/arcane/chat/fragment/KikChatFragment$b;->a()V
 
     .line 218
     :cond_0

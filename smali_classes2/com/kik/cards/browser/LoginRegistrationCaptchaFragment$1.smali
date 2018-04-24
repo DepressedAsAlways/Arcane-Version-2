@@ -60,9 +60,9 @@
     .line 52
     iget-object v0, p0, Lcom/kik/cards/browser/LoginRegistrationCaptchaFragment$1;->a:Lcom/kik/cards/browser/LoginRegistrationCaptchaFragment;
 
-    iget-object v0, v0, Lcom/kik/cards/browser/LoginRegistrationCaptchaFragment;->e:Lkik/android/chat/fragment/ProgressDialogFragment;
+    iget-object v0, v0, Lcom/kik/cards/browser/LoginRegistrationCaptchaFragment;->e:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/ProgressDialogFragment;->dismissAllowingStateLoss()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/ProgressDialogFragment;->dismissAllowingStateLoss()V
 
     .line 53
     iget-object v0, p0, Lcom/kik/cards/browser/LoginRegistrationCaptchaFragment$1;->a:Lcom/kik/cards/browser/LoginRegistrationCaptchaFragment;

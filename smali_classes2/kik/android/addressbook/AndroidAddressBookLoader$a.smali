@@ -1,11 +1,11 @@
-.class public interface abstract Lkik/android/addressbook/AndroidAddressBookLoader$a;
+.class public interface abstract Lkik/arcane/addressbook/AndroidAddressBookLoader$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/addressbook/AndroidAddressBookLoader;
+    value = Lkik/arcane/addressbook/AndroidAddressBookLoader;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,7 +15,7 @@
 
 
 # virtual methods
-.method public abstract a(Lkik/android/addressbook/AndroidAddressBookCursorWrapper;)V
+.method public abstract a(Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;)V
 .end method
 
 .method public abstract b()V

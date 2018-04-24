@@ -1,11 +1,11 @@
-.class public interface abstract Lkik/android/scan/fragment/ScanFragment$b;
+.class public interface abstract Lkik/arcane/scan/fragment/ScanFragment$b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/scan/fragment/ScanFragment;
+    value = Lkik/arcane/scan/fragment/ScanFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

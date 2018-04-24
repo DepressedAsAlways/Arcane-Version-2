@@ -1,4 +1,4 @@
-.class public abstract Lkik/android/net/http/KikAuthedHttpRequest;
+.class public abstract Lkik/arcane/net/http/KikAuthedHttpRequest;
 .super Lorg/apache/http/client/methods/HttpEntityEnclosingRequestBase;
 .source "SourceFile"
 
@@ -16,7 +16,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/net/http/KikAuthedHttpRequest;->setURI(Ljava/net/URI;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/net/http/KikAuthedHttpRequest;->setURI(Ljava/net/URI;)V
 
     .line 18
     const-string v0, "x-kik-jid"
@@ -29,7 +29,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/net/http/KikAuthedHttpRequest;->addHeader(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/net/http/KikAuthedHttpRequest;->addHeader(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 19
     const-string v0, "x-kik-password"
@@ -38,7 +38,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/net/http/KikAuthedHttpRequest;->addHeader(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/net/http/KikAuthedHttpRequest;->addHeader(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 20
     return-void
@@ -56,7 +56,7 @@
     const/16 v1, 0x4e20
 
     .line 28
-    invoke-virtual {p0}, Lkik/android/net/http/KikAuthedHttpRequest;->getParams()Lorg/apache/http/params/HttpParams;
+    invoke-virtual {p0}, Lkik/arcane/net/http/KikAuthedHttpRequest;->getParams()Lorg/apache/http/params/HttpParams;
 
     move-result-object v0
 
@@ -67,7 +67,7 @@
     invoke-static {v0, v1}, Lorg/apache/http/params/HttpConnectionParams;->setConnectionTimeout(Lorg/apache/http/params/HttpParams;I)V
 
     .line 31
-    invoke-virtual {p0, v0}, Lkik/android/net/http/KikAuthedHttpRequest;->setParams(Lorg/apache/http/params/HttpParams;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/net/http/KikAuthedHttpRequest;->setParams(Lorg/apache/http/params/HttpParams;)V
 
     .line 32
     return-void

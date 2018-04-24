@@ -1,9 +1,9 @@
-.class public abstract Lkik/android/widget/AbstractViewModelViewPager;
+.class public abstract Lkik/arcane/widget/AbstractViewModelViewPager;
 .super Landroid/support/v4/view/ViewPager;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/widget/ViewModelPagerAdapter$a;
+.implements Lkik/arcane/widget/ViewModelPagerAdapter$a;
 
 
 # direct methods

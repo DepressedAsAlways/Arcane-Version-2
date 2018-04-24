@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/KikApplication$15;
+.class final Lkik/arcane/chat/KikApplication$15;
 .super Ljava/util/TimerTask;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/KikApplication;
+    value = Lkik/arcane/chat/KikApplication;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/KikApplication;
+.field final synthetic a:Lkik/arcane/chat/KikApplication;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/KikApplication;)V
+.method constructor <init>(Lkik/arcane/chat/KikApplication;)V
     .locals 0
 
     .prologue
     .line 893
-    iput-object p1, p0, Lkik/android/chat/KikApplication$15;->a:Lkik/android/chat/KikApplication;
+    iput-object p1, p0, Lkik/arcane/chat/KikApplication$15;->a:Lkik/arcane/chat/KikApplication;
 
     invoke-direct {p0}, Ljava/util/TimerTask;-><init>()V
 

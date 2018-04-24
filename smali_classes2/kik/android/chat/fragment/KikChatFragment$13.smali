@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/KikChatFragment$13;
+.class final Lkik/arcane/chat/fragment/KikChatFragment$13;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikChatFragment;
+    value = Lkik/arcane/chat/fragment/KikChatFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikChatFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikChatFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikChatFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikChatFragment;)V
     .locals 0
 
     .prologue
     .line 525
-    iput-object p1, p0, Lkik/android/chat/fragment/KikChatFragment$13;->a:Lkik/android/chat/fragment/KikChatFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikChatFragment$13;->a:Lkik/arcane/chat/fragment/KikChatFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -54,9 +54,9 @@
     check-cast p2, [Ljava/lang/String;
 
     .line 1529
-    iget-object v0, p0, Lkik/android/chat/fragment/KikChatFragment$13;->a:Lkik/android/chat/fragment/KikChatFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikChatFragment$13;->a:Lkik/arcane/chat/fragment/KikChatFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/KikChatFragment;->n(Lkik/android/chat/fragment/KikChatFragment;)Landroid/os/Handler;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/KikChatFragment;->n(Lkik/arcane/chat/fragment/KikChatFragment;)Landroid/os/Handler;
 
     move-result-object v0
 
@@ -70,9 +70,9 @@
     iput-object p2, v0, Landroid/os/Message;->obj:Ljava/lang/Object;
 
     .line 1531
-    iget-object v1, p0, Lkik/android/chat/fragment/KikChatFragment$13;->a:Lkik/android/chat/fragment/KikChatFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikChatFragment$13;->a:Lkik/arcane/chat/fragment/KikChatFragment;
 
-    invoke-static {v1}, Lkik/android/chat/fragment/KikChatFragment;->n(Lkik/android/chat/fragment/KikChatFragment;)Landroid/os/Handler;
+    invoke-static {v1}, Lkik/arcane/chat/fragment/KikChatFragment;->n(Lkik/arcane/chat/fragment/KikChatFragment;)Landroid/os/Handler;
 
     move-result-object v1
 

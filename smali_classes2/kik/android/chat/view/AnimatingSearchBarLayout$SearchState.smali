@@ -1,11 +1,11 @@
-.class public final enum Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;
+.class public final enum Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;
 .super Ljava/lang/Enum;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/view/AnimatingSearchBarLayout;
+    value = Lkik/arcane/chat/view/AnimatingSearchBarLayout;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,18 +17,18 @@
     value = {
         "Ljava/lang/Enum",
         "<",
-        "Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;",
+        "Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;",
         ">;"
     }
 .end annotation
 
 
 # static fields
-.field private static final synthetic $VALUES:[Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;
+.field private static final synthetic $VALUES:[Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;
 
-.field public static final enum ENTER:Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;
+.field public static final enum ENTER:Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;
 
-.field public static final enum EXIT:Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;
+.field public static final enum EXIT:Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;
 
 
 # direct methods
@@ -41,37 +41,37 @@
     const/4 v2, 0x0
 
     .line 120
-    new-instance v0, Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;
+    new-instance v0, Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;
 
     const-string v1, "ENTER"
 
-    invoke-direct {v0, v1, v2}, Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;->ENTER:Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;
+    sput-object v0, Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;->ENTER:Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;
 
     .line 124
-    new-instance v0, Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;
+    new-instance v0, Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;
 
     const-string v1, "EXIT"
 
-    invoke-direct {v0, v1, v3}, Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v3}, Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;->EXIT:Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;
+    sput-object v0, Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;->EXIT:Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;
 
     .line 116
     const/4 v0, 0x2
 
-    new-array v0, v0, [Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;
+    new-array v0, v0, [Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;
 
-    sget-object v1, Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;->ENTER:Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;
+    sget-object v1, Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;->ENTER:Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;->EXIT:Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;
+    sget-object v1, Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;->EXIT:Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;
 
     aput-object v1, v0, v3
 
-    sput-object v0, Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;->$VALUES:[Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;
+    sput-object v0, Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;->$VALUES:[Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;
 
     return-void
 .end method
@@ -91,34 +91,34 @@
     return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;
+.method public static valueOf(Ljava/lang/String;)Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;
     .locals 1
 
     .prologue
     .line 116
-    const-class v0, Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;
+    const-class v0, Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;
+    check-cast v0, Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;
 
     return-object v0
 .end method
 
-.method public static values()[Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;
+.method public static values()[Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;
     .locals 1
 
     .prologue
     .line 116
-    sget-object v0, Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;->$VALUES:[Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;
+    sget-object v0, Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;->$VALUES:[Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;
 
-    invoke-virtual {v0}, [Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;
+    check-cast v0, [Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;
 
     return-object v0
 .end method

@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/gifs/vm/y;
+.class final synthetic Lkik/arcane/gifs/vm/y;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/gifs/vm/y;
+.field private static final a:Lkik/arcane/gifs/vm/y;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/gifs/vm/y;
+    new-instance v0, Lkik/arcane/gifs/vm/y;
 
-    invoke-direct {v0}, Lkik/android/gifs/vm/y;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/gifs/vm/y;-><init>()V
 
-    sput-object v0, Lkik/android/gifs/vm/y;->a:Lkik/android/gifs/vm/y;
+    sput-object v0, Lkik/arcane/gifs/vm/y;->a:Lkik/arcane/gifs/vm/y;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lrx/functions/g;
     .locals 1
 
-    sget-object v0, Lkik/android/gifs/vm/y;->a:Lkik/android/gifs/vm/y;
+    sget-object v0, Lkik/arcane/gifs/vm/y;->a:Lkik/arcane/gifs/vm/y;
 
     return-object v0
 .end method
@@ -45,7 +45,7 @@
 
     .prologue
     .line 0
-    check-cast p1, Lkik/android/gifs/view/c;
+    check-cast p1, Lkik/arcane/gifs/view/c;
 
     .line 1248
     if-eqz p1, :cond_0

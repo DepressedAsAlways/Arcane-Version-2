@@ -1,4 +1,4 @@
-.class public final Lkik/android/d/i;
+.class public final Lkik/arcane/d/i;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -26,12 +26,12 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 22
-    iput-object p1, p0, Lkik/android/d/i;->a:Ljava/lang/Object;
+    iput-object p1, p0, Lkik/arcane/d/i;->a:Ljava/lang/Object;
 
     .line 23
     const/16 v0, 0x12
 
-    iput v0, p0, Lkik/android/d/i;->b:I
+    iput v0, p0, Lkik/arcane/d/i;->b:I
 
     .line 24
     sget-object v0, Ljava/util/Locale;->US:Ljava/util/Locale;
@@ -65,13 +65,13 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/d/i;->c:Ljava/util/regex/Pattern;
+    iput-object v0, p0, Lkik/arcane/d/i;->c:Ljava/util/regex/Pattern;
 
     .line 26
-    iput-object p2, p0, Lkik/android/d/i;->d:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/d/i;->d:Ljava/lang/String;
 
     .line 27
-    iput-object p3, p0, Lkik/android/d/i;->e:Ljava/lang/String;
+    iput-object p3, p0, Lkik/arcane/d/i;->e:Ljava/lang/String;
 
     .line 28
     return-void
@@ -96,7 +96,7 @@
     if-nez v0, :cond_1
 
     .line 35
-    iget-object v2, p0, Lkik/android/d/i;->c:Ljava/util/regex/Pattern;
+    iget-object v2, p0, Lkik/arcane/d/i;->c:Ljava/util/regex/Pattern;
 
     invoke-virtual {v1}, Landroid/text/SpannableStringBuilder;->toString()Ljava/lang/String;
 
@@ -114,7 +114,7 @@
     if-eqz v3, :cond_0
 
     .line 37
-    iget-object v3, p0, Lkik/android/d/i;->a:Ljava/lang/Object;
+    iget-object v3, p0, Lkik/arcane/d/i;->a:Ljava/lang/Object;
 
     invoke-virtual {v2}, Ljava/util/regex/Matcher;->start()I
 
@@ -124,7 +124,7 @@
 
     move-result v5
 
-    iget v6, p0, Lkik/android/d/i;->b:I
+    iget v6, p0, Lkik/arcane/d/i;->b:I
 
     invoke-virtual {v1, v3, v4, v5, v6}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
@@ -133,7 +133,7 @@
 
     move-result v3
 
-    iget-object v4, p0, Lkik/android/d/i;->e:Ljava/lang/String;
+    iget-object v4, p0, Lkik/arcane/d/i;->e:Ljava/lang/String;
 
     invoke-virtual {v4}, Ljava/lang/String;->length()I
 
@@ -156,7 +156,7 @@
 
     move-result v2
 
-    iget-object v4, p0, Lkik/android/d/i;->d:Ljava/lang/String;
+    iget-object v4, p0, Lkik/arcane/d/i;->d:Ljava/lang/String;
 
     invoke-virtual {v4}, Ljava/lang/String;->length()I
 

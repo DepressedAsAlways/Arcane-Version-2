@@ -1,4 +1,4 @@
-.class public Lkik/android/chat/fragment/DescriptiveDialogFragment_ViewBinding;
+.class public Lkik/arcane/chat/fragment/DescriptiveDialogFragment_ViewBinding;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -7,11 +7,11 @@
 
 
 # instance fields
-.field private a:Lkik/android/chat/fragment/DescriptiveDialogFragment;
+.field private a:Lkik/arcane/chat/fragment/DescriptiveDialogFragment;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/chat/fragment/DescriptiveDialogFragment;Landroid/view/View;)V
+.method public constructor <init>(Lkik/arcane/chat/fragment/DescriptiveDialogFragment;Landroid/view/View;)V
     .locals 3
 
     .prologue
@@ -19,37 +19,37 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 21
-    iput-object p1, p0, Lkik/android/chat/fragment/DescriptiveDialogFragment_ViewBinding;->a:Lkik/android/chat/fragment/DescriptiveDialogFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/DescriptiveDialogFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/DescriptiveDialogFragment;
 
     .line 23
     const v0, 0x7f10019d
 
     const-string v1, "field \'_titleTextView\'"
 
-    const-class v2, Lkik/android/widget/RobotoTextView;
+    const-class v2, Lkik/arcane/widget/RobotoTextView;
 
     invoke-static {p2, v0, v1, v2}, Lbutterknife/internal/Utils;->findRequiredViewAsType(Landroid/view/View;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/widget/RobotoTextView;
+    check-cast v0, Lkik/arcane/widget/RobotoTextView;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/DescriptiveDialogFragment;->_titleTextView:Lkik/android/widget/RobotoTextView;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/DescriptiveDialogFragment;->_titleTextView:Lkik/arcane/widget/RobotoTextView;
 
     .line 24
     const v0, 0x7f10019e
 
     const-string v1, "field \'_descriptionTextView\'"
 
-    const-class v2, Lkik/android/widget/RobotoTextView;
+    const-class v2, Lkik/arcane/widget/RobotoTextView;
 
     invoke-static {p2, v0, v1, v2}, Lbutterknife/internal/Utils;->findRequiredViewAsType(Landroid/view/View;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/widget/RobotoTextView;
+    check-cast v0, Lkik/arcane/widget/RobotoTextView;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/DescriptiveDialogFragment;->_descriptionTextView:Lkik/android/widget/RobotoTextView;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/DescriptiveDialogFragment;->_descriptionTextView:Lkik/arcane/widget/RobotoTextView;
 
     .line 25
     const v0, 0x7f10019c
@@ -64,7 +64,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/DescriptiveDialogFragment;->_iconImageView:Landroid/widget/ImageView;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/DescriptiveDialogFragment;->_iconImageView:Landroid/widget/ImageView;
 
     .line 26
     const v0, 0x7f10019f
@@ -79,7 +79,7 @@
 
     check-cast v0, Landroid/widget/Button;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/DescriptiveDialogFragment;->_button:Landroid/widget/Button;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/DescriptiveDialogFragment;->_button:Landroid/widget/Button;
 
     .line 27
     return-void
@@ -94,7 +94,7 @@
     const/4 v1, 0x0
 
     .line 32
-    iget-object v0, p0, Lkik/android/chat/fragment/DescriptiveDialogFragment_ViewBinding;->a:Lkik/android/chat/fragment/DescriptiveDialogFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/DescriptiveDialogFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/DescriptiveDialogFragment;
 
     .line 33
     if-nez v0, :cond_0
@@ -109,19 +109,19 @@
 
     .line 34
     :cond_0
-    iput-object v1, p0, Lkik/android/chat/fragment/DescriptiveDialogFragment_ViewBinding;->a:Lkik/android/chat/fragment/DescriptiveDialogFragment;
+    iput-object v1, p0, Lkik/arcane/chat/fragment/DescriptiveDialogFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/DescriptiveDialogFragment;
 
     .line 36
-    iput-object v1, v0, Lkik/android/chat/fragment/DescriptiveDialogFragment;->_titleTextView:Lkik/android/widget/RobotoTextView;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/DescriptiveDialogFragment;->_titleTextView:Lkik/arcane/widget/RobotoTextView;
 
     .line 37
-    iput-object v1, v0, Lkik/android/chat/fragment/DescriptiveDialogFragment;->_descriptionTextView:Lkik/android/widget/RobotoTextView;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/DescriptiveDialogFragment;->_descriptionTextView:Lkik/arcane/widget/RobotoTextView;
 
     .line 38
-    iput-object v1, v0, Lkik/android/chat/fragment/DescriptiveDialogFragment;->_iconImageView:Landroid/widget/ImageView;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/DescriptiveDialogFragment;->_iconImageView:Landroid/widget/ImageView;
 
     .line 39
-    iput-object v1, v0, Lkik/android/chat/fragment/DescriptiveDialogFragment;->_button:Landroid/widget/Button;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/DescriptiveDialogFragment;->_button:Landroid/widget/Button;
 
     .line 40
     return-void

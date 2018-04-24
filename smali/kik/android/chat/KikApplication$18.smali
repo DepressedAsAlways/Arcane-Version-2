@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/KikApplication$18;
+.class final Lkik/arcane/chat/KikApplication$18;
 .super Landroid/os/AsyncTask;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/KikApplication;->onCreate()V
+    value = Lkik/arcane/chat/KikApplication;->onCreate()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,16 +26,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/KikApplication;
+.field final synthetic a:Lkik/arcane/chat/KikApplication;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/KikApplication;)V
+.method constructor <init>(Lkik/arcane/chat/KikApplication;)V
     .locals 0
 
     .prologue
     .line 1135
-    iput-object p1, p0, Lkik/android/chat/KikApplication$18;->a:Lkik/android/chat/KikApplication;
+    iput-object p1, p0, Lkik/arcane/chat/KikApplication$18;->a:Lkik/arcane/chat/KikApplication;
 
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
 

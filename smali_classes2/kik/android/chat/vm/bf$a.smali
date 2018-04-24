@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/vm/bf$a;
+.class public final Lkik/arcane/chat/vm/bf$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/bf;
+    value = Lkik/arcane/chat/vm/bf;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -31,16 +31,16 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 10
-    iput v0, p0, Lkik/android/chat/vm/bf$a;->a:I
+    iput v0, p0, Lkik/arcane/chat/vm/bf$a;->a:I
 
     .line 11
-    iput v0, p0, Lkik/android/chat/vm/bf$a;->b:I
+    iput v0, p0, Lkik/arcane/chat/vm/bf$a;->b:I
 
     .line 15
-    iput p1, p0, Lkik/android/chat/vm/bf$a;->a:I
+    iput p1, p0, Lkik/arcane/chat/vm/bf$a;->a:I
 
     .line 16
-    iput p2, p0, Lkik/android/chat/vm/bf$a;->b:I
+    iput p2, p0, Lkik/arcane/chat/vm/bf$a;->b:I
 
     .line 17
     return-void
@@ -53,7 +53,7 @@
 
     .prologue
     .line 48
-    iget v0, p0, Lkik/android/chat/vm/bf$a;->a:I
+    iget v0, p0, Lkik/arcane/chat/vm/bf$a;->a:I
 
     return v0
 .end method
@@ -63,7 +63,7 @@
 
     .prologue
     .line 53
-    iget v0, p0, Lkik/android/chat/vm/bf$a;->b:I
+    iget v0, p0, Lkik/arcane/chat/vm/bf$a;->b:I
 
     return v0
 .end method
@@ -106,12 +106,12 @@
 
     .line 29
     :cond_3
-    check-cast p1, Lkik/android/chat/vm/bf$a;
+    check-cast p1, Lkik/arcane/chat/vm/bf$a;
 
     .line 31
-    iget v2, p0, Lkik/android/chat/vm/bf$a;->a:I
+    iget v2, p0, Lkik/arcane/chat/vm/bf$a;->a:I
 
-    iget v3, p1, Lkik/android/chat/vm/bf$a;->a:I
+    iget v3, p1, Lkik/arcane/chat/vm/bf$a;->a:I
 
     if-eq v2, v3, :cond_4
 
@@ -122,9 +122,9 @@
 
     .line 34
     :cond_4
-    iget v2, p0, Lkik/android/chat/vm/bf$a;->b:I
+    iget v2, p0, Lkik/arcane/chat/vm/bf$a;->b:I
 
-    iget v3, p1, Lkik/android/chat/vm/bf$a;->b:I
+    iget v3, p1, Lkik/arcane/chat/vm/bf$a;->b:I
 
     if-eq v2, v3, :cond_0
 
@@ -138,12 +138,12 @@
 
     .prologue
     .line 41
-    iget v0, p0, Lkik/android/chat/vm/bf$a;->a:I
+    iget v0, p0, Lkik/arcane/chat/vm/bf$a;->a:I
 
     .line 42
     mul-int/lit8 v0, v0, 0x1f
 
-    iget v1, p0, Lkik/android/chat/vm/bf$a;->b:I
+    iget v1, p0, Lkik/arcane/chat/vm/bf$a;->b:I
 
     add-int/2addr v0, v1
 

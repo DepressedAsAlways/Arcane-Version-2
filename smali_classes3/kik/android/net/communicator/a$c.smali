@@ -1,11 +1,11 @@
-.class final Lkik/android/net/communicator/a$c;
+.class final Lkik/arcane/net/communicator/a$c;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/net/communicator/a;
+    value = Lkik/arcane/net/communicator/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -37,16 +37,16 @@
     .line 736
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/net/communicator/a$c;->c:Z
+    iput-boolean v0, p0, Lkik/arcane/net/communicator/a$c;->c:Z
 
     .line 743
-    iput-object p1, p0, Lkik/android/net/communicator/a$c;->a:Lkik/core/interfaces/ICommunication$b;
+    iput-object p1, p0, Lkik/arcane/net/communicator/a$c;->a:Lkik/core/interfaces/ICommunication$b;
 
     .line 744
-    iput-wide p2, p0, Lkik/android/net/communicator/a$c;->b:J
+    iput-wide p2, p0, Lkik/arcane/net/communicator/a$c;->b:J
 
     .line 745
-    iput-object p4, p0, Lkik/android/net/communicator/a$c;->e:Lcom/kik/events/o;
+    iput-object p4, p0, Lkik/arcane/net/communicator/a$c;->e:Lcom/kik/events/o;
 
     .line 746
     return-void
@@ -63,7 +63,7 @@
 
     move-result-wide v0
 
-    iput-wide v0, p0, Lkik/android/net/communicator/a$c;->d:J
+    iput-wide v0, p0, Lkik/arcane/net/communicator/a$c;->d:J
 
     .line 751
     return-void
@@ -74,12 +74,12 @@
 
     .prologue
     .line 755
-    iget-boolean v0, p0, Lkik/android/net/communicator/a$c;->c:Z
+    iget-boolean v0, p0, Lkik/arcane/net/communicator/a$c;->c:Z
 
     if-nez v0, :cond_0
 
     .line 756
-    iget-object v0, p0, Lkik/android/net/communicator/a$c;->a:Lkik/core/interfaces/ICommunication$b;
+    iget-object v0, p0, Lkik/arcane/net/communicator/a$c;->a:Lkik/core/interfaces/ICommunication$b;
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -88,10 +88,10 @@
     .line 757
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/net/communicator/a$c;->c:Z
+    iput-boolean v0, p0, Lkik/arcane/net/communicator/a$c;->c:Z
 
     .line 758
-    iget-object v0, p0, Lkik/android/net/communicator/a$c;->e:Lcom/kik/events/o;
+    iget-object v0, p0, Lkik/arcane/net/communicator/a$c;->e:Lcom/kik/events/o;
 
     invoke-virtual {v0}, Lcom/kik/events/o;->c()V
 
@@ -105,7 +105,7 @@
 
     .prologue
     .line 764
-    iget-boolean v0, p0, Lkik/android/net/communicator/a$c;->c:Z
+    iget-boolean v0, p0, Lkik/arcane/net/communicator/a$c;->c:Z
 
     return v0
 .end method
@@ -117,22 +117,22 @@
     const/4 v0, 0x1
 
     .line 769
-    iget-boolean v1, p0, Lkik/android/net/communicator/a$c;->c:Z
+    iget-boolean v1, p0, Lkik/arcane/net/communicator/a$c;->c:Z
 
     if-nez v1, :cond_0
 
     .line 770
-    iget-object v1, p0, Lkik/android/net/communicator/a$c;->a:Lkik/core/interfaces/ICommunication$b;
+    iget-object v1, p0, Lkik/arcane/net/communicator/a$c;->a:Lkik/core/interfaces/ICommunication$b;
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     invoke-interface {v1}, Lkik/core/interfaces/ICommunication$b;->b()V
 
     .line 771
-    iput-boolean v0, p0, Lkik/android/net/communicator/a$c;->c:Z
+    iput-boolean v0, p0, Lkik/arcane/net/communicator/a$c;->c:Z
 
     .line 772
-    iget-object v1, p0, Lkik/android/net/communicator/a$c;->e:Lcom/kik/events/o;
+    iget-object v1, p0, Lkik/arcane/net/communicator/a$c;->e:Lcom/kik/events/o;
 
     invoke-virtual {v1}, Lcom/kik/events/o;->c()V
 
@@ -151,17 +151,17 @@
 
     .prologue
     .line 781
-    iget-boolean v0, p0, Lkik/android/net/communicator/a$c;->c:Z
+    iget-boolean v0, p0, Lkik/arcane/net/communicator/a$c;->c:Z
 
     if-nez v0, :cond_0
 
     .line 782
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/net/communicator/a$c;->c:Z
+    iput-boolean v0, p0, Lkik/arcane/net/communicator/a$c;->c:Z
 
     .line 784
-    iget-object v0, p0, Lkik/android/net/communicator/a$c;->e:Lcom/kik/events/o;
+    iget-object v0, p0, Lkik/arcane/net/communicator/a$c;->e:Lcom/kik/events/o;
 
     invoke-virtual {v0}, Lcom/kik/events/o;->c()V
 

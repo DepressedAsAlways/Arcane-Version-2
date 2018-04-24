@@ -1,11 +1,11 @@
-.class final Lkik/android/g$a;
-.super Lkik/android/util/aq;
+.class final Lkik/arcane/g$a;
+.super Lkik/arcane/util/aq;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/g;
+    value = Lkik/arcane/g;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,7 +15,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkik/android/util/aq",
+        "Lkik/arcane/util/aq",
         "<",
         "Ljava/lang/String;",
         "Ljava/lang/Void;",
@@ -59,16 +59,16 @@
 
     .prologue
     .line 73
-    invoke-direct {p0}, Lkik/android/util/aq;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/util/aq;-><init>()V
 
     .line 74
-    iput-object p1, p0, Lkik/android/g$a;->b:Landroid/content/Context;
+    iput-object p1, p0, Lkik/arcane/g$a;->b:Landroid/content/Context;
 
     .line 75
-    iput-object p2, p0, Lkik/android/g$a;->a:Landroid/net/Uri;
+    iput-object p2, p0, Lkik/arcane/g$a;->a:Landroid/net/Uri;
 
     .line 76
-    iput-object p3, p0, Lkik/android/g$a;->c:Lcom/kik/events/Promise;
+    iput-object p3, p0, Lkik/arcane/g$a;->c:Lcom/kik/events/Promise;
 
     .line 77
     return-void
@@ -84,9 +84,9 @@
 
     .line 66
     .line 2095
-    iget-object v0, p0, Lkik/android/g$a;->b:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/g$a;->b:Landroid/content/Context;
 
-    iget-object v1, p0, Lkik/android/g$a;->b:Landroid/content/Context;
+    iget-object v1, p0, Lkik/arcane/g$a;->b:Landroid/content/Context;
 
     invoke-virtual {v1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
@@ -96,16 +96,16 @@
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/g$a;->a:Landroid/net/Uri;
+    iget-object v2, p0, Lkik/arcane/g$a;->a:Landroid/net/Uri;
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/Context;->grantUriPermission(Ljava/lang/String;Landroid/net/Uri;I)V
 
     .line 2096
-    iget-object v0, p0, Lkik/android/g$a;->a:Landroid/net/Uri;
+    iget-object v0, p0, Lkik/arcane/g$a;->a:Landroid/net/Uri;
 
-    iget-object v1, p0, Lkik/android/g$a;->b:Landroid/content/Context;
+    iget-object v1, p0, Lkik/arcane/g$a;->b:Landroid/content/Context;
 
-    invoke-static {v0, v1}, Lkik/android/util/f;->a(Landroid/net/Uri;Landroid/content/Context;)Ljava/io/File;
+    invoke-static {v0, v1}, Lkik/arcane/util/f;->a(Landroid/net/Uri;Landroid/content/Context;)Ljava/io/File;
 
     move-result-object v0
 
@@ -119,9 +119,9 @@
     if-eqz v1, :cond_0
 
     .line 2100
-    iget-object v1, p0, Lkik/android/g$a;->b:Landroid/content/Context;
+    iget-object v1, p0, Lkik/arcane/g$a;->b:Landroid/content/Context;
 
-    iget-object v2, p0, Lkik/android/g$a;->a:Landroid/net/Uri;
+    iget-object v2, p0, Lkik/arcane/g$a;->a:Landroid/net/Uri;
 
     invoke-virtual {v1, v2, v3}, Landroid/content/Context;->revokeUriPermission(Landroid/net/Uri;I)V
 
@@ -138,7 +138,7 @@
     check-cast p1, Ljava/io/File;
 
     .line 1082
-    invoke-super {p0, p1}, Lkik/android/util/aq;->onCancelled(Ljava/lang/Object;)V
+    invoke-super {p0, p1}, Lkik/arcane/util/aq;->onCancelled(Ljava/lang/Object;)V
 
     .line 1084
     if-eqz p1, :cond_0
@@ -159,7 +159,7 @@
     check-cast p1, Ljava/io/File;
 
     .line 1108
-    iget-object v0, p0, Lkik/android/g$a;->c:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/g$a;->c:Lcom/kik/events/Promise;
 
     invoke-virtual {v0, p1}, Lcom/kik/events/Promise;->a(Ljava/lang/Object;)V
 

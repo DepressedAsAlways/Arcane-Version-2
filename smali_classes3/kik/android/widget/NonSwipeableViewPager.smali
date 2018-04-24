@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/NonSwipeableViewPager;
+.class public Lkik/arcane/widget/NonSwipeableViewPager;
 .super Landroid/support/v4/view/ViewPager;
 .source "SourceFile"
 

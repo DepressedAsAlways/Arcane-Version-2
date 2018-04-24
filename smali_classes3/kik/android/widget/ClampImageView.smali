@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/ClampImageView;
+.class public Lkik/arcane/widget/ClampImageView;
 .super Landroid/support/v7/widget/AppCompatImageView;
 .source "SourceFile"
 
@@ -11,7 +11,7 @@
     .line 15
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/ClampImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/ClampImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 16
     return-void
@@ -27,7 +27,7 @@
     .line 21
     sget-object v0, Landroid/widget/ImageView$ScaleType;->CENTER_CROP:Landroid/widget/ImageView$ScaleType;
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/ClampImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/ClampImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
 
     .line 22
     return-void
@@ -54,7 +54,7 @@
     move-result v0
 
     .line 30
-    invoke-virtual {p0}, Lkik/android/widget/ClampImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Lkik/arcane/widget/ClampImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v2
 
@@ -109,11 +109,11 @@
 
     .line 48
     :goto_0
-    invoke-virtual {p0, v1, v0}, Lkik/android/widget/ClampImageView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v1, v0}, Lkik/arcane/widget/ClampImageView;->setMeasuredDimension(II)V
 
     .line 56
     :goto_1
-    invoke-virtual {p0}, Lkik/android/widget/ClampImageView;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {p0}, Lkik/arcane/widget/ClampImageView;->getParent()Landroid/view/ViewParent;
 
     move-result-object v0
 
@@ -137,7 +137,7 @@
 
     .line 51
     :cond_3
-    invoke-virtual {p0, v3, v3}, Lkik/android/widget/ClampImageView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v3, v3}, Lkik/arcane/widget/ClampImageView;->setMeasuredDimension(II)V
 
     goto :goto_1
 .end method

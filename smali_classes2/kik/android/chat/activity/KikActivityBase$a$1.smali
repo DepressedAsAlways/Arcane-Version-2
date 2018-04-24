@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/activity/KikActivityBase$a$1;
+.class final Lkik/arcane/chat/activity/KikActivityBase$a$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/activity/KikActivityBase$a;
+    value = Lkik/arcane/chat/activity/KikActivityBase$a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/activity/KikActivityBase$a;
+.field final synthetic a:Lkik/arcane/chat/activity/KikActivityBase$a;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/activity/KikActivityBase$a;)V
+.method constructor <init>(Lkik/arcane/chat/activity/KikActivityBase$a;)V
     .locals 0
 
     .prologue
     .line 191
-    iput-object p1, p0, Lkik/android/chat/activity/KikActivityBase$a$1;->a:Lkik/android/chat/activity/KikActivityBase$a;
+    iput-object p1, p0, Lkik/arcane/chat/activity/KikActivityBase$a$1;->a:Lkik/arcane/chat/activity/KikActivityBase$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,15 +52,15 @@
     .prologue
     .line 191
     .line 1195
-    iget-object v0, p0, Lkik/android/chat/activity/KikActivityBase$a$1;->a:Lkik/android/chat/activity/KikActivityBase$a;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikActivityBase$a$1;->a:Lkik/arcane/chat/activity/KikActivityBase$a;
 
-    iget-object v0, v0, Lkik/android/chat/activity/KikActivityBase$a;->a:Lkik/android/chat/activity/KikActivityBase;
+    iget-object v0, v0, Lkik/arcane/chat/activity/KikActivityBase$a;->a:Lkik/arcane/chat/activity/KikActivityBase;
 
-    new-instance v1, Lkik/android/chat/activity/KikActivityBase$a$1$1;
+    new-instance v1, Lkik/arcane/chat/activity/KikActivityBase$a$1$1;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/activity/KikActivityBase$a$1$1;-><init>(Lkik/android/chat/activity/KikActivityBase$a$1;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/activity/KikActivityBase$a$1$1;-><init>(Lkik/arcane/chat/activity/KikActivityBase$a$1;)V
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/activity/KikActivityBase;->runOnUiThread(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/activity/KikActivityBase;->runOnUiThread(Ljava/lang/Runnable;)V
 
     .line 191
     return-void

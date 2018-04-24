@@ -1,5 +1,5 @@
-.class public final Lkik/android/widget/dk;
-.super Lkik/android/widget/bm;
+.class public final Lkik/arcane/widget/dk;
+.super Lkik/arcane/widget/bm;
 .source "SourceFile"
 
 
@@ -25,7 +25,7 @@
     move-result v1
 
     .line 17
-    invoke-direct {p0, p1, v0, v1}, Lkik/android/widget/bm;-><init>(Landroid/content/Context;[II)V
+    invoke-direct {p0, p1, v0, v1}, Lkik/arcane/widget/bm;-><init>(Landroid/content/Context;[II)V
 
     .line 20
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -38,7 +38,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/dk;->a(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/dk;->a(Landroid/graphics/drawable/Drawable;)V
 
     .line 21
     return-void

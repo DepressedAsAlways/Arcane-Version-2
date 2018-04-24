@@ -1,4 +1,4 @@
-.class public Lkik/android/chat/view/SetProfilePhotoView_ViewBinding;
+.class public Lkik/arcane/chat/view/SetProfilePhotoView_ViewBinding;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -7,11 +7,11 @@
 
 
 # instance fields
-.field private a:Lkik/android/chat/view/SetProfilePhotoView;
+.field private a:Lkik/arcane/chat/view/SetProfilePhotoView;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/chat/view/SetProfilePhotoView;Landroid/view/View;)V
+.method public constructor <init>(Lkik/arcane/chat/view/SetProfilePhotoView;Landroid/view/View;)V
     .locals 3
 
     .prologue
@@ -19,7 +19,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 24
-    iput-object p1, p0, Lkik/android/chat/view/SetProfilePhotoView_ViewBinding;->a:Lkik/android/chat/view/SetProfilePhotoView;
+    iput-object p1, p0, Lkik/arcane/chat/view/SetProfilePhotoView_ViewBinding;->a:Lkik/arcane/chat/view/SetProfilePhotoView;
 
     .line 26
     const v0, 0x7f1003c6
@@ -30,7 +30,7 @@
 
     move-result-object v0
 
-    iput-object v0, p1, Lkik/android/chat/view/SetProfilePhotoView;->_setPhotoContentsContainer:Landroid/view/View;
+    iput-object v0, p1, Lkik/arcane/chat/view/SetProfilePhotoView;->_setPhotoContentsContainer:Landroid/view/View;
 
     .line 27
     const v0, 0x7f1003c7
@@ -45,7 +45,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    iput-object v0, p1, Lkik/android/chat/view/SetProfilePhotoView;->_profilePhotoImageView:Landroid/widget/ImageView;
+    iput-object v0, p1, Lkik/arcane/chat/view/SetProfilePhotoView;->_profilePhotoImageView:Landroid/widget/ImageView;
 
     .line 28
     return-void
@@ -60,7 +60,7 @@
     const/4 v1, 0x0
 
     .line 33
-    iget-object v0, p0, Lkik/android/chat/view/SetProfilePhotoView_ViewBinding;->a:Lkik/android/chat/view/SetProfilePhotoView;
+    iget-object v0, p0, Lkik/arcane/chat/view/SetProfilePhotoView_ViewBinding;->a:Lkik/arcane/chat/view/SetProfilePhotoView;
 
     .line 34
     if-nez v0, :cond_0
@@ -75,13 +75,13 @@
 
     .line 35
     :cond_0
-    iput-object v1, p0, Lkik/android/chat/view/SetProfilePhotoView_ViewBinding;->a:Lkik/android/chat/view/SetProfilePhotoView;
+    iput-object v1, p0, Lkik/arcane/chat/view/SetProfilePhotoView_ViewBinding;->a:Lkik/arcane/chat/view/SetProfilePhotoView;
 
     .line 37
-    iput-object v1, v0, Lkik/android/chat/view/SetProfilePhotoView;->_setPhotoContentsContainer:Landroid/view/View;
+    iput-object v1, v0, Lkik/arcane/chat/view/SetProfilePhotoView;->_setPhotoContentsContainer:Landroid/view/View;
 
     .line 38
-    iput-object v1, v0, Lkik/android/chat/view/SetProfilePhotoView;->_profilePhotoImageView:Landroid/widget/ImageView;
+    iput-object v1, v0, Lkik/arcane/chat/view/SetProfilePhotoView;->_profilePhotoImageView:Landroid/widget/ImageView;
 
     .line 39
     return-void

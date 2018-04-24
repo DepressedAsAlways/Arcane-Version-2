@@ -1,11 +1,11 @@
-.class final Lkik/android/util/SponsoredUsersManager$PromotionData;
+.class final Lkik/arcane/util/SponsoredUsersManager$PromotionData;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/SponsoredUsersManager;
+    value = Lkik/arcane/util/SponsoredUsersManager;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,7 +15,7 @@
 
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/util/SponsoredUsersManager$PromotionData$FetchState;
+        Lkik/arcane/util/SponsoredUsersManager$PromotionData$FetchState;
     }
 .end annotation
 
@@ -55,7 +55,7 @@
     .end annotation
 .end field
 
-.field d:Lkik/android/util/SponsoredUsersManager$PromotionData$FetchState;
+.field d:Lkik/arcane/util/SponsoredUsersManager$PromotionData$FetchState;
 
 
 # direct methods
@@ -71,26 +71,26 @@
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Lkik/android/util/SponsoredUsersManager$PromotionData;->a:Ljava/util/ArrayList;
+    iput-object v0, p0, Lkik/arcane/util/SponsoredUsersManager$PromotionData;->a:Ljava/util/ArrayList;
 
     .line 92
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
-    iput-object v0, p0, Lkik/android/util/SponsoredUsersManager$PromotionData;->b:Ljava/util/HashSet;
+    iput-object v0, p0, Lkik/arcane/util/SponsoredUsersManager$PromotionData;->b:Ljava/util/HashSet;
 
     .line 93
     new-instance v0, Ljava/util/LinkedHashMap;
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    iput-object v0, p0, Lkik/android/util/SponsoredUsersManager$PromotionData;->c:Ljava/util/Map;
+    iput-object v0, p0, Lkik/arcane/util/SponsoredUsersManager$PromotionData;->c:Ljava/util/Map;
 
     .line 94
-    sget-object v0, Lkik/android/util/SponsoredUsersManager$PromotionData$FetchState;->NONE:Lkik/android/util/SponsoredUsersManager$PromotionData$FetchState;
+    sget-object v0, Lkik/arcane/util/SponsoredUsersManager$PromotionData$FetchState;->NONE:Lkik/arcane/util/SponsoredUsersManager$PromotionData$FetchState;
 
-    iput-object v0, p0, Lkik/android/util/SponsoredUsersManager$PromotionData;->d:Lkik/android/util/SponsoredUsersManager$PromotionData$FetchState;
+    iput-object v0, p0, Lkik/arcane/util/SponsoredUsersManager$PromotionData;->d:Lkik/arcane/util/SponsoredUsersManager$PromotionData$FetchState;
 
     return-void
 .end method
@@ -100,7 +100,7 @@
 
     .prologue
     .line 84
-    invoke-direct {p0}, Lkik/android/util/SponsoredUsersManager$PromotionData;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/util/SponsoredUsersManager$PromotionData;-><init>()V
 
     return-void
 .end method

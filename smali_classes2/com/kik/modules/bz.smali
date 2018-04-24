@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lkik/android/g/a;",
+        "Lkik/arcane/g/a;",
         ">;"
     }
 .end annotation
@@ -30,7 +30,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/g/b;",
+            "Lkik/arcane/g/b;",
             ">;"
         }
     .end annotation
@@ -72,7 +72,7 @@
             "Lcom/kik/modules/by;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/g/b;",
+            "Lkik/arcane/g/b;",
             ">;)V"
         }
     .end annotation
@@ -127,11 +127,11 @@
             "Lcom/kik/modules/by;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/g/b;",
+            "Lkik/arcane/g/b;",
             ">;)",
             "Ldagger/internal/b",
             "<",
-            "Lkik/android/g/a;",
+            "Lkik/arcane/g/a;",
             ">;"
         }
     .end annotation
@@ -160,12 +160,12 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/g/b;
+    check-cast v0, Lkik/arcane/g/b;
 
     .line 1031
-    new-instance v1, Lkik/android/g/c;
+    new-instance v1, Lkik/arcane/g/c;
 
-    invoke-direct {v1, v0}, Lkik/android/g/c;-><init>(Lkik/android/g/b;)V
+    invoke-direct {v1, v0}, Lkik/arcane/g/c;-><init>(Lkik/arcane/g/b;)V
 
     .line 1030
     const-string v0, "Cannot return null from a non-@Nullable @Provides method"
@@ -175,7 +175,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/g/a;
+    check-cast v0, Lkik/arcane/g/a;
 
     .line 10
     return-object v0

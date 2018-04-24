@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/settings/EditEmailFragment$2;
+.class final Lkik/arcane/chat/fragment/settings/EditEmailFragment$2;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/settings/EditEmailFragment;->a(Lkik/android/chat/fragment/settings/EditEmailFragment;Lkik/core/datatypes/aa;Landroid/content/DialogInterface;)V
+    value = Lkik/arcane/chat/fragment/settings/EditEmailFragment;->a(Lkik/arcane/chat/fragment/settings/EditEmailFragment;Lkik/core/datatypes/aa;Landroid/content/DialogInterface;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/settings/EditEmailFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/settings/EditEmailFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/settings/EditEmailFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/settings/EditEmailFragment;)V
     .locals 0
 
     .prologue
     .line 135
-    iput-object p1, p0, Lkik/android/chat/fragment/settings/EditEmailFragment$2;->a:Lkik/android/chat/fragment/settings/EditEmailFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment$2;->a:Lkik/arcane/chat/fragment/settings/EditEmailFragment;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -47,11 +47,11 @@
 
     .prologue
     .line 139
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditEmailFragment$2;->a:Lkik/android/chat/fragment/settings/EditEmailFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment$2;->a:Lkik/arcane/chat/fragment/settings/EditEmailFragment;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/settings/EditEmailFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 140
     return-void

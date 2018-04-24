@@ -1,4 +1,4 @@
-.class final Lkik/android/scan/c$4;
+.class final Lkik/arcane/scan/c$4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/scan/c;->b()Lcom/kik/events/Promise;
+    value = Lkik/arcane/scan/c;->b()Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,16 +29,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/scan/c;
+.field final synthetic a:Lkik/arcane/scan/c;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/scan/c;)V
+.method constructor <init>(Lkik/arcane/scan/c;)V
     .locals 0
 
     .prologue
     .line 170
-    iput-object p1, p0, Lkik/android/scan/c$4;->a:Lkik/android/scan/c;
+    iput-object p1, p0, Lkik/arcane/scan/c$4;->a:Lkik/arcane/scan/c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -79,9 +79,9 @@
 
     .line 1183
     :goto_0
-    iget-object v1, p0, Lkik/android/scan/c$4;->a:Lkik/android/scan/c;
+    iget-object v1, p0, Lkik/arcane/scan/c$4;->a:Lkik/arcane/scan/c;
 
-    invoke-static {v1, v0}, Lkik/android/scan/c;->a(Lkik/android/scan/c;[B)I
+    invoke-static {v1, v0}, Lkik/arcane/scan/c;->a(Lkik/arcane/scan/c;[B)I
 
     move-result v0
 
@@ -94,9 +94,9 @@
 
     .line 1180
     :cond_0
-    iget-object v1, p0, Lkik/android/scan/c$4;->a:Lkik/android/scan/c;
+    iget-object v1, p0, Lkik/arcane/scan/c$4;->a:Lkik/arcane/scan/c;
 
-    invoke-static {v1}, Lkik/android/scan/c;->c(Lkik/android/scan/c;)Ljava/security/SecureRandom;
+    invoke-static {v1}, Lkik/arcane/scan/c;->c(Lkik/arcane/scan/c;)Ljava/security/SecureRandom;
 
     move-result-object v1
 

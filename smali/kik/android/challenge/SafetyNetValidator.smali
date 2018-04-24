@@ -1,4 +1,4 @@
-.class public Lkik/android/challenge/SafetyNetValidator;
+.class public Lkik/arcane/challenge/SafetyNetValidator;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -29,7 +29,7 @@
 
     .prologue
     .line 51
-    const-class v0, Lkik/android/challenge/SafetyNetValidator;
+    const-class v0, Lkik/arcane/challenge/SafetyNetValidator;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
@@ -39,7 +39,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/challenge/SafetyNetValidator;->a:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/challenge/SafetyNetValidator;->a:Lorg/slf4j/b;
 
     return-void
 .end method
@@ -56,38 +56,38 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 56
-    iput-boolean v0, p0, Lkik/android/challenge/SafetyNetValidator;->e:Z
+    iput-boolean v0, p0, Lkik/arcane/challenge/SafetyNetValidator;->e:Z
 
     .line 57
-    iput-boolean v0, p0, Lkik/android/challenge/SafetyNetValidator;->f:Z
+    iput-boolean v0, p0, Lkik/arcane/challenge/SafetyNetValidator;->f:Z
 
     .line 62
     new-instance v0, Lcom/kik/events/d;
 
     invoke-direct {v0}, Lcom/kik/events/d;-><init>()V
 
-    iput-object v0, p0, Lkik/android/challenge/SafetyNetValidator;->d:Lcom/kik/events/d;
+    iput-object v0, p0, Lkik/arcane/challenge/SafetyNetValidator;->d:Lcom/kik/events/d;
 
     .line 63
-    iput-object p1, p0, Lkik/android/challenge/SafetyNetValidator;->b:Lkik/core/interfaces/ICommunication;
+    iput-object p1, p0, Lkik/arcane/challenge/SafetyNetValidator;->b:Lkik/core/interfaces/ICommunication;
 
     .line 64
-    iget-object v0, p0, Lkik/android/challenge/SafetyNetValidator;->d:Lcom/kik/events/d;
+    iget-object v0, p0, Lkik/arcane/challenge/SafetyNetValidator;->d:Lcom/kik/events/d;
 
-    iget-object v1, p0, Lkik/android/challenge/SafetyNetValidator;->b:Lkik/core/interfaces/ICommunication;
+    iget-object v1, p0, Lkik/arcane/challenge/SafetyNetValidator;->b:Lkik/core/interfaces/ICommunication;
 
     invoke-interface {v1}, Lkik/core/interfaces/ICommunication;->b()Lcom/kik/events/c;
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/challenge/c;->a(Lkik/android/challenge/SafetyNetValidator;)Lcom/kik/events/e;
+    invoke-static {p0}, Lkik/arcane/challenge/c;->a(Lkik/arcane/challenge/SafetyNetValidator;)Lcom/kik/events/e;
 
     move-result-object v2
 
     invoke-virtual {v0, v1, v2}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 70
-    iget-object v0, p0, Lkik/android/challenge/SafetyNetValidator;->b:Lkik/core/interfaces/ICommunication;
+    iget-object v0, p0, Lkik/arcane/challenge/SafetyNetValidator;->b:Lkik/core/interfaces/ICommunication;
 
     invoke-interface {v0, p0}, Lkik/core/interfaces/ICommunication;->a(Lkik/core/net/c;)V
 
@@ -117,10 +117,10 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/challenge/SafetyNetValidator;->c:Lcom/google/android/gms/common/api/GoogleApiClient;
+    iput-object v0, p0, Lkik/arcane/challenge/SafetyNetValidator;->c:Lcom/google/android/gms/common/api/GoogleApiClient;
 
     .line 75
-    iget-object v0, p0, Lkik/android/challenge/SafetyNetValidator;->c:Lcom/google/android/gms/common/api/GoogleApiClient;
+    iget-object v0, p0, Lkik/arcane/challenge/SafetyNetValidator;->c:Lcom/google/android/gms/common/api/GoogleApiClient;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/GoogleApiClient;->connect()V
 
@@ -128,7 +128,7 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/challenge/SafetyNetValidator;Lcom/google/android/gms/safetynet/SafetyNetApi$AttestationResult;)V
+.method static synthetic a(Lkik/arcane/challenge/SafetyNetValidator;Lcom/google/android/gms/safetynet/SafetyNetApi$AttestationResult;)V
     .locals 8
 
     .prologue
@@ -159,7 +159,7 @@
 
     if-eqz v2, :cond_0
 
-    invoke-static {v1}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v1}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -167,7 +167,7 @@
 
     .line 2139
     :cond_0
-    sget-object v1, Lkik/android/challenge/SafetyNetValidator;->a:Lorg/slf4j/b;
+    sget-object v1, Lkik/arcane/challenge/SafetyNetValidator;->a:Lorg/slf4j/b;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -209,7 +209,7 @@
 
     .line 2181
     :cond_1
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v0
 
@@ -243,7 +243,7 @@
     if-eq v0, v3, :cond_3
 
     .line 2205
-    sget-object v0, Lkik/android/challenge/SafetyNetValidator;->a:Lorg/slf4j/b;
+    sget-object v0, Lkik/arcane/challenge/SafetyNetValidator;->a:Lorg/slf4j/b;
 
     new-instance v3, Ljava/lang/StringBuilder;
 
@@ -277,7 +277,7 @@
     if-nez v0, :cond_4
 
     .line 2187
-    sget-object v0, Lkik/android/challenge/SafetyNetValidator;->a:Lorg/slf4j/b;
+    sget-object v0, Lkik/arcane/challenge/SafetyNetValidator;->a:Lorg/slf4j/b;
 
     const-string v2, "Success; failure parsing response."
 
@@ -302,16 +302,16 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/challenge/SafetyNetValidator;->b:Lkik/core/interfaces/ICommunication;
+    iget-object v1, p0, Lkik/arcane/challenge/SafetyNetValidator;->b:Lkik/core/interfaces/ICommunication;
 
     .line 2145
     invoke-virtual {v0, v1}, Lkik/core/xiphias/XiphiasRequest;->send(Lkik/core/interfaces/ICommunication;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/challenge/SafetyNetValidator$2;
+    new-instance v1, Lkik/arcane/challenge/SafetyNetValidator$2;
 
-    invoke-direct {v1, p0}, Lkik/android/challenge/SafetyNetValidator$2;-><init>(Lkik/android/challenge/SafetyNetValidator;)V
+    invoke-direct {v1, p0}, Lkik/arcane/challenge/SafetyNetValidator$2;-><init>(Lkik/arcane/challenge/SafetyNetValidator;)V
 
     .line 2146
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
@@ -418,7 +418,7 @@
     goto :goto_2
 .end method
 
-.method static synthetic a(Lkik/android/challenge/SafetyNetValidator;Ljava/lang/Boolean;)V
+.method static synthetic a(Lkik/arcane/challenge/SafetyNetValidator;Ljava/lang/Boolean;)V
     .locals 1
 
     .prologue
@@ -430,20 +430,20 @@
     if-nez v0, :cond_0
 
     .line 67
-    invoke-direct {p0}, Lkik/android/challenge/SafetyNetValidator;->c()V
+    invoke-direct {p0}, Lkik/arcane/challenge/SafetyNetValidator;->c()V
 
     .line 69
     :cond_0
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/challenge/SafetyNetValidator;[B)V
+.method static synthetic a(Lkik/arcane/challenge/SafetyNetValidator;[B)V
     .locals 2
 
     .prologue
     .line 49
     .line 3120
-    iget-object v0, p0, Lkik/android/challenge/SafetyNetValidator;->c:Lcom/google/android/gms/common/api/GoogleApiClient;
+    iget-object v0, p0, Lkik/arcane/challenge/SafetyNetValidator;->c:Lcom/google/android/gms/common/api/GoogleApiClient;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/GoogleApiClient;->isConnected()Z
 
@@ -454,7 +454,7 @@
     .line 3123
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/challenge/SafetyNetValidator;->e:Z
+    iput-boolean v0, p0, Lkik/arcane/challenge/SafetyNetValidator;->e:Z
 
     .line 3124
     :goto_0
@@ -464,13 +464,13 @@
     :cond_0
     sget-object v0, Lcom/google/android/gms/safetynet/SafetyNet;->SafetyNetApi:Lcom/google/android/gms/safetynet/SafetyNetApi;
 
-    iget-object v1, p0, Lkik/android/challenge/SafetyNetValidator;->c:Lcom/google/android/gms/common/api/GoogleApiClient;
+    iget-object v1, p0, Lkik/arcane/challenge/SafetyNetValidator;->c:Lcom/google/android/gms/common/api/GoogleApiClient;
 
     invoke-interface {v0, v1, p1}, Lcom/google/android/gms/safetynet/SafetyNetApi;->attest(Lcom/google/android/gms/common/api/GoogleApiClient;[B)Lcom/google/android/gms/common/api/PendingResult;
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/challenge/d;->a(Lkik/android/challenge/SafetyNetValidator;)Lcom/google/android/gms/common/api/ResultCallback;
+    invoke-static {p0}, Lkik/arcane/challenge/d;->a(Lkik/arcane/challenge/SafetyNetValidator;)Lcom/google/android/gms/common/api/ResultCallback;
 
     move-result-object v1
 
@@ -507,7 +507,7 @@
 
     .prologue
     .line 49
-    sget-object v0, Lkik/android/challenge/SafetyNetValidator;->a:Lorg/slf4j/b;
+    sget-object v0, Lkik/arcane/challenge/SafetyNetValidator;->a:Lorg/slf4j/b;
 
     return-object v0
 .end method
@@ -517,7 +517,7 @@
 
     .prologue
     .line 89
-    iget-boolean v0, p0, Lkik/android/challenge/SafetyNetValidator;->f:Z
+    iget-boolean v0, p0, Lkik/arcane/challenge/SafetyNetValidator;->f:Z
 
     if-eqz v0, :cond_0
 
@@ -527,7 +527,7 @@
 
     .line 93
     :cond_0
-    iget-object v0, p0, Lkik/android/challenge/SafetyNetValidator;->c:Lcom/google/android/gms/common/api/GoogleApiClient;
+    iget-object v0, p0, Lkik/arcane/challenge/SafetyNetValidator;->c:Lcom/google/android/gms/common/api/GoogleApiClient;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/GoogleApiClient;->isConnected()Z
 
@@ -538,7 +538,7 @@
     .line 96
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/challenge/SafetyNetValidator;->e:Z
+    iput-boolean v0, p0, Lkik/arcane/challenge/SafetyNetValidator;->e:Z
 
     goto :goto_0
 
@@ -548,13 +548,13 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/challenge/SafetyNetValidator;->b:Lkik/core/interfaces/ICommunication;
+    iget-object v1, p0, Lkik/arcane/challenge/SafetyNetValidator;->b:Lkik/core/interfaces/ICommunication;
 
     invoke-virtual {v0, v1}, Lkik/core/xiphias/XiphiasRequest;->send(Lkik/core/interfaces/ICommunication;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
-    invoke-static {}, Lkik/android/challenge/e;->a()Lcom/kik/events/p;
+    invoke-static {}, Lkik/arcane/challenge/e;->a()Lcom/kik/events/p;
 
     move-result-object v1
 
@@ -563,9 +563,9 @@
     move-result-object v0
 
     .line 100
-    new-instance v1, Lkik/android/challenge/SafetyNetValidator$1;
+    new-instance v1, Lkik/arcane/challenge/SafetyNetValidator$1;
 
-    invoke-direct {v1, p0}, Lkik/android/challenge/SafetyNetValidator$1;-><init>(Lkik/android/challenge/SafetyNetValidator;)V
+    invoke-direct {v1, p0}, Lkik/arcane/challenge/SafetyNetValidator$1;-><init>(Lkik/arcane/challenge/SafetyNetValidator;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -581,25 +581,25 @@
     .line 80
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/challenge/SafetyNetValidator;->f:Z
+    iput-boolean v0, p0, Lkik/arcane/challenge/SafetyNetValidator;->f:Z
 
     .line 81
-    iget-object v0, p0, Lkik/android/challenge/SafetyNetValidator;->d:Lcom/kik/events/d;
+    iget-object v0, p0, Lkik/arcane/challenge/SafetyNetValidator;->d:Lcom/kik/events/d;
 
     invoke-virtual {v0}, Lcom/kik/events/d;->a()V
 
     .line 82
-    iget-object v0, p0, Lkik/android/challenge/SafetyNetValidator;->b:Lkik/core/interfaces/ICommunication;
+    iget-object v0, p0, Lkik/arcane/challenge/SafetyNetValidator;->b:Lkik/core/interfaces/ICommunication;
 
     invoke-interface {v0, p0}, Lkik/core/interfaces/ICommunication;->b(Lkik/core/net/c;)V
 
     .line 83
-    iget-object v0, p0, Lkik/android/challenge/SafetyNetValidator;->c:Lcom/google/android/gms/common/api/GoogleApiClient;
+    iget-object v0, p0, Lkik/arcane/challenge/SafetyNetValidator;->c:Lcom/google/android/gms/common/api/GoogleApiClient;
 
     invoke-virtual {v0, p0}, Lcom/google/android/gms/common/api/GoogleApiClient;->unregisterConnectionCallbacks(Lcom/google/android/gms/common/api/GoogleApiClient$ConnectionCallbacks;)V
 
     .line 84
-    iget-object v0, p0, Lkik/android/challenge/SafetyNetValidator;->c:Lcom/google/android/gms/common/api/GoogleApiClient;
+    iget-object v0, p0, Lkik/arcane/challenge/SafetyNetValidator;->c:Lcom/google/android/gms/common/api/GoogleApiClient;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/GoogleApiClient;->disconnect()V
 
@@ -698,7 +698,7 @@
     packed-switch v0, :pswitch_data_1
 
     .line 249
-    sget-object v0, Lkik/android/challenge/SafetyNetValidator;->a:Lorg/slf4j/b;
+    sget-object v0, Lkik/arcane/challenge/SafetyNetValidator;->a:Lorg/slf4j/b;
 
     const-string v1, "method not found"
 
@@ -722,7 +722,7 @@
 
     .line 246
     :pswitch_1
-    invoke-direct {p0}, Lkik/android/challenge/SafetyNetValidator;->c()V
+    invoke-direct {p0}, Lkik/arcane/challenge/SafetyNetValidator;->c()V
 
     goto :goto_0
 
@@ -743,17 +743,17 @@
 
     .prologue
     .line 218
-    iget-boolean v0, p0, Lkik/android/challenge/SafetyNetValidator;->e:Z
+    iget-boolean v0, p0, Lkik/arcane/challenge/SafetyNetValidator;->e:Z
 
     if-eqz v0, :cond_0
 
     .line 219
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/challenge/SafetyNetValidator;->e:Z
+    iput-boolean v0, p0, Lkik/arcane/challenge/SafetyNetValidator;->e:Z
 
     .line 220
-    invoke-direct {p0}, Lkik/android/challenge/SafetyNetValidator;->c()V
+    invoke-direct {p0}, Lkik/arcane/challenge/SafetyNetValidator;->c()V
 
     .line 222
     :cond_0

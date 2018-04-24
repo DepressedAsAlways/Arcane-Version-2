@@ -1,9 +1,9 @@
-.class public Lkik/android/g/c;
+.class public Lkik/arcane/g/c;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/g/a;
+.implements Lkik/arcane/g/a;
 
 
 # static fields
@@ -11,7 +11,7 @@
 
 
 # instance fields
-.field private final b:Lkik/android/g/b;
+.field private final b:Lkik/arcane/g/b;
 
 .field private c:Ljava/lang/String;
 
@@ -22,18 +22,18 @@
 
     .prologue
     .line 16
-    const-class v0, Lkik/android/g/c;
+    const-class v0, Lkik/arcane/g/c;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/g/c;->a:Ljava/lang/String;
+    sput-object v0, Lkik/arcane/g/c;->a:Ljava/lang/String;
 
     return-void
 .end method
 
-.method public constructor <init>(Lkik/android/g/b;)V
+.method public constructor <init>(Lkik/arcane/g/b;)V
     .locals 1
 
     .prologue
@@ -43,16 +43,16 @@
     .line 20
     const-string v0, "0"
 
-    iput-object v0, p0, Lkik/android/g/c;->c:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/g/c;->c:Ljava/lang/String;
 
     .line 24
-    iput-object p1, p0, Lkik/android/g/c;->b:Lkik/android/g/b;
+    iput-object p1, p0, Lkik/arcane/g/c;->b:Lkik/arcane/g/b;
 
     .line 25
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/g/c;Lcom/kik/masksdata/rpc/MasksdataService$ListResponse;)Ljava/util/List;
+.method static synthetic a(Lkik/arcane/g/c;Lcom/kik/masksdata/rpc/MasksdataService$ListResponse;)Ljava/util/List;
     .locals 11
 
     .prologue
@@ -62,7 +62,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/g/c;->c:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/g/c;->c:Ljava/lang/String;
 
     .line 1035
     new-instance v3, Ljava/util/ArrayList;
@@ -98,9 +98,9 @@
     check-cast v0, Lcom/kik/masksdata/rpc/MasksdataService$MaskDetails;
 
     .line 1039
-    new-instance v5, Lkik/android/g/e$a;
+    new-instance v5, Lkik/arcane/g/e$a;
 
-    invoke-direct {v5}, Lkik/android/g/e$a;-><init>()V
+    invoke-direct {v5}, Lkik/arcane/g/e$a;-><init>()V
 
     .line 1040
     invoke-virtual {v0}, Lcom/kik/masksdata/rpc/MasksdataService$MaskDetails;->getId()Ljava/lang/String;
@@ -108,17 +108,17 @@
     move-result-object v2
 
     .line 1085
-    iget-object v6, v5, Lkik/android/g/e$a;->a:Lkik/android/g/e;
+    iget-object v6, v5, Lkik/arcane/g/e$a;->a:Lkik/arcane/g/e;
 
-    invoke-static {v6, v2}, Lkik/android/g/e;->a(Lkik/android/g/e;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v6, v2}, Lkik/arcane/g/e;->a(Lkik/arcane/g/e;Ljava/lang/String;)Ljava/lang/String;
 
     .line 1040
     add-int/lit8 v2, v1, 0x1
 
     .line 1091
-    iget-object v6, v5, Lkik/android/g/e$a;->a:Lkik/android/g/e;
+    iget-object v6, v5, Lkik/arcane/g/e$a;->a:Lkik/arcane/g/e;
 
-    invoke-static {v6, v1}, Lkik/android/g/e;->a(Lkik/android/g/e;I)I
+    invoke-static {v6, v1}, Lkik/arcane/g/e;->a(Lkik/arcane/g/e;I)I
 
     .line 1042
     invoke-virtual {v0}, Lcom/kik/masksdata/rpc/MasksdataService$MaskDetails;->getName()Ljava/lang/String;
@@ -126,9 +126,9 @@
     move-result-object v1
 
     .line 1097
-    iget-object v6, v5, Lkik/android/g/e$a;->a:Lkik/android/g/e;
+    iget-object v6, v5, Lkik/arcane/g/e$a;->a:Lkik/arcane/g/e;
 
-    invoke-static {v6, v1}, Lkik/android/g/e;->b(Lkik/android/g/e;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v6, v1}, Lkik/arcane/g/e;->b(Lkik/arcane/g/e;Ljava/lang/String;)Ljava/lang/String;
 
     .line 1043
     invoke-virtual {v0}, Lcom/kik/masksdata/rpc/MasksdataService$MaskDetails;->getRectangle()Lcom/kik/masksdata/rpc/MasksdataService$MaskDetails$Rectangle;
@@ -136,9 +136,9 @@
     move-result-object v1
 
     .line 1131
-    iget-object v6, v5, Lkik/android/g/e$a;->a:Lkik/android/g/e;
+    iget-object v6, v5, Lkik/arcane/g/e$a;->a:Lkik/arcane/g/e;
 
-    new-instance v7, Lkik/android/g/h;
+    new-instance v7, Lkik/arcane/g/h;
 
     invoke-virtual {v1}, Lcom/kik/masksdata/rpc/MasksdataService$MaskDetails$Rectangle;->getLeft()I
 
@@ -156,9 +156,9 @@
 
     move-result v1
 
-    invoke-direct {v7, v8, v9, v10, v1}, Lkik/android/g/h;-><init>(IIII)V
+    invoke-direct {v7, v8, v9, v10, v1}, Lkik/arcane/g/h;-><init>(IIII)V
 
-    invoke-static {v6, v7}, Lkik/android/g/e;->a(Lkik/android/g/e;Lkik/android/g/h;)Lkik/android/g/h;
+    invoke-static {v6, v7}, Lkik/arcane/g/e;->a(Lkik/arcane/g/e;Lkik/arcane/g/h;)Lkik/arcane/g/h;
 
     .line 1044
     invoke-virtual {v0}, Lcom/kik/masksdata/rpc/MasksdataService$MaskDetails;->getFrameCount()I
@@ -166,9 +166,9 @@
     move-result v1
 
     .line 2103
-    iget-object v6, v5, Lkik/android/g/e$a;->a:Lkik/android/g/e;
+    iget-object v6, v5, Lkik/arcane/g/e$a;->a:Lkik/arcane/g/e;
 
-    invoke-static {v6, v1}, Lkik/android/g/e;->b(Lkik/android/g/e;I)I
+    invoke-static {v6, v1}, Lkik/arcane/g/e;->b(Lkik/arcane/g/e;I)I
 
     .line 1045
     invoke-virtual {v0}, Lcom/kik/masksdata/rpc/MasksdataService$MaskDetails;->getFrameRate()I
@@ -176,9 +176,9 @@
     move-result v1
 
     .line 2138
-    iget-object v6, v5, Lkik/android/g/e$a;->a:Lkik/android/g/e;
+    iget-object v6, v5, Lkik/arcane/g/e$a;->a:Lkik/arcane/g/e;
 
-    invoke-static {v6, v1}, Lkik/android/g/e;->c(Lkik/android/g/e;I)I
+    invoke-static {v6, v1}, Lkik/arcane/g/e;->c(Lkik/arcane/g/e;I)I
 
     .line 1046
     invoke-virtual {v0}, Lcom/kik/masksdata/rpc/MasksdataService$MaskDetails;->getLoopCount()I
@@ -186,9 +186,9 @@
     move-result v1
 
     .line 2150
-    iget-object v6, v5, Lkik/android/g/e$a;->a:Lkik/android/g/e;
+    iget-object v6, v5, Lkik/arcane/g/e$a;->a:Lkik/arcane/g/e;
 
-    invoke-static {v6, v1}, Lkik/android/g/e;->d(Lkik/android/g/e;I)I
+    invoke-static {v6, v1}, Lkik/arcane/g/e;->d(Lkik/arcane/g/e;I)I
 
     .line 1047
     invoke-virtual {v0}, Lcom/kik/masksdata/rpc/MasksdataService$MaskDetails;->getSequenceOrderList()Ljava/util/List;
@@ -196,16 +196,16 @@
     move-result-object v1
 
     .line 3144
-    iget-object v6, v5, Lkik/android/g/e$a;->a:Lkik/android/g/e;
+    iget-object v6, v5, Lkik/arcane/g/e$a;->a:Lkik/arcane/g/e;
 
-    invoke-static {v6, v1}, Lkik/android/g/e;->a(Lkik/android/g/e;Ljava/util/List;)Ljava/util/List;
+    invoke-static {v6, v1}, Lkik/arcane/g/e;->a(Lkik/arcane/g/e;Ljava/util/List;)Ljava/util/List;
 
     .line 1048
     invoke-virtual {v0}, Lcom/kik/masksdata/rpc/MasksdataService$MaskDetails;->getThumbnailUrl()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {v5, v1}, Lkik/android/g/e$a;->a(Ljava/lang/String;)Lkik/android/g/e$a;
+    invoke-virtual {v5, v1}, Lkik/arcane/g/e$a;->a(Ljava/lang/String;)Lkik/arcane/g/e$a;
 
     move-result-object v1
 
@@ -214,12 +214,12 @@
 
     move-result-object v0
 
-    invoke-virtual {v1, v0}, Lkik/android/g/e$a;->b(Ljava/lang/String;)Lkik/android/g/e$a;
+    invoke-virtual {v1, v0}, Lkik/arcane/g/e$a;->b(Ljava/lang/String;)Lkik/arcane/g/e$a;
 
     move-result-object v0
 
     .line 3156
-    iget-object v0, v0, Lkik/android/g/e$a;->a:Lkik/android/g/e;
+    iget-object v0, v0, Lkik/arcane/g/e$a;->a:Lkik/arcane/g/e;
 
     .line 1039
     invoke-interface {v3, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -252,15 +252,15 @@
 
     .prologue
     .line 29
-    iget-object v0, p0, Lkik/android/g/c;->b:Lkik/android/g/b;
+    iget-object v0, p0, Lkik/arcane/g/c;->b:Lkik/arcane/g/b;
 
-    iget-object v1, p0, Lkik/android/g/c;->c:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/g/c;->c:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Lkik/android/g/b;->a(Ljava/lang/String;)Lcom/kik/events/Promise;
+    invoke-interface {v0, v1}, Lkik/arcane/g/b;->a(Ljava/lang/String;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/g/d;->a(Lkik/android/g/c;)Lcom/kik/events/p;
+    invoke-static {p0}, Lkik/arcane/g/d;->a(Lkik/arcane/g/c;)Lcom/kik/events/p;
 
     move-result-object v1
 

@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;
+.class public final Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/b",
         "<",
-        "Lkik/android/chat/vm/chats/publicgroups/q;",
+        "Lkik/arcane/chat/vm/chats/publicgroups/q;",
         ">;"
     }
 .end annotation
@@ -74,7 +74,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -87,7 +87,7 @@
 
     .prologue
     .line 13
-    const-class v0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;
+    const-class v0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;
 
     invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
 
@@ -98,7 +98,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    sput-boolean v0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->a:Z
+    sput-boolean v0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->a:Z
 
     return-void
 
@@ -133,7 +133,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;)V"
         }
     .end annotation
@@ -143,7 +143,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 35
-    sget-boolean v0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->a:Z
 
     if-nez v0, :cond_0
 
@@ -157,10 +157,10 @@
 
     .line 36
     :cond_0
-    iput-object p1, p0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->b:Ljavax/inject/Provider;
+    iput-object p1, p0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->b:Ljavax/inject/Provider;
 
     .line 37
-    sget-boolean v0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->a:Z
 
     if-nez v0, :cond_1
 
@@ -174,10 +174,10 @@
 
     .line 38
     :cond_1
-    iput-object p2, p0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->c:Ljavax/inject/Provider;
+    iput-object p2, p0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->c:Ljavax/inject/Provider;
 
     .line 39
-    sget-boolean v0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->a:Z
 
     if-nez v0, :cond_2
 
@@ -191,10 +191,10 @@
 
     .line 40
     :cond_2
-    iput-object p3, p0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->d:Ljavax/inject/Provider;
+    iput-object p3, p0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->d:Ljavax/inject/Provider;
 
     .line 41
-    sget-boolean v0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->a:Z
 
     if-nez v0, :cond_3
 
@@ -208,10 +208,10 @@
 
     .line 42
     :cond_3
-    iput-object p4, p0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->e:Ljavax/inject/Provider;
+    iput-object p4, p0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->e:Ljavax/inject/Provider;
 
     .line 43
-    sget-boolean v0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->a:Z
 
     if-nez v0, :cond_4
 
@@ -225,7 +225,7 @@
 
     .line 44
     :cond_4
-    iput-object p5, p0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->f:Ljavax/inject/Provider;
+    iput-object p5, p0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->f:Ljavax/inject/Provider;
 
     .line 45
     return-void
@@ -256,18 +256,18 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;)",
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/vm/chats/publicgroups/q;",
+            "Lkik/arcane/chat/vm/chats/publicgroups/q;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 53
-    new-instance v0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;
+    new-instance v0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;
 
     move-object v1, p0
 
@@ -279,7 +279,7 @@
 
     move-object v5, p4
 
-    invoke-direct/range {v0 .. v5}, Lkik/android/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
+    invoke-direct/range {v0 .. v5}, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
 
     return-object v0
 .end method
@@ -291,7 +291,7 @@
 
     .prologue
     .line 13
-    check-cast p1, Lkik/android/chat/vm/chats/publicgroups/q;
+    check-cast p1, Lkik/arcane/chat/vm/chats/publicgroups/q;
 
     .line 1063
     if-nez p1, :cond_0
@@ -307,7 +307,7 @@
 
     .line 1066
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->b:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->b:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -315,10 +315,10 @@
 
     check-cast v0, Lcom/kik/core/domain/a/c;
 
-    iput-object v0, p1, Lkik/android/chat/vm/chats/publicgroups/a;->a:Lcom/kik/core/domain/a/c;
+    iput-object v0, p1, Lkik/arcane/chat/vm/chats/publicgroups/a;->a:Lcom/kik/core/domain/a/c;
 
     .line 1067
-    iget-object v0, p0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->c:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->c:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -326,10 +326,10 @@
 
     check-cast v0, Landroid/content/res/Resources;
 
-    iput-object v0, p1, Lkik/android/chat/vm/chats/publicgroups/q;->b:Landroid/content/res/Resources;
+    iput-object v0, p1, Lkik/arcane/chat/vm/chats/publicgroups/q;->b:Landroid/content/res/Resources;
 
     .line 1068
-    iget-object v0, p0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->d:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->d:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -337,10 +337,10 @@
 
     check-cast v0, Lkik/core/interfaces/af;
 
-    iput-object v0, p1, Lkik/android/chat/vm/chats/publicgroups/q;->c:Lkik/core/interfaces/af;
+    iput-object v0, p1, Lkik/arcane/chat/vm/chats/publicgroups/q;->c:Lkik/core/interfaces/af;
 
     .line 1069
-    iget-object v0, p0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->e:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->e:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -348,18 +348,18 @@
 
     check-cast v0, Lkik/core/interfaces/b;
 
-    iput-object v0, p1, Lkik/android/chat/vm/chats/publicgroups/q;->d:Lkik/core/interfaces/b;
+    iput-object v0, p1, Lkik/arcane/chat/vm/chats/publicgroups/q;->d:Lkik/core/interfaces/b;
 
     .line 1070
-    iget-object v0, p0, Lkik/android/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->f:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/publicgroups/PublicGroupRelatedItemViewModel_MembersInjector;->f:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/Mixpanel;
+    check-cast v0, Lcom/kik/arcane/Mixpanel;
 
-    iput-object v0, p1, Lkik/android/chat/vm/chats/publicgroups/q;->e:Lcom/kik/android/Mixpanel;
+    iput-object v0, p1, Lkik/arcane/chat/vm/chats/publicgroups/q;->e:Lcom/kik/arcane/Mixpanel;
 
     .line 13
     return-void

@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/fragment/KikGroupMembersListFragment$a;
-.super Lkik/android/util/ae;
+.class public final Lkik/arcane/chat/fragment/KikGroupMembersListFragment$a;
+.super Lkik/arcane/util/ae;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    value = Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,21 +20,21 @@
 
     .prologue
     .line 807
-    invoke-direct {p0}, Lkik/android/util/ae;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/util/ae;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Ljava/lang/String;)Lkik/android/chat/fragment/KikGroupMembersListFragment$a;
+.method public final a(Ljava/lang/String;)Lkik/arcane/chat/fragment/KikGroupMembersListFragment$a;
     .locals 1
 
     .prologue
     .line 813
     const-string v0, "KikGroupMembersListFragment.groupJid"
 
-    invoke-virtual {p0, v0, p1}, Lkik/android/chat/fragment/KikGroupMembersListFragment$a;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, p1}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$a;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 814
     return-object p0
@@ -47,7 +47,7 @@
     .line 819
     const-string v0, "KikGroupMembersListFragment.groupJid"
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/KikGroupMembersListFragment$a;->h(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$a;->h(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

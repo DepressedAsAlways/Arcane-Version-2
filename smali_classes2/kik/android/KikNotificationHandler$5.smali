@@ -1,4 +1,4 @@
-.class final Lkik/android/KikNotificationHandler$5;
+.class final Lkik/arcane/KikNotificationHandler$5;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/KikNotificationHandler;
+    value = Lkik/arcane/KikNotificationHandler;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/KikNotificationHandler;
+.field final synthetic a:Lkik/arcane/KikNotificationHandler;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/KikNotificationHandler;)V
+.method constructor <init>(Lkik/arcane/KikNotificationHandler;)V
     .locals 0
 
     .prologue
     .line 209
-    iput-object p1, p0, Lkik/android/KikNotificationHandler$5;->a:Lkik/android/KikNotificationHandler;
+    iput-object p1, p0, Lkik/arcane/KikNotificationHandler$5;->a:Lkik/arcane/KikNotificationHandler;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,18 +52,18 @@
     .prologue
     .line 209
     .line 1213
-    iget-object v0, p0, Lkik/android/KikNotificationHandler$5;->a:Lkik/android/KikNotificationHandler;
+    iget-object v0, p0, Lkik/arcane/KikNotificationHandler$5;->a:Lkik/arcane/KikNotificationHandler;
 
-    invoke-static {v0}, Lkik/android/KikNotificationHandler;->c(Lkik/android/KikNotificationHandler;)Lcom/kik/events/Promise;
+    invoke-static {v0}, Lkik/arcane/KikNotificationHandler;->c(Lkik/arcane/KikNotificationHandler;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
     .line 1214
-    iget-object v0, p0, Lkik/android/KikNotificationHandler$5;->a:Lkik/android/KikNotificationHandler;
+    iget-object v0, p0, Lkik/arcane/KikNotificationHandler$5;->a:Lkik/arcane/KikNotificationHandler;
 
-    invoke-static {v0}, Lkik/android/KikNotificationHandler;->c(Lkik/android/KikNotificationHandler;)Lcom/kik/events/Promise;
+    invoke-static {v0}, Lkik/arcane/KikNotificationHandler;->c(Lkik/arcane/KikNotificationHandler;)Lcom/kik/events/Promise;
 
     move-result-object v0
 

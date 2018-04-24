@@ -1,11 +1,11 @@
-.class final Lkik/android/b/d$2;
+.class final Lkik/arcane/b/d$2;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/b/d;->a(Ljava/util/List;Ljava/lang/String;)Lcom/kik/events/Promise;
+    value = Lkik/arcane/b/d;->a(Ljava/util/List;Ljava/lang/String;)Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,20 +28,20 @@
 
 .field final synthetic b:Ljava/util/List;
 
-.field final synthetic c:Lkik/android/b/d;
+.field final synthetic c:Lkik/arcane/b/d;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/b/d;Lcom/kik/events/Promise;Ljava/util/List;)V
+.method constructor <init>(Lkik/arcane/b/d;Lcom/kik/events/Promise;Ljava/util/List;)V
     .locals 0
 
     .prologue
     .line 176
-    iput-object p1, p0, Lkik/android/b/d$2;->c:Lkik/android/b/d;
+    iput-object p1, p0, Lkik/arcane/b/d$2;->c:Lkik/arcane/b/d;
 
-    iput-object p2, p0, Lkik/android/b/d$2;->a:Lcom/kik/events/Promise;
+    iput-object p2, p0, Lkik/arcane/b/d$2;->a:Lcom/kik/events/Promise;
 
-    iput-object p3, p0, Lkik/android/b/d$2;->b:Ljava/util/List;
+    iput-object p3, p0, Lkik/arcane/b/d$2;->b:Ljava/util/List;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -61,7 +61,7 @@
     invoke-super {p0, p1}, Lcom/kik/events/k;->a(Ljava/lang/Object;)V
 
     .line 1181
-    iget-object v0, p0, Lkik/android/b/d$2;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/b/d$2;->a:Lcom/kik/events/Promise;
 
     new-instance v1, Landroid/os/Bundle;
 
@@ -70,13 +70,13 @@
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Ljava/lang/Object;)V
 
     .line 1182
-    iget-object v0, p0, Lkik/android/b/d$2;->c:Lkik/android/b/d;
+    iget-object v0, p0, Lkik/arcane/b/d$2;->c:Lkik/arcane/b/d;
 
-    iget-object v1, p0, Lkik/android/b/d$2;->b:Ljava/util/List;
+    iget-object v1, p0, Lkik/arcane/b/d$2;->b:Ljava/util/List;
 
-    iget-object v2, p0, Lkik/android/b/d$2;->c:Lkik/android/b/d;
+    iget-object v2, p0, Lkik/arcane/b/d$2;->c:Lkik/arcane/b/d;
 
-    invoke-static {v2}, Lkik/android/b/d;->c(Lkik/android/b/d;)Lcom/kik/cards/web/r;
+    invoke-static {v2}, Lkik/arcane/b/d;->c(Lkik/arcane/b/d;)Lcom/kik/cards/web/r;
 
     move-result-object v2
 
@@ -84,7 +84,7 @@
 
     move-result-object v2
 
-    invoke-static {v0, p1, v1, v2}, Lkik/android/b/d;->a(Lkik/android/b/d;Lkik/core/datatypes/l;Ljava/util/List;Lcom/kik/ui/fragment/FragmentBase$FragmentBundle$StackType;)V
+    invoke-static {v0, p1, v1, v2}, Lkik/arcane/b/d;->a(Lkik/arcane/b/d;Lkik/core/datatypes/l;Ljava/util/List;Lcom/kik/ui/fragment/FragmentBase$FragmentBundle$StackType;)V
 
     .line 176
     return-void
@@ -98,7 +98,7 @@
     invoke-super {p0, p1}, Lcom/kik/events/k;->a(Ljava/lang/Throwable;)V
 
     .line 189
-    iget-object v0, p0, Lkik/android/b/d$2;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/b/d$2;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {v0, p1}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 
@@ -114,18 +114,18 @@
     invoke-super {p0}, Lcom/kik/events/k;->b()V
 
     .line 196
-    iget-object v0, p0, Lkik/android/b/d$2;->c:Lkik/android/b/d;
+    iget-object v0, p0, Lkik/arcane/b/d$2;->c:Lkik/arcane/b/d;
 
-    invoke-static {v0}, Lkik/android/b/d;->f(Lkik/android/b/d;)Lcom/kik/cards/web/f;
+    invoke-static {v0}, Lkik/arcane/b/d;->f(Lkik/arcane/b/d;)Lcom/kik/cards/web/f;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
     .line 197
-    iget-object v0, p0, Lkik/android/b/d$2;->c:Lkik/android/b/d;
+    iget-object v0, p0, Lkik/arcane/b/d$2;->c:Lkik/arcane/b/d;
 
-    invoke-static {v0}, Lkik/android/b/d;->f(Lkik/android/b/d;)Lcom/kik/cards/web/f;
+    invoke-static {v0}, Lkik/arcane/b/d;->f(Lkik/arcane/b/d;)Lcom/kik/cards/web/f;
 
     move-result-object v0
 

@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/CircleCroppedImageView;
+.class public Lkik/arcane/widget/CircleCroppedImageView;
 .super Landroid/support/v7/widget/AppCompatImageView;
 .source "SourceFile"
 
@@ -20,7 +20,7 @@
     .line 35
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/widget/CircleCroppedImageView;->b:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/CircleCroppedImageView;->b:Z
 
     .line 40
     return-void
@@ -36,7 +36,7 @@
     .line 35
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/widget/CircleCroppedImageView;->b:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/CircleCroppedImageView;->b:Z
 
     .line 45
     return-void
@@ -52,13 +52,13 @@
     .line 35
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/widget/CircleCroppedImageView;->b:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/CircleCroppedImageView;->b:Z
 
     .line 50
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/CircleCroppedImageView;Lrx/d;)V
+.method public static a(Lkik/arcane/widget/CircleCroppedImageView;Lrx/d;)V
     .locals 2
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -69,7 +69,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/CircleCroppedImageView;",
+            "Lkik/arcane/widget/CircleCroppedImageView;",
             "Lrx/d",
             "<",
             "Ljava/lang/Boolean;",
@@ -83,7 +83,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/widget/p;->a(Lkik/android/widget/CircleCroppedImageView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/p;->a(Lkik/arcane/widget/CircleCroppedImageView;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -93,18 +93,18 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/CircleCroppedImageView;Z)V
+.method static synthetic a(Lkik/arcane/widget/CircleCroppedImageView;Z)V
     .locals 1
 
     .prologue
     .line 0
     .line 1073
-    iput-boolean p1, p0, Lkik/android/widget/CircleCroppedImageView;->b:Z
+    iput-boolean p1, p0, Lkik/arcane/widget/CircleCroppedImageView;->b:Z
 
     .line 1074
-    iget-object v0, p0, Lkik/android/widget/CircleCroppedImageView;->a:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/CircleCroppedImageView;->a:Landroid/graphics/Bitmap;
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/CircleCroppedImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/CircleCroppedImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     .line 0
     return-void
@@ -117,37 +117,37 @@
 
     .prologue
     .line 55
-    iget-boolean v0, p0, Lkik/android/widget/CircleCroppedImageView;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/CircleCroppedImageView;->b:Z
 
     if-eqz v0, :cond_1
 
     .line 56
-    new-instance v0, Lkik/android/widget/q;
+    new-instance v0, Lkik/arcane/widget/q;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p1, v1}, Lkik/android/widget/q;-><init>(Landroid/graphics/Bitmap;Ljava/lang/String;)V
+    invoke-direct {v0, p1, v1}, Lkik/arcane/widget/q;-><init>(Landroid/graphics/Bitmap;Ljava/lang/String;)V
 
     .line 57
-    invoke-virtual {v0, p0}, Lkik/android/widget/q;->setCallback(Landroid/graphics/drawable/Drawable$Callback;)V
+    invoke-virtual {v0, p0}, Lkik/arcane/widget/q;->setCallback(Landroid/graphics/drawable/Drawable$Callback;)V
 
     .line 59
-    iget-object v1, p0, Lkik/android/widget/CircleCroppedImageView;->a:Landroid/graphics/Bitmap;
+    iget-object v1, p0, Lkik/arcane/widget/CircleCroppedImageView;->a:Landroid/graphics/Bitmap;
 
     if-eqz v1, :cond_0
 
     .line 60
-    iget-object v1, p0, Lkik/android/widget/CircleCroppedImageView;->a:Landroid/graphics/Bitmap;
+    iget-object v1, p0, Lkik/arcane/widget/CircleCroppedImageView;->a:Landroid/graphics/Bitmap;
 
-    invoke-virtual {v0, v1, p1}, Lkik/android/widget/q;->a(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;)V
+    invoke-virtual {v0, v1, p1}, Lkik/arcane/widget/q;->a(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;)V
 
     .line 63
     :cond_0
-    invoke-virtual {p0, v0}, Lkik/android/widget/CircleCroppedImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/CircleCroppedImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 68
     :goto_0
-    iput-object p1, p0, Lkik/android/widget/CircleCroppedImageView;->a:Landroid/graphics/Bitmap;
+    iput-object p1, p0, Lkik/arcane/widget/CircleCroppedImageView;->a:Landroid/graphics/Bitmap;
 
     .line 69
     return-void

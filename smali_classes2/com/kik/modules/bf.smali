@@ -111,7 +111,7 @@
 
     .prologue
     .line 1075
-    invoke-static {}, Lkik/android/b/c;->a()Lcom/kik/cache/KikVolleyImageLoader;
+    invoke-static {}, Lkik/arcane/b/c;->a()Lcom/kik/cache/KikVolleyImageLoader;
 
     move-result-object v0
 

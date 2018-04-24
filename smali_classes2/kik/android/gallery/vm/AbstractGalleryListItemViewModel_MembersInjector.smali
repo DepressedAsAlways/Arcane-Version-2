@@ -1,4 +1,4 @@
-.class public final Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;
+.class public final Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/b",
         "<",
-        "Lkik/android/gallery/vm/a;",
+        "Lkik/arcane/gallery/vm/a;",
         ">;"
     }
 .end annotation
@@ -39,7 +39,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -107,7 +107,7 @@
 
     .prologue
     .line 14
-    const-class v0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;
+    const-class v0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;
 
     invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
 
@@ -118,7 +118,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    sput-boolean v0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->a:Z
+    sput-boolean v0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->a:Z
 
     return-void
 
@@ -139,7 +139,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -169,7 +169,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 42
-    sget-boolean v0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->a:Z
 
     if-nez v0, :cond_0
 
@@ -183,10 +183,10 @@
 
     .line 43
     :cond_0
-    iput-object p1, p0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->b:Ljavax/inject/Provider;
+    iput-object p1, p0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->b:Ljavax/inject/Provider;
 
     .line 44
-    sget-boolean v0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->a:Z
 
     if-nez v0, :cond_1
 
@@ -200,10 +200,10 @@
 
     .line 45
     :cond_1
-    iput-object p2, p0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->c:Ljavax/inject/Provider;
+    iput-object p2, p0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->c:Ljavax/inject/Provider;
 
     .line 46
-    sget-boolean v0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->a:Z
 
     if-nez v0, :cond_2
 
@@ -217,10 +217,10 @@
 
     .line 47
     :cond_2
-    iput-object p3, p0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->d:Ljavax/inject/Provider;
+    iput-object p3, p0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->d:Ljavax/inject/Provider;
 
     .line 48
-    sget-boolean v0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->a:Z
 
     if-nez v0, :cond_3
 
@@ -234,10 +234,10 @@
 
     .line 49
     :cond_3
-    iput-object p4, p0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->e:Ljavax/inject/Provider;
+    iput-object p4, p0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->e:Ljavax/inject/Provider;
 
     .line 50
-    sget-boolean v0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->a:Z
 
     if-nez v0, :cond_4
 
@@ -251,10 +251,10 @@
 
     .line 51
     :cond_4
-    iput-object p5, p0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->f:Ljavax/inject/Provider;
+    iput-object p5, p0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->f:Ljavax/inject/Provider;
 
     .line 52
-    sget-boolean v0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->a:Z
 
     if-nez v0, :cond_5
 
@@ -268,10 +268,10 @@
 
     .line 53
     :cond_5
-    iput-object p6, p0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->g:Ljavax/inject/Provider;
+    iput-object p6, p0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->g:Ljavax/inject/Provider;
 
     .line 54
-    sget-boolean v0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->a:Z
 
     if-nez v0, :cond_6
 
@@ -285,7 +285,7 @@
 
     .line 55
     :cond_6
-    iput-object p7, p0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->h:Ljavax/inject/Provider;
+    iput-object p7, p0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->h:Ljavax/inject/Provider;
 
     .line 56
     return-void
@@ -302,7 +302,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -326,14 +326,14 @@
             ">;)",
             "Ldagger/b",
             "<",
-            "Lkik/android/gallery/vm/a;",
+            "Lkik/arcane/gallery/vm/a;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 66
-    new-instance v0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;
+    new-instance v0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;
 
     move-object v1, p0
 
@@ -349,7 +349,7 @@
 
     move-object v7, p6
 
-    invoke-direct/range {v0 .. v7}, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
+    invoke-direct/range {v0 .. v7}, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
 
     return-object v0
 .end method
@@ -361,7 +361,7 @@
 
     .prologue
     .line 14
-    check-cast p1, Lkik/android/gallery/vm/a;
+    check-cast p1, Lkik/arcane/gallery/vm/a;
 
     .line 1078
     if-nez p1, :cond_0
@@ -377,7 +377,7 @@
 
     .line 1081
     :cond_0
-    iget-object v0, p0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->b:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->b:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -385,21 +385,21 @@
 
     check-cast v0, Lcom/kik/cache/KikVolleyImageLoader;
 
-    iput-object v0, p1, Lkik/android/gallery/vm/a;->a:Lcom/kik/cache/KikVolleyImageLoader;
+    iput-object v0, p1, Lkik/arcane/gallery/vm/a;->a:Lcom/kik/cache/KikVolleyImageLoader;
 
     .line 1082
-    iget-object v0, p0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->c:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->c:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/Mixpanel;
+    check-cast v0, Lcom/kik/arcane/Mixpanel;
 
-    iput-object v0, p1, Lkik/android/gallery/vm/a;->b:Lcom/kik/android/Mixpanel;
+    iput-object v0, p1, Lkik/arcane/gallery/vm/a;->b:Lcom/kik/arcane/Mixpanel;
 
     .line 1083
-    iget-object v0, p0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->d:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->d:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -407,10 +407,10 @@
 
     check-cast v0, Lkik/core/interfaces/ad;
 
-    iput-object v0, p1, Lkik/android/gallery/vm/a;->c:Lkik/core/interfaces/ad;
+    iput-object v0, p1, Lkik/arcane/gallery/vm/a;->c:Lkik/core/interfaces/ad;
 
     .line 1084
-    iget-object v0, p0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->e:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->e:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -418,10 +418,10 @@
 
     check-cast v0, Lcom/kik/storage/s;
 
-    iput-object v0, p1, Lkik/android/gallery/vm/a;->d:Lcom/kik/storage/s;
+    iput-object v0, p1, Lkik/arcane/gallery/vm/a;->d:Lcom/kik/storage/s;
 
     .line 1085
-    iget-object v0, p0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->f:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->f:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -429,10 +429,10 @@
 
     check-cast v0, Landroid/content/res/Resources;
 
-    iput-object v0, p1, Lkik/android/gallery/vm/a;->e:Landroid/content/res/Resources;
+    iput-object v0, p1, Lkik/arcane/gallery/vm/a;->e:Landroid/content/res/Resources;
 
     .line 1086
-    iget-object v0, p0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->g:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->g:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -440,10 +440,10 @@
 
     check-cast v0, Lkik/core/interfaces/b;
 
-    iput-object v0, p1, Lkik/android/gallery/vm/a;->f:Lkik/core/interfaces/b;
+    iput-object v0, p1, Lkik/arcane/gallery/vm/a;->f:Lkik/core/interfaces/b;
 
     .line 1087
-    iget-object v0, p0, Lkik/android/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->h:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/AbstractGalleryListItemViewModel_MembersInjector;->h:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -451,7 +451,7 @@
 
     check-cast v0, Lcom/rounds/kik/analytics/IReporter;
 
-    iput-object v0, p1, Lkik/android/gallery/vm/a;->g:Lcom/rounds/kik/analytics/IReporter;
+    iput-object v0, p1, Lkik/arcane/gallery/vm/a;->g:Lcom/rounds/kik/analytics/IReporter;
 
     .line 14
     return-void

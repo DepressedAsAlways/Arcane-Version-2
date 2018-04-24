@@ -1,4 +1,4 @@
-.class public final Lkik/android/widget/de;
+.class public final Lkik/arcane/widget/de;
 .super Landroid/support/v7/widget/RecyclerView$ViewHolder;
 .source "SourceFile"
 

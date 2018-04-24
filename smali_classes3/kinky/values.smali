@@ -41,11 +41,11 @@
     .locals 2
 
     .prologue
-    sget-object v0, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
-    iget-object v1, v0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iget-object v1, v0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
-    invoke-virtual {v1}, Lkik/android/util/bp;->b()Landroid/content/SharedPreferences;
+    invoke-virtual {v1}, Lkik/arcane/util/bp;->b()Landroid/content/SharedPreferences;
 
     move-result-object v0
 

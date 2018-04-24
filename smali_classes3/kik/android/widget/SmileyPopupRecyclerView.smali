@@ -1,25 +1,25 @@
-.class public Lkik/android/widget/SmileyPopupRecyclerView;
-.super Lkik/android/widget/MaximumDimensionRecyclerView;
+.class public Lkik/arcane/widget/SmileyPopupRecyclerView;
+.super Lkik/arcane/widget/MaximumDimensionRecyclerView;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/widget/dn$a;
+.implements Lkik/arcane/widget/dn$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/SmileyPopupRecyclerView$a;
+        Lkik/arcane/widget/SmileyPopupRecyclerView$a;
     }
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkik/android/widget/MaximumDimensionRecyclerView;",
-        "Lkik/android/widget/dn$a",
+        "Lkik/arcane/widget/MaximumDimensionRecyclerView;",
+        "Lkik/arcane/widget/dn$a",
         "<",
-        "Lkik/android/chat/vm/widget/ISmileyPopupItemViewModel;",
-        "Lkik/android/widget/dn$c;",
+        "Lkik/arcane/chat/vm/widget/ISmileyPopupItemViewModel;",
+        "Lkik/arcane/widget/dn$c;",
         ">;"
     }
 .end annotation
@@ -31,7 +31,7 @@
 
     .prologue
     .line 30
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/MaximumDimensionRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/MaximumDimensionRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 31
     return-void
@@ -44,16 +44,16 @@
 
     .prologue
     .line 18
-    check-cast p1, Lkik/android/chat/vm/widget/ISmileyPopupItemViewModel;
+    check-cast p1, Lkik/arcane/chat/vm/widget/ISmileyPopupItemViewModel;
 
     .line 2036
-    invoke-interface {p1}, Lkik/android/chat/vm/widget/ISmileyPopupItemViewModel;->ah_()J
+    invoke-interface {p1}, Lkik/arcane/chat/vm/widget/ISmileyPopupItemViewModel;->ah_()J
 
     move-result-wide v0
 
-    sget-object v2, Lkik/android/chat/vm/widget/ISmileyPopupItemViewModel$PopupItemID;->SMILEY:Lkik/android/chat/vm/widget/ISmileyPopupItemViewModel$PopupItemID;
+    sget-object v2, Lkik/arcane/chat/vm/widget/ISmileyPopupItemViewModel$PopupItemID;->SMILEY:Lkik/arcane/chat/vm/widget/ISmileyPopupItemViewModel$PopupItemID;
 
-    invoke-virtual {v2}, Lkik/android/chat/vm/widget/ISmileyPopupItemViewModel$PopupItemID;->getId()J
+    invoke-virtual {v2}, Lkik/arcane/chat/vm/widget/ISmileyPopupItemViewModel$PopupItemID;->getId()J
 
     move-result-wide v2
 
@@ -93,18 +93,18 @@
     if-ne p3, v0, :cond_0
 
     .line 1050
-    new-instance v0, Lkik/android/widget/SmileyRecyclerView$a;
+    new-instance v0, Lkik/arcane/widget/SmileyRecyclerView$a;
 
-    invoke-direct {v0, v1}, Lkik/android/widget/SmileyRecyclerView$a;-><init>(Landroid/databinding/ViewDataBinding;)V
+    invoke-direct {v0, v1}, Lkik/arcane/widget/SmileyRecyclerView$a;-><init>(Landroid/databinding/ViewDataBinding;)V
 
     :goto_0
     return-object v0
 
     .line 1053
     :cond_0
-    new-instance v0, Lkik/android/widget/SmileyPopupRecyclerView$a;
+    new-instance v0, Lkik/arcane/widget/SmileyPopupRecyclerView$a;
 
-    invoke-direct {v0, p0, v1}, Lkik/android/widget/SmileyPopupRecyclerView$a;-><init>(Lkik/android/widget/SmileyPopupRecyclerView;Landroid/databinding/ViewDataBinding;)V
+    invoke-direct {v0, p0, v1}, Lkik/arcane/widget/SmileyPopupRecyclerView$a;-><init>(Lkik/arcane/widget/SmileyPopupRecyclerView;Landroid/databinding/ViewDataBinding;)V
 
     goto :goto_0
 .end method

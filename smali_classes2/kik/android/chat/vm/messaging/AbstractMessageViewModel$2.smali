@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/vm/messaging/AbstractMessageViewModel$2;
+.class final Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$2;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/messaging/AbstractMessageViewModel;
+    value = Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,18 +26,18 @@
 # instance fields
 .field final synthetic a:Ljava/lang/String;
 
-.field final synthetic b:Lkik/android/chat/vm/messaging/AbstractMessageViewModel;
+.field final synthetic b:Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/messaging/AbstractMessageViewModel;Ljava/lang/String;)V
+.method constructor <init>(Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;Ljava/lang/String;)V
     .locals 0
 
     .prologue
     .line 216
-    iput-object p1, p0, Lkik/android/chat/vm/messaging/AbstractMessageViewModel$2;->b:Lkik/android/chat/vm/messaging/AbstractMessageViewModel;
+    iput-object p1, p0, Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$2;->b:Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;
 
-    iput-object p2, p0, Lkik/android/chat/vm/messaging/AbstractMessageViewModel$2;->a:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$2;->a:Ljava/lang/String;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -54,17 +54,17 @@
     check-cast p1, Ljava/lang/Boolean;
 
     .line 1220
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/AbstractMessageViewModel$2;->b:Lkik/android/chat/vm/messaging/AbstractMessageViewModel;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$2;->b:Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;
 
-    invoke-static {v0}, Lkik/android/chat/vm/messaging/AbstractMessageViewModel;->f(Lkik/android/chat/vm/messaging/AbstractMessageViewModel;)Lkik/android/chat/vm/bd;
+    invoke-static {v0}, Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;->f(Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;)Lkik/arcane/chat/vm/bd;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/chat/vm/messaging/AbstractMessageViewModel$2$1;
+    new-instance v1, Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$2$1;
 
-    invoke-direct {v1, p0, p1}, Lkik/android/chat/vm/messaging/AbstractMessageViewModel$2$1;-><init>(Lkik/android/chat/vm/messaging/AbstractMessageViewModel$2;Ljava/lang/Boolean;)V
+    invoke-direct {v1, p0, p1}, Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$2$1;-><init>(Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$2;Ljava/lang/Boolean;)V
 
-    invoke-interface {v0, v1}, Lkik/android/chat/vm/bd;->a(Lkik/android/chat/vm/bi;)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/vm/bd;->a(Lkik/arcane/chat/vm/bi;)V
 
     .line 216
     return-void

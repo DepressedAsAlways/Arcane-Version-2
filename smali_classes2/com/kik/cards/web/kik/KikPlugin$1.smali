@@ -110,7 +110,7 @@
 
     .prologue
     .line 130
-    invoke-static {}, Lkik/android/util/bu;->a()V
+    invoke-static {}, Lkik/arcane/util/bu;->a()V
 
     .line 131
     iget-object v0, p0, Lcom/kik/cards/web/kik/KikPlugin$1;->c:Lcom/kik/cards/web/plugin/a;

@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/gifs/vm/bi;
+.class final synthetic Lkik/arcane/gifs/vm/bi;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/gifs/vm/bi;
+.field private static final a:Lkik/arcane/gifs/vm/bi;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/gifs/vm/bi;
+    new-instance v0, Lkik/arcane/gifs/vm/bi;
 
-    invoke-direct {v0}, Lkik/android/gifs/vm/bi;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/gifs/vm/bi;-><init>()V
 
-    sput-object v0, Lkik/android/gifs/vm/bi;->a:Lkik/android/gifs/vm/bi;
+    sput-object v0, Lkik/arcane/gifs/vm/bi;->a:Lkik/arcane/gifs/vm/bi;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lrx/functions/j;
     .locals 1
 
-    sget-object v0, Lkik/android/gifs/vm/bi;->a:Lkik/android/gifs/vm/bi;
+    sget-object v0, Lkik/arcane/gifs/vm/bi;->a:Lkik/arcane/gifs/vm/bi;
 
     return-object v0
 .end method
@@ -51,7 +51,7 @@
 
     check-cast p3, Ljava/lang/Boolean;
 
-    check-cast p4, Lkik/android/widget/GifTrayPage;
+    check-cast p4, Lkik/arcane/widget/GifTrayPage;
 
     .line 1196
     invoke-virtual {p3}, Ljava/lang/Boolean;->booleanValue()Z
@@ -66,13 +66,13 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {p2}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {p2}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    sget-object v0, Lkik/android/widget/GifTrayPage;->FAVOURITES:Lkik/android/widget/GifTrayPage;
+    sget-object v0, Lkik/arcane/widget/GifTrayPage;->FAVOURITES:Lkik/arcane/widget/GifTrayPage;
 
     if-ne p4, v0, :cond_0
 

@@ -1,10 +1,10 @@
-.class public Lkik/android/widget/preferences/WebHistoryPreference;
-.super Lkik/android/widget/preferences/KikPreference;
+.class public Lkik/arcane/widget/preferences/WebHistoryPreference;
+.super Lkik/arcane/widget/preferences/KikPreference;
 .source "SourceFile"
 
 
 # instance fields
-.field a:Lcom/kik/android/Mixpanel;
+.field a:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -18,7 +18,7 @@
     .line 33
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/preferences/KikPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/preferences/KikPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
 
     .line 34
     return-void
@@ -31,7 +31,7 @@
     .line 28
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, p3, v0}, Lkik/android/widget/preferences/KikPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
+    invoke-direct {p0, p1, p2, p3, v0}, Lkik/arcane/widget/preferences/KikPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
 
     .line 29
     return-void
@@ -44,7 +44,7 @@
 
     .prologue
     .line 39
-    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/widget/preferences/WebHistoryPreference;)V
+    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/widget/preferences/WebHistoryPreference;)V
 
     .line 40
     return-void
@@ -55,11 +55,11 @@
 
     .prologue
     .line 45
-    iget-object v0, p0, Lkik/android/widget/preferences/WebHistoryPreference;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/WebHistoryPreference;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Browser Screen Opened"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -68,7 +68,7 @@
     const-string v2, "Settings"
 
     .line 46
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -77,7 +77,7 @@
     const-string v2, "https://home.kik.com/"
 
     .line 47
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -90,36 +90,36 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Depth"
 
     .line 49
-    invoke-static {}, Lkik/android/chat/activity/KActivityLauncher;->f()I
+    invoke-static {}, Lkik/arcane/chat/activity/KActivityLauncher;->f()I
 
     move-result v2
 
     int-to-long v2, v2
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 50
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 52
-    iget-object v0, p0, Lkik/android/widget/preferences/WebHistoryPreference;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/WebHistoryPreference;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Browser Button Tapped"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 54
     new-instance v0, Lcom/kik/cards/web/CardsWebViewFragment$a;
@@ -152,11 +152,11 @@
     move-result-object v0
 
     .line 65
-    invoke-virtual {p0}, Lkik/android/widget/preferences/WebHistoryPreference;->a()Lkik/android/chat/fragment/KikScopedDialogFragment;
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/WebHistoryPreference;->a()Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lkik/android/chat/fragment/KikScopedDialogFragment;->startFragmentForResult(Lkik/android/util/ae;)Lcom/kik/events/Promise;
+    invoke-virtual {v1, v0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->startFragmentForResult(Lkik/arcane/util/ae;)Lcom/kik/events/Promise;
 
     .line 66
     const/4 v0, 0x0

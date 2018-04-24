@@ -1,12 +1,12 @@
-.class public Lkik/android/videochat/RatingDialogFragment;
-.super Lkik/android/chat/fragment/KikDialogFragment;
+.class public Lkik/arcane/videochat/RatingDialogFragment;
+.super Lkik/arcane/chat/fragment/KikDialogFragment;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/videochat/RatingDialogFragment$Builder;
+        Lkik/arcane/videochat/RatingDialogFragment$Builder;
     }
 .end annotation
 
@@ -21,12 +21,12 @@
 
     .prologue
     .line 23
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikDialogFragment;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikDialogFragment;-><init>()V
 
     .line 25
     const/4 v0, -0x1
 
-    iput v0, p0, Lkik/android/videochat/RatingDialogFragment;->g:I
+    iput v0, p0, Lkik/arcane/videochat/RatingDialogFragment;->g:I
 
     return-void
 .end method
@@ -38,7 +38,7 @@
 
     .prologue
     .line 30
-    invoke-super {p0}, Lkik/android/chat/fragment/KikDialogFragment;->getDialog()Landroid/app/Dialog;
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikDialogFragment;->getDialog()Landroid/app/Dialog;
 
     move-result-object v1
 
@@ -64,7 +64,7 @@
     if-eqz v2, :cond_0
 
     .line 36
-    iget v0, p0, Lkik/android/videochat/RatingDialogFragment;->g:I
+    iget v0, p0, Lkik/arcane/videochat/RatingDialogFragment;->g:I
 
     if-lez v0, :cond_1
 

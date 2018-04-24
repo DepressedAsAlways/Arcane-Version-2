@@ -65,7 +65,7 @@
     .line 25
     const/high16 v0, 0x42200000    # 40.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
@@ -103,7 +103,7 @@
     .line 37
     const/high16 v0, 0x41800000    # 16.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
@@ -301,7 +301,7 @@
     .line 65
     const/high16 v2, 0x41100000    # 9.0f
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 

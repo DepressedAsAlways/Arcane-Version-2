@@ -1,11 +1,11 @@
-.class public interface abstract Lkik/android/chat/presentation/bp$a;
+.class public interface abstract Lkik/arcane/chat/presentation/bp$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/presentation/bp;
+    value = Lkik/arcane/chat/presentation/bp;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,5 +24,5 @@
 .method public abstract a(Ljava/lang/String;)V
 .end method
 
-.method public abstract a(Ljava/lang/String;Lkik/android/challenge/PhoneNumberModel;)V
+.method public abstract a(Ljava/lang/String;Lkik/arcane/challenge/PhoneNumberModel;)V
 .end method

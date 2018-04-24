@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/UserProfileFragment$2;
+.class final Lkik/arcane/chat/fragment/UserProfileFragment$2;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/UserProfileFragment;
+    value = Lkik/arcane/chat/fragment/UserProfileFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/UserProfileFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/UserProfileFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/UserProfileFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/UserProfileFragment;)V
     .locals 0
 
     .prologue
     .line 277
-    iput-object p1, p0, Lkik/android/chat/fragment/UserProfileFragment$2;->a:Lkik/android/chat/fragment/UserProfileFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/UserProfileFragment$2;->a:Lkik/arcane/chat/fragment/UserProfileFragment;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -61,9 +61,9 @@
     if-eqz v0, :cond_0
 
     .line 1282
-    iget-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment$2;->a:Lkik/android/chat/fragment/UserProfileFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/UserProfileFragment$2;->a:Lkik/arcane/chat/fragment/UserProfileFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/UserProfileFragment;->e(Lkik/android/chat/fragment/UserProfileFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/UserProfileFragment;->e(Lkik/arcane/chat/fragment/UserProfileFragment;)V
 
     .line 277
     :cond_0

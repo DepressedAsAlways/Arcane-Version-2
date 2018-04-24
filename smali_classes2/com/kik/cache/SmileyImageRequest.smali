@@ -72,7 +72,7 @@
     const/16 v0, 0x3c
 
     .line 63
-    invoke-static {}, Lkik/android/util/DeviceUtils;->c()I
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->c()I
 
     move-result v1
 

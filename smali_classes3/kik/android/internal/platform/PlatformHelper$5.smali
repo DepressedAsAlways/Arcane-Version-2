@@ -1,4 +1,4 @@
-.class final Lkik/android/internal/platform/PlatformHelper$5;
+.class final Lkik/arcane/internal/platform/PlatformHelper$5;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/internal/platform/PlatformHelper;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Lcom/kik/cache/KikVolleyImageLoader;Lcom/kik/android/Mixpanel;Lkik/core/net/e;)Lcom/kik/events/Promise;
+    value = Lkik/arcane/internal/platform/PlatformHelper;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Lcom/kik/cache/KikVolleyImageLoader;Lcom/kik/arcane/Mixpanel;Lkik/core/net/e;)Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,20 +22,20 @@
 
 .field final synthetic b:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
-.field final synthetic c:Lkik/android/internal/platform/PlatformHelper;
+.field final synthetic c:Lkik/arcane/internal/platform/PlatformHelper;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/internal/platform/PlatformHelper;Lcom/kik/events/Promise;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
+.method constructor <init>(Lkik/arcane/internal/platform/PlatformHelper;Lcom/kik/events/Promise;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
     .locals 0
 
     .prologue
     .line 2103
-    iput-object p1, p0, Lkik/android/internal/platform/PlatformHelper$5;->c:Lkik/android/internal/platform/PlatformHelper;
+    iput-object p1, p0, Lkik/arcane/internal/platform/PlatformHelper$5;->c:Lkik/arcane/internal/platform/PlatformHelper;
 
-    iput-object p2, p0, Lkik/android/internal/platform/PlatformHelper$5;->a:Lcom/kik/events/Promise;
+    iput-object p2, p0, Lkik/arcane/internal/platform/PlatformHelper$5;->a:Lcom/kik/events/Promise;
 
-    iput-object p3, p0, Lkik/android/internal/platform/PlatformHelper$5;->b:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iput-object p3, p0, Lkik/arcane/internal/platform/PlatformHelper$5;->b:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -49,9 +49,9 @@
 
     .prologue
     .line 2145
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper$5;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper$5;->a:Lcom/kik/events/Promise;
 
-    iget-object v1, p0, Lkik/android/internal/platform/PlatformHelper$5;->b:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v1, p0, Lkik/arcane/internal/platform/PlatformHelper$5;->b:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Ljava/lang/Object;)V
 
@@ -74,9 +74,9 @@
     if-nez p2, :cond_0
 
     .line 2111
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper$5;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper$5;->a:Lcom/kik/events/Promise;
 
-    iget-object v1, p0, Lkik/android/internal/platform/PlatformHelper$5;->b:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v1, p0, Lkik/arcane/internal/platform/PlatformHelper$5;->b:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Ljava/lang/Object;)V
 
@@ -121,7 +121,7 @@
     if-eqz v1, :cond_2
 
     .line 2126
-    iget-object v2, p0, Lkik/android/internal/platform/PlatformHelper$5;->b:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v2, p0, Lkik/arcane/internal/platform/PlatformHelper$5;->b:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     const-string v3, "sha1-scaled"
 
@@ -157,7 +157,7 @@
     if-eqz v0, :cond_3
 
     .line 2132
-    iget-object v1, p0, Lkik/android/internal/platform/PlatformHelper$5;->b:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v1, p0, Lkik/arcane/internal/platform/PlatformHelper$5;->b:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     const-string v2, "blockhash-scaled"
 
@@ -168,9 +168,9 @@
     .line 2139
     :cond_3
     :goto_1
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper$5;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper$5;->a:Lcom/kik/events/Promise;
 
-    iget-object v1, p0, Lkik/android/internal/platform/PlatformHelper$5;->b:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v1, p0, Lkik/arcane/internal/platform/PlatformHelper$5;->b:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Ljava/lang/Object;)V
 

@@ -3,8 +3,7 @@
 	<color name="appbar_background">@color/gray_1</color>
 	<color name="expression_bar_background_color">#21a9adc1</color>
     <color name="expression_text_color">@color/hashtags_divider</color>
-    <color name="fab_menu_screen_overlay">#ccffffff</color>
-    <color name="fab_shadow">#1f000000</color>
+    <color name="fab_menu_screen_overlay">#cc000000</color>
 	<color name="gray_1">#fffafafa</color>
     <color name="gray_2">#ffe0e1e9</color>
     <color name="gray_3">#ffbec0ce</color>

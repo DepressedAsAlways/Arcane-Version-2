@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/an;
+.class public final Lkik/arcane/util/an;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -122,7 +122,7 @@
     const/4 v1, 0x0
 
     .line 50
-    invoke-static {p2}, Lkik/android/util/bs;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2}, Lkik/arcane/util/bs;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 

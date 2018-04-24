@@ -1,14 +1,14 @@
-.class final Lkik/android/addressbook/PrivacyOptionsDialog$1;
+.class final Lkik/arcane/addressbook/PrivacyOptionsDialog$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/fragment/KikDialogFragment$c;
+.implements Lkik/arcane/chat/fragment/KikDialogFragment$c;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/addressbook/PrivacyOptionsDialog;->f()Lkik/android/chat/fragment/KikDialogFragment;
+    value = Lkik/arcane/addressbook/PrivacyOptionsDialog;->f()Lkik/arcane/chat/fragment/KikDialogFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/addressbook/PrivacyOptionsDialog;
+.field final synthetic a:Lkik/arcane/addressbook/PrivacyOptionsDialog;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/addressbook/PrivacyOptionsDialog;)V
+.method constructor <init>(Lkik/arcane/addressbook/PrivacyOptionsDialog;)V
     .locals 0
 
     .prologue
     .line 107
-    iput-object p1, p0, Lkik/android/addressbook/PrivacyOptionsDialog$1;->a:Lkik/android/addressbook/PrivacyOptionsDialog;
+    iput-object p1, p0, Lkik/arcane/addressbook/PrivacyOptionsDialog$1;->a:Lkik/arcane/addressbook/PrivacyOptionsDialog;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,9 +41,9 @@
 
     .prologue
     .line 111
-    iget-object v0, p0, Lkik/android/addressbook/PrivacyOptionsDialog$1;->a:Lkik/android/addressbook/PrivacyOptionsDialog;
+    iget-object v0, p0, Lkik/arcane/addressbook/PrivacyOptionsDialog$1;->a:Lkik/arcane/addressbook/PrivacyOptionsDialog;
 
-    invoke-static {v0}, Lkik/android/addressbook/PrivacyOptionsDialog;->a(Lkik/android/addressbook/PrivacyOptionsDialog;)Lkik/android/chat/fragment/KikDialogFragment;
+    invoke-static {v0}, Lkik/arcane/addressbook/PrivacyOptionsDialog;->a(Lkik/arcane/addressbook/PrivacyOptionsDialog;)Lkik/arcane/chat/fragment/KikDialogFragment;
 
     .line 112
     return-void

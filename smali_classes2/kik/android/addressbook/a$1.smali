@@ -1,4 +1,4 @@
-.class final Lkik/android/addressbook/a$1;
+.class final Lkik/arcane/addressbook/a$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/addressbook/a;
+    value = Lkik/arcane/addressbook/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/addressbook/a;
+.field final synthetic a:Lkik/arcane/addressbook/a;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/addressbook/a;)V
+.method constructor <init>(Lkik/arcane/addressbook/a;)V
     .locals 0
 
     .prologue
     .line 103
-    iput-object p1, p0, Lkik/android/addressbook/a$1;->a:Lkik/android/addressbook/a;
+    iput-object p1, p0, Lkik/arcane/addressbook/a$1;->a:Lkik/arcane/addressbook/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,32 +52,32 @@
     .prologue
     .line 103
     .line 1107
-    iget-object v0, p0, Lkik/android/addressbook/a$1;->a:Lkik/android/addressbook/a;
+    iget-object v0, p0, Lkik/arcane/addressbook/a$1;->a:Lkik/arcane/addressbook/a;
 
-    invoke-static {v0}, Lkik/android/addressbook/a;->a(Lkik/android/addressbook/a;)Lkik/core/net/outgoing/MatchingRequest;
+    invoke-static {v0}, Lkik/arcane/addressbook/a;->a(Lkik/arcane/addressbook/a;)Lkik/core/net/outgoing/MatchingRequest;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
     .line 1109
-    iget-object v0, p0, Lkik/android/addressbook/a$1;->a:Lkik/android/addressbook/a;
+    iget-object v0, p0, Lkik/arcane/addressbook/a$1;->a:Lkik/arcane/addressbook/a;
 
-    invoke-static {v0}, Lkik/android/addressbook/a;->a(Lkik/android/addressbook/a;)Lkik/core/net/outgoing/MatchingRequest;
+    invoke-static {v0}, Lkik/arcane/addressbook/a;->a(Lkik/arcane/addressbook/a;)Lkik/core/net/outgoing/MatchingRequest;
 
     move-result-object v0
 
     .line 1110
-    iget-object v1, p0, Lkik/android/addressbook/a$1;->a:Lkik/android/addressbook/a;
+    iget-object v1, p0, Lkik/arcane/addressbook/a$1;->a:Lkik/arcane/addressbook/a;
 
     const/4 v2, 0x0
 
-    invoke-static {v1, v2}, Lkik/android/addressbook/a;->a(Lkik/android/addressbook/a;Lkik/core/net/outgoing/MatchingRequest;)Lkik/core/net/outgoing/MatchingRequest;
+    invoke-static {v1, v2}, Lkik/arcane/addressbook/a;->a(Lkik/arcane/addressbook/a;Lkik/core/net/outgoing/MatchingRequest;)Lkik/core/net/outgoing/MatchingRequest;
 
     .line 1111
-    iget-object v1, p0, Lkik/android/addressbook/a$1;->a:Lkik/android/addressbook/a;
+    iget-object v1, p0, Lkik/arcane/addressbook/a$1;->a:Lkik/arcane/addressbook/a;
 
-    invoke-static {v1, v0}, Lkik/android/addressbook/a;->b(Lkik/android/addressbook/a;Lkik/core/net/outgoing/MatchingRequest;)V
+    invoke-static {v1, v0}, Lkik/arcane/addressbook/a;->b(Lkik/arcane/addressbook/a;Lkik/core/net/outgoing/MatchingRequest;)V
 
     .line 103
     :cond_0

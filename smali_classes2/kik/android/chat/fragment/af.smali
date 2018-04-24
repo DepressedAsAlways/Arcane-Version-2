@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/fragment/af;
+.class final synthetic Lkik/arcane/chat/fragment/af;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -15,7 +15,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/fragment/af;->a:Landroid/view/View;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/af;->a:Landroid/view/View;
 
     return-void
 .end method
@@ -23,9 +23,9 @@
 .method public static a(Landroid/view/View;)Lcom/nhaarman/supertooltips/a$c;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/fragment/af;
+    new-instance v0, Lkik/arcane/chat/fragment/af;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/fragment/af;-><init>(Landroid/view/View;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/fragment/af;-><init>(Landroid/view/View;)V
 
     return-object v0
 .end method
@@ -35,9 +35,9 @@
 .method public final a()V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/chat/fragment/af;->a:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/af;->a:Landroid/view/View;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/KikChatFragment;->a(Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/KikChatFragment;->a(Landroid/view/View;)V
 
     return-void
 .end method

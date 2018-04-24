@@ -1,11 +1,11 @@
-.class public Lkik/android/addressbook/AddressBookRetryPolicy$RetryPolicyException;
+.class public Lkik/arcane/addressbook/AddressBookRetryPolicy$RetryPolicyException;
 .super Ljava/lang/Exception;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/addressbook/AddressBookRetryPolicy;
+    value = Lkik/arcane/addressbook/AddressBookRetryPolicy;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

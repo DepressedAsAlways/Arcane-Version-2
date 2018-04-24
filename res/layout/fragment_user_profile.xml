@@ -12,9 +12,9 @@
                                 <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_set_photo" />
                                 <TextView android:textSize="14.0sp" android:textColor="@color/kik_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/set_photo" />
                             </LinearLayout>
-                            <kik.android.widget.CircleCroppedImageView android:id="@id/profile_pic" android:tag="binding_5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+                            <kik.arcane.widget.CircleCroppedImageView android:id="@id/profile_pic" android:tag="binding_5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
                         </FrameLayout>
-                        <kik.android.widget.EmojiStatusCircleView android:layout_gravity="bottom|center|right" android:id="@id/emoji_status_circle_view" android:tag="binding_6" style="@style/KikEmojiStatus.Large" />
+                        <kik.arcane.widget.EmojiStatusCircleView android:layout_gravity="bottom|center|right" android:id="@id/emoji_status_circle_view" android:tag="binding_6" style="@style/KikEmojiStatus.Large" />
                     </FrameLayout>
                     <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/profile_username_button" android:tag="binding_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip">
                         <TextView android:textSize="20.0sp" android:textColor="@color/text_primary" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/profile_name" android:tag="binding_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:maxLines="1" />

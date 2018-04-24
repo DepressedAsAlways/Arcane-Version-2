@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/activity/KActivityLauncher$a;
+.class public final Lkik/arcane/chat/activity/KActivityLauncher$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/activity/KActivityLauncher;
+    value = Lkik/arcane/chat/activity/KActivityLauncher;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,54 +35,54 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/activity/KActivityLauncher$a;->a:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$a;->a:Ljava/lang/String;
 
     .line 66
-    iput-object p2, p0, Lkik/android/chat/activity/KActivityLauncher$a;->b:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/chat/activity/KActivityLauncher$a;->b:Ljava/lang/String;
 
     .line 67
-    iput-object p3, p0, Lkik/android/chat/activity/KActivityLauncher$a;->c:Ljava/lang/String;
+    iput-object p3, p0, Lkik/arcane/chat/activity/KActivityLauncher$a;->c:Ljava/lang/String;
 
     .line 68
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/activity/KActivityLauncher$a;)Ljava/lang/String;
+.method static synthetic a(Lkik/arcane/chat/activity/KActivityLauncher$a;)Ljava/lang/String;
     .locals 1
 
     .prologue
     .line 57
-    iget-object v0, p0, Lkik/android/chat/activity/KActivityLauncher$a;->a:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$a;->a:Ljava/lang/String;
 
     return-object v0
 .end method
 
-.method static synthetic a(Lkik/android/chat/activity/KActivityLauncher$a;Ljava/lang/String;)Ljava/lang/String;
+.method static synthetic a(Lkik/arcane/chat/activity/KActivityLauncher$a;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
     .prologue
     .line 57
-    iput-object p1, p0, Lkik/android/chat/activity/KActivityLauncher$a;->b:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/chat/activity/KActivityLauncher$a;->b:Ljava/lang/String;
 
     return-object p1
 .end method
 
-.method static synthetic b(Lkik/android/chat/activity/KActivityLauncher$a;)Ljava/lang/String;
+.method static synthetic b(Lkik/arcane/chat/activity/KActivityLauncher$a;)Ljava/lang/String;
     .locals 1
 
     .prologue
     .line 57
-    iget-object v0, p0, Lkik/android/chat/activity/KActivityLauncher$a;->c:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$a;->c:Ljava/lang/String;
 
     return-object v0
 .end method
 
-.method static synthetic c(Lkik/android/chat/activity/KActivityLauncher$a;)Ljava/lang/String;
+.method static synthetic c(Lkik/arcane/chat/activity/KActivityLauncher$a;)Ljava/lang/String;
     .locals 1
 
     .prologue
     .line 57
-    iget-object v0, p0, Lkik/android/chat/activity/KActivityLauncher$a;->b:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$a;->b:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -133,15 +133,15 @@
 
     .line 94
     :cond_3
-    check-cast p1, Lkik/android/chat/activity/KActivityLauncher$a;
+    check-cast p1, Lkik/arcane/chat/activity/KActivityLauncher$a;
 
     .line 95
-    iget-object v2, p0, Lkik/android/chat/activity/KActivityLauncher$a;->a:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/activity/KActivityLauncher$a;->a:Ljava/lang/String;
 
     if-nez v2, :cond_4
 
     .line 96
-    iget-object v2, p1, Lkik/android/chat/activity/KActivityLauncher$a;->a:Ljava/lang/String;
+    iget-object v2, p1, Lkik/arcane/chat/activity/KActivityLauncher$a;->a:Ljava/lang/String;
 
     if-eqz v2, :cond_5
 
@@ -152,9 +152,9 @@
 
     .line 100
     :cond_4
-    iget-object v2, p0, Lkik/android/chat/activity/KActivityLauncher$a;->a:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/activity/KActivityLauncher$a;->a:Ljava/lang/String;
 
-    iget-object v3, p1, Lkik/android/chat/activity/KActivityLauncher$a;->a:Ljava/lang/String;
+    iget-object v3, p1, Lkik/arcane/chat/activity/KActivityLauncher$a;->a:Ljava/lang/String;
 
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -169,12 +169,12 @@
 
     .line 104
     :cond_5
-    iget-object v2, p0, Lkik/android/chat/activity/KActivityLauncher$a;->b:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/activity/KActivityLauncher$a;->b:Ljava/lang/String;
 
     if-nez v2, :cond_6
 
     .line 105
-    iget-object v2, p1, Lkik/android/chat/activity/KActivityLauncher$a;->b:Ljava/lang/String;
+    iget-object v2, p1, Lkik/arcane/chat/activity/KActivityLauncher$a;->b:Ljava/lang/String;
 
     if-eqz v2, :cond_7
 
@@ -185,9 +185,9 @@
 
     .line 109
     :cond_6
-    iget-object v2, p0, Lkik/android/chat/activity/KActivityLauncher$a;->b:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/activity/KActivityLauncher$a;->b:Ljava/lang/String;
 
-    iget-object v3, p1, Lkik/android/chat/activity/KActivityLauncher$a;->b:Ljava/lang/String;
+    iget-object v3, p1, Lkik/arcane/chat/activity/KActivityLauncher$a;->b:Ljava/lang/String;
 
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -202,12 +202,12 @@
 
     .line 113
     :cond_7
-    iget-object v2, p0, Lkik/android/chat/activity/KActivityLauncher$a;->c:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/activity/KActivityLauncher$a;->c:Ljava/lang/String;
 
     if-nez v2, :cond_8
 
     .line 114
-    iget-object v2, p1, Lkik/android/chat/activity/KActivityLauncher$a;->c:Ljava/lang/String;
+    iget-object v2, p1, Lkik/arcane/chat/activity/KActivityLauncher$a;->c:Ljava/lang/String;
 
     if-eqz v2, :cond_0
 
@@ -218,9 +218,9 @@
 
     .line 118
     :cond_8
-    iget-object v2, p0, Lkik/android/chat/activity/KActivityLauncher$a;->c:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/activity/KActivityLauncher$a;->c:Ljava/lang/String;
 
-    iget-object v3, p1, Lkik/android/chat/activity/KActivityLauncher$a;->c:Ljava/lang/String;
+    iget-object v3, p1, Lkik/arcane/chat/activity/KActivityLauncher$a;->c:Ljava/lang/String;
 
     invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -241,7 +241,7 @@
     const/4 v1, 0x0
 
     .line 75
-    iget-object v0, p0, Lkik/android/chat/activity/KActivityLauncher$a;->a:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$a;->a:Ljava/lang/String;
 
     if-nez v0, :cond_0
 
@@ -253,7 +253,7 @@
     .line 76
     mul-int/lit8 v2, v0, 0x25
 
-    iget-object v0, p0, Lkik/android/chat/activity/KActivityLauncher$a;->b:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$a;->b:Ljava/lang/String;
 
     if-nez v0, :cond_1
 
@@ -265,7 +265,7 @@
     .line 77
     mul-int/lit8 v0, v0, 0x25
 
-    iget-object v2, p0, Lkik/android/chat/activity/KActivityLauncher$a;->c:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/activity/KActivityLauncher$a;->c:Ljava/lang/String;
 
     if-nez v2, :cond_2
 
@@ -277,7 +277,7 @@
 
     .line 75
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/activity/KActivityLauncher$a;->a:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$a;->a:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
 
@@ -287,7 +287,7 @@
 
     .line 76
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/activity/KActivityLauncher$a;->b:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$a;->b:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
 
@@ -297,7 +297,7 @@
 
     .line 77
     :cond_2
-    iget-object v1, p0, Lkik/android/chat/activity/KActivityLauncher$a;->c:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/chat/activity/KActivityLauncher$a;->c:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
 
@@ -315,7 +315,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v1, p0, Lkik/android/chat/activity/KActivityLauncher$a;->a:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/chat/activity/KActivityLauncher$a;->a:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -327,7 +327,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/chat/activity/KActivityLauncher$a;->b:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/chat/activity/KActivityLauncher$a;->b:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

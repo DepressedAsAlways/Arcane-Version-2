@@ -43,19 +43,19 @@
     .line 96
     iget-object v0, p0, Lcom/kik/cards/browser/OnDemandCaptchaFragment$2;->a:Lcom/kik/cards/browser/OnDemandCaptchaFragment;
 
-    iget-object v0, v0, Lcom/kik/cards/browser/OnDemandCaptchaFragment;->f:Lcom/kik/android/Mixpanel;
+    iget-object v0, v0, Lcom/kik/cards/browser/OnDemandCaptchaFragment;->f:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "On Demand Captcha Failed to Load Retry Tapped"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 97
     iget-object v0, p0, Lcom/kik/cards/browser/OnDemandCaptchaFragment$2;->a:Lcom/kik/cards/browser/OnDemandCaptchaFragment;

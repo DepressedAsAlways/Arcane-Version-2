@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/KikConversationsFragment_ViewBinding$6;
+.class final Lkik/arcane/chat/fragment/KikConversationsFragment_ViewBinding$6;
 .super Lbutterknife/internal/DebouncingOnClickListener;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/KikConversationsFragment_ViewBinding;-><init>(Lkik/android/chat/fragment/KikConversationsFragment;Landroid/view/View;)V
+    value = Lkik/arcane/chat/fragment/KikConversationsFragment_ViewBinding;-><init>(Lkik/arcane/chat/fragment/KikConversationsFragment;Landroid/view/View;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,20 +15,20 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikConversationsFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikConversationsFragment;
 
-.field final synthetic b:Lkik/android/chat/fragment/KikConversationsFragment_ViewBinding;
+.field final synthetic b:Lkik/arcane/chat/fragment/KikConversationsFragment_ViewBinding;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikConversationsFragment_ViewBinding;Lkik/android/chat/fragment/KikConversationsFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikConversationsFragment_ViewBinding;Lkik/arcane/chat/fragment/KikConversationsFragment;)V
     .locals 0
 
     .prologue
     .line 109
-    iput-object p1, p0, Lkik/android/chat/fragment/KikConversationsFragment_ViewBinding$6;->b:Lkik/android/chat/fragment/KikConversationsFragment_ViewBinding;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikConversationsFragment_ViewBinding$6;->b:Lkik/arcane/chat/fragment/KikConversationsFragment_ViewBinding;
 
-    iput-object p2, p0, Lkik/android/chat/fragment/KikConversationsFragment_ViewBinding$6;->a:Lkik/android/chat/fragment/KikConversationsFragment;
+    iput-object p2, p0, Lkik/arcane/chat/fragment/KikConversationsFragment_ViewBinding$6;->a:Lkik/arcane/chat/fragment/KikConversationsFragment;
 
     invoke-direct {p0}, Lbutterknife/internal/DebouncingOnClickListener;-><init>()V
 
@@ -42,9 +42,9 @@
 
     .prologue
     .line 112
-    iget-object v0, p0, Lkik/android/chat/fragment/KikConversationsFragment_ViewBinding$6;->a:Lkik/android/chat/fragment/KikConversationsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikConversationsFragment_ViewBinding$6;->a:Lkik/arcane/chat/fragment/KikConversationsFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikConversationsFragment;->openStartGroupScreen()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikConversationsFragment;->openStartGroupScreen()V
 
     .line 113
     return-void

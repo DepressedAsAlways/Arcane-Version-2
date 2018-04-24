@@ -1,4 +1,4 @@
-.class public final Lkik/android/e/am;
+.class public final Lkik/arcane/e/am;
 .super Landroid/databinding/ViewDataBinding;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/e/am$a;
+        Lkik/arcane/e/am$a;
     }
 .end annotation
 
@@ -18,11 +18,11 @@
 
 
 # instance fields
-.field public final a:Lkik/android/gifs/view/ResultListGifView;
+.field public final a:Lkik/arcane/gifs/view/ResultListGifView;
 
-.field private d:Lkik/android/gifs/vm/bo;
+.field private d:Lkik/arcane/gifs/vm/bo;
 
-.field private e:Lkik/android/e/am$a;
+.field private e:Lkik/arcane/e/am$a;
 
 .field private f:J
 
@@ -35,10 +35,10 @@
     const/4 v0, 0x0
 
     .line 10
-    sput-object v0, Lkik/android/e/am;->b:Landroid/databinding/ViewDataBinding$IncludedLayouts;
+    sput-object v0, Lkik/arcane/e/am;->b:Landroid/databinding/ViewDataBinding$IncludedLayouts;
 
     .line 11
-    sput-object v0, Lkik/android/e/am;->c:Landroid/util/SparseIntArray;
+    sput-object v0, Lkik/arcane/e/am;->c:Landroid/util/SparseIntArray;
 
     .line 12
     return-void
@@ -56,44 +56,44 @@
     .line 130
     const-wide/16 v0, -0x1
 
-    iput-wide v0, p0, Lkik/android/e/am;->f:J
+    iput-wide v0, p0, Lkik/arcane/e/am;->f:J
 
     .line 24
     const/4 v0, 0x1
 
-    sget-object v1, Lkik/android/e/am;->b:Landroid/databinding/ViewDataBinding$IncludedLayouts;
+    sget-object v1, Lkik/arcane/e/am;->b:Landroid/databinding/ViewDataBinding$IncludedLayouts;
 
-    sget-object v2, Lkik/android/e/am;->c:Landroid/util/SparseIntArray;
+    sget-object v2, Lkik/arcane/e/am;->c:Landroid/util/SparseIntArray;
 
-    invoke-static {p1, p2, v0, v1, v2}, Lkik/android/e/am;->mapBindings(Landroid/databinding/DataBindingComponent;Landroid/view/View;ILandroid/databinding/ViewDataBinding$IncludedLayouts;Landroid/util/SparseIntArray;)[Ljava/lang/Object;
+    invoke-static {p1, p2, v0, v1, v2}, Lkik/arcane/e/am;->mapBindings(Landroid/databinding/DataBindingComponent;Landroid/view/View;ILandroid/databinding/ViewDataBinding$IncludedLayouts;Landroid/util/SparseIntArray;)[Ljava/lang/Object;
 
     move-result-object v0
 
     .line 25
     aget-object v0, v0, v3
 
-    check-cast v0, Lkik/android/gifs/view/ResultListGifView;
+    check-cast v0, Lkik/arcane/gifs/view/ResultListGifView;
 
-    iput-object v0, p0, Lkik/android/e/am;->a:Lkik/android/gifs/view/ResultListGifView;
+    iput-object v0, p0, Lkik/arcane/e/am;->a:Lkik/arcane/gifs/view/ResultListGifView;
 
     .line 26
-    iget-object v0, p0, Lkik/android/e/am;->a:Lkik/android/gifs/view/ResultListGifView;
+    iget-object v0, p0, Lkik/arcane/e/am;->a:Lkik/arcane/gifs/view/ResultListGifView;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lkik/android/gifs/view/ResultListGifView;->setTag(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/gifs/view/ResultListGifView;->setTag(Ljava/lang/Object;)V
 
     .line 27
-    invoke-virtual {p0, p2}, Lkik/android/e/am;->setRootTag(Landroid/view/View;)V
+    invoke-virtual {p0, p2}, Lkik/arcane/e/am;->setRootTag(Landroid/view/View;)V
 
     .line 29
-    invoke-virtual {p0}, Lkik/android/e/am;->invalidateAll()V
+    invoke-virtual {p0}, Lkik/arcane/e/am;->invalidateAll()V
 
     .line 30
     return-void
 .end method
 
-.method public static a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/am;
+.method public static a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/am;
     .locals 3
 
     .prologue
@@ -137,9 +137,9 @@
 
     .line 151
     :cond_0
-    new-instance v0, Lkik/android/e/am;
+    new-instance v0, Lkik/arcane/e/am;
 
-    invoke-direct {v0, p1, p0}, Lkik/android/e/am;-><init>(Landroid/databinding/DataBindingComponent;Landroid/view/View;)V
+    invoke-direct {v0, p1, p0}, Lkik/arcane/e/am;-><init>(Landroid/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object v0
 .end method
@@ -161,12 +161,12 @@
 
     .line 82
     :try_start_0
-    iget-wide v4, p0, Lkik/android/e/am;->f:J
+    iget-wide v4, p0, Lkik/arcane/e/am;->f:J
 
     .line 83
     const-wide/16 v2, 0x0
 
-    iput-wide v2, p0, Lkik/android/e/am;->f:J
+    iput-wide v2, p0, Lkik/arcane/e/am;->f:J
 
     .line 84
     monitor-exit p0
@@ -174,7 +174,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 88
-    iget-object v6, p0, Lkik/android/e/am;->d:Lkik/android/gifs/vm/bo;
+    iget-object v6, p0, Lkik/arcane/e/am;->d:Lkik/arcane/gifs/vm/bo;
 
     .line 91
     and-long v2, v4, v10
@@ -187,33 +187,33 @@
     if-eqz v6, :cond_2
 
     .line 97
-    invoke-interface {v6}, Lkik/android/gifs/vm/bo;->d()Lrx/d;
+    invoke-interface {v6}, Lkik/arcane/gifs/vm/bo;->d()Lrx/d;
 
     move-result-object v3
 
     .line 99
-    invoke-interface {v6}, Lkik/android/gifs/vm/bo;->m()Landroid/graphics/Point;
+    invoke-interface {v6}, Lkik/arcane/gifs/vm/bo;->m()Landroid/graphics/Point;
 
     move-result-object v2
 
     .line 101
-    invoke-interface {v6}, Lkik/android/gifs/vm/bo;->b()Landroid/graphics/drawable/Drawable;
+    invoke-interface {v6}, Lkik/arcane/gifs/vm/bo;->b()Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
     .line 103
-    iget-object v0, p0, Lkik/android/e/am;->e:Lkik/android/e/am$a;
+    iget-object v0, p0, Lkik/arcane/e/am;->e:Lkik/arcane/e/am$a;
 
     if-nez v0, :cond_1
 
-    new-instance v0, Lkik/android/e/am$a;
+    new-instance v0, Lkik/arcane/e/am$a;
 
-    invoke-direct {v0}, Lkik/android/e/am$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/e/am$a;-><init>()V
 
-    iput-object v0, p0, Lkik/android/e/am;->e:Lkik/android/e/am$a;
+    iput-object v0, p0, Lkik/arcane/e/am;->e:Lkik/arcane/e/am$a;
 
     :goto_0
-    invoke-virtual {v0, v6}, Lkik/android/e/am$a;->a(Lkik/android/gifs/vm/bo;)Lkik/android/e/am$a;
+    invoke-virtual {v0, v6}, Lkik/arcane/e/am$a;->a(Lkik/arcane/gifs/vm/bo;)Lkik/arcane/e/am$a;
 
     move-result-object v0
 
@@ -226,24 +226,24 @@
     if-eqz v4, :cond_0
 
     .line 110
-    iget-object v4, p0, Lkik/android/e/am;->a:Lkik/android/gifs/view/ResultListGifView;
+    iget-object v4, p0, Lkik/arcane/e/am;->a:Lkik/arcane/gifs/view/ResultListGifView;
 
     invoke-static {v4, v0}, Lcom/kik/util/j;->a(Landroid/view/View;Ljava/lang/Runnable;)V
 
     .line 111
-    iget-object v0, p0, Lkik/android/e/am;->a:Lkik/android/gifs/view/ResultListGifView;
+    iget-object v0, p0, Lkik/arcane/e/am;->a:Lkik/arcane/gifs/view/ResultListGifView;
 
-    invoke-static {v0, v1}, Lkik/android/gifs/view/GifView;->a(Lkik/android/gifs/view/GifView;Landroid/graphics/drawable/Drawable;)V
+    invoke-static {v0, v1}, Lkik/arcane/gifs/view/GifView;->a(Lkik/arcane/gifs/view/GifView;Landroid/graphics/drawable/Drawable;)V
 
     .line 112
-    iget-object v0, p0, Lkik/android/e/am;->a:Lkik/android/gifs/view/ResultListGifView;
+    iget-object v0, p0, Lkik/arcane/e/am;->a:Lkik/arcane/gifs/view/ResultListGifView;
 
-    invoke-static {v0, v2}, Lkik/android/gifs/view/ResultListGifView;->a(Lkik/android/gifs/view/ResultListGifView;Landroid/graphics/Point;)V
+    invoke-static {v0, v2}, Lkik/arcane/gifs/view/ResultListGifView;->a(Lkik/arcane/gifs/view/ResultListGifView;Landroid/graphics/Point;)V
 
     .line 113
-    iget-object v0, p0, Lkik/android/e/am;->a:Lkik/android/gifs/view/ResultListGifView;
+    iget-object v0, p0, Lkik/arcane/e/am;->a:Lkik/arcane/gifs/view/ResultListGifView;
 
-    invoke-static {v0, v3}, Lkik/android/gifs/view/GifView;->a(Lkik/android/gifs/view/GifView;Lrx/d;)V
+    invoke-static {v0, v3}, Lkik/arcane/gifs/view/GifView;->a(Lkik/arcane/gifs/view/GifView;Lrx/d;)V
 
     .line 115
     :cond_0
@@ -262,7 +262,7 @@
 
     .line 103
     :cond_1
-    iget-object v0, p0, Lkik/android/e/am;->e:Lkik/android/e/am$a;
+    iget-object v0, p0, Lkik/arcane/e/am;->e:Lkik/arcane/e/am$a;
 
     goto :goto_0
 
@@ -285,7 +285,7 @@
 
     .line 43
     :try_start_0
-    iget-wide v0, p0, Lkik/android/e/am;->f:J
+    iget-wide v0, p0, Lkik/arcane/e/am;->f:J
 
     const-wide/16 v2, 0x0
 
@@ -333,7 +333,7 @@
     const-wide/16 v0, 0x2
 
     :try_start_0
-    iput-wide v0, p0, Lkik/android/e/am;->f:J
+    iput-wide v0, p0, Lkik/arcane/e/am;->f:J
 
     .line 36
     monitor-exit p0
@@ -341,7 +341,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 37
-    invoke-virtual {p0}, Lkik/android/e/am;->requestRebind()V
+    invoke-virtual {p0}, Lkik/arcane/e/am;->requestRebind()V
 
     .line 38
     return-void
@@ -383,23 +383,23 @@
 
     .line 53
     :pswitch_0
-    check-cast p2, Lkik/android/gifs/vm/bo;
+    check-cast p2, Lkik/arcane/gifs/vm/bo;
 
     .line 1060
-    iput-object p2, p0, Lkik/android/e/am;->d:Lkik/android/gifs/vm/bo;
+    iput-object p2, p0, Lkik/arcane/e/am;->d:Lkik/arcane/gifs/vm/bo;
 
     .line 1061
     monitor-enter p0
 
     .line 1062
     :try_start_0
-    iget-wide v0, p0, Lkik/android/e/am;->f:J
+    iget-wide v0, p0, Lkik/arcane/e/am;->f:J
 
     const-wide/16 v2, 0x1
 
     or-long/2addr v0, v2
 
-    iput-wide v0, p0, Lkik/android/e/am;->f:J
+    iput-wide v0, p0, Lkik/arcane/e/am;->f:J
 
     .line 1063
     monitor-exit p0
@@ -409,7 +409,7 @@
     .line 1064
     const/16 v0, 0xe
 
-    invoke-virtual {p0, v0}, Lkik/android/e/am;->notifyPropertyChanged(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/e/am;->notifyPropertyChanged(I)V
 
     .line 1065
     invoke-super {p0}, Landroid/databinding/ViewDataBinding;->requestRebind()V

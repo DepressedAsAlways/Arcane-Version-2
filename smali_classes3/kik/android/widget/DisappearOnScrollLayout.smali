@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/DisappearOnScrollLayout;
+.class public Lkik/arcane/widget/DisappearOnScrollLayout;
 .super Landroid/widget/FrameLayout;
 .source "SourceFile"
 
@@ -27,7 +27,7 @@
     .line 43
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/DisappearOnScrollLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/DisappearOnScrollLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 44
     return-void
@@ -40,7 +40,7 @@
     .line 48
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/DisappearOnScrollLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/DisappearOnScrollLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 49
     return-void
@@ -56,26 +56,26 @@
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 22
-    iput-boolean v2, p0, Lkik/android/widget/DisappearOnScrollLayout;->d:Z
+    iput-boolean v2, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->d:Z
 
     .line 23
-    iput-boolean v2, p0, Lkik/android/widget/DisappearOnScrollLayout;->e:Z
+    iput-boolean v2, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->e:Z
 
     .line 24
-    iput-boolean v2, p0, Lkik/android/widget/DisappearOnScrollLayout;->f:Z
+    iput-boolean v2, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->f:Z
 
     .line 26
-    new-instance v0, Lkik/android/widget/DisappearOnScrollLayout$1;
+    new-instance v0, Lkik/arcane/widget/DisappearOnScrollLayout$1;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/DisappearOnScrollLayout$1;-><init>(Lkik/android/widget/DisappearOnScrollLayout;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/DisappearOnScrollLayout$1;-><init>(Lkik/arcane/widget/DisappearOnScrollLayout;)V
 
-    iput-object v0, p0, Lkik/android/widget/DisappearOnScrollLayout;->g:Landroid/support/v7/widget/RecyclerView$OnScrollListener;
+    iput-object v0, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->g:Landroid/support/v7/widget/RecyclerView$OnScrollListener;
 
     .line 55
     if-eqz p2, :cond_0
 
     .line 56
-    sget-object v0, Lkik/android/R$styleable;->DisappearOnScrollLayout:[I
+    sget-object v0, Lkik/arcane/R$styleable;->DisappearOnScrollLayout:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -86,7 +86,7 @@
 
     move-result v1
 
-    iput v1, p0, Lkik/android/widget/DisappearOnScrollLayout;->b:I
+    iput v1, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->b:I
 
     .line 59
     const/4 v1, 0x1
@@ -95,7 +95,7 @@
 
     move-result v1
 
-    iput-boolean v1, p0, Lkik/android/widget/DisappearOnScrollLayout;->a:Z
+    iput-boolean v1, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->a:Z
 
     .line 61
     invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
@@ -126,7 +126,7 @@
     .line 180
     check-cast p1, Landroid/support/v7/widget/RecyclerView;
 
-    iget-object v0, p0, Lkik/android/widget/DisappearOnScrollLayout;->g:Landroid/support/v7/widget/RecyclerView$OnScrollListener;
+    iget-object v0, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->g:Landroid/support/v7/widget/RecyclerView$OnScrollListener;
 
     invoke-virtual {p1, v0}, Landroid/support/v7/widget/RecyclerView;->removeOnScrollListener(Landroid/support/v7/widget/RecyclerView$OnScrollListener;)V
 
@@ -152,7 +152,7 @@
 
     .line 152
     :goto_0
-    iget-boolean v3, p0, Lkik/android/widget/DisappearOnScrollLayout;->a:Z
+    iget-boolean v3, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->a:Z
 
     if-eqz v3, :cond_0
 
@@ -167,26 +167,26 @@
     if-eqz v0, :cond_6
 
     .line 3093
-    iget-boolean v0, p0, Lkik/android/widget/DisappearOnScrollLayout;->d:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->d:Z
 
     if-nez v0, :cond_1
 
     .line 3094
-    iput-boolean v1, p0, Lkik/android/widget/DisappearOnScrollLayout;->d:Z
+    iput-boolean v1, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->d:Z
 
     .line 3095
-    iput-boolean v2, p0, Lkik/android/widget/DisappearOnScrollLayout;->e:Z
+    iput-boolean v2, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->e:Z
 
     .line 3097
-    invoke-virtual {p0}, Lkik/android/widget/DisappearOnScrollLayout;->clearAnimation()V
+    invoke-virtual {p0}, Lkik/arcane/widget/DisappearOnScrollLayout;->clearAnimation()V
 
     .line 3099
-    iget-boolean v0, p0, Lkik/android/widget/DisappearOnScrollLayout;->f:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->f:Z
 
     if-eqz v0, :cond_5
 
     .line 3100
-    invoke-static {p0, v4}, Lkik/android/util/ao;->a(Landroid/view/View;I)V
+    invoke-static {p0, v4}, Lkik/arcane/util/ao;->a(Landroid/view/View;I)V
 
     .line 3117
     :cond_1
@@ -221,32 +221,32 @@
 
     .line 3103
     :cond_5
-    invoke-virtual {p0, v2}, Lkik/android/widget/DisappearOnScrollLayout;->setVisibility(I)V
+    invoke-virtual {p0, v2}, Lkik/arcane/widget/DisappearOnScrollLayout;->setVisibility(I)V
 
     goto :goto_2
 
     .line 3110
     :cond_6
-    iget-boolean v0, p0, Lkik/android/widget/DisappearOnScrollLayout;->e:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->e:Z
 
     if-nez v0, :cond_1
 
     .line 3111
-    iput-boolean v2, p0, Lkik/android/widget/DisappearOnScrollLayout;->d:Z
+    iput-boolean v2, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->d:Z
 
     .line 3112
-    iput-boolean v1, p0, Lkik/android/widget/DisappearOnScrollLayout;->e:Z
+    iput-boolean v1, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->e:Z
 
     .line 3114
-    invoke-virtual {p0}, Lkik/android/widget/DisappearOnScrollLayout;->clearAnimation()V
+    invoke-virtual {p0}, Lkik/arcane/widget/DisappearOnScrollLayout;->clearAnimation()V
 
     .line 3116
-    iget-boolean v0, p0, Lkik/android/widget/DisappearOnScrollLayout;->f:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->f:Z
 
     if-eqz v0, :cond_7
 
     .line 3117
-    invoke-static {p0, v4}, Lkik/android/util/ao;->b(Landroid/view/View;I)V
+    invoke-static {p0, v4}, Lkik/arcane/util/ao;->b(Landroid/view/View;I)V
 
     goto :goto_2
 
@@ -254,7 +254,7 @@
     :cond_7
     const/16 v0, 0x8
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/DisappearOnScrollLayout;->setVisibility(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/DisappearOnScrollLayout;->setVisibility(I)V
 
     goto :goto_2
 .end method
@@ -269,30 +269,30 @@
     invoke-super {p0}, Landroid/widget/FrameLayout;->onAttachedToWindow()V
 
     .line 70
-    iget-object v0, p0, Lkik/android/widget/DisappearOnScrollLayout;->c:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->c:Landroid/view/View;
 
-    invoke-direct {p0, v0}, Lkik/android/widget/DisappearOnScrollLayout;->a(Landroid/view/View;)V
+    invoke-direct {p0, v0}, Lkik/arcane/widget/DisappearOnScrollLayout;->a(Landroid/view/View;)V
 
     .line 72
-    iget v0, p0, Lkik/android/widget/DisappearOnScrollLayout;->b:I
+    iget v0, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->b:I
 
     if-eqz v0, :cond_0
 
     .line 73
-    invoke-virtual {p0}, Lkik/android/widget/DisappearOnScrollLayout;->getRootView()Landroid/view/View;
+    invoke-virtual {p0}, Lkik/arcane/widget/DisappearOnScrollLayout;->getRootView()Landroid/view/View;
 
     move-result-object v0
 
-    iget v1, p0, Lkik/android/widget/DisappearOnScrollLayout;->b:I
+    iget v1, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->b:I
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/DisappearOnScrollLayout;->c:Landroid/view/View;
+    iput-object v0, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->c:Landroid/view/View;
 
     .line 75
-    iget-object v0, p0, Lkik/android/widget/DisappearOnScrollLayout;->c:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->c:Landroid/view/View;
 
     .line 1161
     if-eqz v0, :cond_0
@@ -306,12 +306,12 @@
     check-cast v0, Landroid/support/v7/widget/RecyclerView;
 
     .line 1167
-    iget-object v1, p0, Lkik/android/widget/DisappearOnScrollLayout;->g:Landroid/support/v7/widget/RecyclerView$OnScrollListener;
+    iget-object v1, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->g:Landroid/support/v7/widget/RecyclerView$OnScrollListener;
 
     invoke-virtual {v0, v1}, Landroid/support/v7/widget/RecyclerView;->addOnScrollListener(Landroid/support/v7/widget/RecyclerView$OnScrollListener;)V
 
     .line 1169
-    iget-object v1, p0, Lkik/android/widget/DisappearOnScrollLayout;->g:Landroid/support/v7/widget/RecyclerView$OnScrollListener;
+    iget-object v1, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->g:Landroid/support/v7/widget/RecyclerView$OnScrollListener;
 
     invoke-virtual {v1, v0, v2, v2}, Landroid/support/v7/widget/RecyclerView$OnScrollListener;->a(Landroid/support/v7/widget/RecyclerView;II)V
 
@@ -319,7 +319,7 @@
     :cond_0
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/widget/DisappearOnScrollLayout;->f:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->f:Z
 
     .line 79
     return-void
@@ -333,14 +333,14 @@
     invoke-super {p0}, Landroid/widget/FrameLayout;->onDetachedFromWindow()V
 
     .line 86
-    iget-object v0, p0, Lkik/android/widget/DisappearOnScrollLayout;->c:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->c:Landroid/view/View;
 
-    invoke-direct {p0, v0}, Lkik/android/widget/DisappearOnScrollLayout;->a(Landroid/view/View;)V
+    invoke-direct {p0, v0}, Lkik/arcane/widget/DisappearOnScrollLayout;->a(Landroid/view/View;)V
 
     .line 88
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/widget/DisappearOnScrollLayout;->f:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/DisappearOnScrollLayout;->f:Z
 
     .line 89
     return-void

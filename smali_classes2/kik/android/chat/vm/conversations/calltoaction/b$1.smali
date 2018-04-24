@@ -1,14 +1,14 @@
-.class final Lkik/android/chat/vm/conversations/calltoaction/b$1;
+.class final Lkik/arcane/chat/vm/conversations/calltoaction/b$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/aq;
+.implements Lkik/arcane/chat/vm/aq;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/conversations/calltoaction/b;->b()V
+    value = Lkik/arcane/chat/vm/conversations/calltoaction/b;->b()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/conversations/calltoaction/b;
+.field final synthetic a:Lkik/arcane/chat/vm/conversations/calltoaction/b;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/conversations/calltoaction/b;)V
+.method constructor <init>(Lkik/arcane/chat/vm/conversations/calltoaction/b;)V
     .locals 0
 
     .prologue
     .line 54
-    iput-object p1, p0, Lkik/android/chat/vm/conversations/calltoaction/b$1;->a:Lkik/android/chat/vm/conversations/calltoaction/b;
+    iput-object p1, p0, Lkik/arcane/chat/vm/conversations/calltoaction/b$1;->a:Lkik/arcane/chat/vm/conversations/calltoaction/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

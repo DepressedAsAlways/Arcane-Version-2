@@ -1,11 +1,11 @@
-.class public final Lkik/android/scan/d$a;
+.class public final Lkik/arcane/scan/d$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/scan/d;
+    value = Lkik/arcane/scan/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -37,22 +37,22 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 275
-    iput-object p1, p0, Lkik/android/scan/d$a;->a:[B
+    iput-object p1, p0, Lkik/arcane/scan/d$a;->a:[B
 
     .line 276
-    iput-object p2, p0, Lkik/android/scan/d$a;->b:Lcom/kik/scan/KikCode;
+    iput-object p2, p0, Lkik/arcane/scan/d$a;->b:Lcom/kik/scan/KikCode;
 
     .line 277
-    iput p3, p0, Lkik/android/scan/d$a;->c:I
+    iput p3, p0, Lkik/arcane/scan/d$a;->c:I
 
     .line 278
-    iput p4, p0, Lkik/android/scan/d$a;->d:I
+    iput p4, p0, Lkik/arcane/scan/d$a;->d:I
 
     .line 279
-    iput p5, p0, Lkik/android/scan/d$a;->e:I
+    iput p5, p0, Lkik/arcane/scan/d$a;->e:I
 
     .line 280
-    iput p6, p0, Lkik/android/scan/d$a;->f:I
+    iput p6, p0, Lkik/arcane/scan/d$a;->f:I
 
     .line 281
     return-void
@@ -63,7 +63,7 @@
 
     .prologue
     .line 264
-    invoke-direct/range {p0 .. p6}, Lkik/android/scan/d$a;-><init>([BLcom/kik/scan/KikCode;IIII)V
+    invoke-direct/range {p0 .. p6}, Lkik/arcane/scan/d$a;-><init>([BLcom/kik/scan/KikCode;IIII)V
 
     return-void
 .end method

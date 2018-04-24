@@ -1,4 +1,4 @@
-.class public Lkik/android/chat/fragment/ChatBubbleSelectionFragment_ViewBinding;
+.class public Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment_ViewBinding;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -7,11 +7,11 @@
 
 
 # instance fields
-.field private a:Lkik/android/chat/fragment/ChatBubbleSelectionFragment;
+.field private a:Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/chat/fragment/ChatBubbleSelectionFragment;Landroid/view/View;)V
+.method public constructor <init>(Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment;Landroid/view/View;)V
     .locals 3
 
     .prologue
@@ -19,7 +19,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 20
-    iput-object p1, p0, Lkik/android/chat/fragment/ChatBubbleSelectionFragment_ViewBinding;->a:Lkik/android/chat/fragment/ChatBubbleSelectionFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment;
 
     .line 22
     const v0, 0x7f1000df
@@ -34,7 +34,7 @@
 
     check-cast v0, Landroid/widget/ListView;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/ChatBubbleSelectionFragment;->_bubbleList:Landroid/widget/ListView;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment;->_bubbleList:Landroid/widget/ListView;
 
     .line 23
     const v0, 0x7f100122
@@ -49,7 +49,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/ChatBubbleSelectionFragment;->_title:Landroid/widget/TextView;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment;->_title:Landroid/widget/TextView;
 
     .line 24
     return-void
@@ -64,7 +64,7 @@
     const/4 v1, 0x0
 
     .line 29
-    iget-object v0, p0, Lkik/android/chat/fragment/ChatBubbleSelectionFragment_ViewBinding;->a:Lkik/android/chat/fragment/ChatBubbleSelectionFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment;
 
     .line 30
     if-nez v0, :cond_0
@@ -79,13 +79,13 @@
 
     .line 31
     :cond_0
-    iput-object v1, p0, Lkik/android/chat/fragment/ChatBubbleSelectionFragment_ViewBinding;->a:Lkik/android/chat/fragment/ChatBubbleSelectionFragment;
+    iput-object v1, p0, Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment;
 
     .line 33
-    iput-object v1, v0, Lkik/android/chat/fragment/ChatBubbleSelectionFragment;->_bubbleList:Landroid/widget/ListView;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment;->_bubbleList:Landroid/widget/ListView;
 
     .line 34
-    iput-object v1, v0, Lkik/android/chat/fragment/ChatBubbleSelectionFragment;->_title:Landroid/widget/TextView;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment;->_title:Landroid/widget/TextView;
 
     .line 35
     return-void

@@ -1,4 +1,4 @@
-.class public final Lkik/android/d/g;
+.class public final Lkik/arcane/d/g;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -9,7 +9,7 @@
         value = {
             "Ljava/util/List",
             "<",
-            "Lkik/android/d/i;",
+            "Lkik/arcane/d/i;",
             ">;"
         }
     .end annotation
@@ -29,18 +29,18 @@
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Lkik/android/d/g;->a:Ljava/util/List;
+    iput-object v0, p0, Lkik/arcane/d/g;->a:Ljava/util/List;
 
     .line 17
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/d/g;Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+.method static synthetic a(Lkik/arcane/d/g;Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
     .locals 2
 
     .prologue
     .line 42
-    iget-object v0, p0, Lkik/android/d/g;->a:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/d/g;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -57,10 +57,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/d/i;
+    check-cast v0, Lkik/arcane/d/i;
 
     .line 43
-    invoke-virtual {v0, p1}, Lkik/android/d/i;->a(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+    invoke-virtual {v0, p1}, Lkik/arcane/d/i;->a(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
 
     move-result-object p1
 
@@ -71,14 +71,14 @@
     return-object p1
 .end method
 
-.method public static a()Lkik/android/d/g;
+.method public static a()Lkik/arcane/d/g;
     .locals 1
 
     .prologue
     .line 21
-    new-instance v0, Lkik/android/d/g;
+    new-instance v0, Lkik/arcane/d/g;
 
-    invoke-direct {v0}, Lkik/android/d/g;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/d/g;-><init>()V
 
     .line 22
     return-object v0
@@ -86,16 +86,16 @@
 
 
 # virtual methods
-.method public final a(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;)Lkik/android/d/g;
+.method public final a(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;)Lkik/arcane/d/g;
     .locals 2
 
     .prologue
     .line 35
-    iget-object v0, p0, Lkik/android/d/g;->a:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/d/g;->a:Ljava/util/List;
 
-    new-instance v1, Lkik/android/d/i;
+    new-instance v1, Lkik/arcane/d/i;
 
-    invoke-direct {v1, p1, p2, p3}, Lkik/android/d/i;-><init>(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, p1, p2, p3}, Lkik/arcane/d/i;-><init>(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -103,12 +103,12 @@
     return-object p0
 .end method
 
-.method public final b()Lkik/android/d/f;
+.method public final b()Lkik/arcane/d/f;
     .locals 1
 
     .prologue
     .line 41
-    invoke-static {p0}, Lkik/android/d/h;->a(Lkik/android/d/g;)Lkik/android/d/f;
+    invoke-static {p0}, Lkik/arcane/d/h;->a(Lkik/arcane/d/g;)Lkik/arcane/d/f;
 
     move-result-object v0
 

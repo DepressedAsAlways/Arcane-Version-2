@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/s;
+.class public final Lkik/arcane/util/s;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -16,9 +16,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/e;
+    check-cast v0, Lkik/arcane/chat/e;
 
-    invoke-interface {v0}, Lkik/android/chat/e;->a()Lcom/kik/components/CoreComponent;
+    invoke-interface {v0}, Lkik/arcane/chat/e;->a()Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 

@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/fragment/fv;
+.class public final Lkik/arcane/chat/fragment/fv;
 .super Landroid/support/v7/widget/RecyclerView$Adapter;
 .source "SourceFile"
 
@@ -8,14 +8,14 @@
     value = {
         "Landroid/support/v7/widget/RecyclerView$Adapter",
         "<",
-        "Lkik/android/chat/fragment/gb;",
+        "Lkik/arcane/chat/fragment/gb;",
         ">;"
     }
 .end annotation
 
 
 # instance fields
-.field private a:Lkik/android/chat/presentation/bu;
+.field private a:Lkik/arcane/chat/presentation/bu;
 
 .field private b:I
 
@@ -61,46 +61,46 @@
     invoke-direct {p0}, Landroid/support/v7/widget/RecyclerView$Adapter;-><init>()V
 
     .line 31
-    iput v1, p0, Lkik/android/chat/fragment/fv;->b:I
+    iput v1, p0, Lkik/arcane/chat/fragment/fv;->b:I
 
     .line 32
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/fv;->c:Ljava/util/List;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/fv;->c:Ljava/util/List;
 
     .line 33
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/fv;->d:Ljava/util/Set;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/fv;->d:Ljava/util/Set;
 
     .line 34
     const/16 v0, 0xa
 
-    iput v0, p0, Lkik/android/chat/fragment/fv;->e:I
+    iput v0, p0, Lkik/arcane/chat/fragment/fv;->e:I
 
     .line 35
     const/4 v0, 0x1
 
-    iput v0, p0, Lkik/android/chat/fragment/fv;->f:I
+    iput v0, p0, Lkik/arcane/chat/fragment/fv;->f:I
 
     .line 38
-    iput-boolean v1, p0, Lkik/android/chat/fragment/fv;->h:Z
+    iput-boolean v1, p0, Lkik/arcane/chat/fragment/fv;->h:Z
 
     .line 46
     const-string v0, "W"
 
-    invoke-static {v0}, Lkik/android/chat/fragment/SuggestedResponseTextViewHolder;->a(Ljava/lang/String;)I
+    invoke-static {v0}, Lkik/arcane/chat/fragment/SuggestedResponseTextViewHolder;->a(Ljava/lang/String;)I
 
     move-result v0
 
     .line 47
     div-int/lit8 v1, p1, 0x2
 
-    sget v2, Lkik/android/chat/fragment/SuggestedResponseTextViewHolder;->a:I
+    sget v2, Lkik/arcane/chat/fragment/SuggestedResponseTextViewHolder;->a:I
 
     mul-int/lit8 v2, v2, 0x2
 
@@ -109,20 +109,20 @@
     .line 48
     div-int v0, v1, v0
 
-    iput v0, p0, Lkik/android/chat/fragment/fv;->e:I
+    iput v0, p0, Lkik/arcane/chat/fragment/fv;->e:I
 
     .line 49
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/fv;ILandroid/view/View;Lkik/android/chat/fragment/gb;)V
+.method static synthetic a(Lkik/arcane/chat/fragment/fv;ILandroid/view/View;Lkik/arcane/chat/fragment/gb;)V
     .locals 2
 
     .prologue
     .line 144
     if-ltz p1, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/fragment/fv;->c:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/fv;->c:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -131,9 +131,9 @@
     if-ge p1, v0, :cond_0
 
     .line 145
-    iget-object v1, p0, Lkik/android/chat/fragment/fv;->a:Lkik/android/chat/presentation/bu;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/fv;->a:Lkik/arcane/chat/presentation/bu;
 
-    iget-object v0, p0, Lkik/android/chat/fragment/fv;->c:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/fv;->c:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -141,35 +141,35 @@
 
     check-cast v0, Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem;
 
-    invoke-interface {v1, v0, p2, p1}, Lkik/android/chat/presentation/bu;->a(Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem;Landroid/view/View;I)Z
+    invoke-interface {v1, v0, p2, p1}, Lkik/arcane/chat/presentation/bu;->a(Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem;Landroid/view/View;I)Z
 
     move-result v0
 
     .line 146
     if-nez v0, :cond_0
 
-    instance-of v0, p3, Lkik/android/chat/fragment/o;
+    instance-of v0, p3, Lkik/arcane/chat/fragment/o;
 
     if-eqz v0, :cond_0
 
     .line 149
-    check-cast p3, Lkik/android/chat/fragment/o;
+    check-cast p3, Lkik/arcane/chat/fragment/o;
 
     const/4 v0, 0x0
 
-    invoke-interface {p3, v0}, Lkik/android/chat/fragment/o;->a(Z)V
+    invoke-interface {p3, v0}, Lkik/arcane/chat/fragment/o;->a(Z)V
 
     .line 152
     :cond_0
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/fv;Lkik/android/chat/fragment/gb;Landroid/view/MotionEvent;)Z
+.method static synthetic a(Lkik/arcane/chat/fragment/fv;Lkik/arcane/chat/fragment/gb;Landroid/view/MotionEvent;)Z
     .locals 3
 
     .prologue
     .line 127
-    instance-of v0, p1, Lkik/android/chat/fragment/o;
+    instance-of v0, p1, Lkik/arcane/chat/fragment/o;
 
     if-eqz v0, :cond_0
 
@@ -184,17 +184,17 @@
     :cond_0
     :goto_0
     :pswitch_0
-    iget-object v0, p0, Lkik/android/chat/fragment/fv;->a:Lkik/android/chat/presentation/bu;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/fv;->a:Lkik/arcane/chat/presentation/bu;
 
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
     move-result v1
 
-    invoke-virtual {p1}, Lkik/android/chat/fragment/gb;->getAdapterPosition()I
+    invoke-virtual {p1}, Lkik/arcane/chat/fragment/gb;->getAdapterPosition()I
 
     move-result v2
 
-    invoke-interface {v0, v1, v2}, Lkik/android/chat/presentation/bu;->a(II)Z
+    invoke-interface {v0, v1, v2}, Lkik/arcane/chat/presentation/bu;->a(II)Z
 
     move-result v0
 
@@ -204,11 +204,11 @@
     move-object v0, p1
 
     .line 130
-    check-cast v0, Lkik/android/chat/fragment/o;
+    check-cast v0, Lkik/arcane/chat/fragment/o;
 
     const/4 v1, 0x1
 
-    invoke-interface {v0, v1}, Lkik/android/chat/fragment/o;->a(Z)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/fragment/o;->a(Z)V
 
     goto :goto_0
 
@@ -216,11 +216,11 @@
     move-object v0, p1
 
     .line 136
-    check-cast v0, Lkik/android/chat/fragment/o;
+    check-cast v0, Lkik/arcane/chat/fragment/o;
 
     const/4 v1, 0x0
 
-    invoke-interface {v0, v1}, Lkik/android/chat/fragment/o;->a(Z)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/fragment/o;->a(Z)V
 
     goto :goto_0
 
@@ -242,17 +242,17 @@
 
     .prologue
     .line 53
-    iget v0, p0, Lkik/android/chat/fragment/fv;->f:I
+    iget v0, p0, Lkik/arcane/chat/fragment/fv;->f:I
 
     return v0
 .end method
 
-.method public final a(Lkik/android/chat/presentation/bu;)Lkik/android/chat/fragment/fv;
+.method public final a(Lkik/arcane/chat/presentation/bu;)Lkik/arcane/chat/fragment/fv;
     .locals 0
 
     .prologue
     .line 177
-    iput-object p1, p0, Lkik/android/chat/fragment/fv;->a:Lkik/android/chat/presentation/bu;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/fv;->a:Lkik/arcane/chat/presentation/bu;
 
     .line 178
     return-object p0
@@ -271,15 +271,15 @@
 
     aput-object p1, v0, v1
 
-    invoke-static {v0}, Lkik/android/util/ca;->h([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->h([Landroid/view/View;)V
 
     .line 85
-    iget-object v0, p0, Lkik/android/chat/fragment/fv;->d:Ljava/util/Set;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/fv;->d:Ljava/util/Set;
 
     invoke-interface {v0}, Ljava/util/Set;->clear()V
 
     .line 86
-    iget-object v0, p0, Lkik/android/chat/fragment/fv;->d:Ljava/util/Set;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/fv;->d:Ljava/util/Set;
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -288,10 +288,10 @@
     invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
     .line 87
-    invoke-virtual {p0}, Lkik/android/chat/fragment/fv;->notifyDataSetChanged()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/fv;->notifyDataSetChanged()V
 
     .line 89
-    iput-boolean v2, p0, Lkik/android/chat/fragment/fv;->h:Z
+    iput-boolean v2, p0, Lkik/arcane/chat/fragment/fv;->h:Z
 
     .line 90
     return-void
@@ -302,7 +302,7 @@
 
     .prologue
     .line 183
-    iput-object p1, p0, Lkik/android/chat/fragment/fv;->g:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/fv;->g:Ljava/lang/String;
 
     .line 184
     return-void
@@ -328,7 +328,7 @@
     const/4 v1, 0x2
 
     .line 193
-    iput-boolean v3, p0, Lkik/android/chat/fragment/fv;->h:Z
+    iput-boolean v3, p0, Lkik/arcane/chat/fragment/fv;->h:Z
 
     .line 195
     if-nez p1, :cond_0
@@ -344,7 +344,7 @@
 
     invoke-direct {v0, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/fv;->c:Ljava/util/List;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/fv;->c:Ljava/util/List;
 
     .line 201
     invoke-interface {p1}, Ljava/util/List;->size()I
@@ -356,7 +356,7 @@
     move v0, v1
 
     :goto_0
-    iput v0, p0, Lkik/android/chat/fragment/fv;->f:I
+    iput v0, p0, Lkik/arcane/chat/fragment/fv;->f:I
 
     move v4, v3
 
@@ -369,7 +369,7 @@
     if-ge v3, v0, :cond_5
 
     .line 204
-    iget v0, p0, Lkik/android/chat/fragment/fv;->f:I
+    iget v0, p0, Lkik/arcane/chat/fragment/fv;->f:I
 
     if-ne v0, v1, :cond_2
 
@@ -381,7 +381,7 @@
     check-cast v0, Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem;
 
     .line 207
-    sget-object v5, Lkik/android/chat/fragment/fv$1;->a:[I
+    sget-object v5, Lkik/arcane/chat/fragment/fv$1;->a:[I
 
     invoke-virtual {v0}, Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem;->a()Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem$TypeCase;
 
@@ -401,7 +401,7 @@
 
     .line 221
     :goto_3
-    iget v5, p0, Lkik/android/chat/fragment/fv;->f:I
+    iget v5, p0, Lkik/arcane/chat/fragment/fv;->f:I
 
     if-ne v5, v1, :cond_1
 
@@ -411,12 +411,12 @@
 
     move-result v0
 
-    iget v5, p0, Lkik/android/chat/fragment/fv;->e:I
+    iget v5, p0, Lkik/arcane/chat/fragment/fv;->e:I
 
     if-le v0, v5, :cond_1
 
     .line 222
-    iput v2, p0, Lkik/android/chat/fragment/fv;->f:I
+    iput v2, p0, Lkik/arcane/chat/fragment/fv;->f:I
 
     .line 225
     :cond_1
@@ -427,12 +427,12 @@
     .line 226
     const/4 v0, 0x3
 
-    iput v0, p0, Lkik/android/chat/fragment/fv;->f:I
+    iput v0, p0, Lkik/arcane/chat/fragment/fv;->f:I
 
     .line 235
     :cond_2
     :goto_4
-    iget-object v0, p0, Lkik/android/chat/fragment/fv;->d:Ljava/util/Set;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/fv;->d:Ljava/util/Set;
 
     invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -467,7 +467,7 @@
 
     .line 212
     :pswitch_1
-    invoke-static {v0}, Lkik/android/chat/fragment/fy;->b(Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/fy;->b(Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -484,7 +484,7 @@
     if-lez v4, :cond_2
 
     .line 230
-    iput v1, p0, Lkik/android/chat/fragment/fv;->f:I
+    iput v1, p0, Lkik/arcane/chat/fragment/fv;->f:I
 
     goto :goto_4
 
@@ -506,13 +506,13 @@
 
     .prologue
     .line 188
-    invoke-static {p1}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {p1}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/fragment/fv;->g:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/fv;->g:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -536,7 +536,7 @@
 
     .prologue
     .line 172
-    iget-object v0, p0, Lkik/android/chat/fragment/fv;->c:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/fv;->c:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -550,7 +550,7 @@
 
     .prologue
     .line 242
-    iget-object v0, p0, Lkik/android/chat/fragment/fv;->c:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/fv;->c:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -559,7 +559,7 @@
     check-cast v0, Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem;
 
     .line 243
-    sget-object v1, Lkik/android/chat/fragment/fv$1;->a:[I
+    sget-object v1, Lkik/arcane/chat/fragment/fv$1;->a:[I
 
     invoke-virtual {v0}, Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem;->a()Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem$TypeCase;
 
@@ -617,10 +617,10 @@
     const/4 v3, 0x1
 
     .line 23
-    check-cast p1, Lkik/android/chat/fragment/gb;
+    check-cast p1, Lkik/arcane/chat/fragment/gb;
 
     .line 1119
-    invoke-virtual {p0}, Lkik/android/chat/fragment/fv;->getItemCount()I
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/fv;->getItemCount()I
 
     move-result v0
 
@@ -629,7 +629,7 @@
     .line 1120
     if-eqz p1, :cond_0
 
-    iget-object v0, p1, Lkik/android/chat/fragment/gb;->itemView:Landroid/view/View;
+    iget-object v0, p1, Lkik/arcane/chat/fragment/gb;->itemView:Landroid/view/View;
 
     if-nez v0, :cond_1
 
@@ -640,17 +640,17 @@
 
     .line 1124
     :cond_1
-    iget-object v1, p1, Lkik/android/chat/fragment/gb;->itemView:Landroid/view/View;
+    iget-object v1, p1, Lkik/arcane/chat/fragment/gb;->itemView:Landroid/view/View;
 
     .line 1125
-    invoke-static {p0, p1}, Lkik/android/chat/fragment/fw;->a(Lkik/android/chat/fragment/fv;Lkik/android/chat/fragment/gb;)Landroid/view/View$OnTouchListener;
+    invoke-static {p0, p1}, Lkik/arcane/chat/fragment/fw;->a(Lkik/arcane/chat/fragment/fv;Lkik/arcane/chat/fragment/gb;)Landroid/view/View$OnTouchListener;
 
     move-result-object v0
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     .line 1142
-    iget-object v0, p0, Lkik/android/chat/fragment/fv;->c:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/fv;->c:Ljava/util/List;
 
     invoke-interface {v0, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -658,20 +658,20 @@
 
     check-cast v0, Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem;
 
-    invoke-virtual {p1, v0}, Lkik/android/chat/fragment/gb;->a(Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem;)V
+    invoke-virtual {p1, v0}, Lkik/arcane/chat/fragment/gb;->a(Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem;)V
 
     .line 1143
-    invoke-static {p0, p2, v1, p1}, Lkik/android/chat/fragment/fx;->a(Lkik/android/chat/fragment/fv;ILandroid/view/View;Lkik/android/chat/fragment/gb;)Landroid/view/View$OnClickListener;
+    invoke-static {p0, p2, v1, p1}, Lkik/arcane/chat/fragment/fx;->a(Lkik/arcane/chat/fragment/fv;ILandroid/view/View;Lkik/arcane/chat/fragment/gb;)Landroid/view/View$OnClickListener;
 
     move-result-object v0
 
     .line 2030
-    iget-object v2, p1, Lkik/android/chat/fragment/gb;->itemView:Landroid/view/View;
+    iget-object v2, p1, Lkik/arcane/chat/fragment/gb;->itemView:Landroid/view/View;
 
     invoke-virtual {v2, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1154
-    iget-object v0, p0, Lkik/android/chat/fragment/fv;->d:Ljava/util/Set;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/fv;->d:Ljava/util/Set;
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -688,13 +688,13 @@
 
     aput-object v1, v0, v4
 
-    invoke-static {v0}, Lkik/android/util/ca;->f([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->f([Landroid/view/View;)V
 
     goto :goto_0
 
     .line 1158
     :cond_2
-    iget-boolean v0, p0, Lkik/android/chat/fragment/fv;->h:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/fragment/fv;->h:Z
 
     if-eqz v0, :cond_3
 
@@ -703,17 +703,17 @@
 
     aput-object v1, v0, v4
 
-    invoke-static {v0}, Lkik/android/util/ca;->h([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->h([Landroid/view/View;)V
 
     .line 1160
-    instance-of v0, p1, Lkik/android/chat/fragment/o;
+    instance-of v0, p1, Lkik/arcane/chat/fragment/o;
 
     if-eqz v0, :cond_3
 
     .line 1161
-    check-cast p1, Lkik/android/chat/fragment/o;
+    check-cast p1, Lkik/arcane/chat/fragment/o;
 
-    invoke-interface {p1, v3}, Lkik/android/chat/fragment/o;->a(Z)V
+    invoke-interface {p1, v3}, Lkik/arcane/chat/fragment/o;->a(Z)V
 
     .line 1164
     :cond_3
@@ -721,7 +721,7 @@
 
     aput-object v1, v0, v4
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     goto :goto_0
 .end method
@@ -732,7 +732,7 @@
     .prologue
     .line 23
     .line 2059
-    iget v0, p0, Lkik/android/chat/fragment/fv;->b:I
+    iget v0, p0, Lkik/arcane/chat/fragment/fv;->b:I
 
     if-gtz v0, :cond_0
 
@@ -741,7 +741,7 @@
 
     move-result v0
 
-    iput v0, p0, Lkik/android/chat/fragment/fv;->b:I
+    iput v0, p0, Lkik/arcane/chat/fragment/fv;->b:I
 
     .line 2062
     :cond_0
@@ -750,14 +750,14 @@
     if-ne p2, v0, :cond_1
 
     .line 2094
-    invoke-static {p1}, Lkik/android/chat/fragment/SuggestedResponseTextViewHolder;->b(Landroid/view/ViewGroup;)Landroid/view/View;
+    invoke-static {p1}, Lkik/arcane/chat/fragment/SuggestedResponseTextViewHolder;->b(Landroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v1
 
     .line 2095
-    new-instance v0, Lkik/android/chat/fragment/SuggestedResponseTextViewHolder;
+    new-instance v0, Lkik/arcane/chat/fragment/SuggestedResponseTextViewHolder;
 
-    invoke-direct {v0, v1}, Lkik/android/chat/fragment/SuggestedResponseTextViewHolder;-><init>(Landroid/view/View;)V
+    invoke-direct {v0, v1}, Lkik/arcane/chat/fragment/SuggestedResponseTextViewHolder;-><init>(Landroid/view/View;)V
 
     .line 2069
     :goto_0
@@ -770,14 +770,14 @@
     if-ne p2, v0, :cond_2
 
     .line 2100
-    invoke-static {p1}, Lkik/android/chat/fragment/fy;->a(Landroid/view/ViewGroup;)Landroid/view/View;
+    invoke-static {p1}, Lkik/arcane/chat/fragment/fy;->a(Landroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v1
 
     .line 2101
-    new-instance v0, Lkik/android/chat/fragment/fy;
+    new-instance v0, Lkik/arcane/chat/fragment/fy;
 
-    invoke-direct {v0, v1}, Lkik/android/chat/fragment/fy;-><init>(Landroid/view/View;)V
+    invoke-direct {v0, v1}, Lkik/arcane/chat/fragment/fy;-><init>(Landroid/view/View;)V
 
     goto :goto_0
 
@@ -788,29 +788,29 @@
     if-ne p2, v0, :cond_3
 
     .line 2112
-    invoke-static {p1}, Lkik/android/chat/fragment/PictureSuggestedResponseViewHolder;->a(Landroid/view/ViewGroup;)Landroid/view/View;
+    invoke-static {p1}, Lkik/arcane/chat/fragment/PictureSuggestedResponseViewHolder;->a(Landroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v1
 
     .line 2113
-    new-instance v0, Lkik/android/chat/fragment/PictureSuggestedResponseViewHolder;
+    new-instance v0, Lkik/arcane/chat/fragment/PictureSuggestedResponseViewHolder;
 
-    iget-object v2, p0, Lkik/android/chat/fragment/fv;->a:Lkik/android/chat/presentation/bu;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/fv;->a:Lkik/arcane/chat/presentation/bu;
 
-    invoke-direct {v0, v1, v2}, Lkik/android/chat/fragment/PictureSuggestedResponseViewHolder;-><init>(Landroid/view/View;Lkik/android/chat/presentation/bu;)V
+    invoke-direct {v0, v1, v2}, Lkik/arcane/chat/fragment/PictureSuggestedResponseViewHolder;-><init>(Landroid/view/View;Lkik/arcane/chat/presentation/bu;)V
 
     goto :goto_0
 
     .line 3106
     :cond_3
-    invoke-static {p1}, Lkik/android/chat/fragment/ga;->a(Landroid/view/ViewGroup;)Landroid/view/View;
+    invoke-static {p1}, Lkik/arcane/chat/fragment/ga;->a(Landroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v1
 
     .line 3107
-    new-instance v0, Lkik/android/chat/fragment/ga;
+    new-instance v0, Lkik/arcane/chat/fragment/ga;
 
-    invoke-direct {v0, v1}, Lkik/android/chat/fragment/ga;-><init>(Landroid/view/View;)V
+    invoke-direct {v0, v1}, Lkik/arcane/chat/fragment/ga;-><init>(Landroid/view/View;)V
 
     goto :goto_0
 .end method

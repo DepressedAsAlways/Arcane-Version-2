@@ -1,12 +1,12 @@
-.class public Lkik/android/videochat/ExitVideoChatDialogFragment;
-.super Lkik/android/chat/fragment/KikDialogFragment;
+.class public Lkik/arcane/videochat/ExitVideoChatDialogFragment;
+.super Lkik/arcane/chat/fragment/KikDialogFragment;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/videochat/ExitVideoChatDialogFragment$a;
+        Lkik/arcane/videochat/ExitVideoChatDialogFragment$a;
     }
 .end annotation
 
@@ -21,11 +21,11 @@
 
     .prologue
     .line 10
-    invoke-static {}, Lkik/android/videochat/a;->a()Landroid/content/DialogInterface$OnClickListener;
+    invoke-static {}, Lkik/arcane/videochat/a;->a()Landroid/content/DialogInterface$OnClickListener;
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/videochat/ExitVideoChatDialogFragment;->g:Landroid/content/DialogInterface$OnClickListener;
+    sput-object v0, Lkik/arcane/videochat/ExitVideoChatDialogFragment;->g:Landroid/content/DialogInterface$OnClickListener;
 
     return-void
 .end method
@@ -35,7 +35,7 @@
 
     .prologue
     .line 8
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikDialogFragment;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikDialogFragment;-><init>()V
 
     return-void
 .end method

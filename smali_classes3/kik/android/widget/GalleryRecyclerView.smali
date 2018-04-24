@@ -1,26 +1,26 @@
-.class public Lkik/android/widget/GalleryRecyclerView;
-.super Lkik/android/widget/AutoResizeRecyclerGridView;
+.class public Lkik/arcane/widget/GalleryRecyclerView;
+.super Lkik/arcane/widget/AutoResizeRecyclerGridView;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/widget/dn$a;
+.implements Lkik/arcane/widget/dn$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/GalleryRecyclerView$a;,
-        Lkik/android/widget/GalleryRecyclerView$b;
+        Lkik/arcane/widget/GalleryRecyclerView$a;,
+        Lkik/arcane/widget/GalleryRecyclerView$b;
     }
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkik/android/widget/AutoResizeRecyclerGridView;",
-        "Lkik/android/widget/dn$a",
+        "Lkik/arcane/widget/AutoResizeRecyclerGridView;",
+        "Lkik/arcane/widget/dn$a",
         "<",
-        "Lkik/android/gallery/vm/q;",
-        "Lkik/android/widget/GalleryRecyclerView$b;",
+        "Lkik/arcane/gallery/vm/q;",
+        "Lkik/arcane/widget/GalleryRecyclerView$b;",
         ">;"
     }
 .end annotation
@@ -38,7 +38,7 @@
     .line 45
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/GalleryRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/GalleryRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 46
     return-void
@@ -49,30 +49,30 @@
 
     .prologue
     .line 50
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/AutoResizeRecyclerGridView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/AutoResizeRecyclerGridView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 29
     const/4 v0, 0x2
 
-    iput v0, p0, Lkik/android/widget/GalleryRecyclerView;->c:I
+    iput v0, p0, Lkik/arcane/widget/GalleryRecyclerView;->c:I
 
     .line 51
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/GalleryRecyclerView;->setItemAnimator(Landroid/support/v7/widget/RecyclerView$ItemAnimator;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/GalleryRecyclerView;->setItemAnimator(Landroid/support/v7/widget/RecyclerView$ItemAnimator;)V
 
     .line 52
-    new-instance v0, Lkik/android/widget/GalleryRecyclerView$1;
+    new-instance v0, Lkik/arcane/widget/GalleryRecyclerView$1;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/GalleryRecyclerView$1;-><init>(Lkik/android/widget/GalleryRecyclerView;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/GalleryRecyclerView$1;-><init>(Lkik/arcane/widget/GalleryRecyclerView;)V
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/GalleryRecyclerView;->addItemDecoration(Landroid/support/v7/widget/RecyclerView$ItemDecoration;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/GalleryRecyclerView;->addItemDecoration(Landroid/support/v7/widget/RecyclerView$ItemDecoration;)V
 
     .line 69
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/GalleryRecyclerView;Lkik/android/gallery/vm/r;)V
+.method public static a(Lkik/arcane/widget/GalleryRecyclerView;Lkik/arcane/gallery/vm/r;)V
     .locals 2
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -82,29 +82,29 @@
 
     .prologue
     .line 34
-    new-instance v1, Lkik/android/widget/GalleryRecyclerView$a;
+    new-instance v1, Lkik/arcane/widget/GalleryRecyclerView$a;
 
     move-object v0, p1
 
-    check-cast v0, Lkik/android/gallery/vm/l;
+    check-cast v0, Lkik/arcane/gallery/vm/l;
 
-    invoke-direct {v1, p0, v0}, Lkik/android/widget/GalleryRecyclerView$a;-><init>(Lkik/android/widget/dn$a;Lkik/android/chat/vm/IListViewModel;)V
+    invoke-direct {v1, p0, v0}, Lkik/arcane/widget/GalleryRecyclerView$a;-><init>(Lkik/arcane/widget/dn$a;Lkik/arcane/chat/vm/IListViewModel;)V
 
     .line 35
-    invoke-virtual {p0, v1}, Lkik/android/widget/GalleryRecyclerView;->setAdapter(Landroid/support/v7/widget/RecyclerView$Adapter;)V
+    invoke-virtual {p0, v1}, Lkik/arcane/widget/GalleryRecyclerView;->setAdapter(Landroid/support/v7/widget/RecyclerView$Adapter;)V
 
     .line 36
-    invoke-static {p1, p0}, Lkik/android/widget/bc;->a(Lkik/android/gallery/vm/r;Lkik/android/widget/GalleryRecyclerView;)Landroid/view/View$OnTouchListener;
+    invoke-static {p1, p0}, Lkik/arcane/widget/bc;->a(Lkik/arcane/gallery/vm/r;Lkik/arcane/widget/GalleryRecyclerView;)Landroid/view/View$OnTouchListener;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/GalleryRecyclerView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/GalleryRecyclerView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     .line 41
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/gallery/vm/r;Lkik/android/widget/GalleryRecyclerView;Landroid/view/MotionEvent;)Z
+.method static synthetic a(Lkik/arcane/gallery/vm/r;Lkik/arcane/widget/GalleryRecyclerView;Landroid/view/MotionEvent;)Z
     .locals 3
 
     .prologue
@@ -120,7 +120,7 @@
     move-result v2
 
     .line 40
-    invoke-virtual {p1}, Lkik/android/widget/GalleryRecyclerView;->getLayoutManager()Landroid/support/v7/widget/RecyclerView$LayoutManager;
+    invoke-virtual {p1}, Lkik/arcane/widget/GalleryRecyclerView;->getLayoutManager()Landroid/support/v7/widget/RecyclerView$LayoutManager;
 
     move-result-object v0
 
@@ -136,7 +136,7 @@
 
     .line 37
     :goto_0
-    invoke-interface {p0, v1, v2, v0}, Lkik/android/gallery/vm/r;->a(IFZ)Z
+    invoke-interface {p0, v1, v2, v0}, Lkik/arcane/gallery/vm/r;->a(IFZ)Z
 
     move-result v0
 
@@ -176,9 +176,9 @@
     move-result-object v0
 
     .line 1090
-    new-instance v1, Lkik/android/widget/GalleryRecyclerView$b;
+    new-instance v1, Lkik/arcane/widget/GalleryRecyclerView$b;
 
-    invoke-direct {v1, v0}, Lkik/android/widget/GalleryRecyclerView$b;-><init>(Landroid/databinding/ViewDataBinding;)V
+    invoke-direct {v1, v0}, Lkik/arcane/widget/GalleryRecyclerView$b;-><init>(Landroid/databinding/ViewDataBinding;)V
 
     .line 27
     return-object v1
@@ -189,12 +189,12 @@
 
     .prologue
     .line 80
-    invoke-super {p0}, Lkik/android/widget/AutoResizeRecyclerGridView;->onDetachedFromWindow()V
+    invoke-super {p0}, Lkik/arcane/widget/AutoResizeRecyclerGridView;->onDetachedFromWindow()V
 
     .line 83
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/GalleryRecyclerView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/GalleryRecyclerView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     .line 84
     return-void

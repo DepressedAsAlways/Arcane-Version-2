@@ -1,4 +1,4 @@
-.class final Lkik/android/challenge/f$6;
+.class final Lkik/arcane/challenge/f$6;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/challenge/f;
+    value = Lkik/arcane/challenge/f;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/challenge/f;
+.field final synthetic a:Lkik/arcane/challenge/f;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/challenge/f;)V
+.method constructor <init>(Lkik/arcane/challenge/f;)V
     .locals 0
 
     .prologue
     .line 119
-    iput-object p1, p0, Lkik/android/challenge/f$6;->a:Lkik/android/challenge/f;
+    iput-object p1, p0, Lkik/arcane/challenge/f$6;->a:Lkik/arcane/challenge/f;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,9 +52,9 @@
     .prologue
     .line 119
     .line 1123
-    iget-object v0, p0, Lkik/android/challenge/f$6;->a:Lkik/android/challenge/f;
+    iget-object v0, p0, Lkik/arcane/challenge/f$6;->a:Lkik/arcane/challenge/f;
 
-    invoke-static {v0}, Lkik/android/challenge/f;->d(Lkik/android/challenge/f;)V
+    invoke-static {v0}, Lkik/arcane/challenge/f;->d(Lkik/arcane/challenge/f;)V
 
     .line 119
     return-void

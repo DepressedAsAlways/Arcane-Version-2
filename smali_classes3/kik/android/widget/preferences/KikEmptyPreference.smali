@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/preferences/KikEmptyPreference;
+.class public Lkik/arcane/widget/preferences/KikEmptyPreference;
 .super Landroid/preference/Preference;
 .source "SourceFile"
 
@@ -16,13 +16,13 @@
     .line 15
     const v0, 0x7f040136
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/preferences/KikEmptyPreference;->setLayoutResource(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/preferences/KikEmptyPreference;->setLayoutResource(I)V
 
     .line 16
-    invoke-virtual {p0, v1}, Lkik/android/widget/preferences/KikEmptyPreference;->setEnabled(Z)V
+    invoke-virtual {p0, v1}, Lkik/arcane/widget/preferences/KikEmptyPreference;->setEnabled(Z)V
 
     .line 17
-    invoke-virtual {p0, v1}, Lkik/android/widget/preferences/KikEmptyPreference;->setSelectable(Z)V
+    invoke-virtual {p0, v1}, Lkik/arcane/widget/preferences/KikEmptyPreference;->setSelectable(Z)V
 
     .line 18
     return-void

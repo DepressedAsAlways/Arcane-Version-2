@@ -1,25 +1,25 @@
-.class public Lkik/android/widget/SmileyRecyclerView;
-.super Lkik/android/widget/AutoResizeRecyclerGridView;
+.class public Lkik/arcane/widget/SmileyRecyclerView;
+.super Lkik/arcane/widget/AutoResizeRecyclerGridView;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/widget/dn$a;
+.implements Lkik/arcane/widget/dn$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/SmileyRecyclerView$a;
+        Lkik/arcane/widget/SmileyRecyclerView$a;
     }
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkik/android/widget/AutoResizeRecyclerGridView;",
-        "Lkik/android/widget/dn$a",
+        "Lkik/arcane/widget/AutoResizeRecyclerGridView;",
+        "Lkik/arcane/widget/dn$a",
         "<",
-        "Lkik/android/chat/vm/widget/w;",
-        "Lkik/android/widget/SmileyRecyclerView$a;",
+        "Lkik/arcane/chat/vm/widget/w;",
+        "Lkik/arcane/widget/SmileyRecyclerView$a;",
         ">;"
     }
 .end annotation
@@ -31,10 +31,10 @@
 
     .prologue
     .line 21
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/AutoResizeRecyclerGridView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/AutoResizeRecyclerGridView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 22
-    invoke-virtual {p0}, Lkik/android/widget/SmileyRecyclerView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/SmileyRecyclerView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -44,7 +44,7 @@
 
     move-result v0
 
-    iput v0, p0, Lkik/android/widget/SmileyRecyclerView;->a:I
+    iput v0, p0, Lkik/arcane/widget/SmileyRecyclerView;->a:I
 
     .line 23
     return-void
@@ -75,9 +75,9 @@
     move-result-object v0
 
     .line 1044
-    new-instance v1, Lkik/android/widget/SmileyRecyclerView$a;
+    new-instance v1, Lkik/arcane/widget/SmileyRecyclerView$a;
 
-    invoke-direct {v1, v0}, Lkik/android/widget/SmileyRecyclerView$a;-><init>(Landroid/databinding/ViewDataBinding;)V
+    invoke-direct {v1, v0}, Lkik/arcane/widget/SmileyRecyclerView$a;-><init>(Landroid/databinding/ViewDataBinding;)V
 
     .line 17
     return-object v1

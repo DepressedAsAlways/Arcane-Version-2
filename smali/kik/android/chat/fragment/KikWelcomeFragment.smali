@@ -1,5 +1,5 @@
-.class public Lkik/android/chat/fragment/KikWelcomeFragment;
-.super Lkik/android/chat/fragment/KikIqFragmentBase;
+.class public Lkik/arcane/chat/fragment/KikWelcomeFragment;
+.super Lkik/arcane/chat/fragment/KikIqFragmentBase;
 .source "SourceFile"
 
 
@@ -28,7 +28,7 @@
     .end annotation
 .end field
 
-.field protected a:Lcom/kik/android/Mixpanel;
+.field protected a:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -38,7 +38,7 @@
     .end annotation
 .end field
 
-.field protected c:Lkik/android/util/aj;
+.field protected c:Lkik/arcane/util/aj;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -79,14 +79,14 @@
 
     .prologue
     .line 44
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikIqFragmentBase;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikIqFragmentBase;-><init>()V
 
     .line 76
-    invoke-static {p0}, Lkik/android/chat/fragment/el;->a(Lkik/android/chat/fragment/KikWelcomeFragment;)Lcom/kik/events/e;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/el;->a(Lkik/arcane/chat/fragment/KikWelcomeFragment;)Lcom/kik/events/e;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->j:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->j:Lcom/kik/events/e;
 
     return-void
 .end method
@@ -102,67 +102,67 @@
     const/4 v1, 0x0
 
     .line 279
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->_buttonContainer:Landroid/widget/LinearLayout;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->_buttonContainer:Landroid/widget/LinearLayout;
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
     .line 280
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->_loginButton:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->_loginButton:Landroid/widget/TextView;
 
-    invoke-static {v0, v1}, Lkik/android/util/ca;->d(Landroid/view/View;I)V
+    invoke-static {v0, v1}, Lkik/arcane/util/ca;->d(Landroid/view/View;I)V
 
     .line 281
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->_registerButton:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->_registerButton:Landroid/widget/TextView;
 
-    invoke-static {v0, v1}, Lkik/android/util/ca;->d(Landroid/view/View;I)V
+    invoke-static {v0, v1}, Lkik/arcane/util/ca;->d(Landroid/view/View;I)V
 
     .line 284
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->_loginButton:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->_loginButton:Landroid/widget/TextView;
 
-    invoke-static {v0}, Lkik/android/util/ca;->a(Landroid/view/View;)Lkik/android/util/ca$b;
-
-    move-result-object v0
-
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lkik/android/util/ca$b;->b(I)Lkik/android/util/ca$b;
+    invoke-static {v0}, Lkik/arcane/util/ca;->a(Landroid/view/View;)Lkik/arcane/util/ca$b;
 
     move-result-object v0
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lkik/android/util/ca$b;->c(I)Lkik/android/util/ca$b;
+    invoke-virtual {v0, v1}, Lkik/arcane/util/ca$b;->b(I)Lkik/arcane/util/ca$b;
+
+    move-result-object v0
+
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Lkik/arcane/util/ca$b;->c(I)Lkik/arcane/util/ca$b;
 
     .line 285
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->_registerButton:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->_registerButton:Landroid/widget/TextView;
 
-    invoke-static {v0}, Lkik/android/util/ca;->a(Landroid/view/View;)Lkik/android/util/ca$b;
-
-    move-result-object v0
-
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lkik/android/util/ca$b;->b(I)Lkik/android/util/ca$b;
+    invoke-static {v0}, Lkik/arcane/util/ca;->a(Landroid/view/View;)Lkik/arcane/util/ca$b;
 
     move-result-object v0
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lkik/android/util/ca$b;->c(I)Lkik/android/util/ca$b;
+    invoke-virtual {v0, v1}, Lkik/arcane/util/ca$b;->b(I)Lkik/arcane/util/ca$b;
+
+    move-result-object v0
+
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Lkik/arcane/util/ca$b;->c(I)Lkik/arcane/util/ca$b;
 
     .line 286
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/KikWelcomeFragment;)V
+.method static synthetic a(Lkik/arcane/chat/fragment/KikWelcomeFragment;)V
     .locals 6
 
     .prologue
@@ -171,65 +171,65 @@
     const v4, 0x7f0902d3
 
     .line 235
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikWelcomeFragment;->hideKeyboard()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->hideKeyboard()V
 
     .line 3188
-    new-instance v0, Lkik/android/chat/fragment/KikDialogFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/KikDialogFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/KikDialogFragment$a;-><init>()V
 
     .line 3189
-    invoke-virtual {p0, v4}, Lkik/android/chat/fragment/KikWelcomeFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {p0, v4}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikDialogFragment$a;->b(Ljava/lang/String;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->b(Ljava/lang/String;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     move-result-object v1
 
     .line 3190
-    invoke-virtual {p0, v5}, Lkik/android/chat/fragment/KikWelcomeFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {p0, v5}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikDialogFragment$a;->a(Ljava/lang/String;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a(Ljava/lang/String;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     move-result-object v1
 
     const v2, 0x7f09027d
 
     .line 3191
-    invoke-virtual {p0, v2}, Lkik/android/chat/fragment/KikWelcomeFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {p0, v2}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-static {p0}, Lkik/android/chat/fragment/eq;->a(Lkik/android/chat/fragment/KikWelcomeFragment;)Landroid/content/DialogInterface$OnClickListener;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/eq;->a(Lkik/arcane/chat/fragment/KikWelcomeFragment;)Landroid/content/DialogInterface$OnClickListener;
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lkik/android/chat/fragment/KikDialogFragment$a;->c(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v1, v2, v3}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->c(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     .line 3192
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikDialogFragment$a;->a()Lkik/android/chat/fragment/KikDialogFragment;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a()Lkik/arcane/chat/fragment/KikDialogFragment;
 
     move-result-object v0
 
     .line 3193
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/KikWelcomeFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 237
-    invoke-virtual {p0, v5}, Lkik/android/chat/fragment/KikWelcomeFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {p0, v5}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {p0, v4}, Lkik/android/chat/fragment/KikWelcomeFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {p0, v4}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/chat/fragment/KikWelcomeFragment;->displayErrorDialog(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->displayErrorDialog(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 238
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikWelcomeFragment;->getArguments()Landroid/os/Bundle;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->getArguments()Landroid/os/Bundle;
 
     move-result-object v0
 
@@ -243,10 +243,10 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/KikWelcomeFragment;Lkik/core/manager/n$c;)V
+.method static synthetic a(Lkik/arcane/chat/fragment/KikWelcomeFragment;Lkik/core/manager/n$c;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lkik/android/chat/fragment/KikWelcomeFragment;->a(Lkik/core/manager/n$c;)V
+    invoke-direct {p0, p1}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->a(Lkik/core/manager/n$c;)V
 
     return-void
 .end method
@@ -258,58 +258,58 @@
     .line 150
     iget-object v0, p1, Lkik/core/manager/n$c;->a:Ljava/lang/String;
 
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikWelcomeFragment;->isAdded()Z
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->isAdded()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 151
-    new-instance v0, Lkik/android/chat/fragment/KikDialogFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/KikDialogFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/KikDialogFragment$a;-><init>()V
 
     const v1, 0x7f090569
 
     .line 152
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikDialogFragment$a;->a(I)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a(I)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     move-result-object v0
 
     const v1, 0x7f090568
 
     .line 153
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikDialogFragment$a;->b(I)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->b(I)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     move-result-object v0
 
     const v1, 0x7f09027d
 
     .line 154
-    invoke-virtual {p0, v1}, Lkik/android/chat/fragment/KikWelcomeFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {p0, v1}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/chat/fragment/ep;->a(Lkik/android/chat/fragment/KikWelcomeFragment;)Landroid/content/DialogInterface$OnClickListener;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/ep;->a(Lkik/arcane/chat/fragment/KikWelcomeFragment;)Landroid/content/DialogInterface$OnClickListener;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lkik/android/chat/fragment/KikDialogFragment$a;->b(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v0, v1, v2}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->b(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     move-result-object v0
 
     .line 155
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikDialogFragment$a;->a()Lkik/android/chat/fragment/KikDialogFragment;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a()Lkik/arcane/chat/fragment/KikDialogFragment;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/KikWelcomeFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 157
     :cond_0
@@ -325,92 +325,92 @@
     const/high16 v2, 0x41400000    # 12.0f
 
     .line 290
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->_buttonContainer:Landroid/widget/LinearLayout;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->_buttonContainer:Landroid/widget/LinearLayout;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
     .line 291
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->_loginButton:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->_loginButton:Landroid/widget/TextView;
 
-    invoke-static {v0, v3}, Lkik/android/util/ca;->d(Landroid/view/View;I)V
+    invoke-static {v0, v3}, Lkik/arcane/util/ca;->d(Landroid/view/View;I)V
 
     .line 292
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->_registerButton:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->_registerButton:Landroid/widget/TextView;
 
-    invoke-static {v0, v3}, Lkik/android/util/ca;->d(Landroid/view/View;I)V
+    invoke-static {v0, v3}, Lkik/arcane/util/ca;->d(Landroid/view/View;I)V
 
     .line 295
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->_loginButton:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->_loginButton:Landroid/widget/TextView;
 
-    invoke-static {v0}, Lkik/android/util/ca;->a(Landroid/view/View;)Lkik/android/util/ca$b;
-
-    move-result-object v0
-
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lkik/android/util/ca$b;->b(I)Lkik/android/util/ca$b;
+    invoke-static {v0}, Lkik/arcane/util/ca;->a(Landroid/view/View;)Lkik/arcane/util/ca$b;
 
     move-result-object v0
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lkik/android/util/ca$b;->c(I)Lkik/android/util/ca$b;
+    invoke-virtual {v0, v1}, Lkik/arcane/util/ca$b;->b(I)Lkik/arcane/util/ca$b;
+
+    move-result-object v0
+
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Lkik/arcane/util/ca$b;->c(I)Lkik/arcane/util/ca$b;
 
     .line 296
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->_registerButton:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->_registerButton:Landroid/widget/TextView;
 
-    invoke-static {v0}, Lkik/android/util/ca;->a(Landroid/view/View;)Lkik/android/util/ca$b;
-
-    move-result-object v0
-
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lkik/android/util/ca$b;->b(I)Lkik/android/util/ca$b;
+    invoke-static {v0}, Lkik/arcane/util/ca;->a(Landroid/view/View;)Lkik/arcane/util/ca$b;
 
     move-result-object v0
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lkik/android/util/ca$b;->c(I)Lkik/android/util/ca$b;
+    invoke-virtual {v0, v1}, Lkik/arcane/util/ca$b;->b(I)Lkik/arcane/util/ca$b;
+
+    move-result-object v0
+
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Lkik/arcane/util/ca$b;->c(I)Lkik/arcane/util/ca$b;
 
     .line 297
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/chat/fragment/KikWelcomeFragment;)V
+.method static synthetic b(Lkik/arcane/chat/fragment/KikWelcomeFragment;)V
     .locals 3
 
     .prologue
     .line 223
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikWelcomeFragment;->hideKeyboard()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->hideKeyboard()V
 
     .line 224
     const v0, 0x7f090433
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/KikWelcomeFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v0
 
     const v1, 0x7f09019a
 
-    invoke-virtual {p0, v1}, Lkik/android/chat/fragment/KikWelcomeFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {p0, v1}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/chat/fragment/KikWelcomeFragment;->displayErrorDialog(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->displayErrorDialog(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 225
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikWelcomeFragment;->getArguments()Landroid/os/Bundle;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->getArguments()Landroid/os/Bundle;
 
     move-result-object v0
 
@@ -424,38 +424,38 @@
     return-void
 .end method
 
-.method static synthetic c(Lkik/android/chat/fragment/KikWelcomeFragment;)V
+.method static synthetic c(Lkik/arcane/chat/fragment/KikWelcomeFragment;)V
     .locals 0
 
     .prologue
     .line 191
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikWelcomeFragment;->dismissAllDialogs()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->dismissAllDialogs()V
 
     return-void
 .end method
 
-.method static synthetic d(Lkik/android/chat/fragment/KikWelcomeFragment;)V
+.method static synthetic d(Lkik/arcane/chat/fragment/KikWelcomeFragment;)V
     .locals 0
 
     .prologue
     .line 154
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikWelcomeFragment;->dismissAllDialogs()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->dismissAllDialogs()V
 
     return-void
 .end method
 
-.method static synthetic e(Lkik/android/chat/fragment/KikWelcomeFragment;)V
+.method static synthetic e(Lkik/arcane/chat/fragment/KikWelcomeFragment;)V
     .locals 3
 
     .prologue
     .line 105
     new-instance v0, Landroid/content/Intent;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikWelcomeFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v1
 
-    const-class v2, Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;
+    const-class v2, Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
@@ -465,7 +465,7 @@
     invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     .line 4165
-    const-class v1, Lkik/android/chat/fragment/KikLoginFragment;
+    const-class v1, Lkik/arcane/chat/fragment/KikLoginFragment;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getCanonicalName()Ljava/lang/String;
 
@@ -479,24 +479,24 @@
     .line 109
     const/4 v1, 0x1
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/chat/fragment/KikWelcomeFragment;->startActivityForResult(Landroid/content/Intent;I)V
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->startActivityForResult(Landroid/content/Intent;I)V
 
     .line 110
     return-void
 .end method
 
-.method static synthetic f(Lkik/android/chat/fragment/KikWelcomeFragment;)V
+.method static synthetic f(Lkik/arcane/chat/fragment/KikWelcomeFragment;)V
     .locals 3
 
     .prologue
     .line 97
     new-instance v0, Landroid/content/Intent;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikWelcomeFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v1
 
-    const-class v2, Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;
+    const-class v2, Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
@@ -506,7 +506,7 @@
     invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     .line 4174
-    const-class v1, Lkik/android/chat/fragment/KikRegistrationFragment;
+    const-class v1, Lkik/arcane/chat/fragment/KikRegistrationFragment;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getCanonicalName()Ljava/lang/String;
 
@@ -520,31 +520,31 @@
     .line 101
     const/4 v1, 0x1
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/chat/fragment/KikWelcomeFragment;->startActivityForResult(Landroid/content/Intent;I)V
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->startActivityForResult(Landroid/content/Intent;I)V
 
     .line 102
     return-void
 .end method
 
-.method static synthetic g(Lkik/android/chat/fragment/KikWelcomeFragment;)V
+.method static synthetic g(Lkik/arcane/chat/fragment/KikWelcomeFragment;)V
     .locals 0
 
     .prologue
     .line 76
     .line 4254
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikWelcomeFragment;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->finish()V
 
     .line 76
     return-void
 .end method
 
-.method static synthetic h(Lkik/android/chat/fragment/KikWelcomeFragment;)V
+.method static synthetic h(Lkik/arcane/chat/fragment/KikWelcomeFragment;)V
     .locals 0
 
     .prologue
     .line 44
     .line 5254
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikWelcomeFragment;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->finish()V
 
     .line 44
     return-void
@@ -557,7 +557,7 @@
 
     .prologue
     .line 246
-    invoke-super {p0, p1, p2, p3}, Lkik/android/chat/fragment/KikIqFragmentBase;->onActivityResult(IILandroid/content/Intent;)V
+    invoke-super {p0, p1, p2, p3}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->onActivityResult(IILandroid/content/Intent;)V
 
     .line 247
     const/4 v0, 0x1
@@ -569,7 +569,7 @@
     if-ne p2, v0, :cond_0
 
     .line 2254
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikWelcomeFragment;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->finish()V
 
     .line 250
     :cond_0
@@ -581,7 +581,7 @@
 
     .prologue
     .line 268
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikIqFragmentBase;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
     .line 269
     iget v0, p1, Landroid/content/res/Configuration;->orientation:I
@@ -591,7 +591,7 @@
     if-ne v0, v1, :cond_0
 
     .line 270
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikWelcomeFragment;->a()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->a()V
 
     .line 275
     :goto_0
@@ -599,7 +599,7 @@
 
     .line 273
     :cond_0
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikWelcomeFragment;->b()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->b()V
 
     goto :goto_0
 .end method
@@ -609,36 +609,36 @@
 
     .prologue
     .line 70
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikIqFragmentBase;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->onCreate(Landroid/os/Bundle;)V
 
     .line 71
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikWelcomeFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 
-    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/fragment/KikWelcomeFragment;)V
+    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/fragment/KikWelcomeFragment;)V
 
     .line 72
     new-instance v0, Lcom/kik/events/d;
 
     invoke-direct {v0}, Lcom/kik/events/d;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->h:Lcom/kik/events/d;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->h:Lcom/kik/events/d;
 
     .line 73
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Intro Shown"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 74
     return-void
@@ -657,41 +657,41 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->i:Landroid/view/View;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->i:Landroid/view/View;
 
     .line 82
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->i:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->i:Landroid/view/View;
 
     invoke-static {p0, v0}, Lbutterknife/ButterKnife;->bind(Ljava/lang/Object;Landroid/view/View;)Lbutterknife/Unbinder;
 
     .line 83
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->h:Lcom/kik/events/d;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->h:Lcom/kik/events/d;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->b:Lkik/core/interfaces/ag;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->b:Lkik/core/interfaces/ag;
 
     invoke-interface {v1}, Lkik/core/interfaces/ag;->b()Lcom/kik/events/c;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->j:Lcom/kik/events/e;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->j:Lcom/kik/events/e;
 
     invoke-virtual {v0, v1, v2}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 85
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->b:Lkik/core/interfaces/ag;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->b:Lkik/core/interfaces/ag;
 
     invoke-interface {v0}, Lkik/core/interfaces/ag;->h()Lcom/kik/events/Promise;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/chat/fragment/KikWelcomeFragment$1;
+    new-instance v1, Lkik/arcane/chat/fragment/KikWelcomeFragment$1;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/fragment/KikWelcomeFragment$1;-><init>(Lkik/android/chat/fragment/KikWelcomeFragment;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/fragment/KikWelcomeFragment$1;-><init>(Lkik/arcane/chat/fragment/KikWelcomeFragment;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
     .line 1136
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->e:Lkik/core/manager/n;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->e:Lkik/core/manager/n;
 
     .line 1218
     invoke-virtual {v0}, Lkik/core/manager/n;->a()Lkik/core/manager/n$c;
@@ -701,45 +701,45 @@
     iget-object v0, v0, Lkik/core/manager/n$c;->a:Ljava/lang/String;
 
     .line 1136
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
     .line 1137
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->e:Lkik/core/manager/n;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->e:Lkik/core/manager/n;
 
     invoke-virtual {v0}, Lkik/core/manager/n;->a()Lkik/core/manager/n$c;
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lkik/android/chat/fragment/KikWelcomeFragment;->a(Lkik/core/manager/n$c;)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->a(Lkik/core/manager/n$c;)V
 
     .line 96
     :goto_0
-    invoke-static {p0}, Lkik/android/chat/fragment/em;->a(Lkik/android/chat/fragment/KikWelcomeFragment;)Landroid/view/View$OnClickListener;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/em;->a(Lkik/arcane/chat/fragment/KikWelcomeFragment;)Landroid/view/View$OnClickListener;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->g:Landroid/view/View$OnClickListener;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->g:Landroid/view/View$OnClickListener;
 
     .line 104
-    invoke-static {p0}, Lkik/android/chat/fragment/en;->a(Lkik/android/chat/fragment/KikWelcomeFragment;)Landroid/view/View$OnClickListener;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/en;->a(Lkik/arcane/chat/fragment/KikWelcomeFragment;)Landroid/view/View$OnClickListener;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->f:Landroid/view/View$OnClickListener;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->f:Landroid/view/View$OnClickListener;
 
     .line 120
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikWelcomeFragment;->getRequestedStatusBarColor()I
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->getRequestedStatusBarColor()I
 
     move-result v0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/KikWelcomeFragment;->setStatusBarColor(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->setStatusBarColor(I)V
 
     .line 122
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikWelcomeFragment;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -754,19 +754,19 @@
     if-ne v0, v1, :cond_1
 
     .line 123
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikWelcomeFragment;->a()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->a()V
 
     .line 129
     :goto_1
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->i:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->i:Landroid/view/View;
 
     return-object v0
 
     .line 1140
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->e:Lkik/core/manager/n;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->e:Lkik/core/manager/n;
 
-    invoke-static {p0}, Lkik/android/chat/fragment/eo;->a(Lkik/android/chat/fragment/KikWelcomeFragment;)Lkik/core/manager/n$a;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/eo;->a(Lkik/arcane/chat/fragment/KikWelcomeFragment;)Lkik/core/manager/n$a;
 
     move-result-object v1
 
@@ -776,7 +776,7 @@
 
     .line 126
     :cond_1
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikWelcomeFragment;->b()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->b()V
 
     goto :goto_1
 .end method
@@ -786,17 +786,17 @@
 
     .prologue
     .line 260
-    invoke-super {p0}, Lkik/android/chat/fragment/KikIqFragmentBase;->onDestroy()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->onDestroy()V
 
     .line 261
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->h:Lcom/kik/events/d;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->h:Lcom/kik/events/d;
 
     invoke-virtual {v0}, Lcom/kik/events/d;->a()V
 
     .line 262
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->c:Lkik/android/util/aj;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->c:Lkik/arcane/util/aj;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;->a(Lkik/android/util/aj;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;->a(Lkik/arcane/util/aj;)V
 
     .line 263
     return-void
@@ -811,14 +811,14 @@
     const/4 v1, 0x0
 
     .line 199
-    invoke-static {}, Lkik/android/widget/bx;->b()Z
+    invoke-static {}, Lkik/arcane/widget/bx;->b()Z
 
     move-result v2
 
     if-nez v2, :cond_1
 
     .line 202
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikWelcomeFragment;->getArguments()Landroid/os/Bundle;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->getArguments()Landroid/os/Bundle;
 
     move-result-object v3
 
@@ -840,9 +840,9 @@
     if-eqz v2, :cond_0
 
     .line 1234
-    iget-object v2, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->i:Landroid/view/View;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->i:Landroid/view/View;
 
-    invoke-static {p0}, Lkik/android/chat/fragment/es;->a(Lkik/android/chat/fragment/KikWelcomeFragment;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/es;->a(Lkik/arcane/chat/fragment/KikWelcomeFragment;)Ljava/lang/Runnable;
 
     move-result-object v4
 
@@ -865,9 +865,9 @@
     if-eqz v0, :cond_1
 
     .line 2222
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->i:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->i:Landroid/view/View;
 
-    invoke-static {p0}, Lkik/android/chat/fragment/er;->a(Lkik/android/chat/fragment/KikWelcomeFragment;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/er;->a(Lkik/arcane/chat/fragment/KikWelcomeFragment;)Ljava/lang/Runnable;
 
     move-result-object v1
 
@@ -875,43 +875,43 @@
 
     .line 209
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->_registerButton:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->_registerButton:Landroid/widget/TextView;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->g:Landroid/view/View$OnClickListener;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->g:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 210
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->_loginButton:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->_loginButton:Landroid/widget/TextView;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->f:Landroid/view/View$OnClickListener;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->f:Landroid/view/View$OnClickListener;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 212
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->_registerButton:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->_registerButton:Landroid/widget/TextView;
 
     const v1, 0x7f09045d
 
-    invoke-virtual {p0, v1}, Lkik/android/chat/fragment/KikWelcomeFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {p0, v1}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 213
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment;->_loginButton:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->_loginButton:Landroid/widget/TextView;
 
     const v1, 0x7f09041b
 
-    invoke-virtual {p0, v1}, Lkik/android/chat/fragment/KikWelcomeFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {p0, v1}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 215
-    invoke-super {p0}, Lkik/android/chat/fragment/KikIqFragmentBase;->onResume()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->onResume()V
 
     .line 216
     return-void

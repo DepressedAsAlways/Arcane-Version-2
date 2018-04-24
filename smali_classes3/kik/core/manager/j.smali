@@ -49,7 +49,7 @@
     .line 1079
     iget-object v0, p0, Lkik/core/manager/j;->b:Lkik/core/interfaces/b;
 
-    invoke-static {v0}, Lkik/android/util/a;->a(Lkik/core/interfaces/b;)Z
+    invoke-static {v0}, Lkik/arcane/util/a;->a(Lkik/core/interfaces/b;)Z
 
     move-result v0
 
@@ -131,7 +131,7 @@
     :try_start_0
     iget-object v0, p0, Lkik/core/manager/j;->b:Lkik/core/interfaces/b;
 
-    invoke-static {v0}, Lkik/android/util/a;->a(Lkik/core/interfaces/b;)Z
+    invoke-static {v0}, Lkik/arcane/util/a;->a(Lkik/core/interfaces/b;)Z
 
     move-result v0
 

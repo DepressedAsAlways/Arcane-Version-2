@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/chat/presentation/n;
+.class public interface abstract Lkik/arcane/chat/presentation/n;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -10,10 +10,10 @@
 .method public abstract a(I)V
 .end method
 
-.method public abstract a(Lkik/android/c/c;)V
+.method public abstract a(Lkik/arcane/c/c;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/view/m;Lkik/android/chat/view/s;Lkik/android/chat/view/af;Lkik/android/chat/fragment/q;Lkik/android/chat/fragment/CameraFragment$a;)V
+.method public abstract a(Lkik/arcane/chat/view/m;Lkik/arcane/chat/view/s;Lkik/arcane/chat/view/af;Lkik/arcane/chat/fragment/q;Lkik/arcane/chat/fragment/CameraFragment$a;)V
 .end method
 
 .method public abstract a(Z)V

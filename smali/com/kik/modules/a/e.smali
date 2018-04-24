@@ -4,11 +4,11 @@
 
 
 # static fields
-.field private static a:Lkik/android/chat/presentation/bv;
+.field private static a:Lkik/arcane/chat/presentation/bv;
 
 
 # instance fields
-.field private b:Lkik/android/chat/view/text/e;
+.field private b:Lkik/arcane/chat/view/text/e;
 
 
 # direct methods
@@ -22,10 +22,10 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 28
-    sput-object v0, Lcom/kik/modules/a/e;->a:Lkik/android/chat/presentation/bv;
+    sput-object v0, Lcom/kik/modules/a/e;->a:Lkik/arcane/chat/presentation/bv;
 
     .line 29
-    iput-object v0, p0, Lcom/kik/modules/a/e;->b:Lkik/android/chat/view/text/e;
+    iput-object v0, p0, Lcom/kik/modules/a/e;->b:Lkik/arcane/chat/view/text/e;
 
     .line 30
     return-void
@@ -33,7 +33,7 @@
 
 
 # virtual methods
-.method final a(Lcom/kik/android/Mixpanel;Lkik/core/interfaces/v;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/e/c;)Lkik/android/chat/presentation/bu;
+.method final a(Lcom/kik/arcane/Mixpanel;Lkik/core/interfaces/v;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/e/c;)Lkik/arcane/chat/presentation/bu;
     .locals 2
     .param p3    # Lcom/kik/cache/KikVolleyImageLoader;
         .annotation runtime Ljavax/inject/Named;
@@ -43,25 +43,25 @@
 
     .prologue
     .line 38
-    sget-object v0, Lcom/kik/modules/a/e;->a:Lkik/android/chat/presentation/bv;
+    sget-object v0, Lcom/kik/modules/a/e;->a:Lkik/arcane/chat/presentation/bv;
 
     if-nez v0, :cond_0
 
     .line 39
-    new-instance v0, Lkik/android/chat/presentation/bv;
+    new-instance v0, Lkik/arcane/chat/presentation/bv;
 
-    invoke-direct {v0, p1, p2, p3, p4}, Lkik/android/chat/presentation/bv;-><init>(Lcom/kik/android/Mixpanel;Lkik/core/interfaces/v;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/e/c;)V
+    invoke-direct {v0, p1, p2, p3, p4}, Lkik/arcane/chat/presentation/bv;-><init>(Lcom/kik/arcane/Mixpanel;Lkik/core/interfaces/v;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/e/c;)V
 
     .line 43
-    sput-object v0, Lcom/kik/modules/a/e;->a:Lkik/android/chat/presentation/bv;
+    sput-object v0, Lcom/kik/modules/a/e;->a:Lkik/arcane/chat/presentation/bv;
 
-    iget-object v1, p0, Lcom/kik/modules/a/e;->b:Lkik/android/chat/view/text/e;
+    iget-object v1, p0, Lcom/kik/modules/a/e;->b:Lkik/arcane/chat/view/text/e;
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/presentation/bv;->a(Lkik/android/chat/view/text/e;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/presentation/bv;->a(Lkik/arcane/chat/view/text/e;)V
 
     .line 45
     :cond_0
-    sget-object v0, Lcom/kik/modules/a/e;->a:Lkik/android/chat/presentation/bv;
+    sget-object v0, Lcom/kik/modules/a/e;->a:Lkik/arcane/chat/presentation/bv;
 
     return-object v0
 .end method

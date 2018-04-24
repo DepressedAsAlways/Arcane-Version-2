@@ -1,11 +1,11 @@
-.class final Lcom/kik/android/b/l$2;
+.class final Lcom/kik/arcane/b/l$2;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/kik/android/b/l;->a(Lcom/kik/android/b/l;Lcom/kik/events/Promise;)V
+    value = Lcom/kik/arcane/b/l;->a(Lcom/kik/arcane/b/l;Lcom/kik/events/Promise;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,18 +26,18 @@
 # instance fields
 .field final synthetic a:Lcom/kik/events/Promise;
 
-.field final synthetic b:Lcom/kik/android/b/l;
+.field final synthetic b:Lcom/kik/arcane/b/l;
 
 
 # direct methods
-.method constructor <init>(Lcom/kik/android/b/l;Lcom/kik/events/Promise;)V
+.method constructor <init>(Lcom/kik/arcane/b/l;Lcom/kik/events/Promise;)V
     .locals 0
 
     .prologue
     .line 241
-    iput-object p1, p0, Lcom/kik/android/b/l$2;->b:Lcom/kik/android/b/l;
+    iput-object p1, p0, Lcom/kik/arcane/b/l$2;->b:Lcom/kik/arcane/b/l;
 
-    iput-object p2, p0, Lcom/kik/android/b/l$2;->a:Lcom/kik/events/Promise;
+    iput-object p2, p0, Lcom/kik/arcane/b/l$2;->a:Lcom/kik/events/Promise;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -56,13 +56,13 @@
     invoke-super {p0, p1}, Lcom/kik/events/k;->a(Ljava/lang/Object;)V
 
     .line 246
-    iget-object v0, p0, Lcom/kik/android/b/l$2;->b:Lcom/kik/android/b/l;
+    iget-object v0, p0, Lcom/kik/arcane/b/l$2;->b:Lcom/kik/arcane/b/l;
 
-    invoke-static {v0}, Lcom/kik/android/b/l;->b(Lcom/kik/android/b/l;)Lkik/core/interfaces/ad;
+    invoke-static {v0}, Lcom/kik/arcane/b/l;->b(Lcom/kik/arcane/b/l;)Lkik/core/interfaces/ad;
 
     move-result-object v0
 
-    const-string v1, "com.kik.android.smileys.xSmileyManagerStorage.restored"
+    const-string v1, "com.kik.arcane.smileys.xSmileyManagerStorage.restored"
 
     invoke-static {v3}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -71,7 +71,7 @@
     invoke-interface {v0, v1, v2}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
 
     .line 247
-    iget-object v0, p0, Lcom/kik/android/b/l$2;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lcom/kik/arcane/b/l$2;->a:Lcom/kik/events/Promise;
 
     invoke-static {v3}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -91,7 +91,7 @@
     invoke-super {p0, p1}, Lcom/kik/events/k;->a(Ljava/lang/Throwable;)V
 
     .line 254
-    iget-object v0, p0, Lcom/kik/android/b/l$2;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lcom/kik/arcane/b/l$2;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {v0, p1}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 

@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/chat/vm/IShareUsernameViewModel;
+.class public interface abstract Lkik/arcane/chat/vm/IShareUsernameViewModel;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/vm/IShareUsernameViewModel$ShareResult;
+        Lkik/arcane/chat/vm/IShareUsernameViewModel$ShareResult;
     }
 .end annotation
 

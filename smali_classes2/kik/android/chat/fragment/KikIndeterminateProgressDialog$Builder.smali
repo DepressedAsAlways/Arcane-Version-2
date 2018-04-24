@@ -1,11 +1,11 @@
-.class public Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;
+.class public Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikIndeterminateProgressDialog;
+    value = Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,7 +27,7 @@
     .end annotation
 .end field
 
-.field a:Lkik/android/chat/fragment/KikDialogFragment$a;
+.field a:Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
 
 # direct methods
@@ -39,11 +39,11 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 33
-    new-instance v0, Lkik/android/chat/fragment/KikDialogFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/KikDialogFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/KikDialogFragment$a;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;->a:Lkik/android/chat/fragment/KikDialogFragment$a;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;->a:Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     .line 34
     const v0, 0x7f04006d
@@ -55,17 +55,17 @@
     move-result-object v0
 
     .line 35
-    iget-object v1, p0, Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;->a:Lkik/android/chat/fragment/KikDialogFragment$a;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;->a:Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
-    invoke-virtual {v1, v0}, Lkik/android/chat/fragment/KikDialogFragment$a;->a(Landroid/view/View;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v1, v0}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a(Landroid/view/View;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     .line 36
     invoke-static {p0, v0}, Lbutterknife/ButterKnife;->bind(Ljava/lang/Object;Landroid/view/View;)Lbutterknife/Unbinder;
 
     .line 37
-    iget-object v0, p0, Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;->a:Lkik/android/chat/fragment/KikDialogFragment$a;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;->a:Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikDialogFragment$a;->b()Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->b()Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     .line 38
     return-void
@@ -73,41 +73,41 @@
 
 
 # virtual methods
-.method public final a()Lkik/android/chat/fragment/KikDialogFragment;
+.method public final a()Lkik/arcane/chat/fragment/KikDialogFragment;
     .locals 1
 
     .prologue
     .line 75
-    iget-object v0, p0, Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;->a:Lkik/android/chat/fragment/KikDialogFragment$a;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;->a:Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikDialogFragment$a;->a()Lkik/android/chat/fragment/KikDialogFragment;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a()Lkik/arcane/chat/fragment/KikDialogFragment;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public final a(I)Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;
+.method public final a(I)Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;
     .locals 1
 
     .prologue
     .line 42
-    invoke-static {p1}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {p1}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;->a(Ljava/lang/String;)Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;->a(Ljava/lang/String;)Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;
 
     .line 43
     return-object p0
 .end method
 
-.method public final a(Ljava/lang/String;)Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;
+.method public final a(Ljava/lang/String;)Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;
     .locals 3
 
     .prologue
     .line 48
-    iget-object v0, p0, Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;->_text:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;->_text:Landroid/widget/TextView;
 
     invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
@@ -118,29 +118,29 @@
 
     const/4 v1, 0x0
 
-    iget-object v2, p0, Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;->_text:Landroid/widget/TextView;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;->_text:Landroid/widget/TextView;
 
     aput-object v2, v0, v1
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 50
     return-object p0
 .end method
 
-.method public final a(Z)Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;
+.method public final a(Z)Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;
     .locals 1
 
     .prologue
     .line 56
-    iget-object v0, p0, Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;->a:Lkik/android/chat/fragment/KikDialogFragment$a;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;->a:Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
-    invoke-virtual {v0, p1}, Lkik/android/chat/fragment/KikDialogFragment$a;->a(Z)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v0, p1}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a(Z)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     .line 57
-    iget-object v0, p0, Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;->a:Lkik/android/chat/fragment/KikDialogFragment$a;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;->a:Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
-    invoke-virtual {v0, p1}, Lkik/android/chat/fragment/KikDialogFragment$a;->b(Z)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v0, p1}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->b(Z)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     .line 58
     return-object p0

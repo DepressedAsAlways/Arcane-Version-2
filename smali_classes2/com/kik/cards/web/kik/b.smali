@@ -24,7 +24,7 @@
             "(",
             "Ljava/util/List",
             "<",
-            "Lcom/kik/android/b/f;",
+            "Lcom/kik/arcane/b/f;",
             ">;",
             "Ljava/lang/String;",
             ")",
@@ -48,7 +48,7 @@
             "(",
             "Ljava/util/List",
             "<",
-            "Lcom/kik/android/b/f;",
+            "Lcom/kik/arcane/b/f;",
             ">;",
             "Ljava/lang/String;",
             ")V"

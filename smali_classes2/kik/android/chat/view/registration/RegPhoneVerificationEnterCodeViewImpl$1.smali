@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl$1;
+.class final Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl$1;
 .super Lcom/kik/util/da;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;
+    value = Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;
+.field final synthetic a:Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;)V
+.method constructor <init>(Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;)V
     .locals 0
 
     .prologue
     .line 40
-    iput-object p1, p0, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl$1;->a:Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;
+    iput-object p1, p0, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl$1;->a:Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;
 
     invoke-direct {p0}, Lcom/kik/util/da;-><init>()V
 
@@ -38,18 +38,18 @@
 
     .prologue
     .line 44
-    iget-object v0, p0, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl$1;->a:Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;
+    iget-object v0, p0, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl$1;->a:Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;
 
-    invoke-static {v0}, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;->a(Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;)Lkik/android/chat/view/ad$a;
+    invoke-static {v0}, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;->a(Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;)Lkik/arcane/chat/view/ad$a;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
     .line 45
-    iget-object v0, p0, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl$1;->a:Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;
+    iget-object v0, p0, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl$1;->a:Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;
 
-    invoke-static {v0}, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;->a(Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;)Lkik/android/chat/view/ad$a;
+    invoke-static {v0}, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;->a(Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;)Lkik/arcane/chat/view/ad$a;
 
     move-result-object v0
 
@@ -57,7 +57,7 @@
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lkik/android/chat/view/ad$a;->a(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/view/ad$a;->a(Ljava/lang/String;)V
 
     .line 47
     :cond_0

@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/gallery/vm/c;
+.class final synthetic Lkik/arcane/gallery/vm/c;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/gallery/vm/a;
+.field private final a:Lkik/arcane/gallery/vm/a;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/gallery/vm/a;)V
+.method private constructor <init>(Lkik/arcane/gallery/vm/a;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/gallery/vm/c;->a:Lkik/android/gallery/vm/a;
+    iput-object p1, p0, Lkik/arcane/gallery/vm/c;->a:Lkik/arcane/gallery/vm/a;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/gallery/vm/a;)Lrx/functions/g;
+.method public static a(Lkik/arcane/gallery/vm/a;)Lrx/functions/g;
     .locals 1
 
-    new-instance v0, Lkik/android/gallery/vm/c;
+    new-instance v0, Lkik/arcane/gallery/vm/c;
 
-    invoke-direct {v0, p0}, Lkik/android/gallery/vm/c;-><init>(Lkik/android/gallery/vm/a;)V
+    invoke-direct {v0, p0}, Lkik/arcane/gallery/vm/c;-><init>(Lkik/arcane/gallery/vm/a;)V
 
     return-object v0
 .end method
@@ -37,12 +37,12 @@
 
     .prologue
     .line 0
-    iget-object v0, p0, Lkik/android/gallery/vm/c;->a:Lkik/android/gallery/vm/a;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/c;->a:Lkik/arcane/gallery/vm/a;
 
     check-cast p1, Lcom/kik/cache/GalleryImageRequest;
 
     .line 1126
-    invoke-static {v0, p1}, Lkik/android/gallery/vm/f;->a(Lkik/android/gallery/vm/a;Lcom/kik/cache/GalleryImageRequest;)Lrx/d$a;
+    invoke-static {v0, p1}, Lkik/arcane/gallery/vm/f;->a(Lkik/arcane/gallery/vm/a;Lcom/kik/cache/GalleryImageRequest;)Lrx/d$a;
 
     move-result-object v0
 

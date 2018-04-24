@@ -69,7 +69,7 @@
     iput-object v0, p0, Lcom/kik/sdkutils/LazyLoadingImage;->i:Ljava/lang/Object;
 
     .line 62
-    sget-object v0, Lkik/android/R$styleable;->LazyLoadingImage:[I
+    sget-object v0, Lkik/arcane/R$styleable;->LazyLoadingImage:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 

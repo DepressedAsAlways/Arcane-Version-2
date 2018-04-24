@@ -1,11 +1,11 @@
-.class public interface abstract Lkik/android/chat/view/ValidateableInputView$a;
+.class public interface abstract Lkik/arcane/chat/view/ValidateableInputView$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/view/ValidateableInputView;
+    value = Lkik/arcane/chat/view/ValidateableInputView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

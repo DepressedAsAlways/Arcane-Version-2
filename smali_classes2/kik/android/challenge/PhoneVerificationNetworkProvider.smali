@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/challenge/PhoneVerificationNetworkProvider;
+.class public interface abstract Lkik/arcane/challenge/PhoneVerificationNetworkProvider;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,8 +6,8 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;,
-        Lkik/android/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;
+        Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerifyCodeFailure;,
+        Lkik/arcane/challenge/PhoneVerificationNetworkProvider$VerificationInitiationFailure;
     }
 .end annotation
 
@@ -31,11 +31,11 @@
     .end annotation
 .end method
 
-.method public abstract a(Lkik/android/challenge/PhoneNumberModel;)Lcom/kik/events/Promise;
+.method public abstract a(Lkik/arcane/challenge/PhoneNumberModel;)Lcom/kik/events/Promise;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/challenge/PhoneNumberModel;",
+            "Lkik/arcane/challenge/PhoneNumberModel;",
             ")",
             "Lcom/kik/events/Promise",
             "<",

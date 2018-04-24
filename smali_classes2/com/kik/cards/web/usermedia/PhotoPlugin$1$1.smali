@@ -84,7 +84,7 @@
     check-cast v0, Ljava/lang/String;
 
     .line 1336
-    invoke-static {v0}, Lkik/android/util/br;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/br;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 

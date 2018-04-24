@@ -27,13 +27,13 @@
 
 .field private _largeGroupFlowerPic:Z
 
-.field private final _mixpanel:Lcom/kik/android/Mixpanel;
+.field private final _mixpanel:Lcom/kik/arcane/Mixpanel;
 
 .field private final _profile:Lkik/core/interfaces/v;
 
 
 # direct methods
-.method protected constructor <init>(Lkik/core/datatypes/p;Ljava/lang/String;Lcom/android/volley/h$b;IILandroid/graphics/Bitmap$Config;Lcom/android/volley/h$a;Lkik/core/interfaces/v;ZLcom/kik/cache/KikVolleyImageLoader;Lcom/kik/android/Mixpanel;)V
+.method protected constructor <init>(Lkik/core/datatypes/p;Ljava/lang/String;Lcom/android/volley/h$b;IILandroid/graphics/Bitmap$Config;Lcom/android/volley/h$a;Lkik/core/interfaces/v;ZLcom/kik/cache/KikVolleyImageLoader;Lcom/kik/arcane/Mixpanel;)V
     .locals 1
 
     .prologue
@@ -54,7 +54,7 @@
     iput-boolean p9, p0, Lcom/kik/cache/GroupImageRequest;->_largeGroupFlowerPic:Z
 
     .line 47
-    iput-object p11, p0, Lcom/kik/cache/GroupImageRequest;->_mixpanel:Lcom/kik/android/Mixpanel;
+    iput-object p11, p0, Lcom/kik/cache/GroupImageRequest;->_mixpanel:Lcom/kik/arcane/Mixpanel;
 
     .line 48
     iput-object p10, p0, Lcom/kik/cache/GroupImageRequest;->_contactImageLoader:Lcom/kik/cache/KikVolleyImageLoader;
@@ -178,12 +178,12 @@
 
     .line 100
     :goto_1
-    invoke-virtual {p0, v0, v1}, Lcom/kik/cache/GroupImageRequest;->createCircleComposite(Lkik/core/datatypes/p;I)Lkik/android/util/f$a;
+    invoke-virtual {p0, v0, v1}, Lcom/kik/cache/GroupImageRequest;->createCircleComposite(Lkik/core/datatypes/p;I)Lkik/arcane/util/f$a;
 
     move-result-object v1
 
     .line 102
-    iget-object v0, v1, Lkik/android/util/f$a;->a:Landroid/graphics/Bitmap;
+    iget-object v0, v1, Lkik/arcane/util/f$a;->a:Landroid/graphics/Bitmap;
 
     invoke-static {p1}, Lcom/android/volley/toolbox/d;->a(Lcom/android/volley/f;)Lcom/android/volley/Cache$a;
 
@@ -194,7 +194,7 @@
     move-result-object v0
 
     .line 104
-    iget-boolean v2, v1, Lkik/android/util/f$a;->b:Z
+    iget-boolean v2, v1, Lkik/arcane/util/f$a;->b:Z
 
     if-eqz v2, :cond_3
 
@@ -222,7 +222,7 @@
 
     .line 118
     :goto_2
-    iget-object v2, v1, Lkik/android/util/f$a;->a:Landroid/graphics/Bitmap;
+    iget-object v2, v1, Lkik/arcane/util/f$a;->a:Landroid/graphics/Bitmap;
 
     if-nez v2, :cond_4
 
@@ -275,7 +275,7 @@
     invoke-direct {v2}, Ljava/io/ByteArrayOutputStream;-><init>()V
 
     .line 124
-    iget-object v1, v1, Lkik/android/util/f$a;->a:Landroid/graphics/Bitmap;
+    iget-object v1, v1, Lkik/arcane/util/f$a;->a:Landroid/graphics/Bitmap;
 
     sget-object v3, Landroid/graphics/Bitmap$CompressFormat;->PNG:Landroid/graphics/Bitmap$CompressFormat;
 
@@ -399,7 +399,7 @@
     goto :goto_0
 .end method
 
-.method public static makeGroupImageRequest(Lkik/core/datatypes/p;Lcom/android/volley/h$b;IILandroid/graphics/Bitmap$Config;Lcom/android/volley/h$a;Lkik/core/interfaces/v;ZLcom/kik/cache/KikVolleyImageLoader;Lcom/kik/android/Mixpanel;)Lcom/kik/cache/GroupImageRequest;
+.method public static makeGroupImageRequest(Lkik/core/datatypes/p;Lcom/android/volley/h$b;IILandroid/graphics/Bitmap$Config;Lcom/android/volley/h$a;Lkik/core/interfaces/v;ZLcom/kik/cache/KikVolleyImageLoader;Lcom/kik/arcane/Mixpanel;)Lcom/kik/cache/GroupImageRequest;
     .locals 12
 
     .prologue
@@ -431,14 +431,14 @@
 
     move-object/from16 v11, p9
 
-    invoke-direct/range {v0 .. v11}, Lcom/kik/cache/GroupImageRequest;-><init>(Lkik/core/datatypes/p;Ljava/lang/String;Lcom/android/volley/h$b;IILandroid/graphics/Bitmap$Config;Lcom/android/volley/h$a;Lkik/core/interfaces/v;ZLcom/kik/cache/KikVolleyImageLoader;Lcom/kik/android/Mixpanel;)V
+    invoke-direct/range {v0 .. v11}, Lcom/kik/cache/GroupImageRequest;-><init>(Lkik/core/datatypes/p;Ljava/lang/String;Lcom/android/volley/h$b;IILandroid/graphics/Bitmap$Config;Lcom/android/volley/h$a;Lkik/core/interfaces/v;ZLcom/kik/cache/KikVolleyImageLoader;Lcom/kik/arcane/Mixpanel;)V
 
     return-object v0
 .end method
 
 
 # virtual methods
-.method protected createCircleComposite(Lkik/core/datatypes/p;I)Lkik/android/util/f$a;
+.method protected createCircleComposite(Lkik/core/datatypes/p;I)Lkik/arcane/util/f$a;
     .locals 5
 
     .prologue
@@ -486,7 +486,7 @@
     :cond_0
     iget-object v0, p0, Lcom/kik/cache/GroupImageRequest;->_contactImageLoader:Lcom/kik/cache/KikVolleyImageLoader;
 
-    invoke-static {v1, p2, v0}, Lkik/android/util/f;->a(Ljava/util/ArrayList;ILcom/kik/cache/KikVolleyImageLoader;)Lkik/android/util/f$a;
+    invoke-static {v1, p2, v0}, Lkik/arcane/util/f;->a(Ljava/util/ArrayList;ILcom/kik/cache/KikVolleyImageLoader;)Lkik/arcane/util/f$a;
 
     move-result-object v0
 

@@ -1,11 +1,11 @@
-.class public interface abstract Lkik/android/widget/ViewModelPagerAdapter$a;
+.class public interface abstract Lkik/arcane/widget/ViewModelPagerAdapter$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/ViewModelPagerAdapter;
+    value = Lkik/arcane/widget/ViewModelPagerAdapter;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

@@ -1,4 +1,4 @@
-.class final Lkik/android/internal/platform/ImageContentCache$1;
+.class final Lkik/arcane/internal/platform/ImageContentCache$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/internal/platform/ImageContentCache;->preloadImage(Ljava/lang/String;)Z
+    value = Lkik/arcane/internal/platform/ImageContentCache;->preloadImage(Ljava/lang/String;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,16 +26,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/internal/platform/ImageContentCache;
+.field final synthetic a:Lkik/arcane/internal/platform/ImageContentCache;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/internal/platform/ImageContentCache;)V
+.method constructor <init>(Lkik/arcane/internal/platform/ImageContentCache;)V
     .locals 0
 
     .prologue
     .line 74
-    iput-object p1, p0, Lkik/android/internal/platform/ImageContentCache$1;->a:Lkik/android/internal/platform/ImageContentCache;
+    iput-object p1, p0, Lkik/arcane/internal/platform/ImageContentCache$1;->a:Lkik/arcane/internal/platform/ImageContentCache;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

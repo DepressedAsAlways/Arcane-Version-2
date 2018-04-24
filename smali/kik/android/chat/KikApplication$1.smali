@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/KikApplication$1;
+.class final Lkik/arcane/chat/KikApplication$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/KikApplication;
+    value = Lkik/arcane/chat/KikApplication;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/KikApplication;
+.field final synthetic a:Lkik/arcane/chat/KikApplication;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/KikApplication;)V
+.method constructor <init>(Lkik/arcane/chat/KikApplication;)V
     .locals 0
 
     .prologue
     .line 399
-    iput-object p1, p0, Lkik/android/chat/KikApplication$1;->a:Lkik/android/chat/KikApplication;
+    iput-object p1, p0, Lkik/arcane/chat/KikApplication$1;->a:Lkik/arcane/chat/KikApplication;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -51,15 +51,15 @@
 
     .prologue
     .line 403
-    iget-object v0, p0, Lkik/android/chat/KikApplication$1;->a:Lkik/android/chat/KikApplication;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication$1;->a:Lkik/arcane/chat/KikApplication;
 
     const v1, 0x7f090206
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/KikApplication;->getString(I)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/KikApplication;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->b(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->b(Ljava/lang/String;)V
 
     .line 404
     return-void

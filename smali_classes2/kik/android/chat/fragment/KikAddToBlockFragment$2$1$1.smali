@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/KikAddToBlockFragment$2$1$1;
+.class final Lkik/arcane/chat/fragment/KikAddToBlockFragment$2$1$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikAddToBlockFragment$2$1;
+    value = Lkik/arcane/chat/fragment/KikAddToBlockFragment$2$1;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikAddToBlockFragment$2$1;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikAddToBlockFragment$2$1;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikAddToBlockFragment$2$1;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikAddToBlockFragment$2$1;)V
     .locals 0
 
     .prologue
     .line 95
-    iput-object p1, p0, Lkik/android/chat/fragment/KikAddToBlockFragment$2$1$1;->a:Lkik/android/chat/fragment/KikAddToBlockFragment$2$1;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikAddToBlockFragment$2$1$1;->a:Lkik/arcane/chat/fragment/KikAddToBlockFragment$2$1;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,13 +41,13 @@
 
     .prologue
     .line 100
-    iget-object v0, p0, Lkik/android/chat/fragment/KikAddToBlockFragment$2$1$1;->a:Lkik/android/chat/fragment/KikAddToBlockFragment$2$1;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikAddToBlockFragment$2$1$1;->a:Lkik/arcane/chat/fragment/KikAddToBlockFragment$2$1;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/KikAddToBlockFragment$2$1;->a:Lkik/android/chat/fragment/KikAddToBlockFragment$2;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/KikAddToBlockFragment$2$1;->a:Lkik/arcane/chat/fragment/KikAddToBlockFragment$2;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/KikAddToBlockFragment$2;->b:Lkik/android/chat/fragment/KikAddToBlockFragment;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/KikAddToBlockFragment$2;->b:Lkik/arcane/chat/fragment/KikAddToBlockFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikAddToBlockFragment;->u()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikAddToBlockFragment;->u()V
 
     .line 101
     return-void

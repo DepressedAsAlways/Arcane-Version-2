@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$5;
+.class final Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$5;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    value = Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;)V
     .locals 0
 
     .prologue
     .line 478
-    iput-object p1, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$5;->a:Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$5;->a:Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -59,42 +59,42 @@
     if-eqz v0, :cond_0
 
     .line 1487
-    iget-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$5;->a:Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$5;->a:Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->b:Lcom/kik/android/Mixpanel;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->b:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "ABM Already Opted In Shown"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 1488
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 1489
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 1490
-    iget-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$5;->a:Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$5;->a:Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->e(Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->e(Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;)V
 
     :goto_0
     return-void
 
     .line 1493
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$5;->a:Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$5;->a:Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->d(Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->d(Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;)V
 
     .line 1494
-    iget-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$5;->a:Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$5;->a:Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->f(Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->f(Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;)V
 
     goto :goto_0
 .end method
@@ -104,13 +104,13 @@
 
     .prologue
     .line 501
-    iget-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$5;->a:Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$5;->a:Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
 
-    invoke-static {p0}, Lkik/android/chat/fragment/d;->a(Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$5;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/d;->a(Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$5;)Ljava/lang/Runnable;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->runOnUiIfAttached(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->runOnUiIfAttached(Ljava/lang/Runnable;)V
 
     .line 502
     return-void

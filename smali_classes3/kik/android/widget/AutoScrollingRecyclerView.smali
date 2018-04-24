@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/AutoScrollingRecyclerView;
+.class public Lkik/arcane/widget/AutoScrollingRecyclerView;
 .super Landroid/support/v7/widget/RecyclerView;
 .source "SourceFile"
 
@@ -6,8 +6,8 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/AutoScrollingRecyclerView$a;,
-        Lkik/android/widget/AutoScrollingRecyclerView$b;
+        Lkik/arcane/widget/AutoScrollingRecyclerView$a;,
+        Lkik/arcane/widget/AutoScrollingRecyclerView$b;
     }
 .end annotation
 
@@ -61,13 +61,13 @@
     .line 113
     if-ltz p1, :cond_0
 
-    invoke-virtual {p0}, Lkik/android/widget/AutoScrollingRecyclerView;->getAdapter()Landroid/support/v7/widget/RecyclerView$Adapter;
+    invoke-virtual {p0}, Lkik/arcane/widget/AutoScrollingRecyclerView;->getAdapter()Landroid/support/v7/widget/RecyclerView$Adapter;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Lkik/android/widget/AutoScrollingRecyclerView;->getAdapter()Landroid/support/v7/widget/RecyclerView$Adapter;
+    invoke-virtual {p0}, Lkik/arcane/widget/AutoScrollingRecyclerView;->getAdapter()Landroid/support/v7/widget/RecyclerView$Adapter;
 
     move-result-object v0
 
@@ -84,18 +84,18 @@
 
     .line 117
     :cond_1
-    invoke-static {p0, p2, p1}, Lkik/android/widget/e;->a(Lkik/android/widget/AutoScrollingRecyclerView;ZI)Ljava/lang/Runnable;
+    invoke-static {p0, p2, p1}, Lkik/arcane/widget/e;->a(Lkik/arcane/widget/AutoScrollingRecyclerView;ZI)Ljava/lang/Runnable;
 
     move-result-object v0
 
     const-wide/16 v2, 0x0
 
-    invoke-virtual {p0, v0, v2, v3}, Lkik/android/widget/AutoScrollingRecyclerView;->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {p0, v0, v2, v3}, Lkik/arcane/widget/AutoScrollingRecyclerView;->postDelayed(Ljava/lang/Runnable;J)Z
 
     goto :goto_0
 .end method
 
-.method public static a(Landroid/support/v7/widget/RecyclerView;Lkik/android/widget/AutoScrollingRecyclerView$a;)V
+.method public static a(Landroid/support/v7/widget/RecyclerView;Lkik/arcane/widget/AutoScrollingRecyclerView$a;)V
     .locals 1
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -105,9 +105,9 @@
 
     .prologue
     .line 52
-    new-instance v0, Lkik/android/widget/AutoScrollingRecyclerView$1;
+    new-instance v0, Lkik/arcane/widget/AutoScrollingRecyclerView$1;
 
-    invoke-direct {v0, p1}, Lkik/android/widget/AutoScrollingRecyclerView$1;-><init>(Lkik/android/widget/AutoScrollingRecyclerView$a;)V
+    invoke-direct {v0, p1}, Lkik/arcane/widget/AutoScrollingRecyclerView$1;-><init>(Lkik/arcane/widget/AutoScrollingRecyclerView$a;)V
 
     invoke-virtual {p0, v0}, Landroid/support/v7/widget/RecyclerView;->addOnScrollListener(Landroid/support/v7/widget/RecyclerView$OnScrollListener;)V
 
@@ -115,7 +115,7 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/AutoScrollingRecyclerView;Ljava/lang/Integer;)V
+.method static synthetic a(Lkik/arcane/widget/AutoScrollingRecyclerView;Ljava/lang/Integer;)V
     .locals 2
 
     .prologue
@@ -126,12 +126,12 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {p0, v0, v1}, Lkik/android/widget/AutoScrollingRecyclerView;->a(IZ)V
+    invoke-direct {p0, v0, v1}, Lkik/arcane/widget/AutoScrollingRecyclerView;->a(IZ)V
 
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/AutoScrollingRecyclerView;Lrx/d;)V
+.method public static a(Lkik/arcane/widget/AutoScrollingRecyclerView;Lrx/d;)V
     .locals 3
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -142,7 +142,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/AutoScrollingRecyclerView;",
+            "Lkik/arcane/widget/AutoScrollingRecyclerView;",
             "Lrx/d",
             "<",
             "Ljava/lang/Boolean;",
@@ -156,7 +156,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/widget/b;->a(Lkik/android/widget/AutoScrollingRecyclerView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/b;->a(Lkik/arcane/widget/AutoScrollingRecyclerView;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -172,7 +172,7 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/AutoScrollingRecyclerView;ZI)V
+.method static synthetic a(Lkik/arcane/widget/AutoScrollingRecyclerView;ZI)V
     .locals 0
 
     .prologue
@@ -180,7 +180,7 @@
     if-eqz p1, :cond_0
 
     .line 120
-    invoke-virtual {p0, p2}, Lkik/android/widget/AutoScrollingRecyclerView;->smoothScrollToPosition(I)V
+    invoke-virtual {p0, p2}, Lkik/arcane/widget/AutoScrollingRecyclerView;->smoothScrollToPosition(I)V
 
     .line 125
     :goto_0
@@ -188,12 +188,12 @@
 
     .line 123
     :cond_0
-    invoke-virtual {p0, p2}, Lkik/android/widget/AutoScrollingRecyclerView;->scrollToPosition(I)V
+    invoke-virtual {p0, p2}, Lkik/arcane/widget/AutoScrollingRecyclerView;->scrollToPosition(I)V
 
     goto :goto_0
 .end method
 
-.method static synthetic b(Lkik/android/widget/AutoScrollingRecyclerView;Ljava/lang/Integer;)V
+.method static synthetic b(Lkik/arcane/widget/AutoScrollingRecyclerView;Ljava/lang/Integer;)V
     .locals 2
 
     .prologue
@@ -204,12 +204,12 @@
 
     const/4 v1, 0x1
 
-    invoke-direct {p0, v0, v1}, Lkik/android/widget/AutoScrollingRecyclerView;->a(IZ)V
+    invoke-direct {p0, v0, v1}, Lkik/arcane/widget/AutoScrollingRecyclerView;->a(IZ)V
 
     return-void
 .end method
 
-.method public static b(Lkik/android/widget/AutoScrollingRecyclerView;Lrx/d;)V
+.method public static b(Lkik/arcane/widget/AutoScrollingRecyclerView;Lrx/d;)V
     .locals 3
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -220,7 +220,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/AutoScrollingRecyclerView;",
+            "Lkik/arcane/widget/AutoScrollingRecyclerView;",
             "Lrx/d",
             "<",
             "Ljava/lang/Integer;",
@@ -232,7 +232,7 @@
     .line 79
     const v0, 0x7f010106
 
-    invoke-static {p0}, Lkik/android/widget/c;->a(Lkik/android/widget/AutoScrollingRecyclerView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/c;->a(Lkik/arcane/widget/AutoScrollingRecyclerView;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -248,7 +248,7 @@
     return-void
 .end method
 
-.method public static c(Lkik/android/widget/AutoScrollingRecyclerView;Lrx/d;)V
+.method public static c(Lkik/arcane/widget/AutoScrollingRecyclerView;Lrx/d;)V
     .locals 3
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -259,7 +259,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/AutoScrollingRecyclerView;",
+            "Lkik/arcane/widget/AutoScrollingRecyclerView;",
             "Lrx/d",
             "<",
             "Ljava/lang/Integer;",
@@ -271,7 +271,7 @@
     .line 85
     const v0, 0x7f010105
 
-    invoke-static {p0}, Lkik/android/widget/d;->a(Lkik/android/widget/AutoScrollingRecyclerView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/d;->a(Lkik/arcane/widget/AutoScrollingRecyclerView;)Lrx/functions/b;
 
     move-result-object v1
 

@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/profile/gridvm/ar;
+.class final synthetic Lkik/arcane/chat/vm/profile/gridvm/ar;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/vm/profile/gridvm/ar;
+.field private static final a:Lkik/arcane/chat/vm/profile/gridvm/ar;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/profile/gridvm/ar;
+    new-instance v0, Lkik/arcane/chat/vm/profile/gridvm/ar;
 
-    invoke-direct {v0}, Lkik/android/chat/vm/profile/gridvm/ar;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/vm/profile/gridvm/ar;-><init>()V
 
-    sput-object v0, Lkik/android/chat/vm/profile/gridvm/ar;->a:Lkik/android/chat/vm/profile/gridvm/ar;
+    sput-object v0, Lkik/arcane/chat/vm/profile/gridvm/ar;->a:Lkik/arcane/chat/vm/profile/gridvm/ar;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lrx/functions/g;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/vm/profile/gridvm/ar;->a:Lkik/android/chat/vm/profile/gridvm/ar;
+    sget-object v0, Lkik/arcane/chat/vm/profile/gridvm/ar;->a:Lkik/arcane/chat/vm/profile/gridvm/ar;
 
     return-object v0
 .end method
@@ -45,7 +45,7 @@
 
     check-cast p1, Lcom/kik/core/domain/a/a/c;
 
-    invoke-static {p1}, Lkik/android/chat/vm/profile/gridvm/ap;->a(Lcom/kik/core/domain/a/a/c;)Ljava/lang/Boolean;
+    invoke-static {p1}, Lkik/arcane/chat/vm/profile/gridvm/ap;->a(Lcom/kik/core/domain/a/a/c;)Ljava/lang/Boolean;
 
     move-result-object v0
 

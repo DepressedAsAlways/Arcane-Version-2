@@ -1,4 +1,4 @@
-.class public final Lkik/android/e/al$a;
+.class public final Lkik/arcane/e/al$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/e/al;
+    value = Lkik/arcane/e/al;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private a:Lkik/android/gifs/vm/bk;
+.field private a:Lkik/arcane/gifs/vm/bk;
 
 
 # direct methods
@@ -34,12 +34,12 @@
 
 
 # virtual methods
-.method public final a(Lkik/android/gifs/vm/bk;)Lkik/android/e/al$a;
+.method public final a(Lkik/arcane/gifs/vm/bk;)Lkik/arcane/e/al$a;
     .locals 0
 
     .prologue
     .line 122
-    iput-object p1, p0, Lkik/android/e/al$a;->a:Lkik/android/gifs/vm/bk;
+    iput-object p1, p0, Lkik/arcane/e/al$a;->a:Lkik/arcane/gifs/vm/bk;
 
     .line 123
     if-nez p1, :cond_0
@@ -55,9 +55,9 @@
 
     .prologue
     .line 127
-    iget-object v0, p0, Lkik/android/e/al$a;->a:Lkik/android/gifs/vm/bk;
+    iget-object v0, p0, Lkik/arcane/e/al$a;->a:Lkik/arcane/gifs/vm/bk;
 
-    invoke-interface {v0}, Lkik/android/gifs/vm/bk;->g()V
+    invoke-interface {v0}, Lkik/arcane/gifs/vm/bk;->g()V
 
     .line 128
     return-void

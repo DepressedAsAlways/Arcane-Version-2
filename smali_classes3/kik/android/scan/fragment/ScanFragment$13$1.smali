@@ -1,11 +1,11 @@
-.class final Lkik/android/scan/fragment/ScanFragment$13$1;
+.class final Lkik/arcane/scan/fragment/ScanFragment$13$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/scan/fragment/ScanFragment$13;
+    value = Lkik/arcane/scan/fragment/ScanFragment$13;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/scan/fragment/ScanFragment$13;
+.field final synthetic a:Lkik/arcane/scan/fragment/ScanFragment$13;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/scan/fragment/ScanFragment$13;)V
+.method constructor <init>(Lkik/arcane/scan/fragment/ScanFragment$13;)V
     .locals 0
 
     .prologue
     .line 360
-    iput-object p1, p0, Lkik/android/scan/fragment/ScanFragment$13$1;->a:Lkik/android/scan/fragment/ScanFragment$13;
+    iput-object p1, p0, Lkik/arcane/scan/fragment/ScanFragment$13$1;->a:Lkik/arcane/scan/fragment/ScanFragment$13;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -50,19 +50,19 @@
     check-cast p1, Lkik/core/datatypes/p;
 
     .line 1364
-    iget-object v0, p0, Lkik/android/scan/fragment/ScanFragment$13$1;->a:Lkik/android/scan/fragment/ScanFragment$13;
+    iget-object v0, p0, Lkik/arcane/scan/fragment/ScanFragment$13$1;->a:Lkik/arcane/scan/fragment/ScanFragment$13;
 
-    iget-object v0, v0, Lkik/android/scan/fragment/ScanFragment$13;->b:Lkik/android/scan/fragment/ScanFragment;
+    iget-object v0, v0, Lkik/arcane/scan/fragment/ScanFragment$13;->b:Lkik/arcane/scan/fragment/ScanFragment;
 
-    iget-object v1, p0, Lkik/android/scan/fragment/ScanFragment$13$1;->a:Lkik/android/scan/fragment/ScanFragment$13;
+    iget-object v1, p0, Lkik/arcane/scan/fragment/ScanFragment$13$1;->a:Lkik/arcane/scan/fragment/ScanFragment$13;
 
-    iget-object v1, v1, Lkik/android/scan/fragment/ScanFragment$13;->a:Lcom/kik/scan/GroupKikCode;
+    iget-object v1, v1, Lkik/arcane/scan/fragment/ScanFragment$13;->a:Lcom/kik/scan/GroupKikCode;
 
-    invoke-static {v1}, Lkik/android/scan/a/c;->a(Lcom/kik/scan/GroupKikCode;)Lkik/android/scan/a/c;
+    invoke-static {v1}, Lkik/arcane/scan/a/c;->a(Lcom/kik/scan/GroupKikCode;)Lkik/arcane/scan/a/c;
 
     move-result-object v1
 
-    invoke-static {v0, p1, v1}, Lkik/android/scan/fragment/ScanFragment;->a(Lkik/android/scan/fragment/ScanFragment;Lkik/core/datatypes/l;Lkik/android/scan/a/c;)V
+    invoke-static {v0, p1, v1}, Lkik/arcane/scan/fragment/ScanFragment;->a(Lkik/arcane/scan/fragment/ScanFragment;Lkik/core/datatypes/l;Lkik/arcane/scan/a/c;)V
 
     .line 360
     return-void
@@ -88,29 +88,29 @@
     if-ne v0, v1, :cond_0
 
     .line 371
-    iget-object v0, p0, Lkik/android/scan/fragment/ScanFragment$13$1;->a:Lkik/android/scan/fragment/ScanFragment$13;
+    iget-object v0, p0, Lkik/arcane/scan/fragment/ScanFragment$13$1;->a:Lkik/arcane/scan/fragment/ScanFragment$13;
 
-    iget-object v0, v0, Lkik/android/scan/fragment/ScanFragment$13;->b:Lkik/android/scan/fragment/ScanFragment;
+    iget-object v0, v0, Lkik/arcane/scan/fragment/ScanFragment$13;->b:Lkik/arcane/scan/fragment/ScanFragment;
 
-    iget-object v1, p0, Lkik/android/scan/fragment/ScanFragment$13$1;->a:Lkik/android/scan/fragment/ScanFragment$13;
+    iget-object v1, p0, Lkik/arcane/scan/fragment/ScanFragment$13$1;->a:Lkik/arcane/scan/fragment/ScanFragment$13;
 
-    iget-object v1, v1, Lkik/android/scan/fragment/ScanFragment$13;->a:Lcom/kik/scan/GroupKikCode;
+    iget-object v1, v1, Lkik/arcane/scan/fragment/ScanFragment$13;->a:Lcom/kik/scan/GroupKikCode;
 
     const v2, 0x7f09032a
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v2
 
     const v3, 0x7f0902da
 
     .line 372
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v3
 
     .line 371
-    invoke-static {v0, v1, v2, v3}, Lkik/android/scan/fragment/ScanFragment;->a(Lkik/android/scan/fragment/ScanFragment;Lcom/kik/scan/KikCode;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, v1, v2, v3}, Lkik/arcane/scan/fragment/ScanFragment;->a(Lkik/arcane/scan/fragment/ScanFragment;Lcom/kik/scan/KikCode;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 377
     :goto_0
@@ -118,15 +118,15 @@
 
     .line 375
     :cond_0
-    iget-object v0, p0, Lkik/android/scan/fragment/ScanFragment$13$1;->a:Lkik/android/scan/fragment/ScanFragment$13;
+    iget-object v0, p0, Lkik/arcane/scan/fragment/ScanFragment$13$1;->a:Lkik/arcane/scan/fragment/ScanFragment$13;
 
-    iget-object v0, v0, Lkik/android/scan/fragment/ScanFragment$13;->b:Lkik/android/scan/fragment/ScanFragment;
+    iget-object v0, v0, Lkik/arcane/scan/fragment/ScanFragment$13;->b:Lkik/arcane/scan/fragment/ScanFragment;
 
-    iget-object v1, p0, Lkik/android/scan/fragment/ScanFragment$13$1;->a:Lkik/android/scan/fragment/ScanFragment$13;
+    iget-object v1, p0, Lkik/arcane/scan/fragment/ScanFragment$13$1;->a:Lkik/arcane/scan/fragment/ScanFragment$13;
 
-    iget-object v1, v1, Lkik/android/scan/fragment/ScanFragment$13;->a:Lcom/kik/scan/GroupKikCode;
+    iget-object v1, v1, Lkik/arcane/scan/fragment/ScanFragment$13;->a:Lcom/kik/scan/GroupKikCode;
 
-    invoke-static {v0, v1}, Lkik/android/scan/fragment/ScanFragment;->b(Lkik/android/scan/fragment/ScanFragment;Lcom/kik/scan/KikCode;)V
+    invoke-static {v0, v1}, Lkik/arcane/scan/fragment/ScanFragment;->b(Lkik/arcane/scan/fragment/ScanFragment;Lcom/kik/scan/KikCode;)V
 
     goto :goto_0
 .end method

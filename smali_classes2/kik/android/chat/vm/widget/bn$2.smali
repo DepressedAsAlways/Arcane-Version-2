@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/vm/widget/bn$2;
+.class final Lkik/arcane/chat/vm/widget/bn$2;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/widget/bn;
+    value = Lkik/arcane/chat/vm/widget/bn;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,18 +17,18 @@
 # instance fields
 .field final synthetic a:Lkik/core/datatypes/x;
 
-.field final synthetic b:Lkik/android/chat/vm/widget/bn;
+.field final synthetic b:Lkik/arcane/chat/vm/widget/bn;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/widget/bn;Lkik/core/datatypes/x;)V
+.method constructor <init>(Lkik/arcane/chat/vm/widget/bn;Lkik/core/datatypes/x;)V
     .locals 0
 
     .prologue
     .line 212
-    iput-object p1, p0, Lkik/android/chat/vm/widget/bn$2;->b:Lkik/android/chat/vm/widget/bn;
+    iput-object p1, p0, Lkik/arcane/chat/vm/widget/bn$2;->b:Lkik/arcane/chat/vm/widget/bn;
 
-    iput-object p2, p0, Lkik/android/chat/vm/widget/bn$2;->a:Lkik/core/datatypes/x;
+    iput-object p2, p0, Lkik/arcane/chat/vm/widget/bn$2;->a:Lkik/core/datatypes/x;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -42,11 +42,11 @@
 
     .prologue
     .line 217
-    iget-object v0, p0, Lkik/android/chat/vm/widget/bn$2;->b:Lkik/android/chat/vm/widget/bn;
+    iget-object v0, p0, Lkik/arcane/chat/vm/widget/bn$2;->b:Lkik/arcane/chat/vm/widget/bn;
 
-    iget-object v1, p0, Lkik/android/chat/vm/widget/bn$2;->a:Lkik/core/datatypes/x;
+    iget-object v1, p0, Lkik/arcane/chat/vm/widget/bn$2;->a:Lkik/core/datatypes/x;
 
-    invoke-static {v0, v1}, Lkik/android/chat/vm/widget/bn;->a(Lkik/android/chat/vm/widget/bn;Lkik/core/datatypes/x;)V
+    invoke-static {v0, v1}, Lkik/arcane/chat/vm/widget/bn;->a(Lkik/arcane/chat/vm/widget/bn;Lkik/core/datatypes/x;)V
 
     .line 218
     return-void

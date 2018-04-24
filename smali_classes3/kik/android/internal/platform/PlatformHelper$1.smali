@@ -1,11 +1,11 @@
-.class final Lkik/android/internal/platform/PlatformHelper$1;
+.class final Lkik/arcane/internal/platform/PlatformHelper$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/internal/platform/PlatformHelper;->a(Ljava/lang/String;Lcom/kik/events/Promise;I)V
+    value = Lkik/arcane/internal/platform/PlatformHelper;->a(Ljava/lang/String;Lcom/kik/events/Promise;I)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,20 +28,20 @@
 
 .field final synthetic b:Lcom/kik/events/Promise;
 
-.field final synthetic c:Lkik/android/internal/platform/PlatformHelper;
+.field final synthetic c:Lkik/arcane/internal/platform/PlatformHelper;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/internal/platform/PlatformHelper;ILcom/kik/events/Promise;)V
+.method constructor <init>(Lkik/arcane/internal/platform/PlatformHelper;ILcom/kik/events/Promise;)V
     .locals 0
 
     .prologue
     .line 673
-    iput-object p1, p0, Lkik/android/internal/platform/PlatformHelper$1;->c:Lkik/android/internal/platform/PlatformHelper;
+    iput-object p1, p0, Lkik/arcane/internal/platform/PlatformHelper$1;->c:Lkik/arcane/internal/platform/PlatformHelper;
 
-    iput p2, p0, Lkik/android/internal/platform/PlatformHelper$1;->a:I
+    iput p2, p0, Lkik/arcane/internal/platform/PlatformHelper$1;->a:I
 
-    iput-object p3, p0, Lkik/android/internal/platform/PlatformHelper$1;->b:Lcom/kik/events/Promise;
+    iput-object p3, p0, Lkik/arcane/internal/platform/PlatformHelper$1;->b:Lcom/kik/events/Promise;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -62,7 +62,7 @@
 
     move-result-wide v0
 
-    iget v2, p0, Lkik/android/internal/platform/PlatformHelper$1;->a:I
+    iget v2, p0, Lkik/arcane/internal/platform/PlatformHelper$1;->a:I
 
     int-to-long v2, v2
 
@@ -71,7 +71,7 @@
     if-gez v0, :cond_0
 
     .line 1678
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper$1;->b:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper$1;->b:Lcom/kik/events/Promise;
 
     const/4 v1, 0x0
 
@@ -82,7 +82,7 @@
 
     .line 1681
     :cond_0
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper$1;->b:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper$1;->b:Lcom/kik/events/Promise;
 
     new-instance v1, Ljava/lang/IllegalArgumentException;
 

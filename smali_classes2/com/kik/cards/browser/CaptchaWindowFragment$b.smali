@@ -91,9 +91,9 @@
     .line 2208
     iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment$b;->c:Lcom/kik/cards/browser/CaptchaWindowFragment;
 
-    iget-object v0, v0, Lcom/kik/cards/browser/CaptchaWindowFragment;->e:Lkik/android/chat/fragment/ProgressDialogFragment;
+    iget-object v0, v0, Lcom/kik/cards/browser/CaptchaWindowFragment;->e:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/ProgressDialogFragment;->dismissAllowingStateLoss()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/ProgressDialogFragment;->dismissAllowingStateLoss()V
 
     .line 2209
     iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment$b;->c:Lcom/kik/cards/browser/CaptchaWindowFragment;
@@ -159,7 +159,7 @@
 
     aput-object v2, v0, v1
 
-    invoke-static {v0}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     .line 150
     iget-boolean v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment$b;->b:Z

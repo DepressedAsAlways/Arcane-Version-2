@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/view/g;
+.class public final Lkik/arcane/chat/view/g;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -31,9 +31,9 @@
     invoke-virtual {v0, v2, v3}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
     .line 82
-    new-instance v1, Lkik/android/chat/view/g$2;
+    new-instance v1, Lkik/arcane/chat/view/g$2;
 
-    invoke-direct {v1, p0, p2, p1}, Lkik/android/chat/view/g$2;-><init>(Landroid/support/v7/widget/RecyclerView;II)V
+    invoke-direct {v1, p0, p2, p1}, Lkik/arcane/chat/view/g$2;-><init>(Landroid/support/v7/widget/RecyclerView;II)V
 
     invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
@@ -78,7 +78,7 @@
     .line 32
     sget-object v0, Landroid/view/View;->ALPHA:Landroid/util/Property;
 
-    invoke-static {p0, v0, p1}, Lkik/android/chat/view/g;->a(Landroid/view/View;Landroid/util/Property;[F)Landroid/animation/Animator;
+    invoke-static {p0, v0, p1}, Lkik/arcane/chat/view/g;->a(Landroid/view/View;Landroid/util/Property;[F)Landroid/animation/Animator;
 
     move-result-object v0
 
@@ -98,7 +98,7 @@
 
     fill-array-data v0, :array_0
 
-    invoke-static {p0, v0}, Lkik/android/chat/view/g;->a(Landroid/view/View;[F)Landroid/animation/Animator;
+    invoke-static {p0, v0}, Lkik/arcane/chat/view/g;->a(Landroid/view/View;[F)Landroid/animation/Animator;
 
     move-result-object v0
 
@@ -113,9 +113,9 @@
     invoke-virtual {v0, v1}, Landroid/animation/Animator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
     .line 60
-    new-instance v1, Lkik/android/chat/view/g$1;
+    new-instance v1, Lkik/arcane/chat/view/g$1;
 
-    invoke-direct {v1, p0, p1}, Lkik/android/chat/view/g$1;-><init>(Landroid/widget/ImageView;I)V
+    invoke-direct {v1, p0, p1}, Lkik/arcane/chat/view/g$1;-><init>(Landroid/widget/ImageView;I)V
 
     invoke-virtual {v0, v1}, Landroid/animation/Animator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
@@ -124,7 +124,7 @@
 
     fill-array-data v1, :array_1
 
-    invoke-static {p0, v1}, Lkik/android/chat/view/g;->a(Landroid/view/View;[F)Landroid/animation/Animator;
+    invoke-static {p0, v1}, Lkik/arcane/chat/view/g;->a(Landroid/view/View;[F)Landroid/animation/Animator;
 
     move-result-object v1
 
@@ -194,7 +194,7 @@
     .line 37
     sget-object v0, Landroid/view/View;->TRANSLATION_X:Landroid/util/Property;
 
-    invoke-static {p0, v0, p1}, Lkik/android/chat/view/g;->a(Landroid/view/View;Landroid/util/Property;[F)Landroid/animation/Animator;
+    invoke-static {p0, v0, p1}, Lkik/arcane/chat/view/g;->a(Landroid/view/View;Landroid/util/Property;[F)Landroid/animation/Animator;
 
     move-result-object v0
 
@@ -208,7 +208,7 @@
     .line 42
     sget-object v0, Landroid/view/View;->TRANSLATION_Y:Landroid/util/Property;
 
-    invoke-static {p0, v0, p1}, Lkik/android/chat/view/g;->a(Landroid/view/View;Landroid/util/Property;[F)Landroid/animation/Animator;
+    invoke-static {p0, v0, p1}, Lkik/arcane/chat/view/g;->a(Landroid/view/View;Landroid/util/Property;[F)Landroid/animation/Animator;
 
     move-result-object v0
 
@@ -222,7 +222,7 @@
     .line 47
     sget-object v0, Landroid/view/View;->SCALE_X:Landroid/util/Property;
 
-    invoke-static {p0, v0, p1}, Lkik/android/chat/view/g;->a(Landroid/view/View;Landroid/util/Property;[F)Landroid/animation/Animator;
+    invoke-static {p0, v0, p1}, Lkik/arcane/chat/view/g;->a(Landroid/view/View;Landroid/util/Property;[F)Landroid/animation/Animator;
 
     move-result-object v0
 
@@ -236,7 +236,7 @@
     .line 52
     sget-object v0, Landroid/view/View;->SCALE_Y:Landroid/util/Property;
 
-    invoke-static {p0, v0, p1}, Lkik/android/chat/view/g;->a(Landroid/view/View;Landroid/util/Property;[F)Landroid/animation/Animator;
+    invoke-static {p0, v0, p1}, Lkik/arcane/chat/view/g;->a(Landroid/view/View;Landroid/util/Property;[F)Landroid/animation/Animator;
 
     move-result-object v0
 

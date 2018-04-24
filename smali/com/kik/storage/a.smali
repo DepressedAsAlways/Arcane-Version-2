@@ -18,13 +18,13 @@
 # instance fields
 .field private a:Lkik/core/interfaces/ad;
 
-.field private b:Lkik/android/config/b;
+.field private b:Lkik/arcane/config/b;
 
 .field private final c:Lcom/kik/storage/a$b;
 
 
 # direct methods
-.method public constructor <init>(Lkik/core/interfaces/ad;Landroid/content/Context;Lkik/android/util/bp;)V
+.method public constructor <init>(Lkik/core/interfaces/ad;Landroid/content/Context;Lkik/arcane/util/bp;)V
     .locals 10
 
     .prologue
@@ -37,11 +37,11 @@
     iput-object p1, p0, Lcom/kik/storage/a;->a:Lkik/core/interfaces/ad;
 
     .line 46
-    invoke-static {}, Lkik/android/config/c;->c()Lkik/android/config/b;
+    invoke-static {}, Lkik/arcane/config/c;->c()Lkik/arcane/config/b;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/kik/storage/a;->b:Lkik/android/config/b;
+    iput-object v0, p0, Lcom/kik/storage/a;->b:Lkik/arcane/config/b;
 
     .line 47
     new-instance v0, Lcom/kik/storage/a$b;
@@ -55,16 +55,16 @@
     iput-object v0, p0, Lcom/kik/storage/a;->c:Lcom/kik/storage/a$b;
 
     .line 49
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 50
-    iget-object v6, p0, Lcom/kik/storage/a;->b:Lkik/android/config/b;
+    iget-object v6, p0, Lcom/kik/storage/a;->b:Lkik/arcane/config/b;
 
-    new-instance v0, Lkik/android/config/e;
+    new-instance v0, Lkik/arcane/config/e;
 
     const-string v1, "ab-service-refetch-interval"
 
@@ -121,10 +121,10 @@
 
     move-object v5, p3
 
-    invoke-direct/range {v0 .. v5}, Lkik/android/config/e;-><init>(Ljava/lang/String;Ljava/lang/Long;[Ljava/lang/Long;Ljava/lang/Runnable;Lkik/android/util/aj;)V
+    invoke-direct/range {v0 .. v5}, Lkik/arcane/config/e;-><init>(Ljava/lang/String;Ljava/lang/Long;[Ljava/lang/Long;Ljava/lang/Runnable;Lkik/arcane/util/aj;)V
 
     .line 50
-    invoke-interface {v6, v0}, Lkik/android/config/b;->a(Lkik/android/config/Configuration;)Z
+    invoke-interface {v6, v0}, Lkik/arcane/config/b;->a(Lkik/arcane/config/Configuration;)Z
 
     .line 63
     :cond_0
@@ -334,7 +334,7 @@
     invoke-direct {v0}, Ljava/util/Random;-><init>()V
 
     .line 215
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v1
 
@@ -578,7 +578,7 @@
 
     .prologue
     .line 189
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v0
 
@@ -612,15 +612,15 @@
     return-wide v0
 
     :cond_0
-    iget-object v0, p0, Lcom/kik/storage/a;->b:Lkik/android/config/b;
+    iget-object v0, p0, Lcom/kik/storage/a;->b:Lkik/arcane/config/b;
 
     const-string v1, "ab-service-refetch-interval"
 
-    invoke-interface {v0, v1}, Lkik/android/config/b;->a(Ljava/lang/String;)Lkik/android/config/Configuration;
+    invoke-interface {v0, v1}, Lkik/arcane/config/b;->a(Ljava/lang/String;)Lkik/arcane/config/Configuration;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/config/Configuration;->b()Ljava/lang/Object;
+    invoke-virtual {v0}, Lkik/arcane/config/Configuration;->b()Ljava/lang/Object;
 
     move-result-object v0
 

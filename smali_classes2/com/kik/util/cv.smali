@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/f/c;
+.implements Lkik/arcane/f/c;
 
 
 # direct methods
@@ -135,7 +135,7 @@
     .line 20
     const v0, 0x7f0e0015
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->d(I)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->d(I)I
 
     move-result v0
 

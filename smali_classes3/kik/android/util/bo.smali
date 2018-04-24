@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/bo;
+.class public final Lkik/arcane/util/bo;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -20,13 +20,13 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 14
-    iput-object p1, p0, Lkik/android/util/bo;->a:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/util/bo;->a:Ljava/lang/String;
 
     .line 15
-    iput-object p3, p0, Lkik/android/util/bo;->b:Ljava/lang/String;
+    iput-object p3, p0, Lkik/arcane/util/bo;->b:Ljava/lang/String;
 
     .line 16
-    iput-object p2, p0, Lkik/android/util/bo;->c:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/util/bo;->c:Ljava/lang/String;
 
     .line 17
     return-void
@@ -39,12 +39,12 @@
 
     .prologue
     .line 21
-    iget-object v0, p0, Lkik/android/util/bo;->a:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/util/bo;->a:Ljava/lang/String;
 
     .line 22
-    iget-object v1, p0, Lkik/android/util/bo;->c:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/util/bo;->c:Ljava/lang/String;
 
-    invoke-static {v1}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v1}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -65,7 +65,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/util/bo;->c:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/util/bo;->c:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -85,7 +85,7 @@
 
     .prologue
     .line 30
-    iget-object v0, p0, Lkik/android/util/bo;->b:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/util/bo;->b:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -95,7 +95,7 @@
 
     .prologue
     .line 35
-    iget-object v0, p0, Lkik/android/util/bo;->c:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/util/bo;->c:Ljava/lang/String;
 
     return-object v0
 .end method

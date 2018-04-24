@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/presentation/bq$2$2;
+.class final Lkik/arcane/chat/presentation/bq$2$2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/presentation/bq$2;->b(Ljava/lang/Throwable;)V
+    value = Lkik/arcane/chat/presentation/bq$2;->b(Ljava/lang/Throwable;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/presentation/bq$2;
+.field final synthetic a:Lkik/arcane/chat/presentation/bq$2;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/presentation/bq$2;)V
+.method constructor <init>(Lkik/arcane/chat/presentation/bq$2;)V
     .locals 0
 
     .prologue
     .line 280
-    iput-object p1, p0, Lkik/android/chat/presentation/bq$2$2;->a:Lkik/android/chat/presentation/bq$2;
+    iput-object p1, p0, Lkik/arcane/chat/presentation/bq$2$2;->a:Lkik/arcane/chat/presentation/bq$2;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,17 +41,17 @@
 
     .prologue
     .line 284
-    iget-object v0, p0, Lkik/android/chat/presentation/bq$2$2;->a:Lkik/android/chat/presentation/bq$2;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/bq$2$2;->a:Lkik/arcane/chat/presentation/bq$2;
 
-    iget-object v0, v0, Lkik/android/chat/presentation/bq$2;->a:Lkik/android/chat/presentation/bq;
+    iget-object v0, v0, Lkik/arcane/chat/presentation/bq$2;->a:Lkik/arcane/chat/presentation/bq;
 
-    invoke-static {v0}, Lkik/android/chat/presentation/bq;->a(Lkik/android/chat/presentation/bq;)Lkik/android/chat/presentation/r;
+    invoke-static {v0}, Lkik/arcane/chat/presentation/bq;->a(Lkik/arcane/chat/presentation/bq;)Lkik/arcane/chat/presentation/r;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    invoke-interface {v0, v1}, Lkik/android/chat/presentation/r;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/presentation/r;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 285
     return-void

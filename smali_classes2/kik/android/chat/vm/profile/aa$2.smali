@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/vm/profile/aa$2;
+.class final Lkik/arcane/chat/vm/profile/aa$2;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/profile/aa;
+    value = Lkik/arcane/chat/vm/profile/aa;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/profile/aa;
+.field final synthetic a:Lkik/arcane/chat/vm/profile/aa;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/profile/aa;)V
+.method constructor <init>(Lkik/arcane/chat/vm/profile/aa;)V
     .locals 0
 
     .prologue
     .line 339
-    iput-object p1, p0, Lkik/android/chat/vm/profile/aa$2;->a:Lkik/android/chat/vm/profile/aa;
+    iput-object p1, p0, Lkik/arcane/chat/vm/profile/aa$2;->a:Lkik/arcane/chat/vm/profile/aa;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -47,13 +47,13 @@
 
     .prologue
     .line 343
-    iget-object v0, p0, Lkik/android/chat/vm/profile/aa$2;->a:Lkik/android/chat/vm/profile/aa;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/aa$2;->a:Lkik/arcane/chat/vm/profile/aa;
 
-    invoke-static {v0}, Lkik/android/chat/vm/profile/aa;->b(Lkik/android/chat/vm/profile/aa;)Lkik/android/chat/vm/bd;
+    invoke-static {v0}, Lkik/arcane/chat/vm/profile/aa;->b(Lkik/arcane/chat/vm/profile/aa;)Lkik/arcane/chat/vm/bd;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkik/android/chat/vm/bd;->g()V
+    invoke-interface {v0}, Lkik/arcane/chat/vm/bd;->g()V
 
     .line 344
     return-void
@@ -64,9 +64,9 @@
 
     .prologue
     .line 349
-    iget-object v0, p0, Lkik/android/chat/vm/profile/aa$2;->a:Lkik/android/chat/vm/profile/aa;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/aa$2;->a:Lkik/arcane/chat/vm/profile/aa;
 
-    invoke-virtual {v0, p1}, Lkik/android/chat/vm/profile/aa;->a(Ljava/lang/Throwable;)V
+    invoke-virtual {v0, p1}, Lkik/arcane/chat/vm/profile/aa;->a(Ljava/lang/Throwable;)V
 
     .line 350
     return-void

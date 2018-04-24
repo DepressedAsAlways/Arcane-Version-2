@@ -20,7 +20,7 @@
 
 .field private _diskCache:Lcom/jakewharton/disklrucache/DiskLruCache;
 
-.field private _fileDownloadHandler:Lkik/android/h;
+.field private _fileDownloadHandler:Lkik/arcane/h;
 
 
 # direct methods
@@ -100,17 +100,17 @@
     goto :goto_0
 .end method
 
-.method static synthetic access$000(Lcom/kik/cache/DiskLruFileCache;)Lkik/android/h;
+.method static synthetic access$000(Lcom/kik/cache/DiskLruFileCache;)Lkik/arcane/h;
     .locals 1
 
     .prologue
     .line 29
-    iget-object v0, p0, Lcom/kik/cache/DiskLruFileCache;->_fileDownloadHandler:Lkik/android/h;
+    iget-object v0, p0, Lcom/kik/cache/DiskLruFileCache;->_fileDownloadHandler:Lkik/arcane/h;
 
     return-object v0
 .end method
 
-.method private getFileFromNetwork(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Lkik/core/interfaces/x;Lcom/kik/android/Mixpanel;I)Lcom/kik/events/Promise;
+.method private getFileFromNetwork(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Lkik/core/interfaces/x;Lcom/kik/arcane/Mixpanel;I)Lcom/kik/events/Promise;
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -119,7 +119,7 @@
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             "Lkik/core/interfaces/x;",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             "I)",
             "Lcom/kik/events/Promise",
             "<",
@@ -130,16 +130,16 @@
 
     .prologue
     .line 261
-    iget-object v0, p0, Lcom/kik/cache/DiskLruFileCache;->_fileDownloadHandler:Lkik/android/h;
+    iget-object v0, p0, Lcom/kik/cache/DiskLruFileCache;->_fileDownloadHandler:Lkik/arcane/h;
 
     if-nez v0, :cond_0
 
     .line 266
-    new-instance v0, Lkik/android/h;
+    new-instance v0, Lkik/arcane/h;
 
-    invoke-direct {v0, p5}, Lkik/android/h;-><init>(Lcom/kik/android/Mixpanel;)V
+    invoke-direct {v0, p5}, Lkik/arcane/h;-><init>(Lcom/kik/arcane/Mixpanel;)V
 
-    iput-object v0, p0, Lcom/kik/cache/DiskLruFileCache;->_fileDownloadHandler:Lkik/android/h;
+    iput-object v0, p0, Lcom/kik/cache/DiskLruFileCache;->_fileDownloadHandler:Lkik/arcane/h;
 
     .line 269
     :cond_0
@@ -162,11 +162,11 @@
 
     .line 273
     :cond_1
-    iget-object v0, p0, Lcom/kik/cache/DiskLruFileCache;->_fileDownloadHandler:Lkik/android/h;
+    iget-object v0, p0, Lcom/kik/cache/DiskLruFileCache;->_fileDownloadHandler:Lkik/arcane/h;
 
     iget-object v1, p0, Lcom/kik/cache/DiskLruFileCache;->_associatedContentId:Ljava/lang/String;
 
-    invoke-virtual {v0, p3, v1, p1, p6}, Lkik/android/h;->a(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;I)Lcom/kik/events/Promise;
+    invoke-virtual {v0, p3, v1, p1, p6}, Lkik/arcane/h;->a(Ljava/lang/String;Ljava/lang/String;Ljava/io/File;I)Lcom/kik/events/Promise;
 
     move-result-object v0
 
@@ -174,9 +174,9 @@
     if-eqz p4, :cond_2
 
     .line 275
-    iget-object v1, p0, Lcom/kik/cache/DiskLruFileCache;->_fileDownloadHandler:Lkik/android/h;
+    iget-object v1, p0, Lcom/kik/cache/DiskLruFileCache;->_fileDownloadHandler:Lkik/arcane/h;
 
-    invoke-virtual {v1, p4, p3}, Lkik/android/h;->a(Lkik/core/interfaces/x;Ljava/lang/String;)V
+    invoke-virtual {v1, p4, p3}, Lkik/arcane/h;->a(Lkik/core/interfaces/x;Ljava/lang/String;)V
 
     .line 277
     :cond_2
@@ -229,7 +229,7 @@
     goto :goto_0
 .end method
 
-.method public fetchFile(Ljava/lang/String;Ljava/lang/String;Lkik/core/interfaces/x;Lcom/kik/android/Mixpanel;I)Lcom/kik/events/Promise;
+.method public fetchFile(Ljava/lang/String;Ljava/lang/String;Lkik/core/interfaces/x;Lcom/kik/arcane/Mixpanel;I)Lcom/kik/events/Promise;
     .locals 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -237,7 +237,7 @@
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             "Lkik/core/interfaces/x;",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             "I)",
             "Lcom/kik/events/Promise",
             "<",
@@ -287,7 +287,7 @@
     move v6, p5
 
     .line 167
-    invoke-direct/range {v0 .. v6}, Lcom/kik/cache/DiskLruFileCache;->getFileFromNetwork(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Lkik/core/interfaces/x;Lcom/kik/android/Mixpanel;I)Lcom/kik/events/Promise;
+    invoke-direct/range {v0 .. v6}, Lcom/kik/cache/DiskLruFileCache;->getFileFromNetwork(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Lkik/core/interfaces/x;Lcom/kik/arcane/Mixpanel;I)Lcom/kik/events/Promise;
 
     move-result-object v0
 

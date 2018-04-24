@@ -1,5 +1,5 @@
-.class public Lkik/android/chat/vm/profile/profileactionvm/f;
-.super Lkik/android/chat/vm/profile/a;
+.class public Lkik/arcane/chat/vm/profile/profileactionvm/f;
+.super Lkik/arcane/chat/vm/profile/a;
 .source "SourceFile"
 
 
@@ -17,10 +17,10 @@
 
     .prologue
     .line 22
-    invoke-direct {p0}, Lkik/android/chat/vm/profile/a;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/profile/a;-><init>()V
 
     .line 23
-    iput-object p1, p0, Lkik/android/chat/vm/profile/profileactionvm/f;->b:Lcom/kik/core/network/xmpp/jid/a;
+    iput-object p1, p0, Lkik/arcane/chat/vm/profile/profileactionvm/f;->b:Lcom/kik/core/network/xmpp/jid/a;
 
     .line 24
     return-void
@@ -33,17 +33,17 @@
 
     .prologue
     .line 35
-    invoke-virtual {p0}, Lkik/android/chat/vm/profile/profileactionvm/f;->H_()Lkik/android/chat/vm/bd;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/profile/profileactionvm/f;->H_()Lkik/arcane/chat/vm/bd;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/chat/vm/profile/cc;
+    new-instance v1, Lkik/arcane/chat/vm/profile/cc;
 
-    iget-object v2, p0, Lkik/android/chat/vm/profile/profileactionvm/f;->b:Lcom/kik/core/network/xmpp/jid/a;
+    iget-object v2, p0, Lkik/arcane/chat/vm/profile/profileactionvm/f;->b:Lcom/kik/core/network/xmpp/jid/a;
 
-    invoke-direct {v1, v2}, Lkik/android/chat/vm/profile/cc;-><init>(Lcom/kik/core/network/xmpp/jid/a;)V
+    invoke-direct {v1, v2}, Lkik/arcane/chat/vm/profile/cc;-><init>(Lcom/kik/core/network/xmpp/jid/a;)V
 
-    invoke-interface {v0, v1}, Lkik/android/chat/vm/bd;->a(Lkik/android/chat/vm/profile/cc;)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/vm/bd;->a(Lkik/arcane/chat/vm/profile/cc;)V
 
     .line 36
     return-void
@@ -65,7 +65,7 @@
     .line 29
     const v0, 0x7f09018b
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/vm/profile/profileactionvm/f;->a(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/vm/profile/profileactionvm/f;->a(I)Ljava/lang/String;
 
     move-result-object v0
 

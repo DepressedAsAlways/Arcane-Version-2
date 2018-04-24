@@ -1,12 +1,12 @@
-.class public Lkik/android/chat/fragment/KikThankYouDialogFragment;
-.super Lkik/android/chat/fragment/KikDialogFragment;
+.class public Lkik/arcane/chat/fragment/KikThankYouDialogFragment;
+.super Lkik/arcane/chat/fragment/KikDialogFragment;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/fragment/KikThankYouDialogFragment$a;
+        Lkik/arcane/chat/fragment/KikThankYouDialogFragment$a;
     }
 .end annotation
 
@@ -17,7 +17,7 @@
 
     .prologue
     .line 12
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikDialogFragment;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikDialogFragment;-><init>()V
 
     return-void
 .end method
@@ -29,7 +29,7 @@
 
     .prologue
     .line 17
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikDialogFragment;->a(Landroid/view/View;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikDialogFragment;->a(Landroid/view/View;)V
 
     .line 18
     return-void

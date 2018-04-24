@@ -1,12 +1,12 @@
-.class public Lkik/android/chat/fragment/KikReportThankYouDialogFragment;
-.super Lkik/android/chat/fragment/KikDialogFragment;
+.class public Lkik/arcane/chat/fragment/KikReportThankYouDialogFragment;
+.super Lkik/arcane/chat/fragment/KikDialogFragment;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/fragment/KikReportThankYouDialogFragment$a;
+        Lkik/arcane/chat/fragment/KikReportThankYouDialogFragment$a;
     }
 .end annotation
 
@@ -18,7 +18,7 @@
     .end annotation
 .end field
 
-.field private g:Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;
+.field private g:Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;
 
 
 # direct methods
@@ -27,17 +27,17 @@
 
     .prologue
     .line 19
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikDialogFragment;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikDialogFragment;-><init>()V
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/KikReportThankYouDialogFragment;Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;)Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;
+.method static synthetic a(Lkik/arcane/chat/fragment/KikReportThankYouDialogFragment;Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;)Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;
     .locals 0
 
     .prologue
     .line 19
-    iput-object p1, p0, Lkik/android/chat/fragment/KikReportThankYouDialogFragment;->g:Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikReportThankYouDialogFragment;->g:Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;
 
     return-object p1
 .end method
@@ -74,7 +74,7 @@
     move-result-object v1
 
     .line 47
-    invoke-static {}, Lkik/android/chat/KikApplication;->l()Z
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->l()Z
 
     move-result v2
 
@@ -85,14 +85,14 @@
 
     aput-object v0, v2, v3
 
-    invoke-static {v2}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v2}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 49
     new-array v2, v4, [Landroid/view/View;
 
     aput-object v1, v2, v3
 
-    invoke-static {v2}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v2}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     .line 58
     :goto_1
@@ -102,11 +102,11 @@
     invoke-static {p0, v0}, Lbutterknife/ButterKnife;->bind(Ljava/lang/Object;Landroid/view/View;)Lbutterknife/Unbinder;
 
     .line 64
-    iget-object v0, p0, Lkik/android/chat/fragment/KikReportThankYouDialogFragment;->_thankYouMessage:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikReportThankYouDialogFragment;->_thankYouMessage:Landroid/widget/TextView;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/KikReportThankYouDialogFragment;->g:Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikReportThankYouDialogFragment;->g:Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;->getStringDescription()Ljava/lang/String;
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;->getStringDescription()Ljava/lang/String;
 
     move-result-object v1
 
@@ -120,14 +120,14 @@
 
     aput-object v1, v2, v3
 
-    invoke-static {v2}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v2}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 54
     new-array v2, v4, [Landroid/view/View;
 
     aput-object v0, v2, v3
 
-    invoke-static {v2}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v2}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     move-object v0, v1
 
@@ -141,10 +141,10 @@
 
     .prologue
     .line 28
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikDialogFragment;->a(Landroid/view/View;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikDialogFragment;->a(Landroid/view/View;)V
 
     .line 29
-    invoke-direct {p0, p1}, Lkik/android/chat/fragment/KikReportThankYouDialogFragment;->b(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lkik/arcane/chat/fragment/KikReportThankYouDialogFragment;->b(Landroid/view/View;)V
 
     .line 30
     return-void
@@ -155,12 +155,12 @@
 
     .prologue
     .line 35
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikDialogFragment;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikDialogFragment;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
     .line 36
-    iget-object v0, p0, Lkik/android/chat/fragment/KikReportThankYouDialogFragment;->c:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikReportThankYouDialogFragment;->c:Landroid/view/View;
 
-    invoke-direct {p0, v0}, Lkik/android/chat/fragment/KikReportThankYouDialogFragment;->b(Landroid/view/View;)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/fragment/KikReportThankYouDialogFragment;->b(Landroid/view/View;)V
 
     .line 37
     return-void

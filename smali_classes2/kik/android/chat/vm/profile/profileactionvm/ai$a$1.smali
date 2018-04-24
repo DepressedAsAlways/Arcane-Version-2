@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/vm/profile/profileactionvm/ai$a$1;
+.class final Lkik/arcane/chat/vm/profile/profileactionvm/ai$a$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/profile/profileactionvm/ai$a;
+    value = Lkik/arcane/chat/vm/profile/profileactionvm/ai$a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/profile/profileactionvm/ai$a;
+.field final synthetic a:Lkik/arcane/chat/vm/profile/profileactionvm/ai$a;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/profile/profileactionvm/ai$a;)V
+.method constructor <init>(Lkik/arcane/chat/vm/profile/profileactionvm/ai$a;)V
     .locals 0
 
     .prologue
     .line 149
-    iput-object p1, p0, Lkik/android/chat/vm/profile/profileactionvm/ai$a$1;->a:Lkik/android/chat/vm/profile/profileactionvm/ai$a;
+    iput-object p1, p0, Lkik/arcane/chat/vm/profile/profileactionvm/ai$a$1;->a:Lkik/arcane/chat/vm/profile/profileactionvm/ai$a;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -47,16 +47,16 @@
 
     .prologue
     .line 153
-    iget-object v0, p0, Lkik/android/chat/vm/profile/profileactionvm/ai$a$1;->a:Lkik/android/chat/vm/profile/profileactionvm/ai$a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/profileactionvm/ai$a$1;->a:Lkik/arcane/chat/vm/profile/profileactionvm/ai$a;
 
     const-string v1, "Muted"
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/vm/profile/profileactionvm/ai$a;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/vm/profile/profileactionvm/ai$a;->a(Ljava/lang/String;)V
 
     .line 154
-    iget-object v0, p0, Lkik/android/chat/vm/profile/profileactionvm/ai$a$1;->a:Lkik/android/chat/vm/profile/profileactionvm/ai$a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/profileactionvm/ai$a$1;->a:Lkik/arcane/chat/vm/profile/profileactionvm/ai$a;
 
-    invoke-virtual {v0}, Lkik/android/chat/vm/profile/profileactionvm/ai$a;->n()Lrx/functions/b;
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/profile/profileactionvm/ai$a;->n()Lrx/functions/b;
 
     move-result-object v0
 
@@ -77,13 +77,13 @@
 
     .prologue
     .line 160
-    iget-object v0, p0, Lkik/android/chat/vm/profile/profileactionvm/ai$a$1;->a:Lkik/android/chat/vm/profile/profileactionvm/ai$a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/profileactionvm/ai$a$1;->a:Lkik/arcane/chat/vm/profile/profileactionvm/ai$a;
 
-    invoke-static {v0}, Lkik/android/chat/vm/profile/profileactionvm/ai$a;->a(Lkik/android/chat/vm/profile/profileactionvm/ai$a;)Lkik/android/chat/vm/bd;
+    invoke-static {v0}, Lkik/arcane/chat/vm/profile/profileactionvm/ai$a;->a(Lkik/arcane/chat/vm/profile/profileactionvm/ai$a;)Lkik/arcane/chat/vm/bd;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkik/android/chat/vm/bd;->g()V
+    invoke-interface {v0}, Lkik/arcane/chat/vm/bd;->g()V
 
     .line 161
     return-void

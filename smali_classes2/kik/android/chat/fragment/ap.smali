@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/fragment/ap;
+.class final synthetic Lkik/arcane/chat/fragment/ap;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/fragment/ap;
+.field private static final a:Lkik/arcane/chat/fragment/ap;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/fragment/ap;
+    new-instance v0, Lkik/arcane/chat/fragment/ap;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/ap;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/ap;-><init>()V
 
-    sput-object v0, Lkik/android/chat/fragment/ap;->a:Lkik/android/chat/fragment/ap;
+    sput-object v0, Lkik/arcane/chat/fragment/ap;->a:Lkik/arcane/chat/fragment/ap;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lrx/functions/g;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/fragment/ap;->a:Lkik/android/chat/fragment/ap;
+    sget-object v0, Lkik/arcane/chat/fragment/ap;->a:Lkik/arcane/chat/fragment/ap;
 
     return-object v0
 .end method

@@ -1,4 +1,4 @@
-.class public final Lkik/android/video/e;
+.class public final Lkik/arcane/video/e;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -53,7 +53,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/video/e;->a:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/video/e;->a:Lorg/slf4j/b;
 
     return-void
 .end method
@@ -70,19 +70,19 @@
 
     invoke-direct {v0}, Lcom/kik/events/Promise;-><init>()V
 
-    iput-object v0, p0, Lkik/android/video/e;->g:Lcom/kik/events/Promise;
+    iput-object v0, p0, Lkik/arcane/video/e;->g:Lcom/kik/events/Promise;
 
     .line 54
-    iput-object p1, p0, Lkik/android/video/e;->b:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/video/e;->b:Ljava/lang/String;
 
     .line 55
-    iput-object p2, p0, Lkik/android/video/e;->c:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/video/e;->c:Ljava/lang/String;
 
     .line 56
-    iput p5, p0, Lkik/android/video/e;->e:I
+    iput p5, p0, Lkik/arcane/video/e;->e:I
 
     .line 57
-    iput p4, p0, Lkik/android/video/e;->f:I
+    iput p4, p0, Lkik/arcane/video/e;->f:I
 
     .line 58
     const/16 v0, 0x14
@@ -94,13 +94,13 @@
     if-eqz v0, :cond_2
 
     .line 60
-    iget v0, p0, Lkik/android/video/e;->f:I
+    iget v0, p0, Lkik/arcane/video/e;->f:I
 
     const/16 v1, 0x5a
 
     if-eq v0, v1, :cond_0
 
-    iget v0, p0, Lkik/android/video/e;->f:I
+    iget v0, p0, Lkik/arcane/video/e;->f:I
 
     const/16 v1, 0x10e
 
@@ -122,7 +122,7 @@
     :cond_1
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/video/e;->f:I
+    iput v0, p0, Lkik/arcane/video/e;->f:I
 
     .line 1110
     :cond_2
@@ -149,7 +149,7 @@
     invoke-direct {v2, v1, v0}, Landroid/graphics/Point;-><init>(II)V
 
     .line 67
-    iput-object v2, p0, Lkik/android/video/e;->d:Landroid/graphics/Point;
+    iput-object v2, p0, Lkik/arcane/video/e;->d:Landroid/graphics/Point;
 
     .line 68
     return-void
@@ -266,7 +266,7 @@
 
     move-result-wide v0
 
-    iget-wide v2, p0, Lkik/android/video/e;->h:J
+    iget-wide v2, p0, Lkik/arcane/video/e;->h:J
 
     sub-long/2addr v0, v2
 
@@ -281,7 +281,7 @@
 
     if-nez v2, :cond_0
 
-    iget-object v2, p0, Lkik/android/video/e;->g:Lcom/kik/events/Promise;
+    iget-object v2, p0, Lkik/arcane/video/e;->g:Lcom/kik/events/Promise;
 
     invoke-virtual {v2}, Lcom/kik/events/Promise;->k()Z
 
@@ -333,7 +333,7 @@
 
     .prologue
     .line 72
-    iget-object v0, p0, Lkik/android/video/e;->g:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/video/e;->g:Lcom/kik/events/Promise;
 
     return-object v0
 .end method
@@ -349,7 +349,7 @@
 
     move-object/from16 v0, p0
 
-    iput-wide v4, v0, Lkik/android/video/e;->h:J
+    iput-wide v4, v0, Lkik/arcane/video/e;->h:J
 
     .line 80
     const/4 v8, 0x0
@@ -388,13 +388,13 @@
 
     move-object/from16 v0, p0
 
-    iget-object v13, v0, Lkik/android/video/e;->d:Landroid/graphics/Point;
+    iget-object v13, v0, Lkik/arcane/video/e;->d:Landroid/graphics/Point;
 
     iget v13, v13, Landroid/graphics/Point;->x:I
 
     move-object/from16 v0, p0
 
-    iget-object v14, v0, Lkik/android/video/e;->d:Landroid/graphics/Point;
+    iget-object v14, v0, Lkik/arcane/video/e;->d:Landroid/graphics/Point;
 
     iget v14, v14, Landroid/graphics/Point;->y:I
 
@@ -421,7 +421,7 @@
 
     move-object/from16 v0, p0
 
-    iget v14, v0, Lkik/android/video/e;->e:I
+    iget v14, v0, Lkik/arcane/video/e;->e:I
 
     invoke-virtual {v12, v13, v14}, Landroid/media/MediaFormat;->setInteger(Ljava/lang/String;I)V
 
@@ -470,13 +470,13 @@
     invoke-virtual {v7, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 100
-    new-instance v14, Lkik/android/video/b;
+    new-instance v14, Lkik/arcane/video/b;
 
     invoke-virtual {v15}, Landroid/media/MediaCodec;->createInputSurface()Landroid/view/Surface;
 
     move-result-object v7
 
-    invoke-direct {v14, v7}, Lkik/android/video/b;-><init>(Landroid/view/Surface;)V
+    invoke-direct {v14, v7}, Lkik/arcane/video/b;-><init>(Landroid/view/Surface;)V
     :try_end_1
     .catch Ljava/lang/InterruptedException; {:try_start_1 .. :try_end_1} :catch_9
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_2
@@ -484,7 +484,7 @@
 
     .line 101
     :try_start_2
-    invoke-virtual {v14}, Lkik/android/video/b;->b()V
+    invoke-virtual {v14}, Lkik/arcane/video/b;->b()V
 
     .line 102
     invoke-virtual {v15}, Landroid/media/MediaCodec;->start()V
@@ -492,7 +492,7 @@
     .line 104
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/video/e;->b:Ljava/lang/String;
+    iget-object v4, v0, Lkik/arcane/video/e;->b:Ljava/lang/String;
 
     move-object/from16 v0, v22
 
@@ -503,7 +503,7 @@
 
     move-object/from16 v0, v22
 
-    invoke-static {v0, v4}, Lkik/android/util/aa;->a(Landroid/media/MediaExtractor;Z)I
+    invoke-static {v0, v4}, Lkik/arcane/util/aa;->a(Landroid/media/MediaExtractor;Z)I
 
     move-result v7
 
@@ -512,7 +512,7 @@
 
     move-object/from16 v0, v22
 
-    invoke-static {v0, v4}, Lkik/android/util/aa;->a(Landroid/media/MediaExtractor;Z)I
+    invoke-static {v0, v4}, Lkik/arcane/util/aa;->a(Landroid/media/MediaExtractor;Z)I
 
     move-result v18
 
@@ -545,9 +545,9 @@
 
     .line 113
     :try_start_3
-    new-instance v13, Lkik/android/video/c;
+    new-instance v13, Lkik/arcane/video/c;
 
-    invoke-direct {v13}, Lkik/android/video/c;-><init>()V
+    invoke-direct {v13}, Lkik/arcane/video/c;-><init>()V
     :try_end_3
     .catch Ljava/lang/InterruptedException; {:try_start_3 .. :try_end_3} :catch_b
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_4
@@ -555,7 +555,7 @@
 
     .line 115
     :try_start_4
-    invoke-virtual {v13}, Lkik/android/video/c;->b()Landroid/view/Surface;
+    invoke-virtual {v13}, Lkik/arcane/video/c;->b()Landroid/view/Surface;
 
     move-result-object v6
 
@@ -611,7 +611,7 @@
 
     .line 123
     :try_start_5
-    invoke-direct/range {p0 .. p0}, Lkik/android/video/e;->b()V
+    invoke-direct/range {p0 .. p0}, Lkik/arcane/video/e;->b()V
 
     .line 125
     if-nez v11, :cond_2
@@ -693,7 +693,7 @@
     .line 149
     :cond_0
     :try_start_6
-    invoke-direct/range {p0 .. p0}, Lkik/android/video/e;->b()V
+    invoke-direct/range {p0 .. p0}, Lkik/arcane/video/e;->b()V
 
     .line 153
     const-wide/16 v20, 0x9c4
@@ -735,7 +735,7 @@
     if-ne v0, v7, :cond_2a
 
     .line 209
-    invoke-direct/range {p0 .. p0}, Lkik/android/video/e;->b()V
+    invoke-direct/range {p0 .. p0}, Lkik/arcane/video/e;->b()V
 
     .line 215
     const-wide/16 v20, 0x9c4
@@ -840,7 +840,7 @@
     .line 165
     const-string v7, "format changed twice"
 
-    invoke-static {v7}, Lkik/android/video/e;->a(Ljava/lang/String;)V
+    invoke-static {v7}, Lkik/arcane/video/e;->a(Ljava/lang/String;)V
 
     .line 167
     :cond_5
@@ -864,7 +864,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v0, v0, Lkik/android/video/e;->c:Ljava/lang/String;
+    iget-object v0, v0, Lkik/arcane/video/e;->c:Ljava/lang/String;
 
     move-object/from16 v17, v0
 
@@ -907,7 +907,7 @@
     :cond_6
     move-object/from16 v0, p0
 
-    iget v6, v0, Lkik/android/video/e;->f:I
+    iget v6, v0, Lkik/arcane/video/e;->f:I
 
     invoke-virtual {v7, v6}, Landroid/media/MediaMuxer;->setOrientationHint(I)V
 
@@ -954,7 +954,7 @@
 
     move-result-object v5
 
-    invoke-static {v5}, Lkik/android/video/e;->a(Ljava/lang/String;)V
+    invoke-static {v5}, Lkik/arcane/video/e;->a(Ljava/lang/String;)V
     :try_end_a
     .catch Ljava/lang/InterruptedException; {:try_start_a .. :try_end_a} :catch_e
     .catch Ljava/lang/Exception; {:try_start_a .. :try_end_a} :catch_7
@@ -975,10 +975,10 @@
 
     .line 293
     :cond_9
-    invoke-virtual {v14}, Lkik/android/video/b;->a()V
+    invoke-virtual {v14}, Lkik/arcane/video/b;->a()V
 
     .line 296
-    invoke-virtual {v13}, Lkik/android/video/c;->a()V
+    invoke-virtual {v13}, Lkik/arcane/video/c;->a()V
 
     .line 298
     if-eqz v6, :cond_a
@@ -1032,7 +1032,7 @@
 
     move-result-object v17
 
-    invoke-static/range {v17 .. v17}, Lkik/android/video/e;->a(Ljava/lang/String;)V
+    invoke-static/range {v17 .. v17}, Lkik/arcane/video/e;->a(Ljava/lang/String;)V
 
     .line 191
     :cond_c
@@ -1053,7 +1053,7 @@
     :cond_d
     const-string v17, "muxer hasn\'t started"
 
-    invoke-static/range {v17 .. v17}, Lkik/android/video/e;->a(Ljava/lang/String;)V
+    invoke-static/range {v17 .. v17}, Lkik/arcane/video/e;->a(Ljava/lang/String;)V
 
     .line 196
     :cond_e
@@ -1215,7 +1215,7 @@
 
     move-result-object v7
 
-    invoke-static {v7}, Lkik/android/video/e;->a(Ljava/lang/String;)V
+    invoke-static {v7}, Lkik/arcane/video/e;->a(Ljava/lang/String;)V
 
     move v12, v8
 
@@ -1284,14 +1284,14 @@
     if-eqz v7, :cond_14
 
     .line 243
-    invoke-virtual {v13}, Lkik/android/video/c;->c()Z
+    invoke-virtual {v13}, Lkik/arcane/video/c;->c()Z
 
     move-result v7
 
     if-eqz v7, :cond_14
 
     .line 244
-    invoke-virtual {v13}, Lkik/android/video/c;->d()V
+    invoke-virtual {v13}, Lkik/arcane/video/c;->d()V
 
     .line 247
     move-object/from16 v0, v23
@@ -1306,10 +1306,10 @@
 
     move-wide/from16 v0, v20
 
-    invoke-virtual {v14, v0, v1}, Lkik/android/video/b;->a(J)V
+    invoke-virtual {v14, v0, v1}, Lkik/arcane/video/b;->a(J)V
 
     .line 249
-    invoke-virtual {v14}, Lkik/android/video/b;->c()Z
+    invoke-virtual {v14}, Lkik/arcane/video/b;->c()Z
 
     .line 252
     :cond_14
@@ -1378,7 +1378,7 @@
 
     move/from16 v2, v17
 
-    invoke-static {v0, v12, v1, v2}, Lkik/android/util/aa;->a(Landroid/media/MediaExtractor;Landroid/media/MediaMuxer;II)V
+    invoke-static {v0, v12, v1, v2}, Lkik/arcane/util/aa;->a(Landroid/media/MediaExtractor;Landroid/media/MediaMuxer;II)V
 
     .line 268
     :cond_19
@@ -1391,7 +1391,7 @@
     invoke-virtual {v4}, Landroid/media/MediaCodec;->stop()V
 
     .line 272
-    invoke-direct/range {p0 .. p0}, Lkik/android/video/e;->b()V
+    invoke-direct/range {p0 .. p0}, Lkik/arcane/video/e;->b()V
     :try_end_c
     .catch Ljava/lang/InterruptedException; {:try_start_c .. :try_end_c} :catch_f
     .catch Ljava/lang/Exception; {:try_start_c .. :try_end_c} :catch_8
@@ -1412,10 +1412,10 @@
 
     .line 293
     :cond_1b
-    invoke-virtual {v14}, Lkik/android/video/b;->a()V
+    invoke-virtual {v14}, Lkik/arcane/video/b;->a()V
 
     .line 296
-    invoke-virtual {v13}, Lkik/android/video/c;->a()V
+    invoke-virtual {v13}, Lkik/arcane/video/c;->a()V
 
     .line 298
     if-eqz v12, :cond_1c
@@ -1427,13 +1427,13 @@
     :cond_1c
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/video/e;->g:Lcom/kik/events/Promise;
+    iget-object v4, v0, Lkik/arcane/video/e;->g:Lcom/kik/events/Promise;
 
     new-instance v5, Ljava/io/File;
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/video/e;->c:Ljava/lang/String;
+    iget-object v6, v0, Lkik/arcane/video/e;->c:Ljava/lang/String;
 
     invoke-direct {v5, v6}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
@@ -1457,7 +1457,7 @@
     :try_start_d
     move-object/from16 v0, p0
 
-    iget-object v9, v0, Lkik/android/video/e;->g:Lcom/kik/events/Promise;
+    iget-object v9, v0, Lkik/arcane/video/e;->g:Lcom/kik/events/Promise;
 
     invoke-virtual {v9}, Lcom/kik/events/Promise;->f()V
     :try_end_d
@@ -1481,14 +1481,14 @@
     if-eqz v6, :cond_1f
 
     .line 293
-    invoke-virtual {v6}, Lkik/android/video/b;->a()V
+    invoke-virtual {v6}, Lkik/arcane/video/b;->a()V
 
     .line 295
     :cond_1f
     if-eqz v5, :cond_20
 
     .line 296
-    invoke-virtual {v5}, Lkik/android/video/c;->a()V
+    invoke-virtual {v5}, Lkik/arcane/video/c;->a()V
 
     .line 298
     :cond_20
@@ -1527,7 +1527,7 @@
     .line 282
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/video/e;->g:Lcom/kik/events/Promise;
+    iget-object v5, v0, Lkik/arcane/video/e;->g:Lcom/kik/events/Promise;
 
     invoke-virtual {v5, v4}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
     :try_end_e
@@ -1551,14 +1551,14 @@
     if-eqz v14, :cond_23
 
     .line 293
-    invoke-virtual {v14}, Lkik/android/video/b;->a()V
+    invoke-virtual {v14}, Lkik/arcane/video/b;->a()V
 
     .line 295
     :cond_23
     if-eqz v13, :cond_24
 
     .line 296
-    invoke-virtual {v13}, Lkik/android/video/c;->a()V
+    invoke-virtual {v13}, Lkik/arcane/video/c;->a()V
 
     .line 298
     :cond_24
@@ -1601,14 +1601,14 @@
     if-eqz v14, :cond_27
 
     .line 293
-    invoke-virtual {v14}, Lkik/android/video/b;->a()V
+    invoke-virtual {v14}, Lkik/arcane/video/b;->a()V
 
     .line 295
     :cond_27
     if-eqz v13, :cond_28
 
     .line 296
-    invoke-virtual {v13}, Lkik/android/video/c;->a()V
+    invoke-virtual {v13}, Lkik/arcane/video/c;->a()V
 
     .line 298
     :cond_28

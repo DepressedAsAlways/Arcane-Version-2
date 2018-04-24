@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lkik/android/chat/presentation/br;",
+        "Lkik/arcane/chat/presentation/br;",
         ">;"
     }
 .end annotation
@@ -90,7 +90,7 @@
             ")",
             "Ldagger/internal/b",
             "<",
-            "Lkik/android/chat/presentation/br;",
+            "Lkik/arcane/chat/presentation/br;",
             ">;"
         }
     .end annotation
@@ -111,9 +111,9 @@
 
     .prologue
     .line 1034
-    new-instance v0, Lkik/android/chat/presentation/bs;
+    new-instance v0, Lkik/arcane/chat/presentation/bs;
 
-    invoke-direct {v0}, Lkik/android/chat/presentation/bs;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/presentation/bs;-><init>()V
 
     .line 1025
     const-string v1, "Cannot return null from a non-@Nullable @Provides method"
@@ -123,7 +123,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/presentation/br;
+    check-cast v0, Lkik/arcane/chat/presentation/br;
 
     .line 8
     return-object v0

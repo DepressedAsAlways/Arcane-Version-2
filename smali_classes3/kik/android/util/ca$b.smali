@@ -1,11 +1,11 @@
-.class public final Lkik/android/util/ca$b;
+.class public final Lkik/arcane/util/ca$b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/ca;
+    value = Lkik/arcane/util/ca;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,7 +27,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 126
-    iput-object p1, p0, Lkik/android/util/ca$b;->a:Landroid/view/View;
+    iput-object p1, p0, Lkik/arcane/util/ca$b;->a:Landroid/view/View;
 
     .line 127
     return-void
@@ -38,23 +38,23 @@
 
     .prologue
     .line 120
-    invoke-direct {p0, p1}, Lkik/android/util/ca$b;-><init>(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lkik/arcane/util/ca$b;-><init>(Landroid/view/View;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()Lkik/android/util/ca$b;
+.method public final a()Lkik/arcane/util/ca$b;
     .locals 2
 
     .prologue
     .line 141
-    iget-object v0, p0, Lkik/android/util/ca$b;->a:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/util/ca$b;->a:Landroid/view/View;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/util/ca$b;->a:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/util/ca$b;->a:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -65,7 +65,7 @@
     if-eqz v0, :cond_0
 
     .line 142
-    iget-object v0, p0, Lkik/android/util/ca$b;->a:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/util/ca$b;->a:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -79,7 +79,7 @@
     iput v1, v0, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
 
     .line 144
-    iget-object v1, p0, Lkik/android/util/ca$b;->a:Landroid/view/View;
+    iget-object v1, p0, Lkik/arcane/util/ca$b;->a:Landroid/view/View;
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
@@ -88,16 +88,16 @@
     return-object p0
 .end method
 
-.method public final a(I)Lkik/android/util/ca$b;
+.method public final a(I)Lkik/arcane/util/ca$b;
     .locals 2
 
     .prologue
     .line 131
-    iget-object v0, p0, Lkik/android/util/ca$b;->a:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/util/ca$b;->a:Landroid/view/View;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/util/ca$b;->a:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/util/ca$b;->a:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -108,7 +108,7 @@
     if-eqz v0, :cond_0
 
     .line 132
-    iget-object v0, p0, Lkik/android/util/ca$b;->a:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/util/ca$b;->a:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -120,7 +120,7 @@
     iput p1, v0, Landroid/view/ViewGroup$MarginLayoutParams;->topMargin:I
 
     .line 134
-    iget-object v1, p0, Lkik/android/util/ca$b;->a:Landroid/view/View;
+    iget-object v1, p0, Lkik/arcane/util/ca$b;->a:Landroid/view/View;
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
@@ -129,16 +129,16 @@
     return-object p0
 .end method
 
-.method public final b(I)Lkik/android/util/ca$b;
+.method public final b(I)Lkik/arcane/util/ca$b;
     .locals 2
 
     .prologue
     .line 151
-    iget-object v0, p0, Lkik/android/util/ca$b;->a:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/util/ca$b;->a:Landroid/view/View;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/util/ca$b;->a:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/util/ca$b;->a:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -149,7 +149,7 @@
     if-eqz v0, :cond_0
 
     .line 152
-    iget-object v0, p0, Lkik/android/util/ca$b;->a:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/util/ca$b;->a:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -161,7 +161,7 @@
     iput p1, v0, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
 
     .line 154
-    iget-object v1, p0, Lkik/android/util/ca$b;->a:Landroid/view/View;
+    iget-object v1, p0, Lkik/arcane/util/ca$b;->a:Landroid/view/View;
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
@@ -170,16 +170,16 @@
     return-object p0
 .end method
 
-.method public final c(I)Lkik/android/util/ca$b;
+.method public final c(I)Lkik/arcane/util/ca$b;
     .locals 2
 
     .prologue
     .line 161
-    iget-object v0, p0, Lkik/android/util/ca$b;->a:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/util/ca$b;->a:Landroid/view/View;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/util/ca$b;->a:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/util/ca$b;->a:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -190,7 +190,7 @@
     if-eqz v0, :cond_0
 
     .line 162
-    iget-object v0, p0, Lkik/android/util/ca$b;->a:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/util/ca$b;->a:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
@@ -202,7 +202,7 @@
     iput p1, v0, Landroid/view/ViewGroup$MarginLayoutParams;->rightMargin:I
 
     .line 164
-    iget-object v1, p0, Lkik/android/util/ca$b;->a:Landroid/view/View;
+    iget-object v1, p0, Lkik/arcane/util/ca$b;->a:Landroid/view/View;
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 

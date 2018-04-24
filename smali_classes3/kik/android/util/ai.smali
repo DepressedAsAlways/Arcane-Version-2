@@ -1,10 +1,10 @@
-.class public interface abstract Lkik/android/util/ai;
+.class public interface abstract Lkik/arcane/util/ai;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # virtual methods
-.method public abstract a(Lkik/android/gifs/api/b;)Landroid/graphics/Bitmap;
+.method public abstract a(Lkik/arcane/gifs/api/b;)Landroid/graphics/Bitmap;
 .end method
 
 .method public abstract a()Ljava/util/List;
@@ -13,7 +13,7 @@
             "()",
             "Ljava/util/List",
             "<",
-            "Lkik/android/gifs/api/b;",
+            "Lkik/arcane/gifs/api/b;",
             ">;"
         }
     .end annotation
@@ -25,7 +25,7 @@
             "(",
             "Ljava/util/List",
             "<",
-            "Lkik/android/gifs/api/b;",
+            "Lkik/arcane/gifs/api/b;",
             ">;)V"
         }
     .end annotation
@@ -37,7 +37,7 @@
             "()",
             "Lrx/d",
             "<",
-            "Lkik/android/gifs/api/b;",
+            "Lkik/arcane/gifs/api/b;",
             ">;"
         }
     .end annotation
@@ -49,13 +49,13 @@
             "(",
             "Ljava/util/List",
             "<",
-            "Lkik/android/gifs/api/b;",
+            "Lkik/arcane/gifs/api/b;",
             ">;)V"
         }
     .end annotation
 .end method
 
-.method public abstract b(Lkik/android/gifs/api/b;)Z
+.method public abstract b(Lkik/arcane/gifs/api/b;)Z
 .end method
 
 .method public abstract c()Lrx/d;
@@ -64,7 +64,7 @@
             "()",
             "Lrx/d",
             "<",
-            "Lkik/android/gifs/api/b;",
+            "Lkik/arcane/gifs/api/b;",
             ">;"
         }
     .end annotation
@@ -78,7 +78,7 @@
             "<",
             "Ljava/util/List",
             "<",
-            "Lkik/android/gifs/api/b;",
+            "Lkik/arcane/gifs/api/b;",
             ">;>;"
         }
     .end annotation

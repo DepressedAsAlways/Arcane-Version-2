@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/vm/messaging/er$1;
+.class final Lkik/arcane/chat/vm/messaging/er$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/messaging/er;->aC()Lrx/d;
+    value = Lkik/arcane/chat/vm/messaging/er;->aC()Lrx/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -30,18 +30,18 @@
 # instance fields
 .field final synthetic a:Ljava/lang/String;
 
-.field final synthetic b:Lkik/android/chat/vm/messaging/er;
+.field final synthetic b:Lkik/arcane/chat/vm/messaging/er;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/messaging/er;Ljava/lang/String;)V
+.method constructor <init>(Lkik/arcane/chat/vm/messaging/er;Ljava/lang/String;)V
     .locals 0
 
     .prologue
     .line 89
-    iput-object p1, p0, Lkik/android/chat/vm/messaging/er$1;->b:Lkik/android/chat/vm/messaging/er;
+    iput-object p1, p0, Lkik/arcane/chat/vm/messaging/er$1;->b:Lkik/arcane/chat/vm/messaging/er;
 
-    iput-object p2, p0, Lkik/android/chat/vm/messaging/er$1;->a:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/chat/vm/messaging/er$1;->a:Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -60,16 +60,16 @@
     check-cast p1, Lrx/j;
 
     .line 1093
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/er$1;->a:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/er$1;->a:Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
     .line 1097
-    new-instance v0, Lkik/android/chat/vm/messaging/er$1$1;
+    new-instance v0, Lkik/arcane/chat/vm/messaging/er$1$1;
 
-    iget-object v2, p0, Lkik/android/chat/vm/messaging/er$1;->a:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/vm/messaging/er$1;->a:Ljava/lang/String;
 
-    iget-object v3, p0, Lkik/android/chat/vm/messaging/er$1;->a:Ljava/lang/String;
+    iget-object v3, p0, Lkik/arcane/chat/vm/messaging/er$1;->a:Ljava/lang/String;
 
     sget-object v4, Lcom/kik/cache/KikImageRequest;->EMPTY_BITMAP_LISTENER:Lcom/android/volley/h$b;
 
@@ -79,16 +79,16 @@
 
     move-object v1, p0
 
-    invoke-direct/range {v0 .. v6}, Lkik/android/chat/vm/messaging/er$1$1;-><init>(Lkik/android/chat/vm/messaging/er$1;Ljava/lang/String;Ljava/lang/String;Lcom/android/volley/h$b;Landroid/graphics/Bitmap$Config;Lcom/android/volley/h$a;)V
+    invoke-direct/range {v0 .. v6}, Lkik/arcane/chat/vm/messaging/er$1$1;-><init>(Lkik/arcane/chat/vm/messaging/er$1;Ljava/lang/String;Ljava/lang/String;Lcom/android/volley/h$b;Landroid/graphics/Bitmap$Config;Lcom/android/volley/h$a;)V
 
     .line 1103
-    iget-object v1, p0, Lkik/android/chat/vm/messaging/er$1;->b:Lkik/android/chat/vm/messaging/er;
+    iget-object v1, p0, Lkik/arcane/chat/vm/messaging/er$1;->b:Lkik/arcane/chat/vm/messaging/er;
 
-    iget-object v1, v1, Lkik/android/chat/vm/messaging/er;->F:Lcom/kik/cache/KikVolleyImageLoader;
+    iget-object v1, v1, Lkik/arcane/chat/vm/messaging/er;->F:Lcom/kik/cache/KikVolleyImageLoader;
 
-    new-instance v3, Lkik/android/chat/vm/messaging/er$1$2;
+    new-instance v3, Lkik/arcane/chat/vm/messaging/er$1$2;
 
-    invoke-direct {v3, p0, p1}, Lkik/android/chat/vm/messaging/er$1$2;-><init>(Lkik/android/chat/vm/messaging/er$1;Lrx/j;)V
+    invoke-direct {v3, p0, p1}, Lkik/arcane/chat/vm/messaging/er$1$2;-><init>(Lkik/arcane/chat/vm/messaging/er$1;Lrx/j;)V
 
     const/4 v6, 0x0
 

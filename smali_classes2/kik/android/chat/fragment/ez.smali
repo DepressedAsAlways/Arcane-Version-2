@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/fragment/ez;
+.class final synthetic Lkik/arcane/chat/fragment/ez;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/fragment/ProfileEditBioDialogFragment;
+.field private final a:Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;)V
+.method private constructor <init>(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/fragment/ez;->a:Lkik/android/chat/fragment/ProfileEditBioDialogFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ez;->a:Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;)Landroid/content/DialogInterface$OnKeyListener;
+.method public static a(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;)Landroid/content/DialogInterface$OnKeyListener;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/fragment/ez;
+    new-instance v0, Lkik/arcane/chat/fragment/ez;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/fragment/ez;-><init>(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/fragment/ez;-><init>(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;)V
 
     return-object v0
 .end method
@@ -35,9 +35,9 @@
 .method public final onKey(Landroid/content/DialogInterface;ILandroid/view/KeyEvent;)Z
     .locals 1
 
-    iget-object v0, p0, Lkik/android/chat/fragment/ez;->a:Lkik/android/chat/fragment/ProfileEditBioDialogFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ez;->a:Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;
 
-    invoke-static {v0, p2, p3}, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->a(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;ILandroid/view/KeyEvent;)Z
+    invoke-static {v0, p2, p3}, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->a(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;ILandroid/view/KeyEvent;)Z
 
     move-result v0
 

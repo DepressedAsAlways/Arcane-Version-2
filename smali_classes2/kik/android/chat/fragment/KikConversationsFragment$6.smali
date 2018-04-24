@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/KikConversationsFragment$6;
+.class final Lkik/arcane/chat/fragment/KikConversationsFragment$6;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikConversationsFragment;
+    value = Lkik/arcane/chat/fragment/KikConversationsFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikConversationsFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikConversationsFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikConversationsFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikConversationsFragment;)V
     .locals 0
 
     .prologue
     .line 1448
-    iput-object p1, p0, Lkik/android/chat/fragment/KikConversationsFragment$6;->a:Lkik/android/chat/fragment/KikConversationsFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikConversationsFragment$6;->a:Lkik/arcane/chat/fragment/KikConversationsFragment;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -57,21 +57,21 @@
     invoke-super {p0, p1}, Lcom/kik/events/k;->a(Ljava/lang/Object;)V
 
     .line 2453
-    invoke-static {}, Lkik/android/internal/platform/PlatformHelper;->a()Lkik/android/internal/platform/PlatformHelper;
+    invoke-static {}, Lkik/arcane/internal/platform/PlatformHelper;->a()Lkik/arcane/internal/platform/PlatformHelper;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lkik/android/internal/platform/PlatformHelper;->a(Z)V
+    invoke-virtual {v0, v1}, Lkik/arcane/internal/platform/PlatformHelper;->a(Z)V
 
     .line 2454
     if-nez p1, :cond_0
 
     .line 2455
-    iget-object v0, p0, Lkik/android/chat/fragment/KikConversationsFragment$6;->a:Lkik/android/chat/fragment/KikConversationsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikConversationsFragment$6;->a:Lkik/arcane/chat/fragment/KikConversationsFragment;
 
-    invoke-static {v0, v6}, Lkik/android/chat/fragment/KikConversationsFragment;->c(Lkik/android/chat/fragment/KikConversationsFragment;I)V
+    invoke-static {v0, v6}, Lkik/arcane/chat/fragment/KikConversationsFragment;->c(Lkik/arcane/chat/fragment/KikConversationsFragment;I)V
 
     .line 2467
     :goto_0
@@ -95,7 +95,7 @@
 
     if-nez v0, :cond_1
 
-    invoke-static {v1}, Lkik/android/KikFileProvider;->a(Ljava/lang/String;)Z
+    invoke-static {v1}, Lkik/arcane/KikFileProvider;->a(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -103,7 +103,7 @@
 
     .line 2462
     :cond_1
-    invoke-static {v1}, Lkik/android/util/bw;->c(Ljava/lang/String;)I
+    invoke-static {v1}, Lkik/arcane/util/bw;->c(Ljava/lang/String;)I
 
     move-result v0
 
@@ -118,9 +118,9 @@
     if-gez v0, :cond_3
 
     .line 2466
-    iget-object v0, p0, Lkik/android/chat/fragment/KikConversationsFragment$6;->a:Lkik/android/chat/fragment/KikConversationsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikConversationsFragment$6;->a:Lkik/arcane/chat/fragment/KikConversationsFragment;
 
-    invoke-static {v0, v6}, Lkik/android/chat/fragment/KikConversationsFragment;->c(Lkik/android/chat/fragment/KikConversationsFragment;I)V
+    invoke-static {v0, v6}, Lkik/arcane/chat/fragment/KikConversationsFragment;->c(Lkik/arcane/chat/fragment/KikConversationsFragment;I)V
 
     goto :goto_0
 
@@ -135,72 +135,72 @@
     .line 2471
     if-eqz v4, :cond_4
 
-    invoke-static {v1}, Lkik/android/util/aa;->c(Ljava/lang/String;)Z
+    invoke-static {v1}, Lkik/arcane/util/aa;->c(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_4
 
     .line 2472
-    iget-object v0, p0, Lkik/android/chat/fragment/KikConversationsFragment$6;->a:Lkik/android/chat/fragment/KikConversationsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikConversationsFragment$6;->a:Lkik/arcane/chat/fragment/KikConversationsFragment;
 
     const v5, 0x7f0900ed
 
-    invoke-static {v0, v5}, Lkik/android/chat/fragment/KikConversationsFragment;->c(Lkik/android/chat/fragment/KikConversationsFragment;I)V
+    invoke-static {v0, v5}, Lkik/arcane/chat/fragment/KikConversationsFragment;->c(Lkik/arcane/chat/fragment/KikConversationsFragment;I)V
 
     .line 2475
     :cond_4
-    invoke-static {v1, v2, v3}, Lkik/android/util/bw;->a(Ljava/lang/String;J)Z
+    invoke-static {v1, v2, v3}, Lkik/arcane/util/bw;->a(Ljava/lang/String;J)Z
 
     move-result v0
 
     if-eqz v0, :cond_5
 
     .line 2476
-    iget-object v0, p0, Lkik/android/chat/fragment/KikConversationsFragment$6;->a:Lkik/android/chat/fragment/KikConversationsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikConversationsFragment$6;->a:Lkik/arcane/chat/fragment/KikConversationsFragment;
 
-    invoke-static {v0, v2, v3, v1}, Lkik/android/chat/fragment/KikConversationsFragment;->a(Lkik/android/chat/fragment/KikConversationsFragment;JLjava/lang/String;)V
+    invoke-static {v0, v2, v3, v1}, Lkik/arcane/chat/fragment/KikConversationsFragment;->a(Lkik/arcane/chat/fragment/KikConversationsFragment;JLjava/lang/String;)V
 
     .line 2483
     :goto_1
-    iget-object v0, p0, Lkik/android/chat/fragment/KikConversationsFragment$6;->a:Lkik/android/chat/fragment/KikConversationsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikConversationsFragment$6;->a:Lkik/arcane/chat/fragment/KikConversationsFragment;
 
-    iput-object v7, v0, Lkik/android/chat/fragment/KikConversationsFragment;->_progressDialog:Lkik/android/chat/fragment/ProgressDialogFragment;
+    iput-object v7, v0, Lkik/arcane/chat/fragment/KikConversationsFragment;->_progressDialog:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
     .line 2484
-    iget-object v0, p0, Lkik/android/chat/fragment/KikConversationsFragment$6;->a:Lkik/android/chat/fragment/KikConversationsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikConversationsFragment$6;->a:Lkik/arcane/chat/fragment/KikConversationsFragment;
 
-    invoke-virtual {v0, v7}, Lkik/android/chat/fragment/KikConversationsFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {v0, v7}, Lkik/arcane/chat/fragment/KikConversationsFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     goto :goto_0
 
     .line 2479
     :cond_5
-    invoke-static {}, Lkik/android/internal/platform/PlatformHelper;->a()Lkik/android/internal/platform/PlatformHelper;
+    invoke-static {}, Lkik/arcane/internal/platform/PlatformHelper;->a()Lkik/arcane/internal/platform/PlatformHelper;
 
     move-result-object v0
 
-    iget-object v5, p0, Lkik/android/chat/fragment/KikConversationsFragment$6;->a:Lkik/android/chat/fragment/KikConversationsFragment;
+    iget-object v5, p0, Lkik/arcane/chat/fragment/KikConversationsFragment$6;->a:Lkik/arcane/chat/fragment/KikConversationsFragment;
 
-    iget-object v5, v5, Lkik/android/chat/fragment/KikConversationsFragment;->f:Lcom/kik/storage/s;
+    iget-object v5, v5, Lkik/arcane/chat/fragment/KikConversationsFragment;->f:Lcom/kik/storage/s;
 
-    invoke-virtual/range {v0 .. v5}, Lkik/android/internal/platform/PlatformHelper;->a(Ljava/lang/String;JZLcom/kik/storage/s;)Lkik/core/datatypes/messageExtensions/ContentMessage;
+    invoke-virtual/range {v0 .. v5}, Lkik/arcane/internal/platform/PlatformHelper;->a(Ljava/lang/String;JZLcom/kik/storage/s;)Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     move-result-object v0
 
     .line 2480
-    invoke-static {}, Lkik/android/internal/platform/PlatformHelper;->a()Lkik/android/internal/platform/PlatformHelper;
+    invoke-static {}, Lkik/arcane/internal/platform/PlatformHelper;->a()Lkik/arcane/internal/platform/PlatformHelper;
 
     move-result-object v1
 
     const/4 v2, 0x1
 
-    invoke-virtual {v1, v0, v2}, Lkik/android/internal/platform/PlatformHelper;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Z)V
+    invoke-virtual {v1, v0, v2}, Lkik/arcane/internal/platform/PlatformHelper;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Z)V
 
     .line 2481
-    iget-object v0, p0, Lkik/android/chat/fragment/KikConversationsFragment$6;->a:Lkik/android/chat/fragment/KikConversationsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikConversationsFragment$6;->a:Lkik/arcane/chat/fragment/KikConversationsFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/KikConversationsFragment;->A(Lkik/android/chat/fragment/KikConversationsFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/KikConversationsFragment;->A(Lkik/arcane/chat/fragment/KikConversationsFragment;)V
 
     goto :goto_1
 .end method

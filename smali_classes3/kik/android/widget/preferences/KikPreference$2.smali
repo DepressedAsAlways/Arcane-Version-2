@@ -1,4 +1,4 @@
-.class final Lkik/android/widget/preferences/KikPreference$2;
+.class final Lkik/arcane/widget/preferences/KikPreference$2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/preferences/KikPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
+    value = Lkik/arcane/widget/preferences/KikPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/preferences/KikPreference;
+.field final synthetic a:Lkik/arcane/widget/preferences/KikPreference;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/preferences/KikPreference;)V
+.method constructor <init>(Lkik/arcane/widget/preferences/KikPreference;)V
     .locals 0
 
     .prologue
     .line 132
-    iput-object p1, p0, Lkik/android/widget/preferences/KikPreference$2;->a:Lkik/android/widget/preferences/KikPreference;
+    iput-object p1, p0, Lkik/arcane/widget/preferences/KikPreference$2;->a:Lkik/arcane/widget/preferences/KikPreference;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

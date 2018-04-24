@@ -1148,7 +1148,7 @@
     </style>
     <style name="FloatingActionButtonLabel">
         <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textColor">@color/black_to_theme</item>
         <item name="android:ellipsize">end</item>
         <item name="android:background">@drawable/fab_label_selector</item>
         <item name="android:layout_width">wrap_content</item>
@@ -1160,8 +1160,8 @@
     <style name="FloatingActionButtonMenuItem">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="fab_colorNormal">@color/kik_blue</item>
-        <item name="fab_colorPressed">@color/kik_blue</item>
+        <item name="fab_colorNormal">@color/fab_buttons</item>
+        <item name="fab_colorPressed">@color/theme</item>
         <item name="fab_shadowColor">@color/fab_shadow</item>
         <item name="fab_size">mini</item>
         <item name="fab_showAnimation">@anim/slide_in_from_right_and_rotate</item>
@@ -1607,28 +1607,28 @@
     </style>
     <style name="KikTextView.ChatList.ConversationName" parent="@style/KikTextView.ChatList">
         <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColor">@color/white_to_black</item>
         <item name="android:ellipsize">end</item>
     </style>
     <style name="KikTextView.ChatList.MessagePreview" parent="@style/KikTextView.ChatList">
         <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textColor">@color/grey_to_black</item>
         <item name="android:ellipsize">end</item>
         <item name="android:singleLine">true</item>
     </style>
     <style name="KikTextView.ChatList.NoHistory" parent="@style/KikTextView.ChatList">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textStyle">italic</item>
-        <item name="android:textColor">@color/text_tertiary</item>
+        <item name="android:textColor">@color/theme</item>
         <item name="android:ellipsize">end</item>
     </style>
     <style name="KikTextView.ChatList.Timestamp" parent="@style/KikTextView.ChatList">
         <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">@color/text_tertiary</item>
+        <item name="android:textColor">@color/grey_to_black</item>
     </style>
     <style name="KikTextView.ChatList.TypingStatus" parent="@style/KikTextView.ChatList">
         <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">@color/text_tertiary</item>
+        <item name="android:textColor">@color/theme_to_black</item>
         <item name="android:ellipsize">end</item>
     </style>
     <style name="KikTextView.ChatSearch" parent="@style/KikTextView">
@@ -1757,10 +1757,15 @@
     </style>
     <style name="KikTextView.Settings.Title" parent="@style/KikTextView.Settings">
         <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColor">@color/white_to_black</item>
         <item name="android:ellipsize">end</item>
         <item name="android:fadingEdge">horizontal</item>
         <item name="android:maxLines">1</item>
+    </style>
+	<style name="KikTextView.Settings.Version" parent="@style/KikTextView.Settings">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:gravity">center|right</item>
+        <item name="android:textColor">@color/theme_light</item>
     </style>
     <style name="KikTextView.Subtext" parent="@style/KikTextView">
         <item name="android:textSize">12.0sp</item>

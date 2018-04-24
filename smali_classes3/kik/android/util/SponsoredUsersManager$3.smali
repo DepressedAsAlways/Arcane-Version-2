@@ -1,4 +1,4 @@
-.class final Lkik/android/util/SponsoredUsersManager$3;
+.class final Lkik/arcane/util/SponsoredUsersManager$3;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/util/SponsoredUsersManager;->a(Lkik/android/util/SponsoredUsersManager$PromotionType;)V
+    value = Lkik/arcane/util/SponsoredUsersManager;->a(Lkik/arcane/util/SponsoredUsersManager$PromotionType;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/util/SponsoredUsersManager$PromotionType;
+.field final synthetic a:Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 
-.field final synthetic b:Lkik/android/util/SponsoredUsersManager;
+.field final synthetic b:Lkik/arcane/util/SponsoredUsersManager;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/util/SponsoredUsersManager;Lkik/android/util/SponsoredUsersManager$PromotionType;)V
+.method constructor <init>(Lkik/arcane/util/SponsoredUsersManager;Lkik/arcane/util/SponsoredUsersManager$PromotionType;)V
     .locals 0
 
     .prologue
     .line 196
-    iput-object p1, p0, Lkik/android/util/SponsoredUsersManager$3;->b:Lkik/android/util/SponsoredUsersManager;
+    iput-object p1, p0, Lkik/arcane/util/SponsoredUsersManager$3;->b:Lkik/arcane/util/SponsoredUsersManager;
 
-    iput-object p2, p0, Lkik/android/util/SponsoredUsersManager$3;->a:Lkik/android/util/SponsoredUsersManager$PromotionType;
+    iput-object p2, p0, Lkik/arcane/util/SponsoredUsersManager$3;->a:Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,23 +45,23 @@
 
     .prologue
     .line 200
-    iget-object v0, p0, Lkik/android/util/SponsoredUsersManager$3;->b:Lkik/android/util/SponsoredUsersManager;
+    iget-object v0, p0, Lkik/arcane/util/SponsoredUsersManager$3;->b:Lkik/arcane/util/SponsoredUsersManager;
 
-    invoke-static {v0}, Lkik/android/util/SponsoredUsersManager;->a(Lkik/android/util/SponsoredUsersManager;)Ljava/util/EnumMap;
+    invoke-static {v0}, Lkik/arcane/util/SponsoredUsersManager;->a(Lkik/arcane/util/SponsoredUsersManager;)Ljava/util/EnumMap;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/util/SponsoredUsersManager$3;->a:Lkik/android/util/SponsoredUsersManager$PromotionType;
+    iget-object v1, p0, Lkik/arcane/util/SponsoredUsersManager$3;->a:Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 
     invoke-virtual {v0, v1}, Ljava/util/EnumMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/util/SponsoredUsersManager$PromotionData;
+    check-cast v0, Lkik/arcane/util/SponsoredUsersManager$PromotionData;
 
-    sget-object v1, Lkik/android/util/SponsoredUsersManager$PromotionData$FetchState;->NONE:Lkik/android/util/SponsoredUsersManager$PromotionData$FetchState;
+    sget-object v1, Lkik/arcane/util/SponsoredUsersManager$PromotionData$FetchState;->NONE:Lkik/arcane/util/SponsoredUsersManager$PromotionData$FetchState;
 
-    iput-object v1, v0, Lkik/android/util/SponsoredUsersManager$PromotionData;->d:Lkik/android/util/SponsoredUsersManager$PromotionData$FetchState;
+    iput-object v1, v0, Lkik/arcane/util/SponsoredUsersManager$PromotionData;->d:Lkik/arcane/util/SponsoredUsersManager$PromotionData$FetchState;
 
     .line 201
     invoke-virtual {p1}, Lcom/android/volley/VolleyError;->printStackTrace()V

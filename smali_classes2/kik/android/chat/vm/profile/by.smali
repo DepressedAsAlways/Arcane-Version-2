@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/profile/by;
+.class final synthetic Lkik/arcane/chat/vm/profile/by;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/vm/profile/bl;
+.field private final a:Lkik/arcane/chat/vm/profile/bl;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/vm/profile/bl;)V
+.method private constructor <init>(Lkik/arcane/chat/vm/profile/bl;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/vm/profile/by;->a:Lkik/android/chat/vm/profile/bl;
+    iput-object p1, p0, Lkik/arcane/chat/vm/profile/by;->a:Lkik/arcane/chat/vm/profile/bl;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/vm/profile/bl;)Lrx/functions/g;
+.method public static a(Lkik/arcane/chat/vm/profile/bl;)Lrx/functions/g;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/profile/by;
+    new-instance v0, Lkik/arcane/chat/vm/profile/by;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/vm/profile/by;-><init>(Lkik/android/chat/vm/profile/bl;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/vm/profile/by;-><init>(Lkik/arcane/chat/vm/profile/bl;)V
 
     return-object v0
 .end method
@@ -37,7 +37,7 @@
 
     .prologue
     .line 0
-    iget-object v0, p0, Lkik/android/chat/vm/profile/by;->a:Lkik/android/chat/vm/profile/bl;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/by;->a:Lkik/arcane/chat/vm/profile/bl;
 
     check-cast p1, Lcom/kik/core/domain/a/a/a;
 
@@ -49,9 +49,9 @@
     if-nez v1, :cond_0
 
     .line 1232
-    new-instance v1, Lkik/android/chat/vm/profile/bl$1;
+    new-instance v1, Lkik/arcane/chat/vm/profile/bl$1;
 
-    invoke-direct {v1, v0, p1}, Lkik/android/chat/vm/profile/bl$1;-><init>(Lkik/android/chat/vm/profile/bl;Lcom/kik/core/domain/a/a/a;)V
+    invoke-direct {v1, v0, p1}, Lkik/arcane/chat/vm/profile/bl$1;-><init>(Lkik/arcane/chat/vm/profile/bl;Lcom/kik/core/domain/a/a/a;)V
 
     invoke-static {v1}, Lrx/d;->b(Ljava/lang/Object;)Lrx/d;
 
@@ -62,7 +62,7 @@
 
     .line 1297
     :cond_0
-    iget-object v0, v0, Lkik/android/chat/vm/profile/bl;->l:Lkik/core/interfaces/af;
+    iget-object v0, v0, Lkik/arcane/chat/vm/profile/bl;->l:Lkik/core/interfaces/af;
 
     invoke-interface {p1}, Lcom/kik/core/domain/a/a/a;->d()Ljava/lang/String;
 

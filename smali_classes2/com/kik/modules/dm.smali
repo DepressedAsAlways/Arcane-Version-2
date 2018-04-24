@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lcom/kik/android/b/g;",
+        "Lcom/kik/arcane/b/g;",
         ">;"
     }
 .end annotation
@@ -90,7 +90,7 @@
             ")",
             "Ldagger/internal/b",
             "<",
-            "Lcom/kik/android/b/g;",
+            "Lcom/kik/arcane/b/g;",
             ">;"
         }
     .end annotation
@@ -115,7 +115,7 @@
     iget-object v0, p0, Lcom/kik/modules/dm;->b:Lcom/kik/modules/dl;
 
     .line 1024
-    invoke-virtual {v0}, Lcom/kik/modules/dl;->a()Lcom/kik/android/b/g;
+    invoke-virtual {v0}, Lcom/kik/modules/dl;->a()Lcom/kik/arcane/b/g;
 
     move-result-object v0
 
@@ -126,7 +126,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/b/g;
+    check-cast v0, Lcom/kik/arcane/b/g;
 
     .line 8
     return-object v0

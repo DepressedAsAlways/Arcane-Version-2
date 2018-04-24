@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/KikRegistrationFragmentAbstract$1;
-.super Lkik/android/util/ca$a;
+.class final Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract$1;
+.super Lkik/arcane/util/ca$a;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;
+    value = Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,18 +15,18 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;)V
     .locals 0
 
     .prologue
     .line 176
-    iput-object p1, p0, Lkik/android/chat/fragment/KikRegistrationFragmentAbstract$1;->a:Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract$1;->a:Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;
 
-    invoke-direct {p0}, Lkik/android/util/ca$a;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/util/ca$a;-><init>()V
 
     return-void
 .end method
@@ -38,9 +38,9 @@
 
     .prologue
     .line 180
-    iget-object v0, p0, Lkik/android/chat/fragment/KikRegistrationFragmentAbstract$1;->a:Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract$1;->a:Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;->i(Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;->i(Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;)V
 
     .line 181
     return-void

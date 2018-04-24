@@ -1,4 +1,4 @@
-.class public Lkik/android/addressbook/AndroidAddressBookLoader;
+.class public Lkik/arcane/addressbook/AndroidAddressBookLoader;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -9,7 +9,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/addressbook/AndroidAddressBookLoader$a;
+        Lkik/arcane/addressbook/AndroidAddressBookLoader$a;
     }
 .end annotation
 
@@ -27,7 +27,7 @@
 # instance fields
 .field private final a:I
 
-.field private final b:Lkik/android/addressbook/AndroidAddressBookLoader$a;
+.field private final b:Lkik/arcane/addressbook/AndroidAddressBookLoader$a;
 
 .field private final c:Landroid/content/Context;
 
@@ -35,7 +35,7 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/support/v4/app/LoaderManager;Landroid/content/Context;Lkik/android/addressbook/AndroidAddressBookLoader$a;)V
+.method public constructor <init>(Landroid/support/v4/app/LoaderManager;Landroid/content/Context;Lkik/arcane/addressbook/AndroidAddressBookLoader$a;)V
     .locals 1
 
     .prologue
@@ -45,16 +45,16 @@
     .line 36
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/addressbook/AndroidAddressBookLoader;->a:I
+    iput v0, p0, Lkik/arcane/addressbook/AndroidAddressBookLoader;->a:I
 
     .line 37
-    iput-object p1, p0, Lkik/android/addressbook/AndroidAddressBookLoader;->d:Landroid/support/v4/app/LoaderManager;
+    iput-object p1, p0, Lkik/arcane/addressbook/AndroidAddressBookLoader;->d:Landroid/support/v4/app/LoaderManager;
 
     .line 38
-    iput-object p2, p0, Lkik/android/addressbook/AndroidAddressBookLoader;->c:Landroid/content/Context;
+    iput-object p2, p0, Lkik/arcane/addressbook/AndroidAddressBookLoader;->c:Landroid/content/Context;
 
     .line 39
-    iput-object p3, p0, Lkik/android/addressbook/AndroidAddressBookLoader;->b:Lkik/android/addressbook/AndroidAddressBookLoader$a;
+    iput-object p3, p0, Lkik/arcane/addressbook/AndroidAddressBookLoader;->b:Lkik/arcane/addressbook/AndroidAddressBookLoader$a;
 
     .line 40
     return-void
@@ -72,22 +72,22 @@
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
 
     .line 45
-    invoke-static {p1}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {p1}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
     .line 46
-    const-string v1, "kik.android.addressbook.AndroidAddressBookLoader.BUNDLE_KEY_FILTER"
+    const-string v1, "kik.arcane.addressbook.AndroidAddressBookLoader.BUNDLE_KEY_FILTER"
 
     invoke-virtual {v0, v1, p1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 48
     :cond_0
-    iget-object v1, p0, Lkik/android/addressbook/AndroidAddressBookLoader;->d:Landroid/support/v4/app/LoaderManager;
+    iget-object v1, p0, Lkik/arcane/addressbook/AndroidAddressBookLoader;->d:Landroid/support/v4/app/LoaderManager;
 
-    iget v2, p0, Lkik/android/addressbook/AndroidAddressBookLoader;->a:I
+    iget v2, p0, Lkik/arcane/addressbook/AndroidAddressBookLoader;->a:I
 
     invoke-virtual {v1, v2, v0, p0}, Landroid/support/v4/app/LoaderManager;->restartLoader(ILandroid/os/Bundle;Landroid/support/v4/app/LoaderManager$LoaderCallbacks;)Landroid/support/v4/content/Loader;
 
@@ -119,7 +119,7 @@
     const/4 v9, 0x0
 
     .line 54
-    iget v0, p0, Lkik/android/addressbook/AndroidAddressBookLoader;->a:I
+    iget v0, p0, Lkik/arcane/addressbook/AndroidAddressBookLoader;->a:I
 
     if-eq p1, v0, :cond_0
 
@@ -132,7 +132,7 @@
 
     .line 57
     :cond_0
-    const-string v0, "kik.android.addressbook.AndroidAddressBookLoader.BUNDLE_KEY_FILTER"
+    const-string v0, "kik.arcane.addressbook.AndroidAddressBookLoader.BUNDLE_KEY_FILTER"
 
     invoke-virtual {p2, v0}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
@@ -162,12 +162,12 @@
     .line 1084
     new-instance v0, Landroid/support/v4/content/CursorLoader;
 
-    iget-object v1, p0, Lkik/android/addressbook/AndroidAddressBookLoader;->c:Landroid/content/Context;
+    iget-object v1, p0, Lkik/arcane/addressbook/AndroidAddressBookLoader;->c:Landroid/content/Context;
 
     sget-object v2, Landroid/provider/ContactsContract$Data;->CONTENT_URI:Landroid/net/Uri;
 
     .line 1099
-    invoke-static {v5}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v5}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v4
 
@@ -205,7 +205,7 @@
     invoke-direct {v6, v7}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
     .line 1112
-    invoke-static {v5}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v5}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v7
 
@@ -318,18 +318,18 @@
 
     move-result v0
 
-    iget v1, p0, Lkik/android/addressbook/AndroidAddressBookLoader;->a:I
+    iget v1, p0, Lkik/arcane/addressbook/AndroidAddressBookLoader;->a:I
 
     if-ne v0, v1, :cond_0
 
     .line 2067
-    iget-object v0, p0, Lkik/android/addressbook/AndroidAddressBookLoader;->b:Lkik/android/addressbook/AndroidAddressBookLoader$a;
+    iget-object v0, p0, Lkik/arcane/addressbook/AndroidAddressBookLoader;->b:Lkik/arcane/addressbook/AndroidAddressBookLoader$a;
 
-    new-instance v1, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;
+    new-instance v1, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;
 
-    invoke-direct {v1, p2}, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;-><init>(Landroid/database/Cursor;)V
+    invoke-direct {v1, p2}, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;-><init>(Landroid/database/Cursor;)V
 
-    invoke-interface {v0, v1}, Lkik/android/addressbook/AndroidAddressBookLoader$a;->a(Lkik/android/addressbook/AndroidAddressBookCursorWrapper;)V
+    invoke-interface {v0, v1}, Lkik/arcane/addressbook/AndroidAddressBookLoader$a;->a(Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;)V
 
     .line 19
     :cond_0
@@ -354,7 +354,7 @@
 
     move-result v0
 
-    iget v1, p0, Lkik/android/addressbook/AndroidAddressBookLoader;->a:I
+    iget v1, p0, Lkik/arcane/addressbook/AndroidAddressBookLoader;->a:I
 
     if-eq v0, v1, :cond_0
 
@@ -364,9 +364,9 @@
 
     .line 76
     :cond_0
-    iget-object v0, p0, Lkik/android/addressbook/AndroidAddressBookLoader;->b:Lkik/android/addressbook/AndroidAddressBookLoader$a;
+    iget-object v0, p0, Lkik/arcane/addressbook/AndroidAddressBookLoader;->b:Lkik/arcane/addressbook/AndroidAddressBookLoader$a;
 
-    invoke-interface {v0}, Lkik/android/addressbook/AndroidAddressBookLoader$a;->b()V
+    invoke-interface {v0}, Lkik/arcane/addressbook/AndroidAddressBookLoader$a;->b()V
 
     goto :goto_0
 .end method

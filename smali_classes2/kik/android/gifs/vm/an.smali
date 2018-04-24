@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/gifs/vm/an;
+.class final synthetic Lkik/arcane/gifs/vm/an;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/gifs/vm/an;
+.field private static final a:Lkik/arcane/gifs/vm/an;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/gifs/vm/an;
+    new-instance v0, Lkik/arcane/gifs/vm/an;
 
-    invoke-direct {v0}, Lkik/android/gifs/vm/an;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/gifs/vm/an;-><init>()V
 
-    sput-object v0, Lkik/android/gifs/vm/an;->a:Lkik/android/gifs/vm/an;
+    sput-object v0, Lkik/arcane/gifs/vm/an;->a:Lkik/arcane/gifs/vm/an;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lrx/functions/h;
     .locals 1
 
-    sget-object v0, Lkik/android/gifs/vm/an;->a:Lkik/android/gifs/vm/an;
+    sget-object v0, Lkik/arcane/gifs/vm/an;->a:Lkik/arcane/gifs/vm/an;
 
     return-object v0
 .end method

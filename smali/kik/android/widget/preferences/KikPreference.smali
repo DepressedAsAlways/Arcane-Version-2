@@ -1,4 +1,4 @@
-.class public abstract Lkik/android/widget/preferences/KikPreference;
+.class public abstract Lkik/arcane/widget/preferences/KikPreference;
 .super Landroid/preference/Preference;
 .source "SourceFile"
 
@@ -18,7 +18,7 @@
 
 .field private d:Landroid/graphics/drawable/Drawable;
 
-.field private e:Lkik/android/chat/fragment/KikScopedDialogFragment;
+.field private e:Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
 .field private f:I
 
@@ -36,10 +36,10 @@
     .line 123
     const v0, 0x7f040135
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/preferences/KikPreference;->setLayoutResource(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/preferences/KikPreference;->setLayoutResource(I)V
 
     .line 124
-    sget-object v0, Lkik/android/R$styleable;->KikPreference:[I
+    sget-object v0, Lkik/arcane/R$styleable;->KikPreference:[I
 
     invoke-virtual {p1, p2, v0, p3, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -52,13 +52,13 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/preferences/KikPreference;->d:Landroid/graphics/drawable/Drawable;
+    iput-object v0, p0, Lkik/arcane/widget/preferences/KikPreference;->d:Landroid/graphics/drawable/Drawable;
 
     .line 126
-    iput-object p4, p0, Lkik/android/widget/preferences/KikPreference;->b:Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;
+    iput-object p4, p0, Lkik/arcane/widget/preferences/KikPreference;->b:Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;
 
     .line 128
-    sget-object v0, Lkik/android/R$styleable;->KikPreference:[I
+    sget-object v0, Lkik/arcane/R$styleable;->KikPreference:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -69,14 +69,14 @@
 
     move-result v0
 
-    iput v0, p0, Lkik/android/widget/preferences/KikPreference;->f:I
+    iput v0, p0, Lkik/arcane/widget/preferences/KikPreference;->f:I
 
     .line 132
-    new-instance v0, Lkik/android/widget/preferences/KikPreference$2;
+    new-instance v0, Lkik/arcane/widget/preferences/KikPreference$2;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/preferences/KikPreference$2;-><init>(Lkik/android/widget/preferences/KikPreference;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/preferences/KikPreference$2;-><init>(Lkik/arcane/widget/preferences/KikPreference;)V
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/preferences/KikPreference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/preferences/KikPreference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 
     .line 139
     return-void
@@ -89,18 +89,18 @@
     .line 117
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0, p3}, Lkik/android/widget/preferences/KikPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
+    invoke-direct {p0, p1, p2, v0, p3}, Lkik/arcane/widget/preferences/KikPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
 
     .line 118
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/preferences/KikPreference;)Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;
+.method static synthetic a(Lkik/arcane/widget/preferences/KikPreference;)Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;
     .locals 1
 
     .prologue
     .line 31
-    iget-object v0, p0, Lkik/android/widget/preferences/KikPreference;->b:Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/KikPreference;->b:Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;
 
     return-object v0
 .end method
@@ -160,11 +160,11 @@
     invoke-virtual {v1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 79
-    invoke-static {v1}, Lkik/android/util/ca;->a(Landroid/view/View;)Lkik/android/util/ca$b;
+    invoke-static {v1}, Lkik/arcane/util/ca;->a(Landroid/view/View;)Lkik/arcane/util/ca$b;
 
     move-result-object v0
 
-    invoke-virtual {v0, v3}, Lkik/android/util/ca$b;->b(I)Lkik/android/util/ca$b;
+    invoke-virtual {v0, v3}, Lkik/arcane/util/ca$b;->b(I)Lkik/arcane/util/ca$b;
 
     .line 83
     :cond_0
@@ -198,11 +198,11 @@
     invoke-virtual {v2, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 95
-    invoke-static {v2}, Lkik/android/util/ca;->a(Landroid/view/View;)Lkik/android/util/ca$b;
+    invoke-static {v2}, Lkik/arcane/util/ca;->a(Landroid/view/View;)Lkik/arcane/util/ca$b;
 
     move-result-object v0
 
-    invoke-virtual {v0, v3}, Lkik/android/util/ca$b;->b(I)Lkik/android/util/ca$b;
+    invoke-virtual {v0, v3}, Lkik/arcane/util/ca$b;->b(I)Lkik/arcane/util/ca$b;
 
     .line 98
     :cond_1
@@ -221,7 +221,7 @@
     goto :goto_1
 .end method
 
-.method public static a(Ljava/lang/String;Lcom/kik/events/Promise;Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+.method public static a(Ljava/lang/String;Lcom/kik/events/Promise;Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -231,7 +231,7 @@
             "<",
             "Ljava/lang/Void;",
             ">;",
-            "Lkik/android/chat/fragment/KikScopedDialogFragment;",
+            "Lkik/arcane/chat/fragment/KikScopedDialogFragment;",
             ")V"
         }
     .end annotation
@@ -245,38 +245,38 @@
     if-nez v0, :cond_0
 
     .line 48
-    new-instance v0, Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;
+    new-instance v0, Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;
 
-    invoke-virtual {p2}, Lkik/android/chat/fragment/KikScopedDialogFragment;->getContext()Landroid/content/Context;
+    invoke-virtual {p2}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;-><init>(Landroid/content/Context;)V
 
     const/4 v1, 0x0
 
     .line 49
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;->a(Z)Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;->a(Z)Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;
 
     move-result-object v0
 
     .line 50
-    invoke-virtual {v0, p0}, Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;->a(Ljava/lang/String;)Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;
+    invoke-virtual {v0, p0}, Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;->a(Ljava/lang/String;)Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;
 
     move-result-object v0
 
     .line 51
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;->a()Lkik/android/chat/fragment/KikDialogFragment;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;->a()Lkik/arcane/chat/fragment/KikDialogFragment;
 
     move-result-object v0
 
     .line 52
-    invoke-virtual {p2, v0}, Lkik/android/chat/fragment/KikScopedDialogFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {p2, v0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 53
-    new-instance v1, Lkik/android/widget/preferences/KikPreference$1;
+    new-instance v1, Lkik/arcane/widget/preferences/KikPreference$1;
 
-    invoke-direct {v1, v0}, Lkik/android/widget/preferences/KikPreference$1;-><init>(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-direct {v1, v0}, Lkik/arcane/widget/preferences/KikPreference$1;-><init>(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     invoke-virtual {p1, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -287,12 +287,12 @@
 
 
 # virtual methods
-.method protected final a()Lkik/android/chat/fragment/KikScopedDialogFragment;
+.method protected final a()Lkik/arcane/chat/fragment/KikScopedDialogFragment;
     .locals 1
 
     .prologue
     .line 102
-    iget-object v0, p0, Lkik/android/widget/preferences/KikPreference;->e:Lkik/android/chat/fragment/KikScopedDialogFragment;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/KikPreference;->e:Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     return-object v0
 .end method
@@ -302,18 +302,18 @@
 
     .prologue
     .line 112
-    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/widget/preferences/KikPreference;)V
+    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/widget/preferences/KikPreference;)V
 
     .line 113
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+.method public final a(Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
     .locals 0
 
     .prologue
     .line 107
-    iput-object p1, p0, Lkik/android/widget/preferences/KikPreference;->e:Lkik/android/chat/fragment/KikScopedDialogFragment;
+    iput-object p1, p0, Lkik/arcane/widget/preferences/KikPreference;->e:Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     .line 108
     return-void
@@ -324,7 +324,7 @@
 
     .prologue
     .line 189
-    iget-object v0, p0, Lkik/android/widget/preferences/KikPreference;->a:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/KikPreference;->a:Landroid/view/View;
 
     return-object v0
 .end method
@@ -337,12 +337,12 @@
     invoke-super {p0, p1}, Landroid/preference/Preference;->onBindView(Landroid/view/View;)V
 
     .line 145
-    iput-object p1, p0, Lkik/android/widget/preferences/KikPreference;->a:Landroid/view/View;
+    iput-object p1, p0, Lkik/arcane/widget/preferences/KikPreference;->a:Landroid/view/View;
 
     .line 147
-    iget v0, p0, Lkik/android/widget/preferences/KikPreference;->f:I
+    iget v0, p0, Lkik/arcane/widget/preferences/KikPreference;->f:I
 
-    invoke-static {p1, v0}, Lkik/android/widget/preferences/KikPreference;->a(Landroid/view/View;I)V
+    invoke-static {p1, v0}, Lkik/arcane/widget/preferences/KikPreference;->a(Landroid/view/View;I)V
 
     .line 149
     const v0, 0x7f10008e
@@ -357,12 +357,12 @@
     if-eqz v0, :cond_0
 
     .line 152
-    iget-object v1, p0, Lkik/android/widget/preferences/KikPreference;->d:Landroid/graphics/drawable/Drawable;
+    iget-object v1, p0, Lkik/arcane/widget/preferences/KikPreference;->d:Landroid/graphics/drawable/Drawable;
 
     if-eqz v1, :cond_1
 
     .line 153
-    iget-object v1, p0, Lkik/android/widget/preferences/KikPreference;->d:Landroid/graphics/drawable/Drawable;
+    iget-object v1, p0, Lkik/arcane/widget/preferences/KikPreference;->d:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
@@ -385,9 +385,9 @@
 
     .prologue
     .line 165
-    new-instance v0, Lkik/android/widget/preferences/KikPreference$3;
+    new-instance v0, Lkik/arcane/widget/preferences/KikPreference$3;
 
-    invoke-direct {v0, p0, p1}, Lkik/android/widget/preferences/KikPreference$3;-><init>(Lkik/android/widget/preferences/KikPreference;Landroid/preference/Preference$OnPreferenceClickListener;)V
+    invoke-direct {v0, p0, p1}, Lkik/arcane/widget/preferences/KikPreference$3;-><init>(Lkik/arcane/widget/preferences/KikPreference;Landroid/preference/Preference$OnPreferenceClickListener;)V
 
     invoke-super {p0, v0}, Landroid/preference/Preference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
 

@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/AnimatedImageView;
+.class public Lkik/arcane/widget/AnimatedImageView;
 .super Landroid/support/v7/widget/AppCompatImageView;
 .source "SourceFile"
 
@@ -17,7 +17,7 @@
     .line 27
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/AnimatedImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/AnimatedImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 28
     return-void
@@ -44,7 +44,7 @@
 
     move-result-object v0
 
-    sget-object v1, Lkik/android/R$styleable;->AnimatedImageView:[I
+    sget-object v1, Lkik/arcane/R$styleable;->AnimatedImageView:[I
 
     invoke-virtual {v0, p2, v1, p3, v2}, Landroid/content/res/Resources$Theme;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -53,18 +53,18 @@
     .line 35
     const/4 v1, 0x1
 
-    invoke-direct {p0, v0, v1}, Lkik/android/widget/AnimatedImageView;->a(Landroid/content/res/TypedArray;I)Landroid/animation/Animator;
+    invoke-direct {p0, v0, v1}, Lkik/arcane/widget/AnimatedImageView;->a(Landroid/content/res/TypedArray;I)Landroid/animation/Animator;
 
     move-result-object v1
 
-    iput-object v1, p0, Lkik/android/widget/AnimatedImageView;->a:Landroid/animation/Animator;
+    iput-object v1, p0, Lkik/arcane/widget/AnimatedImageView;->a:Landroid/animation/Animator;
 
     .line 36
-    invoke-direct {p0, v0, v2}, Lkik/android/widget/AnimatedImageView;->a(Landroid/content/res/TypedArray;I)Landroid/animation/Animator;
+    invoke-direct {p0, v0, v2}, Lkik/arcane/widget/AnimatedImageView;->a(Landroid/content/res/TypedArray;I)Landroid/animation/Animator;
 
     move-result-object v1
 
-    iput-object v1, p0, Lkik/android/widget/AnimatedImageView;->b:Landroid/animation/Animator;
+    iput-object v1, p0, Lkik/arcane/widget/AnimatedImageView;->b:Landroid/animation/Animator;
 
     .line 37
     invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
@@ -89,7 +89,7 @@
     if-eq v0, v1, :cond_0
 
     .line 68
-    invoke-virtual {p0}, Lkik/android/widget/AnimatedImageView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/AnimatedImageView;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -115,17 +115,17 @@
 
     .prologue
     .line 59
-    invoke-virtual {p0}, Lkik/android/widget/AnimatedImageView;->clearAnimation()V
+    invoke-virtual {p0}, Lkik/arcane/widget/AnimatedImageView;->clearAnimation()V
 
     .line 60
-    iget-object v0, p0, Lkik/android/widget/AnimatedImageView;->a:Landroid/animation/Animator;
+    iget-object v0, p0, Lkik/arcane/widget/AnimatedImageView;->a:Landroid/animation/Animator;
 
-    invoke-static {v0}, Lkik/android/widget/AnimatedImageView;->a(Landroid/animation/Animator;)V
+    invoke-static {v0}, Lkik/arcane/widget/AnimatedImageView;->a(Landroid/animation/Animator;)V
 
     .line 61
-    iget-object v0, p0, Lkik/android/widget/AnimatedImageView;->b:Landroid/animation/Animator;
+    iget-object v0, p0, Lkik/arcane/widget/AnimatedImageView;->b:Landroid/animation/Animator;
 
-    invoke-static {v0}, Lkik/android/widget/AnimatedImageView;->a(Landroid/animation/Animator;)V
+    invoke-static {v0}, Lkik/arcane/widget/AnimatedImageView;->a(Landroid/animation/Animator;)V
 
     .line 62
     return-void
@@ -184,23 +184,23 @@
 
     .line 46
     :pswitch_0
-    invoke-direct {p0}, Lkik/android/widget/AnimatedImageView;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/AnimatedImageView;->a()V
 
     .line 47
-    iget-object v0, p0, Lkik/android/widget/AnimatedImageView;->a:Landroid/animation/Animator;
+    iget-object v0, p0, Lkik/arcane/widget/AnimatedImageView;->a:Landroid/animation/Animator;
 
-    invoke-static {v0}, Lkik/android/widget/AnimatedImageView;->b(Landroid/animation/Animator;)V
+    invoke-static {v0}, Lkik/arcane/widget/AnimatedImageView;->b(Landroid/animation/Animator;)V
 
     goto :goto_0
 
     .line 50
     :pswitch_1
-    invoke-direct {p0}, Lkik/android/widget/AnimatedImageView;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/AnimatedImageView;->a()V
 
     .line 51
-    iget-object v0, p0, Lkik/android/widget/AnimatedImageView;->b:Landroid/animation/Animator;
+    iget-object v0, p0, Lkik/arcane/widget/AnimatedImageView;->b:Landroid/animation/Animator;
 
-    invoke-static {v0}, Lkik/android/widget/AnimatedImageView;->b(Landroid/animation/Animator;)V
+    invoke-static {v0}, Lkik/arcane/widget/AnimatedImageView;->b(Landroid/animation/Animator;)V
 
     goto :goto_0
 

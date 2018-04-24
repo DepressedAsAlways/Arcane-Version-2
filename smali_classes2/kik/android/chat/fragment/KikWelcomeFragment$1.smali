@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/KikWelcomeFragment$1;
+.class final Lkik/arcane/chat/fragment/KikWelcomeFragment$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/KikWelcomeFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    value = Lkik/arcane/chat/fragment/KikWelcomeFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikWelcomeFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikWelcomeFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikWelcomeFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikWelcomeFragment;)V
     .locals 0
 
     .prologue
     .line 85
-    iput-object p1, p0, Lkik/android/chat/fragment/KikWelcomeFragment$1;->a:Lkik/android/chat/fragment/KikWelcomeFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment$1;->a:Lkik/arcane/chat/fragment/KikWelcomeFragment;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -50,9 +50,9 @@
     invoke-super {p0, p1}, Lcom/kik/events/k;->a(Ljava/lang/Object;)V
 
     .line 90
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment$1;->a:Lkik/android/chat/fragment/KikWelcomeFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment$1;->a:Lkik/arcane/chat/fragment/KikWelcomeFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/KikWelcomeFragment;->h(Lkik/android/chat/fragment/KikWelcomeFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->h(Lkik/arcane/chat/fragment/KikWelcomeFragment;)V
 
     .line 91
     return-void

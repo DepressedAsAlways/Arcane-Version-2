@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/vm/cc$4;
+.class final Lkik/arcane/chat/vm/cc$4;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/cc;->a(Lkik/android/chat/vm/bg;)Lrx/d;
+    value = Lkik/arcane/chat/vm/cc;->a(Lkik/arcane/chat/vm/bg;)Lrx/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,18 +26,18 @@
 # instance fields
 .field final synthetic a:Lrx/subjects/PublishSubject;
 
-.field final synthetic b:Lkik/android/chat/vm/cc;
+.field final synthetic b:Lkik/arcane/chat/vm/cc;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/cc;Lrx/subjects/PublishSubject;)V
+.method constructor <init>(Lkik/arcane/chat/vm/cc;Lrx/subjects/PublishSubject;)V
     .locals 0
 
     .prologue
     .line 943
-    iput-object p1, p0, Lkik/android/chat/vm/cc$4;->b:Lkik/android/chat/vm/cc;
+    iput-object p1, p0, Lkik/arcane/chat/vm/cc$4;->b:Lkik/arcane/chat/vm/cc;
 
-    iput-object p2, p0, Lkik/android/chat/vm/cc$4;->a:Lrx/subjects/PublishSubject;
+    iput-object p2, p0, Lkik/arcane/chat/vm/cc$4;->a:Lrx/subjects/PublishSubject;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -54,11 +54,11 @@
     check-cast p1, Landroid/os/Bundle;
 
     .line 1947
-    iget-object v0, p0, Lkik/android/chat/vm/cc$4;->a:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cc$4;->a:Lrx/subjects/PublishSubject;
 
     new-instance v1, Ljava/util/HashSet;
 
-    invoke-static {p1}, Lkik/android/chat/fragment/KikPickUsersFragment;->b(Landroid/os/Bundle;)Ljava/util/List;
+    invoke-static {p1}, Lkik/arcane/chat/fragment/KikPickUsersFragment;->b(Landroid/os/Bundle;)Ljava/util/List;
 
     move-result-object v2
 
@@ -75,7 +75,7 @@
 
     .prologue
     .line 953
-    iget-object v0, p0, Lkik/android/chat/vm/cc$4;->a:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cc$4;->a:Lrx/subjects/PublishSubject;
 
     invoke-virtual {v0, p1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Throwable;)V
 

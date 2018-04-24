@@ -1,4 +1,4 @@
-.class public abstract Lkik/android/util/ae;
+.class public abstract Lkik/arcane/util/ae;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -20,7 +20,7 @@
 
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
 
-    iput-object v0, p0, Lkik/android/util/ae;->a:Landroid/os/Bundle;
+    iput-object v0, p0, Lkik/arcane/util/ae;->a:Landroid/os/Bundle;
 
     .line 2043
     const-class v0, Landroid/support/v4/app/Fragment;
@@ -50,13 +50,13 @@
 
     .line 38
     :cond_0
-    const-string v0, "kik.android.util.FragmentBundle.FragmentClass"
+    const-string v0, "kik.arcane.util.FragmentBundle.FragmentClass"
 
-    invoke-direct {p0}, Lkik/android/util/ae;->b()Ljava/lang/String;
+    invoke-direct {p0}, Lkik/arcane/util/ae;->b()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/util/ae;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/util/ae;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 39
     return-void
@@ -129,7 +129,7 @@
 
     .prologue
     .line 159
-    iget-object v0, p0, Lkik/android/util/ae;->a:Landroid/os/Bundle;
+    iget-object v0, p0, Lkik/arcane/util/ae;->a:Landroid/os/Bundle;
 
     return-object v0
 .end method
@@ -148,16 +148,16 @@
 
     .line 143
     :cond_0
-    iput-object p1, p0, Lkik/android/util/ae;->a:Landroid/os/Bundle;
+    iput-object p1, p0, Lkik/arcane/util/ae;->a:Landroid/os/Bundle;
 
     .line 144
-    const-string v0, "kik.android.util.FragmentBundle.FragmentClass"
+    const-string v0, "kik.arcane.util.FragmentBundle.FragmentClass"
 
-    invoke-direct {p0}, Lkik/android/util/ae;->b()Ljava/lang/String;
+    invoke-direct {p0}, Lkik/arcane/util/ae;->b()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/util/ae;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/util/ae;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 145
     return-void
@@ -168,7 +168,7 @@
 
     .prologue
     .line 80
-    iget-object v0, p0, Lkik/android/util/ae;->a:Landroid/os/Bundle;
+    iget-object v0, p0, Lkik/arcane/util/ae;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1, p2}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
@@ -181,7 +181,7 @@
 
     .prologue
     .line 110
-    iget-object v0, p0, Lkik/android/util/ae;->a:Landroid/os/Bundle;
+    iget-object v0, p0, Lkik/arcane/util/ae;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1, p2, p3}, Landroid/os/Bundle;->putLong(Ljava/lang/String;J)V
 
@@ -194,7 +194,7 @@
 
     .prologue
     .line 120
-    iget-object v0, p0, Lkik/android/util/ae;->a:Landroid/os/Bundle;
+    iget-object v0, p0, Lkik/arcane/util/ae;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1, p2}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
 
@@ -207,7 +207,7 @@
 
     .prologue
     .line 65
-    iget-object v0, p0, Lkik/android/util/ae;->a:Landroid/os/Bundle;
+    iget-object v0, p0, Lkik/arcane/util/ae;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1, p2}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -230,7 +230,7 @@
 
     .prologue
     .line 149
-    iget-object v0, p0, Lkik/android/util/ae;->a:Landroid/os/Bundle;
+    iget-object v0, p0, Lkik/arcane/util/ae;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1, p2}, Landroid/os/Bundle;->putStringArrayList(Ljava/lang/String;Ljava/util/ArrayList;)V
 
@@ -243,7 +243,7 @@
 
     .prologue
     .line 85
-    iget-object v0, p0, Lkik/android/util/ae;->a:Landroid/os/Bundle;
+    iget-object v0, p0, Lkik/arcane/util/ae;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1, p2}, Landroid/os/Bundle;->getInt(Ljava/lang/String;I)I
 
@@ -257,7 +257,7 @@
 
     .prologue
     .line 75
-    iget-object v0, p0, Lkik/android/util/ae;->a:Landroid/os/Bundle;
+    iget-object v0, p0, Lkik/arcane/util/ae;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1, p2}, Landroid/os/Bundle;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
@@ -271,7 +271,7 @@
 
     .prologue
     .line 50
-    iget-object v0, p0, Lkik/android/util/ae;->a:Landroid/os/Bundle;
+    iget-object v0, p0, Lkik/arcane/util/ae;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1, p2}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
@@ -284,7 +284,7 @@
 
     .prologue
     .line 60
-    iget-object v0, p0, Lkik/android/util/ae;->a:Landroid/os/Bundle;
+    iget-object v0, p0, Lkik/arcane/util/ae;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1, p2}, Landroid/os/Bundle;->getBoolean(Ljava/lang/String;Z)Z
 
@@ -302,7 +302,7 @@
 
     .prologue
     .line 55
-    iget-object v0, p0, Lkik/android/util/ae;->a:Landroid/os/Bundle;
+    iget-object v0, p0, Lkik/arcane/util/ae;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1}, Landroid/os/Bundle;->getBoolean(Ljava/lang/String;)Z
 
@@ -320,7 +320,7 @@
 
     .prologue
     .line 70
-    iget-object v0, p0, Lkik/android/util/ae;->a:Landroid/os/Bundle;
+    iget-object v0, p0, Lkik/arcane/util/ae;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
@@ -334,7 +334,7 @@
 
     .prologue
     .line 115
-    iget-object v0, p0, Lkik/android/util/ae;->a:Landroid/os/Bundle;
+    iget-object v0, p0, Lkik/arcane/util/ae;->a:Landroid/os/Bundle;
 
     const-wide/16 v2, -0x1
 
@@ -350,7 +350,7 @@
 
     .prologue
     .line 135
-    iget-object v0, p0, Lkik/android/util/ae;->a:Landroid/os/Bundle;
+    iget-object v0, p0, Lkik/arcane/util/ae;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
 
@@ -375,7 +375,7 @@
 
     .prologue
     .line 154
-    iget-object v0, p0, Lkik/android/util/ae;->a:Landroid/os/Bundle;
+    iget-object v0, p0, Lkik/arcane/util/ae;->a:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1}, Landroid/os/Bundle;->getStringArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
 

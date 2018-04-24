@@ -1,4 +1,4 @@
-.class final Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog$5;
+.class final Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog$5;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog;->f()Lkik/android/chat/fragment/KikDialogFragment;
+    value = Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog;->f()Lkik/arcane/chat/fragment/KikDialogFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog;
+.field final synthetic a:Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog;)V
+.method constructor <init>(Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog;)V
     .locals 0
 
     .prologue
     .line 147
-    iput-object p1, p0, Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog$5;->a:Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog;
+    iput-object p1, p0, Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog$5;->a:Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,13 +41,13 @@
 
     .prologue
     .line 151
-    iget-object v0, p0, Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog$5;->a:Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog;
+    iget-object v0, p0, Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog$5;->a:Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog;
 
-    iget-object v1, v0, Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog;->_findMeCheckBox:Landroid/widget/CheckBox;
+    iget-object v1, v0, Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog;->_findMeCheckBox:Landroid/widget/CheckBox;
 
-    iget-object v0, p0, Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog$5;->a:Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog;
+    iget-object v0, p0, Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog$5;->a:Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog;
 
-    iget-object v0, v0, Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog;->_findMeCheckBox:Landroid/widget/CheckBox;
+    iget-object v0, v0, Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog;->_findMeCheckBox:Landroid/widget/CheckBox;
 
     invoke-virtual {v0}, Landroid/widget/CheckBox;->isChecked()Z
 
@@ -61,9 +61,9 @@
     invoke-virtual {v1, v0}, Landroid/widget/CheckBox;->setChecked(Z)V
 
     .line 152
-    iget-object v0, p0, Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog$5;->a:Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog;
+    iget-object v0, p0, Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog$5;->a:Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog;
 
-    invoke-virtual {v0}, Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog;->g()V
+    invoke-virtual {v0}, Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog;->g()V
 
     .line 153
     return-void

@@ -1,5 +1,5 @@
-.class public final Lkik/android/net/http/d;
-.super Lkik/android/net/http/KikAuthedHttpRequest;
+.class public final Lkik/arcane/net/http/d;
+.super Lkik/arcane/net/http/KikAuthedHttpRequest;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
     .prologue
     .line 11
-    invoke-direct {p0, p1, p2}, Lkik/android/net/http/KikAuthedHttpRequest;-><init>(Ljava/lang/String;Lkik/core/z;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/net/http/KikAuthedHttpRequest;-><init>(Ljava/lang/String;Lkik/core/z;)V
 
     .line 12
     return-void

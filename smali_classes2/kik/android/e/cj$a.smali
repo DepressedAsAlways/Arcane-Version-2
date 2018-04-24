@@ -1,4 +1,4 @@
-.class public final Lkik/android/e/cj$a;
+.class public final Lkik/arcane/e/cj$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/e/cj;
+    value = Lkik/arcane/e/cj;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private a:Lkik/android/chat/vm/messaging/dr;
+.field private a:Lkik/arcane/chat/vm/messaging/dr;
 
 
 # direct methods
@@ -34,12 +34,12 @@
 
 
 # virtual methods
-.method public final a(Lkik/android/chat/vm/messaging/dr;)Lkik/android/e/cj$a;
+.method public final a(Lkik/arcane/chat/vm/messaging/dr;)Lkik/arcane/e/cj$a;
     .locals 0
 
     .prologue
     .line 291
-    iput-object p1, p0, Lkik/android/e/cj$a;->a:Lkik/android/chat/vm/messaging/dr;
+    iput-object p1, p0, Lkik/arcane/e/cj$a;->a:Lkik/arcane/chat/vm/messaging/dr;
 
     .line 292
     if-nez p1, :cond_0
@@ -58,13 +58,13 @@
     check-cast p1, Ljava/lang/Integer;
 
     .line 1296
-    iget-object v0, p0, Lkik/android/e/cj$a;->a:Lkik/android/chat/vm/messaging/dr;
+    iget-object v0, p0, Lkik/arcane/e/cj$a;->a:Lkik/arcane/chat/vm/messaging/dr;
 
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     move-result v1
 
-    invoke-interface {v0, v1}, Lkik/android/chat/vm/messaging/dr;->a(I)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/vm/messaging/dr;->a(I)V
 
     .line 288
     return-void

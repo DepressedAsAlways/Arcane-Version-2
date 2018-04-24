@@ -1,15 +1,15 @@
-.class public final Lkik/android/chat/vm/j;
-.super Lkik/android/chat/vm/b;
+.class public final Lkik/arcane/chat/vm/j;
+.super Lkik/arcane/chat/vm/b;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/bx;
+.implements Lkik/arcane/chat/vm/bx;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/vm/j$a;
+        Lkik/arcane/chat/vm/j$a;
     }
 .end annotation
 
@@ -40,7 +40,7 @@
 
     .prologue
     .line 82
-    invoke-direct {p0, p1}, Lkik/android/chat/vm/b;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lkik/arcane/chat/vm/b;-><init>(Ljava/lang/String;)V
 
     .line 83
     return-void
@@ -51,47 +51,47 @@
 
     .prologue
     .line 14
-    invoke-direct {p0, p1}, Lkik/android/chat/vm/j;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lkik/arcane/chat/vm/j;-><init>(Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/j;Ljava/util/Map;)Ljava/util/Map;
+.method static synthetic a(Lkik/arcane/chat/vm/j;Ljava/util/Map;)Ljava/util/Map;
     .locals 0
 
     .prologue
     .line 14
-    iput-object p1, p0, Lkik/android/chat/vm/j;->c:Ljava/util/Map;
+    iput-object p1, p0, Lkik/arcane/chat/vm/j;->c:Ljava/util/Map;
 
     return-object p1
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/j;Lkik/core/datatypes/Message;)Lkik/core/datatypes/Message;
+.method static synthetic a(Lkik/arcane/chat/vm/j;Lkik/core/datatypes/Message;)Lkik/core/datatypes/Message;
     .locals 0
 
     .prologue
     .line 14
-    iput-object p1, p0, Lkik/android/chat/vm/j;->b:Lkik/core/datatypes/Message;
+    iput-object p1, p0, Lkik/arcane/chat/vm/j;->b:Lkik/core/datatypes/Message;
 
     return-object p1
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/j;Lkik/core/datatypes/messageExtensions/ContentMessage;)Lkik/core/datatypes/messageExtensions/ContentMessage;
+.method static synthetic a(Lkik/arcane/chat/vm/j;Lkik/core/datatypes/messageExtensions/ContentMessage;)Lkik/core/datatypes/messageExtensions/ContentMessage;
     .locals 0
 
     .prologue
     .line 14
-    iput-object p1, p0, Lkik/android/chat/vm/j;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iput-object p1, p0, Lkik/arcane/chat/vm/j;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     return-object p1
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/j;Z)Z
+.method static synthetic a(Lkik/arcane/chat/vm/j;Z)Z
     .locals 0
 
     .prologue
     .line 14
-    iput-boolean p1, p0, Lkik/android/chat/vm/j;->d:Z
+    iput-boolean p1, p0, Lkik/arcane/chat/vm/j;->d:Z
 
     return p1
 .end method
@@ -103,7 +103,7 @@
 
     .prologue
     .line 88
-    iget-object v0, p0, Lkik/android/chat/vm/j;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/chat/vm/j;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     return-object v0
 .end method
@@ -113,7 +113,7 @@
 
     .prologue
     .line 94
-    iget-object v0, p0, Lkik/android/chat/vm/j;->b:Lkik/core/datatypes/Message;
+    iget-object v0, p0, Lkik/arcane/chat/vm/j;->b:Lkik/core/datatypes/Message;
 
     return-object v0
 .end method
@@ -133,7 +133,7 @@
 
     .prologue
     .line 100
-    iget-object v0, p0, Lkik/android/chat/vm/j;->c:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/chat/vm/j;->c:Ljava/util/Map;
 
     return-object v0
 .end method
@@ -143,7 +143,7 @@
 
     .prologue
     .line 106
-    iget-boolean v0, p0, Lkik/android/chat/vm/j;->d:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/vm/j;->d:Z
 
     return v0
 .end method

@@ -1,4 +1,4 @@
-.class public final Lkik/android/g/e;
+.class public final Lkik/arcane/g/e;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -9,7 +9,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/g/e$a;
+        Lkik/arcane/g/e$a;
     }
 .end annotation
 
@@ -21,7 +21,7 @@
 
 .field private c:Ljava/lang/String;
 
-.field private d:Lkik/android/g/h;
+.field private d:Lkik/arcane/g/h;
 
 .field private e:I
 
@@ -56,102 +56,102 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/g/e;I)I
+.method static synthetic a(Lkik/arcane/g/e;I)I
     .locals 0
 
     .prologue
     .line 11
-    iput p1, p0, Lkik/android/g/e;->b:I
+    iput p1, p0, Lkik/arcane/g/e;->b:I
 
     return p1
 .end method
 
-.method static synthetic a(Lkik/android/g/e;Ljava/lang/String;)Ljava/lang/String;
+.method static synthetic a(Lkik/arcane/g/e;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
     .prologue
     .line 11
-    iput-object p1, p0, Lkik/android/g/e;->a:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/g/e;->a:Ljava/lang/String;
 
     return-object p1
 .end method
 
-.method static synthetic a(Lkik/android/g/e;Ljava/net/URL;)Ljava/net/URL;
+.method static synthetic a(Lkik/arcane/g/e;Ljava/net/URL;)Ljava/net/URL;
     .locals 0
 
     .prologue
     .line 11
-    iput-object p1, p0, Lkik/android/g/e;->g:Ljava/net/URL;
+    iput-object p1, p0, Lkik/arcane/g/e;->g:Ljava/net/URL;
 
     return-object p1
 .end method
 
-.method static synthetic a(Lkik/android/g/e;Ljava/util/List;)Ljava/util/List;
+.method static synthetic a(Lkik/arcane/g/e;Ljava/util/List;)Ljava/util/List;
     .locals 0
 
     .prologue
     .line 11
-    iput-object p1, p0, Lkik/android/g/e;->j:Ljava/util/List;
+    iput-object p1, p0, Lkik/arcane/g/e;->j:Ljava/util/List;
 
     return-object p1
 .end method
 
-.method static synthetic a(Lkik/android/g/e;Lkik/android/g/h;)Lkik/android/g/h;
+.method static synthetic a(Lkik/arcane/g/e;Lkik/arcane/g/h;)Lkik/arcane/g/h;
     .locals 0
 
     .prologue
     .line 11
-    iput-object p1, p0, Lkik/android/g/e;->d:Lkik/android/g/h;
+    iput-object p1, p0, Lkik/arcane/g/e;->d:Lkik/arcane/g/h;
 
     return-object p1
 .end method
 
-.method static synthetic b(Lkik/android/g/e;I)I
+.method static synthetic b(Lkik/arcane/g/e;I)I
     .locals 0
 
     .prologue
     .line 11
-    iput p1, p0, Lkik/android/g/e;->e:I
+    iput p1, p0, Lkik/arcane/g/e;->e:I
 
     return p1
 .end method
 
-.method static synthetic b(Lkik/android/g/e;Ljava/lang/String;)Ljava/lang/String;
+.method static synthetic b(Lkik/arcane/g/e;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
     .prologue
     .line 11
-    iput-object p1, p0, Lkik/android/g/e;->c:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/g/e;->c:Ljava/lang/String;
 
     return-object p1
 .end method
 
-.method static synthetic b(Lkik/android/g/e;Ljava/net/URL;)Ljava/net/URL;
+.method static synthetic b(Lkik/arcane/g/e;Ljava/net/URL;)Ljava/net/URL;
     .locals 0
 
     .prologue
     .line 11
-    iput-object p1, p0, Lkik/android/g/e;->i:Ljava/net/URL;
+    iput-object p1, p0, Lkik/arcane/g/e;->i:Ljava/net/URL;
 
     return-object p1
 .end method
 
-.method static synthetic c(Lkik/android/g/e;I)I
+.method static synthetic c(Lkik/arcane/g/e;I)I
     .locals 0
 
     .prologue
     .line 11
-    iput p1, p0, Lkik/android/g/e;->f:I
+    iput p1, p0, Lkik/arcane/g/e;->f:I
 
     return p1
 .end method
 
-.method static synthetic d(Lkik/android/g/e;I)I
+.method static synthetic d(Lkik/arcane/g/e;I)I
     .locals 0
 
     .prologue
     .line 11
-    iput p1, p0, Lkik/android/g/e;->h:I
+    iput p1, p0, Lkik/arcane/g/e;->h:I
 
     return p1
 .end method
@@ -163,7 +163,7 @@
 
     .prologue
     .line 46
-    iget v0, p0, Lkik/android/g/e;->e:I
+    iget v0, p0, Lkik/arcane/g/e;->e:I
 
     return v0
 .end method
@@ -173,7 +173,7 @@
 
     .prologue
     .line 51
-    iget v0, p0, Lkik/android/g/e;->f:I
+    iget v0, p0, Lkik/arcane/g/e;->f:I
 
     return v0
 .end method
@@ -183,7 +183,7 @@
 
     .prologue
     .line 26
-    iget-object v0, p0, Lkik/android/g/e;->a:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/g/e;->a:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -193,7 +193,7 @@
 
     .prologue
     .line 31
-    iget v0, p0, Lkik/android/g/e;->b:I
+    iget v0, p0, Lkik/arcane/g/e;->b:I
 
     return v0
 .end method
@@ -203,7 +203,7 @@
 
     .prologue
     .line 56
-    iget v0, p0, Lkik/android/g/e;->h:I
+    iget v0, p0, Lkik/arcane/g/e;->h:I
 
     return v0
 .end method
@@ -213,7 +213,7 @@
 
     .prologue
     .line 36
-    iget-object v0, p0, Lkik/android/g/e;->c:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/g/e;->c:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -223,7 +223,7 @@
 
     .prologue
     .line 41
-    iget-object v0, p0, Lkik/android/g/e;->d:Lkik/android/g/h;
+    iget-object v0, p0, Lkik/arcane/g/e;->d:Lkik/arcane/g/h;
 
     return-object v0
 .end method
@@ -242,7 +242,7 @@
 
     .prologue
     .line 61
-    iget-object v0, p0, Lkik/android/g/e;->j:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/g/e;->j:Ljava/util/List;
 
     return-object v0
 .end method
@@ -252,7 +252,7 @@
 
     .prologue
     .line 66
-    iget-object v0, p0, Lkik/android/g/e;->i:Ljava/net/URL;
+    iget-object v0, p0, Lkik/arcane/g/e;->i:Ljava/net/URL;
 
     return-object v0
 .end method
@@ -262,7 +262,7 @@
 
     .prologue
     .line 71
-    iget-object v0, p0, Lkik/android/g/e;->g:Ljava/net/URL;
+    iget-object v0, p0, Lkik/arcane/g/e;->g:Ljava/net/URL;
 
     return-object v0
 .end method

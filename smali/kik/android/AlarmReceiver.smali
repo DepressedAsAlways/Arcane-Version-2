@@ -1,4 +1,4 @@
-.class public Lkik/android/AlarmReceiver;
+.class public Lkik/arcane/AlarmReceiver;
 .super Landroid/content/BroadcastReceiver;
 .source "SourceFile"
 
@@ -23,7 +23,7 @@
     .line 14
     new-instance v0, Landroid/content/Intent;
 
-    const-class v1, Lkik/android/chat/activity/IntroActivity;
+    const-class v1, Lkik/arcane/chat/activity/IntroActivity;
 
     invoke-direct {v0, p1, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 

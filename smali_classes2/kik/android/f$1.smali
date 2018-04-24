@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/f$1;
+.class final synthetic Lkik/arcane/f$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/f;
+    value = Lkik/arcane/f;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -34,10 +34,10 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/f$1;->b:[I
+    sput-object v0, Lkik/arcane/f$1;->b:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/f$1;->b:[I
+    sget-object v0, Lkik/arcane/f$1;->b:[I
 
     sget-object v1, Lcom/rounds/kik/utils/NetworkingUtils$NetworkState;->Disconnected:Lcom/rounds/kik/utils/NetworkingUtils$NetworkState;
 
@@ -53,7 +53,7 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/f$1;->b:[I
+    sget-object v0, Lkik/arcane/f$1;->b:[I
 
     sget-object v1, Lcom/rounds/kik/utils/NetworkingUtils$NetworkState;->Connected:Lcom/rounds/kik/utils/NetworkingUtils$NetworkState;
 
@@ -69,7 +69,7 @@
 
     :goto_1
     :try_start_2
-    sget-object v0, Lkik/android/f$1;->b:[I
+    sget-object v0, Lkik/arcane/f$1;->b:[I
 
     sget-object v1, Lcom/rounds/kik/utils/NetworkingUtils$NetworkState;->Connecting:Lcom/rounds/kik/utils/NetworkingUtils$NetworkState;
 
@@ -85,7 +85,7 @@
 
     :goto_2
     :try_start_3
-    sget-object v0, Lkik/android/f$1;->b:[I
+    sget-object v0, Lkik/arcane/f$1;->b:[I
 
     sget-object v1, Lcom/rounds/kik/utils/NetworkingUtils$NetworkState;->Available:Lcom/rounds/kik/utils/NetworkingUtils$NetworkState;
 
@@ -109,10 +109,10 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/f$1;->a:[I
+    sput-object v0, Lkik/arcane/f$1;->a:[I
 
     :try_start_4
-    sget-object v0, Lkik/android/f$1;->a:[I
+    sget-object v0, Lkik/arcane/f$1;->a:[I
 
     sget-object v1, Lcom/rounds/kik/utils/NetworkingUtils$NetworkType;->WIFI:Lcom/rounds/kik/utils/NetworkingUtils$NetworkType;
 
@@ -128,7 +128,7 @@
 
     :goto_4
     :try_start_5
-    sget-object v0, Lkik/android/f$1;->a:[I
+    sget-object v0, Lkik/arcane/f$1;->a:[I
 
     sget-object v1, Lcom/rounds/kik/utils/NetworkingUtils$NetworkType;->FOUR_G:Lcom/rounds/kik/utils/NetworkingUtils$NetworkType;
 
@@ -144,7 +144,7 @@
 
     :goto_5
     :try_start_6
-    sget-object v0, Lkik/android/f$1;->a:[I
+    sget-object v0, Lkik/arcane/f$1;->a:[I
 
     sget-object v1, Lcom/rounds/kik/utils/NetworkingUtils$NetworkType;->THREE_G:Lcom/rounds/kik/utils/NetworkingUtils$NetworkType;
 
@@ -160,7 +160,7 @@
 
     :goto_6
     :try_start_7
-    sget-object v0, Lkik/android/f$1;->a:[I
+    sget-object v0, Lkik/arcane/f$1;->a:[I
 
     sget-object v1, Lcom/rounds/kik/utils/NetworkingUtils$NetworkType;->TWO_G:Lcom/rounds/kik/utils/NetworkingUtils$NetworkType;
 
@@ -176,7 +176,7 @@
 
     :goto_7
     :try_start_8
-    sget-object v0, Lkik/android/f$1;->a:[I
+    sget-object v0, Lkik/arcane/f$1;->a:[I
 
     sget-object v1, Lcom/rounds/kik/utils/NetworkingUtils$NetworkType;->UNKNOWN:Lcom/rounds/kik/utils/NetworkingUtils$NetworkType;
 

@@ -1,4 +1,4 @@
-.class public final Lcom/kik/android/animation/a;
+.class public final Lcom/kik/arcane/animation/a;
 .super Landroid/view/animation/Animation;
 .source "SourceFile"
 
@@ -20,14 +20,14 @@
     invoke-direct {p0}, Landroid/view/animation/Animation;-><init>()V
 
     .line 17
-    iput-object p1, p0, Lcom/kik/android/animation/a;->a:Landroid/view/View;
+    iput-object p1, p0, Lcom/kik/arcane/animation/a;->a:Landroid/view/View;
 
     .line 20
-    iget-object v0, p0, Lcom/kik/android/animation/a;->a:Landroid/view/View;
+    iget-object v0, p0, Lcom/kik/arcane/animation/a;->a:Landroid/view/View;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/kik/android/animation/a;->a:Landroid/view/View;
+    iget-object v0, p0, Lcom/kik/arcane/animation/a;->a:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->getAnimation()Landroid/view/animation/Animation;
 
@@ -36,7 +36,7 @@
     if-eqz v0, :cond_0
 
     .line 21
-    iget-object v0, p0, Lcom/kik/android/animation/a;->a:Landroid/view/View;
+    iget-object v0, p0, Lcom/kik/arcane/animation/a;->a:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->getAnimation()Landroid/view/animation/Animation;
 
@@ -48,16 +48,16 @@
     :cond_0
     const/4 v0, -0x1
 
-    iput v0, p0, Lcom/kik/android/animation/a;->b:I
+    iput v0, p0, Lcom/kik/arcane/animation/a;->b:I
 
     .line 24
     new-instance v0, Landroid/graphics/drawable/ColorDrawable;
 
-    iget v1, p0, Lcom/kik/android/animation/a;->b:I
+    iget v1, p0, Lcom/kik/arcane/animation/a;->b:I
 
     invoke-direct {v0, v1}, Landroid/graphics/drawable/ColorDrawable;-><init>(I)V
 
-    iput-object v0, p0, Lcom/kik/android/animation/a;->c:Landroid/graphics/drawable/ColorDrawable;
+    iput-object v0, p0, Lcom/kik/arcane/animation/a;->c:Landroid/graphics/drawable/ColorDrawable;
 
     .line 25
     return-void
@@ -74,7 +74,7 @@
     const v2, 0x3f4ccccd    # 0.8f
 
     .line 37
-    iget-object v1, p0, Lcom/kik/android/animation/a;->a:Landroid/view/View;
+    iget-object v1, p0, Lcom/kik/arcane/animation/a;->a:Landroid/view/View;
 
     if-nez v1, :cond_0
 
@@ -107,26 +107,26 @@
 
     .line 49
     :cond_1
-    iget-object v1, p0, Lcom/kik/android/animation/a;->a:Landroid/view/View;
+    iget-object v1, p0, Lcom/kik/arcane/animation/a;->a:Landroid/view/View;
 
     invoke-virtual {v1}, Landroid/view/View;->getBackground()Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
-    iget-object v2, p0, Lcom/kik/android/animation/a;->c:Landroid/graphics/drawable/ColorDrawable;
+    iget-object v2, p0, Lcom/kik/arcane/animation/a;->c:Landroid/graphics/drawable/ColorDrawable;
 
     if-eq v1, v2, :cond_2
 
     .line 50
-    iget-object v1, p0, Lcom/kik/android/animation/a;->a:Landroid/view/View;
+    iget-object v1, p0, Lcom/kik/arcane/animation/a;->a:Landroid/view/View;
 
-    iget-object v2, p0, Lcom/kik/android/animation/a;->c:Landroid/graphics/drawable/ColorDrawable;
+    iget-object v2, p0, Lcom/kik/arcane/animation/a;->c:Landroid/graphics/drawable/ColorDrawable;
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 52
     :cond_2
-    iget-object v1, p0, Lcom/kik/android/animation/a;->a:Landroid/view/View;
+    iget-object v1, p0, Lcom/kik/arcane/animation/a;->a:Landroid/view/View;
 
     invoke-virtual {v1}, Landroid/view/View;->getBackground()Landroid/graphics/drawable/Drawable;
 
@@ -159,7 +159,7 @@
     .line 31
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/kik/android/animation/a;->a:Landroid/view/View;
+    iput-object v0, p0, Lcom/kik/arcane/animation/a;->a:Landroid/view/View;
 
     .line 32
     return-void

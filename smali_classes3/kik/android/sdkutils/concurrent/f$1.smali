@@ -1,4 +1,4 @@
-.class final Lkik/android/sdkutils/concurrent/f$1;
+.class final Lkik/arcane/sdkutils/concurrent/f$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/sdkutils/concurrent/f;->b()Lcom/kik/events/Promise;
+    value = Lkik/arcane/sdkutils/concurrent/f;->b()Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Lcom/kik/events/Promise;
 
-.field final synthetic b:Lkik/android/sdkutils/concurrent/f;
+.field final synthetic b:Lkik/arcane/sdkutils/concurrent/f;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/sdkutils/concurrent/f;Lcom/kik/events/Promise;)V
+.method constructor <init>(Lkik/arcane/sdkutils/concurrent/f;Lcom/kik/events/Promise;)V
     .locals 0
 
     .prologue
     .line 38
-    iput-object p1, p0, Lkik/android/sdkutils/concurrent/f$1;->b:Lkik/android/sdkutils/concurrent/f;
+    iput-object p1, p0, Lkik/arcane/sdkutils/concurrent/f$1;->b:Lkik/arcane/sdkutils/concurrent/f;
 
-    iput-object p2, p0, Lkik/android/sdkutils/concurrent/f$1;->a:Lcom/kik/events/Promise;
+    iput-object p2, p0, Lkik/arcane/sdkutils/concurrent/f$1;->a:Lcom/kik/events/Promise;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,15 +45,15 @@
 
     .prologue
     .line 42
-    iget-object v0, p0, Lkik/android/sdkutils/concurrent/f$1;->b:Lkik/android/sdkutils/concurrent/f;
+    iget-object v0, p0, Lkik/arcane/sdkutils/concurrent/f$1;->b:Lkik/arcane/sdkutils/concurrent/f;
 
-    invoke-virtual {v0}, Lkik/android/sdkutils/concurrent/f;->a()Lcom/kik/events/Promise;
+    invoke-virtual {v0}, Lkik/arcane/sdkutils/concurrent/f;->a()Lcom/kik/events/Promise;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/sdkutils/concurrent/f$1$1;
+    new-instance v1, Lkik/arcane/sdkutils/concurrent/f$1$1;
 
-    invoke-direct {v1, p0}, Lkik/android/sdkutils/concurrent/f$1$1;-><init>(Lkik/android/sdkutils/concurrent/f$1;)V
+    invoke-direct {v1, p0}, Lkik/arcane/sdkutils/concurrent/f$1$1;-><init>(Lkik/arcane/sdkutils/concurrent/f$1;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 

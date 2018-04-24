@@ -1,5 +1,5 @@
-.class public Lkik/android/widget/preferences/KikEmailPreference;
-.super Lkik/android/widget/preferences/KikPreference;
+.class public Lkik/arcane/widget/preferences/KikEmailPreference;
+.super Lkik/arcane/widget/preferences/KikPreference;
 .source "SourceFile"
 
 
@@ -25,10 +25,10 @@
     .line 31
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/preferences/KikPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/preferences/KikPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
 
     .line 32
-    invoke-direct {p0}, Lkik/android/widget/preferences/KikEmailPreference;->c()V
+    invoke-direct {p0}, Lkik/arcane/widget/preferences/KikEmailPreference;->c()V
 
     .line 33
     return-void
@@ -41,21 +41,21 @@
     .line 37
     sget-object v0, Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;->CHANGE_EMAIL:Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;
 
-    invoke-direct {p0, p1, p2, p3, v0}, Lkik/android/widget/preferences/KikPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
+    invoke-direct {p0, p1, p2, p3, v0}, Lkik/arcane/widget/preferences/KikPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
 
     .line 38
-    invoke-direct {p0}, Lkik/android/widget/preferences/KikEmailPreference;->c()V
+    invoke-direct {p0}, Lkik/arcane/widget/preferences/KikEmailPreference;->c()V
 
     .line 39
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/preferences/KikEmailPreference;)V
+.method static synthetic a(Lkik/arcane/widget/preferences/KikEmailPreference;)V
     .locals 2
 
     .prologue
     .line 52
-    invoke-virtual {p0}, Lkik/android/widget/preferences/KikEmailPreference;->b()Landroid/view/View;
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/KikEmailPreference;->b()Landroid/view/View;
 
     move-result-object v0
 
@@ -63,7 +63,7 @@
     if-eqz v0, :cond_0
 
     .line 54
-    invoke-static {p0}, Lkik/android/widget/preferences/c;->a(Lkik/android/widget/preferences/KikEmailPreference;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/widget/preferences/c;->a(Lkik/arcane/widget/preferences/KikEmailPreference;)Ljava/lang/Runnable;
 
     move-result-object v1
 
@@ -74,12 +74,12 @@
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/widget/preferences/KikEmailPreference;)V
+.method static synthetic b(Lkik/arcane/widget/preferences/KikEmailPreference;)V
     .locals 0
 
     .prologue
     .line 54
-    invoke-virtual {p0}, Lkik/android/widget/preferences/KikEmailPreference;->notifyChanged()V
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/KikEmailPreference;->notifyChanged()V
 
     return-void
 .end method
@@ -91,14 +91,14 @@
     .line 43
     const v0, 0x7f040137
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/preferences/KikEmailPreference;->setLayoutResource(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/preferences/KikEmailPreference;->setLayoutResource(I)V
 
     .line 44
     new-instance v0, Lcom/kik/events/d;
 
     invoke-direct {v0}, Lcom/kik/events/d;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/preferences/KikEmailPreference;->d:Lcom/kik/events/d;
+    iput-object v0, p0, Lkik/arcane/widget/preferences/KikEmailPreference;->d:Lcom/kik/events/d;
 
     .line 45
     return-void
@@ -111,18 +111,18 @@
 
     .prologue
     .line 50
-    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/widget/preferences/KikEmailPreference;)V
+    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/widget/preferences/KikEmailPreference;)V
 
     .line 51
-    iget-object v0, p0, Lkik/android/widget/preferences/KikEmailPreference;->d:Lcom/kik/events/d;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/KikEmailPreference;->d:Lcom/kik/events/d;
 
-    iget-object v1, p0, Lkik/android/widget/preferences/KikEmailPreference;->a:Lkik/core/interfaces/ag;
+    iget-object v1, p0, Lkik/arcane/widget/preferences/KikEmailPreference;->a:Lkik/core/interfaces/ag;
 
     invoke-interface {v1}, Lkik/core/interfaces/ag;->a()Lcom/kik/events/c;
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/widget/preferences/b;->a(Lkik/android/widget/preferences/KikEmailPreference;)Lcom/kik/events/e;
+    invoke-static {p0}, Lkik/arcane/widget/preferences/b;->a(Lkik/arcane/widget/preferences/KikEmailPreference;)Lcom/kik/events/e;
 
     move-result-object v2
 
@@ -137,10 +137,10 @@
 
     .prologue
     .line 69
-    invoke-super {p0, p1}, Lkik/android/widget/preferences/KikPreference;->onBindView(Landroid/view/View;)V
+    invoke-super {p0, p1}, Lkik/arcane/widget/preferences/KikPreference;->onBindView(Landroid/view/View;)V
 
     .line 70
-    iget-object v0, p0, Lkik/android/widget/preferences/KikEmailPreference;->a:Lkik/core/interfaces/ag;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/KikEmailPreference;->a:Lkik/core/interfaces/ag;
 
     invoke-interface {v0}, Lkik/core/interfaces/ag;->d()Lkik/core/datatypes/aa;
 
@@ -173,19 +173,19 @@
 
     .prologue
     .line 80
-    new-instance v0, Lkik/android/chat/fragment/settings/EditEmailFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/settings/EditEmailFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/settings/EditEmailFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/settings/EditEmailFragment$a;-><init>()V
 
-    invoke-virtual {p0}, Lkik/android/widget/preferences/KikEmailPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/KikEmailPreference;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/util/ae;Landroid/content/Context;)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-static {v0, v1}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/util/ae;Landroid/content/Context;)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
 
     .line 81
     const/4 v0, 0x0
@@ -198,10 +198,10 @@
 
     .prologue
     .line 62
-    invoke-super {p0}, Lkik/android/widget/preferences/KikPreference;->onPrepareForRemoval()V
+    invoke-super {p0}, Lkik/arcane/widget/preferences/KikPreference;->onPrepareForRemoval()V
 
     .line 63
-    iget-object v0, p0, Lkik/android/widget/preferences/KikEmailPreference;->d:Lcom/kik/events/d;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/KikEmailPreference;->d:Lcom/kik/events/d;
 
     invoke-virtual {v0}, Lcom/kik/events/d;->a()V
 

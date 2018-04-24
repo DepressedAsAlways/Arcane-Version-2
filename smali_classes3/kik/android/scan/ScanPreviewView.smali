@@ -1,5 +1,5 @@
-.class public Lkik/android/scan/ScanPreviewView;
-.super Lkik/android/widget/CameraPreviewView;
+.class public Lkik/arcane/scan/ScanPreviewView;
+.super Lkik/arcane/widget/CameraPreviewView;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
     .prologue
     .line 21
-    invoke-direct {p0, p1}, Lkik/android/widget/CameraPreviewView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lkik/arcane/widget/CameraPreviewView;-><init>(Landroid/content/Context;)V
 
     .line 22
     return-void
@@ -20,7 +20,7 @@
 
     .prologue
     .line 26
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/CameraPreviewView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/CameraPreviewView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 27
     return-void
@@ -31,7 +31,7 @@
 
     .prologue
     .line 16
-    invoke-direct {p0, p1, p2, p3}, Lkik/android/widget/CameraPreviewView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lkik/arcane/widget/CameraPreviewView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 17
     return-void
@@ -54,26 +54,26 @@
     move-result v0
 
     .line 34
-    invoke-virtual {p0}, Lkik/android/scan/ScanPreviewView;->a()I
+    invoke-virtual {p0}, Lkik/arcane/scan/ScanPreviewView;->a()I
 
     move-result v2
 
     if-ltz v2, :cond_1
 
-    invoke-virtual {p0}, Lkik/android/scan/ScanPreviewView;->b()I
+    invoke-virtual {p0}, Lkik/arcane/scan/ScanPreviewView;->b()I
 
     move-result v2
 
     if-ltz v2, :cond_1
 
     .line 35
-    invoke-virtual {p0}, Lkik/android/scan/ScanPreviewView;->a()I
+    invoke-virtual {p0}, Lkik/arcane/scan/ScanPreviewView;->a()I
 
     move-result v2
 
     int-to-float v2, v2
 
-    invoke-virtual {p0}, Lkik/android/scan/ScanPreviewView;->b()I
+    invoke-virtual {p0}, Lkik/arcane/scan/ScanPreviewView;->b()I
 
     move-result v3
 
@@ -108,7 +108,7 @@
 
     .line 43
     :goto_0
-    invoke-virtual {p0, v1, v0}, Lkik/android/scan/ScanPreviewView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v1, v0}, Lkik/arcane/scan/ScanPreviewView;->setMeasuredDimension(II)V
 
     .line 48
     :goto_1
@@ -132,7 +132,7 @@
 
     .line 46
     :cond_1
-    invoke-super {p0, p1, p2}, Lkik/android/widget/CameraPreviewView;->onMeasure(II)V
+    invoke-super {p0, p1, p2}, Lkik/arcane/widget/CameraPreviewView;->onMeasure(II)V
 
     goto :goto_1
 .end method

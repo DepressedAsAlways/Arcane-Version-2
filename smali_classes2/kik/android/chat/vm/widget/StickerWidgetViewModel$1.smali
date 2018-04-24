@@ -1,14 +1,14 @@
-.class final Lkik/android/chat/vm/widget/StickerWidgetViewModel$1;
+.class final Lkik/arcane/chat/vm/widget/StickerWidgetViewModel$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/widget/bl;
+.implements Lkik/arcane/widget/bl;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/widget/StickerWidgetViewModel;
+    value = Lkik/arcane/chat/vm/widget/StickerWidgetViewModel;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/widget/StickerWidgetViewModel;
+.field final synthetic a:Lkik/arcane/chat/vm/widget/StickerWidgetViewModel;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/widget/StickerWidgetViewModel;)V
+.method constructor <init>(Lkik/arcane/chat/vm/widget/StickerWidgetViewModel;)V
     .locals 0
 
     .prologue
     .line 57
-    iput-object p1, p0, Lkik/android/chat/vm/widget/StickerWidgetViewModel$1;->a:Lkik/android/chat/vm/widget/StickerWidgetViewModel;
+    iput-object p1, p0, Lkik/arcane/chat/vm/widget/StickerWidgetViewModel$1;->a:Lkik/arcane/chat/vm/widget/StickerWidgetViewModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,9 +41,9 @@
 
     .prologue
     .line 61
-    iget-object v0, p0, Lkik/android/chat/vm/widget/StickerWidgetViewModel$1;->a:Lkik/android/chat/vm/widget/StickerWidgetViewModel;
+    iget-object v0, p0, Lkik/arcane/chat/vm/widget/StickerWidgetViewModel$1;->a:Lkik/arcane/chat/vm/widget/StickerWidgetViewModel;
 
-    invoke-static {v0}, Lkik/android/chat/vm/widget/StickerWidgetViewModel;->e(Lkik/android/chat/vm/widget/StickerWidgetViewModel;)J
+    invoke-static {v0}, Lkik/arcane/chat/vm/widget/StickerWidgetViewModel;->e(Lkik/arcane/chat/vm/widget/StickerWidgetViewModel;)J
 
     move-result-wide v0
 
@@ -55,9 +55,9 @@
 
     .prologue
     .line 67
-    iget-object v0, p0, Lkik/android/chat/vm/widget/StickerWidgetViewModel$1;->a:Lkik/android/chat/vm/widget/StickerWidgetViewModel;
+    iget-object v0, p0, Lkik/arcane/chat/vm/widget/StickerWidgetViewModel$1;->a:Lkik/arcane/chat/vm/widget/StickerWidgetViewModel;
 
-    invoke-static {v0, p1, p2}, Lkik/android/chat/vm/widget/StickerWidgetViewModel;->a(Lkik/android/chat/vm/widget/StickerWidgetViewModel;J)J
+    invoke-static {v0, p1, p2}, Lkik/arcane/chat/vm/widget/StickerWidgetViewModel;->a(Lkik/arcane/chat/vm/widget/StickerWidgetViewModel;J)J
 
     .line 68
     return-void

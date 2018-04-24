@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lcom/kik/android/Mixpanel;",
+        "Lcom/kik/arcane/Mixpanel;",
         ">;"
     }
 .end annotation
@@ -311,7 +311,7 @@
             ">;)",
             "Ldagger/internal/b",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -404,7 +404,7 @@
     check-cast v6, Lcom/kik/performance/metrics/c;
 
     .line 1061
-    invoke-virtual/range {v0 .. v6}, Lcom/kik/modules/ch;->a(Lkik/core/e/d;Lkik/core/interfaces/ICommunication;Lkik/core/interfaces/ad;Lkik/core/interfaces/ag;Lkik/core/interfaces/r;Lcom/kik/performance/metrics/c;)Lcom/kik/android/Mixpanel;
+    invoke-virtual/range {v0 .. v6}, Lcom/kik/modules/ch;->a(Lkik/core/e/d;Lkik/core/interfaces/ICommunication;Lkik/core/interfaces/ad;Lkik/core/interfaces/ag;Lkik/core/interfaces/r;Lcom/kik/performance/metrics/c;)Lcom/kik/arcane/Mixpanel;
 
     move-result-object v0
 
@@ -415,7 +415,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/Mixpanel;
+    check-cast v0, Lcom/kik/arcane/Mixpanel;
 
     .line 15
     return-object v0

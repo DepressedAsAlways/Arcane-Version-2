@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/activity/KActivityLauncher$2;
+.class final Lkik/arcane/chat/activity/KActivityLauncher$2;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/activity/KActivityLauncher;->a(Landroid/content/Intent;Landroid/content/Context;)Lcom/kik/events/Promise;
+    value = Lkik/arcane/chat/activity/KActivityLauncher;->a(Landroid/content/Intent;Landroid/content/Context;)Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -37,11 +37,11 @@
 
     .prologue
     .line 328
-    iput-object p1, p0, Lkik/android/chat/activity/KActivityLauncher$2;->a:Landroid/content/Context;
+    iput-object p1, p0, Lkik/arcane/chat/activity/KActivityLauncher$2;->a:Landroid/content/Context;
 
-    iput-object p2, p0, Lkik/android/chat/activity/KActivityLauncher$2;->b:Landroid/content/Intent;
+    iput-object p2, p0, Lkik/arcane/chat/activity/KActivityLauncher$2;->b:Landroid/content/Intent;
 
-    iput-object p3, p0, Lkik/android/chat/activity/KActivityLauncher$2;->c:Lcom/kik/events/Promise;
+    iput-object p3, p0, Lkik/arcane/chat/activity/KActivityLauncher$2;->c:Lcom/kik/events/Promise;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -65,9 +65,9 @@
     if-eqz v0, :cond_0
 
     .line 1333
-    iget-object v0, p0, Lkik/android/chat/activity/KActivityLauncher$2;->a:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$2;->a:Landroid/content/Context;
 
-    iget-object v1, p0, Lkik/android/chat/activity/KActivityLauncher$2;->b:Landroid/content/Intent;
+    iget-object v1, p0, Lkik/arcane/chat/activity/KActivityLauncher$2;->b:Landroid/content/Intent;
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
@@ -76,7 +76,7 @@
 
     .line 1336
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/activity/KActivityLauncher$2;->c:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$2;->c:Lcom/kik/events/Promise;
 
     invoke-virtual {v0}, Lcom/kik/events/Promise;->f()V
 

@@ -1,4 +1,4 @@
-.class final Lkik/android/KikNotificationHandler$6;
+.class final Lkik/arcane/KikNotificationHandler$6;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/KikNotificationHandler;
+    value = Lkik/arcane/KikNotificationHandler;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/KikNotificationHandler;
+.field final synthetic a:Lkik/arcane/KikNotificationHandler;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/KikNotificationHandler;)V
+.method constructor <init>(Lkik/arcane/KikNotificationHandler;)V
     .locals 0
 
     .prologue
     .line 220
-    iput-object p1, p0, Lkik/android/KikNotificationHandler$6;->a:Lkik/android/KikNotificationHandler;
+    iput-object p1, p0, Lkik/arcane/KikNotificationHandler$6;->a:Lkik/arcane/KikNotificationHandler;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,9 +52,9 @@
     .prologue
     .line 220
     .line 1224
-    iget-object v0, p0, Lkik/android/KikNotificationHandler$6;->a:Lkik/android/KikNotificationHandler;
+    iget-object v0, p0, Lkik/arcane/KikNotificationHandler$6;->a:Lkik/arcane/KikNotificationHandler;
 
-    invoke-static {v0}, Lkik/android/KikNotificationHandler;->d(Lkik/android/KikNotificationHandler;)Ljava/lang/Object;
+    invoke-static {v0}, Lkik/arcane/KikNotificationHandler;->d(Lkik/arcane/KikNotificationHandler;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -62,9 +62,9 @@
 
     .line 1225
     :try_start_0
-    iget-object v0, p0, Lkik/android/KikNotificationHandler$6;->a:Lkik/android/KikNotificationHandler;
+    iget-object v0, p0, Lkik/arcane/KikNotificationHandler$6;->a:Lkik/arcane/KikNotificationHandler;
 
-    invoke-static {v0}, Lkik/android/KikNotificationHandler;->c(Lkik/android/KikNotificationHandler;)Lcom/kik/events/Promise;
+    invoke-static {v0}, Lkik/arcane/KikNotificationHandler;->c(Lkik/arcane/KikNotificationHandler;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
@@ -76,16 +76,16 @@
     invoke-direct {v0}, Lcom/kik/events/Promise;-><init>()V
 
     .line 1227
-    new-instance v2, Lkik/android/KikNotificationHandler$6$1;
+    new-instance v2, Lkik/arcane/KikNotificationHandler$6$1;
 
-    invoke-direct {v2, p0}, Lkik/android/KikNotificationHandler$6$1;-><init>(Lkik/android/KikNotificationHandler$6;)V
+    invoke-direct {v2, p0}, Lkik/arcane/KikNotificationHandler$6$1;-><init>(Lkik/arcane/KikNotificationHandler$6;)V
 
     invoke-virtual {v0, v2}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
     .line 1237
-    iget-object v2, p0, Lkik/android/KikNotificationHandler$6;->a:Lkik/android/KikNotificationHandler;
+    iget-object v2, p0, Lkik/arcane/KikNotificationHandler$6;->a:Lkik/arcane/KikNotificationHandler;
 
-    invoke-static {v2, v0}, Lkik/android/KikNotificationHandler;->a(Lkik/android/KikNotificationHandler;Lcom/kik/events/Promise;)Lcom/kik/events/Promise;
+    invoke-static {v2, v0}, Lkik/arcane/KikNotificationHandler;->a(Lkik/arcane/KikNotificationHandler;Lcom/kik/events/Promise;)Lcom/kik/events/Promise;
 
     .line 1239
     :cond_0

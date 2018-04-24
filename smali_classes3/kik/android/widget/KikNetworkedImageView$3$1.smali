@@ -1,4 +1,4 @@
-.class final Lkik/android/widget/KikNetworkedImageView$3$1;
+.class final Lkik/arcane/widget/KikNetworkedImageView$3$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/KikNetworkedImageView$3;->a(Lcom/kik/cache/KikVolleyImageLoader$c;Z)V
+    value = Lkik/arcane/widget/KikNetworkedImageView$3;->a(Lcom/kik/cache/KikVolleyImageLoader$c;Z)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Lcom/kik/cache/KikVolleyImageLoader$c;
 
-.field final synthetic b:Lkik/android/widget/KikNetworkedImageView$3;
+.field final synthetic b:Lkik/arcane/widget/KikNetworkedImageView$3;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/KikNetworkedImageView$3;Lcom/kik/cache/KikVolleyImageLoader$c;)V
+.method constructor <init>(Lkik/arcane/widget/KikNetworkedImageView$3;Lcom/kik/cache/KikVolleyImageLoader$c;)V
     .locals 0
 
     .prologue
     .line 223
-    iput-object p1, p0, Lkik/android/widget/KikNetworkedImageView$3$1;->b:Lkik/android/widget/KikNetworkedImageView$3;
+    iput-object p1, p0, Lkik/arcane/widget/KikNetworkedImageView$3$1;->b:Lkik/arcane/widget/KikNetworkedImageView$3;
 
-    iput-object p2, p0, Lkik/android/widget/KikNetworkedImageView$3$1;->a:Lcom/kik/cache/KikVolleyImageLoader$c;
+    iput-object p2, p0, Lkik/arcane/widget/KikNetworkedImageView$3$1;->a:Lcom/kik/cache/KikVolleyImageLoader$c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,15 +45,15 @@
 
     .prologue
     .line 227
-    iget-object v0, p0, Lkik/android/widget/KikNetworkedImageView$3$1;->b:Lkik/android/widget/KikNetworkedImageView$3;
+    iget-object v0, p0, Lkik/arcane/widget/KikNetworkedImageView$3$1;->b:Lkik/arcane/widget/KikNetworkedImageView$3;
 
-    iget-object v0, v0, Lkik/android/widget/KikNetworkedImageView$3;->b:Lkik/android/widget/KikNetworkedImageView;
+    iget-object v0, v0, Lkik/arcane/widget/KikNetworkedImageView$3;->b:Lkik/arcane/widget/KikNetworkedImageView;
 
-    iget-object v1, p0, Lkik/android/widget/KikNetworkedImageView$3$1;->a:Lcom/kik/cache/KikVolleyImageLoader$c;
+    iget-object v1, p0, Lkik/arcane/widget/KikNetworkedImageView$3$1;->a:Lcom/kik/cache/KikVolleyImageLoader$c;
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v1, v2}, Lkik/android/widget/KikNetworkedImageView;->a(Lcom/kik/cache/KikVolleyImageLoader$c;Z)V
+    invoke-virtual {v0, v1, v2}, Lkik/arcane/widget/KikNetworkedImageView;->a(Lcom/kik/cache/KikVolleyImageLoader$c;Z)V
 
     .line 228
     return-void

@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/KikGroupMembersListFragment$9$1;
+.class final Lkik/arcane/chat/fragment/KikGroupMembersListFragment$9$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikGroupMembersListFragment$9;
+    value = Lkik/arcane/chat/fragment/KikGroupMembersListFragment$9;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikGroupMembersListFragment$9;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment$9;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikGroupMembersListFragment$9;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikGroupMembersListFragment$9;)V
     .locals 0
 
     .prologue
     .line 712
-    iput-object p1, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$9$1;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment$9;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$9$1;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment$9;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,11 +41,11 @@
 
     .prologue
     .line 716
-    iget-object v0, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$9$1;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment$9;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$9$1;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment$9;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/KikGroupMembersListFragment$9;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$9;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->d(Lkik/android/chat/fragment/KikGroupMembersListFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->d(Lkik/arcane/chat/fragment/KikGroupMembersListFragment;)V
 
     .line 717
     return-void

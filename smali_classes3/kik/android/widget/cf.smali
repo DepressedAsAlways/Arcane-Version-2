@@ -1,4 +1,4 @@
-.class public final Lkik/android/widget/cf;
+.class public final Lkik/arcane/widget/cf;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -21,14 +21,14 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 17
-    iput-object p1, p0, Lkik/android/widget/cf;->a:Ljava/io/File;
+    iput-object p1, p0, Lkik/arcane/widget/cf;->a:Ljava/io/File;
 
     .line 18
     new-instance v0, Landroid/media/MediaScannerConnection;
 
     invoke-direct {v0, p2, p0}, Landroid/media/MediaScannerConnection;-><init>(Landroid/content/Context;Landroid/media/MediaScannerConnection$MediaScannerConnectionClient;)V
 
-    iput-object v0, p0, Lkik/android/widget/cf;->b:Landroid/media/MediaScannerConnection;
+    iput-object v0, p0, Lkik/arcane/widget/cf;->b:Landroid/media/MediaScannerConnection;
 
     .line 19
     return-void
@@ -54,12 +54,12 @@
 
     .line 31
     :cond_1
-    new-instance v0, Lkik/android/widget/cf;
+    new-instance v0, Lkik/arcane/widget/cf;
 
-    invoke-direct {v0, p1, p0}, Lkik/android/widget/cf;-><init>(Ljava/io/File;Landroid/content/Context;)V
+    invoke-direct {v0, p1, p0}, Lkik/arcane/widget/cf;-><init>(Ljava/io/File;Landroid/content/Context;)V
 
     .line 1023
-    iget-object v0, v0, Lkik/android/widget/cf;->b:Landroid/media/MediaScannerConnection;
+    iget-object v0, v0, Lkik/arcane/widget/cf;->b:Landroid/media/MediaScannerConnection;
 
     invoke-virtual {v0}, Landroid/media/MediaScannerConnection;->connect()V
 
@@ -73,9 +73,9 @@
 
     .prologue
     .line 38
-    iget-object v0, p0, Lkik/android/widget/cf;->b:Landroid/media/MediaScannerConnection;
+    iget-object v0, p0, Lkik/arcane/widget/cf;->b:Landroid/media/MediaScannerConnection;
 
-    iget-object v1, p0, Lkik/android/widget/cf;->a:Ljava/io/File;
+    iget-object v1, p0, Lkik/arcane/widget/cf;->a:Ljava/io/File;
 
     invoke-virtual {v1}, Ljava/io/File;->getPath()Ljava/lang/String;
 
@@ -94,14 +94,14 @@
 
     .prologue
     .line 44
-    iget-object v0, p0, Lkik/android/widget/cf;->b:Landroid/media/MediaScannerConnection;
+    iget-object v0, p0, Lkik/arcane/widget/cf;->b:Landroid/media/MediaScannerConnection;
 
     invoke-virtual {v0}, Landroid/media/MediaScannerConnection;->disconnect()V
 
     .line 45
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/widget/cf;->b:Landroid/media/MediaScannerConnection;
+    iput-object v0, p0, Lkik/arcane/widget/cf;->b:Landroid/media/MediaScannerConnection;
 
     .line 46
     return-void

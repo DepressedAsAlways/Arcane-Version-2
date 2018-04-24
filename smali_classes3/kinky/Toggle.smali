@@ -1,10 +1,10 @@
 .class public Lkinky/Toggle;
-.super Lkik/android/widget/preferences/KikSwitchPreference;
+.super Lkik/arcane/widget/preferences/KikSwitchPreference;
 .source "SourceFile"
 
 
 # instance fields
-.field private c:Lkik/android/chat/b/a;
+.field private c:Lkik/arcane/chat/b/a;
 
 
 # direct methods
@@ -28,7 +28,7 @@
     .line 25
     sget-object v0, Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;->ENTER_KEY_SEND:Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;
 
-    invoke-direct {p0, p1, p2, p3, v0}, Lkik/android/widget/preferences/KikSwitchPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
+    invoke-direct {p0, p1, p2, p3, v0}, Lkik/arcane/widget/preferences/KikSwitchPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
 
     .line 26
     return-void
@@ -36,12 +36,12 @@
 
 
 # virtual methods
-.method public final a(Lkik/android/chat/b/a;)V
+.method public final a(Lkik/arcane/chat/b/a;)V
     .locals 0
 
     .prologue
     .line 30
-    iput-object p1, p0, Lkinky/Toggle;->c:Lkik/android/chat/b/a;
+    iput-object p1, p0, Lkinky/Toggle;->c:Lkik/arcane/chat/b/a;
 
     .line 31
     return-void
@@ -56,12 +56,12 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkinky/Toggle;->c:Lkik/android/chat/b/a;
+    iget-object v0, p0, Lkinky/Toggle;->c:Lkik/arcane/chat/b/a;
 
     if-eqz v0, :cond_0
 
     .line 37
-    iget-object v0, p0, Lkinky/Toggle;->c:Lkik/android/chat/b/a;
+    iget-object v0, p0, Lkinky/Toggle;->c:Lkik/arcane/chat/b/a;
 
     check-cast p2, Ljava/lang/Boolean;
 
@@ -69,7 +69,7 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/b/a;->a(Z)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/b/a;->a(Z)V
 
     .line 39
     :cond_0

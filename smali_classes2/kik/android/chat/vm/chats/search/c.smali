@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/chats/search/c;
+.class final synthetic Lkik/arcane/chat/vm/chats/search/c;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,7 +6,7 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;
+.field private final a:Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;
 
 .field private final b:Ljava/util/Set;
 
@@ -16,28 +16,28 @@
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;Ljava/util/Set;Ljava/lang/String;Z)V
+.method private constructor <init>(Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;Ljava/util/Set;Ljava/lang/String;Z)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/vm/chats/search/c;->a:Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;
+    iput-object p1, p0, Lkik/arcane/chat/vm/chats/search/c;->a:Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;
 
-    iput-object p2, p0, Lkik/android/chat/vm/chats/search/c;->b:Ljava/util/Set;
+    iput-object p2, p0, Lkik/arcane/chat/vm/chats/search/c;->b:Ljava/util/Set;
 
-    iput-object p3, p0, Lkik/android/chat/vm/chats/search/c;->c:Ljava/lang/String;
+    iput-object p3, p0, Lkik/arcane/chat/vm/chats/search/c;->c:Ljava/lang/String;
 
-    iput-boolean p4, p0, Lkik/android/chat/vm/chats/search/c;->d:Z
+    iput-boolean p4, p0, Lkik/arcane/chat/vm/chats/search/c;->d:Z
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;Ljava/util/Set;Ljava/lang/String;Z)Lcom/google/common/base/Predicate;
+.method public static a(Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;Ljava/util/Set;Ljava/lang/String;Z)Lcom/google/common/base/Predicate;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/chats/search/c;
+    new-instance v0, Lkik/arcane/chat/vm/chats/search/c;
 
-    invoke-direct {v0, p0, p1, p2, p3}, Lkik/android/chat/vm/chats/search/c;-><init>(Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;Ljava/util/Set;Ljava/lang/String;Z)V
+    invoke-direct {v0, p0, p1, p2, p3}, Lkik/arcane/chat/vm/chats/search/c;-><init>(Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;Ljava/util/Set;Ljava/lang/String;Z)V
 
     return-object v0
 .end method
@@ -47,17 +47,17 @@
 .method public final apply(Ljava/lang/Object;)Z
     .locals 4
 
-    iget-object v0, p0, Lkik/android/chat/vm/chats/search/c;->a:Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/search/c;->a:Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;
 
-    iget-object v1, p0, Lkik/android/chat/vm/chats/search/c;->b:Ljava/util/Set;
+    iget-object v1, p0, Lkik/arcane/chat/vm/chats/search/c;->b:Ljava/util/Set;
 
-    iget-object v2, p0, Lkik/android/chat/vm/chats/search/c;->c:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/vm/chats/search/c;->c:Ljava/lang/String;
 
-    iget-boolean v3, p0, Lkik/android/chat/vm/chats/search/c;->d:Z
+    iget-boolean v3, p0, Lkik/arcane/chat/vm/chats/search/c;->d:Z
 
     check-cast p1, Lkik/core/datatypes/f;
 
-    invoke-static {v0, v1, v2, v3, p1}, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;->a(Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;Ljava/util/Set;Ljava/lang/String;ZLkik/core/datatypes/f;)Z
+    invoke-static {v0, v1, v2, v3, p1}, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;->a(Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;Ljava/util/Set;Ljava/lang/String;ZLkik/core/datatypes/f;)Z
 
     move-result v0
 

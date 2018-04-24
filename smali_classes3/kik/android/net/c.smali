@@ -1,4 +1,4 @@
-.class public final Lkik/android/net/c;
+.class public final Lkik/arcane/net/c;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -28,11 +28,11 @@
 
     .prologue
     .line 64
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v0
 
-    sput-boolean v0, Lkik/android/net/c;->a:Z
+    sput-boolean v0, Lkik/arcane/net/c;->a:Z
 
     .line 65
     const-string v0, "RedirectingNetwork"
@@ -41,17 +41,17 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/net/c;->d:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/net/c;->d:Lorg/slf4j/b;
 
     .line 67
     const/16 v0, 0xbb8
 
-    sput v0, Lkik/android/net/c;->e:I
+    sput v0, Lkik/arcane/net/c;->e:I
 
     .line 69
     const/16 v0, 0x1000
 
-    sput v0, Lkik/android/net/c;->f:I
+    sput v0, Lkik/arcane/net/c;->f:I
 
     return-void
 .end method
@@ -63,11 +63,11 @@
     .line 82
     new-instance v0, Lcom/android/volley/toolbox/b;
 
-    sget v1, Lkik/android/net/c;->f:I
+    sget v1, Lkik/arcane/net/c;->f:I
 
     invoke-direct {v0, v1}, Lcom/android/volley/toolbox/b;-><init>(I)V
 
-    invoke-direct {p0, p1, v0}, Lkik/android/net/c;-><init>(Lcom/android/volley/toolbox/e;Lcom/android/volley/toolbox/b;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/net/c;-><init>(Lcom/android/volley/toolbox/e;Lcom/android/volley/toolbox/b;)V
 
     .line 83
     return-void
@@ -81,10 +81,10 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 91
-    iput-object p1, p0, Lkik/android/net/c;->b:Lcom/android/volley/toolbox/e;
+    iput-object p1, p0, Lkik/arcane/net/c;->b:Lcom/android/volley/toolbox/e;
 
     .line 92
-    iput-object p2, p0, Lkik/android/net/c;->c:Lcom/android/volley/toolbox/b;
+    iput-object p2, p0, Lkik/arcane/net/c;->c:Lcom/android/volley/toolbox/b;
 
     .line 93
     return-void
@@ -250,7 +250,7 @@
     .line 263
     new-instance v2, Lcom/android/volley/toolbox/g;
 
-    iget-object v0, p0, Lkik/android/net/c;->c:Lcom/android/volley/toolbox/b;
+    iget-object v0, p0, Lkik/arcane/net/c;->c:Lcom/android/volley/toolbox/b;
 
     invoke-interface {p1}, Lorg/apache/http/HttpEntity;->getContentLength()J
 
@@ -293,7 +293,7 @@
 
     .line 287
     :goto_0
-    iget-object v3, p0, Lkik/android/net/c;->c:Lcom/android/volley/toolbox/b;
+    iget-object v3, p0, Lkik/arcane/net/c;->c:Lcom/android/volley/toolbox/b;
 
     invoke-virtual {v3, v1}, Lcom/android/volley/toolbox/b;->a([B)V
 
@@ -306,7 +306,7 @@
     .line 270
     :cond_0
     :try_start_2
-    iget-object v3, p0, Lkik/android/net/c;->c:Lcom/android/volley/toolbox/b;
+    iget-object v3, p0, Lkik/arcane/net/c;->c:Lcom/android/volley/toolbox/b;
 
     const/16 v4, 0x400
 
@@ -347,7 +347,7 @@
 
     .line 287
     :goto_2
-    iget-object v3, p0, Lkik/android/net/c;->c:Lcom/android/volley/toolbox/b;
+    iget-object v3, p0, Lkik/arcane/net/c;->c:Lcom/android/volley/toolbox/b;
 
     invoke-virtual {v3, v1}, Lcom/android/volley/toolbox/b;->a([B)V
 
@@ -461,7 +461,7 @@
     :cond_1
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/net/c;->b:Lcom/android/volley/toolbox/e;
+    iget-object v6, v0, Lkik/arcane/net/c;->b:Lcom/android/volley/toolbox/e;
 
     move-object/from16 v0, p1
 
@@ -490,7 +490,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lkik/android/net/c;->a([Lorg/apache/http/Header;)Ljava/util/Map;
+    invoke-static {v2}, Lkik/arcane/net/c;->a([Lorg/apache/http/Header;)Ljava/util/Map;
     :try_end_1
     .catch Ljava/net/SocketTimeoutException; {:try_start_1 .. :try_end_1} :catch_0
     .catch Lorg/apache/http/conn/ConnectTimeoutException; {:try_start_1 .. :try_end_1} :catch_2
@@ -595,7 +595,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-direct {v0, v2}, Lkik/android/net/c;->a(Lorg/apache/http/HttpEntity;)[B
+    invoke-direct {v0, v2}, Lkik/arcane/net/c;->a(Lorg/apache/http/HttpEntity;)[B
     :try_end_3
     .catch Ljava/lang/OutOfMemoryError; {:try_start_3 .. :try_end_3} :catch_1
     .catch Ljava/net/SocketTimeoutException; {:try_start_3 .. :try_end_3} :catch_0
@@ -615,11 +615,11 @@
     sub-long/2addr v12, v8
 
     .line 2207
-    sget-boolean v2, Lkik/android/net/c;->a:Z
+    sget-boolean v2, Lkik/arcane/net/c;->a:Z
 
     if-nez v2, :cond_6
 
-    sget v2, Lkik/android/net/c;->e:I
+    sget v2, Lkik/arcane/net/c;->e:I
 
     int-to-long v14, v2
 
@@ -731,7 +731,7 @@
 
     move-object/from16 v0, p1
 
-    invoke-static {v2, v0, v3}, Lkik/android/net/c;->a(Ljava/lang/String;Lcom/android/volley/Request;Lcom/android/volley/VolleyError;)V
+    invoke-static {v2, v0, v3}, Lkik/arcane/net/c;->a(Ljava/lang/String;Lcom/android/volley/Request;Lcom/android/volley/VolleyError;)V
 
     goto/16 :goto_0
 
@@ -764,7 +764,7 @@
 
     move-object/from16 v0, p1
 
-    invoke-static {v2, v0, v3}, Lkik/android/net/c;->a(Ljava/lang/String;Lcom/android/volley/Request;Lcom/android/volley/VolleyError;)V
+    invoke-static {v2, v0, v3}, Lkik/arcane/net/c;->a(Ljava/lang/String;Lcom/android/volley/Request;Lcom/android/volley/VolleyError;)V
 
     goto/16 :goto_0
 
@@ -873,7 +873,7 @@
 
     .line 171
     :cond_c
-    sget-object v6, Lkik/android/net/c;->d:Lorg/slf4j/b;
+    sget-object v6, Lkik/arcane/net/c;->d:Lorg/slf4j/b;
 
     const-string v7, "Request at %s has been redirected to %s"
 
@@ -921,7 +921,7 @@
 
     move-object/from16 v0, p1
 
-    invoke-static {v3, v0, v4}, Lkik/android/net/c;->a(Ljava/lang/String;Lcom/android/volley/Request;Lcom/android/volley/VolleyError;)V
+    invoke-static {v3, v0, v4}, Lkik/arcane/net/c;->a(Ljava/lang/String;Lcom/android/volley/Request;Lcom/android/volley/VolleyError;)V
 
     goto/16 :goto_0
 
@@ -935,7 +935,7 @@
 
     .line 174
     :cond_f
-    sget-object v2, Lkik/android/net/c;->d:Lorg/slf4j/b;
+    sget-object v2, Lkik/arcane/net/c;->d:Lorg/slf4j/b;
 
     const-string v6, "Unexpected response code %d for %s"
 
@@ -977,7 +977,7 @@
 
     move-object/from16 v0, p1
 
-    invoke-static {v3, v0, v4}, Lkik/android/net/c;->a(Ljava/lang/String;Lcom/android/volley/Request;Lcom/android/volley/VolleyError;)V
+    invoke-static {v3, v0, v4}, Lkik/arcane/net/c;->a(Ljava/lang/String;Lcom/android/volley/Request;Lcom/android/volley/VolleyError;)V
 
     goto/16 :goto_0
 

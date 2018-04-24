@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/widget/preferences/l;
+.class final synthetic Lkik/arcane/widget/preferences/l;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/widget/preferences/ResetKikPreference;
+.field private final a:Lkik/arcane/widget/preferences/ResetKikPreference;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/widget/preferences/ResetKikPreference;)V
+.method private constructor <init>(Lkik/arcane/widget/preferences/ResetKikPreference;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/widget/preferences/l;->a:Lkik/android/widget/preferences/ResetKikPreference;
+    iput-object p1, p0, Lkik/arcane/widget/preferences/l;->a:Lkik/arcane/widget/preferences/ResetKikPreference;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/preferences/ResetKikPreference;)Landroid/view/View$OnClickListener;
+.method public static a(Lkik/arcane/widget/preferences/ResetKikPreference;)Landroid/view/View$OnClickListener;
     .locals 1
 
-    new-instance v0, Lkik/android/widget/preferences/l;
+    new-instance v0, Lkik/arcane/widget/preferences/l;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/preferences/l;-><init>(Lkik/android/widget/preferences/ResetKikPreference;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/preferences/l;-><init>(Lkik/arcane/widget/preferences/ResetKikPreference;)V
 
     return-object v0
 .end method
@@ -35,9 +35,9 @@
 .method public final onClick(Landroid/view/View;)V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/widget/preferences/l;->a:Lkik/android/widget/preferences/ResetKikPreference;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/l;->a:Lkik/arcane/widget/preferences/ResetKikPreference;
 
-    invoke-static {v0}, Lkik/android/widget/preferences/ResetKikPreference;->b(Lkik/android/widget/preferences/ResetKikPreference;)V
+    invoke-static {v0}, Lkik/arcane/widget/preferences/ResetKikPreference;->b(Lkik/arcane/widget/preferences/ResetKikPreference;)V
 
     return-void
 .end method

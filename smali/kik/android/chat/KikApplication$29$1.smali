@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/KikApplication$29$1;
+.class final Lkik/arcane/chat/KikApplication$29$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/KikApplication$29;
+    value = Lkik/arcane/chat/KikApplication$29;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,20 +22,20 @@
 
 .field final synthetic b:Lkik/core/chat/profile/o$c;
 
-.field final synthetic c:Lkik/android/chat/KikApplication$29;
+.field final synthetic c:Lkik/arcane/chat/KikApplication$29;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/KikApplication$29;JLkik/core/chat/profile/o$c;)V
+.method constructor <init>(Lkik/arcane/chat/KikApplication$29;JLkik/core/chat/profile/o$c;)V
     .locals 0
 
     .prologue
     .line 449
-    iput-object p1, p0, Lkik/android/chat/KikApplication$29$1;->c:Lkik/android/chat/KikApplication$29;
+    iput-object p1, p0, Lkik/arcane/chat/KikApplication$29$1;->c:Lkik/arcane/chat/KikApplication$29;
 
-    iput-wide p2, p0, Lkik/android/chat/KikApplication$29$1;->a:J
+    iput-wide p2, p0, Lkik/arcane/chat/KikApplication$29$1;->a:J
 
-    iput-object p4, p0, Lkik/android/chat/KikApplication$29$1;->b:Lkik/core/chat/profile/o$c;
+    iput-object p4, p0, Lkik/arcane/chat/KikApplication$29$1;->b:Lkik/core/chat/profile/o$c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -69,9 +69,9 @@
     move-result-object v0
 
     .line 455
-    iget-wide v2, p0, Lkik/android/chat/KikApplication$29$1;->a:J
+    iget-wide v2, p0, Lkik/arcane/chat/KikApplication$29$1;->a:J
 
-    iget-object v1, p0, Lkik/android/chat/KikApplication$29$1;->b:Lkik/core/chat/profile/o$c;
+    iget-object v1, p0, Lkik/arcane/chat/KikApplication$29$1;->b:Lkik/core/chat/profile/o$c;
 
     iget-wide v4, v1, Lkik/core/chat/profile/o$c;->b:J
 
@@ -89,21 +89,21 @@
     if-nez v0, :cond_0
 
     .line 458
-    iget-object v0, p0, Lkik/android/chat/KikApplication$29$1;->c:Lkik/android/chat/KikApplication$29;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication$29$1;->c:Lkik/arcane/chat/KikApplication$29;
 
-    iget-object v0, v0, Lkik/android/chat/KikApplication$29;->a:Lkik/android/chat/KikApplication;
+    iget-object v0, v0, Lkik/arcane/chat/KikApplication$29;->a:Lkik/arcane/chat/KikApplication;
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->f(Lkik/android/chat/KikApplication;)Lkik/android/a/b;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->f(Lkik/arcane/chat/KikApplication;)Lkik/arcane/a/b;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/a/b;->c()Lcom/kik/clientmetrics/f;
+    invoke-virtual {v0}, Lkik/arcane/a/b;->c()Lcom/kik/clientmetrics/f;
 
     move-result-object v0
 
     sget-object v1, Lcom/kik/clientmetrics/model/Clientmetrics$ClientPacketEventType;->MESSAGE_SENT_CONFIRMED:Lcom/kik/clientmetrics/model/Clientmetrics$ClientPacketEventType;
 
-    iget-object v2, p0, Lkik/android/chat/KikApplication$29$1;->b:Lkik/core/chat/profile/o$c;
+    iget-object v2, p0, Lkik/arcane/chat/KikApplication$29$1;->b:Lkik/core/chat/profile/o$c;
 
     iget-object v2, v2, Lkik/core/chat/profile/o$c;->a:Ljava/lang/String;
 
@@ -126,21 +126,21 @@
 
     .line 462
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/KikApplication$29$1;->c:Lkik/android/chat/KikApplication$29;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication$29$1;->c:Lkik/arcane/chat/KikApplication$29;
 
-    iget-object v0, v0, Lkik/android/chat/KikApplication$29;->a:Lkik/android/chat/KikApplication;
+    iget-object v0, v0, Lkik/arcane/chat/KikApplication$29;->a:Lkik/arcane/chat/KikApplication;
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->f(Lkik/android/chat/KikApplication;)Lkik/android/a/b;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->f(Lkik/arcane/chat/KikApplication;)Lkik/arcane/a/b;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/a/b;->c()Lcom/kik/clientmetrics/f;
+    invoke-virtual {v0}, Lkik/arcane/a/b;->c()Lcom/kik/clientmetrics/f;
 
     move-result-object v0
 
     sget-object v1, Lcom/kik/clientmetrics/model/Clientmetrics$ClientPacketEventType;->MESSAGE_SENT_CONFIRMED:Lcom/kik/clientmetrics/model/Clientmetrics$ClientPacketEventType;
 
-    iget-object v2, p0, Lkik/android/chat/KikApplication$29$1;->b:Lkik/core/chat/profile/o$c;
+    iget-object v2, p0, Lkik/arcane/chat/KikApplication$29$1;->b:Lkik/core/chat/profile/o$c;
 
     iget-object v2, v2, Lkik/core/chat/profile/o$c;->a:Ljava/lang/String;
 
@@ -155,11 +155,11 @@
     invoke-virtual/range {v0 .. v7}, Lcom/kik/clientmetrics/f;->a(Lcom/kik/clientmetrics/model/Clientmetrics$ClientPacketEventType;Ljava/lang/String;Ljava/lang/String;JJ)V
 
     .line 466
-    iget-object v0, p0, Lkik/android/chat/KikApplication$29$1;->c:Lkik/android/chat/KikApplication$29;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication$29$1;->c:Lkik/arcane/chat/KikApplication$29;
 
-    iget-object v0, v0, Lkik/android/chat/KikApplication$29;->a:Lkik/android/chat/KikApplication;
+    iget-object v0, v0, Lkik/arcane/chat/KikApplication$29;->a:Lkik/arcane/chat/KikApplication;
 
-    iget-object v0, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "95% Message Send Time"
 
@@ -169,14 +169,14 @@
 
     const v3, 0x3f733333    # 0.95f
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/android/Mixpanel;->a(Ljava/lang/String;FF)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/arcane/Mixpanel;->a(Ljava/lang/String;FF)Lcom/kik/arcane/Mixpanel;
 
     .line 467
-    iget-object v0, p0, Lkik/android/chat/KikApplication$29$1;->c:Lkik/android/chat/KikApplication$29;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication$29$1;->c:Lkik/arcane/chat/KikApplication$29;
 
-    iget-object v0, v0, Lkik/android/chat/KikApplication$29;->a:Lkik/android/chat/KikApplication;
+    iget-object v0, v0, Lkik/arcane/chat/KikApplication$29;->a:Lkik/arcane/chat/KikApplication;
 
-    iget-object v0, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "50% Message Send Time"
 
@@ -186,7 +186,7 @@
 
     const/high16 v3, 0x3f000000    # 0.5f
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/android/Mixpanel;->a(Ljava/lang/String;FF)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/arcane/Mixpanel;->a(Ljava/lang/String;FF)Lcom/kik/arcane/Mixpanel;
 
     goto :goto_0
 .end method

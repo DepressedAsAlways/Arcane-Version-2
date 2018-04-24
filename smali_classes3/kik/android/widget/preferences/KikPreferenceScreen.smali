@@ -1,5 +1,5 @@
-.class public Lkik/android/widget/preferences/KikPreferenceScreen;
-.super Lkik/android/widget/preferences/KikPreference;
+.class public Lkik/arcane/widget/preferences/KikPreferenceScreen;
+.super Lkik/arcane/widget/preferences/KikPreference;
 .source "SourceFile"
 
 
@@ -19,18 +19,18 @@
     const/4 v2, 0x0
 
     .line 33
-    invoke-direct {p0, p1, p2, p3, p4}, Lkik/android/widget/preferences/KikPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lkik/arcane/widget/preferences/KikPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
 
     .line 16
-    iput v2, p0, Lkik/android/widget/preferences/KikPreferenceScreen;->a:I
+    iput v2, p0, Lkik/arcane/widget/preferences/KikPreferenceScreen;->a:I
 
     .line 35
     const v0, 0x7f040135
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/preferences/KikPreferenceScreen;->setLayoutResource(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/preferences/KikPreferenceScreen;->setLayoutResource(I)V
 
     .line 37
-    sget-object v0, Lkik/android/R$styleable;->KikPreferenceScreen:[I
+    sget-object v0, Lkik/arcane/R$styleable;->KikPreferenceScreen:[I
 
     invoke-virtual {p1, p2, v0, p3, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
@@ -41,7 +41,7 @@
 
     move-result v1
 
-    iput v1, p0, Lkik/android/widget/preferences/KikPreferenceScreen;->a:I
+    iput v1, p0, Lkik/arcane/widget/preferences/KikPreferenceScreen;->a:I
 
     .line 41
     const/4 v1, 0x2
@@ -50,10 +50,10 @@
 
     move-result v1
 
-    iput v1, p0, Lkik/android/widget/preferences/KikPreferenceScreen;->d:I
+    iput v1, p0, Lkik/arcane/widget/preferences/KikPreferenceScreen;->d:I
 
     .line 43
-    sget-object v1, Lkik/android/R$styleable;->KikPreference:[I
+    sget-object v1, Lkik/arcane/R$styleable;->KikPreference:[I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -64,7 +64,7 @@
 
     move-result v1
 
-    iput v1, p0, Lkik/android/widget/preferences/KikPreferenceScreen;->b:I
+    iput v1, p0, Lkik/arcane/widget/preferences/KikPreferenceScreen;->b:I
 
     .line 47
     invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
@@ -80,7 +80,7 @@
     .line 28
     const v0, 0x101008b
 
-    invoke-direct {p0, p1, p2, v0, p3}, Lkik/android/widget/preferences/KikPreferenceScreen;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
+    invoke-direct {p0, p1, p2, v0, p3}, Lkik/arcane/widget/preferences/KikPreferenceScreen;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
 
     .line 29
     return-void
@@ -93,7 +93,7 @@
 
     .prologue
     .line 23
-    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/widget/preferences/KikPreferenceScreen;)V
+    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/widget/preferences/KikPreferenceScreen;)V
 
     .line 24
     return-void
@@ -104,7 +104,7 @@
 
     .prologue
     .line 63
-    iget v0, p0, Lkik/android/widget/preferences/KikPreferenceScreen;->a:I
+    iget v0, p0, Lkik/arcane/widget/preferences/KikPreferenceScreen;->a:I
 
     return v0
 .end method
@@ -114,7 +114,7 @@
 
     .prologue
     .line 68
-    iget v0, p0, Lkik/android/widget/preferences/KikPreferenceScreen;->d:I
+    iget v0, p0, Lkik/arcane/widget/preferences/KikPreferenceScreen;->d:I
 
     return v0
 .end method
@@ -124,12 +124,12 @@
 
     .prologue
     .line 53
-    invoke-super {p0, p1}, Lkik/android/widget/preferences/KikPreference;->onBindView(Landroid/view/View;)V
+    invoke-super {p0, p1}, Lkik/arcane/widget/preferences/KikPreference;->onBindView(Landroid/view/View;)V
 
     .line 55
-    iget v0, p0, Lkik/android/widget/preferences/KikPreferenceScreen;->b:I
+    iget v0, p0, Lkik/arcane/widget/preferences/KikPreferenceScreen;->b:I
 
-    invoke-static {p1, v0}, Lkik/android/widget/preferences/KikPreference;->a(Landroid/view/View;I)V
+    invoke-static {p1, v0}, Lkik/arcane/widget/preferences/KikPreference;->a(Landroid/view/View;I)V
 
     .line 56
     return-void

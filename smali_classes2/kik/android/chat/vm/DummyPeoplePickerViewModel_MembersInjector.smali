@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/vm/DummyPeoplePickerViewModel_MembersInjector;
+.class public final Lkik/arcane/chat/vm/DummyPeoplePickerViewModel_MembersInjector;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/b",
         "<",
-        "Lkik/android/chat/vm/r;",
+        "Lkik/arcane/chat/vm/r;",
         ">;"
     }
 .end annotation
@@ -41,7 +41,7 @@
 
     .prologue
     .line 8
-    const-class v0, Lkik/android/chat/vm/DummyPeoplePickerViewModel_MembersInjector;
+    const-class v0, Lkik/arcane/chat/vm/DummyPeoplePickerViewModel_MembersInjector;
 
     invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
 
@@ -52,7 +52,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    sput-boolean v0, Lkik/android/chat/vm/DummyPeoplePickerViewModel_MembersInjector;->a:Z
+    sput-boolean v0, Lkik/arcane/chat/vm/DummyPeoplePickerViewModel_MembersInjector;->a:Z
 
     return-void
 
@@ -69,7 +69,7 @@
 
     .prologue
     .line 8
-    check-cast p1, Lkik/android/chat/vm/r;
+    check-cast p1, Lkik/arcane/chat/vm/r;
 
     .line 1028
     if-nez p1, :cond_0
@@ -85,7 +85,7 @@
 
     .line 1031
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/vm/DummyPeoplePickerViewModel_MembersInjector;->b:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/vm/DummyPeoplePickerViewModel_MembersInjector;->b:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -93,7 +93,7 @@
 
     check-cast v0, Lkik/core/interfaces/v;
 
-    iput-object v0, p1, Lkik/android/chat/vm/r;->a:Lkik/core/interfaces/v;
+    iput-object v0, p1, Lkik/arcane/chat/vm/r;->a:Lkik/core/interfaces/v;
 
     .line 8
     return-void

@@ -1,21 +1,21 @@
-.class public final Lkik/android/chat/presentation/f;
+.class public final Lkik/arcane/chat/presentation/f;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/presentation/e;
+.implements Lkik/arcane/chat/presentation/e;
 
 
 # instance fields
-.field private a:Lkik/android/chat/view/c;
+.field private a:Lkik/arcane/chat/view/c;
 
 .field private b:Lkik/core/interfaces/IAddressBookIntegration;
 
-.field private c:Lkik/android/util/bd;
+.field private c:Lkik/arcane/util/bd;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/chat/view/c;Lkik/core/interfaces/IAddressBookIntegration;Lkik/android/util/bd;)V
+.method public constructor <init>(Lkik/arcane/chat/view/c;Lkik/core/interfaces/IAddressBookIntegration;Lkik/arcane/util/bd;)V
     .locals 0
 
     .prologue
@@ -23,13 +23,13 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 20
-    iput-object p1, p0, Lkik/android/chat/presentation/f;->a:Lkik/android/chat/view/c;
+    iput-object p1, p0, Lkik/arcane/chat/presentation/f;->a:Lkik/arcane/chat/view/c;
 
     .line 21
-    iput-object p2, p0, Lkik/android/chat/presentation/f;->b:Lkik/core/interfaces/IAddressBookIntegration;
+    iput-object p2, p0, Lkik/arcane/chat/presentation/f;->b:Lkik/core/interfaces/IAddressBookIntegration;
 
     .line 22
-    iput-object p3, p0, Lkik/android/chat/presentation/f;->c:Lkik/android/util/bd;
+    iput-object p3, p0, Lkik/arcane/chat/presentation/f;->c:Lkik/arcane/util/bd;
 
     .line 23
     return-void
@@ -42,18 +42,18 @@
 
     .prologue
     .line 28
-    iget-object v0, p0, Lkik/android/chat/presentation/f;->a:Lkik/android/chat/view/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/f;->a:Lkik/arcane/chat/view/c;
 
-    invoke-interface {v0}, Lkik/android/chat/view/c;->e()Z
+    invoke-interface {v0}, Lkik/arcane/chat/view/c;->e()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 29
-    iget-object v0, p0, Lkik/android/chat/presentation/f;->a:Lkik/android/chat/view/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/f;->a:Lkik/arcane/chat/view/c;
 
-    invoke-interface {v0}, Lkik/android/chat/view/c;->b()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/c;->b()V
 
     .line 34
     :goto_0
@@ -61,9 +61,9 @@
 
     .line 32
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/presentation/f;->a:Lkik/android/chat/view/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/f;->a:Lkik/arcane/chat/view/c;
 
-    invoke-interface {v0}, Lkik/android/chat/view/c;->a()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/c;->a()V
 
     goto :goto_0
 .end method
@@ -77,7 +77,7 @@
     const/4 v2, 0x0
 
     .line 40
-    iget-object v0, p0, Lkik/android/chat/presentation/f;->b:Lkik/core/interfaces/IAddressBookIntegration;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/f;->b:Lkik/core/interfaces/IAddressBookIntegration;
 
     invoke-interface {v0}, Lkik/core/interfaces/IAddressBookIntegration;->f()Lkik/core/interfaces/IAddressBookIntegration$UploadInfoPermissionState;
 
@@ -91,14 +91,14 @@
 
     .line 41
     :goto_0
-    iget-object v3, p0, Lkik/android/chat/presentation/f;->a:Lkik/android/chat/view/c;
+    iget-object v3, p0, Lkik/arcane/chat/presentation/f;->a:Lkik/arcane/chat/view/c;
 
-    invoke-interface {v3}, Lkik/android/chat/view/c;->c()Z
+    invoke-interface {v3}, Lkik/arcane/chat/view/c;->c()Z
 
     move-result v3
 
     .line 42
-    iget-object v4, p0, Lkik/android/chat/presentation/f;->b:Lkik/core/interfaces/IAddressBookIntegration;
+    iget-object v4, p0, Lkik/arcane/chat/presentation/f;->b:Lkik/core/interfaces/IAddressBookIntegration;
 
     invoke-static {v3}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -107,17 +107,17 @@
     invoke-interface {v4, v5}, Lkik/core/interfaces/IAddressBookIntegration;->a(Ljava/lang/Boolean;)V
 
     .line 43
-    iget-object v4, p0, Lkik/android/chat/presentation/f;->a:Lkik/android/chat/view/c;
+    iget-object v4, p0, Lkik/arcane/chat/presentation/f;->a:Lkik/arcane/chat/view/c;
 
-    invoke-interface {v4}, Lkik/android/chat/view/c;->d()V
+    invoke-interface {v4}, Lkik/arcane/chat/view/c;->d()V
 
     .line 45
-    iget-object v4, p0, Lkik/android/chat/presentation/f;->c:Lkik/android/util/bd;
+    iget-object v4, p0, Lkik/arcane/chat/presentation/f;->c:Lkik/arcane/util/bd;
 
     if-eq v3, v0, :cond_1
 
     :goto_1
-    invoke-interface {v4, v1}, Lkik/android/util/bd;->a(Z)V
+    invoke-interface {v4, v1}, Lkik/arcane/util/bd;->a(Z)V
 
     .line 46
     return-void
@@ -140,14 +140,14 @@
 
     .prologue
     .line 51
-    iget-object v0, p0, Lkik/android/chat/presentation/f;->a:Lkik/android/chat/view/c;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/f;->a:Lkik/arcane/chat/view/c;
 
-    invoke-interface {v0}, Lkik/android/chat/view/c;->d()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/c;->d()V
 
     .line 52
-    iget-object v0, p0, Lkik/android/chat/presentation/f;->c:Lkik/android/util/bd;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/f;->c:Lkik/arcane/util/bd;
 
-    invoke-interface {v0}, Lkik/android/util/bd;->a()V
+    invoke-interface {v0}, Lkik/arcane/util/bd;->a()V
 
     .line 53
     return-void

@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/sdkutils/a;
+.class public interface abstract Lkik/arcane/sdkutils/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 

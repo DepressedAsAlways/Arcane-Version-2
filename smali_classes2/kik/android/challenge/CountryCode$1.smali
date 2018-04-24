@@ -1,4 +1,4 @@
-.class final Lkik/android/challenge/CountryCode$1;
+.class final Lkik/arcane/challenge/CountryCode$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/challenge/CountryCode;
+    value = Lkik/arcane/challenge/CountryCode;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -21,7 +21,7 @@
         "Ljava/lang/Object;",
         "Landroid/os/Parcelable$Creator",
         "<",
-        "Lkik/android/challenge/CountryCode;",
+        "Lkik/arcane/challenge/CountryCode;",
         ">;"
     }
 .end annotation
@@ -45,9 +45,9 @@
 
     .prologue
     .line 2310
-    new-instance v0, Lkik/android/challenge/CountryCode;
+    new-instance v0, Lkik/arcane/challenge/CountryCode;
 
-    invoke-direct {v0, p1}, Lkik/android/challenge/CountryCode;-><init>(Landroid/os/Parcel;)V
+    invoke-direct {v0, p1}, Lkik/arcane/challenge/CountryCode;-><init>(Landroid/os/Parcel;)V
 
     .line 307
     return-object v0
@@ -59,7 +59,7 @@
     .prologue
     .line 307
     .line 1315
-    new-array v0, p1, [Lkik/android/challenge/CountryCode;
+    new-array v0, p1, [Lkik/arcane/challenge/CountryCode;
 
     .line 307
     return-object v0

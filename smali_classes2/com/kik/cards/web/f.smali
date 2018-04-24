@@ -13,5 +13,5 @@
 .method public abstract c(Ljava/lang/String;)V
 .end method
 
-.method public abstract replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+.method public abstract replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 .end method

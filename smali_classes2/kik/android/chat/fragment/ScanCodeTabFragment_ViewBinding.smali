@@ -1,4 +1,4 @@
-.class public Lkik/android/chat/fragment/ScanCodeTabFragment_ViewBinding;
+.class public Lkik/arcane/chat/fragment/ScanCodeTabFragment_ViewBinding;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -7,11 +7,11 @@
 
 
 # instance fields
-.field private a:Lkik/android/chat/fragment/ScanCodeTabFragment;
+.field private a:Lkik/arcane/chat/fragment/ScanCodeTabFragment;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/chat/fragment/ScanCodeTabFragment;Landroid/view/View;)V
+.method public constructor <init>(Lkik/arcane/chat/fragment/ScanCodeTabFragment;Landroid/view/View;)V
     .locals 3
 
     .prologue
@@ -19,7 +19,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 22
-    iput-object p1, p0, Lkik/android/chat/fragment/ScanCodeTabFragment_ViewBinding;->a:Lkik/android/chat/fragment/ScanCodeTabFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ScanCodeTabFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/ScanCodeTabFragment;
 
     .line 24
     const v0, 0x7f1002fd
@@ -34,7 +34,7 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/ScanCodeTabFragment;->_toggleHolder:Landroid/widget/LinearLayout;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/ScanCodeTabFragment;->_toggleHolder:Landroid/widget/LinearLayout;
 
     .line 25
     const v0, 0x7f1003c5
@@ -49,7 +49,7 @@
 
     check-cast v0, Landroid/widget/SeekBar;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/ScanCodeTabFragment;->_scanToggle:Landroid/widget/SeekBar;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/ScanCodeTabFragment;->_scanToggle:Landroid/widget/SeekBar;
 
     .line 26
     const v0, 0x7f1002ff
@@ -64,7 +64,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/ScanCodeTabFragment;->_codeIcon:Landroid/widget/ImageView;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/ScanCodeTabFragment;->_codeIcon:Landroid/widget/ImageView;
 
     .line 27
     const v0, 0x7f1002fe
@@ -79,7 +79,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/ScanCodeTabFragment;->_cameraIcon:Landroid/widget/ImageView;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/ScanCodeTabFragment;->_cameraIcon:Landroid/widget/ImageView;
 
     .line 28
     const v0, 0x7f100121
@@ -94,7 +94,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/ScanCodeTabFragment;->_backButtonImage:Landroid/widget/ImageView;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/ScanCodeTabFragment;->_backButtonImage:Landroid/widget/ImageView;
 
     .line 29
     const v0, 0x7f10013d
@@ -105,7 +105,7 @@
 
     move-result-object v0
 
-    iput-object v0, p1, Lkik/android/chat/fragment/ScanCodeTabFragment;->_topBar:Landroid/view/View;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/ScanCodeTabFragment;->_topBar:Landroid/view/View;
 
     .line 30
     const v0, 0x7f100120
@@ -116,22 +116,22 @@
 
     move-result-object v0
 
-    iput-object v0, p1, Lkik/android/chat/fragment/ScanCodeTabFragment;->_backButton:Landroid/view/View;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/ScanCodeTabFragment;->_backButton:Landroid/view/View;
 
     .line 31
     const v0, 0x7f1002fc
 
     const-string v1, "field \'_viewPager\'"
 
-    const-class v2, Lkik/android/widget/VelocityControlledViewPager;
+    const-class v2, Lkik/arcane/widget/VelocityControlledViewPager;
 
     invoke-static {p2, v0, v1, v2}, Lbutterknife/internal/Utils;->findRequiredViewAsType(Landroid/view/View;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/widget/VelocityControlledViewPager;
+    check-cast v0, Lkik/arcane/widget/VelocityControlledViewPager;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/ScanCodeTabFragment;->_viewPager:Lkik/android/widget/VelocityControlledViewPager;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/ScanCodeTabFragment;->_viewPager:Lkik/arcane/widget/VelocityControlledViewPager;
 
     .line 32
     return-void
@@ -146,7 +146,7 @@
     const/4 v1, 0x0
 
     .line 37
-    iget-object v0, p0, Lkik/android/chat/fragment/ScanCodeTabFragment_ViewBinding;->a:Lkik/android/chat/fragment/ScanCodeTabFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ScanCodeTabFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/ScanCodeTabFragment;
 
     .line 38
     if-nez v0, :cond_0
@@ -161,31 +161,31 @@
 
     .line 39
     :cond_0
-    iput-object v1, p0, Lkik/android/chat/fragment/ScanCodeTabFragment_ViewBinding;->a:Lkik/android/chat/fragment/ScanCodeTabFragment;
+    iput-object v1, p0, Lkik/arcane/chat/fragment/ScanCodeTabFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/ScanCodeTabFragment;
 
     .line 41
-    iput-object v1, v0, Lkik/android/chat/fragment/ScanCodeTabFragment;->_toggleHolder:Landroid/widget/LinearLayout;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment;->_toggleHolder:Landroid/widget/LinearLayout;
 
     .line 42
-    iput-object v1, v0, Lkik/android/chat/fragment/ScanCodeTabFragment;->_scanToggle:Landroid/widget/SeekBar;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment;->_scanToggle:Landroid/widget/SeekBar;
 
     .line 43
-    iput-object v1, v0, Lkik/android/chat/fragment/ScanCodeTabFragment;->_codeIcon:Landroid/widget/ImageView;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment;->_codeIcon:Landroid/widget/ImageView;
 
     .line 44
-    iput-object v1, v0, Lkik/android/chat/fragment/ScanCodeTabFragment;->_cameraIcon:Landroid/widget/ImageView;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment;->_cameraIcon:Landroid/widget/ImageView;
 
     .line 45
-    iput-object v1, v0, Lkik/android/chat/fragment/ScanCodeTabFragment;->_backButtonImage:Landroid/widget/ImageView;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment;->_backButtonImage:Landroid/widget/ImageView;
 
     .line 46
-    iput-object v1, v0, Lkik/android/chat/fragment/ScanCodeTabFragment;->_topBar:Landroid/view/View;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment;->_topBar:Landroid/view/View;
 
     .line 47
-    iput-object v1, v0, Lkik/android/chat/fragment/ScanCodeTabFragment;->_backButton:Landroid/view/View;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment;->_backButton:Landroid/view/View;
 
     .line 48
-    iput-object v1, v0, Lkik/android/chat/fragment/ScanCodeTabFragment;->_viewPager:Lkik/android/widget/VelocityControlledViewPager;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/ScanCodeTabFragment;->_viewPager:Lkik/arcane/widget/VelocityControlledViewPager;
 
     .line 49
     return-void

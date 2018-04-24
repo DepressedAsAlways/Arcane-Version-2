@@ -65,7 +65,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -119,7 +119,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;)V"
         }
     .end annotation
@@ -237,7 +237,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;)",
             "Ldagger/internal/b",
             "<",
@@ -309,10 +309,10 @@
 
     move-result-object v3
 
-    check-cast v3, Lcom/kik/android/Mixpanel;
+    check-cast v3, Lcom/kik/arcane/Mixpanel;
 
     .line 1051
-    invoke-static {v0, v1, v2, v3}, Lcom/kik/modules/aw;->a(Lcom/kik/cache/KikVolleyImageLoader;Landroid/content/res/Resources;Lkik/core/interfaces/v;Lcom/kik/android/Mixpanel;)Lkik/core/interfaces/g;
+    invoke-static {v0, v1, v2, v3}, Lcom/kik/modules/aw;->a(Lcom/kik/cache/KikVolleyImageLoader;Landroid/content/res/Resources;Lkik/core/interfaces/v;Lcom/kik/arcane/Mixpanel;)Lkik/core/interfaces/g;
 
     move-result-object v0
 

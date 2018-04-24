@@ -1,9 +1,9 @@
-.class public final Lkik/android/chat/vm/chats/publicgroups/n;
-.super Lkik/android/chat/vm/chats/publicgroups/a;
+.class public final Lkik/arcane/chat/vm/chats/publicgroups/n;
+.super Lkik/arcane/chat/vm/chats/publicgroups/a;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/chats/publicgroups/e;
+.implements Lkik/arcane/chat/vm/chats/publicgroups/e;
 
 
 # instance fields
@@ -26,10 +26,10 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {p0, v0, v1, v2, v3}, Lkik/android/chat/vm/chats/publicgroups/a;-><init>(JZZ)V
+    invoke-direct {p0, v0, v1, v2, v3}, Lkik/arcane/chat/vm/chats/publicgroups/a;-><init>(JZZ)V
 
     .line 14
-    iput-object p1, p0, Lkik/android/chat/vm/chats/publicgroups/n;->b:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/chat/vm/chats/publicgroups/n;->b:Ljava/lang/String;
 
     .line 15
     return-void
@@ -37,12 +37,12 @@
 
 
 # virtual methods
-.method public final Q_()Lkik/android/chat/vm/chats/publicgroups/IPublicGroupItemViewModel$LayoutType;
+.method public final Q_()Lkik/arcane/chat/vm/chats/publicgroups/IPublicGroupItemViewModel$LayoutType;
     .locals 1
 
     .prologue
     .line 26
-    sget-object v0, Lkik/android/chat/vm/chats/publicgroups/IPublicGroupItemViewModel$LayoutType;->Header:Lkik/android/chat/vm/chats/publicgroups/IPublicGroupItemViewModel$LayoutType;
+    sget-object v0, Lkik/arcane/chat/vm/chats/publicgroups/IPublicGroupItemViewModel$LayoutType;->Header:Lkik/arcane/chat/vm/chats/publicgroups/IPublicGroupItemViewModel$LayoutType;
 
     return-object v0
 .end method
@@ -52,7 +52,7 @@
 
     .prologue
     .line 20
-    iget-object v0, p0, Lkik/android/chat/vm/chats/publicgroups/n;->b:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/publicgroups/n;->b:Ljava/lang/String;
 
     return-object v0
 .end method

@@ -1,11 +1,11 @@
-.class final Lkik/android/util/ao$4;
+.class final Lkik/arcane/util/ao$4;
 .super Lcom/kik/util/g;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/util/ao;->b([Landroid/view/View;)V
+    value = Lkik/arcane/util/ao;->b([Landroid/view/View;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     .prologue
     .line 355
-    iput-object p1, p0, Lkik/android/util/ao$4;->a:[Landroid/view/View;
+    iput-object p1, p0, Lkik/arcane/util/ao$4;->a:[Landroid/view/View;
 
     invoke-direct {p0}, Lcom/kik/util/g;-><init>()V
 
@@ -38,9 +38,9 @@
 
     .prologue
     .line 359
-    iget-object v0, p0, Lkik/android/util/ao$4;->a:[Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/util/ao$4;->a:[Landroid/view/View;
 
-    invoke-static {v0}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     .line 360
     return-void

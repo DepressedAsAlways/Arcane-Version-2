@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/presentation/bq$a$1;
+.class final Lkik/arcane/chat/presentation/bq$a$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/presentation/bq$a;->run()V
+    value = Lkik/arcane/chat/presentation/bq$a;->run()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/presentation/bq$a;
+.field final synthetic a:Lkik/arcane/chat/presentation/bq$a;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/presentation/bq$a;)V
+.method constructor <init>(Lkik/arcane/chat/presentation/bq$a;)V
     .locals 0
 
     .prologue
     .line 102
-    iput-object p1, p0, Lkik/android/chat/presentation/bq$a$1;->a:Lkik/android/chat/presentation/bq$a;
+    iput-object p1, p0, Lkik/arcane/chat/presentation/bq$a$1;->a:Lkik/arcane/chat/presentation/bq$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,19 +41,19 @@
 
     .prologue
     .line 106
-    iget-object v0, p0, Lkik/android/chat/presentation/bq$a$1;->a:Lkik/android/chat/presentation/bq$a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/bq$a$1;->a:Lkik/arcane/chat/presentation/bq$a;
 
-    invoke-static {v0}, Lkik/android/chat/presentation/bq$a;->b(Lkik/android/chat/presentation/bq$a;)Lkik/android/chat/view/ad;
+    invoke-static {v0}, Lkik/arcane/chat/presentation/bq$a;->b(Lkik/arcane/chat/presentation/bq$a;)Lkik/arcane/chat/view/ad;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/chat/presentation/bq$a$1;->a:Lkik/android/chat/presentation/bq$a;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/bq$a$1;->a:Lkik/arcane/chat/presentation/bq$a;
 
-    invoke-static {v1}, Lkik/android/chat/presentation/bq$a;->a(Lkik/android/chat/presentation/bq$a;)I
+    invoke-static {v1}, Lkik/arcane/chat/presentation/bq$a;->a(Lkik/arcane/chat/presentation/bq$a;)I
 
     move-result v1
 
-    invoke-interface {v0, v1}, Lkik/android/chat/view/ad;->a(I)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/view/ad;->a(I)V
 
     .line 107
     return-void

@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/SendToFragment$2;
+.class final Lkik/arcane/chat/fragment/SendToFragment$2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/SendToFragment;
+    value = Lkik/arcane/chat/fragment/SendToFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/SendToFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/SendToFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/SendToFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/SendToFragment;)V
     .locals 0
 
     .prologue
     .line 141
-    iput-object p1, p0, Lkik/android/chat/fragment/SendToFragment$2;->a:Lkik/android/chat/fragment/SendToFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/SendToFragment$2;->a:Lkik/arcane/chat/fragment/SendToFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -51,9 +51,9 @@
 
     .prologue
     .line 145
-    iget-object v0, p0, Lkik/android/chat/fragment/SendToFragment$2;->a:Lkik/android/chat/fragment/SendToFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/SendToFragment$2;->a:Lkik/arcane/chat/fragment/SendToFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/SendToFragment;->d(Lkik/android/chat/fragment/SendToFragment;)Landroid/os/Handler;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/SendToFragment;->d(Lkik/arcane/chat/fragment/SendToFragment;)Landroid/os/Handler;
 
     move-result-object v0
 

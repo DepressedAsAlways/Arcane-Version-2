@@ -1,4 +1,4 @@
-.class final Lkik/android/widget/ThumbNailListView$2;
+.class final Lkik/arcane/widget/ThumbNailListView$2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/ThumbNailListView;
+    value = Lkik/arcane/widget/ThumbNailListView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/ThumbNailListView;
+.field final synthetic a:Lkik/arcane/widget/ThumbNailListView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/ThumbNailListView;)V
+.method constructor <init>(Lkik/arcane/widget/ThumbNailListView;)V
     .locals 0
 
     .prologue
     .line 103
-    iput-object p1, p0, Lkik/android/widget/ThumbNailListView$2;->a:Lkik/android/widget/ThumbNailListView;
+    iput-object p1, p0, Lkik/arcane/widget/ThumbNailListView$2;->a:Lkik/arcane/widget/ThumbNailListView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,11 +41,11 @@
 
     .prologue
     .line 108
-    iget-object v0, p0, Lkik/android/widget/ThumbNailListView$2;->a:Lkik/android/widget/ThumbNailListView;
+    iget-object v0, p0, Lkik/arcane/widget/ThumbNailListView$2;->a:Lkik/arcane/widget/ThumbNailListView;
 
     const/16 v1, 0x42
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/ThumbNailListView;->fullScroll(I)Z
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/ThumbNailListView;->fullScroll(I)Z
 
     .line 109
     return-void

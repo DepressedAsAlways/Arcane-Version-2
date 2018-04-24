@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$6;
+.class final synthetic Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$6;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
+    value = Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -34,10 +34,10 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$6;->b:[I
+    sput-object v0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$6;->b:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$6;->b:[I
+    sget-object v0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$6;->b:[I
 
     sget-object v1, Lkik/core/interfaces/IAddressBookIntegration$AddressBookUploadState;->FAILED:Lkik/core/interfaces/IAddressBookIntegration$AddressBookUploadState;
 
@@ -53,7 +53,7 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$6;->b:[I
+    sget-object v0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$6;->b:[I
 
     sget-object v1, Lkik/core/interfaces/IAddressBookIntegration$AddressBookUploadState;->SUCCEEDED:Lkik/core/interfaces/IAddressBookIntegration$AddressBookUploadState;
 
@@ -69,7 +69,7 @@
 
     .line 641
     :goto_1
-    invoke-static {}, Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;->values()[Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;
+    invoke-static {}, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;->values()[Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;
 
     move-result-object v0
 
@@ -77,14 +77,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$6;->a:[I
+    sput-object v0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$6;->a:[I
 
     :try_start_2
-    sget-object v0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$6;->a:[I
+    sget-object v0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$6;->a:[I
 
-    sget-object v1, Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;->Email:Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;
+    sget-object v1, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;->Email:Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;
 
-    invoke-virtual {v1}, Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;->ordinal()I
 
     move-result v1
 
@@ -96,11 +96,11 @@
 
     :goto_2
     :try_start_3
-    sget-object v0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$6;->a:[I
+    sget-object v0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$6;->a:[I
 
-    sget-object v1, Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;->Phone:Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;
+    sget-object v1, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;->Phone:Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;
 
-    invoke-virtual {v1}, Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;->ordinal()I
 
     move-result v1
 

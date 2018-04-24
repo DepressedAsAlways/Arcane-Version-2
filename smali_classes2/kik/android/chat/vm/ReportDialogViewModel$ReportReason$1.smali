@@ -1,11 +1,11 @@
-.class final enum Lkik/android/chat/vm/ReportDialogViewModel$ReportReason$1;
-.super Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;
+.class final enum Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason$1;
+.super Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;
+    value = Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,7 +22,7 @@
     .line 34
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;-><init>(Ljava/lang/String;ILkik/android/chat/vm/ReportDialogViewModel$1;)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;-><init>(Ljava/lang/String;ILkik/arcane/chat/vm/ReportDialogViewModel$1;)V
 
     return-void
 .end method

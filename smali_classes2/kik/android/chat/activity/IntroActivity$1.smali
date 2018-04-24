@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/activity/IntroActivity$1;
+.class final Lkik/arcane/chat/activity/IntroActivity$1;
 .super Ljava/util/TimerTask;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/activity/IntroActivity;
+    value = Lkik/arcane/chat/activity/IntroActivity;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/activity/IntroActivity;
+.field final synthetic a:Lkik/arcane/chat/activity/IntroActivity;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/activity/IntroActivity;)V
+.method constructor <init>(Lkik/arcane/chat/activity/IntroActivity;)V
     .locals 0
 
     .prologue
     .line 46
-    iput-object p1, p0, Lkik/android/chat/activity/IntroActivity$1;->a:Lkik/android/chat/activity/IntroActivity;
+    iput-object p1, p0, Lkik/arcane/chat/activity/IntroActivity$1;->a:Lkik/arcane/chat/activity/IntroActivity;
 
     invoke-direct {p0}, Ljava/util/TimerTask;-><init>()V
 

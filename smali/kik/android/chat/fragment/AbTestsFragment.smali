@@ -1,17 +1,17 @@
-.class public Lkik/android/chat/fragment/AbTestsFragment;
-.super Lkik/android/chat/fragment/KikScopedDialogFragment;
+.class public Lkik/arcane/chat/fragment/AbTestsFragment;
+.super Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/fragment/AbTestsFragment$f;,
-        Lkik/android/chat/fragment/AbTestsFragment$a;,
-        Lkik/android/chat/fragment/AbTestsFragment$c;,
-        Lkik/android/chat/fragment/AbTestsFragment$e;,
-        Lkik/android/chat/fragment/AbTestsFragment$b;,
-        Lkik/android/chat/fragment/AbTestsFragment$d;
+        Lkik/arcane/chat/fragment/AbTestsFragment$f;,
+        Lkik/arcane/chat/fragment/AbTestsFragment$a;,
+        Lkik/arcane/chat/fragment/AbTestsFragment$c;,
+        Lkik/arcane/chat/fragment/AbTestsFragment$e;,
+        Lkik/arcane/chat/fragment/AbTestsFragment$b;,
+        Lkik/arcane/chat/fragment/AbTestsFragment$d;
     }
 .end annotation
 
@@ -41,7 +41,7 @@
     .end annotation
 .end field
 
-.field protected d:Lkik/android/util/aj;
+.field protected d:Lkik/arcane/util/aj;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -51,13 +51,13 @@
     .end annotation
 .end field
 
-.field private f:Lkik/android/chat/fragment/AbTestsFragment$b;
+.field private f:Lkik/arcane/chat/fragment/AbTestsFragment$b;
 
-.field private g:Lkik/android/chat/fragment/AbTestsFragment$e;
+.field private g:Lkik/arcane/chat/fragment/AbTestsFragment$e;
 
-.field private h:Lkik/android/chat/fragment/AbTestsFragment$c;
+.field private h:Lkik/arcane/chat/fragment/AbTestsFragment$c;
 
-.field private i:Lkik/android/chat/fragment/AbTestsFragment$a;
+.field private i:Lkik/arcane/chat/fragment/AbTestsFragment$a;
 
 .field private j:Lcom/kik/view/adapters/x;
 
@@ -101,7 +101,7 @@
 
     .prologue
     .line 46
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikScopedDialogFragment;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;-><init>()V
 
     return-void
 .end method
@@ -113,7 +113,7 @@
     .line 199
     new-instance v0, Ljava/util/ArrayList;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/AbTestsFragment;->b:Lkik/core/abtesting/e;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->b:Lkik/core/abtesting/e;
 
     invoke-virtual {v1}, Lkik/core/abtesting/e;->f()Ljava/util/List;
 
@@ -121,12 +121,12 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->k:Ljava/util/ArrayList;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->k:Ljava/util/ArrayList;
 
     .line 200
     new-instance v0, Ljava/util/ArrayList;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/AbTestsFragment;->b:Lkik/core/abtesting/e;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->b:Lkik/core/abtesting/e;
 
     invoke-virtual {v1}, Lkik/core/abtesting/e;->h()Ljava/util/List;
 
@@ -134,12 +134,12 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->l:Ljava/util/ArrayList;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->l:Ljava/util/ArrayList;
 
     .line 202
     new-instance v0, Ljava/util/ArrayList;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/AbTestsFragment;->b:Lkik/core/abtesting/e;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->b:Lkik/core/abtesting/e;
 
     invoke-virtual {v1}, Lkik/core/abtesting/e;->d()Ljava/util/List;
 
@@ -151,10 +151,10 @@
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->m:Ljava/util/ArrayList;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->m:Ljava/util/ArrayList;
 
     .line 204
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->b:Lkik/core/abtesting/e;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->b:Lkik/core/abtesting/e;
 
     invoke-virtual {v0}, Lkik/core/abtesting/e;->d()Ljava/util/List;
 
@@ -179,7 +179,7 @@
     check-cast v0, Lkik/core/abtesting/b;
 
     .line 205
-    iget-object v2, p0, Lkik/android/chat/fragment/AbTestsFragment;->b:Lkik/core/abtesting/e;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->b:Lkik/core/abtesting/e;
 
     invoke-virtual {v0}, Lkik/core/abtesting/b;->a()Ljava/lang/String;
 
@@ -192,7 +192,7 @@
     if-nez v2, :cond_0
 
     .line 206
-    iget-object v2, p0, Lkik/android/chat/fragment/AbTestsFragment;->m:Ljava/util/ArrayList;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->m:Ljava/util/ArrayList;
 
     invoke-virtual {v2, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -200,7 +200,7 @@
 
     .line 210
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->b:Lkik/core/abtesting/e;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->b:Lkik/core/abtesting/e;
 
     invoke-virtual {v0}, Lkik/core/abtesting/e;->e()Ljava/util/List;
 
@@ -225,7 +225,7 @@
     check-cast v0, Lkik/core/abtesting/g;
 
     .line 211
-    iget-object v2, p0, Lkik/android/chat/fragment/AbTestsFragment;->b:Lkik/core/abtesting/e;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->b:Lkik/core/abtesting/e;
 
     invoke-virtual {v0}, Lkik/core/abtesting/g;->a()Ljava/lang/String;
 
@@ -238,7 +238,7 @@
     if-nez v2, :cond_2
 
     .line 212
-    iget-object v2, p0, Lkik/android/chat/fragment/AbTestsFragment;->m:Ljava/util/ArrayList;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->m:Ljava/util/ArrayList;
 
     invoke-virtual {v2, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -246,17 +246,17 @@
 
     .line 215
     :cond_3
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->k:Ljava/util/ArrayList;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->k:Ljava/util/ArrayList;
 
     invoke-static {v0}, Ljava/util/Collections;->sort(Ljava/util/List;)V
 
     .line 216
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->l:Ljava/util/ArrayList;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->l:Ljava/util/ArrayList;
 
     invoke-static {v0}, Ljava/util/Collections;->sort(Ljava/util/List;)V
 
     .line 217
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->m:Ljava/util/ArrayList;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->m:Ljava/util/ArrayList;
 
     invoke-static {v0}, Ljava/util/Collections;->sort(Ljava/util/List;)V
 
@@ -264,7 +264,7 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/AbTestsFragment;)V
+.method static synthetic a(Lkik/arcane/chat/fragment/AbTestsFragment;)V
     .locals 3
 
     .prologue
@@ -286,9 +286,9 @@
     move-result-object v0
 
     .line 1070
-    iget-object v1, p0, Lkik/android/chat/fragment/AbTestsFragment;->d:Lkik/android/util/aj;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->d:Lkik/arcane/util/aj;
 
-    invoke-interface {v1}, Lkik/android/util/aj;->c()Landroid/content/SharedPreferences;
+    invoke-interface {v1}, Lkik/arcane/util/aj;->c()Landroid/content/SharedPreferences;
 
     move-result-object v1
 
@@ -363,52 +363,52 @@
     return-object v2
 .end method
 
-.method static synthetic b(Lkik/android/chat/fragment/AbTestsFragment;)Lcom/kik/view/adapters/x;
+.method static synthetic b(Lkik/arcane/chat/fragment/AbTestsFragment;)Lcom/kik/view/adapters/x;
     .locals 1
 
     .prologue
     .line 46
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->j:Lcom/kik/view/adapters/x;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->j:Lcom/kik/view/adapters/x;
 
     return-object v0
 .end method
 
-.method static synthetic c(Lkik/android/chat/fragment/AbTestsFragment;)V
+.method static synthetic c(Lkik/arcane/chat/fragment/AbTestsFragment;)V
     .locals 0
 
     .prologue
     .line 46
-    invoke-direct {p0}, Lkik/android/chat/fragment/AbTestsFragment;->a()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/AbTestsFragment;->a()V
 
     return-void
 .end method
 
-.method static synthetic d(Lkik/android/chat/fragment/AbTestsFragment;)Ljava/util/ArrayList;
+.method static synthetic d(Lkik/arcane/chat/fragment/AbTestsFragment;)Ljava/util/ArrayList;
     .locals 1
 
     .prologue
     .line 46
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->k:Ljava/util/ArrayList;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->k:Ljava/util/ArrayList;
 
     return-object v0
 .end method
 
-.method static synthetic e(Lkik/android/chat/fragment/AbTestsFragment;)Ljava/util/ArrayList;
+.method static synthetic e(Lkik/arcane/chat/fragment/AbTestsFragment;)Ljava/util/ArrayList;
     .locals 1
 
     .prologue
     .line 46
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->l:Ljava/util/ArrayList;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->l:Ljava/util/ArrayList;
 
     return-object v0
 .end method
 
-.method static synthetic f(Lkik/android/chat/fragment/AbTestsFragment;)Ljava/util/ArrayList;
+.method static synthetic f(Lkik/arcane/chat/fragment/AbTestsFragment;)Ljava/util/ArrayList;
     .locals 1
 
     .prologue
     .line 46
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->m:Ljava/util/ArrayList;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->m:Ljava/util/ArrayList;
 
     return-object v0
 .end method
@@ -420,21 +420,21 @@
 
     .prologue
     .line 78
-    invoke-virtual {p0}, Lkik/android/chat/fragment/AbTestsFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/AbTestsFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 
-    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/fragment/AbTestsFragment;)V
+    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/fragment/AbTestsFragment;)V
 
     .line 80
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->a:Lkik/core/interfaces/b;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->a:Lkik/core/interfaces/b;
 
     check-cast v0, Lkik/core/abtesting/e;
 
-    iput-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->b:Lkik/core/abtesting/e;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->b:Lkik/core/abtesting/e;
 
     .line 81
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onCreate(Landroid/os/Bundle;)V
 
     .line 82
     return-void
@@ -447,7 +447,7 @@
     const/4 v4, 0x0
 
     .line 87
-    invoke-super {p0, p1, p2, p3}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     .line 88
     const v0, 0x7f040022
@@ -460,96 +460,96 @@
     invoke-static {p0, v2}, Lbutterknife/ButterKnife;->bind(Ljava/lang/Object;Landroid/view/View;)Lbutterknife/Unbinder;
 
     .line 91
-    invoke-direct {p0}, Lkik/android/chat/fragment/AbTestsFragment;->a()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/AbTestsFragment;->a()V
 
     .line 93
     new-instance v0, Lcom/kik/view/adapters/x;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/AbTestsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/AbTestsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v1
 
     invoke-direct {v0, v1}, Lcom/kik/view/adapters/x;-><init>(Landroid/content/Context;)V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->j:Lcom/kik/view/adapters/x;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->j:Lcom/kik/view/adapters/x;
 
     .line 94
-    new-instance v0, Lkik/android/chat/fragment/AbTestsFragment$b;
+    new-instance v0, Lkik/arcane/chat/fragment/AbTestsFragment$b;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/AbTestsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/AbTestsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v1
 
-    invoke-direct {v0, p0, v1}, Lkik/android/chat/fragment/AbTestsFragment$b;-><init>(Lkik/android/chat/fragment/AbTestsFragment;Landroid/content/Context;)V
+    invoke-direct {v0, p0, v1}, Lkik/arcane/chat/fragment/AbTestsFragment$b;-><init>(Lkik/arcane/chat/fragment/AbTestsFragment;Landroid/content/Context;)V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->f:Lkik/android/chat/fragment/AbTestsFragment$b;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->f:Lkik/arcane/chat/fragment/AbTestsFragment$b;
 
     .line 95
-    new-instance v0, Lkik/android/chat/fragment/AbTestsFragment$e;
+    new-instance v0, Lkik/arcane/chat/fragment/AbTestsFragment$e;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/AbTestsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/AbTestsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v1
 
-    invoke-direct {v0, p0, v1}, Lkik/android/chat/fragment/AbTestsFragment$e;-><init>(Lkik/android/chat/fragment/AbTestsFragment;Landroid/content/Context;)V
+    invoke-direct {v0, p0, v1}, Lkik/arcane/chat/fragment/AbTestsFragment$e;-><init>(Lkik/arcane/chat/fragment/AbTestsFragment;Landroid/content/Context;)V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->g:Lkik/android/chat/fragment/AbTestsFragment$e;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->g:Lkik/arcane/chat/fragment/AbTestsFragment$e;
 
     .line 96
-    new-instance v0, Lkik/android/chat/fragment/AbTestsFragment$c;
+    new-instance v0, Lkik/arcane/chat/fragment/AbTestsFragment$c;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/AbTestsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/AbTestsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v1
 
-    invoke-direct {v0, p0, v1}, Lkik/android/chat/fragment/AbTestsFragment$c;-><init>(Lkik/android/chat/fragment/AbTestsFragment;Landroid/content/Context;)V
+    invoke-direct {v0, p0, v1}, Lkik/arcane/chat/fragment/AbTestsFragment$c;-><init>(Lkik/arcane/chat/fragment/AbTestsFragment;Landroid/content/Context;)V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->h:Lkik/android/chat/fragment/AbTestsFragment$c;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->h:Lkik/arcane/chat/fragment/AbTestsFragment$c;
 
     .line 97
-    new-instance v0, Lkik/android/chat/fragment/AbTestsFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/AbTestsFragment$a;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/AbTestsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/AbTestsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v1
 
-    invoke-direct {v0, p0, v1}, Lkik/android/chat/fragment/AbTestsFragment$a;-><init>(Lkik/android/chat/fragment/AbTestsFragment;Landroid/content/Context;)V
+    invoke-direct {v0, p0, v1}, Lkik/arcane/chat/fragment/AbTestsFragment$a;-><init>(Lkik/arcane/chat/fragment/AbTestsFragment;Landroid/content/Context;)V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->i:Lkik/android/chat/fragment/AbTestsFragment$a;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->i:Lkik/arcane/chat/fragment/AbTestsFragment$a;
 
     .line 99
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->j:Lcom/kik/view/adapters/x;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->j:Lcom/kik/view/adapters/x;
 
     const-string v1, "Assigned Experiments"
 
-    iget-object v3, p0, Lkik/android/chat/fragment/AbTestsFragment;->f:Lkik/android/chat/fragment/AbTestsFragment$b;
+    iget-object v3, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->f:Lkik/arcane/chat/fragment/AbTestsFragment$b;
 
     invoke-virtual {v0, v1, v3}, Lcom/kik/view/adapters/x;->d(Ljava/lang/String;Landroid/widget/Adapter;)V
 
     .line 100
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->j:Lcom/kik/view/adapters/x;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->j:Lcom/kik/view/adapters/x;
 
     const-string v1, "Overridden Experiments"
 
-    iget-object v3, p0, Lkik/android/chat/fragment/AbTestsFragment;->g:Lkik/android/chat/fragment/AbTestsFragment$e;
+    iget-object v3, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->g:Lkik/arcane/chat/fragment/AbTestsFragment$e;
 
     invoke-virtual {v0, v1, v3}, Lcom/kik/view/adapters/x;->d(Ljava/lang/String;Landroid/widget/Adapter;)V
 
     .line 101
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->j:Lcom/kik/view/adapters/x;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->j:Lcom/kik/view/adapters/x;
 
     const-string v1, "Available Experiments"
 
-    iget-object v3, p0, Lkik/android/chat/fragment/AbTestsFragment;->h:Lkik/android/chat/fragment/AbTestsFragment$c;
+    iget-object v3, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->h:Lkik/arcane/chat/fragment/AbTestsFragment$c;
 
     invoke-virtual {v0, v1, v3}, Lcom/kik/view/adapters/x;->d(Ljava/lang/String;Landroid/widget/Adapter;)V
 
     .line 102
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->j:Lcom/kik/view/adapters/x;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->j:Lcom/kik/view/adapters/x;
 
     const-string v1, "Misc"
 
-    iget-object v3, p0, Lkik/android/chat/fragment/AbTestsFragment;->i:Lkik/android/chat/fragment/AbTestsFragment$a;
+    iget-object v3, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->i:Lkik/arcane/chat/fragment/AbTestsFragment$a;
 
     invoke-virtual {v0, v1, v3}, Lcom/kik/view/adapters/x;->d(Ljava/lang/String;Landroid/widget/Adapter;)V
 
@@ -586,7 +586,7 @@
     invoke-virtual {v0, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 109
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->c:Lkik/core/interfaces/r;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->c:Lkik/core/interfaces/r;
 
     invoke-interface {v0}, Lkik/core/interfaces/r;->a()Ljava/lang/String;
 
@@ -595,35 +595,35 @@
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 110
-    new-instance v0, Lkik/android/chat/fragment/AbTestsFragment$1;
+    new-instance v0, Lkik/arcane/chat/fragment/AbTestsFragment$1;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/fragment/AbTestsFragment$1;-><init>(Lkik/android/chat/fragment/AbTestsFragment;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/fragment/AbTestsFragment$1;-><init>(Lkik/arcane/chat/fragment/AbTestsFragment;)V
 
     invoke-virtual {v3, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 119
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->_testsList:Landroid/widget/ListView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->_testsList:Landroid/widget/ListView;
 
     invoke-virtual {v0, v3}, Landroid/widget/ListView;->addFooterView(Landroid/view/View;)V
 
     .line 121
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->_testsList:Landroid/widget/ListView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->_testsList:Landroid/widget/ListView;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/AbTestsFragment;->j:Lcom/kik/view/adapters/x;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->j:Lcom/kik/view/adapters/x;
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
 
     .line 123
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->_testsList:Landroid/widget/ListView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->_testsList:Landroid/widget/ListView;
 
-    new-instance v1, Lkik/android/chat/fragment/AbTestsFragment$2;
+    new-instance v1, Lkik/arcane/chat/fragment/AbTestsFragment$2;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/fragment/AbTestsFragment$2;-><init>(Lkik/android/chat/fragment/AbTestsFragment;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/fragment/AbTestsFragment$2;-><init>(Lkik/arcane/chat/fragment/AbTestsFragment;)V
 
     invoke-virtual {v0, v1}, Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
 
     .line 158
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->_title:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->_title:Landroid/widget/TextView;
 
     const-string v1, "A/B Tests"
 
@@ -638,18 +638,18 @@
 
     .prologue
     .line 177
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikScopedDialogFragment;->registerForegroundEvents(Lcom/kik/events/d;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->registerForegroundEvents(Lcom/kik/events/d;)V
 
     .line 179
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment;->b:Lkik/core/abtesting/e;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment;->b:Lkik/core/abtesting/e;
 
     invoke-virtual {v0}, Lkik/core/abtesting/e;->i()Lcom/kik/events/c;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/chat/fragment/AbTestsFragment$3;
+    new-instance v1, Lkik/arcane/chat/fragment/AbTestsFragment$3;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/fragment/AbTestsFragment$3;-><init>(Lkik/android/chat/fragment/AbTestsFragment;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/fragment/AbTestsFragment$3;-><init>(Lkik/arcane/chat/fragment/AbTestsFragment;)V
 
     invoke-virtual {p1, v0, v1}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 

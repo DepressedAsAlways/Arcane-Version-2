@@ -1,4 +1,4 @@
-.class final Lkik/android/internal/platform/PlatformHelper$10$1;
+.class final Lkik/arcane/internal/platform/PlatformHelper$10$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/internal/platform/PlatformHelper$10;
+    value = Lkik/arcane/internal/platform/PlatformHelper$10;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Landroid/app/ProgressDialog;
 
-.field final synthetic b:Lkik/android/internal/platform/PlatformHelper$10;
+.field final synthetic b:Lkik/arcane/internal/platform/PlatformHelper$10;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/internal/platform/PlatformHelper$10;Landroid/app/ProgressDialog;)V
+.method constructor <init>(Lkik/arcane/internal/platform/PlatformHelper$10;Landroid/app/ProgressDialog;)V
     .locals 0
 
     .prologue
     .line 1161
-    iput-object p1, p0, Lkik/android/internal/platform/PlatformHelper$10$1;->b:Lkik/android/internal/platform/PlatformHelper$10;
+    iput-object p1, p0, Lkik/arcane/internal/platform/PlatformHelper$10$1;->b:Lkik/arcane/internal/platform/PlatformHelper$10;
 
-    iput-object p2, p0, Lkik/android/internal/platform/PlatformHelper$10$1;->a:Landroid/app/ProgressDialog;
+    iput-object p2, p0, Lkik/arcane/internal/platform/PlatformHelper$10$1;->a:Landroid/app/ProgressDialog;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,7 +45,7 @@
 
     .prologue
     .line 1165
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper$10$1;->a:Landroid/app/ProgressDialog;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper$10$1;->a:Landroid/app/ProgressDialog;
 
     invoke-virtual {v0}, Landroid/app/ProgressDialog;->show()V
 

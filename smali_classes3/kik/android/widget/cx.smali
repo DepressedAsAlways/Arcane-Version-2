@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/widget/cx;
+.class final synthetic Lkik/arcane/widget/cx;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/widget/cx;
+.field private static final a:Lkik/arcane/widget/cx;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/widget/cx;
+    new-instance v0, Lkik/arcane/widget/cx;
 
-    invoke-direct {v0}, Lkik/android/widget/cx;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/widget/cx;-><init>()V
 
-    sput-object v0, Lkik/android/widget/cx;->a:Lkik/android/widget/cx;
+    sput-object v0, Lkik/arcane/widget/cx;->a:Lkik/arcane/widget/cx;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static b()Lcom/beloo/widget/chipslayoutmanager/a/n;
     .locals 1
 
-    sget-object v0, Lkik/android/widget/cx;->a:Lkik/android/widget/cx;
+    sget-object v0, Lkik/arcane/widget/cx;->a:Lkik/arcane/widget/cx;
 
     return-object v0
 .end method
@@ -43,7 +43,7 @@
 .method public final a()I
     .locals 1
 
-    invoke-static {}, Lkik/android/widget/SelectedInterestsRecyclerView;->a()I
+    invoke-static {}, Lkik/arcane/widget/SelectedInterestsRecyclerView;->a()I
 
     move-result v0
 

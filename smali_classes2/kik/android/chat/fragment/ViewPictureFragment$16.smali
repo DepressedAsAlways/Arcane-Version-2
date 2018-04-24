@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/ViewPictureFragment$16;
+.class final Lkik/arcane/chat/fragment/ViewPictureFragment$16;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/ViewPictureFragment;
+    value = Lkik/arcane/chat/fragment/ViewPictureFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/ViewPictureFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/ViewPictureFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/ViewPictureFragment;)V
     .locals 0
 
     .prologue
     .line 1089
-    iput-object p1, p0, Lkik/android/chat/fragment/ViewPictureFragment$16;->a:Lkik/android/chat/fragment/ViewPictureFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$16;->a:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,15 +41,15 @@
 
     .prologue
     .line 1116
-    iget-object v0, p0, Lkik/android/chat/fragment/ViewPictureFragment$16;->a:Lkik/android/chat/fragment/ViewPictureFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$16;->a:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/ViewPictureFragment;->d(Lkik/android/chat/fragment/ViewPictureFragment;)Landroid/os/Handler;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/ViewPictureFragment;->d(Lkik/arcane/chat/fragment/ViewPictureFragment;)Landroid/os/Handler;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/chat/fragment/ViewPictureFragment$16$2;
+    new-instance v1, Lkik/arcane/chat/fragment/ViewPictureFragment$16$2;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/fragment/ViewPictureFragment$16$2;-><init>(Lkik/android/chat/fragment/ViewPictureFragment$16;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/fragment/ViewPictureFragment$16$2;-><init>(Lkik/arcane/chat/fragment/ViewPictureFragment$16;)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
@@ -70,22 +70,22 @@
     if-eqz v0, :cond_1
 
     .line 1095
-    iget-object v1, p0, Lkik/android/chat/fragment/ViewPictureFragment$16;->a:Lkik/android/chat/fragment/ViewPictureFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$16;->a:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
     const/4 v2, 0x0
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/ViewPictureFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/ViewPictureFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 1096
-    iget-object v1, p0, Lkik/android/chat/fragment/ViewPictureFragment$16;->a:Lkik/android/chat/fragment/ViewPictureFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$16;->a:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
-    invoke-static {v1}, Lkik/android/chat/fragment/ViewPictureFragment;->d(Lkik/android/chat/fragment/ViewPictureFragment;)Landroid/os/Handler;
+    invoke-static {v1}, Lkik/arcane/chat/fragment/ViewPictureFragment;->d(Lkik/arcane/chat/fragment/ViewPictureFragment;)Landroid/os/Handler;
 
     move-result-object v1
 
-    new-instance v2, Lkik/android/chat/fragment/ViewPictureFragment$16$1;
+    new-instance v2, Lkik/arcane/chat/fragment/ViewPictureFragment$16$1;
 
-    invoke-direct {v2, p0, v0}, Lkik/android/chat/fragment/ViewPictureFragment$16$1;-><init>(Lkik/android/chat/fragment/ViewPictureFragment$16;Landroid/graphics/Bitmap;)V
+    invoke-direct {v2, p0, v0}, Lkik/arcane/chat/fragment/ViewPictureFragment$16$1;-><init>(Lkik/arcane/chat/fragment/ViewPictureFragment$16;Landroid/graphics/Bitmap;)V
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
@@ -99,11 +99,11 @@
     if-nez p2, :cond_0
 
     .line 1109
-    iget-object v0, p0, Lkik/android/chat/fragment/ViewPictureFragment$16;->a:Lkik/android/chat/fragment/ViewPictureFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$16;->a:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
     const/4 v1, 0x1
 
-    invoke-static {v0, v1}, Lkik/android/chat/fragment/ViewPictureFragment;->a(Lkik/android/chat/fragment/ViewPictureFragment;Z)Z
+    invoke-static {v0, v1}, Lkik/arcane/chat/fragment/ViewPictureFragment;->a(Lkik/arcane/chat/fragment/ViewPictureFragment;Z)Z
 
     goto :goto_0
 .end method

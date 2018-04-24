@@ -1,4 +1,4 @@
-.class final Lkik/android/b/g$a;
+.class final Lkik/arcane/b/g$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/b/g;
+    value = Lkik/arcane/b/g;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -41,7 +41,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 34
-    iput-object p1, p0, Lkik/android/b/g$a;->a:Lcom/kik/xdata/model/browser/XBrowserPermission$XBrowserPermissionName;
+    iput-object p1, p0, Lkik/arcane/b/g$a;->a:Lcom/kik/xdata/model/browser/XBrowserPermission$XBrowserPermissionName;
 
     .line 35
     return-void
@@ -61,7 +61,7 @@
     .line 1040
     if-eqz p1, :cond_0
 
-    iget-object v0, p0, Lkik/android/b/g$a;->a:Lcom/kik/xdata/model/browser/XBrowserPermission$XBrowserPermissionName;
+    iget-object v0, p0, Lkik/arcane/b/g$a;->a:Lcom/kik/xdata/model/browser/XBrowserPermission$XBrowserPermissionName;
 
     if-nez v0, :cond_1
 
@@ -100,7 +100,7 @@
     check-cast v0, Lcom/kik/xdata/model/browser/XBrowserPermission;
 
     .line 1049
-    iget-object v3, p0, Lkik/android/b/g$a;->a:Lcom/kik/xdata/model/browser/XBrowserPermission$XBrowserPermissionName;
+    iget-object v3, p0, Lkik/arcane/b/g$a;->a:Lcom/kik/xdata/model/browser/XBrowserPermission$XBrowserPermissionName;
 
     invoke-virtual {v0}, Lcom/kik/xdata/model/browser/XBrowserPermission;->b()Lcom/kik/xdata/model/browser/XBrowserPermission$XBrowserPermissionName;
 

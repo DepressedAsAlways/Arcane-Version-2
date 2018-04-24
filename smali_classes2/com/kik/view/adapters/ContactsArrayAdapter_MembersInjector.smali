@@ -28,7 +28,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -91,7 +91,7 @@
             "(",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -170,7 +170,7 @@
             "(",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -225,9 +225,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/Mixpanel;
+    check-cast v0, Lcom/kik/arcane/Mixpanel;
 
-    iput-object v0, p1, Lcom/kik/view/adapters/h;->c:Lcom/kik/android/Mixpanel;
+    iput-object v0, p1, Lcom/kik/view/adapters/h;->c:Lcom/kik/arcane/Mixpanel;
 
     .line 1048
     iget-object v0, p0, Lcom/kik/view/adapters/ContactsArrayAdapter_MembersInjector;->c:Ljavax/inject/Provider;

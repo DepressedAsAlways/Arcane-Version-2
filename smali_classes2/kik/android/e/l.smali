@@ -1,4 +1,4 @@
-.class public final Lkik/android/e/l;
+.class public final Lkik/arcane/e/l;
 .super Landroid/databinding/ViewDataBinding;
 .source "SourceFile"
 
@@ -16,29 +16,29 @@
 
 .field private final e:Landroid/widget/FrameLayout;
 
-.field private final f:Lkik/android/e/ax;
+.field private final f:Lkik/arcane/e/ax;
 
 .field private final g:Landroid/widget/LinearLayout;
 
-.field private final h:Lkik/android/e/ba;
+.field private final h:Lkik/arcane/e/ba;
 
-.field private final i:Lkik/android/e/bh;
+.field private final i:Lkik/arcane/e/bh;
 
-.field private final j:Lkik/android/e/bg;
+.field private final j:Lkik/arcane/e/bg;
 
-.field private final k:Lkik/android/e/ay;
+.field private final k:Lkik/arcane/e/ay;
 
-.field private final l:Lkik/android/e/az;
+.field private final l:Lkik/arcane/e/az;
 
 .field private final m:Lorg/apmem/tools/layouts/FlowLayout;
 
 .field private final n:Landroid/widget/LinearLayout;
 
-.field private final o:Lkik/android/widget/SeparatorLineRecyclerView;
+.field private final o:Lkik/arcane/widget/SeparatorLineRecyclerView;
 
-.field private final p:Lkik/android/widget/SeparatorLineRecyclerView;
+.field private final p:Lkik/arcane/widget/SeparatorLineRecyclerView;
 
-.field private q:Lkik/android/chat/vm/profile/dw;
+.field private q:Lkik/arcane/chat/vm/profile/dw;
 
 .field private r:J
 
@@ -62,7 +62,7 @@
     invoke-direct {v0, v1}, Landroid/databinding/ViewDataBinding$IncludedLayouts;-><init>(I)V
 
     .line 11
-    sput-object v0, Lkik/android/e/l;->c:Landroid/databinding/ViewDataBinding$IncludedLayouts;
+    sput-object v0, Lkik/arcane/e/l;->c:Landroid/databinding/ViewDataBinding$IncludedLayouts;
 
     new-array v1, v6, [Ljava/lang/String;
 
@@ -85,7 +85,7 @@
     invoke-virtual {v0, v5, v1, v2, v3}, Landroid/databinding/ViewDataBinding$IncludedLayouts;->setIncludes(I[Ljava/lang/String;[I[I)V
 
     .line 15
-    sget-object v0, Lkik/android/e/l;->c:Landroid/databinding/ViewDataBinding$IncludedLayouts;
+    sget-object v0, Lkik/arcane/e/l;->c:Landroid/databinding/ViewDataBinding$IncludedLayouts;
 
     new-array v1, v7, [Ljava/lang/String;
 
@@ -128,7 +128,7 @@
     .line 19
     const/4 v0, 0x0
 
-    sput-object v0, Lkik/android/e/l;->d:Landroid/util/SparseIntArray;
+    sput-object v0, Lkik/arcane/e/l;->d:Landroid/util/SparseIntArray;
 
     .line 20
     return-void
@@ -167,16 +167,16 @@
     .line 253
     const-wide/16 v0, -0x1
 
-    iput-wide v0, p0, Lkik/android/e/l;->r:J
+    iput-wide v0, p0, Lkik/arcane/e/l;->r:J
 
     .line 44
     const/16 v0, 0xe
 
-    sget-object v1, Lkik/android/e/l;->c:Landroid/databinding/ViewDataBinding$IncludedLayouts;
+    sget-object v1, Lkik/arcane/e/l;->c:Landroid/databinding/ViewDataBinding$IncludedLayouts;
 
-    sget-object v2, Lkik/android/e/l;->d:Landroid/util/SparseIntArray;
+    sget-object v2, Lkik/arcane/e/l;->d:Landroid/util/SparseIntArray;
 
-    invoke-static {p1, p2, v0, v1, v2}, Lkik/android/e/l;->mapBindings(Landroid/databinding/DataBindingComponent;Landroid/view/View;ILandroid/databinding/ViewDataBinding$IncludedLayouts;Landroid/util/SparseIntArray;)[Ljava/lang/Object;
+    invoke-static {p1, p2, v0, v1, v2}, Lkik/arcane/e/l;->mapBindings(Landroid/databinding/DataBindingComponent;Landroid/view/View;ILandroid/databinding/ViewDataBinding$IncludedLayouts;Landroid/util/SparseIntArray;)[Ljava/lang/Object;
 
     move-result-object v1
 
@@ -185,10 +185,10 @@
 
     check-cast v0, Landroid/widget/FrameLayout;
 
-    iput-object v0, p0, Lkik/android/e/l;->e:Landroid/widget/FrameLayout;
+    iput-object v0, p0, Lkik/arcane/e/l;->e:Landroid/widget/FrameLayout;
 
     .line 46
-    iget-object v0, p0, Lkik/android/e/l;->e:Landroid/widget/FrameLayout;
+    iget-object v0, p0, Lkik/arcane/e/l;->e:Landroid/widget/FrameLayout;
 
     invoke-virtual {v0, v3}, Landroid/widget/FrameLayout;->setTag(Ljava/lang/Object;)V
 
@@ -197,14 +197,14 @@
 
     aget-object v0, v1, v0
 
-    check-cast v0, Lkik/android/e/ax;
+    check-cast v0, Lkik/arcane/e/ax;
 
-    iput-object v0, p0, Lkik/android/e/l;->f:Lkik/android/e/ax;
+    iput-object v0, p0, Lkik/arcane/e/l;->f:Lkik/arcane/e/ax;
 
     .line 48
-    iget-object v0, p0, Lkik/android/e/l;->f:Lkik/android/e/ax;
+    iget-object v0, p0, Lkik/arcane/e/l;->f:Lkik/arcane/e/ax;
 
-    invoke-virtual {p0, v0}, Lkik/android/e/l;->setContainedBinding(Landroid/databinding/ViewDataBinding;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/e/l;->setContainedBinding(Landroid/databinding/ViewDataBinding;)V
 
     .line 49
     const/4 v0, 0x1
@@ -213,10 +213,10 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    iput-object v0, p0, Lkik/android/e/l;->g:Landroid/widget/LinearLayout;
+    iput-object v0, p0, Lkik/arcane/e/l;->g:Landroid/widget/LinearLayout;
 
     .line 50
-    iget-object v0, p0, Lkik/android/e/l;->g:Landroid/widget/LinearLayout;
+    iget-object v0, p0, Lkik/arcane/e/l;->g:Landroid/widget/LinearLayout;
 
     invoke-virtual {v0, v3}, Landroid/widget/LinearLayout;->setTag(Ljava/lang/Object;)V
 
@@ -225,70 +225,70 @@
 
     aget-object v0, v1, v0
 
-    check-cast v0, Lkik/android/e/ba;
+    check-cast v0, Lkik/arcane/e/ba;
 
-    iput-object v0, p0, Lkik/android/e/l;->h:Lkik/android/e/ba;
+    iput-object v0, p0, Lkik/arcane/e/l;->h:Lkik/arcane/e/ba;
 
     .line 52
-    iget-object v0, p0, Lkik/android/e/l;->h:Lkik/android/e/ba;
+    iget-object v0, p0, Lkik/arcane/e/l;->h:Lkik/arcane/e/ba;
 
-    invoke-virtual {p0, v0}, Lkik/android/e/l;->setContainedBinding(Landroid/databinding/ViewDataBinding;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/e/l;->setContainedBinding(Landroid/databinding/ViewDataBinding;)V
 
     .line 53
     const/16 v0, 0x9
 
     aget-object v0, v1, v0
 
-    check-cast v0, Lkik/android/e/bh;
+    check-cast v0, Lkik/arcane/e/bh;
 
-    iput-object v0, p0, Lkik/android/e/l;->i:Lkik/android/e/bh;
+    iput-object v0, p0, Lkik/arcane/e/l;->i:Lkik/arcane/e/bh;
 
     .line 54
-    iget-object v0, p0, Lkik/android/e/l;->i:Lkik/android/e/bh;
+    iget-object v0, p0, Lkik/arcane/e/l;->i:Lkik/arcane/e/bh;
 
-    invoke-virtual {p0, v0}, Lkik/android/e/l;->setContainedBinding(Landroid/databinding/ViewDataBinding;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/e/l;->setContainedBinding(Landroid/databinding/ViewDataBinding;)V
 
     .line 55
     const/16 v0, 0xa
 
     aget-object v0, v1, v0
 
-    check-cast v0, Lkik/android/e/bg;
+    check-cast v0, Lkik/arcane/e/bg;
 
-    iput-object v0, p0, Lkik/android/e/l;->j:Lkik/android/e/bg;
+    iput-object v0, p0, Lkik/arcane/e/l;->j:Lkik/arcane/e/bg;
 
     .line 56
-    iget-object v0, p0, Lkik/android/e/l;->j:Lkik/android/e/bg;
+    iget-object v0, p0, Lkik/arcane/e/l;->j:Lkik/arcane/e/bg;
 
-    invoke-virtual {p0, v0}, Lkik/android/e/l;->setContainedBinding(Landroid/databinding/ViewDataBinding;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/e/l;->setContainedBinding(Landroid/databinding/ViewDataBinding;)V
 
     .line 57
     const/16 v0, 0xb
 
     aget-object v0, v1, v0
 
-    check-cast v0, Lkik/android/e/ay;
+    check-cast v0, Lkik/arcane/e/ay;
 
-    iput-object v0, p0, Lkik/android/e/l;->k:Lkik/android/e/ay;
+    iput-object v0, p0, Lkik/arcane/e/l;->k:Lkik/arcane/e/ay;
 
     .line 58
-    iget-object v0, p0, Lkik/android/e/l;->k:Lkik/android/e/ay;
+    iget-object v0, p0, Lkik/arcane/e/l;->k:Lkik/arcane/e/ay;
 
-    invoke-virtual {p0, v0}, Lkik/android/e/l;->setContainedBinding(Landroid/databinding/ViewDataBinding;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/e/l;->setContainedBinding(Landroid/databinding/ViewDataBinding;)V
 
     .line 59
     const/16 v0, 0xc
 
     aget-object v0, v1, v0
 
-    check-cast v0, Lkik/android/e/az;
+    check-cast v0, Lkik/arcane/e/az;
 
-    iput-object v0, p0, Lkik/android/e/l;->l:Lkik/android/e/az;
+    iput-object v0, p0, Lkik/arcane/e/l;->l:Lkik/arcane/e/az;
 
     .line 60
-    iget-object v0, p0, Lkik/android/e/l;->l:Lkik/android/e/az;
+    iget-object v0, p0, Lkik/arcane/e/l;->l:Lkik/arcane/e/az;
 
-    invoke-virtual {p0, v0}, Lkik/android/e/l;->setContainedBinding(Landroid/databinding/ViewDataBinding;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/e/l;->setContainedBinding(Landroid/databinding/ViewDataBinding;)V
 
     .line 61
     const/4 v0, 0x4
@@ -297,10 +297,10 @@
 
     check-cast v0, Lorg/apmem/tools/layouts/FlowLayout;
 
-    iput-object v0, p0, Lkik/android/e/l;->m:Lorg/apmem/tools/layouts/FlowLayout;
+    iput-object v0, p0, Lkik/arcane/e/l;->m:Lorg/apmem/tools/layouts/FlowLayout;
 
     .line 62
-    iget-object v0, p0, Lkik/android/e/l;->m:Lorg/apmem/tools/layouts/FlowLayout;
+    iget-object v0, p0, Lkik/arcane/e/l;->m:Lorg/apmem/tools/layouts/FlowLayout;
 
     invoke-virtual {v0, v3}, Lorg/apmem/tools/layouts/FlowLayout;->setTag(Ljava/lang/Object;)V
 
@@ -311,10 +311,10 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    iput-object v0, p0, Lkik/android/e/l;->n:Landroid/widget/LinearLayout;
+    iput-object v0, p0, Lkik/arcane/e/l;->n:Landroid/widget/LinearLayout;
 
     .line 64
-    iget-object v0, p0, Lkik/android/e/l;->n:Landroid/widget/LinearLayout;
+    iget-object v0, p0, Lkik/arcane/e/l;->n:Landroid/widget/LinearLayout;
 
     invoke-virtual {v0, v3}, Landroid/widget/LinearLayout;->setTag(Ljava/lang/Object;)V
 
@@ -323,28 +323,28 @@
 
     aget-object v0, v1, v0
 
-    check-cast v0, Lkik/android/widget/SeparatorLineRecyclerView;
+    check-cast v0, Lkik/arcane/widget/SeparatorLineRecyclerView;
 
-    iput-object v0, p0, Lkik/android/e/l;->o:Lkik/android/widget/SeparatorLineRecyclerView;
+    iput-object v0, p0, Lkik/arcane/e/l;->o:Lkik/arcane/widget/SeparatorLineRecyclerView;
 
     .line 66
-    iget-object v0, p0, Lkik/android/e/l;->o:Lkik/android/widget/SeparatorLineRecyclerView;
+    iget-object v0, p0, Lkik/arcane/e/l;->o:Lkik/arcane/widget/SeparatorLineRecyclerView;
 
-    invoke-virtual {v0, v3}, Lkik/android/widget/SeparatorLineRecyclerView;->setTag(Ljava/lang/Object;)V
+    invoke-virtual {v0, v3}, Lkik/arcane/widget/SeparatorLineRecyclerView;->setTag(Ljava/lang/Object;)V
 
     .line 67
     const/4 v0, 0x7
 
     aget-object v0, v1, v0
 
-    check-cast v0, Lkik/android/widget/SeparatorLineRecyclerView;
+    check-cast v0, Lkik/arcane/widget/SeparatorLineRecyclerView;
 
-    iput-object v0, p0, Lkik/android/e/l;->p:Lkik/android/widget/SeparatorLineRecyclerView;
+    iput-object v0, p0, Lkik/arcane/e/l;->p:Lkik/arcane/widget/SeparatorLineRecyclerView;
 
     .line 68
-    iget-object v0, p0, Lkik/android/e/l;->p:Lkik/android/widget/SeparatorLineRecyclerView;
+    iget-object v0, p0, Lkik/arcane/e/l;->p:Lkik/arcane/widget/SeparatorLineRecyclerView;
 
-    invoke-virtual {v0, v3}, Lkik/android/widget/SeparatorLineRecyclerView;->setTag(Ljava/lang/Object;)V
+    invoke-virtual {v0, v3}, Lkik/arcane/widget/SeparatorLineRecyclerView;->setTag(Ljava/lang/Object;)V
 
     .line 69
     const/4 v0, 0x2
@@ -353,10 +353,10 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p0, Lkik/android/e/l;->a:Landroid/widget/TextView;
+    iput-object v0, p0, Lkik/arcane/e/l;->a:Landroid/widget/TextView;
 
     .line 70
-    iget-object v0, p0, Lkik/android/e/l;->a:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/e/l;->a:Landroid/widget/TextView;
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
@@ -367,24 +367,24 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p0, Lkik/android/e/l;->b:Landroid/widget/TextView;
+    iput-object v0, p0, Lkik/arcane/e/l;->b:Landroid/widget/TextView;
 
     .line 72
-    iget-object v0, p0, Lkik/android/e/l;->b:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/e/l;->b:Landroid/widget/TextView;
 
     invoke-virtual {v0, v3}, Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
 
     .line 73
-    invoke-virtual {p0, p2}, Lkik/android/e/l;->setRootTag(Landroid/view/View;)V
+    invoke-virtual {p0, p2}, Lkik/arcane/e/l;->setRootTag(Landroid/view/View;)V
 
     .line 75
-    invoke-virtual {p0}, Lkik/android/e/l;->invalidateAll()V
+    invoke-virtual {p0}, Lkik/arcane/e/l;->invalidateAll()V
 
     .line 76
     return-void
 .end method
 
-.method public static a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/l;
+.method public static a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/l;
     .locals 3
 
     .prologue
@@ -428,9 +428,9 @@
 
     .line 274
     :cond_0
-    new-instance v0, Lkik/android/e/l;
+    new-instance v0, Lkik/arcane/e/l;
 
-    invoke-direct {v0, p1, p0}, Lkik/android/e/l;-><init>(Landroid/databinding/DataBindingComponent;Landroid/view/View;)V
+    invoke-direct {v0, p1, p0}, Lkik/arcane/e/l;-><init>(Landroid/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object v0
 .end method
@@ -448,7 +448,7 @@
     :try_start_0
     move-object/from16 v0, p0
 
-    iget-wide v0, v0, Lkik/android/e/l;->r:J
+    iget-wide v0, v0, Lkik/arcane/e/l;->r:J
 
     move-wide/from16 v20, v0
 
@@ -457,7 +457,7 @@
 
     move-object/from16 v0, p0
 
-    iput-wide v2, v0, Lkik/android/e/l;->r:J
+    iput-wide v2, v0, Lkik/arcane/e/l;->r:J
 
     .line 154
     monitor-exit p0
@@ -479,7 +479,7 @@
     .line 159
     move-object/from16 v0, p0
 
-    iget-object v0, v0, Lkik/android/e/l;->q:Lkik/android/chat/vm/profile/dw;
+    iget-object v0, v0, Lkik/arcane/e/l;->q:Lkik/arcane/chat/vm/profile/dw;
 
     move-object/from16 v19, v0
 
@@ -537,62 +537,62 @@
     if-eqz v19, :cond_3
 
     .line 180
-    invoke-interface/range {v19 .. v19}, Lkik/android/chat/vm/profile/dw;->x()Lkik/android/chat/vm/chats/profile/dn;
+    invoke-interface/range {v19 .. v19}, Lkik/arcane/chat/vm/profile/dw;->x()Lkik/arcane/chat/vm/chats/profile/dn;
 
     move-result-object v16
 
     .line 182
-    invoke-interface/range {v19 .. v19}, Lkik/android/chat/vm/profile/dw;->C()Lkik/android/chat/vm/profile/dp;
+    invoke-interface/range {v19 .. v19}, Lkik/arcane/chat/vm/profile/dw;->C()Lkik/arcane/chat/vm/profile/dp;
 
     move-result-object v14
 
     .line 184
-    invoke-interface/range {v19 .. v19}, Lkik/android/chat/vm/profile/dw;->A()Lkik/android/chat/vm/chats/profile/dt;
+    invoke-interface/range {v19 .. v19}, Lkik/arcane/chat/vm/profile/dw;->A()Lkik/arcane/chat/vm/chats/profile/dt;
 
     move-result-object v13
 
     .line 186
-    invoke-interface/range {v19 .. v19}, Lkik/android/chat/vm/profile/dw;->m()Lkik/android/chat/vm/IListViewModel;
+    invoke-interface/range {v19 .. v19}, Lkik/arcane/chat/vm/profile/dw;->m()Lkik/arcane/chat/vm/IListViewModel;
 
     move-result-object v12
 
     .line 188
-    invoke-interface/range {v19 .. v19}, Lkik/android/chat/vm/profile/dw;->z()Lkik/android/chat/vm/profile/du;
+    invoke-interface/range {v19 .. v19}, Lkik/arcane/chat/vm/profile/dw;->z()Lkik/arcane/chat/vm/profile/du;
 
     move-result-object v11
 
     .line 190
-    invoke-interface/range {v19 .. v19}, Lkik/android/chat/vm/profile/dw;->w()Lkik/android/chat/vm/chats/profile/do;
+    invoke-interface/range {v19 .. v19}, Lkik/arcane/chat/vm/profile/dw;->w()Lkik/arcane/chat/vm/chats/profile/do;
 
     move-result-object v10
 
     .line 192
-    invoke-interface/range {v19 .. v19}, Lkik/android/chat/vm/profile/dw;->n()Lrx/d;
+    invoke-interface/range {v19 .. v19}, Lkik/arcane/chat/vm/profile/dw;->n()Lrx/d;
 
     move-result-object v9
 
     .line 194
-    invoke-interface/range {v19 .. v19}, Lkik/android/chat/vm/profile/dw;->u()Lrx/d;
+    invoke-interface/range {v19 .. v19}, Lkik/arcane/chat/vm/profile/dw;->u()Lrx/d;
 
     move-result-object v8
 
     .line 196
-    invoke-interface/range {v19 .. v19}, Lkik/android/chat/vm/profile/dw;->y()Lkik/android/chat/vm/ak;
+    invoke-interface/range {v19 .. v19}, Lkik/arcane/chat/vm/profile/dw;->y()Lkik/arcane/chat/vm/ak;
 
     move-result-object v7
 
     .line 198
-    invoke-interface/range {v19 .. v19}, Lkik/android/chat/vm/profile/dw;->t()Lrx/d;
+    invoke-interface/range {v19 .. v19}, Lkik/arcane/chat/vm/profile/dw;->t()Lrx/d;
 
     move-result-object v6
 
     .line 200
-    invoke-interface/range {v19 .. v19}, Lkik/android/chat/vm/profile/dw;->K()Lrx/d;
+    invoke-interface/range {v19 .. v19}, Lkik/arcane/chat/vm/profile/dw;->K()Lrx/d;
 
     move-result-object v5
 
     .line 202
-    invoke-interface/range {v19 .. v19}, Lkik/android/chat/vm/profile/dw;->l()Lkik/android/chat/vm/IListViewModel;
+    invoke-interface/range {v19 .. v19}, Lkik/arcane/chat/vm/profile/dw;->l()Lkik/arcane/chat/vm/IListViewModel;
 
     move-result-object v4
 
@@ -623,7 +623,7 @@
     if-eqz v13, :cond_2
 
     .line 208
-    invoke-interface {v13}, Lkik/android/chat/vm/chats/profile/dn;->e()Lrx/d;
+    invoke-interface {v13}, Lkik/arcane/chat/vm/chats/profile/dn;->e()Lrx/d;
 
     move-result-object v13
 
@@ -634,12 +634,12 @@
     if-eqz v17, :cond_0
 
     .line 212
-    invoke-interface/range {v17 .. v17}, Lkik/android/chat/vm/chats/profile/dt;->a()Lrx/d;
+    invoke-interface/range {v17 .. v17}, Lkik/arcane/chat/vm/chats/profile/dt;->a()Lrx/d;
 
     move-result-object v3
 
     .line 214
-    invoke-interface/range {v17 .. v17}, Lkik/android/chat/vm/chats/profile/dt;->d()Lrx/d;
+    invoke-interface/range {v17 .. v17}, Lkik/arcane/chat/vm/chats/profile/dt;->d()Lrx/d;
 
     move-result-object v2
 
@@ -697,23 +697,23 @@
     .line 227
     move-object/from16 v0, p0
 
-    iget-object v15, v0, Lkik/android/e/l;->e:Landroid/widget/FrameLayout;
+    iget-object v15, v0, Lkik/arcane/e/l;->e:Landroid/widget/FrameLayout;
 
     invoke-static {v15, v13}, Lcom/kik/util/j;->j(Landroid/view/View;Lrx/d;)V
 
     .line 228
     move-object/from16 v0, p0
 
-    iget-object v13, v0, Lkik/android/e/l;->f:Lkik/android/e/ax;
+    iget-object v13, v0, Lkik/arcane/e/l;->f:Lkik/arcane/e/ax;
 
     move-object/from16 v0, v19
 
-    invoke-virtual {v13, v0}, Lkik/android/e/ax;->a(Lkik/android/chat/vm/bc;)V
+    invoke-virtual {v13, v0}, Lkik/arcane/e/ax;->a(Lkik/arcane/chat/vm/bc;)V
 
     .line 229
     move-object/from16 v0, p0
 
-    iget-object v13, v0, Lkik/android/e/l;->g:Landroid/widget/LinearLayout;
+    iget-object v13, v0, Lkik/arcane/e/l;->g:Landroid/widget/LinearLayout;
 
     const/16 v15, 0x38
 
@@ -726,90 +726,90 @@
     .line 230
     move-object/from16 v0, p0
 
-    iget-object v13, v0, Lkik/android/e/l;->h:Lkik/android/e/ba;
+    iget-object v13, v0, Lkik/arcane/e/l;->h:Lkik/arcane/e/ba;
 
     move-object/from16 v0, v19
 
-    invoke-virtual {v13, v0}, Lkik/android/e/ba;->a(Lkik/android/chat/vm/profile/dt;)V
+    invoke-virtual {v13, v0}, Lkik/arcane/e/ba;->a(Lkik/arcane/chat/vm/profile/dt;)V
 
     .line 231
     move-object/from16 v0, p0
 
-    iget-object v13, v0, Lkik/android/e/l;->i:Lkik/android/e/bh;
+    iget-object v13, v0, Lkik/arcane/e/l;->i:Lkik/arcane/e/bh;
 
-    invoke-virtual {v13, v8}, Lkik/android/e/bh;->a(Lkik/android/chat/vm/profile/du;)V
+    invoke-virtual {v13, v8}, Lkik/arcane/e/bh;->a(Lkik/arcane/chat/vm/profile/du;)V
 
     .line 232
     move-object/from16 v0, p0
 
-    iget-object v8, v0, Lkik/android/e/l;->j:Lkik/android/e/bg;
+    iget-object v8, v0, Lkik/arcane/e/l;->j:Lkik/arcane/e/bg;
 
-    invoke-virtual {v8, v4}, Lkik/android/e/bg;->a(Lkik/android/chat/vm/ak;)V
+    invoke-virtual {v8, v4}, Lkik/arcane/e/bg;->a(Lkik/arcane/chat/vm/ak;)V
 
     .line 233
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/e/l;->k:Lkik/android/e/ay;
+    iget-object v4, v0, Lkik/arcane/e/l;->k:Lkik/arcane/e/ay;
 
-    invoke-virtual {v4, v12}, Lkik/android/e/ay;->a(Lkik/android/chat/vm/profile/dp;)V
+    invoke-virtual {v4, v12}, Lkik/arcane/e/ay;->a(Lkik/arcane/chat/vm/profile/dp;)V
 
     .line 234
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/e/l;->l:Lkik/android/e/az;
+    iget-object v4, v0, Lkik/arcane/e/l;->l:Lkik/arcane/e/az;
 
-    invoke-virtual {v4, v7}, Lkik/android/e/az;->a(Lkik/android/chat/vm/chats/profile/do;)V
+    invoke-virtual {v4, v7}, Lkik/arcane/e/az;->a(Lkik/arcane/chat/vm/chats/profile/do;)V
 
     .line 235
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/e/l;->m:Lorg/apmem/tools/layouts/FlowLayout;
+    iget-object v4, v0, Lkik/arcane/e/l;->m:Lorg/apmem/tools/layouts/FlowLayout;
 
     invoke-static {v4, v10}, Lcom/kik/util/j;->j(Landroid/view/View;Lrx/d;)V
 
     .line 236
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/e/l;->m:Lorg/apmem/tools/layouts/FlowLayout;
+    iget-object v4, v0, Lkik/arcane/e/l;->m:Lorg/apmem/tools/layouts/FlowLayout;
 
     invoke-static {v4, v11}, Lcom/kik/util/cl;->b(Lorg/apmem/tools/layouts/FlowLayout;Lrx/d;)V
 
     .line 237
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/e/l;->n:Landroid/widget/LinearLayout;
+    iget-object v4, v0, Lkik/arcane/e/l;->n:Landroid/widget/LinearLayout;
 
     invoke-static {v4, v6}, Lcom/kik/util/j;->j(Landroid/view/View;Lrx/d;)V
 
     .line 238
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/e/l;->o:Lkik/android/widget/SeparatorLineRecyclerView;
+    iget-object v4, v0, Lkik/arcane/e/l;->o:Lkik/arcane/widget/SeparatorLineRecyclerView;
 
-    const-string v6, "kik.android.widget.ProfileActionItemViewCreator"
+    const-string v6, "kik.arcane.widget.ProfileActionItemViewCreator"
 
-    invoke-static {v4, v9, v6}, Lcom/kik/util/j;->a(Landroid/support/v7/widget/RecyclerView;Lkik/android/chat/vm/IListViewModel;Ljava/lang/String;)V
+    invoke-static {v4, v9, v6}, Lcom/kik/util/j;->a(Landroid/support/v7/widget/RecyclerView;Lkik/arcane/chat/vm/IListViewModel;Ljava/lang/String;)V
 
     .line 239
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/e/l;->p:Lkik/android/widget/SeparatorLineRecyclerView;
+    iget-object v4, v0, Lkik/arcane/e/l;->p:Lkik/arcane/widget/SeparatorLineRecyclerView;
 
-    const-string v6, "kik.android.widget.ProfileActionItemViewCreator"
+    const-string v6, "kik.arcane.widget.ProfileActionItemViewCreator"
 
-    invoke-static {v4, v2, v6}, Lcom/kik/util/j;->a(Landroid/support/v7/widget/RecyclerView;Lkik/android/chat/vm/IListViewModel;Ljava/lang/String;)V
+    invoke-static {v4, v2, v6}, Lcom/kik/util/j;->a(Landroid/support/v7/widget/RecyclerView;Lkik/arcane/chat/vm/IListViewModel;Ljava/lang/String;)V
 
     .line 240
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/l;->a:Landroid/widget/TextView;
+    iget-object v2, v0, Lkik/arcane/e/l;->a:Landroid/widget/TextView;
 
     invoke-static {v2, v3}, Lcom/kik/util/j;->a(Landroid/widget/TextView;Lrx/d;)V
 
     .line 241
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/l;->b:Landroid/widget/TextView;
+    iget-object v2, v0, Lkik/arcane/e/l;->b:Landroid/widget/TextView;
 
     invoke-static {v2, v5}, Lcom/kik/util/j;->a(Landroid/widget/TextView;Lrx/d;)V
 
@@ -817,44 +817,44 @@
     :cond_1
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/l;->h:Lkik/android/e/ba;
+    iget-object v2, v0, Lkik/arcane/e/l;->h:Lkik/arcane/e/ba;
 
-    invoke-static {v2}, Lkik/android/e/l;->executeBindingsOn(Landroid/databinding/ViewDataBinding;)V
+    invoke-static {v2}, Lkik/arcane/e/l;->executeBindingsOn(Landroid/databinding/ViewDataBinding;)V
 
     .line 244
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/l;->i:Lkik/android/e/bh;
+    iget-object v2, v0, Lkik/arcane/e/l;->i:Lkik/arcane/e/bh;
 
-    invoke-static {v2}, Lkik/android/e/l;->executeBindingsOn(Landroid/databinding/ViewDataBinding;)V
+    invoke-static {v2}, Lkik/arcane/e/l;->executeBindingsOn(Landroid/databinding/ViewDataBinding;)V
 
     .line 245
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/l;->j:Lkik/android/e/bg;
+    iget-object v2, v0, Lkik/arcane/e/l;->j:Lkik/arcane/e/bg;
 
-    invoke-static {v2}, Lkik/android/e/l;->executeBindingsOn(Landroid/databinding/ViewDataBinding;)V
+    invoke-static {v2}, Lkik/arcane/e/l;->executeBindingsOn(Landroid/databinding/ViewDataBinding;)V
 
     .line 246
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/l;->k:Lkik/android/e/ay;
+    iget-object v2, v0, Lkik/arcane/e/l;->k:Lkik/arcane/e/ay;
 
-    invoke-static {v2}, Lkik/android/e/l;->executeBindingsOn(Landroid/databinding/ViewDataBinding;)V
+    invoke-static {v2}, Lkik/arcane/e/l;->executeBindingsOn(Landroid/databinding/ViewDataBinding;)V
 
     .line 247
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/l;->l:Lkik/android/e/az;
+    iget-object v2, v0, Lkik/arcane/e/l;->l:Lkik/arcane/e/az;
 
-    invoke-static {v2}, Lkik/android/e/l;->executeBindingsOn(Landroid/databinding/ViewDataBinding;)V
+    invoke-static {v2}, Lkik/arcane/e/l;->executeBindingsOn(Landroid/databinding/ViewDataBinding;)V
 
     .line 248
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/e/l;->f:Lkik/android/e/ax;
+    iget-object v2, v0, Lkik/arcane/e/l;->f:Lkik/arcane/e/ax;
 
-    invoke-static {v2}, Lkik/android/e/l;->executeBindingsOn(Landroid/databinding/ViewDataBinding;)V
+    invoke-static {v2}, Lkik/arcane/e/l;->executeBindingsOn(Landroid/databinding/ViewDataBinding;)V
 
     .line 249
     return-void
@@ -919,7 +919,7 @@
 
     .line 95
     :try_start_0
-    iget-wide v2, p0, Lkik/android/e/l;->r:J
+    iget-wide v2, p0, Lkik/arcane/e/l;->r:J
 
     const-wide/16 v4, 0x0
 
@@ -942,54 +942,54 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 99
-    iget-object v1, p0, Lkik/android/e/l;->h:Lkik/android/e/ba;
+    iget-object v1, p0, Lkik/arcane/e/l;->h:Lkik/arcane/e/ba;
 
-    invoke-virtual {v1}, Lkik/android/e/ba;->hasPendingBindings()Z
+    invoke-virtual {v1}, Lkik/arcane/e/ba;->hasPendingBindings()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
     .line 102
-    iget-object v1, p0, Lkik/android/e/l;->i:Lkik/android/e/bh;
+    iget-object v1, p0, Lkik/arcane/e/l;->i:Lkik/arcane/e/bh;
 
-    invoke-virtual {v1}, Lkik/android/e/bh;->hasPendingBindings()Z
+    invoke-virtual {v1}, Lkik/arcane/e/bh;->hasPendingBindings()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
     .line 105
-    iget-object v1, p0, Lkik/android/e/l;->j:Lkik/android/e/bg;
+    iget-object v1, p0, Lkik/arcane/e/l;->j:Lkik/arcane/e/bg;
 
-    invoke-virtual {v1}, Lkik/android/e/bg;->hasPendingBindings()Z
+    invoke-virtual {v1}, Lkik/arcane/e/bg;->hasPendingBindings()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
     .line 108
-    iget-object v1, p0, Lkik/android/e/l;->k:Lkik/android/e/ay;
+    iget-object v1, p0, Lkik/arcane/e/l;->k:Lkik/arcane/e/ay;
 
-    invoke-virtual {v1}, Lkik/android/e/ay;->hasPendingBindings()Z
+    invoke-virtual {v1}, Lkik/arcane/e/ay;->hasPendingBindings()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
     .line 111
-    iget-object v1, p0, Lkik/android/e/l;->l:Lkik/android/e/az;
+    iget-object v1, p0, Lkik/arcane/e/l;->l:Lkik/arcane/e/az;
 
-    invoke-virtual {v1}, Lkik/android/e/az;->hasPendingBindings()Z
+    invoke-virtual {v1}, Lkik/arcane/e/az;->hasPendingBindings()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
     .line 114
-    iget-object v1, p0, Lkik/android/e/l;->f:Lkik/android/e/ax;
+    iget-object v1, p0, Lkik/arcane/e/l;->f:Lkik/arcane/e/ax;
 
-    invoke-virtual {v1}, Lkik/android/e/ax;->hasPendingBindings()Z
+    invoke-virtual {v1}, Lkik/arcane/e/ax;->hasPendingBindings()Z
 
     move-result v1
 
@@ -1023,7 +1023,7 @@
     const-wide/16 v0, 0x2
 
     :try_start_0
-    iput-wide v0, p0, Lkik/android/e/l;->r:J
+    iput-wide v0, p0, Lkik/arcane/e/l;->r:J
 
     .line 82
     monitor-exit p0
@@ -1031,37 +1031,37 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 83
-    iget-object v0, p0, Lkik/android/e/l;->h:Lkik/android/e/ba;
+    iget-object v0, p0, Lkik/arcane/e/l;->h:Lkik/arcane/e/ba;
 
-    invoke-virtual {v0}, Lkik/android/e/ba;->invalidateAll()V
+    invoke-virtual {v0}, Lkik/arcane/e/ba;->invalidateAll()V
 
     .line 84
-    iget-object v0, p0, Lkik/android/e/l;->i:Lkik/android/e/bh;
+    iget-object v0, p0, Lkik/arcane/e/l;->i:Lkik/arcane/e/bh;
 
-    invoke-virtual {v0}, Lkik/android/e/bh;->invalidateAll()V
+    invoke-virtual {v0}, Lkik/arcane/e/bh;->invalidateAll()V
 
     .line 85
-    iget-object v0, p0, Lkik/android/e/l;->j:Lkik/android/e/bg;
+    iget-object v0, p0, Lkik/arcane/e/l;->j:Lkik/arcane/e/bg;
 
-    invoke-virtual {v0}, Lkik/android/e/bg;->invalidateAll()V
+    invoke-virtual {v0}, Lkik/arcane/e/bg;->invalidateAll()V
 
     .line 86
-    iget-object v0, p0, Lkik/android/e/l;->k:Lkik/android/e/ay;
+    iget-object v0, p0, Lkik/arcane/e/l;->k:Lkik/arcane/e/ay;
 
-    invoke-virtual {v0}, Lkik/android/e/ay;->invalidateAll()V
+    invoke-virtual {v0}, Lkik/arcane/e/ay;->invalidateAll()V
 
     .line 87
-    iget-object v0, p0, Lkik/android/e/l;->l:Lkik/android/e/az;
+    iget-object v0, p0, Lkik/arcane/e/l;->l:Lkik/arcane/e/az;
 
-    invoke-virtual {v0}, Lkik/android/e/az;->invalidateAll()V
+    invoke-virtual {v0}, Lkik/arcane/e/az;->invalidateAll()V
 
     .line 88
-    iget-object v0, p0, Lkik/android/e/l;->f:Lkik/android/e/ax;
+    iget-object v0, p0, Lkik/arcane/e/l;->f:Lkik/arcane/e/ax;
 
-    invoke-virtual {v0}, Lkik/android/e/ax;->invalidateAll()V
+    invoke-virtual {v0}, Lkik/arcane/e/ax;->invalidateAll()V
 
     .line 89
-    invoke-virtual {p0}, Lkik/android/e/l;->requestRebind()V
+    invoke-virtual {p0}, Lkik/arcane/e/l;->requestRebind()V
 
     .line 90
     return-void
@@ -1103,23 +1103,23 @@
 
     .line 123
     :pswitch_0
-    check-cast p2, Lkik/android/chat/vm/profile/dw;
+    check-cast p2, Lkik/arcane/chat/vm/profile/dw;
 
     .line 1130
-    iput-object p2, p0, Lkik/android/e/l;->q:Lkik/android/chat/vm/profile/dw;
+    iput-object p2, p0, Lkik/arcane/e/l;->q:Lkik/arcane/chat/vm/profile/dw;
 
     .line 1131
     monitor-enter p0
 
     .line 1132
     :try_start_0
-    iget-wide v0, p0, Lkik/android/e/l;->r:J
+    iget-wide v0, p0, Lkik/arcane/e/l;->r:J
 
     const-wide/16 v2, 0x1
 
     or-long/2addr v0, v2
 
-    iput-wide v0, p0, Lkik/android/e/l;->r:J
+    iput-wide v0, p0, Lkik/arcane/e/l;->r:J
 
     .line 1133
     monitor-exit p0
@@ -1129,7 +1129,7 @@
     .line 1134
     const/16 v0, 0xe
 
-    invoke-virtual {p0, v0}, Lkik/android/e/l;->notifyPropertyChanged(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/e/l;->notifyPropertyChanged(I)V
 
     .line 1135
     invoke-super {p0}, Landroid/databinding/ViewDataBinding;->requestRebind()V

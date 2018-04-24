@@ -1,4 +1,4 @@
-.class final Lkik/android/b/a$1;
+.class final Lkik/arcane/b/a$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/b/a;
+    value = Lkik/arcane/b/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,16 +29,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/b/a;
+.field final synthetic a:Lkik/arcane/b/a;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/b/a;)V
+.method constructor <init>(Lkik/arcane/b/a;)V
     .locals 0
 
     .prologue
     .line 43
-    iput-object p1, p0, Lkik/android/b/a$1;->a:Lkik/android/b/a;
+    iput-object p1, p0, Lkik/arcane/b/a$1;->a:Lkik/arcane/b/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

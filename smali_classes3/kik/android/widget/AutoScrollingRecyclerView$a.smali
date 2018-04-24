@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/widget/AutoScrollingRecyclerView$a;
+.class public interface abstract Lkik/arcane/widget/AutoScrollingRecyclerView$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/AutoScrollingRecyclerView;
+    value = Lkik/arcane/widget/AutoScrollingRecyclerView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

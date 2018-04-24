@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/KikApplication$19;
+.class final Lkik/arcane/chat/KikApplication$19;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/KikApplication;->a(Landroid/content/Context;Lkik/core/a;)V
+    value = Lkik/arcane/chat/KikApplication;->a(Landroid/content/Context;Lkik/core/a;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/KikApplication;
+.field final synthetic a:Lkik/arcane/chat/KikApplication;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/KikApplication;)V
+.method constructor <init>(Lkik/arcane/chat/KikApplication;)V
     .locals 0
 
     .prologue
     .line 1338
-    iput-object p1, p0, Lkik/android/chat/KikApplication$19;->a:Lkik/android/chat/KikApplication;
+    iput-object p1, p0, Lkik/arcane/chat/KikApplication$19;->a:Lkik/arcane/chat/KikApplication;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -50,13 +50,13 @@
     invoke-super {p0, p1}, Lcom/kik/events/k;->a(Ljava/lang/Object;)V
 
     .line 1343
-    iget-object v0, p0, Lkik/android/chat/KikApplication$19;->a:Lkik/android/chat/KikApplication;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication$19;->a:Lkik/arcane/chat/KikApplication;
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->J(Lkik/android/chat/KikApplication;)Lkik/android/b/a;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->J(Lkik/arcane/chat/KikApplication;)Lkik/arcane/b/a;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/b/a;->a()V
+    invoke-virtual {v0}, Lkik/arcane/b/a;->a()V
 
     .line 1344
     return-void

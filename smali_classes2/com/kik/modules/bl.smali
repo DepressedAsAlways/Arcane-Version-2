@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lkik/android/chat/JoinGifTrayHelper;",
+        "Lkik/arcane/chat/JoinGifTrayHelper;",
         ">;"
     }
 .end annotation
@@ -131,7 +131,7 @@
             ">;)",
             "Ldagger/internal/b",
             "<",
-            "Lkik/android/chat/JoinGifTrayHelper;",
+            "Lkik/arcane/chat/JoinGifTrayHelper;",
             ">;"
         }
     .end annotation
@@ -163,9 +163,9 @@
     check-cast v0, Lkik/core/interfaces/b;
 
     .line 2017
-    new-instance v1, Lkik/android/chat/JoinGifTrayHelper;
+    new-instance v1, Lkik/arcane/chat/JoinGifTrayHelper;
 
-    invoke-direct {v1, v0}, Lkik/android/chat/JoinGifTrayHelper;-><init>(Lkik/core/interfaces/b;)V
+    invoke-direct {v1, v0}, Lkik/arcane/chat/JoinGifTrayHelper;-><init>(Lkik/core/interfaces/b;)V
 
     .line 1031
     const-string v0, "Cannot return null from a non-@Nullable @Provides method"
@@ -175,7 +175,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/JoinGifTrayHelper;
+    check-cast v0, Lkik/arcane/chat/JoinGifTrayHelper;
 
     .line 10
     return-object v0

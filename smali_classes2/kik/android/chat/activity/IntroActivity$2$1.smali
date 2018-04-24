@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/activity/IntroActivity$2$1;
+.class final Lkik/arcane/chat/activity/IntroActivity$2$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/activity/IntroActivity$2;
+    value = Lkik/arcane/chat/activity/IntroActivity$2;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/activity/IntroActivity$2;
+.field final synthetic a:Lkik/arcane/chat/activity/IntroActivity$2;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/activity/IntroActivity$2;)V
+.method constructor <init>(Lkik/arcane/chat/activity/IntroActivity$2;)V
     .locals 0
 
     .prologue
     .line 135
-    iput-object p1, p0, Lkik/android/chat/activity/IntroActivity$2$1;->a:Lkik/android/chat/activity/IntroActivity$2;
+    iput-object p1, p0, Lkik/arcane/chat/activity/IntroActivity$2$1;->a:Lkik/arcane/chat/activity/IntroActivity$2;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,11 +41,11 @@
 
     .prologue
     .line 138
-    iget-object v0, p0, Lkik/android/chat/activity/IntroActivity$2$1;->a:Lkik/android/chat/activity/IntroActivity$2;
+    iget-object v0, p0, Lkik/arcane/chat/activity/IntroActivity$2$1;->a:Lkik/arcane/chat/activity/IntroActivity$2;
 
-    iget-object v0, v0, Lkik/android/chat/activity/IntroActivity$2;->a:Lkik/android/chat/activity/IntroActivity;
+    iget-object v0, v0, Lkik/arcane/chat/activity/IntroActivity$2;->a:Lkik/arcane/chat/activity/IntroActivity;
 
-    invoke-static {v0}, Lkik/android/chat/activity/IntroActivity;->e(Lkik/android/chat/activity/IntroActivity;)V
+    invoke-static {v0}, Lkik/arcane/chat/activity/IntroActivity;->e(Lkik/arcane/chat/activity/IntroActivity;)V
 
     .line 139
     return-void

@@ -1,11 +1,11 @@
-.class interface abstract Lkik/android/videochat/j$b;
+.class interface abstract Lkik/arcane/videochat/j$b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/videochat/j;
+    value = Lkik/arcane/videochat/j;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

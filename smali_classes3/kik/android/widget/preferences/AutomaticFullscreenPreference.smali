@@ -1,10 +1,10 @@
-.class public Lkik/android/widget/preferences/AutomaticFullscreenPreference;
-.super Lkik/android/widget/preferences/KikSwitchPreference;
+.class public Lkik/arcane/widget/preferences/AutomaticFullscreenPreference;
+.super Lkik/arcane/widget/preferences/KikSwitchPreference;
 .source "SourceFile"
 
 
 # instance fields
-.field private c:Lkik/android/chat/b/a;
+.field private c:Lkik/arcane/chat/b/a;
 
 
 # direct methods
@@ -15,7 +15,7 @@
     .line 26
     const v0, 0x101036d
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/preferences/AutomaticFullscreenPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/preferences/AutomaticFullscreenPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 27
     return-void
@@ -28,7 +28,7 @@
     .line 31
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, p3, v0}, Lkik/android/widget/preferences/KikSwitchPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
+    invoke-direct {p0, p1, p2, p3, v0}, Lkik/arcane/widget/preferences/KikSwitchPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
 
     .line 32
     return-void
@@ -36,12 +36,12 @@
 
 
 # virtual methods
-.method public final a(Lkik/android/chat/b/a;)V
+.method public final a(Lkik/arcane/chat/b/a;)V
     .locals 0
 
     .prologue
     .line 36
-    iput-object p1, p0, Lkik/android/widget/preferences/AutomaticFullscreenPreference;->c:Lkik/android/chat/b/a;
+    iput-object p1, p0, Lkik/arcane/widget/preferences/AutomaticFullscreenPreference;->c:Lkik/arcane/chat/b/a;
 
     .line 37
     return-void
@@ -56,7 +56,7 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/widget/preferences/AutomaticFullscreenPreference;->c:Lkik/android/chat/b/a;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/AutomaticFullscreenPreference;->c:Lkik/arcane/chat/b/a;
 
     if-eqz v0, :cond_0
 
@@ -70,7 +70,7 @@
     if-eqz v0, :cond_1
 
     .line 44
-    iget-object v0, p0, Lkik/android/widget/preferences/AutomaticFullscreenPreference;->b:Lcom/rounds/kik/analytics/IReporter;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/AutomaticFullscreenPreference;->b:Lcom/rounds/kik/analytics/IReporter;
 
     sget-object v1, Lcom/rounds/kik/analytics/BasicEvents;->SETTINGS_AUTOFULLSCREEN_SWITCHON:Lcom/rounds/kik/analytics/BasicEvents;
 
@@ -82,7 +82,7 @@
 
     .line 49
     :goto_0
-    iget-object v0, p0, Lkik/android/widget/preferences/AutomaticFullscreenPreference;->c:Lkik/android/chat/b/a;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/AutomaticFullscreenPreference;->c:Lkik/arcane/chat/b/a;
 
     check-cast p2, Ljava/lang/Boolean;
 
@@ -90,7 +90,7 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/b/a;->b(Z)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/b/a;->b(Z)V
 
     .line 52
     :cond_0
@@ -100,7 +100,7 @@
 
     .line 47
     :cond_1
-    iget-object v0, p0, Lkik/android/widget/preferences/AutomaticFullscreenPreference;->b:Lcom/rounds/kik/analytics/IReporter;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/AutomaticFullscreenPreference;->b:Lcom/rounds/kik/analytics/IReporter;
 
     sget-object v1, Lcom/rounds/kik/analytics/BasicEvents;->SETTINGS_AUTOFULLSCREEN_SWITCHOFF:Lcom/rounds/kik/analytics/BasicEvents;
 

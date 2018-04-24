@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/widget/ContentPreviewImageView$1;
+.class final synthetic Lkik/arcane/widget/ContentPreviewImageView$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/ContentPreviewImageView;
+    value = Lkik/arcane/widget/ContentPreviewImageView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     .prologue
     .line 229
-    invoke-static {}, Lkik/android/widget/ContentPreviewImageView$ContentType;->values()[Lkik/android/widget/ContentPreviewImageView$ContentType;
+    invoke-static {}, Lkik/arcane/widget/ContentPreviewImageView$ContentType;->values()[Lkik/arcane/widget/ContentPreviewImageView$ContentType;
 
     move-result-object v0
 
@@ -32,14 +32,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/widget/ContentPreviewImageView$1;->a:[I
+    sput-object v0, Lkik/arcane/widget/ContentPreviewImageView$1;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/widget/ContentPreviewImageView$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/ContentPreviewImageView$1;->a:[I
 
-    sget-object v1, Lkik/android/widget/ContentPreviewImageView$ContentType;->MEDIA_TRAY:Lkik/android/widget/ContentPreviewImageView$ContentType;
+    sget-object v1, Lkik/arcane/widget/ContentPreviewImageView$ContentType;->MEDIA_TRAY:Lkik/arcane/widget/ContentPreviewImageView$ContentType;
 
-    invoke-virtual {v1}, Lkik/android/widget/ContentPreviewImageView$ContentType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/widget/ContentPreviewImageView$ContentType;->ordinal()I
 
     move-result v1
 
@@ -51,11 +51,11 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/widget/ContentPreviewImageView$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/ContentPreviewImageView$1;->a:[I
 
-    sget-object v1, Lkik/android/widget/ContentPreviewImageView$ContentType;->STICKER:Lkik/android/widget/ContentPreviewImageView$ContentType;
+    sget-object v1, Lkik/arcane/widget/ContentPreviewImageView$ContentType;->STICKER:Lkik/arcane/widget/ContentPreviewImageView$ContentType;
 
-    invoke-virtual {v1}, Lkik/android/widget/ContentPreviewImageView$ContentType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/widget/ContentPreviewImageView$ContentType;->ordinal()I
 
     move-result v1
 

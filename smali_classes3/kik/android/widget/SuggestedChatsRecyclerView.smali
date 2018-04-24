@@ -1,25 +1,25 @@
-.class public Lkik/android/widget/SuggestedChatsRecyclerView;
+.class public Lkik/arcane/widget/SuggestedChatsRecyclerView;
 .super Landroid/support/v7/widget/RecyclerView;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/widget/dn$a;
+.implements Lkik/arcane/widget/dn$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/SuggestedChatsRecyclerView$a;
+        Lkik/arcane/widget/SuggestedChatsRecyclerView$a;
     }
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Landroid/support/v7/widget/RecyclerView;",
-        "Lkik/android/widget/dn$a",
+        "Lkik/arcane/widget/dn$a",
         "<",
-        "Lkik/android/chat/vm/chats/a;",
-        "Lkik/android/widget/SuggestedChatsRecyclerView$a;",
+        "Lkik/arcane/chat/vm/chats/a;",
+        "Lkik/arcane/widget/SuggestedChatsRecyclerView$a;",
         ">;"
     }
 .end annotation
@@ -33,7 +33,7 @@
     .line 27
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/SuggestedChatsRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/SuggestedChatsRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 28
     return-void
@@ -46,7 +46,7 @@
     .line 32
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/SuggestedChatsRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/SuggestedChatsRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 33
     return-void
@@ -71,7 +71,7 @@
     invoke-direct {v0, p1, v1, v2, v3}, Landroid/support/v7/widget/GridLayoutManager;-><init>(Landroid/content/Context;IIZ)V
 
     .line 39
-    invoke-virtual {p0, v0}, Lkik/android/widget/SuggestedChatsRecyclerView;->setLayoutManager(Landroid/support/v7/widget/RecyclerView$LayoutManager;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/SuggestedChatsRecyclerView;->setLayoutManager(Landroid/support/v7/widget/RecyclerView$LayoutManager;)V
 
     .line 40
     return-void
@@ -102,9 +102,9 @@
     move-result-object v0
 
     .line 1052
-    new-instance v1, Lkik/android/widget/SuggestedChatsRecyclerView$a;
+    new-instance v1, Lkik/arcane/widget/SuggestedChatsRecyclerView$a;
 
-    invoke-direct {v1, v0}, Lkik/android/widget/SuggestedChatsRecyclerView$a;-><init>(Landroid/databinding/ViewDataBinding;)V
+    invoke-direct {v1, v0}, Lkik/arcane/widget/SuggestedChatsRecyclerView$a;-><init>(Landroid/databinding/ViewDataBinding;)V
 
     .line 23
     return-object v1

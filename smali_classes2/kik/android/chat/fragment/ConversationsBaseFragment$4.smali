@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/ConversationsBaseFragment$4;
+.class final Lkik/arcane/chat/fragment/ConversationsBaseFragment$4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/ConversationsBaseFragment;
+    value = Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/ConversationsBaseFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/ConversationsBaseFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/ConversationsBaseFragment;)V
     .locals 0
 
     .prologue
     .line 155
-    iput-object p1, p0, Lkik/android/chat/fragment/ConversationsBaseFragment$4;->a:Lkik/android/chat/fragment/ConversationsBaseFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ConversationsBaseFragment$4;->a:Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -56,9 +56,9 @@
     check-cast p2, Lkik/core/datatypes/Message;
 
     .line 1159
-    iget-object v0, p0, Lkik/android/chat/fragment/ConversationsBaseFragment$4;->a:Lkik/android/chat/fragment/ConversationsBaseFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ConversationsBaseFragment$4;->a:Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/ConversationsBaseFragment;->access$000(Lkik/android/chat/fragment/ConversationsBaseFragment;)Z
+    invoke-static {v0}, Lkik/arcane/chat/fragment/ConversationsBaseFragment;->access$000(Lkik/arcane/chat/fragment/ConversationsBaseFragment;)Z
 
     move-result v0
 
@@ -73,9 +73,9 @@
     if-eqz v0, :cond_0
 
     .line 1164
-    iget-object v0, p0, Lkik/android/chat/fragment/ConversationsBaseFragment$4;->a:Lkik/android/chat/fragment/ConversationsBaseFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ConversationsBaseFragment$4;->a:Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/ConversationsBaseFragment;->_convoManager:Lkik/core/interfaces/IConversation;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/ConversationsBaseFragment;->_convoManager:Lkik/core/interfaces/IConversation;
 
     invoke-virtual {p2}, Lkik/core/datatypes/Message;->i()Ljava/lang/String;
 
@@ -86,17 +86,17 @@
     move-result-object v0
 
     .line 1165
-    iget-object v2, p0, Lkik/android/chat/fragment/ConversationsBaseFragment$4;->a:Lkik/android/chat/fragment/ConversationsBaseFragment;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/ConversationsBaseFragment$4;->a:Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 
-    iget-object v2, v2, Lkik/android/chat/fragment/ConversationsBaseFragment;->_convoManager:Lkik/core/interfaces/IConversation;
+    iget-object v2, v2, Lkik/arcane/chat/fragment/ConversationsBaseFragment;->_convoManager:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v2, v0}, Lkik/core/interfaces/IConversation;->a(Lkik/core/datatypes/f;)I
 
     move-result v0
 
-    iget-object v2, p0, Lkik/android/chat/fragment/ConversationsBaseFragment$4;->a:Lkik/android/chat/fragment/ConversationsBaseFragment;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/ConversationsBaseFragment$4;->a:Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 
-    invoke-virtual {v2}, Lkik/android/chat/fragment/ConversationsBaseFragment;->getRelevantConvoType()I
+    invoke-virtual {v2}, Lkik/arcane/chat/fragment/ConversationsBaseFragment;->getRelevantConvoType()I
 
     move-result v2
 
@@ -111,9 +111,9 @@
     if-eqz v0, :cond_0
 
     .line 1167
-    iget-object v0, p0, Lkik/android/chat/fragment/ConversationsBaseFragment$4;->a:Lkik/android/chat/fragment/ConversationsBaseFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ConversationsBaseFragment$4;->a:Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 
-    invoke-static {v0, v1}, Lkik/android/chat/fragment/ConversationsBaseFragment;->access$002(Lkik/android/chat/fragment/ConversationsBaseFragment;Z)Z
+    invoke-static {v0, v1}, Lkik/arcane/chat/fragment/ConversationsBaseFragment;->access$002(Lkik/arcane/chat/fragment/ConversationsBaseFragment;Z)Z
 
     .line 155
     :cond_0

@@ -1,11 +1,11 @@
-.class final enum Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;
+.class final enum Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;
 .super Ljava/lang/Enum;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    value = Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,18 +17,18 @@
     value = {
         "Ljava/lang/Enum",
         "<",
-        "Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;",
+        "Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;",
         ">;"
     }
 .end annotation
 
 
 # static fields
-.field private static final synthetic $VALUES:[Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;
+.field private static final synthetic $VALUES:[Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;
 
-.field public static final enum HIDDEN:Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;
+.field public static final enum HIDDEN:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;
 
-.field public static final enum SIMPLE:Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;
+.field public static final enum SIMPLE:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;
 
 
 # direct methods
@@ -41,36 +41,36 @@
     const/4 v2, 0x0
 
     .line 639
-    new-instance v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;
+    new-instance v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;
 
     const-string v1, "HIDDEN"
 
-    invoke-direct {v0, v1, v2}, Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;->HIDDEN:Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;
+    sput-object v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;->HIDDEN:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;
 
-    new-instance v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;
+    new-instance v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;
 
     const-string v1, "SIMPLE"
 
-    invoke-direct {v0, v1, v3}, Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v3}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;->SIMPLE:Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;
+    sput-object v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;->SIMPLE:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;
 
     .line 637
     const/4 v0, 0x2
 
-    new-array v0, v0, [Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;
+    new-array v0, v0, [Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;
 
-    sget-object v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;->HIDDEN:Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;
+    sget-object v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;->HIDDEN:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;->SIMPLE:Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;
+    sget-object v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;->SIMPLE:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;
 
     aput-object v1, v0, v3
 
-    sput-object v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;->$VALUES:[Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;
+    sput-object v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;->$VALUES:[Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;
 
     return-void
 .end method
@@ -90,34 +90,34 @@
     return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;
+.method public static valueOf(Ljava/lang/String;)Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;
     .locals 1
 
     .prologue
     .line 637
-    const-class v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;
+    const-class v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;
+    check-cast v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;
 
     return-object v0
 .end method
 
-.method public static values()[Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;
+.method public static values()[Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;
     .locals 1
 
     .prologue
     .line 637
-    sget-object v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;->$VALUES:[Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;
+    sget-object v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;->$VALUES:[Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;
 
-    invoke-virtual {v0}, [Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkik/android/chat/presentation/MediaTrayPresenterImpl$MediaState;
+    check-cast v0, [Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$MediaState;
 
     return-object v0
 .end method

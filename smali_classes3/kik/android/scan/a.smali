@@ -1,4 +1,4 @@
-.class public final Lkik/android/scan/a;
+.class public final Lkik/arcane/scan/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -32,7 +32,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/scan/a;->d:Ljava/util/concurrent/ScheduledExecutorService;
+    sput-object v0, Lkik/arcane/scan/a;->d:Ljava/util/concurrent/ScheduledExecutorService;
 
     return-void
 .end method
@@ -47,7 +47,7 @@
     .line 17
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/scan/a;->c:Z
+    iput-boolean v0, p0, Lkik/arcane/scan/a;->c:Z
 
     .line 19
     const-string v0, "ScanFocus"
@@ -56,46 +56,46 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/scan/a;->e:Lorg/slf4j/b;
+    iput-object v0, p0, Lkik/arcane/scan/a;->e:Lorg/slf4j/b;
 
     .line 24
-    iput-object p1, p0, Lkik/android/scan/a;->a:Landroid/hardware/Camera;
+    iput-object p1, p0, Lkik/arcane/scan/a;->a:Landroid/hardware/Camera;
 
     .line 25
     const/16 v0, 0x3e8
 
-    iput v0, p0, Lkik/android/scan/a;->b:I
+    iput v0, p0, Lkik/arcane/scan/a;->b:I
 
     .line 26
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/scan/a;)Lorg/slf4j/b;
+.method static synthetic a(Lkik/arcane/scan/a;)Lorg/slf4j/b;
     .locals 1
 
     .prologue
     .line 13
-    iget-object v0, p0, Lkik/android/scan/a;->e:Lorg/slf4j/b;
+    iget-object v0, p0, Lkik/arcane/scan/a;->e:Lorg/slf4j/b;
 
     return-object v0
 .end method
 
-.method static synthetic b(Lkik/android/scan/a;)Z
+.method static synthetic b(Lkik/arcane/scan/a;)Z
     .locals 1
 
     .prologue
     .line 13
-    iget-boolean v0, p0, Lkik/android/scan/a;->c:Z
+    iget-boolean v0, p0, Lkik/arcane/scan/a;->c:Z
 
     return v0
 .end method
 
-.method static synthetic c(Lkik/android/scan/a;)Landroid/hardware/Camera;
+.method static synthetic c(Lkik/arcane/scan/a;)Landroid/hardware/Camera;
     .locals 1
 
     .prologue
     .line 13
-    iget-object v0, p0, Lkik/android/scan/a;->a:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/scan/a;->a:Landroid/hardware/Camera;
 
     return-object v0
 .end method
@@ -107,13 +107,13 @@
 
     .prologue
     .line 30
-    sget-object v0, Lkik/android/scan/a;->d:Ljava/util/concurrent/ScheduledExecutorService;
+    sget-object v0, Lkik/arcane/scan/a;->d:Ljava/util/concurrent/ScheduledExecutorService;
 
-    new-instance v1, Lkik/android/scan/a$1;
+    new-instance v1, Lkik/arcane/scan/a$1;
 
-    invoke-direct {v1, p0}, Lkik/android/scan/a$1;-><init>(Lkik/android/scan/a;)V
+    invoke-direct {v1, p0}, Lkik/arcane/scan/a$1;-><init>(Lkik/arcane/scan/a;)V
 
-    iget v2, p0, Lkik/android/scan/a;->b:I
+    iget v2, p0, Lkik/arcane/scan/a;->b:I
 
     int-to-long v2, v2
 
@@ -132,7 +132,7 @@
     .line 44
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/scan/a;->c:Z
+    iput-boolean v0, p0, Lkik/arcane/scan/a;->c:Z
 
     .line 45
     return-void
@@ -143,7 +143,7 @@
 
     .prologue
     .line 49
-    invoke-virtual {p0}, Lkik/android/scan/a;->a()V
+    invoke-virtual {p0}, Lkik/arcane/scan/a;->a()V
 
     .line 50
     return-void

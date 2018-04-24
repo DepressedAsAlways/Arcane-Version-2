@@ -1,11 +1,11 @@
-.class final Lkik/android/util/be$a;
+.class final Lkik/arcane/util/be$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/be;
+    value = Lkik/arcane/util/be;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -55,17 +55,17 @@
     :cond_0
     new-instance v0, Ljava/util/ArrayDeque;
 
-    iget v1, p0, Lkik/android/util/be$a;->a:I
+    iget v1, p0, Lkik/arcane/util/be$a;->a:I
 
     invoke-direct {v0, v1}, Ljava/util/ArrayDeque;-><init>(I)V
 
-    iput-object v0, p0, Lkik/android/util/be$a;->c:Ljava/util/ArrayDeque;
+    iput-object v0, p0, Lkik/arcane/util/be$a;->c:Ljava/util/ArrayDeque;
 
     .line 29
-    iput p2, p0, Lkik/android/util/be$a;->a:I
+    iput p2, p0, Lkik/arcane/util/be$a;->a:I
 
     .line 30
-    iput p1, p0, Lkik/android/util/be$a;->b:I
+    iput p1, p0, Lkik/arcane/util/be$a;->b:I
 
     .line 31
     return-void
@@ -79,7 +79,7 @@
     .prologue
     .line 62
     :try_start_0
-    iget-object v0, p0, Lkik/android/util/be$a;->c:Ljava/util/ArrayDeque;
+    iget-object v0, p0, Lkik/arcane/util/be$a;->c:Ljava/util/ArrayDeque;
 
     invoke-virtual {v0}, Ljava/util/ArrayDeque;->pop()Ljava/lang/Object;
 
@@ -106,13 +106,13 @@
 
     .prologue
     .line 50
-    iget-object v0, p0, Lkik/android/util/be$a;->c:Ljava/util/ArrayDeque;
+    iget-object v0, p0, Lkik/arcane/util/be$a;->c:Ljava/util/ArrayDeque;
 
     invoke-virtual {v0}, Ljava/util/ArrayDeque;->size()I
 
     move-result v0
 
-    iget v1, p0, Lkik/android/util/be$a;->a:I
+    iget v1, p0, Lkik/arcane/util/be$a;->a:I
 
     if-lt v0, v1, :cond_0
 
@@ -125,7 +125,7 @@
 
     .line 54
     :cond_0
-    iget-object v0, p0, Lkik/android/util/be$a;->c:Ljava/util/ArrayDeque;
+    iget-object v0, p0, Lkik/arcane/util/be$a;->c:Ljava/util/ArrayDeque;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayDeque;->push(Ljava/lang/Object;)V
 
@@ -140,7 +140,7 @@
 
     .prologue
     .line 71
-    iget-object v0, p0, Lkik/android/util/be$a;->c:Ljava/util/ArrayDeque;
+    iget-object v0, p0, Lkik/arcane/util/be$a;->c:Ljava/util/ArrayDeque;
 
     invoke-virtual {v0}, Ljava/util/ArrayDeque;->clear()V
 

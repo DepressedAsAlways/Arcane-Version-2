@@ -1,11 +1,11 @@
-.class public final Lkik/android/util/f$b;
+.class public final Lkik/arcane/util/f$b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/f;
+    value = Lkik/arcane/util/f;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -31,7 +31,7 @@
     .line 467
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/util/f$b;->b:Z
+    iput-boolean v0, p0, Lkik/arcane/util/f$b;->b:Z
 
     return-void
 .end method
@@ -43,7 +43,7 @@
 
     .prologue
     .line 471
-    iget-object v0, p0, Lkik/android/util/f$b;->a:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/util/f$b;->a:Landroid/graphics/Bitmap;
 
     return-object v0
 .end method
@@ -53,7 +53,7 @@
 
     .prologue
     .line 476
-    iput-object p1, p0, Lkik/android/util/f$b;->a:Landroid/graphics/Bitmap;
+    iput-object p1, p0, Lkik/arcane/util/f$b;->a:Landroid/graphics/Bitmap;
 
     .line 477
     return-void
@@ -64,7 +64,7 @@
 
     .prologue
     .line 481
-    iget-boolean v0, p0, Lkik/android/util/f$b;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/util/f$b;->b:Z
 
     return v0
 .end method
@@ -76,7 +76,7 @@
     .line 486
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/util/f$b;->b:Z
+    iput-boolean v0, p0, Lkik/arcane/util/f$b;->b:Z
 
     .line 487
     return-void

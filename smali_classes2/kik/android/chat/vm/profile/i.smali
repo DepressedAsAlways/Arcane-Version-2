@@ -1,9 +1,9 @@
-.class public abstract Lkik/android/chat/vm/profile/i;
-.super Lkik/android/chat/vm/profile/a;
+.class public abstract Lkik/arcane/chat/vm/profile/i;
+.super Lkik/arcane/chat/vm/profile/a;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/profile/dv;
+.implements Lkik/arcane/chat/vm/profile/dv;
 
 
 # instance fields
@@ -27,23 +27,23 @@
 
     .prologue
     .line 20
-    invoke-direct {p0}, Lkik/android/chat/vm/profile/a;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/profile/a;-><init>()V
 
     .line 17
     invoke-static {}, Lrx/subjects/PublishSubject;->m()Lrx/subjects/PublishSubject;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/vm/profile/i;->c:Lrx/subjects/PublishSubject;
+    iput-object v0, p0, Lkik/arcane/chat/vm/profile/i;->c:Lrx/subjects/PublishSubject;
 
     .line 21
-    invoke-virtual {p0}, Lkik/android/chat/vm/profile/i;->ag_()Lrx/f/b;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/profile/i;->ag_()Lrx/f/b;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/chat/vm/profile/i;->c:Lrx/subjects/PublishSubject;
+    iget-object v1, p0, Lkik/arcane/chat/vm/profile/i;->c:Lrx/subjects/PublishSubject;
 
-    invoke-static {p0}, Lkik/android/chat/vm/profile/j;->a(Lkik/android/chat/vm/profile/i;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/vm/profile/j;->a(Lkik/arcane/chat/vm/profile/i;)Lrx/functions/b;
 
     move-result-object v2
 
@@ -57,19 +57,19 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/profile/i;Ljava/lang/Boolean;)V
+.method static synthetic a(Lkik/arcane/chat/vm/profile/i;Ljava/lang/Boolean;)V
     .locals 1
 
     .prologue
     .line 45
-    iget-object v0, p0, Lkik/android/chat/vm/profile/i;->c:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/i;->c:Lrx/subjects/PublishSubject;
 
     invoke-virtual {v0, p1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/chat/vm/profile/i;Ljava/lang/Boolean;)V
+.method static synthetic b(Lkik/arcane/chat/vm/profile/i;Ljava/lang/Boolean;)V
     .locals 1
 
     .prologue
@@ -78,7 +78,7 @@
 
     move-result v0
 
-    iput-boolean v0, p0, Lkik/android/chat/vm/profile/i;->b:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/vm/profile/i;->b:Z
 
     return-void
 .end method
@@ -91,9 +91,9 @@
     .prologue
     .line 27
     .line 1033
-    iget-object v1, p0, Lkik/android/chat/vm/profile/i;->c:Lrx/subjects/PublishSubject;
+    iget-object v1, p0, Lkik/arcane/chat/vm/profile/i;->c:Lrx/subjects/PublishSubject;
 
-    iget-boolean v0, p0, Lkik/android/chat/vm/profile/i;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/vm/profile/i;->b:Z
 
     if-nez v0, :cond_0
 
@@ -130,7 +130,7 @@
 
     .prologue
     .line 39
-    iget-object v0, p0, Lkik/android/chat/vm/profile/i;->c:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/i;->c:Lrx/subjects/PublishSubject;
 
     invoke-virtual {v0}, Lrx/subjects/PublishSubject;->f()Lrx/d;
 
@@ -153,7 +153,7 @@
 
     .prologue
     .line 45
-    invoke-static {p0}, Lkik/android/chat/vm/profile/k;->a(Lkik/android/chat/vm/profile/i;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/vm/profile/k;->a(Lkik/arcane/chat/vm/profile/i;)Lrx/functions/b;
 
     move-result-object v0
 

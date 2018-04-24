@@ -99,7 +99,7 @@
     invoke-direct {v0, p2, p1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
     .line 47
-    invoke-static {v0, v1}, Lkik/android/util/e;->a(Ljava/io/File;Ljava/io/File;)V
+    invoke-static {v0, v1}, Lkik/arcane/util/e;->a(Ljava/io/File;Ljava/io/File;)V
 
     .line 49
     const-string v2, "AN"

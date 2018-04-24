@@ -77,7 +77,7 @@
     move-result-object v3
 
     .line 1101
-    invoke-static {v7}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v7}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -100,7 +100,7 @@
 
     .line 1104
     :cond_0
-    invoke-static {v3}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v3}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 

@@ -1,10 +1,10 @@
-.class public final Lkik/android/util/bq;
-.super Lkik/android/util/bt;
+.class public final Lkik/arcane/util/bq;
+.super Lkik/arcane/util/bt;
 .source "SourceFile"
 
 
 # static fields
-.field private static a:Lkik/android/util/bq;
+.field private static a:Lkik/arcane/util/bq;
 
 
 # direct methods
@@ -13,11 +13,11 @@
 
     .prologue
     .line 17
-    new-instance v0, Lkik/android/util/bq;
+    new-instance v0, Lkik/arcane/util/bq;
 
-    invoke-direct {v0}, Lkik/android/util/bq;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/util/bq;-><init>()V
 
-    sput-object v0, Lkik/android/util/bq;->a:Lkik/android/util/bq;
+    sput-object v0, Lkik/arcane/util/bq;->a:Lkik/arcane/util/bq;
 
     return-void
 .end method
@@ -27,7 +27,7 @@
 
     .prologue
     .line 26
-    invoke-direct {p0}, Lkik/android/util/bt;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/util/bt;-><init>()V
 
     .line 27
     return-void
@@ -38,7 +38,7 @@
 
     .prologue
     .line 21
-    sget-object v0, Lkik/android/util/bq;->a:Lkik/android/util/bq;
+    sget-object v0, Lkik/arcane/util/bq;->a:Lkik/arcane/util/bq;
 
     return-object v0
 .end method
@@ -50,9 +50,9 @@
 
     .prologue
     .line 32
-    const-class v0, Lcom/kik/android/b/c;
+    const-class v0, Lcom/kik/arcane/b/c;
 
-    invoke-static {p1, p2, p3, v0}, Lkik/android/util/bq;->a(Landroid/widget/TextView;Landroid/text/Spannable;Landroid/view/MotionEvent;Ljava/lang/Class;)Z
+    invoke-static {p1, p2, p3, v0}, Lkik/arcane/util/bq;->a(Landroid/widget/TextView;Landroid/text/Spannable;Landroid/view/MotionEvent;Ljava/lang/Class;)Z
 
     move-result v0
 

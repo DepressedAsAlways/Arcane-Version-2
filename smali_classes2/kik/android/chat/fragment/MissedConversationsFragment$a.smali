@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/MissedConversationsFragment$a;
-.super Lkik/android/util/aq;
+.class final Lkik/arcane/chat/fragment/MissedConversationsFragment$a;
+.super Lkik/arcane/util/aq;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/MissedConversationsFragment;
+    value = Lkik/arcane/chat/fragment/MissedConversationsFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,7 +15,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkik/android/util/aq",
+        "Lkik/arcane/util/aq",
         "<",
         "Ljava/lang/Void;",
         "Ljava/lang/Void;",
@@ -31,7 +31,7 @@
         value = {
             "Ljava/lang/ref/WeakReference",
             "<",
-            "Lkik/android/chat/fragment/MissedConversationsFragment;",
+            "Lkik/arcane/chat/fragment/MissedConversationsFragment;",
             ">;"
         }
     .end annotation
@@ -39,19 +39,19 @@
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/MissedConversationsFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/MissedConversationsFragment;)V
     .locals 1
 
     .prologue
     .line 402
-    invoke-direct {p0}, Lkik/android/util/aq;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/util/aq;-><init>()V
 
     .line 403
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/MissedConversationsFragment$a;->a:Ljava/lang/ref/WeakReference;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment$a;->a:Ljava/lang/ref/WeakReference;
 
     .line 404
     return-void
@@ -65,19 +65,19 @@
     .prologue
     .line 396
     .line 2409
-    iget-object v0, p0, Lkik/android/chat/fragment/MissedConversationsFragment$a;->a:Ljava/lang/ref/WeakReference;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment$a;->a:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/fragment/MissedConversationsFragment;
+    check-cast v0, Lkik/arcane/chat/fragment/MissedConversationsFragment;
 
     .line 2410
     if-eqz v0, :cond_1
 
     .line 2413
-    iget-object v1, v0, Lkik/android/chat/fragment/MissedConversationsFragment;->_convoManager:Lkik/core/interfaces/IConversation;
+    iget-object v1, v0, Lkik/arcane/chat/fragment/MissedConversationsFragment;->_convoManager:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v1}, Lkik/core/interfaces/IConversation;->I()Ljava/util/List;
 
@@ -102,7 +102,7 @@
     check-cast v1, Lkik/core/datatypes/f;
 
     .line 2415
-    iget-object v3, v0, Lkik/android/chat/fragment/MissedConversationsFragment;->_convoManager:Lkik/core/interfaces/IConversation;
+    iget-object v3, v0, Lkik/arcane/chat/fragment/MissedConversationsFragment;->_convoManager:Lkik/core/interfaces/IConversation;
 
     invoke-virtual {v1}, Lkik/core/datatypes/f;->g()Ljava/lang/String;
 
@@ -114,7 +114,7 @@
 
     .line 2417
     :cond_0
-    iget-object v1, v0, Lkik/android/chat/fragment/MissedConversationsFragment;->_convoManager:Lkik/core/interfaces/IConversation;
+    iget-object v1, v0, Lkik/arcane/chat/fragment/MissedConversationsFragment;->_convoManager:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v1}, Lkik/core/interfaces/IConversation;->J()Ljava/util/List;
 
@@ -139,7 +139,7 @@
     check-cast v1, Lkik/core/datatypes/f;
 
     .line 2419
-    iget-object v3, v0, Lkik/android/chat/fragment/MissedConversationsFragment;->_convoManager:Lkik/core/interfaces/IConversation;
+    iget-object v3, v0, Lkik/arcane/chat/fragment/MissedConversationsFragment;->_convoManager:Lkik/core/interfaces/IConversation;
 
     invoke-virtual {v1}, Lkik/core/datatypes/f;->g()Ljava/lang/String;
 
@@ -165,22 +165,22 @@
     check-cast p1, Ljava/lang/Void;
 
     .line 1427
-    invoke-super {p0, p1}, Lkik/android/util/aq;->onPostExecute(Ljava/lang/Object;)V
+    invoke-super {p0, p1}, Lkik/arcane/util/aq;->onPostExecute(Ljava/lang/Object;)V
 
     .line 1428
-    iget-object v0, p0, Lkik/android/chat/fragment/MissedConversationsFragment$a;->a:Ljava/lang/ref/WeakReference;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment$a;->a:Ljava/lang/ref/WeakReference;
 
     invoke-virtual {v0}, Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/fragment/MissedConversationsFragment;
+    check-cast v0, Lkik/arcane/chat/fragment/MissedConversationsFragment;
 
     .line 1429
     if-eqz v0, :cond_0
 
     .line 1432
-    invoke-virtual {v0}, Lkik/android/chat/fragment/MissedConversationsFragment;->finish()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/MissedConversationsFragment;->finish()V
 
     .line 396
     :cond_0

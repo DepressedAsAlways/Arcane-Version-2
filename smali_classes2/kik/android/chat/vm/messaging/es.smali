@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/messaging/es;
+.class final synthetic Lkik/arcane/chat/vm/messaging/es;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/vm/messaging/es;
+.field private static final a:Lkik/arcane/chat/vm/messaging/es;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/messaging/es;
+    new-instance v0, Lkik/arcane/chat/vm/messaging/es;
 
-    invoke-direct {v0}, Lkik/android/chat/vm/messaging/es;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/vm/messaging/es;-><init>()V
 
-    sput-object v0, Lkik/android/chat/vm/messaging/es;->a:Lkik/android/chat/vm/messaging/es;
+    sput-object v0, Lkik/arcane/chat/vm/messaging/es;->a:Lkik/arcane/chat/vm/messaging/es;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lrx/functions/g;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/vm/messaging/es;->a:Lkik/android/chat/vm/messaging/es;
+    sget-object v0, Lkik/arcane/chat/vm/messaging/es;->a:Lkik/arcane/chat/vm/messaging/es;
 
     return-object v0
 .end method
@@ -45,7 +45,7 @@
 
     check-cast p1, [B
 
-    invoke-static {p1}, Lkik/android/chat/vm/messaging/er;->a([B)Landroid/graphics/Bitmap;
+    invoke-static {p1}, Lkik/arcane/chat/vm/messaging/er;->a([B)Landroid/graphics/Bitmap;
 
     move-result-object v0
 

@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/view/CameraViewImpl$1;
+.class final Lkik/arcane/chat/view/CameraViewImpl$1;
 .super Landroid/view/GestureDetector$SimpleOnGestureListener;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/view/CameraViewImpl;->a(Landroid/content/Context;)V
+    value = Lkik/arcane/chat/view/CameraViewImpl;->a(Landroid/content/Context;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/view/CameraViewImpl;
+.field final synthetic a:Lkik/arcane/chat/view/CameraViewImpl;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/view/CameraViewImpl;)V
+.method constructor <init>(Lkik/arcane/chat/view/CameraViewImpl;)V
     .locals 0
 
     .prologue
     .line 111
-    iput-object p1, p0, Lkik/android/chat/view/CameraViewImpl$1;->a:Lkik/android/chat/view/CameraViewImpl;
+    iput-object p1, p0, Lkik/arcane/chat/view/CameraViewImpl$1;->a:Lkik/arcane/chat/view/CameraViewImpl;
 
     invoke-direct {p0}, Landroid/view/GestureDetector$SimpleOnGestureListener;-><init>()V
 
@@ -38,13 +38,13 @@
 
     .prologue
     .line 122
-    iget-object v0, p0, Lkik/android/chat/view/CameraViewImpl$1;->a:Lkik/android/chat/view/CameraViewImpl;
+    iget-object v0, p0, Lkik/arcane/chat/view/CameraViewImpl$1;->a:Lkik/arcane/chat/view/CameraViewImpl;
 
-    invoke-static {v0}, Lkik/android/chat/view/CameraViewImpl;->c(Lkik/android/chat/view/CameraViewImpl;)Lkik/android/chat/view/s$a;
+    invoke-static {v0}, Lkik/arcane/chat/view/CameraViewImpl;->c(Lkik/arcane/chat/view/CameraViewImpl;)Lkik/arcane/chat/view/s$a;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkik/android/chat/view/s$a;->u()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/s$a;->u()V
 
     .line 123
     const/4 v0, 0x1

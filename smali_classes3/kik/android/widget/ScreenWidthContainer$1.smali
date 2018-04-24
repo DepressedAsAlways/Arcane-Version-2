@@ -1,4 +1,4 @@
-.class final Lkik/android/widget/ScreenWidthContainer$1;
+.class final Lkik/arcane/widget/ScreenWidthContainer$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/ScreenWidthContainer;
+    value = Lkik/arcane/widget/ScreenWidthContainer;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/ScreenWidthContainer;
+.field final synthetic a:Lkik/arcane/widget/ScreenWidthContainer;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/ScreenWidthContainer;)V
+.method constructor <init>(Lkik/arcane/widget/ScreenWidthContainer;)V
     .locals 0
 
     .prologue
     .line 17
-    iput-object p1, p0, Lkik/android/widget/ScreenWidthContainer$1;->a:Lkik/android/widget/ScreenWidthContainer;
+    iput-object p1, p0, Lkik/arcane/widget/ScreenWidthContainer$1;->a:Lkik/arcane/widget/ScreenWidthContainer;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,9 +41,9 @@
 
     .prologue
     .line 21
-    iget-object v0, p0, Lkik/android/widget/ScreenWidthContainer$1;->a:Lkik/android/widget/ScreenWidthContainer;
+    iget-object v0, p0, Lkik/arcane/widget/ScreenWidthContainer$1;->a:Lkik/arcane/widget/ScreenWidthContainer;
 
-    invoke-static {v0}, Lkik/android/widget/ScreenWidthContainer;->a(Lkik/android/widget/ScreenWidthContainer;)V
+    invoke-static {v0}, Lkik/arcane/widget/ScreenWidthContainer;->a(Lkik/arcane/widget/ScreenWidthContainer;)V
 
     .line 22
     return-void

@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/view/text/a;
+.class public final Lkik/arcane/chat/view/text/a;
 .super Landroid/text/style/ClickableSpan;
 .source "SourceFile"
 
@@ -18,10 +18,10 @@
     invoke-direct {p0}, Landroid/text/style/ClickableSpan;-><init>()V
 
     .line 21
-    iput-object p1, p0, Lkik/android/chat/view/text/a;->a:Lrx/functions/a;
+    iput-object p1, p0, Lkik/arcane/chat/view/text/a;->a:Lrx/functions/a;
 
     .line 22
-    iput p2, p0, Lkik/android/chat/view/text/a;->b:I
+    iput p2, p0, Lkik/arcane/chat/view/text/a;->b:I
 
     .line 23
     return-void
@@ -34,7 +34,7 @@
 
     .prologue
     .line 28
-    iget-object v0, p0, Lkik/android/chat/view/text/a;->a:Lrx/functions/a;
+    iget-object v0, p0, Lkik/arcane/chat/view/text/a;->a:Lrx/functions/a;
 
     invoke-interface {v0}, Lrx/functions/a;->a()V
 
@@ -50,7 +50,7 @@
     invoke-super {p0, p1}, Landroid/text/style/ClickableSpan;->updateDrawState(Landroid/text/TextPaint;)V
 
     .line 35
-    iget v0, p0, Lkik/android/chat/view/text/a;->b:I
+    iget v0, p0, Lkik/arcane/chat/view/text/a;->b:I
 
     invoke-virtual {p1, v0}, Landroid/text/TextPaint;->setColor(I)V
 

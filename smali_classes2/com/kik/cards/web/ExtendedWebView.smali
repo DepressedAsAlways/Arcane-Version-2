@@ -573,7 +573,7 @@
     .line 151
     iget-object v1, p0, Lcom/kik/cards/web/ExtendedWebView;->y:Ljava/io/File;
 
-    invoke-static {v0, v1}, Lkik/android/util/e;->a(Ljava/io/File;Ljava/io/File;)V
+    invoke-static {v0, v1}, Lkik/arcane/util/e;->a(Ljava/io/File;Ljava/io/File;)V
 
     .line 152
     return-void
@@ -583,7 +583,7 @@
     move-exception v0
 
     .line 2438
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v2
 
@@ -974,7 +974,7 @@
     .line 293
     iget-object v4, p0, Lcom/kik/cards/web/ExtendedWebView;->y:Ljava/io/File;
 
-    invoke-static {v4}, Lkik/android/internal/platform/PlatformUtils;->a(Ljava/io/File;)J
+    invoke-static {v4}, Lkik/arcane/internal/platform/PlatformUtils;->a(Ljava/io/File;)J
 
     move-result-wide v8
 
@@ -1439,7 +1439,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 

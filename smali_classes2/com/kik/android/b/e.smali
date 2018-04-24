@@ -1,13 +1,13 @@
-.class public interface abstract Lcom/kik/android/b/e;
+.class public interface abstract Lcom/kik/arcane/b/e;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # virtual methods
-.method public abstract a(Lcom/kik/android/b/f;)J
+.method public abstract a(Lcom/kik/arcane/b/f;)J
 .end method
 
-.method public abstract a(Ljava/lang/String;)Lcom/kik/android/b/f;
+.method public abstract a(Ljava/lang/String;)Lcom/kik/arcane/b/f;
 .end method
 
 .method public abstract a()Ljava/util/List;
@@ -16,13 +16,13 @@
             "()",
             "Ljava/util/List",
             "<",
-            "Lcom/kik/android/b/f;",
+            "Lcom/kik/arcane/b/f;",
             ">;"
         }
     .end annotation
 .end method
 
-.method public abstract a(Lcom/kik/android/b/a;)V
+.method public abstract a(Lcom/kik/arcane/b/a;)V
 .end method
 
 .method public abstract a(Ljava/util/List;)V
@@ -31,7 +31,7 @@
             "(",
             "Ljava/util/List",
             "<",
-            "Lcom/kik/android/b/f;",
+            "Lcom/kik/arcane/b/f;",
             ">;)V"
         }
     .end annotation
@@ -40,16 +40,16 @@
 .method public abstract b()V
 .end method
 
-.method public abstract b(Lcom/kik/android/b/a;)V
+.method public abstract b(Lcom/kik/arcane/b/a;)V
 .end method
 
-.method public abstract b(Lcom/kik/android/b/f;)V
+.method public abstract b(Lcom/kik/arcane/b/f;)V
 .end method
 
 .method public abstract b(Ljava/lang/String;)V
 .end method
 
-.method public abstract c(Ljava/lang/String;)Lcom/kik/android/b/a;
+.method public abstract c(Ljava/lang/String;)Lcom/kik/arcane/b/a;
 .end method
 
 .method public abstract c()V
@@ -62,7 +62,7 @@
             "Ljava/util/Map",
             "<",
             "Ljava/lang/String;",
-            "Lcom/kik/android/b/a;",
+            "Lcom/kik/arcane/b/a;",
             ">;"
         }
     .end annotation

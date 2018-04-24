@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$1;
+.class final Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;->a()V
+    value = Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;->a()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;)V
     .locals 0
 
     .prologue
     .line 103
-    iput-object p1, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$1;->a:Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$1;->a:Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -59,14 +59,14 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/challenge/CountryCode;
+    check-cast v0, Lkik/arcane/challenge/CountryCode;
 
     .line 1109
-    iget-object v1, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$1;->a:Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$1;->a:Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;
 
-    iget-object v1, v1, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;->a:Lkik/android/chat/presentation/br;
+    iget-object v1, v1, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;->a:Lkik/arcane/chat/presentation/br;
 
-    invoke-interface {v1, v0}, Lkik/android/chat/presentation/br;->a(Lkik/android/challenge/CountryCode;)V
+    invoke-interface {v1, v0}, Lkik/arcane/chat/presentation/br;->a(Lkik/arcane/challenge/CountryCode;)V
 
     .line 103
     return-void

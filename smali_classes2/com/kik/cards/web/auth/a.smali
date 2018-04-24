@@ -1062,7 +1062,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lkik/android/chat/KikApplication;->c()Ljava/lang/String;
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->c()Ljava/lang/String;
 
     move-result-object v2
 
@@ -1277,7 +1277,7 @@
     invoke-interface {v0, v1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 494
-    invoke-static {p4}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {p4}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v1
 

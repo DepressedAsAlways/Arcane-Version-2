@@ -1,5 +1,5 @@
-.class public interface abstract Lkik/android/chat/presentation/q;
+.class public interface abstract Lkik/arcane/chat/presentation/q;
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lkik/android/chat/presentation/bu;
+.implements Lkik/arcane/chat/presentation/bu;

@@ -1,5 +1,5 @@
-.class public Lkik/android/chat/activity/ConversationsActivity;
-.super Lkik/android/chat/activity/FragmentWrapperActivity;
+.class public Lkik/arcane/chat/activity/ConversationsActivity;
+.super Lkik/arcane/chat/activity/FragmentWrapperActivity;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
     .prologue
     .line 11
-    invoke-direct {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;-><init>()V
 
     return-void
 .end method
@@ -21,19 +21,19 @@
 
     .prologue
     .line 19
-    invoke-super {p0, p1}, Lkik/android/chat/activity/FragmentWrapperActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->onCreate(Landroid/os/Bundle;)V
 
     .line 20
-    invoke-static {}, Lkik/android/util/q;->a()V
+    invoke-static {}, Lkik/arcane/util/q;->a()V
 
     .line 21
-    invoke-virtual {p0}, Lkik/android/chat/activity/ConversationsActivity;->getApplication()Landroid/app/Application;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/ConversationsActivity;->getApplication()Landroid/app/Application;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/KikApplication;
+    check-cast v0, Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v0}, Lkik/android/chat/KikApplication;->h()V
+    invoke-virtual {v0}, Lkik/arcane/chat/KikApplication;->h()V
 
     .line 22
     return-void

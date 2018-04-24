@@ -15,11 +15,11 @@
 
 
 # static fields
-.field static final a:Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
+.field static final a:Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
 
 
 # instance fields
-.field private b:Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
+.field private b:Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
 
 .field private c:Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter$a;
 
@@ -42,17 +42,17 @@
 
     .prologue
     .line 33
-    new-instance v0, Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
+    new-instance v0, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
 
-    sget-object v1, Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;->Email:Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;
+    sget-object v1, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;->Email:Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;
 
     const-string v2, ""
 
     const-string v3, ""
 
-    invoke-direct {v0, v1, v2, v3}, Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;-><init>(Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v2, v3}, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;-><init>(Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;Ljava/lang/String;Ljava/lang/String;)V
 
-    sput-object v0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter$ViewHolder;->a:Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
+    sput-object v0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter$ViewHolder;->a:Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
 
     return-void
 .end method
@@ -76,33 +76,33 @@
 
 
 # virtual methods
-.method final a(Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;)V
+.method final a(Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;)V
     .locals 2
 
     .prologue
     .line 50
-    iput-object p1, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter$ViewHolder;->b:Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
+    iput-object p1, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter$ViewHolder;->b:Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
 
     .line 51
     if-nez p1, :cond_0
 
     .line 53
-    sget-object p1, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter$ViewHolder;->a:Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
+    sget-object p1, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter$ViewHolder;->a:Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
 
     .line 55
     :cond_0
     iget-object v0, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter$ViewHolder;->contactName:Landroid/widget/TextView;
 
-    iget-object v1, p1, Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;->b:Ljava/lang/String;
+    iget-object v1, p1, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;->b:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 56
     sget-object v0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter$1;->a:[I
 
-    iget-object v1, p1, Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;->a:Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;
+    iget-object v1, p1, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;->a:Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;
 
-    invoke-virtual {v1}, Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry$AddressBookEntryType;->ordinal()I
 
     move-result v1
 
@@ -118,7 +118,7 @@
     :pswitch_0
     iget-object v0, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter$ViewHolder;->phoneNumberOrEmail:Landroid/widget/TextView;
 
-    iget-object v1, p1, Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;->c:Ljava/lang/String;
+    iget-object v1, p1, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;->c:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
@@ -128,7 +128,7 @@
     :pswitch_1
     iget-object v0, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter$ViewHolder;->phoneNumberOrEmail:Landroid/widget/TextView;
 
-    iget-object v1, p1, Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;->c:Ljava/lang/String;
+    iget-object v1, p1, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;->c:Ljava/lang/String;
 
     invoke-static {v1}, Lkik/core/util/u;->b(Ljava/lang/String;)Ljava/lang/String;
 
@@ -160,9 +160,9 @@
     .line 68
     iget-object v0, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter$ViewHolder;->c:Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter$a;
 
-    iget-object v1, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter$ViewHolder;->b:Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
+    iget-object v1, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter$ViewHolder;->b:Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
 
-    invoke-interface {v0, v1}, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter$a;->a(Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;)V
+    invoke-interface {v0, v1}, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter$a;->a(Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;)V
 
     .line 69
     return-void

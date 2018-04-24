@@ -1,4 +1,4 @@
-.class final Lkik/android/widget/ExpandableTextView$1;
+.class final Lkik/arcane/widget/ExpandableTextView$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/ExpandableTextView;->a(Lkik/android/widget/ExpandableTextView;Lrx/d;Lrx/d;Lrx/functions/a;ILjava/lang/String;Ljava/lang/String;)V
+    value = Lkik/arcane/widget/ExpandableTextView;->a(Lkik/arcane/widget/ExpandableTextView;Lrx/d;Lrx/d;Lrx/functions/a;ILjava/lang/String;Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -30,7 +30,7 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/ExpandableTextView;
+.field final synthetic a:Lkik/arcane/widget/ExpandableTextView;
 
 .field final synthetic b:Lrx/functions/a;
 
@@ -42,20 +42,20 @@
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/ExpandableTextView;Lrx/functions/a;ILjava/lang/String;Ljava/lang/String;)V
+.method constructor <init>(Lkik/arcane/widget/ExpandableTextView;Lrx/functions/a;ILjava/lang/String;Ljava/lang/String;)V
     .locals 0
 
     .prologue
     .line 32
-    iput-object p1, p0, Lkik/android/widget/ExpandableTextView$1;->a:Lkik/android/widget/ExpandableTextView;
+    iput-object p1, p0, Lkik/arcane/widget/ExpandableTextView$1;->a:Lkik/arcane/widget/ExpandableTextView;
 
-    iput-object p2, p0, Lkik/android/widget/ExpandableTextView$1;->b:Lrx/functions/a;
+    iput-object p2, p0, Lkik/arcane/widget/ExpandableTextView$1;->b:Lrx/functions/a;
 
-    iput p3, p0, Lkik/android/widget/ExpandableTextView$1;->c:I
+    iput p3, p0, Lkik/arcane/widget/ExpandableTextView$1;->c:I
 
-    iput-object p4, p0, Lkik/android/widget/ExpandableTextView$1;->d:Ljava/lang/String;
+    iput-object p4, p0, Lkik/arcane/widget/ExpandableTextView$1;->d:Ljava/lang/String;
 
-    iput-object p5, p0, Lkik/android/widget/ExpandableTextView$1;->e:Ljava/lang/String;
+    iput-object p5, p0, Lkik/arcane/widget/ExpandableTextView$1;->e:Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -85,7 +85,7 @@
     if-eqz v0, :cond_0
 
     .line 1037
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView$1;->a:Lkik/android/widget/ExpandableTextView;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView$1;->a:Lkik/arcane/widget/ExpandableTextView;
 
     const-string v1, ""
 
@@ -93,15 +93,15 @@
 
     move-result v2
 
-    iget-object v3, p0, Lkik/android/widget/ExpandableTextView$1;->b:Lrx/functions/a;
+    iget-object v3, p0, Lkik/arcane/widget/ExpandableTextView$1;->b:Lrx/functions/a;
 
-    iget v4, p0, Lkik/android/widget/ExpandableTextView$1;->c:I
+    iget v4, p0, Lkik/arcane/widget/ExpandableTextView$1;->c:I
 
-    iget-object v5, p0, Lkik/android/widget/ExpandableTextView$1;->d:Ljava/lang/String;
+    iget-object v5, p0, Lkik/arcane/widget/ExpandableTextView$1;->d:Ljava/lang/String;
 
-    iget-object v6, p0, Lkik/android/widget/ExpandableTextView$1;->e:Ljava/lang/String;
+    iget-object v6, p0, Lkik/arcane/widget/ExpandableTextView$1;->e:Ljava/lang/String;
 
-    invoke-virtual/range {v0 .. v6}, Lkik/android/widget/ExpandableTextView;->a(Ljava/lang/String;ZLrx/functions/a;ILjava/lang/String;Ljava/lang/String;)V
+    invoke-virtual/range {v0 .. v6}, Lkik/arcane/widget/ExpandableTextView;->a(Ljava/lang/String;ZLrx/functions/a;ILjava/lang/String;Ljava/lang/String;)V
 
     .line 1038
     :goto_0
@@ -109,21 +109,21 @@
 
     .line 1041
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView$1;->a:Lkik/android/widget/ExpandableTextView;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView$1;->a:Lkik/arcane/widget/ExpandableTextView;
 
     invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v2
 
-    iget-object v3, p0, Lkik/android/widget/ExpandableTextView$1;->b:Lrx/functions/a;
+    iget-object v3, p0, Lkik/arcane/widget/ExpandableTextView$1;->b:Lrx/functions/a;
 
-    iget v4, p0, Lkik/android/widget/ExpandableTextView$1;->c:I
+    iget v4, p0, Lkik/arcane/widget/ExpandableTextView$1;->c:I
 
-    iget-object v5, p0, Lkik/android/widget/ExpandableTextView$1;->d:Ljava/lang/String;
+    iget-object v5, p0, Lkik/arcane/widget/ExpandableTextView$1;->d:Ljava/lang/String;
 
-    iget-object v6, p0, Lkik/android/widget/ExpandableTextView$1;->e:Ljava/lang/String;
+    iget-object v6, p0, Lkik/arcane/widget/ExpandableTextView$1;->e:Ljava/lang/String;
 
-    invoke-virtual/range {v0 .. v6}, Lkik/android/widget/ExpandableTextView;->a(Ljava/lang/String;ZLrx/functions/a;ILjava/lang/String;Ljava/lang/String;)V
+    invoke-virtual/range {v0 .. v6}, Lkik/arcane/widget/ExpandableTextView;->a(Ljava/lang/String;ZLrx/functions/a;ILjava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 .end method

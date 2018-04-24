@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/gifs/a/d$1;
+.class final synthetic Lkik/arcane/gifs/a/d$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/gifs/a/d;
+    value = Lkik/arcane/gifs/a/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     .prologue
     .line 26
-    invoke-static {}, Lkik/android/gifs/api/GifResponseData$MediaType;->values()[Lkik/android/gifs/api/GifResponseData$MediaType;
+    invoke-static {}, Lkik/arcane/gifs/api/GifResponseData$MediaType;->values()[Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     move-result-object v0
 
@@ -32,14 +32,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/gifs/a/d$1;->a:[I
+    sput-object v0, Lkik/arcane/gifs/a/d$1;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/gifs/a/d$1;->a:[I
+    sget-object v0, Lkik/arcane/gifs/a/d$1;->a:[I
 
-    sget-object v1, Lkik/android/gifs/api/GifResponseData$MediaType;->WebM:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v1, Lkik/arcane/gifs/api/GifResponseData$MediaType;->WebM:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
-    invoke-virtual {v1}, Lkik/android/gifs/api/GifResponseData$MediaType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/gifs/api/GifResponseData$MediaType;->ordinal()I
 
     move-result v1
 
@@ -51,11 +51,11 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/gifs/a/d$1;->a:[I
+    sget-object v0, Lkik/arcane/gifs/a/d$1;->a:[I
 
-    sget-object v1, Lkik/android/gifs/api/GifResponseData$MediaType;->TinyWebM:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v1, Lkik/arcane/gifs/api/GifResponseData$MediaType;->TinyWebM:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
-    invoke-virtual {v1}, Lkik/android/gifs/api/GifResponseData$MediaType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/gifs/api/GifResponseData$MediaType;->ordinal()I
 
     move-result v1
 
@@ -67,11 +67,11 @@
 
     :goto_1
     :try_start_2
-    sget-object v0, Lkik/android/gifs/a/d$1;->a:[I
+    sget-object v0, Lkik/arcane/gifs/a/d$1;->a:[I
 
-    sget-object v1, Lkik/android/gifs/api/GifResponseData$MediaType;->NanoWebM:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v1, Lkik/arcane/gifs/api/GifResponseData$MediaType;->NanoWebM:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
-    invoke-virtual {v1}, Lkik/android/gifs/api/GifResponseData$MediaType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/gifs/api/GifResponseData$MediaType;->ordinal()I
 
     move-result v1
 
@@ -83,11 +83,11 @@
 
     :goto_2
     :try_start_3
-    sget-object v0, Lkik/android/gifs/a/d$1;->a:[I
+    sget-object v0, Lkik/arcane/gifs/a/d$1;->a:[I
 
-    sget-object v1, Lkik/android/gifs/api/GifResponseData$MediaType;->GIF:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v1, Lkik/arcane/gifs/api/GifResponseData$MediaType;->GIF:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
-    invoke-virtual {v1}, Lkik/android/gifs/api/GifResponseData$MediaType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/gifs/api/GifResponseData$MediaType;->ordinal()I
 
     move-result v1
 
@@ -99,11 +99,11 @@
 
     :goto_3
     :try_start_4
-    sget-object v0, Lkik/android/gifs/a/d$1;->a:[I
+    sget-object v0, Lkik/arcane/gifs/a/d$1;->a:[I
 
-    sget-object v1, Lkik/android/gifs/api/GifResponseData$MediaType;->TinyGif:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v1, Lkik/arcane/gifs/api/GifResponseData$MediaType;->TinyGif:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
-    invoke-virtual {v1}, Lkik/android/gifs/api/GifResponseData$MediaType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/gifs/api/GifResponseData$MediaType;->ordinal()I
 
     move-result v1
 
@@ -115,11 +115,11 @@
 
     :goto_4
     :try_start_5
-    sget-object v0, Lkik/android/gifs/a/d$1;->a:[I
+    sget-object v0, Lkik/arcane/gifs/a/d$1;->a:[I
 
-    sget-object v1, Lkik/android/gifs/api/GifResponseData$MediaType;->NanoGif:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v1, Lkik/arcane/gifs/api/GifResponseData$MediaType;->NanoGif:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
-    invoke-virtual {v1}, Lkik/android/gifs/api/GifResponseData$MediaType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/gifs/api/GifResponseData$MediaType;->ordinal()I
 
     move-result v1
 

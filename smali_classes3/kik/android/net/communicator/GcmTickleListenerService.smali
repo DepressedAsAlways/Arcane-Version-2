@@ -1,4 +1,4 @@
-.class public Lkik/android/net/communicator/GcmTickleListenerService;
+.class public Lkik/arcane/net/communicator/GcmTickleListenerService;
 .super Lcom/google/android/gms/gcm/GcmListenerService;
 .source "SourceFile"
 
@@ -34,7 +34,7 @@
     .line 30
     new-instance v0, Landroid/content/Intent;
 
-    const-class v1, Lkik/android/net/communicator/CommunicatorService;
+    const-class v1, Lkik/arcane/net/communicator/CommunicatorService;
 
     invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
@@ -55,7 +55,7 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
     .line 33
-    invoke-virtual {p0, v0}, Lkik/android/net/communicator/GcmTickleListenerService;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+    invoke-virtual {p0, v0}, Lkik/arcane/net/communicator/GcmTickleListenerService;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
 
     .line 34
     return-void

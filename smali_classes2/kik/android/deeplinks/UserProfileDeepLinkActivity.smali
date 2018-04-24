@@ -1,5 +1,5 @@
-.class public Lkik/android/deeplinks/UserProfileDeepLinkActivity;
-.super Lkik/android/deeplinks/DeepLinkActivity;
+.class public Lkik/arcane/deeplinks/UserProfileDeepLinkActivity;
+.super Lkik/arcane/deeplinks/DeepLinkActivity;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
     .prologue
     .line 14
-    invoke-direct {p0}, Lkik/android/deeplinks/DeepLinkActivity;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/deeplinks/DeepLinkActivity;-><init>()V
 
     return-void
 .end method
@@ -25,16 +25,16 @@
     .line 19
     const-string v0, "settings"
 
-    invoke-virtual {p0}, Lkik/android/deeplinks/UserProfileDeepLinkActivity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Lkik/arcane/deeplinks/UserProfileDeepLinkActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lkik/android/deeplinks/UserProfileDeepLinkActivity;->a(Ljava/lang/String;Landroid/content/Intent;)Ljava/lang/String;
+    invoke-static {v0, v2}, Lkik/arcane/deeplinks/UserProfileDeepLinkActivity;->a(Ljava/lang/String;Landroid/content/Intent;)Ljava/lang/String;
 
     move-result-object v0
 
     .line 20
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -52,24 +52,24 @@
 
     .line 21
     :goto_0
-    new-instance v2, Lkik/android/chat/fragment/UserProfileFragment$a;
+    new-instance v2, Lkik/arcane/chat/fragment/UserProfileFragment$a;
 
-    invoke-direct {v2}, Lkik/android/chat/fragment/UserProfileFragment$a;-><init>()V
+    invoke-direct {v2}, Lkik/arcane/chat/fragment/UserProfileFragment$a;-><init>()V
 
-    invoke-virtual {v2, v0}, Lkik/android/chat/fragment/UserProfileFragment$a;->a(Z)Lkik/android/chat/fragment/UserProfileFragment$a;
+    invoke-virtual {v2, v0}, Lkik/arcane/chat/fragment/UserProfileFragment$a;->a(Z)Lkik/arcane/chat/fragment/UserProfileFragment$a;
 
     move-result-object v0
 
     .line 23
-    invoke-static {v0, p0}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/util/ae;Landroid/content/Context;)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-static {v0, p0}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/util/ae;Landroid/content/Context;)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1, v1}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a(II)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-virtual {v0, v1, v1}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a(II)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->d()Landroid/content/Intent;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->d()Landroid/content/Intent;
 
     move-result-object v0
 

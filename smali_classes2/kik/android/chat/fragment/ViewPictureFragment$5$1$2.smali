@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/ViewPictureFragment$5$1$2;
+.class final Lkik/arcane/chat/fragment/ViewPictureFragment$5$1$2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/ViewPictureFragment$5$1;->b(Ljava/lang/Throwable;)V
+    value = Lkik/arcane/chat/fragment/ViewPictureFragment$5$1;->b(Ljava/lang/Throwable;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/ViewPictureFragment$5$1;
+.field final synthetic a:Lkik/arcane/chat/fragment/ViewPictureFragment$5$1;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/ViewPictureFragment$5$1;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/ViewPictureFragment$5$1;)V
     .locals 0
 
     .prologue
     .line 758
-    iput-object p1, p0, Lkik/android/chat/fragment/ViewPictureFragment$5$1$2;->a:Lkik/android/chat/fragment/ViewPictureFragment$5$1;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$5$1$2;->a:Lkik/arcane/chat/fragment/ViewPictureFragment$5$1;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,27 +41,27 @@
 
     .prologue
     .line 762
-    iget-object v0, p0, Lkik/android/chat/fragment/ViewPictureFragment$5$1$2;->a:Lkik/android/chat/fragment/ViewPictureFragment$5$1;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$5$1$2;->a:Lkik/arcane/chat/fragment/ViewPictureFragment$5$1;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/ViewPictureFragment$5$1;->a:Lkik/android/chat/fragment/ViewPictureFragment$5;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/ViewPictureFragment$5$1;->a:Lkik/arcane/chat/fragment/ViewPictureFragment$5;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/ViewPictureFragment$5;->b:Lkik/android/chat/fragment/ViewPictureFragment;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/ViewPictureFragment$5;->b:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/ViewPictureFragment;->_saveButton:Landroid/widget/ImageButton;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/ViewPictureFragment;->_saveButton:Landroid/widget/ImageButton;
 
     invoke-virtual {v0}, Landroid/widget/ImageButton;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/chat/fragment/ViewPictureFragment$5$1$2;->a:Lkik/android/chat/fragment/ViewPictureFragment$5$1;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$5$1$2;->a:Lkik/arcane/chat/fragment/ViewPictureFragment$5$1;
 
-    iget-object v1, v1, Lkik/android/chat/fragment/ViewPictureFragment$5$1;->a:Lkik/android/chat/fragment/ViewPictureFragment$5;
+    iget-object v1, v1, Lkik/arcane/chat/fragment/ViewPictureFragment$5$1;->a:Lkik/arcane/chat/fragment/ViewPictureFragment$5;
 
-    iget-object v1, v1, Lkik/android/chat/fragment/ViewPictureFragment$5;->b:Lkik/android/chat/fragment/ViewPictureFragment;
+    iget-object v1, v1, Lkik/arcane/chat/fragment/ViewPictureFragment$5;->b:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
     const v2, 0x7f09031d
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/ViewPictureFragment;->getString(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/ViewPictureFragment;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -74,13 +74,13 @@
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
     .line 763
-    iget-object v0, p0, Lkik/android/chat/fragment/ViewPictureFragment$5$1$2;->a:Lkik/android/chat/fragment/ViewPictureFragment$5$1;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$5$1$2;->a:Lkik/arcane/chat/fragment/ViewPictureFragment$5$1;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/ViewPictureFragment$5$1;->a:Lkik/android/chat/fragment/ViewPictureFragment$5;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/ViewPictureFragment$5$1;->a:Lkik/arcane/chat/fragment/ViewPictureFragment$5;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/ViewPictureFragment$5;->b:Lkik/android/chat/fragment/ViewPictureFragment;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/ViewPictureFragment$5;->b:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/ViewPictureFragment;->_saveButton:Landroid/widget/ImageButton;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/ViewPictureFragment;->_saveButton:Landroid/widget/ImageButton;
 
     const/4 v1, 0x1
 

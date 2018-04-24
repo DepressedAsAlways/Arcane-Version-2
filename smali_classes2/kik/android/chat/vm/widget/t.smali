@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/chat/vm/widget/t;
+.class public interface abstract Lkik/arcane/chat/vm/widget/t;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -10,5 +10,5 @@
 .method public abstract b(Lkik/core/datatypes/x;)V
 .end method
 
-.method public abstract d()Lkik/android/internal/platform/PlatformHelper$StickerSource;
+.method public abstract d()Lkik/arcane/internal/platform/PlatformHelper$StickerSource;
 .end method

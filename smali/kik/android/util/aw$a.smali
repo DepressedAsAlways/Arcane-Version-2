@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/aw$a;
+.class public final Lkik/arcane/util/aw$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/aw;
+    value = Lkik/arcane/util/aw;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

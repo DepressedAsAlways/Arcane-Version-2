@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/chat/theming/ChatBubbleManager$3;
+.class final synthetic Lkik/arcane/chat/theming/ChatBubbleManager$3;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/theming/ChatBubbleManager;
+    value = Lkik/arcane/chat/theming/ChatBubbleManager;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     .prologue
     .line 185
-    invoke-static {}, Lkik/android/chat/theming/BubbleDescriptor$PaletteType;->values()[Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+    invoke-static {}, Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;->values()[Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 
     move-result-object v0
 
@@ -32,14 +32,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/chat/theming/ChatBubbleManager$3;->a:[I
+    sput-object v0, Lkik/arcane/chat/theming/ChatBubbleManager$3;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/chat/theming/ChatBubbleManager$3;->a:[I
+    sget-object v0, Lkik/arcane/chat/theming/ChatBubbleManager$3;->a:[I
 
-    sget-object v1, Lkik/android/chat/theming/BubbleDescriptor$PaletteType;->Pastel:Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+    sget-object v1, Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;->Pastel:Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 
-    invoke-virtual {v1}, Lkik/android/chat/theming/BubbleDescriptor$PaletteType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;->ordinal()I
 
     move-result v1
 
@@ -51,11 +51,11 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/chat/theming/ChatBubbleManager$3;->a:[I
+    sget-object v0, Lkik/arcane/chat/theming/ChatBubbleManager$3;->a:[I
 
-    sget-object v1, Lkik/android/chat/theming/BubbleDescriptor$PaletteType;->Bright:Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+    sget-object v1, Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;->Bright:Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 
-    invoke-virtual {v1}, Lkik/android/chat/theming/BubbleDescriptor$PaletteType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;->ordinal()I
 
     move-result v1
 
@@ -67,11 +67,11 @@
 
     :goto_1
     :try_start_2
-    sget-object v0, Lkik/android/chat/theming/ChatBubbleManager$3;->a:[I
+    sget-object v0, Lkik/arcane/chat/theming/ChatBubbleManager$3;->a:[I
 
-    sget-object v1, Lkik/android/chat/theming/BubbleDescriptor$PaletteType;->Dark:Lkik/android/chat/theming/BubbleDescriptor$PaletteType;
+    sget-object v1, Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;->Dark:Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;
 
-    invoke-virtual {v1}, Lkik/android/chat/theming/BubbleDescriptor$PaletteType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/theming/BubbleDescriptor$PaletteType;->ordinal()I
 
     move-result v1
 

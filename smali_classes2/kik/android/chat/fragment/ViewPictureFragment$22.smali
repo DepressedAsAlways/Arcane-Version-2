@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/ViewPictureFragment$22;
+.class final Lkik/arcane/chat/fragment/ViewPictureFragment$22;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/ViewPictureFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    value = Lkik/arcane/chat/fragment/ViewPictureFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/ViewPictureFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/ViewPictureFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/ViewPictureFragment;)V
     .locals 0
 
     .prologue
     .line 392
-    iput-object p1, p0, Lkik/android/chat/fragment/ViewPictureFragment$22;->a:Lkik/android/chat/fragment/ViewPictureFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$22;->a:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,32 +41,32 @@
 
     .prologue
     .line 397
-    iget-object v0, p0, Lkik/android/chat/fragment/ViewPictureFragment$22;->a:Lkik/android/chat/fragment/ViewPictureFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$22;->a:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/ViewPictureFragment;->c(Lkik/android/chat/fragment/ViewPictureFragment;)Lkik/android/chat/fragment/ProgressDialogFragment;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/ViewPictureFragment;->c(Lkik/arcane/chat/fragment/ViewPictureFragment;)Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/ProgressDialogFragment;->isAdded()Z
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/ProgressDialogFragment;->isAdded()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 398
-    iget-object v0, p0, Lkik/android/chat/fragment/ViewPictureFragment$22;->a:Lkik/android/chat/fragment/ViewPictureFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$22;->a:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/ViewPictureFragment;->c(Lkik/android/chat/fragment/ViewPictureFragment;)Lkik/android/chat/fragment/ProgressDialogFragment;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/ViewPictureFragment;->c(Lkik/arcane/chat/fragment/ViewPictureFragment;)Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/ProgressDialogFragment;->dismiss()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/ProgressDialogFragment;->dismiss()V
 
     .line 400
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/ViewPictureFragment$22;->a:Lkik/android/chat/fragment/ViewPictureFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$22;->a:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/ViewPictureFragment;->finish()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/ViewPictureFragment;->finish()V
 
     .line 401
     return-void

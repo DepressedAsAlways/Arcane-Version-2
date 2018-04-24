@@ -5,7 +5,7 @@
 # interfaces
 .implements Lcom/kik/d/a;
 .implements Lcom/kik/d/c;
-.implements Lkik/android/util/KeyboardManipulator;
+.implements Lkik/arcane/util/KeyboardManipulator;
 
 
 # annotations
@@ -140,7 +140,7 @@
     .line 66
     const/high16 v0, 0x43000000    # 128.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
@@ -528,7 +528,7 @@
 
     .prologue
     .line 84
-    invoke-static {p1}, Lkik/android/chat/KikApplication;->f(I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p1}, Lkik/arcane/chat/KikApplication;->f(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -582,7 +582,7 @@
     invoke-virtual {v2, v1}, Landroid/view/Display;->getMetrics(Landroid/util/DisplayMetrics;)V
 
     .line 409
-    invoke-static {v0}, Lkik/android/util/k;->b(Landroid/app/Activity;)I
+    invoke-static {v0}, Lkik/arcane/util/k;->b(Landroid/app/Activity;)I
 
     move-result v0
 
@@ -595,7 +595,7 @@
 
     .line 412
     :goto_1
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(I)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(I)I
 
     move-result v0
 
@@ -617,7 +617,7 @@
 
     move-result v0
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(I)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(I)I
 
     move-result v0
 
@@ -669,7 +669,7 @@
     invoke-virtual {v3, v2}, Landroid/view/Display;->getMetrics(Landroid/util/DisplayMetrics;)V
 
     .line 436
-    invoke-static {v1}, Lkik/android/util/k;->b(Landroid/app/Activity;)I
+    invoke-static {v1}, Lkik/arcane/util/k;->b(Landroid/app/Activity;)I
 
     move-result v0
 
@@ -695,7 +695,7 @@
     .line 515
     const v0, 0x7f0e00c9
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->d(I)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->d(I)I
 
     move-result v0
 
@@ -726,7 +726,7 @@
 
     .prologue
     .line 79
-    invoke-static {p1}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {p1}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -738,7 +738,7 @@
 
     .prologue
     .line 89
-    invoke-static {p1, p2}, Lkik/android/chat/KikApplication;->a(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1, p2}, Lkik/arcane/chat/KikApplication;->a(I[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1046,7 +1046,7 @@
 
     .line 652
     :pswitch_0
-    invoke-static {}, Lkik/android/chat/KikApplication;->m()Z
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->m()Z
 
     move-result v2
 
@@ -1058,7 +1058,7 @@
 
     .line 655
     :pswitch_1
-    invoke-static {}, Lkik/android/chat/KikApplication;->m()Z
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->m()Z
 
     move-result v2
 
@@ -1070,7 +1070,7 @@
 
     .line 658
     :pswitch_2
-    invoke-static {}, Lkik/android/chat/KikApplication;->m()Z
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->m()Z
 
     move-result v0
 
@@ -1087,7 +1087,7 @@
 
     .line 661
     :pswitch_3
-    invoke-static {}, Lkik/android/chat/KikApplication;->m()Z
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->m()Z
 
     move-result v0
 
@@ -1311,7 +1311,7 @@
     return-void
 .end method
 
-.method public setInputMode(Lkik/android/util/KeyboardManipulator$InputMode;)V
+.method public setInputMode(Lkik/arcane/util/KeyboardManipulator$InputMode;)V
     .locals 2
 
     .prologue
@@ -1330,7 +1330,7 @@
 
     .line 368
     :cond_1
-    sget-object v1, Lkik/android/util/KeyboardManipulator$InputMode;->DEFAULT:Lkik/android/util/KeyboardManipulator$InputMode;
+    sget-object v1, Lkik/arcane/util/KeyboardManipulator$InputMode;->DEFAULT:Lkik/arcane/util/KeyboardManipulator$InputMode;
 
     if-ne p1, v1, :cond_2
 
@@ -1347,7 +1347,7 @@
 
     .line 373
     :cond_2
-    sget-object v1, Lkik/android/util/KeyboardManipulator$InputMode;->OVER_DRAW:Lkik/android/util/KeyboardManipulator$InputMode;
+    sget-object v1, Lkik/arcane/util/KeyboardManipulator$InputMode;->OVER_DRAW:Lkik/arcane/util/KeyboardManipulator$InputMode;
 
     if-ne p1, v1, :cond_0
 
@@ -1470,14 +1470,14 @@
     .line 192
     if-eqz v0, :cond_0
 
-    instance-of v1, v0, Lkik/android/f/k;
+    instance-of v1, v0, Lkik/arcane/f/k;
 
     if-eqz v1, :cond_0
 
     .line 193
-    check-cast v0, Lkik/android/f/k;
+    check-cast v0, Lkik/arcane/f/k;
 
-    invoke-interface {v0, p1}, Lkik/android/f/k;->a(I)V
+    invoke-interface {v0, p1}, Lkik/arcane/f/k;->a(I)V
 
     .line 195
     :cond_0

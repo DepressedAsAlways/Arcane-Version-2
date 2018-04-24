@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/widget/dn$1;
+.class final synthetic Lkik/arcane/widget/dn$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/dn;
+    value = Lkik/arcane/widget/dn;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     .prologue
     .line 136
-    invoke-static {}, Lkik/android/chat/vm/IListViewModel$ChangeType;->values()[Lkik/android/chat/vm/IListViewModel$ChangeType;
+    invoke-static {}, Lkik/arcane/chat/vm/IListViewModel$ChangeType;->values()[Lkik/arcane/chat/vm/IListViewModel$ChangeType;
 
     move-result-object v0
 
@@ -32,14 +32,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/widget/dn$1;->a:[I
+    sput-object v0, Lkik/arcane/widget/dn$1;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/widget/dn$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/dn$1;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/IListViewModel$ChangeType;->Moved:Lkik/android/chat/vm/IListViewModel$ChangeType;
+    sget-object v1, Lkik/arcane/chat/vm/IListViewModel$ChangeType;->Moved:Lkik/arcane/chat/vm/IListViewModel$ChangeType;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/IListViewModel$ChangeType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/IListViewModel$ChangeType;->ordinal()I
 
     move-result v1
 
@@ -51,11 +51,11 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/widget/dn$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/dn$1;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/IListViewModel$ChangeType;->Inserted:Lkik/android/chat/vm/IListViewModel$ChangeType;
+    sget-object v1, Lkik/arcane/chat/vm/IListViewModel$ChangeType;->Inserted:Lkik/arcane/chat/vm/IListViewModel$ChangeType;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/IListViewModel$ChangeType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/IListViewModel$ChangeType;->ordinal()I
 
     move-result v1
 
@@ -67,11 +67,11 @@
 
     :goto_1
     :try_start_2
-    sget-object v0, Lkik/android/widget/dn$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/dn$1;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/IListViewModel$ChangeType;->Removed:Lkik/android/chat/vm/IListViewModel$ChangeType;
+    sget-object v1, Lkik/arcane/chat/vm/IListViewModel$ChangeType;->Removed:Lkik/arcane/chat/vm/IListViewModel$ChangeType;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/IListViewModel$ChangeType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/IListViewModel$ChangeType;->ordinal()I
 
     move-result v1
 
@@ -83,11 +83,11 @@
 
     :goto_2
     :try_start_3
-    sget-object v0, Lkik/android/widget/dn$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/dn$1;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/IListViewModel$ChangeType;->Modified:Lkik/android/chat/vm/IListViewModel$ChangeType;
+    sget-object v1, Lkik/arcane/chat/vm/IListViewModel$ChangeType;->Modified:Lkik/arcane/chat/vm/IListViewModel$ChangeType;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/IListViewModel$ChangeType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/IListViewModel$ChangeType;->ordinal()I
 
     move-result v1
 
@@ -99,11 +99,11 @@
 
     :goto_3
     :try_start_4
-    sget-object v0, Lkik/android/widget/dn$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/dn$1;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/IListViewModel$ChangeType;->Reloaded:Lkik/android/chat/vm/IListViewModel$ChangeType;
+    sget-object v1, Lkik/arcane/chat/vm/IListViewModel$ChangeType;->Reloaded:Lkik/arcane/chat/vm/IListViewModel$ChangeType;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/IListViewModel$ChangeType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/IListViewModel$ChangeType;->ordinal()I
 
     move-result v1
 

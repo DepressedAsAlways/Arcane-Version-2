@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/bu;
+.class public final Lkik/arcane/util/bu;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -13,11 +13,11 @@
 
     .prologue
     .line 30
-    sget-object v0, Lkik/android/util/bu;->a:Landroid/content/Context;
+    sget-object v0, Lkik/arcane/util/bu;->a:Landroid/content/Context;
 
     const v1, 0x7f090395
 
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -38,7 +38,7 @@
 
     .prologue
     .line 24
-    sput-object p0, Lkik/android/util/bu;->a:Landroid/content/Context;
+    sput-object p0, Lkik/arcane/util/bu;->a:Landroid/content/Context;
 
     .line 25
     return-void
@@ -49,7 +49,7 @@
 
     .prologue
     .line 36
-    sget-object v0, Lkik/android/util/bu;->a:Landroid/content/Context;
+    sget-object v0, Lkik/arcane/util/bu;->a:Landroid/content/Context;
 
     invoke-static {v0, p0, p1}, Landroid/widget/Toast;->makeText(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;
 

@@ -1,5 +1,5 @@
-.class public Lkik/android/chat/fragment/SuggestedResponseTextViewHolder;
-.super Lkik/android/chat/fragment/gb;
+.class public Lkik/arcane/chat/fragment/SuggestedResponseTextViewHolder;
+.super Lkik/arcane/chat/fragment/gb;
 .source "SourceFile"
 
 
@@ -23,11 +23,11 @@
     .line 27
     const/high16 v0, 0x41800000    # 16.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
-    sput v0, Lkik/android/chat/fragment/SuggestedResponseTextViewHolder;->b:I
+    sput v0, Lkik/arcane/chat/fragment/SuggestedResponseTextViewHolder;->b:I
 
     return-void
 .end method
@@ -37,7 +37,7 @@
 
     .prologue
     .line 45
-    invoke-direct {p0, p1}, Lkik/android/chat/fragment/gb;-><init>(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lkik/arcane/chat/fragment/gb;-><init>(Landroid/view/View;)V
 
     .line 46
     invoke-static {p0, p1}, Lbutterknife/ButterKnife;->bind(Ljava/lang/Object;Landroid/view/View;)Lbutterknife/Unbinder;
@@ -56,7 +56,7 @@
     invoke-direct {v0}, Landroid/text/TextPaint;-><init>()V
 
     .line 37
-    sget v1, Lkik/android/chat/fragment/SuggestedResponseTextViewHolder;->b:I
+    sget v1, Lkik/arcane/chat/fragment/SuggestedResponseTextViewHolder;->b:I
 
     int-to-float v1, v1
 
@@ -134,7 +134,7 @@
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/SuggestedResponseTextViewHolder;->b(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/SuggestedResponseTextViewHolder;->b(Ljava/lang/String;)V
 
     .line 60
     :cond_0
@@ -150,7 +150,7 @@
     const/4 v4, 0x0
 
     .line 69
-    iget-object v0, p0, Lkik/android/chat/fragment/SuggestedResponseTextViewHolder;->_textView:Landroid/widget/TextView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/SuggestedResponseTextViewHolder;->_textView:Landroid/widget/TextView;
 
     invoke-virtual {v0}, Landroid/widget/TextView;->getContext()Landroid/content/Context;
 
@@ -164,12 +164,12 @@
 
     move v6, v4
 
-    invoke-static/range {v0 .. v6}, Lcom/kik/android/b/g;->a(Landroid/content/Context;Ljava/lang/CharSequence;Lcom/kik/message/model/attachments/RenderInstructionSet;IZLkik/android/f/i;Z)Ljava/lang/CharSequence;
+    invoke-static/range {v0 .. v6}, Lcom/kik/arcane/b/g;->a(Landroid/content/Context;Ljava/lang/CharSequence;Lcom/kik/message/model/attachments/RenderInstructionSet;IZLkik/arcane/f/i;Z)Ljava/lang/CharSequence;
 
     move-result-object v0
 
     .line 70
-    iget-object v1, p0, Lkik/android/chat/fragment/SuggestedResponseTextViewHolder;->_textView:Landroid/widget/TextView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/SuggestedResponseTextViewHolder;->_textView:Landroid/widget/TextView;
 
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 

@@ -1,12 +1,12 @@
-.class public Lkik/android/widget/ExpandableTextView;
-.super Lkik/android/widget/EllipsisTextView;
+.class public Lkik/arcane/widget/ExpandableTextView;
+.super Lkik/arcane/widget/EllipsisTextView;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/ExpandableTextView$a;
+        Lkik/arcane/widget/ExpandableTextView$a;
     }
 .end annotation
 
@@ -16,7 +16,7 @@
 
 .field private r:Landroid/animation/ValueAnimator;
 
-.field private s:Lkik/android/widget/ExpandableTextView$a;
+.field private s:Lkik/arcane/widget/ExpandableTextView$a;
 
 
 # direct methods
@@ -25,7 +25,7 @@
 
     .prologue
     .line 68
-    invoke-direct {p0, p1}, Lkik/android/widget/EllipsisTextView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lkik/arcane/widget/EllipsisTextView;-><init>(Landroid/content/Context;)V
 
     .line 69
     return-void
@@ -36,7 +36,7 @@
 
     .prologue
     .line 73
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/EllipsisTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/EllipsisTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 74
     return-void
@@ -47,13 +47,13 @@
 
     .prologue
     .line 78
-    invoke-direct {p0, p1, p2, p3}, Lkik/android/widget/EllipsisTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lkik/arcane/widget/EllipsisTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 79
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/ExpandableTextView;Landroid/animation/ValueAnimator;)V
+.method static synthetic a(Lkik/arcane/widget/ExpandableTextView;Landroid/animation/ValueAnimator;)V
     .locals 1
 
     .prologue
@@ -68,12 +68,12 @@
 
     move-result v0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/ExpandableTextView;->setHeight(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/ExpandableTextView;->setHeight(I)V
 
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/ExpandableTextView;Lkik/android/widget/ExpandableTextView$a;)V
+.method public static a(Lkik/arcane/widget/ExpandableTextView;Lkik/arcane/widget/ExpandableTextView$a;)V
     .locals 0
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -84,13 +84,13 @@
     .prologue
     .line 52
     .line 2109
-    iput-object p1, p0, Lkik/android/widget/ExpandableTextView;->s:Lkik/android/widget/ExpandableTextView$a;
+    iput-object p1, p0, Lkik/arcane/widget/ExpandableTextView;->s:Lkik/arcane/widget/ExpandableTextView$a;
 
     .line 53
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/ExpandableTextView;Lrx/d;Lrx/d;Lrx/functions/a;ILjava/lang/String;Ljava/lang/String;)V
+.method public static a(Lkik/arcane/widget/ExpandableTextView;Lrx/d;Lrx/d;Lrx/functions/a;ILjava/lang/String;Ljava/lang/String;)V
     .locals 6
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -106,7 +106,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/ExpandableTextView;",
+            "Lkik/arcane/widget/ExpandableTextView;",
             "Lrx/d",
             "<",
             "Ljava/lang/String;",
@@ -134,7 +134,7 @@
 
     .line 31
     :cond_1
-    new-instance v0, Lkik/android/widget/ExpandableTextView$1;
+    new-instance v0, Lkik/arcane/widget/ExpandableTextView$1;
 
     move-object v1, p0
 
@@ -146,7 +146,7 @@
 
     move-object v5, p6
 
-    invoke-direct/range {v0 .. v5}, Lkik/android/widget/ExpandableTextView$1;-><init>(Lkik/android/widget/ExpandableTextView;Lrx/functions/a;ILjava/lang/String;Ljava/lang/String;)V
+    invoke-direct/range {v0 .. v5}, Lkik/arcane/widget/ExpandableTextView$1;-><init>(Lkik/arcane/widget/ExpandableTextView;Lrx/functions/a;ILjava/lang/String;Ljava/lang/String;)V
 
     invoke-static {p1, p2, v0}, Lrx/d;->a(Lrx/d;Lrx/d;Lrx/functions/h;)Lrx/d;
 
@@ -156,12 +156,12 @@
     if-eqz v0, :cond_0
 
     .line 1191
-    iget-object v1, p0, Lkik/android/widget/ExpandableTextView;->i:Ljava/util/ArrayList;
+    iget-object v1, p0, Lkik/arcane/widget/ExpandableTextView;->i:Ljava/util/ArrayList;
 
     invoke-virtual {v1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 1192
-    iget-object v1, p0, Lkik/android/widget/ExpandableTextView;->h:Lrx/f/b;
+    iget-object v1, p0, Lkik/arcane/widget/ExpandableTextView;->h:Lrx/f/b;
 
     invoke-virtual {v0}, Lrx/d;->k()Lrx/k;
 
@@ -172,7 +172,7 @@
     goto :goto_0
 .end method
 
-.method static synthetic b(Lkik/android/widget/ExpandableTextView;Landroid/animation/ValueAnimator;)V
+.method static synthetic b(Lkik/arcane/widget/ExpandableTextView;Landroid/animation/ValueAnimator;)V
     .locals 1
 
     .prologue
@@ -187,7 +187,7 @@
 
     move-result v0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/ExpandableTextView;->setHeight(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/ExpandableTextView;->setHeight(I)V
 
     return-void
 .end method
@@ -199,11 +199,11 @@
     const/4 v3, 0x1
 
     .line 129
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->isRunning()Z
 
@@ -223,13 +223,13 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {p0}, Lkik/android/widget/ExpandableTextView;->getHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/ExpandableTextView;->getHeight()I
 
     move-result v2
 
     aput v2, v0, v1
 
-    iget v1, p0, Lkik/android/widget/ExpandableTextView;->m:I
+    iget v1, p0, Lkik/arcane/widget/ExpandableTextView;->m:I
 
     aput v1, v0, v3
 
@@ -237,33 +237,33 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
+    iput-object v0, p0, Lkik/arcane/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
 
     .line 134
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
 
-    new-instance v1, Lkik/android/widget/ExpandableTextView$2;
+    new-instance v1, Lkik/arcane/widget/ExpandableTextView$2;
 
-    invoke-direct {v1, p0}, Lkik/android/widget/ExpandableTextView$2;-><init>(Lkik/android/widget/ExpandableTextView;)V
+    invoke-direct {v1, p0}, Lkik/arcane/widget/ExpandableTextView$2;-><init>(Lkik/arcane/widget/ExpandableTextView;)V
 
     invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
     .line 142
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
 
-    invoke-static {p0}, Lkik/android/widget/am;->a(Lkik/android/widget/ExpandableTextView;)Landroid/animation/ValueAnimator$AnimatorUpdateListener;
+    invoke-static {p0}, Lkik/arcane/widget/am;->a(Lkik/arcane/widget/ExpandableTextView;)Landroid/animation/ValueAnimator$AnimatorUpdateListener;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
     .line 143
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->start()V
 
     .line 145
-    iput-boolean v3, p0, Lkik/android/widget/ExpandableTextView;->q:Z
+    iput-boolean v3, p0, Lkik/arcane/widget/ExpandableTextView;->q:Z
 
     goto :goto_0
 .end method
@@ -275,11 +275,11 @@
     const/4 v3, 0x0
 
     .line 150
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->isRunning()Z
 
@@ -297,7 +297,7 @@
 
     new-array v0, v0, [I
 
-    invoke-virtual {p0}, Lkik/android/widget/ExpandableTextView;->getHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/ExpandableTextView;->getHeight()I
 
     move-result v1
 
@@ -305,7 +305,7 @@
 
     const/4 v1, 0x1
 
-    iget v2, p0, Lkik/android/widget/ExpandableTextView;->n:I
+    iget v2, p0, Lkik/arcane/widget/ExpandableTextView;->n:I
 
     aput v2, v0, v1
 
@@ -313,33 +313,33 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
+    iput-object v0, p0, Lkik/arcane/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
 
     .line 155
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
 
-    invoke-static {p0}, Lkik/android/widget/an;->a(Lkik/android/widget/ExpandableTextView;)Landroid/animation/ValueAnimator$AnimatorUpdateListener;
+    invoke-static {p0}, Lkik/arcane/widget/an;->a(Lkik/arcane/widget/ExpandableTextView;)Landroid/animation/ValueAnimator$AnimatorUpdateListener;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
     .line 156
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
 
-    new-instance v1, Lkik/android/widget/ExpandableTextView$3;
+    new-instance v1, Lkik/arcane/widget/ExpandableTextView$3;
 
-    invoke-direct {v1, p0}, Lkik/android/widget/ExpandableTextView$3;-><init>(Lkik/android/widget/ExpandableTextView;)V
+    invoke-direct {v1, p0}, Lkik/arcane/widget/ExpandableTextView$3;-><init>(Lkik/arcane/widget/ExpandableTextView;)V
 
     invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
     .line 164
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->start()V
 
     .line 166
-    iput-boolean v3, p0, Lkik/android/widget/ExpandableTextView;->q:Z
+    iput-boolean v3, p0, Lkik/arcane/widget/ExpandableTextView;->q:Z
 
     goto :goto_0
 .end method
@@ -351,11 +351,11 @@
 
     .prologue
     .line 115
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->isRunning()Z
 
@@ -364,17 +364,17 @@
     if-eqz v0, :cond_0
 
     .line 116
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView;->r:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->end()V
 
     .line 119
     :cond_0
-    iget-boolean v0, p0, Lkik/android/widget/ExpandableTextView;->q:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/ExpandableTextView;->q:Z
 
     if-nez v0, :cond_1
 
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView;->e:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView;->e:Ljava/lang/CharSequence;
 
     invoke-static {v0}, Lkik/core/util/u;->a(Ljava/lang/CharSequence;)Z
 
@@ -384,7 +384,7 @@
 
     .line 120
     :cond_1
-    invoke-direct {p0}, Lkik/android/widget/ExpandableTextView;->d()V
+    invoke-direct {p0}, Lkik/arcane/widget/ExpandableTextView;->d()V
 
     .line 125
     :goto_0
@@ -392,7 +392,7 @@
 
     .line 123
     :cond_2
-    invoke-direct {p0}, Lkik/android/widget/ExpandableTextView;->e()V
+    invoke-direct {p0}, Lkik/arcane/widget/ExpandableTextView;->e()V
 
     goto :goto_0
 .end method
@@ -402,23 +402,23 @@
 
     .prologue
     .line 171
-    iget-boolean v0, p0, Lkik/android/widget/ExpandableTextView;->q:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/ExpandableTextView;->q:Z
 
     if-eqz v0, :cond_1
 
     .line 172
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView;->s:Lkik/android/widget/ExpandableTextView$a;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView;->s:Lkik/arcane/widget/ExpandableTextView$a;
 
     if-eqz v0, :cond_0
 
     .line 173
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView;->s:Lkik/android/widget/ExpandableTextView$a;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView;->s:Lkik/arcane/widget/ExpandableTextView$a;
 
-    invoke-interface {v0}, Lkik/android/widget/ExpandableTextView$a;->b()V
+    invoke-interface {v0}, Lkik/arcane/widget/ExpandableTextView$a;->b()V
 
     .line 175
     :cond_0
-    invoke-direct {p0}, Lkik/android/widget/ExpandableTextView;->e()V
+    invoke-direct {p0}, Lkik/arcane/widget/ExpandableTextView;->e()V
 
     .line 183
     :goto_0
@@ -426,18 +426,18 @@
 
     .line 178
     :cond_1
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView;->s:Lkik/android/widget/ExpandableTextView$a;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView;->s:Lkik/arcane/widget/ExpandableTextView$a;
 
     if-eqz v0, :cond_2
 
     .line 179
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView;->s:Lkik/android/widget/ExpandableTextView$a;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView;->s:Lkik/arcane/widget/ExpandableTextView$a;
 
-    invoke-interface {v0}, Lkik/android/widget/ExpandableTextView$a;->a()V
+    invoke-interface {v0}, Lkik/arcane/widget/ExpandableTextView$a;->a()V
 
     .line 181
     :cond_2
-    invoke-direct {p0}, Lkik/android/widget/ExpandableTextView;->d()V
+    invoke-direct {p0}, Lkik/arcane/widget/ExpandableTextView;->d()V
 
     goto :goto_0
 .end method
@@ -447,10 +447,10 @@
 
     .prologue
     .line 84
-    invoke-super {p0}, Lkik/android/widget/EllipsisTextView;->onAttachedToWindow()V
+    invoke-super {p0}, Lkik/arcane/widget/EllipsisTextView;->onAttachedToWindow()V
 
     .line 85
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView;->i:Ljava/util/ArrayList;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView;->i:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
@@ -470,7 +470,7 @@
     check-cast v0, Lrx/d;
 
     .line 86
-    iget-object v2, p0, Lkik/android/widget/ExpandableTextView;->h:Lrx/f/b;
+    iget-object v2, p0, Lkik/arcane/widget/ExpandableTextView;->h:Lrx/f/b;
 
     invoke-virtual {v0}, Lrx/d;->k()Lrx/k;
 
@@ -490,15 +490,15 @@
 
     .prologue
     .line 100
-    invoke-super {p0, p1}, Lkik/android/widget/EllipsisTextView;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+    invoke-super {p0, p1}, Lkik/arcane/widget/EllipsisTextView;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
     .line 103
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView;->a:Lkik/android/util/by;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView;->a:Lkik/arcane/util/by;
 
-    invoke-virtual {v0}, Lkik/android/util/by;->a()V
+    invoke-virtual {v0}, Lkik/arcane/util/by;->a()V
 
     .line 104
-    invoke-virtual {p0}, Lkik/android/widget/ExpandableTextView;->a()V
+    invoke-virtual {p0}, Lkik/arcane/widget/ExpandableTextView;->a()V
 
     .line 105
     return-void
@@ -509,10 +509,10 @@
 
     .prologue
     .line 93
-    invoke-super {p0}, Lkik/android/widget/EllipsisTextView;->onDetachedFromWindow()V
+    invoke-super {p0}, Lkik/arcane/widget/EllipsisTextView;->onDetachedFromWindow()V
 
     .line 94
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView;->h:Lrx/f/b;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView;->h:Lrx/f/b;
 
     invoke-virtual {v0}, Lrx/f/b;->a()V
 

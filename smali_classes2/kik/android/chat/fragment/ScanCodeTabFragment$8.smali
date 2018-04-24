@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/ScanCodeTabFragment$8;
-.super Lkik/android/util/ca$a;
+.class final Lkik/arcane/chat/fragment/ScanCodeTabFragment$8;
+.super Lkik/arcane/util/ca$a;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/ScanCodeTabFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    value = Lkik/arcane/chat/fragment/ScanCodeTabFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,18 +15,18 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/ScanCodeTabFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/ScanCodeTabFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/ScanCodeTabFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/ScanCodeTabFragment;)V
     .locals 0
 
     .prologue
     .line 348
-    iput-object p1, p0, Lkik/android/chat/fragment/ScanCodeTabFragment$8;->a:Lkik/android/chat/fragment/ScanCodeTabFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$8;->a:Lkik/arcane/chat/fragment/ScanCodeTabFragment;
 
-    invoke-direct {p0}, Lkik/android/util/ca$a;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/util/ca$a;-><init>()V
 
     return-void
 .end method
@@ -38,9 +38,9 @@
 
     .prologue
     .line 352
-    iget-object v0, p0, Lkik/android/chat/fragment/ScanCodeTabFragment$8;->a:Lkik/android/chat/fragment/ScanCodeTabFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$8;->a:Lkik/arcane/chat/fragment/ScanCodeTabFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/ScanCodeTabFragment;->handleBackPress()Z
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/ScanCodeTabFragment;->handleBackPress()Z
 
     .line 353
     return-void

@@ -27,7 +27,7 @@
     .line 21
     const/4 v0, 0x0
 
-    invoke-static {v0}, Lkik/android/util/ac;->a(Z)Ljava/util/concurrent/ExecutorService;
+    invoke-static {v0}, Lkik/arcane/util/ac;->a(Z)Ljava/util/concurrent/ExecutorService;
 
     move-result-object v0
 

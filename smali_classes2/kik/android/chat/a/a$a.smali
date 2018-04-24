@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/a/a$a;
+.class public final Lkik/arcane/chat/a/a$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/a/a;
+    value = Lkik/arcane/chat/a/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -48,10 +48,10 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 97
-    iput-object p1, p0, Lkik/android/chat/a/a$a;->a:Lcom/kik/core/domain/a/a/c;
+    iput-object p1, p0, Lkik/arcane/chat/a/a$a;->a:Lcom/kik/core/domain/a/a/c;
 
     .line 98
-    iput-object p2, p0, Lkik/android/chat/a/a$a;->b:Ljava/util/List;
+    iput-object p2, p0, Lkik/arcane/chat/a/a$a;->b:Ljava/util/List;
 
     .line 99
     return-void
@@ -64,7 +64,7 @@
 
     .prologue
     .line 103
-    iget-object v0, p0, Lkik/android/chat/a/a$a;->a:Lcom/kik/core/domain/a/a/c;
+    iget-object v0, p0, Lkik/arcane/chat/a/a$a;->a:Lcom/kik/core/domain/a/a/c;
 
     return-object v0
 .end method
@@ -83,7 +83,7 @@
 
     .prologue
     .line 108
-    iget-object v0, p0, Lkik/android/chat/a/a$a;->b:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/a/a$a;->b:Ljava/util/List;
 
     return-object v0
 .end method

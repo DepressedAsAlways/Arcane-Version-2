@@ -1,4 +1,4 @@
-.class public final Lkik/android/widget/ct;
+.class public final Lkik/arcane/widget/ct;
 .super Landroid/support/v7/widget/RecyclerView$ItemDecoration;
 .source "SourceFile"
 
@@ -6,13 +6,13 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/ct$a;
+        Lkik/arcane/widget/ct$a;
     }
 .end annotation
 
 
 # instance fields
-.field private a:Lkik/android/widget/ct$a;
+.field private a:Lkik/arcane/widget/ct$a;
 
 .field private b:Ljava/util/Map;
     .annotation system Ldalvik/annotation/Signature;
@@ -28,7 +28,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/widget/ct$a;)V
+.method public constructor <init>(Lkik/arcane/widget/ct$a;)V
     .locals 1
 
     .prologue
@@ -36,14 +36,14 @@
     invoke-direct {p0}, Landroid/support/v7/widget/RecyclerView$ItemDecoration;-><init>()V
 
     .line 37
-    iput-object p1, p0, Lkik/android/widget/ct;->a:Lkik/android/widget/ct$a;
+    iput-object p1, p0, Lkik/arcane/widget/ct;->a:Lkik/arcane/widget/ct$a;
 
     .line 38
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/ct;->b:Ljava/util/Map;
+    iput-object v0, p0, Lkik/arcane/widget/ct;->b:Ljava/util/Map;
 
     .line 39
     return-void
@@ -54,7 +54,7 @@
 
     .prologue
     .line 109
-    iget-object v0, p0, Lkik/android/widget/ct;->b:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/widget/ct;->b:Ljava/util/Map;
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -67,7 +67,7 @@
     if-eqz v0, :cond_0
 
     .line 110
-    iget-object v0, p0, Lkik/android/widget/ct;->b:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/widget/ct;->b:Ljava/util/Map;
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -85,9 +85,9 @@
 
     .line 113
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/ct;->a:Lkik/android/widget/ct$a;
+    iget-object v0, p0, Lkik/arcane/widget/ct;->a:Lkik/arcane/widget/ct$a;
 
-    invoke-interface {v0, p1, p2, p3}, Lkik/android/widget/ct$a;->a(JLandroid/support/v7/widget/RecyclerView;)Landroid/view/View;
+    invoke-interface {v0, p1, p2, p3}, Lkik/arcane/widget/ct$a;->a(JLandroid/support/v7/widget/RecyclerView;)Landroid/view/View;
 
     move-result-object v0
 
@@ -107,7 +107,7 @@
     invoke-virtual {v0, v1, v2}, Landroid/view/View;->measure(II)V
 
     .line 115
-    iget-object v1, p0, Lkik/android/widget/ct;->b:Ljava/util/Map;
+    iget-object v1, p0, Lkik/arcane/widget/ct;->b:Ljava/util/Map;
 
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -174,9 +174,9 @@
     if-eq v4, v6, :cond_0
 
     .line 52
-    iget-object v6, p0, Lkik/android/widget/ct;->a:Lkik/android/widget/ct$a;
+    iget-object v6, p0, Lkik/arcane/widget/ct;->a:Lkik/arcane/widget/ct$a;
 
-    invoke-interface {v6, v4}, Lkik/android/widget/ct$a;->a(I)J
+    invoke-interface {v6, v4}, Lkik/arcane/widget/ct$a;->a(I)J
 
     move-result-wide v6
 
@@ -185,12 +185,12 @@
 
     if-eqz v4, :cond_1
 
-    iget-object v10, p0, Lkik/android/widget/ct;->a:Lkik/android/widget/ct$a;
+    iget-object v10, p0, Lkik/arcane/widget/ct;->a:Lkik/arcane/widget/ct$a;
 
     add-int/lit8 v4, v4, -0x1
 
     .line 55
-    invoke-interface {v10, v4}, Lkik/android/widget/ct$a;->a(I)J
+    invoke-interface {v10, v4}, Lkik/arcane/widget/ct$a;->a(I)J
 
     move-result-wide v10
 
@@ -214,7 +214,7 @@
     if-eqz v4, :cond_0
 
     .line 63
-    invoke-direct {p0, v6, v7, p2}, Lkik/android/widget/ct;->a(JLandroid/support/v7/widget/RecyclerView;)Landroid/view/View;
+    invoke-direct {p0, v6, v7, p2}, Lkik/arcane/widget/ct;->a(JLandroid/support/v7/widget/RecyclerView;)Landroid/view/View;
 
     move-result-object v10
 
@@ -346,20 +346,20 @@
     if-eq v0, v1, :cond_1
 
     .line 92
-    iget-object v1, p0, Lkik/android/widget/ct;->a:Lkik/android/widget/ct$a;
+    iget-object v1, p0, Lkik/arcane/widget/ct;->a:Lkik/arcane/widget/ct$a;
 
-    invoke-interface {v1, v0}, Lkik/android/widget/ct$a;->a(I)J
+    invoke-interface {v1, v0}, Lkik/arcane/widget/ct$a;->a(I)J
 
     move-result-wide v2
 
     .line 94
     if-eqz v0, :cond_0
 
-    iget-object v1, p0, Lkik/android/widget/ct;->a:Lkik/android/widget/ct$a;
+    iget-object v1, p0, Lkik/arcane/widget/ct;->a:Lkik/arcane/widget/ct$a;
 
     add-int/lit8 v0, v0, -0x1
 
-    invoke-interface {v1, v0}, Lkik/android/widget/ct$a;->a(I)J
+    invoke-interface {v1, v0}, Lkik/arcane/widget/ct$a;->a(I)J
 
     move-result-wide v0
 
@@ -369,7 +369,7 @@
 
     .line 95
     :cond_0
-    invoke-direct {p0, v2, v3, p3}, Lkik/android/widget/ct;->a(JLandroid/support/v7/widget/RecyclerView;)Landroid/view/View;
+    invoke-direct {p0, v2, v3, p3}, Lkik/arcane/widget/ct;->a(JLandroid/support/v7/widget/RecyclerView;)Landroid/view/View;
 
     move-result-object v0
 

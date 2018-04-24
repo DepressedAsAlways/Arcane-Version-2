@@ -1,4 +1,4 @@
-.class public final enum Lkik/android/widget/GifTrayPage;
+.class public final enum Lkik/arcane/widget/GifTrayPage;
 .super Ljava/lang/Enum;
 .source "SourceFile"
 
@@ -8,22 +8,22 @@
     value = {
         "Ljava/lang/Enum",
         "<",
-        "Lkik/android/widget/GifTrayPage;",
+        "Lkik/arcane/widget/GifTrayPage;",
         ">;"
     }
 .end annotation
 
 
 # static fields
-.field private static final synthetic $VALUES:[Lkik/android/widget/GifTrayPage;
+.field private static final synthetic $VALUES:[Lkik/arcane/widget/GifTrayPage;
 
-.field public static final enum EMOJI:Lkik/android/widget/GifTrayPage;
+.field public static final enum EMOJI:Lkik/arcane/widget/GifTrayPage;
 
-.field public static final enum FAVOURITES:Lkik/android/widget/GifTrayPage;
+.field public static final enum FAVOURITES:Lkik/arcane/widget/GifTrayPage;
 
-.field public static final enum FEATURED:Lkik/android/widget/GifTrayPage;
+.field public static final enum FEATURED:Lkik/arcane/widget/GifTrayPage;
 
-.field public static final enum TRENDING:Lkik/android/widget/GifTrayPage;
+.field public static final enum TRENDING:Lkik/arcane/widget/GifTrayPage;
 
 
 # instance fields
@@ -44,60 +44,60 @@
     const/4 v2, 0x0
 
     .line 8
-    new-instance v0, Lkik/android/widget/GifTrayPage;
+    new-instance v0, Lkik/arcane/widget/GifTrayPage;
 
     const-string v1, "TRENDING"
 
-    invoke-direct {v0, v1, v2, v2}, Lkik/android/widget/GifTrayPage;-><init>(Ljava/lang/String;II)V
+    invoke-direct {v0, v1, v2, v2}, Lkik/arcane/widget/GifTrayPage;-><init>(Ljava/lang/String;II)V
 
-    sput-object v0, Lkik/android/widget/GifTrayPage;->TRENDING:Lkik/android/widget/GifTrayPage;
+    sput-object v0, Lkik/arcane/widget/GifTrayPage;->TRENDING:Lkik/arcane/widget/GifTrayPage;
 
-    new-instance v0, Lkik/android/widget/GifTrayPage;
+    new-instance v0, Lkik/arcane/widget/GifTrayPage;
 
     const-string v1, "FEATURED"
 
-    invoke-direct {v0, v1, v3, v3}, Lkik/android/widget/GifTrayPage;-><init>(Ljava/lang/String;II)V
+    invoke-direct {v0, v1, v3, v3}, Lkik/arcane/widget/GifTrayPage;-><init>(Ljava/lang/String;II)V
 
-    sput-object v0, Lkik/android/widget/GifTrayPage;->FEATURED:Lkik/android/widget/GifTrayPage;
+    sput-object v0, Lkik/arcane/widget/GifTrayPage;->FEATURED:Lkik/arcane/widget/GifTrayPage;
 
-    new-instance v0, Lkik/android/widget/GifTrayPage;
+    new-instance v0, Lkik/arcane/widget/GifTrayPage;
 
     const-string v1, "EMOJI"
 
-    invoke-direct {v0, v1, v4, v4}, Lkik/android/widget/GifTrayPage;-><init>(Ljava/lang/String;II)V
+    invoke-direct {v0, v1, v4, v4}, Lkik/arcane/widget/GifTrayPage;-><init>(Ljava/lang/String;II)V
 
-    sput-object v0, Lkik/android/widget/GifTrayPage;->EMOJI:Lkik/android/widget/GifTrayPage;
+    sput-object v0, Lkik/arcane/widget/GifTrayPage;->EMOJI:Lkik/arcane/widget/GifTrayPage;
 
-    new-instance v0, Lkik/android/widget/GifTrayPage;
+    new-instance v0, Lkik/arcane/widget/GifTrayPage;
 
     const-string v1, "FAVOURITES"
 
-    invoke-direct {v0, v1, v5, v5}, Lkik/android/widget/GifTrayPage;-><init>(Ljava/lang/String;II)V
+    invoke-direct {v0, v1, v5, v5}, Lkik/arcane/widget/GifTrayPage;-><init>(Ljava/lang/String;II)V
 
-    sput-object v0, Lkik/android/widget/GifTrayPage;->FAVOURITES:Lkik/android/widget/GifTrayPage;
+    sput-object v0, Lkik/arcane/widget/GifTrayPage;->FAVOURITES:Lkik/arcane/widget/GifTrayPage;
 
     .line 6
     const/4 v0, 0x4
 
-    new-array v0, v0, [Lkik/android/widget/GifTrayPage;
+    new-array v0, v0, [Lkik/arcane/widget/GifTrayPage;
 
-    sget-object v1, Lkik/android/widget/GifTrayPage;->TRENDING:Lkik/android/widget/GifTrayPage;
+    sget-object v1, Lkik/arcane/widget/GifTrayPage;->TRENDING:Lkik/arcane/widget/GifTrayPage;
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lkik/android/widget/GifTrayPage;->FEATURED:Lkik/android/widget/GifTrayPage;
+    sget-object v1, Lkik/arcane/widget/GifTrayPage;->FEATURED:Lkik/arcane/widget/GifTrayPage;
 
     aput-object v1, v0, v3
 
-    sget-object v1, Lkik/android/widget/GifTrayPage;->EMOJI:Lkik/android/widget/GifTrayPage;
+    sget-object v1, Lkik/arcane/widget/GifTrayPage;->EMOJI:Lkik/arcane/widget/GifTrayPage;
 
     aput-object v1, v0, v4
 
-    sget-object v1, Lkik/android/widget/GifTrayPage;->FAVOURITES:Lkik/android/widget/GifTrayPage;
+    sget-object v1, Lkik/arcane/widget/GifTrayPage;->FAVOURITES:Lkik/arcane/widget/GifTrayPage;
 
     aput-object v1, v0, v5
 
-    sput-object v0, Lkik/android/widget/GifTrayPage;->$VALUES:[Lkik/android/widget/GifTrayPage;
+    sput-object v0, Lkik/arcane/widget/GifTrayPage;->$VALUES:[Lkik/arcane/widget/GifTrayPage;
 
     return-void
 .end method
@@ -115,13 +115,13 @@
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 14
-    iput p3, p0, Lkik/android/widget/GifTrayPage;->_key:I
+    iput p3, p0, Lkik/arcane/widget/GifTrayPage;->_key:I
 
     .line 15
     return-void
 .end method
 
-.method public static getGifTrayPage(I)Lkik/android/widget/GifTrayPage;
+.method public static getGifTrayPage(I)Lkik/arcane/widget/GifTrayPage;
     .locals 1
 
     .prologue
@@ -129,26 +129,26 @@
     packed-switch p0, :pswitch_data_0
 
     .line 27
-    sget-object v0, Lkik/android/widget/GifTrayPage;->TRENDING:Lkik/android/widget/GifTrayPage;
+    sget-object v0, Lkik/arcane/widget/GifTrayPage;->TRENDING:Lkik/arcane/widget/GifTrayPage;
 
     :goto_0
     return-object v0
 
     .line 21
     :pswitch_0
-    sget-object v0, Lkik/android/widget/GifTrayPage;->FEATURED:Lkik/android/widget/GifTrayPage;
+    sget-object v0, Lkik/arcane/widget/GifTrayPage;->FEATURED:Lkik/arcane/widget/GifTrayPage;
 
     goto :goto_0
 
     .line 23
     :pswitch_1
-    sget-object v0, Lkik/android/widget/GifTrayPage;->EMOJI:Lkik/android/widget/GifTrayPage;
+    sget-object v0, Lkik/arcane/widget/GifTrayPage;->EMOJI:Lkik/arcane/widget/GifTrayPage;
 
     goto :goto_0
 
     .line 25
     :pswitch_2
-    sget-object v0, Lkik/android/widget/GifTrayPage;->FAVOURITES:Lkik/android/widget/GifTrayPage;
+    sget-object v0, Lkik/arcane/widget/GifTrayPage;->FAVOURITES:Lkik/arcane/widget/GifTrayPage;
 
     goto :goto_0
 
@@ -163,7 +163,7 @@
     .end packed-switch
 .end method
 
-.method public static getMetricsGifName(Lkik/android/widget/GifTrayPage;)Ljava/lang/String;
+.method public static getMetricsGifName(Lkik/arcane/widget/GifTrayPage;)Ljava/lang/String;
     .locals 3
 
     .prologue
@@ -171,9 +171,9 @@
     const/4 v0, 0x0
 
     .line 34
-    sget-object v1, Lkik/android/widget/GifTrayPage$1;->a:[I
+    sget-object v1, Lkik/arcane/widget/GifTrayPage$1;->a:[I
 
-    invoke-virtual {p0}, Lkik/android/widget/GifTrayPage;->ordinal()I
+    invoke-virtual {p0}, Lkik/arcane/widget/GifTrayPage;->ordinal()I
 
     move-result v2
 
@@ -221,34 +221,34 @@
     .end packed-switch
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lkik/android/widget/GifTrayPage;
+.method public static valueOf(Ljava/lang/String;)Lkik/arcane/widget/GifTrayPage;
     .locals 1
 
     .prologue
     .line 6
-    const-class v0, Lkik/android/widget/GifTrayPage;
+    const-class v0, Lkik/arcane/widget/GifTrayPage;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/widget/GifTrayPage;
+    check-cast v0, Lkik/arcane/widget/GifTrayPage;
 
     return-object v0
 .end method
 
-.method public static values()[Lkik/android/widget/GifTrayPage;
+.method public static values()[Lkik/arcane/widget/GifTrayPage;
     .locals 1
 
     .prologue
     .line 6
-    sget-object v0, Lkik/android/widget/GifTrayPage;->$VALUES:[Lkik/android/widget/GifTrayPage;
+    sget-object v0, Lkik/arcane/widget/GifTrayPage;->$VALUES:[Lkik/arcane/widget/GifTrayPage;
 
-    invoke-virtual {v0}, [Lkik/android/widget/GifTrayPage;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lkik/arcane/widget/GifTrayPage;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkik/android/widget/GifTrayPage;
+    check-cast v0, [Lkik/arcane/widget/GifTrayPage;
 
     return-object v0
 .end method
@@ -260,7 +260,7 @@
 
     .prologue
     .line 53
-    iget v0, p0, Lkik/android/widget/GifTrayPage;->_key:I
+    iget v0, p0, Lkik/arcane/widget/GifTrayPage;->_key:I
 
     return v0
 .end method

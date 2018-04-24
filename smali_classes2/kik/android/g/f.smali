@@ -1,9 +1,9 @@
-.class public final Lkik/android/g/f;
+.class public final Lkik/arcane/g/f;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/g/b;
+.implements Lkik/arcane/g/b;
 
 
 # instance fields
@@ -23,10 +23,10 @@
     .line 21
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/g/f;->b:Z
+    iput-boolean v0, p0, Lkik/arcane/g/f;->b:Z
 
     .line 27
-    iput-object p1, p0, Lkik/android/g/f;->a:Lkik/core/interfaces/ICommunication;
+    iput-object p1, p0, Lkik/arcane/g/f;->a:Lkik/core/interfaces/ICommunication;
 
     .line 28
     const-string v0, "masks_test"
@@ -37,7 +37,7 @@
 
     move-result v0
 
-    iput-boolean v0, p0, Lkik/android/g/f;->b:Z
+    iput-boolean v0, p0, Lkik/arcane/g/f;->b:Z
 
     .line 29
     return-void
@@ -73,7 +73,7 @@
 
     move-result-object v1
 
-    iget-boolean v0, p0, Lkik/android/g/f;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/g/f;->b:Z
 
     if-eqz v0, :cond_0
 
@@ -84,13 +84,13 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/g/f;->a:Lkik/core/interfaces/ICommunication;
+    iget-object v1, p0, Lkik/arcane/g/f;->a:Lkik/core/interfaces/ICommunication;
 
     invoke-virtual {v0, v1}, Lkik/core/xiphias/XiphiasRequest;->send(Lkik/core/interfaces/ICommunication;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
-    invoke-static {}, Lkik/android/g/g;->a()Lcom/kik/events/p;
+    invoke-static {}, Lkik/arcane/g/g;->a()Lcom/kik/events/p;
 
     move-result-object v1
 

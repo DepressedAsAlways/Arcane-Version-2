@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/AbTestsFragment$1;
+.class final Lkik/arcane/chat/fragment/AbTestsFragment$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/AbTestsFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    value = Lkik/arcane/chat/fragment/AbTestsFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/AbTestsFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/AbTestsFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/AbTestsFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/AbTestsFragment;)V
     .locals 0
 
     .prologue
     .line 111
-    iput-object p1, p0, Lkik/android/chat/fragment/AbTestsFragment$1;->a:Lkik/android/chat/fragment/AbTestsFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/AbTestsFragment$1;->a:Lkik/arcane/chat/fragment/AbTestsFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,14 +41,14 @@
 
     .prologue
     .line 115
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment$1;->a:Lkik/android/chat/fragment/AbTestsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment$1;->a:Lkik/arcane/chat/fragment/AbTestsFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/AbTestsFragment;->a(Lkik/android/chat/fragment/AbTestsFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/AbTestsFragment;->a(Lkik/arcane/chat/fragment/AbTestsFragment;)V
 
     .line 116
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment$1;->a:Lkik/android/chat/fragment/AbTestsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment$1;->a:Lkik/arcane/chat/fragment/AbTestsFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/AbTestsFragment;->e:Lkik/core/ICoreEvents;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/AbTestsFragment;->e:Lkik/core/ICoreEvents;
 
     invoke-interface {v0}, Lkik/core/ICoreEvents;->h()V
 

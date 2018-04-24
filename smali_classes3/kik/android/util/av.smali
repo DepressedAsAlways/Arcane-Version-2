@@ -1,4 +1,4 @@
-.class public Lkik/android/util/av;
+.class public Lkik/arcane/util/av;
 .super Landroid/text/style/ClickableSpan;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/util/av$a;
+        Lkik/arcane/util/av$a;
     }
 .end annotation
 
@@ -16,11 +16,11 @@
 
 .field private final b:Ljava/lang/String;
 
-.field private c:Lkik/android/util/av$a;
+.field private c:Lkik/arcane/util/av$a;
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/String;Lkik/android/util/av$a;)V
+.method public constructor <init>(Ljava/lang/String;Lkik/arcane/util/av$a;)V
     .locals 0
 
     .prologue
@@ -28,10 +28,10 @@
     invoke-direct {p0}, Landroid/text/style/ClickableSpan;-><init>()V
 
     .line 25
-    iput-object p1, p0, Lkik/android/util/av;->b:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/util/av;->b:Ljava/lang/String;
 
     .line 26
-    iput-object p2, p0, Lkik/android/util/av;->c:Lkik/android/util/av$a;
+    iput-object p2, p0, Lkik/arcane/util/av;->c:Lkik/arcane/util/av$a;
 
     .line 27
     return-void
@@ -44,7 +44,7 @@
 
     .prologue
     .line 39
-    iput-boolean p1, p0, Lkik/android/util/av;->a:Z
+    iput-boolean p1, p0, Lkik/arcane/util/av;->a:Z
 
     .line 40
     return-void
@@ -55,16 +55,16 @@
 
     .prologue
     .line 32
-    iget-object v0, p0, Lkik/android/util/av;->c:Lkik/android/util/av$a;
+    iget-object v0, p0, Lkik/arcane/util/av;->c:Lkik/arcane/util/av$a;
 
     if-eqz v0, :cond_0
 
     .line 33
-    iget-object v0, p0, Lkik/android/util/av;->c:Lkik/android/util/av$a;
+    iget-object v0, p0, Lkik/arcane/util/av;->c:Lkik/arcane/util/av$a;
 
-    iget-object v1, p0, Lkik/android/util/av;->b:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/util/av;->b:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Lkik/android/util/av$a;->a(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lkik/arcane/util/av$a;->a(Ljava/lang/String;)V
 
     .line 35
     :cond_0
@@ -79,7 +79,7 @@
     invoke-super {p0, p1}, Landroid/text/style/ClickableSpan;->updateDrawState(Landroid/text/TextPaint;)V
 
     .line 46
-    iget-boolean v0, p0, Lkik/android/util/av;->a:Z
+    iget-boolean v0, p0, Lkik/arcane/util/av;->a:Z
 
     if-eqz v0, :cond_0
 

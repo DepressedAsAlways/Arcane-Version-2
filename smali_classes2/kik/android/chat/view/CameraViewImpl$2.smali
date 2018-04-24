@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/view/CameraViewImpl$2;
+.class final Lkik/arcane/chat/view/CameraViewImpl$2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/view/CameraViewImpl;->a(Landroid/content/Context;)V
+    value = Lkik/arcane/chat/view/CameraViewImpl;->a(Landroid/content/Context;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/view/CameraViewImpl;
+.field final synthetic a:Lkik/arcane/chat/view/CameraViewImpl;
 
 .field private b:I
 
@@ -26,24 +26,24 @@
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/view/CameraViewImpl;)V
+.method constructor <init>(Lkik/arcane/chat/view/CameraViewImpl;)V
     .locals 2
 
     .prologue
     .line 128
-    iput-object p1, p0, Lkik/android/chat/view/CameraViewImpl$2;->a:Lkik/android/chat/view/CameraViewImpl;
+    iput-object p1, p0, Lkik/arcane/chat/view/CameraViewImpl$2;->a:Lkik/arcane/chat/view/CameraViewImpl;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 129
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/chat/view/CameraViewImpl$2;->b:I
+    iput v0, p0, Lkik/arcane/chat/view/CameraViewImpl$2;->b:I
 
     .line 130
     const-wide/high16 v0, -0x4010000000000000L    # -1.0
 
-    iput-wide v0, p0, Lkik/android/chat/view/CameraViewImpl$2;->c:D
+    iput-wide v0, p0, Lkik/arcane/chat/view/CameraViewImpl$2;->c:D
 
     return-void
 .end method
@@ -73,7 +73,7 @@
 
     if-eq v0, v1, :cond_0
 
-    iget-wide v0, p0, Lkik/android/chat/view/CameraViewImpl$2;->c:D
+    iget-wide v0, p0, Lkik/arcane/chat/view/CameraViewImpl$2;->c:D
 
     cmpl-double v0, v0, v6
 
@@ -87,9 +87,9 @@
     if-ne v0, v3, :cond_2
 
     .line 136
-    iget-object v0, p0, Lkik/android/chat/view/CameraViewImpl$2;->a:Lkik/android/chat/view/CameraViewImpl;
+    iget-object v0, p0, Lkik/arcane/chat/view/CameraViewImpl$2;->a:Lkik/arcane/chat/view/CameraViewImpl;
 
-    iput-boolean v2, v0, Lkik/android/chat/view/CameraViewImpl;->b:Z
+    iput-boolean v2, v0, Lkik/arcane/chat/view/CameraViewImpl;->b:Z
 
     .line 1162
     new-instance v0, Landroid/view/MotionEvent$PointerCoords;
@@ -138,20 +138,20 @@
 
     move-result-wide v0
 
-    iput-wide v0, p0, Lkik/android/chat/view/CameraViewImpl$2;->c:D
+    iput-wide v0, p0, Lkik/arcane/chat/view/CameraViewImpl$2;->c:D
 
     .line 1168
-    iget-object v0, p0, Lkik/android/chat/view/CameraViewImpl$2;->a:Lkik/android/chat/view/CameraViewImpl;
+    iget-object v0, p0, Lkik/arcane/chat/view/CameraViewImpl$2;->a:Lkik/arcane/chat/view/CameraViewImpl;
 
-    invoke-static {v0}, Lkik/android/chat/view/CameraViewImpl;->d(Lkik/android/chat/view/CameraViewImpl;)Lkik/android/c/d;
+    invoke-static {v0}, Lkik/arcane/chat/view/CameraViewImpl;->d(Lkik/arcane/chat/view/CameraViewImpl;)Lkik/arcane/c/d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/c/d;->w()I
+    invoke-virtual {v0}, Lkik/arcane/c/d;->w()I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/chat/view/CameraViewImpl$2;->b:I
+    iput v0, p0, Lkik/arcane/chat/view/CameraViewImpl$2;->b:I
 
     .line 157
     :cond_1
@@ -172,7 +172,7 @@
 
     if-lt v0, v3, :cond_3
 
-    iget-wide v0, p0, Lkik/android/chat/view/CameraViewImpl$2;->c:D
+    iget-wide v0, p0, Lkik/arcane/chat/view/CameraViewImpl$2;->c:D
 
     cmpl-double v0, v0, v6
 
@@ -226,28 +226,28 @@
     move-result-wide v0
 
     .line 148
-    iget-wide v2, p0, Lkik/android/chat/view/CameraViewImpl$2;->c:D
+    iget-wide v2, p0, Lkik/arcane/chat/view/CameraViewImpl$2;->c:D
 
     sub-double/2addr v0, v2
 
     double-to-float v0, v0
 
-    iget-wide v2, p0, Lkik/android/chat/view/CameraViewImpl$2;->c:D
+    iget-wide v2, p0, Lkik/arcane/chat/view/CameraViewImpl$2;->c:D
 
     double-to-float v1, v2
 
     div-float/2addr v0, v1
 
     .line 150
-    iget-object v1, p0, Lkik/android/chat/view/CameraViewImpl$2;->a:Lkik/android/chat/view/CameraViewImpl;
+    iget-object v1, p0, Lkik/arcane/chat/view/CameraViewImpl$2;->a:Lkik/arcane/chat/view/CameraViewImpl;
 
-    invoke-static {v1}, Lkik/android/chat/view/CameraViewImpl;->c(Lkik/android/chat/view/CameraViewImpl;)Lkik/android/chat/view/s$a;
+    invoke-static {v1}, Lkik/arcane/chat/view/CameraViewImpl;->c(Lkik/arcane/chat/view/CameraViewImpl;)Lkik/arcane/chat/view/s$a;
 
     move-result-object v1
 
-    iget v2, p0, Lkik/android/chat/view/CameraViewImpl$2;->b:I
+    iget v2, p0, Lkik/arcane/chat/view/CameraViewImpl$2;->b:I
 
-    invoke-interface {v1, v0, v2}, Lkik/android/chat/view/s$a;->a(FI)V
+    invoke-interface {v1, v0, v2}, Lkik/arcane/chat/view/s$a;->a(FI)V
 
     goto :goto_0
 
@@ -277,16 +277,16 @@
     if-ge v0, v1, :cond_1
 
     .line 153
-    iput-wide v6, p0, Lkik/android/chat/view/CameraViewImpl$2;->c:D
+    iput-wide v6, p0, Lkik/arcane/chat/view/CameraViewImpl$2;->c:D
 
     .line 154
-    iget-object v0, p0, Lkik/android/chat/view/CameraViewImpl$2;->a:Lkik/android/chat/view/CameraViewImpl;
+    iget-object v0, p0, Lkik/arcane/chat/view/CameraViewImpl$2;->a:Lkik/arcane/chat/view/CameraViewImpl;
 
-    invoke-static {v0}, Lkik/android/chat/view/CameraViewImpl;->c(Lkik/android/chat/view/CameraViewImpl;)Lkik/android/chat/view/s$a;
+    invoke-static {v0}, Lkik/arcane/chat/view/CameraViewImpl;->c(Lkik/arcane/chat/view/CameraViewImpl;)Lkik/arcane/chat/view/s$a;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkik/android/chat/view/s$a;->v()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/s$a;->v()V
 
     goto :goto_0
 .end method

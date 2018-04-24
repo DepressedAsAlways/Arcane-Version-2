@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/gifs/api/m;
+.class final synthetic Lkik/arcane/gifs/api/m;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -15,7 +15,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/gifs/api/m;->a:Lcom/kik/events/Promise;
+    iput-object p1, p0, Lkik/arcane/gifs/api/m;->a:Lcom/kik/events/Promise;
 
     return-void
 .end method
@@ -23,9 +23,9 @@
 .method public static a(Lcom/kik/events/Promise;)Lcom/android/volley/h$b;
     .locals 1
 
-    new-instance v0, Lkik/android/gifs/api/m;
+    new-instance v0, Lkik/arcane/gifs/api/m;
 
-    invoke-direct {v0, p0}, Lkik/android/gifs/api/m;-><init>(Lcom/kik/events/Promise;)V
+    invoke-direct {v0, p0}, Lkik/arcane/gifs/api/m;-><init>(Lcom/kik/events/Promise;)V
 
     return-object v0
 .end method
@@ -37,12 +37,12 @@
 
     .prologue
     .line 0
-    iget-object v0, p0, Lkik/android/gifs/api/m;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/gifs/api/m;->a:Lcom/kik/events/Promise;
 
     check-cast p1, Lorg/json/JSONObject;
 
     .line 1371
-    invoke-static {p1}, Lkik/android/gifs/api/q;->d(Lorg/json/JSONObject;)Ljava/lang/String;
+    invoke-static {p1}, Lkik/arcane/gifs/api/q;->d(Lorg/json/JSONObject;)Ljava/lang/String;
 
     move-result-object v1
 

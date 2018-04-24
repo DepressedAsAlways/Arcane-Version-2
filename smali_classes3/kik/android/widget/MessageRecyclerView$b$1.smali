@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/MessageRecyclerView$b$1;
+.class final Lkik/arcane/widget/MessageRecyclerView$b$1;
 .super Landroid/support/v7/widget/LinearSmoothScroller;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/MessageRecyclerView$b;->a(Landroid/support/v7/widget/RecyclerView;Landroid/support/v7/widget/RecyclerView$State;I)V
+    value = Lkik/arcane/widget/MessageRecyclerView$b;->a(Landroid/support/v7/widget/RecyclerView;Landroid/support/v7/widget/RecyclerView$State;I)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,20 +17,20 @@
 # instance fields
 .field final synthetic f:Z
 
-.field final synthetic g:Lkik/android/widget/MessageRecyclerView$b;
+.field final synthetic g:Lkik/arcane/widget/MessageRecyclerView$b;
 
 .field private h:Landroid/view/animation/DecelerateInterpolator;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/MessageRecyclerView$b;Landroid/content/Context;Z)V
+.method constructor <init>(Lkik/arcane/widget/MessageRecyclerView$b;Landroid/content/Context;Z)V
     .locals 2
 
     .prologue
     .line 236
-    iput-object p1, p0, Lkik/android/widget/MessageRecyclerView$b$1;->g:Lkik/android/widget/MessageRecyclerView$b;
+    iput-object p1, p0, Lkik/arcane/widget/MessageRecyclerView$b$1;->g:Lkik/arcane/widget/MessageRecyclerView$b;
 
-    iput-boolean p3, p0, Lkik/android/widget/MessageRecyclerView$b$1;->f:Z
+    iput-boolean p3, p0, Lkik/arcane/widget/MessageRecyclerView$b$1;->f:Z
 
     invoke-direct {p0, p2}, Landroid/support/v7/widget/LinearSmoothScroller;-><init>(Landroid/content/Context;)V
 
@@ -41,23 +41,23 @@
 
     invoke-direct {v0, v1}, Landroid/view/animation/DecelerateInterpolator;-><init>(F)V
 
-    iput-object v0, p0, Lkik/android/widget/MessageRecyclerView$b$1;->h:Landroid/view/animation/DecelerateInterpolator;
+    iput-object v0, p0, Lkik/arcane/widget/MessageRecyclerView$b$1;->h:Landroid/view/animation/DecelerateInterpolator;
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/MessageRecyclerView$b$1;)V
+.method static synthetic a(Lkik/arcane/widget/MessageRecyclerView$b$1;)V
     .locals 2
 
     .prologue
     .line 279
-    iget-object v0, p0, Lkik/android/widget/MessageRecyclerView$b$1;->g:Lkik/android/widget/MessageRecyclerView$b;
+    iget-object v0, p0, Lkik/arcane/widget/MessageRecyclerView$b$1;->g:Lkik/arcane/widget/MessageRecyclerView$b;
 
-    iget-object v0, v0, Lkik/android/widget/MessageRecyclerView$b;->a:Lkik/android/widget/MessageRecyclerView;
+    iget-object v0, v0, Lkik/arcane/widget/MessageRecyclerView$b;->a:Lkik/arcane/widget/MessageRecyclerView;
 
     const/4 v1, 0x0
 
-    invoke-static {v0, v1}, Lkik/android/widget/MessageRecyclerView;->a(Lkik/android/widget/MessageRecyclerView;Z)Z
+    invoke-static {v0, v1}, Lkik/arcane/widget/MessageRecyclerView;->a(Lkik/arcane/widget/MessageRecyclerView;Z)Z
 
     return-void
 .end method
@@ -88,15 +88,15 @@
     invoke-super {p0}, Landroid/support/v7/widget/LinearSmoothScroller;->a()V
 
     .line 279
-    iget-object v0, p0, Lkik/android/widget/MessageRecyclerView$b$1;->g:Lkik/android/widget/MessageRecyclerView$b;
+    iget-object v0, p0, Lkik/arcane/widget/MessageRecyclerView$b$1;->g:Lkik/arcane/widget/MessageRecyclerView$b;
 
-    iget-object v0, v0, Lkik/android/widget/MessageRecyclerView$b;->a:Lkik/android/widget/MessageRecyclerView;
+    iget-object v0, v0, Lkik/arcane/widget/MessageRecyclerView$b;->a:Lkik/arcane/widget/MessageRecyclerView;
 
-    invoke-static {p0}, Lkik/android/widget/ck;->a(Lkik/android/widget/MessageRecyclerView$b$1;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/widget/ck;->a(Lkik/arcane/widget/MessageRecyclerView$b$1;)Ljava/lang/Runnable;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/MessageRecyclerView;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/MessageRecyclerView;->post(Ljava/lang/Runnable;)Z
 
     .line 280
     return-void
@@ -107,7 +107,7 @@
 
     .prologue
     .line 244
-    iget-boolean v0, p0, Lkik/android/widget/MessageRecyclerView$b$1;->f:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/MessageRecyclerView$b$1;->f:Z
 
     if-eqz v0, :cond_1
 
@@ -115,12 +115,12 @@
 
     .line 246
     :goto_0
-    invoke-virtual {p0, p1, v0}, Lkik/android/widget/MessageRecyclerView$b$1;->b(Landroid/view/View;I)I
+    invoke-virtual {p0, p1, v0}, Lkik/arcane/widget/MessageRecyclerView$b$1;->b(Landroid/view/View;I)I
 
     move-result v1
 
     .line 247
-    invoke-virtual {p0, p1, v0}, Lkik/android/widget/MessageRecyclerView$b$1;->a(Landroid/view/View;I)I
+    invoke-virtual {p0, p1, v0}, Lkik/arcane/widget/MessageRecyclerView$b$1;->a(Landroid/view/View;I)I
 
     move-result v0
 
@@ -140,22 +140,22 @@
     double-to-int v2, v2
 
     .line 249
-    iget-object v3, p0, Lkik/android/widget/MessageRecyclerView$b$1;->g:Lkik/android/widget/MessageRecyclerView$b;
+    iget-object v3, p0, Lkik/arcane/widget/MessageRecyclerView$b$1;->g:Lkik/arcane/widget/MessageRecyclerView$b;
 
-    iget-object v3, v3, Lkik/android/widget/MessageRecyclerView$b;->a:Lkik/android/widget/MessageRecyclerView;
+    iget-object v3, v3, Lkik/arcane/widget/MessageRecyclerView$b;->a:Lkik/arcane/widget/MessageRecyclerView;
 
-    invoke-virtual {p0, v2}, Lkik/android/widget/MessageRecyclerView$b$1;->a(I)I
+    invoke-virtual {p0, v2}, Lkik/arcane/widget/MessageRecyclerView$b$1;->a(I)I
 
     move-result v2
 
-    invoke-static {v3, v2}, Lkik/android/widget/MessageRecyclerView;->a(Lkik/android/widget/MessageRecyclerView;I)I
+    invoke-static {v3, v2}, Lkik/arcane/widget/MessageRecyclerView;->a(Lkik/arcane/widget/MessageRecyclerView;I)I
 
     .line 250
-    iget-object v2, p0, Lkik/android/widget/MessageRecyclerView$b$1;->g:Lkik/android/widget/MessageRecyclerView$b;
+    iget-object v2, p0, Lkik/arcane/widget/MessageRecyclerView$b$1;->g:Lkik/arcane/widget/MessageRecyclerView$b;
 
-    iget-object v2, v2, Lkik/android/widget/MessageRecyclerView$b;->a:Lkik/android/widget/MessageRecyclerView;
+    iget-object v2, v2, Lkik/arcane/widget/MessageRecyclerView$b;->a:Lkik/arcane/widget/MessageRecyclerView;
 
-    invoke-static {v2}, Lkik/android/widget/MessageRecyclerView;->d(Lkik/android/widget/MessageRecyclerView;)I
+    invoke-static {v2}, Lkik/arcane/widget/MessageRecyclerView;->d(Lkik/arcane/widget/MessageRecyclerView;)I
 
     move-result v2
 
@@ -166,15 +166,15 @@
 
     neg-int v0, v0
 
-    iget-object v2, p0, Lkik/android/widget/MessageRecyclerView$b$1;->g:Lkik/android/widget/MessageRecyclerView$b;
+    iget-object v2, p0, Lkik/arcane/widget/MessageRecyclerView$b$1;->g:Lkik/arcane/widget/MessageRecyclerView$b;
 
-    iget-object v2, v2, Lkik/android/widget/MessageRecyclerView$b;->a:Lkik/android/widget/MessageRecyclerView;
+    iget-object v2, v2, Lkik/arcane/widget/MessageRecyclerView$b;->a:Lkik/arcane/widget/MessageRecyclerView;
 
-    invoke-static {v2}, Lkik/android/widget/MessageRecyclerView;->d(Lkik/android/widget/MessageRecyclerView;)I
+    invoke-static {v2}, Lkik/arcane/widget/MessageRecyclerView;->d(Lkik/arcane/widget/MessageRecyclerView;)I
 
     move-result v2
 
-    iget-object v3, p0, Lkik/android/widget/MessageRecyclerView$b$1;->h:Landroid/view/animation/DecelerateInterpolator;
+    iget-object v3, p0, Lkik/arcane/widget/MessageRecyclerView$b$1;->h:Landroid/view/animation/DecelerateInterpolator;
 
     invoke-virtual {p3, v1, v0, v2, v3}, Landroid/support/v7/widget/RecyclerView$SmoothScroller$Action;->a(IIILandroid/view/animation/Interpolator;)V
 
@@ -223,15 +223,15 @@
 
     .prologue
     .line 258
-    iget-object v0, p0, Lkik/android/widget/MessageRecyclerView$b$1;->g:Lkik/android/widget/MessageRecyclerView$b;
+    iget-object v0, p0, Lkik/arcane/widget/MessageRecyclerView$b$1;->g:Lkik/arcane/widget/MessageRecyclerView$b;
 
-    iget-object v0, v0, Lkik/android/widget/MessageRecyclerView$b;->a:Lkik/android/widget/MessageRecyclerView;
+    iget-object v0, v0, Lkik/arcane/widget/MessageRecyclerView$b;->a:Lkik/arcane/widget/MessageRecyclerView;
 
-    invoke-static {v0}, Lkik/android/widget/MessageRecyclerView;->e(Lkik/android/widget/MessageRecyclerView;)Lkik/android/widget/MessageRecyclerView$b;
+    invoke-static {v0}, Lkik/arcane/widget/MessageRecyclerView;->e(Lkik/arcane/widget/MessageRecyclerView;)Lkik/arcane/widget/MessageRecyclerView$b;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lkik/android/widget/MessageRecyclerView$b;->c(I)Landroid/graphics/PointF;
+    invoke-virtual {v0, p1}, Lkik/arcane/widget/MessageRecyclerView$b;->c(I)Landroid/graphics/PointF;
 
     move-result-object v0
 

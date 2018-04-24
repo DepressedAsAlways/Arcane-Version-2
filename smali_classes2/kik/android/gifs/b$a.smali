@@ -1,11 +1,11 @@
-.class final Lkik/android/gifs/b$a;
+.class final Lkik/arcane/gifs/b$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/gifs/b;
+    value = Lkik/arcane/gifs/b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,10 +29,10 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 181
-    iput-object p1, p0, Lkik/android/gifs/b$a;->a:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/gifs/b$a;->a:Ljava/lang/String;
 
     .line 182
-    iput-object p2, p0, Lkik/android/gifs/b$a;->b:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/gifs/b$a;->b:Ljava/lang/String;
 
     .line 183
     return-void
@@ -43,7 +43,7 @@
 
     .prologue
     .line 174
-    invoke-direct {p0, p1, p2}, Lkik/android/gifs/b$a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/gifs/b$a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -59,34 +59,34 @@
     .line 188
     if-eqz p1, :cond_0
 
-    instance-of v1, p1, Lkik/android/gifs/b$a;
+    instance-of v1, p1, Lkik/arcane/gifs/b$a;
 
     if-eqz v1, :cond_0
 
     .line 189
-    check-cast p1, Lkik/android/gifs/b$a;
+    check-cast p1, Lkik/arcane/gifs/b$a;
 
     .line 190
-    iget-object v1, p0, Lkik/android/gifs/b$a;->a:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/gifs/b$a;->a:Ljava/lang/String;
 
     if-eqz v1, :cond_0
 
-    iget-object v1, p0, Lkik/android/gifs/b$a;->b:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/gifs/b$a;->b:Ljava/lang/String;
 
     if-eqz v1, :cond_0
 
-    iget-object v1, p1, Lkik/android/gifs/b$a;->a:Ljava/lang/String;
+    iget-object v1, p1, Lkik/arcane/gifs/b$a;->a:Ljava/lang/String;
 
     if-eqz v1, :cond_0
 
-    iget-object v1, p1, Lkik/android/gifs/b$a;->b:Ljava/lang/String;
+    iget-object v1, p1, Lkik/arcane/gifs/b$a;->b:Ljava/lang/String;
 
     if-eqz v1, :cond_0
 
     .line 191
-    iget-object v1, p0, Lkik/android/gifs/b$a;->a:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/gifs/b$a;->a:Ljava/lang/String;
 
-    iget-object v2, p1, Lkik/android/gifs/b$a;->a:Ljava/lang/String;
+    iget-object v2, p1, Lkik/arcane/gifs/b$a;->a:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -94,9 +94,9 @@
 
     if-eqz v1, :cond_0
 
-    iget-object v1, p0, Lkik/android/gifs/b$a;->b:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/gifs/b$a;->b:Ljava/lang/String;
 
-    iget-object v2, p1, Lkik/android/gifs/b$a;->b:Ljava/lang/String;
+    iget-object v2, p1, Lkik/arcane/gifs/b$a;->b:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -120,13 +120,13 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v1, p0, Lkik/android/gifs/b$a;->a:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/gifs/b$a;->a:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/gifs/b$a;->b:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/gifs/b$a;->b:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 

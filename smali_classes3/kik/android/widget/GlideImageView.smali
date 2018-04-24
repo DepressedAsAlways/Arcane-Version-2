@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/GlideImageView;
+.class public Lkik/arcane/widget/GlideImageView;
 .super Landroid/support/v7/widget/AppCompatImageView;
 .source "SourceFile"
 
@@ -37,7 +37,7 @@
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/GlideImageView;Lrx/d;)V
+.method public static a(Lkik/arcane/widget/GlideImageView;Lrx/d;)V
     .locals 2
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -48,7 +48,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/GlideImageView;",
+            "Lkik/arcane/widget/GlideImageView;",
             "Lrx/d",
             "<",
             "Lkik/core/chat/profile/am;",
@@ -62,7 +62,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/widget/bi;->a(Lkik/android/widget/GlideImageView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/bi;->a(Lkik/arcane/widget/GlideImageView;)Lrx/functions/b;
 
     move-result-object v1
 

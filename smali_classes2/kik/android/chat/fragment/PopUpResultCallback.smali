@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/chat/fragment/PopUpResultCallback;
+.class public interface abstract Lkik/arcane/chat/fragment/PopUpResultCallback;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/fragment/PopUpResultCallback$Source;
+        Lkik/arcane/chat/fragment/PopUpResultCallback$Source;
     }
 .end annotation
 

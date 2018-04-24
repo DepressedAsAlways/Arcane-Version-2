@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/chat/view/ValidateableInputView$6;
+.class final synthetic Lkik/arcane/chat/view/ValidateableInputView$6;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/view/ValidateableInputView;
+    value = Lkik/arcane/chat/view/ValidateableInputView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     .prologue
     .line 806
-    invoke-static {}, Lkik/android/chat/view/ValidateableInputView$TextValidityState;->values()[Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+    invoke-static {}, Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;->values()[Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
     move-result-object v0
 
@@ -32,14 +32,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/chat/view/ValidateableInputView$6;->a:[I
+    sput-object v0, Lkik/arcane/chat/view/ValidateableInputView$6;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/chat/view/ValidateableInputView$6;->a:[I
+    sget-object v0, Lkik/arcane/chat/view/ValidateableInputView$6;->a:[I
 
-    sget-object v1, Lkik/android/chat/view/ValidateableInputView$TextValidityState;->Empty:Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+    sget-object v1, Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;->Empty:Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
-    invoke-virtual {v1}, Lkik/android/chat/view/ValidateableInputView$TextValidityState;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;->ordinal()I
 
     move-result v1
 
@@ -51,11 +51,11 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/chat/view/ValidateableInputView$6;->a:[I
+    sget-object v0, Lkik/arcane/chat/view/ValidateableInputView$6;->a:[I
 
-    sget-object v1, Lkik/android/chat/view/ValidateableInputView$TextValidityState;->Invalid:Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+    sget-object v1, Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;->Invalid:Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
-    invoke-virtual {v1}, Lkik/android/chat/view/ValidateableInputView$TextValidityState;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;->ordinal()I
 
     move-result v1
 
@@ -67,11 +67,11 @@
 
     :goto_1
     :try_start_2
-    sget-object v0, Lkik/android/chat/view/ValidateableInputView$6;->a:[I
+    sget-object v0, Lkik/arcane/chat/view/ValidateableInputView$6;->a:[I
 
-    sget-object v1, Lkik/android/chat/view/ValidateableInputView$TextValidityState;->Valid:Lkik/android/chat/view/ValidateableInputView$TextValidityState;
+    sget-object v1, Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;->Valid:Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;
 
-    invoke-virtual {v1}, Lkik/android/chat/view/ValidateableInputView$TextValidityState;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/view/ValidateableInputView$TextValidityState;->ordinal()I
 
     move-result v1
 

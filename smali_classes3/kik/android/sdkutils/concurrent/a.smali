@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/sdkutils/concurrent/a;
+.class public interface abstract Lkik/arcane/sdkutils/concurrent/a;
 .super Ljava/lang/Object;
 
 # interfaces

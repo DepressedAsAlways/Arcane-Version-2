@@ -1,5 +1,5 @@
-.class public final Lkik/android/chat/vm/messaging/a/b;
-.super Lkik/android/chat/vm/messaging/db;
+.class public final Lkik/arcane/chat/vm/messaging/a/b;
+.super Lkik/arcane/chat/vm/messaging/db;
 .source "SourceFile"
 
 
@@ -45,10 +45,10 @@
 
     move-object v2, v1
 
-    invoke-direct/range {v0 .. v7}, Lkik/android/chat/vm/messaging/db;-><init>(Lkik/core/datatypes/Message;Ljava/lang/String;Lrx/d;Lrx/d;Lrx/d;Lrx/d;Lrx/d;)V
+    invoke-direct/range {v0 .. v7}, Lkik/arcane/chat/vm/messaging/db;-><init>(Lkik/core/datatypes/Message;Ljava/lang/String;Lrx/d;Lrx/d;Lrx/d;Lrx/d;Lrx/d;)V
 
     .line 18
-    iput-object p1, p0, Lkik/android/chat/vm/messaging/a/b;->H:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iput-object p1, p0, Lkik/arcane/chat/vm/messaging/a/b;->H:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     .line 19
     return-void
@@ -88,7 +88,7 @@
 
     .prologue
     .line 24
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/a/b;->H:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/a/b;->H:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     return-object v0
 .end method

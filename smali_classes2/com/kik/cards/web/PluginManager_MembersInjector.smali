@@ -116,7 +116,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/util/aj;",
+            "Lkik/arcane/util/aj;",
             ">;"
         }
     .end annotation
@@ -127,7 +127,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/b/g;",
+            "Lcom/kik/arcane/b/g;",
             ">;"
         }
     .end annotation
@@ -138,7 +138,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -233,15 +233,15 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/util/aj;",
+            "Lkik/arcane/util/aj;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/b/g;",
+            "Lcom/kik/arcane/b/g;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -522,15 +522,15 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/util/aj;",
+            "Lkik/arcane/util/aj;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/b/g;",
+            "Lcom/kik/arcane/b/g;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -699,9 +699,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/util/aj;
+    check-cast v0, Lkik/arcane/util/aj;
 
-    iput-object v0, p1, Lcom/kik/cards/web/n;->i:Lkik/android/util/aj;
+    iput-object v0, p1, Lcom/kik/cards/web/n;->i:Lkik/arcane/util/aj;
 
     .line 1138
     iget-object v0, p0, Lcom/kik/cards/web/PluginManager_MembersInjector;->k:Ljavax/inject/Provider;
@@ -710,9 +710,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/b/g;
+    check-cast v0, Lcom/kik/arcane/b/g;
 
-    iput-object v0, p1, Lcom/kik/cards/web/n;->j:Lcom/kik/android/b/g;
+    iput-object v0, p1, Lcom/kik/cards/web/n;->j:Lcom/kik/arcane/b/g;
 
     .line 1139
     iget-object v0, p0, Lcom/kik/cards/web/PluginManager_MembersInjector;->l:Ljavax/inject/Provider;
@@ -721,9 +721,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/Mixpanel;
+    check-cast v0, Lcom/kik/arcane/Mixpanel;
 
-    iput-object v0, p1, Lcom/kik/cards/web/n;->k:Lcom/kik/android/Mixpanel;
+    iput-object v0, p1, Lcom/kik/cards/web/n;->k:Lcom/kik/arcane/Mixpanel;
 
     .line 1140
     iget-object v0, p0, Lcom/kik/cards/web/PluginManager_MembersInjector;->m:Ljavax/inject/Provider;

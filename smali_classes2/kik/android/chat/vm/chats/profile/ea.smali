@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/chats/profile/ea;
+.class final synthetic Lkik/arcane/chat/vm/chats/profile/ea;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/vm/chats/profile/ea;
+.field private static final a:Lkik/arcane/chat/vm/chats/profile/ea;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/chats/profile/ea;
+    new-instance v0, Lkik/arcane/chat/vm/chats/profile/ea;
 
-    invoke-direct {v0}, Lkik/android/chat/vm/chats/profile/ea;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/vm/chats/profile/ea;-><init>()V
 
-    sput-object v0, Lkik/android/chat/vm/chats/profile/ea;->a:Lkik/android/chat/vm/chats/profile/ea;
+    sput-object v0, Lkik/arcane/chat/vm/chats/profile/ea;->a:Lkik/arcane/chat/vm/chats/profile/ea;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lrx/functions/g;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/vm/chats/profile/ea;->a:Lkik/android/chat/vm/chats/profile/ea;
+    sget-object v0, Lkik/arcane/chat/vm/chats/profile/ea;->a:Lkik/arcane/chat/vm/chats/profile/ea;
 
     return-object v0
 .end method
@@ -45,10 +45,10 @@
 
     .prologue
     .line 0
-    check-cast p1, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
+    check-cast p1, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
 
     .line 1100
-    sget-object v0, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->NONE:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
+    sget-object v0, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->NONE:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
 
     if-eq p1, v0, :cond_0
 

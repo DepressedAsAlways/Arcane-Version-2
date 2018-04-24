@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/widget/ay;
+.class final synthetic Lkik/arcane/widget/ay;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/widget/ExploreView;
+.field private final a:Lkik/arcane/widget/ExploreView;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/widget/ExploreView;)V
+.method private constructor <init>(Lkik/arcane/widget/ExploreView;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/widget/ay;->a:Lkik/android/widget/ExploreView;
+    iput-object p1, p0, Lkik/arcane/widget/ay;->a:Lkik/arcane/widget/ExploreView;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/ExploreView;)Ljava/lang/Runnable;
+.method public static a(Lkik/arcane/widget/ExploreView;)Ljava/lang/Runnable;
     .locals 1
 
-    new-instance v0, Lkik/android/widget/ay;
+    new-instance v0, Lkik/arcane/widget/ay;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/ay;-><init>(Lkik/android/widget/ExploreView;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/ay;-><init>(Lkik/arcane/widget/ExploreView;)V
 
     return-object v0
 .end method
@@ -35,9 +35,9 @@
 .method public final run()V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/widget/ay;->a:Lkik/android/widget/ExploreView;
+    iget-object v0, p0, Lkik/arcane/widget/ay;->a:Lkik/arcane/widget/ExploreView;
 
-    invoke-static {v0}, Lkik/android/widget/ExploreView;->a(Lkik/android/widget/ExploreView;)V
+    invoke-static {v0}, Lkik/arcane/widget/ExploreView;->a(Lkik/arcane/widget/ExploreView;)V
 
     return-void
 .end method

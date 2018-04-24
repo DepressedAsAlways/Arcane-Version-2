@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/KikMultiselectContactsListFragment$5;
+.class final Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment$5;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/KikMultiselectContactsListFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    value = Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikMultiselectContactsListFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikMultiselectContactsListFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment;)V
     .locals 0
 
     .prologue
     .line 169
-    iput-object p1, p0, Lkik/android/chat/fragment/KikMultiselectContactsListFragment$5;->a:Lkik/android/chat/fragment/KikMultiselectContactsListFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment$5;->a:Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -56,11 +56,11 @@
     check-cast p2, Lkik/core/datatypes/l;
 
     .line 1173
-    iget-object v0, p0, Lkik/android/chat/fragment/KikMultiselectContactsListFragment$5;->a:Lkik/android/chat/fragment/KikMultiselectContactsListFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment$5;->a:Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, p2, v2, v2, v1}, Lkik/android/chat/fragment/KikMultiselectContactsListFragment;->a(Lkik/core/datatypes/l;Lcom/kik/view/adapters/f;Landroid/database/Cursor;I)V
+    invoke-virtual {v0, p2, v2, v2, v1}, Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment;->a(Lkik/core/datatypes/l;Lcom/kik/view/adapters/f;Landroid/database/Cursor;I)V
 
     .line 169
     return-void

@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/d/c;
+.class public interface abstract Lkik/arcane/d/c;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -9,5 +9,5 @@
 
 
 # virtual methods
-.method public abstract a(Lkik/android/widget/MessageTextView;)V
+.method public abstract a(Lkik/arcane/widget/MessageTextView;)V
 .end method

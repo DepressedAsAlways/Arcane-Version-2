@@ -1,4 +1,4 @@
-.class public Lkik/android/internal/platform/ImageContentCache;
+.class public Lkik/arcane/internal/platform/ImageContentCache;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -36,7 +36,7 @@
     invoke-direct {v0, v2, p3}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
     .line 46
-    invoke-static {v0, v1}, Lkik/android/util/e;->a(Ljava/io/File;Ljava/io/File;)V
+    invoke-static {v0, v1}, Lkik/arcane/util/e;->a(Ljava/io/File;Ljava/io/File;)V
 
     .line 48
     const-string v2, "AN"
@@ -55,9 +55,9 @@
 
     .line 60
     :goto_0
-    new-instance v2, Lkik/android/net/c;
+    new-instance v2, Lkik/arcane/net/c;
 
-    invoke-direct {v2, v0}, Lkik/android/net/c;-><init>(Lcom/android/volley/toolbox/e;)V
+    invoke-direct {v2, v0}, Lkik/arcane/net/c;-><init>(Lcom/android/volley/toolbox/e;)V
 
     .line 62
     new-instance v0, Lcom/android/volley/toolbox/DiskBasedCache;
@@ -66,42 +66,42 @@
 
     invoke-direct {v0, v1, v3}, Lcom/android/volley/toolbox/DiskBasedCache;-><init>(Ljava/io/File;I)V
 
-    iput-object v0, p0, Lkik/android/internal/platform/ImageContentCache;->_diskCache:Lcom/android/volley/toolbox/DiskBasedCache;
+    iput-object v0, p0, Lkik/arcane/internal/platform/ImageContentCache;->_diskCache:Lcom/android/volley/toolbox/DiskBasedCache;
 
     .line 63
     new-instance v0, Lcom/android/volley/g;
 
-    iget-object v1, p0, Lkik/android/internal/platform/ImageContentCache;->_diskCache:Lcom/android/volley/toolbox/DiskBasedCache;
+    iget-object v1, p0, Lkik/arcane/internal/platform/ImageContentCache;->_diskCache:Lcom/android/volley/toolbox/DiskBasedCache;
 
     const/4 v3, 0x2
 
     invoke-direct {v0, v1, v2, v3}, Lcom/android/volley/g;-><init>(Lcom/android/volley/Cache;Lcom/android/volley/d;I)V
 
-    iput-object v0, p0, Lkik/android/internal/platform/ImageContentCache;->_requestQueue:Lcom/android/volley/g;
+    iput-object v0, p0, Lkik/arcane/internal/platform/ImageContentCache;->_requestQueue:Lcom/android/volley/g;
 
     .line 64
-    iput-object p4, p0, Lkik/android/internal/platform/ImageContentCache;->_simpleImageCache:Lcom/kik/cache/SimpleLruBitmapCache;
+    iput-object p4, p0, Lkik/arcane/internal/platform/ImageContentCache;->_simpleImageCache:Lcom/kik/cache/SimpleLruBitmapCache;
 
     .line 66
-    iget-object v0, p0, Lkik/android/internal/platform/ImageContentCache;->_requestQueue:Lcom/android/volley/g;
+    iget-object v0, p0, Lkik/arcane/internal/platform/ImageContentCache;->_requestQueue:Lcom/android/volley/g;
 
     invoke-virtual {v0}, Lcom/android/volley/g;->a()V
 
     .line 68
     new-instance v0, Lcom/kik/cache/KikVolleyImageLoader;
 
-    iget-object v1, p0, Lkik/android/internal/platform/ImageContentCache;->_requestQueue:Lcom/android/volley/g;
+    iget-object v1, p0, Lkik/arcane/internal/platform/ImageContentCache;->_requestQueue:Lcom/android/volley/g;
 
-    iget-object v2, p0, Lkik/android/internal/platform/ImageContentCache;->_simpleImageCache:Lcom/kik/cache/SimpleLruBitmapCache;
+    iget-object v2, p0, Lkik/arcane/internal/platform/ImageContentCache;->_simpleImageCache:Lcom/kik/cache/SimpleLruBitmapCache;
 
     const/4 v3, 0x0
 
     invoke-direct {v0, v1, v2, v3}, Lcom/kik/cache/KikVolleyImageLoader;-><init>(Lcom/android/volley/g;Lcom/kik/cache/KikVolleyImageLoader$ImageCache;Lcom/kik/cache/ad;)V
 
-    iput-object v0, p0, Lkik/android/internal/platform/ImageContentCache;->_imageLoader:Lcom/kik/cache/KikVolleyImageLoader;
+    iput-object v0, p0, Lkik/arcane/internal/platform/ImageContentCache;->_imageLoader:Lcom/kik/cache/KikVolleyImageLoader;
 
     .line 69
-    iget-object v0, p0, Lkik/android/internal/platform/ImageContentCache;->_imageLoader:Lcom/kik/cache/KikVolleyImageLoader;
+    iget-object v0, p0, Lkik/arcane/internal/platform/ImageContentCache;->_imageLoader:Lcom/kik/cache/KikVolleyImageLoader;
 
     invoke-virtual {v0}, Lcom/kik/cache/KikVolleyImageLoader;->b()V
 
@@ -139,7 +139,7 @@
 
     .prologue
     .line 142
-    iget-object v0, p0, Lkik/android/internal/platform/ImageContentCache;->_simpleImageCache:Lcom/kik/cache/SimpleLruBitmapCache;
+    iget-object v0, p0, Lkik/arcane/internal/platform/ImageContentCache;->_simpleImageCache:Lcom/kik/cache/SimpleLruBitmapCache;
 
     invoke-virtual {v0, p1}, Lcom/kik/cache/SimpleLruBitmapCache;->getBitmap(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
@@ -158,13 +158,13 @@
     return-object v0
 
     :cond_0
-    invoke-virtual {p0, p1}, Lkik/android/internal/platform/ImageContentCache;->getImageData(Ljava/lang/String;)Lcom/kik/events/Promise;
+    invoke-virtual {p0, p1}, Lkik/arcane/internal/platform/ImageContentCache;->getImageData(Ljava/lang/String;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/internal/platform/ImageContentCache$5;
+    new-instance v1, Lkik/arcane/internal/platform/ImageContentCache$5;
 
-    invoke-direct {v1, p0}, Lkik/android/internal/platform/ImageContentCache$5;-><init>(Lkik/android/internal/platform/ImageContentCache;)V
+    invoke-direct {v1, p0}, Lkik/arcane/internal/platform/ImageContentCache$5;-><init>(Lkik/arcane/internal/platform/ImageContentCache;)V
 
     invoke-static {v0, v1}, Lcom/kik/events/l;->b(Lcom/kik/events/Promise;Lcom/kik/events/p;)Lcom/kik/events/Promise;
 
@@ -194,13 +194,13 @@
     .line 103
     new-instance v3, Lcom/kik/cache/HundredYearFileRequest;
 
-    new-instance v0, Lkik/android/internal/platform/ImageContentCache$3;
+    new-instance v0, Lkik/arcane/internal/platform/ImageContentCache$3;
 
-    invoke-direct {v0, p0, v2}, Lkik/android/internal/platform/ImageContentCache$3;-><init>(Lkik/android/internal/platform/ImageContentCache;Lcom/kik/events/Promise;)V
+    invoke-direct {v0, p0, v2}, Lkik/arcane/internal/platform/ImageContentCache$3;-><init>(Lkik/arcane/internal/platform/ImageContentCache;Lcom/kik/events/Promise;)V
 
-    new-instance v1, Lkik/android/internal/platform/ImageContentCache$4;
+    new-instance v1, Lkik/arcane/internal/platform/ImageContentCache$4;
 
-    invoke-direct {v1, p0, v2}, Lkik/android/internal/platform/ImageContentCache$4;-><init>(Lkik/android/internal/platform/ImageContentCache;Lcom/kik/events/Promise;)V
+    invoke-direct {v1, p0, v2}, Lkik/arcane/internal/platform/ImageContentCache$4;-><init>(Lkik/arcane/internal/platform/ImageContentCache;Lcom/kik/events/Promise;)V
 
     invoke-direct {v3, p1, v0, v1}, Lcom/kik/cache/HundredYearFileRequest;-><init>(Ljava/lang/String;Lcom/android/volley/h$b;Lcom/android/volley/h$a;)V
 
@@ -216,7 +216,7 @@
     const/4 v0, 0x0
 
     .line 121
-    iget-object v5, p0, Lkik/android/internal/platform/ImageContentCache;->_diskCache:Lcom/android/volley/toolbox/DiskBasedCache;
+    iget-object v5, p0, Lkik/arcane/internal/platform/ImageContentCache;->_diskCache:Lcom/android/volley/toolbox/DiskBasedCache;
 
     invoke-virtual {v5, v4}, Lcom/android/volley/toolbox/DiskBasedCache;->containsKey(Ljava/lang/String;)Z
 
@@ -225,7 +225,7 @@
     if-eqz v5, :cond_1
 
     .line 122
-    iget-object v5, p0, Lkik/android/internal/platform/ImageContentCache;->_diskCache:Lcom/android/volley/toolbox/DiskBasedCache;
+    iget-object v5, p0, Lkik/arcane/internal/platform/ImageContentCache;->_diskCache:Lcom/android/volley/toolbox/DiskBasedCache;
 
     invoke-virtual {v5, v4}, Lcom/android/volley/toolbox/DiskBasedCache;->get(Ljava/lang/String;)Lcom/android/volley/Cache$a;
 
@@ -252,7 +252,7 @@
     if-nez v0, :cond_2
 
     .line 134
-    iget-object v0, p0, Lkik/android/internal/platform/ImageContentCache;->_requestQueue:Lcom/android/volley/g;
+    iget-object v0, p0, Lkik/arcane/internal/platform/ImageContentCache;->_requestQueue:Lcom/android/volley/g;
 
     invoke-virtual {v0, v3}, Lcom/android/volley/g;->a(Lcom/android/volley/Request;)Lcom/android/volley/Request;
 
@@ -268,13 +268,13 @@
     .line 74
     new-instance v1, Lcom/kik/cache/HundredYearFileRequest;
 
-    new-instance v0, Lkik/android/internal/platform/ImageContentCache$1;
+    new-instance v0, Lkik/arcane/internal/platform/ImageContentCache$1;
 
-    invoke-direct {v0, p0}, Lkik/android/internal/platform/ImageContentCache$1;-><init>(Lkik/android/internal/platform/ImageContentCache;)V
+    invoke-direct {v0, p0}, Lkik/arcane/internal/platform/ImageContentCache$1;-><init>(Lkik/arcane/internal/platform/ImageContentCache;)V
 
-    new-instance v2, Lkik/android/internal/platform/ImageContentCache$2;
+    new-instance v2, Lkik/arcane/internal/platform/ImageContentCache$2;
 
-    invoke-direct {v2, p0}, Lkik/android/internal/platform/ImageContentCache$2;-><init>(Lkik/android/internal/platform/ImageContentCache;)V
+    invoke-direct {v2, p0}, Lkik/arcane/internal/platform/ImageContentCache$2;-><init>(Lkik/arcane/internal/platform/ImageContentCache;)V
 
     invoke-direct {v1, p1, v0, v2}, Lcom/kik/cache/HundredYearFileRequest;-><init>(Ljava/lang/String;Lcom/android/volley/h$b;Lcom/android/volley/h$a;)V
 
@@ -287,7 +287,7 @@
     const/4 v0, 0x0
 
     .line 89
-    iget-object v3, p0, Lkik/android/internal/platform/ImageContentCache;->_diskCache:Lcom/android/volley/toolbox/DiskBasedCache;
+    iget-object v3, p0, Lkik/arcane/internal/platform/ImageContentCache;->_diskCache:Lcom/android/volley/toolbox/DiskBasedCache;
 
     invoke-virtual {v3, v2}, Lcom/android/volley/toolbox/DiskBasedCache;->containsKey(Ljava/lang/String;)Z
 
@@ -303,7 +303,7 @@
     if-nez v0, :cond_1
 
     .line 94
-    iget-object v2, p0, Lkik/android/internal/platform/ImageContentCache;->_requestQueue:Lcom/android/volley/g;
+    iget-object v2, p0, Lkik/arcane/internal/platform/ImageContentCache;->_requestQueue:Lcom/android/volley/g;
 
     invoke-virtual {v2, v1}, Lcom/android/volley/g;->a(Lcom/android/volley/Request;)Lcom/android/volley/Request;
 

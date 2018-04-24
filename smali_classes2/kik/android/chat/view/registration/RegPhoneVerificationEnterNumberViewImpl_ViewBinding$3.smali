@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl_ViewBinding$3;
+.class final Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl_ViewBinding$3;
 .super Lbutterknife/internal/DebouncingOnClickListener;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl_ViewBinding;-><init>(Lkik/android/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl;Landroid/view/View;)V
+    value = Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl_ViewBinding;-><init>(Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl;Landroid/view/View;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,20 +15,20 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl;
+.field final synthetic a:Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl;
 
-.field final synthetic b:Lkik/android/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl_ViewBinding;
+.field final synthetic b:Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl_ViewBinding;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl_ViewBinding;Lkik/android/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl;)V
+.method constructor <init>(Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl_ViewBinding;Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl;)V
     .locals 0
 
     .prologue
     .line 57
-    iput-object p1, p0, Lkik/android/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl_ViewBinding$3;->b:Lkik/android/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl_ViewBinding;
+    iput-object p1, p0, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl_ViewBinding$3;->b:Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl_ViewBinding;
 
-    iput-object p2, p0, Lkik/android/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl_ViewBinding$3;->a:Lkik/android/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl;
+    iput-object p2, p0, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl_ViewBinding$3;->a:Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl;
 
     invoke-direct {p0}, Lbutterknife/internal/DebouncingOnClickListener;-><init>()V
 
@@ -42,9 +42,9 @@
 
     .prologue
     .line 60
-    iget-object v0, p0, Lkik/android/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl_ViewBinding$3;->a:Lkik/android/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl;
+    iget-object v0, p0, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl_ViewBinding$3;->a:Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl;->onWhyNeededClick()V
+    invoke-virtual {v0}, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterNumberViewImpl;->onWhyNeededClick()V
 
     .line 61
     return-void

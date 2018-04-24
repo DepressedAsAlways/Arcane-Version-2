@@ -1,4 +1,4 @@
-.class public final Lkik/android/internal/platform/b;
+.class public final Lkik/arcane/internal/platform/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -13,13 +13,13 @@
 
     .prologue
     .line 37
-    const-string v0, "content://kik.android.KikFileProvider"
+    const-string v0, "content://kik.arcane.KikFileProvider"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/internal/platform/b;->a:Landroid/net/Uri;
+    sput-object v0, Lkik/arcane/internal/platform/b;->a:Landroid/net/Uri;
 
     return-void
 .end method

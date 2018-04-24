@@ -1,11 +1,11 @@
-.class final Lkik/android/i/a$2;
+.class final Lkik/arcane/i/a$2;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/i/a;->a(Lkik/core/e/f;Lkik/core/interfaces/ad;Lcom/kik/events/Promise;Lcom/kik/events/Promise;)V
+    value = Lkik/arcane/i/a;->a(Lkik/core/e/f;Lkik/core/interfaces/ad;Lcom/kik/events/Promise;Lcom/kik/events/Promise;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/i/a;
+.field final synthetic a:Lkik/arcane/i/a;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/i/a;)V
+.method constructor <init>(Lkik/arcane/i/a;)V
     .locals 0
 
     .prologue
     .line 77
-    iput-object p1, p0, Lkik/android/i/a$2;->a:Lkik/android/i/a;
+    iput-object p1, p0, Lkik/arcane/i/a$2;->a:Lkik/arcane/i/a;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -50,9 +50,9 @@
     invoke-super {p0, p1}, Lcom/kik/events/k;->a(Ljava/lang/Object;)V
 
     .line 82
-    iget-object v0, p0, Lkik/android/i/a$2;->a:Lkik/android/i/a;
+    iget-object v0, p0, Lkik/arcane/i/a$2;->a:Lkik/arcane/i/a;
 
-    invoke-virtual {v0}, Lkik/android/i/a;->f()V
+    invoke-virtual {v0}, Lkik/arcane/i/a;->f()V
 
     .line 83
     return-void

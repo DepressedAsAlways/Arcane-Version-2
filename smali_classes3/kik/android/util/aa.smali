@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/aa;
+.class public final Lkik/arcane/util/aa;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -136,7 +136,7 @@
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 72
-    invoke-static {v2, v0}, Lkik/android/util/aa;->a(Landroid/media/MediaExtractor;Z)I
+    invoke-static {v2, v0}, Lkik/arcane/util/aa;->a(Landroid/media/MediaExtractor;Z)I
 
     move-result v3
 
@@ -284,17 +284,17 @@
 
     .prologue
     .line 177
-    invoke-static {p0}, Lkik/android/util/bw;->c(Ljava/lang/String;)I
+    invoke-static {p0}, Lkik/arcane/util/bw;->c(Ljava/lang/String;)I
 
     move-result v0
 
     .line 178
-    invoke-static {p0}, Lkik/android/util/aa;->a(Ljava/lang/String;)I
+    invoke-static {p0}, Lkik/arcane/util/aa;->a(Ljava/lang/String;)I
 
     move-result v1
 
     .line 179
-    invoke-static {v1, v0}, Lkik/android/util/aa;->a(II)I
+    invoke-static {v1, v0}, Lkik/arcane/util/aa;->a(II)I
 
     move-result v2
 
@@ -348,7 +348,7 @@
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 231
-    invoke-static {v2, v0}, Lkik/android/util/aa;->a(Landroid/media/MediaExtractor;Z)I
+    invoke-static {v2, v0}, Lkik/arcane/util/aa;->a(Landroid/media/MediaExtractor;Z)I
 
     move-result v3
 
@@ -362,7 +362,7 @@
 
     .line 236
     :cond_1
-    invoke-static {v2, v1}, Lkik/android/util/aa;->a(Landroid/media/MediaExtractor;Z)I
+    invoke-static {v2, v1}, Lkik/arcane/util/aa;->a(Landroid/media/MediaExtractor;Z)I
 
     move-result v3
 

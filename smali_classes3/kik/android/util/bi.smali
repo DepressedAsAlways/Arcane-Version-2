@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/bi;
+.class public final Lkik/arcane/util/bi;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -20,7 +20,7 @@
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lkik/android/util/bi;-><init>(Ljava/util/regex/Pattern;)V
+    invoke-direct {p0, v0}, Lkik/arcane/util/bi;-><init>(Ljava/util/regex/Pattern;)V
 
     .line 25
     return-void
@@ -34,7 +34,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 29
-    iput-object p1, p0, Lkik/android/util/bi;->a:Ljava/util/regex/Pattern;
+    iput-object p1, p0, Lkik/arcane/util/bi;->a:Ljava/util/regex/Pattern;
 
     .line 30
     return-void
@@ -49,7 +49,7 @@
     const/4 v0, 0x0
 
     .line 36
-    iget-object v1, p0, Lkik/android/util/bi;->a:Ljava/util/regex/Pattern;
+    iget-object v1, p0, Lkik/arcane/util/bi;->a:Ljava/util/regex/Pattern;
 
     if-nez v1, :cond_1
 
@@ -60,7 +60,7 @@
 
     .line 41
     :cond_1
-    iget-object v1, p0, Lkik/android/util/bi;->a:Ljava/util/regex/Pattern;
+    iget-object v1, p0, Lkik/arcane/util/bi;->a:Ljava/util/regex/Pattern;
 
     invoke-virtual {v1, p1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 

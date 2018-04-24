@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/widget/ds;
+.class final synthetic Lkik/arcane/widget/ds;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -15,7 +15,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/widget/ds;->a:Lrx/functions/h;
+    iput-object p1, p0, Lkik/arcane/widget/ds;->a:Lrx/functions/h;
 
     return-void
 .end method
@@ -23,9 +23,9 @@
 .method public static a(Lrx/functions/h;)Landroid/view/View$OnTouchListener;
     .locals 1
 
-    new-instance v0, Lkik/android/widget/ds;
+    new-instance v0, Lkik/arcane/widget/ds;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/ds;-><init>(Lrx/functions/h;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/ds;-><init>(Lrx/functions/h;)V
 
     return-object v0
 .end method
@@ -35,9 +35,9 @@
 .method public final onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z
     .locals 1
 
-    iget-object v0, p0, Lkik/android/widget/ds;->a:Lrx/functions/h;
+    iget-object v0, p0, Lkik/arcane/widget/ds;->a:Lrx/functions/h;
 
-    invoke-static {v0, p2}, Lkik/android/widget/WebTrayRecyclerView;->a(Lrx/functions/h;Landroid/view/MotionEvent;)Z
+    invoke-static {v0, p2}, Lkik/arcane/widget/WebTrayRecyclerView;->a(Lrx/functions/h;Landroid/view/MotionEvent;)Z
 
     move-result v0
 

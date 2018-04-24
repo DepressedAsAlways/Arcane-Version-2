@@ -1,11 +1,11 @@
-.class final Lkik/android/util/d$b;
-.super Lkik/android/i/c;
+.class final Lkik/arcane/util/d$b;
+.super Lkik/arcane/i/c;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/d;
+    value = Lkik/arcane/util/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,23 +15,23 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/util/d;
+.field final synthetic a:Lkik/arcane/util/d;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/util/d;Landroid/content/Context;Ljava/lang/String;)V
+.method public constructor <init>(Lkik/arcane/util/d;Landroid/content/Context;Ljava/lang/String;)V
     .locals 2
 
     .prologue
     .line 567
-    iput-object p1, p0, Lkik/android/util/d$b;->a:Lkik/android/util/d;
+    iput-object p1, p0, Lkik/arcane/util/d$b;->a:Lkik/arcane/util/d;
 
     .line 568
     const-string v0, "kikAndroidFileDatabase.db"
 
     const/4 v1, 0x1
 
-    invoke-direct {p0, p2, v0, v1, p3}, Lkik/android/i/c;-><init>(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-direct {p0, p2, v0, v1, p3}, Lkik/arcane/i/c;-><init>(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 569
     return-void

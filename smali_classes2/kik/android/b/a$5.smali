@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/b/a$5;
+.class final synthetic Lkik/arcane/b/a$5;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/b/a;
+    value = Lkik/arcane/b/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -32,10 +32,10 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/b/a$5;->a:[I
+    sput-object v0, Lkik/arcane/b/a$5;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/b/a$5;->a:[I
+    sget-object v0, Lkik/arcane/b/a$5;->a:[I
 
     sget-object v1, Lcom/kik/xdata/model/cards/XCardPermission$XCardPermissionName;->PROFILE:Lcom/kik/xdata/model/cards/XCardPermission$XCardPermissionName;
 
@@ -51,7 +51,7 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/b/a$5;->a:[I
+    sget-object v0, Lkik/arcane/b/a$5;->a:[I
 
     sget-object v1, Lcom/kik/xdata/model/cards/XCardPermission$XCardPermissionName;->LOCATION:Lcom/kik/xdata/model/cards/XCardPermission$XCardPermissionName;
 

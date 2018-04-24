@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/WubbleView;
+.class public Lkik/arcane/widget/WubbleView;
 .super Landroid/widget/FrameLayout;
 .source "SourceFile"
 
@@ -29,7 +29,7 @@
     .end annotation
 .end field
 
-.field protected e:Lcom/kik/android/Mixpanel;
+.field protected e:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -88,17 +88,17 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/WubbleView;)Ljava/lang/Runnable;
+.method static synthetic a(Lkik/arcane/widget/WubbleView;)Ljava/lang/Runnable;
     .locals 1
 
     .prologue
     .line 44
-    iget-object v0, p0, Lkik/android/widget/WubbleView;->l:Ljava/lang/Runnable;
+    iget-object v0, p0, Lkik/arcane/widget/WubbleView;->l:Ljava/lang/Runnable;
 
     return-object v0
 .end method
 
-.method public static a(Lkik/android/widget/WubbleView;Lrx/d;)V
+.method public static a(Lkik/arcane/widget/WubbleView;Lrx/d;)V
     .locals 3
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -109,7 +109,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/WubbleView;",
+            "Lkik/arcane/widget/WubbleView;",
             "Lrx/d",
             "<",
             "Ljava/lang/String;",
@@ -123,7 +123,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/widget/du;->a(Lkik/android/widget/WubbleView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/du;->a(Lkik/arcane/widget/WubbleView;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -140,7 +140,7 @@
 
     .prologue
     .line 182
-    invoke-virtual {p0}, Lkik/android/widget/WubbleView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/WubbleView;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -179,12 +179,12 @@
     goto :goto_1
 .end method
 
-.method static synthetic b(Lkik/android/widget/WubbleView;)Ljava/lang/Runnable;
+.method static synthetic b(Lkik/arcane/widget/WubbleView;)Ljava/lang/Runnable;
     .locals 1
 
     .prologue
     .line 44
-    iget-object v0, p0, Lkik/android/widget/WubbleView;->m:Ljava/lang/Runnable;
+    iget-object v0, p0, Lkik/arcane/widget/WubbleView;->m:Ljava/lang/Runnable;
 
     return-object v0
 .end method
@@ -204,7 +204,7 @@
 
     .prologue
     .line 101
-    iput-object p1, p0, Lkik/android/widget/WubbleView;->l:Ljava/lang/Runnable;
+    iput-object p1, p0, Lkik/arcane/widget/WubbleView;->l:Ljava/lang/Runnable;
 
     .line 102
     return-void
@@ -223,12 +223,12 @@
     if-eqz p1, :cond_2
 
     .line 1115
-    iget-object v0, p0, Lkik/android/widget/WubbleView;->k:Lcom/kik/cards/web/v;
+    iget-object v0, p0, Lkik/arcane/widget/WubbleView;->k:Lcom/kik/cards/web/v;
 
     if-nez v0, :cond_1
 
     .line 1116
-    invoke-direct {p0}, Lkik/android/widget/WubbleView;->b()Landroid/app/Activity;
+    invoke-direct {p0}, Lkik/arcane/widget/WubbleView;->b()Landroid/app/Activity;
 
     move-result-object v0
 
@@ -236,53 +236,53 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/e;
+    check-cast v0, Lkik/arcane/chat/e;
 
-    invoke-interface {v0}, Lkik/android/chat/e;->a()Lcom/kik/components/CoreComponent;
+    invoke-interface {v0}, Lkik/arcane/chat/e;->a()Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/WubbleView;->g:Lcom/kik/components/CoreComponent;
+    iput-object v0, p0, Lkik/arcane/widget/WubbleView;->g:Lcom/kik/components/CoreComponent;
 
     .line 1117
-    iget-object v0, p0, Lkik/android/widget/WubbleView;->g:Lcom/kik/components/CoreComponent;
+    iget-object v0, p0, Lkik/arcane/widget/WubbleView;->g:Lcom/kik/components/CoreComponent;
 
-    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/widget/WubbleView;)V
+    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/widget/WubbleView;)V
 
     .line 1119
     new-instance v0, Lcom/kik/cards/web/u;
 
-    iget-object v1, p0, Lkik/android/widget/WubbleView;->b:Lcom/kik/storage/s;
+    iget-object v1, p0, Lkik/arcane/widget/WubbleView;->b:Lcom/kik/storage/s;
 
-    invoke-virtual {p0}, Lkik/android/widget/WubbleView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/WubbleView;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
     invoke-direct {v0, v1, v2}, Lcom/kik/cards/web/u;-><init>(Lcom/kik/storage/s;Landroid/content/Context;)V
 
-    iput-object v0, p0, Lkik/android/widget/WubbleView;->j:Lcom/kik/cards/web/u;
+    iput-object v0, p0, Lkik/arcane/widget/WubbleView;->j:Lcom/kik/cards/web/u;
 
     .line 1121
     new-instance v0, Lcom/kik/cards/web/v;
 
     .line 1122
-    invoke-virtual {p0}, Lkik/android/widget/WubbleView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/WubbleView;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    new-instance v2, Lkik/android/util/ar;
+    new-instance v2, Lkik/arcane/util/ar;
 
-    invoke-virtual {p0}, Lkik/android/widget/WubbleView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/WubbleView;->getContext()Landroid/content/Context;
 
     move-result-object v3
 
-    invoke-direct {v2, v3}, Lkik/android/util/ar;-><init>(Landroid/content/Context;)V
+    invoke-direct {v2, v3}, Lkik/arcane/util/ar;-><init>(Landroid/content/Context;)V
 
-    iget-object v4, p0, Lkik/android/widget/WubbleView;->c:Lkik/core/net/e;
+    iget-object v4, p0, Lkik/arcane/widget/WubbleView;->c:Lkik/core/net/e;
 
-    iget-object v5, p0, Lkik/android/widget/WubbleView;->d:Lkik/core/interfaces/s;
+    iget-object v5, p0, Lkik/arcane/widget/WubbleView;->d:Lkik/core/interfaces/s;
 
-    iget-object v6, p0, Lkik/android/widget/WubbleView;->j:Lcom/kik/cards/web/u;
+    iget-object v6, p0, Lkik/arcane/widget/WubbleView;->j:Lcom/kik/cards/web/u;
 
     move-object v3, p0
 
@@ -291,30 +291,30 @@
     .line 1125
     new-instance v1, Lcom/kik/cards/web/n;
 
-    iget-object v2, p0, Lkik/android/widget/WubbleView;->g:Lcom/kik/components/CoreComponent;
+    iget-object v2, p0, Lkik/arcane/widget/WubbleView;->g:Lcom/kik/components/CoreComponent;
 
     .line 1126
-    invoke-direct {p0}, Lkik/android/widget/WubbleView;->b()Landroid/app/Activity;
+    invoke-direct {p0}, Lkik/arcane/widget/WubbleView;->b()Landroid/app/Activity;
 
     move-result-object v3
 
     new-instance v5, Lcom/kik/view/adapters/aa;
 
     .line 1127
-    invoke-virtual {p0}, Lkik/android/widget/WubbleView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/WubbleView;->getContext()Landroid/content/Context;
 
     move-result-object v4
 
     invoke-direct {v5, v4, v0}, Lcom/kik/view/adapters/aa;-><init>(Landroid/content/Context;Landroid/webkit/WebView;)V
 
-    new-instance v11, Lkik/android/chat/vm/cc;
+    new-instance v11, Lkik/arcane/chat/vm/cc;
 
     .line 1128
-    invoke-virtual {p0}, Lkik/android/widget/WubbleView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/WubbleView;->getContext()Landroid/content/Context;
 
     move-result-object v4
 
-    invoke-direct {v11, v4}, Lkik/android/chat/vm/cc;-><init>(Landroid/content/Context;)V
+    invoke-direct {v11, v4}, Lkik/arcane/chat/vm/cc;-><init>(Landroid/content/Context;)V
 
     move-object v4, v0
 
@@ -326,10 +326,10 @@
 
     move-object v10, p0
 
-    invoke-direct/range {v1 .. v11}, Lcom/kik/cards/web/n;-><init>(Lcom/kik/components/CoreComponent;Landroid/app/Activity;Landroid/webkit/WebView;Lcom/kik/cards/web/browser/BrowserPlugin$a;Lcom/kik/cards/web/b;Lcom/kik/cards/web/picker/PickerRequest;Ljava/lang/String;Lcom/kik/cards/web/r;Lcom/kik/cards/web/f;Lkik/android/chat/vm/bd;)V
+    invoke-direct/range {v1 .. v11}, Lcom/kik/cards/web/n;-><init>(Lcom/kik/components/CoreComponent;Landroid/app/Activity;Landroid/webkit/WebView;Lcom/kik/cards/web/browser/BrowserPlugin$a;Lcom/kik/cards/web/b;Lcom/kik/cards/web/picker/PickerRequest;Ljava/lang/String;Lcom/kik/cards/web/r;Lcom/kik/cards/web/f;Lkik/arcane/chat/vm/bd;)V
 
     .line 1129
-    iget-object v2, p0, Lkik/android/widget/WubbleView;->h:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/widget/WubbleView;->h:Ljava/lang/String;
 
     invoke-virtual {v1, v2}, Lcom/kik/cards/web/n;->a(Ljava/lang/String;)Lcom/kik/cards/web/n;
 
@@ -350,14 +350,14 @@
     invoke-virtual {v0, v1, v2, v3}, Lcom/kik/cards/web/v;->loadData(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 1165
-    iget-object v1, p0, Lkik/android/widget/WubbleView;->i:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/widget/WubbleView;->i:Ljava/lang/String;
 
     if-eqz v1, :cond_3
 
     .line 1169
-    iget-object v1, p0, Lkik/android/widget/WubbleView;->a:Lkik/core/interfaces/IConversation;
+    iget-object v1, p0, Lkik/arcane/widget/WubbleView;->a:Lkik/core/interfaces/IConversation;
 
-    iget-object v2, p0, Lkik/android/widget/WubbleView;->h:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/widget/WubbleView;->h:Ljava/lang/String;
 
     invoke-interface {v1, v2}, Lkik/core/interfaces/IConversation;->a(Ljava/lang/String;)Lkik/core/datatypes/f;
 
@@ -390,7 +390,7 @@
 
     move-result-object v3
 
-    iget-object v4, p0, Lkik/android/widget/WubbleView;->i:Ljava/lang/String;
+    iget-object v4, p0, Lkik/arcane/widget/WubbleView;->i:Ljava/lang/String;
 
     invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -409,32 +409,32 @@
 
     .line 1134
     :goto_0
-    iget-object v2, p0, Lkik/android/widget/WubbleView;->h:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/widget/WubbleView;->h:Ljava/lang/String;
 
     invoke-virtual {v0, v1, v2}, Lcom/kik/cards/web/v;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Ljava/lang/String;)V
 
     .line 1135
-    new-instance v1, Lkik/android/widget/WubbleView$1;
+    new-instance v1, Lkik/arcane/widget/WubbleView$1;
 
-    invoke-direct {v1, p0, v0}, Lkik/android/widget/WubbleView$1;-><init>(Lkik/android/widget/WubbleView;Lcom/kik/cards/web/v;)V
+    invoke-direct {v1, p0, v0}, Lkik/arcane/widget/WubbleView$1;-><init>(Lkik/arcane/widget/WubbleView;Lcom/kik/cards/web/v;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/cards/web/v;->a(Lcom/kik/cards/web/t;)V
 
     .line 1155
-    iput-object v0, p0, Lkik/android/widget/WubbleView;->k:Lcom/kik/cards/web/v;
+    iput-object v0, p0, Lkik/arcane/widget/WubbleView;->k:Lcom/kik/cards/web/v;
 
     .line 1157
-    iget-object v0, p0, Lkik/android/widget/WubbleView;->k:Lcom/kik/cards/web/v;
+    iget-object v0, p0, Lkik/arcane/widget/WubbleView;->k:Lcom/kik/cards/web/v;
 
     new-instance v1, Landroid/widget/FrameLayout$LayoutParams;
 
     invoke-direct {v1, v12, v12}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/widget/WubbleView;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/widget/WubbleView;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 1160
     :cond_1
-    iget-object v0, p0, Lkik/android/widget/WubbleView;->k:Lcom/kik/cards/web/v;
+    iget-object v0, p0, Lkik/arcane/widget/WubbleView;->k:Lcom/kik/cards/web/v;
 
     invoke-virtual {v0, p1}, Lcom/kik/cards/web/v;->loadUrl(Ljava/lang/String;)V
 
@@ -485,7 +485,7 @@
 
     .prologue
     .line 91
-    iput-object p1, p0, Lkik/android/widget/WubbleView;->i:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/widget/WubbleView;->i:Ljava/lang/String;
 
     .line 92
     return-void
@@ -496,7 +496,7 @@
 
     .prologue
     .line 96
-    iput-object p1, p0, Lkik/android/widget/WubbleView;->h:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/widget/WubbleView;->h:Ljava/lang/String;
 
     .line 97
     return-void
@@ -512,7 +512,7 @@
     return-object v0
 .end method
 
-.method public replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+.method public replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
     .locals 0
 
     .prologue

@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/af;
+.class public final Lkik/arcane/util/af;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -25,7 +25,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/util/af;->a:Ljava/util/regex/Pattern;
+    iput-object v0, p0, Lkik/arcane/util/af;->a:Ljava/util/regex/Pattern;
 
     return-void
 .end method
@@ -94,7 +94,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lkik/android/util/bg;->b(Ljava/lang/String;)Z
+    invoke-static {v1}, Lkik/arcane/util/bg;->b(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -153,7 +153,7 @@
 
     .line 42
     :cond_4
-    iget-object v1, p0, Lkik/android/util/af;->a:Ljava/util/regex/Pattern;
+    iget-object v1, p0, Lkik/arcane/util/af;->a:Ljava/util/regex/Pattern;
 
     invoke-virtual {v1, p1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 

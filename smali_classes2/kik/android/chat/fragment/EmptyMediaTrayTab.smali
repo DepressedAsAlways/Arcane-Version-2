@@ -1,4 +1,4 @@
-.class public Lkik/android/chat/fragment/EmptyMediaTrayTab;
+.class public Lkik/arcane/chat/fragment/EmptyMediaTrayTab;
 .super Landroid/support/v4/app/Fragment;
 .source "SourceFile"
 

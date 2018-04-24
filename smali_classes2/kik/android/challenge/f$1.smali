@@ -1,11 +1,11 @@
-.class final Lkik/android/challenge/f$1;
+.class final Lkik/arcane/challenge/f$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/challenge/f;
+    value = Lkik/arcane/challenge/f;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/challenge/f;
+.field final synthetic a:Lkik/arcane/challenge/f;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/challenge/f;)V
+.method constructor <init>(Lkik/arcane/challenge/f;)V
     .locals 0
 
     .prologue
     .line 53
-    iput-object p1, p0, Lkik/android/challenge/f$1;->a:Lkik/android/challenge/f;
+    iput-object p1, p0, Lkik/arcane/challenge/f$1;->a:Lkik/arcane/challenge/f;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -48,9 +48,9 @@
     .prologue
     .line 53
     .line 1057
-    iget-object v0, p0, Lkik/android/challenge/f$1;->a:Lkik/android/challenge/f;
+    iget-object v0, p0, Lkik/arcane/challenge/f$1;->a:Lkik/arcane/challenge/f;
 
-    invoke-static {v0}, Lkik/android/challenge/f;->a(Lkik/android/challenge/f;)Lcom/kik/events/Promise;
+    invoke-static {v0}, Lkik/arcane/challenge/f;->a(Lkik/arcane/challenge/f;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
@@ -59,7 +59,7 @@
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Ljava/lang/Object;)V
 
     .line 1058
-    iget-object v0, p0, Lkik/android/challenge/f$1;->a:Lkik/android/challenge/f;
+    iget-object v0, p0, Lkik/arcane/challenge/f$1;->a:Lkik/arcane/challenge/f;
 
     invoke-static {}, Lkik/core/util/v;->b()J
 
@@ -69,12 +69,12 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lkik/android/challenge/f;->a(Lkik/android/challenge/f;Ljava/lang/Long;)Ljava/lang/Long;
+    invoke-static {v0, v1}, Lkik/arcane/challenge/f;->a(Lkik/arcane/challenge/f;Ljava/lang/Long;)Ljava/lang/Long;
 
     .line 1059
-    iget-object v0, p0, Lkik/android/challenge/f$1;->a:Lkik/android/challenge/f;
+    iget-object v0, p0, Lkik/arcane/challenge/f$1;->a:Lkik/arcane/challenge/f;
 
-    invoke-static {v0}, Lkik/android/challenge/f;->b(Lkik/android/challenge/f;)V
+    invoke-static {v0}, Lkik/arcane/challenge/f;->b(Lkik/arcane/challenge/f;)V
 
     .line 53
     return-void

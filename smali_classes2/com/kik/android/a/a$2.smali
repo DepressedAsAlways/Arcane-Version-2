@@ -1,11 +1,11 @@
-.class final Lcom/kik/android/a/a$2;
+.class final Lcom/kik/arcane/a/a$2;
 .super Landroid/content/BroadcastReceiver;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/kik/android/a/a;
+    value = Lcom/kik/arcane/a/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/kik/android/a/a;
+.field final synthetic a:Lcom/kik/arcane/a/a;
 
 
 # direct methods
-.method constructor <init>(Lcom/kik/android/a/a;)V
+.method constructor <init>(Lcom/kik/arcane/a/a;)V
     .locals 0
 
     .prologue
     .line 168
-    iput-object p1, p0, Lcom/kik/android/a/a$2;->a:Lcom/kik/android/a/a;
+    iput-object p1, p0, Lcom/kik/arcane/a/a$2;->a:Lcom/kik/arcane/a/a;
 
     invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
 
@@ -51,7 +51,7 @@
     if-eqz v0, :cond_1
 
     .line 174
-    invoke-static {}, Lcom/kik/android/a/a;->c()Lorg/slf4j/b;
+    invoke-static {}, Lcom/kik/arcane/a/a;->c()Lorg/slf4j/b;
 
     move-result-object v0
 
@@ -60,11 +60,11 @@
     invoke-interface {v0, v1}, Lorg/slf4j/b;->trace(Ljava/lang/String;)V
 
     .line 175
-    iget-object v0, p0, Lcom/kik/android/a/a$2;->a:Lcom/kik/android/a/a;
+    iget-object v0, p0, Lcom/kik/arcane/a/a$2;->a:Lcom/kik/arcane/a/a;
 
     const/4 v1, 0x1
 
-    invoke-static {v0, v1}, Lcom/kik/android/a/a;->a(Lcom/kik/android/a/a;Z)V
+    invoke-static {v0, v1}, Lcom/kik/arcane/a/a;->a(Lcom/kik/arcane/a/a;Z)V
 
     .line 181
     :cond_0
@@ -86,7 +86,7 @@
     if-eqz v0, :cond_0
 
     .line 178
-    invoke-static {}, Lcom/kik/android/a/a;->c()Lorg/slf4j/b;
+    invoke-static {}, Lcom/kik/arcane/a/a;->c()Lorg/slf4j/b;
 
     move-result-object v0
 
@@ -95,11 +95,11 @@
     invoke-interface {v0, v1}, Lorg/slf4j/b;->trace(Ljava/lang/String;)V
 
     .line 179
-    iget-object v0, p0, Lcom/kik/android/a/a$2;->a:Lcom/kik/android/a/a;
+    iget-object v0, p0, Lcom/kik/arcane/a/a$2;->a:Lcom/kik/arcane/a/a;
 
     const/4 v1, 0x0
 
-    invoke-static {v0, v1}, Lcom/kik/android/a/a;->a(Lcom/kik/android/a/a;Z)V
+    invoke-static {v0, v1}, Lcom/kik/arcane/a/a;->a(Lcom/kik/arcane/a/a;Z)V
 
     goto :goto_0
 .end method

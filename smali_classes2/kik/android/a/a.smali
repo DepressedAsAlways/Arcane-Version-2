@@ -1,4 +1,4 @@
-.class public final Lkik/android/a/a;
+.class public final Lkik/arcane/a/a;
 .super Lcom/kik/clientmetrics/f;
 .source "SourceFile"
 
@@ -22,15 +22,15 @@
     invoke-direct {p0, p1, p2}, Lcom/kik/clientmetrics/f;-><init>(Lcom/kik/clientmetrics/a;Lcom/kik/clientmetrics/a/a;)V
 
     .line 28
-    iput v2, p0, Lkik/android/a/a;->b:I
+    iput v2, p0, Lkik/arcane/a/a;->b:I
 
     .line 29
     const/16 v0, 0x14
 
-    iput v0, p0, Lkik/android/a/a;->c:I
+    iput v0, p0, Lkik/arcane/a/a;->c:I
 
     .line 30
-    iput-object p3, p0, Lkik/android/a/a;->d:Landroid/content/SharedPreferences;
+    iput-object p3, p0, Lkik/arcane/a/a;->d:Landroid/content/SharedPreferences;
 
     .line 31
     const-string v0, "BatchModifiableTracker.batchSizeToUse"
@@ -54,7 +54,7 @@
     if-ne v0, v2, :cond_0
 
     .line 35
-    invoke-virtual {p0}, Lkik/android/a/a;->d()V
+    invoke-virtual {p0}, Lkik/arcane/a/a;->d()V
 
     .line 38
     :cond_0
@@ -68,7 +68,7 @@
 
     .prologue
     .line 42
-    iget-object v0, p0, Lkik/android/a/a;->d:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Lkik/arcane/a/a;->d:Landroid/content/SharedPreferences;
 
     invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
@@ -85,21 +85,21 @@
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
     .line 44
-    iget v0, p0, Lkik/android/a/a;->b:I
+    iget v0, p0, Lkik/arcane/a/a;->b:I
 
-    invoke-virtual {p0, v0}, Lkik/android/a/a;->a(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/a/a;->a(I)V
 
     .line 46
-    invoke-virtual {p0}, Lkik/android/a/a;->a()I
+    invoke-virtual {p0}, Lkik/arcane/a/a;->a()I
 
     move-result v0
 
-    iget v1, p0, Lkik/android/a/a;->b:I
+    iget v1, p0, Lkik/arcane/a/a;->b:I
 
     if-lt v0, v1, :cond_0
 
     .line 47
-    invoke-virtual {p0}, Lkik/android/a/a;->b()V
+    invoke-virtual {p0}, Lkik/arcane/a/a;->b()V
 
     .line 49
     :cond_0
@@ -111,7 +111,7 @@
 
     .prologue
     .line 53
-    iget-object v0, p0, Lkik/android/a/a;->d:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Lkik/arcane/a/a;->d:Landroid/content/SharedPreferences;
 
     invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
@@ -128,21 +128,21 @@
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
     .line 55
-    iget v0, p0, Lkik/android/a/a;->c:I
+    iget v0, p0, Lkik/arcane/a/a;->c:I
 
-    invoke-virtual {p0, v0}, Lkik/android/a/a;->a(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/a/a;->a(I)V
 
     .line 57
-    invoke-virtual {p0}, Lkik/android/a/a;->a()I
+    invoke-virtual {p0}, Lkik/arcane/a/a;->a()I
 
     move-result v0
 
-    iget v1, p0, Lkik/android/a/a;->c:I
+    iget v1, p0, Lkik/arcane/a/a;->c:I
 
     if-lt v0, v1, :cond_0
 
     .line 58
-    invoke-virtual {p0}, Lkik/android/a/a;->b()V
+    invoke-virtual {p0}, Lkik/arcane/a/a;->b()V
 
     .line 60
     :cond_0
@@ -158,7 +158,7 @@
     const/4 v1, 0x0
 
     .line 64
-    iget-object v2, p0, Lkik/android/a/a;->d:Landroid/content/SharedPreferences;
+    iget-object v2, p0, Lkik/arcane/a/a;->d:Landroid/content/SharedPreferences;
 
     const-string v3, "BatchModifiableTracker.batchSizeToUse"
 

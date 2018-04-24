@@ -1,10 +1,10 @@
-.class public Lkik/android/chat/activity/KikCropActivity;
-.super Lkik/android/chat/activity/KikActivityBase;
+.class public Lkik/arcane/chat/activity/KikCropActivity;
+.super Lkik/arcane/chat/activity/KikActivityBase;
 .source "SourceFile"
 
 
 # instance fields
-.field _cropView:Lkik/android/widget/KikCropView;
+.field _cropView:Lkik/arcane/widget/KikCropView;
     .annotation build Lbutterknife/BindView;
         value = 0x7f100128
     .end annotation
@@ -23,12 +23,12 @@
 
     .prologue
     .line 23
-    invoke-direct {p0}, Lkik/android/chat/activity/KikActivityBase;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/activity/KikActivityBase;-><init>()V
 
     .line 27
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/activity/KikCropActivity;->a:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/activity/KikCropActivity;->a:Z
 
     return-void
 .end method
@@ -45,7 +45,7 @@
 
     .prologue
     .line 62
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikCropActivity;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikCropActivity;->finish()V
 
     .line 63
     return-void
@@ -61,7 +61,7 @@
 
     .prologue
     .line 113
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikCropActivity;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikCropActivity;->finish()V
 
     .line 114
     return-void
@@ -72,7 +72,7 @@
 
     .prologue
     .line 131
-    invoke-super {p0, p1}, Lkik/android/chat/activity/KikActivityBase;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/activity/KikActivityBase;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
     .line 132
     return-void
@@ -87,36 +87,36 @@
     const/4 v3, 0x1
 
     .line 35
-    invoke-super {p0, p1}, Lkik/android/chat/activity/KikActivityBase;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/activity/KikActivityBase;->onCreate(Landroid/os/Bundle;)V
 
     .line 36
     const v0, 0x7f04002b
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/activity/KikCropActivity;->setContentView(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/activity/KikCropActivity;->setContentView(I)V
 
     .line 37
     invoke-static {p0}, Lbutterknife/ButterKnife;->bind(Landroid/app/Activity;)Lbutterknife/Unbinder;
 
     .line 39
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikCropActivity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikCropActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/f;->a(Landroid/content/Intent;)Landroid/net/Uri;
+    invoke-static {v0}, Lkik/arcane/util/f;->a(Landroid/content/Intent;)Landroid/net/Uri;
 
     move-result-object v0
 
     .line 40
-    invoke-static {v0, p0}, Lkik/android/util/f;->a(Landroid/net/Uri;Landroid/content/Context;)Ljava/io/File;
+    invoke-static {v0, p0}, Lkik/arcane/util/f;->a(Landroid/net/Uri;Landroid/content/Context;)Ljava/io/File;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/activity/KikCropActivity;->e:Ljava/io/File;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikCropActivity;->e:Ljava/io/File;
 
     .line 41
     new-instance v1, Ljava/io/File;
 
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikCropActivity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikCropActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object v0
 
@@ -134,15 +134,15 @@
 
     invoke-direct {v1, v0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    iput-object v1, p0, Lkik/android/chat/activity/KikCropActivity;->f:Ljava/io/File;
+    iput-object v1, p0, Lkik/arcane/chat/activity/KikCropActivity;->f:Ljava/io/File;
 
     .line 43
-    iget-object v0, p0, Lkik/android/chat/activity/KikCropActivity;->e:Ljava/io/File;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikCropActivity;->e:Ljava/io/File;
 
     if-nez v0, :cond_1
 
     .line 45
-    invoke-virtual {p0, v4}, Lkik/android/chat/activity/KikCropActivity;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, v4}, Lkik/arcane/chat/activity/KikCropActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -153,7 +153,7 @@
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
     .line 46
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikCropActivity;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikCropActivity;->finish()V
 
     .line 57
     :cond_0
@@ -162,27 +162,27 @@
 
     .line 50
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/activity/KikCropActivity;->_cropView:Lkik/android/widget/KikCropView;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikCropActivity;->_cropView:Lkik/arcane/widget/KikCropView;
 
-    iget-object v1, p0, Lkik/android/chat/activity/KikCropActivity;->e:Ljava/io/File;
+    iget-object v1, p0, Lkik/arcane/chat/activity/KikCropActivity;->e:Ljava/io/File;
 
     invoke-virtual {v1}, Ljava/io/File;->getPath()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/KikCropView;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/KikCropView;->a(Ljava/lang/String;)V
 
     .line 51
-    iget-object v0, p0, Lkik/android/chat/activity/KikCropActivity;->_cropView:Lkik/android/widget/KikCropView;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikCropActivity;->_cropView:Lkik/arcane/widget/KikCropView;
 
-    invoke-virtual {v0}, Lkik/android/widget/KikCropView;->a()Z
+    invoke-virtual {v0}, Lkik/arcane/widget/KikCropView;->a()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
     .line 53
-    invoke-virtual {p0, v4}, Lkik/android/chat/activity/KikCropActivity;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, v4}, Lkik/arcane/chat/activity/KikCropActivity;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -193,7 +193,7 @@
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
     .line 54
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikCropActivity;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikCropActivity;->finish()V
 
     goto :goto_0
 .end method
@@ -203,12 +203,12 @@
 
     .prologue
     .line 137
-    invoke-super {p0}, Lkik/android/chat/activity/KikActivityBase;->onDestroy()V
+    invoke-super {p0}, Lkik/arcane/chat/activity/KikActivityBase;->onDestroy()V
 
     .line 138
-    iget-object v0, p0, Lkik/android/chat/activity/KikCropActivity;->_cropView:Lkik/android/widget/KikCropView;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikCropActivity;->_cropView:Lkik/arcane/widget/KikCropView;
 
-    invoke-virtual {v0}, Lkik/android/widget/KikCropView;->e()V
+    invoke-virtual {v0}, Lkik/arcane/widget/KikCropView;->e()V
 
     .line 139
     return-void
@@ -228,12 +228,12 @@
     const/4 v1, 0x1
 
     .line 68
-    iget-boolean v0, p0, Lkik/android/chat/activity/KikCropActivity;->a:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/activity/KikCropActivity;->a:Z
 
     if-eqz v0, :cond_1
 
     .line 69
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikCropActivity;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikCropActivity;->finish()V
 
     .line 108
     :cond_0
@@ -242,12 +242,12 @@
 
     .line 73
     :cond_1
-    iput-boolean v1, p0, Lkik/android/chat/activity/KikCropActivity;->a:Z
+    iput-boolean v1, p0, Lkik/arcane/chat/activity/KikCropActivity;->a:Z
 
     .line 74
-    iget-object v0, p0, Lkik/android/chat/activity/KikCropActivity;->_cropView:Lkik/android/widget/KikCropView;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikCropActivity;->_cropView:Lkik/arcane/widget/KikCropView;
 
-    invoke-virtual {v0}, Lkik/android/widget/KikCropView;->d()Landroid/graphics/Bitmap;
+    invoke-virtual {v0}, Lkik/arcane/widget/KikCropView;->d()Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -271,7 +271,7 @@
     :try_start_0
     new-instance v1, Ljava/io/FileOutputStream;
 
-    iget-object v3, p0, Lkik/android/chat/activity/KikCropActivity;->f:Ljava/io/File;
+    iget-object v3, p0, Lkik/arcane/chat/activity/KikCropActivity;->f:Ljava/io/File;
 
     invoke-direct {v1, v3}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
     :try_end_0
@@ -289,7 +289,7 @@
     .line 85
     const/4 v2, -0x1
 
-    invoke-virtual {p0, v2}, Lkik/android/chat/activity/KikCropActivity;->setResult(I)V
+    invoke-virtual {p0, v2}, Lkik/arcane/chat/activity/KikCropActivity;->setResult(I)V
 
     .line 86
     if-eqz v0, :cond_3
@@ -299,7 +299,7 @@
 
     .line 89
     :cond_3
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikCropActivity;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikCropActivity;->finish()V
     :try_end_1
     .catch Ljava/io/FileNotFoundException; {:try_start_1 .. :try_end_1} :catch_4
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
@@ -413,9 +413,9 @@
 
     .prologue
     .line 119
-    iget-object v0, p0, Lkik/android/chat/activity/KikCropActivity;->_cropView:Lkik/android/widget/KikCropView;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikCropActivity;->_cropView:Lkik/arcane/widget/KikCropView;
 
-    invoke-virtual {v0}, Lkik/android/widget/KikCropView;->c()V
+    invoke-virtual {v0}, Lkik/arcane/widget/KikCropView;->c()V
 
     .line 120
     return-void
@@ -431,9 +431,9 @@
 
     .prologue
     .line 125
-    iget-object v0, p0, Lkik/android/chat/activity/KikCropActivity;->_cropView:Lkik/android/widget/KikCropView;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikCropActivity;->_cropView:Lkik/arcane/widget/KikCropView;
 
-    invoke-virtual {v0}, Lkik/android/widget/KikCropView;->b()V
+    invoke-virtual {v0}, Lkik/arcane/widget/KikCropView;->b()V
 
     .line 126
     return-void

@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lkik/android/chat/theming/ChatBubbleManager;",
+        "Lkik/arcane/chat/theming/ChatBubbleManager;",
         ">;"
     }
 .end annotation
@@ -90,7 +90,7 @@
             ")",
             "Ldagger/internal/b",
             "<",
-            "Lkik/android/chat/theming/ChatBubbleManager;",
+            "Lkik/arcane/chat/theming/ChatBubbleManager;",
             ">;"
         }
     .end annotation
@@ -115,7 +115,7 @@
     iget-object v0, p0, Lcom/kik/modules/l;->b:Lcom/kik/modules/k;
 
     .line 1024
-    invoke-virtual {v0}, Lcom/kik/modules/k;->a()Lkik/android/chat/theming/ChatBubbleManager;
+    invoke-virtual {v0}, Lcom/kik/modules/k;->a()Lkik/arcane/chat/theming/ChatBubbleManager;
 
     move-result-object v0
 
@@ -126,7 +126,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/theming/ChatBubbleManager;
+    check-cast v0, Lkik/arcane/chat/theming/ChatBubbleManager;
 
     .line 8
     return-object v0

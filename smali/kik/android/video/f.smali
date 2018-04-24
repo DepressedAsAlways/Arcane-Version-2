@@ -1,4 +1,4 @@
-.class public final Lkik/android/video/f;
+.class public final Lkik/arcane/video/f;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -10,7 +10,7 @@
 
 
 # static fields
-.field private static c:Lkik/android/video/f;
+.field private static c:Lkik/arcane/video/f;
 
 
 # instance fields
@@ -19,7 +19,7 @@
     .end annotation
 .end field
 
-.field protected b:Lcom/kik/android/Mixpanel;
+.field protected b:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -58,48 +58,48 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/video/f;->d:Ljava/util/concurrent/ExecutorService;
+    iput-object v0, p0, Lkik/arcane/video/f;->d:Ljava/util/concurrent/ExecutorService;
 
     .line 40
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    iput-object v0, p0, Lkik/android/video/f;->e:Ljava/util/Map;
+    iput-object v0, p0, Lkik/arcane/video/f;->e:Ljava/util/Map;
 
     .line 47
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/video/f;)Ljava/util/Map;
+.method static synthetic a(Lkik/arcane/video/f;)Ljava/util/Map;
     .locals 1
 
     .prologue
     .line 32
-    iget-object v0, p0, Lkik/android/video/f;->e:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/video/f;->e:Ljava/util/Map;
 
     return-object v0
 .end method
 
-.method public static a()Lkik/android/video/f;
+.method public static a()Lkik/arcane/video/f;
     .locals 1
 
     .prologue
     .line 51
-    sget-object v0, Lkik/android/video/f;->c:Lkik/android/video/f;
+    sget-object v0, Lkik/arcane/video/f;->c:Lkik/arcane/video/f;
 
     if-nez v0, :cond_0
 
     .line 52
-    new-instance v0, Lkik/android/video/f;
+    new-instance v0, Lkik/arcane/video/f;
 
-    invoke-direct {v0}, Lkik/android/video/f;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/video/f;-><init>()V
 
-    sput-object v0, Lkik/android/video/f;->c:Lkik/android/video/f;
+    sput-object v0, Lkik/arcane/video/f;->c:Lkik/arcane/video/f;
 
     .line 54
     :cond_0
-    sget-object v0, Lkik/android/video/f;->c:Lkik/android/video/f;
+    sget-object v0, Lkik/arcane/video/f;->c:Lkik/arcane/video/f;
 
     return-object v0
 .end method
@@ -125,7 +125,7 @@
     monitor-enter p0
 
     :try_start_0
-    iget-object v0, p0, Lkik/android/video/f;->e:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/video/f;->e:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
@@ -134,7 +134,7 @@
     if-eqz v0, :cond_0
 
     .line 71
-    iget-object v0, p0, Lkik/android/video/f;->e:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/video/f;->e:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -189,7 +189,7 @@
     monitor-enter p0
 
     :try_start_0
-    invoke-virtual {p0, p1}, Lkik/android/video/f;->a(Ljava/lang/String;)Lcom/kik/events/Promise;
+    invoke-virtual {p0, p1}, Lkik/arcane/video/f;->a(Ljava/lang/String;)Lcom/kik/events/Promise;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -224,35 +224,35 @@
     const/16 v1, 0x14
 
     :try_start_3
-    invoke-static {v0, v1}, Lkik/android/util/bw;->a(Landroid/media/MediaMetadataRetriever;I)I
+    invoke-static {v0, v1}, Lkik/arcane/util/bw;->a(Landroid/media/MediaMetadataRetriever;I)I
 
     move-result v9
 
     .line 101
     const/16 v1, 0x12
 
-    invoke-static {v0, v1}, Lkik/android/util/bw;->a(Landroid/media/MediaMetadataRetriever;I)I
+    invoke-static {v0, v1}, Lkik/arcane/util/bw;->a(Landroid/media/MediaMetadataRetriever;I)I
 
     move-result v7
 
     .line 102
     const/16 v1, 0x13
 
-    invoke-static {v0, v1}, Lkik/android/util/bw;->a(Landroid/media/MediaMetadataRetriever;I)I
+    invoke-static {v0, v1}, Lkik/arcane/util/bw;->a(Landroid/media/MediaMetadataRetriever;I)I
 
     move-result v8
 
     .line 103
     const/16 v1, 0x18
 
-    invoke-static {v0, v1}, Lkik/android/util/bw;->a(Landroid/media/MediaMetadataRetriever;I)I
+    invoke-static {v0, v1}, Lkik/arcane/util/bw;->a(Landroid/media/MediaMetadataRetriever;I)I
 
     move-result v4
 
     .line 104
     const/16 v1, 0x9
 
-    invoke-static {v0, v1}, Lkik/android/util/bw;->b(Landroid/media/MediaMetadataRetriever;I)J
+    invoke-static {v0, v1}, Lkik/arcane/util/bw;->b(Landroid/media/MediaMetadataRetriever;I)J
 
     move-result-wide v10
 
@@ -260,7 +260,7 @@
     invoke-virtual {v0}, Landroid/media/MediaMetadataRetriever;->release()V
 
     .line 107
-    iget-object v0, p0, Lkik/android/video/f;->a:Lcom/kik/storage/s;
+    iget-object v0, p0, Lkik/arcane/video/f;->a:Lcom/kik/storage/s;
 
     invoke-static {}, Ljava/util/UUID;->randomUUID()Ljava/util/UUID;
 
@@ -275,7 +275,7 @@
     move-result-object v2
 
     .line 108
-    new-instance v0, Lkik/android/video/e;
+    new-instance v0, Lkik/arcane/video/e;
 
     new-instance v3, Landroid/graphics/Point;
 
@@ -285,22 +285,22 @@
 
     move v5, p2
 
-    invoke-direct/range {v0 .. v5}, Lkik/android/video/e;-><init>(Ljava/lang/String;Ljava/lang/String;Landroid/graphics/Point;II)V
+    invoke-direct/range {v0 .. v5}, Lkik/arcane/video/e;-><init>(Ljava/lang/String;Ljava/lang/String;Landroid/graphics/Point;II)V
 
     .line 109
-    invoke-virtual {v0}, Lkik/android/video/e;->a()Lcom/kik/events/Promise;
+    invoke-virtual {v0}, Lkik/arcane/video/e;->a()Lcom/kik/events/Promise;
 
     move-result-object v12
 
     .line 110
-    iget-object v1, p0, Lkik/android/video/f;->d:Ljava/util/concurrent/ExecutorService;
+    iget-object v1, p0, Lkik/arcane/video/f;->d:Ljava/util/concurrent/ExecutorService;
 
     invoke-interface {v1, v0}, Ljava/util/concurrent/ExecutorService;->submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
 
     move-result-object v0
 
     .line 111
-    iget-object v1, p0, Lkik/android/video/f;->e:Ljava/util/Map;
+    iget-object v1, p0, Lkik/arcane/video/f;->e:Ljava/util/Map;
 
     new-instance v3, Landroid/util/Pair;
 
@@ -314,7 +314,7 @@
     move-result-wide v4
 
     .line 113
-    new-instance v0, Lkik/android/video/f$1;
+    new-instance v0, Lkik/arcane/video/f$1;
 
     move-object v1, p0
 
@@ -322,7 +322,7 @@
 
     move-object/from16 v6, p3
 
-    invoke-direct/range {v0 .. v11}, Lkik/android/video/f$1;-><init>(Lkik/android/video/f;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;IIIJ)V
+    invoke-direct/range {v0 .. v11}, Lkik/arcane/video/f$1;-><init>(Lkik/arcane/video/f;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;IIIJ)V
 
     invoke-virtual {v12, v0}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -360,7 +360,7 @@
     monitor-enter p0
 
     :try_start_0
-    iget-object v0, p0, Lkik/android/video/f;->e:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/video/f;->e:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 

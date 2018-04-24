@@ -1,4 +1,4 @@
-.class final Lkik/android/widget/KikNetworkedImageView$1;
+.class final Lkik/arcane/widget/KikNetworkedImageView$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/KikNetworkedImageView;
+    value = Lkik/arcane/widget/KikNetworkedImageView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

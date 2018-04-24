@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;
+.class final Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;
 .super Landroid/support/v7/widget/RecyclerView$ItemDecoration;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
+    value = Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/view/SearchBarViewImpl;
+.field private final a:Lkik/arcane/chat/view/SearchBarViewImpl;
 
 .field private final b:Landroid/view/View;
 
@@ -23,7 +23,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/chat/view/SearchBarViewImpl;Landroid/view/View;)V
+.method public constructor <init>(Lkik/arcane/chat/view/SearchBarViewImpl;Landroid/view/View;)V
     .locals 1
 
     .prologue
@@ -31,15 +31,15 @@
     invoke-direct {p0}, Landroid/support/v7/widget/RecyclerView$ItemDecoration;-><init>()V
 
     .line 254
-    iput-object p1, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->a:Lkik/android/chat/view/SearchBarViewImpl;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->a:Lkik/arcane/chat/view/SearchBarViewImpl;
 
     .line 255
-    iput-object p2, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->b:Landroid/view/View;
+    iput-object p2, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->b:Landroid/view/View;
 
     .line 256
     const/4 v0, 0x1
 
-    iput v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->c:I
+    iput v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->c:I
 
     .line 257
     return-void
@@ -61,14 +61,14 @@
 
     move-result v0
 
-    iget v1, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->c:I
+    iget v1, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->c:I
 
     if-ne v0, v1, :cond_0
 
     .line 296
-    iget-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->a:Lkik/android/chat/view/SearchBarViewImpl;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->a:Lkik/arcane/chat/view/SearchBarViewImpl;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/SearchBarViewImpl;->getMeasuredHeight()I
+    invoke-virtual {v0}, Lkik/arcane/chat/view/SearchBarViewImpl;->getMeasuredHeight()I
 
     move-result v0
 
@@ -92,7 +92,7 @@
     move-result v0
 
     .line 264
-    iget-object v1, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->b:Landroid/view/View;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->b:Landroid/view/View;
 
     invoke-virtual {v1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
@@ -100,7 +100,7 @@
 
     if-eqz v1, :cond_2
 
-    iget-object v1, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->b:Landroid/view/View;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->b:Landroid/view/View;
 
     invoke-virtual {v1}, Landroid/view/View;->getBottom()I
 
@@ -111,7 +111,7 @@
     .line 266
     invoke-virtual {p2}, Landroid/support/v7/widget/RecyclerView;->getLayoutManager()Landroid/support/v7/widget/RecyclerView$LayoutManager;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->b:Landroid/view/View;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->b:Landroid/view/View;
 
     invoke-static {v1}, Landroid/support/v7/widget/RecyclerView$LayoutManager;->o(Landroid/view/View;)I
 
@@ -122,20 +122,20 @@
 
     .line 284
     :cond_0
-    iget-object v1, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->a:Lkik/android/chat/view/SearchBarViewImpl;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->a:Lkik/arcane/chat/view/SearchBarViewImpl;
 
     const/4 v2, 0x0
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/view/SearchBarViewImpl;->a(F)V
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/view/SearchBarViewImpl;->a(F)V
 
     .line 288
     :cond_1
     :goto_0
-    iget-object v1, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->a:Lkik/android/chat/view/SearchBarViewImpl;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->a:Lkik/arcane/chat/view/SearchBarViewImpl;
 
     int-to-float v0, v0
 
-    invoke-virtual {v1, v0}, Lkik/android/chat/view/SearchBarViewImpl;->setTranslationY(F)V
+    invoke-virtual {v1, v0}, Lkik/arcane/chat/view/SearchBarViewImpl;->setTranslationY(F)V
 
     .line 289
     return-void
@@ -162,29 +162,29 @@
     move-result v2
 
     .line 276
-    iget v3, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->c:I
+    iget v3, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->c:I
 
     if-le v2, v3, :cond_3
 
     .line 277
-    iget-object v1, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->a:Lkik/android/chat/view/SearchBarViewImpl;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->a:Lkik/arcane/chat/view/SearchBarViewImpl;
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/view/SearchBarViewImpl;->a(F)V
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/view/SearchBarViewImpl;->a(F)V
 
     goto :goto_0
 
     .line 279
     :cond_3
-    iget v3, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->c:I
+    iget v3, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->c:I
 
     if-ne v2, v3, :cond_0
 
     .line 281
-    iget-object v2, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->a:Lkik/android/chat/view/SearchBarViewImpl;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$d;->a:Lkik/arcane/chat/view/SearchBarViewImpl;
 
-    invoke-virtual {v2, v1}, Lkik/android/chat/view/SearchBarViewImpl;->a(Landroid/view/View;)V
+    invoke-virtual {v2, v1}, Lkik/arcane/chat/view/SearchBarViewImpl;->a(Landroid/view/View;)V
 
     goto :goto_0
 .end method

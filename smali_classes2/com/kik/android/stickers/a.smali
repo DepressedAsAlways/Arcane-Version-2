@@ -1,4 +1,4 @@
-.class public final Lcom/kik/android/stickers/a;
+.class public final Lcom/kik/arcane/stickers/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 

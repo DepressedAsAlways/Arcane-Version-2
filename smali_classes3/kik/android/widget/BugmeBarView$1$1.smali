@@ -1,4 +1,4 @@
-.class final Lkik/android/widget/BugmeBarView$1$1;
+.class final Lkik/arcane/widget/BugmeBarView$1$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/BugmeBarView$1;->onClick(Landroid/view/View;)V
+    value = Lkik/arcane/widget/BugmeBarView$1;->onClick(Landroid/view/View;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/BugmeBarView$1;
+.field final synthetic a:Lkik/arcane/widget/BugmeBarView$1;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/BugmeBarView$1;)V
+.method constructor <init>(Lkik/arcane/widget/BugmeBarView$1;)V
     .locals 0
 
     .prologue
     .line 77
-    iput-object p1, p0, Lkik/android/widget/BugmeBarView$1$1;->a:Lkik/android/widget/BugmeBarView$1;
+    iput-object p1, p0, Lkik/arcane/widget/BugmeBarView$1$1;->a:Lkik/arcane/widget/BugmeBarView$1;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,9 +41,9 @@
 
     .prologue
     .line 82
-    invoke-static {}, Lkik/android/util/g;->a()Lkik/android/util/g;
+    invoke-static {}, Lkik/arcane/util/g;->a()Lkik/arcane/util/g;
 
-    invoke-static {}, Lkik/android/util/g;->b()V
+    invoke-static {}, Lkik/arcane/util/g;->b()V
 
     .line 83
     return-void

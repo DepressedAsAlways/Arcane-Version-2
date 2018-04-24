@@ -20,7 +20,7 @@
 
 .field private final e:Lkik/core/interfaces/ad;
 
-.field private final f:Lkik/android/config/b;
+.field private final f:Lkik/arcane/config/b;
 
 .field private g:Lrx/g;
 
@@ -85,7 +85,7 @@
     .end array-data
 .end method
 
-.method public constructor <init>(Landroid/content/Context;Lkik/core/interfaces/ad;Lkik/android/config/b;Lkik/android/util/aj;)V
+.method public constructor <init>(Landroid/content/Context;Lkik/core/interfaces/ad;Lkik/arcane/config/b;Lkik/arcane/util/aj;)V
     .locals 4
 
     .prologue
@@ -124,10 +124,10 @@
     iput-object p2, p0, Lcom/kik/e/h;->e:Lkik/core/interfaces/ad;
 
     .line 65
-    iput-object p3, p0, Lcom/kik/e/h;->f:Lkik/android/config/b;
+    iput-object p3, p0, Lcom/kik/e/h;->f:Lkik/arcane/config/b;
 
     .line 67
-    new-instance v0, Lkik/android/config/f;
+    new-instance v0, Lkik/arcane/config/f;
 
     const-string v1, "kin-provider-url"
 
@@ -139,9 +139,9 @@
 
     sget-object v3, Lcom/kik/e/h;->a:[Ljava/lang/String;
 
-    invoke-direct {v0, v1, v2, v3, p4}, Lkik/android/config/f;-><init>(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Lkik/android/util/aj;)V
+    invoke-direct {v0, v1, v2, v3, p4}, Lkik/arcane/config/f;-><init>(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Lkik/arcane/util/aj;)V
 
-    invoke-interface {p3, v0}, Lkik/android/config/b;->a(Lkik/android/config/Configuration;)Z
+    invoke-interface {p3, v0}, Lkik/arcane/config/b;->a(Lkik/arcane/config/Configuration;)Z
 
     .line 72
     invoke-direct {p0}, Lcom/kik/e/h;->h()Lrx/h;
@@ -537,15 +537,15 @@
 
     .prologue
     .line 85
-    iget-object v0, p0, Lcom/kik/e/h;->f:Lkik/android/config/b;
+    iget-object v0, p0, Lcom/kik/e/h;->f:Lkik/arcane/config/b;
 
     const-string v1, "kin-provider-url"
 
-    invoke-interface {v0, v1}, Lkik/android/config/b;->a(Ljava/lang/String;)Lkik/android/config/Configuration;
+    invoke-interface {v0, v1}, Lkik/arcane/config/b;->a(Ljava/lang/String;)Lkik/arcane/config/Configuration;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/config/Configuration;->b()Ljava/lang/Object;
+    invoke-virtual {v0}, Lkik/arcane/config/Configuration;->b()Ljava/lang/Object;
 
     move-result-object v0
 

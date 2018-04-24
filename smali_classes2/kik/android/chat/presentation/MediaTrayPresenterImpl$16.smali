@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/presentation/MediaTrayPresenterImpl$16;
+.class final Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$16;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    value = Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+.field final synthetic a:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/presentation/MediaTrayPresenterImpl;)V
+.method constructor <init>(Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;)V
     .locals 0
 
     .prologue
     .line 682
-    iput-object p1, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$16;->a:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    iput-object p1, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$16;->a:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -54,9 +54,9 @@
     check-cast p2, Ljava/lang/String;
 
     .line 1686
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$16;->a:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$16;->a:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
-    invoke-static {v0, p2}, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->b(Lkik/android/chat/presentation/MediaTrayPresenterImpl;Ljava/lang/String;)V
+    invoke-static {v0, p2}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->b(Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;Ljava/lang/String;)V
 
     .line 682
     return-void

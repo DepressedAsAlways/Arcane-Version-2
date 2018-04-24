@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/chats/profile/b;
+.class final synthetic Lkik/arcane/chat/vm/chats/profile/b;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/vm/chats/profile/a;
+.field private final a:Lkik/arcane/chat/vm/chats/profile/a;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/vm/chats/profile/a;)V
+.method private constructor <init>(Lkik/arcane/chat/vm/chats/profile/a;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/vm/chats/profile/b;->a:Lkik/android/chat/vm/chats/profile/a;
+    iput-object p1, p0, Lkik/arcane/chat/vm/chats/profile/b;->a:Lkik/arcane/chat/vm/chats/profile/a;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/vm/chats/profile/a;)Lrx/functions/b;
+.method public static a(Lkik/arcane/chat/vm/chats/profile/a;)Lrx/functions/b;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/chats/profile/b;
+    new-instance v0, Lkik/arcane/chat/vm/chats/profile/b;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/vm/chats/profile/b;-><init>(Lkik/android/chat/vm/chats/profile/a;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/vm/chats/profile/b;-><init>(Lkik/arcane/chat/vm/chats/profile/a;)V
 
     return-object v0
 .end method
@@ -37,31 +37,31 @@
 
     .prologue
     .line 0
-    iget-object v0, p0, Lkik/android/chat/vm/chats/profile/b;->a:Lkik/android/chat/vm/chats/profile/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/profile/b;->a:Lkik/arcane/chat/vm/chats/profile/a;
 
-    check-cast p1, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
+    check-cast p1, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
 
     .line 1061
-    sget-object v1, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->CONTAINS_LINK:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
+    sget-object v1, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->CONTAINS_LINK:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
 
     if-ne p1, v1, :cond_0
 
     .line 1062
-    iget-object v0, v0, Lkik/android/chat/vm/chats/profile/a;->b:Lcom/kik/android/Mixpanel;
+    iget-object v0, v0, Lkik/arcane/chat/vm/chats/profile/a;->b:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "settings_bioinlinelinkerror_shown"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 1063
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 1064
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 0
     :cond_0

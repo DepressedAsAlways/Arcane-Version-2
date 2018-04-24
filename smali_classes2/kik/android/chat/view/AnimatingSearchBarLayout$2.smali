@@ -1,14 +1,14 @@
-.class final Lkik/android/chat/view/AnimatingSearchBarLayout$2;
+.class final Lkik/arcane/chat/view/AnimatingSearchBarLayout$2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/view/aj$a;
+.implements Lkik/arcane/chat/view/aj$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/view/AnimatingSearchBarLayout;
+    value = Lkik/arcane/chat/view/AnimatingSearchBarLayout;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/view/AnimatingSearchBarLayout;
+.field final synthetic a:Lkik/arcane/chat/view/AnimatingSearchBarLayout;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/view/AnimatingSearchBarLayout;)V
+.method constructor <init>(Lkik/arcane/chat/view/AnimatingSearchBarLayout;)V
     .locals 0
 
     .prologue
     .line 153
-    iput-object p1, p0, Lkik/android/chat/view/AnimatingSearchBarLayout$2;->a:Lkik/android/chat/view/AnimatingSearchBarLayout;
+    iput-object p1, p0, Lkik/arcane/chat/view/AnimatingSearchBarLayout$2;->a:Lkik/arcane/chat/view/AnimatingSearchBarLayout;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,9 +41,9 @@
 
     .prologue
     .line 171
-    iget-object v0, p0, Lkik/android/chat/view/AnimatingSearchBarLayout$2;->a:Lkik/android/chat/view/AnimatingSearchBarLayout;
+    iget-object v0, p0, Lkik/arcane/chat/view/AnimatingSearchBarLayout$2;->a:Lkik/arcane/chat/view/AnimatingSearchBarLayout;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/AnimatingSearchBarLayout;->a()Z
+    invoke-virtual {v0}, Lkik/arcane/chat/view/AnimatingSearchBarLayout;->a()Z
 
     .line 172
     return-void
@@ -65,9 +65,9 @@
     if-eqz p1, :cond_0
 
     .line 158
-    iget-object v0, p0, Lkik/android/chat/view/AnimatingSearchBarLayout$2;->a:Lkik/android/chat/view/AnimatingSearchBarLayout;
+    iget-object v0, p0, Lkik/arcane/chat/view/AnimatingSearchBarLayout$2;->a:Lkik/arcane/chat/view/AnimatingSearchBarLayout;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/AnimatingSearchBarLayout;->c()V
+    invoke-virtual {v0}, Lkik/arcane/chat/view/AnimatingSearchBarLayout;->c()V
 
     .line 160
     :cond_0
@@ -79,17 +79,17 @@
 
     .prologue
     .line 179
-    iget-object v0, p0, Lkik/android/chat/view/AnimatingSearchBarLayout$2;->a:Lkik/android/chat/view/AnimatingSearchBarLayout;
+    iget-object v0, p0, Lkik/arcane/chat/view/AnimatingSearchBarLayout$2;->a:Lkik/arcane/chat/view/AnimatingSearchBarLayout;
 
-    invoke-static {v0}, Lkik/android/chat/view/AnimatingSearchBarLayout;->c(Lkik/android/chat/view/AnimatingSearchBarLayout;)Lkik/android/chat/view/TransitionableSearchBarViewImpl;
+    invoke-static {v0}, Lkik/arcane/chat/view/AnimatingSearchBarLayout;->c(Lkik/arcane/chat/view/AnimatingSearchBarLayout;)Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/chat/view/e;->a(Lkik/android/chat/view/AnimatingSearchBarLayout$2;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/chat/view/e;->a(Lkik/arcane/chat/view/AnimatingSearchBarLayout$2;)Ljava/lang/Runnable;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->post(Ljava/lang/Runnable;)Z
 
     .line 185
     return-void

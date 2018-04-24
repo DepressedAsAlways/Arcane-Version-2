@@ -46,7 +46,7 @@
 
     .prologue
     .line 41
-    new-instance v0, Lcom/kik/android/stickers/c;
+    new-instance v0, Lcom/kik/arcane/stickers/c;
 
     iget-object v1, p0, Lcom/kik/modules/dp;->a:Landroid/content/Context;
 
@@ -64,7 +64,7 @@
     .line 41
     iget-object v5, p0, Lcom/kik/modules/dp;->d:Lkik/core/e/d;
 
-    invoke-direct/range {v0 .. v5}, Lcom/kik/android/stickers/c;-><init>(Landroid/content/Context;Lkik/core/interfaces/e;Lkik/core/interfaces/ag;Lcom/android/volley/g;Lkik/core/e/d;)V
+    invoke-direct/range {v0 .. v5}, Lcom/kik/arcane/stickers/c;-><init>(Landroid/content/Context;Lkik/core/interfaces/e;Lkik/core/interfaces/ag;Lcom/android/volley/g;Lkik/core/e/d;)V
 
     return-object v0
 .end method

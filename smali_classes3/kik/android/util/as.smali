@@ -1,10 +1,10 @@
-.class public final Lkik/android/util/as;
+.class public final Lkik/arcane/util/as;
 .super Landroid/os/Handler;
 .source "SourceFile"
 
 
 # instance fields
-.field private a:Lcom/kik/android/Mixpanel;
+.field private a:Lcom/kik/arcane/Mixpanel;
 
 .field private b:Lkik/core/interfaces/IConversation;
 
@@ -18,7 +18,7 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/os/Looper;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/ad;Lcom/kik/android/Mixpanel;Lkik/core/net/e;Lkik/core/interfaces/n;Lkik/core/interfaces/z;)V
+.method public constructor <init>(Landroid/os/Looper;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/ad;Lcom/kik/arcane/Mixpanel;Lkik/core/net/e;Lkik/core/interfaces/n;Lkik/core/interfaces/z;)V
     .locals 0
 
     .prologue
@@ -26,83 +26,83 @@
     invoke-direct {p0, p1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
     .line 44
-    iput-object p4, p0, Lkik/android/util/as;->a:Lcom/kik/android/Mixpanel;
+    iput-object p4, p0, Lkik/arcane/util/as;->a:Lcom/kik/arcane/Mixpanel;
 
     .line 45
-    iput-object p2, p0, Lkik/android/util/as;->b:Lkik/core/interfaces/IConversation;
+    iput-object p2, p0, Lkik/arcane/util/as;->b:Lkik/core/interfaces/IConversation;
 
     .line 46
-    iput-object p3, p0, Lkik/android/util/as;->c:Lkik/core/interfaces/ad;
+    iput-object p3, p0, Lkik/arcane/util/as;->c:Lkik/core/interfaces/ad;
 
     .line 47
-    iput-object p5, p0, Lkik/android/util/as;->d:Lkik/core/net/e;
+    iput-object p5, p0, Lkik/arcane/util/as;->d:Lkik/core/net/e;
 
     .line 48
-    iput-object p6, p0, Lkik/android/util/as;->e:Lkik/core/interfaces/n;
+    iput-object p6, p0, Lkik/arcane/util/as;->e:Lkik/core/interfaces/n;
 
     .line 49
-    iput-object p7, p0, Lkik/android/util/as;->f:Lkik/core/interfaces/z;
+    iput-object p7, p0, Lkik/arcane/util/as;->f:Lkik/core/interfaces/z;
 
     .line 50
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/util/as;)Lcom/kik/android/Mixpanel;
+.method static synthetic a(Lkik/arcane/util/as;)Lcom/kik/arcane/Mixpanel;
     .locals 1
 
     .prologue
     .line 29
-    iget-object v0, p0, Lkik/android/util/as;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/util/as;->a:Lcom/kik/arcane/Mixpanel;
 
     return-object v0
 .end method
 
-.method static synthetic b(Lkik/android/util/as;)Lkik/core/net/e;
+.method static synthetic b(Lkik/arcane/util/as;)Lkik/core/net/e;
     .locals 1
 
     .prologue
     .line 29
-    iget-object v0, p0, Lkik/android/util/as;->d:Lkik/core/net/e;
+    iget-object v0, p0, Lkik/arcane/util/as;->d:Lkik/core/net/e;
 
     return-object v0
 .end method
 
-.method static synthetic c(Lkik/android/util/as;)Lkik/core/interfaces/n;
+.method static synthetic c(Lkik/arcane/util/as;)Lkik/core/interfaces/n;
     .locals 1
 
     .prologue
     .line 29
-    iget-object v0, p0, Lkik/android/util/as;->e:Lkik/core/interfaces/n;
+    iget-object v0, p0, Lkik/arcane/util/as;->e:Lkik/core/interfaces/n;
 
     return-object v0
 .end method
 
-.method static synthetic d(Lkik/android/util/as;)Lkik/core/interfaces/ad;
+.method static synthetic d(Lkik/arcane/util/as;)Lkik/core/interfaces/ad;
     .locals 1
 
     .prologue
     .line 29
-    iget-object v0, p0, Lkik/android/util/as;->c:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/util/as;->c:Lkik/core/interfaces/ad;
 
     return-object v0
 .end method
 
-.method static synthetic e(Lkik/android/util/as;)Lkik/core/interfaces/IConversation;
+.method static synthetic e(Lkik/arcane/util/as;)Lkik/core/interfaces/IConversation;
     .locals 1
 
     .prologue
     .line 29
-    iget-object v0, p0, Lkik/android/util/as;->b:Lkik/core/interfaces/IConversation;
+    iget-object v0, p0, Lkik/arcane/util/as;->b:Lkik/core/interfaces/IConversation;
 
     return-object v0
 .end method
 
-.method static synthetic f(Lkik/android/util/as;)Lkik/core/interfaces/z;
+.method static synthetic f(Lkik/arcane/util/as;)Lkik/core/interfaces/z;
     .locals 1
 
     .prologue
     .line 29
-    iget-object v0, p0, Lkik/android/util/as;->f:Lkik/core/interfaces/z;
+    iget-object v0, p0, Lkik/arcane/util/as;->f:Lkik/core/interfaces/z;
 
     return-object v0
 .end method
@@ -135,15 +135,15 @@
 
     .line 60
     :pswitch_0
-    iget-object v1, p0, Lkik/android/util/as;->b:Lkik/core/interfaces/IConversation;
+    iget-object v1, p0, Lkik/arcane/util/as;->b:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v1, v0}, Lkik/core/interfaces/IConversation;->c(Lkik/core/datatypes/Message;)Lcom/kik/events/Promise;
 
     move-result-object v1
 
-    new-instance v2, Lkik/android/util/as$1;
+    new-instance v2, Lkik/arcane/util/as$1;
 
-    invoke-direct {v2, p0, v0}, Lkik/android/util/as$1;-><init>(Lkik/android/util/as;Lkik/core/datatypes/Message;)V
+    invoke-direct {v2, p0, v0}, Lkik/arcane/util/as$1;-><init>(Lkik/arcane/util/as;Lkik/core/datatypes/Message;)V
 
     invoke-virtual {v1, v2}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -160,7 +160,7 @@
     check-cast v1, Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     .line 76
-    iget-object v3, p0, Lkik/android/util/as;->b:Lkik/core/interfaces/IConversation;
+    iget-object v3, p0, Lkik/arcane/util/as;->b:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v3, v0}, Lkik/core/interfaces/IConversation;->b(Lkik/core/datatypes/Message;)V
 
@@ -172,7 +172,7 @@
     if-eqz v3, :cond_4
 
     .line 82
-    iget-object v3, p0, Lkik/android/util/as;->b:Lkik/core/interfaces/IConversation;
+    iget-object v3, p0, Lkik/arcane/util/as;->b:Lkik/core/interfaces/IConversation;
 
     invoke-virtual {v0}, Lkik/core/datatypes/Message;->i()Ljava/lang/String;
 
@@ -183,7 +183,7 @@
     move-result-object v3
 
     .line 83
-    invoke-static {}, Lkik/android/net/http/b;->a()Lkik/android/net/http/b;
+    invoke-static {}, Lkik/arcane/net/http/b;->a()Lkik/arcane/net/http/b;
 
     move-result-object v4
 
@@ -191,7 +191,7 @@
 
     move-result-object v5
 
-    invoke-virtual {v4, v5}, Lkik/android/net/http/b;->a(Ljava/lang/String;)Ljava/lang/ref/WeakReference;
+    invoke-virtual {v4, v5}, Lkik/arcane/net/http/b;->a(Ljava/lang/String;)Ljava/lang/ref/WeakReference;
 
     move-result-object v4
 
@@ -203,7 +203,7 @@
 
     move-result-object v2
 
-    check-cast v2, Lkik/android/net/http/a;
+    check-cast v2, Lkik/arcane/net/http/a;
 
     move-object v6, v3
 
@@ -224,18 +224,18 @@
 
     const/16 v4, 0x65
 
-    iget-object v5, p0, Lkik/android/util/as;->c:Lkik/core/interfaces/ad;
+    iget-object v5, p0, Lkik/arcane/util/as;->c:Lkik/core/interfaces/ad;
 
     invoke-virtual {v2, v1, v4, v5}, Lkik/core/datatypes/f;->a(Ljava/lang/String;ILkik/core/interfaces/ad;)Z
 
     .line 92
-    invoke-virtual {v3}, Lkik/android/net/http/a;->l()Lcom/kik/events/Promise;
+    invoke-virtual {v3}, Lkik/arcane/net/http/a;->l()Lcom/kik/events/Promise;
 
     move-result-object v1
 
-    new-instance v2, Lkik/android/util/as$2;
+    new-instance v2, Lkik/arcane/util/as$2;
 
-    invoke-direct {v2, p0, v0}, Lkik/android/util/as$2;-><init>(Lkik/android/util/as;Lkik/core/datatypes/Message;)V
+    invoke-direct {v2, p0, v0}, Lkik/arcane/util/as$2;-><init>(Lkik/arcane/util/as;Lkik/core/datatypes/Message;)V
 
     invoke-virtual {v1, v2}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -258,7 +258,7 @@
 
     .line 106
     :cond_2
-    iget-object v1, p0, Lkik/android/util/as;->b:Lkik/core/interfaces/IConversation;
+    iget-object v1, p0, Lkik/arcane/util/as;->b:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v1, v0}, Lkik/core/interfaces/IConversation;->c(Lkik/core/datatypes/Message;)Lcom/kik/events/Promise;
 

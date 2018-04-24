@@ -1,11 +1,11 @@
-.class final Lkik/android/videochat/VideoChatManager$3;
+.class final Lkik/arcane/videochat/VideoChatManager$3;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/videochat/VideoChatManager;->a(Ljava/util/List;)V
+    value = Lkik/arcane/videochat/VideoChatManager;->a(Ljava/util/List;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -31,20 +31,20 @@
 
 .field final synthetic b:Ljava/util/List;
 
-.field final synthetic c:Lkik/android/videochat/VideoChatManager;
+.field final synthetic c:Lkik/arcane/videochat/VideoChatManager;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/videochat/VideoChatManager;Ljava/util/List;Ljava/util/List;)V
+.method constructor <init>(Lkik/arcane/videochat/VideoChatManager;Ljava/util/List;Ljava/util/List;)V
     .locals 0
 
     .prologue
     .line 367
-    iput-object p1, p0, Lkik/android/videochat/VideoChatManager$3;->c:Lkik/android/videochat/VideoChatManager;
+    iput-object p1, p0, Lkik/arcane/videochat/VideoChatManager$3;->c:Lkik/arcane/videochat/VideoChatManager;
 
-    iput-object p2, p0, Lkik/android/videochat/VideoChatManager$3;->a:Ljava/util/List;
+    iput-object p2, p0, Lkik/arcane/videochat/VideoChatManager$3;->a:Ljava/util/List;
 
-    iput-object p3, p0, Lkik/android/videochat/VideoChatManager$3;->b:Ljava/util/List;
+    iput-object p3, p0, Lkik/arcane/videochat/VideoChatManager$3;->b:Ljava/util/List;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -61,13 +61,13 @@
     check-cast p1, Ljava/util/Map;
 
     .line 1371
-    iget-object v0, p0, Lkik/android/videochat/VideoChatManager$3;->c:Lkik/android/videochat/VideoChatManager;
+    iget-object v0, p0, Lkik/arcane/videochat/VideoChatManager$3;->c:Lkik/arcane/videochat/VideoChatManager;
 
-    invoke-static {v0}, Lkik/android/videochat/VideoChatManager;->d(Lkik/android/videochat/VideoChatManager;)Ljava/util/Set;
+    invoke-static {v0}, Lkik/arcane/videochat/VideoChatManager;->d(Lkik/arcane/videochat/VideoChatManager;)Ljava/util/Set;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/videochat/VideoChatManager$3;->a:Ljava/util/List;
+    iget-object v1, p0, Lkik/arcane/videochat/VideoChatManager$3;->a:Ljava/util/List;
 
     invoke-interface {v0, v1}, Ljava/util/Set;->removeAll(Ljava/util/Collection;)Z
 
@@ -94,7 +94,7 @@
     check-cast v0, Ljava/util/Map$Entry;
 
     .line 1373
-    iget-object v3, p0, Lkik/android/videochat/VideoChatManager$3;->c:Lkik/android/videochat/VideoChatManager;
+    iget-object v3, p0, Lkik/arcane/videochat/VideoChatManager$3;->c:Lkik/arcane/videochat/VideoChatManager;
 
     invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
@@ -108,15 +108,15 @@
 
     check-cast v0, Lcom/kik/video/VideoCommon$ConvoVideoState;
 
-    invoke-static {v3, v1, v0}, Lkik/android/videochat/VideoChatManager;->a(Lkik/android/videochat/VideoChatManager;Lkik/core/datatypes/l;Lcom/kik/video/VideoCommon$ConvoVideoState;)V
+    invoke-static {v3, v1, v0}, Lkik/arcane/videochat/VideoChatManager;->a(Lkik/arcane/videochat/VideoChatManager;Lkik/core/datatypes/l;Lcom/kik/video/VideoCommon$ConvoVideoState;)V
 
     goto :goto_0
 
     .line 1375
     :cond_0
-    iget-object v0, p0, Lkik/android/videochat/VideoChatManager$3;->c:Lkik/android/videochat/VideoChatManager;
+    iget-object v0, p0, Lkik/arcane/videochat/VideoChatManager$3;->c:Lkik/arcane/videochat/VideoChatManager;
 
-    invoke-static {v0}, Lkik/android/videochat/VideoChatManager;->e(Lkik/android/videochat/VideoChatManager;)Lkik/core/c/a;
+    invoke-static {v0}, Lkik/arcane/videochat/VideoChatManager;->e(Lkik/arcane/videochat/VideoChatManager;)Lkik/core/c/a;
 
     move-result-object v0
 
@@ -127,11 +127,11 @@
     if-eqz v0, :cond_1
 
     .line 1376
-    iget-object v0, p0, Lkik/android/videochat/VideoChatManager$3;->c:Lkik/android/videochat/VideoChatManager;
+    iget-object v0, p0, Lkik/arcane/videochat/VideoChatManager$3;->c:Lkik/arcane/videochat/VideoChatManager;
 
-    iget-object v1, p0, Lkik/android/videochat/VideoChatManager$3;->b:Ljava/util/List;
+    iget-object v1, p0, Lkik/arcane/videochat/VideoChatManager$3;->b:Ljava/util/List;
 
-    invoke-static {v0, v1}, Lkik/android/videochat/VideoChatManager;->a(Lkik/android/videochat/VideoChatManager;Ljava/util/List;)V
+    invoke-static {v0, v1}, Lkik/arcane/videochat/VideoChatManager;->a(Lkik/arcane/videochat/VideoChatManager;Ljava/util/List;)V
 
     .line 367
     :cond_1
@@ -143,13 +143,13 @@
 
     .prologue
     .line 383
-    iget-object v0, p0, Lkik/android/videochat/VideoChatManager$3;->c:Lkik/android/videochat/VideoChatManager;
+    iget-object v0, p0, Lkik/arcane/videochat/VideoChatManager$3;->c:Lkik/arcane/videochat/VideoChatManager;
 
-    invoke-static {v0}, Lkik/android/videochat/VideoChatManager;->d(Lkik/android/videochat/VideoChatManager;)Ljava/util/Set;
+    invoke-static {v0}, Lkik/arcane/videochat/VideoChatManager;->d(Lkik/arcane/videochat/VideoChatManager;)Ljava/util/Set;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/videochat/VideoChatManager$3;->a:Ljava/util/List;
+    iget-object v1, p0, Lkik/arcane/videochat/VideoChatManager$3;->a:Ljava/util/List;
 
     invoke-interface {v0, v1}, Ljava/util/Set;->removeAll(Ljava/util/Collection;)Z
 

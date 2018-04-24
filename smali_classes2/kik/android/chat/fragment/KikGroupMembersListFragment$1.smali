@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/KikGroupMembersListFragment$1;
+.class final Lkik/arcane/chat/fragment/KikGroupMembersListFragment$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    value = Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikGroupMembersListFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikGroupMembersListFragment;)V
     .locals 0
 
     .prologue
     .line 126
-    iput-object p1, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$1;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$1;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -56,9 +56,9 @@
     .line 1130
     if-eqz p2, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$1;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$1;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->c(Lkik/android/chat/fragment/KikGroupMembersListFragment;)Lkik/core/datatypes/p;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->c(Lkik/arcane/chat/fragment/KikGroupMembersListFragment;)Lkik/core/datatypes/p;
 
     move-result-object v0
 
@@ -73,9 +73,9 @@
     if-eqz v0, :cond_0
 
     .line 1131
-    iget-object v0, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$1;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$1;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->d(Lkik/android/chat/fragment/KikGroupMembersListFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->d(Lkik/arcane/chat/fragment/KikGroupMembersListFragment;)V
 
     .line 126
     :cond_0

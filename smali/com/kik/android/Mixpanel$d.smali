@@ -1,11 +1,11 @@
-.class public abstract Lcom/kik/android/Mixpanel$d;
+.class public abstract Lcom/kik/arcane/Mixpanel$d;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/kik/android/Mixpanel;
+    value = Lcom/kik/arcane/Mixpanel;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -37,20 +37,20 @@
     .line 1545
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/kik/android/Mixpanel$d;->f:Z
+    iput-boolean v0, p0, Lcom/kik/arcane/Mixpanel$d;->f:Z
 
     .line 1549
-    iput-object p1, p0, Lcom/kik/android/Mixpanel$d;->b:Ljava/lang/String;
+    iput-object p1, p0, Lcom/kik/arcane/Mixpanel$d;->b:Ljava/lang/String;
 
     .line 1550
-    iput-object p2, p0, Lcom/kik/android/Mixpanel$d;->c:Ljava/lang/String;
+    iput-object p2, p0, Lcom/kik/arcane/Mixpanel$d;->c:Ljava/lang/String;
 
     .line 1551
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
 
-    iput-object v0, p0, Lcom/kik/android/Mixpanel$d;->d:Lorg/json/JSONObject;
+    iput-object v0, p0, Lcom/kik/arcane/Mixpanel$d;->d:Lorg/json/JSONObject;
 
     .line 1552
     return-void
@@ -58,13 +58,13 @@
 
 
 # virtual methods
-.method public final a(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+.method public final a(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
     .locals 2
 
     .prologue
     .line 1574
     :try_start_0
-    iget-object v0, p0, Lcom/kik/android/Mixpanel$d;->d:Lorg/json/JSONObject;
+    iget-object v0, p0, Lcom/kik/arcane/Mixpanel$d;->d:Lorg/json/JSONObject;
 
     const/4 v1, 0x0
 
@@ -73,7 +73,7 @@
     move-result v0
 
     .line 1576
-    iget-object v1, p0, Lcom/kik/android/Mixpanel$d;->d:Lorg/json/JSONObject;
+    iget-object v1, p0, Lcom/kik/arcane/Mixpanel$d;->d:Lorg/json/JSONObject;
 
     add-int/lit8 v0, v0, 0x1
 
@@ -91,13 +91,13 @@
     goto :goto_0
 .end method
 
-.method public final a(Ljava/lang/String;D)Lcom/kik/android/Mixpanel$d;
+.method public final a(Ljava/lang/String;D)Lcom/kik/arcane/Mixpanel$d;
     .locals 2
 
     .prologue
     .line 1609
     :try_start_0
-    iget-object v0, p0, Lcom/kik/android/Mixpanel$d;->d:Lorg/json/JSONObject;
+    iget-object v0, p0, Lcom/kik/arcane/Mixpanel$d;->d:Lorg/json/JSONObject;
 
     invoke-virtual {v0, p1, p2, p3}, Lorg/json/JSONObject;->put(Ljava/lang/String;D)Lorg/json/JSONObject;
     :try_end_0
@@ -113,13 +113,13 @@
     goto :goto_0
 .end method
 
-.method public final a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+.method public final a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
     .locals 2
 
     .prologue
     .line 1621
     :try_start_0
-    iget-object v0, p0, Lcom/kik/android/Mixpanel$d;->d:Lorg/json/JSONObject;
+    iget-object v0, p0, Lcom/kik/arcane/Mixpanel$d;->d:Lorg/json/JSONObject;
 
     invoke-virtual {v0, p1, p2, p3}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
     :try_end_0
@@ -135,13 +135,13 @@
     goto :goto_0
 .end method
 
-.method public final a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+.method public final a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
     .locals 1
 
     .prologue
     .line 1661
     :try_start_0
-    iget-object v0, p0, Lcom/kik/android/Mixpanel$d;->d:Lorg/json/JSONObject;
+    iget-object v0, p0, Lcom/kik/arcane/Mixpanel$d;->d:Lorg/json/JSONObject;
 
     invoke-virtual {v0, p1, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
     :try_end_0
@@ -157,13 +157,13 @@
     goto :goto_0
 .end method
 
-.method public final a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+.method public final a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
     .locals 1
 
     .prologue
     .line 1588
     :try_start_0
-    iget-object v0, p0, Lcom/kik/android/Mixpanel$d;->d:Lorg/json/JSONObject;
+    iget-object v0, p0, Lcom/kik/arcane/Mixpanel$d;->d:Lorg/json/JSONObject;
 
     invoke-virtual {v0, p1, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
     :try_end_0
@@ -179,7 +179,7 @@
     goto :goto_0
 .end method
 
-.method public final a(Ljava/lang/String;[Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+.method public final a(Ljava/lang/String;[Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
     .locals 4
 
     .prologue
@@ -209,7 +209,7 @@
     .line 1637
     :cond_0
     :try_start_0
-    iget-object v0, p0, Lcom/kik/android/Mixpanel$d;->d:Lorg/json/JSONObject;
+    iget-object v0, p0, Lcom/kik/arcane/Mixpanel$d;->d:Lorg/json/JSONObject;
 
     invoke-virtual {v0, p1, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
     :try_end_0
@@ -225,7 +225,7 @@
     goto :goto_1
 .end method
 
-.method public final a(Ljava/util/Map;)Lcom/kik/android/Mixpanel$d;
+.method public final a(Ljava/util/Map;)Lcom/kik/arcane/Mixpanel$d;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -234,7 +234,7 @@
             "<",
             "Ljava/lang/String;",
             "*>;)",
-            "Lcom/kik/android/Mixpanel$d;"
+            "Lcom/kik/arcane/Mixpanel$d;"
         }
     .end annotation
 
@@ -266,7 +266,7 @@
 
     move-result-object v2
 
-    invoke-virtual {p0, v0, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {p0, v0, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     goto :goto_0
 
@@ -280,19 +280,19 @@
 
     .prologue
     .line 1760
-    iput-object p1, p0, Lcom/kik/android/Mixpanel$d;->d:Lorg/json/JSONObject;
+    iput-object p1, p0, Lcom/kik/arcane/Mixpanel$d;->d:Lorg/json/JSONObject;
 
     .line 1761
     return-void
 .end method
 
-.method public final b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+.method public final b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
     .locals 2
 
     .prologue
     .line 1673
     :try_start_0
-    iget-object v0, p0, Lcom/kik/android/Mixpanel$d;->d:Lorg/json/JSONObject;
+    iget-object v0, p0, Lcom/kik/arcane/Mixpanel$d;->d:Lorg/json/JSONObject;
 
     invoke-virtual {v0, p1}, Lorg/json/JSONObject;->has(Ljava/lang/String;)Z
 
@@ -301,7 +301,7 @@
     if-nez v0, :cond_0
 
     .line 1674
-    iget-object v0, p0, Lcom/kik/android/Mixpanel$d;->d:Lorg/json/JSONObject;
+    iget-object v0, p0, Lcom/kik/arcane/Mixpanel$d;->d:Lorg/json/JSONObject;
 
     const/4 v1, 0x0
 
@@ -320,13 +320,13 @@
     goto :goto_0
 .end method
 
-.method public final b(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+.method public final b(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
     .locals 2
 
     .prologue
     .line 1701
     :try_start_0
-    iget-object v0, p0, Lcom/kik/android/Mixpanel$d;->d:Lorg/json/JSONObject;
+    iget-object v0, p0, Lcom/kik/arcane/Mixpanel$d;->d:Lorg/json/JSONObject;
 
     invoke-virtual {v0, p1}, Lorg/json/JSONObject;->has(Ljava/lang/String;)Z
 
@@ -335,7 +335,7 @@
     if-nez v0, :cond_0
 
     .line 1702
-    iget-object v0, p0, Lcom/kik/android/Mixpanel$d;->d:Lorg/json/JSONObject;
+    iget-object v0, p0, Lcom/kik/arcane/Mixpanel$d;->d:Lorg/json/JSONObject;
 
     invoke-virtual {v0, p1, p2, p3}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
     :try_end_0
@@ -352,13 +352,13 @@
     goto :goto_0
 .end method
 
-.method public final b(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+.method public final b(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
     .locals 1
 
     .prologue
     .line 1729
     :try_start_0
-    iget-object v0, p0, Lcom/kik/android/Mixpanel$d;->d:Lorg/json/JSONObject;
+    iget-object v0, p0, Lcom/kik/arcane/Mixpanel$d;->d:Lorg/json/JSONObject;
 
     invoke-virtual {v0, p1}, Lorg/json/JSONObject;->has(Ljava/lang/String;)Z
 
@@ -367,7 +367,7 @@
     if-nez v0, :cond_0
 
     .line 1730
-    iget-object v0, p0, Lcom/kik/android/Mixpanel$d;->d:Lorg/json/JSONObject;
+    iget-object v0, p0, Lcom/kik/arcane/Mixpanel$d;->d:Lorg/json/JSONObject;
 
     invoke-virtual {v0, p1, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
     :try_end_0
@@ -392,7 +392,7 @@
 
     .prologue
     .line 1556
-    iget-object v0, p0, Lcom/kik/android/Mixpanel$d;->b:Ljava/lang/String;
+    iget-object v0, p0, Lcom/kik/arcane/Mixpanel$d;->b:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -402,7 +402,7 @@
 
     .prologue
     .line 1561
-    iget-object v0, p0, Lcom/kik/android/Mixpanel$d;->c:Ljava/lang/String;
+    iget-object v0, p0, Lcom/kik/arcane/Mixpanel$d;->c:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -412,35 +412,35 @@
 
     .prologue
     .line 1566
-    iget-object v0, p0, Lcom/kik/android/Mixpanel$d;->d:Lorg/json/JSONObject;
+    iget-object v0, p0, Lcom/kik/arcane/Mixpanel$d;->d:Lorg/json/JSONObject;
 
     return-object v0
 .end method
 
-.method public final g()Lcom/kik/android/Mixpanel$d;
+.method public final g()Lcom/kik/arcane/Mixpanel$d;
     .locals 1
 
     .prologue
     .line 1742
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lcom/kik/android/Mixpanel$d;->e:Z
+    iput-boolean v0, p0, Lcom/kik/arcane/Mixpanel$d;->e:Z
 
     .line 1743
     return-object p0
 .end method
 
-.method public final h()Lcom/kik/android/Mixpanel$d;
+.method public final h()Lcom/kik/arcane/Mixpanel$d;
     .locals 1
 
     .prologue
     const/4 v0, 0x1
 
     .line 1748
-    iput-boolean v0, p0, Lcom/kik/android/Mixpanel$d;->e:Z
+    iput-boolean v0, p0, Lcom/kik/arcane/Mixpanel$d;->e:Z
 
     .line 1749
-    iput-boolean v0, p0, Lcom/kik/android/Mixpanel$d;->f:Z
+    iput-boolean v0, p0, Lcom/kik/arcane/Mixpanel$d;->f:Z
 
     .line 1750
     return-object p0
@@ -456,7 +456,7 @@
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 2556
-    iget-object v1, p0, Lcom/kik/android/Mixpanel$d;->b:Ljava/lang/String;
+    iget-object v1, p0, Lcom/kik/arcane/Mixpanel$d;->b:Ljava/lang/String;
 
     .line 1755
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -469,7 +469,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/kik/android/Mixpanel$d;->d:Lorg/json/JSONObject;
+    iget-object v1, p0, Lcom/kik/arcane/Mixpanel$d;->d:Lorg/json/JSONObject;
 
     invoke-virtual {v1}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 

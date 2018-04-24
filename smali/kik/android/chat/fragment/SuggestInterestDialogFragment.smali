@@ -1,27 +1,27 @@
-.class public Lkik/android/chat/fragment/SuggestInterestDialogFragment;
-.super Lkik/android/chat/fragment/KikDialogFragment;
+.class public Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;
+.super Lkik/arcane/chat/fragment/KikDialogFragment;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/fragment/SuggestInterestDialogFragment$a;
+        Lkik/arcane/chat/fragment/SuggestInterestDialogFragment$a;
     }
 .end annotation
 
 
 # instance fields
-.field g:Lcom/kik/android/Mixpanel;
+.field g:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
 
-.field private h:Lkik/android/e/bj;
+.field private h:Lkik/arcane/e/bj;
 
-.field private i:Lkik/android/chat/vm/bd;
+.field private i:Lkik/arcane/chat/vm/bd;
 
-.field private j:Lkik/android/chat/vm/chats/profile/du;
+.field private j:Lkik/arcane/chat/vm/chats/profile/du;
 
 .field private k:Lrx/k;
 
@@ -32,37 +32,37 @@
 
     .prologue
     .line 32
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikDialogFragment;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikDialogFragment;-><init>()V
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/SuggestInterestDialogFragment;Lkik/android/chat/vm/bd;)Lkik/android/chat/vm/bd;
+.method static synthetic a(Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;Lkik/arcane/chat/vm/bd;)Lkik/arcane/chat/vm/bd;
     .locals 0
 
     .prologue
     .line 32
-    iput-object p1, p0, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->i:Lkik/android/chat/vm/bd;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->i:Lkik/arcane/chat/vm/bd;
 
     return-object p1
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/SuggestInterestDialogFragment;)V
+.method static synthetic a(Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;)V
     .locals 0
 
     .prologue
     .line 77
-    invoke-direct {p0}, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->c()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->c()V
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/SuggestInterestDialogFragment;Ljava/lang/Boolean;)V
+.method static synthetic a(Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;Ljava/lang/Boolean;)V
     .locals 2
 
     .prologue
     .line 75
-    invoke-virtual {p0}, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->getDialog()Landroid/app/Dialog;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->getDialog()Landroid/app/Dialog;
 
     move-result-object v0
 
@@ -83,23 +83,23 @@
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/chat/fragment/SuggestInterestDialogFragment;)V
+.method static synthetic b(Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;)V
     .locals 1
 
     .prologue
     .line 76
     .line 1082
-    iget-object v0, p0, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->j:Lkik/android/chat/vm/chats/profile/du;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->j:Lkik/arcane/chat/vm/chats/profile/du;
 
-    invoke-virtual {v0}, Lkik/android/chat/vm/chats/profile/du;->b()Lrx/b;
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/chats/profile/du;->b()Lrx/b;
 
     .line 1083
-    invoke-virtual {p0}, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->dismiss()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->dismiss()V
 
     .line 1084
-    iget-object v0, p0, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->i:Lkik/android/chat/vm/bd;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->i:Lkik/arcane/chat/vm/bd;
 
-    invoke-interface {v0}, Lkik/android/chat/vm/bd;->h()V
+    invoke-interface {v0}, Lkik/arcane/chat/vm/bd;->h()V
 
     .line 76
     return-void
@@ -110,9 +110,9 @@
 
     .prologue
     .line 89
-    iget-object v0, p0, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->j:Lkik/android/chat/vm/chats/profile/du;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->j:Lkik/arcane/chat/vm/chats/profile/du;
 
-    invoke-virtual {v0}, Lkik/android/chat/vm/chats/profile/du;->d()Lrx/b;
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/chats/profile/du;->d()Lrx/b;
 
     move-result-object v0
 
@@ -124,9 +124,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/chat/fragment/SuggestInterestDialogFragment$1;
+    new-instance v1, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment$1;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/fragment/SuggestInterestDialogFragment$1;-><init>(Lkik/android/chat/fragment/SuggestInterestDialogFragment;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment$1;-><init>(Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;)V
 
     invoke-virtual {v0, v1}, Lrx/b;->b(Lrx/c;)V
 
@@ -134,22 +134,22 @@
     return-void
 .end method
 
-.method static synthetic c(Lkik/android/chat/fragment/SuggestInterestDialogFragment;)V
+.method static synthetic c(Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;)V
     .locals 0
 
     .prologue
     .line 61
-    invoke-direct {p0}, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->c()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->c()V
 
     return-void
 .end method
 
-.method static synthetic d(Lkik/android/chat/fragment/SuggestInterestDialogFragment;)Lkik/android/chat/vm/bd;
+.method static synthetic d(Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;)Lkik/arcane/chat/vm/bd;
     .locals 1
 
     .prologue
     .line 32
-    iget-object v0, p0, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->i:Lkik/android/chat/vm/bd;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->i:Lkik/arcane/chat/vm/bd;
 
     return-object v0
 .end method
@@ -165,7 +165,7 @@
     .line 44
     new-instance v1, Landroid/support/v7/app/AlertDialog$Builder;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v0
 
@@ -174,7 +174,7 @@
     invoke-direct {v1, v0, v2}, Landroid/support/v7/app/AlertDialog$Builder;-><init>(Landroid/content/Context;I)V
 
     .line 46
-    iget-object v0, p0, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->i:Lkik/android/chat/vm/bd;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->i:Lkik/arcane/chat/vm/bd;
 
     if-nez v0, :cond_0
 
@@ -189,33 +189,33 @@
 
     .line 49
     :cond_0
-    new-instance v0, Lkik/android/chat/vm/chats/profile/du;
+    new-instance v0, Lkik/arcane/chat/vm/chats/profile/du;
 
-    invoke-direct {v0}, Lkik/android/chat/vm/chats/profile/du;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/vm/chats/profile/du;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->j:Lkik/android/chat/vm/chats/profile/du;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->j:Lkik/arcane/chat/vm/chats/profile/du;
 
     .line 50
-    invoke-virtual {p0}, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/s;->a(Landroid/content/Context;)Lcom/kik/components/CoreComponent;
+    invoke-static {v0}, Lkik/arcane/util/s;->a(Landroid/content/Context;)Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 
     .line 51
-    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/fragment/SuggestInterestDialogFragment;)V
+    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;)V
 
     .line 52
-    iget-object v2, p0, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->j:Lkik/android/chat/vm/chats/profile/du;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->j:Lkik/arcane/chat/vm/chats/profile/du;
 
-    iget-object v3, p0, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->i:Lkik/android/chat/vm/bd;
+    iget-object v3, p0, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->i:Lkik/arcane/chat/vm/bd;
 
-    invoke-virtual {v2, v0, v3}, Lkik/android/chat/vm/chats/profile/du;->a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+    invoke-virtual {v2, v0, v3}, Lkik/arcane/chat/vm/chats/profile/du;->a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
 
     .line 53
-    invoke-virtual {p0}, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v0
 
@@ -231,21 +231,21 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/e/bj;
+    check-cast v0, Lkik/arcane/e/bj;
 
-    iput-object v0, p0, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->h:Lkik/android/e/bj;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->h:Lkik/arcane/e/bj;
 
     .line 54
-    iget-object v0, p0, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->h:Lkik/android/e/bj;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->h:Lkik/arcane/e/bj;
 
-    iget-object v2, p0, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->j:Lkik/android/chat/vm/chats/profile/du;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->j:Lkik/arcane/chat/vm/chats/profile/du;
 
-    invoke-virtual {v0, v2}, Lkik/android/e/bj;->a(Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;)V
+    invoke-virtual {v0, v2}, Lkik/arcane/e/bj;->a(Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;)V
 
     .line 56
-    iget-object v0, p0, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->h:Lkik/android/e/bj;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->h:Lkik/arcane/e/bj;
 
-    invoke-virtual {v0}, Lkik/android/e/bj;->getRoot()Landroid/view/View;
+    invoke-virtual {v0}, Lkik/arcane/e/bj;->getRoot()Landroid/view/View;
 
     move-result-object v0
 
@@ -261,7 +261,7 @@
     invoke-virtual {v1}, Landroid/support/v7/app/AlertDialog$Builder;->c()Landroid/support/v7/app/AlertDialog$Builder;
 
     .line 61
-    invoke-static {p0}, Lkik/android/chat/fragment/fq;->a(Lkik/android/chat/fragment/SuggestInterestDialogFragment;)Landroid/content/DialogInterface$OnCancelListener;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/fq;->a(Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;)Landroid/content/DialogInterface$OnCancelListener;
 
     move-result-object v0
 
@@ -293,12 +293,12 @@
 
     .prologue
     .line 148
-    invoke-super {p0}, Lkik/android/chat/fragment/KikDialogFragment;->onDetach()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikDialogFragment;->onDetach()V
 
     .line 149
-    iget-object v0, p0, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->j:Lkik/android/chat/vm/chats/profile/du;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->j:Lkik/arcane/chat/vm/chats/profile/du;
 
-    invoke-virtual {v0}, Lkik/android/chat/vm/chats/profile/du;->al_()V
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/chats/profile/du;->al_()V
 
     .line 150
     return-void
@@ -309,42 +309,42 @@
 
     .prologue
     .line 119
-    invoke-super {p0}, Lkik/android/chat/fragment/KikDialogFragment;->onResume()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikDialogFragment;->onResume()V
 
     .line 129
-    invoke-virtual {p0}, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v0
 
     .line 130
     if-eqz v0, :cond_0
 
-    instance-of v1, v0, Lkik/android/chat/activity/FragmentWrapperActivity;
+    instance-of v1, v0, Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
     if-eqz v1, :cond_0
 
     .line 131
-    check-cast v0, Lkik/android/chat/activity/FragmentWrapperActivity;
+    check-cast v0, Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
 
     move-result-object v0
 
     .line 132
     if-eqz v0, :cond_0
 
-    instance-of v1, v0, Lkik/android/util/KeyboardManipulator;
+    instance-of v1, v0, Lkik/arcane/util/KeyboardManipulator;
 
     if-eqz v1, :cond_0
 
     .line 133
-    iget-object v1, p0, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->h:Lkik/android/e/bj;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->h:Lkik/arcane/e/bj;
 
-    iget-object v1, v1, Lkik/android/e/bj;->a:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v1, v1, Lkik/arcane/e/bj;->a:Lkik/arcane/chat/view/ValidateableInputView;
 
-    check-cast v0, Lkik/android/util/KeyboardManipulator;
+    check-cast v0, Lkik/arcane/util/KeyboardManipulator;
 
-    invoke-virtual {v1, v0}, Lkik/android/chat/view/ValidateableInputView;->a(Lkik/android/util/KeyboardManipulator;)V
+    invoke-virtual {v1, v0}, Lkik/arcane/chat/view/ValidateableInputView;->a(Lkik/arcane/util/KeyboardManipulator;)V
 
     .line 136
     :cond_0
@@ -356,16 +356,16 @@
 
     .prologue
     .line 74
-    invoke-super {p0}, Lkik/android/chat/fragment/KikDialogFragment;->onStart()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikDialogFragment;->onStart()V
 
     .line 75
-    iget-object v0, p0, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->j:Lkik/android/chat/vm/chats/profile/du;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->j:Lkik/arcane/chat/vm/chats/profile/du;
 
-    invoke-virtual {v0}, Lkik/android/chat/vm/chats/profile/du;->a()Lrx/d;
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/chats/profile/du;->a()Lrx/d;
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/chat/fragment/fr;->a(Lkik/android/chat/fragment/SuggestInterestDialogFragment;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/fr;->a(Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -373,10 +373,10 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->k:Lrx/k;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->k:Lrx/k;
 
     .line 76
-    invoke-virtual {p0}, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->getDialog()Landroid/app/Dialog;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->getDialog()Landroid/app/Dialog;
 
     move-result-object v0
 
@@ -388,14 +388,14 @@
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/chat/fragment/fs;->a(Lkik/android/chat/fragment/SuggestInterestDialogFragment;)Landroid/view/View$OnClickListener;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/fs;->a(Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;)Landroid/view/View$OnClickListener;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 77
-    invoke-virtual {p0}, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->getDialog()Landroid/app/Dialog;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->getDialog()Landroid/app/Dialog;
 
     move-result-object v0
 
@@ -407,7 +407,7 @@
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/chat/fragment/ft;->a(Lkik/android/chat/fragment/SuggestInterestDialogFragment;)Landroid/view/View$OnClickListener;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/ft;->a(Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;)Landroid/view/View$OnClickListener;
 
     move-result-object v1
 
@@ -422,10 +422,10 @@
 
     .prologue
     .line 141
-    invoke-super {p0}, Lkik/android/chat/fragment/KikDialogFragment;->onStop()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikDialogFragment;->onStop()V
 
     .line 142
-    iget-object v0, p0, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->k:Lrx/k;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->k:Lrx/k;
 
     invoke-interface {v0}, Lrx/k;->unsubscribe()V
 

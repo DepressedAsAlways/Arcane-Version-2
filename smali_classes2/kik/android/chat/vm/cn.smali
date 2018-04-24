@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/cn;
+.class final synthetic Lkik/arcane/chat/vm/cn;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -15,7 +15,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/vm/cn;->a:Lrx/i;
+    iput-object p1, p0, Lkik/arcane/chat/vm/cn;->a:Lrx/i;
 
     return-void
 .end method
@@ -23,9 +23,9 @@
 .method public static a(Lrx/i;)Landroid/content/DialogInterface$OnCancelListener;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/cn;
+    new-instance v0, Lkik/arcane/chat/vm/cn;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/vm/cn;-><init>(Lrx/i;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/vm/cn;-><init>(Lrx/i;)V
 
     return-object v0
 .end method
@@ -37,10 +37,10 @@
 
     .prologue
     .line 0
-    iget-object v0, p0, Lkik/android/chat/vm/cn;->a:Lrx/i;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cn;->a:Lrx/i;
 
     .line 1487
-    sget-object v1, Lkik/android/chat/vm/IShareUsernameViewModel$ShareResult;->CANCELLED:Lkik/android/chat/vm/IShareUsernameViewModel$ShareResult;
+    sget-object v1, Lkik/arcane/chat/vm/IShareUsernameViewModel$ShareResult;->CANCELLED:Lkik/arcane/chat/vm/IShareUsernameViewModel$ShareResult;
 
     invoke-virtual {v0, v1}, Lrx/i;->a(Ljava/lang/Object;)V
 

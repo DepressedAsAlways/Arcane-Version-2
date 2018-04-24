@@ -1,11 +1,11 @@
-.class public final enum Lkik/android/util/KeyboardManipulator$InputMode;
+.class public final enum Lkik/arcane/util/KeyboardManipulator$InputMode;
 .super Ljava/lang/Enum;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/KeyboardManipulator;
+    value = Lkik/arcane/util/KeyboardManipulator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,18 +17,18 @@
     value = {
         "Ljava/lang/Enum",
         "<",
-        "Lkik/android/util/KeyboardManipulator$InputMode;",
+        "Lkik/arcane/util/KeyboardManipulator$InputMode;",
         ">;"
     }
 .end annotation
 
 
 # static fields
-.field private static final synthetic $VALUES:[Lkik/android/util/KeyboardManipulator$InputMode;
+.field private static final synthetic $VALUES:[Lkik/arcane/util/KeyboardManipulator$InputMode;
 
-.field public static final enum DEFAULT:Lkik/android/util/KeyboardManipulator$InputMode;
+.field public static final enum DEFAULT:Lkik/arcane/util/KeyboardManipulator$InputMode;
 
-.field public static final enum OVER_DRAW:Lkik/android/util/KeyboardManipulator$InputMode;
+.field public static final enum OVER_DRAW:Lkik/arcane/util/KeyboardManipulator$InputMode;
 
 
 # direct methods
@@ -41,37 +41,37 @@
     const/4 v2, 0x0
 
     .line 23
-    new-instance v0, Lkik/android/util/KeyboardManipulator$InputMode;
+    new-instance v0, Lkik/arcane/util/KeyboardManipulator$InputMode;
 
     const-string v1, "DEFAULT"
 
-    invoke-direct {v0, v1, v2}, Lkik/android/util/KeyboardManipulator$InputMode;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Lkik/arcane/util/KeyboardManipulator$InputMode;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/util/KeyboardManipulator$InputMode;->DEFAULT:Lkik/android/util/KeyboardManipulator$InputMode;
+    sput-object v0, Lkik/arcane/util/KeyboardManipulator$InputMode;->DEFAULT:Lkik/arcane/util/KeyboardManipulator$InputMode;
 
     .line 24
-    new-instance v0, Lkik/android/util/KeyboardManipulator$InputMode;
+    new-instance v0, Lkik/arcane/util/KeyboardManipulator$InputMode;
 
     const-string v1, "OVER_DRAW"
 
-    invoke-direct {v0, v1, v3}, Lkik/android/util/KeyboardManipulator$InputMode;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v3}, Lkik/arcane/util/KeyboardManipulator$InputMode;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/util/KeyboardManipulator$InputMode;->OVER_DRAW:Lkik/android/util/KeyboardManipulator$InputMode;
+    sput-object v0, Lkik/arcane/util/KeyboardManipulator$InputMode;->OVER_DRAW:Lkik/arcane/util/KeyboardManipulator$InputMode;
 
     .line 22
     const/4 v0, 0x2
 
-    new-array v0, v0, [Lkik/android/util/KeyboardManipulator$InputMode;
+    new-array v0, v0, [Lkik/arcane/util/KeyboardManipulator$InputMode;
 
-    sget-object v1, Lkik/android/util/KeyboardManipulator$InputMode;->DEFAULT:Lkik/android/util/KeyboardManipulator$InputMode;
+    sget-object v1, Lkik/arcane/util/KeyboardManipulator$InputMode;->DEFAULT:Lkik/arcane/util/KeyboardManipulator$InputMode;
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lkik/android/util/KeyboardManipulator$InputMode;->OVER_DRAW:Lkik/android/util/KeyboardManipulator$InputMode;
+    sget-object v1, Lkik/arcane/util/KeyboardManipulator$InputMode;->OVER_DRAW:Lkik/arcane/util/KeyboardManipulator$InputMode;
 
     aput-object v1, v0, v3
 
-    sput-object v0, Lkik/android/util/KeyboardManipulator$InputMode;->$VALUES:[Lkik/android/util/KeyboardManipulator$InputMode;
+    sput-object v0, Lkik/arcane/util/KeyboardManipulator$InputMode;->$VALUES:[Lkik/arcane/util/KeyboardManipulator$InputMode;
 
     return-void
 .end method
@@ -91,34 +91,34 @@
     return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lkik/android/util/KeyboardManipulator$InputMode;
+.method public static valueOf(Ljava/lang/String;)Lkik/arcane/util/KeyboardManipulator$InputMode;
     .locals 1
 
     .prologue
     .line 22
-    const-class v0, Lkik/android/util/KeyboardManipulator$InputMode;
+    const-class v0, Lkik/arcane/util/KeyboardManipulator$InputMode;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/util/KeyboardManipulator$InputMode;
+    check-cast v0, Lkik/arcane/util/KeyboardManipulator$InputMode;
 
     return-object v0
 .end method
 
-.method public static values()[Lkik/android/util/KeyboardManipulator$InputMode;
+.method public static values()[Lkik/arcane/util/KeyboardManipulator$InputMode;
     .locals 1
 
     .prologue
     .line 22
-    sget-object v0, Lkik/android/util/KeyboardManipulator$InputMode;->$VALUES:[Lkik/android/util/KeyboardManipulator$InputMode;
+    sget-object v0, Lkik/arcane/util/KeyboardManipulator$InputMode;->$VALUES:[Lkik/arcane/util/KeyboardManipulator$InputMode;
 
-    invoke-virtual {v0}, [Lkik/android/util/KeyboardManipulator$InputMode;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lkik/arcane/util/KeyboardManipulator$InputMode;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkik/android/util/KeyboardManipulator$InputMode;
+    check-cast v0, [Lkik/arcane/util/KeyboardManipulator$InputMode;
 
     return-object v0
 .end method

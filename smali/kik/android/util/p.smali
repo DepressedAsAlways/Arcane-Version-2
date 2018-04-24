@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/p;
+.class public final Lkik/arcane/util/p;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -37,7 +37,7 @@
     .line 38
     const v0, 0x7f0900a9
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -58,7 +58,7 @@
     if-eqz v0, :cond_2
 
     .line 41
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -81,7 +81,7 @@
     .line 44
     const v0, 0x7f0904cb
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -102,7 +102,7 @@
     if-eqz v0, :cond_4
 
     .line 47
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -110,7 +110,7 @@
 
     .line 49
     :cond_4
-    invoke-static {p0}, Lkik/android/util/p;->d(Lkik/core/datatypes/messageExtensions/ContentMessage;)Z
+    invoke-static {p0}, Lkik/arcane/util/p;->d(Lkik/core/datatypes/messageExtensions/ContentMessage;)Z
 
     move-result v0
 
@@ -334,7 +334,7 @@
 
     .line 95
     :cond_6
-    invoke-static {p0}, Lkik/android/util/p;->d(Lkik/core/datatypes/messageExtensions/ContentMessage;)Z
+    invoke-static {p0}, Lkik/arcane/util/p;->d(Lkik/core/datatypes/messageExtensions/ContentMessage;)Z
 
     move-result v1
 
@@ -465,7 +465,7 @@
     if-nez v2, :cond_2
 
     .line 136
-    invoke-static {v1}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v1}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v2
 

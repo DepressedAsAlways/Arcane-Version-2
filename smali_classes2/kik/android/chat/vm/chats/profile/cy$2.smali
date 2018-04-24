@@ -1,14 +1,14 @@
-.class final Lkik/android/chat/vm/chats/profile/cy$2;
+.class final Lkik/arcane/chat/vm/chats/profile/cy$2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/widget/ExpandableTextView$a;
+.implements Lkik/arcane/widget/ExpandableTextView$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/chats/profile/cy;->m()Lkik/android/widget/ExpandableTextView$a;
+    value = Lkik/arcane/chat/vm/chats/profile/cy;->m()Lkik/arcane/widget/ExpandableTextView$a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/chats/profile/cy;
+.field final synthetic a:Lkik/arcane/chat/vm/chats/profile/cy;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/chats/profile/cy;)V
+.method constructor <init>(Lkik/arcane/chat/vm/chats/profile/cy;)V
     .locals 0
 
     .prologue
     .line 174
-    iput-object p1, p0, Lkik/android/chat/vm/chats/profile/cy$2;->a:Lkik/android/chat/vm/chats/profile/cy;
+    iput-object p1, p0, Lkik/arcane/chat/vm/chats/profile/cy$2;->a:Lkik/arcane/chat/vm/chats/profile/cy;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,9 +41,9 @@
 
     .prologue
     .line 178
-    iget-object v0, p0, Lkik/android/chat/vm/chats/profile/cy$2;->a:Lkik/android/chat/vm/chats/profile/cy;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/profile/cy$2;->a:Lkik/arcane/chat/vm/chats/profile/cy;
 
-    invoke-virtual {v0}, Lkik/android/chat/vm/chats/profile/cy;->b()V
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/chats/profile/cy;->b()V
 
     .line 179
     return-void
@@ -54,9 +54,9 @@
 
     .prologue
     .line 184
-    iget-object v0, p0, Lkik/android/chat/vm/chats/profile/cy$2;->a:Lkik/android/chat/vm/chats/profile/cy;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/profile/cy$2;->a:Lkik/arcane/chat/vm/chats/profile/cy;
 
-    invoke-virtual {v0}, Lkik/android/chat/vm/chats/profile/cy;->d()V
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/chats/profile/cy;->d()V
 
     .line 185
     return-void

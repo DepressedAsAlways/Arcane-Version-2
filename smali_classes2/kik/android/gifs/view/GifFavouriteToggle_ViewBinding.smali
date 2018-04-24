@@ -1,4 +1,4 @@
-.class public Lkik/android/gifs/view/GifFavouriteToggle_ViewBinding;
+.class public Lkik/arcane/gifs/view/GifFavouriteToggle_ViewBinding;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -7,11 +7,11 @@
 
 
 # instance fields
-.field private a:Lkik/android/gifs/view/GifFavouriteToggle;
+.field private a:Lkik/arcane/gifs/view/GifFavouriteToggle;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/gifs/view/GifFavouriteToggle;Landroid/view/View;)V
+.method public constructor <init>(Lkik/arcane/gifs/view/GifFavouriteToggle;Landroid/view/View;)V
     .locals 3
 
     .prologue
@@ -19,7 +19,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 24
-    iput-object p1, p0, Lkik/android/gifs/view/GifFavouriteToggle_ViewBinding;->a:Lkik/android/gifs/view/GifFavouriteToggle;
+    iput-object p1, p0, Lkik/arcane/gifs/view/GifFavouriteToggle_ViewBinding;->a:Lkik/arcane/gifs/view/GifFavouriteToggle;
 
     .line 26
     const v0, 0x7f10022a
@@ -34,7 +34,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    iput-object v0, p1, Lkik/android/gifs/view/GifFavouriteToggle;->_starImageView:Landroid/widget/ImageView;
+    iput-object v0, p1, Lkik/arcane/gifs/view/GifFavouriteToggle;->_starImageView:Landroid/widget/ImageView;
 
     .line 27
     return-void
@@ -49,7 +49,7 @@
     const/4 v1, 0x0
 
     .line 32
-    iget-object v0, p0, Lkik/android/gifs/view/GifFavouriteToggle_ViewBinding;->a:Lkik/android/gifs/view/GifFavouriteToggle;
+    iget-object v0, p0, Lkik/arcane/gifs/view/GifFavouriteToggle_ViewBinding;->a:Lkik/arcane/gifs/view/GifFavouriteToggle;
 
     .line 33
     if-nez v0, :cond_0
@@ -64,10 +64,10 @@
 
     .line 34
     :cond_0
-    iput-object v1, p0, Lkik/android/gifs/view/GifFavouriteToggle_ViewBinding;->a:Lkik/android/gifs/view/GifFavouriteToggle;
+    iput-object v1, p0, Lkik/arcane/gifs/view/GifFavouriteToggle_ViewBinding;->a:Lkik/arcane/gifs/view/GifFavouriteToggle;
 
     .line 36
-    iput-object v1, v0, Lkik/android/gifs/view/GifFavouriteToggle;->_starImageView:Landroid/widget/ImageView;
+    iput-object v1, v0, Lkik/arcane/gifs/view/GifFavouriteToggle;->_starImageView:Landroid/widget/ImageView;
 
     .line 37
     return-void

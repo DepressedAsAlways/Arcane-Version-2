@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/RotatableTextView;
+.class public Lkik/arcane/widget/RotatableTextView;
 .super Landroid/support/v7/widget/AppCompatTextView;
 .source "SourceFile"
 
@@ -28,13 +28,13 @@
 
     .prologue
     .line 24
-    iput-boolean p1, p0, Lkik/android/widget/RotatableTextView;->b:Z
+    iput-boolean p1, p0, Lkik/arcane/widget/RotatableTextView;->b:Z
 
     .line 25
-    iput-boolean p2, p0, Lkik/android/widget/RotatableTextView;->a:Z
+    iput-boolean p2, p0, Lkik/arcane/widget/RotatableTextView;->a:Z
 
     .line 26
-    invoke-virtual {p0}, Lkik/android/widget/RotatableTextView;->requestLayout()V
+    invoke-virtual {p0}, Lkik/arcane/widget/RotatableTextView;->requestLayout()V
 
     .line 27
     return-void
@@ -47,17 +47,17 @@
     const/4 v1, 0x0
 
     .line 55
-    iget-boolean v0, p0, Lkik/android/widget/RotatableTextView;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/RotatableTextView;->b:Z
 
     if-eqz v0, :cond_1
 
     .line 56
-    iget-boolean v0, p0, Lkik/android/widget/RotatableTextView;->a:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/RotatableTextView;->a:Z
 
     if-eqz v0, :cond_0
 
     .line 57
-    invoke-virtual {p0}, Lkik/android/widget/RotatableTextView;->getHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/RotatableTextView;->getHeight()I
 
     move-result v0
 
@@ -72,13 +72,13 @@
 
     .line 64
     :goto_0
-    invoke-virtual {p0}, Lkik/android/widget/RotatableTextView;->getWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/RotatableTextView;->getWidth()I
 
     move-result v0
 
     int-to-float v3, v0
 
-    invoke-virtual {p0}, Lkik/android/widget/RotatableTextView;->getHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/RotatableTextView;->getHeight()I
 
     move-result v0
 
@@ -101,7 +101,7 @@
 
     .line 61
     :cond_0
-    invoke-virtual {p0}, Lkik/android/widget/RotatableTextView;->getWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/RotatableTextView;->getWidth()I
 
     move-result v0
 
@@ -134,20 +134,20 @@
     invoke-super {p0, p2, p1}, Landroid/support/v7/widget/AppCompatTextView;->onMeasure(II)V
 
     .line 33
-    iget-boolean v0, p0, Lkik/android/widget/RotatableTextView;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/RotatableTextView;->b:Z
 
     if-eqz v0, :cond_0
 
     .line 34
-    invoke-virtual {p0}, Lkik/android/widget/RotatableTextView;->getMeasuredHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/RotatableTextView;->getMeasuredHeight()I
 
     move-result v0
 
-    invoke-virtual {p0}, Lkik/android/widget/RotatableTextView;->getMeasuredWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/RotatableTextView;->getMeasuredWidth()I
 
     move-result v1
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/widget/RotatableTextView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/widget/RotatableTextView;->setMeasuredDimension(II)V
 
     .line 39
     :goto_0
@@ -155,15 +155,15 @@
 
     .line 37
     :cond_0
-    invoke-virtual {p0}, Lkik/android/widget/RotatableTextView;->getMeasuredWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/RotatableTextView;->getMeasuredWidth()I
 
     move-result v0
 
-    invoke-virtual {p0}, Lkik/android/widget/RotatableTextView;->getMeasuredHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/RotatableTextView;->getMeasuredHeight()I
 
     move-result v1
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/widget/RotatableTextView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/widget/RotatableTextView;->setMeasuredDimension(II)V
 
     goto :goto_0
 .end method
@@ -173,7 +173,7 @@
 
     .prologue
     .line 44
-    iget-boolean v0, p0, Lkik/android/widget/RotatableTextView;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/RotatableTextView;->b:Z
 
     if-eqz v0, :cond_0
 

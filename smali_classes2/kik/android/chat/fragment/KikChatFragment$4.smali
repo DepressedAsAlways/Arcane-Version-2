@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/KikChatFragment$4;
+.class final Lkik/arcane/chat/fragment/KikChatFragment$4;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/KikChatFragment;->onActivityCreated(Landroid/os/Bundle;)V
+    value = Lkik/arcane/chat/fragment/KikChatFragment;->onActivityCreated(Landroid/os/Bundle;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikChatFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikChatFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikChatFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikChatFragment;)V
     .locals 0
 
     .prologue
     .line 1017
-    iput-object p1, p0, Lkik/android/chat/fragment/KikChatFragment$4;->a:Lkik/android/chat/fragment/KikChatFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikChatFragment$4;->a:Lkik/arcane/chat/fragment/KikChatFragment;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -50,9 +50,9 @@
     check-cast p1, Ljava/lang/Boolean;
 
     .line 2021
-    iget-object v0, p0, Lkik/android/chat/fragment/KikChatFragment$4;->a:Lkik/android/chat/fragment/KikChatFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikChatFragment$4;->a:Lkik/arcane/chat/fragment/KikChatFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/KikChatFragment;->s(Lkik/android/chat/fragment/KikChatFragment;)Z
+    invoke-static {v0}, Lkik/arcane/chat/fragment/KikChatFragment;->s(Lkik/arcane/chat/fragment/KikChatFragment;)Z
 
     move-result v0
 
@@ -65,13 +65,13 @@
     if-nez v0, :cond_0
 
     .line 2022
-    iget-object v0, p0, Lkik/android/chat/fragment/KikChatFragment$4;->a:Lkik/android/chat/fragment/KikChatFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikChatFragment$4;->a:Lkik/arcane/chat/fragment/KikChatFragment;
 
-    new-instance v1, Lkik/android/chat/fragment/PublicGroupIntroFragment$a;
+    new-instance v1, Lkik/arcane/chat/fragment/PublicGroupIntroFragment$a;
 
-    invoke-direct {v1}, Lkik/android/chat/fragment/PublicGroupIntroFragment$a;-><init>()V
+    invoke-direct {v1}, Lkik/arcane/chat/fragment/PublicGroupIntroFragment$a;-><init>()V
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikChatFragment;->startFragmentForResult(Lkik/android/util/ae;)Lcom/kik/events/Promise;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikChatFragment;->startFragmentForResult(Lkik/arcane/util/ae;)Lcom/kik/events/Promise;
 
     .line 1017
     :cond_0

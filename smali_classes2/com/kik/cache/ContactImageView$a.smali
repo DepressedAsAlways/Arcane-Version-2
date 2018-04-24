@@ -39,35 +39,35 @@
     new-array v0, v0, [Landroid/graphics/Bitmap;
 
     .line 34
-    invoke-static {v2}, Lkik/android/util/f;->a(I)Landroid/graphics/Bitmap;
+    invoke-static {v2}, Lkik/arcane/util/f;->a(I)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
     aput-object v1, v0, v2
 
     .line 35
-    invoke-static {v3}, Lkik/android/util/f;->a(I)Landroid/graphics/Bitmap;
+    invoke-static {v3}, Lkik/arcane/util/f;->a(I)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
     aput-object v1, v0, v3
 
     .line 36
-    invoke-static {v4}, Lkik/android/util/f;->a(I)Landroid/graphics/Bitmap;
+    invoke-static {v4}, Lkik/arcane/util/f;->a(I)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
     aput-object v1, v0, v4
 
     .line 37
-    invoke-static {v5}, Lkik/android/util/f;->a(I)Landroid/graphics/Bitmap;
+    invoke-static {v5}, Lkik/arcane/util/f;->a(I)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
     aput-object v1, v0, v5
 
     .line 38
-    invoke-static {v6}, Lkik/android/util/f;->a(I)Landroid/graphics/Bitmap;
+    invoke-static {v6}, Lkik/arcane/util/f;->a(I)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -78,7 +78,7 @@
     const/4 v2, 0x5
 
     .line 39
-    invoke-static {v2}, Lkik/android/util/f;->a(I)Landroid/graphics/Bitmap;
+    invoke-static {v2}, Lkik/arcane/util/f;->a(I)Landroid/graphics/Bitmap;
 
     move-result-object v2
 
@@ -89,7 +89,7 @@
     const/4 v2, 0x6
 
     .line 40
-    invoke-static {v2}, Lkik/android/util/f;->a(I)Landroid/graphics/Bitmap;
+    invoke-static {v2}, Lkik/arcane/util/f;->a(I)Landroid/graphics/Bitmap;
 
     move-result-object v2
 
@@ -100,7 +100,7 @@
     const/4 v2, 0x7
 
     .line 41
-    invoke-static {v2}, Lkik/android/util/f;->a(I)Landroid/graphics/Bitmap;
+    invoke-static {v2}, Lkik/arcane/util/f;->a(I)Landroid/graphics/Bitmap;
 
     move-result-object v2
 
@@ -111,7 +111,7 @@
     const/16 v2, 0x8
 
     .line 42
-    invoke-static {v2}, Lkik/android/util/f;->a(I)Landroid/graphics/Bitmap;
+    invoke-static {v2}, Lkik/arcane/util/f;->a(I)Landroid/graphics/Bitmap;
 
     move-result-object v2
 
@@ -122,7 +122,7 @@
     const/16 v2, 0x9
 
     .line 43
-    invoke-static {v2}, Lkik/android/util/f;->a(I)Landroid/graphics/Bitmap;
+    invoke-static {v2}, Lkik/arcane/util/f;->a(I)Landroid/graphics/Bitmap;
 
     move-result-object v2
 

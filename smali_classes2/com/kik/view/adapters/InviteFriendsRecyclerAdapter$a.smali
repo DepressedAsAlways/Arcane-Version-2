@@ -15,5 +15,5 @@
 
 
 # virtual methods
-.method public abstract a(Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;)V
+.method public abstract a(Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;)V
 .end method

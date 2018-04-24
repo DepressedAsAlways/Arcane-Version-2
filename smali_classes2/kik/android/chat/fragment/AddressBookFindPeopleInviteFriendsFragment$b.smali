@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;
+.class final Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;
 .super Landroid/support/v7/widget/RecyclerView$ItemDecoration;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
+    value = Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,15 +35,15 @@
     invoke-direct {p0}, Landroid/support/v7/widget/RecyclerView$ItemDecoration;-><init>()V
 
     .line 133
-    iput-object p2, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->b:[I
+    iput-object p2, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->b:[I
 
     .line 134
-    iput-object p3, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->c:[I
+    iput-object p3, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->c:[I
 
     .line 135
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->d:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->d:Z
 
     .line 136
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -56,10 +56,10 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->a:Landroid/graphics/drawable/Drawable;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->a:Landroid/graphics/drawable/Drawable;
 
     .line 137
-    iput p4, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->e:I
+    iput p4, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->e:I
 
     .line 138
     return-void
@@ -72,7 +72,7 @@
     const/4 v0, 0x0
 
     .line 197
-    iget-boolean v1, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->d:Z
+    iget-boolean v1, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->d:Z
 
     if-nez v1, :cond_1
 
@@ -91,7 +91,7 @@
 
     .line 201
     :cond_1
-    iget-object v2, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->b:[I
+    iget-object v2, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->b:[I
 
     array-length v3, v2
 
@@ -166,14 +166,14 @@
     move-result v1
 
     .line 165
-    invoke-direct {p0, v1, p3}, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->a(ILandroid/support/v7/widget/RecyclerView$State;)Z
+    invoke-direct {p0, v1, p3}, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->a(ILandroid/support/v7/widget/RecyclerView$State;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 2211
-    iget-object v8, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->c:[I
+    iget-object v8, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->c:[I
 
     array-length v9, v8
 
@@ -194,7 +194,7 @@
     if-eqz v0, :cond_4
 
     .line 168
-    iget v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->e:I
+    iget v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->e:I
 
     add-int/2addr v0, v2
 
@@ -229,7 +229,7 @@
     add-int/2addr v0, v8
 
     .line 174
-    iget-object v8, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->a:Landroid/graphics/drawable/Drawable;
+    iget-object v8, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->a:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v8}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
 
@@ -238,12 +238,12 @@
     add-int/2addr v8, v0
 
     .line 175
-    iget-object v9, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->a:Landroid/graphics/drawable/Drawable;
+    iget-object v9, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->a:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v9, v1, v0, v5, v8}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
     .line 176
-    iget-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->a:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->a:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v7}, Landroid/view/View;->getAlpha()F
 
@@ -258,7 +258,7 @@
     invoke-virtual {v0, v1}, Landroid/graphics/drawable/Drawable;->setAlpha(I)V
 
     .line 177
-    iget-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->a:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->a:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
@@ -307,14 +307,14 @@
     move-result v0
 
     .line 187
-    invoke-direct {p0, v0, p4}, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->a(ILandroid/support/v7/widget/RecyclerView$State;)Z
+    invoke-direct {p0, v0, p4}, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->a(ILandroid/support/v7/widget/RecyclerView$State;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 188
-    iget-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->a:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->a:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
 
@@ -338,7 +338,7 @@
 
     .prologue
     .line 147
-    iput-object p1, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->b:[I
+    iput-object p1, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$b;->b:[I
 
     .line 148
     return-void

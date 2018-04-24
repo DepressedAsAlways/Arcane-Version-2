@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/KikChatFragment$3;
+.class final Lkik/arcane/chat/fragment/KikChatFragment$3;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/KikChatFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    value = Lkik/arcane/chat/fragment/KikChatFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikChatFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikChatFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikChatFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikChatFragment;)V
     .locals 0
 
     .prologue
     .line 862
-    iput-object p1, p0, Lkik/android/chat/fragment/KikChatFragment$3;->a:Lkik/android/chat/fragment/KikChatFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikChatFragment$3;->a:Lkik/arcane/chat/fragment/KikChatFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

@@ -1,14 +1,14 @@
-.class final Lkik/android/gallery/vm/j$1;
+.class final Lkik/arcane/gallery/vm/j$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/gallery/vm/s;
+.implements Lkik/arcane/gallery/vm/s;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/gallery/vm/j;->a(Lkik/android/gallery/a;IZ)V
+    value = Lkik/arcane/gallery/vm/j;->a(Lkik/arcane/gallery/a;IZ)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/gallery/a;
+.field final synthetic a:Lkik/arcane/gallery/a;
 
-.field final synthetic b:Lkik/android/gallery/vm/j;
+.field final synthetic b:Lkik/arcane/gallery/vm/j;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/gallery/vm/j;Lkik/android/gallery/a;)V
+.method constructor <init>(Lkik/arcane/gallery/vm/j;Lkik/arcane/gallery/a;)V
     .locals 0
 
     .prologue
     .line 115
-    iput-object p1, p0, Lkik/android/gallery/vm/j$1;->b:Lkik/android/gallery/vm/j;
+    iput-object p1, p0, Lkik/arcane/gallery/vm/j$1;->b:Lkik/arcane/gallery/vm/j;
 
-    iput-object p2, p0, Lkik/android/gallery/vm/j$1;->a:Lkik/android/gallery/a;
+    iput-object p2, p0, Lkik/arcane/gallery/vm/j$1;->a:Lkik/arcane/gallery/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,9 +45,9 @@
 
     .prologue
     .line 119
-    iget-object v0, p0, Lkik/android/gallery/vm/j$1;->a:Lkik/android/gallery/a;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/j$1;->a:Lkik/arcane/gallery/a;
 
-    iget-object v0, v0, Lkik/android/gallery/a;->a:Ljava/lang/String;
+    iget-object v0, v0, Lkik/arcane/gallery/a;->a:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -57,9 +57,9 @@
 
     .prologue
     .line 125
-    iget-object v0, p0, Lkik/android/gallery/vm/j$1;->a:Lkik/android/gallery/a;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/j$1;->a:Lkik/arcane/gallery/a;
 
-    iget v0, v0, Lkik/android/gallery/a;->e:I
+    iget v0, v0, Lkik/arcane/gallery/a;->e:I
 
     return v0
 .end method

@@ -1,4 +1,4 @@
-.class public abstract Lkik/android/net/communicator/j;
+.class public abstract Lkik/arcane/net/communicator/j;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -9,7 +9,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/net/communicator/j$a;
+        Lkik/arcane/net/communicator/j$a;
     }
 .end annotation
 
@@ -23,7 +23,7 @@
 
 .field private c:Lkik/core/net/g;
 
-.field private d:Lkik/android/net/communicator/j$a;
+.field private d:Lkik/arcane/net/communicator/j$a;
 
 .field private volatile e:Z
 
@@ -40,7 +40,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/net/communicator/j;->a:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/net/communicator/j;->a:Lorg/slf4j/b;
 
     return-void
 .end method
@@ -55,7 +55,7 @@
     .line 28
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/net/communicator/j;->e:Z
+    iput-boolean v0, p0, Lkik/arcane/net/communicator/j;->e:Z
 
     return-void
 .end method
@@ -75,15 +75,15 @@
     .end annotation
 .end method
 
-.method final a(Lkik/core/net/g;Lkik/android/net/communicator/j$a;)V
+.method final a(Lkik/core/net/g;Lkik/arcane/net/communicator/j$a;)V
     .locals 0
 
     .prologue
     .line 37
-    iput-object p1, p0, Lkik/android/net/communicator/j;->c:Lkik/core/net/g;
+    iput-object p1, p0, Lkik/arcane/net/communicator/j;->c:Lkik/core/net/g;
 
     .line 38
-    iput-object p2, p0, Lkik/android/net/communicator/j;->d:Lkik/android/net/communicator/j$a;
+    iput-object p2, p0, Lkik/arcane/net/communicator/j;->d:Lkik/arcane/net/communicator/j$a;
 
     .line 39
     return-void
@@ -96,7 +96,7 @@
     .line 32
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/net/communicator/j;->e:Z
+    iput-boolean v0, p0, Lkik/arcane/net/communicator/j;->e:Z
 
     .line 33
     return-void
@@ -110,7 +110,7 @@
 
     .line 48
     :try_start_0
-    iget-object v0, p0, Lkik/android/net/communicator/j;->c:Lkik/core/net/g;
+    iget-object v0, p0, Lkik/arcane/net/communicator/j;->c:Lkik/core/net/g;
 
     const-string v1, "k"
 
@@ -121,19 +121,19 @@
     if-eqz v0, :cond_0
 
     .line 49
-    iget-object v0, p0, Lkik/android/net/communicator/j;->c:Lkik/core/net/g;
+    iget-object v0, p0, Lkik/arcane/net/communicator/j;->c:Lkik/core/net/g;
 
     invoke-virtual {v0}, Lkik/core/net/g;->next()I
 
     .line 52
     :cond_0
     :goto_0
-    iget-boolean v0, p0, Lkik/android/net/communicator/j;->e:Z
+    iget-boolean v0, p0, Lkik/arcane/net/communicator/j;->e:Z
 
     if-nez v0, :cond_3
 
     .line 54
-    iget-object v0, p0, Lkik/android/net/communicator/j;->c:Lkik/core/net/g;
+    iget-object v0, p0, Lkik/arcane/net/communicator/j;->c:Lkik/core/net/g;
 
     invoke-virtual {v0}, Lkik/core/net/g;->getEventType()I
 
@@ -141,7 +141,7 @@
 
     if-eq v0, v3, :cond_3
 
-    iget-object v0, p0, Lkik/android/net/communicator/j;->c:Lkik/core/net/g;
+    iget-object v0, p0, Lkik/arcane/net/communicator/j;->c:Lkik/core/net/g;
 
     const-string v1, "stream"
 
@@ -151,7 +151,7 @@
 
     if-nez v0, :cond_3
 
-    iget-object v0, p0, Lkik/android/net/communicator/j;->c:Lkik/core/net/g;
+    iget-object v0, p0, Lkik/arcane/net/communicator/j;->c:Lkik/core/net/g;
 
     const-string v1, "stream:stream"
 
@@ -162,7 +162,7 @@
 
     if-nez v0, :cond_3
 
-    iget-object v0, p0, Lkik/android/net/communicator/j;->c:Lkik/core/net/g;
+    iget-object v0, p0, Lkik/arcane/net/communicator/j;->c:Lkik/core/net/g;
 
     const-string v1, "k"
 
@@ -174,7 +174,7 @@
     if-nez v0, :cond_3
 
     .line 61
-    iget-object v0, p0, Lkik/android/net/communicator/j;->c:Lkik/core/net/g;
+    iget-object v0, p0, Lkik/arcane/net/communicator/j;->c:Lkik/core/net/g;
 
     const/4 v1, 0x0
 
@@ -185,14 +185,14 @@
     if-eqz v0, :cond_2
 
     .line 62
-    iget-object v0, p0, Lkik/android/net/communicator/j;->c:Lkik/core/net/g;
+    iget-object v0, p0, Lkik/arcane/net/communicator/j;->c:Lkik/core/net/g;
 
-    invoke-virtual {p0, v0}, Lkik/android/net/communicator/j;->a(Lkik/core/net/g;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/net/communicator/j;->a(Lkik/core/net/g;)V
 
     .line 63
-    iget-object v0, p0, Lkik/android/net/communicator/j;->d:Lkik/android/net/communicator/j$a;
+    iget-object v0, p0, Lkik/arcane/net/communicator/j;->d:Lkik/arcane/net/communicator/j$a;
 
-    invoke-interface {v0}, Lkik/android/net/communicator/j$a;->a()V
+    invoke-interface {v0}, Lkik/arcane/net/communicator/j$a;->a()V
     :try_end_0
     .catch Lkik/org/xmlpull/v1/XmlPullParserException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Lkik/core/net/EncryptionException; {:try_start_0 .. :try_end_0} :catch_1
@@ -222,15 +222,15 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 83
-    iput-boolean v3, p0, Lkik/android/net/communicator/j;->b:Z
+    iput-boolean v3, p0, Lkik/arcane/net/communicator/j;->b:Z
 
     .line 84
-    iget-boolean v0, p0, Lkik/android/net/communicator/j;->e:Z
+    iget-boolean v0, p0, Lkik/arcane/net/communicator/j;->e:Z
 
     if-nez v0, :cond_1
 
     .line 85
-    invoke-virtual {p0}, Lkik/android/net/communicator/j;->a()V
+    invoke-virtual {p0}, Lkik/arcane/net/communicator/j;->a()V
 
     .line 88
     :cond_1
@@ -240,7 +240,7 @@
     .line 67
     :cond_2
     :try_start_2
-    iget-object v0, p0, Lkik/android/net/communicator/j;->c:Lkik/core/net/g;
+    iget-object v0, p0, Lkik/arcane/net/communicator/j;->c:Lkik/core/net/g;
 
     invoke-virtual {v0}, Lkik/core/net/g;->next()I
     :try_end_2
@@ -272,29 +272,29 @@
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
     .line 83
-    iput-boolean v3, p0, Lkik/android/net/communicator/j;->b:Z
+    iput-boolean v3, p0, Lkik/arcane/net/communicator/j;->b:Z
 
     .line 84
-    iget-boolean v0, p0, Lkik/android/net/communicator/j;->e:Z
+    iget-boolean v0, p0, Lkik/arcane/net/communicator/j;->e:Z
 
     if-nez v0, :cond_1
 
     .line 85
-    invoke-virtual {p0}, Lkik/android/net/communicator/j;->a()V
+    invoke-virtual {p0}, Lkik/arcane/net/communicator/j;->a()V
 
     goto :goto_1
 
     .line 83
     :cond_3
-    iput-boolean v3, p0, Lkik/android/net/communicator/j;->b:Z
+    iput-boolean v3, p0, Lkik/arcane/net/communicator/j;->b:Z
 
     .line 84
-    iget-boolean v0, p0, Lkik/android/net/communicator/j;->e:Z
+    iget-boolean v0, p0, Lkik/arcane/net/communicator/j;->e:Z
 
     if-nez v0, :cond_1
 
     .line 85
-    invoke-virtual {p0}, Lkik/android/net/communicator/j;->a()V
+    invoke-virtual {p0}, Lkik/arcane/net/communicator/j;->a()V
 
     goto :goto_1
 
@@ -319,15 +319,15 @@
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
     .line 83
-    iput-boolean v3, p0, Lkik/android/net/communicator/j;->b:Z
+    iput-boolean v3, p0, Lkik/arcane/net/communicator/j;->b:Z
 
     .line 84
-    iget-boolean v0, p0, Lkik/android/net/communicator/j;->e:Z
+    iget-boolean v0, p0, Lkik/arcane/net/communicator/j;->e:Z
 
     if-nez v0, :cond_1
 
     .line 85
-    invoke-virtual {p0}, Lkik/android/net/communicator/j;->a()V
+    invoke-virtual {p0}, Lkik/arcane/net/communicator/j;->a()V
 
     goto :goto_1
 
@@ -336,15 +336,15 @@
     move-exception v0
 
     .line 83
-    iput-boolean v3, p0, Lkik/android/net/communicator/j;->b:Z
+    iput-boolean v3, p0, Lkik/arcane/net/communicator/j;->b:Z
 
     .line 84
-    iget-boolean v1, p0, Lkik/android/net/communicator/j;->e:Z
+    iget-boolean v1, p0, Lkik/arcane/net/communicator/j;->e:Z
 
     if-nez v1, :cond_4
 
     .line 85
-    invoke-virtual {p0}, Lkik/android/net/communicator/j;->a()V
+    invoke-virtual {p0}, Lkik/arcane/net/communicator/j;->a()V
 
     .line 87
     :cond_4

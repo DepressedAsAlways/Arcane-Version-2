@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$1;
+.class final Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;
+    value = Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,20 +24,20 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/sdkutils/concurrent/c;
+.field final synthetic a:Lkik/arcane/sdkutils/concurrent/c;
 
-.field final synthetic b:Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;
+.field final synthetic b:Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;Lkik/android/sdkutils/concurrent/c;)V
+.method constructor <init>(Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;Lkik/arcane/sdkutils/concurrent/c;)V
     .locals 0
 
     .prologue
     .line 317
-    iput-object p1, p0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$1;->b:Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;
+    iput-object p1, p0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$1;->b:Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;
 
-    iput-object p2, p0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$1;->a:Lkik/android/sdkutils/concurrent/c;
+    iput-object p2, p0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$1;->a:Lkik/arcane/sdkutils/concurrent/c;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -51,9 +51,9 @@
 
     .prologue
     .line 322
-    iget-object v0, p0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$1;->b:Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$1;->b:Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;
 
-    invoke-static {v0}, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;->a(Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;)Z
+    invoke-static {v0}, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;->a(Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;)Z
 
     move-result v0
 
@@ -65,9 +65,9 @@
 
     .line 325
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$1;->b:Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$1;->b:Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;
 
-    invoke-static {v0}, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;->b(Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;)Ljava/lang/Object;
+    invoke-static {v0}, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;->b(Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -75,13 +75,13 @@
 
     .line 326
     :try_start_0
-    iget-object v0, p0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$1;->b:Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$1;->b:Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;
 
-    invoke-static {v0}, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;->c(Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;)Ljava/util/List;
+    invoke-static {v0}, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;->c(Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;)Ljava/util/List;
 
     move-result-object v0
 
-    iget-object v2, p0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$1;->a:Lkik/android/sdkutils/concurrent/c;
+    iget-object v2, p0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$1;->a:Lkik/arcane/sdkutils/concurrent/c;
 
     invoke-interface {v0, v2}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 

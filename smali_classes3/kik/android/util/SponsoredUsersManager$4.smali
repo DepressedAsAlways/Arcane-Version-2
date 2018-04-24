@@ -1,4 +1,4 @@
-.class final Lkik/android/util/SponsoredUsersManager$4;
+.class final Lkik/arcane/util/SponsoredUsersManager$4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/util/SponsoredUsersManager;->a(Lkik/android/util/SponsoredUsersManager$PromotionType;)V
+    value = Lkik/arcane/util/SponsoredUsersManager;->a(Lkik/arcane/util/SponsoredUsersManager$PromotionType;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/util/SponsoredUsersManager$a;
+.field final synthetic a:Lkik/arcane/util/SponsoredUsersManager$a;
 
-.field final synthetic b:Lkik/android/util/SponsoredUsersManager;
+.field final synthetic b:Lkik/arcane/util/SponsoredUsersManager;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/util/SponsoredUsersManager;Lkik/android/util/SponsoredUsersManager$a;)V
+.method constructor <init>(Lkik/arcane/util/SponsoredUsersManager;Lkik/arcane/util/SponsoredUsersManager$a;)V
     .locals 0
 
     .prologue
     .line 206
-    iput-object p1, p0, Lkik/android/util/SponsoredUsersManager$4;->b:Lkik/android/util/SponsoredUsersManager;
+    iput-object p1, p0, Lkik/arcane/util/SponsoredUsersManager$4;->b:Lkik/arcane/util/SponsoredUsersManager;
 
-    iput-object p2, p0, Lkik/android/util/SponsoredUsersManager$4;->a:Lkik/android/util/SponsoredUsersManager$a;
+    iput-object p2, p0, Lkik/arcane/util/SponsoredUsersManager$4;->a:Lkik/arcane/util/SponsoredUsersManager$a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,13 +45,13 @@
 
     .prologue
     .line 210
-    iget-object v0, p0, Lkik/android/util/SponsoredUsersManager$4;->b:Lkik/android/util/SponsoredUsersManager;
+    iget-object v0, p0, Lkik/arcane/util/SponsoredUsersManager$4;->b:Lkik/arcane/util/SponsoredUsersManager;
 
-    invoke-static {v0}, Lkik/android/util/SponsoredUsersManager;->c(Lkik/android/util/SponsoredUsersManager;)Lkik/core/interfaces/ad;
+    invoke-static {v0}, Lkik/arcane/util/SponsoredUsersManager;->c(Lkik/arcane/util/SponsoredUsersManager;)Lkik/core/interfaces/ad;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/util/SponsoredUsersManager$4;->a:Lkik/android/util/SponsoredUsersManager$a;
+    iget-object v1, p0, Lkik/arcane/util/SponsoredUsersManager$4;->a:Lkik/arcane/util/SponsoredUsersManager$a;
 
     invoke-interface {v0, v1}, Lkik/core/interfaces/ad;->a(Ljava/lang/Object;)V
 

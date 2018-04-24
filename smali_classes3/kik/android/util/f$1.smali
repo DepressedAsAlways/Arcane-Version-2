@@ -1,11 +1,11 @@
-.class final Lkik/android/util/f$1;
+.class final Lkik/arcane/util/f$1;
 .super Landroid/graphics/Paint;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/f;
+    value = Lkik/arcane/util/f;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -25,13 +25,13 @@
     invoke-direct {p0}, Landroid/graphics/Paint;-><init>()V
 
     .line 99
-    invoke-virtual {p0, v0}, Lkik/android/util/f$1;->setAntiAlias(Z)V
+    invoke-virtual {p0, v0}, Lkik/arcane/util/f$1;->setAntiAlias(Z)V
 
     .line 100
-    invoke-virtual {p0, v0}, Lkik/android/util/f$1;->setDither(Z)V
+    invoke-virtual {p0, v0}, Lkik/arcane/util/f$1;->setDither(Z)V
 
     .line 101
-    invoke-virtual {p0, v0}, Lkik/android/util/f$1;->setFilterBitmap(Z)V
+    invoke-virtual {p0, v0}, Lkik/arcane/util/f$1;->setFilterBitmap(Z)V
 
     .line 102
     return-void

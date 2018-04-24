@@ -1,11 +1,11 @@
-.class Lkik/android/videochat/VideoChatViewController$IllegalVideoStateException;
+.class Lkik/arcane/videochat/VideoChatViewController$IllegalVideoStateException;
 .super Ljava/lang/IllegalStateException;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/videochat/VideoChatViewController;
+    value = Lkik/arcane/videochat/VideoChatViewController;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

@@ -1,11 +1,11 @@
-.class final Lkik/android/videochat/h$a;
+.class final Lkik/arcane/videochat/h$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/videochat/h;
+    value = Lkik/arcane/videochat/h;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,10 +29,10 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 93
-    iput-object p1, p0, Lkik/android/videochat/h$a;->a:Ljava/lang/reflect/Method;
+    iput-object p1, p0, Lkik/arcane/videochat/h$a;->a:Ljava/lang/reflect/Method;
 
     .line 94
-    iput-object p2, p0, Lkik/android/videochat/h$a;->b:[Ljava/lang/Object;
+    iput-object p2, p0, Lkik/arcane/videochat/h$a;->b:[Ljava/lang/Object;
 
     .line 95
     return-void

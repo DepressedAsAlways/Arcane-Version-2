@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lkik/android/chat/presentation/bu;",
+        "Lkik/arcane/chat/presentation/bu;",
         ">;"
     }
 .end annotation
@@ -30,7 +30,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -105,7 +105,7 @@
             "Lcom/kik/modules/a/e;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -223,7 +223,7 @@
             "Lcom/kik/modules/a/e;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -239,7 +239,7 @@
             ">;)",
             "Ldagger/internal/b",
             "<",
-            "Lkik/android/chat/presentation/bu;",
+            "Lkik/arcane/chat/presentation/bu;",
             ">;"
         }
     .end annotation
@@ -280,7 +280,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/Mixpanel;
+    check-cast v0, Lcom/kik/arcane/Mixpanel;
 
     iget-object v1, p0, Lcom/kik/modules/a/f;->d:Ljavax/inject/Provider;
 
@@ -310,7 +310,7 @@
     check-cast v3, Lkik/core/e/c;
 
     .line 1050
-    invoke-virtual {v4, v0, v1, v2, v3}, Lcom/kik/modules/a/e;->a(Lcom/kik/android/Mixpanel;Lkik/core/interfaces/v;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/e/c;)Lkik/android/chat/presentation/bu;
+    invoke-virtual {v4, v0, v1, v2, v3}, Lcom/kik/modules/a/e;->a(Lcom/kik/arcane/Mixpanel;Lkik/core/interfaces/v;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/e/c;)Lkik/arcane/chat/presentation/bu;
 
     move-result-object v0
 
@@ -321,7 +321,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/presentation/bu;
+    check-cast v0, Lkik/arcane/chat/presentation/bu;
 
     .line 13
     return-object v0

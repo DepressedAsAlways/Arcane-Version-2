@@ -1,4 +1,4 @@
-.class public final Lkik/android/b/b;
+.class public final Lkik/arcane/b/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -36,11 +36,11 @@
 
 
 # instance fields
-.field d:Lkik/android/f/a;
+.field d:Lkik/arcane/f/a;
 
 .field private final e:Ljava/lang/String;
 
-.field private f:Lkik/android/f/a;
+.field private f:Lkik/arcane/f/a;
 
 
 # direct methods
@@ -55,12 +55,12 @@
     .line 50
     const-string v0, "unsupportedContentType"
 
-    sput-object v0, Lkik/android/b/b;->a:Ljava/lang/String;
+    sput-object v0, Lkik/arcane/b/b;->a:Ljava/lang/String;
 
     .line 51
     const-string v0, "videoTranscoding"
 
-    sput-object v0, Lkik/android/b/b;->b:Ljava/lang/String;
+    sput-object v0, Lkik/arcane/b/b;->b:Ljava/lang/String;
 
     .line 55
     const-string v0, "ApplicationLaunchManager"
@@ -69,7 +69,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/b/b;->g:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/b/b;->g:Lorg/slf4j/b;
 
     .line 58
     const/16 v0, 0x11
@@ -174,7 +174,7 @@
 
     aput-object v2, v0, v1
 
-    sput-object v0, Lkik/android/b/b;->c:[Ljava/lang/String;
+    sput-object v0, Lkik/arcane/b/b;->c:[Ljava/lang/String;
 
     .line 61
     new-array v0, v4, [Ljava/lang/String;
@@ -187,7 +187,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/b/b;->h:Ljava/util/HashSet;
+    sput-object v0, Lkik/arcane/b/b;->h:Ljava/util/HashSet;
 
     .line 62
     new-array v0, v4, [Ljava/lang/String;
@@ -200,7 +200,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/b/b;->i:Ljava/util/HashSet;
+    sput-object v0, Lkik/arcane/b/b;->i:Ljava/util/HashSet;
 
     return-void
 .end method
@@ -215,19 +215,19 @@
     .line 53
     const-string v0, "native"
 
-    iput-object v0, p0, Lkik/android/b/b;->e:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/b/b;->e:Ljava/lang/String;
 
     .line 64
-    new-instance v0, Lkik/android/b/b$1;
+    new-instance v0, Lkik/arcane/b/b$1;
 
-    invoke-direct {v0, p0}, Lkik/android/b/b$1;-><init>(Lkik/android/b/b;)V
+    invoke-direct {v0, p0}, Lkik/arcane/b/b$1;-><init>(Lkik/arcane/b/b;)V
 
-    iput-object v0, p0, Lkik/android/b/b;->d:Lkik/android/f/a;
+    iput-object v0, p0, Lkik/arcane/b/b;->d:Lkik/arcane/f/a;
 
     .line 121
-    iget-object v0, p0, Lkik/android/b/b;->d:Lkik/android/f/a;
+    iget-object v0, p0, Lkik/arcane/b/b;->d:Lkik/arcane/f/a;
 
-    iput-object v0, p0, Lkik/android/b/b;->f:Lkik/android/f/a;
+    iput-object v0, p0, Lkik/arcane/b/b;->f:Lkik/arcane/f/a;
 
     .line 126
     return-void
@@ -328,11 +328,11 @@
     invoke-virtual {v5, v0}, Lcom/kik/cards/web/CardsWebViewFragment$a;->b(Ljava/lang/String;)Lcom/kik/cards/web/CardsWebViewFragment$a;
 
     .line 392
-    invoke-static {v2, p0}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/util/ae;Landroid/content/Context;)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-static {v2, p0}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/util/ae;Landroid/content/Context;)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->d()Landroid/content/Intent;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->d()Landroid/content/Intent;
 
     move-result-object v0
 
@@ -398,11 +398,11 @@
     .line 407
     if-eqz v1, :cond_4
 
-    invoke-static {}, Lkik/android/internal/platform/PlatformHelper;->a()Lkik/android/internal/platform/PlatformHelper;
+    invoke-static {}, Lkik/arcane/internal/platform/PlatformHelper;->a()Lkik/arcane/internal/platform/PlatformHelper;
 
     move-result-object v5
 
-    invoke-virtual {v5, p2}, Lkik/android/internal/platform/PlatformHelper;->e(Ljava/lang/String;)Z
+    invoke-virtual {v5, p2}, Lkik/arcane/internal/platform/PlatformHelper;->e(Ljava/lang/String;)Z
 
     move-result v5
 
@@ -733,27 +733,27 @@
     if-eqz v1, :cond_2
 
     .line 237
-    new-instance v0, Lkik/android/chat/fragment/ViewPictureFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/ViewPictureFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/ViewPictureFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/ViewPictureFragment$a;-><init>()V
 
     .line 238
     invoke-virtual {p2}, Lcom/kik/contentlink/model/attachments/ContentUri;->d()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/ViewPictureFragment$a;->c(Ljava/lang/String;)Lkik/android/chat/fragment/ViewPictureFragment$a;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/ViewPictureFragment$a;->c(Ljava/lang/String;)Lkik/arcane/chat/fragment/ViewPictureFragment$a;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lkik/android/chat/fragment/ViewPictureFragment$a;->c()Lkik/android/chat/fragment/ViewPictureFragment$a;
+    invoke-virtual {v1}, Lkik/arcane/chat/fragment/ViewPictureFragment$a;->c()Lkik/arcane/chat/fragment/ViewPictureFragment$a;
 
     .line 239
-    invoke-static {v0, p1}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/util/ae;Landroid/content/Context;)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-static {v0, p1}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/util/ae;Landroid/content/Context;)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->d()Landroid/content/Intent;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->d()Landroid/content/Intent;
 
     move-result-object v0
 
@@ -808,9 +808,9 @@
 
     .line 1297
     :cond_4
-    iget-object v1, p0, Lkik/android/b/b;->f:Lkik/android/f/a;
+    iget-object v1, p0, Lkik/arcane/b/b;->f:Lkik/arcane/f/a;
 
-    invoke-interface {v1, p1, v2, p3}, Lkik/android/f/a;->a(Landroid/content/Context;Ljava/lang/String;Lcom/kik/ui/fragment/FragmentBase$FragmentBundle$StackType;)Landroid/content/Intent;
+    invoke-interface {v1, p1, v2, p3}, Lkik/arcane/f/a;->a(Landroid/content/Context;Ljava/lang/String;Lcom/kik/ui/fragment/FragmentBase$FragmentBundle$StackType;)Landroid/content/Intent;
 
     move-result-object v2
 
@@ -872,7 +872,7 @@
     invoke-interface {v2, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 1340
-    invoke-static {p1, v2, v1}, Lkik/android/b/b;->a(Landroid/content/Context;Ljava/util/Collection;Ljava/lang/String;)Lcom/kik/events/Promise;
+    invoke-static {p1, v2, v1}, Lkik/arcane/b/b;->a(Landroid/content/Context;Ljava/util/Collection;Ljava/lang/String;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
@@ -937,11 +937,11 @@
     invoke-virtual {v1, v0}, Lcom/kik/cards/web/CardsWebViewFragment$a;->a(Lcom/kik/cards/web/kik/KikContentMessageParcelable;)Lcom/kik/cards/web/CardsWebViewFragment$a;
 
     .line 1321
-    invoke-static {v2, p1}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/util/ae;Landroid/content/Context;)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-static {v2, p1}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/util/ae;Landroid/content/Context;)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->d()Landroid/content/Intent;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->d()Landroid/content/Intent;
 
     move-result-object v1
 

@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/KikGroupMembersListFragment$5;
+.class final Lkik/arcane/chat/fragment/KikGroupMembersListFragment$5;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    value = Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikGroupMembersListFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikGroupMembersListFragment;)V
     .locals 0
 
     .prologue
     .line 197
-    iput-object p1, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -48,9 +48,9 @@
     .prologue
     .line 197
     .line 1201
-    iget-object v0, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->resignWaitDialog()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->resignWaitDialog()V
 
     .line 197
     return-void
@@ -65,9 +65,9 @@
     const v4, 0x7f0903fc
 
     .line 207
-    iget-object v0, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->resignWaitDialog()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->resignWaitDialog()V
 
     .line 209
     const/16 v0, 0x64
@@ -95,9 +95,9 @@
     sparse-switch v2, :sswitch_data_0
 
     .line 250
-    iget-object v0, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
-    invoke-virtual {v0, v2}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->displayGenericIqError(I)V
+    invoke-virtual {v0, v2}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->displayGenericIqError(I)V
 
     .line 253
     :goto_1
@@ -105,45 +105,45 @@
 
     .line 221
     :sswitch_0
-    iget-object v0, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
-    invoke-virtual {v1, v4}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {v1, v4}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
     const v3, 0x7f090061
 
-    invoke-virtual {v2, v3}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {v2, v3}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->displayErrorDialog(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->displayErrorDialog(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
     .line 224
     :sswitch_1
-    iget-object v0, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
-    invoke-virtual {v1, v4}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {v1, v4}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
     const v3, 0x7f09018f
 
-    invoke-virtual {v2, v3}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {v2, v3}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->displayErrorDialog(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->displayErrorDialog(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
@@ -155,25 +155,25 @@
     if-nez v0, :cond_0
 
     .line 229
-    iget-object v0, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
     const v1, 0x7f09031b
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v0
 
     .line 231
     :cond_0
-    iget-object v1, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
-    iget-object v2, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
-    invoke-virtual {v2, v4}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {v2, v4}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v2
 
-    iget-object v3, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v3, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
     const v4, 0x7f090294
 
@@ -185,41 +185,41 @@
 
     aput-object v0, v5, v6
 
-    invoke-virtual {v3, v4, v5}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->getStringFromResource(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {v3, v4, v5}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->getStringFromResource(I[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {v1, v2, v0}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->displayErrorDialog(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v0}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->displayErrorDialog(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
     .line 234
     :sswitch_3
-    iget-object v1, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
-    invoke-static {}, Lkik/android/util/br;->a()Ljava/lang/String;
+    invoke-static {}, Lkik/arcane/util/br;->a()Ljava/lang/String;
 
     move-result-object v2
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-virtual {v1, v2, v0}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->displayErrorDialog(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v0}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->displayErrorDialog(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_1
 
     .line 237
     :sswitch_4
-    iget-object v3, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v3, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
-    invoke-static {v3}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->c(Lkik/android/chat/fragment/KikGroupMembersListFragment;)Lkik/core/datatypes/p;
+    invoke-static {v3}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->c(Lkik/arcane/chat/fragment/KikGroupMembersListFragment;)Lkik/core/datatypes/p;
 
     move-result-object v3
 
     if-eqz v3, :cond_1
 
-    iget-object v1, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
-    invoke-static {v1}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->c(Lkik/android/chat/fragment/KikGroupMembersListFragment;)Lkik/core/datatypes/p;
+    invoke-static {v1}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->c(Lkik/arcane/chat/fragment/KikGroupMembersListFragment;)Lkik/core/datatypes/p;
 
     move-result-object v1
 
@@ -237,38 +237,38 @@
     check-cast v0, Ljava/util/List;
 
     .line 241
-    iget-object v1, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
-    iget-object v1, v1, Lkik/android/chat/fragment/KikGroupMembersListFragment;->a:Lkik/core/interfaces/v;
+    iget-object v1, v1, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->a:Lkik/core/interfaces/v;
 
-    invoke-static {v0, v1}, Lkik/android/util/br;->a(Ljava/util/List;Lkik/core/interfaces/v;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lkik/arcane/util/br;->a(Ljava/util/List;Lkik/core/interfaces/v;)Ljava/lang/String;
 
     .line 243
-    iget-object v0, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
-    invoke-virtual {v1, v4}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {v1, v4}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
     const v3, 0x7f09018e
 
-    invoke-virtual {v2, v3}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {v2, v3}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->displayErrorDialog(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->displayErrorDialog(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_1
 
     .line 246
     :cond_2
-    iget-object v0, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$5;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
-    invoke-virtual {v0, v2}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->displayGenericIqError(I)V
+    invoke-virtual {v0, v2}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->displayGenericIqError(I)V
 
     goto/16 :goto_1
 

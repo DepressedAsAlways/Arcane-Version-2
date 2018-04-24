@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/ProfileEditBioDialogFragment$1;
+.class final Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/ProfileEditBioDialogFragment;
+    value = Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,18 +18,18 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/ProfileEditBioDialogFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;
 
-.field private b:Lkik/android/chat/fragment/ProgressDialogFragment;
+.field private b:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;)V
     .locals 0
 
     .prologue
     .line 115
-    iput-object p1, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment$1;->a:Lkik/android/chat/fragment/ProfileEditBioDialogFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment$1;->a:Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -43,25 +43,25 @@
 
     .prologue
     .line 121
-    iget-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment$1;->b:Lkik/android/chat/fragment/ProgressDialogFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment$1;->b:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/ProgressDialogFragment;->dismiss()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/ProgressDialogFragment;->dismiss()V
 
     .line 122
-    iget-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment$1;->a:Lkik/android/chat/fragment/ProfileEditBioDialogFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment$1;->a:Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->dismiss()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->dismiss()V
 
     .line 123
-    iget-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment$1;->a:Lkik/android/chat/fragment/ProfileEditBioDialogFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment$1;->a:Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->c(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;)Lkik/android/chat/fragment/KikScopedDialogFragment;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->c(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;)Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment$1;->a:Lkik/android/chat/fragment/ProfileEditBioDialogFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment$1;->a:Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;
 
-    invoke-virtual {v1}, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {v1}, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v1
 
@@ -69,7 +69,7 @@
 
     const-wide/16 v4, 0x3e8
 
-    invoke-virtual {v0, v1, v2, v4, v5}, Lkik/android/chat/fragment/KikScopedDialogFragment;->showTimedProgressDialog(Landroid/content/Context;IJ)Lcom/kik/events/Promise;
+    invoke-virtual {v0, v1, v2, v4, v5}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->showTimedProgressDialog(Landroid/content/Context;IJ)Lcom/kik/events/Promise;
 
     .line 124
     return-void
@@ -80,9 +80,9 @@
 
     .prologue
     .line 129
-    iget-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment$1;->b:Lkik/android/chat/fragment/ProgressDialogFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment$1;->b:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/ProgressDialogFragment;->dismiss()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/ProgressDialogFragment;->dismiss()V
 
     .line 130
     return-void
@@ -93,11 +93,11 @@
 
     .prologue
     .line 135
-    new-instance v0, Lkik/android/chat/fragment/ProgressDialogFragment;
+    new-instance v0, Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment$1;->a:Lkik/android/chat/fragment/ProfileEditBioDialogFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment$1;->a:Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;
 
-    invoke-virtual {v1}, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v1}, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -109,16 +109,16 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v0, v1, v2}, Lkik/android/chat/fragment/ProgressDialogFragment;-><init>(Ljava/lang/String;Z)V
+    invoke-direct {v0, v1, v2}, Lkik/arcane/chat/fragment/ProgressDialogFragment;-><init>(Ljava/lang/String;Z)V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment$1;->b:Lkik/android/chat/fragment/ProgressDialogFragment;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment$1;->b:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
     .line 136
-    iget-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment$1;->b:Lkik/android/chat/fragment/ProgressDialogFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment$1;->b:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment$1;->a:Lkik/android/chat/fragment/ProfileEditBioDialogFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment$1;->a:Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;
 
-    invoke-virtual {v1}, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->getFragmentManager()Landroid/support/v4/app/FragmentManager;
+    invoke-virtual {v1}, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->getFragmentManager()Landroid/support/v4/app/FragmentManager;
 
     move-result-object v1
 
@@ -126,7 +126,7 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-class v3, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;
+    const-class v3, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;
 
     invoke-virtual {v3}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
@@ -146,7 +146,7 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lkik/android/chat/fragment/ProgressDialogFragment;->show(Landroid/support/v4/app/FragmentManager;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lkik/arcane/chat/fragment/ProgressDialogFragment;->show(Landroid/support/v4/app/FragmentManager;Ljava/lang/String;)V
 
     .line 137
     return-void

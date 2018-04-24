@@ -1,4 +1,4 @@
-.class public Lkik/android/KikDataProvider;
+.class public Lkik/arcane/KikDataProvider;
 .super Landroid/content/ContentProvider;
 .source "SourceFile"
 
@@ -41,58 +41,58 @@
     const/16 v4, 0x8
 
     .line 49
-    const-string v0, "content://kik.android.KikDataProvider/contacts/roster"
+    const-string v0, "content://kik.arcane.KikDataProvider/contacts/roster"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/KikDataProvider;->a:Landroid/net/Uri;
+    sput-object v0, Lkik/arcane/KikDataProvider;->a:Landroid/net/Uri;
 
     .line 50
-    const-string v0, "content://kik.android.KikDataProvider/contacts/canbegrouped"
+    const-string v0, "content://kik.arcane.KikDataProvider/contacts/canbegrouped"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/KikDataProvider;->b:Landroid/net/Uri;
+    sput-object v0, Lkik/arcane/KikDataProvider;->b:Landroid/net/Uri;
 
     .line 51
-    const-string v0, "content://kik.android.KikDataProvider/contacts/contactid"
+    const-string v0, "content://kik.arcane.KikDataProvider/contacts/contactid"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/KikDataProvider;->c:Landroid/net/Uri;
+    sput-object v0, Lkik/arcane/KikDataProvider;->c:Landroid/net/Uri;
 
     .line 52
-    const-string v0, "content://kik.android.KikDataProvider/contacts/blockedcontacts"
+    const-string v0, "content://kik.arcane.KikDataProvider/contacts/blockedcontacts"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/KikDataProvider;->d:Landroid/net/Uri;
+    sput-object v0, Lkik/arcane/KikDataProvider;->d:Landroid/net/Uri;
 
     .line 53
-    const-string v0, "content://kik.android.KikDataProvider/contacts/notblockedcontacts"
+    const-string v0, "content://kik.arcane.KikDataProvider/contacts/notblockedcontacts"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/KikDataProvider;->e:Landroid/net/Uri;
+    sput-object v0, Lkik/arcane/KikDataProvider;->e:Landroid/net/Uri;
 
     .line 54
-    const-string v0, "content://kik.android.KikDataProvider/contacts/notbotscontacts"
+    const-string v0, "content://kik.arcane.KikDataProvider/contacts/notbotscontacts"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/KikDataProvider;->f:Landroid/net/Uri;
+    sput-object v0, Lkik/arcane/KikDataProvider;->f:Landroid/net/Uri;
 
     .line 75
     new-instance v0, Landroid/content/UriMatcher;
@@ -102,27 +102,27 @@
     invoke-direct {v0, v1}, Landroid/content/UriMatcher;-><init>(I)V
 
     .line 76
-    sput-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sput-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/search_suggest_query"
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 77
-    sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sget-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/search_suggest_query/*"
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 78
-    sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sget-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contactsIncludeUsername/search_suggest_query"
 
@@ -131,9 +131,9 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 79
-    sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sget-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contactsIncludeUsername/search_suggest_query/*"
 
@@ -142,63 +142,63 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 81
-    sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sget-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "notblockedcontacts/search_suggest_query"
 
     invoke-virtual {v0, v1, v2, v4}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 82
-    sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sget-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "notblockedcontacts/search_suggest_query/*"
 
     invoke-virtual {v0, v1, v2, v4}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 84
-    sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sget-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "conversations/search_suggest_query"
 
     invoke-virtual {v0, v1, v2, v5}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 85
-    sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sget-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "conversations/search_suggest_query/*"
 
     invoke-virtual {v0, v1, v2, v5}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 86
-    sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sget-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/roster"
 
     invoke-virtual {v0, v1, v2, v6}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 87
-    sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sget-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/roster/*"
 
     invoke-virtual {v0, v1, v2, v6}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 88
-    sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sget-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/roster/*/*"
 
@@ -207,27 +207,27 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 89
-    sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sget-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/contactid"
 
     invoke-virtual {v0, v1, v2, v7}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 90
-    sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sget-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/contactid/*"
 
     invoke-virtual {v0, v1, v2, v7}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 91
-    sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sget-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/canbegrouped"
 
@@ -236,9 +236,9 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 92
-    sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sget-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/canbegrouped/*"
 
@@ -247,9 +247,9 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 93
-    sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sget-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/canbegrouped/*/*"
 
@@ -258,9 +258,9 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 94
-    sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sget-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/blockedcontacts"
 
@@ -269,9 +269,9 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 95
-    sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sget-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/blockedcontacts/*"
 
@@ -280,27 +280,27 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 96
-    sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sget-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/notblockedcontacts"
 
     invoke-virtual {v0, v1, v2, v4}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 97
-    sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sget-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/notblockedcontacts/*"
 
     invoke-virtual {v0, v1, v2, v4}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 98
-    sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sget-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/notbotscontacts"
 
@@ -309,9 +309,9 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 99
-    sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sget-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/notbotscontacts/*"
 
@@ -320,9 +320,9 @@
     invoke-virtual {v0, v1, v2, v3}, Landroid/content/UriMatcher;->addURI(Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 100
-    sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sget-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
-    const-string v1, "kik.android.KikDataProvider"
+    const-string v1, "kik.arcane.KikDataProvider"
 
     const-string v2, "contacts/notbotscontacts/*/*"
 
@@ -397,13 +397,13 @@
     move-result-object v1
 
     .line 314
-    invoke-static {p1}, Lkik/android/KikDataProvider;->b(Ljava/lang/String;)[Ljava/lang/String;
+    invoke-static {p1}, Lkik/arcane/KikDataProvider;->b(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v0
 
     .line 316
     :cond_0
-    sget-object v2, Lkik/android/KikDataProvider;->h:Lcom/kik/storage/s;
+    sget-object v2, Lkik/arcane/KikDataProvider;->h:Lcom/kik/storage/s;
 
     invoke-interface {v2, v1, v0}, Lcom/kik/storage/s;->a(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
@@ -469,7 +469,7 @@
 
     move-result-object v1
 
-    sget-object v2, Lkik/android/KikDataProvider;->i:Lkik/core/interfaces/ag;
+    sget-object v2, Lkik/arcane/KikDataProvider;->i:Lkik/core/interfaces/ag;
 
     .line 276
     invoke-interface {v2}, Lkik/core/interfaces/ag;->d()Lkik/core/datatypes/aa;
@@ -524,7 +524,7 @@
     move-result-object v1
 
     .line 282
-    invoke-static {p2}, Lkik/android/KikDataProvider;->b(Ljava/lang/String;)[Ljava/lang/String;
+    invoke-static {p2}, Lkik/arcane/KikDataProvider;->b(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v0
 
@@ -610,7 +610,7 @@
     .line 293
     if-eqz p3, :cond_3
 
-    sget-object v0, Lkik/android/KikDataProvider;->h:Lcom/kik/storage/s;
+    sget-object v0, Lkik/arcane/KikDataProvider;->h:Lcom/kik/storage/s;
 
     invoke-interface {v0, v2}, Lcom/kik/storage/s;->a(Ljava/lang/String;)Landroid/database/Cursor;
 
@@ -622,7 +622,7 @@
 
     .line 293
     :cond_3
-    sget-object v0, Lkik/android/KikDataProvider;->h:Lcom/kik/storage/s;
+    sget-object v0, Lkik/arcane/KikDataProvider;->h:Lcom/kik/storage/s;
 
     invoke-interface {v0, v2, v1}, Lcom/kik/storage/s;->a(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
@@ -634,7 +634,7 @@
     :cond_4
     if-eqz p3, :cond_5
 
-    sget-object v0, Lkik/android/KikDataProvider;->h:Lcom/kik/storage/s;
+    sget-object v0, Lkik/arcane/KikDataProvider;->h:Lcom/kik/storage/s;
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -661,7 +661,7 @@
     goto :goto_2
 
     :cond_5
-    sget-object v0, Lkik/android/KikDataProvider;->h:Lcom/kik/storage/s;
+    sget-object v0, Lkik/arcane/KikDataProvider;->h:Lcom/kik/storage/s;
 
     invoke-interface {v0, v2, v1}, Lcom/kik/storage/s;->a(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
@@ -697,7 +697,7 @@
     const-string v1, "pending_in_roster = 1 AND pending_is_blocked = 0 AND is_group = 0"
 
     .line 395
-    sget-object v0, Lkik/android/KikDataProvider;->g:Lkik/core/interfaces/ad;
+    sget-object v0, Lkik/arcane/KikDataProvider;->g:Lkik/core/interfaces/ad;
 
     invoke-static {v0}, Lkik/core/z;->b(Lkik/core/interfaces/ad;)Lkik/core/z;
 
@@ -807,7 +807,7 @@
 
     .line 406
     :cond_1
-    sget-object v0, Lkik/android/KikDataProvider;->h:Lcom/kik/storage/s;
+    sget-object v0, Lkik/arcane/KikDataProvider;->h:Lcom/kik/storage/s;
 
     invoke-interface {v0, v1}, Lcom/kik/storage/s;->a(Ljava/lang/String;)Landroid/database/Cursor;
 
@@ -839,7 +839,7 @@
     const/4 v2, 0x0
 
     .line 370
-    sget-object v1, Lkik/android/KikDataProvider;->g:Lkik/core/interfaces/ad;
+    sget-object v1, Lkik/arcane/KikDataProvider;->g:Lkik/core/interfaces/ad;
 
     invoke-static {v1}, Lkik/core/z;->b(Lkik/core/interfaces/ad;)Lkik/core/z;
 
@@ -987,13 +987,13 @@
     move-result-object v1
 
     .line 382
-    invoke-static {p1}, Lkik/android/KikDataProvider;->b(Ljava/lang/String;)[Ljava/lang/String;
+    invoke-static {p1}, Lkik/arcane/KikDataProvider;->b(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v0
 
     .line 384
     :goto_1
-    sget-object v2, Lkik/android/KikDataProvider;->h:Lcom/kik/storage/s;
+    sget-object v2, Lkik/arcane/KikDataProvider;->h:Lcom/kik/storage/s;
 
     invoke-interface {v2, v1, v0}, Lcom/kik/storage/s;->a(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
@@ -1028,7 +1028,7 @@
     .line 260
     const-string v0, ""
 
-    invoke-static {v0, p0, p1, p2}, Lkik/android/KikDataProvider;->a(Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Z)Landroid/database/Cursor;
+    invoke-static {v0, p0, p1, p2}, Lkik/arcane/KikDataProvider;->a(Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Z)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -1091,13 +1091,13 @@
 
     .prologue
     .line 105
-    sput-object p0, Lkik/android/KikDataProvider;->g:Lkik/core/interfaces/ad;
+    sput-object p0, Lkik/arcane/KikDataProvider;->g:Lkik/core/interfaces/ad;
 
     .line 106
-    sput-object p1, Lkik/android/KikDataProvider;->h:Lcom/kik/storage/s;
+    sput-object p1, Lkik/arcane/KikDataProvider;->h:Lcom/kik/storage/s;
 
     .line 107
-    sput-object p2, Lkik/android/KikDataProvider;->i:Lkik/core/interfaces/ag;
+    sput-object p2, Lkik/arcane/KikDataProvider;->i:Lkik/core/interfaces/ag;
 
     .line 108
     return-void
@@ -1155,7 +1155,7 @@
 
     move-result-object v0
 
-    sget-object v1, Lkik/android/KikDataProvider;->i:Lkik/core/interfaces/ag;
+    sget-object v1, Lkik/arcane/KikDataProvider;->i:Lkik/core/interfaces/ag;
 
     .line 332
     invoke-interface {v1}, Lkik/core/interfaces/ag;->d()Lkik/core/datatypes/aa;
@@ -1180,7 +1180,7 @@
     if-nez p1, :cond_0
 
     .line 334
-    sget-object v1, Lkik/android/KikDataProvider;->h:Lcom/kik/storage/s;
+    sget-object v1, Lkik/arcane/KikDataProvider;->h:Lcom/kik/storage/s;
 
     invoke-interface {v1, v0}, Lcom/kik/storage/s;->a(Ljava/lang/String;)Landroid/database/Cursor;
 
@@ -1211,7 +1211,7 @@
     move-result-object v0
 
     .line 338
-    sget-object v1, Lkik/android/KikDataProvider;->h:Lcom/kik/storage/s;
+    sget-object v1, Lkik/arcane/KikDataProvider;->h:Lcom/kik/storage/s;
 
     invoke-interface {v1, v0}, Lcom/kik/storage/s;->a(Ljava/lang/String;)Landroid/database/Cursor;
 
@@ -1239,7 +1239,7 @@
     .line 265
     const-string v0, "verified = 0 AND "
 
-    invoke-static {v0, p0, p1, p2}, Lkik/android/KikDataProvider;->a(Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Z)Landroid/database/Cursor;
+    invoke-static {v0, p0, p1, p2}, Lkik/arcane/KikDataProvider;->a(Ljava/lang/String;Ljava/util/List;Ljava/lang/String;Z)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -1397,7 +1397,7 @@
 
     .line 138
     :goto_0
-    sget-object v0, Lkik/android/KikDataProvider;->j:Landroid/content/UriMatcher;
+    sget-object v0, Lkik/arcane/KikDataProvider;->j:Landroid/content/UriMatcher;
 
     invoke-virtual {v0, p1}, Landroid/content/UriMatcher;->match(Landroid/net/Uri;)I
 
@@ -1443,7 +1443,7 @@
     :cond_1
     const-string v0, ""
 
-    invoke-static {v0, v1}, Lkik/android/KikDataProvider;->a(Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-static {v0, v1}, Lkik/arcane/KikDataProvider;->a(Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -1473,13 +1473,13 @@
     const-string v0, "pending_in_roster = 1 AND pending_is_blocked = 0 AND is_group = 0 AND  ((suggest_text_1 LIKE ?) OR (suggest_text_1 LIKE ?) OR (suggest_text_2 LIKE ?) OR (suggest_text_2 LIKE ?)) "
 
     .line 1361
-    invoke-static {v1}, Lkik/android/KikDataProvider;->b(Ljava/lang/String;)[Ljava/lang/String;
+    invoke-static {v1}, Lkik/arcane/KikDataProvider;->b(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v2
 
     .line 1363
     :cond_3
-    sget-object v1, Lkik/android/KikDataProvider;->h:Lcom/kik/storage/s;
+    sget-object v1, Lkik/arcane/KikDataProvider;->h:Lcom/kik/storage/s;
 
     invoke-interface {v1, v0, v2}, Lcom/kik/storage/s;->a(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
@@ -1500,7 +1500,7 @@
     .line 2321
     const-string v0, ""
 
-    invoke-static {v0, v1}, Lkik/android/KikDataProvider;->b(Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-static {v0, v1}, Lkik/arcane/KikDataProvider;->b(Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -1508,7 +1508,7 @@
 
     .line 155
     :cond_4
-    invoke-static {p3}, Lkik/android/KikDataProvider;->a(Ljava/lang/String;)Z
+    invoke-static {p3}, Lkik/arcane/KikDataProvider;->a(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1538,7 +1538,7 @@
 
     move-result v1
 
-    invoke-static {v0, v2, v1}, Lkik/android/KikDataProvider;->a(Ljava/util/List;Ljava/lang/String;Z)Landroid/database/Cursor;
+    invoke-static {v0, v2, v1}, Lkik/arcane/KikDataProvider;->a(Ljava/util/List;Ljava/lang/String;Z)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -1548,7 +1548,7 @@
     :cond_5
     const-string v0, ""
 
-    invoke-static {v0, v1}, Lkik/android/KikDataProvider;->a(Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-static {v0, v1}, Lkik/arcane/KikDataProvider;->a(Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -1575,7 +1575,7 @@
 
     .line 4228
     :cond_6
-    sget-object v1, Lkik/android/KikDataProvider;->h:Lcom/kik/storage/s;
+    sget-object v1, Lkik/arcane/KikDataProvider;->h:Lcom/kik/storage/s;
 
     invoke-interface {v1, v0, v2}, Lcom/kik/storage/s;->a(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
@@ -1603,7 +1603,7 @@
     if-eqz v1, :cond_8
 
     .line 171
-    invoke-static {v0}, Lkik/android/KikDataProvider;->a(Ljava/util/List;)Landroid/database/Cursor;
+    invoke-static {v0}, Lkik/arcane/KikDataProvider;->a(Ljava/util/List;)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -1629,7 +1629,7 @@
 
     .line 4389
     :cond_8
-    invoke-static {v0, v2}, Lkik/android/KikDataProvider;->a(Ljava/util/List;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-static {v0, v2}, Lkik/arcane/KikDataProvider;->a(Ljava/util/List;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -1670,7 +1670,7 @@
     invoke-direct {v2, v0}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
     .line 178
-    invoke-static {v2, v1}, Lkik/android/KikDataProvider;->a(Ljava/util/List;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-static {v2, v1}, Lkik/arcane/KikDataProvider;->a(Ljava/util/List;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -1691,13 +1691,13 @@
     const-string v0, " ((suggest_text_1 LIKE ?) OR (suggest_text_1 LIKE ?) OR (suggest_text_2 LIKE ?) OR (suggest_text_2 LIKE ?))  AND pending_is_blocked = 1"
 
     .line 5237
-    invoke-static {v1}, Lkik/android/KikDataProvider;->b(Ljava/lang/String;)[Ljava/lang/String;
+    invoke-static {v1}, Lkik/arcane/KikDataProvider;->b(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v2
 
     .line 5239
     :cond_9
-    sget-object v1, Lkik/android/KikDataProvider;->h:Lcom/kik/storage/s;
+    sget-object v1, Lkik/arcane/KikDataProvider;->h:Lcom/kik/storage/s;
 
     invoke-interface {v1, v0, v2}, Lcom/kik/storage/s;->a(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
@@ -1722,7 +1722,7 @@
 
     invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    sget-object v2, Lkik/android/KikDataProvider;->i:Lkik/core/interfaces/ag;
+    sget-object v2, Lkik/arcane/KikDataProvider;->i:Lkik/core/interfaces/ag;
 
     .line 5345
     invoke-interface {v2}, Lkik/core/interfaces/ag;->d()Lkik/core/datatypes/aa;
@@ -1747,7 +1747,7 @@
     if-nez v1, :cond_a
 
     .line 5347
-    sget-object v1, Lkik/android/KikDataProvider;->h:Lcom/kik/storage/s;
+    sget-object v1, Lkik/arcane/KikDataProvider;->h:Lcom/kik/storage/s;
 
     invoke-interface {v1, v0}, Lcom/kik/storage/s;->a(Ljava/lang/String;)Landroid/database/Cursor;
 
@@ -1776,7 +1776,7 @@
     move-result-object v0
 
     .line 5351
-    sget-object v1, Lkik/android/KikDataProvider;->h:Lcom/kik/storage/s;
+    sget-object v1, Lkik/arcane/KikDataProvider;->h:Lcom/kik/storage/s;
 
     invoke-interface {v1, v0}, Lcom/kik/storage/s;->a(Ljava/lang/String;)Landroid/database/Cursor;
 
@@ -1786,7 +1786,7 @@
 
     .line 6244
     :cond_b
-    sget-object v0, Lkik/android/KikDataProvider;->g:Lkik/core/interfaces/ad;
+    sget-object v0, Lkik/arcane/KikDataProvider;->g:Lkik/core/interfaces/ad;
 
     invoke-static {v0}, Lkik/core/z;->b(Lkik/core/interfaces/ad;)Lkik/core/z;
 
@@ -1872,13 +1872,13 @@
     move-result-object v0
 
     .line 6253
-    invoke-static {v1}, Lkik/android/KikDataProvider;->b(Ljava/lang/String;)[Ljava/lang/String;
+    invoke-static {v1}, Lkik/arcane/KikDataProvider;->b(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v2
 
     .line 6255
     :goto_3
-    sget-object v1, Lkik/android/KikDataProvider;->h:Lcom/kik/storage/s;
+    sget-object v1, Lkik/arcane/KikDataProvider;->h:Lcom/kik/storage/s;
 
     invoke-interface {v1, v0, v2}, Lcom/kik/storage/s;->a(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
@@ -1899,7 +1899,7 @@
     .line 6326
     const-string v0, "verified = 0 AND "
 
-    invoke-static {v0, v1}, Lkik/android/KikDataProvider;->b(Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-static {v0, v1}, Lkik/arcane/KikDataProvider;->b(Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -1907,7 +1907,7 @@
 
     .line 190
     :cond_d
-    invoke-static {p3}, Lkik/android/KikDataProvider;->a(Ljava/lang/String;)Z
+    invoke-static {p3}, Lkik/arcane/KikDataProvider;->a(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1936,7 +1936,7 @@
 
     move-result v1
 
-    invoke-static {v0, v2, v1}, Lkik/android/KikDataProvider;->b(Ljava/util/List;Ljava/lang/String;Z)Landroid/database/Cursor;
+    invoke-static {v0, v2, v1}, Lkik/arcane/KikDataProvider;->b(Ljava/util/List;Ljava/lang/String;Z)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -1946,7 +1946,7 @@
     :cond_e
     const-string v0, "verified = 0 AND "
 
-    invoke-static {v0, v1}, Lkik/android/KikDataProvider;->a(Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-static {v0, v1}, Lkik/arcane/KikDataProvider;->a(Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -1954,7 +1954,7 @@
 
     .line 195
     :pswitch_9
-    invoke-static {p1}, Lkik/android/KikDataProvider;->a(Landroid/net/Uri;)Ljava/util/List;
+    invoke-static {p1}, Lkik/arcane/KikDataProvider;->a(Landroid/net/Uri;)Ljava/util/List;
 
     move-result-object v0
 
@@ -1964,7 +1964,7 @@
 
     move-result v2
 
-    invoke-static {v0, v1, v2}, Lkik/android/KikDataProvider;->b(Ljava/util/List;Ljava/lang/String;Z)Landroid/database/Cursor;
+    invoke-static {v0, v1, v2}, Lkik/arcane/KikDataProvider;->b(Ljava/util/List;Ljava/lang/String;Z)Landroid/database/Cursor;
 
     move-result-object v0
 
@@ -1972,7 +1972,7 @@
 
     .line 197
     :pswitch_a
-    invoke-static {p1}, Lkik/android/KikDataProvider;->a(Landroid/net/Uri;)Ljava/util/List;
+    invoke-static {p1}, Lkik/arcane/KikDataProvider;->a(Landroid/net/Uri;)Ljava/util/List;
 
     move-result-object v0
 
@@ -1982,7 +1982,7 @@
 
     move-result v2
 
-    invoke-static {v0, v1, v2}, Lkik/android/KikDataProvider;->a(Ljava/util/List;Ljava/lang/String;Z)Landroid/database/Cursor;
+    invoke-static {v0, v1, v2}, Lkik/arcane/KikDataProvider;->a(Ljava/util/List;Ljava/lang/String;Z)Landroid/database/Cursor;
 
     move-result-object v0
 

@@ -1,11 +1,11 @@
-.class final Lcom/kik/android/b/l$1;
+.class final Lcom/kik/arcane/b/l$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/kik/android/b/l;->a(Lcom/kik/android/b/l;Lcom/kik/events/Promise;)V
+    value = Lcom/kik/arcane/b/l;->a(Lcom/kik/arcane/b/l;Lcom/kik/events/Promise;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,23 +20,23 @@
         "Ljava/util/Map",
         "<",
         "Ljava/lang/String;",
-        "Lcom/kik/android/b/a;",
+        "Lcom/kik/arcane/b/a;",
         ">;>;"
     }
 .end annotation
 
 
 # instance fields
-.field final synthetic a:Lcom/kik/android/b/l;
+.field final synthetic a:Lcom/kik/arcane/b/l;
 
 
 # direct methods
-.method constructor <init>(Lcom/kik/android/b/l;)V
+.method constructor <init>(Lcom/kik/arcane/b/l;)V
     .locals 0
 
     .prologue
     .line 230
-    iput-object p1, p0, Lcom/kik/android/b/l$1;->a:Lcom/kik/android/b/l;
+    iput-object p1, p0, Lcom/kik/arcane/b/l$1;->a:Lcom/kik/arcane/b/l;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -80,16 +80,16 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/b/a;
+    check-cast v0, Lcom/kik/arcane/b/a;
 
     .line 1237
-    iget-object v2, p0, Lcom/kik/android/b/l$1;->a:Lcom/kik/android/b/l;
+    iget-object v2, p0, Lcom/kik/arcane/b/l$1;->a:Lcom/kik/arcane/b/l;
 
-    invoke-static {v2}, Lcom/kik/android/b/l;->a(Lcom/kik/android/b/l;)Lcom/kik/android/b/e;
+    invoke-static {v2}, Lcom/kik/arcane/b/l;->a(Lcom/kik/arcane/b/l;)Lcom/kik/arcane/b/e;
 
     move-result-object v2
 
-    invoke-interface {v2, v0}, Lcom/kik/android/b/e;->a(Lcom/kik/android/b/a;)V
+    invoke-interface {v2, v0}, Lcom/kik/arcane/b/e;->a(Lcom/kik/arcane/b/a;)V
 
     goto :goto_0
 

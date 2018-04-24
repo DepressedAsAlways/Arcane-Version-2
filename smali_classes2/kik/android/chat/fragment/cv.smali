@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/fragment/cv;
+.class final synthetic Lkik/arcane/chat/fragment/cv;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/fragment/cv;
+.field private static final a:Lkik/arcane/chat/fragment/cv;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/fragment/cv;
+    new-instance v0, Lkik/arcane/chat/fragment/cv;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/cv;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/cv;-><init>()V
 
-    sput-object v0, Lkik/android/chat/fragment/cv;->a:Lkik/android/chat/fragment/cv;
+    sput-object v0, Lkik/arcane/chat/fragment/cv;->a:Lkik/arcane/chat/fragment/cv;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lrx/functions/b;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/fragment/cv;->a:Lkik/android/chat/fragment/cv;
+    sget-object v0, Lkik/arcane/chat/fragment/cv;->a:Lkik/arcane/chat/fragment/cv;
 
     return-object v0
 .end method
@@ -43,7 +43,7 @@
 .method public final call(Ljava/lang/Object;)V
     .locals 0
 
-    invoke-static {}, Lkik/android/chat/fragment/KikMultiselectContactsListFragment;->N()V
+    invoke-static {}, Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment;->N()V
 
     return-void
 .end method

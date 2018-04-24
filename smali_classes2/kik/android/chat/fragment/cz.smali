@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/fragment/cz;
+.class final synthetic Lkik/arcane/chat/fragment/cz;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -15,7 +15,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/fragment/cz;->a:[Landroid/view/View;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/cz;->a:[Landroid/view/View;
 
     return-void
 .end method
@@ -23,9 +23,9 @@
 .method public static a([Landroid/view/View;)Ljava/lang/Runnable;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/fragment/cz;
+    new-instance v0, Lkik/arcane/chat/fragment/cz;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/fragment/cz;-><init>([Landroid/view/View;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/fragment/cz;-><init>([Landroid/view/View;)V
 
     return-object v0
 .end method
@@ -35,9 +35,9 @@
 .method public final run()V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/chat/fragment/cz;->a:[Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/cz;->a:[Landroid/view/View;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/KikPreregistrationFragmentBase;->b([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase;->b([Landroid/view/View;)V
 
     return-void
 .end method

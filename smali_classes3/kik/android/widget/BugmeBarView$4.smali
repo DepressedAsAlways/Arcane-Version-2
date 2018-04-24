@@ -1,4 +1,4 @@
-.class final Lkik/android/widget/BugmeBarView$4;
+.class final Lkik/arcane/widget/BugmeBarView$4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/BugmeBarView;->i()V
+    value = Lkik/arcane/widget/BugmeBarView;->i()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/BugmeBarView;
+.field final synthetic a:Lkik/arcane/widget/BugmeBarView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/BugmeBarView;)V
+.method constructor <init>(Lkik/arcane/widget/BugmeBarView;)V
     .locals 0
 
     .prologue
     .line 248
-    iput-object p1, p0, Lkik/android/widget/BugmeBarView$4;->a:Lkik/android/widget/BugmeBarView;
+    iput-object p1, p0, Lkik/arcane/widget/BugmeBarView$4;->a:Lkik/arcane/widget/BugmeBarView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,23 +41,23 @@
 
     .prologue
     .line 264
-    iget-object v0, p0, Lkik/android/widget/BugmeBarView$4;->a:Lkik/android/widget/BugmeBarView;
+    iget-object v0, p0, Lkik/arcane/widget/BugmeBarView$4;->a:Lkik/arcane/widget/BugmeBarView;
 
     const/16 v1, 0x8
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/BugmeBarView;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/BugmeBarView;->setVisibility(I)V
 
     .line 265
-    iget-object v0, p0, Lkik/android/widget/BugmeBarView$4;->a:Lkik/android/widget/BugmeBarView;
+    iget-object v0, p0, Lkik/arcane/widget/BugmeBarView$4;->a:Lkik/arcane/widget/BugmeBarView;
 
     const/4 v1, 0x0
 
-    invoke-static {v0, v1}, Lkik/android/widget/BugmeBarView;->b(Lkik/android/widget/BugmeBarView;Z)Z
+    invoke-static {v0, v1}, Lkik/arcane/widget/BugmeBarView;->b(Lkik/arcane/widget/BugmeBarView;Z)Z
 
     .line 266
-    iget-object v0, p0, Lkik/android/widget/BugmeBarView$4;->a:Lkik/android/widget/BugmeBarView;
+    iget-object v0, p0, Lkik/arcane/widget/BugmeBarView$4;->a:Lkik/arcane/widget/BugmeBarView;
 
-    invoke-static {v0}, Lkik/android/widget/BugmeBarView;->e(Lkik/android/widget/BugmeBarView;)Z
+    invoke-static {v0}, Lkik/arcane/widget/BugmeBarView;->e(Lkik/arcane/widget/BugmeBarView;)Z
 
     .line 267
     return-void
@@ -76,11 +76,11 @@
 
     .prologue
     .line 253
-    iget-object v0, p0, Lkik/android/widget/BugmeBarView$4;->a:Lkik/android/widget/BugmeBarView;
+    iget-object v0, p0, Lkik/arcane/widget/BugmeBarView$4;->a:Lkik/arcane/widget/BugmeBarView;
 
     const/4 v1, 0x1
 
-    invoke-static {v0, v1}, Lkik/android/widget/BugmeBarView;->b(Lkik/android/widget/BugmeBarView;Z)Z
+    invoke-static {v0, v1}, Lkik/arcane/widget/BugmeBarView;->b(Lkik/arcane/widget/BugmeBarView;Z)Z
 
     .line 254
     return-void

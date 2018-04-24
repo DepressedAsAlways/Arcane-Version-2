@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/ViewPictureFragment$25$1;
+.class final Lkik/arcane/chat/fragment/ViewPictureFragment$25$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/ViewPictureFragment$25;
+    value = Lkik/arcane/chat/fragment/ViewPictureFragment$25;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/ViewPictureFragment$25;
+.field final synthetic a:Lkik/arcane/chat/fragment/ViewPictureFragment$25;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/ViewPictureFragment$25;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/ViewPictureFragment$25;)V
     .locals 0
 
     .prologue
     .line 486
-    iput-object p1, p0, Lkik/android/chat/fragment/ViewPictureFragment$25$1;->a:Lkik/android/chat/fragment/ViewPictureFragment$25;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$25$1;->a:Lkik/arcane/chat/fragment/ViewPictureFragment$25;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,11 +41,11 @@
 
     .prologue
     .line 490
-    iget-object v0, p0, Lkik/android/chat/fragment/ViewPictureFragment$25$1;->a:Lkik/android/chat/fragment/ViewPictureFragment$25;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$25$1;->a:Lkik/arcane/chat/fragment/ViewPictureFragment$25;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/ViewPictureFragment$25;->a:Lkik/android/chat/fragment/ViewPictureFragment;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/ViewPictureFragment$25;->a:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/ViewPictureFragment;->f(Lkik/android/chat/fragment/ViewPictureFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/ViewPictureFragment;->f(Lkik/arcane/chat/fragment/ViewPictureFragment;)V
 
     .line 491
     return-void

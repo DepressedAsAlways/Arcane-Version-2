@@ -1,15 +1,15 @@
-.class public final Lkik/android/d/a;
+.class public final Lkik/arcane/d/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/d/c;
+.implements Lkik/arcane/d/c;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/d/a$a;
+        Lkik/arcane/d/a$a;
     }
 .end annotation
 
@@ -24,7 +24,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/d/f;",
+            "Lkik/arcane/d/f;",
             ">;"
         }
     .end annotation
@@ -35,7 +35,7 @@
         value = {
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/MessageTextView;",
+            "Lkik/arcane/widget/MessageTextView;",
             ">;"
         }
     .end annotation
@@ -48,7 +48,7 @@
 
     .prologue
     .line 10
-    const-class v0, Lkik/android/d/a;
+    const-class v0, Lkik/arcane/d/a;
 
     invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
 
@@ -59,7 +59,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    sput-boolean v0, Lkik/android/d/a;->a:Z
+    sput-boolean v0, Lkik/arcane/d/a;->a:Z
 
     return-void
 
@@ -69,7 +69,7 @@
     goto :goto_0
 .end method
 
-.method private constructor <init>(Lkik/android/d/a$a;)V
+.method private constructor <init>(Lkik/arcane/d/a$a;)V
     .locals 1
 
     .prologue
@@ -77,7 +77,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 20
-    sget-boolean v0, Lkik/android/d/a;->a:Z
+    sget-boolean v0, Lkik/arcane/d/a;->a:Z
 
     if-nez v0, :cond_0
 
@@ -91,62 +91,62 @@
 
     .line 1036
     :cond_0
-    invoke-static {p1}, Lkik/android/d/a$a;->a(Lkik/android/d/a$a;)Lkik/android/d/d;
+    invoke-static {p1}, Lkik/arcane/d/a$a;->a(Lkik/arcane/d/a$a;)Lkik/arcane/d/d;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/d/e;->a(Lkik/android/d/d;)Ldagger/internal/b;
+    invoke-static {v0}, Lkik/arcane/d/e;->a(Lkik/arcane/d/d;)Ldagger/internal/b;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/d/a;->b:Ljavax/inject/Provider;
+    iput-object v0, p0, Lkik/arcane/d/a;->b:Ljavax/inject/Provider;
 
     .line 1038
-    iget-object v0, p0, Lkik/android/d/a;->b:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/d/a;->b:Ljavax/inject/Provider;
 
     .line 1039
-    invoke-static {v0}, Lkik/android/widget/MessageTextView_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
+    invoke-static {v0}, Lkik/arcane/widget/MessageTextView_MembersInjector;->a(Ljavax/inject/Provider;)Ldagger/b;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/d/a;->c:Ldagger/b;
+    iput-object v0, p0, Lkik/arcane/d/a;->c:Ldagger/b;
 
     .line 22
     return-void
 .end method
 
-.method synthetic constructor <init>(Lkik/android/d/a$a;B)V
+.method synthetic constructor <init>(Lkik/arcane/d/a$a;B)V
     .locals 0
 
     .prologue
     .line 14
-    invoke-direct {p0, p1}, Lkik/android/d/a;-><init>(Lkik/android/d/a$a;)V
+    invoke-direct {p0, p1}, Lkik/arcane/d/a;-><init>(Lkik/arcane/d/a$a;)V
 
     return-void
 .end method
 
-.method public static a()Lkik/android/d/a$a;
+.method public static a()Lkik/arcane/d/a$a;
     .locals 2
 
     .prologue
     .line 25
-    new-instance v0, Lkik/android/d/a$a;
+    new-instance v0, Lkik/arcane/d/a$a;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lkik/android/d/a$a;-><init>(B)V
+    invoke-direct {v0, v1}, Lkik/arcane/d/a$a;-><init>(B)V
 
     return-object v0
 .end method
 
 
 # virtual methods
-.method public final a(Lkik/android/widget/MessageTextView;)V
+.method public final a(Lkik/arcane/widget/MessageTextView;)V
     .locals 1
 
     .prologue
     .line 44
-    iget-object v0, p0, Lkik/android/d/a;->c:Ldagger/b;
+    iget-object v0, p0, Lkik/arcane/d/a;->c:Ldagger/b;
 
     invoke-interface {v0, p1}, Ldagger/b;->injectMembers(Ljava/lang/Object;)V
 

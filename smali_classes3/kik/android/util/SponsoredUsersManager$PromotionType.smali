@@ -1,11 +1,11 @@
-.class public final enum Lkik/android/util/SponsoredUsersManager$PromotionType;
+.class public final enum Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 .super Ljava/lang/Enum;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/SponsoredUsersManager;
+    value = Lkik/arcane/util/SponsoredUsersManager;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,20 +17,20 @@
     value = {
         "Ljava/lang/Enum",
         "<",
-        "Lkik/android/util/SponsoredUsersManager$PromotionType;",
+        "Lkik/arcane/util/SponsoredUsersManager$PromotionType;",
         ">;"
     }
 .end annotation
 
 
 # static fields
-.field private static final synthetic $VALUES:[Lkik/android/util/SponsoredUsersManager$PromotionType;
+.field private static final synthetic $VALUES:[Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 
-.field public static final enum PREMIUM:Lkik/android/util/SponsoredUsersManager$PromotionType;
+.field public static final enum PREMIUM:Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 
-.field public static final enum PROMOTED:Lkik/android/util/SponsoredUsersManager$PromotionType;
+.field public static final enum PROMOTED:Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 
-.field public static final enum SUGGESTED:Lkik/android/util/SponsoredUsersManager$PromotionType;
+.field public static final enum SUGGESTED:Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 
 
 # instance fields
@@ -53,7 +53,7 @@
     const/4 v2, 0x0
 
     .line 66
-    new-instance v0, Lkik/android/util/SponsoredUsersManager$PromotionType;
+    new-instance v0, Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 
     const-string v1, "PROMOTED"
 
@@ -63,12 +63,12 @@
 
     const-string v5, "Promoted Chat Message"
 
-    invoke-direct/range {v0 .. v5}, Lkik/android/util/SponsoredUsersManager$PromotionType;-><init>(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct/range {v0 .. v5}, Lkik/arcane/util/SponsoredUsersManager$PromotionType;-><init>(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    sput-object v0, Lkik/android/util/SponsoredUsersManager$PromotionType;->PROMOTED:Lkik/android/util/SponsoredUsersManager$PromotionType;
+    sput-object v0, Lkik/arcane/util/SponsoredUsersManager$PromotionType;->PROMOTED:Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 
     .line 67
-    new-instance v3, Lkik/android/util/SponsoredUsersManager$PromotionType;
+    new-instance v3, Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 
     const-string v4, "SUGGESTED"
 
@@ -80,12 +80,12 @@
 
     move v5, v9
 
-    invoke-direct/range {v3 .. v8}, Lkik/android/util/SponsoredUsersManager$PromotionType;-><init>(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct/range {v3 .. v8}, Lkik/arcane/util/SponsoredUsersManager$PromotionType;-><init>(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    sput-object v3, Lkik/android/util/SponsoredUsersManager$PromotionType;->SUGGESTED:Lkik/android/util/SponsoredUsersManager$PromotionType;
+    sput-object v3, Lkik/arcane/util/SponsoredUsersManager$PromotionType;->SUGGESTED:Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 
     .line 68
-    new-instance v3, Lkik/android/util/SponsoredUsersManager$PromotionType;
+    new-instance v3, Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 
     const-string v4, "PREMIUM"
 
@@ -97,28 +97,28 @@
 
     move v5, v10
 
-    invoke-direct/range {v3 .. v8}, Lkik/android/util/SponsoredUsersManager$PromotionType;-><init>(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct/range {v3 .. v8}, Lkik/arcane/util/SponsoredUsersManager$PromotionType;-><init>(Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    sput-object v3, Lkik/android/util/SponsoredUsersManager$PromotionType;->PREMIUM:Lkik/android/util/SponsoredUsersManager$PromotionType;
+    sput-object v3, Lkik/arcane/util/SponsoredUsersManager$PromotionType;->PREMIUM:Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 
     .line 64
     const/4 v0, 0x3
 
-    new-array v0, v0, [Lkik/android/util/SponsoredUsersManager$PromotionType;
+    new-array v0, v0, [Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 
-    sget-object v1, Lkik/android/util/SponsoredUsersManager$PromotionType;->PROMOTED:Lkik/android/util/SponsoredUsersManager$PromotionType;
+    sget-object v1, Lkik/arcane/util/SponsoredUsersManager$PromotionType;->PROMOTED:Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lkik/android/util/SponsoredUsersManager$PromotionType;->SUGGESTED:Lkik/android/util/SponsoredUsersManager$PromotionType;
+    sget-object v1, Lkik/arcane/util/SponsoredUsersManager$PromotionType;->SUGGESTED:Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 
     aput-object v1, v0, v9
 
-    sget-object v1, Lkik/android/util/SponsoredUsersManager$PromotionType;->PREMIUM:Lkik/android/util/SponsoredUsersManager$PromotionType;
+    sget-object v1, Lkik/arcane/util/SponsoredUsersManager$PromotionType;->PREMIUM:Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 
     aput-object v1, v0, v10
 
-    sput-object v0, Lkik/android/util/SponsoredUsersManager$PromotionType;->$VALUES:[Lkik/android/util/SponsoredUsersManager$PromotionType;
+    sput-object v0, Lkik/arcane/util/SponsoredUsersManager$PromotionType;->$VALUES:[Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 
     return-void
 .end method
@@ -140,46 +140,46 @@
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 76
-    iput-object p3, p0, Lkik/android/util/SponsoredUsersManager$PromotionType;->segment:Ljava/lang/String;
+    iput-object p3, p0, Lkik/arcane/util/SponsoredUsersManager$PromotionType;->segment:Ljava/lang/String;
 
     .line 77
-    iput-object p4, p0, Lkik/android/util/SponsoredUsersManager$PromotionType;->addedEvent:Ljava/lang/String;
+    iput-object p4, p0, Lkik/arcane/util/SponsoredUsersManager$PromotionType;->addedEvent:Ljava/lang/String;
 
     .line 78
-    iput-object p5, p0, Lkik/android/util/SponsoredUsersManager$PromotionType;->messagedEvent:Ljava/lang/String;
+    iput-object p5, p0, Lkik/arcane/util/SponsoredUsersManager$PromotionType;->messagedEvent:Ljava/lang/String;
 
     .line 79
     return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lkik/android/util/SponsoredUsersManager$PromotionType;
+.method public static valueOf(Ljava/lang/String;)Lkik/arcane/util/SponsoredUsersManager$PromotionType;
     .locals 1
 
     .prologue
     .line 64
-    const-class v0, Lkik/android/util/SponsoredUsersManager$PromotionType;
+    const-class v0, Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/util/SponsoredUsersManager$PromotionType;
+    check-cast v0, Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 
     return-object v0
 .end method
 
-.method public static values()[Lkik/android/util/SponsoredUsersManager$PromotionType;
+.method public static values()[Lkik/arcane/util/SponsoredUsersManager$PromotionType;
     .locals 1
 
     .prologue
     .line 64
-    sget-object v0, Lkik/android/util/SponsoredUsersManager$PromotionType;->$VALUES:[Lkik/android/util/SponsoredUsersManager$PromotionType;
+    sget-object v0, Lkik/arcane/util/SponsoredUsersManager$PromotionType;->$VALUES:[Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 
-    invoke-virtual {v0}, [Lkik/android/util/SponsoredUsersManager$PromotionType;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lkik/arcane/util/SponsoredUsersManager$PromotionType;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkik/android/util/SponsoredUsersManager$PromotionType;
+    check-cast v0, [Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 
     return-object v0
 .end method

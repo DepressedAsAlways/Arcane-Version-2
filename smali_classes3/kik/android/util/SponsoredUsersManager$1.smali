@@ -1,4 +1,4 @@
-.class final Lkik/android/util/SponsoredUsersManager$1;
+.class final Lkik/arcane/util/SponsoredUsersManager$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/SponsoredUsersManager;
+    value = Lkik/arcane/util/SponsoredUsersManager;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/util/SponsoredUsersManager;
+.field final synthetic a:Lkik/arcane/util/SponsoredUsersManager;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/util/SponsoredUsersManager;)V
+.method constructor <init>(Lkik/arcane/util/SponsoredUsersManager;)V
     .locals 0
 
     .prologue
     .line 120
-    iput-object p1, p0, Lkik/android/util/SponsoredUsersManager$1;->a:Lkik/android/util/SponsoredUsersManager;
+    iput-object p1, p0, Lkik/arcane/util/SponsoredUsersManager$1;->a:Lkik/arcane/util/SponsoredUsersManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -54,7 +54,7 @@
     check-cast p2, Ljava/lang/String;
 
     .line 1124
-    invoke-static {}, Lkik/android/util/SponsoredUsersManager$PromotionType;->values()[Lkik/android/util/SponsoredUsersManager$PromotionType;
+    invoke-static {}, Lkik/arcane/util/SponsoredUsersManager$PromotionType;->values()[Lkik/arcane/util/SponsoredUsersManager$PromotionType;
 
     move-result-object v2
 
@@ -70,9 +70,9 @@
     aget-object v0, v2, v1
 
     .line 1125
-    iget-object v4, p0, Lkik/android/util/SponsoredUsersManager$1;->a:Lkik/android/util/SponsoredUsersManager;
+    iget-object v4, p0, Lkik/arcane/util/SponsoredUsersManager$1;->a:Lkik/arcane/util/SponsoredUsersManager;
 
-    invoke-static {v4}, Lkik/android/util/SponsoredUsersManager;->a(Lkik/android/util/SponsoredUsersManager;)Ljava/util/EnumMap;
+    invoke-static {v4}, Lkik/arcane/util/SponsoredUsersManager;->a(Lkik/arcane/util/SponsoredUsersManager;)Ljava/util/EnumMap;
 
     move-result-object v4
 
@@ -80,12 +80,12 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/util/SponsoredUsersManager$PromotionData;
+    check-cast v0, Lkik/arcane/util/SponsoredUsersManager$PromotionData;
 
     .line 1127
     new-instance v4, Ljava/util/ArrayList;
 
-    iget-object v0, v0, Lkik/android/util/SponsoredUsersManager$PromotionData;->a:Ljava/util/ArrayList;
+    iget-object v0, v0, Lkik/arcane/util/SponsoredUsersManager$PromotionData;->a:Ljava/util/ArrayList;
 
     invoke-direct {v4, v0}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
@@ -119,9 +119,9 @@
     if-eqz v0, :cond_0
 
     .line 1130
-    iget-object v0, p0, Lkik/android/util/SponsoredUsersManager$1;->a:Lkik/android/util/SponsoredUsersManager;
+    iget-object v0, p0, Lkik/arcane/util/SponsoredUsersManager$1;->a:Lkik/arcane/util/SponsoredUsersManager;
 
-    invoke-static {v0}, Lkik/android/util/SponsoredUsersManager;->b(Lkik/android/util/SponsoredUsersManager;)Lcom/kik/events/g;
+    invoke-static {v0}, Lkik/arcane/util/SponsoredUsersManager;->b(Lkik/arcane/util/SponsoredUsersManager;)Lcom/kik/events/g;
 
     move-result-object v0
 

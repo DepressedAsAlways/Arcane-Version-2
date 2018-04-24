@@ -1,4 +1,4 @@
-.class Lcom/kik/android/Mixpanel$DataCollectionGroup;
+.class Lcom/kik/arcane/Mixpanel$DataCollectionGroup;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/kik/android/Mixpanel;
+    value = Lcom/kik/arcane/Mixpanel;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,7 +27,7 @@
         value = {
             "Ljava/util/List",
             "<",
-            "Lcom/kik/android/Mixpanel$DataCollectionPeriod;",
+            "Lcom/kik/arcane/Mixpanel$DataCollectionPeriod;",
             ">;"
         }
     .end annotation
@@ -47,7 +47,7 @@
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Lcom/kik/android/Mixpanel$DataCollectionGroup;->_intervals:Ljava/util/List;
+    iput-object v0, p0, Lcom/kik/arcane/Mixpanel$DataCollectionGroup;->_intervals:Ljava/util/List;
 
     .line 1463
     return-void
@@ -62,14 +62,14 @@
             "()",
             "Ljava/util/List",
             "<",
-            "Lcom/kik/android/Mixpanel$DataCollectionPeriod;",
+            "Lcom/kik/arcane/Mixpanel$DataCollectionPeriod;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 1467
-    iget-object v0, p0, Lcom/kik/android/Mixpanel$DataCollectionGroup;->_intervals:Ljava/util/List;
+    iget-object v0, p0, Lcom/kik/arcane/Mixpanel$DataCollectionGroup;->_intervals:Ljava/util/List;
 
     return-object v0
 .end method

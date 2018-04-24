@@ -1,4 +1,4 @@
-.class public final Lkik/android/gifs/vm/AbstractGifPageViewModel_MembersInjector;
+.class public final Lkik/arcane/gifs/vm/AbstractGifPageViewModel_MembersInjector;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -10,14 +10,14 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<ItemViewModel::",
-        "Lkik/android/chat/vm/ay;",
+        "Lkik/arcane/chat/vm/ay;",
         "DataType:",
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
         "Ldagger/b",
         "<",
-        "Lkik/android/gifs/vm/c",
+        "Lkik/arcane/gifs/vm/c",
         "<TItemViewModel;TDataType;>;>;"
     }
 .end annotation
@@ -46,7 +46,7 @@
 
     .prologue
     .line 9
-    const-class v0, Lkik/android/gifs/vm/AbstractGifPageViewModel_MembersInjector;
+    const-class v0, Lkik/arcane/gifs/vm/AbstractGifPageViewModel_MembersInjector;
 
     invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
 
@@ -57,7 +57,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    sput-boolean v0, Lkik/android/gifs/vm/AbstractGifPageViewModel_MembersInjector;->a:Z
+    sput-boolean v0, Lkik/arcane/gifs/vm/AbstractGifPageViewModel_MembersInjector;->a:Z
 
     return-void
 
@@ -74,7 +74,7 @@
 
     .prologue
     .line 9
-    check-cast p1, Lkik/android/gifs/vm/c;
+    check-cast p1, Lkik/arcane/gifs/vm/c;
 
     .line 1032
     if-nez p1, :cond_0
@@ -90,7 +90,7 @@
 
     .line 1035
     :cond_0
-    iget-object v0, p0, Lkik/android/gifs/vm/AbstractGifPageViewModel_MembersInjector;->b:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/AbstractGifPageViewModel_MembersInjector;->b:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -98,7 +98,7 @@
 
     check-cast v0, Landroid/content/res/Resources;
 
-    iput-object v0, p1, Lkik/android/gifs/vm/c;->a:Landroid/content/res/Resources;
+    iput-object v0, p1, Lkik/arcane/gifs/vm/c;->a:Landroid/content/res/Resources;
 
     .line 9
     return-void

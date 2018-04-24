@@ -1,9 +1,9 @@
-.class public Lkik/android/widget/KikAutoCompleteTextView;
+.class public Lkik/arcane/widget/KikAutoCompleteTextView;
 .super Landroid/support/v7/widget/AppCompatAutoCompleteTextView;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/widget/f;
+.implements Lkik/arcane/widget/f;
 
 
 # instance fields
@@ -30,7 +30,7 @@
     invoke-direct {p0, p1, p2}, Landroid/support/v7/widget/AppCompatAutoCompleteTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 37
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/KikAutoCompleteTextView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/KikAutoCompleteTextView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 38
     return-void
@@ -44,7 +44,7 @@
     invoke-direct {p0, p1, p2, p3}, Landroid/support/v7/widget/AppCompatAutoCompleteTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 43
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/KikAutoCompleteTextView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/KikAutoCompleteTextView;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 44
     return-void
@@ -57,7 +57,7 @@
     const/4 v0, 0x0
 
     .line 70
-    sget-object v1, Lkik/android/R$styleable;->RobotoTextView:[I
+    sget-object v1, Lkik/arcane/R$styleable;->RobotoTextView:[I
 
     invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -74,7 +74,7 @@
     invoke-virtual {v1}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 74
-    invoke-virtual {p0}, Lkik/android/widget/KikAutoCompleteTextView;->getTypeface()Landroid/graphics/Typeface;
+    invoke-virtual {p0}, Lkik/arcane/widget/KikAutoCompleteTextView;->getTypeface()Landroid/graphics/Typeface;
 
     move-result-object v3
 
@@ -82,45 +82,45 @@
     packed-switch v2, :pswitch_data_0
 
     .line 1093
-    sget-object v1, Lkik/android/util/RobotoFontUtils$Type;->NONE:Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v1, Lkik/arcane/util/RobotoFontUtils$Type;->NONE:Lkik/arcane/util/RobotoFontUtils$Type;
 
     .line 76
     :goto_0
     if-nez v3, :cond_0
 
     :goto_1
-    invoke-static {p0, v1, v0}, Lkik/android/util/RobotoFontUtils;->a(Landroid/widget/TextView;Lkik/android/util/RobotoFontUtils$Type;I)V
+    invoke-static {p0, v1, v0}, Lkik/arcane/util/RobotoFontUtils;->a(Landroid/widget/TextView;Lkik/arcane/util/RobotoFontUtils$Type;I)V
 
     .line 77
     return-void
 
     .line 1083
     :pswitch_0
-    sget-object v1, Lkik/android/util/RobotoFontUtils$Type;->BLACK:Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v1, Lkik/arcane/util/RobotoFontUtils$Type;->BLACK:Lkik/arcane/util/RobotoFontUtils$Type;
 
     goto :goto_0
 
     .line 1085
     :pswitch_1
-    sget-object v1, Lkik/android/util/RobotoFontUtils$Type;->CONDENSED:Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v1, Lkik/arcane/util/RobotoFontUtils$Type;->CONDENSED:Lkik/arcane/util/RobotoFontUtils$Type;
 
     goto :goto_0
 
     .line 1087
     :pswitch_2
-    sget-object v1, Lkik/android/util/RobotoFontUtils$Type;->LIGHT:Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v1, Lkik/arcane/util/RobotoFontUtils$Type;->LIGHT:Lkik/arcane/util/RobotoFontUtils$Type;
 
     goto :goto_0
 
     .line 1089
     :pswitch_3
-    sget-object v1, Lkik/android/util/RobotoFontUtils$Type;->MEDIUM:Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v1, Lkik/arcane/util/RobotoFontUtils$Type;->MEDIUM:Lkik/arcane/util/RobotoFontUtils$Type;
 
     goto :goto_0
 
     .line 1091
     :pswitch_4
-    sget-object v1, Lkik/android/util/RobotoFontUtils$Type;->THIN:Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v1, Lkik/arcane/util/RobotoFontUtils$Type;->THIN:Lkik/arcane/util/RobotoFontUtils$Type;
 
     goto :goto_0
 
@@ -150,7 +150,7 @@
 
     .prologue
     .line 54
-    iput-object p1, p0, Lkik/android/widget/KikAutoCompleteTextView;->a:Lkik/core/interfaces/ai;
+    iput-object p1, p0, Lkik/arcane/widget/KikAutoCompleteTextView;->a:Lkik/core/interfaces/ai;
 
     .line 55
     return-void
@@ -176,12 +176,12 @@
     if-ne p1, v0, :cond_0
 
     .line 61
-    iget-object v0, p0, Lkik/android/widget/KikAutoCompleteTextView;->a:Lkik/core/interfaces/ai;
+    iget-object v0, p0, Lkik/arcane/widget/KikAutoCompleteTextView;->a:Lkik/core/interfaces/ai;
 
     if-eqz v0, :cond_0
 
     .line 62
-    iget-object v0, p0, Lkik/android/widget/KikAutoCompleteTextView;->a:Lkik/core/interfaces/ai;
+    iget-object v0, p0, Lkik/arcane/widget/KikAutoCompleteTextView;->a:Lkik/core/interfaces/ai;
 
     invoke-interface {v0}, Lkik/core/interfaces/ai;->c()V
 

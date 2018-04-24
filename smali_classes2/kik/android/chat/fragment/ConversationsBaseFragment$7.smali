@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/ConversationsBaseFragment$7;
+.class final Lkik/arcane/chat/fragment/ConversationsBaseFragment$7;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/ConversationsBaseFragment;
+    value = Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/ConversationsBaseFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/ConversationsBaseFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/ConversationsBaseFragment;)V
     .locals 0
 
     .prologue
     .line 204
-    iput-object p1, p0, Lkik/android/chat/fragment/ConversationsBaseFragment$7;->a:Lkik/android/chat/fragment/ConversationsBaseFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ConversationsBaseFragment$7;->a:Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,9 +52,9 @@
     .prologue
     .line 204
     .line 1208
-    iget-object v0, p0, Lkik/android/chat/fragment/ConversationsBaseFragment$7;->a:Lkik/android/chat/fragment/ConversationsBaseFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ConversationsBaseFragment$7;->a:Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/ConversationsBaseFragment;->resignWaitDialog()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/ConversationsBaseFragment;->resignWaitDialog()V
 
     .line 204
     return-void

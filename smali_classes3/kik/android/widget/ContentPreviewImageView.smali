@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/ContentPreviewImageView;
+.class public Lkik/arcane/widget/ContentPreviewImageView;
 .super Landroid/support/v7/widget/AppCompatImageView;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/ContentPreviewImageView$ContentType;
+        Lkik/arcane/widget/ContentPreviewImageView$ContentType;
     }
 .end annotation
 
@@ -26,7 +26,7 @@
 
 .field private g:F
 
-.field private h:Lkik/android/widget/ContentPreviewImageView$ContentType;
+.field private h:Lkik/arcane/widget/ContentPreviewImageView$ContentType;
 
 
 # direct methods
@@ -37,7 +37,7 @@
     .line 96
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/ContentPreviewImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/ContentPreviewImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 97
     return-void
@@ -57,21 +57,21 @@
     invoke-direct {p0, p1, p2}, Landroid/support/v7/widget/AppCompatImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 90
-    iput v3, p0, Lkik/android/widget/ContentPreviewImageView;->f:F
+    iput v3, p0, Lkik/arcane/widget/ContentPreviewImageView;->f:F
 
     .line 91
-    iput v4, p0, Lkik/android/widget/ContentPreviewImageView;->g:F
+    iput v4, p0, Lkik/arcane/widget/ContentPreviewImageView;->g:F
 
     .line 92
-    sget-object v0, Lkik/android/widget/ContentPreviewImageView$ContentType;->DEFAULT:Lkik/android/widget/ContentPreviewImageView$ContentType;
+    sget-object v0, Lkik/arcane/widget/ContentPreviewImageView$ContentType;->DEFAULT:Lkik/arcane/widget/ContentPreviewImageView$ContentType;
 
-    iput-object v0, p0, Lkik/android/widget/ContentPreviewImageView;->h:Lkik/android/widget/ContentPreviewImageView$ContentType;
+    iput-object v0, p0, Lkik/arcane/widget/ContentPreviewImageView;->h:Lkik/arcane/widget/ContentPreviewImageView$ContentType;
 
     .line 103
     if-eqz p2, :cond_1
 
     .line 104
-    sget-object v0, Lkik/android/R$styleable;->ContentPreviewImageView:[I
+    sget-object v0, Lkik/arcane/R$styleable;->ContentPreviewImageView:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -85,7 +85,7 @@
     move-result v1
 
     .line 1144
-    iput v1, p0, Lkik/android/widget/ContentPreviewImageView;->g:F
+    iput v1, p0, Lkik/arcane/widget/ContentPreviewImageView;->g:F
 
     .line 107
     invoke-virtual {v0, v2, v3}, Landroid/content/res/TypedArray;->getFloat(IF)F
@@ -93,7 +93,7 @@
     move-result v1
 
     .line 2134
-    iput v1, p0, Lkik/android/widget/ContentPreviewImageView;->f:F
+    iput v1, p0, Lkik/arcane/widget/ContentPreviewImageView;->f:F
 
     .line 108
     const/4 v1, 0x2
@@ -103,14 +103,14 @@
     move-result-object v1
 
     .line 2149
-    iput-object v1, p0, Lkik/android/widget/ContentPreviewImageView;->a:Landroid/content/res/ColorStateList;
+    iput-object v1, p0, Lkik/arcane/widget/ContentPreviewImageView;->a:Landroid/content/res/ColorStateList;
 
     .line 2151
-    iget-object v1, p0, Lkik/android/widget/ContentPreviewImageView;->a:Landroid/content/res/ColorStateList;
+    iget-object v1, p0, Lkik/arcane/widget/ContentPreviewImageView;->a:Landroid/content/res/ColorStateList;
 
     if-eqz v1, :cond_0
 
-    iget-object v1, p0, Lkik/android/widget/ContentPreviewImageView;->a:Landroid/content/res/ColorStateList;
+    iget-object v1, p0, Lkik/arcane/widget/ContentPreviewImageView;->a:Landroid/content/res/ColorStateList;
 
     invoke-virtual {v1}, Landroid/content/res/ColorStateList;->isStateful()Z
 
@@ -119,7 +119,7 @@
     if-eqz v1, :cond_0
 
     .line 2152
-    invoke-direct {p0}, Lkik/android/widget/ContentPreviewImageView;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/ContentPreviewImageView;->a()V
 
     .line 110
     :cond_0
@@ -136,7 +136,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/ContentPreviewImageView;->b:Ljava/lang/reflect/Field;
+    iput-object v0, p0, Lkik/arcane/widget/ContentPreviewImageView;->b:Ljava/lang/reflect/Field;
 
     .line 115
     const-class v0, Landroid/widget/ImageView;
@@ -147,7 +147,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/ContentPreviewImageView;->c:Ljava/lang/reflect/Field;
+    iput-object v0, p0, Lkik/arcane/widget/ContentPreviewImageView;->c:Ljava/lang/reflect/Field;
 
     .line 116
     const-class v0, Landroid/view/View;
@@ -158,7 +158,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/ContentPreviewImageView;->d:Ljava/lang/reflect/Field;
+    iput-object v0, p0, Lkik/arcane/widget/ContentPreviewImageView;->d:Ljava/lang/reflect/Field;
 
     .line 117
     const-class v0, Landroid/view/View;
@@ -169,31 +169,31 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/ContentPreviewImageView;->e:Ljava/lang/reflect/Field;
+    iput-object v0, p0, Lkik/arcane/widget/ContentPreviewImageView;->e:Ljava/lang/reflect/Field;
 
     .line 118
-    iget-object v0, p0, Lkik/android/widget/ContentPreviewImageView;->b:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Lkik/arcane/widget/ContentPreviewImageView;->b:Ljava/lang/reflect/Field;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
     .line 119
-    iget-object v0, p0, Lkik/android/widget/ContentPreviewImageView;->c:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Lkik/arcane/widget/ContentPreviewImageView;->c:Ljava/lang/reflect/Field;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
     .line 120
-    iget-object v0, p0, Lkik/android/widget/ContentPreviewImageView;->d:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Lkik/arcane/widget/ContentPreviewImageView;->d:Ljava/lang/reflect/Field;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
     .line 121
-    iget-object v0, p0, Lkik/android/widget/ContentPreviewImageView;->e:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Lkik/arcane/widget/ContentPreviewImageView;->e:Ljava/lang/reflect/Field;
 
     const/4 v1, 0x1
 
@@ -218,7 +218,7 @@
     const/4 v0, 0x0
 
     .line 168
-    iget-object v1, p0, Lkik/android/widget/ContentPreviewImageView;->a:Landroid/content/res/ColorStateList;
+    iget-object v1, p0, Lkik/arcane/widget/ContentPreviewImageView;->a:Landroid/content/res/ColorStateList;
 
     if-nez v1, :cond_1
 
@@ -229,9 +229,9 @@
 
     .line 171
     :cond_1
-    iget-object v1, p0, Lkik/android/widget/ContentPreviewImageView;->a:Landroid/content/res/ColorStateList;
+    iget-object v1, p0, Lkik/arcane/widget/ContentPreviewImageView;->a:Landroid/content/res/ColorStateList;
 
-    invoke-virtual {p0}, Lkik/android/widget/ContentPreviewImageView;->getDrawableState()[I
+    invoke-virtual {p0}, Lkik/arcane/widget/ContentPreviewImageView;->getDrawableState()[I
 
     move-result-object v2
 
@@ -240,12 +240,12 @@
     move-result v2
 
     .line 173
-    invoke-virtual {p0}, Lkik/android/widget/ContentPreviewImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Lkik/arcane/widget/ContentPreviewImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v3
 
     .line 175
-    invoke-virtual {p0}, Lkik/android/widget/ContentPreviewImageView;->getDrawableState()[I
+    invoke-virtual {p0}, Lkik/arcane/widget/ContentPreviewImageView;->getDrawableState()[I
 
     move-result-object v4
 
@@ -304,19 +304,19 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/ContentPreviewImageView;)V
+.method static synthetic a(Lkik/arcane/widget/ContentPreviewImageView;)V
     .locals 1
 
     .prologue
     .line 81
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/ContentPreviewImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/ContentPreviewImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/ContentPreviewImageView;Landroid/graphics/Bitmap;)V
+.method static synthetic a(Lkik/arcane/widget/ContentPreviewImageView;Landroid/graphics/Bitmap;)V
     .locals 3
 
     .prologue
@@ -324,7 +324,7 @@
     const/4 v1, 0x0
 
     .line 47
-    invoke-virtual {p0}, Lkik/android/widget/ContentPreviewImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Lkik/arcane/widget/ContentPreviewImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -345,7 +345,7 @@
     if-nez v0, :cond_1
 
     .line 63
-    invoke-virtual {p0, p1}, Lkik/android/widget/ContentPreviewImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {p0, p1}, Lkik/arcane/widget/ContentPreviewImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     .line 74
     :goto_1
@@ -353,15 +353,15 @@
 
     .line 52
     :cond_0
-    instance-of v2, v0, Lkik/android/widget/ba;
+    instance-of v2, v0, Lkik/arcane/widget/ba;
 
     if-eqz v2, :cond_2
 
     .line 53
-    check-cast v0, Lkik/android/widget/ba;
+    check-cast v0, Lkik/arcane/widget/ba;
 
     .line 55
-    invoke-virtual {v0}, Lkik/android/widget/ba;->b()Landroid/graphics/Bitmap;
+    invoke-virtual {v0}, Lkik/arcane/widget/ba;->b()Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -369,21 +369,21 @@
 
     .line 66
     :cond_1
-    new-instance v1, Lkik/android/widget/ba;
+    new-instance v1, Lkik/arcane/widget/ba;
 
-    invoke-direct {v1, p1}, Lkik/android/widget/ba;-><init>(Landroid/graphics/Bitmap;)V
+    invoke-direct {v1, p1}, Lkik/arcane/widget/ba;-><init>(Landroid/graphics/Bitmap;)V
 
     .line 68
-    invoke-virtual {v1}, Lkik/android/widget/ba;->a()V
+    invoke-virtual {v1}, Lkik/arcane/widget/ba;->a()V
 
     .line 69
-    invoke-virtual {v1, p0}, Lkik/android/widget/ba;->setCallback(Landroid/graphics/drawable/Drawable$Callback;)V
+    invoke-virtual {v1, p0}, Lkik/arcane/widget/ba;->setCallback(Landroid/graphics/drawable/Drawable$Callback;)V
 
     .line 70
-    invoke-virtual {v1, v0, p1}, Lkik/android/widget/ba;->a(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;)V
+    invoke-virtual {v1, v0, p1}, Lkik/arcane/widget/ba;->a(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;)V
 
     .line 72
-    invoke-virtual {p0, v1}, Lkik/android/widget/ContentPreviewImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p0, v1}, Lkik/arcane/widget/ContentPreviewImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     goto :goto_1
 
@@ -393,7 +393,7 @@
     goto :goto_0
 .end method
 
-.method public static a(Lkik/android/widget/ContentPreviewImageView;Lkik/android/widget/ContentPreviewImageView$ContentType;)V
+.method public static a(Lkik/arcane/widget/ContentPreviewImageView;Lkik/arcane/widget/ContentPreviewImageView$ContentType;)V
     .locals 0
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -403,13 +403,13 @@
 
     .prologue
     .line 87
-    iput-object p1, p0, Lkik/android/widget/ContentPreviewImageView;->h:Lkik/android/widget/ContentPreviewImageView$ContentType;
+    iput-object p1, p0, Lkik/arcane/widget/ContentPreviewImageView;->h:Lkik/arcane/widget/ContentPreviewImageView$ContentType;
 
     .line 88
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/ContentPreviewImageView;Lrx/d;)V
+.method public static a(Lkik/arcane/widget/ContentPreviewImageView;Lrx/d;)V
     .locals 6
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -420,7 +420,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/ContentPreviewImageView;",
+            "Lkik/arcane/widget/ContentPreviewImageView;",
             "Lrx/d",
             "<",
             "Landroid/graphics/Bitmap;",
@@ -432,13 +432,13 @@
     .line 45
     const v0, 0x1010119
 
-    invoke-static {p0}, Lkik/android/widget/x;->a(Lkik/android/widget/ContentPreviewImageView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/x;->a(Lkik/arcane/widget/ContentPreviewImageView;)Lrx/functions/b;
 
     move-result-object v1
 
     const/4 v4, 0x0
 
-    invoke-static {p0}, Lkik/android/widget/y;->a(Lkik/android/widget/ContentPreviewImageView;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/widget/y;->a(Lkik/arcane/widget/ContentPreviewImageView;)Ljava/lang/Runnable;
 
     move-result-object v5
 
@@ -452,19 +452,19 @@
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/widget/ContentPreviewImageView;)V
+.method static synthetic b(Lkik/arcane/widget/ContentPreviewImageView;)V
     .locals 1
 
     .prologue
     .line 74
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/ContentPreviewImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/ContentPreviewImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     return-void
 .end method
 
-.method public static b(Lkik/android/widget/ContentPreviewImageView;Lrx/d;)V
+.method public static b(Lkik/arcane/widget/ContentPreviewImageView;Lrx/d;)V
     .locals 6
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -475,7 +475,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/ContentPreviewImageView;",
+            "Lkik/arcane/widget/ContentPreviewImageView;",
             "Lrx/d",
             "<",
             "Landroid/graphics/drawable/Drawable;",
@@ -489,13 +489,13 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/widget/z;->a(Lkik/android/widget/ContentPreviewImageView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/z;->a(Lkik/arcane/widget/ContentPreviewImageView;)Lrx/functions/b;
 
     move-result-object v1
 
     const/4 v4, 0x0
 
-    invoke-static {p0}, Lkik/android/widget/aa;->a(Lkik/android/widget/ContentPreviewImageView;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/widget/aa;->a(Lkik/arcane/widget/ContentPreviewImageView;)Ljava/lang/Runnable;
 
     move-result-object v5
 
@@ -516,7 +516,7 @@
 
     .prologue
     .line 134
-    iput p1, p0, Lkik/android/widget/ContentPreviewImageView;->f:F
+    iput p1, p0, Lkik/arcane/widget/ContentPreviewImageView;->f:F
 
     .line 135
     return-void
@@ -527,7 +527,7 @@
 
     .prologue
     .line 144
-    iput p1, p0, Lkik/android/widget/ContentPreviewImageView;->g:F
+    iput p1, p0, Lkik/arcane/widget/ContentPreviewImageView;->g:F
 
     .line 145
     return-void
@@ -541,11 +541,11 @@
     invoke-super {p0}, Landroid/support/v7/widget/AppCompatImageView;->drawableStateChanged()V
 
     .line 161
-    iget-object v0, p0, Lkik/android/widget/ContentPreviewImageView;->a:Landroid/content/res/ColorStateList;
+    iget-object v0, p0, Lkik/arcane/widget/ContentPreviewImageView;->a:Landroid/content/res/ColorStateList;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/widget/ContentPreviewImageView;->a:Landroid/content/res/ColorStateList;
+    iget-object v0, p0, Lkik/arcane/widget/ContentPreviewImageView;->a:Landroid/content/res/ColorStateList;
 
     invoke-virtual {v0}, Landroid/content/res/ColorStateList;->isStateful()Z
 
@@ -554,7 +554,7 @@
     if-eqz v0, :cond_0
 
     .line 162
-    invoke-direct {p0}, Lkik/android/widget/ContentPreviewImageView;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/ContentPreviewImageView;->a()V
 
     .line 164
     :cond_0
@@ -566,7 +566,7 @@
 
     .prologue
     .line 217
-    invoke-virtual {p0}, Lkik/android/widget/ContentPreviewImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Lkik/arcane/widget/ContentPreviewImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -598,18 +598,18 @@
     const/4 v0, 0x0
 
     .line 228
-    iget-object v2, p0, Lkik/android/widget/ContentPreviewImageView;->h:Lkik/android/widget/ContentPreviewImageView$ContentType;
+    iget-object v2, p0, Lkik/arcane/widget/ContentPreviewImageView;->h:Lkik/arcane/widget/ContentPreviewImageView$ContentType;
 
-    sget-object v3, Lkik/android/widget/ContentPreviewImageView$ContentType;->DEFAULT:Lkik/android/widget/ContentPreviewImageView$ContentType;
+    sget-object v3, Lkik/arcane/widget/ContentPreviewImageView$ContentType;->DEFAULT:Lkik/arcane/widget/ContentPreviewImageView$ContentType;
 
     if-eq v2, v3, :cond_2
 
     .line 229
-    sget-object v2, Lkik/android/widget/ContentPreviewImageView$1;->a:[I
+    sget-object v2, Lkik/arcane/widget/ContentPreviewImageView$1;->a:[I
 
-    iget-object v3, p0, Lkik/android/widget/ContentPreviewImageView;->h:Lkik/android/widget/ContentPreviewImageView$ContentType;
+    iget-object v3, p0, Lkik/arcane/widget/ContentPreviewImageView;->h:Lkik/arcane/widget/ContentPreviewImageView$ContentType;
 
-    invoke-virtual {v3}, Lkik/android/widget/ContentPreviewImageView$ContentType;->ordinal()I
+    invoke-virtual {v3}, Lkik/arcane/widget/ContentPreviewImageView$ContentType;->ordinal()I
 
     move-result v3
 
@@ -619,13 +619,13 @@
 
     .line 249
     :goto_1
-    invoke-virtual {p0, v1, v0}, Lkik/android/widget/ContentPreviewImageView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v1, v0}, Lkik/arcane/widget/ContentPreviewImageView;->setMeasuredDimension(II)V
 
     goto :goto_0
 
     .line 231
     :pswitch_0
-    invoke-virtual {p0}, Lkik/android/widget/ContentPreviewImageView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/ContentPreviewImageView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -638,7 +638,7 @@
     float-to-int v1, v0
 
     .line 232
-    invoke-virtual {p0}, Lkik/android/widget/ContentPreviewImageView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/ContentPreviewImageView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -665,7 +665,7 @@
     div-double v2, v0, v2
 
     .line 237
-    invoke-virtual {p0}, Lkik/android/widget/ContentPreviewImageView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/ContentPreviewImageView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -700,7 +700,7 @@
     div-double v2, v0, v2
 
     .line 242
-    invoke-virtual {p0}, Lkik/android/widget/ContentPreviewImageView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/ContentPreviewImageView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -740,7 +740,7 @@
 
     .line 259
     :try_start_0
-    iget-object v0, p0, Lkik/android/widget/ContentPreviewImageView;->b:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Lkik/arcane/widget/ContentPreviewImageView;->b:Ljava/lang/reflect/Field;
 
     invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -753,7 +753,7 @@
     move-result v1
 
     .line 260
-    iget-object v0, p0, Lkik/android/widget/ContentPreviewImageView;->c:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Lkik/arcane/widget/ContentPreviewImageView;->c:Ljava/lang/reflect/Field;
 
     invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -766,7 +766,7 @@
     move-result v2
 
     .line 261
-    iget-object v0, p0, Lkik/android/widget/ContentPreviewImageView;->d:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Lkik/arcane/widget/ContentPreviewImageView;->d:Ljava/lang/reflect/Field;
 
     invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -779,7 +779,7 @@
     move-result v4
 
     .line 262
-    iget-object v0, p0, Lkik/android/widget/ContentPreviewImageView;->e:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Lkik/arcane/widget/ContentPreviewImageView;->e:Ljava/lang/reflect/Field;
 
     invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -797,7 +797,7 @@
 
     .line 268
     :goto_2
-    invoke-virtual {p0}, Lkik/android/widget/ContentPreviewImageView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/ContentPreviewImageView;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -895,7 +895,7 @@
     div-double/2addr v2, v6
 
     .line 3139
-    iget v4, p0, Lkik/android/widget/ContentPreviewImageView;->g:F
+    iget v4, p0, Lkik/arcane/widget/ContentPreviewImageView;->g:F
 
     .line 302
     float-to-double v6, v4
@@ -905,7 +905,7 @@
     if-lez v4, :cond_7
 
     .line 4139
-    iget v2, p0, Lkik/android/widget/ContentPreviewImageView;->g:F
+    iget v2, p0, Lkik/arcane/widget/ContentPreviewImageView;->g:F
 
     .line 303
     float-to-double v2, v2
@@ -913,7 +913,7 @@
     .line 309
     :cond_6
     :goto_4
-    invoke-virtual {p0}, Lkik/android/widget/ContentPreviewImageView;->getMeasuredWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/ContentPreviewImageView;->getMeasuredWidth()I
 
     move-result v4
 
@@ -922,15 +922,15 @@
     if-eqz v1, :cond_8
 
     .line 310
-    invoke-virtual {p0}, Lkik/android/widget/ContentPreviewImageView;->getMeasuredWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/ContentPreviewImageView;->getMeasuredWidth()I
 
     move-result v0
 
-    invoke-virtual {p0}, Lkik/android/widget/ContentPreviewImageView;->getMeasuredHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/ContentPreviewImageView;->getMeasuredHeight()I
 
     move-result v1
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/widget/ContentPreviewImageView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/widget/ContentPreviewImageView;->setMeasuredDimension(II)V
 
     goto/16 :goto_0
 
@@ -953,7 +953,7 @@
 
     .line 5129
     :cond_7
-    iget v4, p0, Lkik/android/widget/ContentPreviewImageView;->f:F
+    iget v4, p0, Lkik/arcane/widget/ContentPreviewImageView;->f:F
 
     .line 305
     float-to-double v6, v4
@@ -963,7 +963,7 @@
     if-gez v4, :cond_6
 
     .line 6129
-    iget v2, p0, Lkik/android/widget/ContentPreviewImageView;->f:F
+    iget v2, p0, Lkik/arcane/widget/ContentPreviewImageView;->f:F
 
     .line 306
     float-to-double v2, v2
@@ -981,11 +981,11 @@
     if-ne v4, v6, :cond_9
 
     .line 315
-    invoke-virtual {p0}, Lkik/android/widget/ContentPreviewImageView;->getMeasuredHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/ContentPreviewImageView;->getMeasuredHeight()I
 
     move-result v0
 
-    invoke-virtual {p0, v1, v0}, Lkik/android/widget/ContentPreviewImageView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v1, v0}, Lkik/arcane/widget/ContentPreviewImageView;->setMeasuredDimension(II)V
 
     goto/16 :goto_0
 
@@ -1000,11 +1000,11 @@
     if-ne v4, v6, :cond_a
 
     .line 319
-    invoke-virtual {p0}, Lkik/android/widget/ContentPreviewImageView;->getMeasuredWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/ContentPreviewImageView;->getMeasuredWidth()I
 
     move-result v1
 
-    invoke-virtual {p0, v1, v0}, Lkik/android/widget/ContentPreviewImageView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v1, v0}, Lkik/arcane/widget/ContentPreviewImageView;->setMeasuredDimension(II)V
 
     goto/16 :goto_0
 
@@ -1052,7 +1052,7 @@
 
     .line 343
     :goto_6
-    invoke-virtual {p0, v1, v0}, Lkik/android/widget/ContentPreviewImageView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v1, v0}, Lkik/arcane/widget/ContentPreviewImageView;->setMeasuredDimension(II)V
 
     goto/16 :goto_0
 
@@ -1101,14 +1101,14 @@
     const/4 v1, 0x0
 
     .line 197
-    invoke-virtual {p0}, Lkik/android/widget/ContentPreviewImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Lkik/arcane/widget/ContentPreviewImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
     if-eq v0, p1, :cond_0
 
     .line 198
-    invoke-virtual {p0, v1, v1}, Lkik/android/widget/ContentPreviewImageView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v1, v1}, Lkik/arcane/widget/ContentPreviewImageView;->setMeasuredDimension(II)V
 
     .line 201
     :cond_0
@@ -1128,11 +1128,11 @@
     invoke-interface {p1}, Landroid/graphics/drawable/Animatable;->stop()V
 
     .line 206
-    invoke-virtual {p0}, Lkik/android/widget/ContentPreviewImageView;->getHandler()Landroid/os/Handler;
+    invoke-virtual {p0}, Lkik/arcane/widget/ContentPreviewImageView;->getHandler()Landroid/os/Handler;
 
     move-result-object v0
 
-    invoke-static {p1}, Lkik/android/widget/ab;->a(Landroid/graphics/drawable/Animatable;)Ljava/lang/Runnable;
+    invoke-static {p1}, Lkik/arcane/widget/ab;->a(Landroid/graphics/drawable/Animatable;)Ljava/lang/Runnable;
 
     move-result-object v1
 
@@ -1140,11 +1140,11 @@
 
     .line 209
     :cond_1
-    iget-object v0, p0, Lkik/android/widget/ContentPreviewImageView;->a:Landroid/content/res/ColorStateList;
+    iget-object v0, p0, Lkik/arcane/widget/ContentPreviewImageView;->a:Landroid/content/res/ColorStateList;
 
     if-eqz v0, :cond_2
 
-    iget-object v0, p0, Lkik/android/widget/ContentPreviewImageView;->a:Landroid/content/res/ColorStateList;
+    iget-object v0, p0, Lkik/arcane/widget/ContentPreviewImageView;->a:Landroid/content/res/ColorStateList;
 
     invoke-virtual {v0}, Landroid/content/res/ColorStateList;->isStateful()Z
 
@@ -1153,7 +1153,7 @@
     if-eqz v0, :cond_2
 
     .line 210
-    invoke-direct {p0}, Lkik/android/widget/ContentPreviewImageView;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/ContentPreviewImageView;->a()V
 
     .line 212
     :cond_2

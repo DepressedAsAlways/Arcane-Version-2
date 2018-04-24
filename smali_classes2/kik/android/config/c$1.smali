@@ -1,11 +1,11 @@
-.class final Lkik/android/config/c$1;
+.class final Lkik/arcane/config/c$1;
 .super Lkik/core/net/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/config/c;
+    value = Lkik/arcane/config/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

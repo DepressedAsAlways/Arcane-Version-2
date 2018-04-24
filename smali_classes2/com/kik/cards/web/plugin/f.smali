@@ -937,7 +937,7 @@
     .line 401
     const-string v0, "metricsUrl"
 
-    invoke-static {v6}, Lkik/android/util/br;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v6}, Lkik/arcane/util/br;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -1508,7 +1508,7 @@
     move-exception v0
 
     .line 264
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v1
 
@@ -1611,7 +1611,7 @@
     move-exception v0
 
     .line 273
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v1
 

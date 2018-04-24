@@ -14,6 +14,6 @@
         <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/ok_button" android:background="?selectableItemBackground" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/title_done" android:layout_weight="0.5" />
     </LinearLayout>
     <FrameLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/bottom_bar" android:layout_below="@id/top_bar_layout">
-        <kik.android.widget.KikCropView android:gravity="center" android:layout_gravity="center" android:id="@id/crop_view" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ratioWidth="1" />
+        <kik.arcane.widget.KikCropView android:gravity="center" android:layout_gravity="center" android:id="@id/crop_view" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ratioWidth="1" />
     </FrameLayout>
 </RelativeLayout>

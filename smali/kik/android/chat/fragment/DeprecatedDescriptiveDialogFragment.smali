@@ -1,23 +1,23 @@
-.class public Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment;
-.super Lkik/android/chat/fragment/DescriptiveDialogFragment;
+.class public Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment;
+.super Lkik/arcane/chat/fragment/DescriptiveDialogFragment;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment$a;
+        Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment$a;
     }
 .end annotation
 
 
 # instance fields
-.field protected a:Lcom/kik/android/Mixpanel;
+.field protected a:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
 
-.field private final b:Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment$a;
+.field private final b:Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment$a;
 
 .field private c:Lcom/kik/util/a;
 
@@ -28,14 +28,14 @@
 
     .prologue
     .line 16
-    invoke-direct {p0}, Lkik/android/chat/fragment/DescriptiveDialogFragment;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/DescriptiveDialogFragment;-><init>()V
 
     .line 18
-    new-instance v0, Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment$a;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment;->b:Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment$a;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment;->b:Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment$a;
 
     return-void
 .end method
@@ -47,7 +47,7 @@
 
     .prologue
     .line 50
-    invoke-virtual {p0}, Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -65,9 +65,9 @@
 
     .prologue
     .line 56
-    iget-object v0, p0, Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment;->b:Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment$a;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment;->b:Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment$a;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment$a;->k_()Ljava/lang/String;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment$a;->k_()Ljava/lang/String;
 
     move-result-object v0
 
@@ -89,7 +89,7 @@
 
     .prologue
     .line 68
-    invoke-virtual {p0}, Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -114,7 +114,7 @@
     invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
     .line 76
-    const-string v1, "market://details?id=kik.android"
+    const-string v1, "market://details?id=kik.arcane"
 
     invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -123,22 +123,22 @@
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
     .line 77
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment;->startActivity(Landroid/content/Intent;)V
 
     .line 79
-    iget-object v0, p0, Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Update Required Update Tapped"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 80
     return-void
@@ -149,7 +149,7 @@
 
     .prologue
     .line 26
-    invoke-virtual {p0}, Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v0
 
@@ -157,70 +157,70 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/e;
+    check-cast v0, Lkik/arcane/chat/e;
 
-    invoke-interface {v0}, Lkik/android/chat/e;->a()Lcom/kik/components/CoreComponent;
+    invoke-interface {v0}, Lkik/arcane/chat/e;->a()Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 
-    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment;)V
+    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment;)V
 
     .line 27
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/DescriptiveDialogFragment;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/DescriptiveDialogFragment;->onCreate(Landroid/os/Bundle;)V
 
     .line 30
-    new-instance v0, Lkik/android/util/ar;
+    new-instance v0, Lkik/arcane/util/ar;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lkik/android/util/ar;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lkik/arcane/util/ar;-><init>(Landroid/content/Context;)V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment;->c:Lcom/kik/util/a;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment;->c:Lcom/kik/util/a;
 
     .line 33
-    iget-object v0, p0, Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Update Required Dialog Shown"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Version"
 
-    iget-object v2, p0, Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment;->c:Lcom/kik/util/a;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment;->c:Lcom/kik/util/a;
 
     .line 34
     invoke-virtual {v2}, Lcom/kik/util/a;->a()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Source"
 
-    iget-object v2, p0, Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment;->b:Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment$a;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment;->b:Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment$a;
 
     .line 35
-    invoke-virtual {v2}, Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment$a;->b()Ljava/lang/String;
+    invoke-virtual {v2}, Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment$a;->b()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 36
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 37
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 38
     return-void
@@ -231,12 +231,12 @@
 
     .prologue
     .line 43
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/DescriptiveDialogFragment;->setArguments(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/DescriptiveDialogFragment;->setArguments(Landroid/os/Bundle;)V
 
     .line 44
-    iget-object v0, p0, Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment;->b:Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment$a;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment;->b:Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment$a;
 
-    invoke-virtual {v0, p1}, Lkik/android/chat/fragment/DeprecatedDescriptiveDialogFragment$a;->a(Landroid/os/Bundle;)V
+    invoke-virtual {v0, p1}, Lkik/arcane/chat/fragment/DeprecatedDescriptiveDialogFragment$a;->a(Landroid/os/Bundle;)V
 
     .line 45
     return-void

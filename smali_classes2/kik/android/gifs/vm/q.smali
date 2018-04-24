@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/gifs/vm/q;
+.class final synthetic Lkik/arcane/gifs/vm/q;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/gifs/vm/p;
+.field private final a:Lkik/arcane/gifs/vm/p;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/gifs/vm/p;)V
+.method private constructor <init>(Lkik/arcane/gifs/vm/p;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/gifs/vm/q;->a:Lkik/android/gifs/vm/p;
+    iput-object p1, p0, Lkik/arcane/gifs/vm/q;->a:Lkik/arcane/gifs/vm/p;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/gifs/vm/p;)Lrx/functions/d;
+.method public static a(Lkik/arcane/gifs/vm/p;)Lrx/functions/d;
     .locals 1
 
-    new-instance v0, Lkik/android/gifs/vm/q;
+    new-instance v0, Lkik/arcane/gifs/vm/q;
 
-    invoke-direct {v0, p0}, Lkik/android/gifs/vm/q;-><init>(Lkik/android/gifs/vm/p;)V
+    invoke-direct {v0, p0}, Lkik/arcane/gifs/vm/q;-><init>(Lkik/arcane/gifs/vm/p;)V
 
     return-object v0
 .end method
@@ -35,7 +35,7 @@
 .method public final a(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 2
 
-    iget-object v0, p0, Lkik/android/gifs/vm/q;->a:Lkik/android/gifs/vm/p;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/q;->a:Lkik/arcane/gifs/vm/p;
 
     check-cast p1, Ljava/lang/String;
 
@@ -47,7 +47,7 @@
 
     move-result v1
 
-    invoke-static {v0, p1, p2, v1}, Lkik/android/gifs/vm/p;->a(Lkik/android/gifs/vm/p;Ljava/lang/String;Ljava/lang/String;Z)V
+    invoke-static {v0, p1, p2, v1}, Lkik/arcane/gifs/vm/p;->a(Lkik/arcane/gifs/vm/p;Ljava/lang/String;Ljava/lang/String;Z)V
 
     return-void
 .end method

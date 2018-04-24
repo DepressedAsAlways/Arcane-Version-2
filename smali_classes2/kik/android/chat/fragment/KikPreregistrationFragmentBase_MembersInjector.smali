@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;
+.class public final Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/b",
         "<",
-        "Lkik/android/chat/fragment/KikPreregistrationFragmentBase;",
+        "Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase;",
         ">;"
     }
 .end annotation
@@ -72,7 +72,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -116,7 +116,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/util/aj;",
+            "Lkik/arcane/util/aj;",
             ">;"
         }
     .end annotation
@@ -140,7 +140,7 @@
 
     .prologue
     .line 17
-    const-class v0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;
+    const-class v0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;
 
     invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
 
@@ -151,7 +151,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    sput-boolean v0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a:Z
+    sput-boolean v0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a:Z
 
     return-void
 
@@ -184,7 +184,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -200,7 +200,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/util/aj;",
+            "Lkik/arcane/util/aj;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -214,7 +214,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 54
-    sget-boolean v0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a:Z
 
     if-nez v0, :cond_0
 
@@ -228,10 +228,10 @@
 
     .line 55
     :cond_0
-    iput-object p1, p0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->b:Ljavax/inject/Provider;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->b:Ljavax/inject/Provider;
 
     .line 56
-    sget-boolean v0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a:Z
 
     if-nez v0, :cond_1
 
@@ -245,10 +245,10 @@
 
     .line 57
     :cond_1
-    iput-object p2, p0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->c:Ljavax/inject/Provider;
+    iput-object p2, p0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->c:Ljavax/inject/Provider;
 
     .line 58
-    sget-boolean v0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a:Z
 
     if-nez v0, :cond_2
 
@@ -262,10 +262,10 @@
 
     .line 59
     :cond_2
-    iput-object p3, p0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->d:Ljavax/inject/Provider;
+    iput-object p3, p0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->d:Ljavax/inject/Provider;
 
     .line 60
-    sget-boolean v0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a:Z
 
     if-nez v0, :cond_3
 
@@ -279,10 +279,10 @@
 
     .line 61
     :cond_3
-    iput-object p4, p0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->e:Ljavax/inject/Provider;
+    iput-object p4, p0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->e:Ljavax/inject/Provider;
 
     .line 62
-    sget-boolean v0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a:Z
 
     if-nez v0, :cond_4
 
@@ -296,10 +296,10 @@
 
     .line 63
     :cond_4
-    iput-object p5, p0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->f:Ljavax/inject/Provider;
+    iput-object p5, p0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->f:Ljavax/inject/Provider;
 
     .line 64
-    sget-boolean v0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a:Z
 
     if-nez v0, :cond_5
 
@@ -313,10 +313,10 @@
 
     .line 65
     :cond_5
-    iput-object p6, p0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->g:Ljavax/inject/Provider;
+    iput-object p6, p0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->g:Ljavax/inject/Provider;
 
     .line 66
-    sget-boolean v0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a:Z
 
     if-nez v0, :cond_6
 
@@ -330,10 +330,10 @@
 
     .line 67
     :cond_6
-    iput-object p7, p0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->h:Ljavax/inject/Provider;
+    iput-object p7, p0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->h:Ljavax/inject/Provider;
 
     .line 68
-    sget-boolean v0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a:Z
 
     if-nez v0, :cond_7
 
@@ -347,10 +347,10 @@
 
     .line 69
     :cond_7
-    iput-object p8, p0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->i:Ljavax/inject/Provider;
+    iput-object p8, p0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->i:Ljavax/inject/Provider;
 
     .line 70
-    sget-boolean v0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a:Z
 
     if-nez v0, :cond_8
 
@@ -364,10 +364,10 @@
 
     .line 71
     :cond_8
-    iput-object p9, p0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->j:Ljavax/inject/Provider;
+    iput-object p9, p0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->j:Ljavax/inject/Provider;
 
     .line 72
-    sget-boolean v0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->a:Z
 
     if-nez v0, :cond_9
 
@@ -381,7 +381,7 @@
 
     .line 73
     :cond_9
-    iput-object p10, p0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->k:Ljavax/inject/Provider;
+    iput-object p10, p0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->k:Ljavax/inject/Provider;
 
     .line 74
     return-void
@@ -410,7 +410,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -426,7 +426,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/util/aj;",
+            "Lkik/arcane/util/aj;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -434,14 +434,14 @@
             ">;)",
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/KikPreregistrationFragmentBase;",
+            "Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 87
-    new-instance v0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;
+    new-instance v0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;
 
     move-object v1, p0
 
@@ -463,7 +463,7 @@
 
     move-object/from16 v10, p9
 
-    invoke-direct/range {v0 .. v10}, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
+    invoke-direct/range {v0 .. v10}, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
 
     return-object v0
 .end method
@@ -475,7 +475,7 @@
 
     .prologue
     .line 17
-    check-cast p1, Lkik/android/chat/fragment/KikPreregistrationFragmentBase;
+    check-cast p1, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase;
 
     .line 1102
     if-nez p1, :cond_0
@@ -491,7 +491,7 @@
 
     .line 1105
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->b:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->b:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -499,10 +499,10 @@
 
     check-cast v0, Lkik/core/interfaces/ad;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikScopedDialogFragment;->_storage:Lkik/core/interfaces/ad;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->_storage:Lkik/core/interfaces/ad;
 
     .line 1106
-    iget-object v0, p0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->c:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->c:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -510,10 +510,10 @@
 
     check-cast v0, Lcom/kik/metrics/c/d;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikScopedDialogFragment;->_metricsService:Lcom/kik/metrics/c/d;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->_metricsService:Lcom/kik/metrics/c/d;
 
     .line 1107
-    iget-object v0, p0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->d:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->d:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -521,10 +521,10 @@
 
     check-cast v0, Lkik/core/interfaces/ICommunication;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikIqFragmentBase;->_comm:Lkik/core/interfaces/ICommunication;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikIqFragmentBase;->_comm:Lkik/core/interfaces/ICommunication;
 
     .line 1108
-    iget-object v0, p0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->e:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->e:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -532,21 +532,21 @@
 
     check-cast v0, Lkik/core/interfaces/b;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikPreregistrationFragmentBase;->k:Lkik/core/interfaces/b;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase;->k:Lkik/core/interfaces/b;
 
     .line 1109
-    iget-object v0, p0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->f:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->f:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/Mixpanel;
+    check-cast v0, Lcom/kik/arcane/Mixpanel;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikPreregistrationFragmentBase;->l:Lcom/kik/android/Mixpanel;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase;->l:Lcom/kik/arcane/Mixpanel;
 
     .line 1110
-    iget-object v0, p0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->g:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->g:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -554,10 +554,10 @@
 
     check-cast v0, Lkik/core/interfaces/z;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikPreregistrationFragmentBase;->m:Lkik/core/interfaces/z;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase;->m:Lkik/core/interfaces/z;
 
     .line 1111
-    iget-object v0, p0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->h:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->h:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -565,10 +565,10 @@
 
     check-cast v0, Lkik/core/interfaces/ag;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikPreregistrationFragmentBase;->n:Lkik/core/interfaces/ag;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase;->n:Lkik/core/interfaces/ag;
 
     .line 1112
-    iget-object v0, p0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->b:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->b:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -576,10 +576,10 @@
 
     check-cast v0, Lkik/core/interfaces/ad;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikPreregistrationFragmentBase;->o:Lkik/core/interfaces/ad;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase;->o:Lkik/core/interfaces/ad;
 
     .line 1113
-    iget-object v0, p0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->i:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->i:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -587,21 +587,21 @@
 
     check-cast v0, Lkik/core/aa;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikPreregistrationFragmentBase;->p:Lkik/core/aa;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase;->p:Lkik/core/aa;
 
     .line 1114
-    iget-object v0, p0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->j:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->j:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/util/aj;
+    check-cast v0, Lkik/arcane/util/aj;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikPreregistrationFragmentBase;->q:Lkik/android/util/aj;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase;->q:Lkik/arcane/util/aj;
 
     .line 1115
-    iget-object v0, p0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->d:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->d:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -609,10 +609,10 @@
 
     check-cast v0, Lkik/core/interfaces/ICommunication;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikPreregistrationFragmentBase;->r:Lkik/core/interfaces/ICommunication;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase;->r:Lkik/core/interfaces/ICommunication;
 
     .line 1116
-    iget-object v0, p0, Lkik/android/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->k:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase_MembersInjector;->k:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -620,7 +620,7 @@
 
     check-cast v0, Lkik/core/ICoreEvents;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikPreregistrationFragmentBase;->s:Lkik/core/ICoreEvents;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikPreregistrationFragmentBase;->s:Lkik/core/ICoreEvents;
 
     .line 17
     return-void

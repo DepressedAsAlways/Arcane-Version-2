@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/presentation/bs$b;
+.class final Lkik/arcane/chat/presentation/bs$b;
 .super Ljava/util/TimerTask;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/presentation/bs;
+    value = Lkik/arcane/chat/presentation/bs;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -21,7 +21,7 @@
 # instance fields
 .field private final b:Ljava/lang/String;
 
-.field private final c:Lkik/android/chat/view/ae;
+.field private final c:Lkik/arcane/chat/view/ae;
 
 
 # direct methods
@@ -38,12 +38,12 @@
 
     invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    sput-object v0, Lkik/android/chat/presentation/bs$b;->a:Landroid/os/Handler;
+    sput-object v0, Lkik/arcane/chat/presentation/bs$b;->a:Landroid/os/Handler;
 
     return-void
 .end method
 
-.method public constructor <init>(Ljava/lang/String;Lkik/android/chat/view/ae;)V
+.method public constructor <init>(Ljava/lang/String;Lkik/arcane/chat/view/ae;)V
     .locals 0
 
     .prologue
@@ -51,10 +51,10 @@
     invoke-direct {p0}, Ljava/util/TimerTask;-><init>()V
 
     .line 83
-    iput-object p1, p0, Lkik/android/chat/presentation/bs$b;->b:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/chat/presentation/bs$b;->b:Ljava/lang/String;
 
     .line 84
-    iput-object p2, p0, Lkik/android/chat/presentation/bs$b;->c:Lkik/android/chat/view/ae;
+    iput-object p2, p0, Lkik/arcane/chat/presentation/bs$b;->c:Lkik/arcane/chat/view/ae;
 
     .line 85
     return-void
@@ -78,7 +78,7 @@
     if-eq v0, v1, :cond_0
 
     .line 91
-    sget-object v0, Lkik/android/chat/presentation/bs$b;->a:Landroid/os/Handler;
+    sget-object v0, Lkik/arcane/chat/presentation/bs$b;->a:Landroid/os/Handler;
 
     invoke-virtual {v0, p0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
@@ -88,11 +88,11 @@
 
     .line 94
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/presentation/bs$b;->c:Lkik/android/chat/view/ae;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/bs$b;->c:Lkik/arcane/chat/view/ae;
 
-    iget-object v1, p0, Lkik/android/chat/presentation/bs$b;->b:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/bs$b;->b:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Lkik/android/chat/view/ae;->a(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/view/ae;->a(Ljava/lang/String;)V
 
     goto :goto_0
 .end method

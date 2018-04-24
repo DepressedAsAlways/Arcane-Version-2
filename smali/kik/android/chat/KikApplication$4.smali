@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/KikApplication$4;
+.class final Lkik/arcane/chat/KikApplication$4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/KikApplication;
+    value = Lkik/arcane/chat/KikApplication;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/KikApplication;
+.field final synthetic a:Lkik/arcane/chat/KikApplication;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/KikApplication;)V
+.method constructor <init>(Lkik/arcane/chat/KikApplication;)V
     .locals 0
 
     .prologue
     .line 732
-    iput-object p1, p0, Lkik/android/chat/KikApplication$4;->a:Lkik/android/chat/KikApplication;
+    iput-object p1, p0, Lkik/arcane/chat/KikApplication$4;->a:Lkik/arcane/chat/KikApplication;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -56,13 +56,13 @@
     .line 1737
     new-instance v0, Landroid/content/Intent;
 
-    iget-object v1, p0, Lkik/android/chat/KikApplication$4;->a:Lkik/android/chat/KikApplication;
+    iget-object v1, p0, Lkik/arcane/chat/KikApplication$4;->a:Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v1}, Lkik/android/chat/KikApplication;->getBaseContext()Landroid/content/Context;
+    invoke-virtual {v1}, Lkik/arcane/chat/KikApplication;->getBaseContext()Landroid/content/Context;
 
     move-result-object v1
 
-    const-class v2, Lkik/android/AlarmReceiver;
+    const-class v2, Lkik/arcane/AlarmReceiver;
 
     invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
@@ -72,9 +72,9 @@
     invoke-virtual {v0, v1}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
 
     .line 1739
-    iget-object v1, p0, Lkik/android/chat/KikApplication$4;->a:Lkik/android/chat/KikApplication;
+    iget-object v1, p0, Lkik/arcane/chat/KikApplication$4;->a:Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v1}, Lkik/android/chat/KikApplication;->getBaseContext()Landroid/content/Context;
+    invoke-virtual {v1}, Lkik/arcane/chat/KikApplication;->getBaseContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -97,38 +97,38 @@
     invoke-virtual {v2, v0, v3}, Ljava/util/Calendar;->add(II)V
 
     .line 1742
-    iget-object v0, p0, Lkik/android/chat/KikApplication$4;->a:Lkik/android/chat/KikApplication;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication$4;->a:Lkik/arcane/chat/KikApplication;
 
     const-string v3, "alarm"
 
-    invoke-virtual {v0, v3}, Lkik/android/chat/KikApplication;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v0, v3}, Lkik/arcane/chat/KikApplication;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Landroid/app/AlarmManager;
 
     .line 1744
-    iget-object v3, p0, Lkik/android/chat/KikApplication$4;->a:Lkik/android/chat/KikApplication;
+    iget-object v3, p0, Lkik/arcane/chat/KikApplication$4;->a:Lkik/arcane/chat/KikApplication;
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->w(Lkik/android/chat/KikApplication;)Lcom/kik/events/d;
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->w(Lkik/arcane/chat/KikApplication;)Lcom/kik/events/d;
 
     move-result-object v3
 
     invoke-virtual {v3}, Lcom/kik/events/d;->a()V
 
     .line 1745
-    iget-object v3, p0, Lkik/android/chat/KikApplication$4;->a:Lkik/android/chat/KikApplication;
+    iget-object v3, p0, Lkik/arcane/chat/KikApplication$4;->a:Lkik/arcane/chat/KikApplication;
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->x(Lkik/android/chat/KikApplication;)Ljava/util/TimerTask;
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->x(Lkik/arcane/chat/KikApplication;)Ljava/util/TimerTask;
 
     move-result-object v3
 
     invoke-virtual {v3}, Ljava/util/TimerTask;->cancel()Z
 
     .line 1746
-    iget-object v3, p0, Lkik/android/chat/KikApplication$4;->a:Lkik/android/chat/KikApplication;
+    iget-object v3, p0, Lkik/arcane/chat/KikApplication$4;->a:Lkik/arcane/chat/KikApplication;
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->y(Lkik/android/chat/KikApplication;)Ljava/util/Timer;
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->y(Lkik/arcane/chat/KikApplication;)Ljava/util/Timer;
 
     move-result-object v3
 

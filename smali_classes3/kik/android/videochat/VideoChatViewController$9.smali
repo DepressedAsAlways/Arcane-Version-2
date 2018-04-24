@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/videochat/VideoChatViewController$9;
+.class final synthetic Lkik/arcane/videochat/VideoChatViewController$9;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/videochat/VideoChatViewController;
+    value = Lkik/arcane/videochat/VideoChatViewController;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -32,10 +32,10 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/videochat/VideoChatViewController$9;->a:[I
+    sput-object v0, Lkik/arcane/videochat/VideoChatViewController$9;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/videochat/VideoChatViewController$9;->a:[I
+    sget-object v0, Lkik/arcane/videochat/VideoChatViewController$9;->a:[I
 
     sget-object v1, Lcom/kik/video/mobile/KikVideoService$JoinConvoConferenceResponse$Result;->OK:Lcom/kik/video/mobile/KikVideoService$JoinConvoConferenceResponse$Result;
 
@@ -51,7 +51,7 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/videochat/VideoChatViewController$9;->a:[I
+    sget-object v0, Lkik/arcane/videochat/VideoChatViewController$9;->a:[I
 
     sget-object v1, Lcom/kik/video/mobile/KikVideoService$JoinConvoConferenceResponse$Result;->FULL:Lcom/kik/video/mobile/KikVideoService$JoinConvoConferenceResponse$Result;
 
@@ -67,7 +67,7 @@
 
     :goto_1
     :try_start_2
-    sget-object v0, Lkik/android/videochat/VideoChatViewController$9;->a:[I
+    sget-object v0, Lkik/arcane/videochat/VideoChatViewController$9;->a:[I
 
     sget-object v1, Lcom/kik/video/mobile/KikVideoService$JoinConvoConferenceResponse$Result;->NOT_ALLOWED:Lcom/kik/video/mobile/KikVideoService$JoinConvoConferenceResponse$Result;
 

@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/sdkutils/concurrent/g;
+.class public interface abstract Lkik/arcane/sdkutils/concurrent/g;
 .super Ljava/lang/Object;
 .source "SourceFile"
 

@@ -1,4 +1,4 @@
-.class public final Lcom/kik/android/stickers/b;
+.class public final Lcom/kik/arcane/stickers/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -98,7 +98,7 @@
 
     move-result-object v10
 
-    invoke-static {v10}, Lcom/kik/android/stickers/a;->a(Lorg/json/JSONObject;)Lkik/core/datatypes/x;
+    invoke-static {v10}, Lcom/kik/arcane/stickers/a;->a(Lorg/json/JSONObject;)Lkik/core/datatypes/x;
 
     move-result-object v10
 

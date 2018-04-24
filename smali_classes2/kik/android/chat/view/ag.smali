@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/view/ag;
+.class final synthetic Lkik/arcane/chat/view/ag;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,30 +6,30 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/view/PreviewResultsViewImpl;
+.field private final a:Lkik/arcane/chat/view/PreviewResultsViewImpl;
 
 .field private final b:J
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/view/PreviewResultsViewImpl;J)V
+.method private constructor <init>(Lkik/arcane/chat/view/PreviewResultsViewImpl;J)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/view/ag;->a:Lkik/android/chat/view/PreviewResultsViewImpl;
+    iput-object p1, p0, Lkik/arcane/chat/view/ag;->a:Lkik/arcane/chat/view/PreviewResultsViewImpl;
 
-    iput-wide p2, p0, Lkik/android/chat/view/ag;->b:J
+    iput-wide p2, p0, Lkik/arcane/chat/view/ag;->b:J
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/view/PreviewResultsViewImpl;J)Landroid/view/animation/Interpolator;
+.method public static a(Lkik/arcane/chat/view/PreviewResultsViewImpl;J)Landroid/view/animation/Interpolator;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/view/ag;
+    new-instance v0, Lkik/arcane/chat/view/ag;
 
-    invoke-direct {v0, p0, p1, p2}, Lkik/android/chat/view/ag;-><init>(Lkik/android/chat/view/PreviewResultsViewImpl;J)V
+    invoke-direct {v0, p0, p1, p2}, Lkik/arcane/chat/view/ag;-><init>(Lkik/arcane/chat/view/PreviewResultsViewImpl;J)V
 
     return-object v0
 .end method
@@ -39,9 +39,9 @@
 .method public final getInterpolation(F)F
     .locals 2
 
-    iget-wide v0, p0, Lkik/android/chat/view/ag;->b:J
+    iget-wide v0, p0, Lkik/arcane/chat/view/ag;->b:J
 
-    invoke-static {v0, v1}, Lkik/android/chat/view/PreviewResultsViewImpl;->a(J)F
+    invoke-static {v0, v1}, Lkik/arcane/chat/view/PreviewResultsViewImpl;->a(J)F
 
     move-result v0
 

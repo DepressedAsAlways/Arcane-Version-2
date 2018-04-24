@@ -1,4 +1,4 @@
-.class public abstract Lkik/android/i/c;
+.class public abstract Lkik/arcane/i/c;
 .super Landroid/database/sqlite/SQLiteOpenHelper;
 .source "SourceFile"
 
@@ -21,13 +21,13 @@
 
     .prologue
     .line 16
-    const-class v0, Lkik/android/i/c;
+    const-class v0, Lkik/arcane/i/c;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/i/c;->a:Ljava/lang/String;
+    sput-object v0, Lkik/arcane/i/c;->a:Ljava/lang/String;
 
     return-void
 .end method
@@ -42,17 +42,17 @@
     invoke-direct {p0, p1, p2, v0, p3}, Landroid/database/sqlite/SQLiteOpenHelper;-><init>(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V
 
     .line 70
-    iput p3, p0, Lkik/android/i/c;->c:I
+    iput p3, p0, Lkik/arcane/i/c;->c:I
 
     .line 71
     invoke-virtual {p1, p2}, Landroid/content/Context;->getDatabasePath(Ljava/lang/String;)Ljava/io/File;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/i/c;->d:Ljava/io/File;
+    iput-object v0, p0, Lkik/arcane/i/c;->d:Ljava/io/File;
 
     .line 73
-    invoke-static {p1, p2}, Lkik/android/i/c;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/database/sqlite/SQLiteDatabase;
+    invoke-static {p1, p2}, Lkik/arcane/i/c;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v1
 
@@ -67,16 +67,16 @@
 
     move-result v0
 
-    iput v0, p0, Lkik/android/i/c;->b:I
+    iput v0, p0, Lkik/arcane/i/c;->b:I
 
     .line 79
     :try_start_0
-    iget v0, p0, Lkik/android/i/c;->b:I
+    iget v0, p0, Lkik/arcane/i/c;->b:I
 
     if-nez v0, :cond_1
 
     .line 80
-    invoke-virtual {p0, v1}, Lkik/android/i/c;->onCreate(Landroid/database/sqlite/SQLiteDatabase;)V
+    invoke-virtual {p0, v1}, Lkik/arcane/i/c;->onCreate(Landroid/database/sqlite/SQLiteDatabase;)V
 
     .line 85
     :goto_0
@@ -100,9 +100,9 @@
     .line 83
     :cond_1
     :try_start_1
-    iget v0, p0, Lkik/android/i/c;->b:I
+    iget v0, p0, Lkik/arcane/i/c;->b:I
 
-    invoke-virtual {p0, v1, v0, p3}, Lkik/android/i/c;->a(Landroid/database/sqlite/SQLiteDatabase;II)V
+    invoke-virtual {p0, v1, v0, p3}, Lkik/arcane/i/c;->a(Landroid/database/sqlite/SQLiteDatabase;II)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -126,11 +126,11 @@
 
     .prologue
     .line 43
-    invoke-static {p1, p2, p4}, Lkik/android/i/c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, p2, p4}, Lkik/arcane/i/c;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-direct {p0, p1, v0, p3}, Lkik/android/i/c;-><init>(Landroid/content/Context;Ljava/lang/String;I)V
+    invoke-direct {p0, p1, v0, p3}, Lkik/arcane/i/c;-><init>(Landroid/content/Context;Ljava/lang/String;I)V
 
     .line 44
     return-void
@@ -238,7 +238,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lkik/android/i/c;->a(Ljava/lang/String;)V
+    invoke-static {v2}, Lkik/arcane/i/c;->a(Ljava/lang/String;)V
 
     .line 35
     invoke-virtual {p0, v0}, Landroid/content/Context;->getDatabasePath(Ljava/lang/String;)Ljava/io/File;
@@ -606,21 +606,21 @@
 
     .prologue
     .line 57
-    iget-object v0, p0, Lkik/android/i/c;->d:Ljava/io/File;
+    iget-object v0, p0, Lkik/arcane/i/c;->d:Ljava/io/File;
 
     if-eqz v0, :cond_0
 
     .line 59
-    iget-object v0, p0, Lkik/android/i/c;->d:Ljava/io/File;
+    iget-object v0, p0, Lkik/arcane/i/c;->d:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/i/c;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/i/c;->a(Ljava/lang/String;)V
 
     .line 60
-    iget-object v0, p0, Lkik/android/i/c;->d:Ljava/io/File;
+    iget-object v0, p0, Lkik/arcane/i/c;->d:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->delete()Z
 
@@ -637,7 +637,7 @@
 
     .prologue
     .line 182
-    iget v0, p0, Lkik/android/i/c;->b:I
+    iget v0, p0, Lkik/arcane/i/c;->b:I
 
     return v0
 .end method
@@ -647,7 +647,7 @@
 
     .prologue
     .line 187
-    iget v0, p0, Lkik/android/i/c;->c:I
+    iget v0, p0, Lkik/arcane/i/c;->c:I
 
     return v0
 .end method

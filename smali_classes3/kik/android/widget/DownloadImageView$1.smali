@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/DownloadImageView$1;
+.class final Lkik/arcane/widget/DownloadImageView$1;
 .super Landroid/animation/AnimatorListenerAdapter;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/DownloadImageView;
+    value = Lkik/arcane/widget/DownloadImageView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/DownloadImageView;
+.field final synthetic a:Lkik/arcane/widget/DownloadImageView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/DownloadImageView;)V
+.method constructor <init>(Lkik/arcane/widget/DownloadImageView;)V
     .locals 0
 
     .prologue
     .line 72
-    iput-object p1, p0, Lkik/android/widget/DownloadImageView$1;->a:Lkik/android/widget/DownloadImageView;
+    iput-object p1, p0, Lkik/arcane/widget/DownloadImageView$1;->a:Lkik/arcane/widget/DownloadImageView;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
@@ -38,9 +38,9 @@
 
     .prologue
     .line 76
-    iget-object v0, p0, Lkik/android/widget/DownloadImageView$1;->a:Lkik/android/widget/DownloadImageView;
+    iget-object v0, p0, Lkik/arcane/widget/DownloadImageView$1;->a:Lkik/arcane/widget/DownloadImageView;
 
-    invoke-static {v0}, Lkik/android/widget/DownloadImageView;->a(Lkik/android/widget/DownloadImageView;)V
+    invoke-static {v0}, Lkik/arcane/widget/DownloadImageView;->a(Lkik/arcane/widget/DownloadImageView;)V
 
     .line 77
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V

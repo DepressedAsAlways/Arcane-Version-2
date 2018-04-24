@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/VideoTrimmingFragment$7;
+.class final Lkik/arcane/chat/fragment/VideoTrimmingFragment$7;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/VideoTrimmingFragment;
+    value = Lkik/arcane/chat/fragment/VideoTrimmingFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/VideoTrimmingFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/VideoTrimmingFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/VideoTrimmingFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/VideoTrimmingFragment;)V
     .locals 0
 
     .prologue
     .line 470
-    iput-object p1, p0, Lkik/android/chat/fragment/VideoTrimmingFragment$7;->a:Lkik/android/chat/fragment/VideoTrimmingFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/VideoTrimmingFragment$7;->a:Lkik/arcane/chat/fragment/VideoTrimmingFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,11 +45,11 @@
     const/4 v2, 0x0
 
     .line 474
-    iget-object v3, p0, Lkik/android/chat/fragment/VideoTrimmingFragment$7;->a:Lkik/android/chat/fragment/VideoTrimmingFragment;
+    iget-object v3, p0, Lkik/arcane/chat/fragment/VideoTrimmingFragment$7;->a:Lkik/arcane/chat/fragment/VideoTrimmingFragment;
 
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoTrimmingFragment$7;->a:Lkik/android/chat/fragment/VideoTrimmingFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoTrimmingFragment$7;->a:Lkik/arcane/chat/fragment/VideoTrimmingFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/VideoTrimmingFragment;->h(Lkik/android/chat/fragment/VideoTrimmingFragment;)Z
+    invoke-static {v0}, Lkik/arcane/chat/fragment/VideoTrimmingFragment;->h(Lkik/arcane/chat/fragment/VideoTrimmingFragment;)Z
 
     move-result v0
 
@@ -58,12 +58,12 @@
     move v0, v1
 
     :goto_0
-    invoke-static {v3, v0}, Lkik/android/chat/fragment/VideoTrimmingFragment;->a(Lkik/android/chat/fragment/VideoTrimmingFragment;Z)Z
+    invoke-static {v3, v0}, Lkik/arcane/chat/fragment/VideoTrimmingFragment;->a(Lkik/arcane/chat/fragment/VideoTrimmingFragment;Z)Z
 
     .line 475
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoTrimmingFragment$7;->a:Lkik/android/chat/fragment/VideoTrimmingFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoTrimmingFragment$7;->a:Lkik/arcane/chat/fragment/VideoTrimmingFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/VideoTrimmingFragment;->h(Lkik/android/chat/fragment/VideoTrimmingFragment;)Z
+    invoke-static {v0}, Lkik/arcane/chat/fragment/VideoTrimmingFragment;->h(Lkik/arcane/chat/fragment/VideoTrimmingFragment;)Z
 
     move-result v0
 
@@ -72,34 +72,34 @@
     .line 476
     new-array v0, v1, [Landroid/view/View;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/VideoTrimmingFragment$7;->a:Lkik/android/chat/fragment/VideoTrimmingFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/VideoTrimmingFragment$7;->a:Lkik/arcane/chat/fragment/VideoTrimmingFragment;
 
-    iget-object v1, v1, Lkik/android/chat/fragment/VideoTrimmingFragment;->_videoPlayIcon:Landroid/widget/ImageView;
+    iget-object v1, v1, Lkik/arcane/chat/fragment/VideoTrimmingFragment;->_videoPlayIcon:Landroid/widget/ImageView;
 
     aput-object v1, v0, v2
 
-    invoke-static {v0}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     .line 477
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoTrimmingFragment$7;->a:Lkik/android/chat/fragment/VideoTrimmingFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoTrimmingFragment$7;->a:Lkik/arcane/chat/fragment/VideoTrimmingFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/VideoTrimmingFragment;->_videoView:Landroid/widget/VideoView;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/VideoTrimmingFragment;->_videoView:Landroid/widget/VideoView;
 
     invoke-virtual {v0}, Landroid/widget/VideoView;->start()V
 
     .line 478
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoTrimmingFragment$7;->a:Lkik/android/chat/fragment/VideoTrimmingFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoTrimmingFragment$7;->a:Lkik/arcane/chat/fragment/VideoTrimmingFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/VideoTrimmingFragment;->k(Lkik/android/chat/fragment/VideoTrimmingFragment;)Lkik/android/util/aq;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/VideoTrimmingFragment;->k(Lkik/arcane/chat/fragment/VideoTrimmingFragment;)Lkik/arcane/util/aq;
 
     move-result-object v0
 
     if-nez v0, :cond_0
 
     .line 479
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoTrimmingFragment$7;->a:Lkik/android/chat/fragment/VideoTrimmingFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoTrimmingFragment$7;->a:Lkik/arcane/chat/fragment/VideoTrimmingFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/VideoTrimmingFragment;->l(Lkik/android/chat/fragment/VideoTrimmingFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/VideoTrimmingFragment;->l(Lkik/arcane/chat/fragment/VideoTrimmingFragment;)V
 
     .line 486
     :cond_0
@@ -114,22 +114,22 @@
 
     .line 483
     :cond_2
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoTrimmingFragment$7;->a:Lkik/android/chat/fragment/VideoTrimmingFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoTrimmingFragment$7;->a:Lkik/arcane/chat/fragment/VideoTrimmingFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/VideoTrimmingFragment;->_videoView:Landroid/widget/VideoView;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/VideoTrimmingFragment;->_videoView:Landroid/widget/VideoView;
 
     invoke-virtual {v0}, Landroid/widget/VideoView;->pause()V
 
     .line 484
     new-array v0, v1, [Landroid/view/View;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/VideoTrimmingFragment$7;->a:Lkik/android/chat/fragment/VideoTrimmingFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/VideoTrimmingFragment$7;->a:Lkik/arcane/chat/fragment/VideoTrimmingFragment;
 
-    iget-object v1, v1, Lkik/android/chat/fragment/VideoTrimmingFragment;->_videoPlayIcon:Landroid/widget/ImageView;
+    iget-object v1, v1, Lkik/arcane/chat/fragment/VideoTrimmingFragment;->_videoPlayIcon:Landroid/widget/ImageView;
 
     aput-object v1, v0, v2
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     goto :goto_1
 .end method

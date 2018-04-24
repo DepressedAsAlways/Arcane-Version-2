@@ -1,23 +1,23 @@
-.class final synthetic Lkik/android/chat/fragment/settings/g;
+.class final synthetic Lkik/arcane/chat/fragment/settings/g;
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lkik/android/chat/view/ValidateableInputView$b;
+.implements Lkik/arcane/chat/view/ValidateableInputView$b;
 
 
 # static fields
-.field private static final a:Lkik/android/chat/fragment/settings/g;
+.field private static final a:Lkik/arcane/chat/fragment/settings/g;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/fragment/settings/g;
+    new-instance v0, Lkik/arcane/chat/fragment/settings/g;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/settings/g;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/settings/g;-><init>()V
 
-    sput-object v0, Lkik/android/chat/fragment/settings/g;->a:Lkik/android/chat/fragment/settings/g;
+    sput-object v0, Lkik/arcane/chat/fragment/settings/g;->a:Lkik/arcane/chat/fragment/settings/g;
 
     return-void
 .end method
@@ -30,10 +30,10 @@
     return-void
 .end method
 
-.method public static a()Lkik/android/chat/view/ValidateableInputView$b;
+.method public static a()Lkik/arcane/chat/view/ValidateableInputView$b;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/fragment/settings/g;->a:Lkik/android/chat/fragment/settings/g;
+    sget-object v0, Lkik/arcane/chat/fragment/settings/g;->a:Lkik/arcane/chat/fragment/settings/g;
 
     return-object v0
 .end method
@@ -43,7 +43,7 @@
 .method public final a(Ljava/lang/CharSequence;)Lrx/d;
     .locals 1
 
-    invoke-static {}, Lkik/android/chat/fragment/settings/EditNameFragment;->b()Lrx/d;
+    invoke-static {}, Lkik/arcane/chat/fragment/settings/EditNameFragment;->b()Lrx/d;
 
     move-result-object v0
 

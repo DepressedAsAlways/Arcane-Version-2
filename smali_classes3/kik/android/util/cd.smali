@@ -1,10 +1,10 @@
-.class public final Lkik/android/util/cd;
-.super Lkik/android/util/bt;
+.class public final Lkik/arcane/util/cd;
+.super Lkik/arcane/util/bt;
 .source "SourceFile"
 
 
 # static fields
-.field private static a:Lkik/android/util/cd;
+.field private static a:Lkik/arcane/util/cd;
 
 
 # direct methods
@@ -13,11 +13,11 @@
 
     .prologue
     .line 16
-    new-instance v0, Lkik/android/util/cd;
+    new-instance v0, Lkik/arcane/util/cd;
 
-    invoke-direct {v0}, Lkik/android/util/cd;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/util/cd;-><init>()V
 
-    sput-object v0, Lkik/android/util/cd;->a:Lkik/android/util/cd;
+    sput-object v0, Lkik/arcane/util/cd;->a:Lkik/arcane/util/cd;
 
     return-void
 .end method
@@ -27,7 +27,7 @@
 
     .prologue
     .line 25
-    invoke-direct {p0}, Lkik/android/util/bt;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/util/bt;-><init>()V
 
     .line 26
     return-void
@@ -38,7 +38,7 @@
 
     .prologue
     .line 20
-    sget-object v0, Lkik/android/util/cd;->a:Lkik/android/util/cd;
+    sget-object v0, Lkik/arcane/util/cd;->a:Lkik/arcane/util/cd;
 
     return-object v0
 .end method
@@ -52,7 +52,7 @@
     .line 31
     const-class v0, Landroid/text/style/ClickableSpan;
 
-    invoke-static {p1, p2, p3, v0}, Lkik/android/util/cd;->a(Landroid/widget/TextView;Landroid/text/Spannable;Landroid/view/MotionEvent;Ljava/lang/Class;)Z
+    invoke-static {p1, p2, p3, v0}, Lkik/arcane/util/cd;->a(Landroid/widget/TextView;Landroid/text/Spannable;Landroid/view/MotionEvent;Ljava/lang/Class;)Z
 
     move-result v0
 

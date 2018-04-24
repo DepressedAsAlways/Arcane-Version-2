@@ -1,4 +1,4 @@
-.class public abstract Lkik/android/util/ca$a;
+.class public abstract Lkik/arcane/util/ca$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/ca;
+    value = Lkik/arcane/util/ca;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -31,7 +31,7 @@
     .line 938
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lkik/android/util/ca$a;-><init>(B)V
+    invoke-direct {p0, v0}, Lkik/arcane/util/ca$a;-><init>(B)V
 
     .line 939
     return-void
@@ -47,12 +47,12 @@
     .line 949
     const-wide/16 v0, 0x0
 
-    iput-wide v0, p0, Lkik/android/util/ca$a;->b:J
+    iput-wide v0, p0, Lkik/arcane/util/ca$a;->b:J
 
     .line 943
     const/16 v0, 0x3e8
 
-    iput v0, p0, Lkik/android/util/ca$a;->a:I
+    iput v0, p0, Lkik/arcane/util/ca$a;->a:I
 
     .line 944
     return-void
@@ -73,11 +73,11 @@
     move-result-wide v0
 
     .line 954
-    iget-wide v2, p0, Lkik/android/util/ca$a;->b:J
+    iget-wide v2, p0, Lkik/arcane/util/ca$a;->b:J
 
     sub-long v2, v0, v2
 
-    iget v4, p0, Lkik/android/util/ca$a;->a:I
+    iget v4, p0, Lkik/arcane/util/ca$a;->a:I
 
     int-to-long v4, v4
 
@@ -86,10 +86,10 @@
     if-lez v2, :cond_0
 
     .line 955
-    iput-wide v0, p0, Lkik/android/util/ca$a;->b:J
+    iput-wide v0, p0, Lkik/arcane/util/ca$a;->b:J
 
     .line 956
-    invoke-virtual {p0}, Lkik/android/util/ca$a;->a()V
+    invoke-virtual {p0}, Lkik/arcane/util/ca$a;->a()V
 
     .line 958
     :cond_0

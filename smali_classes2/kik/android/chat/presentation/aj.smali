@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/presentation/aj;
+.class final synthetic Lkik/arcane/chat/presentation/aj;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,7 +6,7 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+.field private final a:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
 .field private final b:Landroid/view/View;
 
@@ -16,28 +16,28 @@
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/presentation/MediaTrayPresenterImpl;Landroid/view/View;ZLjava/lang/String;)V
+.method private constructor <init>(Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;Landroid/view/View;ZLjava/lang/String;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/presentation/aj;->a:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    iput-object p1, p0, Lkik/arcane/chat/presentation/aj;->a:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
-    iput-object p2, p0, Lkik/android/chat/presentation/aj;->b:Landroid/view/View;
+    iput-object p2, p0, Lkik/arcane/chat/presentation/aj;->b:Landroid/view/View;
 
-    iput-boolean p3, p0, Lkik/android/chat/presentation/aj;->c:Z
+    iput-boolean p3, p0, Lkik/arcane/chat/presentation/aj;->c:Z
 
-    iput-object p4, p0, Lkik/android/chat/presentation/aj;->d:Ljava/lang/String;
+    iput-object p4, p0, Lkik/arcane/chat/presentation/aj;->d:Ljava/lang/String;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/presentation/MediaTrayPresenterImpl;Landroid/view/View;ZLjava/lang/String;)Landroid/content/DialogInterface$OnClickListener;
+.method public static a(Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;Landroid/view/View;ZLjava/lang/String;)Landroid/content/DialogInterface$OnClickListener;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/presentation/aj;
+    new-instance v0, Lkik/arcane/chat/presentation/aj;
 
-    invoke-direct {v0, p0, p1, p2, p3}, Lkik/android/chat/presentation/aj;-><init>(Lkik/android/chat/presentation/MediaTrayPresenterImpl;Landroid/view/View;ZLjava/lang/String;)V
+    invoke-direct {v0, p0, p1, p2, p3}, Lkik/arcane/chat/presentation/aj;-><init>(Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;Landroid/view/View;ZLjava/lang/String;)V
 
     return-object v0
 .end method
@@ -47,15 +47,15 @@
 .method public final onClick(Landroid/content/DialogInterface;I)V
     .locals 4
 
-    iget-object v0, p0, Lkik/android/chat/presentation/aj;->a:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/aj;->a:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
-    iget-object v1, p0, Lkik/android/chat/presentation/aj;->b:Landroid/view/View;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/aj;->b:Landroid/view/View;
 
-    iget-boolean v2, p0, Lkik/android/chat/presentation/aj;->c:Z
+    iget-boolean v2, p0, Lkik/arcane/chat/presentation/aj;->c:Z
 
-    iget-object v3, p0, Lkik/android/chat/presentation/aj;->d:Ljava/lang/String;
+    iget-object v3, p0, Lkik/arcane/chat/presentation/aj;->d:Ljava/lang/String;
 
-    invoke-static {v0, v1, v2, v3, p1}, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->a(Lkik/android/chat/presentation/MediaTrayPresenterImpl;Landroid/view/View;ZLjava/lang/String;Landroid/content/DialogInterface;)V
+    invoke-static {v0, v1, v2, v3, p1}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->a(Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;Landroid/view/View;ZLjava/lang/String;Landroid/content/DialogInterface;)V
 
     return-void
 .end method

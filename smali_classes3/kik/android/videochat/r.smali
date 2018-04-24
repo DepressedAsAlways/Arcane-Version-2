@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/videochat/r;
+.class final synthetic Lkik/arcane/videochat/r;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/videochat/VideoChatManager;
+.field private final a:Lkik/arcane/videochat/VideoChatManager;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/videochat/VideoChatManager;)V
+.method private constructor <init>(Lkik/arcane/videochat/VideoChatManager;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/videochat/r;->a:Lkik/android/videochat/VideoChatManager;
+    iput-object p1, p0, Lkik/arcane/videochat/r;->a:Lkik/arcane/videochat/VideoChatManager;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/videochat/VideoChatManager;)Lcom/google/common/base/Predicate;
+.method public static a(Lkik/arcane/videochat/VideoChatManager;)Lcom/google/common/base/Predicate;
     .locals 1
 
-    new-instance v0, Lkik/android/videochat/r;
+    new-instance v0, Lkik/arcane/videochat/r;
 
-    invoke-direct {v0, p0}, Lkik/android/videochat/r;-><init>(Lkik/android/videochat/VideoChatManager;)V
+    invoke-direct {v0, p0}, Lkik/arcane/videochat/r;-><init>(Lkik/arcane/videochat/VideoChatManager;)V
 
     return-object v0
 .end method
@@ -35,11 +35,11 @@
 .method public final apply(Ljava/lang/Object;)Z
     .locals 1
 
-    iget-object v0, p0, Lkik/android/videochat/r;->a:Lkik/android/videochat/VideoChatManager;
+    iget-object v0, p0, Lkik/arcane/videochat/r;->a:Lkik/arcane/videochat/VideoChatManager;
 
     check-cast p1, Lkik/core/datatypes/l;
 
-    invoke-static {v0, p1}, Lkik/android/videochat/VideoChatManager;->a(Lkik/android/videochat/VideoChatManager;Lkik/core/datatypes/l;)Z
+    invoke-static {v0, p1}, Lkik/arcane/videochat/VideoChatManager;->a(Lkik/arcane/videochat/VideoChatManager;Lkik/core/datatypes/l;)Z
 
     move-result v0
 

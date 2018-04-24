@@ -1,13 +1,13 @@
-.class public abstract Lkik/android/chat/vm/e;
+.class public abstract Lkik/arcane/chat/vm/e;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/bu;
+.implements Lkik/arcane/chat/vm/bu;
 
 
 # instance fields
-.field private a:Lkik/android/chat/vm/bd;
+.field private a:Lkik/arcane/chat/vm/bd;
 
 .field private b:Z
 
@@ -18,7 +18,7 @@
         value = {
             "Ljava/util/List",
             "<",
-            "Lkik/android/chat/vm/bu;",
+            "Lkik/arcane/chat/vm/bu;",
             ">;"
         }
     .end annotation
@@ -38,31 +38,31 @@
 
     invoke-direct {v0}, Lrx/f/b;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/vm/e;->c:Lrx/f/b;
+    iput-object v0, p0, Lkik/arcane/chat/vm/e;->c:Lrx/f/b;
 
     .line 22
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/vm/e;->d:Ljava/util/List;
+    iput-object v0, p0, Lkik/arcane/chat/vm/e;->d:Ljava/util/List;
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected final H_()Lkik/android/chat/vm/bd;
+.method protected final H_()Lkik/arcane/chat/vm/bd;
     .locals 2
 
     .prologue
     .line 31
-    iget-object v0, p0, Lkik/android/chat/vm/e;->a:Lkik/android/chat/vm/bd;
+    iget-object v0, p0, Lkik/arcane/chat/vm/e;->a:Lkik/arcane/chat/vm/bd;
 
     if-nez v0, :cond_1
 
     .line 32
-    iget-boolean v0, p0, Lkik/android/chat/vm/e;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/vm/e;->b:Z
 
     if-eqz v0, :cond_0
 
@@ -87,7 +87,7 @@
 
     .line 40
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/vm/e;->a:Lkik/android/chat/vm/bd;
+    iget-object v0, p0, Lkik/arcane/chat/vm/e;->a:Lkik/arcane/chat/vm/bd;
 
     return-object v0
 .end method
@@ -97,7 +97,7 @@
 
     .prologue
     .line 45
-    iget-object v0, p0, Lkik/android/chat/vm/e;->a:Lkik/android/chat/vm/bd;
+    iget-object v0, p0, Lkik/arcane/chat/vm/e;->a:Lkik/arcane/chat/vm/bd;
 
     if-eqz v0, :cond_0
 
@@ -112,12 +112,12 @@
     goto :goto_0
 .end method
 
-.method protected final a(Lkik/android/chat/vm/bu;Lcom/kik/components/CoreComponent;)Lkik/android/chat/vm/bu;
+.method protected final a(Lkik/arcane/chat/vm/bu;Lcom/kik/components/CoreComponent;)Lkik/arcane/chat/vm/bu;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "<T::",
-            "Lkik/android/chat/vm/bu;",
+            "Lkik/arcane/chat/vm/bu;",
             ">(TT;",
             "Lcom/kik/components/CoreComponent;",
             ")TT;"
@@ -139,21 +139,21 @@
 
     .line 83
     :cond_0
-    invoke-virtual {p0}, Lkik/android/chat/vm/e;->H_()Lkik/android/chat/vm/bd;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/e;->H_()Lkik/arcane/chat/vm/bd;
 
     move-result-object v0
 
-    invoke-interface {p1, p2, v0}, Lkik/android/chat/vm/bu;->a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+    invoke-interface {p1, p2, v0}, Lkik/arcane/chat/vm/bu;->a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
 
     .line 84
-    iget-object v0, p0, Lkik/android/chat/vm/e;->d:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/vm/e;->d:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 .end method
 
-.method public a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+.method public a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
     .locals 2
 
     .prologue
@@ -173,10 +173,10 @@
     :cond_0
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/vm/e;->b:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/vm/e;->b:Z
 
     .line 56
-    iput-object p2, p0, Lkik/android/chat/vm/e;->a:Lkik/android/chat/vm/bd;
+    iput-object p2, p0, Lkik/arcane/chat/vm/e;->a:Lkik/arcane/chat/vm/bd;
 
     .line 57
     return-void
@@ -187,7 +187,7 @@
 
     .prologue
     .line 26
-    iget-object v0, p0, Lkik/android/chat/vm/e;->c:Lrx/f/b;
+    iget-object v0, p0, Lkik/arcane/chat/vm/e;->c:Lrx/f/b;
 
     return-object v0
 .end method
@@ -197,14 +197,14 @@
 
     .prologue
     .line 63
-    iget-object v0, p0, Lkik/android/chat/vm/e;->c:Lrx/f/b;
+    iget-object v0, p0, Lkik/arcane/chat/vm/e;->c:Lrx/f/b;
 
     invoke-virtual {v0}, Lrx/f/b;->unsubscribe()V
 
     .line 64
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/chat/vm/e;->a:Lkik/android/chat/vm/bd;
+    iput-object v0, p0, Lkik/arcane/chat/vm/e;->a:Lkik/arcane/chat/vm/bd;
 
     .line 65
     return-void

@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/view/PhoneVerificationCountryCodeSearchViewImpl_ViewBinding$1;
+.class final Lkik/arcane/chat/view/PhoneVerificationCountryCodeSearchViewImpl_ViewBinding$1;
 .super Lbutterknife/internal/DebouncingOnClickListener;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/view/PhoneVerificationCountryCodeSearchViewImpl_ViewBinding;-><init>(Lkik/android/chat/view/PhoneVerificationCountryCodeSearchViewImpl;Landroid/view/View;)V
+    value = Lkik/arcane/chat/view/PhoneVerificationCountryCodeSearchViewImpl_ViewBinding;-><init>(Lkik/arcane/chat/view/PhoneVerificationCountryCodeSearchViewImpl;Landroid/view/View;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,20 +15,20 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/view/PhoneVerificationCountryCodeSearchViewImpl;
+.field final synthetic a:Lkik/arcane/chat/view/PhoneVerificationCountryCodeSearchViewImpl;
 
-.field final synthetic b:Lkik/android/chat/view/PhoneVerificationCountryCodeSearchViewImpl_ViewBinding;
+.field final synthetic b:Lkik/arcane/chat/view/PhoneVerificationCountryCodeSearchViewImpl_ViewBinding;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/view/PhoneVerificationCountryCodeSearchViewImpl_ViewBinding;Lkik/android/chat/view/PhoneVerificationCountryCodeSearchViewImpl;)V
+.method constructor <init>(Lkik/arcane/chat/view/PhoneVerificationCountryCodeSearchViewImpl_ViewBinding;Lkik/arcane/chat/view/PhoneVerificationCountryCodeSearchViewImpl;)V
     .locals 0
 
     .prologue
     .line 34
-    iput-object p1, p0, Lkik/android/chat/view/PhoneVerificationCountryCodeSearchViewImpl_ViewBinding$1;->b:Lkik/android/chat/view/PhoneVerificationCountryCodeSearchViewImpl_ViewBinding;
+    iput-object p1, p0, Lkik/arcane/chat/view/PhoneVerificationCountryCodeSearchViewImpl_ViewBinding$1;->b:Lkik/arcane/chat/view/PhoneVerificationCountryCodeSearchViewImpl_ViewBinding;
 
-    iput-object p2, p0, Lkik/android/chat/view/PhoneVerificationCountryCodeSearchViewImpl_ViewBinding$1;->a:Lkik/android/chat/view/PhoneVerificationCountryCodeSearchViewImpl;
+    iput-object p2, p0, Lkik/arcane/chat/view/PhoneVerificationCountryCodeSearchViewImpl_ViewBinding$1;->a:Lkik/arcane/chat/view/PhoneVerificationCountryCodeSearchViewImpl;
 
     invoke-direct {p0}, Lbutterknife/internal/DebouncingOnClickListener;-><init>()V
 
@@ -42,9 +42,9 @@
 
     .prologue
     .line 37
-    iget-object v0, p0, Lkik/android/chat/view/PhoneVerificationCountryCodeSearchViewImpl_ViewBinding$1;->a:Lkik/android/chat/view/PhoneVerificationCountryCodeSearchViewImpl;
+    iget-object v0, p0, Lkik/arcane/chat/view/PhoneVerificationCountryCodeSearchViewImpl_ViewBinding$1;->a:Lkik/arcane/chat/view/PhoneVerificationCountryCodeSearchViewImpl;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/PhoneVerificationCountryCodeSearchViewImpl;->onClearSearchClicked()V
+    invoke-virtual {v0}, Lkik/arcane/chat/view/PhoneVerificationCountryCodeSearchViewImpl;->onClearSearchClicked()V
 
     .line 38
     return-void

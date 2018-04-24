@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/fragment/VideoTrimmingFragment_MembersInjector;
+.class public final Lkik/arcane/chat/fragment/VideoTrimmingFragment_MembersInjector;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/b",
         "<",
-        "Lkik/android/chat/fragment/VideoTrimmingFragment;",
+        "Lkik/arcane/chat/fragment/VideoTrimmingFragment;",
         ">;"
     }
 .end annotation
@@ -63,7 +63,7 @@
 
     .prologue
     .line 10
-    const-class v0, Lkik/android/chat/fragment/VideoTrimmingFragment_MembersInjector;
+    const-class v0, Lkik/arcane/chat/fragment/VideoTrimmingFragment_MembersInjector;
 
     invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
 
@@ -74,7 +74,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    sput-boolean v0, Lkik/android/chat/fragment/VideoTrimmingFragment_MembersInjector;->a:Z
+    sput-boolean v0, Lkik/arcane/chat/fragment/VideoTrimmingFragment_MembersInjector;->a:Z
 
     return-void
 
@@ -109,7 +109,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 26
-    sget-boolean v0, Lkik/android/chat/fragment/VideoTrimmingFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/VideoTrimmingFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_0
 
@@ -123,10 +123,10 @@
 
     .line 27
     :cond_0
-    iput-object p1, p0, Lkik/android/chat/fragment/VideoTrimmingFragment_MembersInjector;->b:Ljavax/inject/Provider;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/VideoTrimmingFragment_MembersInjector;->b:Ljavax/inject/Provider;
 
     .line 28
-    sget-boolean v0, Lkik/android/chat/fragment/VideoTrimmingFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/VideoTrimmingFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_1
 
@@ -140,10 +140,10 @@
 
     .line 29
     :cond_1
-    iput-object p2, p0, Lkik/android/chat/fragment/VideoTrimmingFragment_MembersInjector;->c:Ljavax/inject/Provider;
+    iput-object p2, p0, Lkik/arcane/chat/fragment/VideoTrimmingFragment_MembersInjector;->c:Ljavax/inject/Provider;
 
     .line 30
-    sget-boolean v0, Lkik/android/chat/fragment/VideoTrimmingFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/VideoTrimmingFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_2
 
@@ -157,7 +157,7 @@
 
     .line 31
     :cond_2
-    iput-object p3, p0, Lkik/android/chat/fragment/VideoTrimmingFragment_MembersInjector;->d:Ljavax/inject/Provider;
+    iput-object p3, p0, Lkik/arcane/chat/fragment/VideoTrimmingFragment_MembersInjector;->d:Ljavax/inject/Provider;
 
     .line 32
     return-void
@@ -182,16 +182,16 @@
             ">;)",
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/VideoTrimmingFragment;",
+            "Lkik/arcane/chat/fragment/VideoTrimmingFragment;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 38
-    new-instance v0, Lkik/android/chat/fragment/VideoTrimmingFragment_MembersInjector;
+    new-instance v0, Lkik/arcane/chat/fragment/VideoTrimmingFragment_MembersInjector;
 
-    invoke-direct {v0, p0, p1, p2}, Lkik/android/chat/fragment/VideoTrimmingFragment_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
+    invoke-direct {v0, p0, p1, p2}, Lkik/arcane/chat/fragment/VideoTrimmingFragment_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
 
     return-object v0
 .end method
@@ -203,7 +203,7 @@
 
     .prologue
     .line 10
-    check-cast p1, Lkik/android/chat/fragment/VideoTrimmingFragment;
+    check-cast p1, Lkik/arcane/chat/fragment/VideoTrimmingFragment;
 
     .line 1044
     if-nez p1, :cond_0
@@ -219,7 +219,7 @@
 
     .line 1047
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoTrimmingFragment_MembersInjector;->b:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoTrimmingFragment_MembersInjector;->b:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -227,10 +227,10 @@
 
     check-cast v0, Lkik/core/interfaces/ad;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikScopedDialogFragment;->_storage:Lkik/core/interfaces/ad;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->_storage:Lkik/core/interfaces/ad;
 
     .line 1048
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoTrimmingFragment_MembersInjector;->c:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoTrimmingFragment_MembersInjector;->c:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -238,10 +238,10 @@
 
     check-cast v0, Lcom/kik/metrics/c/d;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikScopedDialogFragment;->_metricsService:Lcom/kik/metrics/c/d;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->_metricsService:Lcom/kik/metrics/c/d;
 
     .line 1049
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoTrimmingFragment_MembersInjector;->d:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoTrimmingFragment_MembersInjector;->d:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -249,7 +249,7 @@
 
     check-cast v0, Lcom/kik/storage/s;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/VideoTrimmingFragment;->a:Lcom/kik/storage/s;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/VideoTrimmingFragment;->a:Lcom/kik/storage/s;
 
     .line 10
     return-void

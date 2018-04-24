@@ -1,9 +1,9 @@
-.class public final Lkik/android/chat/vm/cw;
-.super Lkik/android/chat/vm/e;
+.class public final Lkik/arcane/chat/vm/cw;
+.super Lkik/arcane/chat/vm/e;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/az;
+.implements Lkik/arcane/chat/vm/az;
 
 
 # instance fields
@@ -101,7 +101,7 @@
 
 .field private final k:Ljava/lang/String;
 
-.field private l:Lkik/android/chat/presentation/MediaTrayPresenter;
+.field private l:Lkik/arcane/chat/presentation/MediaTrayPresenter;
 
 .field private m:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
@@ -121,42 +121,42 @@
 
     .prologue
     .line 57
-    invoke-direct {p0}, Lkik/android/chat/vm/e;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/e;-><init>()V
 
     .line 44
     invoke-static {}, Lrx/subjects/PublishSubject;->m()Lrx/subjects/PublishSubject;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/vm/cw;->d:Lrx/subjects/PublishSubject;
+    iput-object v0, p0, Lkik/arcane/chat/vm/cw;->d:Lrx/subjects/PublishSubject;
 
     .line 45
     invoke-static {}, Lrx/subjects/PublishSubject;->m()Lrx/subjects/PublishSubject;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/vm/cw;->e:Lrx/subjects/PublishSubject;
+    iput-object v0, p0, Lkik/arcane/chat/vm/cw;->e:Lrx/subjects/PublishSubject;
 
     .line 46
     invoke-static {}, Lrx/subjects/PublishSubject;->m()Lrx/subjects/PublishSubject;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/vm/cw;->f:Lrx/subjects/PublishSubject;
+    iput-object v0, p0, Lkik/arcane/chat/vm/cw;->f:Lrx/subjects/PublishSubject;
 
     .line 47
     invoke-static {}, Lrx/subjects/PublishSubject;->m()Lrx/subjects/PublishSubject;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/vm/cw;->g:Lrx/subjects/PublishSubject;
+    iput-object v0, p0, Lkik/arcane/chat/vm/cw;->g:Lrx/subjects/PublishSubject;
 
     .line 48
     invoke-static {}, Lrx/subjects/PublishSubject;->m()Lrx/subjects/PublishSubject;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/vm/cw;->h:Lrx/subjects/PublishSubject;
+    iput-object v0, p0, Lkik/arcane/chat/vm/cw;->h:Lrx/subjects/PublishSubject;
 
     .line 49
     const/4 v0, 0x0
@@ -169,45 +169,45 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/vm/cw;->i:Lrx/subjects/a;
+    iput-object v0, p0, Lkik/arcane/chat/vm/cw;->i:Lrx/subjects/a;
 
     .line 51
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/vm/cw;->j:Ljava/util/List;
+    iput-object v0, p0, Lkik/arcane/chat/vm/cw;->j:Ljava/util/List;
 
     .line 54
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/vm/cw;->m:Ljava/util/List;
+    iput-object v0, p0, Lkik/arcane/chat/vm/cw;->m:Ljava/util/List;
 
     .line 58
-    iput-object p1, p0, Lkik/android/chat/vm/cw;->k:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/chat/vm/cw;->k:Ljava/lang/String;
 
     .line 59
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/cw;)V
+.method static synthetic a(Lkik/arcane/chat/vm/cw;)V
     .locals 0
 
     .prologue
     .line 115
-    invoke-virtual {p0}, Lkik/android/chat/vm/cw;->d()V
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/cw;->d()V
 
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/chat/vm/cw;)Lkik/android/chat/presentation/MediaTrayPresenter;
+.method static synthetic b(Lkik/arcane/chat/vm/cw;)Lkik/arcane/chat/presentation/MediaTrayPresenter;
     .locals 1
 
     .prologue
     .line 38
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->l:Lkik/android/chat/presentation/MediaTrayPresenter;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->l:Lkik/arcane/chat/presentation/MediaTrayPresenter;
 
     return-object v0
 .end method
@@ -217,7 +217,7 @@
 
     .prologue
     .line 91
-    invoke-virtual {p0}, Lkik/android/chat/vm/cw;->v_()Z
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/cw;->v_()Z
 
     move-result v0
 
@@ -227,7 +227,7 @@
     const/4 v0, 0x0
 
     .line 95
-    iget-object v1, p0, Lkik/android/chat/vm/cw;->m:Ljava/util/List;
+    iget-object v1, p0, Lkik/arcane/chat/vm/cw;->m:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -249,7 +249,7 @@
     check-cast v0, Ljava/lang/Integer;
 
     .line 96
-    iget-object v3, p0, Lkik/android/chat/vm/cw;->c:Landroid/content/res/Resources;
+    iget-object v3, p0, Lkik/arcane/chat/vm/cw;->c:Landroid/content/res/Resources;
 
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
@@ -273,7 +273,7 @@
 
     .line 101
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->j:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->j:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -282,7 +282,7 @@
     add-int/lit8 v0, v0, -0x1
 
     .line 102
-    iget-object v2, p0, Lkik/android/chat/vm/cw;->c:Landroid/content/res/Resources;
+    iget-object v2, p0, Lkik/arcane/chat/vm/cw;->c:Landroid/content/res/Resources;
 
     const v3, 0x7f0a00ed
 
@@ -297,7 +297,7 @@
     float-to-int v2, v2
 
     .line 103
-    iget-object v3, p0, Lkik/android/chat/vm/cw;->c:Landroid/content/res/Resources;
+    iget-object v3, p0, Lkik/arcane/chat/vm/cw;->c:Landroid/content/res/Resources;
 
     invoke-virtual {v3}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
 
@@ -317,7 +317,7 @@
     .line 105
     int-to-float v0, v0
 
-    iget-object v1, p0, Lkik/android/chat/vm/cw;->c:Landroid/content/res/Resources;
+    iget-object v1, p0, Lkik/arcane/chat/vm/cw;->c:Landroid/content/res/Resources;
 
     invoke-virtual {v1}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
 
@@ -330,7 +330,7 @@
     float-to-int v0, v0
 
     .line 106
-    iget-object v1, p0, Lkik/android/chat/vm/cw;->i:Lrx/subjects/a;
+    iget-object v1, p0, Lkik/arcane/chat/vm/cw;->i:Lrx/subjects/a;
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -352,14 +352,14 @@
     const/4 v2, 0x0
 
     .line 121
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->l:Lkik/android/chat/presentation/MediaTrayPresenter;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->l:Lkik/arcane/chat/presentation/MediaTrayPresenter;
 
     const-string v1, "Gallery"
 
-    invoke-interface {v0, v1}, Lkik/android/chat/presentation/MediaTrayPresenter;->a(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/presentation/MediaTrayPresenter;->a(Ljava/lang/String;)V
 
     .line 122
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->d:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->d:Lrx/subjects/PublishSubject;
 
     const/4 v1, 0x1
 
@@ -370,7 +370,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 123
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->e:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->e:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -379,7 +379,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 124
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->f:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->f:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -388,7 +388,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 125
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->g:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->g:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -397,7 +397,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 126
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->h:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->h:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -409,39 +409,39 @@
     return-void
 .end method
 
-.method public final a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+.method public final a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
     .locals 2
 
     .prologue
     .line 64
-    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/vm/cw;)V
+    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/vm/cw;)V
 
     .line 65
-    invoke-super {p0, p1, p2}, Lkik/android/chat/vm/e;->a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+    invoke-super {p0, p1, p2}, Lkik/arcane/chat/vm/e;->a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
 
     .line 67
-    invoke-virtual {p0}, Lkik/android/chat/vm/cw;->v_()Z
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/cw;->v_()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
     .line 68
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->j:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->j:Ljava/util/List;
 
     const-string v1, "Gallery"
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 69
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->j:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->j:Ljava/util/List;
 
     const-string v1, "Camera"
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 70
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->m:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->m:Ljava/util/List;
 
     const v1, 0x7f020194
 
@@ -452,7 +452,7 @@
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 71
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->m:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->m:Ljava/util/List;
 
     const v1, 0x7f02008a
 
@@ -464,14 +464,14 @@
 
     .line 74
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->j:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->j:Ljava/util/List;
 
     const-string v1, "GIF"
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 75
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->m:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->m:Ljava/util/List;
 
     const v1, 0x7f020199
 
@@ -482,14 +482,14 @@
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 76
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->j:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->j:Ljava/util/List;
 
     const-string v1, "Stickers"
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 77
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->m:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->m:Ljava/util/List;
 
     const v1, 0x7f020370
 
@@ -500,14 +500,14 @@
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 78
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->j:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->j:Ljava/util/List;
 
     const-string v1, "Smiley"
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 79
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->m:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->m:Ljava/util/List;
 
     const v1, 0x7f020357
 
@@ -518,21 +518,21 @@
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 81
-    invoke-virtual {p0}, Lkik/android/chat/vm/cw;->v_()Z
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/cw;->v_()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
     .line 82
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->j:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->j:Ljava/util/List;
 
     const-string v1, "Web"
 
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 83
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->m:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->m:Ljava/util/List;
 
     const v1, 0x7f020398
 
@@ -544,31 +544,31 @@
 
     .line 86
     :cond_1
-    invoke-direct {p0}, Lkik/android/chat/vm/cw;->q()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/cw;->q()V
 
     .line 87
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/presentation/MediaTrayPresenter;)V
+.method public final a(Lkik/arcane/chat/presentation/MediaTrayPresenter;)V
     .locals 3
 
     .prologue
     .line 113
-    iput-object p1, p0, Lkik/android/chat/vm/cw;->l:Lkik/android/chat/presentation/MediaTrayPresenter;
+    iput-object p1, p0, Lkik/arcane/chat/vm/cw;->l:Lkik/arcane/chat/presentation/MediaTrayPresenter;
 
     .line 114
-    invoke-virtual {p0}, Lkik/android/chat/vm/cw;->ag_()Lrx/f/b;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/cw;->ag_()Lrx/f/b;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/chat/vm/cw;->l:Lkik/android/chat/presentation/MediaTrayPresenter;
+    iget-object v1, p0, Lkik/arcane/chat/vm/cw;->l:Lkik/arcane/chat/presentation/MediaTrayPresenter;
 
-    invoke-interface {v1}, Lkik/android/chat/presentation/MediaTrayPresenter;->u()Lrx/d;
+    invoke-interface {v1}, Lkik/arcane/chat/presentation/MediaTrayPresenter;->u()Lrx/d;
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/chat/vm/cx;->a(Lkik/android/chat/vm/cw;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/vm/cx;->a(Lkik/arcane/chat/vm/cw;)Lrx/functions/b;
 
     move-result-object v2
 
@@ -589,28 +589,28 @@
 
     .prologue
     .line 132
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->l:Lkik/android/chat/presentation/MediaTrayPresenter;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->l:Lkik/arcane/chat/presentation/MediaTrayPresenter;
 
     const-string v1, "Camera"
 
-    invoke-interface {v0, v1}, Lkik/android/chat/presentation/MediaTrayPresenter;->a(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/presentation/MediaTrayPresenter;->a(Ljava/lang/String;)V
 
     .line 133
-    invoke-virtual {p0}, Lkik/android/chat/vm/cw;->H_()Lkik/android/chat/vm/bd;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/cw;->H_()Lkik/arcane/chat/vm/bd;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/chat/vm/cw$2;
+    new-instance v1, Lkik/arcane/chat/vm/cw$2;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/vm/cw$2;-><init>(Lkik/android/chat/vm/cw;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/vm/cw$2;-><init>(Lkik/arcane/chat/vm/cw;)V
 
-    invoke-interface {v0}, Lkik/android/chat/vm/bd;->k()Lcom/kik/events/Promise;
+    invoke-interface {v0}, Lkik/arcane/chat/vm/bd;->k()Lcom/kik/events/Promise;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/chat/vm/cw$1;
+    new-instance v1, Lkik/arcane/chat/vm/cw$1;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/vm/cw$1;-><init>(Lkik/android/chat/vm/cw;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/vm/cw$1;-><init>(Lkik/arcane/chat/vm/cw;)V
 
     .line 135
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
@@ -626,14 +626,14 @@
     const/4 v2, 0x0
 
     .line 148
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->l:Lkik/android/chat/presentation/MediaTrayPresenter;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->l:Lkik/arcane/chat/presentation/MediaTrayPresenter;
 
     const-string v1, "GIF"
 
-    invoke-interface {v0, v1}, Lkik/android/chat/presentation/MediaTrayPresenter;->a(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/presentation/MediaTrayPresenter;->a(Ljava/lang/String;)V
 
     .line 149
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->d:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->d:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -642,7 +642,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 150
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->e:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->e:Lrx/subjects/PublishSubject;
 
     const/4 v1, 0x1
 
@@ -653,7 +653,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 151
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->f:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->f:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -662,7 +662,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 152
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->g:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->g:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -671,7 +671,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 153
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->h:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->h:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -690,14 +690,14 @@
     const/4 v2, 0x0
 
     .line 159
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->l:Lkik/android/chat/presentation/MediaTrayPresenter;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->l:Lkik/arcane/chat/presentation/MediaTrayPresenter;
 
     const-string v1, "Stickers"
 
-    invoke-interface {v0, v1}, Lkik/android/chat/presentation/MediaTrayPresenter;->a(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/presentation/MediaTrayPresenter;->a(Ljava/lang/String;)V
 
     .line 160
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->d:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->d:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -706,7 +706,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 161
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->e:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->e:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -715,7 +715,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 162
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->f:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->f:Lrx/subjects/PublishSubject;
 
     const/4 v1, 0x1
 
@@ -726,7 +726,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 163
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->g:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->g:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -735,7 +735,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 164
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->h:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->h:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -754,14 +754,14 @@
     const/4 v2, 0x0
 
     .line 181
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->l:Lkik/android/chat/presentation/MediaTrayPresenter;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->l:Lkik/arcane/chat/presentation/MediaTrayPresenter;
 
     const-string v1, "Web"
 
-    invoke-interface {v0, v1}, Lkik/android/chat/presentation/MediaTrayPresenter;->a(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/presentation/MediaTrayPresenter;->a(Ljava/lang/String;)V
 
     .line 182
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->d:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->d:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -770,7 +770,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 183
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->e:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->e:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -779,7 +779,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 184
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->f:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->f:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -788,7 +788,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 185
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->g:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->g:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -797,7 +797,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 186
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->h:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->h:Lrx/subjects/PublishSubject;
 
     const/4 v1, 0x1
 
@@ -825,7 +825,7 @@
 
     .prologue
     .line 198
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->e:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->e:Lrx/subjects/PublishSubject;
 
     invoke-virtual {v0}, Lrx/subjects/PublishSubject;->f()Lrx/d;
 
@@ -848,7 +848,7 @@
 
     .prologue
     .line 204
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->f:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->f:Lrx/subjects/PublishSubject;
 
     invoke-virtual {v0}, Lrx/subjects/PublishSubject;->f()Lrx/d;
 
@@ -871,7 +871,7 @@
 
     .prologue
     .line 210
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->g:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->g:Lrx/subjects/PublishSubject;
 
     invoke-virtual {v0}, Lrx/subjects/PublishSubject;->f()Lrx/d;
 
@@ -894,7 +894,7 @@
 
     .prologue
     .line 216
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->h:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->h:Lrx/subjects/PublishSubject;
 
     invoke-virtual {v0}, Lrx/subjects/PublishSubject;->f()Lrx/d;
 
@@ -917,7 +917,7 @@
 
     .prologue
     .line 222
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->i:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->i:Lrx/subjects/a;
 
     return-object v0
 .end method
@@ -929,7 +929,7 @@
     const/4 v2, 0x0
 
     .line 228
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->d:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->d:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -938,7 +938,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 229
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->e:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->e:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -947,7 +947,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 230
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->f:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->f:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -956,7 +956,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 231
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->g:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->g:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -965,7 +965,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 232
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->h:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->h:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -982,7 +982,7 @@
 
     .prologue
     .line 238
-    invoke-direct {p0}, Lkik/android/chat/vm/cw;->q()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/cw;->q()V
 
     .line 239
     return-void
@@ -995,14 +995,14 @@
     const/4 v2, 0x0
 
     .line 170
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->l:Lkik/android/chat/presentation/MediaTrayPresenter;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->l:Lkik/arcane/chat/presentation/MediaTrayPresenter;
 
     const-string v1, "Smiley"
 
-    invoke-interface {v0, v1}, Lkik/android/chat/presentation/MediaTrayPresenter;->a(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/presentation/MediaTrayPresenter;->a(Ljava/lang/String;)V
 
     .line 171
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->d:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->d:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -1011,7 +1011,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 172
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->e:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->e:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -1020,7 +1020,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 173
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->f:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->f:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -1029,7 +1029,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 174
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->g:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->g:Lrx/subjects/PublishSubject;
 
     const/4 v1, 0x1
 
@@ -1040,7 +1040,7 @@
     invoke-virtual {v0, v1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
     .line 175
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->h:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->h:Lrx/subjects/PublishSubject;
 
     invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -1066,7 +1066,7 @@
 
     .prologue
     .line 192
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->d:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->d:Lrx/subjects/PublishSubject;
 
     invoke-virtual {v0}, Lrx/subjects/PublishSubject;->f()Lrx/d;
 
@@ -1082,11 +1082,11 @@
     const/4 v1, 0x0
 
     .line 244
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->a:Lkik/core/interfaces/b;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->a:Lkik/core/interfaces/b;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->b:Lkik/core/interfaces/v;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->b:Lkik/core/interfaces/v;
 
     if-nez v0, :cond_1
 
@@ -1099,9 +1099,9 @@
 
     .line 248
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->b:Lkik/core/interfaces/v;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->b:Lkik/core/interfaces/v;
 
-    iget-object v2, p0, Lkik/android/chat/vm/cw;->k:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/vm/cw;->k:Ljava/lang/String;
 
     invoke-interface {v0, v2, v1}, Lkik/core/interfaces/v;->a(Ljava/lang/String;Z)Lkik/core/datatypes/l;
 
@@ -1129,7 +1129,7 @@
 
     if-eqz v0, :cond_3
 
-    iget-object v0, p0, Lkik/android/chat/vm/cw;->a:Lkik/core/interfaces/b;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cw;->a:Lkik/core/interfaces/b;
 
     const-string v2, "public-group-ugc"
 

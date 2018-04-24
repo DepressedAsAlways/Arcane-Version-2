@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/gifs/view/g;
+.class final synthetic Lkik/arcane/gifs/view/g;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/gifs/view/GifView;
+.field private final a:Lkik/arcane/gifs/view/GifView;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/gifs/view/GifView;)V
+.method private constructor <init>(Lkik/arcane/gifs/view/GifView;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/gifs/view/g;->a:Lkik/android/gifs/view/GifView;
+    iput-object p1, p0, Lkik/arcane/gifs/view/g;->a:Lkik/arcane/gifs/view/GifView;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/gifs/view/GifView;)Lrx/functions/b;
+.method public static a(Lkik/arcane/gifs/view/GifView;)Lrx/functions/b;
     .locals 1
 
-    new-instance v0, Lkik/android/gifs/view/g;
+    new-instance v0, Lkik/arcane/gifs/view/g;
 
-    invoke-direct {v0, p0}, Lkik/android/gifs/view/g;-><init>(Lkik/android/gifs/view/GifView;)V
+    invoke-direct {v0, p0}, Lkik/arcane/gifs/view/g;-><init>(Lkik/arcane/gifs/view/GifView;)V
 
     return-object v0
 .end method
@@ -37,18 +37,18 @@
 
     .prologue
     .line 0
-    iget-object v0, p0, Lkik/android/gifs/view/g;->a:Lkik/android/gifs/view/GifView;
+    iget-object v0, p0, Lkik/arcane/gifs/view/g;->a:Lkik/arcane/gifs/view/GifView;
 
-    check-cast p1, Lkik/android/gifs/view/c;
+    check-cast p1, Lkik/arcane/gifs/view/c;
 
     .line 1058
     if-eqz p1, :cond_0
 
     .line 1059
-    invoke-virtual {v0, p1}, Lkik/android/gifs/view/GifView;->a(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, p1}, Lkik/arcane/gifs/view/GifView;->a(Landroid/graphics/drawable/Drawable;)V
 
     .line 1060
-    invoke-virtual {p1}, Lkik/android/gifs/view/c;->start()V
+    invoke-virtual {p1}, Lkik/arcane/gifs/view/c;->start()V
 
     .line 0
     :cond_0

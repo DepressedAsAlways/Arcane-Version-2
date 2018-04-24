@@ -1,4 +1,4 @@
-.class public final Lkik/android/b/f;
+.class public final Lkik/arcane/b/f;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -22,7 +22,7 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lkik/android/b/f;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Ljava/lang/String;)Lcom/kik/cards/web/kik/KikMessageParcelable;
+    invoke-static {v0, v1}, Lkik/arcane/b/f;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Ljava/lang/String;)Lcom/kik/cards/web/kik/KikMessageParcelable;
 
     move-result-object v0
 
@@ -63,7 +63,7 @@
 
     const/4 v8, 0x0
 
-    invoke-static/range {p0 .. p0}, Lkik/android/util/p;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;)Ljava/lang/String;
+    invoke-static/range {p0 .. p0}, Lkik/arcane/util/p;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;)Ljava/lang/String;
 
     move-result-object v9
 

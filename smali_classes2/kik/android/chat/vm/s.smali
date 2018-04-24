@@ -1,15 +1,15 @@
-.class public final Lkik/android/chat/vm/s;
-.super Lkik/android/chat/vm/e;
+.class public final Lkik/arcane/chat/vm/s;
+.super Lkik/arcane/chat/vm/e;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/chats/profile/dq;
+.implements Lkik/arcane/chat/vm/chats/profile/dq;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/vm/s$a;
+        Lkik/arcane/chat/vm/s$a;
     }
 .end annotation
 
@@ -28,11 +28,11 @@
     .end annotation
 .end field
 
-.field private final c:Lkik/android/chat/vm/s$a;
+.field private final c:Lkik/arcane/chat/vm/s$a;
 
 
 # direct methods
-.method public constructor <init>(Lkik/core/chat/profile/EmojiStatus;Lkik/android/chat/vm/s$a;Lrx/d;)V
+.method public constructor <init>(Lkik/core/chat/profile/EmojiStatus;Lkik/arcane/chat/vm/s$a;Lrx/d;)V
     .locals 0
     .param p1    # Lkik/core/chat/profile/EmojiStatus;
         .annotation runtime Ljavax/annotation/Nonnull;
@@ -42,7 +42,7 @@
         value = {
             "(",
             "Lkik/core/chat/profile/EmojiStatus;",
-            "Lkik/android/chat/vm/s$a;",
+            "Lkik/arcane/chat/vm/s$a;",
             "Lrx/d",
             "<",
             "Lkik/core/chat/profile/EmojiStatus;",
@@ -52,29 +52,29 @@
 
     .prologue
     .line 27
-    invoke-direct {p0}, Lkik/android/chat/vm/e;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/e;-><init>()V
 
     .line 28
-    iput-object p1, p0, Lkik/android/chat/vm/s;->a:Lkik/core/chat/profile/EmojiStatus;
+    iput-object p1, p0, Lkik/arcane/chat/vm/s;->a:Lkik/core/chat/profile/EmojiStatus;
 
     .line 29
-    iput-object p3, p0, Lkik/android/chat/vm/s;->b:Lrx/d;
+    iput-object p3, p0, Lkik/arcane/chat/vm/s;->b:Lrx/d;
 
     .line 30
-    iput-object p2, p0, Lkik/android/chat/vm/s;->c:Lkik/android/chat/vm/s$a;
+    iput-object p2, p0, Lkik/arcane/chat/vm/s;->c:Lkik/arcane/chat/vm/s$a;
 
     .line 31
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/s;Lkik/core/chat/profile/EmojiStatus;)Ljava/lang/Boolean;
+.method static synthetic a(Lkik/arcane/chat/vm/s;Lkik/core/chat/profile/EmojiStatus;)Ljava/lang/Boolean;
     .locals 1
 
     .prologue
     .line 48
     if-eqz p1, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/vm/s;->a:Lkik/core/chat/profile/EmojiStatus;
+    iget-object v0, p0, Lkik/arcane/chat/vm/s;->a:Lkik/core/chat/profile/EmojiStatus;
 
     invoke-virtual {p1, v0}, Lkik/core/chat/profile/EmojiStatus;->equals(Ljava/lang/Object;)Z
 
@@ -104,7 +104,7 @@
 
     .prologue
     .line 36
-    iget-object v0, p0, Lkik/android/chat/vm/s;->a:Lkik/core/chat/profile/EmojiStatus;
+    iget-object v0, p0, Lkik/arcane/chat/vm/s;->a:Lkik/core/chat/profile/EmojiStatus;
 
     invoke-virtual {v0}, Lkik/core/chat/profile/EmojiStatus;->hashCode()I
 
@@ -120,11 +120,11 @@
 
     .prologue
     .line 42
-    iget-object v0, p0, Lkik/android/chat/vm/s;->c:Lkik/android/chat/vm/s$a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/s;->c:Lkik/arcane/chat/vm/s$a;
 
-    iget-object v1, p0, Lkik/android/chat/vm/s;->a:Lkik/core/chat/profile/EmojiStatus;
+    iget-object v1, p0, Lkik/arcane/chat/vm/s;->a:Lkik/core/chat/profile/EmojiStatus;
 
-    invoke-interface {v0, v1}, Lkik/android/chat/vm/s$a;->a(Lkik/core/chat/profile/EmojiStatus;)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/vm/s$a;->a(Lkik/core/chat/profile/EmojiStatus;)V
 
     .line 43
     return-void
@@ -144,9 +144,9 @@
 
     .prologue
     .line 48
-    iget-object v0, p0, Lkik/android/chat/vm/s;->b:Lrx/d;
+    iget-object v0, p0, Lkik/arcane/chat/vm/s;->b:Lrx/d;
 
-    invoke-static {p0}, Lkik/android/chat/vm/t;->a(Lkik/android/chat/vm/s;)Lrx/functions/g;
+    invoke-static {p0}, Lkik/arcane/chat/vm/t;->a(Lkik/arcane/chat/vm/s;)Lrx/functions/g;
 
     move-result-object v1
 
@@ -162,7 +162,7 @@
 
     .prologue
     .line 54
-    iget-object v0, p0, Lkik/android/chat/vm/s;->a:Lkik/core/chat/profile/EmojiStatus;
+    iget-object v0, p0, Lkik/arcane/chat/vm/s;->a:Lkik/core/chat/profile/EmojiStatus;
 
     invoke-static {v0}, Lcom/kik/cache/l;->a(Lkik/core/chat/profile/EmojiStatus;)I
 

@@ -1,4 +1,4 @@
-.class final Lkik/android/widget/preferences/LicensePreference$1;
+.class final Lkik/arcane/widget/preferences/LicensePreference$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/preferences/LicensePreference;->onPreferenceClick(Landroid/preference/Preference;)Z
+    value = Lkik/arcane/widget/preferences/LicensePreference;->onPreferenceClick(Landroid/preference/Preference;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/preferences/LicensePreference;
+.field final synthetic a:Lkik/arcane/widget/preferences/LicensePreference;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/preferences/LicensePreference;)V
+.method constructor <init>(Lkik/arcane/widget/preferences/LicensePreference;)V
     .locals 0
 
     .prologue
     .line 29
-    iput-object p1, p0, Lkik/android/widget/preferences/LicensePreference$1;->a:Lkik/android/widget/preferences/LicensePreference;
+    iput-object p1, p0, Lkik/arcane/widget/preferences/LicensePreference$1;->a:Lkik/arcane/widget/preferences/LicensePreference;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

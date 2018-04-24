@@ -1,4 +1,4 @@
-.class public Lcom/kik/android/b/f;
+.class public Lcom/kik/arcane/b/f;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/kik/android/b/f$a;
+        Lcom/kik/arcane/b/f$a;
     }
 .end annotation
 
@@ -36,40 +36,40 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 45
-    iput-object p2, p0, Lcom/kik/android/b/f;->d:Ljava/lang/String;
+    iput-object p2, p0, Lcom/kik/arcane/b/f;->d:Ljava/lang/String;
 
     .line 46
-    iput-object p1, p0, Lcom/kik/android/b/f;->a:Ljava/lang/String;
+    iput-object p1, p0, Lcom/kik/arcane/b/f;->a:Ljava/lang/String;
 
     .line 47
-    iput-object p3, p0, Lcom/kik/android/b/f;->b:Ljava/lang/String;
+    iput-object p3, p0, Lcom/kik/arcane/b/f;->b:Ljava/lang/String;
 
     .line 48
-    iput-object p4, p0, Lcom/kik/android/b/f;->c:Ljava/lang/String;
+    iput-object p4, p0, Lcom/kik/arcane/b/f;->c:Ljava/lang/String;
 
     .line 49
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lcom/kik/android/b/f;->f:Z
+    iput-boolean v0, p0, Lcom/kik/arcane/b/f;->f:Z
 
     .line 50
-    iput-wide p5, p0, Lcom/kik/android/b/f;->g:J
+    iput-wide p5, p0, Lcom/kik/arcane/b/f;->g:J
 
     .line 51
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/kik/android/b/f;->e:Z
+    iput-boolean v0, p0, Lcom/kik/arcane/b/f;->e:Z
 
     .line 52
     return-void
 .end method
 
-.method static a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)Lcom/kik/android/b/f;
+.method static a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)Lcom/kik/arcane/b/f;
     .locals 8
 
     .prologue
     .line 35
-    new-instance v1, Lcom/kik/android/b/f;
+    new-instance v1, Lcom/kik/arcane/b/f;
 
     move-object v2, p0
 
@@ -81,7 +81,7 @@
 
     move-wide v6, p4
 
-    invoke-direct/range {v1 .. v7}, Lcom/kik/android/b/f;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V
+    invoke-direct/range {v1 .. v7}, Lcom/kik/arcane/b/f;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V
 
     return-object v1
 .end method
@@ -91,7 +91,7 @@
 
     .prologue
     .line 162
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v0
 
@@ -133,7 +133,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/kik/android/b/f;->a()Ljava/lang/String;
+    invoke-static {}, Lcom/kik/arcane/b/f;->a()Ljava/lang/String;
 
     move-result-object v2
 
@@ -184,7 +184,7 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcom/kik/android/b/f;->a()Ljava/lang/String;
+    invoke-static {}, Lcom/kik/arcane/b/f;->a()Ljava/lang/String;
 
     move-result-object v2
 
@@ -224,12 +224,12 @@
     invoke-direct {v0}, Lcom/kik/xdata/model/smileys/XSmiley;-><init>()V
 
     .line 68
-    iget-object v1, p0, Lcom/kik/android/b/f;->b:Ljava/lang/String;
+    iget-object v1, p0, Lcom/kik/arcane/b/f;->b:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Lcom/kik/xdata/model/smileys/XSmiley;->b(Ljava/lang/String;)Lcom/kik/xdata/model/smileys/XSmiley;
 
     .line 69
-    iget-wide v2, p0, Lcom/kik/android/b/f;->g:J
+    iget-wide v2, p0, Lcom/kik/arcane/b/f;->g:J
 
     invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -238,17 +238,17 @@
     invoke-virtual {v0, v1}, Lcom/kik/xdata/model/smileys/XSmiley;->a(Ljava/lang/Long;)Lcom/kik/xdata/model/smileys/XSmiley;
 
     .line 70
-    iget-object v1, p0, Lcom/kik/android/b/f;->c:Ljava/lang/String;
+    iget-object v1, p0, Lcom/kik/arcane/b/f;->c:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Lcom/kik/xdata/model/smileys/XSmiley;->d(Ljava/lang/String;)Lcom/kik/xdata/model/smileys/XSmiley;
 
     .line 71
-    iget-object v1, p0, Lcom/kik/android/b/f;->d:Ljava/lang/String;
+    iget-object v1, p0, Lcom/kik/arcane/b/f;->d:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Lcom/kik/xdata/model/smileys/XSmiley;->a(Ljava/lang/String;)Lcom/kik/xdata/model/smileys/XSmiley;
 
     .line 72
-    iget-object v1, p0, Lcom/kik/android/b/f;->a:Ljava/lang/String;
+    iget-object v1, p0, Lcom/kik/arcane/b/f;->a:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Lcom/kik/xdata/model/smileys/XSmiley;->c(Ljava/lang/String;)Lcom/kik/xdata/model/smileys/XSmiley;
 
@@ -263,7 +263,7 @@
     .line 61
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lcom/kik/android/b/f;->e:Z
+    iput-boolean v0, p0, Lcom/kik/arcane/b/f;->e:Z
 
     .line 62
     return-void
@@ -274,7 +274,7 @@
 
     .prologue
     .line 79
-    iget-object v0, p0, Lcom/kik/android/b/f;->a:Ljava/lang/String;
+    iget-object v0, p0, Lcom/kik/arcane/b/f;->a:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -284,7 +284,7 @@
 
     .prologue
     .line 84
-    iget-object v0, p0, Lcom/kik/android/b/f;->b:Ljava/lang/String;
+    iget-object v0, p0, Lcom/kik/arcane/b/f;->b:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -294,7 +294,7 @@
 
     .prologue
     .line 89
-    iget-object v0, p0, Lcom/kik/android/b/f;->c:Ljava/lang/String;
+    iget-object v0, p0, Lcom/kik/arcane/b/f;->c:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -304,7 +304,7 @@
 
     .prologue
     .line 99
-    iget-object v0, p0, Lcom/kik/android/b/f;->d:Ljava/lang/String;
+    iget-object v0, p0, Lcom/kik/arcane/b/f;->d:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -314,7 +314,7 @@
 
     .prologue
     .line 104
-    iget-boolean v0, p0, Lcom/kik/android/b/f;->e:Z
+    iget-boolean v0, p0, Lcom/kik/arcane/b/f;->e:Z
 
     return v0
 .end method
@@ -324,7 +324,7 @@
 
     .prologue
     .line 109
-    iget-wide v0, p0, Lcom/kik/android/b/f;->g:J
+    iget-wide v0, p0, Lcom/kik/arcane/b/f;->g:J
 
     return-wide v0
 .end method

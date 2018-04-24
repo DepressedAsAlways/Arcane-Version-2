@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/KikCodeBackgroundImageView;
+.class public Lkik/arcane/widget/KikCodeBackgroundImageView;
 .super Landroid/view/View;
 .source "SourceFile"
 
@@ -24,15 +24,15 @@
 
     invoke-direct {v0, v1}, Landroid/graphics/Paint;-><init>(I)V
 
-    iput-object v0, p0, Lkik/android/widget/KikCodeBackgroundImageView;->b:Landroid/graphics/Paint;
+    iput-object v0, p0, Lkik/arcane/widget/KikCodeBackgroundImageView;->b:Landroid/graphics/Paint;
 
     .line 24
-    iget-object v0, p0, Lkik/android/widget/KikCodeBackgroundImageView;->b:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeBackgroundImageView;->b:Landroid/graphics/Paint;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
     .line 25
-    iget-object v0, p0, Lkik/android/widget/KikCodeBackgroundImageView;->b:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeBackgroundImageView;->b:Landroid/graphics/Paint;
 
     sget-object v1, Landroid/graphics/Paint$Style;->FILL_AND_STROKE:Landroid/graphics/Paint$Style;
 
@@ -56,12 +56,12 @@
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
     .line 32
-    invoke-virtual {p0}, Lkik/android/widget/KikCodeBackgroundImageView;->getWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCodeBackgroundImageView;->getWidth()I
 
     move-result v0
 
     .line 33
-    invoke-virtual {p0}, Lkik/android/widget/KikCodeBackgroundImageView;->getHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/KikCodeBackgroundImageView;->getHeight()I
 
     move-result v1
 
@@ -84,22 +84,22 @@
 
     div-float/2addr v0, v4
 
-    iput v0, p0, Lkik/android/widget/KikCodeBackgroundImageView;->a:F
+    iput v0, p0, Lkik/arcane/widget/KikCodeBackgroundImageView;->a:F
 
     .line 43
-    iget-object v0, p0, Lkik/android/widget/KikCodeBackgroundImageView;->b:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/KikCodeBackgroundImageView;->b:Landroid/graphics/Paint;
 
     invoke-virtual {v0, v7, v7, v7, v7}, Landroid/graphics/Paint;->setARGB(IIII)V
 
     .line 44
-    iget v0, p0, Lkik/android/widget/KikCodeBackgroundImageView;->a:F
+    iget v0, p0, Lkik/arcane/widget/KikCodeBackgroundImageView;->a:F
 
-    iget-object v1, p0, Lkik/android/widget/KikCodeBackgroundImageView;->b:Landroid/graphics/Paint;
+    iget-object v1, p0, Lkik/arcane/widget/KikCodeBackgroundImageView;->b:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v2, v3, v0, v1}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
     .line 47
-    iget v0, p0, Lkik/android/widget/KikCodeBackgroundImageView;->a:F
+    iget v0, p0, Lkik/arcane/widget/KikCodeBackgroundImageView;->a:F
 
     float-to-double v0, v0
 
@@ -110,7 +110,7 @@
     double-to-float v0, v0
 
     .line 50
-    iget-object v1, p0, Lkik/android/widget/KikCodeBackgroundImageView;->b:Landroid/graphics/Paint;
+    iget-object v1, p0, Lkik/arcane/widget/KikCodeBackgroundImageView;->b:Landroid/graphics/Paint;
 
     const/16 v4, 0x2e
 
@@ -121,7 +121,7 @@
     invoke-virtual {v1, v7, v4, v5, v6}, Landroid/graphics/Paint;->setARGB(IIII)V
 
     .line 51
-    iget-object v1, p0, Lkik/android/widget/KikCodeBackgroundImageView;->b:Landroid/graphics/Paint;
+    iget-object v1, p0, Lkik/arcane/widget/KikCodeBackgroundImageView;->b:Landroid/graphics/Paint;
 
     invoke-virtual {p1, v2, v3, v0, v1}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 

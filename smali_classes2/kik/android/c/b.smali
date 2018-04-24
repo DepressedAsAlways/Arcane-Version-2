@@ -1,17 +1,17 @@
-.class public abstract Lkik/android/c/b;
+.class public abstract Lkik/arcane/c/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/c/a;
+.implements Lkik/arcane/c/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/c/b$b;,
-        Lkik/android/c/b$c;,
-        Lkik/android/c/b$a;
+        Lkik/arcane/c/b$b;,
+        Lkik/arcane/c/b$c;,
+        Lkik/arcane/c/b$a;
     }
 .end annotation
 
@@ -19,11 +19,11 @@
 # instance fields
 .field protected a:Landroid/view/View$OnTouchListener;
 
-.field protected b:Lkik/android/c/b$c;
+.field protected b:Lkik/arcane/c/b$c;
 
-.field protected c:Lkik/android/c/b$b;
+.field protected c:Lkik/arcane/c/b$b;
 
-.field protected d:Lkik/android/c/b$a;
+.field protected d:Lkik/arcane/c/b$a;
 
 
 # direct methods
@@ -39,34 +39,34 @@
 
 
 # virtual methods
-.method public final a(Landroid/view/View$OnTouchListener;)Lkik/android/c/b;
+.method public final a(Landroid/view/View$OnTouchListener;)Lkik/arcane/c/b;
     .locals 0
 
     .prologue
     .line 18
-    iput-object p1, p0, Lkik/android/c/b;->a:Landroid/view/View$OnTouchListener;
+    iput-object p1, p0, Lkik/arcane/c/b;->a:Landroid/view/View$OnTouchListener;
 
     .line 19
     return-object p0
 .end method
 
-.method public final a(Lkik/android/c/b$a;)Lkik/android/c/b;
+.method public final a(Lkik/arcane/c/b$a;)Lkik/arcane/c/b;
     .locals 0
 
     .prologue
     .line 30
-    iput-object p1, p0, Lkik/android/c/b;->d:Lkik/android/c/b$a;
+    iput-object p1, p0, Lkik/arcane/c/b;->d:Lkik/arcane/c/b$a;
 
     .line 31
     return-object p0
 .end method
 
-.method public final a(Lkik/android/c/b$b;)Lkik/android/c/b;
+.method public final a(Lkik/arcane/c/b$b;)Lkik/arcane/c/b;
     .locals 0
 
     .prologue
     .line 24
-    iput-object p1, p0, Lkik/android/c/b;->c:Lkik/android/c/b$b;
+    iput-object p1, p0, Lkik/arcane/c/b;->c:Lkik/arcane/c/b$b;
 
     .line 25
     return-object p0
@@ -77,14 +77,14 @@
 
     .prologue
     .line 37
-    iget-object v0, p0, Lkik/android/c/b;->d:Lkik/android/c/b$a;
+    iget-object v0, p0, Lkik/arcane/c/b;->d:Lkik/arcane/c/b$a;
 
     if-eqz v0, :cond_0
 
     .line 38
-    iget-object v0, p0, Lkik/android/c/b;->d:Lkik/android/c/b$a;
+    iget-object v0, p0, Lkik/arcane/c/b;->d:Lkik/arcane/c/b$a;
 
-    invoke-virtual {v0, p1}, Lkik/android/c/b$a;->a(Landroid/hardware/Camera;)V
+    invoke-virtual {v0, p1}, Lkik/arcane/c/b$a;->a(Landroid/hardware/Camera;)V
 
     .line 40
     :cond_0

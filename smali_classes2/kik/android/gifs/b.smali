@@ -1,15 +1,15 @@
-.class public final Lkik/android/gifs/b;
+.class public final Lkik/arcane/gifs/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/gifs/c;
+.implements Lkik/arcane/gifs/c;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/gifs/b$a;
+        Lkik/arcane/gifs/b$a;
     }
 .end annotation
 
@@ -19,17 +19,17 @@
 
 .field private b:Lcom/kik/storage/s;
 
-.field private c:Lcom/kik/android/Mixpanel;
+.field private c:Lcom/kik/arcane/Mixpanel;
 
 .field private d:Ljava/util/concurrent/ConcurrentMap;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/concurrent/ConcurrentMap",
             "<",
-            "Lkik/android/gifs/b$a;",
+            "Lkik/arcane/gifs/b$a;",
             "Lcom/kik/events/Promise",
             "<",
-            "Lkik/android/gifs/view/c;",
+            "Lkik/arcane/gifs/view/c;",
             ">;>;"
         }
     .end annotation
@@ -51,7 +51,7 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/kik/storage/s;Lcom/kik/android/Mixpanel;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/kik/storage/s;Lcom/kik/arcane/Mixpanel;)V
     .locals 1
 
     .prologue
@@ -63,45 +63,45 @@
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
 
-    iput-object v0, p0, Lkik/android/gifs/b;->d:Ljava/util/concurrent/ConcurrentMap;
+    iput-object v0, p0, Lkik/arcane/gifs/b;->d:Ljava/util/concurrent/ConcurrentMap;
 
     .line 29
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
 
-    iput-object v0, p0, Lkik/android/gifs/b;->e:Ljava/util/concurrent/ConcurrentMap;
+    iput-object v0, p0, Lkik/arcane/gifs/b;->e:Ljava/util/concurrent/ConcurrentMap;
 
     .line 33
-    iput-object p1, p0, Lkik/android/gifs/b;->a:Landroid/content/Context;
+    iput-object p1, p0, Lkik/arcane/gifs/b;->a:Landroid/content/Context;
 
     .line 34
-    iput-object p2, p0, Lkik/android/gifs/b;->b:Lcom/kik/storage/s;
+    iput-object p2, p0, Lkik/arcane/gifs/b;->b:Lcom/kik/storage/s;
 
     .line 35
-    iput-object p3, p0, Lkik/android/gifs/b;->c:Lcom/kik/android/Mixpanel;
+    iput-object p3, p0, Lkik/arcane/gifs/b;->c:Lcom/kik/arcane/Mixpanel;
 
     .line 36
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/gifs/b;)Ljava/util/concurrent/ConcurrentMap;
+.method static synthetic a(Lkik/arcane/gifs/b;)Ljava/util/concurrent/ConcurrentMap;
     .locals 1
 
     .prologue
     .line 21
-    iget-object v0, p0, Lkik/android/gifs/b;->e:Ljava/util/concurrent/ConcurrentMap;
+    iget-object v0, p0, Lkik/arcane/gifs/b;->e:Ljava/util/concurrent/ConcurrentMap;
 
     return-object v0
 .end method
 
-.method static synthetic a(Lkik/android/gifs/b;Ljava/lang/String;Ljava/io/File;ILkik/android/gifs/api/GifResponseData$MediaType;Lcom/kik/events/Promise;Ljava/lang/String;)V
+.method static synthetic a(Lkik/arcane/gifs/b;Ljava/lang/String;Ljava/io/File;ILkik/arcane/gifs/api/GifResponseData$MediaType;Lcom/kik/events/Promise;Ljava/lang/String;)V
     .locals 3
 
     .prologue
     .line 21
     .line 1123
-    new-instance v1, Lkik/android/gifs/b$a;
+    new-instance v1, Lkik/arcane/gifs/b$a;
 
     invoke-virtual {p2}, Ljava/io/File;->getPath()Ljava/lang/String;
 
@@ -109,10 +109,10 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, p6, v0, v2}, Lkik/android/gifs/b$a;-><init>(Ljava/lang/String;Ljava/lang/String;B)V
+    invoke-direct {v1, p6, v0, v2}, Lkik/arcane/gifs/b$a;-><init>(Ljava/lang/String;Ljava/lang/String;B)V
 
     .line 1124
-    iget-object v0, p0, Lkik/android/gifs/b;->d:Ljava/util/concurrent/ConcurrentMap;
+    iget-object v0, p0, Lkik/arcane/gifs/b;->d:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-interface {v0, v1}, Ljava/util/concurrent/ConcurrentMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -124,9 +124,9 @@
     if-eqz v0, :cond_0
 
     .line 1126
-    new-instance v1, Lkik/android/gifs/b$3;
+    new-instance v1, Lkik/arcane/gifs/b$3;
 
-    invoke-direct {v1, p0, p5}, Lkik/android/gifs/b$3;-><init>(Lkik/android/gifs/b;Lcom/kik/events/Promise;)V
+    invoke-direct {v1, p0, p5}, Lkik/arcane/gifs/b$3;-><init>(Lkik/arcane/gifs/b;Lcom/kik/events/Promise;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -136,55 +136,55 @@
 
     .line 1143
     :cond_0
-    iget-object v0, p0, Lkik/android/gifs/b;->a:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/gifs/b;->a:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
-    invoke-static {p1, p2, p3, p4, v0}, Lkik/android/gifs/view/c;->a(Ljava/lang/String;Ljava/io/File;ILkik/android/gifs/api/GifResponseData$MediaType;Landroid/content/res/Resources;)Lcom/kik/events/Promise;
+    invoke-static {p1, p2, p3, p4, v0}, Lkik/arcane/gifs/view/c;->a(Ljava/lang/String;Ljava/io/File;ILkik/arcane/gifs/api/GifResponseData$MediaType;Landroid/content/res/Resources;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
     .line 1144
-    iget-object v2, p0, Lkik/android/gifs/b;->d:Ljava/util/concurrent/ConcurrentMap;
+    iget-object v2, p0, Lkik/arcane/gifs/b;->d:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-interface {v2, v1, v0}, Ljava/util/concurrent/ConcurrentMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 1146
-    new-instance v2, Lkik/android/gifs/b$4;
+    new-instance v2, Lkik/arcane/gifs/b$4;
 
-    invoke-direct {v2, p0, v1, p5}, Lkik/android/gifs/b$4;-><init>(Lkik/android/gifs/b;Lkik/android/gifs/b$a;Lcom/kik/events/Promise;)V
+    invoke-direct {v2, p0, v1, p5}, Lkik/arcane/gifs/b$4;-><init>(Lkik/arcane/gifs/b;Lkik/arcane/gifs/b$a;Lcom/kik/events/Promise;)V
 
     invoke-virtual {v0, v2}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
     goto :goto_0
 .end method
 
-.method static synthetic b(Lkik/android/gifs/b;)Ljava/util/concurrent/ConcurrentMap;
+.method static synthetic b(Lkik/arcane/gifs/b;)Ljava/util/concurrent/ConcurrentMap;
     .locals 1
 
     .prologue
     .line 21
-    iget-object v0, p0, Lkik/android/gifs/b;->d:Ljava/util/concurrent/ConcurrentMap;
+    iget-object v0, p0, Lkik/arcane/gifs/b;->d:Ljava/util/concurrent/ConcurrentMap;
 
     return-object v0
 .end method
 
 
 # virtual methods
-.method public final a(Ljava/lang/String;Lkik/android/gifs/api/GifResponseData$MediaType;Ljava/lang/String;)Lcom/kik/events/Promise;
+.method public final a(Ljava/lang/String;Lkik/arcane/gifs/api/GifResponseData$MediaType;Ljava/lang/String;)Lcom/kik/events/Promise;
     .locals 7
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
-            "Lkik/android/gifs/api/GifResponseData$MediaType;",
+            "Lkik/arcane/gifs/api/GifResponseData$MediaType;",
             "Ljava/lang/String;",
             ")",
             "Lcom/kik/events/Promise",
             "<",
-            "Lkik/android/gifs/view/c;",
+            "Lkik/arcane/gifs/view/c;",
             ">;"
         }
     .end annotation
@@ -215,7 +215,7 @@
     invoke-direct {v4}, Lcom/kik/events/Promise;-><init>()V
 
     .line 1068
-    iget-object v0, p0, Lkik/android/gifs/b;->e:Ljava/util/concurrent/ConcurrentMap;
+    iget-object v0, p0, Lkik/arcane/gifs/b;->e:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-interface {v0, p1}, Ljava/util/concurrent/ConcurrentMap;->containsKey(Ljava/lang/Object;)Z
 
@@ -224,7 +224,7 @@
     if-eqz v0, :cond_1
 
     .line 1069
-    iget-object v0, p0, Lkik/android/gifs/b;->e:Ljava/util/concurrent/ConcurrentMap;
+    iget-object v0, p0, Lkik/arcane/gifs/b;->e:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-interface {v0, p1}, Ljava/util/concurrent/ConcurrentMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -234,7 +234,7 @@
 
     check-cast v6, Lcom/kik/events/Promise;
 
-    new-instance v0, Lkik/android/gifs/b$1;
+    new-instance v0, Lkik/arcane/gifs/b$1;
 
     move-object v1, p0
 
@@ -244,7 +244,7 @@
 
     move-object v5, p3
 
-    invoke-direct/range {v0 .. v5}, Lkik/android/gifs/b$1;-><init>(Lkik/android/gifs/b;Ljava/lang/String;Lkik/android/gifs/api/GifResponseData$MediaType;Lcom/kik/events/Promise;Ljava/lang/String;)V
+    invoke-direct/range {v0 .. v5}, Lkik/arcane/gifs/b$1;-><init>(Lkik/arcane/gifs/b;Ljava/lang/String;Lkik/arcane/gifs/api/GifResponseData$MediaType;Lcom/kik/events/Promise;Ljava/lang/String;)V
 
     invoke-virtual {v6, v0}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -252,21 +252,21 @@
 
     .line 1086
     :cond_1
-    iget-object v0, p0, Lkik/android/gifs/b;->b:Lcom/kik/storage/s;
+    iget-object v0, p0, Lkik/arcane/gifs/b;->b:Lcom/kik/storage/s;
 
-    iget-object v1, p0, Lkik/android/gifs/b;->c:Lcom/kik/android/Mixpanel;
+    iget-object v1, p0, Lkik/arcane/gifs/b;->c:Lcom/kik/arcane/Mixpanel;
 
-    invoke-interface {v0, p1, v1}, Lcom/kik/storage/s;->a(Ljava/lang/String;Lcom/kik/android/Mixpanel;)Lcom/kik/events/Promise;
+    invoke-interface {v0, p1, v1}, Lcom/kik/storage/s;->a(Ljava/lang/String;Lcom/kik/arcane/Mixpanel;)Lcom/kik/events/Promise;
 
     move-result-object v6
 
     .line 1087
-    iget-object v0, p0, Lkik/android/gifs/b;->e:Ljava/util/concurrent/ConcurrentMap;
+    iget-object v0, p0, Lkik/arcane/gifs/b;->e:Ljava/util/concurrent/ConcurrentMap;
 
     invoke-interface {v0, p1, v6}, Ljava/util/concurrent/ConcurrentMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 1089
-    new-instance v0, Lkik/android/gifs/b$2;
+    new-instance v0, Lkik/arcane/gifs/b$2;
 
     move-object v1, p0
 
@@ -276,7 +276,7 @@
 
     move-object v5, p3
 
-    invoke-direct/range {v0 .. v5}, Lkik/android/gifs/b$2;-><init>(Lkik/android/gifs/b;Ljava/lang/String;Lkik/android/gifs/api/GifResponseData$MediaType;Lcom/kik/events/Promise;Ljava/lang/String;)V
+    invoke-direct/range {v0 .. v5}, Lkik/arcane/gifs/b$2;-><init>(Lkik/arcane/gifs/b;Ljava/lang/String;Lkik/arcane/gifs/api/GifResponseData$MediaType;Lcom/kik/events/Promise;Ljava/lang/String;)V
 
     invoke-virtual {v6, v0}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 

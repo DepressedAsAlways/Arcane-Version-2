@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/fragment/SuggestInterestDialogFragment$a;
+.class public final Lkik/arcane/chat/fragment/SuggestInterestDialogFragment$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/SuggestInterestDialogFragment;
+    value = Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/fragment/SuggestInterestDialogFragment;
+.field private final a:Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;
 
 
 # direct methods
@@ -27,11 +27,11 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 158
-    new-instance v0, Lkik/android/chat/fragment/SuggestInterestDialogFragment;
+    new-instance v0, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/SuggestInterestDialogFragment;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/SuggestInterestDialogFragment$a;->a:Lkik/android/chat/fragment/SuggestInterestDialogFragment;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment$a;->a:Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;
 
     .line 159
     return-void
@@ -39,27 +39,27 @@
 
 
 # virtual methods
-.method public final a(Lkik/android/chat/vm/bd;)Lkik/android/chat/fragment/SuggestInterestDialogFragment$a;
+.method public final a(Lkik/arcane/chat/vm/bd;)Lkik/arcane/chat/fragment/SuggestInterestDialogFragment$a;
     .locals 1
 
     .prologue
     .line 163
-    iget-object v0, p0, Lkik/android/chat/fragment/SuggestInterestDialogFragment$a;->a:Lkik/android/chat/fragment/SuggestInterestDialogFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment$a;->a:Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;
 
-    invoke-static {v0, p1}, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->a(Lkik/android/chat/fragment/SuggestInterestDialogFragment;Lkik/android/chat/vm/bd;)Lkik/android/chat/vm/bd;
+    invoke-static {v0, p1}, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->a(Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;Lkik/arcane/chat/vm/bd;)Lkik/arcane/chat/vm/bd;
 
     .line 164
     return-object p0
 .end method
 
-.method public final a()Lkik/android/chat/fragment/SuggestInterestDialogFragment;
+.method public final a()Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;
     .locals 2
 
     .prologue
     .line 169
-    iget-object v0, p0, Lkik/android/chat/fragment/SuggestInterestDialogFragment$a;->a:Lkik/android/chat/fragment/SuggestInterestDialogFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment$a;->a:Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/SuggestInterestDialogFragment;->d(Lkik/android/chat/fragment/SuggestInterestDialogFragment;)Lkik/android/chat/vm/bd;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;->d(Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;)Lkik/arcane/chat/vm/bd;
 
     move-result-object v0
 
@@ -76,7 +76,7 @@
 
     .line 172
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/SuggestInterestDialogFragment$a;->a:Lkik/android/chat/fragment/SuggestInterestDialogFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/SuggestInterestDialogFragment$a;->a:Lkik/arcane/chat/fragment/SuggestInterestDialogFragment;
 
     return-object v0
 .end method

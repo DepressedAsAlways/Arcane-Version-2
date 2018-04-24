@@ -368,12 +368,12 @@
 
     iget-object v0, p0, Lcom/kik/cache/g;->a:Lcom/kik/cache/KikVolleyImageLoader;
 
-    invoke-static {v3, v1, v0}, Lkik/android/util/f;->a(Ljava/util/List;ILcom/kik/cache/KikVolleyImageLoader;)Lkik/android/util/f$a;
+    invoke-static {v3, v1, v0}, Lkik/arcane/util/f;->a(Ljava/util/List;ILcom/kik/cache/KikVolleyImageLoader;)Lkik/arcane/util/f$a;
 
     move-result-object v1
 
     .line 1095
-    iget-object v0, v1, Lkik/android/util/f$a;->a:Landroid/graphics/Bitmap;
+    iget-object v0, v1, Lkik/arcane/util/f$a;->a:Landroid/graphics/Bitmap;
 
     invoke-static {p1}, Lcom/android/volley/toolbox/d;->a(Lcom/android/volley/f;)Lcom/android/volley/Cache$a;
 
@@ -384,7 +384,7 @@
     move-result-object v0
 
     .line 1097
-    iget-boolean v3, v1, Lkik/android/util/f$a;->b:Z
+    iget-boolean v3, v1, Lkik/arcane/util/f$a;->b:Z
 
     if-eqz v3, :cond_3
 
@@ -412,7 +412,7 @@
 
     .line 1111
     :goto_2
-    iget-object v3, v1, Lkik/android/util/f$a;->a:Landroid/graphics/Bitmap;
+    iget-object v3, v1, Lkik/arcane/util/f$a;->a:Landroid/graphics/Bitmap;
 
     if-nez v3, :cond_4
 
@@ -465,7 +465,7 @@
     invoke-direct {v3}, Ljava/io/ByteArrayOutputStream;-><init>()V
 
     .line 1117
-    iget-object v1, v1, Lkik/android/util/f$a;->a:Landroid/graphics/Bitmap;
+    iget-object v1, v1, Lkik/arcane/util/f$a;->a:Landroid/graphics/Bitmap;
 
     sget-object v4, Landroid/graphics/Bitmap$CompressFormat;->PNG:Landroid/graphics/Bitmap$CompressFormat;
 

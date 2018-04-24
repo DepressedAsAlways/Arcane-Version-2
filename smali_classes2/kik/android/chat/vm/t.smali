@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/t;
+.class final synthetic Lkik/arcane/chat/vm/t;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/vm/s;
+.field private final a:Lkik/arcane/chat/vm/s;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/vm/s;)V
+.method private constructor <init>(Lkik/arcane/chat/vm/s;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/vm/t;->a:Lkik/android/chat/vm/s;
+    iput-object p1, p0, Lkik/arcane/chat/vm/t;->a:Lkik/arcane/chat/vm/s;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/vm/s;)Lrx/functions/g;
+.method public static a(Lkik/arcane/chat/vm/s;)Lrx/functions/g;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/t;
+    new-instance v0, Lkik/arcane/chat/vm/t;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/vm/t;-><init>(Lkik/android/chat/vm/s;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/vm/t;-><init>(Lkik/arcane/chat/vm/s;)V
 
     return-object v0
 .end method
@@ -35,11 +35,11 @@
 .method public final call(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
 
-    iget-object v0, p0, Lkik/android/chat/vm/t;->a:Lkik/android/chat/vm/s;
+    iget-object v0, p0, Lkik/arcane/chat/vm/t;->a:Lkik/arcane/chat/vm/s;
 
     check-cast p1, Lkik/core/chat/profile/EmojiStatus;
 
-    invoke-static {v0, p1}, Lkik/android/chat/vm/s;->a(Lkik/android/chat/vm/s;Lkik/core/chat/profile/EmojiStatus;)Ljava/lang/Boolean;
+    invoke-static {v0, p1}, Lkik/arcane/chat/vm/s;->a(Lkik/arcane/chat/vm/s;Lkik/core/chat/profile/EmojiStatus;)Ljava/lang/Boolean;
 
     move-result-object v0
 

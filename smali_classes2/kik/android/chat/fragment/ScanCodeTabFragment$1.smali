@@ -1,14 +1,14 @@
-.class final Lkik/android/chat/fragment/ScanCodeTabFragment$1;
+.class final Lkik/arcane/chat/fragment/ScanCodeTabFragment$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/scan/fragment/ScanFragment$b;
+.implements Lkik/arcane/scan/fragment/ScanFragment$b;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/ScanCodeTabFragment;
+    value = Lkik/arcane/chat/fragment/ScanCodeTabFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/ScanCodeTabFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/ScanCodeTabFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/ScanCodeTabFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/ScanCodeTabFragment;)V
     .locals 0
 
     .prologue
     .line 106
-    iput-object p1, p0, Lkik/android/chat/fragment/ScanCodeTabFragment$1;->a:Lkik/android/chat/fragment/ScanCodeTabFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$1;->a:Lkik/arcane/chat/fragment/ScanCodeTabFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,9 +41,9 @@
 
     .prologue
     .line 110
-    iget-object v0, p0, Lkik/android/chat/fragment/ScanCodeTabFragment$1;->a:Lkik/android/chat/fragment/ScanCodeTabFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$1;->a:Lkik/arcane/chat/fragment/ScanCodeTabFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/ScanCodeTabFragment;->a(Lkik/android/chat/fragment/ScanCodeTabFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/ScanCodeTabFragment;->a(Lkik/arcane/chat/fragment/ScanCodeTabFragment;)V
 
     .line 111
     return-void
@@ -54,9 +54,9 @@
 
     .prologue
     .line 116
-    iget-object v0, p0, Lkik/android/chat/fragment/ScanCodeTabFragment$1;->a:Lkik/android/chat/fragment/ScanCodeTabFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$1;->a:Lkik/arcane/chat/fragment/ScanCodeTabFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/ScanCodeTabFragment;->b(Lkik/android/chat/fragment/ScanCodeTabFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/ScanCodeTabFragment;->b(Lkik/arcane/chat/fragment/ScanCodeTabFragment;)V
 
     .line 117
     return-void

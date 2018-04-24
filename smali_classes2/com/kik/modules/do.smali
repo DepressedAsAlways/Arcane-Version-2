@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lkik/android/util/SponsoredUsersManager;",
+        "Lkik/arcane/util/SponsoredUsersManager;",
         ">;"
     }
 .end annotation
@@ -90,7 +90,7 @@
             ")",
             "Ldagger/internal/b",
             "<",
-            "Lkik/android/util/SponsoredUsersManager;",
+            "Lkik/arcane/util/SponsoredUsersManager;",
             ">;"
         }
     .end annotation
@@ -115,7 +115,7 @@
     iget-object v0, p0, Lcom/kik/modules/do;->b:Lcom/kik/modules/dn;
 
     .line 1025
-    invoke-virtual {v0}, Lcom/kik/modules/dn;->a()Lkik/android/util/SponsoredUsersManager;
+    invoke-virtual {v0}, Lcom/kik/modules/dn;->a()Lkik/arcane/util/SponsoredUsersManager;
 
     move-result-object v0
 
@@ -126,7 +126,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/util/SponsoredUsersManager;
+    check-cast v0, Lkik/arcane/util/SponsoredUsersManager;
 
     .line 8
     return-object v0

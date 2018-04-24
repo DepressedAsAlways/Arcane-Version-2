@@ -1,15 +1,15 @@
-.class public interface abstract Lkik/android/chat/vm/widget/ISmileyPopupItemViewModel;
+.class public interface abstract Lkik/arcane/chat/vm/widget/ISmileyPopupItemViewModel;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/ay;
+.implements Lkik/arcane/chat/vm/ay;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/vm/widget/ISmileyPopupItemViewModel$PopupItemID;
+        Lkik/arcane/chat/vm/widget/ISmileyPopupItemViewModel$PopupItemID;
     }
 .end annotation
 

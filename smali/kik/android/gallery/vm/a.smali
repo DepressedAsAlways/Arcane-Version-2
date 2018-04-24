@@ -1,15 +1,15 @@
-.class public abstract Lkik/android/gallery/vm/a;
-.super Lkik/android/chat/vm/e;
+.class public abstract Lkik/arcane/gallery/vm/a;
+.super Lkik/arcane/chat/vm/e;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/gallery/vm/q;
+.implements Lkik/arcane/gallery/vm/q;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/gallery/vm/a$a;
+        Lkik/arcane/gallery/vm/a$a;
     }
 .end annotation
 
@@ -24,7 +24,7 @@
     .end annotation
 .end field
 
-.field protected b:Lcom/kik/android/Mixpanel;
+.field protected b:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -54,22 +54,22 @@
     .end annotation
 .end field
 
-.field protected final h:Lkik/android/gallery/b;
+.field protected final h:Lkik/arcane/gallery/b;
 
-.field protected i:Lkik/android/gallery/IGalleryCursorLoader;
+.field protected i:Lkik/arcane/gallery/IGalleryCursorLoader;
 
 .field protected j:I
 
-.field protected k:Lkik/android/gallery/a;
+.field protected k:Lkik/arcane/gallery/a;
 
-.field protected l:Lkik/android/chat/fragment/KikChatFragment$b;
+.field protected l:Lkik/arcane/chat/fragment/KikChatFragment$b;
 
 .field protected m:Lrx/subjects/PublishSubject;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Lrx/subjects/PublishSubject",
             "<",
-            "Lkik/android/gallery/vm/a$a;",
+            "Lkik/arcane/gallery/vm/a$a;",
             ">;"
         }
     .end annotation
@@ -81,18 +81,18 @@
 
 
 # direct methods
-.method public constructor <init>(ILkik/android/gallery/a;Lkik/android/gallery/b;Lkik/android/gallery/IGalleryCursorLoader;Lkik/android/chat/fragment/KikChatFragment$b;Lrx/subjects/PublishSubject;Landroid/graphics/BitmapFactory$Options;Lrx/subjects/PublishSubject;)V
+.method public constructor <init>(ILkik/arcane/gallery/a;Lkik/arcane/gallery/b;Lkik/arcane/gallery/IGalleryCursorLoader;Lkik/arcane/chat/fragment/KikChatFragment$b;Lrx/subjects/PublishSubject;Landroid/graphics/BitmapFactory$Options;Lrx/subjects/PublishSubject;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I",
-            "Lkik/android/gallery/a;",
-            "Lkik/android/gallery/b;",
-            "Lkik/android/gallery/IGalleryCursorLoader;",
-            "Lkik/android/chat/fragment/KikChatFragment$b;",
+            "Lkik/arcane/gallery/a;",
+            "Lkik/arcane/gallery/b;",
+            "Lkik/arcane/gallery/IGalleryCursorLoader;",
+            "Lkik/arcane/chat/fragment/KikChatFragment$b;",
             "Lrx/subjects/PublishSubject",
             "<",
-            "Lkik/android/gallery/vm/a$a;",
+            "Lkik/arcane/gallery/vm/a$a;",
             ">;",
             "Landroid/graphics/BitmapFactory$Options;",
             "Lrx/subjects/PublishSubject",
@@ -104,38 +104,38 @@
 
     .prologue
     .line 67
-    invoke-direct {p0}, Lkik/android/chat/vm/e;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/e;-><init>()V
 
     .line 62
     new-instance v0, Lrx/f/b;
 
     invoke-direct {v0}, Lrx/f/b;-><init>()V
 
-    iput-object v0, p0, Lkik/android/gallery/vm/a;->o:Lrx/f/b;
+    iput-object v0, p0, Lkik/arcane/gallery/vm/a;->o:Lrx/f/b;
 
     .line 68
-    iput p1, p0, Lkik/android/gallery/vm/a;->j:I
+    iput p1, p0, Lkik/arcane/gallery/vm/a;->j:I
 
     .line 69
-    iput-object p2, p0, Lkik/android/gallery/vm/a;->k:Lkik/android/gallery/a;
+    iput-object p2, p0, Lkik/arcane/gallery/vm/a;->k:Lkik/arcane/gallery/a;
 
     .line 70
-    iput-object p4, p0, Lkik/android/gallery/vm/a;->i:Lkik/android/gallery/IGalleryCursorLoader;
+    iput-object p4, p0, Lkik/arcane/gallery/vm/a;->i:Lkik/arcane/gallery/IGalleryCursorLoader;
 
     .line 71
-    iput-object p5, p0, Lkik/android/gallery/vm/a;->l:Lkik/android/chat/fragment/KikChatFragment$b;
+    iput-object p5, p0, Lkik/arcane/gallery/vm/a;->l:Lkik/arcane/chat/fragment/KikChatFragment$b;
 
     .line 72
-    iput-object p3, p0, Lkik/android/gallery/vm/a;->h:Lkik/android/gallery/b;
+    iput-object p3, p0, Lkik/arcane/gallery/vm/a;->h:Lkik/arcane/gallery/b;
 
     .line 73
-    iput-object p6, p0, Lkik/android/gallery/vm/a;->m:Lrx/subjects/PublishSubject;
+    iput-object p6, p0, Lkik/arcane/gallery/vm/a;->m:Lrx/subjects/PublishSubject;
 
     .line 74
-    iput-object p7, p0, Lkik/android/gallery/vm/a;->n:Landroid/graphics/BitmapFactory$Options;
+    iput-object p7, p0, Lkik/arcane/gallery/vm/a;->n:Landroid/graphics/BitmapFactory$Options;
 
     .line 75
-    invoke-static {p0}, Lkik/android/gallery/vm/b;->a(Lkik/android/gallery/vm/a;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/gallery/vm/b;->a(Lkik/arcane/gallery/vm/a;)Lrx/functions/b;
 
     move-result-object v0
 
@@ -145,7 +145,7 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/gallery/vm/a;Lkik/android/gallery/a;)Lkik/android/gallery/vm/a$a;
+.method static synthetic a(Lkik/arcane/gallery/vm/a;Lkik/arcane/gallery/a;)Lkik/arcane/gallery/vm/a$a;
     .locals 1
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -155,24 +155,24 @@
 
     .prologue
     .line 165
-    invoke-virtual {p0, p1}, Lkik/android/gallery/vm/a;->b(Lkik/android/gallery/a;)Lkik/android/gallery/vm/a$a;
+    invoke-virtual {p0, p1}, Lkik/arcane/gallery/vm/a;->b(Lkik/arcane/gallery/a;)Lkik/arcane/gallery/vm/a$a;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method static synthetic a(Lkik/android/gallery/vm/a;Lcom/kik/cache/GalleryImageRequest;Lrx/j;)V
+.method static synthetic a(Lkik/arcane/gallery/vm/a;Lcom/kik/cache/GalleryImageRequest;Lrx/j;)V
     .locals 6
 
     .prologue
     .line 128
     :try_start_0
-    iget-object v0, p0, Lkik/android/gallery/vm/a;->a:Lcom/kik/cache/KikVolleyImageLoader;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a;->a:Lcom/kik/cache/KikVolleyImageLoader;
 
-    new-instance v2, Lkik/android/gallery/vm/a$1;
+    new-instance v2, Lkik/arcane/gallery/vm/a$1;
 
-    invoke-direct {v2, p0, p2}, Lkik/android/gallery/vm/a$1;-><init>(Lkik/android/gallery/vm/a;Lrx/j;)V
+    invoke-direct {v2, p0, p2}, Lkik/arcane/gallery/vm/a$1;-><init>(Lkik/arcane/gallery/vm/a;Lrx/j;)V
 
     const/4 v3, 0x0
 
@@ -200,7 +200,7 @@
     goto :goto_0
 .end method
 
-.method static synthetic a(Lkik/android/gallery/vm/a;Ljava/lang/Boolean;)V
+.method static synthetic a(Lkik/arcane/gallery/vm/a;Ljava/lang/Boolean;)V
     .locals 1
 
     .prologue
@@ -212,7 +212,7 @@
     if-eqz v0, :cond_0
 
     .line 77
-    iget-object v0, p0, Lkik/android/gallery/vm/a;->o:Lrx/f/b;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a;->o:Lrx/f/b;
 
     invoke-virtual {v0}, Lrx/f/b;->a()V
 
@@ -221,12 +221,12 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/gallery/vm/a;Lkik/android/gallery/vm/a$a;)V
+.method static synthetic a(Lkik/arcane/gallery/vm/a;Lkik/arcane/gallery/vm/a$a;)V
     .locals 1
 
     .prologue
     .line 159
-    iget-object v0, p0, Lkik/android/gallery/vm/a;->m:Lrx/subjects/PublishSubject;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a;->m:Lrx/subjects/PublishSubject;
 
     invoke-virtual {v0, p1}, Lrx/subjects/PublishSubject;->a(Ljava/lang/Object;)V
 
@@ -235,15 +235,15 @@
 
 
 # virtual methods
-.method public final a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+.method public final a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
     .locals 0
 
     .prologue
     .line 85
-    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/gallery/vm/a;)V
+    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/gallery/vm/a;)V
 
     .line 86
-    invoke-super {p0, p1, p2}, Lkik/android/chat/vm/e;->a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+    invoke-super {p0, p1, p2}, Lkik/arcane/chat/vm/e;->a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
 
     .line 87
     return-void
@@ -257,14 +257,14 @@
     invoke-interface {p1, p2}, Lcom/rounds/kik/analytics/group/ChatAlbumEvents$Builder;->isVideo(Z)Lcom/rounds/kik/analytics/group/ChatAlbumEvents$Builder;
 
     .line 242
-    iget-object v0, p0, Lkik/android/gallery/vm/a;->k:Lkik/android/gallery/a;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a;->k:Lkik/arcane/gallery/a;
 
-    iget-object v0, v0, Lkik/android/gallery/a;->a:Ljava/lang/String;
+    iget-object v0, v0, Lkik/arcane/gallery/a;->a:Ljava/lang/String;
 
     invoke-interface {p1, v0}, Lcom/rounds/kik/analytics/group/ChatAlbumEvents$Builder;->assetId(Ljava/lang/String;)Lcom/rounds/kik/analytics/group/ChatAlbumEvents$Builder;
 
     .line 243
-    iget-object v0, p0, Lkik/android/gallery/vm/a;->g:Lcom/rounds/kik/analytics/IReporter;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a;->g:Lcom/rounds/kik/analytics/IReporter;
 
     invoke-interface {v0, p1}, Lcom/rounds/kik/analytics/IReporter;->report(Lcom/rounds/kik/analytics/AnalyticsEvent$Builder;)V
 
@@ -272,15 +272,15 @@
     return-void
 .end method
 
-.method protected final a(Lkik/android/gallery/a;)V
+.method protected final a(Lkik/arcane/gallery/a;)V
     .locals 3
 
     .prologue
     .line 158
-    iget-object v0, p0, Lkik/android/gallery/vm/a;->o:Lrx/f/b;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a;->o:Lrx/f/b;
 
     .line 1165
-    invoke-static {p0, p1}, Lkik/android/gallery/vm/e;->a(Lkik/android/gallery/vm/a;Lkik/android/gallery/a;)Ljava/util/concurrent/Callable;
+    invoke-static {p0, p1}, Lkik/arcane/gallery/vm/e;->a(Lkik/arcane/gallery/vm/a;Lkik/arcane/gallery/a;)Ljava/util/concurrent/Callable;
 
     move-result-object v1
 
@@ -298,7 +298,7 @@
     move-result-object v1
 
     .line 158
-    invoke-static {p0}, Lkik/android/gallery/vm/d;->a(Lkik/android/gallery/vm/a;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/gallery/vm/d;->a(Lkik/arcane/gallery/vm/a;)Lrx/functions/b;
 
     move-result-object v2
 
@@ -317,23 +317,23 @@
 
     .prologue
     .line 104
-    iget-object v0, p0, Lkik/android/gallery/vm/a;->k:Lkik/android/gallery/a;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a;->k:Lkik/arcane/gallery/a;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/gallery/vm/a;->k:Lkik/android/gallery/a;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a;->k:Lkik/arcane/gallery/a;
 
-    iget-object v0, v0, Lkik/android/gallery/a;->a:Ljava/lang/String;
+    iget-object v0, v0, Lkik/arcane/gallery/a;->a:Ljava/lang/String;
 
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/gallery/vm/a;->k:Lkik/android/gallery/a;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a;->k:Lkik/arcane/gallery/a;
 
-    iget-object v0, v0, Lkik/android/gallery/a;->a:Ljava/lang/String;
+    iget-object v0, v0, Lkik/arcane/gallery/a;->a:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
 
@@ -357,30 +357,30 @@
     const/4 v1, 0x0
 
     .line 92
-    iget-object v0, p0, Lkik/android/gallery/vm/a;->o:Lrx/f/b;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a;->o:Lrx/f/b;
 
     invoke-virtual {v0}, Lrx/f/b;->a()V
 
     .line 93
-    iput-object v1, p0, Lkik/android/gallery/vm/a;->k:Lkik/android/gallery/a;
+    iput-object v1, p0, Lkik/arcane/gallery/vm/a;->k:Lkik/arcane/gallery/a;
 
     .line 94
-    iput-object v1, p0, Lkik/android/gallery/vm/a;->i:Lkik/android/gallery/IGalleryCursorLoader;
+    iput-object v1, p0, Lkik/arcane/gallery/vm/a;->i:Lkik/arcane/gallery/IGalleryCursorLoader;
 
     .line 95
-    iput-object v1, p0, Lkik/android/gallery/vm/a;->l:Lkik/android/chat/fragment/KikChatFragment$b;
+    iput-object v1, p0, Lkik/arcane/gallery/vm/a;->l:Lkik/arcane/chat/fragment/KikChatFragment$b;
 
     .line 96
-    iput-object v1, p0, Lkik/android/gallery/vm/a;->n:Landroid/graphics/BitmapFactory$Options;
+    iput-object v1, p0, Lkik/arcane/gallery/vm/a;->n:Landroid/graphics/BitmapFactory$Options;
 
     .line 98
-    invoke-super {p0}, Lkik/android/chat/vm/e;->al_()V
+    invoke-super {p0}, Lkik/arcane/chat/vm/e;->al_()V
 
     .line 99
     return-void
 .end method
 
-.method protected abstract b(Lkik/android/gallery/a;)Lkik/android/gallery/vm/a$a;
+.method protected abstract b(Lkik/arcane/gallery/a;)Lkik/arcane/gallery/vm/a$a;
 .end method
 
 .method public final b()Lrx/d;
@@ -397,22 +397,22 @@
 
     .prologue
     .line 110
-    iget-object v0, p0, Lkik/android/gallery/vm/a;->k:Lkik/android/gallery/a;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a;->k:Lkik/arcane/gallery/a;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/gallery/vm/a;->k:Lkik/android/gallery/a;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a;->k:Lkik/arcane/gallery/a;
 
-    iget-boolean v0, v0, Lkik/android/gallery/a;->d:Z
+    iget-boolean v0, v0, Lkik/arcane/gallery/a;->d:Z
 
     if-eqz v0, :cond_0
 
     .line 111
-    iget-object v0, p0, Lkik/android/gallery/vm/a;->k:Lkik/android/gallery/a;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a;->k:Lkik/arcane/gallery/a;
 
-    iget v0, v0, Lkik/android/gallery/a;->e:I
+    iget v0, v0, Lkik/arcane/gallery/a;->e:I
 
-    invoke-static {v0}, Lkik/android/util/bw;->a(I)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/bw;->a(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -448,11 +448,11 @@
 
     .prologue
     .line 119
-    iget-object v0, p0, Lkik/android/gallery/vm/a;->k:Lkik/android/gallery/a;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a;->k:Lkik/arcane/gallery/a;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/gallery/vm/a;->i:Lkik/android/gallery/IGalleryCursorLoader;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a;->i:Lkik/arcane/gallery/IGalleryCursorLoader;
 
     if-nez v0, :cond_1
 
@@ -470,13 +470,13 @@
 
     .line 123
     :cond_1
-    iget-object v0, p0, Lkik/android/gallery/vm/a;->i:Lkik/android/gallery/IGalleryCursorLoader;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a;->i:Lkik/arcane/gallery/IGalleryCursorLoader;
 
-    iget-object v1, p0, Lkik/android/gallery/vm/a;->k:Lkik/android/gallery/a;
+    iget-object v1, p0, Lkik/arcane/gallery/vm/a;->k:Lkik/arcane/gallery/a;
 
-    iget-object v2, p0, Lkik/android/gallery/vm/a;->n:Landroid/graphics/BitmapFactory$Options;
+    iget-object v2, p0, Lkik/arcane/gallery/vm/a;->n:Landroid/graphics/BitmapFactory$Options;
 
-    invoke-interface {v0, v1, v2}, Lkik/android/gallery/IGalleryCursorLoader;->a(Lkik/android/gallery/a;Landroid/graphics/BitmapFactory$Options;)Lcom/kik/cache/GalleryImageRequest;
+    invoke-interface {v0, v1, v2}, Lkik/arcane/gallery/IGalleryCursorLoader;->a(Lkik/arcane/gallery/a;Landroid/graphics/BitmapFactory$Options;)Lcom/kik/cache/GalleryImageRequest;
 
     move-result-object v0
 
@@ -485,7 +485,7 @@
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/gallery/vm/c;->a(Lkik/android/gallery/vm/a;)Lrx/functions/g;
+    invoke-static {p0}, Lkik/arcane/gallery/vm/c;->a(Lkik/arcane/gallery/vm/a;)Lrx/functions/g;
 
     move-result-object v1
 
@@ -501,7 +501,7 @@
 
     .prologue
     .line 181
-    iget-object v0, p0, Lkik/android/gallery/vm/a;->e:Landroid/content/res/Resources;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a;->e:Landroid/content/res/Resources;
 
     invoke-virtual {v0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
 
@@ -530,9 +530,9 @@
     .prologue
     .line 199
     .line 1248
-    iget-object v0, p0, Lkik/android/gallery/vm/a;->f:Lkik/core/interfaces/b;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a;->f:Lkik/core/interfaces/b;
 
-    invoke-static {v0}, Lkik/android/util/a;->a(Lkik/core/interfaces/b;)Z
+    invoke-static {v0}, Lkik/arcane/util/a;->a(Lkik/core/interfaces/b;)Z
 
     move-result v0
 
@@ -551,13 +551,13 @@
     return-object v0
 
     :cond_0
-    iget-object v0, p0, Lkik/android/gallery/vm/a;->h:Lkik/android/gallery/b;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a;->h:Lkik/arcane/gallery/b;
 
-    iget-object v1, p0, Lkik/android/gallery/vm/a;->k:Lkik/android/gallery/a;
+    iget-object v1, p0, Lkik/arcane/gallery/vm/a;->k:Lkik/arcane/gallery/a;
 
-    iget-object v1, v1, Lkik/android/gallery/a;->b:Ljava/lang/String;
+    iget-object v1, v1, Lkik/arcane/gallery/a;->b:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Lkik/android/gallery/b;->a(Ljava/lang/String;)Z
+    invoke-interface {v0, v1}, Lkik/arcane/gallery/b;->a(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -576,9 +576,9 @@
 
     .line 209
     .line 2248
-    iget-object v1, p0, Lkik/android/gallery/vm/a;->f:Lkik/core/interfaces/b;
+    iget-object v1, p0, Lkik/arcane/gallery/vm/a;->f:Lkik/core/interfaces/b;
 
-    invoke-static {v1}, Lkik/android/util/a;->a(Lkik/core/interfaces/b;)Z
+    invoke-static {v1}, Lkik/arcane/util/a;->a(Lkik/core/interfaces/b;)Z
 
     move-result v1
 
@@ -596,13 +596,13 @@
 
     .line 212
     :cond_0
-    iget-object v1, p0, Lkik/android/gallery/vm/a;->h:Lkik/android/gallery/b;
+    iget-object v1, p0, Lkik/arcane/gallery/vm/a;->h:Lkik/arcane/gallery/b;
 
-    iget-object v2, p0, Lkik/android/gallery/vm/a;->k:Lkik/android/gallery/a;
+    iget-object v2, p0, Lkik/arcane/gallery/vm/a;->k:Lkik/arcane/gallery/a;
 
-    iget-object v2, v2, Lkik/android/gallery/a;->b:Ljava/lang/String;
+    iget-object v2, v2, Lkik/arcane/gallery/a;->b:Ljava/lang/String;
 
-    invoke-interface {v1, v2}, Lkik/android/gallery/b;->a(Ljava/lang/String;)Z
+    invoke-interface {v1, v2}, Lkik/arcane/gallery/b;->a(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -618,16 +618,16 @@
 
     .line 218
     :cond_1
-    iget-object v1, p0, Lkik/android/gallery/vm/a;->h:Lkik/android/gallery/b;
+    iget-object v1, p0, Lkik/arcane/gallery/vm/a;->h:Lkik/arcane/gallery/b;
 
-    invoke-interface {v1}, Lkik/android/gallery/b;->a()I
+    invoke-interface {v1}, Lkik/arcane/gallery/b;->a()I
 
     move-result v1
 
     .line 219
-    iget-object v2, p0, Lkik/android/gallery/vm/a;->h:Lkik/android/gallery/b;
+    iget-object v2, p0, Lkik/arcane/gallery/vm/a;->h:Lkik/arcane/gallery/b;
 
-    invoke-interface {v2}, Lkik/android/gallery/b;->c()I
+    invoke-interface {v2}, Lkik/arcane/gallery/b;->c()I
 
     move-result v2
 
@@ -649,9 +649,9 @@
     .prologue
     .line 226
     .line 3248
-    iget-object v0, p0, Lkik/android/gallery/vm/a;->f:Lkik/core/interfaces/b;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a;->f:Lkik/core/interfaces/b;
 
-    invoke-static {v0}, Lkik/android/util/a;->a(Lkik/core/interfaces/b;)Z
+    invoke-static {v0}, Lkik/arcane/util/a;->a(Lkik/core/interfaces/b;)Z
 
     move-result v0
 
@@ -667,13 +667,13 @@
 
     .line 229
     :cond_0
-    iget-object v0, p0, Lkik/android/gallery/vm/a;->h:Lkik/android/gallery/b;
+    iget-object v0, p0, Lkik/arcane/gallery/vm/a;->h:Lkik/arcane/gallery/b;
 
-    iget-object v1, p0, Lkik/android/gallery/vm/a;->k:Lkik/android/gallery/a;
+    iget-object v1, p0, Lkik/arcane/gallery/vm/a;->k:Lkik/arcane/gallery/a;
 
-    iget-object v1, v1, Lkik/android/gallery/a;->b:Ljava/lang/String;
+    iget-object v1, v1, Lkik/arcane/gallery/a;->b:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Lkik/android/gallery/b;->e(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lkik/arcane/gallery/b;->e(Ljava/lang/String;)I
 
     move-result v0
 

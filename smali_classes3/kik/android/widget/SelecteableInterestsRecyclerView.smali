@@ -1,25 +1,25 @@
-.class public Lkik/android/widget/SelecteableInterestsRecyclerView;
+.class public Lkik/arcane/widget/SelecteableInterestsRecyclerView;
 .super Landroid/support/v7/widget/RecyclerView;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/widget/dn$a;
+.implements Lkik/arcane/widget/dn$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/SelecteableInterestsRecyclerView$a;
+        Lkik/arcane/widget/SelecteableInterestsRecyclerView$a;
     }
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Landroid/support/v7/widget/RecyclerView;",
-        "Lkik/android/widget/dn$a",
+        "Lkik/arcane/widget/dn$a",
         "<",
-        "Lkik/android/chat/vm/au;",
-        "Lkik/android/widget/SelecteableInterestsRecyclerView$a;",
+        "Lkik/arcane/chat/vm/au;",
+        "Lkik/arcane/widget/SelecteableInterestsRecyclerView$a;",
         ">;"
     }
 .end annotation
@@ -33,7 +33,7 @@
     .line 28
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/SelecteableInterestsRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/SelecteableInterestsRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 29
     return-void
@@ -46,16 +46,16 @@
     const/4 v2, 0x0
 
     .line 33
-    invoke-direct {p0, p1, p2, v2}, Lkik/android/widget/SelecteableInterestsRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v2}, Lkik/arcane/widget/SelecteableInterestsRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 34
     const/16 v0, 0x8
 
-    invoke-virtual {p0}, Lkik/android/widget/SelecteableInterestsRecyclerView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/SelecteableInterestsRecyclerView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lkik/android/util/ca;->a(ILandroid/content/res/Resources;)I
+    invoke-static {v0, v1}, Lkik/arcane/util/ca;->a(ILandroid/content/res/Resources;)I
 
     move-result v0
 
@@ -64,10 +64,10 @@
 
     invoke-direct {v1, v0, v0}, Lcom/beloo/widget/chipslayoutmanager/h;-><init>(II)V
 
-    invoke-virtual {p0, v1}, Lkik/android/widget/SelecteableInterestsRecyclerView;->addItemDecoration(Landroid/support/v7/widget/RecyclerView$ItemDecoration;)V
+    invoke-virtual {p0, v1}, Lkik/arcane/widget/SelecteableInterestsRecyclerView;->addItemDecoration(Landroid/support/v7/widget/RecyclerView$ItemDecoration;)V
 
     .line 37
-    invoke-virtual {p0}, Lkik/android/widget/SelecteableInterestsRecyclerView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/SelecteableInterestsRecyclerView;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -85,7 +85,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lkik/android/widget/cw;->b()Lcom/beloo/widget/chipslayoutmanager/a/n;
+    invoke-static {}, Lkik/arcane/widget/cw;->b()Lcom/beloo/widget/chipslayoutmanager/a/n;
 
     move-result-object v1
 
@@ -115,7 +115,7 @@
     move-result-object v0
 
     .line 45
-    invoke-virtual {p0, v0}, Lkik/android/widget/SelecteableInterestsRecyclerView;->setLayoutManager(Landroid/support/v7/widget/RecyclerView$LayoutManager;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/SelecteableInterestsRecyclerView;->setLayoutManager(Landroid/support/v7/widget/RecyclerView$LayoutManager;)V
 
     .line 46
     return-void
@@ -166,12 +166,12 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/e/di;
+    check-cast v0, Lkik/arcane/e/di;
 
     .line 1063
-    new-instance v1, Lkik/android/widget/SelecteableInterestsRecyclerView$a;
+    new-instance v1, Lkik/arcane/widget/SelecteableInterestsRecyclerView$a;
 
-    invoke-direct {v1, v0}, Lkik/android/widget/SelecteableInterestsRecyclerView$a;-><init>(Lkik/android/e/di;)V
+    invoke-direct {v1, v0}, Lkik/arcane/widget/SelecteableInterestsRecyclerView$a;-><init>(Lkik/arcane/e/di;)V
 
     .line 24
     return-object v1

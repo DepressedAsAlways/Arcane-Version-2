@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/widget/dq;
+.class final synthetic Lkik/arcane/widget/dq;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -15,7 +15,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/widget/dq;->a:Ljava/util/List;
+    iput-object p1, p0, Lkik/arcane/widget/dq;->a:Ljava/util/List;
 
     return-void
 .end method
@@ -23,9 +23,9 @@
 .method public static a(Ljava/util/List;)Landroid/content/DialogInterface$OnClickListener;
     .locals 1
 
-    new-instance v0, Lkik/android/widget/dq;
+    new-instance v0, Lkik/arcane/widget/dq;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/dq;-><init>(Ljava/util/List;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/dq;-><init>(Ljava/util/List;)V
 
     return-object v0
 .end method
@@ -35,9 +35,9 @@
 .method public final onClick(Landroid/content/DialogInterface;I)V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/widget/dq;->a:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/widget/dq;->a:Ljava/util/List;
 
-    invoke-static {v0, p2}, Lkik/android/widget/dn;->a(Ljava/util/List;I)V
+    invoke-static {v0, p2}, Lkik/arcane/widget/dn;->a(Ljava/util/List;I)V
 
     return-void
 .end method

@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/fragment/cc;
+.class final synthetic Lkik/arcane/chat/fragment/cc;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/fragment/cc;
+.field private static final a:Lkik/arcane/chat/fragment/cc;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/fragment/cc;
+    new-instance v0, Lkik/arcane/chat/fragment/cc;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/cc;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/cc;-><init>()V
 
-    sput-object v0, Lkik/android/chat/fragment/cc;->a:Lkik/android/chat/fragment/cc;
+    sput-object v0, Lkik/arcane/chat/fragment/cc;->a:Lkik/arcane/chat/fragment/cc;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Ljava/util/Comparator;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/fragment/cc;->a:Lkik/android/chat/fragment/cc;
+    sget-object v0, Lkik/arcane/chat/fragment/cc;->a:Lkik/arcane/chat/fragment/cc;
 
     return-object v0
 .end method
@@ -47,7 +47,7 @@
 
     check-cast p2, Lkik/core/datatypes/GroupContactInfoHolder;
 
-    invoke-static {p1, p2}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->a(Lkik/core/datatypes/GroupContactInfoHolder;Lkik/core/datatypes/GroupContactInfoHolder;)I
+    invoke-static {p1, p2}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->a(Lkik/core/datatypes/GroupContactInfoHolder;Lkik/core/datatypes/GroupContactInfoHolder;)I
 
     move-result v0
 

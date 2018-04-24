@@ -1,5 +1,5 @@
-.class public final Lkik/android/scan/a/a;
-.super Lkik/android/scan/a/b;
+.class public final Lkik/arcane/scan/a/a;
+.super Lkik/arcane/scan/a/b;
 .source "SourceFile"
 
 
@@ -15,13 +15,13 @@
 
     .prologue
     .line 16
-    invoke-direct {p0, p1, p2}, Lkik/android/scan/a/b;-><init>(Lcom/kik/scan/RemoteKikCode;Ljava/lang/String;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/scan/a/b;-><init>(Lcom/kik/scan/RemoteKikCode;Ljava/lang/String;)V
 
     .line 17
-    iput p3, p0, Lkik/android/scan/a/a;->a:I
+    iput p3, p0, Lkik/arcane/scan/a/a;->a:I
 
     .line 18
-    iput-object p4, p0, Lkik/android/scan/a/a;->b:Ljava/lang/String;
+    iput-object p4, p0, Lkik/arcane/scan/a/a;->b:Ljava/lang/String;
 
     .line 19
     return-void
@@ -34,7 +34,7 @@
 
     .prologue
     .line 23
-    iget v0, p0, Lkik/android/scan/a/a;->a:I
+    iget v0, p0, Lkik/arcane/scan/a/a;->a:I
 
     return v0
 .end method
@@ -44,7 +44,7 @@
 
     .prologue
     .line 28
-    iget-object v0, p0, Lkik/android/scan/a/a;->b:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/scan/a/a;->b:Ljava/lang/String;
 
     return-object v0
 .end method

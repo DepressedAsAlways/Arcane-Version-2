@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/theming/AccentColourManager;
+.class public final Lkik/arcane/chat/theming/AccentColourManager;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/theming/AccentColourManager$AccentColours;
+        Lkik/arcane/chat/theming/AccentColourManager$AccentColours;
     }
 .end annotation
 
@@ -17,7 +17,7 @@
 
     .prologue
     .line 48
-    invoke-static {}, Lkik/android/chat/theming/AccentColourManager$AccentColours;->values()[Lkik/android/chat/theming/AccentColourManager$AccentColours;
+    invoke-static {}, Lkik/arcane/chat/theming/AccentColourManager$AccentColours;->values()[Lkik/arcane/chat/theming/AccentColourManager$AccentColours;
 
     move-result-object v0
 
@@ -25,7 +25,7 @@
 
     aget-object v0, v0, v1
 
-    invoke-virtual {v0}, Lkik/android/chat/theming/AccentColourManager$AccentColours;->getColourResource()I
+    invoke-virtual {v0}, Lkik/arcane/chat/theming/AccentColourManager$AccentColours;->getColourResource()I
 
     move-result v0
 
@@ -43,7 +43,7 @@
 
     move-result v0
 
-    invoke-static {}, Lkik/android/chat/theming/AccentColourManager$AccentColours;->values()[Lkik/android/chat/theming/AccentColourManager$AccentColours;
+    invoke-static {}, Lkik/arcane/chat/theming/AccentColourManager$AccentColours;->values()[Lkik/arcane/chat/theming/AccentColourManager$AccentColours;
 
     move-result-object v1
 
@@ -52,7 +52,7 @@
     if-ge v0, v1, :cond_0
 
     .line 17
-    invoke-static {}, Lkik/android/chat/theming/AccentColourManager$AccentColours;->values()[Lkik/android/chat/theming/AccentColourManager$AccentColours;
+    invoke-static {}, Lkik/arcane/chat/theming/AccentColourManager$AccentColours;->values()[Lkik/arcane/chat/theming/AccentColourManager$AccentColours;
 
     move-result-object v0
 
@@ -62,7 +62,7 @@
 
     aget-object v0, v0, v1
 
-    invoke-virtual {v0}, Lkik/android/chat/theming/AccentColourManager$AccentColours;->getColourName()Ljava/lang/String;
+    invoke-virtual {v0}, Lkik/arcane/chat/theming/AccentColourManager$AccentColours;->getColourName()Ljava/lang/String;
 
     move-result-object v0
 
@@ -87,7 +87,7 @@
 
     move-result v0
 
-    invoke-static {}, Lkik/android/chat/theming/AccentColourManager$AccentColours;->values()[Lkik/android/chat/theming/AccentColourManager$AccentColours;
+    invoke-static {}, Lkik/arcane/chat/theming/AccentColourManager$AccentColours;->values()[Lkik/arcane/chat/theming/AccentColourManager$AccentColours;
 
     move-result-object v1
 
@@ -96,7 +96,7 @@
     if-ge v0, v1, :cond_0
 
     .line 25
-    invoke-static {}, Lkik/android/chat/theming/AccentColourManager$AccentColours;->values()[Lkik/android/chat/theming/AccentColourManager$AccentColours;
+    invoke-static {}, Lkik/arcane/chat/theming/AccentColourManager$AccentColours;->values()[Lkik/arcane/chat/theming/AccentColourManager$AccentColours;
 
     move-result-object v0
 
@@ -106,7 +106,7 @@
 
     aget-object v0, v0, v1
 
-    invoke-virtual {v0}, Lkik/android/chat/theming/AccentColourManager$AccentColours;->getColourResource()I
+    invoke-virtual {v0}, Lkik/arcane/chat/theming/AccentColourManager$AccentColours;->getColourResource()I
 
     move-result v0
 
@@ -115,7 +115,7 @@
     return v0
 
     :cond_0
-    invoke-static {}, Lkik/android/chat/theming/AccentColourManager;->a()I
+    invoke-static {}, Lkik/arcane/chat/theming/AccentColourManager;->a()I
 
     move-result v0
 

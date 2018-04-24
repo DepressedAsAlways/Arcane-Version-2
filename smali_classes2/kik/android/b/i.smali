@@ -1,4 +1,4 @@
-.class public final Lkik/android/b/i;
+.class public final Lkik/arcane/b/i;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,20 +6,20 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/b/i$a;
+        Lkik/arcane/b/i$a;
     }
 .end annotation
 
 
 # static fields
-.field private static final a:[Lkik/android/b/i$a;
+.field private static final a:[Lkik/arcane/b/i$a;
 
 .field private static final b:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List",
             "<",
-            "Lkik/android/b/i$a;",
+            "Lkik/arcane/b/i$a;",
             ">;"
         }
     .end annotation
@@ -36,9 +36,9 @@
     .line 19
     const/4 v0, 0x5
 
-    new-array v6, v0, [Lkik/android/b/i$a;
+    new-array v6, v0, [Lkik/arcane/b/i$a;
 
-    new-instance v0, Lkik/android/b/i$a;
+    new-instance v0, Lkik/arcane/b/i$a;
 
     const-string v1, "Viral Videos"
 
@@ -48,13 +48,13 @@
 
     const-string v4, "http://videos.kik.com/img/icon_square.png?v=5"
 
-    invoke-direct/range {v0 .. v5}, Lkik/android/b/i$a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;B)V
+    invoke-direct/range {v0 .. v5}, Lkik/arcane/b/i$a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;B)V
 
     aput-object v0, v6, v5
 
     const/4 v7, 0x1
 
-    new-instance v0, Lkik/android/b/i$a;
+    new-instance v0, Lkik/arcane/b/i$a;
 
     const-string v1, "Sketch"
 
@@ -64,13 +64,13 @@
 
     const-string v4, "http://sketch.kik.com/icon_square.png?v=5"
 
-    invoke-direct/range {v0 .. v5}, Lkik/android/b/i$a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;B)V
+    invoke-direct/range {v0 .. v5}, Lkik/arcane/b/i$a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;B)V
 
     aput-object v0, v6, v7
 
     const/4 v7, 0x2
 
-    new-instance v0, Lkik/android/b/i$a;
+    new-instance v0, Lkik/arcane/b/i$a;
 
     const-string v1, "Memes"
 
@@ -80,13 +80,13 @@
 
     const-string v4, "http://meme.kik.com/img/icon-square.png?v=5"
 
-    invoke-direct/range {v0 .. v5}, Lkik/android/b/i$a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;B)V
+    invoke-direct/range {v0 .. v5}, Lkik/arcane/b/i$a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;B)V
 
     aput-object v0, v6, v7
 
     const/4 v7, 0x3
 
-    new-instance v0, Lkik/android/b/i$a;
+    new-instance v0, Lkik/arcane/b/i$a;
 
     const-string v1, "Scribble Chat"
 
@@ -96,13 +96,13 @@
 
     const-string v4, "https://exporter.getscribblechat.com/icon.png"
 
-    invoke-direct/range {v0 .. v5}, Lkik/android/b/i$a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;B)V
+    invoke-direct/range {v0 .. v5}, Lkik/arcane/b/i$a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;B)V
 
     aput-object v0, v6, v7
 
     const/4 v7, 0x4
 
-    new-instance v0, Lkik/android/b/i$a;
+    new-instance v0, Lkik/arcane/b/i$a;
 
     const-string v1, "Web History"
 
@@ -112,18 +112,18 @@
 
     const-string v4, "https://home.kik.com/img/icon.png?v=5"
 
-    invoke-direct/range {v0 .. v5}, Lkik/android/b/i$a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;B)V
+    invoke-direct/range {v0 .. v5}, Lkik/arcane/b/i$a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;B)V
 
     aput-object v0, v6, v7
 
     .line 26
-    sput-object v6, Lkik/android/b/i;->a:[Lkik/android/b/i$a;
+    sput-object v6, Lkik/arcane/b/i;->a:[Lkik/arcane/b/i$a;
 
     invoke-static {v6}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/b/i;->b:Ljava/util/List;
+    sput-object v0, Lkik/arcane/b/i;->b:Ljava/util/List;
 
     return-void
 .end method
@@ -135,14 +135,14 @@
             "()",
             "Ljava/util/List",
             "<",
-            "Lkik/android/b/i$a;",
+            "Lkik/arcane/b/i$a;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 30
-    sget-object v0, Lkik/android/b/i;->b:Ljava/util/List;
+    sget-object v0, Lkik/arcane/b/i;->b:Ljava/util/List;
 
     return-object v0
 .end method

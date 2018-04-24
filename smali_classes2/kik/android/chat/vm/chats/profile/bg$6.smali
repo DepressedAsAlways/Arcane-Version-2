@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/chat/vm/chats/profile/bg$6;
+.class final synthetic Lkik/arcane/chat/vm/chats/profile/bg$6;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/chats/profile/bg;
+    value = Lkik/arcane/chat/vm/chats/profile/bg;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     .prologue
     .line 131
-    invoke-static {}, Lkik/android/chat/vm/IShareUsernameViewModel$ShareResult;->values()[Lkik/android/chat/vm/IShareUsernameViewModel$ShareResult;
+    invoke-static {}, Lkik/arcane/chat/vm/IShareUsernameViewModel$ShareResult;->values()[Lkik/arcane/chat/vm/IShareUsernameViewModel$ShareResult;
 
     move-result-object v0
 
@@ -32,14 +32,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/chat/vm/chats/profile/bg$6;->a:[I
+    sput-object v0, Lkik/arcane/chat/vm/chats/profile/bg$6;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/chat/vm/chats/profile/bg$6;->a:[I
+    sget-object v0, Lkik/arcane/chat/vm/chats/profile/bg$6;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/IShareUsernameViewModel$ShareResult;->USERNAME_COPIED:Lkik/android/chat/vm/IShareUsernameViewModel$ShareResult;
+    sget-object v1, Lkik/arcane/chat/vm/IShareUsernameViewModel$ShareResult;->USERNAME_COPIED:Lkik/arcane/chat/vm/IShareUsernameViewModel$ShareResult;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/IShareUsernameViewModel$ShareResult;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/IShareUsernameViewModel$ShareResult;->ordinal()I
 
     move-result v1
 
@@ -51,11 +51,11 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/chat/vm/chats/profile/bg$6;->a:[I
+    sget-object v0, Lkik/arcane/chat/vm/chats/profile/bg$6;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/IShareUsernameViewModel$ShareResult;->PROFILE_SHARE:Lkik/android/chat/vm/IShareUsernameViewModel$ShareResult;
+    sget-object v1, Lkik/arcane/chat/vm/IShareUsernameViewModel$ShareResult;->PROFILE_SHARE:Lkik/arcane/chat/vm/IShareUsernameViewModel$ShareResult;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/IShareUsernameViewModel$ShareResult;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/IShareUsernameViewModel$ShareResult;->ordinal()I
 
     move-result v1
 
@@ -67,11 +67,11 @@
 
     :goto_1
     :try_start_2
-    sget-object v0, Lkik/android/chat/vm/chats/profile/bg$6;->a:[I
+    sget-object v0, Lkik/arcane/chat/vm/chats/profile/bg$6;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/IShareUsernameViewModel$ShareResult;->CANCELLED:Lkik/android/chat/vm/IShareUsernameViewModel$ShareResult;
+    sget-object v1, Lkik/arcane/chat/vm/IShareUsernameViewModel$ShareResult;->CANCELLED:Lkik/arcane/chat/vm/IShareUsernameViewModel$ShareResult;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/IShareUsernameViewModel$ShareResult;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/IShareUsernameViewModel$ShareResult;->ordinal()I
 
     move-result v1
 

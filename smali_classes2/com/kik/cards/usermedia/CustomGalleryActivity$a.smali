@@ -68,7 +68,7 @@
 
     const/high16 v2, 0x40000000    # 2.0f
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 

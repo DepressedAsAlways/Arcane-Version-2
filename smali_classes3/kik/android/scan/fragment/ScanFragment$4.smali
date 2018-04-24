@@ -1,4 +1,4 @@
-.class final Lkik/android/scan/fragment/ScanFragment$4;
+.class final Lkik/arcane/scan/fragment/ScanFragment$4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/scan/fragment/ScanFragment;->a(Lkik/core/datatypes/l;Lkik/android/scan/a/c;)V
+    value = Lkik/arcane/scan/fragment/ScanFragment;->a(Lkik/core/datatypes/l;Lkik/arcane/scan/a/c;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/scan/fragment/ScanFragment;
+.field final synthetic a:Lkik/arcane/scan/fragment/ScanFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/scan/fragment/ScanFragment;)V
+.method constructor <init>(Lkik/arcane/scan/fragment/ScanFragment;)V
     .locals 0
 
     .prologue
     .line 502
-    iput-object p1, p0, Lkik/android/scan/fragment/ScanFragment$4;->a:Lkik/android/scan/fragment/ScanFragment;
+    iput-object p1, p0, Lkik/arcane/scan/fragment/ScanFragment$4;->a:Lkik/arcane/scan/fragment/ScanFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -47,48 +47,48 @@
 
     new-array v0, v0, [Landroid/view/View;
 
-    iget-object v1, p0, Lkik/android/scan/fragment/ScanFragment$4;->a:Lkik/android/scan/fragment/ScanFragment;
+    iget-object v1, p0, Lkik/arcane/scan/fragment/ScanFragment$4;->a:Lkik/arcane/scan/fragment/ScanFragment;
 
-    iget-object v1, v1, Lkik/android/scan/fragment/ScanFragment;->_loadingContainer:Landroid/view/View;
+    iget-object v1, v1, Lkik/arcane/scan/fragment/ScanFragment;->_loadingContainer:Landroid/view/View;
 
     aput-object v1, v0, v3
 
     const/4 v1, 0x1
 
-    iget-object v2, p0, Lkik/android/scan/fragment/ScanFragment$4;->a:Lkik/android/scan/fragment/ScanFragment;
+    iget-object v2, p0, Lkik/arcane/scan/fragment/ScanFragment$4;->a:Lkik/arcane/scan/fragment/ScanFragment;
 
-    iget-object v2, v2, Lkik/android/scan/fragment/ScanFragment;->_progress:Landroid/widget/ProgressBar;
+    iget-object v2, v2, Lkik/arcane/scan/fragment/ScanFragment;->_progress:Landroid/widget/ProgressBar;
 
     aput-object v2, v0, v1
 
-    invoke-static {v0}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     .line 509
-    new-instance v0, Lkik/android/scan/widget/a;
+    new-instance v0, Lkik/arcane/scan/widget/a;
 
-    invoke-direct {v0, v3}, Lkik/android/scan/widget/a;-><init>(I)V
+    invoke-direct {v0, v3}, Lkik/arcane/scan/widget/a;-><init>(I)V
 
     .line 510
-    iget-object v1, p0, Lkik/android/scan/fragment/ScanFragment$4;->a:Lkik/android/scan/fragment/ScanFragment;
+    iget-object v1, p0, Lkik/arcane/scan/fragment/ScanFragment$4;->a:Lkik/arcane/scan/fragment/ScanFragment;
 
-    invoke-static {v1}, Lkik/android/scan/fragment/ScanFragment;->k(Lkik/android/scan/fragment/ScanFragment;)I
+    invoke-static {v1}, Lkik/arcane/scan/fragment/ScanFragment;->k(Lkik/arcane/scan/fragment/ScanFragment;)I
 
     move-result v1
 
-    iget-object v2, p0, Lkik/android/scan/fragment/ScanFragment$4;->a:Lkik/android/scan/fragment/ScanFragment;
+    iget-object v2, p0, Lkik/arcane/scan/fragment/ScanFragment$4;->a:Lkik/arcane/scan/fragment/ScanFragment;
 
-    iget-object v2, v2, Lkik/android/scan/fragment/ScanFragment;->_scanFinder:Lkik/android/scan/widget/ScannerViewFinder;
+    iget-object v2, v2, Lkik/arcane/scan/fragment/ScanFragment;->_scanFinder:Lkik/arcane/scan/widget/ScannerViewFinder;
 
-    invoke-virtual {v2}, Lkik/android/scan/widget/ScannerViewFinder;->a()Landroid/graphics/Point;
+    invoke-virtual {v2}, Lkik/arcane/scan/widget/ScannerViewFinder;->a()Landroid/graphics/Point;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lkik/android/scan/widget/a;->a(ILandroid/graphics/Point;)V
+    invoke-virtual {v0, v1, v2}, Lkik/arcane/scan/widget/a;->a(ILandroid/graphics/Point;)V
 
     .line 511
-    iget-object v1, p0, Lkik/android/scan/fragment/ScanFragment$4;->a:Lkik/android/scan/fragment/ScanFragment;
+    iget-object v1, p0, Lkik/arcane/scan/fragment/ScanFragment$4;->a:Lkik/arcane/scan/fragment/ScanFragment;
 
-    iget-object v1, v1, Lkik/android/scan/fragment/ScanFragment;->_animationContainer:Landroid/view/View;
+    iget-object v1, v1, Lkik/arcane/scan/fragment/ScanFragment;->_animationContainer:Landroid/view/View;
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 

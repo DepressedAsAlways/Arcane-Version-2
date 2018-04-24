@@ -1,11 +1,11 @@
-.class final Lkik/android/config/c$5;
-.super Lkik/android/config/Configuration;
+.class final Lkik/arcane/config/c$5;
+.super Lkik/arcane/config/Configuration;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/config/c;
+    value = Lkik/arcane/config/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,7 +15,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkik/android/config/Configuration",
+        "Lkik/arcane/config/Configuration",
         "<",
         "Ljava/lang/Boolean;",
         ">;"
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/config/c;
+.field final synthetic a:Lkik/arcane/config/c;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/config/c;Ljava/lang/String;Ljava/lang/Boolean;[Ljava/lang/Boolean;Lkik/android/util/aj;)V
+.method constructor <init>(Lkik/arcane/config/c;Ljava/lang/String;Ljava/lang/Boolean;[Ljava/lang/Boolean;Lkik/arcane/util/aj;)V
     .locals 6
 
     .prologue
     .line 228
-    iput-object p1, p0, Lkik/android/config/c$5;->a:Lkik/android/config/c;
+    iput-object p1, p0, Lkik/arcane/config/c$5;->a:Lkik/arcane/config/c;
 
     const/4 v4, 0x0
 
@@ -47,24 +47,24 @@
 
     move-object v5, p5
 
-    invoke-direct/range {v0 .. v5}, Lkik/android/config/Configuration;-><init>(Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Runnable;Lkik/android/util/aj;)V
+    invoke-direct/range {v0 .. v5}, Lkik/arcane/config/Configuration;-><init>(Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Runnable;Lkik/arcane/util/aj;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a()Lkik/android/config/Configuration$Type;
+.method public final a()Lkik/arcane/config/Configuration$Type;
     .locals 1
 
     .prologue
     .line 232
-    sget-object v0, Lkik/android/config/Configuration$Type;->Boolean:Lkik/android/config/Configuration$Type;
+    sget-object v0, Lkik/arcane/config/Configuration$Type;->Boolean:Lkik/arcane/config/Configuration$Type;
 
     return-object v0
 .end method
 
-.method protected final a(Lkik/android/util/aj;)V
+.method protected final a(Lkik/arcane/util/aj;)V
     .locals 0
 
     .prologue
@@ -92,7 +92,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lkik/android/config/d;->a()Lrx/functions/b;
+    invoke-static {}, Lkik/arcane/config/d;->a()Lrx/functions/b;
 
     move-result-object v1
 
@@ -121,7 +121,7 @@
     return-object v0
 .end method
 
-.method protected final synthetic b(Lkik/android/util/aj;)Ljava/lang/Object;
+.method protected final synthetic b(Lkik/arcane/util/aj;)Ljava/lang/Object;
     .locals 1
 
     .prologue

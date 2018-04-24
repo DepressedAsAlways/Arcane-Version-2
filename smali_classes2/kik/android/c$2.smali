@@ -1,4 +1,4 @@
-.class final Lkik/android/c$2;
+.class final Lkik/arcane/c$2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/c;->a(Lkik/core/interfaces/ad;Lkik/core/interfaces/ICommunication;Lkik/core/interfaces/ag;)Lkik/core/interfaces/IAddressBookIntegration;
+    value = Lkik/arcane/c;->a(Lkik/core/interfaces/ad;Lkik/core/interfaces/ICommunication;Lkik/core/interfaces/ag;)Lkik/core/interfaces/IAddressBookIntegration;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/addressbook/a;
+.field final synthetic a:Lkik/arcane/addressbook/a;
 
-.field final synthetic b:Lkik/android/c;
+.field final synthetic b:Lkik/arcane/c;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/c;Lkik/android/addressbook/a;)V
+.method constructor <init>(Lkik/arcane/c;Lkik/arcane/addressbook/a;)V
     .locals 0
 
     .prologue
     .line 138
-    iput-object p1, p0, Lkik/android/c$2;->b:Lkik/android/c;
+    iput-object p1, p0, Lkik/arcane/c$2;->b:Lkik/arcane/c;
 
-    iput-object p2, p0, Lkik/android/c$2;->a:Lkik/android/addressbook/a;
+    iput-object p2, p0, Lkik/arcane/c$2;->a:Lkik/arcane/addressbook/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,11 +45,11 @@
 
     .prologue
     .line 142
-    iget-object v0, p0, Lkik/android/c$2;->a:Lkik/android/addressbook/a;
+    iget-object v0, p0, Lkik/arcane/c$2;->a:Lkik/arcane/addressbook/a;
 
     const-string v1, "30day"
 
-    invoke-virtual {v0, v1}, Lkik/android/addressbook/a;->d(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/addressbook/a;->d(Ljava/lang/String;)V
 
     .line 143
     return-void

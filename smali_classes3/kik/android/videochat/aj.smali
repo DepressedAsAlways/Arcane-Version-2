@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/videochat/aj;
+.class final synthetic Lkik/arcane/videochat/aj;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/videochat/VideoChatViewController;
+.field private final a:Lkik/arcane/videochat/VideoChatViewController;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/videochat/VideoChatViewController;)V
+.method private constructor <init>(Lkik/arcane/videochat/VideoChatViewController;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/videochat/aj;->a:Lkik/android/videochat/VideoChatViewController;
+    iput-object p1, p0, Lkik/arcane/videochat/aj;->a:Lkik/arcane/videochat/VideoChatViewController;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/videochat/VideoChatViewController;)Ljava/lang/Runnable;
+.method public static a(Lkik/arcane/videochat/VideoChatViewController;)Ljava/lang/Runnable;
     .locals 1
 
-    new-instance v0, Lkik/android/videochat/aj;
+    new-instance v0, Lkik/arcane/videochat/aj;
 
-    invoke-direct {v0, p0}, Lkik/android/videochat/aj;-><init>(Lkik/android/videochat/VideoChatViewController;)V
+    invoke-direct {v0, p0}, Lkik/arcane/videochat/aj;-><init>(Lkik/arcane/videochat/VideoChatViewController;)V
 
     return-object v0
 .end method
@@ -35,9 +35,9 @@
 .method public final run()V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/videochat/aj;->a:Lkik/android/videochat/VideoChatViewController;
+    iget-object v0, p0, Lkik/arcane/videochat/aj;->a:Lkik/arcane/videochat/VideoChatViewController;
 
-    invoke-static {v0}, Lkik/android/videochat/VideoChatViewController;->j(Lkik/android/videochat/VideoChatViewController;)V
+    invoke-static {v0}, Lkik/arcane/videochat/VideoChatViewController;->j(Lkik/arcane/videochat/VideoChatViewController;)V
 
     return-void
 .end method

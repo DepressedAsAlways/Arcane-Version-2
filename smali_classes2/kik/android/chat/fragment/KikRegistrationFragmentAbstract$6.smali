@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/KikRegistrationFragmentAbstract$6;
+.class final Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract$6;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;
+    value = Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;)V
     .locals 0
 
     .prologue
     .line 1054
-    iput-object p1, p0, Lkik/android/chat/fragment/KikRegistrationFragmentAbstract$6;->a:Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract$6;->a:Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -118,7 +118,7 @@
 
     .line 2061
     :pswitch_1
-    iget-object v0, p0, Lkik/android/chat/fragment/KikRegistrationFragmentAbstract$6;->a:Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract$6;->a:Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;
 
     const-string v1, "extra-verification-reference"
 
@@ -126,25 +126,25 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;->b(Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;->b(Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;Ljava/lang/String;)Ljava/lang/String;
 
     .line 2062
-    iget-object v0, p0, Lkik/android/chat/fragment/KikRegistrationFragmentAbstract$6;->a:Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract$6;->a:Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;->i(Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;->i(Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;)V
 
     goto :goto_1
 
     .line 2067
     :pswitch_2
-    iget-object v0, p0, Lkik/android/chat/fragment/KikRegistrationFragmentAbstract$6;->a:Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract$6;->a:Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;->m(Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;)Z
+    invoke-static {v0}, Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;->m(Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;)Z
 
     .line 2068
-    iget-object v0, p0, Lkik/android/chat/fragment/KikRegistrationFragmentAbstract$6;->a:Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract$6;->a:Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;->i(Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;->i(Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;)V
 
     goto :goto_1
 

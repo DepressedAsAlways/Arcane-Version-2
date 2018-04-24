@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/view/text/d;
+.class public final Lkik/arcane/chat/view/text/d;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -31,13 +31,13 @@
 
     .line 42
     :goto_1
-    invoke-static {v0}, Lkik/android/chat/view/text/HighLightURLSpan;->a(Landroid/text/Spannable;)V
+    invoke-static {v0}, Lkik/arcane/chat/view/text/HighLightURLSpan;->a(Landroid/text/Spannable;)V
 
     .line 43
     invoke-virtual {p0, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 44
-    invoke-static {}, Lkik/android/util/ag;->a()Lkik/android/util/ag;
+    invoke-static {}, Lkik/arcane/util/ag;->a()Lkik/arcane/util/ag;
 
     move-result-object v0
 
@@ -139,7 +139,7 @@
     invoke-virtual {p0, v4}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 79
-    invoke-static {p0}, Lkik/android/chat/view/text/d;->a(Landroid/widget/TextView;)V
+    invoke-static {p0}, Lkik/arcane/chat/view/text/d;->a(Landroid/widget/TextView;)V
 
     goto :goto_0
 .end method

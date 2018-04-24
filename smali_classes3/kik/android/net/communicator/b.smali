@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/net/communicator/b;
+.class final synthetic Lkik/arcane/net/communicator/b;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,30 +6,30 @@
 
 
 # instance fields
-.field private final a:Lkik/android/net/communicator/a$a;
+.field private final a:Lkik/arcane/net/communicator/a$a;
 
 .field private final b:Lkik/core/net/challenge/d;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/net/communicator/a$a;Lkik/core/net/challenge/d;)V
+.method private constructor <init>(Lkik/arcane/net/communicator/a$a;Lkik/core/net/challenge/d;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/net/communicator/b;->a:Lkik/android/net/communicator/a$a;
+    iput-object p1, p0, Lkik/arcane/net/communicator/b;->a:Lkik/arcane/net/communicator/a$a;
 
-    iput-object p2, p0, Lkik/android/net/communicator/b;->b:Lkik/core/net/challenge/d;
+    iput-object p2, p0, Lkik/arcane/net/communicator/b;->b:Lkik/core/net/challenge/d;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/net/communicator/a$a;Lkik/core/net/challenge/d;)Ljava/lang/Runnable;
+.method public static a(Lkik/arcane/net/communicator/a$a;Lkik/core/net/challenge/d;)Ljava/lang/Runnable;
     .locals 1
 
-    new-instance v0, Lkik/android/net/communicator/b;
+    new-instance v0, Lkik/arcane/net/communicator/b;
 
-    invoke-direct {v0, p0, p1}, Lkik/android/net/communicator/b;-><init>(Lkik/android/net/communicator/a$a;Lkik/core/net/challenge/d;)V
+    invoke-direct {v0, p0, p1}, Lkik/arcane/net/communicator/b;-><init>(Lkik/arcane/net/communicator/a$a;Lkik/core/net/challenge/d;)V
 
     return-object v0
 .end method
@@ -39,11 +39,11 @@
 .method public final run()V
     .locals 2
 
-    iget-object v0, p0, Lkik/android/net/communicator/b;->a:Lkik/android/net/communicator/a$a;
+    iget-object v0, p0, Lkik/arcane/net/communicator/b;->a:Lkik/arcane/net/communicator/a$a;
 
-    iget-object v1, p0, Lkik/android/net/communicator/b;->b:Lkik/core/net/challenge/d;
+    iget-object v1, p0, Lkik/arcane/net/communicator/b;->b:Lkik/core/net/challenge/d;
 
-    invoke-static {v0, v1}, Lkik/android/net/communicator/a$a;->a(Lkik/android/net/communicator/a$a;Lkik/core/net/challenge/d;)V
+    invoke-static {v0, v1}, Lkik/arcane/net/communicator/a$a;->a(Lkik/arcane/net/communicator/a$a;Lkik/core/net/challenge/d;)V
 
     return-void
 .end method

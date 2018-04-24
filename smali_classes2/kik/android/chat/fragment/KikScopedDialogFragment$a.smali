@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/KikScopedDialogFragment$a;
+.class final Lkik/arcane/chat/fragment/KikScopedDialogFragment$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikScopedDialogFragment;
+    value = Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,9 +15,9 @@
 
 
 # instance fields
-.field public a:Lkik/android/chat/fragment/KikDialogFragment;
+.field public a:Lkik/arcane/chat/fragment/KikDialogFragment;
 
-.field public b:Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;
+.field public b:Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;
 
 
 # direct methods
@@ -36,7 +36,7 @@
 
     .prologue
     .line 73
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikScopedDialogFragment$a;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment$a;-><init>()V
 
     return-void
 .end method

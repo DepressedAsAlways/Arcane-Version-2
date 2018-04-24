@@ -1,11 +1,11 @@
-.class public Lcom/kik/android/b/g$a;
+.class public Lcom/kik/arcane/b/g$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/kik/android/b/g;
+    value = Lcom/kik/arcane/b/g;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

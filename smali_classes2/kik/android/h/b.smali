@@ -1,4 +1,4 @@
-.class public final Lkik/android/h/b;
+.class public final Lkik/arcane/h/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -10,7 +10,7 @@
             "Ljava/util/HashMap",
             "<",
             "Ljava/lang/Integer;",
-            "Lkik/android/h/a;",
+            "Lkik/arcane/h/a;",
             ">;"
         }
     .end annotation
@@ -47,30 +47,30 @@
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    iput-object v0, p0, Lkik/android/h/b;->a:Ljava/util/HashMap;
+    iput-object v0, p0, Lkik/arcane/h/b;->a:Ljava/util/HashMap;
 
     .line 32
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
-    iput-object v0, p0, Lkik/android/h/b;->b:Ljava/util/HashSet;
+    iput-object v0, p0, Lkik/arcane/h/b;->b:Ljava/util/HashSet;
 
     .line 33
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    iput-object v0, p0, Lkik/android/h/b;->c:Ljava/lang/Object;
+    iput-object v0, p0, Lkik/arcane/h/b;->c:Ljava/lang/Object;
 
     .line 39
-    iput-object p1, p0, Lkik/android/h/b;->d:Lkik/core/interfaces/v;
+    iput-object p1, p0, Lkik/arcane/h/b;->d:Lkik/core/interfaces/v;
 
     .line 40
-    iput-object p2, p0, Lkik/android/h/b;->e:Lkik/core/interfaces/ad;
+    iput-object p2, p0, Lkik/arcane/h/b;->e:Lkik/core/interfaces/ad;
 
     .line 41
-    invoke-direct {p0}, Lkik/android/h/b;->f()V
+    invoke-direct {p0}, Lkik/arcane/h/b;->f()V
 
     .line 42
     return-void
@@ -96,7 +96,7 @@
     .line 89
     new-instance v2, Ljava/util/HashSet;
 
-    iget-object v0, p0, Lkik/android/h/b;->a:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/h/b;->a:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
 
@@ -132,7 +132,7 @@
     const/4 v1, 0x0
 
     .line 96
-    iget-object v3, p0, Lkik/android/h/b;->c:Ljava/lang/Object;
+    iget-object v3, p0, Lkik/arcane/h/b;->c:Ljava/lang/Object;
 
     monitor-enter v3
 
@@ -156,12 +156,12 @@
     check-cast v0, Ljava/lang/Integer;
 
     .line 99
-    iget-object v5, p0, Lkik/android/h/b;->a:Ljava/util/HashMap;
+    iget-object v5, p0, Lkik/arcane/h/b;->a:Ljava/util/HashMap;
 
     invoke-virtual {v5, v0}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 100
-    iget-object v5, p0, Lkik/android/h/b;->b:Ljava/util/HashSet;
+    iget-object v5, p0, Lkik/arcane/h/b;->b:Ljava/util/HashSet;
 
     invoke-virtual {v5, v0}, Ljava/util/HashSet;->remove(Ljava/lang/Object;)Z
 
@@ -188,7 +188,7 @@
     if-eqz v1, :cond_2
 
     .line 106
-    invoke-direct {p0}, Lkik/android/h/b;->e()V
+    invoke-direct {p0}, Lkik/arcane/h/b;->e()V
 
     .line 108
     :cond_2
@@ -222,7 +222,7 @@
     const/4 v1, 0x0
 
     .line 122
-    iget-object v0, p0, Lkik/android/h/b;->b:Ljava/util/HashSet;
+    iget-object v0, p0, Lkik/arcane/h/b;->b:Ljava/util/HashSet;
 
     new-array v2, v1, [Ljava/lang/Integer;
 
@@ -279,9 +279,9 @@
     move-result-object v0
 
     .line 132
-    iget-object v1, p0, Lkik/android/h/b;->e:Lkik/core/interfaces/ad;
+    iget-object v1, p0, Lkik/arcane/h/b;->e:Lkik/core/interfaces/ad;
 
-    const-string v2, "kik.android.notifications.NotificationTracker.dismissed.ids"
+    const-string v2, "kik.arcane.notifications.NotificationTracker.dismissed.ids"
 
     invoke-interface {v1, v2, v0}, Lkik/core/interfaces/ad;->c(Ljava/lang/String;Ljava/lang/String;)Z
     :try_end_0
@@ -304,9 +304,9 @@
     const/4 v1, 0x0
 
     .line 141
-    iget-object v0, p0, Lkik/android/h/b;->e:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/h/b;->e:Lkik/core/interfaces/ad;
 
-    const-string v2, "kik.android.notifications.NotificationTracker.dismissed.ids"
+    const-string v2, "kik.arcane.notifications.NotificationTracker.dismissed.ids"
 
     invoke-interface {v0, v2}, Lkik/core/interfaces/ad;->s(Ljava/lang/String;)Ljava/lang/String;
 
@@ -360,7 +360,7 @@
     if-ge v0, v1, :cond_0
 
     .line 156
-    iget-object v1, p0, Lkik/android/h/b;->b:Ljava/util/HashSet;
+    iget-object v1, p0, Lkik/arcane/h/b;->b:Ljava/util/HashSet;
 
     aget v2, v3, v0
 
@@ -388,7 +388,7 @@
 
     .prologue
     .line 233
-    iget-object v0, p0, Lkik/android/h/b;->d:Lkik/core/interfaces/v;
+    iget-object v0, p0, Lkik/arcane/h/b;->d:Lkik/core/interfaces/v;
 
     invoke-virtual {p1}, Lkik/core/datatypes/f;->g()Ljava/lang/String;
 
@@ -417,18 +417,18 @@
 
     .prologue
     .line 113
-    iget-object v1, p0, Lkik/android/h/b;->c:Ljava/lang/Object;
+    iget-object v1, p0, Lkik/arcane/h/b;->c:Ljava/lang/Object;
 
     monitor-enter v1
 
     .line 114
     :try_start_0
-    iget-object v0, p0, Lkik/android/h/b;->a:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/h/b;->a:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
 
     .line 115
-    iget-object v0, p0, Lkik/android/h/b;->b:Ljava/util/HashSet;
+    iget-object v0, p0, Lkik/arcane/h/b;->b:Ljava/util/HashSet;
 
     invoke-virtual {v0}, Ljava/util/HashSet;->clear()V
 
@@ -438,7 +438,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 117
-    invoke-direct {p0}, Lkik/android/h/b;->e()V
+    invoke-direct {p0}, Lkik/arcane/h/b;->e()V
 
     .line 118
     return-void
@@ -491,7 +491,7 @@
     if-eqz v0, :cond_0
 
     .line 59
-    iget-object v2, p0, Lkik/android/h/b;->d:Lkik/core/interfaces/v;
+    iget-object v2, p0, Lkik/arcane/h/b;->d:Lkik/core/interfaces/v;
 
     invoke-virtual {v0}, Lkik/core/datatypes/f;->g()Ljava/lang/String;
 
@@ -504,12 +504,12 @@
     move-result-object v2
 
     .line 60
-    invoke-virtual {p0, v0}, Lkik/android/h/b;->a(Lkik/core/datatypes/f;)I
+    invoke-virtual {p0, v0}, Lkik/arcane/h/b;->a(Lkik/core/datatypes/f;)I
 
     move-result v0
 
     .line 61
-    iget-object v3, p0, Lkik/android/h/b;->b:Ljava/util/HashSet;
+    iget-object v3, p0, Lkik/arcane/h/b;->b:Ljava/util/HashSet;
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -519,7 +519,7 @@
 
     move-result v3
 
-    invoke-virtual {p0, v2, v0, v3}, Lkik/android/h/b;->a(Lkik/core/datatypes/l;IZ)V
+    invoke-virtual {p0, v2, v0, v3}, Lkik/arcane/h/b;->a(Lkik/core/datatypes/l;IZ)V
 
     goto :goto_0
 
@@ -533,28 +533,28 @@
 
     .prologue
     .line 162
-    iget-object v1, p0, Lkik/android/h/b;->c:Ljava/lang/Object;
+    iget-object v1, p0, Lkik/arcane/h/b;->c:Ljava/lang/Object;
 
     monitor-enter v1
 
     .line 164
     :try_start_0
-    iget-object v0, p0, Lkik/android/h/b;->a:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/h/b;->a:Ljava/util/HashMap;
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
-    new-instance v3, Lkik/android/h/a;
+    new-instance v3, Lkik/arcane/h/a;
 
     const/4 v4, 0x0
 
-    invoke-direct {v3, p1, p2, v4}, Lkik/android/h/a;-><init>(Lkik/core/datatypes/l;IZ)V
+    invoke-direct {v3, p1, p2, v4}, Lkik/arcane/h/a;-><init>(Lkik/core/datatypes/l;IZ)V
 
     invoke-virtual {v0, v2, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 165
-    invoke-direct {p0}, Lkik/android/h/b;->e()V
+    invoke-direct {p0}, Lkik/arcane/h/b;->e()V
 
     .line 166
     monitor-exit v1
@@ -576,13 +576,13 @@
 
     .prologue
     .line 215
-    iget-object v1, p0, Lkik/android/h/b;->c:Ljava/lang/Object;
+    iget-object v1, p0, Lkik/arcane/h/b;->c:Ljava/lang/Object;
 
     monitor-enter v1
 
     .line 216
     :try_start_0
-    iget-object v0, p0, Lkik/android/h/b;->a:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/h/b;->a:Ljava/util/HashMap;
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -595,15 +595,15 @@
     if-nez v0, :cond_0
 
     .line 217
-    iget-object v0, p0, Lkik/android/h/b;->a:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/h/b;->a:Ljava/util/HashMap;
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v2
 
-    new-instance v3, Lkik/android/h/a;
+    new-instance v3, Lkik/arcane/h/a;
 
-    invoke-direct {v3, p1, p2, p3}, Lkik/android/h/a;-><init>(Lkik/core/datatypes/l;IZ)V
+    invoke-direct {v3, p1, p2, p3}, Lkik/arcane/h/a;-><init>(Lkik/core/datatypes/l;IZ)V
 
     invoke-virtual {v0, v2, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -628,13 +628,13 @@
 
     .prologue
     .line 202
-    iget-object v1, p0, Lkik/android/h/b;->c:Ljava/lang/Object;
+    iget-object v1, p0, Lkik/arcane/h/b;->c:Ljava/lang/Object;
 
     monitor-enter v1
 
     .line 203
     :try_start_0
-    iget-object v0, p0, Lkik/android/h/b;->a:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/h/b;->a:Ljava/util/HashMap;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -666,7 +666,7 @@
             "()",
             "Ljava/util/List",
             "<",
-            "Lkik/android/h/a;",
+            "Lkik/arcane/h/a;",
             ">;"
         }
     .end annotation
@@ -678,13 +678,13 @@
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     .line 172
-    iget-object v2, p0, Lkik/android/h/b;->c:Ljava/lang/Object;
+    iget-object v2, p0, Lkik/arcane/h/b;->c:Ljava/lang/Object;
 
     monitor-enter v2
 
     .line 173
     :try_start_0
-    iget-object v0, p0, Lkik/android/h/b;->a:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/h/b;->a:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->values()Ljava/util/Collection;
 
@@ -706,12 +706,12 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/h/a;
+    check-cast v0, Lkik/arcane/h/a;
 
     .line 175
     if-eqz v0, :cond_0
 
-    iget-boolean v4, v0, Lkik/android/h/a;->a:Z
+    iget-boolean v4, v0, Lkik/arcane/h/a;->a:Z
 
     if-nez v4, :cond_0
 
@@ -781,7 +781,7 @@
     check-cast v0, Lkik/core/datatypes/f;
 
     .line 74
-    invoke-virtual {p0, v0}, Lkik/android/h/b;->a(Lkik/core/datatypes/f;)I
+    invoke-virtual {p0, v0}, Lkik/arcane/h/b;->a(Lkik/core/datatypes/f;)I
 
     move-result v0
 
@@ -795,7 +795,7 @@
 
     .line 76
     :cond_0
-    invoke-direct {p0, v1}, Lkik/android/h/b;->d(Ljava/util/List;)Ljava/util/List;
+    invoke-direct {p0, v1}, Lkik/arcane/h/b;->d(Ljava/util/List;)Ljava/util/List;
 
     move-result-object v0
 
@@ -807,7 +807,7 @@
 
     .prologue
     .line 185
-    invoke-virtual {p0}, Lkik/android/h/b;->b()Ljava/util/List;
+    invoke-virtual {p0}, Lkik/arcane/h/b;->b()Ljava/util/List;
 
     move-result-object v0
 
@@ -870,12 +870,12 @@
     check-cast v0, Lkik/core/datatypes/f;
 
     .line 244
-    invoke-virtual {p0, v0}, Lkik/android/h/b;->a(Lkik/core/datatypes/f;)I
+    invoke-virtual {p0, v0}, Lkik/arcane/h/b;->a(Lkik/core/datatypes/f;)I
 
     move-result v1
 
     .line 245
-    iget-object v4, p0, Lkik/android/h/b;->a:Ljava/util/HashMap;
+    iget-object v4, p0, Lkik/arcane/h/b;->a:Ljava/util/HashMap;
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -885,13 +885,13 @@
 
     move-result-object v1
 
-    check-cast v1, Lkik/android/h/a;
+    check-cast v1, Lkik/arcane/h/a;
 
     .line 246
     if-eqz v1, :cond_2
 
     .line 1034
-    iget-boolean v1, v1, Lkik/android/h/a;->a:Z
+    iget-boolean v1, v1, Lkik/arcane/h/a;->a:Z
 
     .line 246
     if-nez v1, :cond_1
@@ -914,13 +914,13 @@
 
     .prologue
     .line 190
-    iget-object v1, p0, Lkik/android/h/b;->c:Ljava/lang/Object;
+    iget-object v1, p0, Lkik/arcane/h/b;->c:Ljava/lang/Object;
 
     monitor-enter v1
 
     .line 192
     :try_start_0
-    iget-object v0, p0, Lkik/android/h/b;->a:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/h/b;->a:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->values()Ljava/util/Collection;
 
@@ -941,12 +941,12 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/h/a;
+    check-cast v0, Lkik/arcane/h/a;
 
     .line 193
     const/4 v3, 0x1
 
-    iput-boolean v3, v0, Lkik/android/h/a;->a:Z
+    iput-boolean v3, v0, Lkik/arcane/h/a;->a:Z
 
     goto :goto_0
 
@@ -963,9 +963,9 @@
     .line 195
     :cond_0
     :try_start_1
-    iget-object v0, p0, Lkik/android/h/b;->b:Ljava/util/HashSet;
+    iget-object v0, p0, Lkik/arcane/h/b;->b:Ljava/util/HashSet;
 
-    iget-object v2, p0, Lkik/android/h/b;->a:Ljava/util/HashMap;
+    iget-object v2, p0, Lkik/arcane/h/b;->a:Ljava/util/HashMap;
 
     invoke-virtual {v2}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
 
@@ -974,7 +974,7 @@
     invoke-virtual {v0, v2}, Ljava/util/HashSet;->addAll(Ljava/util/Collection;)Z
 
     .line 196
-    invoke-direct {p0}, Lkik/android/h/b;->e()V
+    invoke-direct {p0}, Lkik/arcane/h/b;->e()V
 
     .line 197
     monitor-exit v1

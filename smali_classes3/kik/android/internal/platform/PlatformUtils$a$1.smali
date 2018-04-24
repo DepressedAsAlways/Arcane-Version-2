@@ -1,11 +1,11 @@
-.class final Lkik/android/internal/platform/PlatformUtils$a$1;
+.class final Lkik/arcane/internal/platform/PlatformUtils$a$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/internal/platform/PlatformUtils$a;->b()Ljava/lang/Void;
+    value = Lkik/arcane/internal/platform/PlatformUtils$a;->b()Ljava/lang/Void;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,18 +26,18 @@
 # instance fields
 .field final synthetic a:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
-.field final synthetic b:Lkik/android/internal/platform/PlatformUtils$a;
+.field final synthetic b:Lkik/arcane/internal/platform/PlatformUtils$a;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/internal/platform/PlatformUtils$a;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
+.method constructor <init>(Lkik/arcane/internal/platform/PlatformUtils$a;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
     .locals 0
 
     .prologue
     .line 564
-    iput-object p1, p0, Lkik/android/internal/platform/PlatformUtils$a$1;->b:Lkik/android/internal/platform/PlatformUtils$a;
+    iput-object p1, p0, Lkik/arcane/internal/platform/PlatformUtils$a$1;->b:Lkik/arcane/internal/platform/PlatformUtils$a;
 
-    iput-object p2, p0, Lkik/android/internal/platform/PlatformUtils$a$1;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iput-object p2, p0, Lkik/arcane/internal/platform/PlatformUtils$a$1;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -54,7 +54,7 @@
     check-cast p1, Landroid/graphics/Bitmap;
 
     .line 1568
-    invoke-static {p1}, Lkik/android/internal/platform/PlatformUtils;->a(Landroid/graphics/Bitmap;)[B
+    invoke-static {p1}, Lkik/arcane/internal/platform/PlatformUtils;->a(Landroid/graphics/Bitmap;)[B
 
     move-result-object v0
 
@@ -66,7 +66,7 @@
     if-lez v1, :cond_0
 
     .line 1571
-    iget-object v1, p0, Lkik/android/internal/platform/PlatformUtils$a$1;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v1, p0, Lkik/arcane/internal/platform/PlatformUtils$a$1;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     const-string v2, "icon"
 
@@ -86,7 +86,7 @@
 
     .prologue
     .line 578
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformUtils$a$1;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformUtils$a$1;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     const-string v1, "icon"
 
@@ -97,17 +97,17 @@
     if-nez v0, :cond_0
 
     .line 579
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformUtils$a$1;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformUtils$a$1;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
-    invoke-static {v0}, Lkik/android/internal/platform/PlatformUtils$a;->b(Lkik/core/datatypes/messageExtensions/ContentMessage;)V
+    invoke-static {v0}, Lkik/arcane/internal/platform/PlatformUtils$a;->b(Lkik/core/datatypes/messageExtensions/ContentMessage;)V
 
     .line 581
     :cond_0
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformUtils$a$1;->b:Lkik/android/internal/platform/PlatformUtils$a;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformUtils$a$1;->b:Lkik/arcane/internal/platform/PlatformUtils$a;
 
-    iget-object v1, p0, Lkik/android/internal/platform/PlatformUtils$a$1;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v1, p0, Lkik/arcane/internal/platform/PlatformUtils$a$1;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
-    invoke-static {v0, v1}, Lkik/android/internal/platform/PlatformUtils$a;->a(Lkik/android/internal/platform/PlatformUtils$a;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
+    invoke-static {v0, v1}, Lkik/arcane/internal/platform/PlatformUtils$a;->a(Lkik/arcane/internal/platform/PlatformUtils$a;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
 
     .line 582
     return-void

@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/KikApplication$28;
+.class final Lkik/arcane/chat/KikApplication$28;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/KikApplication;
+    value = Lkik/arcane/chat/KikApplication;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -34,22 +34,22 @@
 
 .field final synthetic c:Lkik/core/datatypes/aa;
 
-.field final synthetic d:Lkik/android/chat/KikApplication;
+.field final synthetic d:Lkik/arcane/chat/KikApplication;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/KikApplication;Lcom/kik/events/d;Lkik/core/interfaces/ICommunication;Lkik/core/datatypes/aa;)V
+.method constructor <init>(Lkik/arcane/chat/KikApplication;Lcom/kik/events/d;Lkik/core/interfaces/ICommunication;Lkik/core/datatypes/aa;)V
     .locals 0
 
     .prologue
     .line 2311
-    iput-object p1, p0, Lkik/android/chat/KikApplication$28;->d:Lkik/android/chat/KikApplication;
+    iput-object p1, p0, Lkik/arcane/chat/KikApplication$28;->d:Lkik/arcane/chat/KikApplication;
 
-    iput-object p2, p0, Lkik/android/chat/KikApplication$28;->a:Lcom/kik/events/d;
+    iput-object p2, p0, Lkik/arcane/chat/KikApplication$28;->a:Lcom/kik/events/d;
 
-    iput-object p3, p0, Lkik/android/chat/KikApplication$28;->b:Lkik/core/interfaces/ICommunication;
+    iput-object p3, p0, Lkik/arcane/chat/KikApplication$28;->b:Lkik/core/interfaces/ICommunication;
 
-    iput-object p4, p0, Lkik/android/chat/KikApplication$28;->c:Lkik/core/datatypes/aa;
+    iput-object p4, p0, Lkik/arcane/chat/KikApplication$28;->c:Lkik/core/datatypes/aa;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -64,18 +64,18 @@
     .prologue
     .line 2311
     .line 3316
-    iget-object v0, p0, Lkik/android/chat/KikApplication$28;->a:Lcom/kik/events/d;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication$28;->a:Lcom/kik/events/d;
 
     invoke-virtual {v0}, Lcom/kik/events/d;->a()V
 
     .line 3317
-    iget-object v0, p0, Lkik/android/chat/KikApplication$28;->b:Lkik/core/interfaces/ICommunication;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication$28;->b:Lkik/core/interfaces/ICommunication;
 
     new-instance v1, Lkik/core/net/outgoing/UserProfileRequest$a;
 
     invoke-direct {v1}, Lkik/core/net/outgoing/UserProfileRequest$a;-><init>()V
 
-    iget-object v2, p0, Lkik/android/chat/KikApplication$28;->c:Lkik/core/datatypes/aa;
+    iget-object v2, p0, Lkik/arcane/chat/KikApplication$28;->c:Lkik/core/datatypes/aa;
 
     iget-object v2, v2, Lkik/core/datatypes/aa;->h:Ljava/lang/Boolean;
 

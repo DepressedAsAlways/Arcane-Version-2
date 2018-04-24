@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/vm/profile/profileactionvm/ai;
+.class public final Lkik/arcane/chat/vm/profile/profileactionvm/ai;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,10 +6,10 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/vm/profile/profileactionvm/ai$d;,
-        Lkik/android/chat/vm/profile/profileactionvm/ai$b;,
-        Lkik/android/chat/vm/profile/profileactionvm/ai$c;,
-        Lkik/android/chat/vm/profile/profileactionvm/ai$a;
+        Lkik/arcane/chat/vm/profile/profileactionvm/ai$d;,
+        Lkik/arcane/chat/vm/profile/profileactionvm/ai$b;,
+        Lkik/arcane/chat/vm/profile/profileactionvm/ai$c;,
+        Lkik/arcane/chat/vm/profile/profileactionvm/ai$a;
     }
 .end annotation
 
@@ -30,7 +30,7 @@
 
     invoke-direct {v0, v1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
 
-    sput-object v0, Lkik/android/chat/vm/profile/profileactionvm/ai;->a:Ljava/text/SimpleDateFormat;
+    sput-object v0, Lkik/arcane/chat/vm/profile/profileactionvm/ai;->a:Ljava/text/SimpleDateFormat;
 
     return-void
 .end method
@@ -40,7 +40,7 @@
 
     .prologue
     .line 39
-    sget-object v0, Lkik/android/chat/vm/profile/profileactionvm/ai;->a:Ljava/text/SimpleDateFormat;
+    sget-object v0, Lkik/arcane/chat/vm/profile/profileactionvm/ai;->a:Ljava/text/SimpleDateFormat;
 
     return-object v0
 .end method

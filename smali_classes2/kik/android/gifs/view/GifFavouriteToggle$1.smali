@@ -1,11 +1,11 @@
-.class final Lkik/android/gifs/view/GifFavouriteToggle$1;
+.class final Lkik/arcane/gifs/view/GifFavouriteToggle$1;
 .super Landroid/animation/AnimatorListenerAdapter;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/gifs/view/GifFavouriteToggle;
+    value = Lkik/arcane/gifs/view/GifFavouriteToggle;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,18 +17,18 @@
 # instance fields
 .field final synthetic a:Z
 
-.field final synthetic b:Lkik/android/gifs/view/GifFavouriteToggle;
+.field final synthetic b:Lkik/arcane/gifs/view/GifFavouriteToggle;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/gifs/view/GifFavouriteToggle;Z)V
+.method constructor <init>(Lkik/arcane/gifs/view/GifFavouriteToggle;Z)V
     .locals 0
 
     .prologue
     .line 93
-    iput-object p1, p0, Lkik/android/gifs/view/GifFavouriteToggle$1;->b:Lkik/android/gifs/view/GifFavouriteToggle;
+    iput-object p1, p0, Lkik/arcane/gifs/view/GifFavouriteToggle$1;->b:Lkik/arcane/gifs/view/GifFavouriteToggle;
 
-    iput-boolean p2, p0, Lkik/android/gifs/view/GifFavouriteToggle$1;->a:Z
+    iput-boolean p2, p0, Lkik/arcane/gifs/view/GifFavouriteToggle$1;->a:Z
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
@@ -42,14 +42,14 @@
 
     .prologue
     .line 97
-    iget-boolean v0, p0, Lkik/android/gifs/view/GifFavouriteToggle$1;->a:Z
+    iget-boolean v0, p0, Lkik/arcane/gifs/view/GifFavouriteToggle$1;->a:Z
 
     if-eqz v0, :cond_0
 
     .line 98
-    iget-object v0, p0, Lkik/android/gifs/view/GifFavouriteToggle$1;->b:Lkik/android/gifs/view/GifFavouriteToggle;
+    iget-object v0, p0, Lkik/arcane/gifs/view/GifFavouriteToggle$1;->b:Lkik/arcane/gifs/view/GifFavouriteToggle;
 
-    invoke-static {v0}, Lkik/android/gifs/view/GifFavouriteToggle;->a(Lkik/android/gifs/view/GifFavouriteToggle;)V
+    invoke-static {v0}, Lkik/arcane/gifs/view/GifFavouriteToggle;->a(Lkik/arcane/gifs/view/GifFavouriteToggle;)V
 
     .line 103
     :goto_0
@@ -57,9 +57,9 @@
 
     .line 101
     :cond_0
-    iget-object v0, p0, Lkik/android/gifs/view/GifFavouriteToggle$1;->b:Lkik/android/gifs/view/GifFavouriteToggle;
+    iget-object v0, p0, Lkik/arcane/gifs/view/GifFavouriteToggle$1;->b:Lkik/arcane/gifs/view/GifFavouriteToggle;
 
-    invoke-static {v0}, Lkik/android/gifs/view/GifFavouriteToggle;->b(Lkik/android/gifs/view/GifFavouriteToggle;)V
+    invoke-static {v0}, Lkik/arcane/gifs/view/GifFavouriteToggle;->b(Lkik/arcane/gifs/view/GifFavouriteToggle;)V
 
     goto :goto_0
 .end method

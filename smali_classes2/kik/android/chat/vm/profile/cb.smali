@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/vm/profile/cb;
+.class public final Lkik/arcane/chat/vm/profile/cb;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -23,7 +23,7 @@
 
     invoke-direct {v0}, Ljava/util/Random;-><init>()V
 
-    sput-object v0, Lkik/android/chat/vm/profile/cb;->a:Ljava/util/Random;
+    sput-object v0, Lkik/arcane/chat/vm/profile/cb;->a:Ljava/util/Random;
 
     return-void
 .end method
@@ -36,7 +36,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 23
-    iput-object p1, p0, Lkik/android/chat/vm/profile/cb;->b:Landroid/content/res/Resources;
+    iput-object p1, p0, Lkik/arcane/chat/vm/profile/cb;->b:Landroid/content/res/Resources;
 
     .line 24
     const/4 v0, 0x6
@@ -47,7 +47,7 @@
 
     const v2, 0x7f0900f5
 
-    invoke-direct {p0, v2}, Lkik/android/chat/vm/profile/cb;->b(I)Ljava/lang/String;
+    invoke-direct {p0, v2}, Lkik/arcane/chat/vm/profile/cb;->b(I)Ljava/lang/String;
 
     move-result-object v2
 
@@ -57,7 +57,7 @@
 
     const v2, 0x7f0900f6
 
-    invoke-direct {p0, v2}, Lkik/android/chat/vm/profile/cb;->b(I)Ljava/lang/String;
+    invoke-direct {p0, v2}, Lkik/arcane/chat/vm/profile/cb;->b(I)Ljava/lang/String;
 
     move-result-object v2
 
@@ -67,7 +67,7 @@
 
     const v2, 0x7f0900f7
 
-    invoke-direct {p0, v2}, Lkik/android/chat/vm/profile/cb;->b(I)Ljava/lang/String;
+    invoke-direct {p0, v2}, Lkik/arcane/chat/vm/profile/cb;->b(I)Ljava/lang/String;
 
     move-result-object v2
 
@@ -77,7 +77,7 @@
 
     const v2, 0x7f0900f8
 
-    invoke-direct {p0, v2}, Lkik/android/chat/vm/profile/cb;->b(I)Ljava/lang/String;
+    invoke-direct {p0, v2}, Lkik/arcane/chat/vm/profile/cb;->b(I)Ljava/lang/String;
 
     move-result-object v2
 
@@ -87,7 +87,7 @@
 
     const v2, 0x7f0900f9
 
-    invoke-direct {p0, v2}, Lkik/android/chat/vm/profile/cb;->b(I)Ljava/lang/String;
+    invoke-direct {p0, v2}, Lkik/arcane/chat/vm/profile/cb;->b(I)Ljava/lang/String;
 
     move-result-object v2
 
@@ -97,13 +97,13 @@
 
     const v2, 0x7f0900fa
 
-    invoke-direct {p0, v2}, Lkik/android/chat/vm/profile/cb;->b(I)Ljava/lang/String;
+    invoke-direct {p0, v2}, Lkik/arcane/chat/vm/profile/cb;->b(I)Ljava/lang/String;
 
     move-result-object v2
 
     aput-object v2, v0, v1
 
-    iput-object v0, p0, Lkik/android/chat/vm/profile/cb;->c:[Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/vm/profile/cb;->c:[Ljava/lang/String;
 
     .line 25
     return-void
@@ -114,7 +114,7 @@
 
     .prologue
     .line 52
-    iget-object v0, p0, Lkik/android/chat/vm/profile/cb;->b:Landroid/content/res/Resources;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/cb;->b:Landroid/content/res/Resources;
 
     invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -130,11 +130,11 @@
 
     .prologue
     .line 29
-    iget-object v0, p0, Lkik/android/chat/vm/profile/cb;->c:[Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/cb;->c:[Ljava/lang/String;
 
-    sget-object v1, Lkik/android/chat/vm/profile/cb;->a:Ljava/util/Random;
+    sget-object v1, Lkik/arcane/chat/vm/profile/cb;->a:Ljava/util/Random;
 
-    iget-object v2, p0, Lkik/android/chat/vm/profile/cb;->c:[Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/vm/profile/cb;->c:[Ljava/lang/String;
 
     array-length v2, v2
 
@@ -157,7 +157,7 @@
     .line 46
     const v0, 0x7f0900fd
 
-    invoke-direct {p0, v0}, Lkik/android/chat/vm/profile/cb;->b(I)Ljava/lang/String;
+    invoke-direct {p0, v0}, Lkik/arcane/chat/vm/profile/cb;->b(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -168,7 +168,7 @@
     :pswitch_0
     const v0, 0x7f0900fe
 
-    invoke-direct {p0, v0}, Lkik/android/chat/vm/profile/cb;->b(I)Ljava/lang/String;
+    invoke-direct {p0, v0}, Lkik/arcane/chat/vm/profile/cb;->b(I)Ljava/lang/String;
 
     move-result-object v0
 

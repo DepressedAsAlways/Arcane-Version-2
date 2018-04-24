@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/BubbleFramelayout;
+.class public Lkik/arcane/widget/BubbleFramelayout;
 .super Landroid/widget/FrameLayout;
 .source "SourceFile"
 
@@ -37,7 +37,7 @@
     .line 102
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/BubbleFramelayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/BubbleFramelayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 103
     return-void
@@ -50,7 +50,7 @@
     .line 107
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/BubbleFramelayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/BubbleFramelayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 108
     return-void
@@ -68,22 +68,22 @@
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 35
-    iput-boolean v2, p0, Lkik/android/widget/BubbleFramelayout;->i:Z
+    iput-boolean v2, p0, Lkik/arcane/widget/BubbleFramelayout;->i:Z
 
     .line 40
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/widget/BubbleFramelayout;->k:Landroid/view/View$OnCreateContextMenuListener;
+    iput-object v0, p0, Lkik/arcane/widget/BubbleFramelayout;->k:Landroid/view/View$OnCreateContextMenuListener;
 
     .line 41
-    invoke-static {p0}, Lkik/android/widget/o;->a(Lkik/android/widget/BubbleFramelayout;)Landroid/view/View$OnCreateContextMenuListener;
+    invoke-static {p0}, Lkik/arcane/widget/o;->a(Lkik/arcane/widget/BubbleFramelayout;)Landroid/view/View$OnCreateContextMenuListener;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/BubbleFramelayout;->l:Landroid/view/View$OnCreateContextMenuListener;
+    iput-object v0, p0, Lkik/arcane/widget/BubbleFramelayout;->l:Landroid/view/View$OnCreateContextMenuListener;
 
     .line 114
-    sget-object v0, Lkik/android/R$styleable;->BubbleFramelayout:[I
+    sget-object v0, Lkik/arcane/R$styleable;->BubbleFramelayout:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -94,7 +94,7 @@
 
     move-result v1
 
-    iput-boolean v1, p0, Lkik/android/widget/BubbleFramelayout;->c:Z
+    iput-boolean v1, p0, Lkik/arcane/widget/BubbleFramelayout;->c:Z
 
     .line 117
     const/4 v1, 0x5
@@ -103,7 +103,7 @@
 
     move-result v1
 
-    iput-boolean v1, p0, Lkik/android/widget/BubbleFramelayout;->d:Z
+    iput-boolean v1, p0, Lkik/arcane/widget/BubbleFramelayout;->d:Z
 
     .line 118
     const/4 v1, 0x4
@@ -112,7 +112,7 @@
 
     move-result v1
 
-    iput-boolean v1, p0, Lkik/android/widget/BubbleFramelayout;->e:Z
+    iput-boolean v1, p0, Lkik/arcane/widget/BubbleFramelayout;->e:Z
 
     .line 119
     const/4 v1, 0x2
@@ -121,7 +121,7 @@
 
     move-result v1
 
-    iput-boolean v1, p0, Lkik/android/widget/BubbleFramelayout;->a:Z
+    iput-boolean v1, p0, Lkik/arcane/widget/BubbleFramelayout;->a:Z
 
     .line 120
     const/4 v1, 0x3
@@ -130,16 +130,16 @@
 
     move-result v1
 
-    iput-boolean v1, p0, Lkik/android/widget/BubbleFramelayout;->b:Z
+    iput-boolean v1, p0, Lkik/arcane/widget/BubbleFramelayout;->b:Z
 
     .line 122
-    invoke-direct {p0}, Lkik/android/widget/BubbleFramelayout;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/BubbleFramelayout;->a()V
 
     .line 124
     invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 126
-    invoke-virtual {p0, v2}, Lkik/android/widget/BubbleFramelayout;->setWillNotDraw(Z)V
+    invoke-virtual {p0, v2}, Lkik/arcane/widget/BubbleFramelayout;->setWillNotDraw(Z)V
 
     .line 127
     return-void
@@ -152,26 +152,26 @@
     .line 195
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/widget/BubbleFramelayout;->h:Landroid/graphics/drawable/Drawable;
+    iput-object v0, p0, Lkik/arcane/widget/BubbleFramelayout;->h:Landroid/graphics/drawable/Drawable;
 
     .line 196
-    invoke-virtual {p0}, Lkik/android/widget/BubbleFramelayout;->postInvalidate()V
+    invoke-virtual {p0}, Lkik/arcane/widget/BubbleFramelayout;->postInvalidate()V
 
     .line 197
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/BubbleFramelayout;Landroid/view/ContextMenu;Landroid/view/View;Landroid/view/ContextMenu$ContextMenuInfo;)V
+.method static synthetic a(Lkik/arcane/widget/BubbleFramelayout;Landroid/view/ContextMenu;Landroid/view/View;Landroid/view/ContextMenu$ContextMenuInfo;)V
     .locals 1
 
     .prologue
     .line 42
-    iget-object v0, p0, Lkik/android/widget/BubbleFramelayout;->k:Landroid/view/View$OnCreateContextMenuListener;
+    iget-object v0, p0, Lkik/arcane/widget/BubbleFramelayout;->k:Landroid/view/View$OnCreateContextMenuListener;
 
     if-eqz v0, :cond_0
 
     .line 43
-    iget-object v0, p0, Lkik/android/widget/BubbleFramelayout;->k:Landroid/view/View$OnCreateContextMenuListener;
+    iget-object v0, p0, Lkik/arcane/widget/BubbleFramelayout;->k:Landroid/view/View$OnCreateContextMenuListener;
 
     invoke-interface {v0, p1, p2, p3}, Landroid/view/View$OnCreateContextMenuListener;->onCreateContextMenu(Landroid/view/ContextMenu;Landroid/view/View;Landroid/view/ContextMenu$ContextMenuInfo;)V
 
@@ -179,13 +179,13 @@
     :cond_0
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->i:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->i:Z
 
     .line 46
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/BubbleFramelayout;Lrx/d;)V
+.method public static a(Lkik/arcane/widget/BubbleFramelayout;Lrx/d;)V
     .locals 3
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -196,7 +196,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/BubbleFramelayout;",
+            "Lkik/arcane/widget/BubbleFramelayout;",
             "Lrx/d",
             "<",
             "Ljava/lang/Boolean;",
@@ -210,7 +210,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/widget/j;->a(Lkik/android/widget/BubbleFramelayout;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/j;->a(Lkik/arcane/widget/BubbleFramelayout;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -233,22 +233,22 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/BubbleFramelayout;Z)V
+.method static synthetic a(Lkik/arcane/widget/BubbleFramelayout;Z)V
     .locals 0
 
     .prologue
     .line 0
     .line 2085
-    iput-boolean p1, p0, Lkik/android/widget/BubbleFramelayout;->j:Z
+    iput-boolean p1, p0, Lkik/arcane/widget/BubbleFramelayout;->j:Z
 
     .line 2086
-    invoke-virtual {p0, p1}, Lkik/android/widget/BubbleFramelayout;->setPressed(Z)V
+    invoke-virtual {p0, p1}, Lkik/arcane/widget/BubbleFramelayout;->setPressed(Z)V
 
     .line 0
     return-void
 .end method
 
-.method public static b(Lkik/android/widget/BubbleFramelayout;Lrx/d;)V
+.method public static b(Lkik/arcane/widget/BubbleFramelayout;Lrx/d;)V
     .locals 3
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -259,7 +259,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/BubbleFramelayout;",
+            "Lkik/arcane/widget/BubbleFramelayout;",
             "Lrx/d",
             "<",
             "Ljava/lang/Boolean;",
@@ -273,7 +273,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/widget/k;->a(Lkik/android/widget/BubbleFramelayout;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/k;->a(Lkik/arcane/widget/BubbleFramelayout;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -296,7 +296,7 @@
     return-void
 .end method
 
-.method public static c(Lkik/android/widget/BubbleFramelayout;Lrx/d;)V
+.method public static c(Lkik/arcane/widget/BubbleFramelayout;Lrx/d;)V
     .locals 3
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -307,7 +307,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/BubbleFramelayout;",
+            "Lkik/arcane/widget/BubbleFramelayout;",
             "Lrx/d",
             "<",
             "Ljava/lang/Boolean;",
@@ -321,7 +321,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/widget/l;->a(Lkik/android/widget/BubbleFramelayout;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/l;->a(Lkik/arcane/widget/BubbleFramelayout;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -344,7 +344,7 @@
     return-void
 .end method
 
-.method public static d(Lkik/android/widget/BubbleFramelayout;Lrx/d;)V
+.method public static d(Lkik/arcane/widget/BubbleFramelayout;Lrx/d;)V
     .locals 3
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -355,7 +355,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/BubbleFramelayout;",
+            "Lkik/arcane/widget/BubbleFramelayout;",
             "Lrx/d",
             "<",
             "Ljava/lang/Boolean;",
@@ -369,7 +369,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/widget/m;->a(Lkik/android/widget/BubbleFramelayout;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/m;->a(Lkik/arcane/widget/BubbleFramelayout;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -392,7 +392,7 @@
     return-void
 .end method
 
-.method public static e(Lkik/android/widget/BubbleFramelayout;Lrx/d;)V
+.method public static e(Lkik/arcane/widget/BubbleFramelayout;Lrx/d;)V
     .locals 3
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -403,7 +403,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/BubbleFramelayout;",
+            "Lkik/arcane/widget/BubbleFramelayout;",
             "Lrx/d",
             "<",
             "Ljava/lang/Boolean;",
@@ -417,7 +417,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/widget/n;->a(Lkik/android/widget/BubbleFramelayout;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/n;->a(Lkik/arcane/widget/BubbleFramelayout;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -447,15 +447,15 @@
 
     .prologue
     .line 201
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->c:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->c:Z
 
     if-eq p1, v0, :cond_0
 
     .line 202
-    iput-boolean p1, p0, Lkik/android/widget/BubbleFramelayout;->c:Z
+    iput-boolean p1, p0, Lkik/arcane/widget/BubbleFramelayout;->c:Z
 
     .line 204
-    invoke-direct {p0}, Lkik/android/widget/BubbleFramelayout;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/BubbleFramelayout;->a()V
 
     .line 206
     :cond_0
@@ -467,15 +467,15 @@
 
     .prologue
     .line 210
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->d:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->d:Z
 
     if-eq p1, v0, :cond_0
 
     .line 211
-    iput-boolean p1, p0, Lkik/android/widget/BubbleFramelayout;->d:Z
+    iput-boolean p1, p0, Lkik/arcane/widget/BubbleFramelayout;->d:Z
 
     .line 213
-    invoke-direct {p0}, Lkik/android/widget/BubbleFramelayout;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/BubbleFramelayout;->a()V
 
     .line 215
     :cond_0
@@ -487,15 +487,15 @@
 
     .prologue
     .line 219
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->e:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->e:Z
 
     if-eq v0, p1, :cond_0
 
     .line 220
-    iput-boolean p1, p0, Lkik/android/widget/BubbleFramelayout;->e:Z
+    iput-boolean p1, p0, Lkik/arcane/widget/BubbleFramelayout;->e:Z
 
     .line 222
-    invoke-direct {p0}, Lkik/android/widget/BubbleFramelayout;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/BubbleFramelayout;->a()V
 
     .line 224
     :cond_0
@@ -507,15 +507,15 @@
 
     .prologue
     .line 228
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->b:Z
 
     if-eq p1, v0, :cond_0
 
     .line 229
-    iput-boolean p1, p0, Lkik/android/widget/BubbleFramelayout;->b:Z
+    iput-boolean p1, p0, Lkik/arcane/widget/BubbleFramelayout;->b:Z
 
     .line 231
-    invoke-direct {p0}, Lkik/android/widget/BubbleFramelayout;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/BubbleFramelayout;->a()V
 
     .line 233
     :cond_0
@@ -532,12 +532,12 @@
     invoke-super {p0, p1}, Landroid/widget/FrameLayout;->dispatchDraw(Landroid/graphics/Canvas;)V
 
     .line 314
-    iget-object v0, p0, Lkik/android/widget/BubbleFramelayout;->h:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/widget/BubbleFramelayout;->h:Landroid/graphics/drawable/Drawable;
 
     if-nez v0, :cond_0
 
     .line 1239
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->f:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->f:Z
 
     if-eqz v0, :cond_3
 
@@ -548,7 +548,7 @@
     if-eqz v0, :cond_0
 
     .line 318
-    invoke-virtual {p0}, Lkik/android/widget/BubbleFramelayout;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/BubbleFramelayout;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
@@ -560,11 +560,11 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/BubbleFramelayout;->h:Landroid/graphics/drawable/Drawable;
+    iput-object v0, p0, Lkik/arcane/widget/BubbleFramelayout;->h:Landroid/graphics/drawable/Drawable;
 
     .line 322
     :cond_0
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->g:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->g:Z
 
     if-eqz v0, :cond_1
 
@@ -575,25 +575,25 @@
 
     .line 326
     :cond_1
-    iget-object v0, p0, Lkik/android/widget/BubbleFramelayout;->h:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/widget/BubbleFramelayout;->h:Landroid/graphics/drawable/Drawable;
 
     if-eqz v0, :cond_2
 
     .line 327
-    iget-object v0, p0, Lkik/android/widget/BubbleFramelayout;->h:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/widget/BubbleFramelayout;->h:Landroid/graphics/drawable/Drawable;
 
-    invoke-virtual {p0}, Lkik/android/widget/BubbleFramelayout;->getMeasuredWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/BubbleFramelayout;->getMeasuredWidth()I
 
     move-result v2
 
-    invoke-virtual {p0}, Lkik/android/widget/BubbleFramelayout;->getMeasuredHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/BubbleFramelayout;->getMeasuredHeight()I
 
     move-result v3
 
     invoke-virtual {v0, v1, v1, v2, v3}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
     .line 328
-    iget-object v0, p0, Lkik/android/widget/BubbleFramelayout;->h:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/widget/BubbleFramelayout;->h:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
@@ -603,22 +603,22 @@
 
     .line 1243
     :cond_3
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->c:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->c:Z
 
     if-eqz v0, :cond_d
 
     .line 1244
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->a:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->a:Z
 
     if-eqz v0, :cond_9
 
     .line 1245
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->d:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->d:Z
 
     if-eqz v0, :cond_6
 
     .line 1246
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->b:Z
 
     if-eqz v0, :cond_4
 
@@ -640,7 +640,7 @@
 
     .line 1249
     :cond_4
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->e:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->e:Z
 
     if-eqz v0, :cond_5
 
@@ -679,7 +679,7 @@
 
     .line 1255
     :cond_6
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->b:Z
 
     if-eqz v0, :cond_7
 
@@ -701,7 +701,7 @@
 
     .line 1258
     :cond_7
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->e:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->e:Z
 
     if-eqz v0, :cond_8
 
@@ -740,12 +740,12 @@
 
     .line 1265
     :cond_9
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->d:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->d:Z
 
     if-eqz v0, :cond_b
 
     .line 1266
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->e:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->e:Z
 
     if-eqz v0, :cond_a
 
@@ -784,7 +784,7 @@
 
     .line 1272
     :cond_b
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->e:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->e:Z
 
     if-eqz v0, :cond_c
 
@@ -823,7 +823,7 @@
 
     .line 1279
     :cond_d
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->a:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->a:Z
 
     if-eqz v0, :cond_e
 
@@ -834,12 +834,12 @@
 
     .line 1283
     :cond_e
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->d:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->d:Z
 
     if-eqz v0, :cond_10
 
     .line 1284
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->e:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->e:Z
 
     if-eqz v0, :cond_f
 
@@ -878,7 +878,7 @@
 
     .line 1290
     :cond_10
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->e:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->e:Z
 
     if-eqz v0, :cond_11
 
@@ -921,7 +921,7 @@
 
     .prologue
     .line 174
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->i:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->i:Z
 
     if-eqz v0, :cond_0
 
@@ -933,7 +933,7 @@
     .line 176
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->i:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->i:Z
 
     .line 178
     :cond_0
@@ -949,10 +949,10 @@
 
     .prologue
     .line 299
-    iput-boolean p1, p0, Lkik/android/widget/BubbleFramelayout;->f:Z
+    iput-boolean p1, p0, Lkik/arcane/widget/BubbleFramelayout;->f:Z
 
     .line 300
-    invoke-direct {p0}, Lkik/android/widget/BubbleFramelayout;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/BubbleFramelayout;->a()V
 
     .line 301
     return-void
@@ -963,10 +963,10 @@
 
     .prologue
     .line 305
-    iput-boolean p1, p0, Lkik/android/widget/BubbleFramelayout;->g:Z
+    iput-boolean p1, p0, Lkik/arcane/widget/BubbleFramelayout;->g:Z
 
     .line 306
-    invoke-direct {p0}, Lkik/android/widget/BubbleFramelayout;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/BubbleFramelayout;->a()V
 
     .line 307
     return-void
@@ -982,7 +982,7 @@
     .line 133
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->i:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->i:Z
 
     .line 134
     return-void
@@ -993,7 +993,7 @@
 
     .prologue
     .line 186
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->i:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->i:Z
 
     if-eqz v0, :cond_0
 
@@ -1005,7 +1005,7 @@
     .line 188
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->i:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->i:Z
 
     .line 190
     :cond_0
@@ -1027,7 +1027,7 @@
     .line 146
     if-eqz p1, :cond_0
 
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->g:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->g:Z
 
     if-eqz v0, :cond_1
 
@@ -1043,7 +1043,7 @@
     :cond_1
     new-instance v1, Landroid/graphics/drawable/ColorDrawable;
 
-    invoke-virtual {p0}, Lkik/android/widget/BubbleFramelayout;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/BubbleFramelayout;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -1056,7 +1056,7 @@
     invoke-direct {v1, v0}, Landroid/graphics/drawable/ColorDrawable;-><init>(I)V
 
     .line 152
-    invoke-virtual {p0}, Lkik/android/widget/BubbleFramelayout;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/BubbleFramelayout;->getResources()Landroid/content/res/Resources;
 
     move-result-object v4
 
@@ -1102,7 +1102,7 @@
     .line 153
     new-instance v0, Landroid/graphics/drawable/ColorDrawable;
 
-    invoke-virtual {p0}, Lkik/android/widget/BubbleFramelayout;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/BubbleFramelayout;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -1135,7 +1135,7 @@
     invoke-direct {v1}, Landroid/graphics/drawable/StateListDrawable;-><init>()V
 
     .line 163
-    iget-boolean v4, p0, Lkik/android/widget/BubbleFramelayout;->f:Z
+    iget-boolean v4, p0, Lkik/arcane/widget/BubbleFramelayout;->f:Z
 
     if-nez v4, :cond_3
 
@@ -1180,10 +1180,10 @@
 
     .prologue
     .line 139
-    iput-object p1, p0, Lkik/android/widget/BubbleFramelayout;->k:Landroid/view/View$OnCreateContextMenuListener;
+    iput-object p1, p0, Lkik/arcane/widget/BubbleFramelayout;->k:Landroid/view/View$OnCreateContextMenuListener;
 
     .line 140
-    iget-object v0, p0, Lkik/android/widget/BubbleFramelayout;->l:Landroid/view/View$OnCreateContextMenuListener;
+    iget-object v0, p0, Lkik/arcane/widget/BubbleFramelayout;->l:Landroid/view/View$OnCreateContextMenuListener;
 
     invoke-super {p0, v0}, Landroid/widget/FrameLayout;->setOnCreateContextMenuListener(Landroid/view/View$OnCreateContextMenuListener;)V
 
@@ -1196,7 +1196,7 @@
 
     .prologue
     .line 92
-    iget-boolean v0, p0, Lkik/android/widget/BubbleFramelayout;->j:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/BubbleFramelayout;->j:Z
 
     if-eqz v0, :cond_0
 

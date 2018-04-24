@@ -1,11 +1,11 @@
-.class final Lkik/android/util/as$2;
+.class final Lkik/arcane/util/as$2;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/util/as;->handleMessage(Landroid/os/Message;)V
+    value = Lkik/arcane/util/as;->handleMessage(Landroid/os/Message;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,18 +17,18 @@
 # instance fields
 .field final synthetic a:Lkik/core/datatypes/Message;
 
-.field final synthetic b:Lkik/android/util/as;
+.field final synthetic b:Lkik/arcane/util/as;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/util/as;Lkik/core/datatypes/Message;)V
+.method constructor <init>(Lkik/arcane/util/as;Lkik/core/datatypes/Message;)V
     .locals 0
 
     .prologue
     .line 93
-    iput-object p1, p0, Lkik/android/util/as$2;->b:Lkik/android/util/as;
+    iput-object p1, p0, Lkik/arcane/util/as$2;->b:Lkik/arcane/util/as;
 
-    iput-object p2, p0, Lkik/android/util/as$2;->a:Lkik/core/datatypes/Message;
+    iput-object p2, p0, Lkik/arcane/util/as$2;->a:Lkik/core/datatypes/Message;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -42,13 +42,13 @@
 
     .prologue
     .line 98
-    iget-object v0, p0, Lkik/android/util/as$2;->b:Lkik/android/util/as;
+    iget-object v0, p0, Lkik/arcane/util/as$2;->b:Lkik/arcane/util/as;
 
-    invoke-static {v0}, Lkik/android/util/as;->e(Lkik/android/util/as;)Lkik/core/interfaces/IConversation;
+    invoke-static {v0}, Lkik/arcane/util/as;->e(Lkik/arcane/util/as;)Lkik/core/interfaces/IConversation;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/util/as$2;->a:Lkik/core/datatypes/Message;
+    iget-object v1, p0, Lkik/arcane/util/as$2;->a:Lkik/core/datatypes/Message;
 
     invoke-interface {v0, v1}, Lkik/core/interfaces/IConversation;->c(Lkik/core/datatypes/Message;)Lcom/kik/events/Promise;
 

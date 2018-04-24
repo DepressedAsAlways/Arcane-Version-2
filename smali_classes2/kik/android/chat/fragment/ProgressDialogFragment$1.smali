@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/ProgressDialogFragment$1;
+.class final Lkik/arcane/chat/fragment/ProgressDialogFragment$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/ProgressDialogFragment;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
+    value = Lkik/arcane/chat/fragment/ProgressDialogFragment;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/ProgressDialogFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/ProgressDialogFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/ProgressDialogFragment;)V
     .locals 0
 
     .prologue
     .line 148
-    iput-object p1, p0, Lkik/android/chat/fragment/ProgressDialogFragment$1;->a:Lkik/android/chat/fragment/ProgressDialogFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ProgressDialogFragment$1;->a:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,20 +41,20 @@
 
     .prologue
     .line 152
-    iget-object v0, p0, Lkik/android/chat/fragment/ProgressDialogFragment$1;->a:Lkik/android/chat/fragment/ProgressDialogFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ProgressDialogFragment$1;->a:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
-    invoke-static {v0, p1}, Lkik/android/chat/fragment/ProgressDialogFragment;->a(Lkik/android/chat/fragment/ProgressDialogFragment;I)I
+    invoke-static {v0, p1}, Lkik/arcane/chat/fragment/ProgressDialogFragment;->a(Lkik/arcane/chat/fragment/ProgressDialogFragment;I)I
 
     .line 153
-    iget-object v0, p0, Lkik/android/chat/fragment/ProgressDialogFragment$1;->a:Lkik/android/chat/fragment/ProgressDialogFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ProgressDialogFragment$1;->a:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/ProgressDialogFragment;->b(Lkik/android/chat/fragment/ProgressDialogFragment;)Landroid/app/ProgressDialog;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/ProgressDialogFragment;->b(Lkik/arcane/chat/fragment/ProgressDialogFragment;)Landroid/app/ProgressDialog;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/chat/fragment/ProgressDialogFragment$1;->a:Lkik/android/chat/fragment/ProgressDialogFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/ProgressDialogFragment$1;->a:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
-    invoke-static {v1}, Lkik/android/chat/fragment/ProgressDialogFragment;->a(Lkik/android/chat/fragment/ProgressDialogFragment;)I
+    invoke-static {v1}, Lkik/arcane/chat/fragment/ProgressDialogFragment;->a(Lkik/arcane/chat/fragment/ProgressDialogFragment;)I
 
     move-result v1
 

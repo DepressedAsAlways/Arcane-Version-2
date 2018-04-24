@@ -1,12 +1,12 @@
-.class public final Lkik/android/b;
-.super Lkik/android/a;
+.class public final Lkik/arcane/b;
+.super Lkik/arcane/a;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/b$a;
+        Lkik/arcane/b$a;
     }
 .end annotation
 
@@ -21,10 +21,10 @@
 
     .prologue
     .line 18
-    invoke-direct {p0}, Lkik/android/a;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/a;-><init>()V
 
     .line 19
-    iput-object p1, p0, Lkik/android/b;->a:Landroid/content/Context;
+    iput-object p1, p0, Lkik/arcane/b;->a:Landroid/content/Context;
 
     .line 20
     return-void
@@ -37,7 +37,7 @@
     const/4 v3, 0x0
 
     .line 34
-    iget-object v0, p0, Lkik/android/b;->a:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/b;->a:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -75,7 +75,7 @@
     const/4 v3, 0x0
 
     .line 39
-    iget-object v0, p0, Lkik/android/b;->a:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/b;->a:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
@@ -122,19 +122,19 @@
 
     .prologue
     .line 45
-    new-instance v0, Lkik/android/b$a;
+    new-instance v0, Lkik/arcane/b$a;
 
-    invoke-direct {p0}, Lkik/android/b;->b()Landroid/database/Cursor;
+    invoke-direct {p0}, Lkik/arcane/b;->b()Landroid/database/Cursor;
 
     move-result-object v1
 
-    invoke-direct {p0}, Lkik/android/b;->c()Landroid/database/Cursor;
+    invoke-direct {p0}, Lkik/arcane/b;->c()Landroid/database/Cursor;
 
     move-result-object v2
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, p0, v1, v2, v3}, Lkik/android/b$a;-><init>(Lkik/android/b;Landroid/database/Cursor;Landroid/database/Cursor;Lcom/google/common/hash/BloomFilter;)V
+    invoke-direct {v0, p0, v1, v2, v3}, Lkik/arcane/b$a;-><init>(Lkik/arcane/b;Landroid/database/Cursor;Landroid/database/Cursor;Lcom/google/common/hash/BloomFilter;)V
 
     return-object v0
 .end method
@@ -157,17 +157,17 @@
 
     .prologue
     .line 51
-    new-instance v0, Lkik/android/b$a;
+    new-instance v0, Lkik/arcane/b$a;
 
-    invoke-direct {p0}, Lkik/android/b;->b()Landroid/database/Cursor;
+    invoke-direct {p0}, Lkik/arcane/b;->b()Landroid/database/Cursor;
 
     move-result-object v1
 
-    invoke-direct {p0}, Lkik/android/b;->c()Landroid/database/Cursor;
+    invoke-direct {p0}, Lkik/arcane/b;->c()Landroid/database/Cursor;
 
     move-result-object v2
 
-    invoke-direct {v0, p0, v1, v2, p1}, Lkik/android/b$a;-><init>(Lkik/android/b;Landroid/database/Cursor;Landroid/database/Cursor;Lcom/google/common/hash/BloomFilter;)V
+    invoke-direct {v0, p0, v1, v2, p1}, Lkik/arcane/b$a;-><init>(Lkik/arcane/b;Landroid/database/Cursor;Landroid/database/Cursor;Lcom/google/common/hash/BloomFilter;)V
 
     return-object v0
 .end method

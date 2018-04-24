@@ -1,4 +1,4 @@
-.class public abstract Lkik/android/scan/a/c;
+.class public abstract Lkik/arcane/scan/a/c;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,9 +6,9 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/scan/a/c$b;,
-        Lkik/android/scan/a/c$c;,
-        Lkik/android/scan/a/c$a;
+        Lkik/arcane/scan/a/c$b;,
+        Lkik/arcane/scan/a/c$c;,
+        Lkik/arcane/scan/a/c$a;
     }
 .end annotation
 
@@ -24,38 +24,38 @@
     return-void
 .end method
 
-.method public static a(Lcom/kik/scan/GroupKikCode;)Lkik/android/scan/a/c;
+.method public static a(Lcom/kik/scan/GroupKikCode;)Lkik/arcane/scan/a/c;
     .locals 1
 
     .prologue
     .line 41
-    new-instance v0, Lkik/android/scan/a/c$b;
+    new-instance v0, Lkik/arcane/scan/a/c$b;
 
-    invoke-direct {v0, p0}, Lkik/android/scan/a/c$b;-><init>(Lcom/kik/scan/GroupKikCode;)V
+    invoke-direct {v0, p0}, Lkik/arcane/scan/a/c$b;-><init>(Lcom/kik/scan/GroupKikCode;)V
 
     return-object v0
 .end method
 
-.method public static a(Lcom/kik/scan/UsernameKikCode;)Lkik/android/scan/a/c;
+.method public static a(Lcom/kik/scan/UsernameKikCode;)Lkik/arcane/scan/a/c;
     .locals 1
 
     .prologue
     .line 36
-    new-instance v0, Lkik/android/scan/a/c$c;
+    new-instance v0, Lkik/arcane/scan/a/c$c;
 
-    invoke-direct {v0, p0}, Lkik/android/scan/a/c$c;-><init>(Lcom/kik/scan/UsernameKikCode;)V
+    invoke-direct {v0, p0}, Lkik/arcane/scan/a/c$c;-><init>(Lcom/kik/scan/UsernameKikCode;)V
 
     return-object v0
 .end method
 
-.method public static a(Lkik/android/scan/a/a;)Lkik/android/scan/a/c;
+.method public static a(Lkik/arcane/scan/a/a;)Lkik/arcane/scan/a/c;
     .locals 1
 
     .prologue
     .line 31
-    new-instance v0, Lkik/android/scan/a/c$a;
+    new-instance v0, Lkik/arcane/scan/a/c$a;
 
-    invoke-direct {v0, p0}, Lkik/android/scan/a/c$a;-><init>(Lkik/android/scan/a/a;)V
+    invoke-direct {v0, p0}, Lkik/arcane/scan/a/c$a;-><init>(Lkik/arcane/scan/a/a;)V
 
     return-object v0
 .end method

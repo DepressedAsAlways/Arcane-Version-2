@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/KikDialogFragment$b;
+.class final Lkik/arcane/chat/fragment/KikDialogFragment$b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikDialogFragment;
+    value = Lkik/arcane/chat/fragment/KikDialogFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikDialogFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikDialogFragment;
 
 .field private b:Ljava/lang/String;
 
@@ -23,12 +23,12 @@
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikDialogFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikDialogFragment;)V
     .locals 0
 
     .prologue
     .line 608
-    iput-object p1, p0, Lkik/android/chat/fragment/KikDialogFragment$b;->a:Lkik/android/chat/fragment/KikDialogFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikDialogFragment$b;->a:Lkik/arcane/chat/fragment/KikDialogFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -42,7 +42,7 @@
 
     .prologue
     .line 615
-    iget-object v0, p0, Lkik/android/chat/fragment/KikDialogFragment$b;->b:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikDialogFragment$b;->b:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -52,7 +52,7 @@
 
     .prologue
     .line 630
-    iput-object p1, p0, Lkik/android/chat/fragment/KikDialogFragment$b;->c:Landroid/content/DialogInterface$OnClickListener;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikDialogFragment$b;->c:Landroid/content/DialogInterface$OnClickListener;
 
     .line 631
     return-void
@@ -63,7 +63,7 @@
 
     .prologue
     .line 620
-    iput-object p1, p0, Lkik/android/chat/fragment/KikDialogFragment$b;->b:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikDialogFragment$b;->b:Ljava/lang/String;
 
     .line 621
     return-void
@@ -74,7 +74,7 @@
 
     .prologue
     .line 625
-    iget-object v0, p0, Lkik/android/chat/fragment/KikDialogFragment$b;->c:Landroid/content/DialogInterface$OnClickListener;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikDialogFragment$b;->c:Landroid/content/DialogInterface$OnClickListener;
 
     return-object v0
 .end method

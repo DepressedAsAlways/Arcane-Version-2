@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/messaging/bl;
+.class final synthetic Lkik/arcane/chat/vm/messaging/bl;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -19,11 +19,11 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/vm/messaging/bl;->a:Lcom/kik/clientmetrics/f;
+    iput-object p1, p0, Lkik/arcane/chat/vm/messaging/bl;->a:Lcom/kik/clientmetrics/f;
 
-    iput-object p2, p0, Lkik/android/chat/vm/messaging/bl;->b:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/chat/vm/messaging/bl;->b:Ljava/lang/String;
 
-    iput-object p3, p0, Lkik/android/chat/vm/messaging/bl;->c:Lrx/subjects/PublishSubject;
+    iput-object p3, p0, Lkik/arcane/chat/vm/messaging/bl;->c:Lrx/subjects/PublishSubject;
 
     return-void
 .end method
@@ -31,9 +31,9 @@
 .method public static a(Lcom/kik/clientmetrics/f;Ljava/lang/String;Lrx/subjects/PublishSubject;)Ljava/lang/Runnable;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/messaging/bl;
+    new-instance v0, Lkik/arcane/chat/vm/messaging/bl;
 
-    invoke-direct {v0, p0, p1, p2}, Lkik/android/chat/vm/messaging/bl;-><init>(Lcom/kik/clientmetrics/f;Ljava/lang/String;Lrx/subjects/PublishSubject;)V
+    invoke-direct {v0, p0, p1, p2}, Lkik/arcane/chat/vm/messaging/bl;-><init>(Lcom/kik/clientmetrics/f;Ljava/lang/String;Lrx/subjects/PublishSubject;)V
 
     return-object v0
 .end method
@@ -51,11 +51,11 @@
     const/4 v8, 0x1
 
     .line 0
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/bl;->a:Lcom/kik/clientmetrics/f;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/bl;->a:Lcom/kik/clientmetrics/f;
 
-    iget-object v1, p0, Lkik/android/chat/vm/messaging/bl;->b:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/chat/vm/messaging/bl;->b:Ljava/lang/String;
 
-    iget-object v2, p0, Lkik/android/chat/vm/messaging/bl;->c:Lrx/subjects/PublishSubject;
+    iget-object v2, p0, Lkik/arcane/chat/vm/messaging/bl;->c:Lrx/subjects/PublishSubject;
 
     .line 1452
     sget-object v3, Lcom/kik/clientmetrics/model/Clientmetrics$ClientUserEventType;->LINK_WARNING_SHOWN_ACCEPTED:Lcom/kik/clientmetrics/model/Clientmetrics$ClientUserEventType;

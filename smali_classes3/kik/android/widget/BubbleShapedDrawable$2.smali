@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/widget/BubbleShapedDrawable$2;
+.class final synthetic Lkik/arcane/widget/BubbleShapedDrawable$2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/BubbleShapedDrawable;
+    value = Lkik/arcane/widget/BubbleShapedDrawable;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     .prologue
     .line 160
-    invoke-static {}, Lkik/android/widget/BubbleShapedDrawable$ArrowLocation;->values()[Lkik/android/widget/BubbleShapedDrawable$ArrowLocation;
+    invoke-static {}, Lkik/arcane/widget/BubbleShapedDrawable$ArrowLocation;->values()[Lkik/arcane/widget/BubbleShapedDrawable$ArrowLocation;
 
     move-result-object v0
 
@@ -32,14 +32,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/widget/BubbleShapedDrawable$2;->a:[I
+    sput-object v0, Lkik/arcane/widget/BubbleShapedDrawable$2;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/widget/BubbleShapedDrawable$2;->a:[I
+    sget-object v0, Lkik/arcane/widget/BubbleShapedDrawable$2;->a:[I
 
-    sget-object v1, Lkik/android/widget/BubbleShapedDrawable$ArrowLocation;->ARROW_UPPER_LEFT:Lkik/android/widget/BubbleShapedDrawable$ArrowLocation;
+    sget-object v1, Lkik/arcane/widget/BubbleShapedDrawable$ArrowLocation;->ARROW_UPPER_LEFT:Lkik/arcane/widget/BubbleShapedDrawable$ArrowLocation;
 
-    invoke-virtual {v1}, Lkik/android/widget/BubbleShapedDrawable$ArrowLocation;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/widget/BubbleShapedDrawable$ArrowLocation;->ordinal()I
 
     move-result v1
 
@@ -51,11 +51,11 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/widget/BubbleShapedDrawable$2;->a:[I
+    sget-object v0, Lkik/arcane/widget/BubbleShapedDrawable$2;->a:[I
 
-    sget-object v1, Lkik/android/widget/BubbleShapedDrawable$ArrowLocation;->ARROW_LOWER_RIGHT:Lkik/android/widget/BubbleShapedDrawable$ArrowLocation;
+    sget-object v1, Lkik/arcane/widget/BubbleShapedDrawable$ArrowLocation;->ARROW_LOWER_RIGHT:Lkik/arcane/widget/BubbleShapedDrawable$ArrowLocation;
 
-    invoke-virtual {v1}, Lkik/android/widget/BubbleShapedDrawable$ArrowLocation;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/widget/BubbleShapedDrawable$ArrowLocation;->ordinal()I
 
     move-result v1
 

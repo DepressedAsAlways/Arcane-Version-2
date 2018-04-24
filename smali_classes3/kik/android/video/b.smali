@@ -1,4 +1,4 @@
-.class final Lkik/android/video/b;
+.class final Lkik/arcane/video/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -35,7 +35,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/video/b;->a:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/video/b;->a:Lorg/slf4j/b;
 
     return-void
 .end method
@@ -63,17 +63,17 @@
 
     .line 58
     :cond_0
-    iput-object p1, p0, Lkik/android/video/b;->e:Landroid/view/Surface;
+    iput-object p1, p0, Lkik/arcane/video/b;->e:Landroid/view/Surface;
 
     .line 1067
     invoke-static {v2}, Landroid/opengl/EGL14;->eglGetDisplay(I)Landroid/opengl/EGLDisplay;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/video/b;->b:Landroid/opengl/EGLDisplay;
+    iput-object v0, p0, Lkik/arcane/video/b;->b:Landroid/opengl/EGLDisplay;
 
     .line 1068
-    iget-object v0, p0, Lkik/android/video/b;->b:Landroid/opengl/EGLDisplay;
+    iget-object v0, p0, Lkik/arcane/video/b;->b:Landroid/opengl/EGLDisplay;
 
     sget-object v1, Landroid/opengl/EGL14;->EGL_NO_DISPLAY:Landroid/opengl/EGLDisplay;
 
@@ -95,7 +95,7 @@
     new-array v0, v0, [I
 
     .line 1072
-    iget-object v1, p0, Lkik/android/video/b;->b:Landroid/opengl/EGLDisplay;
+    iget-object v1, p0, Lkik/arcane/video/b;->b:Landroid/opengl/EGLDisplay;
 
     invoke-static {v1, v0, v2, v0, v5}, Landroid/opengl/EGL14;->eglInitialize(Landroid/opengl/EGLDisplay;[II[II)Z
 
@@ -106,7 +106,7 @@
     .line 1073
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/video/b;->b:Landroid/opengl/EGLDisplay;
+    iput-object v0, p0, Lkik/arcane/video/b;->b:Landroid/opengl/EGLDisplay;
 
     .line 1074
     new-instance v0, Ljava/lang/RuntimeException;
@@ -132,7 +132,7 @@
     new-array v6, v5, [I
 
     .line 1088
-    iget-object v0, p0, Lkik/android/video/b;->b:Landroid/opengl/EGLDisplay;
+    iget-object v0, p0, Lkik/arcane/video/b;->b:Landroid/opengl/EGLDisplay;
 
     move v4, v2
 
@@ -162,7 +162,7 @@
     fill-array-data v0, :array_1
 
     .line 1097
-    iget-object v1, p0, Lkik/android/video/b;->b:Landroid/opengl/EGLDisplay;
+    iget-object v1, p0, Lkik/arcane/video/b;->b:Landroid/opengl/EGLDisplay;
 
     aget-object v4, v3, v2
 
@@ -172,15 +172,15 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/video/b;->c:Landroid/opengl/EGLContext;
+    iput-object v0, p0, Lkik/arcane/video/b;->c:Landroid/opengl/EGLContext;
 
     .line 1099
     const-string v0, "eglCreateContext"
 
-    invoke-static {v0}, Lkik/android/video/b;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/video/b;->a(Ljava/lang/String;)V
 
     .line 1100
-    iget-object v0, p0, Lkik/android/video/b;->c:Landroid/opengl/EGLContext;
+    iget-object v0, p0, Lkik/arcane/video/b;->c:Landroid/opengl/EGLContext;
 
     if-nez v0, :cond_4
 
@@ -202,25 +202,25 @@
     aput v1, v0, v2
 
     .line 1107
-    iget-object v1, p0, Lkik/android/video/b;->b:Landroid/opengl/EGLDisplay;
+    iget-object v1, p0, Lkik/arcane/video/b;->b:Landroid/opengl/EGLDisplay;
 
     aget-object v3, v3, v2
 
-    iget-object v4, p0, Lkik/android/video/b;->e:Landroid/view/Surface;
+    iget-object v4, p0, Lkik/arcane/video/b;->e:Landroid/view/Surface;
 
     invoke-static {v1, v3, v4, v0, v2}, Landroid/opengl/EGL14;->eglCreateWindowSurface(Landroid/opengl/EGLDisplay;Landroid/opengl/EGLConfig;Ljava/lang/Object;[II)Landroid/opengl/EGLSurface;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/video/b;->d:Landroid/opengl/EGLSurface;
+    iput-object v0, p0, Lkik/arcane/video/b;->d:Landroid/opengl/EGLSurface;
 
     .line 1109
     const-string v0, "eglCreateWindowSurface"
 
-    invoke-static {v0}, Lkik/android/video/b;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/video/b;->a(Ljava/lang/String;)V
 
     .line 1110
-    iget-object v0, p0, Lkik/android/video/b;->d:Landroid/opengl/EGLSurface;
+    iget-object v0, p0, Lkik/arcane/video/b;->d:Landroid/opengl/EGLSurface;
 
     if-nez v0, :cond_5
 
@@ -282,7 +282,7 @@
     if-eq v1, v2, :cond_0
 
     .line 179
-    sget-object v0, Lkik/android/video/b;->a:Lorg/slf4j/b;
+    sget-object v0, Lkik/arcane/video/b;->a:Lorg/slf4j/b;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -348,7 +348,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/video/b;->c:Landroid/opengl/EGLContext;
+    iget-object v1, p0, Lkik/arcane/video/b;->c:Landroid/opengl/EGLContext;
 
     invoke-virtual {v0, v1}, Landroid/opengl/EGLContext;->equals(Ljava/lang/Object;)Z
 
@@ -357,7 +357,7 @@
     if-eqz v0, :cond_0
 
     .line 123
-    iget-object v0, p0, Lkik/android/video/b;->b:Landroid/opengl/EGLDisplay;
+    iget-object v0, p0, Lkik/arcane/video/b;->b:Landroid/opengl/EGLDisplay;
 
     sget-object v1, Landroid/opengl/EGL14;->EGL_NO_SURFACE:Landroid/opengl/EGLSurface;
 
@@ -369,35 +369,35 @@
 
     .line 126
     :cond_0
-    iget-object v0, p0, Lkik/android/video/b;->b:Landroid/opengl/EGLDisplay;
+    iget-object v0, p0, Lkik/arcane/video/b;->b:Landroid/opengl/EGLDisplay;
 
-    iget-object v1, p0, Lkik/android/video/b;->d:Landroid/opengl/EGLSurface;
+    iget-object v1, p0, Lkik/arcane/video/b;->d:Landroid/opengl/EGLSurface;
 
     invoke-static {v0, v1}, Landroid/opengl/EGL14;->eglDestroySurface(Landroid/opengl/EGLDisplay;Landroid/opengl/EGLSurface;)Z
 
     .line 127
-    iget-object v0, p0, Lkik/android/video/b;->b:Landroid/opengl/EGLDisplay;
+    iget-object v0, p0, Lkik/arcane/video/b;->b:Landroid/opengl/EGLDisplay;
 
-    iget-object v1, p0, Lkik/android/video/b;->c:Landroid/opengl/EGLContext;
+    iget-object v1, p0, Lkik/arcane/video/b;->c:Landroid/opengl/EGLContext;
 
     invoke-static {v0, v1}, Landroid/opengl/EGL14;->eglDestroyContext(Landroid/opengl/EGLDisplay;Landroid/opengl/EGLContext;)Z
 
     .line 129
-    iget-object v0, p0, Lkik/android/video/b;->e:Landroid/view/Surface;
+    iget-object v0, p0, Lkik/arcane/video/b;->e:Landroid/view/Surface;
 
     invoke-virtual {v0}, Landroid/view/Surface;->release()V
 
     .line 131
-    iput-object v4, p0, Lkik/android/video/b;->b:Landroid/opengl/EGLDisplay;
+    iput-object v4, p0, Lkik/arcane/video/b;->b:Landroid/opengl/EGLDisplay;
 
     .line 132
-    iput-object v4, p0, Lkik/android/video/b;->c:Landroid/opengl/EGLContext;
+    iput-object v4, p0, Lkik/arcane/video/b;->c:Landroid/opengl/EGLContext;
 
     .line 133
-    iput-object v4, p0, Lkik/android/video/b;->d:Landroid/opengl/EGLSurface;
+    iput-object v4, p0, Lkik/arcane/video/b;->d:Landroid/opengl/EGLSurface;
 
     .line 134
-    iput-object v4, p0, Lkik/android/video/b;->e:Landroid/view/Surface;
+    iput-object v4, p0, Lkik/arcane/video/b;->e:Landroid/view/Surface;
 
     .line 135
     return-void
@@ -408,9 +408,9 @@
 
     .prologue
     .line 168
-    iget-object v0, p0, Lkik/android/video/b;->b:Landroid/opengl/EGLDisplay;
+    iget-object v0, p0, Lkik/arcane/video/b;->b:Landroid/opengl/EGLDisplay;
 
-    iget-object v1, p0, Lkik/android/video/b;->d:Landroid/opengl/EGLSurface;
+    iget-object v1, p0, Lkik/arcane/video/b;->d:Landroid/opengl/EGLSurface;
 
     invoke-static {v0, v1, p1, p2}, Landroid/opengl/EGLExt;->eglPresentationTimeANDROID(Landroid/opengl/EGLDisplay;Landroid/opengl/EGLSurface;J)Z
 
@@ -423,13 +423,13 @@
 
     .prologue
     .line 142
-    iget-object v0, p0, Lkik/android/video/b;->b:Landroid/opengl/EGLDisplay;
+    iget-object v0, p0, Lkik/arcane/video/b;->b:Landroid/opengl/EGLDisplay;
 
-    iget-object v1, p0, Lkik/android/video/b;->d:Landroid/opengl/EGLSurface;
+    iget-object v1, p0, Lkik/arcane/video/b;->d:Landroid/opengl/EGLSurface;
 
-    iget-object v2, p0, Lkik/android/video/b;->d:Landroid/opengl/EGLSurface;
+    iget-object v2, p0, Lkik/arcane/video/b;->d:Landroid/opengl/EGLSurface;
 
-    iget-object v3, p0, Lkik/android/video/b;->c:Landroid/opengl/EGLContext;
+    iget-object v3, p0, Lkik/arcane/video/b;->c:Landroid/opengl/EGLContext;
 
     invoke-static {v0, v1, v2, v3}, Landroid/opengl/EGL14;->eglMakeCurrent(Landroid/opengl/EGLDisplay;Landroid/opengl/EGLSurface;Landroid/opengl/EGLSurface;Landroid/opengl/EGLContext;)Z
 
@@ -456,9 +456,9 @@
 
     .prologue
     .line 152
-    iget-object v0, p0, Lkik/android/video/b;->b:Landroid/opengl/EGLDisplay;
+    iget-object v0, p0, Lkik/arcane/video/b;->b:Landroid/opengl/EGLDisplay;
 
-    iget-object v1, p0, Lkik/android/video/b;->d:Landroid/opengl/EGLSurface;
+    iget-object v1, p0, Lkik/arcane/video/b;->d:Landroid/opengl/EGLSurface;
 
     invoke-static {v0, v1}, Landroid/opengl/EGL14;->eglSwapBuffers(Landroid/opengl/EGLDisplay;Landroid/opengl/EGLSurface;)Z
 

@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/ScanCodeTabFragment$2;
+.class final Lkik/arcane/chat/fragment/ScanCodeTabFragment$2;
 .super Landroid/support/v4/app/FragmentPagerAdapter;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/ScanCodeTabFragment;
+    value = Lkik/arcane/chat/fragment/ScanCodeTabFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/ScanCodeTabFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/ScanCodeTabFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/ScanCodeTabFragment;Landroid/support/v4/app/FragmentManager;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/ScanCodeTabFragment;Landroid/support/v4/app/FragmentManager;)V
     .locals 0
 
     .prologue
     .line 442
-    iput-object p1, p0, Lkik/android/chat/fragment/ScanCodeTabFragment$2;->a:Lkik/android/chat/fragment/ScanCodeTabFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$2;->a:Lkik/arcane/chat/fragment/ScanCodeTabFragment;
 
     invoke-direct {p0, p2}, Landroid/support/v4/app/FragmentPagerAdapter;-><init>(Landroid/support/v4/app/FragmentManager;)V
 
@@ -38,7 +38,7 @@
 
     .prologue
     .line 457
-    invoke-static {}, Lkik/android/chat/fragment/ScanCodeTabFragment;->b()Z
+    invoke-static {}, Lkik/arcane/chat/fragment/ScanCodeTabFragment;->b()Z
 
     move-result v0
 
@@ -60,18 +60,18 @@
 
     .prologue
     .line 446
-    iget-object v0, p0, Lkik/android/chat/fragment/ScanCodeTabFragment$2;->a:Lkik/android/chat/fragment/ScanCodeTabFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$2;->a:Lkik/arcane/chat/fragment/ScanCodeTabFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/ScanCodeTabFragment;->d(Lkik/android/chat/fragment/ScanCodeTabFragment;)I
+    invoke-static {v0}, Lkik/arcane/chat/fragment/ScanCodeTabFragment;->d(Lkik/arcane/chat/fragment/ScanCodeTabFragment;)I
 
     move-result v0
 
     if-ne p1, v0, :cond_0
 
     .line 447
-    iget-object v0, p0, Lkik/android/chat/fragment/ScanCodeTabFragment$2;->a:Lkik/android/chat/fragment/ScanCodeTabFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$2;->a:Lkik/arcane/chat/fragment/ScanCodeTabFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/ScanCodeTabFragment;->e(Lkik/android/chat/fragment/ScanCodeTabFragment;)Lkik/android/chat/fragment/KikCodeFragment;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/ScanCodeTabFragment;->e(Lkik/arcane/chat/fragment/ScanCodeTabFragment;)Lkik/arcane/chat/fragment/KikCodeFragment;
 
     move-result-object v0
 
@@ -80,9 +80,9 @@
     return-object v0
 
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/ScanCodeTabFragment$2;->a:Lkik/android/chat/fragment/ScanCodeTabFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$2;->a:Lkik/arcane/chat/fragment/ScanCodeTabFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/ScanCodeTabFragment;->h(Lkik/android/chat/fragment/ScanCodeTabFragment;)Lkik/android/scan/fragment/ScanFragment;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/ScanCodeTabFragment;->h(Lkik/arcane/chat/fragment/ScanCodeTabFragment;)Lkik/arcane/scan/fragment/ScanFragment;
 
     move-result-object v0
 

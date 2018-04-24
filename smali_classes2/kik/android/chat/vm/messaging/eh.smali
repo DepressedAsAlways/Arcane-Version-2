@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/messaging/eh;
+.class final synthetic Lkik/arcane/chat/vm/messaging/eh;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -15,7 +15,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/vm/messaging/eh;->a:Lkik/core/datatypes/l;
+    iput-object p1, p0, Lkik/arcane/chat/vm/messaging/eh;->a:Lkik/core/datatypes/l;
 
     return-void
 .end method
@@ -23,9 +23,9 @@
 .method public static a(Lkik/core/datatypes/l;)Lrx/functions/g;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/messaging/eh;
+    new-instance v0, Lkik/arcane/chat/vm/messaging/eh;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/vm/messaging/eh;-><init>(Lkik/core/datatypes/l;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/vm/messaging/eh;-><init>(Lkik/core/datatypes/l;)V
 
     return-object v0
 .end method
@@ -37,7 +37,7 @@
 
     .prologue
     .line 0
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/eh;->a:Lkik/core/datatypes/l;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/eh;->a:Lkik/core/datatypes/l;
 
     .line 1660
     invoke-virtual {v0}, Lkik/core/datatypes/l;->u()Z

@@ -1,5 +1,5 @@
-.class public Lkik/android/widget/RobotoEditTextBackHandleable;
-.super Lkik/android/widget/RobotoEditText;
+.class public Lkik/arcane/widget/RobotoEditTextBackHandleable;
+.super Lkik/arcane/widget/RobotoEditText;
 .source "SourceFile"
 
 
@@ -14,7 +14,7 @@
 
     .prologue
     .line 18
-    invoke-direct {p0, p1}, Lkik/android/widget/RobotoEditText;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lkik/arcane/widget/RobotoEditText;-><init>(Landroid/content/Context;)V
 
     .line 19
     return-void
@@ -25,7 +25,7 @@
 
     .prologue
     .line 23
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/RobotoEditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/RobotoEditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 24
     return-void
@@ -36,7 +36,7 @@
 
     .prologue
     .line 28
-    invoke-direct {p0, p1, p2, p3}, Lkik/android/widget/RobotoEditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lkik/arcane/widget/RobotoEditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 29
     return-void

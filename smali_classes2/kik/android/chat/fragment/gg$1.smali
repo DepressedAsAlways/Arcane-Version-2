@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/gg$1;
+.class final Lkik/arcane/chat/fragment/gg$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/gg;
+    value = Lkik/arcane/chat/fragment/gg;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Z
 
-.field final synthetic b:Lkik/android/chat/fragment/gg;
+.field final synthetic b:Lkik/arcane/chat/fragment/gg;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/gg;Z)V
+.method constructor <init>(Lkik/arcane/chat/fragment/gg;Z)V
     .locals 0
 
     .prologue
     .line 317
-    iput-object p1, p0, Lkik/android/chat/fragment/gg$1;->b:Lkik/android/chat/fragment/gg;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/gg$1;->b:Lkik/arcane/chat/fragment/gg;
 
-    iput-boolean p2, p0, Lkik/android/chat/fragment/gg$1;->a:Z
+    iput-boolean p2, p0, Lkik/arcane/chat/fragment/gg$1;->a:Z
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -53,18 +53,18 @@
 
     .prologue
     .line 326
-    iget-boolean v0, p0, Lkik/android/chat/fragment/gg$1;->a:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/fragment/gg$1;->a:Z
 
     if-eqz v0, :cond_0
 
     .line 327
-    iget-object v0, p0, Lkik/android/chat/fragment/gg$1;->b:Lkik/android/chat/fragment/gg;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/gg$1;->b:Lkik/arcane/chat/fragment/gg;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/gg;->a(Lkik/android/chat/fragment/gg;)Lkik/android/chat/view/TransitionableSearchBarViewImpl;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/gg;->a(Lkik/arcane/chat/fragment/gg;)Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->d()Landroid/widget/ImageView;
+    invoke-virtual {v0}, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->d()Landroid/widget/ImageView;
 
     move-result-object v0
 
@@ -78,13 +78,13 @@
 
     .line 330
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/gg$1;->b:Lkik/android/chat/fragment/gg;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/gg$1;->b:Lkik/arcane/chat/fragment/gg;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/gg;->a(Lkik/android/chat/fragment/gg;)Lkik/android/chat/view/TransitionableSearchBarViewImpl;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/gg;->a(Lkik/arcane/chat/fragment/gg;)Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->d()Landroid/widget/ImageView;
+    invoke-virtual {v0}, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->d()Landroid/widget/ImageView;
 
     move-result-object v0
 

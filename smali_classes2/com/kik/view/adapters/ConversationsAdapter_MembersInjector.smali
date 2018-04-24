@@ -28,7 +28,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -94,7 +94,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/videochat/c;",
+            "Lkik/arcane/videochat/c;",
             ">;"
         }
     .end annotation
@@ -157,7 +157,7 @@
             "(",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -181,7 +181,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/videochat/c;",
+            "Lkik/arcane/videochat/c;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -362,7 +362,7 @@
             "(",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -386,7 +386,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/videochat/c;",
+            "Lkik/arcane/videochat/c;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -459,9 +459,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/Mixpanel;
+    check-cast v0, Lcom/kik/arcane/Mixpanel;
 
-    iput-object v0, p1, Lcom/kik/view/adapters/j;->a:Lcom/kik/android/Mixpanel;
+    iput-object v0, p1, Lcom/kik/view/adapters/j;->a:Lcom/kik/arcane/Mixpanel;
 
     .line 1098
     iget-object v0, p0, Lcom/kik/view/adapters/ConversationsAdapter_MembersInjector;->c:Ljavax/inject/Provider;
@@ -525,9 +525,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/videochat/c;
+    check-cast v0, Lkik/arcane/videochat/c;
 
-    iput-object v0, p1, Lcom/kik/view/adapters/j;->g:Lkik/android/videochat/c;
+    iput-object v0, p1, Lcom/kik/view/adapters/j;->g:Lkik/arcane/videochat/c;
 
     .line 1104
     iget-object v0, p0, Lcom/kik/view/adapters/ConversationsAdapter_MembersInjector;->i:Ljavax/inject/Provider;

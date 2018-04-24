@@ -1,5 +1,5 @@
-.class public Lkik/android/widget/q;
-.super Lkik/android/widget/bb;
+.class public Lkik/arcane/widget/q;
+.super Lkik/arcane/widget/bb;
 .source "SourceFile"
 
 
@@ -39,7 +39,7 @@
     .line 39
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/q;-><init>(Landroid/graphics/Bitmap;Ljava/lang/String;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/q;-><init>(Landroid/graphics/Bitmap;Ljava/lang/String;)V
 
     .line 40
     return-void
@@ -56,15 +56,15 @@
     const/4 v1, 0x1
 
     .line 43
-    invoke-direct {p0}, Lkik/android/widget/bb;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/widget/bb;-><init>()V
 
     .line 22
-    iput v3, p0, Lkik/android/widget/q;->c:I
+    iput v3, p0, Lkik/arcane/widget/q;->c:I
 
     .line 26
     const/16 v0, 0xc8
 
-    iput v0, p0, Lkik/android/widget/q;->d:I
+    iput v0, p0, Lkik/arcane/widget/q;->d:I
 
     .line 1074
     new-instance v0, Landroid/graphics/Paint;
@@ -81,49 +81,49 @@
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
     .line 29
-    iput-object v0, p0, Lkik/android/widget/q;->g:Landroid/graphics/Paint;
+    iput-object v0, p0, Lkik/arcane/widget/q;->g:Landroid/graphics/Paint;
 
     .line 30
     const-wide/16 v0, 0x0
 
-    iput-wide v0, p0, Lkik/android/widget/q;->h:D
+    iput-wide v0, p0, Lkik/arcane/widget/q;->h:D
 
     .line 31
-    iput v2, p0, Lkik/android/widget/q;->i:I
+    iput v2, p0, Lkik/arcane/widget/q;->i:I
 
     .line 32
-    iput v2, p0, Lkik/android/widget/q;->j:I
+    iput v2, p0, Lkik/arcane/widget/q;->j:I
 
     .line 35
     new-instance v0, Landroid/graphics/Matrix;
 
     invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/q;->m:Landroid/graphics/Matrix;
+    iput-object v0, p0, Lkik/arcane/widget/q;->m:Landroid/graphics/Matrix;
 
     .line 44
-    iput-object p2, p0, Lkik/android/widget/q;->f:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/widget/q;->f:Ljava/lang/String;
 
     .line 45
-    iput-object p1, p0, Lkik/android/widget/q;->a:Landroid/graphics/Bitmap;
+    iput-object p1, p0, Lkik/arcane/widget/q;->a:Landroid/graphics/Bitmap;
 
     .line 46
-    iget-object v0, p0, Lkik/android/widget/q;->a:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/q;->a:Landroid/graphics/Bitmap;
 
-    invoke-static {v0}, Lkik/android/widget/q;->a(Landroid/graphics/Bitmap;)Landroid/graphics/BitmapShader;
+    invoke-static {v0}, Lkik/arcane/widget/q;->a(Landroid/graphics/Bitmap;)Landroid/graphics/BitmapShader;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/q;->l:Landroid/graphics/BitmapShader;
+    iput-object v0, p0, Lkik/arcane/widget/q;->l:Landroid/graphics/BitmapShader;
 
     .line 47
-    iput v3, p0, Lkik/android/widget/q;->c:I
+    iput v3, p0, Lkik/arcane/widget/q;->c:I
 
     .line 48
-    invoke-direct {p0, p1}, Lkik/android/widget/q;->b(Landroid/graphics/Bitmap;)V
+    invoke-direct {p0, p1}, Lkik/arcane/widget/q;->b(Landroid/graphics/Bitmap;)V
 
     .line 49
-    invoke-virtual {p0}, Lkik/android/widget/q;->invalidateSelf()V
+    invoke-virtual {p0}, Lkik/arcane/widget/q;->invalidateSelf()V
 
     .line 50
     return-void
@@ -166,26 +166,26 @@
     if-nez p1, :cond_1
 
     .line 236
-    iput v0, p0, Lkik/android/widget/q;->i:I
+    iput v0, p0, Lkik/arcane/widget/q;->i:I
 
     .line 237
-    iput v0, p0, Lkik/android/widget/q;->j:I
+    iput v0, p0, Lkik/arcane/widget/q;->j:I
 
     .line 5248
     :goto_0
-    iget-object v0, p0, Lkik/android/widget/q;->b:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/q;->b:Landroid/graphics/Bitmap;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/widget/q;->k:Landroid/graphics/BitmapShader;
+    iget-object v0, p0, Lkik/arcane/widget/q;->k:Landroid/graphics/BitmapShader;
 
     if-eqz v0, :cond_0
 
-    iget v0, p0, Lkik/android/widget/q;->i:I
+    iget v0, p0, Lkik/arcane/widget/q;->i:I
 
     if-eqz v0, :cond_0
 
-    iget v0, p0, Lkik/android/widget/q;->j:I
+    iget v0, p0, Lkik/arcane/widget/q;->j:I
 
     if-nez v0, :cond_2
 
@@ -200,31 +200,31 @@
 
     move-result v0
 
-    iput v0, p0, Lkik/android/widget/q;->i:I
+    iput v0, p0, Lkik/arcane/widget/q;->i:I
 
     .line 241
     invoke-virtual {p1}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/widget/q;->j:I
+    iput v0, p0, Lkik/arcane/widget/q;->j:I
 
     goto :goto_0
 
     .line 5254
     :cond_2
-    iget-object v0, p0, Lkik/android/widget/q;->m:Landroid/graphics/Matrix;
+    iget-object v0, p0, Lkik/arcane/widget/q;->m:Landroid/graphics/Matrix;
 
     invoke-virtual {v0}, Landroid/graphics/Matrix;->reset()V
 
     .line 5255
-    iget-object v0, p0, Lkik/android/widget/q;->m:Landroid/graphics/Matrix;
+    iget-object v0, p0, Lkik/arcane/widget/q;->m:Landroid/graphics/Matrix;
 
-    iget v1, p0, Lkik/android/widget/q;->j:I
+    iget v1, p0, Lkik/arcane/widget/q;->j:I
 
     int-to-float v1, v1
 
-    iget-object v2, p0, Lkik/android/widget/q;->b:Landroid/graphics/Bitmap;
+    iget-object v2, p0, Lkik/arcane/widget/q;->b:Landroid/graphics/Bitmap;
 
     invoke-virtual {v2}, Landroid/graphics/Bitmap;->getWidth()I
 
@@ -234,11 +234,11 @@
 
     div-float/2addr v1, v2
 
-    iget v2, p0, Lkik/android/widget/q;->i:I
+    iget v2, p0, Lkik/arcane/widget/q;->i:I
 
     int-to-float v2, v2
 
-    iget-object v3, p0, Lkik/android/widget/q;->b:Landroid/graphics/Bitmap;
+    iget-object v3, p0, Lkik/arcane/widget/q;->b:Landroid/graphics/Bitmap;
 
     invoke-virtual {v3}, Landroid/graphics/Bitmap;->getHeight()I
 
@@ -251,9 +251,9 @@
     invoke-virtual {v0, v1, v2}, Landroid/graphics/Matrix;->setScale(FF)V
 
     .line 5256
-    iget-object v0, p0, Lkik/android/widget/q;->k:Landroid/graphics/BitmapShader;
+    iget-object v0, p0, Lkik/arcane/widget/q;->k:Landroid/graphics/BitmapShader;
 
-    iget-object v1, p0, Lkik/android/widget/q;->m:Landroid/graphics/Matrix;
+    iget-object v1, p0, Lkik/arcane/widget/q;->m:Landroid/graphics/Matrix;
 
     invoke-virtual {v0, v1}, Landroid/graphics/BitmapShader;->setLocalMatrix(Landroid/graphics/Matrix;)V
 
@@ -265,7 +265,7 @@
 
     .prologue
     .line 230
-    invoke-virtual {p0}, Lkik/android/widget/q;->getBounds()Landroid/graphics/Rect;
+    invoke-virtual {p0}, Lkik/arcane/widget/q;->getBounds()Landroid/graphics/Rect;
 
     move-result-object v0
 
@@ -275,7 +275,7 @@
 
     int-to-float v0, v0
 
-    invoke-virtual {p0}, Lkik/android/widget/q;->getBounds()Landroid/graphics/Rect;
+    invoke-virtual {p0}, Lkik/arcane/widget/q;->getBounds()Landroid/graphics/Rect;
 
     move-result-object v1
 
@@ -285,7 +285,7 @@
 
     int-to-float v1, v1
 
-    invoke-virtual {p0}, Lkik/android/widget/q;->getBounds()Landroid/graphics/Rect;
+    invoke-virtual {p0}, Lkik/arcane/widget/q;->getBounds()Landroid/graphics/Rect;
 
     move-result-object v2
 
@@ -308,7 +308,7 @@
 
     .prologue
     .line 98
-    iget-object v0, p0, Lkik/android/widget/q;->a:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/q;->a:Landroid/graphics/Bitmap;
 
     return-object v0
 .end method
@@ -318,39 +318,39 @@
 
     .prologue
     .line 63
-    iput-object p2, p0, Lkik/android/widget/q;->a:Landroid/graphics/Bitmap;
+    iput-object p2, p0, Lkik/arcane/widget/q;->a:Landroid/graphics/Bitmap;
 
     .line 64
-    iput-object p1, p0, Lkik/android/widget/q;->b:Landroid/graphics/Bitmap;
+    iput-object p1, p0, Lkik/arcane/widget/q;->b:Landroid/graphics/Bitmap;
 
     .line 65
-    iget-object v0, p0, Lkik/android/widget/q;->a:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/q;->a:Landroid/graphics/Bitmap;
 
-    invoke-static {v0}, Lkik/android/widget/q;->a(Landroid/graphics/Bitmap;)Landroid/graphics/BitmapShader;
+    invoke-static {v0}, Lkik/arcane/widget/q;->a(Landroid/graphics/Bitmap;)Landroid/graphics/BitmapShader;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/q;->l:Landroid/graphics/BitmapShader;
+    iput-object v0, p0, Lkik/arcane/widget/q;->l:Landroid/graphics/BitmapShader;
 
     .line 66
-    iget-object v0, p0, Lkik/android/widget/q;->b:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/q;->b:Landroid/graphics/Bitmap;
 
-    invoke-static {v0}, Lkik/android/widget/q;->a(Landroid/graphics/Bitmap;)Landroid/graphics/BitmapShader;
+    invoke-static {v0}, Lkik/arcane/widget/q;->a(Landroid/graphics/Bitmap;)Landroid/graphics/BitmapShader;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/q;->k:Landroid/graphics/BitmapShader;
+    iput-object v0, p0, Lkik/arcane/widget/q;->k:Landroid/graphics/BitmapShader;
 
     .line 67
     const/4 v0, 0x1
 
-    iput v0, p0, Lkik/android/widget/q;->c:I
+    iput v0, p0, Lkik/arcane/widget/q;->c:I
 
     .line 68
-    invoke-direct {p0, p2}, Lkik/android/widget/q;->b(Landroid/graphics/Bitmap;)V
+    invoke-direct {p0, p2}, Lkik/arcane/widget/q;->b(Landroid/graphics/Bitmap;)V
 
     .line 69
-    invoke-virtual {p0}, Lkik/android/widget/q;->invalidateSelf()V
+    invoke-virtual {p0}, Lkik/arcane/widget/q;->invalidateSelf()V
 
     .line 70
     return-void
@@ -369,7 +369,7 @@
 
     .prologue
     .line 225
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/q;->b(Landroid/graphics/Canvas;Landroid/graphics/Paint;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/q;->b(Landroid/graphics/Canvas;Landroid/graphics/Paint;)V
 
     .line 226
     return-void
@@ -394,12 +394,12 @@
     const/16 v4, 0xff
 
     .line 115
-    iget-object v0, p0, Lkik/android/widget/q;->a:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/q;->a:Landroid/graphics/Bitmap;
 
     if-nez v0, :cond_0
 
     .line 116
-    invoke-virtual {p0, p1}, Lkik/android/widget/q;->a(Landroid/graphics/Canvas;)V
+    invoke-virtual {p0, p1}, Lkik/arcane/widget/q;->a(Landroid/graphics/Canvas;)V
 
     .line 195
     :goto_0
@@ -407,17 +407,17 @@
 
     .line 119
     :cond_0
-    iget v0, p0, Lkik/android/widget/q;->c:I
+    iget v0, p0, Lkik/arcane/widget/q;->c:I
 
     packed-switch v0, :pswitch_data_0
 
     .line 181
-    iget-object v0, p0, Lkik/android/widget/q;->g:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/q;->g:Landroid/graphics/Paint;
 
     invoke-virtual {v0, v4}, Landroid/graphics/Paint;->setAlpha(I)V
 
     .line 182
-    iget-object v0, p0, Lkik/android/widget/q;->a:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/q;->a:Landroid/graphics/Bitmap;
 
     invoke-virtual {v0}, Landroid/graphics/Bitmap;->isRecycled()Z
 
@@ -426,16 +426,16 @@
     if-nez v0, :cond_8
 
     .line 183
-    iget-object v0, p0, Lkik/android/widget/q;->g:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/q;->g:Landroid/graphics/Paint;
 
-    iget-object v1, p0, Lkik/android/widget/q;->l:Landroid/graphics/BitmapShader;
+    iget-object v1, p0, Lkik/arcane/widget/q;->l:Landroid/graphics/BitmapShader;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
     .line 184
-    iget-object v0, p0, Lkik/android/widget/q;->g:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/q;->g:Landroid/graphics/Paint;
 
-    invoke-virtual {p0, p1, v0}, Lkik/android/widget/q;->a(Landroid/graphics/Canvas;Landroid/graphics/Paint;)V
+    invoke-virtual {p0, p1, v0}, Lkik/arcane/widget/q;->a(Landroid/graphics/Canvas;Landroid/graphics/Paint;)V
 
     goto :goto_0
 
@@ -445,51 +445,51 @@
 
     move-result-wide v0
 
-    iput-wide v0, p0, Lkik/android/widget/q;->e:J
+    iput-wide v0, p0, Lkik/arcane/widget/q;->e:J
 
     .line 122
     const/4 v0, 0x2
 
-    iput v0, p0, Lkik/android/widget/q;->c:I
+    iput v0, p0, Lkik/arcane/widget/q;->c:I
 
     .line 123
-    iget-object v0, p0, Lkik/android/widget/q;->g:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/q;->g:Landroid/graphics/Paint;
 
     invoke-virtual {v0, v4}, Landroid/graphics/Paint;->setAlpha(I)V
 
     .line 124
-    iget-object v0, p0, Lkik/android/widget/q;->g:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/q;->g:Landroid/graphics/Paint;
 
-    iget-object v1, p0, Lkik/android/widget/q;->k:Landroid/graphics/BitmapShader;
+    iget-object v1, p0, Lkik/arcane/widget/q;->k:Landroid/graphics/BitmapShader;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
     .line 125
-    iget-object v0, p0, Lkik/android/widget/q;->b:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/q;->b:Landroid/graphics/Bitmap;
 
     if-eqz v0, :cond_1
 
     .line 126
-    iget-object v0, p0, Lkik/android/widget/q;->g:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/q;->g:Landroid/graphics/Paint;
 
     .line 1220
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/q;->b(Landroid/graphics/Canvas;Landroid/graphics/Paint;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/q;->b(Landroid/graphics/Canvas;Landroid/graphics/Paint;)V
 
     .line 131
     :goto_1
-    invoke-virtual {p0}, Lkik/android/widget/q;->invalidateSelf()V
+    invoke-virtual {p0}, Lkik/arcane/widget/q;->invalidateSelf()V
 
     goto :goto_0
 
     .line 129
     :cond_1
-    invoke-virtual {p0, p1}, Lkik/android/widget/q;->b(Landroid/graphics/Canvas;)V
+    invoke-virtual {p0, p1}, Lkik/arcane/widget/q;->b(Landroid/graphics/Canvas;)V
 
     goto :goto_1
 
     .line 134
     :pswitch_1
-    iget-wide v0, p0, Lkik/android/widget/q;->e:J
+    iget-wide v0, p0, Lkik/arcane/widget/q;->e:J
 
     const-wide/16 v2, 0xc8
 
@@ -513,15 +513,15 @@
     .line 137
     const/4 v0, 0x3
 
-    iput v0, p0, Lkik/android/widget/q;->c:I
+    iput v0, p0, Lkik/arcane/widget/q;->c:I
 
     .line 140
-    iget-object v0, p0, Lkik/android/widget/q;->g:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/q;->g:Landroid/graphics/Paint;
 
     invoke-virtual {v0, v4}, Landroid/graphics/Paint;->setAlpha(I)V
 
     .line 142
-    iget-object v0, p0, Lkik/android/widget/q;->a:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/q;->a:Landroid/graphics/Bitmap;
 
     invoke-virtual {v0}, Landroid/graphics/Bitmap;->isRecycled()Z
 
@@ -530,47 +530,47 @@
     if-nez v0, :cond_2
 
     .line 143
-    iget-object v0, p0, Lkik/android/widget/q;->g:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/q;->g:Landroid/graphics/Paint;
 
-    iget-object v1, p0, Lkik/android/widget/q;->l:Landroid/graphics/BitmapShader;
+    iget-object v1, p0, Lkik/arcane/widget/q;->l:Landroid/graphics/BitmapShader;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
     .line 144
-    iget-object v0, p0, Lkik/android/widget/q;->g:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/q;->g:Landroid/graphics/Paint;
 
-    invoke-virtual {p0, p1, v0}, Lkik/android/widget/q;->a(Landroid/graphics/Canvas;Landroid/graphics/Paint;)V
+    invoke-virtual {p0, p1, v0}, Lkik/arcane/widget/q;->a(Landroid/graphics/Canvas;Landroid/graphics/Paint;)V
 
     .line 153
     :goto_2
-    invoke-virtual {p0}, Lkik/android/widget/q;->invalidateSelf()V
+    invoke-virtual {p0}, Lkik/arcane/widget/q;->invalidateSelf()V
 
     goto :goto_0
 
     .line 146
     :cond_2
-    iget-object v0, p0, Lkik/android/widget/q;->b:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/q;->b:Landroid/graphics/Bitmap;
 
     if-eqz v0, :cond_3
 
     .line 147
-    iget-object v0, p0, Lkik/android/widget/q;->g:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/q;->g:Landroid/graphics/Paint;
 
-    iget-object v1, p0, Lkik/android/widget/q;->k:Landroid/graphics/BitmapShader;
+    iget-object v1, p0, Lkik/arcane/widget/q;->k:Landroid/graphics/BitmapShader;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
     .line 148
-    iget-object v0, p0, Lkik/android/widget/q;->g:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/q;->g:Landroid/graphics/Paint;
 
     .line 2220
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/q;->b(Landroid/graphics/Canvas;Landroid/graphics/Paint;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/q;->b(Landroid/graphics/Canvas;Landroid/graphics/Paint;)V
 
     goto :goto_2
 
     .line 151
     :cond_3
-    invoke-virtual {p0, p1}, Lkik/android/widget/q;->b(Landroid/graphics/Canvas;)V
+    invoke-virtual {p0, p1}, Lkik/arcane/widget/q;->b(Landroid/graphics/Canvas;)V
 
     goto :goto_2
 
@@ -586,12 +586,12 @@
 
     move-result-wide v0
 
-    iput-wide v0, p0, Lkik/android/widget/q;->h:D
+    iput-wide v0, p0, Lkik/arcane/widget/q;->h:D
 
     .line 158
-    iget-object v0, p0, Lkik/android/widget/q;->g:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/q;->g:Landroid/graphics/Paint;
 
-    iget-wide v2, p0, Lkik/android/widget/q;->h:D
+    iget-wide v2, p0, Lkik/arcane/widget/q;->h:D
 
     sub-double v2, v6, v2
 
@@ -602,28 +602,28 @@
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setAlpha(I)V
 
     .line 159
-    iget-object v0, p0, Lkik/android/widget/q;->g:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/q;->g:Landroid/graphics/Paint;
 
-    iget-object v1, p0, Lkik/android/widget/q;->k:Landroid/graphics/BitmapShader;
+    iget-object v1, p0, Lkik/arcane/widget/q;->k:Landroid/graphics/BitmapShader;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
     .line 160
-    iget-object v0, p0, Lkik/android/widget/q;->b:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/q;->b:Landroid/graphics/Bitmap;
 
     if-eqz v0, :cond_6
 
     .line 161
-    iget-object v0, p0, Lkik/android/widget/q;->g:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/q;->g:Landroid/graphics/Paint;
 
     .line 3220
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/q;->b(Landroid/graphics/Canvas;Landroid/graphics/Paint;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/q;->b(Landroid/graphics/Canvas;Landroid/graphics/Paint;)V
 
     .line 167
     :goto_3
-    iget-object v0, p0, Lkik/android/widget/q;->g:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/q;->g:Landroid/graphics/Paint;
 
-    iget-wide v2, p0, Lkik/android/widget/q;->h:D
+    iget-wide v2, p0, Lkik/arcane/widget/q;->h:D
 
     mul-double/2addr v2, v8
 
@@ -632,7 +632,7 @@
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setAlpha(I)V
 
     .line 168
-    iget-object v0, p0, Lkik/android/widget/q;->a:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/q;->a:Landroid/graphics/Bitmap;
 
     invoke-virtual {v0}, Landroid/graphics/Bitmap;->isRecycled()Z
 
@@ -641,80 +641,80 @@
     if-nez v0, :cond_7
 
     .line 169
-    iget-object v0, p0, Lkik/android/widget/q;->g:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/q;->g:Landroid/graphics/Paint;
 
-    iget-object v1, p0, Lkik/android/widget/q;->l:Landroid/graphics/BitmapShader;
+    iget-object v1, p0, Lkik/arcane/widget/q;->l:Landroid/graphics/BitmapShader;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
     .line 170
-    iget-object v0, p0, Lkik/android/widget/q;->g:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/q;->g:Landroid/graphics/Paint;
 
-    invoke-virtual {p0, p1, v0}, Lkik/android/widget/q;->a(Landroid/graphics/Canvas;Landroid/graphics/Paint;)V
+    invoke-virtual {p0, p1, v0}, Lkik/arcane/widget/q;->a(Landroid/graphics/Canvas;Landroid/graphics/Paint;)V
 
     .line 177
     :cond_5
     :goto_4
-    invoke-virtual {p0}, Lkik/android/widget/q;->invalidateSelf()V
+    invoke-virtual {p0}, Lkik/arcane/widget/q;->invalidateSelf()V
 
     goto/16 :goto_0
 
     .line 164
     :cond_6
-    invoke-virtual {p0, p1}, Lkik/android/widget/q;->b(Landroid/graphics/Canvas;)V
+    invoke-virtual {p0, p1}, Lkik/arcane/widget/q;->b(Landroid/graphics/Canvas;)V
 
     goto :goto_3
 
     .line 172
     :cond_7
-    iget-object v0, p0, Lkik/android/widget/q;->b:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/q;->b:Landroid/graphics/Bitmap;
 
     if-eqz v0, :cond_5
 
     .line 173
-    iget-object v0, p0, Lkik/android/widget/q;->g:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/q;->g:Landroid/graphics/Paint;
 
     invoke-virtual {v0, v4}, Landroid/graphics/Paint;->setAlpha(I)V
 
     .line 174
-    iget-object v0, p0, Lkik/android/widget/q;->g:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/q;->g:Landroid/graphics/Paint;
 
-    iget-object v1, p0, Lkik/android/widget/q;->k:Landroid/graphics/BitmapShader;
+    iget-object v1, p0, Lkik/arcane/widget/q;->k:Landroid/graphics/BitmapShader;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
     .line 175
-    iget-object v0, p0, Lkik/android/widget/q;->g:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/q;->g:Landroid/graphics/Paint;
 
     .line 4220
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/q;->b(Landroid/graphics/Canvas;Landroid/graphics/Paint;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/q;->b(Landroid/graphics/Canvas;Landroid/graphics/Paint;)V
 
     goto :goto_4
 
     .line 186
     :cond_8
-    iget-object v0, p0, Lkik/android/widget/q;->b:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/widget/q;->b:Landroid/graphics/Bitmap;
 
     if-eqz v0, :cond_9
 
     .line 187
-    iget-object v0, p0, Lkik/android/widget/q;->g:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/q;->g:Landroid/graphics/Paint;
 
-    iget-object v1, p0, Lkik/android/widget/q;->k:Landroid/graphics/BitmapShader;
+    iget-object v1, p0, Lkik/arcane/widget/q;->k:Landroid/graphics/BitmapShader;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
     .line 188
-    iget-object v0, p0, Lkik/android/widget/q;->g:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/q;->g:Landroid/graphics/Paint;
 
     .line 5220
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/q;->b(Landroid/graphics/Canvas;Landroid/graphics/Paint;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/q;->b(Landroid/graphics/Canvas;Landroid/graphics/Paint;)V
 
     goto/16 :goto_0
 
     .line 191
     :cond_9
-    invoke-virtual {p0, p1}, Lkik/android/widget/q;->b(Landroid/graphics/Canvas;)V
+    invoke-virtual {p0, p1}, Lkik/arcane/widget/q;->b(Landroid/graphics/Canvas;)V
 
     goto/16 :goto_0
 
@@ -733,7 +733,7 @@
 
     .prologue
     .line 276
-    iget v0, p0, Lkik/android/widget/q;->i:I
+    iget v0, p0, Lkik/arcane/widget/q;->i:I
 
     return v0
 .end method
@@ -743,7 +743,7 @@
 
     .prologue
     .line 282
-    iget v0, p0, Lkik/android/widget/q;->j:I
+    iget v0, p0, Lkik/arcane/widget/q;->j:I
 
     return v0
 .end method
@@ -779,7 +779,7 @@
 
     .prologue
     .line 104
-    invoke-super {p0, p1, p2}, Lkik/android/widget/bb;->setVisible(ZZ)Z
+    invoke-super {p0, p1, p2}, Lkik/arcane/widget/bb;->setVisible(ZZ)Z
 
     move-result v0
 

@@ -1,4 +1,4 @@
-.class public Lkik/android/videochat/VideoChatNotificationService;
+.class public Lkik/arcane/videochat/VideoChatNotificationService;
 .super Landroid/app/Service;
 .source "SourceFile"
 
@@ -33,7 +33,7 @@
     .line 54
     const/4 v0, 0x1
 
-    invoke-virtual {p0, v0}, Lkik/android/videochat/VideoChatNotificationService;->stopForeground(Z)V
+    invoke-virtual {p0, v0}, Lkik/arcane/videochat/VideoChatNotificationService;->stopForeground(Z)V
 
     .line 55
     return-void
@@ -48,11 +48,11 @@
     const/4 v4, 0x0
 
     .line 29
-    invoke-virtual {p0}, Lkik/android/videochat/VideoChatNotificationService;->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Lkik/arcane/videochat/VideoChatNotificationService;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object v0
 
-    invoke-virtual {p0}, Lkik/android/videochat/VideoChatNotificationService;->getPackageName()Ljava/lang/String;
+    invoke-virtual {p0}, Lkik/arcane/videochat/VideoChatNotificationService;->getPackageName()Ljava/lang/String;
 
     move-result-object v1
 
@@ -89,7 +89,7 @@
     const v1, 0x7f0906df
 
     .line 35
-    invoke-virtual {p0, v1}, Lkik/android/videochat/VideoChatNotificationService;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, v1}, Lkik/arcane/videochat/VideoChatNotificationService;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -100,7 +100,7 @@
     const v1, 0x7f090674
 
     .line 36
-    invoke-virtual {p0, v1}, Lkik/android/videochat/VideoChatNotificationService;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, v1}, Lkik/arcane/videochat/VideoChatNotificationService;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -121,7 +121,7 @@
     move-result-object v0
 
     .line 39
-    invoke-static {v4, v5}, Lkik/android/h/c;->a(ZZ)[J
+    invoke-static {v4, v5}, Lkik/arcane/h/c;->a(ZZ)[J
 
     move-result-object v1
 
@@ -130,7 +130,7 @@
     move-result-object v0
 
     .line 40
-    invoke-virtual {p0}, Lkik/android/videochat/VideoChatNotificationService;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/videochat/VideoChatNotificationService;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -144,7 +144,7 @@
 
     move-result-object v0
 
-    const-string v1, "kik.android.videochat.VideoChatNotification"
+    const-string v1, "kik.arcane.videochat.VideoChatNotification"
 
     .line 41
     invoke-virtual {v0, v1}, Landroid/support/v4/app/NotificationCompat$Builder;->setGroup(Ljava/lang/String;)Landroid/support/v4/app/NotificationCompat$Builder;
@@ -176,7 +176,7 @@
     .line 46
     const/16 v1, 0x539
 
-    invoke-virtual {p0, v1, v0}, Lkik/android/videochat/VideoChatNotificationService;->startForeground(ILandroid/app/Notification;)V
+    invoke-virtual {p0, v1, v0}, Lkik/arcane/videochat/VideoChatNotificationService;->startForeground(ILandroid/app/Notification;)V
 
     .line 48
     const/4 v0, 0x2

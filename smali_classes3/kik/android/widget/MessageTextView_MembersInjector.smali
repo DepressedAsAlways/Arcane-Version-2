@@ -1,4 +1,4 @@
-.class public final Lkik/android/widget/MessageTextView_MembersInjector;
+.class public final Lkik/arcane/widget/MessageTextView_MembersInjector;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/b",
         "<",
-        "Lkik/android/widget/MessageTextView;",
+        "Lkik/arcane/widget/MessageTextView;",
         ">;"
     }
 .end annotation
@@ -28,7 +28,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/d/f;",
+            "Lkik/arcane/d/f;",
             ">;"
         }
     .end annotation
@@ -41,7 +41,7 @@
 
     .prologue
     .line 8
-    const-class v0, Lkik/android/widget/MessageTextView_MembersInjector;
+    const-class v0, Lkik/arcane/widget/MessageTextView_MembersInjector;
 
     invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
 
@@ -52,7 +52,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    sput-boolean v0, Lkik/android/widget/MessageTextView_MembersInjector;->a:Z
+    sput-boolean v0, Lkik/arcane/widget/MessageTextView_MembersInjector;->a:Z
 
     return-void
 
@@ -69,7 +69,7 @@
             "(",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/d/f;",
+            "Lkik/arcane/d/f;",
             ">;)V"
         }
     .end annotation
@@ -79,7 +79,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 16
-    sget-boolean v0, Lkik/android/widget/MessageTextView_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/widget/MessageTextView_MembersInjector;->a:Z
 
     if-nez v0, :cond_0
 
@@ -93,7 +93,7 @@
 
     .line 17
     :cond_0
-    iput-object p1, p0, Lkik/android/widget/MessageTextView_MembersInjector;->b:Ljavax/inject/Provider;
+    iput-object p1, p0, Lkik/arcane/widget/MessageTextView_MembersInjector;->b:Ljavax/inject/Provider;
 
     .line 18
     return-void
@@ -106,20 +106,20 @@
             "(",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/d/f;",
+            "Lkik/arcane/d/f;",
             ">;)",
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/MessageTextView;",
+            "Lkik/arcane/widget/MessageTextView;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 22
-    new-instance v0, Lkik/android/widget/MessageTextView_MembersInjector;
+    new-instance v0, Lkik/arcane/widget/MessageTextView_MembersInjector;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/MessageTextView_MembersInjector;-><init>(Ljavax/inject/Provider;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/MessageTextView_MembersInjector;-><init>(Ljavax/inject/Provider;)V
 
     return-object v0
 .end method
@@ -131,7 +131,7 @@
 
     .prologue
     .line 8
-    check-cast p1, Lkik/android/widget/MessageTextView;
+    check-cast p1, Lkik/arcane/widget/MessageTextView;
 
     .line 1027
     if-nez p1, :cond_0
@@ -147,15 +147,15 @@
 
     .line 1030
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/MessageTextView_MembersInjector;->b:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/widget/MessageTextView_MembersInjector;->b:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/d/f;
+    check-cast v0, Lkik/arcane/d/f;
 
-    iput-object v0, p1, Lkik/android/widget/MessageTextView;->a:Lkik/android/d/f;
+    iput-object v0, p1, Lkik/arcane/widget/MessageTextView;->a:Lkik/arcane/d/f;
 
     .line 8
     return-void

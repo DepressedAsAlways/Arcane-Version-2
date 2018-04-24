@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/widget/KikCropView$1;
+.class final synthetic Lkik/arcane/widget/KikCropView$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/KikCropView;
+    value = Lkik/arcane/widget/KikCropView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     .prologue
     .line 150
-    invoke-static {}, Lkik/android/widget/KikCropView$Ratio;->values()[Lkik/android/widget/KikCropView$Ratio;
+    invoke-static {}, Lkik/arcane/widget/KikCropView$Ratio;->values()[Lkik/arcane/widget/KikCropView$Ratio;
 
     move-result-object v0
 
@@ -32,14 +32,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/widget/KikCropView$1;->a:[I
+    sput-object v0, Lkik/arcane/widget/KikCropView$1;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/widget/KikCropView$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/KikCropView$1;->a:[I
 
-    sget-object v1, Lkik/android/widget/KikCropView$Ratio;->RATIO_2_1:Lkik/android/widget/KikCropView$Ratio;
+    sget-object v1, Lkik/arcane/widget/KikCropView$Ratio;->RATIO_2_1:Lkik/arcane/widget/KikCropView$Ratio;
 
-    invoke-virtual {v1}, Lkik/android/widget/KikCropView$Ratio;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/widget/KikCropView$Ratio;->ordinal()I
 
     move-result v1
 
@@ -51,11 +51,11 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/widget/KikCropView$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/KikCropView$1;->a:[I
 
-    sget-object v1, Lkik/android/widget/KikCropView$Ratio;->RATIO_1_1:Lkik/android/widget/KikCropView$Ratio;
+    sget-object v1, Lkik/arcane/widget/KikCropView$Ratio;->RATIO_1_1:Lkik/arcane/widget/KikCropView$Ratio;
 
-    invoke-virtual {v1}, Lkik/android/widget/KikCropView$Ratio;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/widget/KikCropView$Ratio;->ordinal()I
 
     move-result v1
 

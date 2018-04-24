@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/chat/fragment/KikDialogFragment$1;
+.class final synthetic Lkik/arcane/chat/fragment/KikDialogFragment$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikDialogFragment;
+    value = Lkik/arcane/chat/fragment/KikDialogFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     .prologue
     .line 336
-    invoke-static {}, Lkik/android/chat/fragment/KikDialogFragment$LinkifyType;->values()[Lkik/android/chat/fragment/KikDialogFragment$LinkifyType;
+    invoke-static {}, Lkik/arcane/chat/fragment/KikDialogFragment$LinkifyType;->values()[Lkik/arcane/chat/fragment/KikDialogFragment$LinkifyType;
 
     move-result-object v0
 
@@ -32,14 +32,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/chat/fragment/KikDialogFragment$1;->a:[I
+    sput-object v0, Lkik/arcane/chat/fragment/KikDialogFragment$1;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/chat/fragment/KikDialogFragment$1;->a:[I
+    sget-object v0, Lkik/arcane/chat/fragment/KikDialogFragment$1;->a:[I
 
-    sget-object v1, Lkik/android/chat/fragment/KikDialogFragment$LinkifyType;->SPAN:Lkik/android/chat/fragment/KikDialogFragment$LinkifyType;
+    sget-object v1, Lkik/arcane/chat/fragment/KikDialogFragment$LinkifyType;->SPAN:Lkik/arcane/chat/fragment/KikDialogFragment$LinkifyType;
 
-    invoke-virtual {v1}, Lkik/android/chat/fragment/KikDialogFragment$LinkifyType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/fragment/KikDialogFragment$LinkifyType;->ordinal()I
 
     move-result v1
 
@@ -51,11 +51,11 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/chat/fragment/KikDialogFragment$1;->a:[I
+    sget-object v0, Lkik/arcane/chat/fragment/KikDialogFragment$1;->a:[I
 
-    sget-object v1, Lkik/android/chat/fragment/KikDialogFragment$LinkifyType;->HTML:Lkik/android/chat/fragment/KikDialogFragment$LinkifyType;
+    sget-object v1, Lkik/arcane/chat/fragment/KikDialogFragment$LinkifyType;->HTML:Lkik/arcane/chat/fragment/KikDialogFragment$LinkifyType;
 
-    invoke-virtual {v1}, Lkik/android/chat/fragment/KikDialogFragment$LinkifyType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/fragment/KikDialogFragment$LinkifyType;->ordinal()I
 
     move-result v1
 

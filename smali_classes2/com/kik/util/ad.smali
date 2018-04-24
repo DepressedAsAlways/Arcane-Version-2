@@ -97,7 +97,7 @@
 
     int-to-long v4, v3
 
-    invoke-static {v2, v0, v4, v5}, Lkik/android/util/ao;->b(Landroid/view/View;FJ)V
+    invoke-static {v2, v0, v4, v5}, Lkik/arcane/util/ao;->b(Landroid/view/View;FJ)V
 
     .line 1334
     :cond_1
@@ -132,7 +132,7 @@
 
     int-to-long v4, v3
 
-    invoke-static {v2, v0, v4, v5}, Lkik/android/util/ao;->a(Landroid/view/View;FJ)V
+    invoke-static {v2, v0, v4, v5}, Lkik/arcane/util/ao;->a(Landroid/view/View;FJ)V
 
     goto :goto_1
 

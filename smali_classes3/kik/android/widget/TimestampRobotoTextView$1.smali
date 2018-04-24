@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/TimestampRobotoTextView$1;
+.class final Lkik/arcane/widget/TimestampRobotoTextView$1;
 .super Landroid/view/animation/Animation;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/TimestampRobotoTextView;
+    value = Lkik/arcane/widget/TimestampRobotoTextView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/TimestampRobotoTextView;
+.field final synthetic a:Lkik/arcane/widget/TimestampRobotoTextView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/TimestampRobotoTextView;)V
+.method constructor <init>(Lkik/arcane/widget/TimestampRobotoTextView;)V
     .locals 0
 
     .prologue
     .line 137
-    iput-object p1, p0, Lkik/android/widget/TimestampRobotoTextView$1;->a:Lkik/android/widget/TimestampRobotoTextView;
+    iput-object p1, p0, Lkik/arcane/widget/TimestampRobotoTextView$1;->a:Lkik/arcane/widget/TimestampRobotoTextView;
 
     invoke-direct {p0}, Landroid/view/animation/Animation;-><init>()V
 
@@ -45,15 +45,15 @@
     if-nez v0, :cond_0
 
     .line 142
-    iget-object v0, p0, Lkik/android/widget/TimestampRobotoTextView$1;->a:Lkik/android/widget/TimestampRobotoTextView;
+    iget-object v0, p0, Lkik/arcane/widget/TimestampRobotoTextView$1;->a:Lkik/arcane/widget/TimestampRobotoTextView;
 
-    invoke-virtual {v0}, Lkik/android/widget/TimestampRobotoTextView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v0}, Lkik/arcane/widget/TimestampRobotoTextView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/widget/TimestampRobotoTextView$1;->a:Lkik/android/widget/TimestampRobotoTextView;
+    iget-object v1, p0, Lkik/arcane/widget/TimestampRobotoTextView$1;->a:Lkik/arcane/widget/TimestampRobotoTextView;
 
-    invoke-static {v1}, Lkik/android/widget/TimestampRobotoTextView;->a(Lkik/android/widget/TimestampRobotoTextView;)I
+    invoke-static {v1}, Lkik/arcane/widget/TimestampRobotoTextView;->a(Lkik/arcane/widget/TimestampRobotoTextView;)I
 
     move-result v1
 
@@ -61,24 +61,24 @@
 
     .line 147
     :goto_0
-    iget-object v0, p0, Lkik/android/widget/TimestampRobotoTextView$1;->a:Lkik/android/widget/TimestampRobotoTextView;
+    iget-object v0, p0, Lkik/arcane/widget/TimestampRobotoTextView$1;->a:Lkik/arcane/widget/TimestampRobotoTextView;
 
-    invoke-virtual {v0}, Lkik/android/widget/TimestampRobotoTextView;->requestLayout()V
+    invoke-virtual {v0}, Lkik/arcane/widget/TimestampRobotoTextView;->requestLayout()V
 
     .line 148
     return-void
 
     .line 145
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/TimestampRobotoTextView$1;->a:Lkik/android/widget/TimestampRobotoTextView;
+    iget-object v0, p0, Lkik/arcane/widget/TimestampRobotoTextView$1;->a:Lkik/arcane/widget/TimestampRobotoTextView;
 
-    invoke-virtual {v0}, Lkik/android/widget/TimestampRobotoTextView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v0}, Lkik/arcane/widget/TimestampRobotoTextView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/widget/TimestampRobotoTextView$1;->a:Lkik/android/widget/TimestampRobotoTextView;
+    iget-object v1, p0, Lkik/arcane/widget/TimestampRobotoTextView$1;->a:Lkik/arcane/widget/TimestampRobotoTextView;
 
-    invoke-static {v1}, Lkik/android/widget/TimestampRobotoTextView;->a(Lkik/android/widget/TimestampRobotoTextView;)I
+    invoke-static {v1}, Lkik/arcane/widget/TimestampRobotoTextView;->a(Lkik/arcane/widget/TimestampRobotoTextView;)I
 
     move-result v1
 

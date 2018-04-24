@@ -1,5 +1,5 @@
-.class public Lkik/android/widget/preferences/KinWalletPreference;
-.super Lkik/android/widget/preferences/KikModalPreference;
+.class public Lkik/arcane/widget/preferences/KinWalletPreference;
+.super Lkik/arcane/widget/preferences/KikModalPreference;
 .source "SourceFile"
 
 
@@ -11,7 +11,7 @@
     .line 16
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/preferences/KikModalPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/preferences/KikModalPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
 
     .line 17
     return-void
@@ -24,7 +24,7 @@
 
     .prologue
     .line 22
-    iget-object v0, p0, Lkik/android/widget/preferences/KinWalletPreference;->c:Lcom/kik/metrics/c/d;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/KinWalletPreference;->c:Lcom/kik/metrics/c/d;
 
     invoke-static {}, Lcom/kik/metrics/b/z;->b()Lcom/kik/metrics/b/z$a;
 

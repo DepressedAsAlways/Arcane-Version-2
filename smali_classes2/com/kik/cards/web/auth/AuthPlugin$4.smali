@@ -63,13 +63,13 @@
 
     iget-object v1, p0, Lcom/kik/cards/web/auth/AuthPlugin$4;->d:Lcom/kik/cards/web/auth/AuthPlugin;
 
-    invoke-static {v1}, Lcom/kik/cards/web/auth/AuthPlugin;->access$000(Lcom/kik/cards/web/auth/AuthPlugin;)Lkik/android/b/g;
+    invoke-static {v1}, Lcom/kik/cards/web/auth/AuthPlugin;->access$000(Lcom/kik/cards/web/auth/AuthPlugin;)Lkik/arcane/b/g;
 
     move-result-object v1
 
     iget-object v2, p0, Lcom/kik/cards/web/auth/AuthPlugin$4;->a:Ljava/lang/String;
 
-    invoke-virtual {v1, v2}, Lkik/android/b/g;->b(Ljava/lang/String;)Lcom/kik/events/Promise;
+    invoke-virtual {v1, v2}, Lkik/arcane/b/g;->b(Ljava/lang/String;)Lcom/kik/events/Promise;
 
     move-result-object v1
 

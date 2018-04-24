@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/KikTextureVideoView;
+.class public Lkik/arcane/widget/KikTextureVideoView;
 .super Landroid/view/TextureView;
 .source "SourceFile"
 
@@ -9,7 +9,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/KikTextureVideoView$VideoType;
+        Lkik/arcane/widget/KikTextureVideoView$VideoType;
     }
 .end annotation
 
@@ -35,7 +35,7 @@
 
 .field private j:F
 
-.field private k:Lkik/android/widget/KikTextureVideoView$VideoType;
+.field private k:Lkik/arcane/widget/KikTextureVideoView$VideoType;
 
 
 # direct methods
@@ -49,15 +49,15 @@
     .line 32
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/widget/KikTextureVideoView;->g:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/KikTextureVideoView;->g:Z
 
     .line 33
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/widget/KikTextureVideoView;->h:I
+    iput v0, p0, Lkik/arcane/widget/KikTextureVideoView;->h:I
 
     .line 51
-    invoke-virtual {p0, p0}, Lkik/android/widget/KikTextureVideoView;->setSurfaceTextureListener(Landroid/view/TextureView$SurfaceTextureListener;)V
+    invoke-virtual {p0, p0}, Lkik/arcane/widget/KikTextureVideoView;->setSurfaceTextureListener(Landroid/view/TextureView$SurfaceTextureListener;)V
 
     .line 52
     return-void
@@ -73,15 +73,15 @@
     .line 32
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/widget/KikTextureVideoView;->g:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/KikTextureVideoView;->g:Z
 
     .line 33
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/widget/KikTextureVideoView;->h:I
+    iput v0, p0, Lkik/arcane/widget/KikTextureVideoView;->h:I
 
     .line 57
-    invoke-virtual {p0, p0}, Lkik/android/widget/KikTextureVideoView;->setSurfaceTextureListener(Landroid/view/TextureView$SurfaceTextureListener;)V
+    invoke-virtual {p0, p0}, Lkik/arcane/widget/KikTextureVideoView;->setSurfaceTextureListener(Landroid/view/TextureView$SurfaceTextureListener;)V
 
     .line 58
     return-void
@@ -97,36 +97,36 @@
     .line 32
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/widget/KikTextureVideoView;->g:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/KikTextureVideoView;->g:Z
 
     .line 33
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/widget/KikTextureVideoView;->h:I
+    iput v0, p0, Lkik/arcane/widget/KikTextureVideoView;->h:I
 
     .line 63
-    invoke-virtual {p0, p0}, Lkik/android/widget/KikTextureVideoView;->setSurfaceTextureListener(Landroid/view/TextureView$SurfaceTextureListener;)V
+    invoke-virtual {p0, p0}, Lkik/arcane/widget/KikTextureVideoView;->setSurfaceTextureListener(Landroid/view/TextureView$SurfaceTextureListener;)V
 
     .line 64
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/KikTextureVideoView;)Lkik/android/widget/KikTextureVideoView$VideoType;
+.method static synthetic a(Lkik/arcane/widget/KikTextureVideoView;)Lkik/arcane/widget/KikTextureVideoView$VideoType;
     .locals 1
 
     .prologue
     .line 20
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->k:Lkik/android/widget/KikTextureVideoView$VideoType;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->k:Lkik/arcane/widget/KikTextureVideoView$VideoType;
 
     return-object v0
 .end method
 
-.method static synthetic b(Lkik/android/widget/KikTextureVideoView;)Landroid/media/MediaPlayer;
+.method static synthetic b(Lkik/arcane/widget/KikTextureVideoView;)Landroid/media/MediaPlayer;
     .locals 1
 
     .prologue
     .line 20
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     return-object v0
 .end method
@@ -136,17 +136,17 @@
 
     .prologue
     .line 178
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     if-eqz v0, :cond_0
 
     .line 179
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0, p1, p2}, Landroid/media/MediaPlayer;->setVolume(FF)V
 
     .line 180
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0}, Landroid/media/MediaPlayer;->start()V
 
@@ -163,12 +163,12 @@
     goto :goto_0
 .end method
 
-.method static synthetic c(Lkik/android/widget/KikTextureVideoView;)Landroid/media/MediaPlayer$OnPreparedListener;
+.method static synthetic c(Lkik/arcane/widget/KikTextureVideoView;)Landroid/media/MediaPlayer$OnPreparedListener;
     .locals 1
 
     .prologue
     .line 20
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->d:Landroid/media/MediaPlayer$OnPreparedListener;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->d:Landroid/media/MediaPlayer$OnPreparedListener;
 
     return-object v0
 .end method
@@ -188,7 +188,7 @@
     const/4 v0, 0x0
 
     .line 270
-    iget-object v1, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v1, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     if-nez v1, :cond_0
 
@@ -200,58 +200,58 @@
 
     invoke-direct {v1}, Landroid/media/MediaPlayer;-><init>()V
 
-    iput-object v1, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iput-object v1, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     .line 273
-    iget-object v1, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v1, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
-    invoke-virtual {p0}, Lkik/android/widget/KikTextureVideoView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/KikTextureVideoView;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
-    iget-object v3, p0, Lkik/android/widget/KikTextureVideoView;->c:Landroid/net/Uri;
+    iget-object v3, p0, Lkik/arcane/widget/KikTextureVideoView;->c:Landroid/net/Uri;
 
     invoke-virtual {v1, v2, v3}, Landroid/media/MediaPlayer;->setDataSource(Landroid/content/Context;Landroid/net/Uri;)V
 
     .line 276
     :cond_0
-    iget-object v1, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v1, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
-    iget-object v2, p0, Lkik/android/widget/KikTextureVideoView;->b:Landroid/view/Surface;
+    iget-object v2, p0, Lkik/arcane/widget/KikTextureVideoView;->b:Landroid/view/Surface;
 
     invoke-virtual {v1, v2}, Landroid/media/MediaPlayer;->setSurface(Landroid/view/Surface;)V
 
     .line 277
-    iget-object v1, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v1, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
-    new-instance v2, Lkik/android/widget/KikTextureVideoView$1;
+    new-instance v2, Lkik/arcane/widget/KikTextureVideoView$1;
 
-    invoke-direct {v2, p0}, Lkik/android/widget/KikTextureVideoView$1;-><init>(Lkik/android/widget/KikTextureVideoView;)V
+    invoke-direct {v2, p0}, Lkik/arcane/widget/KikTextureVideoView$1;-><init>(Lkik/arcane/widget/KikTextureVideoView;)V
 
     invoke-virtual {v1, v2}, Landroid/media/MediaPlayer;->setOnPreparedListener(Landroid/media/MediaPlayer$OnPreparedListener;)V
 
     .line 290
-    iget-object v1, p0, Lkik/android/widget/KikTextureVideoView;->e:Landroid/media/MediaPlayer$OnCompletionListener;
+    iget-object v1, p0, Lkik/arcane/widget/KikTextureVideoView;->e:Landroid/media/MediaPlayer$OnCompletionListener;
 
     if-eqz v1, :cond_1
 
     .line 291
-    iget-object v1, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v1, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
-    iget-object v2, p0, Lkik/android/widget/KikTextureVideoView;->e:Landroid/media/MediaPlayer$OnCompletionListener;
+    iget-object v2, p0, Lkik/arcane/widget/KikTextureVideoView;->e:Landroid/media/MediaPlayer$OnCompletionListener;
 
     invoke-virtual {v1, v2}, Landroid/media/MediaPlayer;->setOnCompletionListener(Landroid/media/MediaPlayer$OnCompletionListener;)V
 
     .line 293
     :cond_1
-    iget-object v1, p0, Lkik/android/widget/KikTextureVideoView;->f:Landroid/media/MediaPlayer$OnErrorListener;
+    iget-object v1, p0, Lkik/arcane/widget/KikTextureVideoView;->f:Landroid/media/MediaPlayer$OnErrorListener;
 
     if-eqz v1, :cond_2
 
     .line 294
-    iget-object v1, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v1, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
-    iget-object v2, p0, Lkik/android/widget/KikTextureVideoView;->f:Landroid/media/MediaPlayer$OnErrorListener;
+    iget-object v2, p0, Lkik/arcane/widget/KikTextureVideoView;->f:Landroid/media/MediaPlayer$OnErrorListener;
 
     invoke-virtual {v1, v2}, Landroid/media/MediaPlayer;->setOnErrorListener(Landroid/media/MediaPlayer$OnErrorListener;)V
 
@@ -260,29 +260,29 @@
     if-eqz v0, :cond_4
 
     .line 298
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0}, Landroid/media/MediaPlayer;->prepare()V
 
     .line 1126
-    iget-boolean v0, p0, Lkik/android/widget/KikTextureVideoView;->g:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/KikTextureVideoView;->g:Z
 
     .line 299
     if-eqz v0, :cond_5
 
-    iget v0, p0, Lkik/android/widget/KikTextureVideoView;->h:I
+    iget v0, p0, Lkik/arcane/widget/KikTextureVideoView;->h:I
 
     if-eqz v0, :cond_3
 
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->k:Lkik/android/widget/KikTextureVideoView$VideoType;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->k:Lkik/arcane/widget/KikTextureVideoView$VideoType;
 
-    sget-object v1, Lkik/android/widget/KikTextureVideoView$VideoType;->VIDEO:Lkik/android/widget/KikTextureVideoView$VideoType;
+    sget-object v1, Lkik/arcane/widget/KikTextureVideoView$VideoType;->VIDEO:Lkik/arcane/widget/KikTextureVideoView$VideoType;
 
     if-eq v0, v1, :cond_5
 
     .line 1164
     :cond_3
-    invoke-direct {p0, v4, v4}, Lkik/android/widget/KikTextureVideoView;->b(FF)Z
+    invoke-direct {p0, v4, v4}, Lkik/arcane/widget/KikTextureVideoView;->b(FF)Z
 
     .line 306
     :cond_4
@@ -291,9 +291,9 @@
 
     .line 303
     :cond_5
-    iget v0, p0, Lkik/android/widget/KikTextureVideoView;->h:I
+    iget v0, p0, Lkik/arcane/widget/KikTextureVideoView;->h:I
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/KikTextureVideoView;->b(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/KikTextureVideoView;->b(I)V
 
     goto :goto_0
 .end method
@@ -305,10 +305,10 @@
 
     .prologue
     .line 75
-    iput p2, p0, Lkik/android/widget/KikTextureVideoView;->j:F
+    iput p2, p0, Lkik/arcane/widget/KikTextureVideoView;->j:F
 
     .line 76
-    iput p1, p0, Lkik/android/widget/KikTextureVideoView;->i:F
+    iput p1, p0, Lkik/arcane/widget/KikTextureVideoView;->i:F
 
     .line 77
     return-void
@@ -319,7 +319,7 @@
 
     .prologue
     .line 131
-    iput p1, p0, Lkik/android/widget/KikTextureVideoView;->h:I
+    iput p1, p0, Lkik/arcane/widget/KikTextureVideoView;->h:I
 
     .line 132
     return-void
@@ -330,15 +330,15 @@
 
     .prologue
     .line 144
-    iput-object p1, p0, Lkik/android/widget/KikTextureVideoView;->e:Landroid/media/MediaPlayer$OnCompletionListener;
+    iput-object p1, p0, Lkik/arcane/widget/KikTextureVideoView;->e:Landroid/media/MediaPlayer$OnCompletionListener;
 
     .line 145
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     if-eqz v0, :cond_0
 
     .line 146
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0, p1}, Landroid/media/MediaPlayer;->setOnCompletionListener(Landroid/media/MediaPlayer$OnCompletionListener;)V
 
@@ -352,15 +352,15 @@
 
     .prologue
     .line 152
-    iput-object p1, p0, Lkik/android/widget/KikTextureVideoView;->f:Landroid/media/MediaPlayer$OnErrorListener;
+    iput-object p1, p0, Lkik/arcane/widget/KikTextureVideoView;->f:Landroid/media/MediaPlayer$OnErrorListener;
 
     .line 153
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     if-eqz v0, :cond_0
 
     .line 154
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0, p1}, Landroid/media/MediaPlayer;->setOnErrorListener(Landroid/media/MediaPlayer$OnErrorListener;)V
 
@@ -374,15 +374,15 @@
 
     .prologue
     .line 136
-    iput-object p1, p0, Lkik/android/widget/KikTextureVideoView;->d:Landroid/media/MediaPlayer$OnPreparedListener;
+    iput-object p1, p0, Lkik/arcane/widget/KikTextureVideoView;->d:Landroid/media/MediaPlayer$OnPreparedListener;
 
     .line 137
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     if-eqz v0, :cond_0
 
     .line 138
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0, p1}, Landroid/media/MediaPlayer;->setOnPreparedListener(Landroid/media/MediaPlayer$OnPreparedListener;)V
 
@@ -396,32 +396,32 @@
 
     .prologue
     .line 95
-    iput-object p1, p0, Lkik/android/widget/KikTextureVideoView;->c:Landroid/net/Uri;
+    iput-object p1, p0, Lkik/arcane/widget/KikTextureVideoView;->c:Landroid/net/Uri;
 
     .line 96
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->b:Landroid/view/Surface;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->b:Landroid/view/Surface;
 
     if-eqz v0, :cond_1
 
     .line 97
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     if-eqz v0, :cond_0
 
     .line 98
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0}, Landroid/media/MediaPlayer;->release()V
 
     .line 99
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iput-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     .line 102
     :cond_0
     :try_start_0
-    invoke-direct {p0}, Lkik/android/widget/KikTextureVideoView;->h()V
+    invoke-direct {p0}, Lkik/arcane/widget/KikTextureVideoView;->h()V
     :try_end_0
     .catch Ljava/lang/Throwable; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -436,12 +436,12 @@
     goto :goto_0
 .end method
 
-.method public final a(Lkik/android/widget/KikTextureVideoView$VideoType;)V
+.method public final a(Lkik/arcane/widget/KikTextureVideoView$VideoType;)V
     .locals 0
 
     .prologue
     .line 116
-    iput-object p1, p0, Lkik/android/widget/KikTextureVideoView;->k:Lkik/android/widget/KikTextureVideoView$VideoType;
+    iput-object p1, p0, Lkik/arcane/widget/KikTextureVideoView;->k:Lkik/arcane/widget/KikTextureVideoView$VideoType;
 
     .line 117
     return-void
@@ -452,7 +452,7 @@
 
     .prologue
     .line 121
-    iput-boolean p1, p0, Lkik/android/widget/KikTextureVideoView;->g:Z
+    iput-boolean p1, p0, Lkik/arcane/widget/KikTextureVideoView;->g:Z
 
     .line 122
     return-void
@@ -465,7 +465,7 @@
     const/high16 v0, 0x3f800000    # 1.0f
 
     .line 164
-    invoke-direct {p0, v0, v0}, Lkik/android/widget/KikTextureVideoView;->b(FF)Z
+    invoke-direct {p0, v0, v0}, Lkik/arcane/widget/KikTextureVideoView;->b(FF)Z
 
     move-result v0
 
@@ -477,12 +477,12 @@
 
     .prologue
     .line 226
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     if-eqz v0, :cond_0
 
     .line 227
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0, p1}, Landroid/media/MediaPlayer;->seekTo(I)V
 
@@ -498,7 +498,7 @@
     const/4 v0, 0x0
 
     .line 173
-    invoke-direct {p0, v0, v0}, Lkik/android/widget/KikTextureVideoView;->b(FF)Z
+    invoke-direct {p0, v0, v0}, Lkik/arcane/widget/KikTextureVideoView;->b(FF)Z
 
     move-result v0
 
@@ -510,12 +510,12 @@
 
     .prologue
     .line 192
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     if-eqz v0, :cond_0
 
     .line 193
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0}, Landroid/media/MediaPlayer;->pause()V
 
@@ -537,12 +537,12 @@
 
     .prologue
     .line 205
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     if-eqz v0, :cond_0
 
     .line 206
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0}, Landroid/media/MediaPlayer;->getCurrentPosition()I
 
@@ -563,11 +563,11 @@
 
     .prologue
     .line 217
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0}, Landroid/media/MediaPlayer;->isPlaying()Z
 
@@ -591,12 +591,12 @@
 
     .prologue
     .line 237
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     if-eqz v0, :cond_0
 
     .line 238
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0}, Landroid/media/MediaPlayer;->getDuration()I
 
@@ -619,12 +619,12 @@
     const/4 v1, 0x0
 
     .line 249
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     if-eqz v0, :cond_1
 
     .line 250
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0}, Landroid/media/MediaPlayer;->isPlaying()Z
 
@@ -633,37 +633,37 @@
     if-eqz v0, :cond_0
 
     .line 251
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0}, Landroid/media/MediaPlayer;->stop()V
 
     .line 253
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0}, Landroid/media/MediaPlayer;->reset()V
 
     .line 254
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     invoke-virtual {v0}, Landroid/media/MediaPlayer;->release()V
 
     .line 255
-    iput-object v1, p0, Lkik/android/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
+    iput-object v1, p0, Lkik/arcane/widget/KikTextureVideoView;->a:Landroid/media/MediaPlayer;
 
     .line 257
     :cond_1
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->b:Landroid/view/Surface;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->b:Landroid/view/Surface;
 
     if-eqz v0, :cond_2
 
     .line 258
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->b:Landroid/view/Surface;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->b:Landroid/view/Surface;
 
     invoke-virtual {v0}, Landroid/view/Surface;->release()V
 
     .line 259
-    iput-object v1, p0, Lkik/android/widget/KikTextureVideoView;->b:Landroid/view/Surface;
+    iput-object v1, p0, Lkik/arcane/widget/KikTextureVideoView;->b:Landroid/view/Surface;
 
     .line 261
     :cond_2
@@ -687,22 +687,22 @@
     move-result v0
 
     .line 314
-    iget v2, p0, Lkik/android/widget/KikTextureVideoView;->i:F
+    iget v2, p0, Lkik/arcane/widget/KikTextureVideoView;->i:F
 
     cmpl-float v2, v2, v3
 
     if-ltz v2, :cond_1
 
-    iget v2, p0, Lkik/android/widget/KikTextureVideoView;->j:F
+    iget v2, p0, Lkik/arcane/widget/KikTextureVideoView;->j:F
 
     cmpl-float v2, v2, v3
 
     if-lez v2, :cond_1
 
     .line 315
-    iget v2, p0, Lkik/android/widget/KikTextureVideoView;->i:F
+    iget v2, p0, Lkik/arcane/widget/KikTextureVideoView;->i:F
 
-    iget v3, p0, Lkik/android/widget/KikTextureVideoView;->j:F
+    iget v3, p0, Lkik/arcane/widget/KikTextureVideoView;->j:F
 
     div-float/2addr v2, v3
 
@@ -733,7 +733,7 @@
 
     .line 323
     :goto_0
-    invoke-virtual {p0, v1, v0}, Lkik/android/widget/KikTextureVideoView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v1, v0}, Lkik/arcane/widget/KikTextureVideoView;->setMeasuredDimension(II)V
 
     .line 328
     :goto_1
@@ -771,16 +771,16 @@
 
     invoke-direct {v0, p1}, Landroid/view/Surface;-><init>(Landroid/graphics/SurfaceTexture;)V
 
-    iput-object v0, p0, Lkik/android/widget/KikTextureVideoView;->b:Landroid/view/Surface;
+    iput-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->b:Landroid/view/Surface;
 
     .line 334
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView;->c:Landroid/net/Uri;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView;->c:Landroid/net/Uri;
 
     if-eqz v0, :cond_0
 
     .line 336
     :try_start_0
-    invoke-direct {p0}, Lkik/android/widget/KikTextureVideoView;->h()V
+    invoke-direct {p0}, Lkik/arcane/widget/KikTextureVideoView;->h()V
     :try_end_0
     .catch Ljava/lang/Throwable; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -800,7 +800,7 @@
 
     .prologue
     .line 353
-    invoke-virtual {p0}, Lkik/android/widget/KikTextureVideoView;->g()V
+    invoke-virtual {p0}, Lkik/arcane/widget/KikTextureVideoView;->g()V
 
     .line 354
     const/4 v0, 0x1

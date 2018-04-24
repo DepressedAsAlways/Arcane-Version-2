@@ -1,4 +1,4 @@
-.class public final Lkik/android/gifs/api/GifResponseData;
+.class public final Lkik/arcane/gifs/api/GifResponseData;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/gifs/api/GifResponseData$MediaType;
+        Lkik/arcane/gifs/api/GifResponseData$MediaType;
     }
 .end annotation
 
@@ -29,8 +29,8 @@
         value = {
             "Ljava/util/Map",
             "<",
-            "Lkik/android/gifs/api/GifResponseData$MediaType;",
-            "Lkik/android/gifs/api/e;",
+            "Lkik/arcane/gifs/api/GifResponseData$MediaType;",
+            "Lkik/arcane/gifs/api/e;",
             ">;"
         }
     .end annotation
@@ -50,25 +50,25 @@
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    iput-object v0, p0, Lkik/android/gifs/api/GifResponseData;->g:Ljava/util/Map;
+    iput-object v0, p0, Lkik/arcane/gifs/api/GifResponseData;->g:Ljava/util/Map;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Lkik/android/gifs/api/GifResponseData$MediaType;)Lkik/android/gifs/api/e;
+.method public final a(Lkik/arcane/gifs/api/GifResponseData$MediaType;)Lkik/arcane/gifs/api/e;
     .locals 1
 
     .prologue
     .line 157
-    iget-object v0, p0, Lkik/android/gifs/api/GifResponseData;->g:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/gifs/api/GifResponseData;->g:Ljava/util/Map;
 
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/gifs/api/e;
+    check-cast v0, Lkik/arcane/gifs/api/e;
 
     return-object v0
 .end method
@@ -78,18 +78,18 @@
 
     .prologue
     .line 65
-    iput-object p1, p0, Lkik/android/gifs/api/GifResponseData;->c:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/gifs/api/GifResponseData;->c:Ljava/lang/String;
 
     .line 66
     return-void
 .end method
 
-.method protected final a(Lkik/android/gifs/api/GifResponseData$MediaType;Lkik/android/gifs/api/e;)V
+.method protected final a(Lkik/arcane/gifs/api/GifResponseData$MediaType;Lkik/arcane/gifs/api/e;)V
     .locals 1
 
     .prologue
     .line 112
-    iget-object v0, p0, Lkik/android/gifs/api/GifResponseData;->g:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/gifs/api/GifResponseData;->g:Ljava/util/Map;
 
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -102,7 +102,7 @@
 
     .prologue
     .line 50
-    iput-boolean p1, p0, Lkik/android/gifs/api/GifResponseData;->b:Z
+    iput-boolean p1, p0, Lkik/arcane/gifs/api/GifResponseData;->b:Z
 
     .line 51
     return-void
@@ -113,7 +113,7 @@
 
     .prologue
     .line 45
-    iget-boolean v0, p0, Lkik/android/gifs/api/GifResponseData;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/gifs/api/GifResponseData;->b:Z
 
     return v0
 .end method
@@ -123,14 +123,14 @@
 
     .prologue
     .line 55
-    iget-boolean v0, p0, Lkik/android/gifs/api/GifResponseData;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/gifs/api/GifResponseData;->b:Z
 
     if-nez v0, :cond_0
 
     const/4 v0, 0x1
 
     :goto_0
-    iput-boolean v0, p0, Lkik/android/gifs/api/GifResponseData;->b:Z
+    iput-boolean v0, p0, Lkik/arcane/gifs/api/GifResponseData;->b:Z
 
     .line 56
     return-void
@@ -147,7 +147,7 @@
 
     .prologue
     .line 75
-    iput-object p1, p0, Lkik/android/gifs/api/GifResponseData;->d:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/gifs/api/GifResponseData;->d:Ljava/lang/String;
 
     .line 76
     return-void
@@ -158,7 +158,7 @@
 
     .prologue
     .line 95
-    iput-boolean p1, p0, Lkik/android/gifs/api/GifResponseData;->a:Z
+    iput-boolean p1, p0, Lkik/arcane/gifs/api/GifResponseData;->a:Z
 
     .line 96
     return-void
@@ -169,7 +169,7 @@
 
     .prologue
     .line 60
-    iget-object v0, p0, Lkik/android/gifs/api/GifResponseData;->c:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/gifs/api/GifResponseData;->c:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -179,7 +179,7 @@
 
     .prologue
     .line 85
-    iput-object p1, p0, Lkik/android/gifs/api/GifResponseData;->e:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/gifs/api/GifResponseData;->e:Ljava/lang/String;
 
     .line 86
     return-void
@@ -190,7 +190,7 @@
 
     .prologue
     .line 70
-    iget-object v0, p0, Lkik/android/gifs/api/GifResponseData;->d:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/gifs/api/GifResponseData;->d:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -200,7 +200,7 @@
 
     .prologue
     .line 100
-    iput-object p1, p0, Lkik/android/gifs/api/GifResponseData;->f:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/gifs/api/GifResponseData;->f:Ljava/lang/String;
 
     .line 101
     return-void
@@ -211,7 +211,7 @@
 
     .prologue
     .line 80
-    iget-object v0, p0, Lkik/android/gifs/api/GifResponseData;->e:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/gifs/api/GifResponseData;->e:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -222,23 +222,23 @@
     .prologue
     .line 163
     .line 1105
-    iget-object v0, p0, Lkik/android/gifs/api/GifResponseData;->f:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/gifs/api/GifResponseData;->f:Ljava/lang/String;
 
     .line 163
     if-eqz v0, :cond_0
 
-    instance-of v0, p1, Lkik/android/gifs/api/GifResponseData;
+    instance-of v0, p1, Lkik/arcane/gifs/api/GifResponseData;
 
     if-eqz v0, :cond_0
 
     .line 2105
-    iget-object v0, p0, Lkik/android/gifs/api/GifResponseData;->f:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/gifs/api/GifResponseData;->f:Ljava/lang/String;
 
     .line 163
-    check-cast p1, Lkik/android/gifs/api/GifResponseData;
+    check-cast p1, Lkik/arcane/gifs/api/GifResponseData;
 
     .line 3105
-    iget-object v1, p1, Lkik/android/gifs/api/GifResponseData;->f:Ljava/lang/String;
+    iget-object v1, p1, Lkik/arcane/gifs/api/GifResponseData;->f:Ljava/lang/String;
 
     .line 163
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -263,7 +263,7 @@
 
     .prologue
     .line 90
-    iget-boolean v0, p0, Lkik/android/gifs/api/GifResponseData;->a:Z
+    iget-boolean v0, p0, Lkik/arcane/gifs/api/GifResponseData;->a:Z
 
     return v0
 .end method
@@ -273,7 +273,7 @@
 
     .prologue
     .line 105
-    iget-object v0, p0, Lkik/android/gifs/api/GifResponseData;->f:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/gifs/api/GifResponseData;->f:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -289,48 +289,48 @@
     const/4 v4, 0x0
 
     .line 121
-    iget-object v0, p0, Lkik/android/gifs/api/GifResponseData;->g:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/gifs/api/GifResponseData;->g:Ljava/util/Map;
 
-    sget-object v1, Lkik/android/gifs/a;->e:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v1, Lkik/arcane/gifs/a;->e:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/gifs/api/e;
+    check-cast v0, Lkik/arcane/gifs/api/e;
 
     .line 122
-    iget-object v1, p0, Lkik/android/gifs/api/GifResponseData;->g:Ljava/util/Map;
+    iget-object v1, p0, Lkik/arcane/gifs/api/GifResponseData;->g:Ljava/util/Map;
 
-    sget-object v2, Lkik/android/gifs/a;->c:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v2, Lkik/arcane/gifs/a;->c:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     invoke-interface {v1, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lkik/android/gifs/api/e;
+    check-cast v1, Lkik/arcane/gifs/api/e;
 
     .line 123
-    iget-object v2, p0, Lkik/android/gifs/api/GifResponseData;->g:Ljava/util/Map;
+    iget-object v2, p0, Lkik/arcane/gifs/api/GifResponseData;->g:Ljava/util/Map;
 
-    sget-object v3, Lkik/android/gifs/api/GifResponseData$MediaType;->NanoMP4:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v3, Lkik/arcane/gifs/api/GifResponseData$MediaType;->NanoMP4:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     invoke-interface {v2, v3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
-    check-cast v2, Lkik/android/gifs/api/e;
+    check-cast v2, Lkik/arcane/gifs/api/e;
 
     .line 124
-    iget-object v3, p0, Lkik/android/gifs/api/GifResponseData;->g:Ljava/util/Map;
+    iget-object v3, p0, Lkik/arcane/gifs/api/GifResponseData;->g:Ljava/util/Map;
 
-    sget-object v5, Lkik/android/gifs/api/GifResponseData$MediaType;->NanoWebM:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v5, Lkik/arcane/gifs/api/GifResponseData$MediaType;->NanoWebM:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     invoke-interface {v3, v5}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
-    check-cast v3, Lkik/android/gifs/api/e;
+    check-cast v3, Lkik/arcane/gifs/api/e;
 
     .line 127
     if-eqz v1, :cond_0
@@ -346,12 +346,12 @@
 
     .line 132
     :cond_1
-    invoke-virtual {v1}, Lkik/android/gifs/api/e;->b()Landroid/graphics/Point;
+    invoke-virtual {v1}, Lkik/arcane/gifs/api/e;->b()Landroid/graphics/Point;
 
     move-result-object v1
 
     .line 133
-    invoke-virtual {v0}, Lkik/android/gifs/api/e;->b()Landroid/graphics/Point;
+    invoke-virtual {v0}, Lkik/arcane/gifs/api/e;->b()Landroid/graphics/Point;
 
     move-result-object v0
 
@@ -377,12 +377,12 @@
     if-eqz v2, :cond_5
 
     .line 140
-    invoke-virtual {v3}, Lkik/android/gifs/api/e;->b()Landroid/graphics/Point;
+    invoke-virtual {v3}, Lkik/arcane/gifs/api/e;->b()Landroid/graphics/Point;
 
     move-result-object v0
 
     .line 141
-    invoke-virtual {v2}, Lkik/android/gifs/api/e;->b()Landroid/graphics/Point;
+    invoke-virtual {v2}, Lkik/arcane/gifs/api/e;->b()Landroid/graphics/Point;
 
     move-result-object v1
 

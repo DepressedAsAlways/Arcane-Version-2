@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/widget/af;
+.class final synthetic Lkik/arcane/widget/af;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/widget/EllipsisTextView;
+.field private final a:Lkik/arcane/widget/EllipsisTextView;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/widget/EllipsisTextView;)V
+.method private constructor <init>(Lkik/arcane/widget/EllipsisTextView;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/widget/af;->a:Lkik/android/widget/EllipsisTextView;
+    iput-object p1, p0, Lkik/arcane/widget/af;->a:Lkik/arcane/widget/EllipsisTextView;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/EllipsisTextView;)Ljava/lang/Runnable;
+.method public static a(Lkik/arcane/widget/EllipsisTextView;)Ljava/lang/Runnable;
     .locals 1
 
-    new-instance v0, Lkik/android/widget/af;
+    new-instance v0, Lkik/arcane/widget/af;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/af;-><init>(Lkik/android/widget/EllipsisTextView;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/af;-><init>(Lkik/arcane/widget/EllipsisTextView;)V
 
     return-object v0
 .end method
@@ -35,9 +35,9 @@
 .method public final run()V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/widget/af;->a:Lkik/android/widget/EllipsisTextView;
+    iget-object v0, p0, Lkik/arcane/widget/af;->a:Lkik/arcane/widget/EllipsisTextView;
 
-    invoke-virtual {v0}, Lkik/android/widget/EllipsisTextView;->b()V
+    invoke-virtual {v0}, Lkik/arcane/widget/EllipsisTextView;->b()V
 
     return-void
 .end method

@@ -1,4 +1,4 @@
-.class public final Lkik/android/gifs/a/b;
+.class public final Lkik/arcane/gifs/a/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -9,7 +9,7 @@
         value = {
             "Ljava/util/List",
             "<",
-            "Lkik/android/gifs/a/a;",
+            "Lkik/arcane/gifs/a/a;",
             ">;"
         }
     .end annotation
@@ -29,7 +29,7 @@
 
     invoke-direct {v0}, Ljava/util/LinkedList;-><init>()V
 
-    iput-object v0, p0, Lkik/android/gifs/a/b;->a:Ljava/util/List;
+    iput-object v0, p0, Lkik/arcane/gifs/a/b;->a:Ljava/util/List;
 
     .line 13
     return-void

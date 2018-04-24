@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/vm/bz$3;
+.class final Lkik/arcane/chat/vm/bz$3;
 .super Lrx/i;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/bz;->j()V
+    value = Lkik/arcane/chat/vm/bz;->j()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/bz;
+.field final synthetic a:Lkik/arcane/chat/vm/bz;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/bz;)V
+.method constructor <init>(Lkik/arcane/chat/vm/bz;)V
     .locals 0
 
     .prologue
     .line 235
-    iput-object p1, p0, Lkik/android/chat/vm/bz$3;->a:Lkik/android/chat/vm/bz;
+    iput-object p1, p0, Lkik/arcane/chat/vm/bz$3;->a:Lkik/arcane/chat/vm/bz;
 
     invoke-direct {p0}, Lrx/i;-><init>()V
 
@@ -50,9 +50,9 @@
     check-cast p1, Lcom/kik/featureconfig/rpc/FeatureConfigService$GetFeatureConfigsResponse;
 
     .line 1239
-    iget-object v0, p0, Lkik/android/chat/vm/bz$3;->a:Lkik/android/chat/vm/bz;
+    iget-object v0, p0, Lkik/arcane/chat/vm/bz$3;->a:Lkik/arcane/chat/vm/bz;
 
-    invoke-static {v0}, Lkik/android/chat/vm/bz;->d(Lkik/android/chat/vm/bz;)Lrx/subjects/a;
+    invoke-static {v0}, Lkik/arcane/chat/vm/bz;->d(Lkik/arcane/chat/vm/bz;)Lrx/subjects/a;
 
     move-result-object v0
 
@@ -65,9 +65,9 @@
     invoke-virtual {v0, v1}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 
     .line 1240
-    iget-object v0, p0, Lkik/android/chat/vm/bz$3;->a:Lkik/android/chat/vm/bz;
+    iget-object v0, p0, Lkik/arcane/chat/vm/bz$3;->a:Lkik/arcane/chat/vm/bz;
 
-    iget-object v0, v0, Lkik/android/chat/vm/bz;->e:Ldagger/a;
+    iget-object v0, v0, Lkik/arcane/chat/vm/bz;->e:Ldagger/a;
 
     invoke-interface {v0}, Ldagger/a;->get()Ljava/lang/Object;
 
@@ -78,11 +78,11 @@
     invoke-interface {v0, p1}, Lcom/kik/core/a/c;->a(Lcom/kik/featureconfig/rpc/FeatureConfigService$GetFeatureConfigsResponse;)V
 
     .line 1241
-    iget-object v1, p0, Lkik/android/chat/vm/bz$3;->a:Lkik/android/chat/vm/bz;
+    iget-object v1, p0, Lkik/arcane/chat/vm/bz$3;->a:Lkik/arcane/chat/vm/bz;
 
-    iget-object v0, p0, Lkik/android/chat/vm/bz$3;->a:Lkik/android/chat/vm/bz;
+    iget-object v0, p0, Lkik/arcane/chat/vm/bz$3;->a:Lkik/arcane/chat/vm/bz;
 
-    iget-object v0, v0, Lkik/android/chat/vm/bz;->e:Ldagger/a;
+    iget-object v0, v0, Lkik/arcane/chat/vm/bz;->e:Ldagger/a;
 
     invoke-interface {v0}, Ldagger/a;->get()Ljava/lang/Object;
 
@@ -94,12 +94,12 @@
 
     move-result-object v0
 
-    invoke-static {v1, v0}, Lkik/android/chat/vm/bz;->a(Lkik/android/chat/vm/bz;Ljava/util/List;)Ljava/util/List;
+    invoke-static {v1, v0}, Lkik/arcane/chat/vm/bz;->a(Lkik/arcane/chat/vm/bz;Ljava/util/List;)Ljava/util/List;
 
     .line 1242
-    iget-object v0, p0, Lkik/android/chat/vm/bz$3;->a:Lkik/android/chat/vm/bz;
+    iget-object v0, p0, Lkik/arcane/chat/vm/bz$3;->a:Lkik/arcane/chat/vm/bz;
 
-    invoke-virtual {v0}, Lkik/android/chat/vm/bz;->aM_()V
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/bz;->aM_()V
 
     .line 235
     return-void
@@ -110,9 +110,9 @@
 
     .prologue
     .line 248
-    iget-object v0, p0, Lkik/android/chat/vm/bz$3;->a:Lkik/android/chat/vm/bz;
+    iget-object v0, p0, Lkik/arcane/chat/vm/bz$3;->a:Lkik/arcane/chat/vm/bz;
 
-    invoke-static {v0}, Lkik/android/chat/vm/bz;->d(Lkik/android/chat/vm/bz;)Lrx/subjects/a;
+    invoke-static {v0}, Lkik/arcane/chat/vm/bz;->d(Lkik/arcane/chat/vm/bz;)Lrx/subjects/a;
 
     move-result-object v0
 
@@ -125,9 +125,9 @@
     invoke-virtual {v0, v1}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 
     .line 249
-    iget-object v0, p0, Lkik/android/chat/vm/bz$3;->a:Lkik/android/chat/vm/bz;
+    iget-object v0, p0, Lkik/arcane/chat/vm/bz$3;->a:Lkik/arcane/chat/vm/bz;
 
-    invoke-static {v0}, Lkik/android/chat/vm/bz;->e(Lkik/android/chat/vm/bz;)V
+    invoke-static {v0}, Lkik/arcane/chat/vm/bz;->e(Lkik/arcane/chat/vm/bz;)V
 
     .line 251
     return-void

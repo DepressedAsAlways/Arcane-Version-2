@@ -1,11 +1,11 @@
-.class interface abstract Lkik/android/widget/ct$a;
+.class interface abstract Lkik/arcane/widget/ct$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/ct;
+    value = Lkik/arcane/widget/ct;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

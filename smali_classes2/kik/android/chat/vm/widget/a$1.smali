@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/vm/widget/a$1;
+.class final Lkik/arcane/chat/vm/widget/a$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/widget/a;
+    value = Lkik/arcane/chat/vm/widget/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Lkik/core/datatypes/x;
 
-.field final synthetic b:Lkik/android/chat/vm/widget/a;
+.field final synthetic b:Lkik/arcane/chat/vm/widget/a;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/widget/a;Lkik/core/datatypes/x;)V
+.method constructor <init>(Lkik/arcane/chat/vm/widget/a;Lkik/core/datatypes/x;)V
     .locals 0
 
     .prologue
     .line 79
-    iput-object p1, p0, Lkik/android/chat/vm/widget/a$1;->b:Lkik/android/chat/vm/widget/a;
+    iput-object p1, p0, Lkik/arcane/chat/vm/widget/a$1;->b:Lkik/arcane/chat/vm/widget/a;
 
-    iput-object p2, p0, Lkik/android/chat/vm/widget/a$1;->a:Lkik/core/datatypes/x;
+    iput-object p2, p0, Lkik/arcane/chat/vm/widget/a$1;->a:Lkik/core/datatypes/x;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -53,9 +53,9 @@
 
     .prologue
     .line 91
-    iget-object v0, p0, Lkik/android/chat/vm/widget/a$1;->b:Lkik/android/chat/vm/widget/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/widget/a$1;->b:Lkik/arcane/chat/vm/widget/a;
 
-    iget-object v0, v0, Lkik/android/chat/vm/widget/a;->c:Lkik/core/interfaces/h;
+    iget-object v0, v0, Lkik/arcane/chat/vm/widget/a;->c:Lkik/core/interfaces/h;
 
     if-eqz v0, :cond_1
 
@@ -65,33 +65,33 @@
 
     .line 92
     :cond_0
-    invoke-static {}, Lkik/android/internal/platform/PlatformHelper;->a()Lkik/android/internal/platform/PlatformHelper;
+    invoke-static {}, Lkik/arcane/internal/platform/PlatformHelper;->a()Lkik/arcane/internal/platform/PlatformHelper;
 
-    iget-object v0, p0, Lkik/android/chat/vm/widget/a$1;->a:Lkik/core/datatypes/x;
+    iget-object v0, p0, Lkik/arcane/chat/vm/widget/a$1;->a:Lkik/core/datatypes/x;
 
-    iget-object v1, p0, Lkik/android/chat/vm/widget/a$1;->b:Lkik/android/chat/vm/widget/a;
+    iget-object v1, p0, Lkik/arcane/chat/vm/widget/a$1;->b:Lkik/arcane/chat/vm/widget/a;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/widget/a;->d()Lkik/android/internal/platform/PlatformHelper$StickerSource;
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/widget/a;->d()Lkik/arcane/internal/platform/PlatformHelper$StickerSource;
 
     move-result-object v1
 
-    invoke-static {v0, p1, v1}, Lkik/android/internal/platform/PlatformHelper;->a(Lkik/core/datatypes/x;[BLkik/android/internal/platform/PlatformHelper$StickerSource;)Lkik/core/datatypes/messageExtensions/ContentMessage;
+    invoke-static {v0, p1, v1}, Lkik/arcane/internal/platform/PlatformHelper;->a(Lkik/core/datatypes/x;[BLkik/arcane/internal/platform/PlatformHelper$StickerSource;)Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     move-result-object v0
 
     .line 93
-    iget-object v1, p0, Lkik/android/chat/vm/widget/a$1;->b:Lkik/android/chat/vm/widget/a;
+    iget-object v1, p0, Lkik/arcane/chat/vm/widget/a$1;->b:Lkik/arcane/chat/vm/widget/a;
 
-    iget-object v1, v1, Lkik/android/chat/vm/widget/a;->c:Lkik/core/interfaces/h;
+    iget-object v1, v1, Lkik/arcane/chat/vm/widget/a;->c:Lkik/core/interfaces/h;
 
     invoke-interface {v1, v0}, Lkik/core/interfaces/h;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;)V
 
     .line 94
-    iget-object v0, p0, Lkik/android/chat/vm/widget/a$1;->b:Lkik/android/chat/vm/widget/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/widget/a$1;->b:Lkik/arcane/chat/vm/widget/a;
 
-    iget-object v1, p0, Lkik/android/chat/vm/widget/a$1;->a:Lkik/core/datatypes/x;
+    iget-object v1, p0, Lkik/arcane/chat/vm/widget/a$1;->a:Lkik/core/datatypes/x;
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/vm/widget/a;->b(Lkik/core/datatypes/x;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/vm/widget/a;->b(Lkik/core/datatypes/x;)V
 
     .line 96
     :cond_1

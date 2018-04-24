@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/b/a$2;
+.class final Lkik/arcane/chat/b/a$2;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/b/a;->d()V
+    value = Lkik/arcane/chat/b/a;->d()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/b/a;
+.field final synthetic a:Lkik/arcane/chat/b/a;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/b/a;)V
+.method constructor <init>(Lkik/arcane/chat/b/a;)V
     .locals 0
 
     .prologue
     .line 105
-    iput-object p1, p0, Lkik/android/chat/b/a$2;->a:Lkik/android/chat/b/a;
+    iput-object p1, p0, Lkik/arcane/chat/b/a$2;->a:Lkik/arcane/chat/b/a;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -63,13 +63,13 @@
     if-eqz v0, :cond_0
 
     .line 1114
-    iget-object v0, p0, Lkik/android/chat/b/a$2;->a:Lkik/android/chat/b/a;
+    iget-object v0, p0, Lkik/arcane/chat/b/a$2;->a:Lkik/arcane/chat/b/a;
 
     invoke-virtual {p1}, Lcom/kik/xdata/model/userpreferences/XUserPreferences;->b()Lcom/kik/xdata/model/userpreferences/XUserPreferences$XBubbleColor;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/b/a;->a(Lcom/kik/xdata/model/userpreferences/XUserPreferences$XBubbleColor;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/b/a;->a(Lcom/kik/xdata/model/userpreferences/XUserPreferences$XBubbleColor;)V
 
     .line 1117
     :cond_0
@@ -80,7 +80,7 @@
     if-eqz v0, :cond_1
 
     .line 1118
-    iget-object v0, p0, Lkik/android/chat/b/a$2;->a:Lkik/android/chat/b/a;
+    iget-object v0, p0, Lkik/arcane/chat/b/a$2;->a:Lkik/arcane/chat/b/a;
 
     invoke-virtual {p1}, Lcom/kik/xdata/model/userpreferences/XUserPreferences;->a()Ljava/lang/Boolean;
 
@@ -90,7 +90,7 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/b/a;->a(Z)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/b/a;->a(Z)V
 
     .line 1121
     :cond_1
@@ -101,7 +101,7 @@
     if-eqz v0, :cond_2
 
     .line 1122
-    iget-object v0, p0, Lkik/android/chat/b/a$2;->a:Lkik/android/chat/b/a;
+    iget-object v0, p0, Lkik/arcane/chat/b/a$2;->a:Lkik/arcane/chat/b/a;
 
     invoke-virtual {p1}, Lcom/kik/xdata/model/userpreferences/XUserPreferences;->c()Ljava/lang/Boolean;
 
@@ -111,18 +111,18 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/b/a;->b(Z)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/b/a;->b(Z)V
 
     .line 1124
     :cond_2
-    iget-object v0, p0, Lkik/android/chat/b/a$2;->a:Lkik/android/chat/b/a;
+    iget-object v0, p0, Lkik/arcane/chat/b/a$2;->a:Lkik/arcane/chat/b/a;
 
-    invoke-static {v0}, Lkik/android/chat/b/a;->a(Lkik/android/chat/b/a;)V
+    invoke-static {v0}, Lkik/arcane/chat/b/a;->a(Lkik/arcane/chat/b/a;)V
 
     .line 1125
-    iget-object v0, p0, Lkik/android/chat/b/a$2;->a:Lkik/android/chat/b/a;
+    iget-object v0, p0, Lkik/arcane/chat/b/a$2;->a:Lkik/arcane/chat/b/a;
 
-    invoke-static {v0}, Lkik/android/chat/b/a;->b(Lkik/android/chat/b/a;)Lcom/kik/events/Promise;
+    invoke-static {v0}, Lkik/arcane/chat/b/a;->b(Lkik/arcane/chat/b/a;)Lcom/kik/events/Promise;
 
     move-result-object v0
 

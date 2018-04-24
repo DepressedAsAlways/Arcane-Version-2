@@ -4,19 +4,19 @@
 
 
 # instance fields
-.field private final f:Lkik/android/chat/presentation/s;
+.field private final f:Lkik/arcane/chat/presentation/s;
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;Lkik/android/chat/presentation/s;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;Lkik/arcane/chat/presentation/s;)V
     .locals 0
 
     .prologue
     .line 25
-    invoke-direct {p0, p1, p2, p3}, Lcom/kik/view/adapters/AbstractBotsAdapter;-><init>(Landroid/content/Context;Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/kik/view/adapters/AbstractBotsAdapter;-><init>(Landroid/content/Context;Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
 
     .line 26
-    iput-object p4, p0, Lcom/kik/view/adapters/r;->f:Lkik/android/chat/presentation/s;
+    iput-object p4, p0, Lcom/kik/view/adapters/r;->f:Lkik/arcane/chat/presentation/s;
 
     .line 27
     return-void
@@ -27,9 +27,9 @@
 
     .prologue
     .line 63
-    iget-object v0, p0, Lcom/kik/view/adapters/r;->f:Lkik/android/chat/presentation/s;
+    iget-object v0, p0, Lcom/kik/view/adapters/r;->f:Lkik/arcane/chat/presentation/s;
 
-    invoke-interface {v0}, Lkik/android/chat/presentation/s;->b()V
+    invoke-interface {v0}, Lkik/arcane/chat/presentation/s;->b()V
 
     return-void
 .end method
@@ -39,19 +39,19 @@
 
     .prologue
     .line 37
-    iget-object v1, p0, Lcom/kik/view/adapters/r;->f:Lkik/android/chat/presentation/s;
+    iget-object v1, p0, Lcom/kik/view/adapters/r;->f:Lkik/arcane/chat/presentation/s;
 
-    invoke-virtual {p0, p1}, Lcom/kik/view/adapters/r;->a(I)Lkik/android/chat/vm/ay;
-
-    move-result-object v0
-
-    check-cast v0, Lkik/android/chat/vm/a/e;
-
-    invoke-interface {v0}, Lkik/android/chat/vm/a/e;->b()Lkik/core/datatypes/l;
+    invoke-virtual {p0, p1}, Lcom/kik/view/adapters/r;->a(I)Lkik/arcane/chat/vm/ay;
 
     move-result-object v0
 
-    invoke-interface {v1, v0, p1}, Lkik/android/chat/presentation/s;->a(Lkik/core/datatypes/l;I)V
+    check-cast v0, Lkik/arcane/chat/vm/a/e;
+
+    invoke-interface {v0}, Lkik/arcane/chat/vm/a/e;->b()Lkik/core/datatypes/l;
+
+    move-result-object v0
+
+    invoke-interface {v1, v0, p1}, Lkik/arcane/chat/presentation/s;->a(Lkik/core/datatypes/l;I)V
 
     return-void
 .end method
@@ -61,9 +61,9 @@
 
     .prologue
     .line 57
-    iget-object v0, p0, Lcom/kik/view/adapters/r;->f:Lkik/android/chat/presentation/s;
+    iget-object v0, p0, Lcom/kik/view/adapters/r;->f:Lkik/arcane/chat/presentation/s;
 
-    invoke-interface {v0}, Lkik/android/chat/presentation/s;->a()V
+    invoke-interface {v0}, Lkik/arcane/chat/presentation/s;->a()V
 
     return-void
 .end method
@@ -75,9 +75,9 @@
 
     .prologue
     .line 69
-    iget-object v0, p0, Lcom/kik/view/adapters/r;->f:Lkik/android/chat/presentation/s;
+    iget-object v0, p0, Lcom/kik/view/adapters/r;->f:Lkik/arcane/chat/presentation/s;
 
-    invoke-interface {v0}, Lkik/android/chat/presentation/s;->d()Z
+    invoke-interface {v0}, Lkik/arcane/chat/presentation/s;->d()Z
 
     move-result v0
 
@@ -87,7 +87,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 

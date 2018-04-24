@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/videochat/ar;
+.class public interface abstract Lkik/arcane/videochat/ar;
 .super Ljava/lang/Object;
 .source "SourceFile"
 

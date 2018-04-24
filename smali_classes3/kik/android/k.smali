@@ -1,9 +1,9 @@
-.class public final Lkik/android/k;
+.class public final Lkik/arcane/k;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/f/l;
+.implements Lkik/arcane/f/l;
 
 
 # instance fields
@@ -23,13 +23,13 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 31
-    iput-object p1, p0, Lkik/android/k;->a:Lkik/core/content/d;
+    iput-object p1, p0, Lkik/arcane/k;->a:Lkik/core/content/d;
 
     .line 32
-    iput-object p2, p0, Lkik/android/k;->b:Lkik/core/interfaces/ad;
+    iput-object p2, p0, Lkik/arcane/k;->b:Lkik/core/interfaces/ad;
 
     .line 33
-    iput-object p3, p0, Lkik/android/k;->c:Lkik/core/net/e;
+    iput-object p3, p0, Lkik/arcane/k;->c:Lkik/core/net/e;
 
     .line 35
     return-void
@@ -53,10 +53,10 @@
 
     .prologue
     .line 40
-    iget-object v0, p0, Lkik/android/k;->a:Lkik/core/content/d;
+    iget-object v0, p0, Lkik/arcane/k;->a:Lkik/core/content/d;
 
     .line 1045
-    iget-object v1, p0, Lkik/android/k;->b:Lkik/core/interfaces/ad;
+    iget-object v1, p0, Lkik/arcane/k;->b:Lkik/core/interfaces/ad;
 
     invoke-static {v1}, Lkik/core/z;->b(Lkik/core/interfaces/ad;)Lkik/core/z;
 
@@ -108,7 +108,7 @@
 
     const-string v3, "Content"
 
-    invoke-static {v3}, Lkik/android/util/DeviceUtils;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3}, Lkik/arcane/util/DeviceUtils;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -117,7 +117,7 @@
     .line 40
     const-string v1, "image"
 
-    iget-object v3, p0, Lkik/android/k;->c:Lkik/core/net/e;
+    iget-object v3, p0, Lkik/arcane/k;->c:Lkik/core/net/e;
 
     invoke-interface {v3}, Lkik/core/net/e;->p()Ljava/lang/String;
 

@@ -1,5 +1,5 @@
-.class final Lkik/android/widget/VideoKeyFrameView$a;
-.super Lkik/android/util/aq;
+.class final Lkik/arcane/widget/VideoKeyFrameView$a;
+.super Lkik/arcane/util/aq;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 .end annotation
 
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/VideoKeyFrameView;
+    value = Lkik/arcane/widget/VideoKeyFrameView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkik/android/util/aq",
+        "Lkik/arcane/util/aq",
         "<",
         "Ljava/lang/Void;",
         "Ljava/lang/Integer;",
@@ -30,23 +30,23 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/VideoKeyFrameView;
+.field final synthetic a:Lkik/arcane/widget/VideoKeyFrameView;
 
 .field private b:I
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/widget/VideoKeyFrameView;I)V
+.method public constructor <init>(Lkik/arcane/widget/VideoKeyFrameView;I)V
     .locals 0
 
     .prologue
     .line 382
-    iput-object p1, p0, Lkik/android/widget/VideoKeyFrameView$a;->a:Lkik/android/widget/VideoKeyFrameView;
+    iput-object p1, p0, Lkik/arcane/widget/VideoKeyFrameView$a;->a:Lkik/arcane/widget/VideoKeyFrameView;
 
-    invoke-direct {p0}, Lkik/android/util/aq;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/util/aq;-><init>()V
 
     .line 383
-    iput p2, p0, Lkik/android/widget/VideoKeyFrameView$a;->b:I
+    iput p2, p0, Lkik/arcane/widget/VideoKeyFrameView$a;->b:I
 
     .line 384
     return-void
@@ -63,19 +63,19 @@
 
     .line 391
     :try_start_0
-    iget-object v0, p0, Lkik/android/widget/VideoKeyFrameView$a;->a:Lkik/android/widget/VideoKeyFrameView;
+    iget-object v0, p0, Lkik/arcane/widget/VideoKeyFrameView$a;->a:Lkik/arcane/widget/VideoKeyFrameView;
 
-    invoke-static {v0}, Lkik/android/widget/VideoKeyFrameView;->b(Lkik/android/widget/VideoKeyFrameView;)Landroid/media/MediaMetadataRetriever;
+    invoke-static {v0}, Lkik/arcane/widget/VideoKeyFrameView;->b(Lkik/arcane/widget/VideoKeyFrameView;)Landroid/media/MediaMetadataRetriever;
 
     move-result-object v0
 
-    iget-object v2, p0, Lkik/android/widget/VideoKeyFrameView$a;->a:Lkik/android/widget/VideoKeyFrameView;
+    iget-object v2, p0, Lkik/arcane/widget/VideoKeyFrameView$a;->a:Lkik/arcane/widget/VideoKeyFrameView;
 
-    invoke-static {v2}, Lkik/android/widget/VideoKeyFrameView;->a(Lkik/android/widget/VideoKeyFrameView;)J
+    invoke-static {v2}, Lkik/arcane/widget/VideoKeyFrameView;->a(Lkik/arcane/widget/VideoKeyFrameView;)J
 
     move-result-wide v2
 
-    iget v4, p0, Lkik/android/widget/VideoKeyFrameView$a;->b:I
+    iget v4, p0, Lkik/arcane/widget/VideoKeyFrameView$a;->b:I
 
     int-to-long v4, v4
 
@@ -95,19 +95,19 @@
 
     .line 395
     :try_start_1
-    iget-object v0, p0, Lkik/android/widget/VideoKeyFrameView$a;->a:Lkik/android/widget/VideoKeyFrameView;
+    iget-object v0, p0, Lkik/arcane/widget/VideoKeyFrameView$a;->a:Lkik/arcane/widget/VideoKeyFrameView;
 
-    invoke-static {v0}, Lkik/android/widget/VideoKeyFrameView;->b(Lkik/android/widget/VideoKeyFrameView;)Landroid/media/MediaMetadataRetriever;
+    invoke-static {v0}, Lkik/arcane/widget/VideoKeyFrameView;->b(Lkik/arcane/widget/VideoKeyFrameView;)Landroid/media/MediaMetadataRetriever;
 
     move-result-object v0
 
-    iget-object v2, p0, Lkik/android/widget/VideoKeyFrameView$a;->a:Lkik/android/widget/VideoKeyFrameView;
+    iget-object v2, p0, Lkik/arcane/widget/VideoKeyFrameView$a;->a:Lkik/arcane/widget/VideoKeyFrameView;
 
-    invoke-static {v2}, Lkik/android/widget/VideoKeyFrameView;->a(Lkik/android/widget/VideoKeyFrameView;)J
+    invoke-static {v2}, Lkik/arcane/widget/VideoKeyFrameView;->a(Lkik/arcane/widget/VideoKeyFrameView;)J
 
     move-result-wide v2
 
-    iget v4, p0, Lkik/android/widget/VideoKeyFrameView$a;->b:I
+    iget v4, p0, Lkik/arcane/widget/VideoKeyFrameView$a;->b:I
 
     int-to-long v4, v4
 
@@ -128,19 +128,19 @@
     if-eqz v1, :cond_1
 
     .line 399
-    iget-object v0, p0, Lkik/android/widget/VideoKeyFrameView$a;->a:Lkik/android/widget/VideoKeyFrameView;
+    iget-object v0, p0, Lkik/arcane/widget/VideoKeyFrameView$a;->a:Lkik/arcane/widget/VideoKeyFrameView;
 
-    invoke-static {v0}, Lkik/android/widget/VideoKeyFrameView;->c(Lkik/android/widget/VideoKeyFrameView;)I
+    invoke-static {v0}, Lkik/arcane/widget/VideoKeyFrameView;->c(Lkik/arcane/widget/VideoKeyFrameView;)I
 
     move-result v0
 
-    iget-object v2, p0, Lkik/android/widget/VideoKeyFrameView$a;->a:Lkik/android/widget/VideoKeyFrameView;
+    iget-object v2, p0, Lkik/arcane/widget/VideoKeyFrameView$a;->a:Lkik/arcane/widget/VideoKeyFrameView;
 
-    invoke-static {v2}, Lkik/android/widget/VideoKeyFrameView;->d(Lkik/android/widget/VideoKeyFrameView;)I
+    invoke-static {v2}, Lkik/arcane/widget/VideoKeyFrameView;->d(Lkik/arcane/widget/VideoKeyFrameView;)I
 
     move-result v2
 
-    invoke-static {v1, v0, v2}, Lkik/android/widget/VideoKeyFrameView;->a(Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
+    invoke-static {v1, v0, v2}, Lkik/arcane/widget/VideoKeyFrameView;->a(Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -211,7 +211,7 @@
 
     .prologue
     .line 376
-    invoke-direct {p0}, Lkik/android/widget/VideoKeyFrameView$a;->a()Landroid/graphics/Bitmap;
+    invoke-direct {p0}, Lkik/arcane/widget/VideoKeyFrameView$a;->a()Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -226,46 +226,46 @@
     check-cast p1, Landroid/graphics/Bitmap;
 
     .line 1419
-    iget v0, p0, Lkik/android/widget/VideoKeyFrameView$a;->b:I
+    iget v0, p0, Lkik/arcane/widget/VideoKeyFrameView$a;->b:I
 
-    iget-object v1, p0, Lkik/android/widget/VideoKeyFrameView$a;->a:Lkik/android/widget/VideoKeyFrameView;
+    iget-object v1, p0, Lkik/arcane/widget/VideoKeyFrameView$a;->a:Lkik/arcane/widget/VideoKeyFrameView;
 
-    invoke-static {v1}, Lkik/android/widget/VideoKeyFrameView;->e(Lkik/android/widget/VideoKeyFrameView;)I
+    invoke-static {v1}, Lkik/arcane/widget/VideoKeyFrameView;->e(Lkik/arcane/widget/VideoKeyFrameView;)I
 
     move-result v1
 
     if-ge v0, v1, :cond_0
 
     .line 1420
-    iget-object v0, p0, Lkik/android/widget/VideoKeyFrameView$a;->a:Lkik/android/widget/VideoKeyFrameView;
+    iget-object v0, p0, Lkik/arcane/widget/VideoKeyFrameView$a;->a:Lkik/arcane/widget/VideoKeyFrameView;
 
-    invoke-static {v0}, Lkik/android/widget/VideoKeyFrameView;->f(Lkik/android/widget/VideoKeyFrameView;)Ljava/util/ArrayList;
+    invoke-static {v0}, Lkik/arcane/widget/VideoKeyFrameView;->f(Lkik/arcane/widget/VideoKeyFrameView;)Ljava/util/ArrayList;
 
     move-result-object v0
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 1421
-    iget-object v0, p0, Lkik/android/widget/VideoKeyFrameView$a;->a:Lkik/android/widget/VideoKeyFrameView;
+    iget-object v0, p0, Lkik/arcane/widget/VideoKeyFrameView$a;->a:Lkik/arcane/widget/VideoKeyFrameView;
 
-    invoke-virtual {v0}, Lkik/android/widget/VideoKeyFrameView;->invalidate()V
+    invoke-virtual {v0}, Lkik/arcane/widget/VideoKeyFrameView;->invalidate()V
 
     .line 1422
-    new-instance v0, Lkik/android/widget/VideoKeyFrameView$a;
+    new-instance v0, Lkik/arcane/widget/VideoKeyFrameView$a;
 
-    iget-object v1, p0, Lkik/android/widget/VideoKeyFrameView$a;->a:Lkik/android/widget/VideoKeyFrameView;
+    iget-object v1, p0, Lkik/arcane/widget/VideoKeyFrameView$a;->a:Lkik/arcane/widget/VideoKeyFrameView;
 
-    iget v2, p0, Lkik/android/widget/VideoKeyFrameView$a;->b:I
+    iget v2, p0, Lkik/arcane/widget/VideoKeyFrameView$a;->b:I
 
     add-int/lit8 v2, v2, 0x1
 
-    invoke-direct {v0, v1, v2}, Lkik/android/widget/VideoKeyFrameView$a;-><init>(Lkik/android/widget/VideoKeyFrameView;I)V
+    invoke-direct {v0, v1, v2}, Lkik/arcane/widget/VideoKeyFrameView$a;-><init>(Lkik/arcane/widget/VideoKeyFrameView;I)V
 
     const/4 v1, 0x0
 
     new-array v1, v1, [Ljava/lang/Void;
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/VideoKeyFrameView$a;->a([Ljava/lang/Object;)Landroid/os/AsyncTask;
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/VideoKeyFrameView$a;->a([Ljava/lang/Object;)Landroid/os/AsyncTask;
 
     .line 376
     :cond_0

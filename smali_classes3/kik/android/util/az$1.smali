@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/util/az$1;
+.class final synthetic Lkik/arcane/util/az$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/az;
+    value = Lkik/arcane/util/az;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -34,10 +34,10 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/util/az$1;->b:[I
+    sput-object v0, Lkik/arcane/util/az$1;->b:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/util/az$1;->b:[I
+    sget-object v0, Lkik/arcane/util/az$1;->b:[I
 
     sget-object v1, Lcom/kik/messagepath/model/Keyboards$SuggestedReply$TypeCase;->TEXT_REPLY:Lcom/kik/messagepath/model/Keyboards$SuggestedReply$TypeCase;
 
@@ -53,7 +53,7 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/util/az$1;->b:[I
+    sget-object v0, Lkik/arcane/util/az$1;->b:[I
 
     sget-object v1, Lcom/kik/messagepath/model/Keyboards$SuggestedReply$TypeCase;->FRIEND_PICKER_REPLY:Lcom/kik/messagepath/model/Keyboards$SuggestedReply$TypeCase;
 
@@ -69,7 +69,7 @@
 
     :goto_1
     :try_start_2
-    sget-object v0, Lkik/android/util/az$1;->b:[I
+    sget-object v0, Lkik/arcane/util/az$1;->b:[I
 
     sget-object v1, Lcom/kik/messagepath/model/Keyboards$SuggestedReply$TypeCase;->PICTURE_REPLY:Lcom/kik/messagepath/model/Keyboards$SuggestedReply$TypeCase;
 
@@ -85,7 +85,7 @@
 
     :goto_2
     :try_start_3
-    sget-object v0, Lkik/android/util/az$1;->b:[I
+    sget-object v0, Lkik/arcane/util/az$1;->b:[I
 
     sget-object v1, Lcom/kik/messagepath/model/Keyboards$SuggestedReply$TypeCase;->PAYMENT_REPLY:Lcom/kik/messagepath/model/Keyboards$SuggestedReply$TypeCase;
 
@@ -109,10 +109,10 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/util/az$1;->a:[I
+    sput-object v0, Lkik/arcane/util/az$1;->a:[I
 
     :try_start_4
-    sget-object v0, Lkik/android/util/az$1;->a:[I
+    sget-object v0, Lkik/arcane/util/az$1;->a:[I
 
     sget-object v1, Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem$TypeCase;->TEXT_RESPONSE:Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem$TypeCase;
 
@@ -128,7 +128,7 @@
 
     :goto_4
     :try_start_5
-    sget-object v0, Lkik/android/util/az$1;->a:[I
+    sget-object v0, Lkik/arcane/util/az$1;->a:[I
 
     sget-object v1, Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem$TypeCase;->PAYMENT_RESPONSE:Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem$TypeCase;
 
@@ -144,7 +144,7 @@
 
     :goto_5
     :try_start_6
-    sget-object v0, Lkik/android/util/az$1;->a:[I
+    sget-object v0, Lkik/arcane/util/az$1;->a:[I
 
     sget-object v1, Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem$TypeCase;->FRIEND_PICKER_RESPONSE:Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem$TypeCase;
 
@@ -160,7 +160,7 @@
 
     :goto_6
     :try_start_7
-    sget-object v0, Lkik/android/util/az$1;->a:[I
+    sget-object v0, Lkik/arcane/util/az$1;->a:[I
 
     sget-object v1, Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem$TypeCase;->PICTURE_RESPONSE:Lcom/kik/messagepath/model/Keyboards$SuggestedResponseItem$TypeCase;
 

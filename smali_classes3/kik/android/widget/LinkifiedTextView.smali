@@ -1,5 +1,5 @@
-.class public Lkik/android/widget/LinkifiedTextView;
-.super Lkik/android/widget/RobotoTextView;
+.class public Lkik/arcane/widget/LinkifiedTextView;
+.super Lkik/arcane/widget/RobotoTextView;
 .source "SourceFile"
 
 
@@ -17,7 +17,7 @@
     .line 24
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/LinkifiedTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/LinkifiedTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 25
     return-void
@@ -30,7 +30,7 @@
     .line 29
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/LinkifiedTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/LinkifiedTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 30
     return-void
@@ -41,7 +41,7 @@
 
     .prologue
     .line 34
-    invoke-direct {p0, p1, p2, p3}, Lkik/android/widget/RobotoTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lkik/arcane/widget/RobotoTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 35
     return-void
@@ -54,31 +54,31 @@
     .line 80
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/widget/LinkifiedTextView;->b:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/LinkifiedTextView;->b:Z
 
     .line 81
-    invoke-virtual {p0}, Lkik/android/widget/LinkifiedTextView;->requestLayout()V
+    invoke-virtual {p0}, Lkik/arcane/widget/LinkifiedTextView;->requestLayout()V
 
     .line 82
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/LinkifiedTextView;Ljava/lang/String;)V
+.method static synthetic a(Lkik/arcane/widget/LinkifiedTextView;Ljava/lang/String;)V
     .locals 0
 
     .prologue
     .line 74
-    invoke-virtual {p0, p1}, Lkik/android/widget/LinkifiedTextView;->c(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lkik/arcane/widget/LinkifiedTextView;->c(Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/widget/LinkifiedTextView;Ljava/lang/String;)V
+.method static synthetic b(Lkik/arcane/widget/LinkifiedTextView;Ljava/lang/String;)V
     .locals 0
 
     .prologue
     .line 73
-    invoke-virtual {p0, p1}, Lkik/android/widget/LinkifiedTextView;->b(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lkik/arcane/widget/LinkifiedTextView;->b(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -92,15 +92,15 @@
     const/4 v3, 0x0
 
     .line 87
-    iget-boolean v0, p0, Lkik/android/widget/LinkifiedTextView;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/LinkifiedTextView;->b:Z
 
     if-eqz v0, :cond_0
 
     .line 1062
-    iput-boolean v3, p0, Lkik/android/widget/LinkifiedTextView;->b:Z
+    iput-boolean v3, p0, Lkik/arcane/widget/LinkifiedTextView;->b:Z
 
     .line 1064
-    iget-object v0, p0, Lkik/android/widget/LinkifiedTextView;->a:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/widget/LinkifiedTextView;->a:Ljava/lang/CharSequence;
 
     invoke-static {v0}, Lkik/core/util/u;->a(Ljava/lang/CharSequence;)Z
 
@@ -113,26 +113,26 @@
 
     sget-object v1, Landroid/widget/TextView$BufferType;->SPANNABLE:Landroid/widget/TextView$BufferType;
 
-    invoke-super {p0, v0, v1}, Lkik/android/widget/RobotoTextView;->setText(Ljava/lang/CharSequence;Landroid/widget/TextView$BufferType;)V
+    invoke-super {p0, v0, v1}, Lkik/arcane/widget/RobotoTextView;->setText(Ljava/lang/CharSequence;Landroid/widget/TextView$BufferType;)V
 
     .line 90
     :cond_0
     :goto_0
-    invoke-super {p0, p1, p2}, Lkik/android/widget/RobotoTextView;->onMeasure(II)V
+    invoke-super {p0, p1, p2}, Lkik/arcane/widget/RobotoTextView;->onMeasure(II)V
 
     .line 91
     return-void
 
     .line 1070
     :cond_1
-    iget-object v0, p0, Lkik/android/widget/LinkifiedTextView;->a:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/widget/LinkifiedTextView;->a:Ljava/lang/CharSequence;
 
     sget-object v1, Landroid/widget/TextView$BufferType;->SPANNABLE:Landroid/widget/TextView$BufferType;
 
-    invoke-super {p0, v0, v1}, Lkik/android/widget/RobotoTextView;->setText(Ljava/lang/CharSequence;Landroid/widget/TextView$BufferType;)V
+    invoke-super {p0, v0, v1}, Lkik/arcane/widget/RobotoTextView;->setText(Ljava/lang/CharSequence;Landroid/widget/TextView$BufferType;)V
 
     .line 1072
-    iget-object v0, p0, Lkik/android/widget/LinkifiedTextView;->a:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/widget/LinkifiedTextView;->a:Ljava/lang/CharSequence;
 
     invoke-interface {v0}, Ljava/lang/CharSequence;->length()I
 
@@ -141,22 +141,22 @@
     if-lez v0, :cond_0
 
     .line 1073
-    invoke-static {}, Lkik/android/util/ap;->a()Ljava/util/regex/Pattern;
+    invoke-static {}, Lkik/arcane/util/ap;->a()Ljava/util/regex/Pattern;
 
     move-result-object v0
 
-    invoke-static {}, Lkik/android/util/ap;->b()[Ljava/lang/String;
+    invoke-static {}, Lkik/arcane/util/ap;->b()[Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/widget/cd;->a(Lkik/android/widget/LinkifiedTextView;)Lkik/android/util/av$a;
+    invoke-static {p0}, Lkik/arcane/widget/cd;->a(Lkik/arcane/widget/LinkifiedTextView;)Lkik/arcane/util/av$a;
 
     move-result-object v2
 
-    invoke-static {p0, v0, v1, v2}, Lkik/android/util/m;->a(Landroid/widget/TextView;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/android/util/av$a;)Z
+    invoke-static {p0, v0, v1, v2}, Lkik/arcane/util/m;->a(Landroid/widget/TextView;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/arcane/util/av$a;)Z
 
     .line 1074
-    sget-object v0, Lkik/android/util/bf;->f:Ljava/util/regex/Pattern;
+    sget-object v0, Lkik/arcane/util/bf;->f:Ljava/util/regex/Pattern;
 
     const/4 v1, 0x1
 
@@ -166,11 +166,11 @@
 
     aput-object v2, v1, v3
 
-    invoke-static {p0}, Lkik/android/widget/ce;->a(Lkik/android/widget/LinkifiedTextView;)Lkik/android/util/av$a;
+    invoke-static {p0}, Lkik/arcane/widget/ce;->a(Lkik/arcane/widget/LinkifiedTextView;)Lkik/arcane/util/av$a;
 
     move-result-object v2
 
-    invoke-static {p0, v0, v1, v2}, Lkik/android/util/m;->a(Landroid/widget/TextView;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/android/util/av$a;)Z
+    invoke-static {p0, v0, v1, v2}, Lkik/arcane/util/m;->a(Landroid/widget/TextView;Ljava/util/regex/Pattern;[Ljava/lang/String;Lkik/arcane/util/av$a;)Z
 
     goto :goto_0
 .end method
@@ -180,11 +180,11 @@
 
     .prologue
     .line 48
-    invoke-static {}, Lkik/android/util/cd;->a()Landroid/text/method/MovementMethod;
+    invoke-static {}, Lkik/arcane/util/cd;->a()Landroid/text/method/MovementMethod;
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lkik/android/widget/LinkifiedTextView;->getText()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Lkik/arcane/widget/LinkifiedTextView;->getText()Ljava/lang/CharSequence;
 
     move-result-object v0
 
@@ -202,13 +202,13 @@
 
     .prologue
     .line 54
-    invoke-super {p0, p1, p2}, Lkik/android/widget/RobotoTextView;->setText(Ljava/lang/CharSequence;Landroid/widget/TextView$BufferType;)V
+    invoke-super {p0, p1, p2}, Lkik/arcane/widget/RobotoTextView;->setText(Ljava/lang/CharSequence;Landroid/widget/TextView$BufferType;)V
 
     .line 55
-    iput-object p1, p0, Lkik/android/widget/LinkifiedTextView;->a:Ljava/lang/CharSequence;
+    iput-object p1, p0, Lkik/arcane/widget/LinkifiedTextView;->a:Ljava/lang/CharSequence;
 
     .line 57
-    invoke-direct {p0}, Lkik/android/widget/LinkifiedTextView;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/LinkifiedTextView;->a()V
 
     .line 58
     return-void
@@ -219,10 +219,10 @@
 
     .prologue
     .line 40
-    invoke-super {p0, p1, p2}, Lkik/android/widget/RobotoTextView;->setTextSize(IF)V
+    invoke-super {p0, p1, p2}, Lkik/arcane/widget/RobotoTextView;->setTextSize(IF)V
 
     .line 42
-    invoke-direct {p0}, Lkik/android/widget/LinkifiedTextView;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/LinkifiedTextView;->a()V
 
     .line 43
     return-void

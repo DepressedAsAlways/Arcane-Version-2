@@ -1,11 +1,11 @@
-.class public final Lkik/android/widget/RadioButtonDialogRecycler$a;
-.super Lkik/android/widget/dn$c;
+.class public final Lkik/arcane/widget/RadioButtonDialogRecycler$a;
+.super Lkik/arcane/widget/dn$c;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/RadioButtonDialogRecycler;
+    value = Lkik/arcane/widget/RadioButtonDialogRecycler;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,9 +15,9 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkik/android/widget/dn$c",
+        "Lkik/arcane/widget/dn$c",
         "<",
-        "Lkik/android/chat/vm/al;",
+        "Lkik/arcane/chat/vm/al;",
         ">;"
     }
 .end annotation
@@ -37,10 +37,10 @@
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lkik/android/widget/dn$c;-><init>(Landroid/view/View;)V
+    invoke-direct {p0, v0}, Lkik/arcane/widget/dn$c;-><init>(Landroid/view/View;)V
 
     .line 30
-    iput-object p1, p0, Lkik/android/widget/RadioButtonDialogRecycler$a;->a:Landroid/databinding/ViewDataBinding;
+    iput-object p1, p0, Lkik/arcane/widget/RadioButtonDialogRecycler$a;->a:Landroid/databinding/ViewDataBinding;
 
     .line 31
     return-void
@@ -53,28 +53,28 @@
 
     .prologue
     .line 23
-    check-cast p1, Lkik/android/chat/vm/al;
+    check-cast p1, Lkik/arcane/chat/vm/al;
 
     .line 1036
-    iget-object v0, p0, Lkik/android/widget/RadioButtonDialogRecycler$a;->a:Landroid/databinding/ViewDataBinding;
+    iget-object v0, p0, Lkik/arcane/widget/RadioButtonDialogRecycler$a;->a:Landroid/databinding/ViewDataBinding;
 
     if-eqz v0, :cond_0
 
     .line 1037
-    iget-object v0, p0, Lkik/android/widget/RadioButtonDialogRecycler$a;->a:Landroid/databinding/ViewDataBinding;
+    iget-object v0, p0, Lkik/arcane/widget/RadioButtonDialogRecycler$a;->a:Landroid/databinding/ViewDataBinding;
 
     const/16 v1, 0xe
 
     invoke-virtual {v0, v1, p1}, Landroid/databinding/ViewDataBinding;->setVariable(ILjava/lang/Object;)Z
 
     .line 1038
-    iget-object v0, p0, Lkik/android/widget/RadioButtonDialogRecycler$a;->a:Landroid/databinding/ViewDataBinding;
+    iget-object v0, p0, Lkik/arcane/widget/RadioButtonDialogRecycler$a;->a:Landroid/databinding/ViewDataBinding;
 
     invoke-virtual {v0}, Landroid/databinding/ViewDataBinding;->executePendingBindings()V
 
     .line 1041
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/RadioButtonDialogRecycler$a;->itemView:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/RadioButtonDialogRecycler$a;->itemView:Landroid/view/View;
 
     .line 23
     return-object v0

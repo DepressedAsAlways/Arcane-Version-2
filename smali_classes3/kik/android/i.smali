@@ -1,4 +1,4 @@
-.class public final Lkik/android/i;
+.class public final Lkik/arcane/i;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -23,7 +23,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/i;->a:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/i;->a:Lorg/slf4j/b;
 
     return-void
 .end method
@@ -36,7 +36,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 26
-    iput-object p1, p0, Lkik/android/i;->b:Landroid/database/sqlite/SQLiteOpenHelper;
+    iput-object p1, p0, Lkik/arcane/i;->b:Landroid/database/sqlite/SQLiteOpenHelper;
 
     .line 27
     return-void
@@ -51,13 +51,13 @@
     const/4 v9, 0x0
 
     .line 146
-    iget-object v10, p0, Lkik/android/i;->b:Landroid/database/sqlite/SQLiteOpenHelper;
+    iget-object v10, p0, Lkik/arcane/i;->b:Landroid/database/sqlite/SQLiteOpenHelper;
 
     monitor-enter v10
 
     .line 147
     :try_start_0
-    iget-object v0, p0, Lkik/android/i;->b:Landroid/database/sqlite/SQLiteOpenHelper;
+    iget-object v0, p0, Lkik/arcane/i;->b:Landroid/database/sqlite/SQLiteOpenHelper;
 
     invoke-virtual {v0}, Landroid/database/sqlite/SQLiteOpenHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
     :try_end_0
@@ -232,13 +232,13 @@
 
     .prologue
     .line 64
-    iget-object v2, p0, Lkik/android/i;->b:Landroid/database/sqlite/SQLiteOpenHelper;
+    iget-object v2, p0, Lkik/arcane/i;->b:Landroid/database/sqlite/SQLiteOpenHelper;
 
     monitor-enter v2
 
     .line 65
     :try_start_0
-    iget-object v0, p0, Lkik/android/i;->b:Landroid/database/sqlite/SQLiteOpenHelper;
+    iget-object v0, p0, Lkik/arcane/i;->b:Landroid/database/sqlite/SQLiteOpenHelper;
 
     invoke-virtual {v0}, Landroid/database/sqlite/SQLiteOpenHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
     :try_end_0
@@ -423,7 +423,7 @@
 
     .prologue
     .line 53
-    iget-object v1, p0, Lkik/android/i;->b:Landroid/database/sqlite/SQLiteOpenHelper;
+    iget-object v1, p0, Lkik/arcane/i;->b:Landroid/database/sqlite/SQLiteOpenHelper;
 
     monitor-enter v1
 
@@ -437,7 +437,7 @@
     invoke-virtual {v0, p1}, Ljava/util/Vector;->add(Ljava/lang/Object;)Z
 
     .line 56
-    invoke-virtual {p0, v0}, Lkik/android/i;->a(Ljava/util/Vector;)Z
+    invoke-virtual {p0, v0}, Lkik/arcane/i;->a(Ljava/util/Vector;)Z
 
     move-result v0
 

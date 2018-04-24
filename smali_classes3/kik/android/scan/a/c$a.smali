@@ -1,11 +1,11 @@
-.class final Lkik/android/scan/a/c$a;
-.super Lkik/android/scan/a/c;
+.class final Lkik/arcane/scan/a/c$a;
+.super Lkik/arcane/scan/a/c;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/scan/a/c;
+    value = Lkik/arcane/scan/a/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,19 +15,19 @@
 
 
 # instance fields
-.field a:Lkik/android/scan/a/a;
+.field a:Lkik/arcane/scan/a/a;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/scan/a/a;)V
+.method constructor <init>(Lkik/arcane/scan/a/a;)V
     .locals 0
 
     .prologue
     .line 54
-    invoke-direct {p0}, Lkik/android/scan/a/c;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/scan/a/c;-><init>()V
 
     .line 55
-    iput-object p1, p0, Lkik/android/scan/a/c$a;->a:Lkik/android/scan/a/a;
+    iput-object p1, p0, Lkik/arcane/scan/a/c$a;->a:Lkik/arcane/scan/a/a;
 
     .line 56
     return-void
@@ -43,22 +43,22 @@
     const/4 v0, 0x0
 
     .line 63
-    iget-object v1, p0, Lkik/android/scan/a/c$a;->a:Lkik/android/scan/a/a;
+    iget-object v1, p0, Lkik/arcane/scan/a/c$a;->a:Lkik/arcane/scan/a/a;
 
     if-eqz v1, :cond_0
 
-    iget-object v1, p0, Lkik/android/scan/a/c$a;->a:Lkik/android/scan/a/a;
+    iget-object v1, p0, Lkik/arcane/scan/a/c$a;->a:Lkik/arcane/scan/a/a;
 
-    invoke-virtual {v1}, Lkik/android/scan/a/a;->c()Lcom/kik/scan/RemoteKikCode;
+    invoke-virtual {v1}, Lkik/arcane/scan/a/a;->c()Lcom/kik/scan/RemoteKikCode;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
     .line 64
-    iget-object v0, p0, Lkik/android/scan/a/c$a;->a:Lkik/android/scan/a/a;
+    iget-object v0, p0, Lkik/arcane/scan/a/c$a;->a:Lkik/arcane/scan/a/a;
 
-    invoke-virtual {v0}, Lkik/android/scan/a/a;->c()Lcom/kik/scan/RemoteKikCode;
+    invoke-virtual {v0}, Lkik/arcane/scan/a/a;->c()Lcom/kik/scan/RemoteKikCode;
 
     move-result-object v0
 
@@ -85,7 +85,7 @@
 
     .prologue
     .line 77
-    iget-object v0, p0, Lkik/android/scan/a/c$a;->a:Lkik/android/scan/a/a;
+    iget-object v0, p0, Lkik/arcane/scan/a/c$a;->a:Lkik/arcane/scan/a/a;
 
     if-nez v0, :cond_0
 
@@ -95,9 +95,9 @@
     return-object v0
 
     :cond_0
-    iget-object v0, p0, Lkik/android/scan/a/c$a;->a:Lkik/android/scan/a/a;
+    iget-object v0, p0, Lkik/arcane/scan/a/c$a;->a:Lkik/arcane/scan/a/a;
 
-    invoke-virtual {v0}, Lkik/android/scan/a/a;->d()Ljava/lang/String;
+    invoke-virtual {v0}, Lkik/arcane/scan/a/a;->d()Ljava/lang/String;
 
     move-result-object v0
 
@@ -109,7 +109,7 @@
 
     .prologue
     .line 83
-    iget-object v0, p0, Lkik/android/scan/a/c$a;->a:Lkik/android/scan/a/a;
+    iget-object v0, p0, Lkik/arcane/scan/a/c$a;->a:Lkik/arcane/scan/a/a;
 
     if-nez v0, :cond_0
 
@@ -119,9 +119,9 @@
     return v0
 
     :cond_0
-    iget-object v0, p0, Lkik/android/scan/a/c$a;->a:Lkik/android/scan/a/a;
+    iget-object v0, p0, Lkik/arcane/scan/a/c$a;->a:Lkik/arcane/scan/a/a;
 
-    invoke-virtual {v0}, Lkik/android/scan/a/a;->a()I
+    invoke-virtual {v0}, Lkik/arcane/scan/a/a;->a()I
 
     move-result v0
 

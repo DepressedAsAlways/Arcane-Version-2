@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/ExploreView_ViewBinding;
+.class public Lkik/arcane/widget/ExploreView_ViewBinding;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -7,11 +7,11 @@
 
 
 # instance fields
-.field private a:Lkik/android/widget/ExploreView;
+.field private a:Lkik/arcane/widget/ExploreView;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/widget/ExploreView;Landroid/view/View;)V
+.method public constructor <init>(Lkik/arcane/widget/ExploreView;Landroid/view/View;)V
     .locals 3
 
     .prologue
@@ -19,7 +19,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 25
-    iput-object p1, p0, Lkik/android/widget/ExploreView_ViewBinding;->a:Lkik/android/widget/ExploreView;
+    iput-object p1, p0, Lkik/arcane/widget/ExploreView_ViewBinding;->a:Lkik/arcane/widget/ExploreView;
 
     .line 27
     const v0, 0x7f1001cd
@@ -34,7 +34,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p1, Lkik/android/widget/ExploreView;->_titleView:Landroid/widget/TextView;
+    iput-object v0, p1, Lkik/arcane/widget/ExploreView;->_titleView:Landroid/widget/TextView;
 
     .line 28
     const v0, 0x7f1001ce
@@ -49,7 +49,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p1, Lkik/android/widget/ExploreView;->_textView:Landroid/widget/TextView;
+    iput-object v0, p1, Lkik/arcane/widget/ExploreView;->_textView:Landroid/widget/TextView;
 
     .line 29
     const v0, 0x7f1001cc
@@ -60,7 +60,7 @@
 
     move-result-object v0
 
-    iput-object v0, p1, Lkik/android/widget/ExploreView;->_dismissButton:Landroid/view/View;
+    iput-object v0, p1, Lkik/arcane/widget/ExploreView;->_dismissButton:Landroid/view/View;
 
     .line 30
     const v0, 0x7f1001cf
@@ -75,7 +75,7 @@
 
     check-cast v0, Landroid/widget/Button;
 
-    iput-object v0, p1, Lkik/android/widget/ExploreView;->_exploreButton:Landroid/widget/Button;
+    iput-object v0, p1, Lkik/arcane/widget/ExploreView;->_exploreButton:Landroid/widget/Button;
 
     .line 31
     return-void
@@ -90,7 +90,7 @@
     const/4 v1, 0x0
 
     .line 36
-    iget-object v0, p0, Lkik/android/widget/ExploreView_ViewBinding;->a:Lkik/android/widget/ExploreView;
+    iget-object v0, p0, Lkik/arcane/widget/ExploreView_ViewBinding;->a:Lkik/arcane/widget/ExploreView;
 
     .line 37
     if-nez v0, :cond_0
@@ -105,19 +105,19 @@
 
     .line 38
     :cond_0
-    iput-object v1, p0, Lkik/android/widget/ExploreView_ViewBinding;->a:Lkik/android/widget/ExploreView;
+    iput-object v1, p0, Lkik/arcane/widget/ExploreView_ViewBinding;->a:Lkik/arcane/widget/ExploreView;
 
     .line 40
-    iput-object v1, v0, Lkik/android/widget/ExploreView;->_titleView:Landroid/widget/TextView;
+    iput-object v1, v0, Lkik/arcane/widget/ExploreView;->_titleView:Landroid/widget/TextView;
 
     .line 41
-    iput-object v1, v0, Lkik/android/widget/ExploreView;->_textView:Landroid/widget/TextView;
+    iput-object v1, v0, Lkik/arcane/widget/ExploreView;->_textView:Landroid/widget/TextView;
 
     .line 42
-    iput-object v1, v0, Lkik/android/widget/ExploreView;->_dismissButton:Landroid/view/View;
+    iput-object v1, v0, Lkik/arcane/widget/ExploreView;->_dismissButton:Landroid/view/View;
 
     .line 43
-    iput-object v1, v0, Lkik/android/widget/ExploreView;->_exploreButton:Landroid/widget/Button;
+    iput-object v1, v0, Lkik/arcane/widget/ExploreView;->_exploreButton:Landroid/widget/Button;
 
     .line 44
     return-void

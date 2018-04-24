@@ -1,4 +1,4 @@
-.class final Lkik/android/internal/platform/ImageContentCache$4;
+.class final Lkik/arcane/internal/platform/ImageContentCache$4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/internal/platform/ImageContentCache;->getImageData(Ljava/lang/String;)Lcom/kik/events/Promise;
+    value = Lkik/arcane/internal/platform/ImageContentCache;->getImageData(Ljava/lang/String;)Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Lcom/kik/events/Promise;
 
-.field final synthetic b:Lkik/android/internal/platform/ImageContentCache;
+.field final synthetic b:Lkik/arcane/internal/platform/ImageContentCache;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/internal/platform/ImageContentCache;Lcom/kik/events/Promise;)V
+.method constructor <init>(Lkik/arcane/internal/platform/ImageContentCache;Lcom/kik/events/Promise;)V
     .locals 0
 
     .prologue
     .line 109
-    iput-object p1, p0, Lkik/android/internal/platform/ImageContentCache$4;->b:Lkik/android/internal/platform/ImageContentCache;
+    iput-object p1, p0, Lkik/arcane/internal/platform/ImageContentCache$4;->b:Lkik/arcane/internal/platform/ImageContentCache;
 
-    iput-object p2, p0, Lkik/android/internal/platform/ImageContentCache$4;->a:Lcom/kik/events/Promise;
+    iput-object p2, p0, Lkik/arcane/internal/platform/ImageContentCache$4;->a:Lcom/kik/events/Promise;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,7 +45,7 @@
 
     .prologue
     .line 113
-    iget-object v0, p0, Lkik/android/internal/platform/ImageContentCache$4;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/internal/platform/ImageContentCache$4;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {v0, p1}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 

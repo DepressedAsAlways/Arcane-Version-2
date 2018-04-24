@@ -1,10 +1,10 @@
-.class public final Lkik/android/chat/a;
+.class public final Lkik/arcane/chat/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
 .implements Landroid/app/Application$ActivityLifecycleCallbacks;
-.implements Lkik/android/chat/d;
+.implements Lkik/arcane/chat/d;
 
 
 # instance fields
@@ -35,7 +35,7 @@
 
     invoke-direct {v0, p0}, Lcom/kik/events/g;-><init>(Ljava/lang/Object;)V
 
-    iput-object v0, p0, Lkik/android/chat/a;->a:Lcom/kik/events/g;
+    iput-object v0, p0, Lkik/arcane/chat/a;->a:Lcom/kik/events/g;
 
     return-void
 .end method
@@ -56,7 +56,7 @@
 
     .prologue
     .line 24
-    iget-object v0, p0, Lkik/android/chat/a;->a:Lcom/kik/events/g;
+    iget-object v0, p0, Lkik/arcane/chat/a;->a:Lcom/kik/events/g;
 
     invoke-virtual {v0}, Lcom/kik/events/g;->a()Lcom/kik/events/c;
 
@@ -110,16 +110,16 @@
 
     .prologue
     .line 35
-    iget v0, p0, Lkik/android/chat/a;->b:I
+    iget v0, p0, Lkik/arcane/chat/a;->b:I
 
     add-int/lit8 v1, v0, 0x1
 
-    iput v1, p0, Lkik/android/chat/a;->b:I
+    iput v1, p0, Lkik/arcane/chat/a;->b:I
 
     if-nez v0, :cond_0
 
     .line 36
-    iget-object v0, p0, Lkik/android/chat/a;->a:Lcom/kik/events/g;
+    iget-object v0, p0, Lkik/arcane/chat/a;->a:Lcom/kik/events/g;
 
     const/4 v1, 0x1
 
@@ -139,19 +139,19 @@
 
     .prologue
     .line 53
-    iget v0, p0, Lkik/android/chat/a;->b:I
+    iget v0, p0, Lkik/arcane/chat/a;->b:I
 
     add-int/lit8 v0, v0, -0x1
 
-    iput v0, p0, Lkik/android/chat/a;->b:I
+    iput v0, p0, Lkik/arcane/chat/a;->b:I
 
     .line 54
-    iget v0, p0, Lkik/android/chat/a;->b:I
+    iget v0, p0, Lkik/arcane/chat/a;->b:I
 
     if-nez v0, :cond_0
 
     .line 55
-    iget-object v0, p0, Lkik/android/chat/a;->a:Lcom/kik/events/g;
+    iget-object v0, p0, Lkik/arcane/chat/a;->a:Lcom/kik/events/g;
 
     const/4 v1, 0x0
 

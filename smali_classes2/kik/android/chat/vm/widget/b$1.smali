@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/vm/widget/b$1;
+.class final Lkik/arcane/chat/vm/widget/b$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/widget/b;->d()Lrx/d;
+    value = Lkik/arcane/chat/vm/widget/b;->d()Lrx/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/widget/b;
+.field final synthetic a:Lkik/arcane/chat/vm/widget/b;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/widget/b;)V
+.method constructor <init>(Lkik/arcane/chat/vm/widget/b;)V
     .locals 0
 
     .prologue
     .line 73
-    iput-object p1, p0, Lkik/android/chat/vm/widget/b$1;->a:Lkik/android/chat/vm/widget/b;
+    iput-object p1, p0, Lkik/arcane/chat/vm/widget/b$1;->a:Lkik/arcane/chat/vm/widget/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -56,9 +56,9 @@
     check-cast p1, Lrx/j;
 
     .line 1077
-    iget-object v0, p0, Lkik/android/chat/vm/widget/b$1;->a:Lkik/android/chat/vm/widget/b;
+    iget-object v0, p0, Lkik/arcane/chat/vm/widget/b$1;->a:Lkik/arcane/chat/vm/widget/b;
 
-    iget-object v0, v0, Lkik/android/chat/vm/widget/b;->d:Lkik/core/datatypes/y;
+    iget-object v0, v0, Lkik/arcane/chat/vm/widget/b;->d:Lkik/core/datatypes/y;
 
     invoke-virtual {v0}, Lkik/core/datatypes/y;->g()Ljava/lang/String;
 
@@ -69,13 +69,13 @@
     move-result-object v1
 
     .line 1079
-    iget-object v0, p0, Lkik/android/chat/vm/widget/b$1;->a:Lkik/android/chat/vm/widget/b;
+    iget-object v0, p0, Lkik/arcane/chat/vm/widget/b$1;->a:Lkik/arcane/chat/vm/widget/b;
 
-    iget-object v0, v0, Lkik/android/chat/vm/widget/b;->a:Lcom/kik/cache/KikVolleyImageLoader;
+    iget-object v0, v0, Lkik/arcane/chat/vm/widget/b;->a:Lcom/kik/cache/KikVolleyImageLoader;
 
-    new-instance v2, Lkik/android/chat/vm/widget/b$1$1;
+    new-instance v2, Lkik/arcane/chat/vm/widget/b$1$1;
 
-    invoke-direct {v2, p0, p1}, Lkik/android/chat/vm/widget/b$1$1;-><init>(Lkik/android/chat/vm/widget/b$1;Lrx/j;)V
+    invoke-direct {v2, p0, p1}, Lkik/arcane/chat/vm/widget/b$1$1;-><init>(Lkik/arcane/chat/vm/widget/b$1;Lrx/j;)V
 
     move v4, v3
 

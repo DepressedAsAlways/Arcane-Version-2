@@ -1,4 +1,4 @@
-.class public Lkik/android/videochat/VideoChatViewController_ViewBinding;
+.class public Lkik/arcane/videochat/VideoChatViewController_ViewBinding;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -7,11 +7,11 @@
 
 
 # instance fields
-.field private a:Lkik/android/videochat/VideoChatViewController;
+.field private a:Lkik/arcane/videochat/VideoChatViewController;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/videochat/VideoChatViewController;Landroid/view/View;)V
+.method public constructor <init>(Lkik/arcane/videochat/VideoChatViewController;Landroid/view/View;)V
     .locals 3
 
     .prologue
@@ -19,7 +19,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 21
-    iput-object p1, p0, Lkik/android/videochat/VideoChatViewController_ViewBinding;->a:Lkik/android/videochat/VideoChatViewController;
+    iput-object p1, p0, Lkik/arcane/videochat/VideoChatViewController_ViewBinding;->a:Lkik/arcane/videochat/VideoChatViewController;
 
     .line 23
     const v0, 0x7f1000eb
@@ -34,7 +34,7 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    iput-object v0, p1, Lkik/android/videochat/VideoChatViewController;->_videoSwitchHolder:Landroid/view/ViewGroup;
+    iput-object v0, p1, Lkik/arcane/videochat/VideoChatViewController;->_videoSwitchHolder:Landroid/view/ViewGroup;
 
     .line 24
     const v0, 0x7f1000ec
@@ -49,7 +49,7 @@
 
     check-cast v0, Landroid/support/v7/widget/SwitchCompat;
 
-    iput-object v0, p1, Lkik/android/videochat/VideoChatViewController;->_videoSwitch:Landroid/support/v7/widget/SwitchCompat;
+    iput-object v0, p1, Lkik/arcane/videochat/VideoChatViewController;->_videoSwitch:Landroid/support/v7/widget/SwitchCompat;
 
     .line 25
     const v0, 0x7f100102
@@ -64,7 +64,7 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    iput-object v0, p1, Lkik/android/videochat/VideoChatViewController;->_videoChatBar:Landroid/view/ViewGroup;
+    iput-object v0, p1, Lkik/arcane/videochat/VideoChatViewController;->_videoChatBar:Landroid/view/ViewGroup;
 
     .line 26
     const v0, 0x7f1000ed
@@ -75,7 +75,7 @@
 
     move-result-object v0
 
-    iput-object v0, p1, Lkik/android/videochat/VideoChatViewController;->_activeIconAnimationContainer:Landroid/view/View;
+    iput-object v0, p1, Lkik/arcane/videochat/VideoChatViewController;->_activeIconAnimationContainer:Landroid/view/View;
 
     .line 27
     const v0, 0x7f100103
@@ -90,7 +90,7 @@
 
     check-cast v0, Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
 
-    iput-object v0, p1, Lkik/android/videochat/VideoChatViewController;->_chatScreenToolTipRelativeLayout:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
+    iput-object v0, p1, Lkik/arcane/videochat/VideoChatViewController;->_chatScreenToolTipRelativeLayout:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
 
     .line 28
     const v0, 0x7f100359
@@ -105,7 +105,7 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    iput-object v0, p1, Lkik/android/videochat/VideoChatViewController;->_mediaBarView:Landroid/view/ViewGroup;
+    iput-object v0, p1, Lkik/arcane/videochat/VideoChatViewController;->_mediaBarView:Landroid/view/ViewGroup;
 
     .line 29
     return-void
@@ -120,7 +120,7 @@
     const/4 v1, 0x0
 
     .line 34
-    iget-object v0, p0, Lkik/android/videochat/VideoChatViewController_ViewBinding;->a:Lkik/android/videochat/VideoChatViewController;
+    iget-object v0, p0, Lkik/arcane/videochat/VideoChatViewController_ViewBinding;->a:Lkik/arcane/videochat/VideoChatViewController;
 
     .line 35
     if-nez v0, :cond_0
@@ -135,25 +135,25 @@
 
     .line 36
     :cond_0
-    iput-object v1, p0, Lkik/android/videochat/VideoChatViewController_ViewBinding;->a:Lkik/android/videochat/VideoChatViewController;
+    iput-object v1, p0, Lkik/arcane/videochat/VideoChatViewController_ViewBinding;->a:Lkik/arcane/videochat/VideoChatViewController;
 
     .line 38
-    iput-object v1, v0, Lkik/android/videochat/VideoChatViewController;->_videoSwitchHolder:Landroid/view/ViewGroup;
+    iput-object v1, v0, Lkik/arcane/videochat/VideoChatViewController;->_videoSwitchHolder:Landroid/view/ViewGroup;
 
     .line 39
-    iput-object v1, v0, Lkik/android/videochat/VideoChatViewController;->_videoSwitch:Landroid/support/v7/widget/SwitchCompat;
+    iput-object v1, v0, Lkik/arcane/videochat/VideoChatViewController;->_videoSwitch:Landroid/support/v7/widget/SwitchCompat;
 
     .line 40
-    iput-object v1, v0, Lkik/android/videochat/VideoChatViewController;->_videoChatBar:Landroid/view/ViewGroup;
+    iput-object v1, v0, Lkik/arcane/videochat/VideoChatViewController;->_videoChatBar:Landroid/view/ViewGroup;
 
     .line 41
-    iput-object v1, v0, Lkik/android/videochat/VideoChatViewController;->_activeIconAnimationContainer:Landroid/view/View;
+    iput-object v1, v0, Lkik/arcane/videochat/VideoChatViewController;->_activeIconAnimationContainer:Landroid/view/View;
 
     .line 42
-    iput-object v1, v0, Lkik/android/videochat/VideoChatViewController;->_chatScreenToolTipRelativeLayout:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
+    iput-object v1, v0, Lkik/arcane/videochat/VideoChatViewController;->_chatScreenToolTipRelativeLayout:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
 
     .line 43
-    iput-object v1, v0, Lkik/android/videochat/VideoChatViewController;->_mediaBarView:Landroid/view/ViewGroup;
+    iput-object v1, v0, Lkik/arcane/videochat/VideoChatViewController;->_mediaBarView:Landroid/view/ViewGroup;
 
     .line 44
     return-void

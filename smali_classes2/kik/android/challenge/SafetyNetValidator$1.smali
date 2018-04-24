@@ -1,11 +1,11 @@
-.class final Lkik/android/challenge/SafetyNetValidator$1;
+.class final Lkik/arcane/challenge/SafetyNetValidator$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/challenge/SafetyNetValidator;->c()V
+    value = Lkik/arcane/challenge/SafetyNetValidator;->c()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,16 +22,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/challenge/SafetyNetValidator;
+.field final synthetic a:Lkik/arcane/challenge/SafetyNetValidator;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/challenge/SafetyNetValidator;)V
+.method constructor <init>(Lkik/arcane/challenge/SafetyNetValidator;)V
     .locals 0
 
     .prologue
     .line 101
-    iput-object p1, p0, Lkik/android/challenge/SafetyNetValidator$1;->a:Lkik/android/challenge/SafetyNetValidator;
+    iput-object p1, p0, Lkik/arcane/challenge/SafetyNetValidator$1;->a:Lkik/arcane/challenge/SafetyNetValidator;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -48,12 +48,12 @@
     check-cast p1, [B
 
     .line 1105
-    invoke-static {}, Lkik/android/challenge/SafetyNetValidator;->b()Lorg/slf4j/b;
+    invoke-static {}, Lkik/arcane/challenge/SafetyNetValidator;->b()Lorg/slf4j/b;
 
     .line 1106
-    iget-object v0, p0, Lkik/android/challenge/SafetyNetValidator$1;->a:Lkik/android/challenge/SafetyNetValidator;
+    iget-object v0, p0, Lkik/arcane/challenge/SafetyNetValidator$1;->a:Lkik/arcane/challenge/SafetyNetValidator;
 
-    invoke-static {v0, p1}, Lkik/android/challenge/SafetyNetValidator;->a(Lkik/android/challenge/SafetyNetValidator;[B)V
+    invoke-static {v0, p1}, Lkik/arcane/challenge/SafetyNetValidator;->a(Lkik/arcane/challenge/SafetyNetValidator;[B)V
 
     .line 101
     return-void
@@ -64,7 +64,7 @@
 
     .prologue
     .line 113
-    invoke-static {}, Lkik/android/challenge/SafetyNetValidator;->b()Lorg/slf4j/b;
+    invoke-static {}, Lkik/arcane/challenge/SafetyNetValidator;->b()Lorg/slf4j/b;
 
     move-result-object v0
 

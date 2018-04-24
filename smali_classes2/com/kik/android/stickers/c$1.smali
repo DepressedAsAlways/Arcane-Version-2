@@ -1,11 +1,11 @@
-.class final Lcom/kik/android/stickers/c$1;
+.class final Lcom/kik/arcane/stickers/c$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/kik/android/stickers/c;
+    value = Lcom/kik/arcane/stickers/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,18 +29,18 @@
 # instance fields
 .field final synthetic a:Lcom/kik/events/Promise;
 
-.field final synthetic b:Lcom/kik/android/stickers/c;
+.field final synthetic b:Lcom/kik/arcane/stickers/c;
 
 
 # direct methods
-.method constructor <init>(Lcom/kik/android/stickers/c;Lcom/kik/events/Promise;)V
+.method constructor <init>(Lcom/kik/arcane/stickers/c;Lcom/kik/events/Promise;)V
     .locals 0
 
     .prologue
     .line 511
-    iput-object p1, p0, Lcom/kik/android/stickers/c$1;->b:Lcom/kik/android/stickers/c;
+    iput-object p1, p0, Lcom/kik/arcane/stickers/c$1;->b:Lcom/kik/arcane/stickers/c;
 
-    iput-object p2, p0, Lcom/kik/android/stickers/c$1;->a:Lcom/kik/events/Promise;
+    iput-object p2, p0, Lcom/kik/arcane/stickers/c$1;->a:Lcom/kik/events/Promise;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -123,9 +123,9 @@
 
     .line 1531
     :cond_1
-    iget-object v0, p0, Lcom/kik/android/stickers/c$1;->b:Lcom/kik/android/stickers/c;
+    iget-object v0, p0, Lcom/kik/arcane/stickers/c$1;->b:Lcom/kik/arcane/stickers/c;
 
-    invoke-static {v0}, Lcom/kik/android/stickers/c;->a(Lcom/kik/android/stickers/c;)Ljava/util/Map;
+    invoke-static {v0}, Lcom/kik/arcane/stickers/c;->a(Lcom/kik/arcane/stickers/c;)Ljava/util/Map;
 
     move-result-object v0
 
@@ -193,9 +193,9 @@
     check-cast v0, Lkik/core/datatypes/y;
 
     .line 1546
-    iget-object v3, p0, Lcom/kik/android/stickers/c$1;->b:Lcom/kik/android/stickers/c;
+    iget-object v3, p0, Lcom/kik/arcane/stickers/c$1;->b:Lcom/kik/arcane/stickers/c;
 
-    invoke-static {v3, v0}, Lcom/kik/android/stickers/c;->a(Lcom/kik/android/stickers/c;Lkik/core/datatypes/y;)Lkik/core/datatypes/y;
+    invoke-static {v3, v0}, Lcom/kik/arcane/stickers/c;->a(Lcom/kik/arcane/stickers/c;Lkik/core/datatypes/y;)Lkik/core/datatypes/y;
 
     move-result-object v0
 
@@ -209,9 +209,9 @@
 
     .line 1552
     :cond_5
-    iget-object v0, p0, Lcom/kik/android/stickers/c$1;->b:Lcom/kik/android/stickers/c;
+    iget-object v0, p0, Lcom/kik/arcane/stickers/c$1;->b:Lcom/kik/arcane/stickers/c;
 
-    invoke-static {v0}, Lcom/kik/android/stickers/c;->b(Lcom/kik/android/stickers/c;)Ljava/util/concurrent/atomic/AtomicInteger;
+    invoke-static {v0}, Lcom/kik/arcane/stickers/c;->b(Lcom/kik/arcane/stickers/c;)Ljava/util/concurrent/atomic/AtomicInteger;
 
     move-result-object v0
 
@@ -250,15 +250,15 @@
     invoke-direct/range {v0 .. v8}, Lkik/core/datatypes/y;-><init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;Ljava/util/List;)V
 
     .line 1557
-    iget-object v1, p0, Lcom/kik/android/stickers/c$1;->b:Lcom/kik/android/stickers/c;
+    iget-object v1, p0, Lcom/kik/arcane/stickers/c$1;->b:Lcom/kik/arcane/stickers/c;
 
-    invoke-static {v1, v0}, Lcom/kik/android/stickers/c;->b(Lcom/kik/android/stickers/c;Lkik/core/datatypes/y;)V
+    invoke-static {v1, v0}, Lcom/kik/arcane/stickers/c;->b(Lcom/kik/arcane/stickers/c;Lkik/core/datatypes/y;)V
 
     .line 1559
     :goto_3
-    iget-object v1, p0, Lcom/kik/android/stickers/c$1;->b:Lcom/kik/android/stickers/c;
+    iget-object v1, p0, Lcom/kik/arcane/stickers/c$1;->b:Lcom/kik/arcane/stickers/c;
 
-    invoke-static {v1}, Lcom/kik/android/stickers/c;->a(Lcom/kik/android/stickers/c;)Ljava/util/Map;
+    invoke-static {v1}, Lcom/kik/arcane/stickers/c;->a(Lcom/kik/arcane/stickers/c;)Ljava/util/Map;
 
     move-result-object v1
 
@@ -267,20 +267,20 @@
     invoke-interface {v1, v2, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 1560
-    iget-object v1, p0, Lcom/kik/android/stickers/c$1;->b:Lcom/kik/android/stickers/c;
+    iget-object v1, p0, Lcom/kik/arcane/stickers/c$1;->b:Lcom/kik/arcane/stickers/c;
 
-    invoke-static {v1}, Lcom/kik/android/stickers/c;->c(Lcom/kik/android/stickers/c;)Ljava/util/ArrayList;
+    invoke-static {v1}, Lcom/kik/arcane/stickers/c;->c(Lcom/kik/arcane/stickers/c;)Ljava/util/ArrayList;
 
     move-result-object v1
 
     invoke-virtual {v1, v9, v0}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
     .line 1563
-    new-instance v0, Lcom/kik/android/stickers/c$a;
+    new-instance v0, Lcom/kik/arcane/stickers/c$a;
 
-    iget-object v1, p0, Lcom/kik/android/stickers/c$1;->b:Lcom/kik/android/stickers/c;
+    iget-object v1, p0, Lcom/kik/arcane/stickers/c$1;->b:Lcom/kik/arcane/stickers/c;
 
-    invoke-direct {v0, v1, v9}, Lcom/kik/android/stickers/c$a;-><init>(Lcom/kik/android/stickers/c;B)V
+    invoke-direct {v0, v1, v9}, Lcom/kik/arcane/stickers/c$a;-><init>(Lcom/kik/arcane/stickers/c;B)V
 
     invoke-static {v10, v0}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
@@ -303,20 +303,20 @@
     check-cast v0, Lkik/core/datatypes/y;
 
     .line 1567
-    iget-object v2, p0, Lcom/kik/android/stickers/c$1;->b:Lcom/kik/android/stickers/c;
+    iget-object v2, p0, Lcom/kik/arcane/stickers/c$1;->b:Lcom/kik/arcane/stickers/c;
 
-    invoke-static {v2, v0}, Lcom/kik/android/stickers/c;->c(Lcom/kik/android/stickers/c;Lkik/core/datatypes/y;)V
+    invoke-static {v2, v0}, Lcom/kik/arcane/stickers/c;->c(Lcom/kik/arcane/stickers/c;Lkik/core/datatypes/y;)V
 
     .line 1568
-    iget-object v2, p0, Lcom/kik/android/stickers/c$1;->b:Lcom/kik/android/stickers/c;
+    iget-object v2, p0, Lcom/kik/arcane/stickers/c$1;->b:Lcom/kik/arcane/stickers/c;
 
-    invoke-static {v2, v0}, Lcom/kik/android/stickers/c;->d(Lcom/kik/android/stickers/c;Lkik/core/datatypes/y;)V
+    invoke-static {v2, v0}, Lcom/kik/arcane/stickers/c;->d(Lcom/kik/arcane/stickers/c;Lkik/core/datatypes/y;)V
 
     goto :goto_4
 
     .line 1571
     :cond_6
-    iget-object v0, p0, Lcom/kik/android/stickers/c$1;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lcom/kik/arcane/stickers/c$1;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {v0, v10}, Lcom/kik/events/Promise;->a(Ljava/lang/Object;)V
 
@@ -339,7 +339,7 @@
 
     .prologue
     .line 577
-    iget-object v0, p0, Lcom/kik/android/stickers/c$1;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lcom/kik/arcane/stickers/c$1;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {v0, p1}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 
@@ -352,18 +352,18 @@
 
     .prologue
     .line 583
-    iget-object v0, p0, Lcom/kik/android/stickers/c$1;->b:Lcom/kik/android/stickers/c;
+    iget-object v0, p0, Lcom/kik/arcane/stickers/c$1;->b:Lcom/kik/arcane/stickers/c;
 
-    invoke-static {v0}, Lcom/kik/android/stickers/c;->d(Lcom/kik/android/stickers/c;)Z
+    invoke-static {v0}, Lcom/kik/arcane/stickers/c;->d(Lcom/kik/arcane/stickers/c;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 584
-    iget-object v0, p0, Lcom/kik/android/stickers/c$1;->b:Lcom/kik/android/stickers/c;
+    iget-object v0, p0, Lcom/kik/arcane/stickers/c$1;->b:Lcom/kik/arcane/stickers/c;
 
-    invoke-static {v0}, Lcom/kik/android/stickers/c;->e(Lcom/kik/android/stickers/c;)V
+    invoke-static {v0}, Lcom/kik/arcane/stickers/c;->e(Lcom/kik/arcane/stickers/c;)V
 
     .line 590
     :goto_0
@@ -371,14 +371,14 @@
 
     .line 587
     :cond_0
-    iget-object v0, p0, Lcom/kik/android/stickers/c$1;->b:Lcom/kik/android/stickers/c;
+    iget-object v0, p0, Lcom/kik/arcane/stickers/c$1;->b:Lcom/kik/arcane/stickers/c;
 
-    invoke-static {v0}, Lcom/kik/android/stickers/c;->f(Lcom/kik/android/stickers/c;)V
+    invoke-static {v0}, Lcom/kik/arcane/stickers/c;->f(Lcom/kik/arcane/stickers/c;)V
 
     .line 588
-    iget-object v0, p0, Lcom/kik/android/stickers/c$1;->b:Lcom/kik/android/stickers/c;
+    iget-object v0, p0, Lcom/kik/arcane/stickers/c$1;->b:Lcom/kik/arcane/stickers/c;
 
-    invoke-static {v0}, Lcom/kik/android/stickers/c;->g(Lcom/kik/android/stickers/c;)Lrx/subjects/PublishSubject;
+    invoke-static {v0}, Lcom/kik/arcane/stickers/c;->g(Lcom/kik/arcane/stickers/c;)Lrx/subjects/PublishSubject;
 
     move-result-object v0
 

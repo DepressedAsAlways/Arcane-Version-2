@@ -1,4 +1,4 @@
-.class public final Lkik/android/addressbook/AddressBookRetryPolicy;
+.class public final Lkik/arcane/addressbook/AddressBookRetryPolicy;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/addressbook/AddressBookRetryPolicy$RetryPolicyException;
+        Lkik/arcane/addressbook/AddressBookRetryPolicy$RetryPolicyException;
     }
 .end annotation
 
@@ -28,12 +28,12 @@
     .line 12
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/addressbook/AddressBookRetryPolicy;->a:Z
+    iput-boolean v0, p0, Lkik/arcane/addressbook/AddressBookRetryPolicy;->a:Z
 
     .line 13
     const/4 v0, 0x5
 
-    iput v0, p0, Lkik/android/addressbook/AddressBookRetryPolicy;->b:I
+    iput v0, p0, Lkik/arcane/addressbook/AddressBookRetryPolicy;->b:I
 
     .line 17
     return-void
@@ -48,12 +48,12 @@
     .line 21
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/addressbook/AddressBookRetryPolicy;->a:Z
+    iput-boolean v0, p0, Lkik/arcane/addressbook/AddressBookRetryPolicy;->a:Z
 
     .line 23
     const/4 v0, 0x5
 
-    iput v0, p0, Lkik/android/addressbook/AddressBookRetryPolicy;->b:I
+    iput v0, p0, Lkik/arcane/addressbook/AddressBookRetryPolicy;->b:I
 
     .line 24
     return-void
@@ -64,7 +64,7 @@
 
     .prologue
     .line 33
-    iget v0, p0, Lkik/android/addressbook/AddressBookRetryPolicy;->b:I
+    iget v0, p0, Lkik/arcane/addressbook/AddressBookRetryPolicy;->b:I
 
     if-lez v0, :cond_0
 
@@ -83,37 +83,37 @@
     .locals 2
     .annotation system Ldalvik/annotation/Throws;
         value = {
-            Lkik/android/addressbook/AddressBookRetryPolicy$RetryPolicyException;
+            Lkik/arcane/addressbook/AddressBookRetryPolicy$RetryPolicyException;
         }
     .end annotation
 
     .prologue
     .line 38
-    iget v0, p0, Lkik/android/addressbook/AddressBookRetryPolicy;->b:I
+    iget v0, p0, Lkik/arcane/addressbook/AddressBookRetryPolicy;->b:I
 
     if-gtz v0, :cond_0
 
     .line 40
-    new-instance v0, Lkik/android/addressbook/AddressBookRetryPolicy$RetryPolicyException;
+    new-instance v0, Lkik/arcane/addressbook/AddressBookRetryPolicy$RetryPolicyException;
 
     const-string v1, "Handling a response for more requests that the policy allows. Caller should break"
 
-    invoke-direct {v0, v1}, Lkik/android/addressbook/AddressBookRetryPolicy$RetryPolicyException;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lkik/arcane/addressbook/AddressBookRetryPolicy$RetryPolicyException;-><init>(Ljava/lang/String;)V
 
     throw v0
 
     .line 43
     :cond_0
-    iget-boolean v0, p0, Lkik/android/addressbook/AddressBookRetryPolicy;->a:Z
+    iget-boolean v0, p0, Lkik/arcane/addressbook/AddressBookRetryPolicy;->a:Z
 
     if-nez v0, :cond_1
 
     .line 44
-    iget v0, p0, Lkik/android/addressbook/AddressBookRetryPolicy;->b:I
+    iget v0, p0, Lkik/arcane/addressbook/AddressBookRetryPolicy;->b:I
 
     add-int/lit8 v0, v0, -0x1
 
-    iput v0, p0, Lkik/android/addressbook/AddressBookRetryPolicy;->b:I
+    iput v0, p0, Lkik/arcane/addressbook/AddressBookRetryPolicy;->b:I
 
     .line 49
     :goto_0
@@ -123,7 +123,7 @@
     :cond_1
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/addressbook/AddressBookRetryPolicy;->a:Z
+    iput-boolean v0, p0, Lkik/arcane/addressbook/AddressBookRetryPolicy;->a:Z
 
     goto :goto_0
 .end method

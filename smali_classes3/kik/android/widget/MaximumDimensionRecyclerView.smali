@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/MaximumDimensionRecyclerView;
+.class public Lkik/arcane/widget/MaximumDimensionRecyclerView;
 .super Landroid/support/v7/widget/RecyclerView;
 .source "SourceFile"
 
@@ -20,10 +20,10 @@
     invoke-direct {p0, p1, p2}, Landroid/support/v7/widget/RecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 18
-    iput v2, p0, Lkik/android/widget/MaximumDimensionRecyclerView;->a:I
+    iput v2, p0, Lkik/arcane/widget/MaximumDimensionRecyclerView;->a:I
 
     .line 19
-    iput v2, p0, Lkik/android/widget/MaximumDimensionRecyclerView;->b:I
+    iput v2, p0, Lkik/arcane/widget/MaximumDimensionRecyclerView;->b:I
 
     .line 24
     if-eqz p2, :cond_0
@@ -47,7 +47,7 @@
 
     move-result v1
 
-    iput v1, p0, Lkik/android/widget/MaximumDimensionRecyclerView;->b:I
+    iput v1, p0, Lkik/arcane/widget/MaximumDimensionRecyclerView;->b:I
 
     .line 32
     const/4 v1, 0x1
@@ -56,7 +56,7 @@
 
     move-result v1
 
-    iput v1, p0, Lkik/android/widget/MaximumDimensionRecyclerView;->a:I
+    iput v1, p0, Lkik/arcane/widget/MaximumDimensionRecyclerView;->a:I
 
     .line 33
     invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
@@ -82,12 +82,12 @@
     const/high16 v1, -0x80000000
 
     .line 40
-    iget v0, p0, Lkik/android/widget/MaximumDimensionRecyclerView;->b:I
+    iget v0, p0, Lkik/arcane/widget/MaximumDimensionRecyclerView;->b:I
 
     if-ltz v0, :cond_0
 
     .line 41
-    iget v0, p0, Lkik/android/widget/MaximumDimensionRecyclerView;->b:I
+    iget v0, p0, Lkik/arcane/widget/MaximumDimensionRecyclerView;->b:I
 
     invoke-static {v0, v1}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
@@ -95,12 +95,12 @@
 
     .line 44
     :cond_0
-    iget v0, p0, Lkik/android/widget/MaximumDimensionRecyclerView;->a:I
+    iget v0, p0, Lkik/arcane/widget/MaximumDimensionRecyclerView;->a:I
 
     if-ltz v0, :cond_1
 
     .line 45
-    iget v0, p0, Lkik/android/widget/MaximumDimensionRecyclerView;->a:I
+    iget v0, p0, Lkik/arcane/widget/MaximumDimensionRecyclerView;->a:I
 
     invoke-static {v0, v1}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 

@@ -1,11 +1,11 @@
-.class final Lkik/android/sdkutils/concurrent/f$1$1;
+.class final Lkik/arcane/sdkutils/concurrent/f$1$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/sdkutils/concurrent/f$1;->run()V
+    value = Lkik/arcane/sdkutils/concurrent/f$1;->run()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,16 +22,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/sdkutils/concurrent/f$1;
+.field final synthetic a:Lkik/arcane/sdkutils/concurrent/f$1;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/sdkutils/concurrent/f$1;)V
+.method constructor <init>(Lkik/arcane/sdkutils/concurrent/f$1;)V
     .locals 0
 
     .prologue
     .line 43
-    iput-object p1, p0, Lkik/android/sdkutils/concurrent/f$1$1;->a:Lkik/android/sdkutils/concurrent/f$1;
+    iput-object p1, p0, Lkik/arcane/sdkutils/concurrent/f$1$1;->a:Lkik/arcane/sdkutils/concurrent/f$1;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -53,9 +53,9 @@
     invoke-super {p0, p1}, Lcom/kik/events/k;->a(Ljava/lang/Object;)V
 
     .line 48
-    iget-object v0, p0, Lkik/android/sdkutils/concurrent/f$1$1;->a:Lkik/android/sdkutils/concurrent/f$1;
+    iget-object v0, p0, Lkik/arcane/sdkutils/concurrent/f$1$1;->a:Lkik/arcane/sdkutils/concurrent/f$1;
 
-    iget-object v0, v0, Lkik/android/sdkutils/concurrent/f$1;->a:Lcom/kik/events/Promise;
+    iget-object v0, v0, Lkik/arcane/sdkutils/concurrent/f$1;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {v0, p1}, Lcom/kik/events/Promise;->a(Ljava/lang/Object;)V
 
@@ -71,9 +71,9 @@
     invoke-super {p0, p1}, Lcom/kik/events/k;->b(Ljava/lang/Throwable;)V
 
     .line 55
-    iget-object v0, p0, Lkik/android/sdkutils/concurrent/f$1$1;->a:Lkik/android/sdkutils/concurrent/f$1;
+    iget-object v0, p0, Lkik/arcane/sdkutils/concurrent/f$1$1;->a:Lkik/arcane/sdkutils/concurrent/f$1;
 
-    iget-object v0, v0, Lkik/android/sdkutils/concurrent/f$1;->a:Lcom/kik/events/Promise;
+    iget-object v0, v0, Lkik/arcane/sdkutils/concurrent/f$1;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {v0, p1}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 
@@ -89,9 +89,9 @@
     invoke-super {p0}, Lcom/kik/events/k;->c()V
 
     .line 62
-    iget-object v0, p0, Lkik/android/sdkutils/concurrent/f$1$1;->a:Lkik/android/sdkutils/concurrent/f$1;
+    iget-object v0, p0, Lkik/arcane/sdkutils/concurrent/f$1$1;->a:Lkik/arcane/sdkutils/concurrent/f$1;
 
-    iget-object v0, v0, Lkik/android/sdkutils/concurrent/f$1;->a:Lcom/kik/events/Promise;
+    iget-object v0, v0, Lkik/arcane/sdkutils/concurrent/f$1;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {v0}, Lcom/kik/events/Promise;->f()V
 

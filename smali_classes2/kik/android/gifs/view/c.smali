@@ -1,4 +1,4 @@
-.class public final Lkik/android/gifs/view/c;
+.class public final Lkik/arcane/gifs/view/c;
 .super Landroid/graphics/drawable/AnimationDrawable;
 .source "SourceFile"
 
@@ -16,12 +16,12 @@
     invoke-direct {p0}, Landroid/graphics/drawable/AnimationDrawable;-><init>()V
 
     .line 32
-    iput-object p1, p0, Lkik/android/gifs/view/c;->a:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/gifs/view/c;->a:Ljava/lang/String;
 
     .line 33
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/gifs/view/c;->setOneShot(Z)V
+    invoke-virtual {p0, v0}, Lkik/arcane/gifs/view/c;->setOneShot(Z)V
 
     .line 34
     return-void
@@ -32,12 +32,12 @@
 
     .prologue
     .line 21
-    invoke-direct {p0, p1}, Lkik/android/gifs/view/c;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lkik/arcane/gifs/view/c;-><init>(Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method public static a(Ljava/lang/String;Ljava/io/File;ILkik/android/gifs/api/GifResponseData$MediaType;Landroid/content/res/Resources;)Lcom/kik/events/Promise;
+.method public static a(Ljava/lang/String;Ljava/io/File;ILkik/arcane/gifs/api/GifResponseData$MediaType;Landroid/content/res/Resources;)Lcom/kik/events/Promise;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -45,12 +45,12 @@
             "Ljava/lang/String;",
             "Ljava/io/File;",
             "I",
-            "Lkik/android/gifs/api/GifResponseData$MediaType;",
+            "Lkik/arcane/gifs/api/GifResponseData$MediaType;",
             "Landroid/content/res/Resources;",
             ")",
             "Lcom/kik/events/Promise",
             "<",
-            "Lkik/android/gifs/view/c;",
+            "Lkik/arcane/gifs/view/c;",
             ">;"
         }
     .end annotation
@@ -63,7 +63,7 @@
     invoke-direct {v0}, Lcom/kik/events/Promise;-><init>()V
 
     .line 1040
-    invoke-static {}, Lkik/android/gifs/a/e;->a()Lkik/android/gifs/a/e;
+    invoke-static {}, Lkik/arcane/gifs/a/e;->a()Lkik/arcane/gifs/a/e;
 
     move-result-object v1
 
@@ -71,14 +71,14 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2, p3, p2}, Lkik/android/gifs/a/e;->a(Ljava/lang/String;Lkik/android/gifs/api/GifResponseData$MediaType;I)Lcom/kik/events/Promise;
+    invoke-virtual {v1, v2, p3, p2}, Lkik/arcane/gifs/a/e;->a(Ljava/lang/String;Lkik/arcane/gifs/api/GifResponseData$MediaType;I)Lcom/kik/events/Promise;
 
     move-result-object v1
 
     .line 1041
-    new-instance v2, Lkik/android/gifs/view/c$1;
+    new-instance v2, Lkik/arcane/gifs/view/c$1;
 
-    invoke-direct {v2, p0, p4, v0}, Lkik/android/gifs/view/c$1;-><init>(Ljava/lang/String;Landroid/content/res/Resources;Lcom/kik/events/Promise;)V
+    invoke-direct {v2, p0, p4, v0}, Lkik/arcane/gifs/view/c$1;-><init>(Ljava/lang/String;Landroid/content/res/Resources;Lcom/kik/events/Promise;)V
 
     invoke-virtual {v1, v2}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 

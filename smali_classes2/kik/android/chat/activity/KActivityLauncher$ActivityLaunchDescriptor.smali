@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+.class public final Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/activity/KActivityLauncher;
+    value = Lkik/arcane/chat/activity/KActivityLauncher;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,7 +15,7 @@
 
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;
+        Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;
     }
 .end annotation
 
@@ -25,7 +25,7 @@
 
 .field private final b:Landroid/os/Bundle;
 
-.field private c:Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;
+.field private c:Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;
 
 .field private d:Z
 
@@ -47,21 +47,21 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 515
-    iput v0, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e:I
+    iput v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e:I
 
     .line 516
-    iput v0, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->f:I
+    iput v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->f:I
 
     .line 517
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->g:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->g:Z
 
     .line 521
-    iput-object p2, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a:Landroid/content/Context;
+    iput-object p2, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a:Landroid/content/Context;
 
     .line 522
-    iput-object p1, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b:Landroid/os/Bundle;
+    iput-object p1, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b:Landroid/os/Bundle;
 
     .line 523
     return-void
@@ -91,9 +91,9 @@
     const/4 v4, -0x1
 
     .line 593
-    iget-object v0, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b:Landroid/os/Bundle;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b:Landroid/os/Bundle;
 
-    const-string v1, "kik.android.util.FragmentBundle.FragmentClass"
+    const-string v1, "kik.arcane.util.FragmentBundle.FragmentClass"
 
     invoke-virtual {v0, v1}, Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
@@ -115,7 +115,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v3, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b:Landroid/os/Bundle;
+    iget-object v3, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b:Landroid/os/Bundle;
 
     invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
@@ -133,7 +133,7 @@
 
     .line 603
     :cond_0
-    const-class v1, Lkik/android/chat/fragment/KikConversationsFragment;
+    const-class v1, Lkik/arcane/chat/fragment/KikConversationsFragment;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getCanonicalName()Ljava/lang/String;
 
@@ -146,20 +146,20 @@
     if-eqz v1, :cond_4
 
     .line 604
-    const-class v0, Lkik/android/chat/activity/ConversationsActivity;
+    const-class v0, Lkik/arcane/chat/activity/ConversationsActivity;
 
     .line 616
     :goto_0
     new-instance v1, Landroid/content/Intent;
 
-    iget-object v2, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a:Landroid/content/Context;
+    iget-object v2, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a:Landroid/content/Context;
 
     invoke-direct {v1, v2, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
     .line 619
-    iget-object v2, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->c:Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;
+    iget-object v2, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->c:Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;
 
-    sget-object v3, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;->UP:Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;
+    sget-object v3, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;->UP:Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;
 
     if-ne v2, v3, :cond_a
 
@@ -171,11 +171,11 @@
 
     move-result-object v0
 
-    invoke-static {}, Lkik/android/chat/activity/KActivityLauncher;->h()Ljava/lang/String;
+    invoke-static {}, Lkik/arcane/chat/activity/KActivityLauncher;->h()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-static {v0, v2}, Lkik/android/chat/activity/KActivityLauncher;->a(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {v0, v2}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
 
@@ -188,7 +188,7 @@
 
     .line 647
     :goto_1
-    iget-boolean v0, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->d:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->d:Z
 
     if-eqz v0, :cond_1
 
@@ -200,44 +200,44 @@
     .line 1672
     :cond_1
     :goto_2
-    iget v0, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->f:I
+    iget v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->f:I
 
     if-eq v0, v4, :cond_2
 
     .line 1673
     const-string v0, "ActivityLaunchDescriptor.anim.override.exit"
 
-    iget v2, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->f:I
+    iget v2, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->f:I
 
     invoke-virtual {v1, v0, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 1675
     :cond_2
-    iget v0, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e:I
+    iget v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e:I
 
     if-eq v0, v4, :cond_3
 
     .line 1676
     const-string v0, "ActivityLaunchDescriptor.anim.override.enter"
 
-    iget v2, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e:I
+    iget v2, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e:I
 
     invoke-virtual {v1, v0, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 662
     :cond_3
-    iget-object v0, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b:Landroid/os/Bundle;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b:Landroid/os/Bundle;
 
     const-string v2, "com.kik.util.KActivityLauncher.synthTaskId"
 
-    invoke-static {}, Lkik/android/chat/activity/KActivityLauncher;->h()Ljava/lang/String;
+    invoke-static {}, Lkik/arcane/chat/activity/KActivityLauncher;->h()Ljava/lang/String;
 
     move-result-object v3
 
     invoke-virtual {v0, v2, v3}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 663
-    iget-object v0, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b:Landroid/os/Bundle;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b:Landroid/os/Bundle;
 
     invoke-virtual {v1, v0}, Landroid/content/Intent;->putExtras(Landroid/os/Bundle;)Landroid/content/Intent;
 
@@ -246,7 +246,7 @@
 
     .line 606
     :cond_4
-    const-class v1, Lkik/android/chat/fragment/MissedConversationsFragment;
+    const-class v1, Lkik/arcane/chat/fragment/MissedConversationsFragment;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getCanonicalName()Ljava/lang/String;
 
@@ -259,13 +259,13 @@
     if-eqz v1, :cond_5
 
     .line 607
-    const-class v0, Lkik/android/chat/activity/MissedConversationsActivity;
+    const-class v0, Lkik/arcane/chat/activity/MissedConversationsActivity;
 
     goto :goto_0
 
     .line 609
     :cond_5
-    const-class v1, Lkik/android/chat/fragment/KikChatFragment;
+    const-class v1, Lkik/arcane/chat/fragment/KikChatFragment;
 
     invoke-virtual {v1}, Ljava/lang/Class;->getCanonicalName()Ljava/lang/String;
 
@@ -278,13 +278,13 @@
     if-eqz v0, :cond_6
 
     .line 610
-    const-class v0, Lkik/android/chat/activity/ChatActivity;
+    const-class v0, Lkik/arcane/chat/activity/ChatActivity;
 
     goto :goto_0
 
     .line 613
     :cond_6
-    const-class v0, Lkik/android/chat/activity/FragmentWrapperActivity;
+    const-class v0, Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
     goto :goto_0
 
@@ -292,11 +292,11 @@
     :cond_7
     const-string v0, "ActivityLaunchDescriptor.anim.override.enter"
 
-    iget-object v2, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a:Landroid/content/Context;
+    iget-object v2, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a:Landroid/content/Context;
 
     const v3, 0x10100ba
 
-    invoke-static {v2, v3}, Lkik/android/util/ao;->a(Landroid/content/Context;I)I
+    invoke-static {v2, v3}, Lkik/arcane/util/ao;->a(Landroid/content/Context;I)I
 
     move-result v2
 
@@ -305,18 +305,18 @@
     .line 628
     const-string v0, "ActivityLaunchDescriptor.anim.override.exit"
 
-    iget-object v2, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a:Landroid/content/Context;
+    iget-object v2, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a:Landroid/content/Context;
 
     const v3, 0x10100bb
 
-    invoke-static {v2, v3}, Lkik/android/util/ao;->a(Landroid/content/Context;I)I
+    invoke-static {v2, v3}, Lkik/arcane/util/ao;->a(Landroid/content/Context;I)I
 
     move-result v2
 
     invoke-virtual {v1, v0, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 630
-    invoke-static {}, Lkik/android/chat/activity/KActivityLauncher;->d()V
+    invoke-static {}, Lkik/arcane/chat/activity/KActivityLauncher;->d()V
 
     .line 632
     invoke-static {}, Ljava/util/UUID;->randomUUID()Ljava/util/UUID;
@@ -327,13 +327,13 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/chat/activity/KActivityLauncher;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Ljava/lang/String;)V
 
     goto :goto_1
 
     .line 636
     :cond_8
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v0
 
@@ -350,13 +350,13 @@
 
     .line 644
     :cond_9
-    invoke-static {v1}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a(Landroid/content/Intent;)V
+    invoke-static {v1}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a(Landroid/content/Intent;)V
 
     goto/16 :goto_1
 
     .line 652
     :cond_a
-    iget-boolean v0, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->g:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->g:Z
 
     if-eqz v0, :cond_b
 
@@ -369,14 +369,14 @@
 
     .line 655
     :cond_b
-    iget-object v0, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->c:Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->c:Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;
 
-    sget-object v2, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;->ROOT:Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;
+    sget-object v2, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;->ROOT:Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;
 
     if-ne v0, v2, :cond_1
 
     .line 656
-    invoke-static {v1}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a(Landroid/content/Intent;)V
+    invoke-static {v1}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a(Landroid/content/Intent;)V
 
     goto/16 :goto_2
 .end method
@@ -390,7 +390,7 @@
     .line 707
     if-eqz p1, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a:Landroid/content/Context;
 
     if-nez v0, :cond_1
 
@@ -401,21 +401,21 @@
 
     .line 710
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a:Landroid/content/Context;
 
     instance-of v0, v0, Landroid/app/Activity;
 
     if-nez v0, :cond_2
 
     .line 711
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 712
-    invoke-static {}, Lkik/android/chat/activity/KActivityLauncher;->i()Lorg/slf4j/b;
+    invoke-static {}, Lkik/arcane/chat/activity/KActivityLauncher;->i()Lorg/slf4j/b;
 
     goto :goto_0
 
@@ -440,7 +440,7 @@
     if-eq v2, v3, :cond_0
 
     .line 719
-    iget-object v0, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a:Landroid/content/Context;
 
     check-cast v0, Landroid/app/Activity;
 
@@ -451,65 +451,65 @@
 
 
 # virtual methods
-.method public final a()Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+.method public final a()Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
     .locals 1
 
     .prologue
     .line 527
-    sget-object v0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;->UP:Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;
+    sget-object v0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;->UP:Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;
 
-    iput-object v0, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->c:Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->c:Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;
 
     .line 528
     return-object p0
 .end method
 
-.method public final a(II)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+.method public final a(II)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
     .locals 0
 
     .prologue
     .line 548
-    iput p1, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e:I
+    iput p1, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e:I
 
     .line 549
-    iput p2, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->f:I
+    iput p2, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->f:I
 
     .line 550
     return-object p0
 .end method
 
-.method public final a(Z)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+.method public final a(Z)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
     .locals 0
 
     .prologue
     .line 533
-    iput-boolean p1, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->g:Z
+    iput-boolean p1, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->g:Z
 
     .line 534
     return-object p0
 .end method
 
-.method public final b()Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+.method public final b()Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
     .locals 1
 
     .prologue
     .line 563
-    sget-object v0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;->ROOT:Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;
+    sget-object v0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;->ROOT:Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;
 
-    iput-object v0, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->c:Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->c:Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor$NavigationType;
 
     .line 564
     return-object p0
 .end method
 
-.method public final c()Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+.method public final c()Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
     .locals 1
 
     .prologue
     .line 577
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->d:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->d:Z
 
     .line 578
     return-object p0
@@ -522,7 +522,7 @@
     .line 583
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b(Z)Landroid/content/Intent;
+    invoke-direct {p0, v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b(Z)Landroid/content/Intent;
 
     move-result-object v0
 
@@ -545,19 +545,19 @@
     .line 690
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b(Z)Landroid/content/Intent;
+    invoke-direct {p0, v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b(Z)Landroid/content/Intent;
 
     move-result-object v0
 
     .line 691
-    iget-object v1, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a:Landroid/content/Context;
+    iget-object v1, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a:Landroid/content/Context;
 
-    invoke-static {v0, v1}, Lkik/android/chat/activity/KActivityLauncher;->a(Landroid/content/Intent;Landroid/content/Context;)Lcom/kik/events/Promise;
+    invoke-static {v0, v1}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Landroid/content/Intent;Landroid/content/Context;)Lcom/kik/events/Promise;
 
     move-result-object v1
 
     .line 692
-    invoke-direct {p0, v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b(Landroid/content/Intent;)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b(Landroid/content/Intent;)V
 
     .line 693
     return-object v1
@@ -579,7 +579,7 @@
     .line 698
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b(Z)Landroid/content/Intent;
+    invoke-direct {p0, v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b(Z)Landroid/content/Intent;
 
     move-result-object v0
 
@@ -589,14 +589,14 @@
     invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     .line 700
-    iget-object v1, p0, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a:Landroid/content/Context;
+    iget-object v1, p0, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->a:Landroid/content/Context;
 
-    invoke-static {v0, v1}, Lkik/android/chat/activity/KActivityLauncher;->a(Landroid/content/Intent;Landroid/content/Context;)Lcom/kik/events/Promise;
+    invoke-static {v0, v1}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Landroid/content/Intent;Landroid/content/Context;)Lcom/kik/events/Promise;
 
     move-result-object v1
 
     .line 701
-    invoke-direct {p0, v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b(Landroid/content/Intent;)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->b(Landroid/content/Intent;)V
 
     .line 702
     return-object v1

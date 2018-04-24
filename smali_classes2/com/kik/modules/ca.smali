@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lkik/android/g/b;",
+        "Lkik/arcane/g/b;",
         ">;"
     }
 .end annotation
@@ -167,7 +167,7 @@
             ">;)",
             "Ldagger/internal/b",
             "<",
-            "Lkik/android/g/b;",
+            "Lkik/arcane/g/b;",
             ">;"
         }
     .end annotation
@@ -207,9 +207,9 @@
     check-cast v1, Lkik/core/interfaces/b;
 
     .line 2024
-    new-instance v2, Lkik/android/g/f;
+    new-instance v2, Lkik/arcane/g/f;
 
-    invoke-direct {v2, v0, v1}, Lkik/android/g/f;-><init>(Lkik/core/interfaces/ICommunication;Lkik/core/interfaces/b;)V
+    invoke-direct {v2, v0, v1}, Lkik/arcane/g/f;-><init>(Lkik/core/interfaces/ICommunication;Lkik/core/interfaces/b;)V
 
     .line 1037
     const-string v0, "Cannot return null from a non-@Nullable @Provides method"
@@ -219,7 +219,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/g/b;
+    check-cast v0, Lkik/arcane/g/b;
 
     .line 11
     return-object v0

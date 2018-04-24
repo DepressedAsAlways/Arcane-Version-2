@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lkik/android/videochat/c;",
+        "Lkik/arcane/videochat/c;",
         ">;"
     }
 .end annotation
@@ -96,7 +96,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/b/a;",
+            "Lkik/arcane/chat/b/a;",
             ">;"
         }
     .end annotation
@@ -173,7 +173,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/b/a;",
+            "Lkik/arcane/chat/b/a;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -375,7 +375,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/b/a;",
+            "Lkik/arcane/chat/b/a;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -383,7 +383,7 @@
             ">;)",
             "Ldagger/internal/b",
             "<",
-            "Lkik/android/videochat/c;",
+            "Lkik/arcane/videochat/c;",
             ">;"
         }
     .end annotation
@@ -486,7 +486,7 @@
 
     move-result-object v7
 
-    check-cast v7, Lkik/android/chat/b/a;
+    check-cast v7, Lkik/arcane/chat/b/a;
 
     iget-object v8, p0, Lcom/kik/modules/en;->j:Ljavax/inject/Provider;
 
@@ -498,7 +498,7 @@
     check-cast v8, Lkik/core/interfaces/l;
 
     .line 1074
-    invoke-virtual/range {v0 .. v8}, Lcom/kik/modules/em;->a(Lkik/core/interfaces/ad;Lcom/kik/storage/s;Lkik/core/interfaces/v;Lkik/core/c/a;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/b;Lkik/android/chat/b/a;Lkik/core/interfaces/l;)Lkik/android/videochat/c;
+    invoke-virtual/range {v0 .. v8}, Lcom/kik/modules/em;->a(Lkik/core/interfaces/ad;Lcom/kik/storage/s;Lkik/core/interfaces/v;Lkik/core/c/a;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/b;Lkik/arcane/chat/b/a;Lkik/core/interfaces/l;)Lkik/arcane/videochat/c;
 
     move-result-object v0
 
@@ -509,7 +509,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/videochat/c;
+    check-cast v0, Lkik/arcane/videochat/c;
 
     .line 17
     return-object v0

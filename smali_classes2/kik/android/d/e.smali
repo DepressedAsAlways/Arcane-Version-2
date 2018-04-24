@@ -1,4 +1,4 @@
-.class public final Lkik/android/d/e;
+.class public final Lkik/arcane/d/e;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lkik/android/d/f;",
+        "Lkik/arcane/d/f;",
         ">;"
     }
 .end annotation
@@ -23,7 +23,7 @@
 
 
 # instance fields
-.field private final b:Lkik/android/d/d;
+.field private final b:Lkik/arcane/d/d;
 
 
 # direct methods
@@ -32,7 +32,7 @@
 
     .prologue
     .line 7
-    const-class v0, Lkik/android/d/e;
+    const-class v0, Lkik/arcane/d/e;
 
     invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
 
@@ -43,7 +43,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    sput-boolean v0, Lkik/android/d/e;->a:Z
+    sput-boolean v0, Lkik/arcane/d/e;->a:Z
 
     return-void
 
@@ -53,7 +53,7 @@
     goto :goto_0
 .end method
 
-.method private constructor <init>(Lkik/android/d/d;)V
+.method private constructor <init>(Lkik/arcane/d/d;)V
     .locals 1
 
     .prologue
@@ -61,7 +61,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 16
-    sget-boolean v0, Lkik/android/d/e;->a:Z
+    sget-boolean v0, Lkik/arcane/d/e;->a:Z
 
     if-nez v0, :cond_0
 
@@ -75,31 +75,31 @@
 
     .line 17
     :cond_0
-    iput-object p1, p0, Lkik/android/d/e;->b:Lkik/android/d/d;
+    iput-object p1, p0, Lkik/arcane/d/e;->b:Lkik/arcane/d/d;
 
     .line 18
     return-void
 .end method
 
-.method public static a(Lkik/android/d/d;)Ldagger/internal/b;
+.method public static a(Lkik/arcane/d/d;)Ldagger/internal/b;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/d/d;",
+            "Lkik/arcane/d/d;",
             ")",
             "Ldagger/internal/b",
             "<",
-            "Lkik/android/d/f;",
+            "Lkik/arcane/d/f;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 28
-    new-instance v0, Lkik/android/d/e;
+    new-instance v0, Lkik/arcane/d/e;
 
-    invoke-direct {v0, p0}, Lkik/android/d/e;-><init>(Lkik/android/d/d;)V
+    invoke-direct {v0, p0}, Lkik/arcane/d/e;-><init>(Lkik/arcane/d/d;)V
 
     return-object v0
 .end method
@@ -111,7 +111,7 @@
 
     .prologue
     .line 1024
-    invoke-static {}, Lkik/android/d/g;->a()Lkik/android/d/g;
+    invoke-static {}, Lkik/arcane/d/g;->a()Lkik/arcane/d/g;
 
     move-result-object v0
 
@@ -126,7 +126,7 @@
     const-string v3, "*"
 
     .line 1025
-    invoke-virtual {v0, v1, v2, v3}, Lkik/android/d/g;->a(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;)Lkik/android/d/g;
+    invoke-virtual {v0, v1, v2, v3}, Lkik/arcane/d/g;->a(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;)Lkik/arcane/d/g;
 
     move-result-object v0
 
@@ -141,7 +141,7 @@
     const-string v3, "_"
 
     .line 1026
-    invoke-virtual {v0, v1, v2, v3}, Lkik/android/d/g;->a(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;)Lkik/android/d/g;
+    invoke-virtual {v0, v1, v2, v3}, Lkik/arcane/d/g;->a(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;)Lkik/arcane/d/g;
 
     move-result-object v0
 
@@ -154,12 +154,12 @@
     const-string v3, "~"
 
     .line 1027
-    invoke-virtual {v0, v1, v2, v3}, Lkik/android/d/g;->a(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;)Lkik/android/d/g;
+    invoke-virtual {v0, v1, v2, v3}, Lkik/arcane/d/g;->a(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;)Lkik/arcane/d/g;
 
     move-result-object v0
 
     .line 1041
-    invoke-static {v0}, Lkik/android/d/h;->a(Lkik/android/d/g;)Lkik/android/d/f;
+    invoke-static {v0}, Lkik/arcane/d/h;->a(Lkik/arcane/d/g;)Lkik/arcane/d/f;
 
     move-result-object v0
 
@@ -171,7 +171,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/d/f;
+    check-cast v0, Lkik/arcane/d/f;
 
     .line 7
     return-object v0

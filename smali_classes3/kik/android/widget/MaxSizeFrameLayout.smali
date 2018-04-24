@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/MaxSizeFrameLayout;
+.class public Lkik/arcane/widget/MaxSizeFrameLayout;
 .super Landroid/widget/FrameLayout;
 .source "SourceFile"
 
@@ -19,7 +19,7 @@
     .line 22
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/MaxSizeFrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/MaxSizeFrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 23
     return-void
@@ -32,7 +32,7 @@
     .line 27
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/MaxSizeFrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/MaxSizeFrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 28
     return-void
@@ -53,7 +53,7 @@
     if-eqz p2, :cond_0
 
     .line 34
-    sget-object v2, Lkik/android/R$styleable;->MaxSizeFrameLayout:[I
+    sget-object v2, Lkik/arcane/R$styleable;->MaxSizeFrameLayout:[I
 
     invoke-virtual {p1, p2, v2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -69,7 +69,7 @@
 
     move-result v3
 
-    iput v3, p0, Lkik/android/widget/MaxSizeFrameLayout;->a:I
+    iput v3, p0, Lkik/arcane/widget/MaxSizeFrameLayout;->a:I
 
     .line 37
     const/4 v3, 0x1
@@ -80,7 +80,7 @@
 
     move-result v3
 
-    iput v3, p0, Lkik/android/widget/MaxSizeFrameLayout;->b:I
+    iput v3, p0, Lkik/arcane/widget/MaxSizeFrameLayout;->b:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -89,18 +89,18 @@
 
     .line 47
     :goto_0
-    iget v2, p0, Lkik/android/widget/MaxSizeFrameLayout;->a:I
+    iget v2, p0, Lkik/arcane/widget/MaxSizeFrameLayout;->a:I
 
-    iget v3, p0, Lkik/android/widget/MaxSizeFrameLayout;->b:I
+    iget v3, p0, Lkik/arcane/widget/MaxSizeFrameLayout;->b:I
 
     if-ne v2, v3, :cond_1
 
-    iget v2, p0, Lkik/android/widget/MaxSizeFrameLayout;->b:I
+    iget v2, p0, Lkik/arcane/widget/MaxSizeFrameLayout;->b:I
 
     if-lez v2, :cond_1
 
     :goto_1
-    iput-boolean v0, p0, Lkik/android/widget/MaxSizeFrameLayout;->c:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/MaxSizeFrameLayout;->c:Z
 
     .line 48
     return-void
@@ -116,10 +116,10 @@
 
     .line 44
     :cond_0
-    iput v1, p0, Lkik/android/widget/MaxSizeFrameLayout;->a:I
+    iput v1, p0, Lkik/arcane/widget/MaxSizeFrameLayout;->a:I
 
     .line 45
-    iput v1, p0, Lkik/android/widget/MaxSizeFrameLayout;->b:I
+    iput v1, p0, Lkik/arcane/widget/MaxSizeFrameLayout;->b:I
 
     goto :goto_0
 
@@ -149,9 +149,9 @@
     move-result v1
 
     .line 56
-    iget v2, p0, Lkik/android/widget/MaxSizeFrameLayout;->b:I
+    iget v2, p0, Lkik/arcane/widget/MaxSizeFrameLayout;->b:I
 
-    iget v3, p0, Lkik/android/widget/MaxSizeFrameLayout;->a:I
+    iget v3, p0, Lkik/arcane/widget/MaxSizeFrameLayout;->a:I
 
     invoke-static {v2, v3}, Ljava/lang/Math;->min(II)I
 
@@ -166,16 +166,16 @@
     move-result v2
 
     .line 57
-    iget v3, p0, Lkik/android/widget/MaxSizeFrameLayout;->b:I
+    iget v3, p0, Lkik/arcane/widget/MaxSizeFrameLayout;->b:I
 
     if-ltz v3, :cond_2
 
-    iget v3, p0, Lkik/android/widget/MaxSizeFrameLayout;->b:I
+    iget v3, p0, Lkik/arcane/widget/MaxSizeFrameLayout;->b:I
 
     if-le v0, v3, :cond_2
 
     .line 58
-    iget-boolean v0, p0, Lkik/android/widget/MaxSizeFrameLayout;->c:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/MaxSizeFrameLayout;->c:Z
 
     if-eqz v0, :cond_1
 
@@ -199,7 +199,7 @@
 
     .line 63
     :cond_1
-    iget v0, p0, Lkik/android/widget/MaxSizeFrameLayout;->b:I
+    iget v0, p0, Lkik/arcane/widget/MaxSizeFrameLayout;->b:I
 
     invoke-static {v0, v4}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
@@ -209,16 +209,16 @@
 
     .line 66
     :cond_2
-    iget v0, p0, Lkik/android/widget/MaxSizeFrameLayout;->a:I
+    iget v0, p0, Lkik/arcane/widget/MaxSizeFrameLayout;->a:I
 
     if-ltz v0, :cond_0
 
-    iget v0, p0, Lkik/android/widget/MaxSizeFrameLayout;->a:I
+    iget v0, p0, Lkik/arcane/widget/MaxSizeFrameLayout;->a:I
 
     if-le v1, v0, :cond_0
 
     .line 67
-    iget-boolean v0, p0, Lkik/android/widget/MaxSizeFrameLayout;->c:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/MaxSizeFrameLayout;->c:Z
 
     if-eqz v0, :cond_3
 
@@ -236,7 +236,7 @@
 
     .line 72
     :cond_3
-    iget v0, p0, Lkik/android/widget/MaxSizeFrameLayout;->a:I
+    iget v0, p0, Lkik/arcane/widget/MaxSizeFrameLayout;->a:I
 
     invoke-static {v0, v4}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 

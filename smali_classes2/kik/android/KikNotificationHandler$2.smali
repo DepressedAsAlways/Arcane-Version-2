@@ -1,4 +1,4 @@
-.class final Lkik/android/KikNotificationHandler$2;
+.class final Lkik/arcane/KikNotificationHandler$2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/KikNotificationHandler;
+    value = Lkik/arcane/KikNotificationHandler;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/KikNotificationHandler;
+.field final synthetic a:Lkik/arcane/KikNotificationHandler;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/KikNotificationHandler;)V
+.method constructor <init>(Lkik/arcane/KikNotificationHandler;)V
     .locals 0
 
     .prologue
     .line 172
-    iput-object p1, p0, Lkik/android/KikNotificationHandler$2;->a:Lkik/android/KikNotificationHandler;
+    iput-object p1, p0, Lkik/arcane/KikNotificationHandler$2;->a:Lkik/arcane/KikNotificationHandler;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,11 +52,11 @@
     .prologue
     .line 172
     .line 1177
-    iget-object v0, p0, Lkik/android/KikNotificationHandler$2;->a:Lkik/android/KikNotificationHandler;
+    iget-object v0, p0, Lkik/arcane/KikNotificationHandler$2;->a:Lkik/arcane/KikNotificationHandler;
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lkik/android/KikNotificationHandler;->a(Z)V
+    invoke-virtual {v0, v1}, Lkik/arcane/KikNotificationHandler;->a(Z)V
 
     .line 172
     return-void

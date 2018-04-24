@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/vm/profile/bl$1$2;
+.class final Lkik/arcane/chat/vm/profile/bl$1$2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/profile/bl$1;
+    value = Lkik/arcane/chat/vm/profile/bl$1;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Lrx/Emitter;
 
-.field final synthetic b:Lkik/android/chat/vm/profile/bl$1;
+.field final synthetic b:Lkik/arcane/chat/vm/profile/bl$1;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/profile/bl$1;Lrx/Emitter;)V
+.method constructor <init>(Lkik/arcane/chat/vm/profile/bl$1;Lrx/Emitter;)V
     .locals 0
 
     .prologue
     .line 255
-    iput-object p1, p0, Lkik/android/chat/vm/profile/bl$1$2;->b:Lkik/android/chat/vm/profile/bl$1;
+    iput-object p1, p0, Lkik/arcane/chat/vm/profile/bl$1$2;->b:Lkik/arcane/chat/vm/profile/bl$1;
 
-    iput-object p2, p0, Lkik/android/chat/vm/profile/bl$1$2;->a:Lrx/Emitter;
+    iput-object p2, p0, Lkik/arcane/chat/vm/profile/bl$1$2;->a:Lrx/Emitter;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,7 +45,7 @@
 
     .prologue
     .line 259
-    iget-object v0, p0, Lkik/android/chat/vm/profile/bl$1$2;->a:Lrx/Emitter;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/bl$1$2;->a:Lrx/Emitter;
 
     const/4 v1, 0x0
 
@@ -67,7 +67,7 @@
     if-eqz v0, :cond_0
 
     .line 266
-    iget-object v0, p0, Lkik/android/chat/vm/profile/bl$1$2;->a:Lrx/Emitter;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/bl$1$2;->a:Lrx/Emitter;
 
     invoke-virtual {p1}, Lcom/kik/cache/KikVolleyImageLoader$c;->b()Landroid/graphics/Bitmap;
 

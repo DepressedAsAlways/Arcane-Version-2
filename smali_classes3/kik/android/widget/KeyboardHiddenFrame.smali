@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/KeyboardHiddenFrame;
+.class public Lkik/arcane/widget/KeyboardHiddenFrame;
 .super Landroid/widget/FrameLayout;
 .source "SourceFile"
 
@@ -19,11 +19,11 @@
     .line 19
     const/high16 v0, 0x43480000    # 200.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
-    sput v0, Lkik/android/widget/KeyboardHiddenFrame;->b:I
+    sput v0, Lkik/arcane/widget/KeyboardHiddenFrame;->b:I
 
     return-void
 .end method
@@ -40,7 +40,7 @@
 
     invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/KeyboardHiddenFrame;->a:Landroid/graphics/Rect;
+    iput-object v0, p0, Lkik/arcane/widget/KeyboardHiddenFrame;->a:Landroid/graphics/Rect;
 
     .line 24
     return-void
@@ -58,7 +58,7 @@
 
     invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/KeyboardHiddenFrame;->a:Landroid/graphics/Rect;
+    iput-object v0, p0, Lkik/arcane/widget/KeyboardHiddenFrame;->a:Landroid/graphics/Rect;
 
     .line 29
     return-void
@@ -76,7 +76,7 @@
 
     invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/KeyboardHiddenFrame;->a:Landroid/graphics/Rect;
+    iput-object v0, p0, Lkik/arcane/widget/KeyboardHiddenFrame;->a:Landroid/graphics/Rect;
 
     .line 34
     return-void
@@ -92,7 +92,7 @@
 
     .line 39
     .line 1049
-    invoke-virtual {p0}, Lkik/android/widget/KeyboardHiddenFrame;->getRootView()Landroid/view/View;
+    invoke-virtual {p0}, Lkik/arcane/widget/KeyboardHiddenFrame;->getRootView()Landroid/view/View;
 
     move-result-object v0
 
@@ -100,7 +100,7 @@
     if-eqz v0, :cond_0
 
     .line 1051
-    iget-object v2, p0, Lkik/android/widget/KeyboardHiddenFrame;->a:Landroid/graphics/Rect;
+    iget-object v2, p0, Lkik/arcane/widget/KeyboardHiddenFrame;->a:Landroid/graphics/Rect;
 
     invoke-virtual {v0, v2}, Landroid/view/View;->getWindowVisibleDisplayFrame(Landroid/graphics/Rect;)V
 
@@ -109,14 +109,14 @@
 
     move-result v0
 
-    iget-object v2, p0, Lkik/android/widget/KeyboardHiddenFrame;->a:Landroid/graphics/Rect;
+    iget-object v2, p0, Lkik/arcane/widget/KeyboardHiddenFrame;->a:Landroid/graphics/Rect;
 
     iget v2, v2, Landroid/graphics/Rect;->bottom:I
 
     sub-int/2addr v0, v2
 
     .line 1062
-    sget v2, Lkik/android/widget/KeyboardHiddenFrame;->b:I
+    sget v2, Lkik/arcane/widget/KeyboardHiddenFrame;->b:I
 
     if-le v0, v2, :cond_0
 
@@ -128,7 +128,7 @@
     if-eqz v0, :cond_1
 
     .line 40
-    invoke-virtual {p0, v1, v1}, Lkik/android/widget/KeyboardHiddenFrame;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v1, v1}, Lkik/arcane/widget/KeyboardHiddenFrame;->setMeasuredDimension(II)V
 
     .line 45
     :goto_1

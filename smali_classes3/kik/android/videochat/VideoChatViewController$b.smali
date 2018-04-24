@@ -1,4 +1,4 @@
-.class final Lkik/android/videochat/VideoChatViewController$b;
+.class final Lkik/arcane/videochat/VideoChatViewController$b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/videochat/VideoChatViewController;
+    value = Lkik/arcane/videochat/VideoChatViewController;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/videochat/VideoChatViewController;
+.field final synthetic a:Lkik/arcane/videochat/VideoChatViewController;
 
 .field private b:F
 
@@ -26,24 +26,24 @@
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/videochat/VideoChatViewController;)V
+.method private constructor <init>(Lkik/arcane/videochat/VideoChatViewController;)V
     .locals 0
 
     .prologue
     .line 624
-    iput-object p1, p0, Lkik/android/videochat/VideoChatViewController$b;->a:Lkik/android/videochat/VideoChatViewController;
+    iput-object p1, p0, Lkik/arcane/videochat/VideoChatViewController$b;->a:Lkik/arcane/videochat/VideoChatViewController;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-.method synthetic constructor <init>(Lkik/android/videochat/VideoChatViewController;B)V
+.method synthetic constructor <init>(Lkik/arcane/videochat/VideoChatViewController;B)V
     .locals 0
 
     .prologue
     .line 624
-    invoke-direct {p0, p1}, Lkik/android/videochat/VideoChatViewController$b;-><init>(Lkik/android/videochat/VideoChatViewController;)V
+    invoke-direct {p0, p1}, Lkik/arcane/videochat/VideoChatViewController$b;-><init>(Lkik/arcane/videochat/VideoChatViewController;)V
 
     return-void
 .end method
@@ -57,9 +57,9 @@
     const/4 v2, 0x0
 
     .line 632
-    iget-object v0, p0, Lkik/android/videochat/VideoChatViewController$b;->a:Lkik/android/videochat/VideoChatViewController;
+    iget-object v0, p0, Lkik/arcane/videochat/VideoChatViewController$b;->a:Lkik/arcane/videochat/VideoChatViewController;
 
-    invoke-static {v0}, Lkik/android/videochat/VideoChatViewController;->z(Lkik/android/videochat/VideoChatViewController;)V
+    invoke-static {v0}, Lkik/arcane/videochat/VideoChatViewController;->z(Lkik/arcane/videochat/VideoChatViewController;)V
 
     .line 633
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
@@ -75,18 +75,18 @@
 
     .line 635
     :pswitch_0
-    iget v0, p0, Lkik/android/videochat/VideoChatViewController$b;->c:F
+    iget v0, p0, Lkik/arcane/videochat/VideoChatViewController$b;->c:F
 
-    iget v1, p0, Lkik/android/videochat/VideoChatViewController$b;->b:F
+    iget v1, p0, Lkik/arcane/videochat/VideoChatViewController$b;->b:F
 
     cmpl-float v0, v0, v1
 
     if-eqz v0, :cond_1
 
     .line 636
-    iget v0, p0, Lkik/android/videochat/VideoChatViewController$b;->b:F
+    iget v0, p0, Lkik/arcane/videochat/VideoChatViewController$b;->b:F
 
-    iput v0, p0, Lkik/android/videochat/VideoChatViewController$b;->c:F
+    iput v0, p0, Lkik/arcane/videochat/VideoChatViewController$b;->c:F
 
     .line 638
     :cond_1
@@ -94,24 +94,24 @@
 
     move-result v0
 
-    iput v0, p0, Lkik/android/videochat/VideoChatViewController$b;->b:F
+    iput v0, p0, Lkik/arcane/videochat/VideoChatViewController$b;->b:F
 
     goto :goto_0
 
     .line 641
     :pswitch_1
-    iget v0, p0, Lkik/android/videochat/VideoChatViewController$b;->b:F
+    iget v0, p0, Lkik/arcane/videochat/VideoChatViewController$b;->b:F
 
-    iget v1, p0, Lkik/android/videochat/VideoChatViewController$b;->c:F
+    iget v1, p0, Lkik/arcane/videochat/VideoChatViewController$b;->c:F
 
     cmpg-float v0, v0, v1
 
     if-gez v0, :cond_2
 
     .line 642
-    iget-object v0, p0, Lkik/android/videochat/VideoChatViewController$b;->a:Lkik/android/videochat/VideoChatViewController;
+    iget-object v0, p0, Lkik/arcane/videochat/VideoChatViewController$b;->a:Lkik/arcane/videochat/VideoChatViewController;
 
-    iget-object v0, v0, Lkik/android/videochat/VideoChatViewController;->_videoSwitch:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v0, v0, Lkik/arcane/videochat/VideoChatViewController;->_videoSwitch:Landroid/support/v7/widget/SwitchCompat;
 
     invoke-virtual {v0, v2}, Landroid/support/v7/widget/SwitchCompat;->setChecked(Z)V
 
@@ -119,18 +119,18 @@
 
     .line 644
     :cond_2
-    iget v0, p0, Lkik/android/videochat/VideoChatViewController$b;->b:F
+    iget v0, p0, Lkik/arcane/videochat/VideoChatViewController$b;->b:F
 
-    iget v1, p0, Lkik/android/videochat/VideoChatViewController$b;->c:F
+    iget v1, p0, Lkik/arcane/videochat/VideoChatViewController$b;->c:F
 
     cmpl-float v0, v0, v1
 
     if-ltz v0, :cond_0
 
     .line 645
-    iget-object v0, p0, Lkik/android/videochat/VideoChatViewController$b;->a:Lkik/android/videochat/VideoChatViewController;
+    iget-object v0, p0, Lkik/arcane/videochat/VideoChatViewController$b;->a:Lkik/arcane/videochat/VideoChatViewController;
 
-    iget-object v0, v0, Lkik/android/videochat/VideoChatViewController;->_videoSwitch:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v0, v0, Lkik/arcane/videochat/VideoChatViewController;->_videoSwitch:Landroid/support/v7/widget/SwitchCompat;
 
     const/4 v1, 0x1
 

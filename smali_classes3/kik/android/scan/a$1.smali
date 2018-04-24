@@ -1,4 +1,4 @@
-.class final Lkik/android/scan/a$1;
+.class final Lkik/arcane/scan/a$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/scan/a;->a()V
+    value = Lkik/arcane/scan/a;->a()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/scan/a;
+.field final synthetic a:Lkik/arcane/scan/a;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/scan/a;)V
+.method constructor <init>(Lkik/arcane/scan/a;)V
     .locals 0
 
     .prologue
     .line 30
-    iput-object p1, p0, Lkik/android/scan/a$1;->a:Lkik/android/scan/a;
+    iput-object p1, p0, Lkik/arcane/scan/a$1;->a:Lkik/arcane/scan/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,27 +41,27 @@
 
     .prologue
     .line 34
-    iget-object v0, p0, Lkik/android/scan/a$1;->a:Lkik/android/scan/a;
+    iget-object v0, p0, Lkik/arcane/scan/a$1;->a:Lkik/arcane/scan/a;
 
-    invoke-static {v0}, Lkik/android/scan/a;->a(Lkik/android/scan/a;)Lorg/slf4j/b;
+    invoke-static {v0}, Lkik/arcane/scan/a;->a(Lkik/arcane/scan/a;)Lorg/slf4j/b;
 
     .line 35
-    iget-object v0, p0, Lkik/android/scan/a$1;->a:Lkik/android/scan/a;
+    iget-object v0, p0, Lkik/arcane/scan/a$1;->a:Lkik/arcane/scan/a;
 
-    invoke-static {v0}, Lkik/android/scan/a;->b(Lkik/android/scan/a;)Z
+    invoke-static {v0}, Lkik/arcane/scan/a;->b(Lkik/arcane/scan/a;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
     .line 36
-    iget-object v0, p0, Lkik/android/scan/a$1;->a:Lkik/android/scan/a;
+    iget-object v0, p0, Lkik/arcane/scan/a$1;->a:Lkik/arcane/scan/a;
 
-    invoke-static {v0}, Lkik/android/scan/a;->c(Lkik/android/scan/a;)Landroid/hardware/Camera;
+    invoke-static {v0}, Lkik/arcane/scan/a;->c(Lkik/arcane/scan/a;)Landroid/hardware/Camera;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/scan/a$1;->a:Lkik/android/scan/a;
+    iget-object v1, p0, Lkik/arcane/scan/a$1;->a:Lkik/arcane/scan/a;
 
     invoke-virtual {v0, v1}, Landroid/hardware/Camera;->autoFocus(Landroid/hardware/Camera$AutoFocusCallback;)V
 

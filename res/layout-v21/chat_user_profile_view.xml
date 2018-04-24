@@ -13,11 +13,11 @@
             <include android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" layout="@layout/layout_bio" />
             <include android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" android:layout_marginTop="24.0dip" layout="@layout/list_divider" />
             <LinearLayout android:orientation="vertical" android:tag="binding_5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
-                <kik.android.widget.SeparatorLineRecyclerView android:tag="binding_6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:nestedScrollingEnabled="false" app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+                <kik.arcane.widget.SeparatorLineRecyclerView android:tag="binding_6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:nestedScrollingEnabled="false" app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
                 <include layout="@layout/list_divider" />
                 <include android:layout_width="fill_parent" android:layout_height="@dimen/list_divider_line_height" android:layout_marginTop="17.0dip" layout="@layout/list_divider" />
             </LinearLayout>
-            <kik.android.widget.SeparatorLineRecyclerView android:tag="binding_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:nestedScrollingEnabled="false" app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+            <kik.arcane.widget.SeparatorLineRecyclerView android:tag="binding_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:nestedScrollingEnabled="false" app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
             <include layout="@layout/list_divider" />
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>

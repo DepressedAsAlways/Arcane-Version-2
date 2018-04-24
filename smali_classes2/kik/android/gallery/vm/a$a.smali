@@ -1,11 +1,11 @@
-.class public final Lkik/android/gallery/vm/a$a;
+.class public final Lkik/arcane/gallery/vm/a$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/gallery/vm/a;
+    value = Lkik/arcane/gallery/vm/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,10 +29,10 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 191
-    iput-object p1, p0, Lkik/android/gallery/vm/a$a;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iput-object p1, p0, Lkik/arcane/gallery/vm/a$a;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     .line 192
-    iput-object p2, p0, Lkik/android/gallery/vm/a$a;->b:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/gallery/vm/a$a;->b:Ljava/lang/String;
 
     .line 193
     return-void

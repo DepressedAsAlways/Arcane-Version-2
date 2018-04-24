@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/profile/dn;
+.class final synthetic Lkik/arcane/chat/vm/profile/dn;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/vm/profile/dn;
+.field private static final a:Lkik/arcane/chat/vm/profile/dn;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/profile/dn;
+    new-instance v0, Lkik/arcane/chat/vm/profile/dn;
 
-    invoke-direct {v0}, Lkik/android/chat/vm/profile/dn;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/vm/profile/dn;-><init>()V
 
-    sput-object v0, Lkik/android/chat/vm/profile/dn;->a:Lkik/android/chat/vm/profile/dn;
+    sput-object v0, Lkik/arcane/chat/vm/profile/dn;->a:Lkik/arcane/chat/vm/profile/dn;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Ljava/util/Comparator;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/vm/profile/dn;->a:Lkik/android/chat/vm/profile/dn;
+    sget-object v0, Lkik/arcane/chat/vm/profile/dn;->a:Lkik/arcane/chat/vm/profile/dn;
 
     return-object v0
 .end method
@@ -47,7 +47,7 @@
 
     check-cast p2, Lcom/kik/core/domain/a/a/b;
 
-    invoke-static {p1, p2}, Lkik/android/chat/vm/profile/dj;->b(Lcom/kik/core/domain/a/a/b;Lcom/kik/core/domain/a/a/b;)I
+    invoke-static {p1, p2}, Lkik/arcane/chat/vm/profile/dj;->b(Lcom/kik/core/domain/a/a/b;Lcom/kik/core/domain/a/a/b;)I
 
     move-result v0
 

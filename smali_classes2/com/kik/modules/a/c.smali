@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lkik/android/chat/presentation/a;",
+        "Lkik/arcane/chat/presentation/a;",
         ">;"
     }
 .end annotation
@@ -52,7 +52,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -102,7 +102,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;)V"
         }
     .end annotation
@@ -199,11 +199,11 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;)",
             "Ldagger/internal/b",
             "<",
-            "Lkik/android/chat/presentation/a;",
+            "Lkik/arcane/chat/presentation/a;",
             ">;"
         }
     .end annotation
@@ -248,12 +248,12 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/kik/android/Mixpanel;
+    check-cast v2, Lcom/kik/arcane/Mixpanel;
 
     .line 2030
-    new-instance v3, Lkik/android/chat/presentation/b;
+    new-instance v3, Lkik/arcane/chat/presentation/b;
 
-    invoke-direct {v3, v0, v1, v2}, Lkik/android/chat/presentation/b;-><init>(Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/v;Lcom/kik/android/Mixpanel;)V
+    invoke-direct {v3, v0, v1, v2}, Lkik/arcane/chat/presentation/b;-><init>(Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/v;Lcom/kik/arcane/Mixpanel;)V
 
     .line 1044
     const-string v0, "Cannot return null from a non-@Nullable @Provides method"
@@ -263,7 +263,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/presentation/a;
+    check-cast v0, Lkik/arcane/chat/presentation/a;
 
     .line 12
     return-object v0

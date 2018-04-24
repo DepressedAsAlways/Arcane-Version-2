@@ -1,11 +1,11 @@
-.class public interface abstract Lkik/android/widget/dn$a;
+.class public interface abstract Lkik/arcane/widget/dn$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/dn;
+    value = Lkik/arcane/widget/dn;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

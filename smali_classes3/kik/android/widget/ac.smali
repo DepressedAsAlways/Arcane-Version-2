@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/ac;
+.class public Lkik/arcane/widget/ac;
 .super Landroid/support/v7/widget/RecyclerView$ItemDecoration;
 .source "SourceFile"
 
@@ -33,7 +33,7 @@
 
     aput v2, v0, v1
 
-    sput-object v0, Lkik/android/widget/ac;->a:[I
+    sput-object v0, Lkik/arcane/widget/ac;->a:[I
 
     return-void
 .end method
@@ -48,13 +48,13 @@
     invoke-direct {p0}, Landroid/support/v7/widget/RecyclerView$ItemDecoration;-><init>()V
 
     .line 53
-    iput-object p2, p0, Lkik/android/widget/ac;->d:[I
+    iput-object p2, p0, Lkik/arcane/widget/ac;->d:[I
 
     .line 54
-    iput-boolean v1, p0, Lkik/android/widget/ac;->e:Z
+    iput-boolean v1, p0, Lkik/arcane/widget/ac;->e:Z
 
     .line 55
-    sget-object v0, Lkik/android/widget/ac;->a:[I
+    sget-object v0, Lkik/arcane/widget/ac;->a:[I
 
     invoke-virtual {p1, v0}, Landroid/content/Context;->obtainStyledAttributes([I)Landroid/content/res/TypedArray;
 
@@ -65,7 +65,7 @@
 
     move-result-object v1
 
-    iput-object v1, p0, Lkik/android/widget/ac;->b:Landroid/graphics/drawable/Drawable;
+    iput-object v1, p0, Lkik/arcane/widget/ac;->b:Landroid/graphics/drawable/Drawable;
 
     .line 57
     invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
@@ -73,7 +73,7 @@
     .line 1071
     const/4 v0, 0x1
 
-    iput v0, p0, Lkik/android/widget/ac;->c:I
+    iput v0, p0, Lkik/arcane/widget/ac;->c:I
 
     .line 59
     return-void
@@ -86,7 +86,7 @@
     const/4 v0, 0x0
 
     .line 160
-    iget-boolean v1, p0, Lkik/android/widget/ac;->e:Z
+    iget-boolean v1, p0, Lkik/arcane/widget/ac;->e:Z
 
     if-nez v1, :cond_1
 
@@ -105,7 +105,7 @@
 
     .line 164
     :cond_1
-    iget-object v2, p0, Lkik/android/widget/ac;->d:[I
+    iget-object v2, p0, Lkik/arcane/widget/ac;->d:[I
 
     array-length v3, v2
 
@@ -138,7 +138,7 @@
 
     .prologue
     .line 76
-    iget v0, p0, Lkik/android/widget/ac;->c:I
+    iget v0, p0, Lkik/arcane/widget/ac;->c:I
 
     return v0
 .end method
@@ -165,14 +165,14 @@
     invoke-super {p0, p1, p2, p3}, Landroid/support/v7/widget/RecyclerView$ItemDecoration;->a(Landroid/graphics/Canvas;Landroid/support/v7/widget/RecyclerView;Landroid/support/v7/widget/RecyclerView$State;)V
 
     .line 93
-    iget v1, p0, Lkik/android/widget/ac;->c:I
+    iget v1, p0, Lkik/arcane/widget/ac;->c:I
 
     const/4 v2, 0x1
 
     if-ne v1, v2, :cond_1
 
     .line 1103
-    invoke-virtual {p0, p2}, Lkik/android/widget/ac;->a(Landroid/support/v7/widget/RecyclerView;)I
+    invoke-virtual {p0, p2}, Lkik/arcane/widget/ac;->a(Landroid/support/v7/widget/RecyclerView;)I
 
     move-result v2
 
@@ -208,7 +208,7 @@
 
     move-result v0
 
-    invoke-direct {p0, v0, p3}, Lkik/android/widget/ac;->a(ILandroid/support/v7/widget/RecyclerView$State;)Z
+    invoke-direct {p0, v0, p3}, Lkik/arcane/widget/ac;->a(ILandroid/support/v7/widget/RecyclerView$State;)Z
 
     move-result v0
 
@@ -242,7 +242,7 @@
     add-int/2addr v0, v6
 
     .line 1113
-    iget-object v6, p0, Lkik/android/widget/ac;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v6, p0, Lkik/arcane/widget/ac;->b:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v6}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
 
@@ -251,12 +251,12 @@
     add-int/2addr v6, v0
 
     .line 1114
-    iget-object v7, p0, Lkik/android/widget/ac;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v7, p0, Lkik/arcane/widget/ac;->b:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v7, v2, v0, v3, v6}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
     .line 1115
-    iget-object v0, p0, Lkik/android/widget/ac;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/widget/ac;->b:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v5}, Landroid/view/View;->getAlpha()F
 
@@ -271,7 +271,7 @@
     invoke-virtual {v0, v5}, Landroid/graphics/drawable/Drawable;->setAlpha(I)V
 
     .line 1116
-    iget-object v0, p0, Lkik/android/widget/ac;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/widget/ac;->b:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
@@ -285,7 +285,7 @@
 
     .line 2123
     :cond_1
-    invoke-virtual {p0, p2}, Lkik/android/widget/ac;->b(Landroid/support/v7/widget/RecyclerView;)I
+    invoke-virtual {p0, p2}, Lkik/arcane/widget/ac;->b(Landroid/support/v7/widget/RecyclerView;)I
 
     move-result v2
 
@@ -321,7 +321,7 @@
 
     move-result v0
 
-    invoke-direct {p0, v0, p3}, Lkik/android/widget/ac;->a(ILandroid/support/v7/widget/RecyclerView$State;)Z
+    invoke-direct {p0, v0, p3}, Lkik/arcane/widget/ac;->a(ILandroid/support/v7/widget/RecyclerView$State;)Z
 
     move-result v0
 
@@ -355,7 +355,7 @@
     add-int/2addr v0, v5
 
     .line 2133
-    iget-object v5, p0, Lkik/android/widget/ac;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v5, p0, Lkik/arcane/widget/ac;->b:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v5}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
 
@@ -364,12 +364,12 @@
     add-int/2addr v5, v0
 
     .line 2134
-    iget-object v6, p0, Lkik/android/widget/ac;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v6, p0, Lkik/arcane/widget/ac;->b:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v6, v0, v2, v5, v3}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
     .line 2135
-    iget-object v0, p0, Lkik/android/widget/ac;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/widget/ac;->b:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
@@ -401,21 +401,21 @@
     move-result v0
 
     .line 145
-    invoke-direct {p0, v0, p4}, Lkik/android/widget/ac;->a(ILandroid/support/v7/widget/RecyclerView$State;)Z
+    invoke-direct {p0, v0, p4}, Lkik/arcane/widget/ac;->a(ILandroid/support/v7/widget/RecyclerView$State;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
     .line 146
-    iget v0, p0, Lkik/android/widget/ac;->c:I
+    iget v0, p0, Lkik/arcane/widget/ac;->c:I
 
     const/4 v1, 0x1
 
     if-ne v0, v1, :cond_0
 
     .line 147
-    iget-object v0, p0, Lkik/android/widget/ac;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/widget/ac;->b:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
 
@@ -429,7 +429,7 @@
 
     .line 150
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/ac;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/widget/ac;->b:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
 
@@ -451,7 +451,7 @@
 
     .prologue
     .line 63
-    iput-object p1, p0, Lkik/android/widget/ac;->b:Landroid/graphics/drawable/Drawable;
+    iput-object p1, p0, Lkik/arcane/widget/ac;->b:Landroid/graphics/drawable/Drawable;
 
     .line 64
     return-void

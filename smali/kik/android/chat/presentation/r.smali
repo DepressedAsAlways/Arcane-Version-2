@@ -1,11 +1,11 @@
-.class public interface abstract Lkik/android/chat/presentation/r;
+.class public interface abstract Lkik/arcane/chat/presentation/r;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # virtual methods
-.method public abstract replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+.method public abstract replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 .end method
 
-.method public abstract show(Lkik/android/chat/fragment/KikDialogFragment;Lkik/android/chat/fragment/KikScopedDialogFragment$DialogScope;Ljava/lang/String;)V
+.method public abstract show(Lkik/arcane/chat/fragment/KikDialogFragment;Lkik/arcane/chat/fragment/KikScopedDialogFragment$DialogScope;Ljava/lang/String;)V
 .end method

@@ -1,4 +1,4 @@
-.class public final Lkik/android/net/e;
+.class public final Lkik/arcane/net/e;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -19,7 +19,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 16
-    iput-object p1, p0, Lkik/android/net/e;->a:Ljava/net/Socket;
+    iput-object p1, p0, Lkik/arcane/net/e;->a:Ljava/net/Socket;
 
     .line 17
     return-void
@@ -37,7 +37,7 @@
 
     .prologue
     .line 22
-    iget-object v0, p0, Lkik/android/net/e;->a:Ljava/net/Socket;
+    iget-object v0, p0, Lkik/arcane/net/e;->a:Ljava/net/Socket;
 
     invoke-virtual {v0}, Ljava/net/Socket;->close()V
 

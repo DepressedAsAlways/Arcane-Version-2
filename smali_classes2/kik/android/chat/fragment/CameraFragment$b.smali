@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/fragment/CameraFragment$b;
+.class public final Lkik/arcane/chat/fragment/CameraFragment$b;
 .super Lcom/kik/ui/fragment/FragmentBase$FragmentBundle;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/CameraFragment;
+    value = Lkik/arcane/chat/fragment/CameraFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

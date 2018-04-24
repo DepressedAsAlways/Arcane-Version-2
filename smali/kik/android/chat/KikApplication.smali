@@ -1,12 +1,12 @@
-.class public Lkik/android/chat/KikApplication;
+.class public Lkik/arcane/chat/KikApplication;
 .super Landroid/support/multidex/MultiDexApplication;
 .source "SourceFile"
 
 # interfaces
 .implements Lcom/kik/metrics/c/a;
-.implements Lkik/android/chat/e;
-.implements Lkik/android/d/b;
-.implements Lkik/android/f/d;
+.implements Lkik/arcane/chat/e;
+.implements Lkik/arcane/d/b;
+.implements Lkik/arcane/f/d;
 
 
 # static fields
@@ -18,9 +18,9 @@
 
 .field private static final v:J
 
-.field public static w:Lkik/android/chat/KikApplication;
+.field public static w:Lkik/arcane/chat/KikApplication;
 
-.field private static x:Lkik/android/KikNotificationHandler;
+.field private static x:Lkik/arcane/KikNotificationHandler;
 
 .field private static y:F
 
@@ -68,7 +68,7 @@
 
 .field private U:Lcom/kik/components/CoreComponent;
 
-.field private V:Lkik/android/d/c;
+.field private V:Lkik/arcane/d/c;
 
 .field private W:Lkik/core/ICoreEvents;
 
@@ -78,7 +78,7 @@
 
 .field private Z:Lkik/core/y;
 
-.field protected a:Lcom/kik/android/Mixpanel;
+.field protected a:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -98,7 +98,7 @@
     .end annotation
 .end field
 
-.field private aD:Lkik/android/challenge/SafetyNetValidator;
+.field private aD:Lkik/arcane/challenge/SafetyNetValidator;
 
 .field private aE:Lcom/kik/events/Promise;
     .annotation system Ldalvik/annotation/Signature;
@@ -157,7 +157,7 @@
 
 .field private aJ:Z
 
-.field public aK:Lkik/android/util/bp;
+.field public aK:Lkik/arcane/util/bp;
 
 .field private aL:Lkik/core/interfaces/s;
 
@@ -315,7 +315,7 @@
     .end annotation
 .end field
 
-.field private aa:Lkik/android/f;
+.field private aa:Lkik/arcane/f;
 
 .field private ab:Lkik/core/e/f;
 
@@ -359,15 +359,15 @@
 
 .field private av:Ljava/util/TimerTask;
 
-.field private aw:Lkik/android/util/at;
+.field private aw:Lkik/arcane/util/at;
 
-.field private ax:Lkik/android/a/b;
+.field private ax:Lkik/arcane/a/b;
 
-.field private ay:Lkik/android/b/c;
+.field private ay:Lkik/arcane/b/c;
 
-.field private az:Lkik/android/b/a;
+.field private az:Lkik/arcane/b/a;
 
-.field protected b:Lcom/kik/android/b/g;
+.field protected b:Lcom/kik/arcane/b/g;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -464,12 +464,12 @@
 
 .field private bi:Ljava/util/TimerTask;
 
-.field protected c:Lkik/android/chat/theming/ChatBubbleManager;
+.field protected c:Lkik/arcane/chat/theming/ChatBubbleManager;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
 
-.field protected d:Lkik/android/util/SponsoredUsersManager;
+.field protected d:Lkik/arcane/util/SponsoredUsersManager;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -512,7 +512,7 @@
     .end annotation
 .end field
 
-.field j:Lkik/android/videochat/c;
+.field j:Lkik/arcane/videochat/c;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -527,12 +527,12 @@
     .end annotation
 .end field
 
-.field m:Lkik/android/chat/m;
+.field m:Lkik/arcane/chat/m;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
 
-.field protected n:Lkik/android/chat/d;
+.field protected n:Lkik/arcane/chat/d;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -595,7 +595,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/chat/KikApplication;->t:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/chat/KikApplication;->t:Lorg/slf4j/b;
 
     .line 283
     sget-object v0, Ljava/util/concurrent/TimeUnit;->HOURS:Ljava/util/concurrent/TimeUnit;
@@ -604,7 +604,7 @@
 
     move-result-wide v0
 
-    sput-wide v0, Lkik/android/chat/KikApplication;->u:J
+    sput-wide v0, Lkik/arcane/chat/KikApplication;->u:J
 
     .line 284
     sget-object v0, Ljava/util/concurrent/TimeUnit;->HOURS:Ljava/util/concurrent/TimeUnit;
@@ -613,7 +613,7 @@
 
     move-result-wide v0
 
-    sput-wide v0, Lkik/android/chat/KikApplication;->v:J
+    sput-wide v0, Lkik/arcane/chat/KikApplication;->v:J
 
     return-void
 .end method
@@ -638,14 +638,14 @@
 
     invoke-direct {v0}, Lcom/kik/events/d;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->B:Lcom/kik/events/d;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->B:Lcom/kik/events/d;
 
     .line 297
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->C:Ljava/lang/Object;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->C:Ljava/lang/Object;
 
     .line 301
     new-instance v0, Landroid/os/Handler;
@@ -656,7 +656,7 @@
 
     invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->G:Landroid/os/Handler;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->G:Landroid/os/Handler;
 
     .line 302
     new-instance v0, Landroid/os/HandlerThread;
@@ -665,7 +665,7 @@
 
     invoke-direct {v0, v1}, Landroid/os/HandlerThread;-><init>(Ljava/lang/String;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->H:Landroid/os/HandlerThread;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->H:Landroid/os/HandlerThread;
 
     .line 303
     new-instance v0, Ljava/util/Timer;
@@ -674,67 +674,67 @@
 
     invoke-direct {v0, v1}, Ljava/util/Timer;-><init>(Ljava/lang/String;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->I:Ljava/util/Timer;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->I:Ljava/util/Timer;
 
     .line 304
-    iput-boolean v3, p0, Lkik/android/chat/KikApplication;->J:Z
+    iput-boolean v3, p0, Lkik/arcane/chat/KikApplication;->J:Z
 
     .line 305
-    iput-boolean v3, p0, Lkik/android/chat/KikApplication;->K:Z
+    iput-boolean v3, p0, Lkik/arcane/chat/KikApplication;->K:Z
 
     .line 306
-    iput-boolean v3, p0, Lkik/android/chat/KikApplication;->L:Z
+    iput-boolean v3, p0, Lkik/arcane/chat/KikApplication;->L:Z
 
     .line 307
-    iput-object v6, p0, Lkik/android/chat/KikApplication;->M:Landroid/app/Activity;
+    iput-object v6, p0, Lkik/arcane/chat/KikApplication;->M:Landroid/app/Activity;
 
     .line 308
-    iput-boolean v2, p0, Lkik/android/chat/KikApplication;->N:Z
+    iput-boolean v2, p0, Lkik/arcane/chat/KikApplication;->N:Z
 
     .line 325
-    iput v2, p0, Lkik/android/chat/KikApplication;->ac:I
+    iput v2, p0, Lkik/arcane/chat/KikApplication;->ac:I
 
     .line 326
-    iput v2, p0, Lkik/android/chat/KikApplication;->ad:I
+    iput v2, p0, Lkik/arcane/chat/KikApplication;->ad:I
 
     .line 332
-    iput-boolean v2, p0, Lkik/android/chat/KikApplication;->ae:Z
+    iput-boolean v2, p0, Lkik/arcane/chat/KikApplication;->ae:Z
 
     .line 333
-    iput-boolean v2, p0, Lkik/android/chat/KikApplication;->af:Z
+    iput-boolean v2, p0, Lkik/arcane/chat/KikApplication;->af:Z
 
     .line 334
-    iput-boolean v2, p0, Lkik/android/chat/KikApplication;->ag:Z
+    iput-boolean v2, p0, Lkik/arcane/chat/KikApplication;->ag:Z
 
     .line 335
-    iput-boolean v2, p0, Lkik/android/chat/KikApplication;->ah:Z
+    iput-boolean v2, p0, Lkik/arcane/chat/KikApplication;->ah:Z
 
     .line 336
-    iput-boolean v3, p0, Lkik/android/chat/KikApplication;->ai:Z
+    iput-boolean v3, p0, Lkik/arcane/chat/KikApplication;->ai:Z
 
     .line 337
-    iput-wide v4, p0, Lkik/android/chat/KikApplication;->aj:J
+    iput-wide v4, p0, Lkik/arcane/chat/KikApplication;->aj:J
 
     .line 338
-    iput-wide v4, p0, Lkik/android/chat/KikApplication;->ak:J
+    iput-wide v4, p0, Lkik/arcane/chat/KikApplication;->ak:J
 
     .line 339
-    iput-wide v4, p0, Lkik/android/chat/KikApplication;->al:J
+    iput-wide v4, p0, Lkik/arcane/chat/KikApplication;->al:J
 
     .line 340
-    iput-wide v4, p0, Lkik/android/chat/KikApplication;->am:J
+    iput-wide v4, p0, Lkik/arcane/chat/KikApplication;->am:J
 
     .line 341
-    iput-wide v4, p0, Lkik/android/chat/KikApplication;->an:J
+    iput-wide v4, p0, Lkik/arcane/chat/KikApplication;->an:J
 
     .line 342
-    iput-wide v4, p0, Lkik/android/chat/KikApplication;->ao:J
+    iput-wide v4, p0, Lkik/arcane/chat/KikApplication;->ao:J
 
     .line 343
-    iput-wide v4, p0, Lkik/android/chat/KikApplication;->ap:J
+    iput-wide v4, p0, Lkik/arcane/chat/KikApplication;->ap:J
 
     .line 348
-    iput-object v6, p0, Lkik/android/chat/KikApplication;->at:Ljava/lang/String;
+    iput-object v6, p0, Lkik/arcane/chat/KikApplication;->at:Ljava/lang/String;
 
     .line 352
     new-instance v0, Ljava/util/Timer;
@@ -743,235 +743,235 @@
 
     invoke-direct {v0, v1}, Ljava/util/Timer;-><init>(Ljava/lang/String;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->au:Ljava/util/Timer;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->au:Ljava/util/Timer;
 
     .line 353
-    iput-object v6, p0, Lkik/android/chat/KikApplication;->av:Ljava/util/TimerTask;
+    iput-object v6, p0, Lkik/arcane/chat/KikApplication;->av:Ljava/util/TimerTask;
 
     .line 363
     new-instance v0, Lcom/kik/events/g;
 
     invoke-direct {v0, p0}, Lcom/kik/events/g;-><init>(Ljava/lang/Object;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->aC:Lcom/kik/events/g;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->aC:Lcom/kik/events/g;
 
     .line 390
     new-instance v0, Lcom/kik/events/g;
 
     invoke-direct {v0, p0}, Lcom/kik/events/g;-><init>(Ljava/lang/Object;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->aF:Lcom/kik/events/g;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->aF:Lcom/kik/events/g;
 
     .line 391
     new-instance v0, Lcom/kik/events/g;
 
     invoke-direct {v0, p0}, Lcom/kik/events/g;-><init>(Ljava/lang/Object;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->aG:Lcom/kik/events/g;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->aG:Lcom/kik/events/g;
 
     .line 392
     new-instance v0, Lcom/kik/events/g;
 
     invoke-direct {v0, p0}, Lcom/kik/events/g;-><init>(Ljava/lang/Object;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->aH:Lcom/kik/events/g;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->aH:Lcom/kik/events/g;
 
     .line 393
     new-instance v0, Lcom/kik/events/g;
 
     invoke-direct {v0, p0}, Lcom/kik/events/g;-><init>(Ljava/lang/Object;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->aI:Lcom/kik/events/g;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->aI:Lcom/kik/events/g;
 
     .line 394
-    iput-boolean v3, p0, Lkik/android/chat/KikApplication;->aJ:Z
+    iput-boolean v3, p0, Lkik/arcane/chat/KikApplication;->aJ:Z
 
     .line 398
-    new-instance v0, Lkik/android/chat/KikApplication$1;
+    new-instance v0, Lkik/arcane/chat/KikApplication$1;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/KikApplication$1;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/KikApplication$1;-><init>(Lkik/arcane/chat/KikApplication;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->aM:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->aM:Lcom/kik/events/e;
 
     .line 407
-    new-instance v0, Lkik/android/chat/KikApplication$12;
+    new-instance v0, Lkik/arcane/chat/KikApplication$12;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/KikApplication$12;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/KikApplication$12;-><init>(Lkik/arcane/chat/KikApplication;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->aN:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->aN:Lcom/kik/events/e;
 
     .line 417
-    new-instance v0, Lkik/android/chat/KikApplication$23;
+    new-instance v0, Lkik/arcane/chat/KikApplication$23;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/KikApplication$23;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/KikApplication$23;-><init>(Lkik/arcane/chat/KikApplication;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->aO:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->aO:Lcom/kik/events/e;
 
     .line 439
-    new-instance v0, Lkik/android/chat/KikApplication$29;
+    new-instance v0, Lkik/arcane/chat/KikApplication$29;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/KikApplication$29;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/KikApplication$29;-><init>(Lkik/arcane/chat/KikApplication;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->aP:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->aP:Lcom/kik/events/e;
 
     .line 473
-    new-instance v0, Lkik/android/chat/KikApplication$30;
+    new-instance v0, Lkik/arcane/chat/KikApplication$30;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/KikApplication$30;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/KikApplication$30;-><init>(Lkik/arcane/chat/KikApplication;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->aQ:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->aQ:Lcom/kik/events/e;
 
     .line 505
-    new-instance v0, Lkik/android/chat/KikApplication$31;
+    new-instance v0, Lkik/arcane/chat/KikApplication$31;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/KikApplication$31;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/KikApplication$31;-><init>(Lkik/arcane/chat/KikApplication;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->aR:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->aR:Lcom/kik/events/e;
 
     .line 549
-    new-instance v0, Lkik/android/chat/KikApplication$32;
+    new-instance v0, Lkik/arcane/chat/KikApplication$32;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/KikApplication$32;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/KikApplication$32;-><init>(Lkik/arcane/chat/KikApplication;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->aS:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->aS:Lcom/kik/events/e;
 
     .line 578
-    new-instance v0, Lkik/android/chat/KikApplication$33;
+    new-instance v0, Lkik/arcane/chat/KikApplication$33;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/KikApplication$33;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/KikApplication$33;-><init>(Lkik/arcane/chat/KikApplication;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->aT:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->aT:Lcom/kik/events/e;
 
     .line 587
-    new-instance v0, Lkik/android/chat/KikApplication$34;
+    new-instance v0, Lkik/arcane/chat/KikApplication$34;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/KikApplication$34;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/KikApplication$34;-><init>(Lkik/arcane/chat/KikApplication;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->aU:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->aU:Lcom/kik/events/e;
 
     .line 656
-    new-instance v0, Lkik/android/chat/KikApplication$2;
+    new-instance v0, Lkik/arcane/chat/KikApplication$2;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/KikApplication$2;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/KikApplication$2;-><init>(Lkik/arcane/chat/KikApplication;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->aV:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->aV:Lcom/kik/events/e;
 
     .line 667
-    new-instance v0, Lkik/android/chat/KikApplication$3;
+    new-instance v0, Lkik/arcane/chat/KikApplication$3;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/KikApplication$3;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/KikApplication$3;-><init>(Lkik/arcane/chat/KikApplication;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->aW:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->aW:Lcom/kik/events/e;
 
     .line 731
-    new-instance v0, Lkik/android/chat/KikApplication$4;
+    new-instance v0, Lkik/arcane/chat/KikApplication$4;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/KikApplication$4;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/KikApplication$4;-><init>(Lkik/arcane/chat/KikApplication;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->aX:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->aX:Lcom/kik/events/e;
 
     .line 758
-    invoke-static {p0}, Lkik/android/chat/f;->a(Lkik/android/chat/KikApplication;)Lcom/kik/events/e;
+    invoke-static {p0}, Lkik/arcane/chat/f;->a(Lkik/arcane/chat/KikApplication;)Lcom/kik/events/e;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->aY:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->aY:Lcom/kik/events/e;
 
     .line 760
-    new-instance v0, Lkik/android/chat/KikApplication$5;
+    new-instance v0, Lkik/arcane/chat/KikApplication$5;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/KikApplication$5;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/KikApplication$5;-><init>(Lkik/arcane/chat/KikApplication;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->aZ:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->aZ:Lcom/kik/events/e;
 
     .line 772
-    new-instance v0, Lkik/android/chat/KikApplication$6;
+    new-instance v0, Lkik/arcane/chat/KikApplication$6;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/KikApplication$6;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/KikApplication$6;-><init>(Lkik/arcane/chat/KikApplication;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->ba:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->ba:Lcom/kik/events/e;
 
     .line 783
-    invoke-static {p0}, Lkik/android/chat/g;->a(Lkik/android/chat/KikApplication;)Lcom/kik/events/e;
+    invoke-static {p0}, Lkik/arcane/chat/g;->a(Lkik/arcane/chat/KikApplication;)Lcom/kik/events/e;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->bb:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->bb:Lcom/kik/events/e;
 
     .line 785
-    new-instance v0, Lkik/android/chat/KikApplication$7;
+    new-instance v0, Lkik/arcane/chat/KikApplication$7;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/KikApplication$7;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/KikApplication$7;-><init>(Lkik/arcane/chat/KikApplication;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->bc:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->bc:Lcom/kik/events/e;
 
     .line 794
-    new-instance v0, Lkik/android/chat/KikApplication$8;
+    new-instance v0, Lkik/arcane/chat/KikApplication$8;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/KikApplication$8;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/KikApplication$8;-><init>(Lkik/arcane/chat/KikApplication;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->bd:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->bd:Lcom/kik/events/e;
 
     .line 804
-    new-instance v0, Lkik/android/chat/KikApplication$9;
+    new-instance v0, Lkik/arcane/chat/KikApplication$9;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/KikApplication$9;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/KikApplication$9;-><init>(Lkik/arcane/chat/KikApplication;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->be:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->be:Lcom/kik/events/e;
 
     .line 815
-    new-instance v0, Lkik/android/chat/KikApplication$10;
+    new-instance v0, Lkik/arcane/chat/KikApplication$10;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/KikApplication$10;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/KikApplication$10;-><init>(Lkik/arcane/chat/KikApplication;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->bf:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->bf:Lcom/kik/events/e;
 
     .line 836
-    new-instance v0, Lkik/android/chat/KikApplication$11;
+    new-instance v0, Lkik/arcane/chat/KikApplication$11;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/KikApplication$11;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/KikApplication$11;-><init>(Lkik/arcane/chat/KikApplication;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->bg:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->bg:Lcom/kik/events/e;
 
     .line 869
-    new-instance v0, Lkik/android/chat/KikApplication$14;
+    new-instance v0, Lkik/arcane/chat/KikApplication$14;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/KikApplication$14;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/KikApplication$14;-><init>(Lkik/arcane/chat/KikApplication;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->bh:Lcom/kik/events/k;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->bh:Lcom/kik/events/k;
 
     .line 892
-    new-instance v0, Lkik/android/chat/KikApplication$15;
+    new-instance v0, Lkik/arcane/chat/KikApplication$15;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/KikApplication$15;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/KikApplication$15;-><init>(Lkik/arcane/chat/KikApplication;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->bi:Ljava/util/TimerTask;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->bi:Ljava/util/TimerTask;
 
     .line 906
-    sput-object p0, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sput-object p0, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
     .line 907
     return-void
 .end method
 
-.method static synthetic A()Lkik/android/chat/KikApplication;
+.method static synthetic A()Lkik/arcane/chat/KikApplication;
     .locals 1
 
     .prologue
     .line 275
-    sget-object v0, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
     return-object v0
 .end method
 
-.method static synthetic A(Lkik/android/chat/KikApplication;)Z
+.method static synthetic A(Lkik/arcane/chat/KikApplication;)Z
     .locals 1
 
     .prologue
     .line 275
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/KikApplication;->ai:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/KikApplication;->ai:Z
 
     return v0
 .end method
@@ -981,7 +981,7 @@
 
     .prologue
     .line 852
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     invoke-static {v0}, Lkik/core/z;->a(Lkik/core/interfaces/ad;)Z
 
@@ -997,39 +997,39 @@
     :cond_0
     new-instance v0, Lkik/core/e/h;
 
-    iget-object v1, p0, Lkik/android/chat/KikApplication;->ab:Lkik/core/e/f;
+    iget-object v1, p0, Lkik/arcane/chat/KikApplication;->ab:Lkik/core/e/f;
 
     invoke-direct {v0, v1}, Lkik/core/e/h;-><init>(Lkik/core/e/f;)V
 
     .line 857
-    iget-object v1, p0, Lkik/android/chat/KikApplication;->F:Lkik/core/interfaces/l;
+    iget-object v1, p0, Lkik/arcane/chat/KikApplication;->F:Lkik/core/interfaces/l;
 
-    invoke-static {v0, v1}, Lkik/android/util/bg;->a(Lkik/core/e/c;Lkik/core/interfaces/l;)Lcom/kik/events/Promise;
+    invoke-static {v0, v1}, Lkik/arcane/util/bg;->a(Lkik/core/e/c;Lkik/core/interfaces/l;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/chat/KikApplication$13;
+    new-instance v1, Lkik/arcane/chat/KikApplication$13;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/KikApplication$13;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/KikApplication$13;-><init>(Lkik/arcane/chat/KikApplication;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
     goto :goto_0
 .end method
 
-.method static synthetic B(Lkik/android/chat/KikApplication;)V
+.method static synthetic B(Lkik/arcane/chat/KikApplication;)V
     .locals 2
 
     .prologue
     .line 23688
     new-instance v0, Landroid/content/Intent;
 
-    const-class v1, Lkik/android/net/communicator/RegistrationIntentService;
+    const-class v1, Lkik/arcane/net/communicator/RegistrationIntentService;
 
     invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
     .line 23689
-    invoke-virtual {p0, v0}, Lkik/android/chat/KikApplication;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/KikApplication;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
 
     .line 275
     return-void
@@ -1052,16 +1052,16 @@
     invoke-virtual {v0, v1}, Lcom/crashlytics/android/core/h;->a(Ljava/lang/String;)V
 
     .line 882
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->Z:Lkik/core/y;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->Z:Lkik/core/y;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->S:Lkik/core/interfaces/ag;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->S:Lkik/core/interfaces/ag;
 
     if-eqz v0, :cond_0
 
     .line 883
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->S:Lkik/core/interfaces/ag;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->S:Lkik/core/interfaces/ag;
 
     invoke-interface {v0}, Lkik/core/interfaces/ag;->d()Lkik/core/datatypes/aa;
 
@@ -1094,26 +1094,26 @@
     invoke-virtual {v1, v2}, Lcom/crashlytics/android/core/h;->a(Ljava/lang/String;)V
 
     .line 887
-    iget-object v1, p0, Lkik/android/chat/KikApplication;->Z:Lkik/core/y;
+    iget-object v1, p0, Lkik/arcane/chat/KikApplication;->Z:Lkik/core/y;
 
     invoke-virtual {v1, v0}, Lkik/core/y;->a(Ljava/lang/String;)V
 
     .line 888
-    invoke-direct {p0}, Lkik/android/chat/KikApplication;->E()V
+    invoke-direct {p0}, Lkik/arcane/chat/KikApplication;->E()V
 
     .line 890
     :cond_0
     return-void
 .end method
 
-.method static synthetic C(Lkik/android/chat/KikApplication;)Z
+.method static synthetic C(Lkik/arcane/chat/KikApplication;)Z
     .locals 1
 
     .prologue
     .line 275
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/KikApplication;->af:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/KikApplication;->af:Z
 
     return v0
 .end method
@@ -1123,14 +1123,14 @@
 
     .prologue
     .line 1061
-    sget-object v0, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
     if-eqz v0, :cond_0
 
     .line 1062
-    sget-object v0, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v0}, Lkik/android/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v0}, Lkik/arcane/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -1154,22 +1154,22 @@
     goto :goto_0
 .end method
 
-.method static synthetic D(Lkik/android/chat/KikApplication;)Lkik/core/interfaces/ag;
+.method static synthetic D(Lkik/arcane/chat/KikApplication;)Lkik/core/interfaces/ag;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->S:Lkik/core/interfaces/ag;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->S:Lkik/core/interfaces/ag;
 
     return-object v0
 .end method
 
-.method static synthetic E(Lkik/android/chat/KikApplication;)Lkik/core/y;
+.method static synthetic E(Lkik/arcane/chat/KikApplication;)Lkik/core/y;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->Z:Lkik/core/y;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->Z:Lkik/core/y;
 
     return-object v0
 .end method
@@ -1179,18 +1179,18 @@
 
     .prologue
     .line 1182
-    new-instance v0, Lkik/android/util/ar;
+    new-instance v0, Lkik/arcane/util/ar;
 
-    invoke-virtual {p0}, Lkik/android/chat/KikApplication;->getBaseContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/chat/KikApplication;->getBaseContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lkik/android/util/ar;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lkik/arcane/util/ar;-><init>(Landroid/content/Context;)V
 
     .line 1183
-    iget-object v1, p0, Lkik/android/chat/KikApplication;->G:Landroid/os/Handler;
+    iget-object v1, p0, Lkik/arcane/chat/KikApplication;->G:Landroid/os/Handler;
 
-    invoke-static {p0, v0}, Lkik/android/chat/h;->a(Lkik/android/chat/KikApplication;Lcom/kik/util/a;)Ljava/lang/Runnable;
+    invoke-static {p0, v0}, Lkik/arcane/chat/h;->a(Lkik/arcane/chat/KikApplication;Lcom/kik/util/a;)Ljava/lang/Runnable;
 
     move-result-object v0
 
@@ -1205,25 +1205,25 @@
 
     .prologue
     .line 1664
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->at:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->at:Ljava/lang/String;
 
     if-nez v0, :cond_1
 
     .line 1665
-    iget-object v1, p0, Lkik/android/chat/KikApplication;->C:Ljava/lang/Object;
+    iget-object v1, p0, Lkik/arcane/chat/KikApplication;->C:Ljava/lang/Object;
 
     monitor-enter v1
 
     .line 1666
     :try_start_0
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->at:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->at:Ljava/lang/String;
 
     if-nez v0, :cond_0
 
     .line 1667
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
-    invoke-virtual {v0}, Lkik/android/util/bp;->c()Landroid/content/SharedPreferences;
+    invoke-virtual {v0}, Lkik/arcane/util/bp;->c()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -1235,10 +1235,10 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->at:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->at:Ljava/lang/String;
 
     .line 1668
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->at:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->at:Ljava/lang/String;
 
     if-nez v0, :cond_0
 
@@ -1259,12 +1259,12 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->at:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->at:Ljava/lang/String;
 
     .line 1670
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
-    invoke-virtual {v0}, Lkik/android/util/bp;->c()Landroid/content/SharedPreferences;
+    invoke-virtual {v0}, Lkik/arcane/util/bp;->c()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -1275,7 +1275,7 @@
     .line 1671
     const-string v2, "kik.deviceid"
 
-    iget-object v3, p0, Lkik/android/chat/KikApplication;->at:Ljava/lang/String;
+    iget-object v3, p0, Lkik/arcane/chat/KikApplication;->at:Ljava/lang/String;
 
     invoke-interface {v0, v2, v3}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
@@ -1290,7 +1290,7 @@
 
     .line 1677
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->at:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->at:Ljava/lang/String;
 
     return-object v0
 
@@ -1306,22 +1306,22 @@
     throw v0
 .end method
 
-.method static synthetic F(Lkik/android/chat/KikApplication;)V
+.method static synthetic F(Lkik/arcane/chat/KikApplication;)V
     .locals 0
 
     .prologue
     .line 275
-    invoke-direct {p0}, Lkik/android/chat/KikApplication;->C()V
+    invoke-direct {p0}, Lkik/arcane/chat/KikApplication;->C()V
 
     return-void
 .end method
 
-.method static synthetic G(Lkik/android/chat/KikApplication;)Lcom/kik/events/e;
+.method static synthetic G(Lkik/arcane/chat/KikApplication;)Lcom/kik/events/e;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->bg:Lcom/kik/events/e;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->bg:Lcom/kik/events/e;
 
     return-object v0
 .end method
@@ -1331,7 +1331,7 @@
 
     .prologue
     .line 1965
-    iget-boolean v0, p0, Lkik/android/chat/KikApplication;->ae:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/KikApplication;->ae:Z
 
     if-nez v0, :cond_0
 
@@ -1341,15 +1341,15 @@
 
     .line 1968
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v0}, Lkik/core/interfaces/IConversation;->U()Lcom/kik/events/Promise;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/chat/KikApplication$25;
+    new-instance v1, Lkik/arcane/chat/KikApplication$25;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/KikApplication$25;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/KikApplication$25;-><init>(Lkik/arcane/chat/KikApplication;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -1361,21 +1361,21 @@
 
     .prologue
     .line 2152
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->ar:Landroid/app/Activity;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->ar:Landroid/app/Activity;
 
     .line 2153
     if-eqz v0, :cond_0
 
     .line 2154
-    instance-of v1, v0, Lkik/android/chat/activity/FragmentWrapperActivity;
+    instance-of v1, v0, Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
     if-eqz v1, :cond_0
 
     .line 2155
-    check-cast v0, Lkik/android/chat/activity/FragmentWrapperActivity;
+    check-cast v0, Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
     .line 2156
-    invoke-virtual {v0}, Lkik/android/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
 
     move-result-object v0
 
@@ -1389,22 +1389,22 @@
     goto :goto_0
 .end method
 
-.method static synthetic H(Lkik/android/chat/KikApplication;)V
+.method static synthetic H(Lkik/arcane/chat/KikApplication;)V
     .locals 0
 
     .prologue
     .line 275
-    invoke-direct {p0}, Lkik/android/chat/KikApplication;->B()V
+    invoke-direct {p0}, Lkik/arcane/chat/KikApplication;->B()V
 
     return-void
 .end method
 
-.method static synthetic I(Lkik/android/chat/KikApplication;)Lcom/kik/events/g;
+.method static synthetic I(Lkik/arcane/chat/KikApplication;)Lcom/kik/events/g;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->aC:Lcom/kik/events/g;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->aC:Lcom/kik/events/g;
 
     return-object v0
 .end method
@@ -1414,20 +1414,20 @@
 
     .prologue
     .line 2172
-    invoke-direct {p0}, Lkik/android/chat/KikApplication;->H()Landroid/support/v4/app/Fragment;
+    invoke-direct {p0}, Lkik/arcane/chat/KikApplication;->H()Landroid/support/v4/app/Fragment;
 
     move-result-object v0
 
     .line 2173
-    instance-of v1, v0, Lkik/android/chat/fragment/KikChatFragment;
+    instance-of v1, v0, Lkik/arcane/chat/fragment/KikChatFragment;
 
     if-eqz v1, :cond_0
 
     .line 2174
-    check-cast v0, Lkik/android/chat/fragment/KikChatFragment;
+    check-cast v0, Lkik/arcane/chat/fragment/KikChatFragment;
 
     .line 2175
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikChatFragment;->c()Lkik/core/datatypes/l;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikChatFragment;->c()Lkik/core/datatypes/l;
 
     move-result-object v0
 
@@ -1441,12 +1441,12 @@
     goto :goto_0
 .end method
 
-.method static synthetic J(Lkik/android/chat/KikApplication;)Lkik/android/b/a;
+.method static synthetic J(Lkik/arcane/chat/KikApplication;)Lkik/arcane/b/a;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->az:Lkik/android/b/a;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->az:Lkik/arcane/b/a;
 
     return-object v0
 .end method
@@ -1456,9 +1456,9 @@
 
     .prologue
     .line 2239
-    iget v0, p0, Lkik/android/chat/KikApplication;->ad:I
+    iget v0, p0, Lkik/arcane/chat/KikApplication;->ad:I
 
-    iget v1, p0, Lkik/android/chat/KikApplication;->ac:I
+    iget v1, p0, Lkik/arcane/chat/KikApplication;->ac:I
 
     if-eq v0, v1, :cond_0
 
@@ -1473,12 +1473,12 @@
     goto :goto_0
 .end method
 
-.method static synthetic K(Lkik/android/chat/KikApplication;)Lcom/kik/events/g;
+.method static synthetic K(Lkik/arcane/chat/KikApplication;)Lcom/kik/events/g;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->aH:Lcom/kik/events/g;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->aH:Lcom/kik/events/g;
 
     return-object v0
 .end method
@@ -1488,7 +1488,7 @@
 
     .prologue
     .line 2379
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v0}, Lkik/core/interfaces/IConversation;->G()Ljava/util/List;
 
@@ -1519,7 +1519,7 @@
     check-cast v0, Lkik/core/datatypes/f;
 
     .line 2382
-    iget-object v3, p0, Lkik/android/chat/KikApplication;->E:Lkik/core/interfaces/v;
+    iget-object v3, p0, Lkik/arcane/chat/KikApplication;->E:Lkik/core/interfaces/v;
 
     invoke-virtual {v0}, Lkik/core/datatypes/f;->g()Ljava/lang/String;
 
@@ -1549,7 +1549,7 @@
 
     .line 2387
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->p:Lcom/kik/core/domain/users/a;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->p:Lcom/kik/core/domain/users/a;
 
     invoke-interface {v0, v1}, Lcom/kik/core/domain/users/a;->a(Ljava/util/List;)V
 
@@ -1557,44 +1557,44 @@
     return-void
 .end method
 
-.method static synthetic L(Lkik/android/chat/KikApplication;)Lkik/core/interfaces/k;
+.method static synthetic L(Lkik/arcane/chat/KikApplication;)Lkik/core/interfaces/k;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->X:Lkik/core/interfaces/k;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->X:Lkik/core/interfaces/k;
 
     return-object v0
 .end method
 
-.method static synthetic M(Lkik/android/chat/KikApplication;)Z
+.method static synthetic M(Lkik/arcane/chat/KikApplication;)Z
     .locals 1
 
     .prologue
     .line 275
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/KikApplication;->J:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/KikApplication;->J:Z
 
     return v0
 .end method
 
-.method static synthetic N(Lkik/android/chat/KikApplication;)V
+.method static synthetic N(Lkik/arcane/chat/KikApplication;)V
     .locals 0
 
     .prologue
     .line 275
-    invoke-direct {p0}, Lkik/android/chat/KikApplication;->G()V
+    invoke-direct {p0}, Lkik/arcane/chat/KikApplication;->G()V
 
     return-void
 .end method
 
-.method static synthetic O(Lkik/android/chat/KikApplication;)Lkik/android/util/bp;
+.method static synthetic O(Lkik/arcane/chat/KikApplication;)Lkik/arcane/util/bp;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
     return-object v0
 .end method
@@ -1604,7 +1604,7 @@
 
     .prologue
     .line 926
-    sget v0, Lkik/android/chat/KikApplication;->y:F
+    sget v0, Lkik/arcane/chat/KikApplication;->y:F
 
     mul-float/2addr v0, p0
 
@@ -1620,7 +1620,7 @@
     .line 931
     int-to-float v0, p0
 
-    sget v1, Lkik/android/chat/KikApplication;->y:F
+    sget v1, Lkik/arcane/chat/KikApplication;->y:F
 
     div-float/2addr v0, v1
 
@@ -1629,22 +1629,22 @@
     return v0
 .end method
 
-.method static synthetic a(Lkik/android/chat/KikApplication;I)I
+.method static synthetic a(Lkik/arcane/chat/KikApplication;I)I
     .locals 0
 
     .prologue
     .line 275
-    iput p1, p0, Lkik/android/chat/KikApplication;->aq:I
+    iput p1, p0, Lkik/arcane/chat/KikApplication;->aq:I
 
     return p1
 .end method
 
-.method static synthetic a(Lkik/android/chat/KikApplication;J)J
+.method static synthetic a(Lkik/arcane/chat/KikApplication;J)J
     .locals 1
 
     .prologue
     .line 275
-    iput-wide p1, p0, Lkik/android/chat/KikApplication;->aj:J
+    iput-wide p1, p0, Lkik/arcane/chat/KikApplication;->aj:J
 
     return-wide p1
 .end method
@@ -1654,9 +1654,9 @@
 
     .prologue
     .line 1031
-    sget-object v0, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v0}, Lkik/android/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v0}, Lkik/arcane/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -1684,7 +1684,7 @@
 
     const/4 v2, 0x0
 
-    sget-object v3, Lkik/android/chat/KikApplication;->z:Ljava/lang/String;
+    sget-object v3, Lkik/arcane/chat/KikApplication;->z:Ljava/lang/String;
 
     aput-object v3, v1, v2
 
@@ -1730,7 +1730,7 @@
     :cond_0
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->Z:Lkik/core/y;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->Z:Lkik/core/y;
 
     invoke-virtual {v4}, Lkik/core/y;->c()Lkik/core/a;
 
@@ -1743,26 +1743,26 @@
 
     .line 1198
     :goto_0
-    new-instance v4, Lkik/android/util/bp;
+    new-instance v4, Lkik/arcane/util/bp;
 
-    sget-object v5, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v5, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
     move-object/from16 v0, p0
 
-    iget-object v8, v0, Lkik/android/chat/KikApplication;->Z:Lkik/core/y;
+    iget-object v8, v0, Lkik/arcane/chat/KikApplication;->Z:Lkik/core/y;
 
     invoke-virtual {v8}, Lkik/core/y;->b()Ljava/lang/String;
 
     move-result-object v8
 
-    invoke-direct {v4, v5, v8}, Lkik/android/util/bp;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {v4, v5, v8}, Lkik/arcane/util/bp;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     move-object/from16 v0, p0
 
-    iput-object v4, v0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iput-object v4, v0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
     .line 6222
-    invoke-static {}, Lkik/android/util/DeviceUtils;->b()I
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->b()I
 
     move-result v4
 
@@ -1770,14 +1770,14 @@
 
     move-object/from16 v0, p0
 
-    iput v4, v0, Lkik/android/chat/KikApplication;->ac:I
+    iput v4, v0, Lkik/arcane/chat/KikApplication;->ac:I
 
     .line 6223
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
-    invoke-virtual {v4}, Lkik/android/util/bp;->b()Landroid/content/SharedPreferences;
+    invoke-virtual {v4}, Lkik/arcane/util/bp;->b()Landroid/content/SharedPreferences;
 
     move-result-object v4
 
@@ -1793,10 +1793,10 @@
 
     move-object/from16 v0, p0
 
-    iput v4, v0, Lkik/android/chat/KikApplication;->ad:I
+    iput v4, v0, Lkik/arcane/chat/KikApplication;->ad:I
 
     .line 6224
-    invoke-direct/range {p0 .. p0}, Lkik/android/chat/KikApplication;->J()Z
+    invoke-direct/range {p0 .. p0}, Lkik/arcane/chat/KikApplication;->J()Z
 
     move-result v4
 
@@ -1805,12 +1805,12 @@
     .line 6227
     move-object/from16 v0, p0
 
-    iget v4, v0, Lkik/android/chat/KikApplication;->ad:I
+    iget v4, v0, Lkik/arcane/chat/KikApplication;->ad:I
 
     if-nez v4, :cond_1
 
     .line 6392
-    invoke-virtual/range {p0 .. p0}, Lkik/android/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Lkik/arcane/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v4
 
@@ -1836,15 +1836,15 @@
 
     move-object/from16 v0, p0
 
-    iput v4, v0, Lkik/android/chat/KikApplication;->ad:I
+    iput v4, v0, Lkik/arcane/chat/KikApplication;->ad:I
 
     .line 6234
     :cond_1
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
-    invoke-virtual {v4}, Lkik/android/util/bp;->b()Landroid/content/SharedPreferences;
+    invoke-virtual {v4}, Lkik/arcane/util/bp;->b()Landroid/content/SharedPreferences;
 
     move-result-object v4
 
@@ -1856,7 +1856,7 @@
 
     move-object/from16 v0, p0
 
-    iget v8, v0, Lkik/android/chat/KikApplication;->ac:I
+    iget v8, v0, Lkik/arcane/chat/KikApplication;->ac:I
 
     invoke-interface {v4, v5, v8}, Landroid/content/SharedPreferences$Editor;->putInt(Ljava/lang/String;I)Landroid/content/SharedPreferences$Editor;
 
@@ -1868,7 +1868,7 @@
     :cond_2
     move-object/from16 v0, p0
 
-    iget v4, v0, Lkik/android/chat/KikApplication;->ad:I
+    iget v4, v0, Lkik/arcane/chat/KikApplication;->ad:I
 
     const/16 v5, 0x98
 
@@ -1877,19 +1877,19 @@
     .line 7245
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
-    invoke-virtual {v4}, Lkik/android/util/bp;->e()V
+    invoke-virtual {v4}, Lkik/arcane/util/bp;->e()V
 
     .line 7248
-    new-instance v4, Lkik/android/chat/KikApplication$27;
+    new-instance v4, Lkik/arcane/chat/KikApplication$27;
 
     move-object/from16 v0, p0
 
-    invoke-direct {v4, v0}, Lkik/android/chat/KikApplication$27;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v4, v0}, Lkik/arcane/chat/KikApplication$27;-><init>(Lkik/arcane/chat/KikApplication;)V
 
     .line 7254
-    invoke-virtual {v4}, Lkik/android/chat/KikApplication$27;->start()V
+    invoke-virtual {v4}, Lkik/arcane/chat/KikApplication$27;->start()V
 
     .line 1203
     :cond_3
@@ -1897,7 +1897,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->Z:Lkik/core/y;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->Z:Lkik/core/y;
 
     invoke-virtual {v4}, Lkik/core/y;->b()Ljava/lang/String;
 
@@ -1905,7 +1905,7 @@
 
     new-instance v5, Ljava/io/File;
 
-    invoke-virtual/range {p0 .. p0}, Lkik/android/chat/KikApplication;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+    invoke-virtual/range {p0 .. p0}, Lkik/arcane/chat/KikApplication;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
 
     move-result-object v8
 
@@ -1913,11 +1913,11 @@
 
     invoke-direct {v5, v8}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual/range {p0 .. p0}, Lkik/android/chat/KikApplication;->getExternalCacheDir()Ljava/io/File;
+    invoke-virtual/range {p0 .. p0}, Lkik/arcane/chat/KikApplication;->getExternalCacheDir()Ljava/io/File;
 
     move-result-object v8
 
-    invoke-virtual/range {p0 .. p0}, Lkik/android/chat/KikApplication;->getCacheDir()Ljava/io/File;
+    invoke-virtual/range {p0 .. p0}, Lkik/arcane/chat/KikApplication;->getCacheDir()Ljava/io/File;
 
     move-result-object v9
 
@@ -1930,12 +1930,12 @@
 
     move-object/from16 v0, p0
 
-    iput-object v4, v0, Lkik/android/chat/KikApplication;->aL:Lkik/core/interfaces/s;
+    iput-object v4, v0, Lkik/arcane/chat/KikApplication;->aL:Lkik/core/interfaces/s;
 
     .line 1205
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->aL:Lkik/core/interfaces/s;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->aL:Lkik/core/interfaces/s;
 
     move-object/from16 v0, p1
 
@@ -1945,17 +1945,17 @@
     if-eqz v14, :cond_4
 
     .line 1207
-    new-instance v4, Lkik/android/c;
+    new-instance v4, Lkik/arcane/c;
 
-    sget-object v5, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
-
-    move-object/from16 v0, p0
-
-    iget-object v8, v0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    sget-object v5, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
     move-object/from16 v0, p0
 
-    iget-object v9, v0, Lkik/android/chat/KikApplication;->Z:Lkik/core/y;
+    iget-object v8, v0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
+
+    move-object/from16 v0, p0
+
+    iget-object v9, v0, Lkik/arcane/chat/KikApplication;->Z:Lkik/core/y;
 
     invoke-virtual {v9}, Lkik/core/y;->b()Ljava/lang/String;
 
@@ -1963,13 +1963,13 @@
 
     move-object/from16 v0, p0
 
-    iget-object v10, v0, Lkik/android/chat/KikApplication;->aL:Lkik/core/interfaces/s;
+    iget-object v10, v0, Lkik/arcane/chat/KikApplication;->aL:Lkik/core/interfaces/s;
 
-    invoke-direct {v4, v5, v8, v9, v10}, Lkik/android/c;-><init>(Lkik/android/chat/KikApplication;Lkik/android/util/ah;Ljava/lang/String;Lkik/core/interfaces/s;)V
+    invoke-direct {v4, v5, v8, v9, v10}, Lkik/arcane/c;-><init>(Lkik/arcane/chat/KikApplication;Lkik/arcane/util/ah;Ljava/lang/String;Lkik/core/interfaces/s;)V
 
-    new-instance v5, Lkik/android/util/aw$a;
+    new-instance v5, Lkik/arcane/util/aw$a;
 
-    invoke-direct {v5}, Lkik/android/util/aw$a;-><init>()V
+    invoke-direct {v5}, Lkik/arcane/util/aw$a;-><init>()V
 
     move-object/from16 v0, p2
 
@@ -1983,7 +1983,7 @@
     .line 1209
     sub-long/2addr v4, v6
 
-    sput-wide v4, Lkik/android/chat/KikApplication;->A:J
+    sput-wide v4, Lkik/arcane/chat/KikApplication;->A:J
 
     .line 1212
     :cond_4
@@ -2007,13 +2007,13 @@
     invoke-virtual {v5, v4}, Lcom/crashlytics/android/core/h;->b(Ljava/lang/String;)V
 
     .line 7992
-    new-instance v4, Lkik/android/util/ar;
+    new-instance v4, Lkik/arcane/util/ar;
 
-    invoke-virtual/range {p0 .. p0}, Lkik/android/chat/KikApplication;->getBaseContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Lkik/arcane/chat/KikApplication;->getBaseContext()Landroid/content/Context;
 
     move-result-object v5
 
-    invoke-direct {v4, v5}, Lkik/android/util/ar;-><init>(Landroid/content/Context;)V
+    invoke-direct {v4, v5}, Lkik/arcane/util/ar;-><init>(Landroid/content/Context;)V
 
     .line 7993
     invoke-static {}, Lcom/crashlytics/android/a;->d()Lcom/crashlytics/android/a;
@@ -2085,9 +2085,9 @@
     const-string v5, "DeviceId"
 
     .line 8916
-    sget-object v6, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v6, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
-    invoke-direct {v6}, Lkik/android/chat/KikApplication;->F()Ljava/lang/String;
+    invoke-direct {v6}, Lkik/arcane/chat/KikApplication;->F()Ljava/lang/String;
 
     move-result-object v6
 
@@ -2114,7 +2114,7 @@
 
     move-object/from16 v1, p0
 
-    iput-object v0, v1, Lkik/android/chat/KikApplication;->W:Lkik/core/ICoreEvents;
+    iput-object v0, v1, Lkik/arcane/chat/KikApplication;->W:Lkik/core/ICoreEvents;
 
     .line 1215
     invoke-virtual/range {p2 .. p2}, Lkik/core/a;->s()Lkik/core/interfaces/IConversation;
@@ -2123,18 +2123,18 @@
 
     move-object/from16 v0, p0
 
-    iput-object v4, v0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iput-object v4, v0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     .line 1216
     invoke-virtual/range {p2 .. p2}, Lkik/core/a;->r()Lkik/core/interfaces/f;
 
     move-result-object v4
 
-    check-cast v4, Lkik/android/a/b;
+    check-cast v4, Lkik/arcane/a/b;
 
     move-object/from16 v0, p0
 
-    iput-object v4, v0, Lkik/android/chat/KikApplication;->ax:Lkik/android/a/b;
+    iput-object v4, v0, Lkik/arcane/chat/KikApplication;->ax:Lkik/arcane/a/b;
 
     .line 1217
     invoke-virtual/range {p2 .. p2}, Lkik/core/a;->o()Lkik/core/interfaces/ad;
@@ -2143,7 +2143,7 @@
 
     move-object/from16 v0, p0
 
-    iput-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iput-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     .line 1218
     invoke-virtual/range {p2 .. p2}, Lkik/core/a;->o()Lkik/core/interfaces/ad;
@@ -2154,7 +2154,7 @@
 
     move-object/from16 v0, p0
 
-    iput-object v4, v0, Lkik/android/chat/KikApplication;->P:Lcom/kik/storage/s;
+    iput-object v4, v0, Lkik/arcane/chat/KikApplication;->P:Lcom/kik/storage/s;
 
     .line 1219
     invoke-virtual/range {p2 .. p2}, Lkik/core/a;->l()Lkik/core/interfaces/ICommunication;
@@ -2163,7 +2163,7 @@
 
     move-object/from16 v0, p0
 
-    iput-object v4, v0, Lkik/android/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
+    iput-object v4, v0, Lkik/arcane/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
 
     .line 1220
     invoke-virtual/range {p2 .. p2}, Lkik/core/a;->n()Lkik/core/net/e;
@@ -2172,7 +2172,7 @@
 
     move-object/from16 v0, p0
 
-    iput-object v4, v0, Lkik/android/chat/KikApplication;->R:Lkik/core/net/e;
+    iput-object v4, v0, Lkik/arcane/chat/KikApplication;->R:Lkik/core/net/e;
 
     .line 1221
     invoke-virtual/range {p2 .. p2}, Lkik/core/a;->u()Lkik/core/interfaces/v;
@@ -2181,7 +2181,7 @@
 
     move-object/from16 v0, p0
 
-    iput-object v4, v0, Lkik/android/chat/KikApplication;->E:Lkik/core/interfaces/v;
+    iput-object v4, v0, Lkik/arcane/chat/KikApplication;->E:Lkik/core/interfaces/v;
 
     .line 1222
     invoke-virtual/range {p2 .. p2}, Lkik/core/a;->v()Lkik/core/interfaces/l;
@@ -2190,7 +2190,7 @@
 
     move-object/from16 v0, p0
 
-    iput-object v4, v0, Lkik/android/chat/KikApplication;->F:Lkik/core/interfaces/l;
+    iput-object v4, v0, Lkik/arcane/chat/KikApplication;->F:Lkik/core/interfaces/l;
 
     .line 1223
     invoke-virtual/range {p2 .. p2}, Lkik/core/a;->p()Lkik/core/interfaces/ag;
@@ -2199,7 +2199,7 @@
 
     move-object/from16 v0, p0
 
-    iput-object v4, v0, Lkik/android/chat/KikApplication;->S:Lkik/core/interfaces/ag;
+    iput-object v4, v0, Lkik/arcane/chat/KikApplication;->S:Lkik/core/interfaces/ag;
 
     .line 1224
     invoke-virtual/range {p2 .. p2}, Lkik/core/a;->q()Lkik/core/interfaces/IAddressBookIntegration;
@@ -2208,7 +2208,7 @@
 
     move-object/from16 v0, p0
 
-    iput-object v4, v0, Lkik/android/chat/KikApplication;->T:Lkik/core/interfaces/IAddressBookIntegration;
+    iput-object v4, v0, Lkik/arcane/chat/KikApplication;->T:Lkik/core/interfaces/IAddressBookIntegration;
 
     .line 1225
     invoke-virtual/range {p2 .. p2}, Lkik/core/a;->B()Lkik/core/interfaces/k;
@@ -2217,7 +2217,7 @@
 
     move-object/from16 v0, p0
 
-    iput-object v4, v0, Lkik/android/chat/KikApplication;->X:Lkik/core/interfaces/k;
+    iput-object v4, v0, Lkik/arcane/chat/KikApplication;->X:Lkik/core/interfaces/k;
 
     .line 1226
     invoke-virtual/range {p2 .. p2}, Lkik/core/a;->z()Lkik/core/e/d;
@@ -2226,33 +2226,33 @@
 
     move-object/from16 v0, p0
 
-    iput-object v4, v0, Lkik/android/chat/KikApplication;->ab:Lkik/core/e/f;
+    iput-object v4, v0, Lkik/arcane/chat/KikApplication;->ab:Lkik/core/e/f;
 
     .line 1228
-    invoke-static {}, Lkik/android/config/c;->c()Lkik/android/config/b;
+    invoke-static {}, Lkik/arcane/config/c;->c()Lkik/arcane/config/b;
 
     move-result-object v16
 
     .line 1230
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
     move-object/from16 v0, v16
 
-    invoke-interface {v0, v4}, Lkik/android/config/b;->a(Lkik/android/util/aj;)V
+    invoke-interface {v0, v4}, Lkik/arcane/config/b;->a(Lkik/arcane/util/aj;)V
 
     .line 1231
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
     .line 9017
-    invoke-static {}, Lkik/android/config/c;->c()Lkik/android/config/b;
+    invoke-static {}, Lkik/arcane/config/c;->c()Lkik/arcane/config/b;
 
     move-result-object v5
 
-    new-instance v6, Lkik/android/config/f;
+    new-instance v6, Lkik/arcane/config/f;
 
     const-string v7, "animation-type"
 
@@ -2274,37 +2274,37 @@
 
     aput-object v11, v9, v10
 
-    invoke-direct {v6, v7, v8, v9, v4}, Lkik/android/config/f;-><init>(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Lkik/android/util/aj;)V
+    invoke-direct {v6, v7, v8, v9, v4}, Lkik/arcane/config/f;-><init>(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Lkik/arcane/util/aj;)V
 
-    invoke-interface {v5, v6}, Lkik/android/config/b;->a(Lkik/android/config/Configuration;)Z
+    invoke-interface {v5, v6}, Lkik/arcane/config/b;->a(Lkik/arcane/config/Configuration;)Z
 
     .line 1232
-    invoke-static {}, Lkik/android/util/g;->a()Lkik/android/util/g;
+    invoke-static {}, Lkik/arcane/util/g;->a()Lkik/arcane/util/g;
 
     move-result-object v4
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->S:Lkik/core/interfaces/ag;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->S:Lkik/core/interfaces/ag;
 
-    invoke-virtual {v4, v5}, Lkik/android/util/g;->a(Lkik/core/interfaces/ag;)V
+    invoke-virtual {v4, v5}, Lkik/arcane/util/g;->a(Lkik/core/interfaces/ag;)V
 
     .line 1233
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
-    invoke-static {v4}, Lcom/kik/cards/web/kin/KinPlugin;->setupConfiguration(Lkik/android/util/bp;)V
+    invoke-static {v4}, Lcom/kik/cards/web/kin/KinPlugin;->setupConfiguration(Lkik/arcane/util/bp;)V
 
     .line 1235
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->P:Lcom/kik/storage/s;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->P:Lcom/kik/storage/s;
 
-    invoke-static {v4}, Lkik/android/gifs/a/e;->a(Lcom/kik/storage/s;)Lkik/android/gifs/a/e;
+    invoke-static {v4}, Lkik/arcane/gifs/a/e;->a(Lcom/kik/storage/s;)Lkik/arcane/gifs/a/e;
 
     .line 1236
-    invoke-static/range {p0 .. p0}, Lkik/android/gifs/a;->a(Landroid/content/Context;)V
+    invoke-static/range {p0 .. p0}, Lkik/arcane/gifs/a;->a(Landroid/content/Context;)V
 
     .line 1238
     invoke-virtual/range {p2 .. p2}, Lkik/core/a;->w()Lkik/core/interfaces/n;
@@ -2314,44 +2314,44 @@
     .line 1240
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->P:Lcom/kik/storage/s;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->P:Lcom/kik/storage/s;
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->S:Lkik/core/interfaces/ag;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->S:Lkik/core/interfaces/ag;
 
-    invoke-static {v4, v5, v6}, Lkik/android/KikDataProvider;->a(Lkik/core/interfaces/ad;Lcom/kik/storage/s;Lkik/core/interfaces/ag;)V
+    invoke-static {v4, v5, v6}, Lkik/arcane/KikDataProvider;->a(Lkik/core/interfaces/ad;Lcom/kik/storage/s;Lkik/core/interfaces/ag;)V
 
     .line 1242
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
 
     move-object/from16 v0, p1
 
-    invoke-static {v0, v4}, Lkik/android/net/http/b;->a(Landroid/content/Context;Lkik/core/interfaces/ICommunication;)Lkik/android/net/http/b;
+    invoke-static {v0, v4}, Lkik/arcane/net/http/b;->a(Landroid/content/Context;Lkik/core/interfaces/ICommunication;)Lkik/arcane/net/http/b;
 
     .line 1244
-    new-instance v4, Lkik/android/b/c;
+    new-instance v4, Lkik/arcane/b/c;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->aL:Lkik/core/interfaces/s;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->aL:Lkik/core/interfaces/s;
 
     move-object/from16 v0, p1
 
-    invoke-direct {v4, v0, v5}, Lkik/android/b/c;-><init>(Landroid/content/Context;Lkik/core/interfaces/s;)V
+    invoke-direct {v4, v0, v5}, Lkik/arcane/b/c;-><init>(Landroid/content/Context;Lkik/core/interfaces/s;)V
 
     move-object/from16 v0, p0
 
-    iput-object v4, v0, Lkik/android/chat/KikApplication;->ay:Lkik/android/b/c;
+    iput-object v4, v0, Lkik/arcane/chat/KikApplication;->ay:Lkik/arcane/b/c;
 
     .line 9460
-    new-instance v18, Lkik/android/chat/b/a;
+    new-instance v18, Lkik/arcane/chat/b/a;
 
     invoke-virtual/range {p2 .. p2}, Lkik/core/a;->z()Lkik/core/e/d;
 
@@ -2363,11 +2363,11 @@
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     move-object/from16 v0, v18
 
-    invoke-direct {v0, v4, v5, v6}, Lkik/android/chat/b/a;-><init>(Lkik/core/e/f;Lcom/kik/events/Promise;Lkik/core/interfaces/ad;)V
+    invoke-direct {v0, v4, v5, v6}, Lkik/arcane/chat/b/a;-><init>(Lkik/core/e/f;Lcom/kik/events/Promise;Lkik/core/interfaces/ad;)V
 
     .line 9461
     new-instance v19, Lkik/core/e;
@@ -2383,7 +2383,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->P:Lcom/kik/storage/s;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->P:Lcom/kik/storage/s;
 
     move-object/from16 v0, v20
 
@@ -2394,7 +2394,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     move-object/from16 v0, v21
 
@@ -2407,9 +2407,9 @@
 
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
-    invoke-virtual {v4}, Lkik/android/util/bp;->c()Landroid/content/SharedPreferences;
+    invoke-virtual {v4}, Lkik/arcane/util/bp;->c()Landroid/content/SharedPreferences;
 
     move-result-object v4
 
@@ -2417,24 +2417,24 @@
 
     move-object/from16 v1, p0
 
-    invoke-direct {v0, v4, v1}, Lcom/kik/modules/ch;-><init>(Landroid/content/SharedPreferences;Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, v4, v1}, Lcom/kik/modules/ch;-><init>(Landroid/content/SharedPreferences;Lkik/arcane/chat/KikApplication;)V
 
     .line 9465
     new-instance v4, Lcom/kik/modules/dn;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->S:Lkik/core/interfaces/ag;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->S:Lkik/core/interfaces/ag;
 
     invoke-virtual/range {p2 .. p2}, Lkik/core/a;->v()Lkik/core/interfaces/l;
 
     move-result-object v7
 
-    invoke-static {}, Lkik/android/config/c;->c()Lkik/android/config/b;
+    invoke-static {}, Lkik/arcane/config/c;->c()Lkik/arcane/config/b;
 
     move-result-object v8
 
@@ -2442,9 +2442,9 @@
 
     move-object/from16 v0, p0
 
-    iget-object v9, v0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iget-object v9, v0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
-    invoke-direct/range {v4 .. v9}, Lcom/kik/modules/dn;-><init>(Lkik/core/interfaces/ad;Lkik/core/interfaces/ag;Lkik/core/interfaces/l;Lkik/android/config/b;Lkik/android/util/aj;)V
+    invoke-direct/range {v4 .. v9}, Lcom/kik/modules/dn;-><init>(Lkik/core/interfaces/ad;Lkik/core/interfaces/ag;Lkik/core/interfaces/l;Lkik/arcane/config/b;Lkik/arcane/util/aj;)V
 
     .line 9466
     new-instance v5, Lcom/kik/modules/dl;
@@ -2455,7 +2455,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v8, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v8, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     invoke-virtual/range {p2 .. p2}, Lkik/core/a;->f()Lcom/kik/events/Promise;
 
@@ -2463,7 +2463,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v10, v0, Lkik/android/chat/KikApplication;->S:Lkik/core/interfaces/ag;
+    iget-object v10, v0, Lkik/arcane/chat/KikApplication;->S:Lkik/core/interfaces/ag;
 
     invoke-virtual/range {p2 .. p2}, Lkik/core/a;->m()Lkik/core/interfaces/z;
 
@@ -2471,22 +2471,22 @@
 
     move-object/from16 v0, p0
 
-    iget-object v12, v0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iget-object v12, v0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
     move-object/from16 v0, p0
 
-    iget-object v13, v0, Lkik/android/chat/KikApplication;->aL:Lkik/core/interfaces/s;
+    iget-object v13, v0, Lkik/arcane/chat/KikApplication;->aL:Lkik/core/interfaces/s;
 
     move-object/from16 v6, p1
 
-    invoke-direct/range {v5 .. v13}, Lcom/kik/modules/dl;-><init>(Landroid/content/Context;Lkik/core/e/f;Lkik/core/interfaces/ad;Lcom/kik/events/Promise;Lkik/core/interfaces/ag;Lkik/core/interfaces/z;Lkik/android/util/aj;Lkik/core/interfaces/s;)V
+    invoke-direct/range {v5 .. v13}, Lcom/kik/modules/dl;-><init>(Landroid/content/Context;Lkik/core/e/f;Lkik/core/interfaces/ad;Lcom/kik/events/Promise;Lkik/core/interfaces/ag;Lkik/core/interfaces/z;Lkik/arcane/util/aj;Lkik/core/interfaces/s;)V
 
     .line 9467
     new-instance v23, Lcom/kik/modules/k;
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     move-object/from16 v0, v23
 
@@ -2494,18 +2494,18 @@
 
     move-object/from16 v2, v18
 
-    invoke-direct {v0, v1, v2, v6}, Lcom/kik/modules/k;-><init>(Landroid/content/Context;Lkik/android/chat/b/a;Lkik/core/interfaces/ad;)V
+    invoke-direct {v0, v1, v2, v6}, Lcom/kik/modules/k;-><init>(Landroid/content/Context;Lkik/arcane/chat/b/a;Lkik/core/interfaces/ad;)V
 
     .line 9468
     new-instance v24, Lcom/kik/modules/dj;
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
     move-object/from16 v0, v24
 
-    invoke-direct {v0, v6}, Lcom/kik/modules/dj;-><init>(Lkik/android/util/aj;)V
+    invoke-direct {v0, v6}, Lcom/kik/modules/dj;-><init>(Lkik/arcane/util/aj;)V
 
     .line 9469
     new-instance v25, Lcom/kik/modules/cl;
@@ -2514,46 +2514,46 @@
 
     move-object/from16 v1, p0
 
-    invoke-direct {v0, v1}, Lcom/kik/modules/cl;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, v1}, Lcom/kik/modules/cl;-><init>(Lkik/arcane/chat/KikApplication;)V
 
     .line 9470
     new-instance v6, Lcom/kik/modules/dx;
 
     move-object/from16 v0, p0
 
-    iget-object v7, v0, Lkik/android/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
+    iget-object v7, v0, Lkik/arcane/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
 
     move-object/from16 v0, p0
 
-    iget-object v9, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v9, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     move-object/from16 v0, p0
 
-    iget-object v10, v0, Lkik/android/chat/KikApplication;->X:Lkik/core/interfaces/k;
+    iget-object v10, v0, Lkik/arcane/chat/KikApplication;->X:Lkik/core/interfaces/k;
 
     move-object/from16 v0, p0
 
-    iget-object v11, v0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v11, v0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     move-object/from16 v0, p0
 
-    iget-object v12, v0, Lkik/android/chat/KikApplication;->E:Lkik/core/interfaces/v;
+    iget-object v12, v0, Lkik/arcane/chat/KikApplication;->E:Lkik/core/interfaces/v;
 
     move-object/from16 v8, p0
 
-    invoke-direct/range {v6 .. v12}, Lcom/kik/modules/dx;-><init>(Lkik/core/interfaces/ICommunication;Lkik/android/f/d;Lkik/core/interfaces/ad;Lkik/core/interfaces/k;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/v;)V
+    invoke-direct/range {v6 .. v12}, Lcom/kik/modules/dx;-><init>(Lkik/core/interfaces/ICommunication;Lkik/arcane/f/d;Lkik/core/interfaces/ad;Lkik/core/interfaces/k;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/v;)V
 
     .line 9471
     new-instance v26, Lcom/kik/modules/bu;
 
     move-object/from16 v0, p0
 
-    iget-object v7, v0, Lkik/android/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
+    iget-object v7, v0, Lkik/arcane/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
 
     .line 10207
     move-object/from16 v0, p0
 
-    iget-object v8, v0, Lkik/android/chat/KikApplication;->aH:Lcom/kik/events/g;
+    iget-object v8, v0, Lkik/arcane/chat/KikApplication;->aH:Lcom/kik/events/g;
 
     invoke-virtual {v8}, Lcom/kik/events/g;->a()Lcom/kik/events/c;
 
@@ -2562,7 +2562,7 @@
     .line 9471
     move-object/from16 v0, p0
 
-    iget-object v9, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v9, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     move-object/from16 v0, v26
 
@@ -2607,22 +2607,22 @@
 
     move-object/from16 v0, p0
 
-    iget-object v8, v0, Lkik/android/chat/KikApplication;->P:Lcom/kik/storage/s;
+    iget-object v8, v0, Lkik/arcane/chat/KikApplication;->P:Lcom/kik/storage/s;
 
     move-object/from16 v0, p0
 
-    iget-object v9, v0, Lkik/android/chat/KikApplication;->ay:Lkik/android/b/c;
+    iget-object v9, v0, Lkik/arcane/chat/KikApplication;->ay:Lkik/arcane/b/c;
 
     move-object/from16 v0, v27
 
-    invoke-direct {v0, v8, v9}, Lcom/kik/modules/aw;-><init>(Lcom/kik/storage/s;Lkik/android/b/c;)V
+    invoke-direct {v0, v8, v9}, Lcom/kik/modules/aw;-><init>(Lcom/kik/storage/s;Lkik/arcane/b/c;)V
 
     .line 9475
     new-instance v10, Lkik/core/abtesting/f;
 
     move-object/from16 v0, p0
 
-    iget-object v8, v0, Lkik/android/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
+    iget-object v8, v0, Lkik/arcane/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
 
     invoke-virtual/range {p2 .. p2}, Lkik/core/a;->z()Lkik/core/e/d;
 
@@ -2630,7 +2630,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v11, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v11, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     invoke-direct {v10, v8, v9, v11}, Lkik/core/abtesting/f;-><init>(Lkik/core/interfaces/ICommunication;Lkik/core/e/d;Lkik/core/interfaces/ad;)V
 
@@ -2649,15 +2649,15 @@
 
     move-object/from16 v0, p0
 
-    iget-object v8, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v8, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     move-object/from16 v0, p0
 
-    iget-object v12, v0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iget-object v12, v0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
     move-object/from16 v0, p1
 
-    invoke-direct {v9, v8, v0, v12}, Lcom/kik/storage/a;-><init>(Lkik/core/interfaces/ad;Landroid/content/Context;Lkik/android/util/bp;)V
+    invoke-direct {v9, v8, v0, v12}, Lcom/kik/storage/a;-><init>(Lkik/core/interfaces/ad;Landroid/content/Context;Lkik/arcane/util/bp;)V
 
     .line 9480
     new-instance v8, Lcom/kik/modules/a;
@@ -2668,7 +2668,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v13, v0, Lkik/android/chat/KikApplication;->ax:Lkik/android/a/b;
+    iget-object v13, v0, Lkik/arcane/chat/KikApplication;->ax:Lkik/arcane/a/b;
 
     invoke-direct/range {v8 .. v13}, Lcom/kik/modules/a;-><init>(Lkik/core/interfaces/c;Lkik/core/abtesting/j;Lkik/core/abtesting/i;Lkik/core/interfaces/k;Lkik/core/interfaces/f;)V
 
@@ -2720,13 +2720,13 @@
 
     move-object/from16 v0, p0
 
-    iget-object v9, v0, Lkik/android/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
+    iget-object v9, v0, Lkik/arcane/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
 
     move-object/from16 v0, v30
 
     move-object/from16 v1, p0
 
-    invoke-direct {v0, v1, v9}, Lcom/kik/modules/y;-><init>(Lkik/android/chat/KikApplication;Lkik/core/interfaces/ICommunication;)V
+    invoke-direct {v0, v1, v9}, Lcom/kik/modules/y;-><init>(Lkik/arcane/chat/KikApplication;Lkik/core/interfaces/ICommunication;)V
 
     .line 9490
     new-instance v31, Lkik/core/manager/ah;
@@ -2739,7 +2739,7 @@
     .line 11207
     move-object/from16 v0, p0
 
-    iget-object v9, v0, Lkik/android/chat/KikApplication;->aH:Lcom/kik/events/g;
+    iget-object v9, v0, Lkik/arcane/chat/KikApplication;->aH:Lcom/kik/events/g;
 
     invoke-virtual {v9}, Lcom/kik/events/g;->a()Lcom/kik/events/c;
 
@@ -2758,21 +2758,21 @@
     .line 9494
     new-instance v34, Lcom/kik/modules/em;
 
-    invoke-virtual/range {p0 .. p0}, Lkik/android/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Lkik/arcane/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v35
 
-    invoke-virtual/range {p0 .. p0}, Lkik/android/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Lkik/arcane/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v9
 
-    check-cast v9, Lkik/android/f/d;
+    check-cast v9, Lkik/arcane/f/d;
 
     move-object/from16 v0, v34
 
     move-object/from16 v1, v35
 
-    invoke-direct {v0, v1, v9}, Lcom/kik/modules/em;-><init>(Landroid/content/Context;Lkik/android/f/d;)V
+    invoke-direct {v0, v1, v9}, Lcom/kik/modules/em;-><init>(Landroid/content/Context;Lkik/arcane/f/d;)V
 
     .line 9496
     new-instance v9, Lcom/kik/modules/m;
@@ -2782,7 +2782,7 @@
     .line 9498
     new-instance v35, Lcom/kik/modules/dc;
 
-    invoke-virtual/range {p0 .. p0}, Lkik/android/chat/KikApplication;->getResources()Landroid/content/res/Resources;
+    invoke-virtual/range {p0 .. p0}, Lkik/arcane/chat/KikApplication;->getResources()Landroid/content/res/Resources;
 
     move-result-object v36
 
@@ -2791,7 +2791,7 @@
     .line 9499
     new-instance v36, Lcom/kik/modules/dt;
 
-    invoke-virtual/range {p0 .. p0}, Lkik/android/chat/KikApplication;->getBaseContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Lkik/arcane/chat/KikApplication;->getBaseContext()Landroid/content/Context;
 
     move-result-object v37
 
@@ -2814,7 +2814,7 @@
     .line 9504
     new-instance v39, Lcom/kik/modules/bq;
 
-    invoke-virtual/range {p0 .. p0}, Lkik/android/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Lkik/arcane/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v40
 
@@ -2824,14 +2824,14 @@
 
     move-object/from16 v2, v16
 
-    invoke-direct {v0, v1, v2}, Lcom/kik/modules/bq;-><init>(Landroid/content/Context;Lkik/android/config/b;)V
+    invoke-direct {v0, v1, v2}, Lcom/kik/modules/bq;-><init>(Landroid/content/Context;Lkik/arcane/config/b;)V
 
     .line 9506
     new-instance v16, Lcom/kik/storage/aa;
 
     move-object/from16 v0, p0
 
-    iget-object v0, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v0, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     move-object/from16 v40, v0
 
@@ -2848,7 +2848,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v0, v0, Lkik/android/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
+    iget-object v0, v0, Lkik/arcane/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
 
     move-object/from16 v41, v0
 
@@ -2915,7 +2915,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v0, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v0, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     move-object/from16 v46, v0
 
@@ -2932,13 +2932,13 @@
 
     move-object/from16 v0, p0
 
-    iget-object v0, v0, Lkik/android/chat/KikApplication;->E:Lkik/core/interfaces/v;
+    iget-object v0, v0, Lkik/arcane/chat/KikApplication;->E:Lkik/core/interfaces/v;
 
     move-object/from16 v47, v0
 
     move-object/from16 v0, p0
 
-    iget-object v0, v0, Lkik/android/chat/KikApplication;->S:Lkik/core/interfaces/ag;
+    iget-object v0, v0, Lkik/arcane/chat/KikApplication;->S:Lkik/core/interfaces/ag;
 
     move-object/from16 v48, v0
 
@@ -2977,7 +2977,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v0, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v0, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     move-object/from16 v51, v0
 
@@ -3001,7 +3001,7 @@
     .line 9523
     new-instance v50, Lcom/kik/modules/da;
 
-    invoke-virtual/range {p0 .. p0}, Lkik/android/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Lkik/arcane/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v52
 
@@ -3044,7 +3044,7 @@
     .line 9532
     new-instance v55, Lcom/kik/modules/bo;
 
-    invoke-virtual/range {p0 .. p0}, Lkik/android/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Lkik/arcane/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v56
 
@@ -3102,7 +3102,7 @@
 
     move-object/from16 v0, v18
 
-    invoke-direct {v5, v0}, Lcom/kik/modules/ek;-><init>(Lkik/android/chat/b/a;)V
+    invoke-direct {v5, v0}, Lcom/kik/modules/ek;-><init>(Lkik/arcane/chat/b/a;)V
 
     .line 9540
     invoke-virtual {v4, v5}, Lcom/kik/components/c$a;->a(Lcom/kik/modules/ek;)Lcom/kik/components/c$a;
@@ -3435,45 +3435,45 @@
 
     move-object/from16 v0, p0
 
-    iput-object v4, v0, Lkik/android/chat/KikApplication;->U:Lcom/kik/components/CoreComponent;
+    iput-object v4, v0, Lkik/arcane/chat/KikApplication;->U:Lcom/kik/components/CoreComponent;
 
     .line 1250
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
 
-    check-cast v4, Lkik/android/net/communicator/a;
+    check-cast v4, Lkik/arcane/net/communicator/a;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->U:Lcom/kik/components/CoreComponent;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->U:Lcom/kik/components/CoreComponent;
 
-    invoke-virtual {v4, v5}, Lkik/android/net/communicator/a;->a(Lcom/kik/components/CoreComponent;)V
+    invoke-virtual {v4, v5}, Lkik/arcane/net/communicator/a;->a(Lcom/kik/components/CoreComponent;)V
 
     .line 1252
-    invoke-virtual/range {p0 .. p0}, Lkik/android/chat/KikApplication;->o()V
+    invoke-virtual/range {p0 .. p0}, Lkik/arcane/chat/KikApplication;->o()V
 
     .line 1254
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->U:Lcom/kik/components/CoreComponent;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->U:Lcom/kik/components/CoreComponent;
 
     move-object/from16 v0, p0
 
-    invoke-interface {v4, v0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/KikApplication;)V
+    invoke-interface {v4, v0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/KikApplication;)V
 
     .line 11604
-    invoke-static {}, Lkik/android/d/a;->a()Lkik/android/d/a$a;
+    invoke-static {}, Lkik/arcane/d/a;->a()Lkik/arcane/d/a$a;
 
     move-result-object v4
 
-    invoke-virtual {v4}, Lkik/android/d/a$a;->a()Lkik/android/d/c;
+    invoke-virtual {v4}, Lkik/arcane/d/a$a;->a()Lkik/arcane/d/c;
 
     move-result-object v4
 
     move-object/from16 v0, p0
 
-    iput-object v4, v0, Lkik/android/chat/KikApplication;->V:Lkik/android/d/c;
+    iput-object v4, v0, Lkik/arcane/chat/KikApplication;->V:Lkik/arcane/d/c;
 
     .line 1258
     const/4 v4, 0x0
@@ -3481,7 +3481,7 @@
     .line 1259
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->g:Lkik/core/interfaces/b;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->g:Lkik/core/interfaces/b;
 
     const-string v6, "android_cache_location"
 
@@ -3500,7 +3500,7 @@
     :cond_5
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     const-string v6, "system_cache_location"
 
@@ -3513,63 +3513,63 @@
     .line 1266
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->g:Lkik/core/interfaces/b;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->g:Lkik/core/interfaces/b;
 
     invoke-interface {v4, v5}, Lkik/core/interfaces/IConversation;->a(Lkik/core/interfaces/b;)V
 
     .line 1267
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v4}, Lkik/core/interfaces/IConversation;->E()V
 
     .line 1269
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->n:Lkik/android/chat/d;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->n:Lkik/arcane/chat/d;
 
     check-cast v4, Landroid/app/Application$ActivityLifecycleCallbacks;
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v4}, Lkik/android/chat/KikApplication;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
+    invoke-virtual {v0, v4}, Lkik/arcane/chat/KikApplication;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
 
     .line 1270
-    new-instance v4, Lkik/android/challenge/SafetyNetValidator;
+    new-instance v4, Lkik/arcane/challenge/SafetyNetValidator;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
 
     move-object/from16 v0, p0
 
-    invoke-direct {v4, v5, v0}, Lkik/android/challenge/SafetyNetValidator;-><init>(Lkik/core/interfaces/ICommunication;Landroid/content/Context;)V
+    invoke-direct {v4, v5, v0}, Lkik/arcane/challenge/SafetyNetValidator;-><init>(Lkik/core/interfaces/ICommunication;Landroid/content/Context;)V
 
     move-object/from16 v0, p0
 
-    iput-object v4, v0, Lkik/android/chat/KikApplication;->aD:Lkik/android/challenge/SafetyNetValidator;
+    iput-object v4, v0, Lkik/arcane/chat/KikApplication;->aD:Lkik/arcane/challenge/SafetyNetValidator;
 
     .line 1271
-    invoke-static {}, Lkik/android/internal/platform/PlatformHelper;->a()Lkik/android/internal/platform/PlatformHelper;
+    invoke-static {}, Lkik/arcane/internal/platform/PlatformHelper;->a()Lkik/arcane/internal/platform/PlatformHelper;
 
     move-result-object v4
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->P:Lcom/kik/storage/s;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->P:Lcom/kik/storage/s;
 
     move-object/from16 v0, p0
 
-    iget-object v7, v0, Lkik/android/chat/KikApplication;->R:Lkik/core/net/e;
+    iget-object v7, v0, Lkik/arcane/chat/KikApplication;->R:Lkik/core/net/e;
 
     invoke-virtual/range {p2 .. p2}, Lkik/core/a;->m()Lkik/core/interfaces/z;
 
@@ -3577,75 +3577,75 @@
 
     move-object/from16 v0, p0
 
-    iget-object v9, v0, Lkik/android/chat/KikApplication;->e:Lcom/kik/cache/KikVolleyImageLoader;
+    iget-object v9, v0, Lkik/arcane/chat/KikApplication;->e:Lcom/kik/cache/KikVolleyImageLoader;
 
     move-object/from16 v0, p0
 
-    iget-object v10, v0, Lkik/android/chat/KikApplication;->aL:Lkik/core/interfaces/s;
+    iget-object v10, v0, Lkik/arcane/chat/KikApplication;->aL:Lkik/core/interfaces/s;
 
     move-object/from16 v0, p0
 
-    iget-object v11, v0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iget-object v11, v0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
-    invoke-virtual/range {v4 .. v11}, Lkik/android/internal/platform/PlatformHelper;->a(Lkik/core/interfaces/ad;Lcom/kik/storage/s;Lkik/core/net/e;Lkik/core/interfaces/z;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/s;Lkik/android/util/aj;)V
+    invoke-virtual/range {v4 .. v11}, Lkik/arcane/internal/platform/PlatformHelper;->a(Lkik/core/interfaces/ad;Lcom/kik/storage/s;Lkik/core/net/e;Lkik/core/interfaces/z;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/s;Lkik/arcane/util/aj;)V
 
     .line 1273
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->T:Lkik/core/interfaces/IAddressBookIntegration;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->T:Lkik/core/interfaces/IAddressBookIntegration;
 
-    check-cast v4, Lkik/android/addressbook/a;
+    check-cast v4, Lkik/arcane/addressbook/a;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->g:Lkik/core/interfaces/b;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->g:Lkik/core/interfaces/b;
 
-    invoke-virtual {v4, v5}, Lkik/android/addressbook/a;->a(Lkik/core/interfaces/b;)V
+    invoke-virtual {v4, v5}, Lkik/arcane/addressbook/a;->a(Lkik/core/interfaces/b;)V
 
     .line 1274
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
 
-    check-cast v4, Lkik/android/net/communicator/a;
+    check-cast v4, Lkik/arcane/net/communicator/a;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
-    invoke-virtual {v4, v5}, Lkik/android/net/communicator/a;->a(Lcom/kik/android/Mixpanel;)V
+    invoke-virtual {v4, v5}, Lkik/arcane/net/communicator/a;->a(Lcom/kik/arcane/Mixpanel;)V
 
     .line 1275
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
 
-    check-cast v4, Lkik/android/net/communicator/a;
+    check-cast v4, Lkik/arcane/net/communicator/a;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->W:Lkik/core/ICoreEvents;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->W:Lkik/core/ICoreEvents;
 
-    invoke-virtual {v4, v5}, Lkik/android/net/communicator/a;->a(Lkik/core/ICoreEvents;)V
+    invoke-virtual {v4, v5}, Lkik/arcane/net/communicator/a;->a(Lkik/core/ICoreEvents;)V
 
     .line 1276
-    invoke-static {}, Lkik/android/video/f;->a()Lkik/android/video/f;
+    invoke-static {}, Lkik/arcane/video/f;->a()Lkik/arcane/video/f;
 
     move-result-object v4
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->U:Lcom/kik/components/CoreComponent;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->U:Lcom/kik/components/CoreComponent;
 
     .line 12059
-    invoke-interface {v5, v4}, Lcom/kik/components/CoreComponent;->a(Lkik/android/video/f;)V
+    invoke-interface {v5, v4}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/video/f;)V
 
     .line 1278
     new-instance v4, Landroid/os/Handler;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->H:Landroid/os/HandlerThread;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->H:Landroid/os/HandlerThread;
 
     invoke-virtual {v5}, Landroid/os/HandlerThread;->getLooper()Landroid/os/Looper;
 
@@ -3655,7 +3655,7 @@
 
     move-object/from16 v0, p0
 
-    iput-object v4, v0, Lkik/android/chat/KikApplication;->aB:Landroid/os/Handler;
+    iput-object v4, v0, Lkik/arcane/chat/KikApplication;->aB:Landroid/os/Handler;
 
     .line 1280
     if-eqz v14, :cond_6
@@ -3663,27 +3663,27 @@
     .line 1281
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->j:Lkik/android/videochat/c;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->j:Lkik/arcane/videochat/c;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->W:Lkik/core/ICoreEvents;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->W:Lkik/core/ICoreEvents;
 
     invoke-interface {v5}, Lkik/core/ICoreEvents;->e()Lcom/kik/events/c;
 
     move-result-object v5
 
-    invoke-interface {v4, v5}, Lkik/android/videochat/c;->a(Lcom/kik/events/c;)V
+    invoke-interface {v4, v5}, Lkik/arcane/videochat/c;->a(Lcom/kik/events/c;)V
 
     .line 12382
     :cond_6
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v5, "50% Core Setup Time"
 
-    sget-wide v6, Lkik/android/chat/KikApplication;->A:J
+    sget-wide v6, Lkik/arcane/chat/KikApplication;->A:J
 
     long-to-float v6, v6
 
@@ -3693,16 +3693,16 @@
 
     const/high16 v7, 0x3f000000    # 0.5f
 
-    invoke-virtual {v4, v5, v6, v7}, Lcom/kik/android/Mixpanel;->a(Ljava/lang/String;FF)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v4, v5, v6, v7}, Lcom/kik/arcane/Mixpanel;->a(Ljava/lang/String;FF)Lcom/kik/arcane/Mixpanel;
 
     .line 12383
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v5, "95% Core Setup Time"
 
-    sget-wide v6, Lkik/android/chat/KikApplication;->A:J
+    sget-wide v6, Lkik/arcane/chat/KikApplication;->A:J
 
     long-to-float v6, v6
 
@@ -3712,50 +3712,50 @@
 
     const v7, 0x3f733333    # 0.95f
 
-    invoke-virtual {v4, v5, v6, v7}, Lcom/kik/android/Mixpanel;->a(Ljava/lang/String;FF)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v4, v5, v6, v7}, Lcom/kik/arcane/Mixpanel;->a(Ljava/lang/String;FF)Lcom/kik/arcane/Mixpanel;
 
     .line 12385
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v5, "Received New People in Last 7 Days"
 
     const/4 v6, 0x0
 
-    invoke-virtual {v4, v5, v6}, Lcom/kik/android/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v4, v5, v6}, Lcom/kik/arcane/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/arcane/Mixpanel;
 
     .line 12387
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v5, "Messages Received in Last 7 Days"
 
     const/4 v6, 0x0
 
-    invoke-virtual {v4, v5, v6}, Lcom/kik/android/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v4, v5, v6}, Lcom/kik/arcane/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/arcane/Mixpanel;
 
     .line 12389
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v5, "Messaging Partners in Last 7 Days"
 
     const/4 v6, 0x0
 
-    invoke-virtual {v4, v5, v6}, Lcom/kik/android/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v4, v5, v6}, Lcom/kik/arcane/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/arcane/Mixpanel;
 
     .line 12391
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v6, "Is Using Large Text"
 
     .line 13376
-    invoke-virtual/range {p0 .. p0}, Lkik/android/chat/KikApplication;->getResources()Landroid/content/res/Resources;
+    invoke-virtual/range {p0 .. p0}, Lkik/arcane/chat/KikApplication;->getResources()Landroid/content/res/Resources;
 
     move-result-object v4
 
@@ -3776,18 +3776,18 @@
 
     .line 12391
     :goto_1
-    invoke-virtual {v5, v6, v4}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v5, v6, v4}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel;
 
     .line 12393
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v5, "Notify For New People"
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->S:Lkik/core/interfaces/ag;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->S:Lkik/core/interfaces/ag;
 
     invoke-interface {v6}, Lkik/core/interfaces/ag;->d()Lkik/core/datatypes/aa;
 
@@ -3795,102 +3795,102 @@
 
     iget-object v6, v6, Lkik/core/datatypes/aa;->h:Ljava/lang/Boolean;
 
-    invoke-virtual {v4, v5, v6}, Lcom/kik/android/Mixpanel;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v4, v5, v6}, Lcom/kik/arcane/Mixpanel;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel;
 
     .line 12394
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v5, "Chat List Size"
 
     const-wide/16 v6, 0x0
 
-    invoke-virtual {v4, v5, v6, v7}, Lcom/kik/android/Mixpanel;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v4, v5, v6, v7}, Lcom/kik/arcane/Mixpanel;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel;
 
     .line 12395
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v5, "New Chat List Size"
 
     const-wide/16 v6, 0x0
 
-    invoke-virtual {v4, v5, v6, v7}, Lcom/kik/android/Mixpanel;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v4, v5, v6, v7}, Lcom/kik/arcane/Mixpanel;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel;
 
     .line 12396
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v5, "Block List Size"
 
     const-wide/16 v6, 0x0
 
-    invoke-virtual {v4, v5, v6, v7}, Lcom/kik/android/Mixpanel;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v4, v5, v6, v7}, Lcom/kik/arcane/Mixpanel;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel;
 
     .line 12397
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v5, "Is Wear Installed"
 
-    invoke-static/range {p0 .. p0}, Lkik/android/h/c;->a(Landroid/content/Context;)Z
+    invoke-static/range {p0 .. p0}, Lkik/arcane/h/c;->a(Landroid/content/Context;)Z
 
     move-result v6
 
-    invoke-virtual {v4, v5, v6}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v4, v5, v6}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel;
 
     .line 12398
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v5, "Is Wear Installed"
 
-    invoke-static/range {p0 .. p0}, Lkik/android/h/c;->a(Landroid/content/Context;)Z
+    invoke-static/range {p0 .. p0}, Lkik/arcane/h/c;->a(Landroid/content/Context;)Z
 
     move-result v6
 
-    invoke-virtual {v4, v5, v6}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v4, v5, v6}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel;
 
     .line 12399
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v5, "Bubble Colour"
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->c:Lkik/android/chat/theming/ChatBubbleManager;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->c:Lkik/arcane/chat/theming/ChatBubbleManager;
 
-    invoke-virtual {v6}, Lkik/android/chat/theming/ChatBubbleManager;->c()Lkik/android/chat/theming/BubbleDescriptor;
-
-    move-result-object v6
-
-    invoke-virtual {v6}, Lkik/android/chat/theming/BubbleDescriptor;->e()Ljava/lang/String;
+    invoke-virtual {v6}, Lkik/arcane/chat/theming/ChatBubbleManager;->c()Lkik/arcane/chat/theming/BubbleDescriptor;
 
     move-result-object v6
 
-    invoke-virtual {v4, v5, v6}, Lcom/kik/android/Mixpanel;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v6}, Lkik/arcane/chat/theming/BubbleDescriptor;->e()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v4, v5, v6}, Lcom/kik/arcane/Mixpanel;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel;
 
     .line 12400
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->T:Lkik/core/interfaces/IAddressBookIntegration;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->T:Lkik/core/interfaces/IAddressBookIntegration;
 
     invoke-interface {v4}, Lkik/core/interfaces/IAddressBookIntegration;->c()Lcom/kik/events/Promise;
 
     move-result-object v4
 
-    new-instance v5, Lkik/android/chat/KikApplication$20;
+    new-instance v5, Lkik/arcane/chat/KikApplication$20;
 
     move-object/from16 v0, p0
 
-    invoke-direct {v5, v0}, Lkik/android/chat/KikApplication$20;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v5, v0}, Lkik/arcane/chat/KikApplication$20;-><init>(Lkik/arcane/chat/KikApplication;)V
 
     invoke-virtual {v4, v5}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -3904,14 +3904,14 @@
     .line 12411
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v6, "OS Architecture"
 
     if-eqz v4, :cond_f
 
     :goto_2
-    invoke-virtual {v5, v6, v4}, Lcom/kik/android/Mixpanel;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v5, v6, v4}, Lcom/kik/arcane/Mixpanel;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel;
 
     .line 12413
     new-instance v4, Lcom/kik/events/Promise;
@@ -3920,23 +3920,23 @@
 
     move-object/from16 v0, p0
 
-    iput-object v4, v0, Lkik/android/chat/KikApplication;->aE:Lcom/kik/events/Promise;
+    iput-object v4, v0, Lkik/arcane/chat/KikApplication;->aE:Lcom/kik/events/Promise;
 
     .line 12415
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v5, "App Opened"
 
-    invoke-virtual {v4, v5}, Lcom/kik/android/Mixpanel;->a(Ljava/lang/String;)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v4, v5}, Lcom/kik/arcane/Mixpanel;->a(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel;
 
     .line 12418
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
-    invoke-virtual {v4}, Lkik/android/util/bp;->c()Landroid/content/SharedPreferences;
+    invoke-virtual {v4}, Lkik/arcane/util/bp;->c()Landroid/content/SharedPreferences;
 
     move-result-object v4
 
@@ -3955,11 +3955,11 @@
     .line 12421
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v7, "Install Referrer"
 
-    invoke-virtual {v6, v7, v5}, Lcom/kik/android/Mixpanel;->f(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v6, v7, v5}, Lcom/kik/arcane/Mixpanel;->f(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/arcane/Mixpanel;
 
     .line 12423
     :cond_7
@@ -3981,17 +3981,17 @@
     .line 12425
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v8, "Install Date"
 
-    invoke-virtual {v5, v8, v6, v7}, Lcom/kik/android/Mixpanel;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v5, v8, v6, v7}, Lcom/kik/arcane/Mixpanel;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel;
 
     .line 12427
     :cond_8
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v6, "Registrations Since Install"
 
@@ -4005,12 +4005,12 @@
     move-result v7
 
     .line 12427
-    invoke-virtual {v5, v6, v7}, Lcom/kik/android/Mixpanel;->a(Ljava/lang/String;I)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v5, v6, v7}, Lcom/kik/arcane/Mixpanel;->a(Ljava/lang/String;I)Lcom/kik/arcane/Mixpanel;
 
     .line 12429
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v6, "Logins Since Install"
 
@@ -4024,78 +4024,78 @@
     move-result v4
 
     .line 12429
-    invoke-virtual {v5, v6, v4}, Lcom/kik/android/Mixpanel;->a(Ljava/lang/String;I)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v5, v6, v4}, Lcom/kik/arcane/Mixpanel;->a(Ljava/lang/String;I)Lcom/kik/arcane/Mixpanel;
 
     .line 12432
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->aE:Lcom/kik/events/Promise;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->aE:Lcom/kik/events/Promise;
 
-    new-instance v5, Lkik/android/chat/KikApplication$21;
+    new-instance v5, Lkik/arcane/chat/KikApplication$21;
 
     move-object/from16 v0, p0
 
-    invoke-direct {v5, v0}, Lkik/android/chat/KikApplication$21;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v5, v0}, Lkik/arcane/chat/KikApplication$21;-><init>(Lkik/arcane/chat/KikApplication;)V
 
     invoke-virtual {v4, v5}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
     .line 1289
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->W:Lkik/core/ICoreEvents;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->W:Lkik/core/ICoreEvents;
 
-    invoke-static {v4, v5, v6}, Lkik/android/widget/bx;->a(Lkik/android/util/aj;Lcom/kik/android/Mixpanel;Lkik/core/ICoreEvents;)V
+    invoke-static {v4, v5, v6}, Lkik/arcane/widget/bx;->a(Lkik/arcane/util/aj;Lcom/kik/arcane/Mixpanel;Lkik/core/ICoreEvents;)V
 
     .line 1290
-    invoke-static/range {p1 .. p1}, Lkik/android/util/bu;->a(Landroid/content/Context;)V
+    invoke-static/range {p1 .. p1}, Lkik/arcane/util/bu;->a(Landroid/content/Context;)V
 
     .line 1292
-    sget-object v4, Lkik/android/chat/KikApplication;->x:Lkik/android/KikNotificationHandler;
+    sget-object v4, Lkik/arcane/chat/KikApplication;->x:Lkik/arcane/KikNotificationHandler;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->S:Lkik/core/interfaces/ag;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->S:Lkik/core/interfaces/ag;
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     move-object/from16 v0, p0
 
-    iget-object v7, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v7, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     move-object/from16 v0, p0
 
-    iget-object v8, v0, Lkik/android/chat/KikApplication;->U:Lcom/kik/components/CoreComponent;
+    iget-object v8, v0, Lkik/arcane/chat/KikApplication;->U:Lcom/kik/components/CoreComponent;
 
-    invoke-virtual {v4, v5, v6, v7, v8}, Lkik/android/KikNotificationHandler;->a(Lkik/core/interfaces/ag;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/ad;Lcom/kik/components/CoreComponent;)V
+    invoke-virtual {v4, v5, v6, v7, v8}, Lkik/arcane/KikNotificationHandler;->a(Lkik/core/interfaces/ag;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/ad;Lcom/kik/components/CoreComponent;)V
 
     .line 1293
-    new-instance v4, Lkik/android/util/at;
+    new-instance v4, Lkik/arcane/util/at;
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     move-object/from16 v0, p0
 
-    iget-object v7, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v7, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     move-object/from16 v0, p0
 
-    iget-object v8, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v8, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     move-object/from16 v0, p0
 
-    iget-object v9, v0, Lkik/android/chat/KikApplication;->R:Lkik/core/net/e;
+    iget-object v9, v0, Lkik/arcane/chat/KikApplication;->R:Lkik/core/net/e;
 
     invoke-virtual/range {p2 .. p2}, Lkik/core/a;->m()Lkik/core/interfaces/z;
 
@@ -4103,24 +4103,24 @@
 
     move-object/from16 v0, p0
 
-    iget-object v12, v0, Lkik/android/chat/KikApplication;->W:Lkik/core/ICoreEvents;
+    iget-object v12, v0, Lkik/arcane/chat/KikApplication;->W:Lkik/core/ICoreEvents;
 
     move-object/from16 v5, p0
 
     move-object/from16 v10, v17
 
-    invoke-direct/range {v4 .. v12}, Lkik/android/util/at;-><init>(Landroid/content/Context;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/ad;Lcom/kik/android/Mixpanel;Lkik/core/net/e;Lkik/core/interfaces/n;Lkik/core/interfaces/z;Lkik/core/ICoreEvents;)V
+    invoke-direct/range {v4 .. v12}, Lkik/arcane/util/at;-><init>(Landroid/content/Context;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/ad;Lcom/kik/arcane/Mixpanel;Lkik/core/net/e;Lkik/core/interfaces/n;Lkik/core/interfaces/z;Lkik/core/ICoreEvents;)V
 
     move-object/from16 v0, p0
 
-    iput-object v4, v0, Lkik/android/chat/KikApplication;->aw:Lkik/android/util/at;
+    iput-object v4, v0, Lkik/arcane/chat/KikApplication;->aw:Lkik/arcane/util/at;
 
     .line 1295
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->ax:Lkik/android/a/b;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->ax:Lkik/arcane/a/b;
 
-    invoke-virtual {v4}, Lkik/android/a/b;->c()Lcom/kik/clientmetrics/f;
+    invoke-virtual {v4}, Lkik/arcane/a/b;->c()Lcom/kik/clientmetrics/f;
 
     move-result-object v4
 
@@ -4131,16 +4131,16 @@
     .line 1296
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->ax:Lkik/android/a/b;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->ax:Lkik/arcane/a/b;
 
-    invoke-virtual {v4}, Lkik/android/a/b;->c()Lcom/kik/clientmetrics/f;
+    invoke-virtual {v4}, Lkik/arcane/a/b;->c()Lcom/kik/clientmetrics/f;
 
     move-result-object v4
 
     .line 13916
-    sget-object v5, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v5, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
-    invoke-direct {v5}, Lkik/android/chat/KikApplication;->F()Ljava/lang/String;
+    invoke-direct {v5}, Lkik/arcane/chat/KikApplication;->F()Ljava/lang/String;
 
     move-result-object v5
 
@@ -4150,25 +4150,25 @@
     .line 1297
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->ax:Lkik/android/a/b;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->ax:Lkik/arcane/a/b;
 
-    invoke-virtual {v4}, Lkik/android/a/b;->c()Lcom/kik/clientmetrics/f;
+    invoke-virtual {v4}, Lkik/arcane/a/b;->c()Lcom/kik/clientmetrics/f;
 
     move-result-object v4
 
-    invoke-static/range {p0 .. p0}, Lkik/android/util/DeviceUtils;->b(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static/range {p0 .. p0}, Lkik/arcane/util/DeviceUtils;->b(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v5
 
     invoke-virtual {v4, v5}, Lcom/kik/clientmetrics/f;->e(Ljava/lang/String;)V
 
     .line 14614
-    invoke-static {}, Lkik/android/config/c;->c()Lkik/android/config/b;
+    invoke-static {}, Lkik/arcane/config/c;->c()Lkik/arcane/config/b;
 
     move-result-object v11
 
     .line 14616
-    new-instance v4, Lkik/android/config/a;
+    new-instance v4, Lkik/arcane/config/a;
 
     const-string v5, "content-preload"
 
@@ -4178,14 +4178,14 @@
 
     move-object/from16 v0, p0
 
-    iget-object v8, v0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iget-object v8, v0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
-    invoke-direct {v4, v5, v6, v7, v8}, Lkik/android/config/a;-><init>(Ljava/lang/String;ZLjava/lang/Runnable;Lkik/android/util/aj;)V
+    invoke-direct {v4, v5, v6, v7, v8}, Lkik/arcane/config/a;-><init>(Ljava/lang/String;ZLjava/lang/Runnable;Lkik/arcane/util/aj;)V
 
-    invoke-interface {v11, v4}, Lkik/android/config/b;->a(Lkik/android/config/Configuration;)Z
+    invoke-interface {v11, v4}, Lkik/arcane/config/b;->a(Lkik/arcane/config/Configuration;)Z
 
     .line 14617
-    new-instance v4, Lkik/android/config/a;
+    new-instance v4, Lkik/arcane/config/a;
 
     const-string v5, "group-size-fifty-members"
 
@@ -4195,14 +4195,14 @@
 
     move-object/from16 v0, p0
 
-    iget-object v8, v0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iget-object v8, v0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
-    invoke-direct {v4, v5, v6, v7, v8}, Lkik/android/config/a;-><init>(Ljava/lang/String;ZLjava/lang/Runnable;Lkik/android/util/aj;)V
+    invoke-direct {v4, v5, v6, v7, v8}, Lkik/arcane/config/a;-><init>(Ljava/lang/String;ZLjava/lang/Runnable;Lkik/arcane/util/aj;)V
 
-    invoke-interface {v11, v4}, Lkik/android/config/b;->a(Lkik/android/config/Configuration;)Z
+    invoke-interface {v11, v4}, Lkik/arcane/config/b;->a(Lkik/arcane/config/Configuration;)Z
 
     .line 14618
-    new-instance v4, Lkik/android/chat/KikApplication$22;
+    new-instance v4, Lkik/arcane/chat/KikApplication$22;
 
     const-string v6, "force-roster-update"
 
@@ -4238,27 +4238,27 @@
 
     move-object/from16 v0, p0
 
-    iget-object v9, v0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iget-object v9, v0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
     move-object/from16 v5, p0
 
     move-object/from16 v10, p1
 
-    invoke-direct/range {v4 .. v10}, Lkik/android/chat/KikApplication$22;-><init>(Lkik/android/chat/KikApplication;Ljava/lang/String;Ljava/lang/Boolean;[Ljava/lang/Boolean;Lkik/android/util/aj;Landroid/content/Context;)V
+    invoke-direct/range {v4 .. v10}, Lkik/arcane/chat/KikApplication$22;-><init>(Lkik/arcane/chat/KikApplication;Ljava/lang/String;Ljava/lang/Boolean;[Ljava/lang/Boolean;Lkik/arcane/util/aj;Landroid/content/Context;)V
 
-    invoke-interface {v11, v4}, Lkik/android/config/b;->a(Lkik/android/config/Configuration;)Z
+    invoke-interface {v11, v4}, Lkik/arcane/config/b;->a(Lkik/arcane/config/Configuration;)Z
 
     .line 14659
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v4}, Lkik/core/interfaces/IConversation;->C()V
 
     .line 1301
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     invoke-static {v4}, Lkik/core/z;->b(Lkik/core/interfaces/ad;)Lkik/core/z;
 
@@ -4279,9 +4279,9 @@
     .line 1304
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->ax:Lkik/android/a/b;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->ax:Lkik/arcane/a/b;
 
-    invoke-virtual {v5}, Lkik/android/a/b;->c()Lcom/kik/clientmetrics/f;
+    invoke-virtual {v5}, Lkik/arcane/a/b;->c()Lcom/kik/clientmetrics/f;
 
     move-result-object v5
 
@@ -4290,17 +4290,17 @@
     .line 1305
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->ax:Lkik/android/a/b;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->ax:Lkik/arcane/a/b;
 
-    invoke-virtual {v4}, Lkik/android/a/b;->a()V
+    invoke-virtual {v4}, Lkik/arcane/a/b;->a()V
 
     .line 15099
     :cond_9
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
-    invoke-virtual {v4}, Lkik/android/util/bp;->c()Landroid/content/SharedPreferences;
+    invoke-virtual {v4}, Lkik/arcane/util/bp;->c()Landroid/content/SharedPreferences;
 
     move-result-object v5
 
@@ -4354,12 +4354,12 @@
     if-eqz v4, :cond_b
 
     .line 16041
-    sget-object v4, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v4, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
-    iget-object v4, v4, Lkik/android/chat/KikApplication;->ax:Lkik/android/a/b;
+    iget-object v4, v4, Lkik/arcane/chat/KikApplication;->ax:Lkik/arcane/a/b;
 
     .line 15120
-    invoke-virtual {v4}, Lkik/android/a/b;->c()Lcom/kik/clientmetrics/f;
+    invoke-virtual {v4}, Lkik/arcane/a/b;->c()Lcom/kik/clientmetrics/f;
 
     move-result-object v4
 
@@ -4373,18 +4373,18 @@
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     move-object/from16 v0, p1
 
     invoke-virtual {v4, v0, v5, v6}, Lcom/kik/cards/web/iap/b;->a(Landroid/content/Context;Lkik/core/interfaces/ICommunication;Lkik/core/interfaces/ad;)V
 
     .line 1312
-    new-instance v4, Lkik/android/b/a;
+    new-instance v4, Lkik/arcane/b/a;
 
     invoke-virtual/range {p2 .. p2}, Lkik/core/a;->z()Lkik/core/e/d;
 
@@ -4392,26 +4392,26 @@
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     invoke-virtual/range {p2 .. p2}, Lkik/core/a;->x()Lkik/core/d/b;
 
     move-result-object v7
 
-    invoke-direct {v4, v5, v6, v7}, Lkik/android/b/a;-><init>(Lkik/core/e/d;Lkik/core/interfaces/ad;Lkik/core/d/b;)V
+    invoke-direct {v4, v5, v6, v7}, Lkik/arcane/b/a;-><init>(Lkik/core/e/d;Lkik/core/interfaces/ad;Lkik/core/d/b;)V
 
     move-object/from16 v0, p0
 
-    iput-object v4, v0, Lkik/android/chat/KikApplication;->az:Lkik/android/b/a;
+    iput-object v4, v0, Lkik/arcane/chat/KikApplication;->az:Lkik/arcane/b/a;
 
     .line 1314
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->B:Lcom/kik/events/d;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->B:Lcom/kik/events/d;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
 
     invoke-interface {v5}, Lkik/core/interfaces/ICommunication;->d()Lcom/kik/events/c;
 
@@ -4419,18 +4419,18 @@
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->aM:Lcom/kik/events/e;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->aM:Lcom/kik/events/e;
 
     invoke-virtual {v4, v5, v6}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 1315
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->B:Lcom/kik/events/d;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->B:Lcom/kik/events/d;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v5}, Lkik/core/interfaces/IConversation;->v()Lcom/kik/events/c;
 
@@ -4438,18 +4438,18 @@
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->aP:Lcom/kik/events/e;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->aP:Lcom/kik/events/e;
 
     invoke-virtual {v4, v5, v6}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 1316
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->B:Lcom/kik/events/d;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->B:Lcom/kik/events/d;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v5}, Lkik/core/interfaces/IConversation;->w()Lcom/kik/events/c;
 
@@ -4457,18 +4457,18 @@
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->aQ:Lcom/kik/events/e;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->aQ:Lcom/kik/events/e;
 
     invoke-virtual {v4, v5, v6}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 1317
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->B:Lcom/kik/events/d;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->B:Lcom/kik/events/d;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v5}, Lkik/core/interfaces/IConversation;->x()Lcom/kik/events/c;
 
@@ -4476,18 +4476,18 @@
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->aS:Lcom/kik/events/e;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->aS:Lcom/kik/events/e;
 
     invoke-virtual {v4, v5, v6}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 1318
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->B:Lcom/kik/events/d;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->B:Lcom/kik/events/d;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v5}, Lkik/core/interfaces/IConversation;->y()Lcom/kik/events/c;
 
@@ -4495,18 +4495,18 @@
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->aR:Lcom/kik/events/e;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->aR:Lcom/kik/events/e;
 
     invoke-virtual {v4, v5, v6}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 1319
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->B:Lcom/kik/events/d;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->B:Lcom/kik/events/d;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v5}, Lkik/core/interfaces/IConversation;->a()Lcom/kik/events/c;
 
@@ -4514,18 +4514,18 @@
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->aO:Lcom/kik/events/e;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->aO:Lcom/kik/events/e;
 
     invoke-virtual {v4, v5, v6}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 1320
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->B:Lcom/kik/events/d;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->B:Lcom/kik/events/d;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->E:Lkik/core/interfaces/v;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->E:Lkik/core/interfaces/v;
 
     invoke-interface {v5}, Lkik/core/interfaces/v;->a()Lcom/kik/events/c;
 
@@ -4533,18 +4533,18 @@
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->bd:Lcom/kik/events/e;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->bd:Lcom/kik/events/e;
 
     invoke-virtual {v4, v5, v6}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 1321
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->B:Lcom/kik/events/d;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->B:Lcom/kik/events/d;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->E:Lkik/core/interfaces/v;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->E:Lkik/core/interfaces/v;
 
     invoke-interface {v5}, Lkik/core/interfaces/v;->b()Lcom/kik/events/c;
 
@@ -4552,18 +4552,18 @@
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->be:Lcom/kik/events/e;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->be:Lcom/kik/events/e;
 
     invoke-virtual {v4, v5, v6}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 1322
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->B:Lcom/kik/events/d;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->B:Lcom/kik/events/d;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->S:Lkik/core/interfaces/ag;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->S:Lkik/core/interfaces/ag;
 
     invoke-interface {v5}, Lkik/core/interfaces/ag;->b()Lcom/kik/events/c;
 
@@ -4571,18 +4571,18 @@
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->bf:Lcom/kik/events/e;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->bf:Lcom/kik/events/e;
 
     invoke-virtual {v4, v5, v6}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 1323
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->B:Lcom/kik/events/d;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->B:Lcom/kik/events/d;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v5}, Lkik/core/interfaces/IConversation;->e()Lcom/kik/events/c;
 
@@ -4590,18 +4590,18 @@
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->aU:Lcom/kik/events/e;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->aU:Lcom/kik/events/e;
 
     invoke-virtual {v4, v5, v6}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 1324
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->B:Lcom/kik/events/d;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->B:Lcom/kik/events/d;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v5}, Lkik/core/interfaces/IConversation;->g()Lcom/kik/events/c;
 
@@ -4609,18 +4609,18 @@
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->aT:Lcom/kik/events/e;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->aT:Lcom/kik/events/e;
 
     invoke-virtual {v4, v5, v6}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 1325
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->B:Lcom/kik/events/d;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->B:Lcom/kik/events/d;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v5}, Lkik/core/interfaces/IConversation;->l()Lcom/kik/events/c;
 
@@ -4628,18 +4628,18 @@
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->aV:Lcom/kik/events/e;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->aV:Lcom/kik/events/e;
 
     invoke-virtual {v4, v5, v6}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 1326
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->B:Lcom/kik/events/d;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->B:Lcom/kik/events/d;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->W:Lkik/core/ICoreEvents;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->W:Lkik/core/ICoreEvents;
 
     invoke-interface {v5}, Lkik/core/ICoreEvents;->a()Lcom/kik/events/c;
 
@@ -4647,18 +4647,18 @@
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->aW:Lcom/kik/events/e;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->aW:Lcom/kik/events/e;
 
     invoke-virtual {v4, v5, v6}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 1327
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->B:Lcom/kik/events/d;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->B:Lcom/kik/events/d;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->S:Lkik/core/interfaces/ag;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->S:Lkik/core/interfaces/ag;
 
     invoke-interface {v5}, Lkik/core/interfaces/ag;->a()Lcom/kik/events/c;
 
@@ -4666,18 +4666,18 @@
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->aY:Lcom/kik/events/e;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->aY:Lcom/kik/events/e;
 
     invoke-virtual {v4, v5, v6}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 1328
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->B:Lcom/kik/events/d;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->B:Lcom/kik/events/d;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
 
     invoke-interface {v5}, Lkik/core/interfaces/ICommunication;->b()Lcom/kik/events/c;
 
@@ -4685,33 +4685,33 @@
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->aZ:Lcom/kik/events/e;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->aZ:Lcom/kik/events/e;
 
     invoke-virtual {v4, v5, v6}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 1329
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->B:Lcom/kik/events/d;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->B:Lcom/kik/events/d;
 
-    invoke-static {}, Lkik/android/util/q;->b()Lcom/kik/events/c;
+    invoke-static {}, Lkik/arcane/util/q;->b()Lcom/kik/events/c;
 
     move-result-object v5
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->ba:Lcom/kik/events/e;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->ba:Lcom/kik/events/e;
 
     invoke-virtual {v4, v5, v6}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 1330
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->B:Lcom/kik/events/d;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->B:Lcom/kik/events/d;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->T:Lkik/core/interfaces/IAddressBookIntegration;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->T:Lkik/core/interfaces/IAddressBookIntegration;
 
     invoke-interface {v5}, Lkik/core/interfaces/IAddressBookIntegration;->h()Lcom/kik/events/c;
 
@@ -4719,33 +4719,33 @@
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->bc:Lcom/kik/events/e;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->bc:Lcom/kik/events/e;
 
     invoke-virtual {v4, v5, v6}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 1331
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->B:Lcom/kik/events/d;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->B:Lcom/kik/events/d;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->j:Lkik/android/videochat/c;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->j:Lkik/arcane/videochat/c;
 
-    invoke-interface {v5}, Lkik/android/videochat/c;->b()Lcom/kik/events/c;
+    invoke-interface {v5}, Lkik/arcane/videochat/c;->b()Lcom/kik/events/c;
 
     move-result-object v5
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->bb:Lcom/kik/events/e;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->bb:Lcom/kik/events/e;
 
     invoke-virtual {v4, v5, v6}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 1333
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->S:Lkik/core/interfaces/ag;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->S:Lkik/core/interfaces/ag;
 
     invoke-interface {v4}, Lkik/core/interfaces/ag;->h()Lcom/kik/events/Promise;
 
@@ -4753,35 +4753,35 @@
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->bh:Lcom/kik/events/k;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->bh:Lcom/kik/events/k;
 
     invoke-virtual {v4, v5}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
     .line 1335
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->d:Lkik/android/util/SponsoredUsersManager;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->d:Lkik/arcane/util/SponsoredUsersManager;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->E:Lkik/core/interfaces/v;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->E:Lkik/core/interfaces/v;
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
-    invoke-virtual {v4, v5, v6}, Lkik/android/util/SponsoredUsersManager;->a(Lkik/core/interfaces/v;Lcom/kik/android/Mixpanel;)V
+    invoke-virtual {v4, v5, v6}, Lkik/arcane/util/SponsoredUsersManager;->a(Lkik/core/interfaces/v;Lcom/kik/arcane/Mixpanel;)V
 
     .line 1337
     invoke-virtual/range {p2 .. p2}, Lkik/core/a;->f()Lcom/kik/events/Promise;
 
     move-result-object v4
 
-    new-instance v5, Lkik/android/chat/KikApplication$19;
+    new-instance v5, Lkik/arcane/chat/KikApplication$19;
 
     move-object/from16 v0, p0
 
-    invoke-direct {v5, v0}, Lkik/android/chat/KikApplication$19;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v5, v0}, Lkik/arcane/chat/KikApplication$19;-><init>(Lkik/arcane/chat/KikApplication;)V
 
     invoke-virtual {v4, v5}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -4792,33 +4792,33 @@
 
     move-object/from16 v0, p0
 
-    iput-object v4, v0, Lkik/android/chat/KikApplication;->aA:Lcom/kik/events/GlobalPromiseCache;
+    iput-object v4, v0, Lkik/arcane/chat/KikApplication;->aA:Lcom/kik/events/GlobalPromiseCache;
 
     .line 1347
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->P:Lcom/kik/storage/s;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->P:Lcom/kik/storage/s;
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->aK:Lkik/android/util/bp;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->aK:Lkik/arcane/util/bp;
 
     move-object/from16 v0, p0
 
-    invoke-static {v0, v4, v5, v6}, Lkik/android/util/d;->a(Landroid/app/Application;Lkik/core/interfaces/ad;Lcom/kik/storage/s;Lkik/android/util/aj;)V
+    invoke-static {v0, v4, v5, v6}, Lkik/arcane/util/d;->a(Landroid/app/Application;Lkik/core/interfaces/ad;Lcom/kik/storage/s;Lkik/arcane/util/aj;)V
 
     .line 1348
-    invoke-static/range {p0 .. p0}, Lkik/android/HeadphoneUnpluggedReceiver;->a(Landroid/content/Context;)V
+    invoke-static/range {p0 .. p0}, Lkik/arcane/HeadphoneUnpluggedReceiver;->a(Landroid/content/Context;)V
 
     .line 1349
     invoke-static/range {p0 .. p0}, Lkik/core/manager/n;->a(Landroid/content/Context;)V
 
     .line 1350
-    invoke-direct/range {p0 .. p0}, Lkik/android/chat/KikApplication;->J()Z
+    invoke-direct/range {p0 .. p0}, Lkik/arcane/chat/KikApplication;->J()Z
 
     move-result v4
 
@@ -4827,21 +4827,21 @@
     .line 16277
     move-object/from16 v0, p0
 
-    iget v4, v0, Lkik/android/chat/KikApplication;->ad:I
+    iget v4, v0, Lkik/arcane/chat/KikApplication;->ad:I
 
-    invoke-static {v4}, Lkik/android/widget/bx;->a(I)V
+    invoke-static {v4}, Lkik/arcane/widget/bx;->a(I)V
 
     .line 16280
     move-object/from16 v0, p0
 
-    iget v4, v0, Lkik/android/chat/KikApplication;->ad:I
+    iget v4, v0, Lkik/arcane/chat/KikApplication;->ad:I
 
     if-nez v4, :cond_10
 
     .line 16399
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     const-string v5, "kik.led.color"
 
@@ -4854,7 +4854,7 @@
 	.line 16400
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     const-string v5, "kik.led.color"
 
@@ -4865,7 +4865,7 @@
 	.line 16401
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     const-string v5, "kinky.groupbio"
 
@@ -4876,7 +4876,7 @@
 	.line 16402
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     const-string v5, "kinky.incomingtext"
 
@@ -4887,7 +4887,7 @@
     .line 16403
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     const-string v5, "kinky.receipt"
 
@@ -4898,7 +4898,7 @@
     .line 16404
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     const-string v5, "kik.vibrate"
 
@@ -4913,7 +4913,7 @@
     .line 16405
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     const-string v5, "kik.sound"
 
@@ -4928,7 +4928,7 @@
     .line 16406
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     const-string v5, "kik.developer.mode"
 
@@ -4943,7 +4943,7 @@
     .line 16407
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     const-string v5, "kik.new.people.notify"
 
@@ -4958,13 +4958,13 @@
     .line 16408
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     const-string v5, "kik.chat.video.prefetch"
 
     const v6, 0x7f0904e1
 
-    invoke-static {v6}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v6}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v6
 
@@ -4973,13 +4973,13 @@
     .line 16409
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     const-string v5, "kik.chat.video.autoplay"
 
     const v6, 0x7f0904e0
 
-    invoke-static {v6}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v6}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v6
 
@@ -4990,7 +4990,7 @@
     :goto_3
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     invoke-static {v4}, Lkik/core/z;->a(Lkik/core/interfaces/ad;)Z
 
@@ -4999,7 +4999,7 @@
     if-eqz v4, :cond_d
 
     .line 1355
-    invoke-direct/range {p0 .. p0}, Lkik/android/chat/KikApplication;->C()V
+    invoke-direct/range {p0 .. p0}, Lkik/arcane/chat/KikApplication;->C()V
 
     .line 1357
     :cond_d
@@ -5021,11 +5021,11 @@
     :cond_10
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     move-object/from16 v0, p0
 
-    iget v5, v0, Lkik/android/chat/KikApplication;->ad:I
+    iget v5, v0, Lkik/arcane/chat/KikApplication;->ad:I
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -5036,7 +5036,7 @@
     .line 16289
     move-object/from16 v0, p0
 
-    iget v4, v0, Lkik/android/chat/KikApplication;->ad:I
+    iget v4, v0, Lkik/arcane/chat/KikApplication;->ad:I
 
     const/16 v5, 0xb
 
@@ -5045,11 +5045,11 @@
     .line 16292
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->S:Lkik/core/interfaces/ag;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->S:Lkik/core/interfaces/ag;
 
     invoke-interface {v5}, Lkik/core/interfaces/ag;->d()Lkik/core/datatypes/aa;
 
@@ -5060,7 +5060,7 @@
     .line 16293
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v4}, Lkik/core/interfaces/IConversation;->L()V
 
@@ -5068,7 +5068,7 @@
     :cond_11
     move-object/from16 v0, p0
 
-    iget v4, v0, Lkik/android/chat/KikApplication;->ad:I
+    iget v4, v0, Lkik/arcane/chat/KikApplication;->ad:I
 
     const/16 v5, 0x29
 
@@ -5077,7 +5077,7 @@
     .line 16298
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->T:Lkik/core/interfaces/IAddressBookIntegration;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->T:Lkik/core/interfaces/IAddressBookIntegration;
 
     invoke-interface {v4}, Lkik/core/interfaces/IAddressBookIntegration;->b()Z
 
@@ -5088,7 +5088,7 @@
     .line 16299
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->T:Lkik/core/interfaces/IAddressBookIntegration;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->T:Lkik/core/interfaces/IAddressBookIntegration;
 
     const-string v5, "differential"
 
@@ -5098,7 +5098,7 @@
     :cond_12
     move-object/from16 v0, p0
 
-    iget v4, v0, Lkik/android/chat/KikApplication;->ad:I
+    iget v4, v0, Lkik/arcane/chat/KikApplication;->ad:I
 
     const/16 v5, 0x30
 
@@ -5107,7 +5107,7 @@
     .line 16305
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     .line 17081
     new-instance v6, Ljava/lang/Boolean;
@@ -5153,7 +5153,7 @@
     .line 16306
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->S:Lkik/core/interfaces/ag;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->S:Lkik/core/interfaces/ag;
 
     const-string v6, "Legacy Upgrade"
 
@@ -5167,7 +5167,7 @@
     .line 16308
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
 
     .line 16309
     if-eqz v6, :cond_13
@@ -5177,11 +5177,11 @@
 
     move-result-object v7
 
-    new-instance v8, Lkik/android/chat/KikApplication$28;
+    new-instance v8, Lkik/arcane/chat/KikApplication$28;
 
     move-object/from16 v0, p0
 
-    invoke-direct {v8, v0, v5, v6, v4}, Lkik/android/chat/KikApplication$28;-><init>(Lkik/android/chat/KikApplication;Lcom/kik/events/d;Lkik/core/interfaces/ICommunication;Lkik/core/datatypes/aa;)V
+    invoke-direct {v8, v0, v5, v6, v4}, Lkik/arcane/chat/KikApplication$28;-><init>(Lkik/arcane/chat/KikApplication;Lcom/kik/events/d;Lkik/core/interfaces/ICommunication;Lkik/core/datatypes/aa;)V
 
     invoke-virtual {v5, v7, v8}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
@@ -5189,7 +5189,7 @@
     :cond_13
     move-object/from16 v0, p0
 
-    iget v4, v0, Lkik/android/chat/KikApplication;->ad:I
+    iget v4, v0, Lkik/arcane/chat/KikApplication;->ad:I
 
     const/16 v5, 0x65
 
@@ -5197,24 +5197,24 @@
 
     .line 16326
     :try_start_0
-    new-instance v4, Lkik/android/b/h;
+    new-instance v4, Lkik/arcane/b/h;
 
-    invoke-virtual/range {p0 .. p0}, Lkik/android/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Lkik/arcane/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v5
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     invoke-interface {v6}, Lkik/core/interfaces/ad;->q()Ljava/lang/String;
 
     move-result-object v6
 
-    invoke-direct {v4, v5, v6}, Lkik/android/b/h;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {v4, v5, v6}, Lkik/arcane/b/h;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 16327
-    invoke-virtual {v4}, Lkik/android/b/h;->a()V
+    invoke-virtual {v4}, Lkik/arcane/b/h;->a()V
     :try_end_0
     .catch Ljava/lang/Throwable; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -5223,7 +5223,7 @@
     :goto_6
     move-object/from16 v0, p0
 
-    iget v4, v0, Lkik/android/chat/KikApplication;->ad:I
+    iget v4, v0, Lkik/arcane/chat/KikApplication;->ad:I
 
     const/16 v5, 0x84
 
@@ -5232,7 +5232,7 @@
     .line 16336
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     const-string v5, "kik.scan.hint.display"
 
@@ -5248,7 +5248,7 @@
     :cond_15
     move-object/from16 v0, p0
 
-    iget v4, v0, Lkik/android/chat/KikApplication;->ad:I
+    iget v4, v0, Lkik/arcane/chat/KikApplication;->ad:I
 
     const/16 v5, 0x9a
 
@@ -5257,7 +5257,7 @@
     .line 16341
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     const-string v5, "kik.addressbook.flow.finished"
 
@@ -5273,7 +5273,7 @@
     :cond_16
     move-object/from16 v0, p0
 
-    iget v4, v0, Lkik/android/chat/KikApplication;->ad:I
+    iget v4, v0, Lkik/arcane/chat/KikApplication;->ad:I
 
     const/16 v5, 0xbd
 
@@ -5282,7 +5282,7 @@
     .line 16345
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     const-string v5, "AddressIntegration.UPLOAD_MY_INFO_OPT_IN_KEY"
 
@@ -5311,19 +5311,19 @@
     :cond_17
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->T:Lkik/core/interfaces/IAddressBookIntegration;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->T:Lkik/core/interfaces/IAddressBookIntegration;
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/chat/KikApplication;->g:Lkik/core/interfaces/b;
+    iget-object v6, v0, Lkik/arcane/chat/KikApplication;->g:Lkik/core/interfaces/b;
 
-    invoke-static {v5, v6, v4}, Lkik/android/addressbook/b;->a(Lkik/core/interfaces/IAddressBookIntegration;Lkik/core/interfaces/b;Ljava/lang/Boolean;)V
+    invoke-static {v5, v6, v4}, Lkik/arcane/addressbook/b;->a(Lkik/core/interfaces/IAddressBookIntegration;Lkik/core/interfaces/b;Ljava/lang/Boolean;)V
 
     .line 16353
     :cond_18
     move-object/from16 v0, p0
 
-    iget v4, v0, Lkik/android/chat/KikApplication;->ad:I
+    iget v4, v0, Lkik/arcane/chat/KikApplication;->ad:I
 
     const/16 v5, 0xfb
 
@@ -5332,7 +5332,7 @@
     .line 16354
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     const-string v5, "SHOULD SHOW STICKERS TOOLTIP"
 
@@ -5348,7 +5348,7 @@
     :cond_19
     move-object/from16 v0, p0
 
-    iget v4, v0, Lkik/android/chat/KikApplication;->ad:I
+    iget v4, v0, Lkik/arcane/chat/KikApplication;->ad:I
 
     const/16 v5, 0x10b
 
@@ -5357,7 +5357,7 @@
     .line 16359
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->k:Lkik/core/e/b;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->k:Lkik/core/e/b;
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -5373,7 +5373,7 @@
     :cond_1a
     move-object/from16 v0, p0
 
-    iget v4, v0, Lkik/android/chat/KikApplication;->ad:I
+    iget v4, v0, Lkik/arcane/chat/KikApplication;->ad:I
 
     const/16 v5, 0x11c
 
@@ -5381,7 +5381,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     invoke-static {v4}, Lkik/core/z;->a(Lkik/core/interfaces/ad;)Z
 
@@ -5392,7 +5392,7 @@
     .line 16363
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     const-string v5, "kik.logintime"
 
@@ -5407,26 +5407,26 @@
     invoke-interface {v4, v5, v6}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Long;)Z
 
     .line 16364
-    invoke-direct/range {p0 .. p0}, Lkik/android/chat/KikApplication;->B()V
+    invoke-direct/range {p0 .. p0}, Lkik/arcane/chat/KikApplication;->B()V
 
     .line 16367
     :cond_1b
     move-object/from16 v0, p0
 
-    iget v4, v0, Lkik/android/chat/KikApplication;->ad:I
+    iget v4, v0, Lkik/arcane/chat/KikApplication;->ad:I
 
     const/16 v5, 0x17d
 
     if-ge v4, v5, :cond_1c
 
     .line 16368
-    invoke-direct/range {p0 .. p0}, Lkik/android/chat/KikApplication;->K()V
+    invoke-direct/range {p0 .. p0}, Lkik/arcane/chat/KikApplication;->K()V
 
     .line 16372
     :cond_1c
     move-object/from16 v0, p0
 
-    iget v4, v0, Lkik/android/chat/KikApplication;->ad:I
+    iget v4, v0, Lkik/arcane/chat/KikApplication;->ad:I
 
     const/16 v5, 0x19c
 
@@ -5435,9 +5435,9 @@
     .line 16373
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, v0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
-    const-string v5, "kik.android.chat.fragment.KikConversationsFragment.ShowSettingsBadge"
+    const-string v5, "kik.arcane.chat.fragment.KikConversationsFragment.ShowSettingsBadge"
 
     const/4 v6, 0x1
 
@@ -5472,12 +5472,12 @@
     goto/16 :goto_0
 .end method
 
-.method static synthetic a(Lkik/android/chat/KikApplication;)V
+.method static synthetic a(Lkik/arcane/chat/KikApplication;)V
     .locals 1
 
     .prologue
     .line 1183
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->S:Lkik/core/interfaces/ag;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->S:Lkik/core/interfaces/ag;
 
     .line 1186
     invoke-interface {v0}, Lkik/core/interfaces/ag;->d()Lkik/core/datatypes/aa;
@@ -5486,12 +5486,12 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/KikApplication;Landroid/content/Context;Lkik/core/a;)V
+.method static synthetic a(Lkik/arcane/chat/KikApplication;Landroid/content/Context;Lkik/core/a;)V
     .locals 0
 
     .prologue
     .line 275
-    invoke-direct {p0, p1, p2}, Lkik/android/chat/KikApplication;->a(Landroid/content/Context;Lkik/core/a;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/chat/KikApplication;->a(Landroid/content/Context;Lkik/core/a;)V
 
     return-void
 .end method
@@ -5531,7 +5531,7 @@
 
     invoke-direct {v3, p1, v4}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    invoke-direct {p0, v3}, Lkik/android/chat/KikApplication;->a(Ljava/io/File;)Z
+    invoke-direct {p0, v3}, Lkik/arcane/chat/KikApplication;->a(Ljava/io/File;)Z
 
     move-result v3
 
@@ -5557,24 +5557,24 @@
     goto :goto_1
 .end method
 
-.method static synthetic a(Lkik/android/chat/KikApplication;Ljava/io/File;)Z
+.method static synthetic a(Lkik/arcane/chat/KikApplication;Ljava/io/File;)Z
     .locals 1
 
     .prologue
     .line 275
-    invoke-direct {p0, p1}, Lkik/android/chat/KikApplication;->a(Ljava/io/File;)Z
+    invoke-direct {p0, p1}, Lkik/arcane/chat/KikApplication;->a(Ljava/io/File;)Z
 
     move-result v0
 
     return v0
 .end method
 
-.method static synthetic b(Lkik/android/chat/KikApplication;J)J
+.method static synthetic b(Lkik/arcane/chat/KikApplication;J)J
     .locals 1
 
     .prologue
     .line 275
-    iput-wide p1, p0, Lkik/android/chat/KikApplication;->am:J
+    iput-wide p1, p0, Lkik/arcane/chat/KikApplication;->am:J
 
     return-wide p1
 .end method
@@ -5584,9 +5584,9 @@
 
     .prologue
     .line 1006
-    sget-object v0, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v0}, Lkik/android/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v0}, Lkik/arcane/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -5623,24 +5623,24 @@
 
     .prologue
     .line 972
-    sget-object v0, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
     .line 3032
-    iget-object v0, v0, Lkik/android/chat/KikApplication;->ar:Landroid/app/Activity;
+    iget-object v0, v0, Lkik/arcane/chat/KikApplication;->ar:Landroid/app/Activity;
 
     .line 972
     if-eqz v0, :cond_0
 
     .line 973
-    sget-object v0, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
     .line 4032
-    iget-object v0, v0, Lkik/android/chat/KikApplication;->ar:Landroid/app/Activity;
+    iget-object v0, v0, Lkik/arcane/chat/KikApplication;->ar:Landroid/app/Activity;
 
     .line 973
-    new-instance v1, Lkik/android/chat/KikApplication$16;
+    new-instance v1, Lkik/arcane/chat/KikApplication$16;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/KikApplication$16;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/KikApplication$16;-><init>(Ljava/lang/String;)V
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->runOnUiThread(Ljava/lang/Runnable;)V
 
@@ -5649,18 +5649,18 @@
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/chat/KikApplication;)V
+.method static synthetic b(Lkik/arcane/chat/KikApplication;)V
     .locals 2
 
     .prologue
     .line 783
-    sget-object v0, Lkik/android/chat/KikApplication;->x:Lkik/android/KikNotificationHandler;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->x:Lkik/arcane/KikNotificationHandler;
 
-    invoke-direct {p0}, Lkik/android/chat/KikApplication;->I()Lkik/core/datatypes/l;
+    invoke-direct {p0}, Lkik/arcane/chat/KikApplication;->I()Lkik/core/datatypes/l;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/KikNotificationHandler;->a(Lkik/core/datatypes/l;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/KikNotificationHandler;->a(Lkik/core/datatypes/l;)V
 
     return-void
 .end method
@@ -5670,9 +5670,9 @@
 
     .prologue
     .line 2715
-    sget-object v0, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v0}, Lkik/android/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v0}, Lkik/arcane/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -5701,9 +5701,9 @@
 
     .prologue
     .line 1015
-    sget-object v0, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v0}, Lkik/android/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v0}, Lkik/arcane/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -5718,12 +5718,12 @@
     return v0
 .end method
 
-.method static synthetic c(Lkik/android/chat/KikApplication;J)J
+.method static synthetic c(Lkik/arcane/chat/KikApplication;J)J
     .locals 1
 
     .prologue
     .line 275
-    iput-wide p1, p0, Lkik/android/chat/KikApplication;->an:J
+    iput-wide p1, p0, Lkik/arcane/chat/KikApplication;->an:J
 
     return-wide p1
 .end method
@@ -5733,21 +5733,21 @@
 
     .prologue
     .line 916
-    sget-object v0, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
-    invoke-direct {v0}, Lkik/android/chat/KikApplication;->F()Ljava/lang/String;
+    invoke-direct {v0}, Lkik/arcane/chat/KikApplication;->F()Ljava/lang/String;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method static synthetic c(Lkik/android/chat/KikApplication;)V
+.method static synthetic c(Lkik/arcane/chat/KikApplication;)V
     .locals 3
 
     .prologue
     .line 758
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     const-string v1, "kik.profile.outofdate"
 
@@ -5767,9 +5767,9 @@
 
     .prologue
     .line 1021
-    sget-object v0, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v0}, Lkik/android/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v0}, Lkik/arcane/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -5784,12 +5784,12 @@
     return v0
 .end method
 
-.method static synthetic d(Lkik/android/chat/KikApplication;J)J
+.method static synthetic d(Lkik/arcane/chat/KikApplication;J)J
     .locals 1
 
     .prologue
     .line 275
-    iput-wide p1, p0, Lkik/android/chat/KikApplication;->ao:J
+    iput-wide p1, p0, Lkik/arcane/chat/KikApplication;->ao:J
 
     return-wide p1
 .end method
@@ -5799,31 +5799,31 @@
 
     .prologue
     .line 921
-    sget-object v0, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
-    invoke-static {v0}, Lkik/android/util/DeviceUtils;->b(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/DeviceUtils;->b(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method static synthetic d(Lkik/android/chat/KikApplication;)Lkik/core/interfaces/IConversation;
+.method static synthetic d(Lkik/arcane/chat/KikApplication;)Lkik/core/interfaces/IConversation;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     return-object v0
 .end method
 
-.method static synthetic e(Lkik/android/chat/KikApplication;J)J
+.method static synthetic e(Lkik/arcane/chat/KikApplication;J)J
     .locals 1
 
     .prologue
     .line 275
-    iput-wide p1, p0, Lkik/android/chat/KikApplication;->al:J
+    iput-wide p1, p0, Lkik/arcane/chat/KikApplication;->al:J
 
     return-wide p1
 .end method
@@ -5833,9 +5833,9 @@
 
     .prologue
     .line 1026
-    sget-object v0, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v0}, Lkik/android/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v0}, Lkik/arcane/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -5850,24 +5850,24 @@
     return-object v0
 .end method
 
-.method public static e()Lkik/android/util/at;
+.method public static e()Lkik/arcane/util/at;
     .locals 1
 
     .prologue
     .line 936
-    sget-object v0, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
-    iget-object v0, v0, Lkik/android/chat/KikApplication;->aw:Lkik/android/util/at;
+    iget-object v0, v0, Lkik/arcane/chat/KikApplication;->aw:Lkik/arcane/util/at;
 
     return-object v0
 .end method
 
-.method static synthetic e(Lkik/android/chat/KikApplication;)Lkik/core/interfaces/v;
+.method static synthetic e(Lkik/arcane/chat/KikApplication;)Lkik/core/interfaces/v;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->E:Lkik/core/interfaces/v;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->E:Lkik/core/interfaces/v;
 
     return-object v0
 .end method
@@ -5877,9 +5877,9 @@
 
     .prologue
     .line 1046
-    sget-object v0, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v0}, Lkik/android/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v0}, Lkik/arcane/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -5894,12 +5894,12 @@
     return-object v0
 .end method
 
-.method static synthetic f(Lkik/android/chat/KikApplication;)Lkik/android/a/b;
+.method static synthetic f(Lkik/arcane/chat/KikApplication;)Lkik/arcane/a/b;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->ax:Lkik/android/a/b;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->ax:Lkik/arcane/a/b;
 
     return-object v0
 .end method
@@ -5909,46 +5909,46 @@
 
     .prologue
     .line 941
-    sget-object v0, Lkik/android/chat/KikApplication;->x:Lkik/android/KikNotificationHandler;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->x:Lkik/arcane/KikNotificationHandler;
 
     if-eqz v0, :cond_0
 
     .line 942
-    sget-object v0, Lkik/android/chat/KikApplication;->x:Lkik/android/KikNotificationHandler;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->x:Lkik/arcane/KikNotificationHandler;
 
-    invoke-virtual {v0}, Lkik/android/KikNotificationHandler;->a()V
+    invoke-virtual {v0}, Lkik/arcane/KikNotificationHandler;->a()V
 
     .line 944
     :cond_0
     return-void
 .end method
 
-.method static synthetic g(Lkik/android/chat/KikApplication;)Landroid/os/Handler;
+.method static synthetic g(Lkik/arcane/chat/KikApplication;)Landroid/os/Handler;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->aB:Landroid/os/Handler;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->aB:Landroid/os/Handler;
 
     return-object v0
 .end method
 
-.method static synthetic h(Lkik/android/chat/KikApplication;)J
+.method static synthetic h(Lkik/arcane/chat/KikApplication;)J
     .locals 2
 
     .prologue
     .line 275
-    iget-wide v0, p0, Lkik/android/chat/KikApplication;->aj:J
+    iget-wide v0, p0, Lkik/arcane/chat/KikApplication;->aj:J
 
     return-wide v0
 .end method
 
-.method static synthetic i(Lkik/android/chat/KikApplication;)J
+.method static synthetic i(Lkik/arcane/chat/KikApplication;)J
     .locals 2
 
     .prologue
     .line 275
-    iget-wide v0, p0, Lkik/android/chat/KikApplication;->am:J
+    iget-wide v0, p0, Lkik/arcane/chat/KikApplication;->am:J
 
     return-wide v0
 .end method
@@ -5958,16 +5958,16 @@
 
     .prologue
     .line 958
-    sget-object v0, Lkik/android/chat/KikApplication;->x:Lkik/android/KikNotificationHandler;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->x:Lkik/arcane/KikNotificationHandler;
 
     if-eqz v0, :cond_0
 
     .line 959
-    sget-object v0, Lkik/android/chat/KikApplication;->x:Lkik/android/KikNotificationHandler;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->x:Lkik/arcane/KikNotificationHandler;
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lkik/android/KikNotificationHandler;->a(Z)V
+    invoke-virtual {v0, v1}, Lkik/arcane/KikNotificationHandler;->a(Z)V
 
     .line 961
     :cond_0
@@ -5979,50 +5979,50 @@
 
     .prologue
     .line 965
-    sget-object v0, Lkik/android/chat/KikApplication;->x:Lkik/android/KikNotificationHandler;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->x:Lkik/arcane/KikNotificationHandler;
 
     if-eqz v0, :cond_0
 
     .line 966
-    sget-object v0, Lkik/android/chat/KikApplication;->x:Lkik/android/KikNotificationHandler;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->x:Lkik/arcane/KikNotificationHandler;
 
-    invoke-virtual {v0}, Lkik/android/KikNotificationHandler;->c()V
+    invoke-virtual {v0}, Lkik/arcane/KikNotificationHandler;->c()V
 
     .line 968
     :cond_0
     return-void
 .end method
 
-.method static synthetic j(Lkik/android/chat/KikApplication;)Z
+.method static synthetic j(Lkik/arcane/chat/KikApplication;)Z
     .locals 1
 
     .prologue
     .line 275
-    iget-boolean v0, p0, Lkik/android/chat/KikApplication;->L:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/KikApplication;->L:Z
 
     return v0
 .end method
 
-.method public static k()Lkik/android/a/b;
+.method public static k()Lkik/arcane/a/b;
     .locals 1
 
     .prologue
     .line 1041
-    sget-object v0, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
-    iget-object v0, v0, Lkik/android/chat/KikApplication;->ax:Lkik/android/a/b;
+    iget-object v0, v0, Lkik/arcane/chat/KikApplication;->ax:Lkik/arcane/a/b;
 
     return-object v0
 .end method
 
-.method static synthetic k(Lkik/android/chat/KikApplication;)Z
+.method static synthetic k(Lkik/arcane/chat/KikApplication;)Z
     .locals 1
 
     .prologue
     .line 275
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/KikApplication;->L:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/KikApplication;->L:Z
 
     return v0
 .end method
@@ -6034,7 +6034,7 @@
     const/4 v0, 0x1
 
     .line 1051
-    invoke-static {}, Lkik/android/chat/KikApplication;->D()I
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->D()I
 
     move-result v1
 
@@ -6049,25 +6049,25 @@
     goto :goto_0
 .end method
 
-.method static synthetic l(Lkik/android/chat/KikApplication;)Z
+.method static synthetic l(Lkik/arcane/chat/KikApplication;)Z
     .locals 1
 
     .prologue
     .line 275
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/KikApplication;->ah:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/KikApplication;->ah:Z
 
     return v0
 .end method
 
-.method static synthetic m(Lkik/android/chat/KikApplication;)V
+.method static synthetic m(Lkik/arcane/chat/KikApplication;)V
     .locals 12
 
     .prologue
     .line 275
     .line 22417
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     invoke-static {v0}, Lkik/core/z;->a(Lkik/core/interfaces/ad;)Z
 
@@ -6076,7 +6076,7 @@
     if-eqz v0, :cond_2
 
     .line 22422
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
 
     invoke-interface {v0}, Lkik/core/interfaces/ICommunication;->l()Z
 
@@ -6085,22 +6085,22 @@
     if-eqz v0, :cond_2
 
     .line 22427
-    iget-boolean v0, p0, Lkik/android/chat/KikApplication;->af:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/KikApplication;->af:Z
 
     if-eqz v0, :cond_2
 
     .line 22432
-    iget-boolean v0, p0, Lkik/android/chat/KikApplication;->ai:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/KikApplication;->ai:Z
 
     if-eqz v0, :cond_0
 
-    iget-boolean v0, p0, Lkik/android/chat/KikApplication;->ah:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/KikApplication;->ah:Z
 
     if-eqz v0, :cond_2
 
     .line 22437
     :cond_0
-    iget-wide v0, p0, Lkik/android/chat/KikApplication;->al:J
+    iget-wide v0, p0, Lkik/arcane/chat/KikApplication;->al:J
 
     const-wide/16 v2, 0x0
 
@@ -6109,12 +6109,12 @@
     if-eqz v0, :cond_2
 
     .line 22443
-    iget-boolean v0, p0, Lkik/android/chat/KikApplication;->ae:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/KikApplication;->ae:Z
 
     if-nez v0, :cond_2
 
     .line 22447
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v0}, Lkik/core/interfaces/IConversation;->G()Ljava/util/List;
 
@@ -6124,7 +6124,7 @@
 
     move-result v0
 
-    iget-object v1, p0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v1, p0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v1}, Lkik/core/interfaces/IConversation;->S()I
 
@@ -6133,7 +6133,7 @@
     add-int v2, v0, v1
 
     .line 22449
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->E:Lkik/core/interfaces/v;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->E:Lkik/core/interfaces/v;
 
     invoke-interface {v0}, Lkik/core/interfaces/v;->m()I
 
@@ -6145,19 +6145,19 @@
     move-result-wide v0
 
     .line 22451
-    iget-wide v4, p0, Lkik/android/chat/KikApplication;->ap:J
+    iget-wide v4, p0, Lkik/arcane/chat/KikApplication;->ap:J
 
     sub-long/2addr v0, v4
 
     .line 22452
-    iget-object v4, p0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, p0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     invoke-interface {v4}, Lkik/core/interfaces/ad;->l()J
 
     move-result-wide v6
 
     .line 22453
-    iget-object v4, p0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v4, p0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     invoke-interface {v4}, Lkik/core/interfaces/ad;->m()J
 
@@ -6180,7 +6180,7 @@
     .line 22457
     const-string v4, "isConnected"
 
-    iget-boolean v0, p0, Lkik/android/chat/KikApplication;->ag:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/KikApplication;->ag:Z
 
     if-eqz v0, :cond_3
 
@@ -6196,11 +6196,11 @@
     .line 22459
     const-string v4, "connectedViaCell"
 
-    invoke-virtual {p0}, Lkik/android/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/DeviceUtils;->c(Landroid/content/Context;)Z
+    invoke-static {v0}, Lkik/arcane/util/DeviceUtils;->c(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -6258,7 +6258,7 @@
     .line 22464
     const-string v0, "uiResponsiveTime"
 
-    iget-wide v2, p0, Lkik/android/chat/KikApplication;->al:J
+    iget-wide v2, p0, Lkik/arcane/chat/KikApplication;->al:J
 
     invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -6269,7 +6269,7 @@
     .line 22465
     const-string v0, "coreSetupTime"
 
-    iget-wide v2, p0, Lkik/android/chat/KikApplication;->ak:J
+    iget-wide v2, p0, Lkik/arcane/chat/KikApplication;->ak:J
 
     invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -6280,7 +6280,7 @@
     .line 22467
     const-string v2, "qosPerformed"
 
-    iget-boolean v0, p0, Lkik/android/chat/KikApplication;->ah:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/KikApplication;->ah:Z
 
     if-eqz v0, :cond_5
 
@@ -6294,14 +6294,14 @@
     invoke-interface {v5, v2, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 22469
-    iget-boolean v0, p0, Lkik/android/chat/KikApplication;->ah:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/KikApplication;->ah:Z
 
     if-eqz v0, :cond_1
 
     .line 22470
     const-string v0, "qosSize"
 
-    iget v1, p0, Lkik/android/chat/KikApplication;->aq:I
+    iget v1, p0, Lkik/arcane/chat/KikApplication;->aq:I
 
     int-to-long v2, v1
 
@@ -6314,7 +6314,7 @@
     .line 22471
     const-string v0, "qosProcessTime"
 
-    iget-wide v2, p0, Lkik/android/chat/KikApplication;->am:J
+    iget-wide v2, p0, Lkik/arcane/chat/KikApplication;->am:J
 
     invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -6325,7 +6325,7 @@
     .line 22472
     const-string v0, "qosXmlTime"
 
-    iget-wide v2, p0, Lkik/android/chat/KikApplication;->an:J
+    iget-wide v2, p0, Lkik/arcane/chat/KikApplication;->an:J
 
     invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -6336,7 +6336,7 @@
     .line 22473
     const-string v0, "qosStoreTime"
 
-    iget-wide v2, p0, Lkik/android/chat/KikApplication;->ao:J
+    iget-wide v2, p0, Lkik/arcane/chat/KikApplication;->ao:J
 
     invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -6346,9 +6346,9 @@
 
     .line 22476
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->ax:Lkik/android/a/b;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->ax:Lkik/arcane/a/b;
 
-    invoke-virtual {v0}, Lkik/android/a/b;->c()Lcom/kik/clientmetrics/f;
+    invoke-virtual {v0}, Lkik/arcane/a/b;->c()Lcom/kik/clientmetrics/f;
 
     move-result-object v1
 
@@ -6367,65 +6367,65 @@
     .line 22479
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/KikApplication;->ae:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/KikApplication;->ae:Z
 
     .line 22480
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/KikApplication;->af:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/KikApplication;->af:Z
 
     .line 22481
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/KikApplication;->ah:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/KikApplication;->ah:Z
 
     .line 22482
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/KikApplication;->ai:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/KikApplication;->ai:Z
 
     .line 22483
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/KikApplication;->ag:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/KikApplication;->ag:Z
 
     .line 22484
     const-wide/16 v0, 0x0
 
-    iput-wide v0, p0, Lkik/android/chat/KikApplication;->ak:J
+    iput-wide v0, p0, Lkik/arcane/chat/KikApplication;->ak:J
 
     .line 22485
     const-wide/16 v0, 0x0
 
-    iput-wide v0, p0, Lkik/android/chat/KikApplication;->aj:J
+    iput-wide v0, p0, Lkik/arcane/chat/KikApplication;->aj:J
 
     .line 22486
     const-wide/16 v0, 0x0
 
-    iput-wide v0, p0, Lkik/android/chat/KikApplication;->al:J
+    iput-wide v0, p0, Lkik/arcane/chat/KikApplication;->al:J
 
     .line 22487
     const-wide/16 v0, 0x0
 
-    iput-wide v0, p0, Lkik/android/chat/KikApplication;->am:J
+    iput-wide v0, p0, Lkik/arcane/chat/KikApplication;->am:J
 
     .line 22488
     const-wide/16 v0, 0x0
 
-    iput-wide v0, p0, Lkik/android/chat/KikApplication;->an:J
+    iput-wide v0, p0, Lkik/arcane/chat/KikApplication;->an:J
 
     .line 22489
     const-wide/16 v0, 0x0
 
-    iput-wide v0, p0, Lkik/android/chat/KikApplication;->ao:J
+    iput-wide v0, p0, Lkik/arcane/chat/KikApplication;->ao:J
 
     .line 22490
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/chat/KikApplication;->aq:I
+    iput v0, p0, Lkik/arcane/chat/KikApplication;->aq:I
 
     .line 22493
-    invoke-direct {p0}, Lkik/android/chat/KikApplication;->G()V
+    invoke-direct {p0}, Lkik/arcane/chat/KikApplication;->G()V
 
     .line 275
     :cond_2
@@ -6455,7 +6455,7 @@
 
     .prologue
     .line 1056
-    invoke-static {}, Lkik/android/chat/KikApplication;->D()I
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->D()I
 
     move-result v0
 
@@ -6474,112 +6474,112 @@
     goto :goto_0
 .end method
 
-.method static synthetic n(Lkik/android/chat/KikApplication;)Lkik/core/net/e;
+.method static synthetic n(Lkik/arcane/chat/KikApplication;)Lkik/core/net/e;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->R:Lkik/core/net/e;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->R:Lkik/core/net/e;
 
     return-object v0
 .end method
 
-.method static synthetic o(Lkik/android/chat/KikApplication;)Lkik/core/interfaces/ICommunication;
+.method static synthetic o(Lkik/arcane/chat/KikApplication;)Lkik/core/interfaces/ICommunication;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
 
     return-object v0
 .end method
 
-.method static synthetic p(Lkik/android/chat/KikApplication;)Lkik/core/interfaces/ad;
+.method static synthetic p(Lkik/arcane/chat/KikApplication;)Lkik/core/interfaces/ad;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     return-object v0
 .end method
 
-.method static synthetic q(Lkik/android/chat/KikApplication;)Lcom/kik/storage/s;
+.method static synthetic q(Lkik/arcane/chat/KikApplication;)Lcom/kik/storage/s;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->P:Lcom/kik/storage/s;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->P:Lcom/kik/storage/s;
 
     return-object v0
 .end method
 
-.method static synthetic r(Lkik/android/chat/KikApplication;)Landroid/os/Handler;
+.method static synthetic r(Lkik/arcane/chat/KikApplication;)Landroid/os/Handler;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->G:Landroid/os/Handler;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->G:Landroid/os/Handler;
 
     return-object v0
 .end method
 
-.method static synthetic s(Lkik/android/chat/KikApplication;)Lkik/android/util/at;
+.method static synthetic s(Lkik/arcane/chat/KikApplication;)Lkik/arcane/util/at;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->aw:Lkik/android/util/at;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->aw:Lkik/arcane/util/at;
 
     return-object v0
 .end method
 
-.method static synthetic t(Lkik/android/chat/KikApplication;)Lkik/android/challenge/SafetyNetValidator;
+.method static synthetic t(Lkik/arcane/chat/KikApplication;)Lkik/arcane/challenge/SafetyNetValidator;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->aD:Lkik/android/challenge/SafetyNetValidator;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->aD:Lkik/arcane/challenge/SafetyNetValidator;
 
     return-object v0
 .end method
 
-.method static synthetic u(Lkik/android/chat/KikApplication;)Lkik/core/ICoreEvents;
+.method static synthetic u(Lkik/arcane/chat/KikApplication;)Lkik/core/ICoreEvents;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->W:Lkik/core/ICoreEvents;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->W:Lkik/core/ICoreEvents;
 
     return-object v0
 .end method
 
-.method static synthetic v(Lkik/android/chat/KikApplication;)Lcom/kik/events/e;
+.method static synthetic v(Lkik/arcane/chat/KikApplication;)Lcom/kik/events/e;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->aX:Lcom/kik/events/e;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->aX:Lcom/kik/events/e;
 
     return-object v0
 .end method
 
-.method static synthetic w(Lkik/android/chat/KikApplication;)Lcom/kik/events/d;
+.method static synthetic w(Lkik/arcane/chat/KikApplication;)Lcom/kik/events/d;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->B:Lcom/kik/events/d;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->B:Lcom/kik/events/d;
 
     return-object v0
 .end method
 
-.method static synthetic x(Lkik/android/chat/KikApplication;)Ljava/util/TimerTask;
+.method static synthetic x(Lkik/arcane/chat/KikApplication;)Ljava/util/TimerTask;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->bi:Ljava/util/TimerTask;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->bi:Ljava/util/TimerTask;
 
     return-object v0
 .end method
@@ -6606,12 +6606,12 @@
     return v0
 .end method
 
-.method static synthetic y(Lkik/android/chat/KikApplication;)Ljava/util/Timer;
+.method static synthetic y(Lkik/arcane/chat/KikApplication;)Ljava/util/Timer;
     .locals 1
 
     .prologue
     .line 275
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->I:Ljava/util/Timer;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->I:Ljava/util/Timer;
 
     return-object v0
 .end method
@@ -6621,11 +6621,11 @@
 
     .prologue
     .line 2503
-    sget-object v0, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
     const-string v1, "activity"
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/KikApplication;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/KikApplication;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -6645,23 +6645,23 @@
     return v0
 .end method
 
-.method static synthetic z()Lkik/android/KikNotificationHandler;
+.method static synthetic z()Lkik/arcane/KikNotificationHandler;
     .locals 1
 
     .prologue
     .line 275
-    sget-object v0, Lkik/android/chat/KikApplication;->x:Lkik/android/KikNotificationHandler;
+    sget-object v0, Lkik/arcane/chat/KikApplication;->x:Lkik/arcane/KikNotificationHandler;
 
     return-object v0
 .end method
 
-.method static synthetic z(Lkik/android/chat/KikApplication;)V
+.method static synthetic z(Lkik/arcane/chat/KikApplication;)V
     .locals 1
 
     .prologue
     .line 275
     .line 22728
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->Z:Lkik/core/y;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->Z:Lkik/core/y;
 
     invoke-virtual {v0}, Lkik/core/y;->d()V
 
@@ -6676,7 +6676,7 @@
 
     .prologue
     .line 1594
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->U:Lcom/kik/components/CoreComponent;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->U:Lcom/kik/components/CoreComponent;
 
     return-object v0
 .end method
@@ -6686,7 +6686,7 @@
 
     .prologue
     .line 1076
-    iput-object p1, p0, Lkik/android/chat/KikApplication;->M:Landroid/app/Activity;
+    iput-object p1, p0, Lkik/arcane/chat/KikApplication;->M:Landroid/app/Activity;
 
     .line 1077
     return-void
@@ -6700,9 +6700,9 @@
     new-instance v0, Lcom/kik/metrics/a/d$c;
 
     .line 17921
-    sget-object v1, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v1, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
-    invoke-static {v1}, Lkik/android/util/DeviceUtils;->b(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v1}, Lkik/arcane/util/DeviceUtils;->b(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -6760,7 +6760,7 @@
 
     .line 1752
     :cond_1
-	invoke-direct/range {p0 .. p1}, Lkik/android/chat/KikApplication;->FuckMeHarder(Lkik/core/datatypes/Message;)V
+	invoke-direct/range {p0 .. p1}, Lkik/arcane/chat/KikApplication;->FuckMeHarder(Lkik/core/datatypes/Message;)V
 	
     invoke-virtual/range {p1 .. p1}, Lkik/core/datatypes/Message;->i()Ljava/lang/String;
 
@@ -6768,14 +6768,14 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v2}, Lkik/android/chat/KikApplication;->c(Ljava/lang/String;)Z
+    invoke-virtual {v0, v2}, Lkik/arcane/chat/KikApplication;->c(Ljava/lang/String;)Z
 
     move-result v16
 
     .line 1754
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/chat/KikApplication;->E:Lkik/core/interfaces/v;
+    iget-object v2, v0, Lkik/arcane/chat/KikApplication;->E:Lkik/core/interfaces/v;
 
     invoke-virtual/range {p1 .. p1}, Lkik/core/datatypes/Message;->h()Ljava/lang/String;
 
@@ -6790,7 +6790,7 @@
     .line 1755
     move-object/from16 v0, p0
 
-    iget-object v3, v0, Lkik/android/chat/KikApplication;->E:Lkik/core/interfaces/v;
+    iget-object v3, v0, Lkik/arcane/chat/KikApplication;->E:Lkik/core/interfaces/v;
 
     invoke-virtual/range {p1 .. p1}, Lkik/core/datatypes/Message;->i()Ljava/lang/String;
 
@@ -6805,7 +6805,7 @@
     .line 1756
     move-object/from16 v0, p0
 
-    iget-object v3, v0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v3, v0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     invoke-virtual/range {p1 .. p1}, Lkik/core/datatypes/Message;->i()Ljava/lang/String;
 
@@ -6914,7 +6914,7 @@
     move-result-object v18
 
     .line 1768
-    invoke-static/range {v18 .. v18}, Lkik/android/util/bg;->a(Ljava/lang/String;)Z
+    invoke-static/range {v18 .. v18}, Lkik/arcane/util/bg;->a(Ljava/lang/String;)Z
 
     move-result v14
 
@@ -6930,11 +6930,11 @@
 
     move-object/from16 v0, p0
 
-    iget-object v8, v0, Lkik/android/chat/KikApplication;->b:Lcom/kik/android/b/g;
+    iget-object v8, v0, Lkik/arcane/chat/KikApplication;->b:Lcom/kik/arcane/b/g;
 
     move-object/from16 v0, v18
 
-    invoke-static {v0, v2, v8}, Lkik/android/util/br;->a(Ljava/lang/CharSequence;Lkik/core/util/t;Lcom/kik/android/b/g;)Ljava/util/List;
+    invoke-static {v0, v2, v8}, Lkik/arcane/util/br;->a(Ljava/lang/CharSequence;Lkik/core/util/t;Lcom/kik/arcane/b/g;)Ljava/util/List;
 
     move-result-object v13
 
@@ -6985,11 +6985,11 @@
     :cond_3
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v2, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v10, "Message Received"
 
-    invoke-virtual {v2, v10}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v2, v10}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v2
 
@@ -7010,7 +7010,7 @@
 
     move-result-object v13
 
-    invoke-static/range {v2 .. v14}, Lkik/android/util/az;->a(Lcom/kik/android/Mixpanel$d;ZZLjava/lang/String;ZZDILjava/lang/String;ILjava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-static/range {v2 .. v14}, Lkik/arcane/util/az;->a(Lcom/kik/arcane/Mixpanel$d;ZZLjava/lang/String;ZZDILjava/lang/String;ILjava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v3
 
@@ -7018,7 +7018,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/chat/KikApplication;->E:Lkik/core/interfaces/v;
+    iget-object v5, v0, Lkik/arcane/chat/KikApplication;->E:Lkik/core/interfaces/v;
 
     .line 1783
     move-object/from16 v0, p1
@@ -7027,7 +7027,7 @@
 
     move-result v5
 
-    invoke-virtual {v3, v4, v5}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v3, v4, v5}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v3
 
@@ -7036,7 +7036,7 @@
     .line 1784
     move/from16 v0, v17
 
-    invoke-virtual {v3, v4, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v3, v4, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v3
 
@@ -7045,14 +7045,14 @@
     .line 1785
     move/from16 v0, v16
 
-    invoke-virtual {v3, v4, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v3, v4, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v3
 
     const-string v4, "Is First Message in Chat"
 
     .line 1786
-    invoke-virtual {v3, v4, v15}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v3, v4, v15}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v3
 
@@ -7063,7 +7063,7 @@
 
     move-result v5
 
-    invoke-virtual {v3, v4, v5}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v3, v4, v5}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v3
 
@@ -7074,7 +7074,7 @@
 
     move-result v5
 
-    invoke-virtual {v3, v4, v5}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v3, v4, v5}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     .line 1790
     const-class v3, Lkik/core/datatypes/messageExtensions/ContentMessage;
@@ -7096,7 +7096,7 @@
     .line 1794
     move-object/from16 v0, v18
 
-    invoke-static {v2, v0}, Lkik/android/util/az;->a(Lcom/kik/android/Mixpanel$d;Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-static {v2, v0}, Lkik/arcane/util/az;->a(Lcom/kik/arcane/Mixpanel$d;Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     .line 1813
     :cond_4
@@ -7112,35 +7112,35 @@
 
     const/4 v4, 0x1
 
-    invoke-virtual {v2, v3, v4}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v2, v3, v4}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     .line 1817
     :cond_5
-    invoke-virtual {v2}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v2}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v2}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 1819
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v2, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v3, "App Session Ended"
 
-    invoke-virtual {v2, v3}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v2, v3}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v2
 
     const-string v3, "Messages Received"
 
-    invoke-virtual {v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     .line 1821
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v2, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v3, "Messages Received in Last 7 Days"
 
@@ -7148,7 +7148,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v2, v3, v4}, Lcom/kik/android/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v2, v3, v4}, Lcom/kik/arcane/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/arcane/Mixpanel;
 
     .line 18832
     if-eqz p1, :cond_6
@@ -7185,7 +7185,7 @@
     .line 18841
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v2, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v3, "Stickers Received in Last 7 Days"
 
@@ -7193,7 +7193,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v2, v3, v4}, Lcom/kik/android/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v2, v3, v4}, Lcom/kik/arcane/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/arcane/Mixpanel;
 
     .line 1825
     :cond_6
@@ -7205,7 +7205,7 @@
     .line 1826
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v2, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v3, "Received New People in Last 7 Days"
 
@@ -7213,7 +7213,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v2, v3, v4}, Lcom/kik/android/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v2, v3, v4}, Lcom/kik/arcane/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/arcane/Mixpanel;
 
     goto/16 :goto_0
 
@@ -7282,7 +7282,7 @@
     move-result-object v5
 
     .line 1800
-    invoke-static {v3}, Lkik/android/util/p;->b(Lkik/core/datatypes/messageExtensions/ContentMessage;)Ljava/lang/String;
+    invoke-static {v3}, Lkik/arcane/util/p;->b(Lkik/core/datatypes/messageExtensions/ContentMessage;)Ljava/lang/String;
 
     move-result-object v6
 
@@ -7321,7 +7321,7 @@
     .line 1810
     :cond_f
     :goto_b
-    invoke-static {v2, v6, v4, v5, v3}, Lkik/android/util/az;->a(Lcom/kik/android/Mixpanel$d;Ljava/lang/String;ZLjava/lang/String;Lkik/core/datatypes/messageExtensions/ContentMessage;)Lcom/kik/android/Mixpanel$d;
+    invoke-static {v2, v6, v4, v5, v3}, Lkik/arcane/util/az;->a(Lcom/kik/arcane/Mixpanel$d;Ljava/lang/String;ZLjava/lang/String;Lkik/core/datatypes/messageExtensions/ContentMessage;)Lcom/kik/arcane/Mixpanel$d;
 
     goto/16 :goto_7
 
@@ -7368,7 +7368,7 @@
     .line 18850
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v2, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v3, "Camera Pictures Received in Last 7 Days"
 
@@ -7376,7 +7376,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v2, v3, v4}, Lcom/kik/android/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v2, v3, v4}, Lcom/kik/arcane/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/arcane/Mixpanel;
 
     goto/16 :goto_9
 
@@ -7393,7 +7393,7 @@
     .line 18853
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v2, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v3, "Gallery Pics Received in Last 7 Days"
 
@@ -7401,7 +7401,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v2, v3, v4}, Lcom/kik/android/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v2, v3, v4}, Lcom/kik/arcane/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/arcane/Mixpanel;
 
     goto/16 :goto_9
 
@@ -7418,7 +7418,7 @@
     .line 18856
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v2, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v3, "Camera Videos Received In Last 7 Days"
 
@@ -7426,7 +7426,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v2, v3, v4}, Lcom/kik/android/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v2, v3, v4}, Lcom/kik/arcane/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/arcane/Mixpanel;
 
     goto/16 :goto_9
 
@@ -7443,7 +7443,7 @@
     .line 18859
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v2, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v3, "Gallery Videos Received In Last 7 Days"
 
@@ -7451,7 +7451,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v2, v3, v4}, Lcom/kik/android/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v2, v3, v4}, Lcom/kik/arcane/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/arcane/Mixpanel;
 
     goto/16 :goto_9
 
@@ -7479,7 +7479,7 @@
     .line 18863
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v2, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v3, "Web Pages Received in Last 7 Days"
 
@@ -7487,7 +7487,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v2, v3, v4}, Lcom/kik/android/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v2, v3, v4}, Lcom/kik/arcane/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/arcane/Mixpanel;
 
     goto/16 :goto_9
 
@@ -7495,7 +7495,7 @@
     :cond_18
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v2, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v3, "Cards Received in Last 7 Days"
 
@@ -7503,7 +7503,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v2, v3, v4}, Lcom/kik/android/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v2, v3, v4}, Lcom/kik/arcane/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/arcane/Mixpanel;
 
     goto/16 :goto_9
 
@@ -7511,7 +7511,7 @@
     :cond_19
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v2, v0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v3, "Native Sdk Content Received in Last 7 Days"
 
@@ -7519,7 +7519,7 @@
 
     move-result-object v4
 
-    invoke-virtual {v2, v3, v4}, Lcom/kik/android/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v2, v3, v4}, Lcom/kik/arcane/Mixpanel;->g(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/arcane/Mixpanel;
 
     goto/16 :goto_9
 .end method
@@ -7529,14 +7529,14 @@
 
     .prologue
     .line 1081
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->M:Landroid/app/Activity;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->M:Landroid/app/Activity;
 
     if-ne v0, p1, :cond_0
 
     .line 1082
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->M:Landroid/app/Activity;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->M:Landroid/app/Activity;
 
     .line 1084
     :cond_0
@@ -7550,45 +7550,45 @@
     const/4 v4, 0x0
 
     .line 1704
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->ar:Landroid/app/Activity;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->ar:Landroid/app/Activity;
 
     if-ne v0, p1, :cond_1
 
     .line 1706
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->av:Ljava/util/TimerTask;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->av:Ljava/util/TimerTask;
 
     if-eqz v0, :cond_0
 
     .line 1707
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->av:Ljava/util/TimerTask;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->av:Ljava/util/TimerTask;
 
     invoke-virtual {v0}, Ljava/util/TimerTask;->cancel()Z
 
     .line 1708
-    iput-object v4, p0, Lkik/android/chat/KikApplication;->av:Ljava/util/TimerTask;
+    iput-object v4, p0, Lkik/arcane/chat/KikApplication;->av:Ljava/util/TimerTask;
 
     .line 1711
     :cond_0
-    iput-object v4, p0, Lkik/android/chat/KikApplication;->ar:Landroid/app/Activity;
+    iput-object v4, p0, Lkik/arcane/chat/KikApplication;->ar:Landroid/app/Activity;
 
     .line 1713
-    new-instance v0, Lkik/android/chat/KikApplication$24;
+    new-instance v0, Lkik/arcane/chat/KikApplication$24;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/KikApplication$24;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/KikApplication$24;-><init>(Lkik/arcane/chat/KikApplication;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->av:Ljava/util/TimerTask;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->av:Ljava/util/TimerTask;
 
     .line 1729
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->au:Ljava/util/Timer;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->au:Ljava/util/Timer;
 
-    iget-object v1, p0, Lkik/android/chat/KikApplication;->av:Ljava/util/TimerTask;
+    iget-object v1, p0, Lkik/arcane/chat/KikApplication;->av:Ljava/util/TimerTask;
 
     const-wide/16 v2, 0x4e20
 
     invoke-virtual {v0, v1, v2, v3}, Ljava/util/Timer;->schedule(Ljava/util/TimerTask;J)V
 
     .line 1730
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->aF:Lcom/kik/events/g;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->aF:Lcom/kik/events/g;
 
     invoke-virtual {v0, v4}, Lcom/kik/events/g;->a(Ljava/lang/Object;)V
 
@@ -7602,7 +7602,7 @@
 
     .prologue
     .line 2164
-    invoke-direct {p0}, Lkik/android/chat/KikApplication;->I()Lkik/core/datatypes/l;
+    invoke-direct {p0}, Lkik/arcane/chat/KikApplication;->I()Lkik/core/datatypes/l;
 
     move-result-object v0
 
@@ -7687,11 +7687,11 @@
     if-eqz v0, :cond_0
 
     :cond_2
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v0, v1}, Lkik/core/interfaces/IConversation;->c(Ljava/lang/String;)V
 
@@ -7709,11 +7709,11 @@
     const/4 v9, 0x0
 
     .line 2037
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->ar:Landroid/app/Activity;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->ar:Landroid/app/Activity;
 
     if-nez v0, :cond_7
 
-    iget-boolean v0, p0, Lkik/android/chat/KikApplication;->J:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/KikApplication;->J:Z
 
     if-eqz v0, :cond_7
 
@@ -7767,7 +7767,7 @@
     .line 2047
     const-string v2, "s"
 
-    iget-boolean v0, p0, Lkik/android/chat/KikApplication;->K:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/KikApplication;->K:Z
 
     if-eqz v0, :cond_b
 
@@ -7781,9 +7781,9 @@
     invoke-interface {v5, v2, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2049
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->ax:Lkik/android/a/b;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->ax:Lkik/arcane/a/b;
 
-    invoke-virtual {v0}, Lkik/android/a/b;->c()Lcom/kik/clientmetrics/f;
+    invoke-virtual {v0}, Lkik/arcane/a/b;->c()Lcom/kik/clientmetrics/f;
 
     move-result-object v1
 
@@ -7796,12 +7796,12 @@
     invoke-virtual/range {v1 .. v7}, Lcom/kik/clientmetrics/f;->a(Lcom/kik/clientmetrics/model/Clientmetrics$ClientUserEventType;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;J)V
 
     .line 19877
-    iget-boolean v0, p0, Lkik/android/chat/KikApplication;->N:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/KikApplication;->N:Z
 
     if-nez v0, :cond_3
 
     .line 19881
-    iput-boolean v8, p0, Lkik/android/chat/KikApplication;->N:Z
+    iput-boolean v8, p0, Lkik/arcane/chat/KikApplication;->N:Z
 
     .line 19883
     sget v0, Lcom/kik/sdkutils/c;->a:I
@@ -7815,7 +7815,7 @@
     .line 19884
     const-string v0, "connectivity"
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/KikApplication;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/KikApplication;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -7834,7 +7834,7 @@
 
     .line 19889
     :goto_1
-    iget-object v1, p0, Lkik/android/chat/KikApplication;->o:Lcom/kik/metrics/c/d;
+    iget-object v1, p0, Lkik/arcane/chat/KikApplication;->o:Lcom/kik/metrics/c/d;
 
     invoke-static {}, Lcom/kik/metrics/b/ac;->b()Lcom/kik/metrics/b/ac$a;
 
@@ -7869,7 +7869,7 @@
     if-eqz v0, :cond_2
 
     .line 19893
-    invoke-virtual {p0}, Lkik/android/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -7887,7 +7887,7 @@
     move-result v2
 
     .line 19895
-    invoke-virtual {p0}, Lkik/android/chat/KikApplication;->getPackageName()Ljava/lang/String;
+    invoke-virtual {p0}, Lkik/arcane/chat/KikApplication;->getPackageName()Ljava/lang/String;
 
     move-result-object v1
 
@@ -7911,7 +7911,7 @@
     move-result v0
 
     .line 19899
-    iget-object v5, p0, Lkik/android/chat/KikApplication;->o:Lcom/kik/metrics/c/d;
+    iget-object v5, p0, Lkik/arcane/chat/KikApplication;->o:Lcom/kik/metrics/c/d;
 
     invoke-static {}, Lcom/kik/metrics/b/ad;->b()Lcom/kik/metrics/b/ad$a;
 
@@ -7979,33 +7979,33 @@
 
     .line 19907
     :cond_2
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "App Opened"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Cold Start"
 
-    iget-boolean v2, p0, Lkik/android/chat/KikApplication;->aJ:Z
+    iget-boolean v2, p0, Lkik/arcane/chat/KikApplication;->aJ:Z
 
     .line 19908
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
     const-string v2, "Has Unseen New Chat"
 
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     .line 19909
     invoke-interface {v0}, Lkik/core/interfaces/IConversation;->S()I
 
     move-result v0
 
-    iget-object v3, p0, Lkik/android/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
+    iget-object v3, p0, Lkik/arcane/chat/KikApplication;->D:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v3}, Lkik/core/interfaces/IConversation;->K()I
 
@@ -8016,30 +8016,30 @@
     move v0, v8
 
     :goto_3
-    invoke-virtual {v1, v2, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 19910
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 19911
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 19913
-    iput-boolean v9, p0, Lkik/android/chat/KikApplication;->aJ:Z
+    iput-boolean v9, p0, Lkik/arcane/chat/KikApplication;->aJ:Z
 
     .line 19915
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "App Session Ended"
 
     .line 20181
     const-string v2, ""
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel;->e(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel;->e(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
 
@@ -8047,45 +8047,45 @@
     if-nez v0, :cond_e
 
     .line 19916
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "App Opened"
 
-    invoke-virtual {v0, v1, v8}, Lcom/kik/android/Mixpanel;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v0, v1, v8}, Lcom/kik/arcane/Mixpanel;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel;
 
     .line 19918
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "App Session Started"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 2053
     :cond_3
     :goto_4
-    iput-boolean v9, p0, Lkik/android/chat/KikApplication;->J:Z
+    iput-boolean v9, p0, Lkik/arcane/chat/KikApplication;->J:Z
 
     .line 2054
-    iput-boolean v9, p0, Lkik/android/chat/KikApplication;->K:Z
+    iput-boolean v9, p0, Lkik/arcane/chat/KikApplication;->K:Z
 
     .line 2056
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->Q:Lkik/core/interfaces/ICommunication;
 
     invoke-interface {v0}, Lkik/core/interfaces/ICommunication;->l()Z
 
     move-result v0
 
-    iput-boolean v0, p0, Lkik/android/chat/KikApplication;->ag:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/KikApplication;->ag:Z
 
     .line 2059
-    invoke-direct {p0}, Lkik/android/chat/KikApplication;->G()V
+    invoke-direct {p0}, Lkik/arcane/chat/KikApplication;->G()V
 
     .line 20984
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     invoke-static {v0}, Lkik/core/z;->a(Lkik/core/interfaces/ad;)Z
 
@@ -8094,9 +8094,9 @@
     if-eqz v0, :cond_4
 
     .line 20987
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
-    const-string v1, "kik.android.chat.KikApplication.LAST_SUGGESTED_CHATS_REFRESH"
+    const-string v1, "kik.arcane.chat.KikApplication.LAST_SUGGESTED_CHATS_REFRESH"
 
     invoke-interface {v0, v1}, Lkik/core/interfaces/ad;->v(Ljava/lang/String;)Ljava/lang/Long;
 
@@ -8111,7 +8111,7 @@
 
     move-result-wide v2
 
-    sget-wide v6, Lkik/android/chat/KikApplication;->u:J
+    sget-wide v6, Lkik/arcane/chat/KikApplication;->u:J
 
     sub-long/2addr v2, v6
 
@@ -8125,9 +8125,9 @@
     move-result-wide v0
 
     .line 20990
-    iget-object v2, p0, Lkik/android/chat/KikApplication;->m:Lkik/android/chat/m;
+    iget-object v2, p0, Lkik/arcane/chat/KikApplication;->m:Lkik/arcane/chat/m;
 
-    invoke-virtual {v2}, Lkik/android/chat/m;->c()V
+    invoke-virtual {v2}, Lkik/arcane/chat/m;->c()V
 
     .line 20991
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -8137,9 +8137,9 @@
     sub-long v0, v2, v0
 
     .line 20992
-    iget-object v2, p0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v2, p0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
-    const-string v3, "kik.android.chat.KikApplication.LAST_SUGGESTED_CHATS_REFRESH"
+    const-string v3, "kik.arcane.chat.KikApplication.LAST_SUGGESTED_CHATS_REFRESH"
 
     invoke-static {}, Lkik/core/util/v;->b()J
 
@@ -8152,11 +8152,11 @@
     invoke-interface {v2, v3, v5}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Long;)Z
 
     .line 20993
-    iget-object v2, p0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v2, p0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v3, "Suggested Chats Leaderboard Computed"
 
-    invoke-virtual {v2, v3}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v2, v3}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v2
 
@@ -8167,21 +8167,21 @@
 
     move-result-wide v0
 
-    invoke-virtual {v2, v3, v0, v1}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;D)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v2, v3, v0, v1}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;D)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 20995
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 20996
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 21005
     :cond_4
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     invoke-static {v0}, Lkik/core/z;->a(Lkik/core/interfaces/ad;)Z
 
@@ -8190,7 +8190,7 @@
     if-eqz v0, :cond_6
 
     .line 21008
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->r:Ldagger/a;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->r:Ldagger/a;
 
     invoke-interface {v0}, Ldagger/a;->get()Ljava/lang/Object;
 
@@ -8199,9 +8199,9 @@
     check-cast v0, Lkik/core/xiphias/b;
 
     .line 21009
-    iget-object v1, p0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v1, p0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
-    const-string v2, "kik.android.chat.KikApplication.LAST_FEATURE_CONFIG_REFRESH"
+    const-string v2, "kik.arcane.chat.KikApplication.LAST_FEATURE_CONFIG_REFRESH"
 
     invoke-interface {v1, v2}, Lkik/core/interfaces/ad;->v(Ljava/lang/String;)Ljava/lang/Long;
 
@@ -8216,7 +8216,7 @@
 
     move-result-wide v6
 
-    sget-wide v10, Lkik/android/chat/KikApplication;->v:J
+    sget-wide v10, Lkik/arcane/chat/KikApplication;->v:J
 
     sub-long/2addr v6, v10
 
@@ -8235,26 +8235,26 @@
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/chat/KikApplication$26;
+    new-instance v1, Lkik/arcane/chat/KikApplication$26;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/KikApplication$26;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/KikApplication$26;-><init>(Lkik/arcane/chat/KikApplication;)V
 
     invoke-virtual {v0, v1}, Lrx/h;->a(Lrx/i;)Lrx/k;
 
     .line 2062
     :cond_6
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->aG:Lcom/kik/events/g;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->aG:Lcom/kik/events/g;
 
     invoke-virtual {v0, v4}, Lcom/kik/events/g;->a(Ljava/lang/Object;)V
 
     .line 2065
     :cond_7
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->ar:Landroid/app/Activity;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->ar:Landroid/app/Activity;
 
     if-nez v0, :cond_8
 
     .line 2066
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->aE:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->aE:Lcom/kik/events/Promise;
 
     invoke-static {v8}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -8264,19 +8264,19 @@
 
     .line 2069
     :cond_8
-    iput-object p1, p0, Lkik/android/chat/KikApplication;->ar:Landroid/app/Activity;
+    iput-object p1, p0, Lkik/arcane/chat/KikApplication;->ar:Landroid/app/Activity;
 
     .line 2071
-    invoke-direct {p0}, Lkik/android/chat/KikApplication;->I()Lkik/core/datatypes/l;
+    invoke-direct {p0}, Lkik/arcane/chat/KikApplication;->I()Lkik/core/datatypes/l;
 
     move-result-object v0
 
     if-eqz v0, :cond_9
 
     .line 2072
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->aI:Lcom/kik/events/g;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->aI:Lcom/kik/events/g;
 
-    invoke-direct {p0}, Lkik/android/chat/KikApplication;->I()Lkik/core/datatypes/l;
+    invoke-direct {p0}, Lkik/arcane/chat/KikApplication;->I()Lkik/core/datatypes/l;
 
     move-result-object v1
 
@@ -8284,22 +8284,22 @@
 
     .line 2075
     :cond_9
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->X:Lkik/core/interfaces/k;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->X:Lkik/core/interfaces/k;
 
     invoke-interface {v0, v8}, Lkik/core/interfaces/k;->a(Z)V
 
     .line 2076
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->av:Ljava/util/TimerTask;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->av:Ljava/util/TimerTask;
 
     if-eqz v0, :cond_a
 
     .line 2077
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->av:Ljava/util/TimerTask;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->av:Ljava/util/TimerTask;
 
     invoke-virtual {v0}, Ljava/util/TimerTask;->cancel()Z
 
     .line 2078
-    iput-object v4, p0, Lkik/android/chat/KikApplication;->av:Ljava/util/TimerTask;
+    iput-object v4, p0, Lkik/arcane/chat/KikApplication;->av:Ljava/util/TimerTask;
 
     .line 2081
     :cond_a
@@ -8325,11 +8325,11 @@
 
     .line 19921
     :cond_e
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "App Opened"
 
-    invoke-virtual {v0, v1, v9}, Lcom/kik/android/Mixpanel;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v0, v1, v9}, Lcom/kik/arcane/Mixpanel;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel;
 
     goto/16 :goto_4
 
@@ -8344,7 +8344,7 @@
 
     .prologue
     .line 948
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->aC:Lcom/kik/events/g;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->aC:Lcom/kik/events/g;
 
     const/4 v1, 0x0
 
@@ -8363,18 +8363,18 @@
 
     move-result-wide v0
 
-    iput-wide v0, p0, Lkik/android/chat/KikApplication;->ap:J
+    iput-wide v0, p0, Lkik/arcane/chat/KikApplication;->ap:J
 
     .line 954
     return-void
 .end method
 
-.method public final n()Lkik/android/d/c;
+.method public final n()Lkik/arcane/d/c;
     .locals 1
 
     .prologue
     .line 1609
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->V:Lkik/android/d/c;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->V:Lkik/arcane/d/c;
 
     return-object v0
 .end method
@@ -8386,12 +8386,12 @@
     .line 1682
     new-instance v0, Landroid/content/Intent;
 
-    const-class v1, Lkik/android/net/communicator/CommunicatorService;
+    const-class v1, Lkik/arcane/net/communicator/CommunicatorService;
 
     invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
     .line 1683
-    invoke-virtual {p0, v0}, Lkik/android/chat/KikApplication;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/KikApplication;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
 
     .line 1684
     return-void
@@ -8443,60 +8443,60 @@
     invoke-static {v2, v5}, Ljava/security/Security;->insertProviderAt(Ljava/security/Provider;I)I
 
     .line 1119
-    new-instance v2, Lkik/android/chat/KikApplication$17;
+    new-instance v2, Lkik/arcane/chat/KikApplication$17;
 
-    invoke-direct {v2, p0}, Lkik/android/chat/KikApplication$17;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v2, p0}, Lkik/arcane/chat/KikApplication$17;-><init>(Lkik/arcane/chat/KikApplication;)V
 
     .line 1127
-    invoke-virtual {p0}, Lkik/android/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/chat/KikApplication;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v2
 
     .line 1128
-    invoke-static {v2}, Lkik/android/util/DeviceUtils;->a(Landroid/content/Context;)V
+    invoke-static {v2}, Lkik/arcane/util/DeviceUtils;->a(Landroid/content/Context;)V
 
     .line 1130
-    iget-object v3, p0, Lkik/android/chat/KikApplication;->H:Landroid/os/HandlerThread;
+    iget-object v3, p0, Lkik/arcane/chat/KikApplication;->H:Landroid/os/HandlerThread;
 
     invoke-virtual {v3}, Landroid/os/HandlerThread;->start()V
 
     .line 1134
-    new-instance v3, Lkik/android/chat/KikApplication$18;
+    new-instance v3, Lkik/arcane/chat/KikApplication$18;
 
-    invoke-direct {v3, p0}, Lkik/android/chat/KikApplication$18;-><init>(Lkik/android/chat/KikApplication;)V
+    invoke-direct {v3, p0}, Lkik/arcane/chat/KikApplication$18;-><init>(Lkik/arcane/chat/KikApplication;)V
 
     .line 1143
     new-instance v3, Lcom/kik/cards/util/a;
 
     invoke-direct {v3}, Lcom/kik/cards/util/a;-><init>()V
 
-    iput-object v3, p0, Lkik/android/chat/KikApplication;->as:Lcom/kik/cards/util/a;
+    iput-object v3, p0, Lkik/arcane/chat/KikApplication;->as:Lcom/kik/cards/util/a;
 
     .line 1145
-    iget-object v3, p0, Lkik/android/chat/KikApplication;->B:Lcom/kik/events/d;
+    iget-object v3, p0, Lkik/arcane/chat/KikApplication;->B:Lcom/kik/events/d;
 
-    iget-object v4, p0, Lkik/android/chat/KikApplication;->as:Lcom/kik/cards/util/a;
+    iget-object v4, p0, Lkik/arcane/chat/KikApplication;->as:Lcom/kik/cards/util/a;
 
     invoke-virtual {v4}, Lcom/kik/cards/util/a;->a()Lcom/kik/events/c;
 
     move-result-object v4
 
-    iget-object v5, p0, Lkik/android/chat/KikApplication;->aN:Lcom/kik/events/e;
+    iget-object v5, p0, Lkik/arcane/chat/KikApplication;->aN:Lcom/kik/events/e;
 
     invoke-virtual {v3, v4, v5}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;)Lcom/kik/events/e;
 
     .line 5921
-    sget-object v3, Lkik/android/chat/KikApplication;->w:Lkik/android/chat/KikApplication;
+    sget-object v3, Lkik/arcane/chat/KikApplication;->w:Lkik/arcane/chat/KikApplication;
 
-    invoke-static {v3}, Lkik/android/util/DeviceUtils;->b(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v3}, Lkik/arcane/util/DeviceUtils;->b(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object v3
 
     .line 1147
-    sput-object v3, Lkik/android/chat/KikApplication;->z:Ljava/lang/String;
+    sput-object v3, Lkik/arcane/chat/KikApplication;->z:Ljava/lang/String;
 
     .line 1149
-    invoke-virtual {p0}, Lkik/android/chat/KikApplication;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/chat/KikApplication;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
@@ -8507,7 +8507,7 @@
     iget v3, v3, Landroid/util/DisplayMetrics;->density:F
 
     .line 1151
-    sput v3, Lkik/android/chat/KikApplication;->y:F
+    sput v3, Lkik/arcane/chat/KikApplication;->y:F
 
     const/4 v4, 0x0
 
@@ -8518,40 +8518,40 @@
     .line 1152
     const/high16 v3, 0x3f800000    # 1.0f
 
-    sput v3, Lkik/android/chat/KikApplication;->y:F
+    sput v3, Lkik/arcane/chat/KikApplication;->y:F
 
     .line 1155
     :cond_0
-    new-instance v3, Lkik/android/KikNotificationHandler;
+    new-instance v3, Lkik/arcane/KikNotificationHandler;
 
-    invoke-direct {v3, p0}, Lkik/android/KikNotificationHandler;-><init>(Landroid/content/Context;)V
+    invoke-direct {v3, p0}, Lkik/arcane/KikNotificationHandler;-><init>(Landroid/content/Context;)V
 
-    sput-object v3, Lkik/android/chat/KikApplication;->x:Lkik/android/KikNotificationHandler;
+    sput-object v3, Lkik/arcane/chat/KikApplication;->x:Lkik/arcane/KikNotificationHandler;
 
     .line 1156
-    new-instance v3, Lkik/android/i/b;
+    new-instance v3, Lkik/arcane/i/b;
 
-    invoke-direct {v3, p0}, Lkik/android/i/b;-><init>(Landroid/content/Context;)V
+    invoke-direct {v3, p0}, Lkik/arcane/i/b;-><init>(Landroid/content/Context;)V
 
-    iput-object v3, p0, Lkik/android/chat/KikApplication;->Y:Lkik/core/interfaces/j;
+    iput-object v3, p0, Lkik/arcane/chat/KikApplication;->Y:Lkik/core/interfaces/j;
 
     .line 1157
     new-instance v3, Lkik/core/y;
 
-    iget-object v4, p0, Lkik/android/chat/KikApplication;->Y:Lkik/core/interfaces/j;
+    iget-object v4, p0, Lkik/arcane/chat/KikApplication;->Y:Lkik/core/interfaces/j;
 
     invoke-direct {v3, v4}, Lkik/core/y;-><init>(Lkik/core/interfaces/j;)V
 
-    iput-object v3, p0, Lkik/android/chat/KikApplication;->Z:Lkik/core/y;
+    iput-object v3, p0, Lkik/arcane/chat/KikApplication;->Z:Lkik/core/y;
 
     .line 1159
-    iget-object v3, p0, Lkik/android/chat/KikApplication;->Z:Lkik/core/y;
+    iget-object v3, p0, Lkik/arcane/chat/KikApplication;->Z:Lkik/core/y;
 
     invoke-virtual {v3}, Lkik/core/y;->a()Lkik/core/a;
 
     move-result-object v3
 
-    invoke-direct {p0, v2, v3}, Lkik/android/chat/KikApplication;->a(Landroid/content/Context;Lkik/core/a;)V
+    invoke-direct {p0, v2, v3}, Lkik/arcane/chat/KikApplication;->a(Landroid/content/Context;Lkik/core/a;)V
 
     .line 1160
     invoke-static {}, Lcom/kik/sdkutils/d;->a()J
@@ -8560,7 +8560,7 @@
 
     sub-long v0, v4, v0
 
-    iput-wide v0, p0, Lkik/android/chat/KikApplication;->ak:J
+    iput-wide v0, p0, Lkik/arcane/chat/KikApplication;->ak:J
 
     .line 1162
     invoke-static {}, Lcom/kik/components/b;->a()Lcom/kik/components/b$a;
@@ -8574,31 +8574,31 @@
     invoke-static {v0}, Landroid/databinding/DataBindingUtil;->setDefaultComponent(Landroid/databinding/DataBindingComponent;)V
 
     .line 1171
-    invoke-direct {p0}, Lkik/android/chat/KikApplication;->E()V
+    invoke-direct {p0}, Lkik/arcane/chat/KikApplication;->E()V
 
     .line 1173
-    new-instance v0, Lkik/android/f;
+    new-instance v0, Lkik/arcane/f;
 
-    iget-object v1, p0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v1, p0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
-    iget-object v3, p0, Lkik/android/chat/KikApplication;->U:Lcom/kik/components/CoreComponent;
+    iget-object v3, p0, Lkik/arcane/chat/KikApplication;->U:Lcom/kik/components/CoreComponent;
 
-    invoke-direct {v0, v2, v1, v3}, Lkik/android/f;-><init>(Landroid/content/Context;Lcom/kik/android/Mixpanel;Lcom/kik/components/CoreComponent;)V
+    invoke-direct {v0, v2, v1, v3}, Lkik/arcane/f;-><init>(Landroid/content/Context;Lcom/kik/arcane/Mixpanel;Lcom/kik/components/CoreComponent;)V
 
-    iput-object v0, p0, Lkik/android/chat/KikApplication;->aa:Lkik/android/f;
+    iput-object v0, p0, Lkik/arcane/chat/KikApplication;->aa:Lkik/arcane/f;
 
     .line 1174
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->aa:Lkik/android/f;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->aa:Lkik/arcane/f;
 
-    invoke-virtual {v0}, Lkik/android/f;->c()V
+    invoke-virtual {v0}, Lkik/arcane/f;->c()V
 
     .line 1175
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->aa:Lkik/android/f;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->aa:Lkik/arcane/f;
 
-    invoke-virtual {v0}, Lkik/android/f;->a()V
+    invoke-virtual {v0}, Lkik/arcane/f;->a()V
 
     .line 1177
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->o:Lcom/kik/metrics/c/d;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->o:Lcom/kik/metrics/c/d;
 
     invoke-virtual {v0, p0}, Lcom/kik/metrics/c/d;->a(Lcom/kik/metrics/c/a;)V
 
@@ -8614,9 +8614,9 @@
     invoke-super {p0}, Landroid/support/multidex/MultiDexApplication;->onTerminate()V
 
     .line 1930
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->aa:Lkik/android/f;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->aa:Lkik/arcane/f;
 
-    invoke-virtual {v0}, Lkik/android/f;->b()V
+    invoke-virtual {v0}, Lkik/arcane/f;->b()V
 
     .line 1931
     return-void
@@ -8627,7 +8627,7 @@
 
     .prologue
     .line 1736
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     invoke-interface {v0}, Lkik/core/interfaces/ad;->n()J
 
@@ -8646,7 +8646,7 @@
     move-result-wide v2
 
     .line 1741
-    iget-object v4, p0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v4, p0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v5, "Time Since Registration"
 
@@ -8658,7 +8658,7 @@
 
     div-double/2addr v0, v2
 
-    invoke-virtual {v4, v5, v0, v1}, Lcom/kik/android/Mixpanel;->a(Ljava/lang/String;D)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v4, v5, v0, v1}, Lcom/kik/arcane/Mixpanel;->a(Ljava/lang/String;D)Lcom/kik/arcane/Mixpanel;
 
     .line 1743
     :cond_0
@@ -8674,7 +8674,7 @@
     const/4 v2, 0x0
 
     .line 1935
-    iget-boolean v0, p0, Lkik/android/chat/KikApplication;->N:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/KikApplication;->N:Z
 
     if-nez v0, :cond_0
 
@@ -8684,21 +8684,21 @@
 
     .line 1939
     :cond_0
-    iput-boolean v2, p0, Lkik/android/chat/KikApplication;->N:Z
+    iput-boolean v2, p0, Lkik/arcane/chat/KikApplication;->N:Z
 
     .line 1940
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->O:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->O:Lkik/core/interfaces/ad;
 
     invoke-static {v0}, Lkik/core/z;->a(Lkik/core/interfaces/ad;)Z
 
     move-result v3
 
     .line 1942
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v4, "App Closed"
 
-    invoke-virtual {v0, v4}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v4}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v4
 
@@ -8709,27 +8709,27 @@
     move v0, v1
 
     :goto_1
-    invoke-virtual {v4, v5, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v4, v5, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 1944
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v4, "App Closed"
 
-    invoke-virtual {v0, v4, v1}, Lcom/kik/android/Mixpanel;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel;
+    invoke-virtual {v0, v4, v1}, Lcom/kik/arcane/Mixpanel;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel;
 
     .line 1946
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v4, "App Opened"
 
     const-string v5, "App Closed"
 
-    invoke-virtual {v0, v4, v5}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;Ljava/lang/String;)J
+    invoke-virtual {v0, v4, v5}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;Ljava/lang/String;)J
 
     move-result-wide v4
 
@@ -8740,11 +8740,11 @@
     div-float/2addr v0, v4
 
     .line 1948
-    iget-object v4, p0, Lkik/android/chat/KikApplication;->a:Lcom/kik/android/Mixpanel;
+    iget-object v4, p0, Lkik/arcane/chat/KikApplication;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v5, "App Session Ended"
 
-    invoke-virtual {v4, v5}, Lcom/kik/android/Mixpanel;->c(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v4, v5}, Lcom/kik/arcane/Mixpanel;->c(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v4
 
@@ -8753,7 +8753,7 @@
     const-wide/16 v6, 0x0
 
     .line 1949
-    invoke-virtual {v4, v5, v6, v7}, Lcom/kik/android/Mixpanel$d;->b(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v4, v5, v6, v7}, Lcom/kik/arcane/Mixpanel$d;->b(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v4
 
@@ -8763,7 +8763,7 @@
 
     .line 1950
     :goto_2
-    invoke-virtual {v4, v5, v1}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v4, v5, v1}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
@@ -8772,17 +8772,17 @@
     float-to-double v4, v0
 
     .line 1951
-    invoke-virtual {v1, v2, v4, v5}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;D)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v4, v5}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;D)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 1952
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 1954
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->ax:Lkik/android/a/b;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->ax:Lkik/arcane/a/b;
 
-    invoke-virtual {v0}, Lkik/android/a/b;->c()Lcom/kik/clientmetrics/f;
+    invoke-virtual {v0}, Lkik/arcane/a/b;->c()Lcom/kik/clientmetrics/f;
 
     move-result-object v0
 
@@ -8814,7 +8814,7 @@
 
     .prologue
     .line 2032
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->ar:Landroid/app/Activity;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->ar:Landroid/app/Activity;
 
     return-object v0
 .end method
@@ -8824,7 +8824,7 @@
 
     .prologue
     .line 2130
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->aA:Lcom/kik/events/GlobalPromiseCache;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->aA:Lcom/kik/events/GlobalPromiseCache;
 
     return-object v0
 .end method
@@ -8834,7 +8834,7 @@
 
     .prologue
     .line 2147
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->ar:Landroid/app/Activity;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->ar:Landroid/app/Activity;
 
     if-eqz v0, :cond_0
 
@@ -8854,20 +8854,20 @@
 
     .prologue
     .line 2183
-    invoke-direct {p0}, Lkik/android/chat/KikApplication;->H()Landroid/support/v4/app/Fragment;
+    invoke-direct {p0}, Lkik/arcane/chat/KikApplication;->H()Landroid/support/v4/app/Fragment;
 
     move-result-object v0
 
     .line 2184
-    instance-of v1, v0, Lkik/android/chat/fragment/KikConversationsFragment;
+    instance-of v1, v0, Lkik/arcane/chat/fragment/KikConversationsFragment;
 
     if-eqz v1, :cond_0
 
     .line 2185
-    check-cast v0, Lkik/android/chat/fragment/KikConversationsFragment;
+    check-cast v0, Lkik/arcane/chat/fragment/KikConversationsFragment;
 
     .line 2186
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikConversationsFragment;->e()Z
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikConversationsFragment;->e()Z
 
     move-result v0
 
@@ -8895,7 +8895,7 @@
 
     .prologue
     .line 2207
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->aH:Lcom/kik/events/g;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->aH:Lcom/kik/events/g;
 
     invoke-virtual {v0}, Lcom/kik/events/g;->a()Lcom/kik/events/c;
 
@@ -8918,7 +8918,7 @@
 
     .prologue
     .line 2212
-    iget-object v0, p0, Lkik/android/chat/KikApplication;->aI:Lcom/kik/events/g;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication;->aI:Lcom/kik/events/g;
 
     invoke-virtual {v0}, Lcom/kik/events/g;->a()Lcom/kik/events/c;
 

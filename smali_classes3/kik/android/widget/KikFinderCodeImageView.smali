@@ -1,5 +1,5 @@
-.class public Lkik/android/widget/KikFinderCodeImageView;
-.super Lkik/android/widget/KikCodeImageView;
+.class public Lkik/arcane/widget/KikFinderCodeImageView;
+.super Lkik/arcane/widget/KikCodeImageView;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
     .prologue
     .line 16
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/KikCodeImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/KikCodeImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 17
     return-void
@@ -22,7 +22,7 @@
 
     .prologue
     .line 22
-    invoke-super {p0, p1}, Lkik/android/widget/KikCodeImageView;->a(Lcom/kik/scan/KikCode;)V
+    invoke-super {p0, p1}, Lkik/arcane/widget/KikCodeImageView;->a(Lcom/kik/scan/KikCode;)V
 
     .line 23
     const/4 v0, 0x0
@@ -31,7 +31,7 @@
     if-eqz p1, :cond_0
 
     .line 26
-    invoke-virtual {p0}, Lkik/android/widget/KikFinderCodeImageView;->a()[B
+    invoke-virtual {p0}, Lkik/arcane/widget/KikFinderCodeImageView;->a()[B
 
     move-result-object v0
 
@@ -43,11 +43,11 @@
     fill-array-data v1, :array_0
 
     .line 28
-    invoke-virtual {p0, v1}, Lkik/android/widget/KikFinderCodeImageView;->b([B)V
+    invoke-virtual {p0, v1}, Lkik/arcane/widget/KikFinderCodeImageView;->b([B)V
 
     .line 31
     :cond_0
-    invoke-virtual {p0, v0}, Lkik/android/widget/KikFinderCodeImageView;->a([B)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/KikFinderCodeImageView;->a([B)V
 
     .line 32
     return-void

@@ -1,12 +1,12 @@
-.class public Lkik/android/chat/fragment/KikPermissionsFragment;
-.super Lkik/android/chat/fragment/KikScopedDialogFragment;
+.class public Lkik/arcane/chat/fragment/KikPermissionsFragment;
+.super Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/fragment/KikPermissionsFragment$a;
+        Lkik/arcane/chat/fragment/KikPermissionsFragment$a;
     }
 .end annotation
 
@@ -35,12 +35,12 @@
     .end annotation
 .end field
 
-.field protected d:Lcom/kik/android/Mixpanel;
+.field protected d:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
 
-.field private e:Lkik/android/chat/fragment/KikPermissionsFragment$a;
+.field private e:Lkik/arcane/chat/fragment/KikPermissionsFragment$a;
 
 
 # direct methods
@@ -49,14 +49,14 @@
 
     .prologue
     .line 26
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikScopedDialogFragment;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;-><init>()V
 
     .line 31
-    new-instance v0, Lkik/android/chat/fragment/KikPermissionsFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/KikPermissionsFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/KikPermissionsFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/KikPermissionsFragment$a;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/KikPermissionsFragment;->e:Lkik/android/chat/fragment/KikPermissionsFragment$a;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/KikPermissionsFragment;->e:Lkik/arcane/chat/fragment/KikPermissionsFragment$a;
 
     return-void
 .end method
@@ -68,14 +68,14 @@
 
     .prologue
     .line 39
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikPermissionsFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikPermissionsFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 
-    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/fragment/KikPermissionsFragment;)V
+    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/fragment/KikPermissionsFragment;)V
 
     .line 40
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onCreate(Landroid/os/Bundle;)V
 
     .line 41
     return-void
@@ -103,13 +103,13 @@
     move-result-object v2
 
     .line 48
-    iget-object v0, p0, Lkik/android/chat/fragment/KikPermissionsFragment;->e:Lkik/android/chat/fragment/KikPermissionsFragment$a;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikPermissionsFragment;->e:Lkik/arcane/chat/fragment/KikPermissionsFragment$a;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikPermissionsFragment;->getArguments()Landroid/os/Bundle;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikPermissionsFragment;->getArguments()Landroid/os/Bundle;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikPermissionsFragment$a;->a(Landroid/os/Bundle;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikPermissionsFragment$a;->a(Landroid/os/Bundle;)V
 
     .line 50
     const v0, 0x7f1001ea
@@ -121,18 +121,18 @@
     check-cast v0, Lcom/kik/cache/ContactImageView;
 
     .line 52
-    iget-object v1, p0, Lkik/android/chat/fragment/KikPermissionsFragment;->a:Lkik/core/interfaces/ag;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikPermissionsFragment;->a:Lkik/core/interfaces/ag;
 
     invoke-interface {v1}, Lkik/core/interfaces/ag;->d()Lkik/core/datatypes/aa;
 
     move-result-object v3
 
     .line 53
-    iget-object v1, p0, Lkik/android/chat/fragment/KikPermissionsFragment;->b:Lcom/kik/cache/KikVolleyImageLoader;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikPermissionsFragment;->b:Lcom/kik/cache/KikVolleyImageLoader;
 
-    iget-object v4, p0, Lkik/android/chat/fragment/KikPermissionsFragment;->d:Lcom/kik/android/Mixpanel;
+    iget-object v4, p0, Lkik/arcane/chat/fragment/KikPermissionsFragment;->d:Lcom/kik/arcane/Mixpanel;
 
-    invoke-virtual {v0, v3, v1, v4}, Lcom/kik/cache/ContactImageView;->a(Lkik/core/datatypes/aa;Lcom/kik/cache/KikVolleyImageLoader;Lcom/kik/android/Mixpanel;)V
+    invoke-virtual {v0, v3, v1, v4}, Lcom/kik/cache/ContactImageView;->a(Lkik/core/datatypes/aa;Lcom/kik/cache/KikVolleyImageLoader;Lcom/kik/arcane/Mixpanel;)V
 
     .line 55
     const v0, 0x7f100200
@@ -191,20 +191,20 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/widget/RectNetworkedImageView;
+    check-cast v0, Lkik/arcane/widget/RectNetworkedImageView;
 
     .line 59
-    iget-object v1, p0, Lkik/android/chat/fragment/KikPermissionsFragment;->e:Lkik/android/chat/fragment/KikPermissionsFragment$a;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikPermissionsFragment;->e:Lkik/arcane/chat/fragment/KikPermissionsFragment$a;
 
-    invoke-static {v1}, Lkik/android/chat/fragment/KikPermissionsFragment$a;->a(Lkik/android/chat/fragment/KikPermissionsFragment$a;)Ljava/lang/String;
+    invoke-static {v1}, Lkik/arcane/chat/fragment/KikPermissionsFragment$a;->a(Lkik/arcane/chat/fragment/KikPermissionsFragment$a;)Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {v0}, Lkik/android/widget/RectNetworkedImageView;->getMeasuredWidth()I
+    invoke-virtual {v0}, Lkik/arcane/widget/RectNetworkedImageView;->getMeasuredWidth()I
 
     move-result v4
 
-    invoke-virtual {v0}, Lkik/android/widget/RectNetworkedImageView;->getMeasuredHeight()I
+    invoke-virtual {v0}, Lkik/arcane/widget/RectNetworkedImageView;->getMeasuredHeight()I
 
     move-result v5
 
@@ -213,14 +213,14 @@
     move-result-object v1
 
     .line 60
-    iget-object v4, p0, Lkik/android/chat/fragment/KikPermissionsFragment;->c:Lcom/kik/cache/KikVolleyImageLoader;
+    iget-object v4, p0, Lkik/arcane/chat/fragment/KikPermissionsFragment;->c:Lcom/kik/cache/KikVolleyImageLoader;
 
-    invoke-virtual {v0, v1, v4}, Lkik/android/widget/RectNetworkedImageView;->a(Lcom/kik/cache/KikImageRequest;Lcom/kik/cache/KikVolleyImageLoader;)V
+    invoke-virtual {v0, v1, v4}, Lkik/arcane/widget/RectNetworkedImageView;->a(Lcom/kik/cache/KikImageRequest;Lcom/kik/cache/KikVolleyImageLoader;)V
 
     .line 62
-    iget-object v0, p0, Lkik/android/chat/fragment/KikPermissionsFragment;->e:Lkik/android/chat/fragment/KikPermissionsFragment$a;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikPermissionsFragment;->e:Lkik/arcane/chat/fragment/KikPermissionsFragment$a;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/KikPermissionsFragment$a;->b(Lkik/android/chat/fragment/KikPermissionsFragment$a;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/KikPermissionsFragment$a;->b(Lkik/arcane/chat/fragment/KikPermissionsFragment$a;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -233,9 +233,9 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iget-object v4, p0, Lkik/android/chat/fragment/KikPermissionsFragment;->e:Lkik/android/chat/fragment/KikPermissionsFragment$a;
+    iget-object v4, p0, Lkik/arcane/chat/fragment/KikPermissionsFragment;->e:Lkik/arcane/chat/fragment/KikPermissionsFragment$a;
 
-    invoke-static {v4}, Lkik/android/chat/fragment/KikPermissionsFragment$a;->b(Lkik/android/chat/fragment/KikPermissionsFragment$a;)Ljava/lang/String;
+    invoke-static {v4}, Lkik/arcane/chat/fragment/KikPermissionsFragment$a;->b(Lkik/arcane/chat/fragment/KikPermissionsFragment$a;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -248,9 +248,9 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iget-object v4, p0, Lkik/android/chat/fragment/KikPermissionsFragment;->e:Lkik/android/chat/fragment/KikPermissionsFragment$a;
+    iget-object v4, p0, Lkik/arcane/chat/fragment/KikPermissionsFragment;->e:Lkik/arcane/chat/fragment/KikPermissionsFragment$a;
 
-    invoke-static {v4}, Lkik/android/chat/fragment/KikPermissionsFragment$a;->c(Lkik/android/chat/fragment/KikPermissionsFragment$a;)Ljava/lang/String;
+    invoke-static {v4}, Lkik/arcane/chat/fragment/KikPermissionsFragment$a;->c(Lkik/arcane/chat/fragment/KikPermissionsFragment$a;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -273,7 +273,7 @@
 
     aput-object v1, v5, v6
 
-    invoke-virtual {p0, v4, v5}, Lkik/android/chat/fragment/KikPermissionsFragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {p0, v4, v5}, Lkik/arcane/chat/fragment/KikPermissionsFragment;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -289,16 +289,16 @@
     check-cast v0, Landroid/widget/TextView;
 
     .line 68
-    iget-object v4, p0, Lkik/android/chat/fragment/KikPermissionsFragment;->e:Lkik/android/chat/fragment/KikPermissionsFragment$a;
+    iget-object v4, p0, Lkik/arcane/chat/fragment/KikPermissionsFragment;->e:Lkik/arcane/chat/fragment/KikPermissionsFragment$a;
 
-    invoke-static {v4}, Lkik/android/chat/fragment/KikPermissionsFragment$a;->d(Lkik/android/chat/fragment/KikPermissionsFragment$a;)Ljava/lang/String;
+    invoke-static {v4}, Lkik/arcane/chat/fragment/KikPermissionsFragment$a;->d(Lkik/arcane/chat/fragment/KikPermissionsFragment$a;)Ljava/lang/String;
 
     move-result-object v4
 
     .line 69
-    iget-object v5, p0, Lkik/android/chat/fragment/KikPermissionsFragment;->e:Lkik/android/chat/fragment/KikPermissionsFragment$a;
+    iget-object v5, p0, Lkik/arcane/chat/fragment/KikPermissionsFragment;->e:Lkik/arcane/chat/fragment/KikPermissionsFragment$a;
 
-    invoke-static {v5}, Lkik/android/chat/fragment/KikPermissionsFragment$a;->e(Lkik/android/chat/fragment/KikPermissionsFragment$a;)Ljava/lang/String;
+    invoke-static {v5}, Lkik/arcane/chat/fragment/KikPermissionsFragment$a;->e(Lkik/arcane/chat/fragment/KikPermissionsFragment$a;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -321,7 +321,7 @@
 
     invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikPermissionsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikPermissionsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v7
 
@@ -359,7 +359,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikPermissionsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikPermissionsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v4
 
@@ -377,7 +377,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikPermissionsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikPermissionsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v4
 
@@ -407,7 +407,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikPermissionsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikPermissionsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v4
 
@@ -433,13 +433,13 @@
 
     .line 83
     :goto_0
-    invoke-static {v0, v1}, Lkik/android/chat/view/text/d;->a(Landroid/widget/TextView;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkik/arcane/chat/view/text/d;->a(Landroid/widget/TextView;Ljava/lang/String;)V
 
     .line 86
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/fragment/KikPermissionsFragment;->e:Lkik/android/chat/fragment/KikPermissionsFragment$a;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikPermissionsFragment;->e:Lkik/arcane/chat/fragment/KikPermissionsFragment$a;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/KikPermissionsFragment$a;->c(Lkik/android/chat/fragment/KikPermissionsFragment$a;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/KikPermissionsFragment$a;->c(Lkik/arcane/chat/fragment/KikPermissionsFragment$a;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -466,9 +466,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/chat/fragment/KikPermissionsFragment$1;
+    new-instance v1, Lkik/arcane/chat/fragment/KikPermissionsFragment$1;
 
-    invoke-direct {v1, p0, v3}, Lkik/android/chat/fragment/KikPermissionsFragment$1;-><init>(Lkik/android/chat/fragment/KikPermissionsFragment;Lkik/core/datatypes/aa;)V
+    invoke-direct {v1, p0, v3}, Lkik/arcane/chat/fragment/KikPermissionsFragment$1;-><init>(Lkik/arcane/chat/fragment/KikPermissionsFragment;Lkik/core/datatypes/aa;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -483,9 +483,9 @@
     if-eqz v0, :cond_3
 
     .line 105
-    new-instance v1, Lkik/android/chat/fragment/KikPermissionsFragment$2;
+    new-instance v1, Lkik/arcane/chat/fragment/KikPermissionsFragment$2;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/fragment/KikPermissionsFragment$2;-><init>(Lkik/android/chat/fragment/KikPermissionsFragment;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/fragment/KikPermissionsFragment$2;-><init>(Lkik/arcane/chat/fragment/KikPermissionsFragment;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -522,7 +522,7 @@
 
     invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikPermissionsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikPermissionsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v6
 
@@ -560,7 +560,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikPermissionsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikPermissionsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v4
 
@@ -590,7 +590,7 @@
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikPermissionsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikPermissionsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v6
 
@@ -628,7 +628,7 @@
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikPermissionsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikPermissionsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v4
 

@@ -1,4 +1,4 @@
-.class final Lkik/android/util/bp$1;
+.class final Lkik/arcane/util/bp$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/util/bp;->a()V
+    value = Lkik/arcane/util/bp;->a()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/util/bp;
+.field final synthetic a:Lkik/arcane/util/bp;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/util/bp;)V
+.method constructor <init>(Lkik/arcane/util/bp;)V
     .locals 0
 
     .prologue
     .line 67
-    iput-object p1, p0, Lkik/android/util/bp$1;->a:Lkik/android/util/bp;
+    iput-object p1, p0, Lkik/arcane/util/bp$1;->a:Lkik/arcane/util/bp;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -43,9 +43,9 @@
     .line 71
     if-eqz p2, :cond_0
 
-    iget-object v0, p0, Lkik/android/util/bp$1;->a:Lkik/android/util/bp;
+    iget-object v0, p0, Lkik/arcane/util/bp$1;->a:Lkik/arcane/util/bp;
 
-    invoke-static {v0}, Lkik/android/util/bp;->a(Lkik/android/util/bp;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/bp;->a(Lkik/arcane/util/bp;)Ljava/lang/String;
 
     move-result-object v0
 

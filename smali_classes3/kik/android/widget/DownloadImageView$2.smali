@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/DownloadImageView$2;
+.class final Lkik/arcane/widget/DownloadImageView$2;
 .super Landroid/animation/AnimatorListenerAdapter;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/DownloadImageView;
+    value = Lkik/arcane/widget/DownloadImageView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/DownloadImageView;
+.field final synthetic a:Lkik/arcane/widget/DownloadImageView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/DownloadImageView;)V
+.method constructor <init>(Lkik/arcane/widget/DownloadImageView;)V
     .locals 0
 
     .prologue
     .line 91
-    iput-object p1, p0, Lkik/android/widget/DownloadImageView$2;->a:Lkik/android/widget/DownloadImageView;
+    iput-object p1, p0, Lkik/arcane/widget/DownloadImageView$2;->a:Lkik/arcane/widget/DownloadImageView;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
@@ -41,18 +41,18 @@
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
     .line 96
-    iget-object v0, p0, Lkik/android/widget/DownloadImageView$2;->a:Lkik/android/widget/DownloadImageView;
+    iget-object v0, p0, Lkik/arcane/widget/DownloadImageView$2;->a:Lkik/arcane/widget/DownloadImageView;
 
-    invoke-static {v0}, Lkik/android/widget/DownloadImageView;->b(Lkik/android/widget/DownloadImageView;)Ljava/lang/Runnable;
+    invoke-static {v0}, Lkik/arcane/widget/DownloadImageView;->b(Lkik/arcane/widget/DownloadImageView;)Ljava/lang/Runnable;
 
     move-result-object v0
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
     .line 97
-    iget-object v0, p0, Lkik/android/widget/DownloadImageView$2;->a:Lkik/android/widget/DownloadImageView;
+    iget-object v0, p0, Lkik/arcane/widget/DownloadImageView$2;->a:Lkik/arcane/widget/DownloadImageView;
 
-    invoke-static {v0}, Lkik/android/widget/DownloadImageView;->c(Lkik/android/widget/DownloadImageView;)V
+    invoke-static {v0}, Lkik/arcane/widget/DownloadImageView;->c(Lkik/arcane/widget/DownloadImageView;)V
 
     .line 98
     return-void

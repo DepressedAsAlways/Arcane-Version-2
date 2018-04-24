@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/ConversationsBaseFragment$9;
+.class final Lkik/arcane/chat/fragment/ConversationsBaseFragment$9;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/ConversationsBaseFragment;
+    value = Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/ConversationsBaseFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/ConversationsBaseFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/ConversationsBaseFragment;)V
     .locals 0
 
     .prologue
     .line 225
-    iput-object p1, p0, Lkik/android/chat/fragment/ConversationsBaseFragment$9;->a:Lkik/android/chat/fragment/ConversationsBaseFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ConversationsBaseFragment$9;->a:Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -51,9 +51,9 @@
 
     .prologue
     .line 229
-    iget-object v0, p0, Lkik/android/chat/fragment/ConversationsBaseFragment$9;->a:Lkik/android/chat/fragment/ConversationsBaseFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ConversationsBaseFragment$9;->a:Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/ConversationsBaseFragment;->access$200(Lkik/android/chat/fragment/ConversationsBaseFragment;)Landroid/os/Handler;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/ConversationsBaseFragment;->access$200(Lkik/arcane/chat/fragment/ConversationsBaseFragment;)Landroid/os/Handler;
 
     move-result-object v0
 

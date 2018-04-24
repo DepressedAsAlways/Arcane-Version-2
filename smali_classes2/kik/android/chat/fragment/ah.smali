@@ -1,31 +1,31 @@
-.class final synthetic Lkik/android/chat/fragment/ah;
+.class final synthetic Lkik/arcane/chat/fragment/ah;
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lkik/android/util/ay$b;
+.implements Lkik/arcane/util/ay$b;
 
 
 # instance fields
-.field private final a:Lkik/android/chat/fragment/KikChatFragment;
+.field private final a:Lkik/arcane/chat/fragment/KikChatFragment;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/fragment/KikChatFragment;)V
+.method private constructor <init>(Lkik/arcane/chat/fragment/KikChatFragment;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/fragment/ah;->a:Lkik/android/chat/fragment/KikChatFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ah;->a:Lkik/arcane/chat/fragment/KikChatFragment;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/fragment/KikChatFragment;)Lkik/android/util/ay$b;
+.method public static a(Lkik/arcane/chat/fragment/KikChatFragment;)Lkik/arcane/util/ay$b;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/fragment/ah;
+    new-instance v0, Lkik/arcane/chat/fragment/ah;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/fragment/ah;-><init>(Lkik/android/chat/fragment/KikChatFragment;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/fragment/ah;-><init>(Lkik/arcane/chat/fragment/KikChatFragment;)V
 
     return-object v0
 .end method
@@ -35,9 +35,9 @@
 .method public final a()Z
     .locals 1
 
-    iget-object v0, p0, Lkik/android/chat/fragment/ah;->a:Lkik/android/chat/fragment/KikChatFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ah;->a:Lkik/arcane/chat/fragment/KikChatFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/KikChatFragment;->e(Lkik/android/chat/fragment/KikChatFragment;)Z
+    invoke-static {v0}, Lkik/arcane/chat/fragment/KikChatFragment;->e(Lkik/arcane/chat/fragment/KikChatFragment;)Z
 
     move-result v0
 

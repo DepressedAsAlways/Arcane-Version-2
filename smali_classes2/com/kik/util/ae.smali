@@ -122,7 +122,7 @@
 
     invoke-direct {v0, v4}, Lcom/kik/util/j$1;-><init>(Lrx/functions/a;)V
 
-    invoke-static {v2, v3, v0}, Lkik/android/util/ao;->a(Landroid/view/View;ILandroid/animation/Animator$AnimatorListener;)V
+    invoke-static {v2, v3, v0}, Lkik/arcane/util/ao;->a(Landroid/view/View;ILandroid/animation/Animator$AnimatorListener;)V
 
     goto :goto_1
 
@@ -153,7 +153,7 @@
 
     invoke-direct {v0, v4}, Lcom/kik/util/j$2;-><init>(Lrx/functions/a;)V
 
-    invoke-static {v2, v5, v0}, Lkik/android/util/ao;->a(Landroid/view/View;ILandroid/view/animation/Animation$AnimationListener;)V
+    invoke-static {v2, v5, v0}, Lkik/arcane/util/ao;->a(Landroid/view/View;ILandroid/view/animation/Animation$AnimationListener;)V
 
     goto :goto_1
 

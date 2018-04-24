@@ -1,4 +1,4 @@
-.class public final Lcom/kik/android/a/a;
+.class public final Lcom/kik/arcane/a/a;
 .super Lcom/kik/events/m;
 .source "SourceFile"
 
@@ -41,7 +41,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/kik/android/a/a;->a:Ljava/util/concurrent/ScheduledExecutorService;
+    sput-object v0, Lcom/kik/arcane/a/a;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
     .line 40
     const-string v0, "KikWakeLock"
@@ -50,14 +50,14 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/kik/android/a/a;->b:Lorg/slf4j/b;
+    sput-object v0, Lcom/kik/arcane/a/a;->b:Lorg/slf4j/b;
 
     .line 41
     new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
 
-    sput-object v0, Lcom/kik/android/a/a;->c:Ljava/util/concurrent/atomic/AtomicInteger;
+    sput-object v0, Lcom/kik/arcane/a/a;->c:Ljava/util/concurrent/atomic/AtomicInteger;
 
     return-void
 .end method
@@ -76,20 +76,20 @@
 
     invoke-direct {v0, v2}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
 
-    iput-object v0, p0, Lcom/kik/android/a/a;->h:Ljava/util/concurrent/atomic/AtomicBoolean;
+    iput-object v0, p0, Lcom/kik/arcane/a/a;->h:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     .line 167
-    new-instance v0, Lcom/kik/android/a/a$2;
+    new-instance v0, Lcom/kik/arcane/a/a$2;
 
-    invoke-direct {v0, p0}, Lcom/kik/android/a/a$2;-><init>(Lcom/kik/android/a/a;)V
+    invoke-direct {v0, p0}, Lcom/kik/arcane/a/a$2;-><init>(Lcom/kik/arcane/a/a;)V
 
-    iput-object v0, p0, Lcom/kik/android/a/a;->k:Landroid/content/BroadcastReceiver;
+    iput-object v0, p0, Lcom/kik/arcane/a/a;->k:Landroid/content/BroadcastReceiver;
 
     .line 46
-    iput-object p2, p0, Lcom/kik/android/a/a;->f:Ljava/lang/String;
+    iput-object p2, p0, Lcom/kik/arcane/a/a;->f:Ljava/lang/String;
 
     .line 47
-    iput-object p1, p0, Lcom/kik/android/a/a;->j:Landroid/content/Context;
+    iput-object p1, p0, Lcom/kik/arcane/a/a;->j:Landroid/content/Context;
 
     .line 48
     const-string v0, "power"
@@ -100,10 +100,10 @@
 
     check-cast v0, Landroid/os/PowerManager;
 
-    iput-object v0, p0, Lcom/kik/android/a/a;->i:Landroid/os/PowerManager;
+    iput-object v0, p0, Lcom/kik/arcane/a/a;->i:Landroid/os/PowerManager;
 
     .line 51
-    iget-object v0, p0, Lcom/kik/android/a/a;->i:Landroid/os/PowerManager;
+    iget-object v0, p0, Lcom/kik/arcane/a/a;->i:Landroid/os/PowerManager;
 
     const/4 v1, 0x1
 
@@ -111,15 +111,15 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/kik/android/a/a;->d:Landroid/os/PowerManager$WakeLock;
+    iput-object v0, p0, Lcom/kik/arcane/a/a;->d:Landroid/os/PowerManager$WakeLock;
 
     .line 54
-    iget-object v0, p0, Lcom/kik/android/a/a;->d:Landroid/os/PowerManager$WakeLock;
+    iget-object v0, p0, Lcom/kik/arcane/a/a;->d:Landroid/os/PowerManager$WakeLock;
 
     if-eqz v0, :cond_0
 
     .line 55
-    iget-object v0, p0, Lcom/kik/android/a/a;->d:Landroid/os/PowerManager$WakeLock;
+    iget-object v0, p0, Lcom/kik/arcane/a/a;->d:Landroid/os/PowerManager$WakeLock;
 
     invoke-virtual {v0, v2}, Landroid/os/PowerManager$WakeLock;->setReferenceCounted(Z)V
 
@@ -140,15 +140,15 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/kik/android/a/a;->e:Landroid/net/wifi/WifiManager$WifiLock;
+    iput-object v0, p0, Lcom/kik/arcane/a/a;->e:Landroid/net/wifi/WifiManager$WifiLock;
 
     .line 63
-    iget-object v0, p0, Lcom/kik/android/a/a;->e:Landroid/net/wifi/WifiManager$WifiLock;
+    iget-object v0, p0, Lcom/kik/arcane/a/a;->e:Landroid/net/wifi/WifiManager$WifiLock;
 
     if-eqz v0, :cond_1
 
     .line 64
-    iget-object v0, p0, Lcom/kik/android/a/a;->e:Landroid/net/wifi/WifiManager$WifiLock;
+    iget-object v0, p0, Lcom/kik/arcane/a/a;->e:Landroid/net/wifi/WifiManager$WifiLock;
 
     invoke-virtual {v0, v2}, Landroid/net/wifi/WifiManager$WifiLock;->setReferenceCounted(Z)V
 
@@ -162,7 +162,7 @@
 
     check-cast v0, Landroid/net/ConnectivityManager;
 
-    iput-object v0, p0, Lcom/kik/android/a/a;->g:Landroid/net/ConnectivityManager;
+    iput-object v0, p0, Lcom/kik/arcane/a/a;->g:Landroid/net/ConnectivityManager;
 
     .line 69
     return-void
@@ -173,20 +173,20 @@
 
     .prologue
     .line 73
-    invoke-direct {p0, p1, p2}, Lcom/kik/android/a/a;-><init>(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {p0, p1, p2}, Lcom/kik/arcane/a/a;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 74
     return-void
 .end method
 
-.method static synthetic a(Lcom/kik/android/a/a;Z)V
+.method static synthetic a(Lcom/kik/arcane/a/a;Z)V
     .locals 1
 
     .prologue
     .line 37
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0, p1}, Lcom/kik/android/a/a;->a(ZZ)V
+    invoke-direct {p0, v0, p1}, Lcom/kik/arcane/a/a;->a(ZZ)V
 
     return-void
 .end method
@@ -208,7 +208,7 @@
 
     .line 137
     :goto_0
-    iget-object v3, p0, Lcom/kik/android/a/a;->h:Ljava/util/concurrent/atomic/AtomicBoolean;
+    iget-object v3, p0, Lcom/kik/arcane/a/a;->h:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v3, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->getAndSet(Z)Z
 
@@ -220,7 +220,7 @@
     if-eqz v0, :cond_4
 
     .line 140
-    sget-object v0, Lcom/kik/android/a/a;->c:Ljava/util/concurrent/atomic/AtomicInteger;
+    sget-object v0, Lcom/kik/arcane/a/a;->c:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;->incrementAndGet()I
 
@@ -230,17 +230,17 @@
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 143
-    iget-object v0, p0, Lcom/kik/android/a/a;->e:Landroid/net/wifi/WifiManager$WifiLock;
+    iget-object v0, p0, Lcom/kik/arcane/a/a;->e:Landroid/net/wifi/WifiManager$WifiLock;
 
     if-eqz v0, :cond_0
 
     .line 1186
-    iget-object v0, p0, Lcom/kik/android/a/a;->g:Landroid/net/ConnectivityManager;
+    iget-object v0, p0, Lcom/kik/arcane/a/a;->g:Landroid/net/ConnectivityManager;
 
     if-eqz v0, :cond_3
 
     .line 1189
-    iget-object v0, p0, Lcom/kik/android/a/a;->g:Landroid/net/ConnectivityManager;
+    iget-object v0, p0, Lcom/kik/arcane/a/a;->g:Landroid/net/ConnectivityManager;
 
     invoke-virtual {v0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
 
@@ -266,32 +266,32 @@
     if-eqz v1, :cond_0
 
     .line 144
-    sget-object v0, Lcom/kik/android/a/a;->b:Lorg/slf4j/b;
+    sget-object v0, Lcom/kik/arcane/a/a;->b:Lorg/slf4j/b;
 
     const-string v1, "take wifi"
 
     invoke-interface {v0, v1}, Lorg/slf4j/b;->trace(Ljava/lang/String;)V
 
     .line 145
-    iget-object v0, p0, Lcom/kik/android/a/a;->e:Landroid/net/wifi/WifiManager$WifiLock;
+    iget-object v0, p0, Lcom/kik/arcane/a/a;->e:Landroid/net/wifi/WifiManager$WifiLock;
 
     invoke-virtual {v0}, Landroid/net/wifi/WifiManager$WifiLock;->acquire()V
 
     .line 147
     :cond_0
-    iget-object v0, p0, Lcom/kik/android/a/a;->d:Landroid/os/PowerManager$WakeLock;
+    iget-object v0, p0, Lcom/kik/arcane/a/a;->d:Landroid/os/PowerManager$WakeLock;
 
     if-eqz v0, :cond_1
 
     .line 148
-    sget-object v0, Lcom/kik/android/a/a;->b:Lorg/slf4j/b;
+    sget-object v0, Lcom/kik/arcane/a/a;->b:Lorg/slf4j/b;
 
     const-string v1, "take cpu"
 
     invoke-interface {v0, v1}, Lorg/slf4j/b;->trace(Ljava/lang/String;)V
 
     .line 149
-    iget-object v0, p0, Lcom/kik/android/a/a;->d:Landroid/os/PowerManager$WakeLock;
+    iget-object v0, p0, Lcom/kik/arcane/a/a;->d:Landroid/os/PowerManager$WakeLock;
 
     invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->acquire()V
 
@@ -319,7 +319,7 @@
     if-nez v0, :cond_1
 
     .line 153
-    sget-object v0, Lcom/kik/android/a/a;->c:Ljava/util/concurrent/atomic/AtomicInteger;
+    sget-object v0, Lcom/kik/arcane/a/a;->c:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;->decrementAndGet()I
 
@@ -329,11 +329,11 @@
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 156
-    iget-object v0, p0, Lcom/kik/android/a/a;->e:Landroid/net/wifi/WifiManager$WifiLock;
+    iget-object v0, p0, Lcom/kik/arcane/a/a;->e:Landroid/net/wifi/WifiManager$WifiLock;
 
     if-eqz v0, :cond_5
 
-    iget-object v0, p0, Lcom/kik/android/a/a;->e:Landroid/net/wifi/WifiManager$WifiLock;
+    iget-object v0, p0, Lcom/kik/arcane/a/a;->e:Landroid/net/wifi/WifiManager$WifiLock;
 
     invoke-virtual {v0}, Landroid/net/wifi/WifiManager$WifiLock;->isHeld()Z
 
@@ -342,24 +342,24 @@
     if-eqz v0, :cond_5
 
     .line 157
-    sget-object v0, Lcom/kik/android/a/a;->b:Lorg/slf4j/b;
+    sget-object v0, Lcom/kik/arcane/a/a;->b:Lorg/slf4j/b;
 
     const-string v1, "release wifi"
 
     invoke-interface {v0, v1}, Lorg/slf4j/b;->trace(Ljava/lang/String;)V
 
     .line 158
-    iget-object v0, p0, Lcom/kik/android/a/a;->e:Landroid/net/wifi/WifiManager$WifiLock;
+    iget-object v0, p0, Lcom/kik/arcane/a/a;->e:Landroid/net/wifi/WifiManager$WifiLock;
 
     invoke-virtual {v0}, Landroid/net/wifi/WifiManager$WifiLock;->release()V
 
     .line 160
     :cond_5
-    iget-object v0, p0, Lcom/kik/android/a/a;->d:Landroid/os/PowerManager$WakeLock;
+    iget-object v0, p0, Lcom/kik/arcane/a/a;->d:Landroid/os/PowerManager$WakeLock;
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lcom/kik/android/a/a;->d:Landroid/os/PowerManager$WakeLock;
+    iget-object v0, p0, Lcom/kik/arcane/a/a;->d:Landroid/os/PowerManager$WakeLock;
 
     invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
 
@@ -368,14 +368,14 @@
     if-eqz v0, :cond_1
 
     .line 161
-    sget-object v0, Lcom/kik/android/a/a;->b:Lorg/slf4j/b;
+    sget-object v0, Lcom/kik/arcane/a/a;->b:Lorg/slf4j/b;
 
     const-string v1, "release cpu"
 
     invoke-interface {v0, v1}, Lorg/slf4j/b;->trace(Ljava/lang/String;)V
 
     .line 162
-    iget-object v0, p0, Lcom/kik/android/a/a;->d:Landroid/os/PowerManager$WakeLock;
+    iget-object v0, p0, Lcom/kik/arcane/a/a;->d:Landroid/os/PowerManager$WakeLock;
 
     invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->release()V
 
@@ -387,7 +387,7 @@
 
     .prologue
     .line 37
-    sget-object v0, Lcom/kik/android/a/a;->b:Lorg/slf4j/b;
+    sget-object v0, Lcom/kik/arcane/a/a;->b:Lorg/slf4j/b;
 
     return-object v0
 .end method
@@ -399,16 +399,16 @@
 
     .prologue
     .line 86
-    invoke-virtual {p0}, Lcom/kik/android/a/a;->f()Lcom/kik/events/o;
+    invoke-virtual {p0}, Lcom/kik/arcane/a/a;->f()Lcom/kik/events/o;
 
     move-result-object v0
 
     .line 87
-    sget-object v1, Lcom/kik/android/a/a;->a:Ljava/util/concurrent/ScheduledExecutorService;
+    sget-object v1, Lcom/kik/arcane/a/a;->a:Ljava/util/concurrent/ScheduledExecutorService;
 
-    new-instance v2, Lcom/kik/android/a/a$1;
+    new-instance v2, Lcom/kik/arcane/a/a$1;
 
-    invoke-direct {v2, p0, v0}, Lcom/kik/android/a/a$1;-><init>(Lcom/kik/android/a/a;Lcom/kik/events/o;)V
+    invoke-direct {v2, p0, v0}, Lcom/kik/arcane/a/a$1;-><init>(Lcom/kik/arcane/a/a;Lcom/kik/events/o;)V
 
     sget-object v3, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
@@ -435,26 +435,26 @@
     invoke-virtual {v0, v1}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
     .line 114
-    iget-object v1, p0, Lcom/kik/android/a/a;->j:Landroid/content/Context;
+    iget-object v1, p0, Lcom/kik/arcane/a/a;->j:Landroid/content/Context;
 
     invoke-virtual {v1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
 
-    iget-object v2, p0, Lcom/kik/android/a/a;->k:Landroid/content/BroadcastReceiver;
+    iget-object v2, p0, Lcom/kik/arcane/a/a;->k:Landroid/content/BroadcastReceiver;
 
     invoke-virtual {v1, v2, v0}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
     .line 117
     const/4 v0, 0x1
 
-    iget-object v1, p0, Lcom/kik/android/a/a;->i:Landroid/os/PowerManager;
+    iget-object v1, p0, Lcom/kik/arcane/a/a;->i:Landroid/os/PowerManager;
 
     invoke-virtual {v1}, Landroid/os/PowerManager;->isScreenOn()Z
 
     move-result v1
 
-    invoke-direct {p0, v0, v1}, Lcom/kik/android/a/a;->a(ZZ)V
+    invoke-direct {p0, v0, v1}, Lcom/kik/arcane/a/a;->a(ZZ)V
 
     .line 119
     invoke-super {p0}, Lcom/kik/events/m;->a()V
@@ -471,26 +471,26 @@
     invoke-super {p0}, Lcom/kik/events/m;->b()V
 
     .line 128
-    iget-object v0, p0, Lcom/kik/android/a/a;->j:Landroid/content/Context;
+    iget-object v0, p0, Lcom/kik/arcane/a/a;->j:Landroid/content/Context;
 
     invoke-virtual {v0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/kik/android/a/a;->k:Landroid/content/BroadcastReceiver;
+    iget-object v1, p0, Lcom/kik/arcane/a/a;->k:Landroid/content/BroadcastReceiver;
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
 
     .line 131
     const/4 v0, 0x0
 
-    iget-object v1, p0, Lcom/kik/android/a/a;->i:Landroid/os/PowerManager;
+    iget-object v1, p0, Lcom/kik/arcane/a/a;->i:Landroid/os/PowerManager;
 
     invoke-virtual {v1}, Landroid/os/PowerManager;->isScreenOn()Z
 
     move-result v1
 
-    invoke-direct {p0, v0, v1}, Lcom/kik/android/a/a;->a(ZZ)V
+    invoke-direct {p0, v0, v1}, Lcom/kik/arcane/a/a;->a(ZZ)V
 
     .line 132
     return-void

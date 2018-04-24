@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/fragment/settings/KikPreferenceFragment$a;
-.super Lkik/android/chat/fragment/settings/PreferenceFragment$a;
+.class public final Lkik/arcane/chat/fragment/settings/KikPreferenceFragment$a;
+.super Lkik/arcane/chat/fragment/settings/PreferenceFragment$a;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/settings/KikPreferenceFragment;
+    value = Lkik/arcane/chat/fragment/settings/KikPreferenceFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
 
     .prologue
     .line 169
-    invoke-direct {p0}, Lkik/android/chat/fragment/settings/PreferenceFragment$a;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment$a;-><init>()V
 
     return-void
 .end method

@@ -1,11 +1,11 @@
-.class final Lkik/android/c/d$5;
+.class final Lkik/arcane/c/d$5;
 .super Landroid/os/CountDownTimer;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/c/d;->a(Ljava/lang/String;)V
+    value = Lkik/arcane/c/d;->a(Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/c/d;
+.field final synthetic a:Lkik/arcane/c/d;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/c/d;)V
+.method constructor <init>(Lkik/arcane/c/d;)V
     .locals 4
 
     .prologue
     .line 866
-    iput-object p1, p0, Lkik/android/c/d$5;->a:Lkik/android/c/d;
+    iput-object p1, p0, Lkik/arcane/c/d$5;->a:Lkik/arcane/c/d;
 
     const-wide/16 v0, 0x3a98
 
@@ -42,9 +42,9 @@
 
     .prologue
     .line 877
-    iget-object v0, p0, Lkik/android/c/d$5;->a:Lkik/android/c/d;
+    iget-object v0, p0, Lkik/arcane/c/d$5;->a:Lkik/arcane/c/d;
 
-    invoke-virtual {v0}, Lkik/android/c/d;->b()V
+    invoke-virtual {v0}, Lkik/arcane/c/d;->b()V
 
     .line 878
     return-void
@@ -55,7 +55,7 @@
 
     .prologue
     .line 870
-    iget-object v0, p0, Lkik/android/c/d$5;->a:Lkik/android/c/d;
+    iget-object v0, p0, Lkik/arcane/c/d$5;->a:Lkik/arcane/c/d;
 
     const-wide/16 v2, 0x0
 
@@ -69,22 +69,22 @@
 
     long-to-int v1, v2
 
-    invoke-static {v0, v1}, Lkik/android/c/d;->b(Lkik/android/c/d;I)I
+    invoke-static {v0, v1}, Lkik/arcane/c/d;->b(Lkik/arcane/c/d;I)I
 
     .line 871
-    iget-object v0, p0, Lkik/android/c/d$5;->a:Lkik/android/c/d;
+    iget-object v0, p0, Lkik/arcane/c/d$5;->a:Lkik/arcane/c/d;
 
-    invoke-static {v0}, Lkik/android/c/d;->g(Lkik/android/c/d;)Lkik/android/chat/presentation/n;
+    invoke-static {v0}, Lkik/arcane/c/d;->g(Lkik/arcane/c/d;)Lkik/arcane/chat/presentation/n;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/c/d$5;->a:Lkik/android/c/d;
+    iget-object v1, p0, Lkik/arcane/c/d$5;->a:Lkik/arcane/c/d;
 
-    invoke-static {v1}, Lkik/android/c/d;->f(Lkik/android/c/d;)I
+    invoke-static {v1}, Lkik/arcane/c/d;->f(Lkik/arcane/c/d;)I
 
     move-result v1
 
-    invoke-interface {v0, v1}, Lkik/android/chat/presentation/n;->b(I)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/presentation/n;->b(I)V
 
     .line 872
     return-void

@@ -1,11 +1,11 @@
-.class final Lkik/android/net/communicator/RegistrationIntentService$1;
+.class final Lkik/arcane/net/communicator/RegistrationIntentService$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/net/communicator/RegistrationIntentService;->onHandleIntent(Landroid/content/Intent;)V
+    value = Lkik/arcane/net/communicator/RegistrationIntentService;->onHandleIntent(Landroid/content/Intent;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,18 +26,18 @@
 # instance fields
 .field final synthetic a:Ljava/lang/String;
 
-.field final synthetic b:Lkik/android/net/communicator/RegistrationIntentService;
+.field final synthetic b:Lkik/arcane/net/communicator/RegistrationIntentService;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/net/communicator/RegistrationIntentService;Ljava/lang/String;)V
+.method constructor <init>(Lkik/arcane/net/communicator/RegistrationIntentService;Ljava/lang/String;)V
     .locals 0
 
     .prologue
     .line 57
-    iput-object p1, p0, Lkik/android/net/communicator/RegistrationIntentService$1;->b:Lkik/android/net/communicator/RegistrationIntentService;
+    iput-object p1, p0, Lkik/arcane/net/communicator/RegistrationIntentService$1;->b:Lkik/arcane/net/communicator/RegistrationIntentService;
 
-    iput-object p2, p0, Lkik/android/net/communicator/RegistrationIntentService$1;->a:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/net/communicator/RegistrationIntentService$1;->a:Ljava/lang/String;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -52,13 +52,13 @@
     .prologue
     .line 57
     .line 1061
-    iget-object v0, p0, Lkik/android/net/communicator/RegistrationIntentService$1;->b:Lkik/android/net/communicator/RegistrationIntentService;
+    iget-object v0, p0, Lkik/arcane/net/communicator/RegistrationIntentService$1;->b:Lkik/arcane/net/communicator/RegistrationIntentService;
 
-    iget-object v0, v0, Lkik/android/net/communicator/RegistrationIntentService;->b:Lkik/core/interfaces/ad;
+    iget-object v0, v0, Lkik/arcane/net/communicator/RegistrationIntentService;->b:Lkik/core/interfaces/ad;
 
     const-string v1, "GCM_PUSH_TOKEN"
 
-    iget-object v2, p0, Lkik/android/net/communicator/RegistrationIntentService$1;->a:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/net/communicator/RegistrationIntentService$1;->a:Ljava/lang/String;
 
     invoke-interface {v0, v1, v2}, Lkik/core/interfaces/ad;->c(Ljava/lang/String;Ljava/lang/String;)Z
 
@@ -71,7 +71,7 @@
 
     .prologue
     .line 67
-    invoke-static {p1}, Lkik/android/util/aw;->a(Ljava/lang/Throwable;)V
+    invoke-static {p1}, Lkik/arcane/util/aw;->a(Ljava/lang/Throwable;)V
 
     .line 68
     return-void

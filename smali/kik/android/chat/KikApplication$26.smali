@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/KikApplication$26;
+.class final Lkik/arcane/chat/KikApplication$26;
 .super Lrx/i;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/KikApplication;
+    value = Lkik/arcane/chat/KikApplication;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/KikApplication;
+.field final synthetic a:Lkik/arcane/chat/KikApplication;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/KikApplication;)V
+.method constructor <init>(Lkik/arcane/chat/KikApplication;)V
     .locals 0
 
     .prologue
     .line 2013
-    iput-object p1, p0, Lkik/android/chat/KikApplication$26;->a:Lkik/android/chat/KikApplication;
+    iput-object p1, p0, Lkik/arcane/chat/KikApplication$26;->a:Lkik/arcane/chat/KikApplication;
 
     invoke-direct {p0}, Lrx/i;-><init>()V
 
@@ -50,9 +50,9 @@
     check-cast p1, Lcom/kik/featureconfig/rpc/FeatureConfigService$GetFeatureConfigsResponse;
 
     .line 3017
-    iget-object v0, p0, Lkik/android/chat/KikApplication$26;->a:Lkik/android/chat/KikApplication;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication$26;->a:Lkik/arcane/chat/KikApplication;
 
-    iget-object v0, v0, Lkik/android/chat/KikApplication;->q:Ldagger/a;
+    iget-object v0, v0, Lkik/arcane/chat/KikApplication;->q:Ldagger/a;
 
     invoke-interface {v0}, Ldagger/a;->get()Ljava/lang/Object;
 
@@ -63,13 +63,13 @@
     invoke-interface {v0, p1}, Lcom/kik/core/a/c;->a(Lcom/kik/featureconfig/rpc/FeatureConfigService$GetFeatureConfigsResponse;)V
 
     .line 3018
-    iget-object v0, p0, Lkik/android/chat/KikApplication$26;->a:Lkik/android/chat/KikApplication;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication$26;->a:Lkik/arcane/chat/KikApplication;
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->p(Lkik/android/chat/KikApplication;)Lkik/core/interfaces/ad;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->p(Lkik/arcane/chat/KikApplication;)Lkik/core/interfaces/ad;
 
     move-result-object v0
 
-    const-string v1, "kik.android.chat.KikApplication.LAST_FEATURE_CONFIG_REFRESH"
+    const-string v1, "kik.arcane.chat.KikApplication.LAST_FEATURE_CONFIG_REFRESH"
 
     invoke-static {}, Lkik/core/util/v;->b()J
 

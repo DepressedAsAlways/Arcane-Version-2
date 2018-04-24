@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/presentation/bq$a;
+.class final Lkik/arcane/chat/presentation/bq$a;
 .super Ljava/util/TimerTask;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/presentation/bq;
+    value = Lkik/arcane/chat/presentation/bq;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/view/ad;
+.field private final a:Lkik/arcane/chat/view/ad;
 
 .field private b:I
 
@@ -38,12 +38,12 @@
 
     invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    sput-object v0, Lkik/android/chat/presentation/bq$a;->c:Landroid/os/Handler;
+    sput-object v0, Lkik/arcane/chat/presentation/bq$a;->c:Landroid/os/Handler;
 
     return-void
 .end method
 
-.method public constructor <init>(Lkik/android/chat/view/ad;)V
+.method public constructor <init>(Lkik/arcane/chat/view/ad;)V
     .locals 1
 
     .prologue
@@ -51,33 +51,33 @@
     invoke-direct {p0}, Ljava/util/TimerTask;-><init>()V
 
     .line 91
-    iput-object p1, p0, Lkik/android/chat/presentation/bq$a;->a:Lkik/android/chat/view/ad;
+    iput-object p1, p0, Lkik/arcane/chat/presentation/bq$a;->a:Lkik/arcane/chat/view/ad;
 
     .line 92
     const v0, 0x7f090116
 
-    iput v0, p0, Lkik/android/chat/presentation/bq$a;->b:I
+    iput v0, p0, Lkik/arcane/chat/presentation/bq$a;->b:I
 
     .line 93
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/presentation/bq$a;)I
+.method static synthetic a(Lkik/arcane/chat/presentation/bq$a;)I
     .locals 1
 
     .prologue
     .line 83
-    iget v0, p0, Lkik/android/chat/presentation/bq$a;->b:I
+    iget v0, p0, Lkik/arcane/chat/presentation/bq$a;->b:I
 
     return v0
 .end method
 
-.method static synthetic b(Lkik/android/chat/presentation/bq$a;)Lkik/android/chat/view/ad;
+.method static synthetic b(Lkik/arcane/chat/presentation/bq$a;)Lkik/arcane/chat/view/ad;
     .locals 1
 
     .prologue
     .line 83
-    iget-object v0, p0, Lkik/android/chat/presentation/bq$a;->a:Lkik/android/chat/view/ad;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/bq$a;->a:Lkik/arcane/chat/view/ad;
 
     return-object v0
 .end method
@@ -89,12 +89,12 @@
 
     .prologue
     .line 98
-    iget-object v0, p0, Lkik/android/chat/presentation/bq$a;->a:Lkik/android/chat/view/ad;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/bq$a;->a:Lkik/arcane/chat/view/ad;
 
     if-nez v0, :cond_0
 
     .line 99
-    invoke-virtual {p0}, Lkik/android/chat/presentation/bq$a;->cancel()Z
+    invoke-virtual {p0}, Lkik/arcane/chat/presentation/bq$a;->cancel()Z
 
     .line 109
     :goto_0
@@ -102,11 +102,11 @@
 
     .line 102
     :cond_0
-    sget-object v0, Lkik/android/chat/presentation/bq$a;->c:Landroid/os/Handler;
+    sget-object v0, Lkik/arcane/chat/presentation/bq$a;->c:Landroid/os/Handler;
 
-    new-instance v1, Lkik/android/chat/presentation/bq$a$1;
+    new-instance v1, Lkik/arcane/chat/presentation/bq$a$1;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/presentation/bq$a$1;-><init>(Lkik/android/chat/presentation/bq$a;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/presentation/bq$a$1;-><init>(Lkik/arcane/chat/presentation/bq$a;)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 

@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/gallery/vm/i;
+.class final synthetic Lkik/arcane/gallery/vm/i;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/gallery/vm/i;
+.field private static final a:Lkik/arcane/gallery/vm/i;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/gallery/vm/i;
+    new-instance v0, Lkik/arcane/gallery/vm/i;
 
-    invoke-direct {v0}, Lkik/android/gallery/vm/i;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/gallery/vm/i;-><init>()V
 
-    sput-object v0, Lkik/android/gallery/vm/i;->a:Lkik/android/gallery/vm/i;
+    sput-object v0, Lkik/arcane/gallery/vm/i;->a:Lkik/arcane/gallery/vm/i;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lrx/functions/b;
     .locals 1
 
-    sget-object v0, Lkik/android/gallery/vm/i;->a:Lkik/android/gallery/vm/i;
+    sget-object v0, Lkik/arcane/gallery/vm/i;->a:Lkik/arcane/gallery/vm/i;
 
     return-object v0
 .end method

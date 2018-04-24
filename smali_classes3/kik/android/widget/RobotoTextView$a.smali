@@ -1,11 +1,11 @@
-.class public interface abstract Lkik/android/widget/RobotoTextView$a;
+.class public interface abstract Lkik/arcane/widget/RobotoTextView$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/RobotoTextView;
+    value = Lkik/arcane/widget/RobotoTextView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

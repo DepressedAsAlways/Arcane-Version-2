@@ -1,4 +1,4 @@
-.class public final Lcom/kik/android/stickers/k;
+.class public final Lcom/kik/arcane/stickers/k;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -87,7 +87,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/kik/android/stickers/k;->a:Ljava/util/List;
+    iput-object v0, p0, Lcom/kik/arcane/stickers/k;->a:Ljava/util/List;
 
     .line 34
     const-string v0, "respond_sticker_shuffle"
@@ -130,7 +130,7 @@
 
     .line 47
     :goto_0
-    iget-object v1, p0, Lcom/kik/android/stickers/k;->a:Ljava/util/List;
+    iget-object v1, p0, Lcom/kik/arcane/stickers/k;->a:Ljava/util/List;
 
     new-instance v2, Ljava/util/Random;
 
@@ -175,7 +175,7 @@
 
     .prologue
     .line 55
-    iget-object v0, p0, Lcom/kik/android/stickers/k;->a:Ljava/util/List;
+    iget-object v0, p0, Lcom/kik/arcane/stickers/k;->a:Ljava/util/List;
 
     return-object v0
 .end method

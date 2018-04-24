@@ -1,4 +1,4 @@
-.class final Lkik/android/widget/preferences/DeveloperModePreference$1;
+.class final Lkik/arcane/widget/preferences/DeveloperModePreference$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/preferences/DeveloperModePreference;->onPreferenceChange(Landroid/preference/Preference;Ljava/lang/Object;)Z
+    value = Lkik/arcane/widget/preferences/DeveloperModePreference;->onPreferenceChange(Landroid/preference/Preference;Ljava/lang/Object;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/preferences/DeveloperModePreference;
+.field final synthetic a:Lkik/arcane/widget/preferences/DeveloperModePreference;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/preferences/DeveloperModePreference;)V
+.method constructor <init>(Lkik/arcane/widget/preferences/DeveloperModePreference;)V
     .locals 0
 
     .prologue
     .line 39
-    iput-object p1, p0, Lkik/android/widget/preferences/DeveloperModePreference$1;->a:Lkik/android/widget/preferences/DeveloperModePreference;
+    iput-object p1, p0, Lkik/arcane/widget/preferences/DeveloperModePreference$1;->a:Lkik/arcane/widget/preferences/DeveloperModePreference;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/fragment/PhoneVerificationCountryCodePickerFragment$a;
+.class public final Lkik/arcane/chat/fragment/PhoneVerificationCountryCodePickerFragment$a;
 .super Lcom/kik/ui/fragment/FragmentBase$FragmentBundle;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/PhoneVerificationCountryCodePickerFragment;
+    value = Lkik/arcane/chat/fragment/PhoneVerificationCountryCodePickerFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

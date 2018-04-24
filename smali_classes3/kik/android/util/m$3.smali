@@ -1,14 +1,14 @@
-.class final Lkik/android/util/m$3;
+.class final Lkik/arcane/util/m$3;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/util/m$b;
+.implements Lkik/arcane/util/m$b;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/m;
+    value = Lkik/arcane/util/m;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,7 +35,7 @@
 
     .prologue
     .line 158
-    invoke-static {p1}, Lkik/android/util/bf;->a(Ljava/util/regex/Matcher;)Ljava/lang/String;
+    invoke-static {p1}, Lkik/arcane/util/bf;->a(Ljava/util/regex/Matcher;)Ljava/lang/String;
 
     move-result-object v0
 

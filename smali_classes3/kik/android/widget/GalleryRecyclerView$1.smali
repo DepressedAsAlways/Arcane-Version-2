@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/GalleryRecyclerView$1;
+.class final Lkik/arcane/widget/GalleryRecyclerView$1;
 .super Landroid/support/v7/widget/RecyclerView$ItemDecoration;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/GalleryRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    value = Lkik/arcane/widget/GalleryRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,29 +15,29 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/GalleryRecyclerView;
+.field final synthetic a:Lkik/arcane/widget/GalleryRecyclerView;
 
 .field private final b:I
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/GalleryRecyclerView;)V
+.method constructor <init>(Lkik/arcane/widget/GalleryRecyclerView;)V
     .locals 1
 
     .prologue
     .line 53
-    iput-object p1, p0, Lkik/android/widget/GalleryRecyclerView$1;->a:Lkik/android/widget/GalleryRecyclerView;
+    iput-object p1, p0, Lkik/arcane/widget/GalleryRecyclerView$1;->a:Lkik/arcane/widget/GalleryRecyclerView;
 
     invoke-direct {p0}, Landroid/support/v7/widget/RecyclerView$ItemDecoration;-><init>()V
 
     .line 54
     const/high16 v0, 0x40000000    # 2.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/widget/GalleryRecyclerView$1;->b:I
+    iput v0, p0, Lkik/arcane/widget/GalleryRecyclerView$1;->b:I
 
     return-void
 .end method
@@ -68,12 +68,12 @@
     move-result v3
 
     .line 63
-    iget v0, p0, Lkik/android/widget/GalleryRecyclerView$1;->b:I
+    iget v0, p0, Lkik/arcane/widget/GalleryRecyclerView$1;->b:I
 
     iput v0, p1, Landroid/graphics/Rect;->right:I
 
     .line 64
-    iget v0, p0, Lkik/android/widget/GalleryRecyclerView$1;->b:I
+    iget v0, p0, Lkik/arcane/widget/GalleryRecyclerView$1;->b:I
 
     iput v0, p1, Landroid/graphics/Rect;->bottom:I
 
@@ -82,7 +82,7 @@
 
     if-nez v0, :cond_1
 
-    iget v0, p0, Lkik/android/widget/GalleryRecyclerView$1;->b:I
+    iget v0, p0, Lkik/arcane/widget/GalleryRecyclerView$1;->b:I
 
     :goto_0
     iput v0, p1, Landroid/graphics/Rect;->left:I
@@ -90,7 +90,7 @@
     .line 66
     if-ge v2, v3, :cond_0
 
-    iget v1, p0, Lkik/android/widget/GalleryRecyclerView$1;->b:I
+    iget v1, p0, Lkik/arcane/widget/GalleryRecyclerView$1;->b:I
 
     :cond_0
     iput v1, p1, Landroid/graphics/Rect;->top:I

@@ -1,4 +1,4 @@
-.class public Lkik/android/chat/fragment/KikWelcomeFragment_ViewBinding;
+.class public Lkik/arcane/chat/fragment/KikWelcomeFragment_ViewBinding;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -7,11 +7,11 @@
 
 
 # instance fields
-.field private a:Lkik/android/chat/fragment/KikWelcomeFragment;
+.field private a:Lkik/arcane/chat/fragment/KikWelcomeFragment;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/chat/fragment/KikWelcomeFragment;Landroid/view/View;)V
+.method public constructor <init>(Lkik/arcane/chat/fragment/KikWelcomeFragment;Landroid/view/View;)V
     .locals 3
 
     .prologue
@@ -19,7 +19,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 21
-    iput-object p1, p0, Lkik/android/chat/fragment/KikWelcomeFragment_ViewBinding;->a:Lkik/android/chat/fragment/KikWelcomeFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/KikWelcomeFragment;
 
     .line 23
     const v0, 0x7f1003a7
@@ -34,7 +34,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikWelcomeFragment;->_registerButton:Landroid/widget/TextView;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikWelcomeFragment;->_registerButton:Landroid/widget/TextView;
 
     .line 24
     const v0, 0x7f10033b
@@ -49,7 +49,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikWelcomeFragment;->_loginButton:Landroid/widget/TextView;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikWelcomeFragment;->_loginButton:Landroid/widget/TextView;
 
     .line 25
     const v0, 0x7f10040a
@@ -64,7 +64,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikWelcomeFragment;->_kikLogo:Landroid/widget/ImageView;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikWelcomeFragment;->_kikLogo:Landroid/widget/ImageView;
 
     .line 26
     const v0, 0x7f10040c
@@ -79,7 +79,7 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikWelcomeFragment;->_buttonContainer:Landroid/widget/LinearLayout;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikWelcomeFragment;->_buttonContainer:Landroid/widget/LinearLayout;
 
     .line 27
     return-void
@@ -94,7 +94,7 @@
     const/4 v1, 0x0
 
     .line 32
-    iget-object v0, p0, Lkik/android/chat/fragment/KikWelcomeFragment_ViewBinding;->a:Lkik/android/chat/fragment/KikWelcomeFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/KikWelcomeFragment;
 
     .line 33
     if-nez v0, :cond_0
@@ -109,19 +109,19 @@
 
     .line 34
     :cond_0
-    iput-object v1, p0, Lkik/android/chat/fragment/KikWelcomeFragment_ViewBinding;->a:Lkik/android/chat/fragment/KikWelcomeFragment;
+    iput-object v1, p0, Lkik/arcane/chat/fragment/KikWelcomeFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/KikWelcomeFragment;
 
     .line 36
-    iput-object v1, v0, Lkik/android/chat/fragment/KikWelcomeFragment;->_registerButton:Landroid/widget/TextView;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->_registerButton:Landroid/widget/TextView;
 
     .line 37
-    iput-object v1, v0, Lkik/android/chat/fragment/KikWelcomeFragment;->_loginButton:Landroid/widget/TextView;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->_loginButton:Landroid/widget/TextView;
 
     .line 38
-    iput-object v1, v0, Lkik/android/chat/fragment/KikWelcomeFragment;->_kikLogo:Landroid/widget/ImageView;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->_kikLogo:Landroid/widget/ImageView;
 
     .line 39
-    iput-object v1, v0, Lkik/android/chat/fragment/KikWelcomeFragment;->_buttonContainer:Landroid/widget/LinearLayout;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/KikWelcomeFragment;->_buttonContainer:Landroid/widget/LinearLayout;
 
     .line 40
     return-void

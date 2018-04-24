@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/KikApplication$16;
+.class final Lkik/arcane/chat/KikApplication$16;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/KikApplication;->b(Ljava/lang/String;)V
+    value = Lkik/arcane/chat/KikApplication;->b(Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,7 +27,7 @@
 
     .prologue
     .line 974
-    iput-object p1, p0, Lkik/android/chat/KikApplication$16;->a:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/chat/KikApplication$16;->a:Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,11 +41,11 @@
 
     .prologue
     .line 978
-    invoke-static {}, Lkik/android/chat/KikApplication;->A()Lkik/android/chat/KikApplication;
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->A()Lkik/arcane/chat/KikApplication;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/chat/KikApplication$16;->a:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/chat/KikApplication$16;->a:Ljava/lang/String;
 
     const/4 v2, 0x1
 

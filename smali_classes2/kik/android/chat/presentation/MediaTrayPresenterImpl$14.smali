@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/chat/presentation/MediaTrayPresenterImpl$14;
+.class final synthetic Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$14;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    value = Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,7 +26,7 @@
 
     .prologue
     .line 2166
-    invoke-static {}, Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->values()[Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;
+    invoke-static {}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->values()[Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;
 
     move-result-object v0
 
@@ -34,14 +34,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$14;->b:[I
+    sput-object v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$14;->b:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$14;->b:[I
+    sget-object v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$14;->b:[I
 
-    sget-object v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->ClosedContent:Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;
+    sget-object v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->ClosedContent:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;
 
-    invoke-virtual {v1}, Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->ordinal()I
 
     move-result v1
 
@@ -53,11 +53,11 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$14;->b:[I
+    sget-object v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$14;->b:[I
 
-    sget-object v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->Closed:Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;
+    sget-object v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->Closed:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;
 
-    invoke-virtual {v1}, Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->ordinal()I
 
     move-result v1
 
@@ -69,11 +69,11 @@
 
     :goto_1
     :try_start_2
-    sget-object v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$14;->b:[I
+    sget-object v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$14;->b:[I
 
-    sget-object v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->Open:Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;
+    sget-object v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->Open:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;
 
-    invoke-virtual {v1}, Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->ordinal()I
 
     move-result v1
 
@@ -85,11 +85,11 @@
 
     :goto_2
     :try_start_3
-    sget-object v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$14;->b:[I
+    sget-object v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$14;->b:[I
 
-    sget-object v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->Advanced:Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;
+    sget-object v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->Advanced:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;
 
-    invoke-virtual {v1}, Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->ordinal()I
 
     move-result v1
 
@@ -101,11 +101,11 @@
 
     :goto_3
     :try_start_4
-    sget-object v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$14;->b:[I
+    sget-object v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$14;->b:[I
 
-    sget-object v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->Simple:Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;
+    sget-object v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->Simple:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;
 
-    invoke-virtual {v1}, Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->ordinal()I
 
     move-result v1
 
@@ -117,11 +117,11 @@
 
     :goto_4
     :try_start_5
-    sget-object v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$14;->b:[I
+    sget-object v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$14;->b:[I
 
-    sget-object v1, Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->SuggestedResponse:Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;
+    sget-object v1, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->SuggestedResponse:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;
 
-    invoke-virtual {v1}, Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;->ordinal()I
 
     move-result v1
 
@@ -133,7 +133,7 @@
 
     .line 1549
     :goto_5
-    invoke-static {}, Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;->values()[Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;
+    invoke-static {}, Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;->values()[Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;
 
     move-result-object v0
 
@@ -141,14 +141,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$14;->a:[I
+    sput-object v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$14;->a:[I
 
     :try_start_6
-    sget-object v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$14;->a:[I
+    sget-object v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$14;->a:[I
 
-    sget-object v1, Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;->GIF_BUTTON:Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;
+    sget-object v1, Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;->GIF_BUTTON:Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;
 
-    invoke-virtual {v1}, Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;->ordinal()I
 
     move-result v1
 
@@ -160,11 +160,11 @@
 
     :goto_6
     :try_start_7
-    sget-object v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$14;->a:[I
+    sget-object v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$14;->a:[I
 
-    sget-object v1, Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;->TRAY_OPEN:Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;
+    sget-object v1, Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;->TRAY_OPEN:Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;
 
-    invoke-virtual {v1}, Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;->ordinal()I
 
     move-result v1
 
@@ -176,11 +176,11 @@
 
     :goto_7
     :try_start_8
-    sget-object v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$14;->a:[I
+    sget-object v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$14;->a:[I
 
-    sget-object v1, Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;->GIF_BUTTON_TRENDING:Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;
+    sget-object v1, Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;->GIF_BUTTON_TRENDING:Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;
 
-    invoke-virtual {v1}, Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;->ordinal()I
 
     move-result v1
 

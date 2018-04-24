@@ -1,20 +1,20 @@
-.class public interface abstract Lkik/android/chat/vm/profile/dt;
+.class public interface abstract Lkik/arcane/chat/vm/profile/dt;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/bc;
-.implements Lkik/android/chat/vm/bu;
+.implements Lkik/arcane/chat/vm/bc;
+.implements Lkik/arcane/chat/vm/bu;
 
 
 # virtual methods
-.method public abstract A()Lkik/android/chat/vm/chats/profile/dt;
+.method public abstract A()Lkik/arcane/chat/vm/chats/profile/dt;
 .end method
 
-.method public abstract B()Lkik/android/chat/vm/IBadgeViewModel;
+.method public abstract B()Lkik/arcane/chat/vm/IBadgeViewModel;
 .end method
 
-.method public abstract C()Lkik/android/chat/vm/profile/dp;
+.method public abstract C()Lkik/arcane/chat/vm/profile/dp;
 .end method
 
 .method public abstract K()Lrx/d;
@@ -53,25 +53,25 @@
     .end annotation
 .end method
 
-.method public abstract l()Lkik/android/chat/vm/IListViewModel;
+.method public abstract l()Lkik/arcane/chat/vm/IListViewModel;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkik/android/chat/vm/IListViewModel",
+            "Lkik/arcane/chat/vm/IListViewModel",
             "<",
-            "Lkik/android/chat/vm/profile/do;",
+            "Lkik/arcane/chat/vm/profile/do;",
             ">;"
         }
     .end annotation
 .end method
 
-.method public abstract m()Lkik/android/chat/vm/IListViewModel;
+.method public abstract m()Lkik/arcane/chat/vm/IListViewModel;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lkik/android/chat/vm/IListViewModel",
+            "Lkik/arcane/chat/vm/IListViewModel",
             "<",
-            "Lkik/android/chat/vm/profile/do;",
+            "Lkik/arcane/chat/vm/profile/do;",
             ">;"
         }
     .end annotation
@@ -154,11 +154,11 @@
 .method public abstract v()V
 .end method
 
-.method public abstract x()Lkik/android/chat/vm/chats/profile/dn;
+.method public abstract x()Lkik/arcane/chat/vm/chats/profile/dn;
 .end method
 
-.method public abstract y()Lkik/android/chat/vm/ak;
+.method public abstract y()Lkik/arcane/chat/vm/ak;
 .end method
 
-.method public abstract z()Lkik/android/chat/vm/profile/du;
+.method public abstract z()Lkik/arcane/chat/vm/profile/du;
 .end method

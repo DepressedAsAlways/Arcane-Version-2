@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/preferences/ResetKikPreference$1;
+.class final Lkik/arcane/widget/preferences/ResetKikPreference$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/preferences/ResetKikPreference;
+    value = Lkik/arcane/widget/preferences/ResetKikPreference;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/preferences/ResetKikPreference;
+.field final synthetic a:Lkik/arcane/widget/preferences/ResetKikPreference;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/preferences/ResetKikPreference;)V
+.method constructor <init>(Lkik/arcane/widget/preferences/ResetKikPreference;)V
     .locals 0
 
     .prologue
     .line 108
-    iput-object p1, p0, Lkik/android/widget/preferences/ResetKikPreference$1;->a:Lkik/android/widget/preferences/ResetKikPreference;
+    iput-object p1, p0, Lkik/arcane/widget/preferences/ResetKikPreference$1;->a:Lkik/arcane/widget/preferences/ResetKikPreference;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -47,38 +47,38 @@
 
     .prologue
     .line 112
-    iget-object v0, p0, Lkik/android/widget/preferences/ResetKikPreference$1;->a:Lkik/android/widget/preferences/ResetKikPreference;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/ResetKikPreference$1;->a:Lkik/arcane/widget/preferences/ResetKikPreference;
 
-    iget-object v0, v0, Lkik/android/widget/preferences/ResetKikPreference;->e:Lcom/kik/android/Mixpanel;
+    iget-object v0, v0, Lkik/arcane/widget/preferences/ResetKikPreference;->e:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Log Out Chat List Save Failed"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Network Is Connected"
 
-    iget-object v2, p0, Lkik/android/widget/preferences/ResetKikPreference$1;->a:Lkik/android/widget/preferences/ResetKikPreference;
+    iget-object v2, p0, Lkik/arcane/widget/preferences/ResetKikPreference$1;->a:Lkik/arcane/widget/preferences/ResetKikPreference;
 
-    iget-object v2, v2, Lkik/android/widget/preferences/ResetKikPreference;->f:Lkik/core/interfaces/ICommunication;
+    iget-object v2, v2, Lkik/arcane/widget/preferences/ResetKikPreference;->f:Lkik/core/interfaces/ICommunication;
 
     .line 113
     invoke-interface {v2}, Lkik/core/interfaces/ICommunication;->l()Z
 
     move-result v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 114
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->h()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->h()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 115
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 116
     return-void
@@ -89,9 +89,9 @@
 
     .prologue
     .line 121
-    iget-object v0, p0, Lkik/android/widget/preferences/ResetKikPreference$1;->a:Lkik/android/widget/preferences/ResetKikPreference;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/ResetKikPreference$1;->a:Lkik/arcane/widget/preferences/ResetKikPreference;
 
-    iget-object v0, v0, Lkik/android/widget/preferences/ResetKikPreference;->a:Lkik/core/ICoreEvents;
+    iget-object v0, v0, Lkik/arcane/widget/preferences/ResetKikPreference;->a:Lkik/core/ICoreEvents;
 
     invoke-interface {v0}, Lkik/core/ICoreEvents;->h()V
 

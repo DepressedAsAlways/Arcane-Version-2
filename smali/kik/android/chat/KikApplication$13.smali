@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/KikApplication$13;
+.class final Lkik/arcane/chat/KikApplication$13;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/KikApplication;->B()V
+    value = Lkik/arcane/chat/KikApplication;->B()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/KikApplication;
+.field final synthetic a:Lkik/arcane/chat/KikApplication;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/KikApplication;)V
+.method constructor <init>(Lkik/arcane/chat/KikApplication;)V
     .locals 0
 
     .prologue
     .line 858
-    iput-object p1, p0, Lkik/android/chat/KikApplication$13;->a:Lkik/android/chat/KikApplication;
+    iput-object p1, p0, Lkik/arcane/chat/KikApplication$13;->a:Lkik/arcane/chat/KikApplication;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -50,9 +50,9 @@
     check-cast p1, Ljava/lang/Boolean;
 
     .line 1862
-    iget-object v0, p0, Lkik/android/chat/KikApplication$13;->a:Lkik/android/chat/KikApplication;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication$13;->a:Lkik/arcane/chat/KikApplication;
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->p(Lkik/android/chat/KikApplication;)Lkik/core/interfaces/ad;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->p(Lkik/arcane/chat/KikApplication;)Lkik/core/interfaces/ad;
 
     move-result-object v0
 
@@ -69,13 +69,13 @@
     if-eqz v0, :cond_0
 
     .line 1863
-    iget-object v0, p0, Lkik/android/chat/KikApplication$13;->a:Lkik/android/chat/KikApplication;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication$13;->a:Lkik/arcane/chat/KikApplication;
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->p(Lkik/android/chat/KikApplication;)Lkik/core/interfaces/ad;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->p(Lkik/arcane/chat/KikApplication;)Lkik/core/interfaces/ad;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/bg;->a(Lkik/core/interfaces/ad;)V
+    invoke-static {v0}, Lkik/arcane/util/bg;->a(Lkik/core/interfaces/ad;)V
 
     .line 858
     :cond_0

@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lkik/android/chat/presentation/n;",
+        "Lkik/arcane/chat/presentation/n;",
         ">;"
     }
 .end annotation
@@ -30,7 +30,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -94,7 +94,7 @@
             "Lcom/kik/modules/m;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -191,7 +191,7 @@
             "Lcom/kik/modules/m;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -203,7 +203,7 @@
             ">;)",
             "Ldagger/internal/b",
             "<",
-            "Lkik/android/chat/presentation/n;",
+            "Lkik/arcane/chat/presentation/n;",
             ">;"
         }
     .end annotation
@@ -232,7 +232,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/Mixpanel;
+    check-cast v0, Lcom/kik/arcane/Mixpanel;
 
     iget-object v1, p0, Lcom/kik/modules/n;->d:Ljavax/inject/Provider;
 
@@ -251,9 +251,9 @@
     check-cast v2, Lcom/kik/storage/s;
 
     .line 2023
-    new-instance v3, Lkik/android/chat/presentation/CameraPresenterImpl;
+    new-instance v3, Lkik/arcane/chat/presentation/CameraPresenterImpl;
 
-    invoke-direct {v3, v0, v1, v2}, Lkik/android/chat/presentation/CameraPresenterImpl;-><init>(Lcom/kik/android/Mixpanel;Lkik/core/interfaces/ad;Lcom/kik/storage/s;)V
+    invoke-direct {v3, v0, v1, v2}, Lkik/arcane/chat/presentation/CameraPresenterImpl;-><init>(Lcom/kik/arcane/Mixpanel;Lkik/core/interfaces/ad;Lcom/kik/storage/s;)V
 
     .line 1043
     const-string v0, "Cannot return null from a non-@Nullable @Provides method"
@@ -263,7 +263,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/presentation/n;
+    check-cast v0, Lkik/arcane/chat/presentation/n;
 
     .line 12
     return-object v0

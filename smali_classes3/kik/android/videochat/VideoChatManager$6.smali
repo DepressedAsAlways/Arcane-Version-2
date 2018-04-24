@@ -1,11 +1,11 @@
-.class final Lkik/android/videochat/VideoChatManager$6;
+.class final Lkik/arcane/videochat/VideoChatManager$6;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/videochat/VideoChatManager;->b(Lcom/rounds/kik/conference/LeaveReason;)Lcom/kik/events/Promise;
+    value = Lkik/arcane/videochat/VideoChatManager;->b(Lcom/rounds/kik/conference/LeaveReason;)Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/videochat/VideoChatManager;
+.field final synthetic a:Lkik/arcane/videochat/VideoChatManager;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/videochat/VideoChatManager;)V
+.method constructor <init>(Lkik/arcane/videochat/VideoChatManager;)V
     .locals 0
 
     .prologue
     .line 600
-    iput-object p1, p0, Lkik/android/videochat/VideoChatManager$6;->a:Lkik/android/videochat/VideoChatManager;
+    iput-object p1, p0, Lkik/arcane/videochat/VideoChatManager$6;->a:Lkik/arcane/videochat/VideoChatManager;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -47,18 +47,18 @@
 
     .prologue
     .line 604
-    iget-object v0, p0, Lkik/android/videochat/VideoChatManager$6;->a:Lkik/android/videochat/VideoChatManager;
+    iget-object v0, p0, Lkik/arcane/videochat/VideoChatManager$6;->a:Lkik/arcane/videochat/VideoChatManager;
 
-    invoke-static {v0}, Lkik/android/videochat/VideoChatManager;->g(Lkik/android/videochat/VideoChatManager;)Lcom/rounds/kik/VideoController;
+    invoke-static {v0}, Lkik/arcane/videochat/VideoChatManager;->g(Lkik/arcane/videochat/VideoChatManager;)Lcom/rounds/kik/VideoController;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
     .line 605
-    iget-object v0, p0, Lkik/android/videochat/VideoChatManager$6;->a:Lkik/android/videochat/VideoChatManager;
+    iget-object v0, p0, Lkik/arcane/videochat/VideoChatManager$6;->a:Lkik/arcane/videochat/VideoChatManager;
 
-    invoke-static {v0}, Lkik/android/videochat/VideoChatManager;->g(Lkik/android/videochat/VideoChatManager;)Lcom/rounds/kik/VideoController;
+    invoke-static {v0}, Lkik/arcane/videochat/VideoChatManager;->g(Lkik/arcane/videochat/VideoChatManager;)Lcom/rounds/kik/VideoController;
 
     move-result-object v0
 

@@ -1,4 +1,4 @@
-.class public final Lkik/android/gifs/api/d;
+.class public final Lkik/arcane/gifs/api/d;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -9,7 +9,7 @@
         value = {
             "Ljava/util/List",
             "<",
-            "Lkik/android/gifs/api/GifResponseData;",
+            "Lkik/arcane/gifs/api/GifResponseData;",
             ">;"
         }
     .end annotation
@@ -26,7 +26,7 @@
             "(",
             "Ljava/util/List",
             "<",
-            "Lkik/android/gifs/api/GifResponseData;",
+            "Lkik/arcane/gifs/api/GifResponseData;",
             ">;",
             "Ljava/lang/String;",
             ")V"
@@ -38,10 +38,10 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 16
-    iput-object p1, p0, Lkik/android/gifs/api/d;->a:Ljava/util/List;
+    iput-object p1, p0, Lkik/arcane/gifs/api/d;->a:Ljava/util/List;
 
     .line 17
-    iput-object p2, p0, Lkik/android/gifs/api/d;->b:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/gifs/api/d;->b:Ljava/lang/String;
 
     .line 18
     return-void
@@ -56,14 +56,14 @@
             "()",
             "Ljava/util/List",
             "<",
-            "Lkik/android/gifs/api/GifResponseData;",
+            "Lkik/arcane/gifs/api/GifResponseData;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 22
-    iget-object v0, p0, Lkik/android/gifs/api/d;->a:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/gifs/api/d;->a:Ljava/util/List;
 
     return-object v0
 .end method
@@ -73,7 +73,7 @@
 
     .prologue
     .line 27
-    iget-object v0, p0, Lkik/android/gifs/api/d;->b:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/gifs/api/d;->b:Ljava/lang/String;
 
     return-object v0
 .end method

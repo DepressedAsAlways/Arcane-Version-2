@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lkik/android/chat/service/BatteryChangeReceiver;",
+        "Lkik/arcane/chat/service/BatteryChangeReceiver;",
         ">;"
     }
 .end annotation
@@ -90,7 +90,7 @@
             ")",
             "Ldagger/internal/b",
             "<",
-            "Lkik/android/chat/service/BatteryChangeReceiver;",
+            "Lkik/arcane/chat/service/BatteryChangeReceiver;",
             ">;"
         }
     .end annotation
@@ -111,9 +111,9 @@
 
     .prologue
     .line 2021
-    new-instance v0, Lkik/android/chat/service/BatteryChangeReceiver;
+    new-instance v0, Lkik/arcane/chat/service/BatteryChangeReceiver;
 
-    invoke-direct {v0}, Lkik/android/chat/service/BatteryChangeReceiver;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/service/BatteryChangeReceiver;-><init>()V
 
     .line 1025
     const-string v1, "Cannot return null from a non-@Nullable @Provides method"
@@ -123,7 +123,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/service/BatteryChangeReceiver;
+    check-cast v0, Lkik/arcane/chat/service/BatteryChangeReceiver;
 
     .line 8
     return-object v0

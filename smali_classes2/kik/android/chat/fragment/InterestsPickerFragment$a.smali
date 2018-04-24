@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/fragment/InterestsPickerFragment$a;
+.class public final Lkik/arcane/chat/fragment/InterestsPickerFragment$a;
 .super Lcom/kik/ui/fragment/FragmentBase$FragmentBundle;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/InterestsPickerFragment;
+    value = Lkik/arcane/chat/fragment/InterestsPickerFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -41,9 +41,9 @@
 
     .prologue
     .line 108
-    const-string v0, "kik.android.chat.fragment.InterestsPickerFragment.SelectedInterests"
+    const-string v0, "kik.arcane.chat.fragment.InterestsPickerFragment.SelectedInterests"
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/InterestsPickerFragment$a;->k(Ljava/lang/String;)Ljava/util/ArrayList;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/InterestsPickerFragment$a;->k(Ljava/lang/String;)Ljava/util/ArrayList;
 
     move-result-object v0
 
@@ -91,7 +91,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v3}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -101,7 +101,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v3}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v3
 

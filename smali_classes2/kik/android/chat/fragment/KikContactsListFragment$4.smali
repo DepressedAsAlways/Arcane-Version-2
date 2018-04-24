@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/KikContactsListFragment$4;
+.class final Lkik/arcane/chat/fragment/KikContactsListFragment$4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/KikContactsListFragment;->onCreate(Landroid/os/Bundle;)V
+    value = Lkik/arcane/chat/fragment/KikContactsListFragment;->onCreate(Landroid/os/Bundle;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikContactsListFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikContactsListFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikContactsListFragment;)V
     .locals 0
 
     .prologue
     .line 230
-    iput-object p1, p0, Lkik/android/chat/fragment/KikContactsListFragment$4;->a:Lkik/android/chat/fragment/KikContactsListFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$4;->a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,9 +52,9 @@
     .prologue
     .line 230
     .line 1234
-    iget-object v0, p0, Lkik/android/chat/fragment/KikContactsListFragment$4;->a:Lkik/android/chat/fragment/KikContactsListFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$4;->a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/KikContactsListFragment;->a(Lkik/android/chat/fragment/KikContactsListFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/KikContactsListFragment;->a(Lkik/arcane/chat/fragment/KikContactsListFragment;)V
 
     .line 230
     return-void

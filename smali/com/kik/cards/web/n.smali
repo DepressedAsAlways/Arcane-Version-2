@@ -49,17 +49,17 @@
     .end annotation
 .end field
 
-.field protected i:Lkik/android/util/aj;
+.field protected i:Lkik/arcane/util/aj;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
 
-.field protected j:Lcom/kik/android/b/g;
+.field protected j:Lcom/kik/arcane/b/g;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
 
-.field protected k:Lcom/kik/android/Mixpanel;
+.field protected k:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -92,7 +92,7 @@
     .end annotation
 .end field
 
-.field private final n:Lkik/android/chat/vm/bd;
+.field private final n:Lkik/arcane/chat/vm/bd;
 
 .field private final o:Landroid/app/Activity;
 
@@ -104,7 +104,7 @@
 
 .field private final s:Lcom/kik/cards/web/b;
 
-.field private final t:Lkik/android/b/g;
+.field private final t:Lkik/arcane/b/g;
 
 .field private final u:Lcom/kik/cards/web/WebViewBrowserMetadataPlugin;
 
@@ -127,7 +127,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/kik/components/CoreComponent;Landroid/app/Activity;Landroid/webkit/WebView;Lcom/kik/cards/web/browser/BrowserPlugin$a;Lcom/kik/cards/web/b;Lcom/kik/cards/web/picker/PickerRequest;Ljava/lang/String;Lcom/kik/cards/web/r;Lcom/kik/cards/web/f;Lkik/android/chat/vm/bd;)V
+.method public constructor <init>(Lcom/kik/components/CoreComponent;Landroid/app/Activity;Landroid/webkit/WebView;Lcom/kik/cards/web/browser/BrowserPlugin$a;Lcom/kik/cards/web/b;Lcom/kik/cards/web/picker/PickerRequest;Ljava/lang/String;Lcom/kik/cards/web/r;Lcom/kik/cards/web/f;Lkik/arcane/chat/vm/bd;)V
     .locals 7
 
     .prologue
@@ -147,7 +147,7 @@
     .line 120
     move-object/from16 v0, p10
 
-    iput-object v0, p0, Lcom/kik/cards/web/n;->n:Lkik/android/chat/vm/bd;
+    iput-object v0, p0, Lcom/kik/cards/web/n;->n:Lkik/arcane/chat/vm/bd;
 
     .line 121
     iput-object p2, p0, Lcom/kik/cards/web/n;->o:Landroid/app/Activity;
@@ -167,13 +167,13 @@
     iput-object p5, p0, Lcom/kik/cards/web/n;->s:Lcom/kik/cards/web/b;
 
     .line 126
-    new-instance v1, Lkik/android/b/g;
+    new-instance v1, Lkik/arcane/b/g;
 
     iget-object v2, p0, Lcom/kik/cards/web/n;->c:Lkik/core/e/d;
 
-    invoke-direct {v1, v2}, Lkik/android/b/g;-><init>(Lkik/core/e/f;)V
+    invoke-direct {v1, v2}, Lkik/arcane/b/g;-><init>(Lkik/core/e/f;)V
 
-    iput-object v1, p0, Lcom/kik/cards/web/n;->t:Lkik/android/b/g;
+    iput-object v1, p0, Lcom/kik/cards/web/n;->t:Lkik/arcane/b/g;
 
     .line 128
     new-instance v1, Lcom/kik/cards/web/WebViewBrowserMetadataPlugin;
@@ -227,13 +227,13 @@
     .line 1151
     new-instance v1, Lcom/kik/cards/web/auth/AuthPlugin;
 
-    iget-object v2, p0, Lcom/kik/cards/web/n;->t:Lkik/android/b/g;
+    iget-object v2, p0, Lcom/kik/cards/web/n;->t:Lkik/arcane/b/g;
 
     iget-object v3, p0, Lcom/kik/cards/web/n;->d:Lkik/core/interfaces/e;
 
     iget-object v4, p0, Lcom/kik/cards/web/n;->q:Lcom/kik/cards/web/browser/BrowserPlugin$a;
 
-    invoke-direct {v1, p0, v2, v3, v4}, Lcom/kik/cards/web/auth/AuthPlugin;-><init>(Lcom/kik/cards/web/userdata/a;Lkik/android/b/g;Lkik/core/interfaces/e;Lcom/kik/cards/web/browser/BrowserPlugin$a;)V
+    invoke-direct {v1, p0, v2, v3, v4}, Lcom/kik/cards/web/auth/AuthPlugin;-><init>(Lcom/kik/cards/web/userdata/a;Lkik/arcane/b/g;Lkik/core/interfaces/e;Lcom/kik/cards/web/browser/BrowserPlugin$a;)V
 
     invoke-direct {p0, v1}, Lcom/kik/cards/web/n;->a(Lcom/kik/cards/web/plugin/BridgePlugin;)V
 
@@ -295,7 +295,7 @@
     invoke-direct {p0, v1}, Lcom/kik/cards/web/n;->a(Lcom/kik/cards/web/plugin/BridgePlugin;)V
 
     .line 1163
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v1
 
@@ -304,9 +304,9 @@
     .line 1164
     new-instance v1, Lcom/kik/cards/web/config/ConfigurationPlugin;
 
-    iget-object v2, p0, Lcom/kik/cards/web/n;->i:Lkik/android/util/aj;
+    iget-object v2, p0, Lcom/kik/cards/web/n;->i:Lkik/arcane/util/aj;
 
-    invoke-direct {v1, p0, v2}, Lcom/kik/cards/web/config/ConfigurationPlugin;-><init>(Lcom/kik/cards/web/config/a;Lkik/android/util/aj;)V
+    invoke-direct {v1, p0, v2}, Lcom/kik/cards/web/config/ConfigurationPlugin;-><init>(Lcom/kik/cards/web/config/a;Lkik/arcane/util/aj;)V
 
     invoke-direct {p0, v1}, Lcom/kik/cards/web/n;->a(Lcom/kik/cards/web/plugin/BridgePlugin;)V
 
@@ -321,17 +321,17 @@
 
     .line 1168
     :cond_0
-    new-instance v1, Lcom/kik/android/stickers/StickerPlugin;
+    new-instance v1, Lcom/kik/arcane/stickers/StickerPlugin;
 
     iget-object v2, p0, Lcom/kik/cards/web/n;->f:Lkik/core/interfaces/ab;
 
-    iget-object v3, p0, Lcom/kik/cards/web/n;->k:Lcom/kik/android/Mixpanel;
+    iget-object v3, p0, Lcom/kik/cards/web/n;->k:Lcom/kik/arcane/Mixpanel;
 
-    iget-object v4, p0, Lcom/kik/cards/web/n;->n:Lkik/android/chat/vm/bd;
+    iget-object v4, p0, Lcom/kik/cards/web/n;->n:Lkik/arcane/chat/vm/bd;
 
-    iget-object v5, p0, Lcom/kik/cards/web/n;->j:Lcom/kik/android/b/g;
+    iget-object v5, p0, Lcom/kik/cards/web/n;->j:Lcom/kik/arcane/b/g;
 
-    invoke-direct {v1, v2, v3, v4, v5}, Lcom/kik/android/stickers/StickerPlugin;-><init>(Lkik/core/interfaces/ab;Lcom/kik/android/Mixpanel;Lkik/android/chat/vm/bd;Lcom/kik/android/b/g;)V
+    invoke-direct {v1, v2, v3, v4, v5}, Lcom/kik/arcane/stickers/StickerPlugin;-><init>(Lkik/core/interfaces/ab;Lcom/kik/arcane/Mixpanel;Lkik/arcane/chat/vm/bd;Lcom/kik/arcane/b/g;)V
 
     invoke-direct {p0, v1}, Lcom/kik/cards/web/n;->a(Lcom/kik/cards/web/plugin/BridgePlugin;)V
 
@@ -383,7 +383,7 @@
 
     .prologue
     .line 232
-    new-instance v0, Lkik/android/b/d;
+    new-instance v0, Lkik/arcane/b/d;
 
     iget-object v1, p0, Lcom/kik/cards/web/n;->o:Landroid/app/Activity;
 
@@ -397,7 +397,7 @@
 
     move-object v4, p1
 
-    invoke-direct/range {v0 .. v6}, Lkik/android/b/d;-><init>(Landroid/app/Activity;Lcom/kik/cards/web/r;Lcom/kik/cards/web/f;Lkik/core/interfaces/v;Lcom/kik/cards/web/h;Lcom/kik/cards/web/b;)V
+    invoke-direct/range {v0 .. v6}, Lkik/arcane/b/d;-><init>(Landroid/app/Activity;Lcom/kik/cards/web/r;Lcom/kik/cards/web/f;Lkik/core/interfaces/v;Lcom/kik/cards/web/h;Lcom/kik/cards/web/b;)V
 
     return-object v0
 .end method
@@ -425,11 +425,11 @@
 
     check-cast v1, Lcom/kik/core/domain/b/b;
 
-    invoke-static {}, Lkik/android/config/c;->c()Lkik/android/config/b;
+    invoke-static {}, Lkik/arcane/config/c;->c()Lkik/arcane/config/b;
 
     move-result-object v3
 
-    invoke-direct {v2, v0, v1, v3}, Lcom/kik/cards/web/kin/KinPlugin;-><init>(Lcom/kik/core/domain/b/a;Lcom/kik/core/domain/b/b;Lkik/android/config/b;)V
+    invoke-direct {v2, v0, v1, v3}, Lcom/kik/cards/web/kin/KinPlugin;-><init>(Lcom/kik/core/domain/b/a;Lcom/kik/core/domain/b/b;Lkik/arcane/config/b;)V
 
     invoke-direct {p0, v2}, Lcom/kik/cards/web/n;->a(Lcom/kik/cards/web/plugin/BridgePlugin;)V
 
@@ -540,7 +540,7 @@
 
     iget-object v4, p0, Lcom/kik/cards/web/n;->v:Lcom/kik/cards/web/picker/PickerPlugin;
 
-    iget-object v5, p0, Lcom/kik/cards/web/n;->j:Lcom/kik/android/b/g;
+    iget-object v5, p0, Lcom/kik/cards/web/n;->j:Lcom/kik/arcane/b/g;
 
     iget-object v7, p0, Lcom/kik/cards/web/n;->a:Lkik/core/interfaces/v;
 
@@ -548,7 +548,7 @@
 
     move-object v6, p1
 
-    invoke-direct/range {v0 .. v7}, Lcom/kik/cards/web/kik/KikPlugin;-><init>(Lcom/kik/cards/web/h;Lcom/kik/cards/web/kik/a;Lcom/kik/cards/web/browser/BrowserPlugin$a;Lcom/kik/cards/web/picker/PickerPlugin;Lcom/kik/android/b/g;Ljava/lang/String;Lkik/core/interfaces/v;)V
+    invoke-direct/range {v0 .. v7}, Lcom/kik/cards/web/kik/KikPlugin;-><init>(Lcom/kik/cards/web/h;Lcom/kik/cards/web/kik/a;Lcom/kik/cards/web/browser/BrowserPlugin$a;Lcom/kik/cards/web/picker/PickerPlugin;Lcom/kik/arcane/b/g;Ljava/lang/String;Lkik/core/interfaces/v;)V
 
     invoke-direct {p0, v0}, Lcom/kik/cards/web/n;->a(Lcom/kik/cards/web/plugin/BridgePlugin;)V
 
@@ -612,7 +612,7 @@
 
     .prologue
     .line 238
-    new-instance v0, Lkik/android/b/e;
+    new-instance v0, Lkik/arcane/b/e;
 
     iget-object v1, p0, Lcom/kik/cards/web/n;->o:Landroid/app/Activity;
 
@@ -620,7 +620,7 @@
 
     iget-object v3, p0, Lcom/kik/cards/web/n;->p:Lcom/kik/cards/web/r;
 
-    iget-object v4, p0, Lcom/kik/cards/web/n;->t:Lkik/android/b/g;
+    iget-object v4, p0, Lcom/kik/cards/web/n;->t:Lkik/arcane/b/g;
 
     iget-object v5, p0, Lcom/kik/cards/web/n;->u:Lcom/kik/cards/web/WebViewBrowserMetadataPlugin;
 
@@ -630,7 +630,7 @@
 
     move-result-object v6
 
-    invoke-direct/range {v0 .. v6}, Lkik/android/b/e;-><init>(Landroid/app/Activity;Lcom/kik/cards/web/b;Lcom/kik/cards/web/r;Lkik/android/b/g;Lcom/kik/cards/web/h;Lkik/core/datatypes/aa;)V
+    invoke-direct/range {v0 .. v6}, Lkik/arcane/b/e;-><init>(Landroid/app/Activity;Lcom/kik/cards/web/b;Lcom/kik/cards/web/r;Lkik/arcane/b/g;Lcom/kik/cards/web/h;Lkik/core/datatypes/aa;)V
 
     return-object v0
 .end method
@@ -658,12 +658,12 @@
     return v0
 .end method
 
-.method public final c()Lkik/android/config/b;
+.method public final c()Lkik/arcane/config/b;
     .locals 1
 
     .prologue
     .line 244
-    invoke-static {}, Lkik/android/config/c;->c()Lkik/android/config/b;
+    invoke-static {}, Lkik/arcane/config/c;->c()Lkik/arcane/config/b;
 
     move-result-object v0
 

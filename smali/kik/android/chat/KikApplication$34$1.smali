@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/KikApplication$34$1;
+.class final Lkik/arcane/chat/KikApplication$34$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/KikApplication$34;
+    value = Lkik/arcane/chat/KikApplication$34;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,24 +26,24 @@
 
 .field final synthetic d:Z
 
-.field final synthetic e:Lkik/android/chat/KikApplication$34;
+.field final synthetic e:Lkik/arcane/chat/KikApplication$34;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/KikApplication$34;Lkik/core/datatypes/f;Lkik/core/datatypes/Message;ZZ)V
+.method constructor <init>(Lkik/arcane/chat/KikApplication$34;Lkik/core/datatypes/f;Lkik/core/datatypes/Message;ZZ)V
     .locals 0
 
     .prologue
     .line 640
-    iput-object p1, p0, Lkik/android/chat/KikApplication$34$1;->e:Lkik/android/chat/KikApplication$34;
+    iput-object p1, p0, Lkik/arcane/chat/KikApplication$34$1;->e:Lkik/arcane/chat/KikApplication$34;
 
-    iput-object p2, p0, Lkik/android/chat/KikApplication$34$1;->a:Lkik/core/datatypes/f;
+    iput-object p2, p0, Lkik/arcane/chat/KikApplication$34$1;->a:Lkik/core/datatypes/f;
 
-    iput-object p3, p0, Lkik/android/chat/KikApplication$34$1;->b:Lkik/core/datatypes/Message;
+    iput-object p3, p0, Lkik/arcane/chat/KikApplication$34$1;->b:Lkik/core/datatypes/Message;
 
-    iput-boolean p4, p0, Lkik/android/chat/KikApplication$34$1;->c:Z
+    iput-boolean p4, p0, Lkik/arcane/chat/KikApplication$34$1;->c:Z
 
-    iput-boolean p5, p0, Lkik/android/chat/KikApplication$34$1;->d:Z
+    iput-boolean p5, p0, Lkik/arcane/chat/KikApplication$34$1;->d:Z
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -57,7 +57,7 @@
 
     .prologue
     .line 644
-    iget-object v0, p0, Lkik/android/chat/KikApplication$34$1;->a:Lkik/core/datatypes/f;
+    iget-object v0, p0, Lkik/arcane/chat/KikApplication$34$1;->a:Lkik/core/datatypes/f;
 
     invoke-virtual {v0}, Lkik/core/datatypes/f;->y()Z
 
@@ -66,17 +66,17 @@
     if-eqz v0, :cond_0
 
     .line 645
-    invoke-static {}, Lkik/android/chat/KikApplication;->z()Lkik/android/KikNotificationHandler;
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->z()Lkik/arcane/KikNotificationHandler;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/chat/KikApplication$34$1;->b:Lkik/core/datatypes/Message;
+    iget-object v1, p0, Lkik/arcane/chat/KikApplication$34$1;->b:Lkik/core/datatypes/Message;
 
-    iget-boolean v2, p0, Lkik/android/chat/KikApplication$34$1;->c:Z
+    iget-boolean v2, p0, Lkik/arcane/chat/KikApplication$34$1;->c:Z
 
-    iget-boolean v3, p0, Lkik/android/chat/KikApplication$34$1;->d:Z
+    iget-boolean v3, p0, Lkik/arcane/chat/KikApplication$34$1;->d:Z
 
-    invoke-virtual {v0, v1, v2, v3}, Lkik/android/KikNotificationHandler;->a(Lkik/core/datatypes/Message;ZZ)V
+    invoke-virtual {v0, v1, v2, v3}, Lkik/arcane/KikNotificationHandler;->a(Lkik/core/datatypes/Message;ZZ)V
 
     .line 647
     :cond_0

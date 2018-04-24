@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/vm/profile/ax$1;
+.class final Lkik/arcane/chat/vm/profile/ax$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/profile/ax;
+    value = Lkik/arcane/chat/vm/profile/ax;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/profile/ax;
+.field final synthetic a:Lkik/arcane/chat/vm/profile/ax;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/profile/ax;)V
+.method constructor <init>(Lkik/arcane/chat/vm/profile/ax;)V
     .locals 0
 
     .prologue
     .line 220
-    iput-object p1, p0, Lkik/android/chat/vm/profile/ax$1;->a:Lkik/android/chat/vm/profile/ax;
+    iput-object p1, p0, Lkik/arcane/chat/vm/profile/ax$1;->a:Lkik/arcane/chat/vm/profile/ax;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -58,9 +58,9 @@
 
     .prologue
     .line 230
-    iget-object v0, p0, Lkik/android/chat/vm/profile/ax$1;->a:Lkik/android/chat/vm/profile/ax;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/ax$1;->a:Lkik/arcane/chat/vm/profile/ax;
 
-    invoke-static {v0}, Lkik/android/chat/vm/profile/ax;->c(Lkik/android/chat/vm/profile/ax;)Landroid/content/res/Resources;
+    invoke-static {v0}, Lkik/arcane/chat/vm/profile/ax;->c(Lkik/arcane/chat/vm/profile/ax;)Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -100,7 +100,7 @@
 
     .prologue
     .line 224
-    invoke-direct {p0}, Lkik/android/chat/vm/profile/ax$1;->a()Lrx/d;
+    invoke-direct {p0}, Lkik/arcane/chat/vm/profile/ax$1;->a()Lrx/d;
 
     move-result-object v0
 
@@ -112,7 +112,7 @@
 
     .prologue
     .line 220
-    invoke-direct {p0}, Lkik/android/chat/vm/profile/ax$1;->a()Lrx/d;
+    invoke-direct {p0}, Lkik/arcane/chat/vm/profile/ax$1;->a()Lrx/d;
 
     move-result-object v0
 

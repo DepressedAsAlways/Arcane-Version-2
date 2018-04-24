@@ -1,11 +1,11 @@
-.class public final Lkik/android/util/ca$c;
+.class public final Lkik/arcane/util/ca$c;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/ca;
+    value = Lkik/arcane/util/ca;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -33,16 +33,16 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 460
-    iput-object p1, p0, Lkik/android/util/ca$c;->a:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/util/ca$c;->a:Ljava/lang/String;
 
     .line 461
-    iput-object p2, p0, Lkik/android/util/ca$c;->b:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/util/ca$c;->b:Ljava/lang/String;
 
     .line 462
-    iput-object p3, p0, Lkik/android/util/ca$c;->c:Landroid/graphics/Bitmap;
+    iput-object p3, p0, Lkik/arcane/util/ca$c;->c:Landroid/graphics/Bitmap;
 
     .line 463
-    iput-object p4, p0, Lkik/android/util/ca$c;->d:Lcom/kik/contentlink/model/attachments/ContentUri;
+    iput-object p4, p0, Lkik/arcane/util/ca$c;->d:Lcom/kik/contentlink/model/attachments/ContentUri;
 
     .line 464
     return-void
@@ -55,7 +55,7 @@
 
     .prologue
     .line 468
-    iget-object v0, p0, Lkik/android/util/ca$c;->d:Lcom/kik/contentlink/model/attachments/ContentUri;
+    iget-object v0, p0, Lkik/arcane/util/ca$c;->d:Lcom/kik/contentlink/model/attachments/ContentUri;
 
     return-object v0
 .end method
@@ -65,7 +65,7 @@
 
     .prologue
     .line 473
-    iget-object v0, p0, Lkik/android/util/ca$c;->a:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/util/ca$c;->a:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -75,7 +75,7 @@
 
     .prologue
     .line 483
-    iget-object v0, p0, Lkik/android/util/ca$c;->c:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/util/ca$c;->c:Landroid/graphics/Bitmap;
 
     return-object v0
 .end method
@@ -85,7 +85,7 @@
 
     .prologue
     .line 493
-    iget-object v0, p0, Lkik/android/util/ca$c;->b:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/util/ca$c;->b:Ljava/lang/String;
 
     return-object v0
 .end method

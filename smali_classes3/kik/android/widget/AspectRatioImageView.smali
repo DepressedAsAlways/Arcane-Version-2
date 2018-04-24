@@ -1,9 +1,9 @@
-.class public Lkik/android/widget/AspectRatioImageView;
+.class public Lkik/arcane/widget/AspectRatioImageView;
 .super Landroid/support/v7/widget/AppCompatImageView;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/widget/a;
+.implements Lkik/arcane/widget/a;
 
 
 # instance fields
@@ -20,7 +20,7 @@
     .line 15
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/AspectRatioImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/AspectRatioImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 16
     return-void
@@ -33,7 +33,7 @@
     .line 20
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/AspectRatioImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/AspectRatioImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 21
     return-void
@@ -49,10 +49,10 @@
     invoke-direct {p0, p1, p2, p3}, Landroid/support/v7/widget/AppCompatImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 10
-    iput v0, p0, Lkik/android/widget/AspectRatioImageView;->a:I
+    iput v0, p0, Lkik/arcane/widget/AspectRatioImageView;->a:I
 
     .line 11
-    iput v0, p0, Lkik/android/widget/AspectRatioImageView;->b:I
+    iput v0, p0, Lkik/arcane/widget/AspectRatioImageView;->b:I
 
     .line 26
     return-void
@@ -65,10 +65,10 @@
 
     .prologue
     .line 30
-    iput p2, p0, Lkik/android/widget/AspectRatioImageView;->b:I
+    iput p2, p0, Lkik/arcane/widget/AspectRatioImageView;->b:I
 
     .line 31
-    iput p1, p0, Lkik/android/widget/AspectRatioImageView;->a:I
+    iput p1, p0, Lkik/arcane/widget/AspectRatioImageView;->a:I
 
     .line 32
     return-void
@@ -89,20 +89,20 @@
     move-result v0
 
     .line 45
-    iget v2, p0, Lkik/android/widget/AspectRatioImageView;->a:I
+    iget v2, p0, Lkik/arcane/widget/AspectRatioImageView;->a:I
 
     if-ltz v2, :cond_1
 
-    iget v2, p0, Lkik/android/widget/AspectRatioImageView;->b:I
+    iget v2, p0, Lkik/arcane/widget/AspectRatioImageView;->b:I
 
     if-ltz v2, :cond_1
 
     .line 46
-    iget v2, p0, Lkik/android/widget/AspectRatioImageView;->a:I
+    iget v2, p0, Lkik/arcane/widget/AspectRatioImageView;->a:I
 
     int-to-float v2, v2
 
-    iget v3, p0, Lkik/android/widget/AspectRatioImageView;->b:I
+    iget v3, p0, Lkik/arcane/widget/AspectRatioImageView;->b:I
 
     int-to-float v3, v3
 
@@ -135,7 +135,7 @@
 
     .line 54
     :goto_0
-    invoke-virtual {p0, v1, v0}, Lkik/android/widget/AspectRatioImageView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v1, v0}, Lkik/arcane/widget/AspectRatioImageView;->setMeasuredDimension(II)V
 
     .line 59
     :goto_1

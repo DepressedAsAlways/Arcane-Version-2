@@ -1,14 +1,14 @@
-.class final Lkik/android/chat/vm/messaging/AbstractMessageViewModel$2$1;
+.class final Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$2$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/bi;
+.implements Lkik/arcane/chat/vm/bi;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/messaging/AbstractMessageViewModel$2;
+    value = Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$2;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Ljava/lang/Boolean;
 
-.field final synthetic b:Lkik/android/chat/vm/messaging/AbstractMessageViewModel$2;
+.field final synthetic b:Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$2;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/messaging/AbstractMessageViewModel$2;Ljava/lang/Boolean;)V
+.method constructor <init>(Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$2;Ljava/lang/Boolean;)V
     .locals 0
 
     .prologue
     .line 221
-    iput-object p1, p0, Lkik/android/chat/vm/messaging/AbstractMessageViewModel$2$1;->b:Lkik/android/chat/vm/messaging/AbstractMessageViewModel$2;
+    iput-object p1, p0, Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$2$1;->b:Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$2;
 
-    iput-object p2, p0, Lkik/android/chat/vm/messaging/AbstractMessageViewModel$2$1;->a:Ljava/lang/Boolean;
+    iput-object p2, p0, Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$2$1;->a:Ljava/lang/Boolean;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -55,9 +55,9 @@
 
     .prologue
     .line 232
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/AbstractMessageViewModel$2$1;->b:Lkik/android/chat/vm/messaging/AbstractMessageViewModel$2;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$2$1;->b:Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$2;
 
-    iget-object v0, v0, Lkik/android/chat/vm/messaging/AbstractMessageViewModel$2;->a:Ljava/lang/String;
+    iget-object v0, v0, Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$2;->a:Ljava/lang/String;
 
     const/4 v1, 0x1
 
@@ -73,7 +73,7 @@
 
     .prologue
     .line 238
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/AbstractMessageViewModel$2$1;->a:Ljava/lang/Boolean;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$2$1;->a:Ljava/lang/Boolean;
 
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
 

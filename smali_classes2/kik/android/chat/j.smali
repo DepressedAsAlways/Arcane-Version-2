@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/j;
+.class public final Lkik/arcane/chat/j;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,18 +6,18 @@
 # static fields
 .field private static a:Lkik/core/datatypes/l;
 
-.field private static b:Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;
+.field private static b:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;
 
 
 # direct methods
-.method public static a(Lkik/core/datatypes/l;)Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;
+.method public static a(Lkik/core/datatypes/l;)Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;
     .locals 1
 
     .prologue
     .line 22
     if-eqz p0, :cond_0
 
-    sget-object v0, Lkik/android/chat/j;->a:Lkik/core/datatypes/l;
+    sget-object v0, Lkik/arcane/chat/j;->a:Lkik/core/datatypes/l;
 
     invoke-virtual {p0, v0}, Lkik/core/datatypes/l;->equals(Ljava/lang/Object;)Z
 
@@ -26,7 +26,7 @@
     if-eqz v0, :cond_0
 
     .line 23
-    sget-object v0, Lkik/android/chat/j;->b:Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;
+    sget-object v0, Lkik/arcane/chat/j;->b:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;
 
     .line 25
     :goto_0
@@ -38,15 +38,15 @@
     goto :goto_0
 .end method
 
-.method public static a(Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;Lkik/core/datatypes/l;)V
+.method public static a(Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;Lkik/core/datatypes/l;)V
     .locals 0
 
     .prologue
     .line 15
-    sput-object p0, Lkik/android/chat/j;->b:Lkik/android/chat/presentation/MediaTrayPresenterImpl$KeyboardState;
+    sput-object p0, Lkik/arcane/chat/j;->b:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$KeyboardState;
 
     .line 16
-    sput-object p1, Lkik/android/chat/j;->a:Lkik/core/datatypes/l;
+    sput-object p1, Lkik/arcane/chat/j;->a:Lkik/core/datatypes/l;
 
     .line 17
     return-void

@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/chat/presentation/MediaTrayPresenter;
+.class public interface abstract Lkik/arcane/chat/presentation/MediaTrayPresenter;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/presentation/MediaTrayPresenter$MediaTrayMode;
+        Lkik/arcane/chat/presentation/MediaTrayPresenter$MediaTrayMode;
     }
 .end annotation
 

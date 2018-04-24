@@ -1,4 +1,4 @@
-.class public Lkik/android/challenge/CountryCode;
+.class public Lkik/arcane/challenge/CountryCode;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,20 +12,20 @@
         value = {
             "Landroid/os/Parcelable$Creator",
             "<",
-            "Lkik/android/challenge/CountryCode;",
+            "Lkik/arcane/challenge/CountryCode;",
             ">;"
         }
     .end annotation
 .end field
 
-.field public static final a:Lkik/android/challenge/CountryCode;
+.field public static final a:Lkik/arcane/challenge/CountryCode;
 
 .field public static final b:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List",
             "<",
-            "Lkik/android/challenge/CountryCode;",
+            "Lkik/arcane/challenge/CountryCode;",
             ">;"
         }
     .end annotation
@@ -58,7 +58,7 @@
     const/4 v7, 0x1
 
     .line 25
-    new-instance v0, Lkik/android/challenge/CountryCode;
+    new-instance v0, Lkik/arcane/challenge/CountryCode;
 
     const-string v1, "USA"
 
@@ -66,18 +66,18 @@
 
     const-string v3, "US"
 
-    invoke-direct {v0, v7, v1, v2, v3}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v7, v1, v2, v3}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    sput-object v0, Lkik/android/challenge/CountryCode;->a:Lkik/android/challenge/CountryCode;
+    sput-object v0, Lkik/arcane/challenge/CountryCode;->a:Lkik/arcane/challenge/CountryCode;
 
     .line 26
     const/16 v0, 0xf3
 
-    new-array v0, v0, [Lkik/android/challenge/CountryCode;
+    new-array v0, v0, [Lkik/arcane/challenge/CountryCode;
 
     const/4 v1, 0x0
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x5d
 
@@ -87,11 +87,11 @@
 
     const-string v6, "AF"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
-    new-instance v1, Lkik/android/challenge/CountryCode;
+    new-instance v1, Lkik/arcane/challenge/CountryCode;
 
     const/16 v2, 0x163
 
@@ -101,13 +101,13 @@
 
     const-string v5, "AL"
 
-    invoke-direct {v1, v2, v3, v4, v5}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v2, v3, v4, v5}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v1, v0, v7
 
     const/4 v1, 0x2
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xd5
 
@@ -117,13 +117,13 @@
 
     const-string v6, "DZ"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x3
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x694
 
@@ -133,13 +133,13 @@
 
     const-string v6, "AS"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x4
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x178
 
@@ -149,13 +149,13 @@
 
     const-string v6, "AD"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x5
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xf4
 
@@ -165,13 +165,13 @@
 
     const-string v6, "AO"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x6
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x4f0
 
@@ -181,11 +181,11 @@
 
     const-string v6, "AI"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
-    new-instance v1, Lkik/android/challenge/CountryCode;
+    new-instance v1, Lkik/arcane/challenge/CountryCode;
 
     const/16 v2, 0x2a0
 
@@ -195,13 +195,13 @@
 
     const-string v5, "AQ"
 
-    invoke-direct {v1, v2, v3, v4, v5}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v2, v3, v4, v5}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v1, v0, v9
 
     const/16 v1, 0x8
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x4f4
 
@@ -211,13 +211,13 @@
 
     const-string v6, "AG"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x9
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x36
 
@@ -227,13 +227,13 @@
 
     const-string v6, "AR"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xa
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x176
 
@@ -243,13 +243,13 @@
 
     const-string v6, "AM"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xb
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x129
 
@@ -259,13 +259,13 @@
 
     const-string v6, "AW"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const-string v3, "Australia"
 
@@ -273,13 +273,13 @@
 
     const-string v5, "AU"
 
-    invoke-direct {v2, v8, v3, v4, v5}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v8, v3, v4, v5}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x2b
 
@@ -289,13 +289,13 @@
 
     const-string v6, "AT"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xe
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3e2
 
@@ -305,13 +305,13 @@
 
     const-string v6, "AZ"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xf
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x4da
 
@@ -321,13 +321,13 @@
 
     const-string v6, "BS"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x10
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3cd
 
@@ -337,13 +337,13 @@
 
     const-string v6, "BH"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x11
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x370
 
@@ -353,13 +353,13 @@
 
     const-string v6, "BD"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x12
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x4de
 
@@ -369,13 +369,13 @@
 
     const-string v6, "BB"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x13
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x177
 
@@ -385,13 +385,13 @@
 
     const-string v6, "BY"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x14
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x20
 
@@ -401,13 +401,13 @@
 
     const-string v6, "BE"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x15
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x1f5
 
@@ -417,13 +417,13 @@
 
     const-string v6, "BZ"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x16
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xe5
 
@@ -433,13 +433,13 @@
 
     const-string v6, "BJ"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x17
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x5a1
 
@@ -449,13 +449,13 @@
 
     const-string v6, "BM"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x18
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3cf
 
@@ -465,13 +465,13 @@
 
     const-string v6, "BT"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x19
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x24f
 
@@ -481,13 +481,13 @@
 
     const-string v6, "BO"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1a
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x183
 
@@ -497,13 +497,13 @@
 
     const-string v6, "BA"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1b
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x10b
 
@@ -513,13 +513,13 @@
 
     const-string v6, "BW"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1c
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x37
 
@@ -529,13 +529,13 @@
 
     const-string v6, "BR"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1d
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xf6
 
@@ -545,13 +545,13 @@
 
     const-string v6, "IO"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1e
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x504
 
@@ -561,13 +561,13 @@
 
     const-string v6, "VG"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x1f
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x2a1
 
@@ -577,13 +577,13 @@
 
     const-string v6, "BN"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x20
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x167
 
@@ -593,13 +593,13 @@
 
     const-string v6, "BG"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x21
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xe2
 
@@ -609,13 +609,13 @@
 
     const-string v6, "BF"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x22
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x101
 
@@ -625,13 +625,13 @@
 
     const-string v6, "BI"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x23
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x357
 
@@ -641,13 +641,13 @@
 
     const-string v6, "KH"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x24
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xed
 
@@ -657,13 +657,13 @@
 
     const-string v6, "CM"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x25
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const-string v3, "Canada"
 
@@ -671,13 +671,13 @@
 
     const-string v5, "CA"
 
-    invoke-direct {v2, v7, v3, v4, v5}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v7, v3, v4, v5}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x26
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xee
 
@@ -687,13 +687,13 @@
 
     const-string v6, "CV"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x27
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x541
 
@@ -703,13 +703,13 @@
 
     const-string v6, "KY"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x28
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xec
 
@@ -719,13 +719,13 @@
 
     const-string v6, "CF"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x29
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xeb
 
@@ -735,13 +735,13 @@
 
     const-string v6, "TD"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x2a
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x38
 
@@ -751,13 +751,13 @@
 
     const-string v6, "CL"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x2b
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x56
 
@@ -767,13 +767,13 @@
 
     const-string v6, "CN"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x2c
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const-string v3, "Christmas Island"
 
@@ -781,13 +781,13 @@
 
     const-string v5, "CX"
 
-    invoke-direct {v2, v8, v3, v4, v5}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v8, v3, v4, v5}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x2d
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const-string v3, "Cocos Islands"
 
@@ -795,13 +795,13 @@
 
     const-string v5, "CC"
 
-    invoke-direct {v2, v8, v3, v4, v5}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v8, v3, v4, v5}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x2e
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x39
 
@@ -811,11 +811,11 @@
 
     const-string v6, "CO"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
-    new-instance v1, Lkik/android/challenge/CountryCode;
+    new-instance v1, Lkik/arcane/challenge/CountryCode;
 
     const/16 v2, 0x10d
 
@@ -825,13 +825,13 @@
 
     const-string v5, "KM"
 
-    invoke-direct {v1, v2, v3, v4, v5}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v2, v3, v4, v5}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v1, v0, v10
 
     const/16 v1, 0x30
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x2aa
 
@@ -841,13 +841,13 @@
 
     const-string v6, "CK"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x31
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x1fa
 
@@ -857,13 +857,13 @@
 
     const-string v6, "CR"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x32
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x181
 
@@ -873,13 +873,13 @@
 
     const-string v6, "HR"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x33
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x35
 
@@ -889,13 +889,13 @@
 
     const-string v6, "CU"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x34
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x257
 
@@ -905,13 +905,13 @@
 
     const-string v6, "CW"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x35
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x165
 
@@ -921,13 +921,13 @@
 
     const-string v6, "CY"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x36
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x1a4
 
@@ -937,13 +937,13 @@
 
     const-string v6, "CZ"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x37
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xf3
 
@@ -953,13 +953,13 @@
 
     const-string v6, "CD"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x38
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x2d
 
@@ -969,13 +969,13 @@
 
     const-string v6, "DK"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x39
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xfd
 
@@ -985,13 +985,13 @@
 
     const-string v6, "DJ"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x3a
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x6e7
 
@@ -1001,13 +1001,13 @@
 
     const-string v6, "DM"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x3b
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x711
 
@@ -1017,13 +1017,13 @@
 
     const-string v6, "DO"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x3c
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x725
 
@@ -1033,11 +1033,11 @@
 
     const-string v6, "DO"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
-    new-instance v1, Lkik/android/challenge/CountryCode;
+    new-instance v1, Lkik/arcane/challenge/CountryCode;
 
     const/16 v2, 0x739
 
@@ -1047,13 +1047,13 @@
 
     const-string v5, "DO"
 
-    invoke-direct {v1, v2, v3, v4, v5}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v2, v3, v4, v5}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v1, v0, v8
 
     const/16 v1, 0x3e
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x29e
 
@@ -1063,13 +1063,13 @@
 
     const-string v6, "TL"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x3f
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x251
 
@@ -1079,11 +1079,11 @@
 
     const-string v6, "EC"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
-    new-instance v1, Lkik/android/challenge/CountryCode;
+    new-instance v1, Lkik/arcane/challenge/CountryCode;
 
     const/16 v2, 0x14
 
@@ -1093,13 +1093,13 @@
 
     const-string v5, "EG"
 
-    invoke-direct {v1, v2, v3, v4, v5}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v2, v3, v4, v5}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v1, v0, v11
 
     const/16 v1, 0x41
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x1f7
 
@@ -1109,13 +1109,13 @@
 
     const-string v6, "SV"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x42
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xf0
 
@@ -1125,13 +1125,13 @@
 
     const-string v6, "GQ"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x43
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x123
 
@@ -1141,13 +1141,13 @@
 
     const-string v6, "ER"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x44
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x174
 
@@ -1157,13 +1157,13 @@
 
     const-string v6, "EE"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x45
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xfb
 
@@ -1173,13 +1173,13 @@
 
     const-string v6, "ET"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x46
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x1f4
 
@@ -1189,13 +1189,13 @@
 
     const-string v6, "FK"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x47
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x12a
 
@@ -1205,13 +1205,13 @@
 
     const-string v6, "FO"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x48
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x2a7
 
@@ -1221,13 +1221,13 @@
 
     const-string v6, "FJ"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x49
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x166
 
@@ -1237,13 +1237,13 @@
 
     const-string v6, "FI"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x4a
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x21
 
@@ -1253,13 +1253,13 @@
 
     const-string v6, "FR"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x4b
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x2b1
 
@@ -1269,13 +1269,13 @@
 
     const-string v6, "PF"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x4c
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xf1
 
@@ -1285,13 +1285,13 @@
 
     const-string v6, "GA"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x4d
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xdc
 
@@ -1301,13 +1301,13 @@
 
     const-string v6, "GM"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x4e
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3e3
 
@@ -1317,13 +1317,13 @@
 
     const-string v6, "GE"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x4f
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x31
 
@@ -1333,13 +1333,13 @@
 
     const-string v6, "DE"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x50
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xe9
 
@@ -1349,13 +1349,13 @@
 
     const-string v6, "GH"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x51
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x15e
 
@@ -1365,13 +1365,13 @@
 
     const-string v6, "GI"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x52
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x1e
 
@@ -1381,13 +1381,13 @@
 
     const-string v6, "GR"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x53
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x12b
 
@@ -1397,13 +1397,13 @@
 
     const-string v6, "GL"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x54
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x5c1
 
@@ -1413,13 +1413,13 @@
 
     const-string v6, "GD"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x55
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x687
 
@@ -1429,13 +1429,13 @@
 
     const-string v6, "GU"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x56
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x1f6
 
@@ -1445,13 +1445,13 @@
 
     const-string v6, "GT"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x57
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const v3, 0x6bc89
 
@@ -1461,13 +1461,13 @@
 
     const-string v6, "GG"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x58
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xe0
 
@@ -1477,13 +1477,13 @@
 
     const-string v6, "GN"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x59
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xf5
 
@@ -1493,13 +1493,13 @@
 
     const-string v6, "GW"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x5a
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x250
 
@@ -1509,13 +1509,13 @@
 
     const-string v6, "GY"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x5b
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x1fd
 
@@ -1525,13 +1525,13 @@
 
     const-string v6, "HT"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x5c
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x1f8
 
@@ -1541,13 +1541,13 @@
 
     const-string v6, "HN"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x5d
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x354
 
@@ -1557,13 +1557,13 @@
 
     const-string v6, "HK"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x5e
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x24
 
@@ -1573,13 +1573,13 @@
 
     const-string v6, "HU"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x5f
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x162
 
@@ -1589,13 +1589,13 @@
 
     const-string v6, "IS"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x60
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x5b
 
@@ -1605,13 +1605,13 @@
 
     const-string v6, "IN"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x61
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3e
 
@@ -1621,13 +1621,13 @@
 
     const-string v6, "ID"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x62
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x62
 
@@ -1637,13 +1637,13 @@
 
     const-string v6, "IR"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x63
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3c4
 
@@ -1653,13 +1653,13 @@
 
     const-string v6, "IQ"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x64
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x161
 
@@ -1669,13 +1669,13 @@
 
     const-string v6, "IE"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x65
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const v3, 0x6bd18
 
@@ -1685,13 +1685,13 @@
 
     const-string v6, "IM"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x66
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3cc
 
@@ -1701,13 +1701,13 @@
 
     const-string v6, "IL"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x67
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x27
 
@@ -1717,13 +1717,13 @@
 
     const-string v6, "IT"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x68
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xe1
 
@@ -1733,13 +1733,13 @@
 
     const-string v6, "CI"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x69
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x754
 
@@ -1749,13 +1749,13 @@
 
     const-string v6, "JM"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x6a
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x51
 
@@ -1765,13 +1765,13 @@
 
     const-string v6, "JP"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x6b
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const v3, 0x6bcbe
 
@@ -1781,13 +1781,13 @@
 
     const-string v6, "JE"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x6c
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3c2
 
@@ -1797,13 +1797,13 @@
 
     const-string v6, "JO"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x6d
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const-string v3, "Kazakhstan"
 
@@ -1811,13 +1811,13 @@
 
     const-string v5, "KZ"
 
-    invoke-direct {v2, v9, v3, v4, v5}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v9, v3, v4, v5}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x6e
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xfe
 
@@ -1827,13 +1827,13 @@
 
     const-string v6, "KE"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x6f
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x2ae
 
@@ -1843,13 +1843,13 @@
 
     const-string v6, "KI"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x70
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x17f
 
@@ -1859,13 +1859,13 @@
 
     const-string v6, "XK"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x71
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3c5
 
@@ -1875,13 +1875,13 @@
 
     const-string v6, "KW"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x72
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3e4
 
@@ -1891,13 +1891,13 @@
 
     const-string v6, "KG"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x73
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x358
 
@@ -1907,13 +1907,13 @@
 
     const-string v6, "LA"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x74
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x173
 
@@ -1923,13 +1923,13 @@
 
     const-string v6, "LV"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x75
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3c1
 
@@ -1939,13 +1939,13 @@
 
     const-string v6, "LB"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x76
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x10a
 
@@ -1955,13 +1955,13 @@
 
     const-string v6, "LS"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x77
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xe7
 
@@ -1971,13 +1971,13 @@
 
     const-string v6, "LR"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x78
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xda
 
@@ -1987,13 +1987,13 @@
 
     const-string v6, "LY"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x79
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x1a7
 
@@ -2003,13 +2003,13 @@
 
     const-string v6, "LI"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x7a
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x172
 
@@ -2019,13 +2019,13 @@
 
     const-string v6, "LT"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x7b
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x160
 
@@ -2035,13 +2035,13 @@
 
     const-string v6, "LU"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x7c
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x355
 
@@ -2051,13 +2051,13 @@
 
     const-string v6, "MO"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x7d
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x185
 
@@ -2067,13 +2067,13 @@
 
     const-string v6, "MK"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x7e
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x105
 
@@ -2083,13 +2083,13 @@
 
     const-string v6, "MG"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x7f
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x109
 
@@ -2099,13 +2099,13 @@
 
     const-string v6, "MW"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x80
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3c
 
@@ -2115,13 +2115,13 @@
 
     const-string v6, "MY"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x81
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3c0
 
@@ -2131,13 +2131,13 @@
 
     const-string v6, "MV"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x82
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xdf
 
@@ -2147,13 +2147,13 @@
 
     const-string v6, "ML"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x83
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x164
 
@@ -2163,13 +2163,13 @@
 
     const-string v6, "MT"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x84
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x2b4
 
@@ -2179,13 +2179,13 @@
 
     const-string v6, "MH"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x85
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xde
 
@@ -2195,13 +2195,13 @@
 
     const-string v6, "MR"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x86
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xe6
 
@@ -2211,13 +2211,13 @@
 
     const-string v6, "MU"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x87
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x106
 
@@ -2227,13 +2227,13 @@
 
     const-string v6, "YT"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x88
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x34
 
@@ -2243,13 +2243,13 @@
 
     const-string v6, "MX"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x89
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x2b3
 
@@ -2259,13 +2259,13 @@
 
     const-string v6, "FM"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x8a
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x175
 
@@ -2275,13 +2275,13 @@
 
     const-string v6, "MD"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x8b
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x179
 
@@ -2291,13 +2291,13 @@
 
     const-string v6, "MC"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x8c
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3d0
 
@@ -2307,13 +2307,13 @@
 
     const-string v6, "MN"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x8d
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x17e
 
@@ -2323,13 +2323,13 @@
 
     const-string v6, "ME"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x8e
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x680
 
@@ -2339,13 +2339,13 @@
 
     const-string v6, "MS"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x8f
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xd4
 
@@ -2355,13 +2355,13 @@
 
     const-string v6, "MA"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x90
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x102
 
@@ -2371,13 +2371,13 @@
 
     const-string v6, "MZ"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x91
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x5f
 
@@ -2387,13 +2387,13 @@
 
     const-string v6, "MM"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x92
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x108
 
@@ -2403,13 +2403,13 @@
 
     const-string v6, "NA"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x93
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x2a2
 
@@ -2419,13 +2419,13 @@
 
     const-string v6, "NR"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x94
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3d1
 
@@ -2435,13 +2435,13 @@
 
     const-string v6, "NP"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x95
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x1f
 
@@ -2451,13 +2451,13 @@
 
     const-string v6, "NL"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x96
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x257
 
@@ -2467,13 +2467,13 @@
 
     const-string v6, "AN"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x97
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x2af
 
@@ -2483,13 +2483,13 @@
 
     const-string v6, "NC"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x98
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const-string v3, "New Zealand"
 
@@ -2497,13 +2497,13 @@
 
     const-string v5, "NZ"
 
-    invoke-direct {v2, v11, v3, v4, v5}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v11, v3, v4, v5}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x99
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x1f9
 
@@ -2513,13 +2513,13 @@
 
     const-string v6, "NI"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x9a
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xe3
 
@@ -2529,13 +2529,13 @@
 
     const-string v6, "NE"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x9b
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xea
 
@@ -2545,13 +2545,13 @@
 
     const-string v6, "NG"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x9c
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x2ab
 
@@ -2561,13 +2561,13 @@
 
     const-string v6, "NU"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x9d
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x352
 
@@ -2577,13 +2577,13 @@
 
     const-string v6, "KP"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x9e
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x686
 
@@ -2593,13 +2593,13 @@
 
     const-string v6, "MP"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x9f
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const-string v3, "Norway"
 
@@ -2607,13 +2607,13 @@
 
     const-string v5, "NO"
 
-    invoke-direct {v2, v10, v3, v4, v5}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v10, v3, v4, v5}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xa0
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3c8
 
@@ -2623,13 +2623,13 @@
 
     const-string v6, "OM"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xa1
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x5c
 
@@ -2639,13 +2639,13 @@
 
     const-string v6, "PK"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xa2
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x2a8
 
@@ -2655,13 +2655,13 @@
 
     const-string v6, "PW"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xa3
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3ca
 
@@ -2671,13 +2671,13 @@
 
     const-string v6, "PS"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xa4
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x1fb
 
@@ -2687,13 +2687,13 @@
 
     const-string v6, "PA"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xa5
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x2a3
 
@@ -2703,13 +2703,13 @@
 
     const-string v6, "PG"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xa6
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x253
 
@@ -2719,13 +2719,13 @@
 
     const-string v6, "PY"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xa7
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x33
 
@@ -2735,13 +2735,13 @@
 
     const-string v6, "PE"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xa8
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3f
 
@@ -2751,13 +2751,13 @@
 
     const-string v6, "PH"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xa9
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const-string v3, "Pitcairn"
 
@@ -2765,13 +2765,13 @@
 
     const-string v5, "PN"
 
-    invoke-direct {v2, v11, v3, v4, v5}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v11, v3, v4, v5}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xaa
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x30
 
@@ -2781,13 +2781,13 @@
 
     const-string v6, "PL"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xab
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x15f
 
@@ -2797,13 +2797,13 @@
 
     const-string v6, "PT"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xac
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x6fb
 
@@ -2813,13 +2813,13 @@
 
     const-string v6, "PR"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xad
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x793
 
@@ -2829,13 +2829,13 @@
 
     const-string v6, "PR"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xae
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3ce
 
@@ -2845,13 +2845,13 @@
 
     const-string v6, "QA"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xaf
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xf2
 
@@ -2861,13 +2861,13 @@
 
     const-string v6, "CG"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xb0
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x106
 
@@ -2877,13 +2877,13 @@
 
     const-string v6, "RE"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xb1
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x28
 
@@ -2893,13 +2893,13 @@
 
     const-string v6, "RO"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xb2
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const-string v3, "Russia"
 
@@ -2907,13 +2907,13 @@
 
     const-string v5, "RU"
 
-    invoke-direct {v2, v9, v3, v4, v5}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v9, v3, v4, v5}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xb3
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xfa
 
@@ -2923,13 +2923,13 @@
 
     const-string v6, "RW"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xb4
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x24e
 
@@ -2939,13 +2939,13 @@
 
     const-string v6, "BL"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xb5
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x122
 
@@ -2955,13 +2955,13 @@
 
     const-string v6, "SH"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xb6
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x74d
 
@@ -2971,13 +2971,13 @@
 
     const-string v6, "KN"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xb7
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x6de
 
@@ -2987,13 +2987,13 @@
 
     const-string v6, "LC"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xb8
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x24e
 
@@ -3003,13 +3003,13 @@
 
     const-string v6, "MF"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xb9
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x1fc
 
@@ -3019,13 +3019,13 @@
 
     const-string v6, "PM"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xba
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x6f8
 
@@ -3035,13 +3035,13 @@
 
     const-string v6, "VC"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xbb
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x2ad
 
@@ -3051,13 +3051,13 @@
 
     const-string v6, "WS"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xbc
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x17a
 
@@ -3067,13 +3067,13 @@
 
     const-string v6, "SM"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xbd
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xef
 
@@ -3083,13 +3083,13 @@
 
     const-string v6, "ST"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xbe
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3c6
 
@@ -3099,13 +3099,13 @@
 
     const-string v6, "SA"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xbf
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xdd
 
@@ -3115,13 +3115,13 @@
 
     const-string v6, "SN"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc0
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x17d
 
@@ -3131,13 +3131,13 @@
 
     const-string v6, "RS"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc1
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xf8
 
@@ -3147,13 +3147,13 @@
 
     const-string v6, "SC"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc2
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xe8
 
@@ -3163,13 +3163,13 @@
 
     const-string v6, "SL"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc3
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x41
 
@@ -3179,13 +3179,13 @@
 
     const-string v6, "SG"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc4
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x6b9
 
@@ -3195,13 +3195,13 @@
 
     const-string v6, "SX"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc5
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x1a5
 
@@ -3211,13 +3211,13 @@
 
     const-string v6, "SK"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc6
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x182
 
@@ -3227,13 +3227,13 @@
 
     const-string v6, "SI"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc7
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x2a5
 
@@ -3243,13 +3243,13 @@
 
     const-string v6, "SB"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc8
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xfc
 
@@ -3259,13 +3259,13 @@
 
     const-string v6, "SO"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xc9
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x1b
 
@@ -3275,13 +3275,13 @@
 
     const-string v6, "ZA"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xca
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x52
 
@@ -3291,13 +3291,13 @@
 
     const-string v6, "KR"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xcb
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xd3
 
@@ -3307,13 +3307,13 @@
 
     const-string v6, "SS"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xcc
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x22
 
@@ -3323,13 +3323,13 @@
 
     const-string v6, "ES"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xcd
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x5e
 
@@ -3339,13 +3339,13 @@
 
     const-string v6, "LK"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xce
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xf9
 
@@ -3355,13 +3355,13 @@
 
     const-string v6, "SD"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xcf
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x255
 
@@ -3371,13 +3371,13 @@
 
     const-string v6, "SR"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd0
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const-string v3, "Svalbard and Jan Mayen"
 
@@ -3385,13 +3385,13 @@
 
     const-string v5, "SJ"
 
-    invoke-direct {v2, v10, v3, v4, v5}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v10, v3, v4, v5}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd1
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x10c
 
@@ -3401,13 +3401,13 @@
 
     const-string v6, "SZ"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd2
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x2e
 
@@ -3417,13 +3417,13 @@
 
     const-string v6, "SE"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd3
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x29
 
@@ -3433,13 +3433,13 @@
 
     const-string v6, "CH"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd4
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3c3
 
@@ -3449,13 +3449,13 @@
 
     const-string v6, "SY"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd5
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x376
 
@@ -3465,13 +3465,13 @@
 
     const-string v6, "TW"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd6
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3e0
 
@@ -3481,13 +3481,13 @@
 
     const-string v6, "TJ"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd7
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xff
 
@@ -3497,13 +3497,13 @@
 
     const-string v6, "TZ"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd8
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x42
 
@@ -3513,13 +3513,13 @@
 
     const-string v6, "TH"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xd9
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xe4
 
@@ -3529,13 +3529,13 @@
 
     const-string v6, "TG"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xda
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x2b2
 
@@ -3545,13 +3545,13 @@
 
     const-string v6, "TK"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xdb
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x2a4
 
@@ -3561,13 +3561,13 @@
 
     const-string v6, "TO"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xdc
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x74c
 
@@ -3577,13 +3577,13 @@
 
     const-string v6, "TT"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xdd
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xd8
 
@@ -3593,13 +3593,13 @@
 
     const-string v6, "TN"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xde
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x5a
 
@@ -3609,13 +3609,13 @@
 
     const-string v6, "TR"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xdf
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3e1
 
@@ -3625,13 +3625,13 @@
 
     const-string v6, "TM"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xe0
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x671
 
@@ -3641,13 +3641,13 @@
 
     const-string v6, "TC"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xe1
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x2b0
 
@@ -3657,13 +3657,13 @@
 
     const-string v6, "TV"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xe2
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x53c
 
@@ -3673,13 +3673,13 @@
 
     const-string v6, "VI"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xe3
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x100
 
@@ -3689,13 +3689,13 @@
 
     const-string v6, "UG"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xe4
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x17c
 
@@ -3705,13 +3705,13 @@
 
     const-string v6, "UA"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xe5
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3cb
 
@@ -3721,13 +3721,13 @@
 
     const-string v6, "AE"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xe6
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x2c
 
@@ -3737,13 +3737,13 @@
 
     const-string v6, "GB"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xe7
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const-string v3, "United States"
 
@@ -3751,13 +3751,13 @@
 
     const-string v5, "US"
 
-    invoke-direct {v2, v7, v3, v4, v5}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v7, v3, v4, v5}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xe8
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x256
 
@@ -3767,13 +3767,13 @@
 
     const-string v6, "UY"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xe9
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3e6
 
@@ -3783,13 +3783,13 @@
 
     const-string v6, "UZ"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xea
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x2a6
 
@@ -3799,13 +3799,13 @@
 
     const-string v6, "VU"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xeb
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x17b
 
@@ -3815,13 +3815,13 @@
 
     const-string v6, "VA"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xec
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3a
 
@@ -3831,13 +3831,13 @@
 
     const-string v6, "VE"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xed
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x54
 
@@ -3847,13 +3847,13 @@
 
     const-string v6, "VN"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xee
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x2a9
 
@@ -3863,13 +3863,13 @@
 
     const-string v6, "WF"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xef
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0xd4
 
@@ -3879,13 +3879,13 @@
 
     const-string v6, "EH"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xf0
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x3c7
 
@@ -3895,13 +3895,13 @@
 
     const-string v6, "YE"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xf1
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x104
 
@@ -3911,13 +3911,13 @@
 
     const-string v6, "ZM"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
     const/16 v1, 0xf2
 
-    new-instance v2, Lkik/android/challenge/CountryCode;
+    new-instance v2, Lkik/arcane/challenge/CountryCode;
 
     const/16 v3, 0x107
 
@@ -3927,7 +3927,7 @@
 
     const-string v6, "ZW"
 
-    invoke-direct {v2, v3, v4, v5, v6}, Lkik/android/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v4, v5, v6}, Lkik/arcane/challenge/CountryCode;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     aput-object v2, v0, v1
 
@@ -3936,14 +3936,14 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/challenge/CountryCode;->b:Ljava/util/List;
+    sput-object v0, Lkik/arcane/challenge/CountryCode;->b:Ljava/util/List;
 
     .line 307
-    new-instance v0, Lkik/android/challenge/CountryCode$1;
+    new-instance v0, Lkik/arcane/challenge/CountryCode$1;
 
-    invoke-direct {v0}, Lkik/android/challenge/CountryCode$1;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/challenge/CountryCode$1;-><init>()V
 
-    sput-object v0, Lkik/android/challenge/CountryCode;->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lkik/arcane/challenge/CountryCode;->CREATOR:Landroid/os/Parcelable$Creator;
 
     return-void
 .end method
@@ -3956,16 +3956,16 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 281
-    iput p1, p0, Lkik/android/challenge/CountryCode;->c:I
+    iput p1, p0, Lkik/arcane/challenge/CountryCode;->c:I
 
     .line 282
-    iput-object p3, p0, Lkik/android/challenge/CountryCode;->d:Ljava/lang/String;
+    iput-object p3, p0, Lkik/arcane/challenge/CountryCode;->d:Ljava/lang/String;
 
     .line 283
-    iput-object p2, p0, Lkik/android/challenge/CountryCode;->e:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/challenge/CountryCode;->e:Ljava/lang/String;
 
     .line 284
-    iput-object p4, p0, Lkik/android/challenge/CountryCode;->f:Ljava/lang/String;
+    iput-object p4, p0, Lkik/arcane/challenge/CountryCode;->f:Ljava/lang/String;
 
     .line 285
     return-void
@@ -3983,34 +3983,34 @@
 
     move-result v0
 
-    iput v0, p0, Lkik/android/challenge/CountryCode;->c:I
+    iput v0, p0, Lkik/arcane/challenge/CountryCode;->c:I
 
     .line 289
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/challenge/CountryCode;->d:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/challenge/CountryCode;->d:Ljava/lang/String;
 
     .line 290
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/challenge/CountryCode;->e:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/challenge/CountryCode;->e:Ljava/lang/String;
 
     .line 291
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/challenge/CountryCode;->f:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/challenge/CountryCode;->f:Ljava/lang/String;
 
     .line 292
     return-void
 .end method
 
-.method public static a(I)Lkik/android/challenge/CountryCode;
+.method public static a(I)Lkik/arcane/challenge/CountryCode;
     .locals 3
 
     .prologue
@@ -4018,7 +4018,7 @@
     if-gtz p0, :cond_0
 
     .line 327
-    sget-object v0, Lkik/android/challenge/CountryCode;->a:Lkik/android/challenge/CountryCode;
+    sget-object v0, Lkik/arcane/challenge/CountryCode;->a:Lkik/arcane/challenge/CountryCode;
 
     .line 334
     :goto_0
@@ -4026,7 +4026,7 @@
 
     .line 329
     :cond_0
-    sget-object v0, Lkik/android/challenge/CountryCode;->b:Ljava/util/List;
+    sget-object v0, Lkik/arcane/challenge/CountryCode;->b:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -4043,10 +4043,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/challenge/CountryCode;
+    check-cast v0, Lkik/arcane/challenge/CountryCode;
 
     .line 330
-    iget v2, v0, Lkik/android/challenge/CountryCode;->c:I
+    iget v2, v0, Lkik/arcane/challenge/CountryCode;->c:I
 
     if-ne v2, p0, :cond_1
 
@@ -4054,12 +4054,12 @@
 
     .line 334
     :cond_2
-    sget-object v0, Lkik/android/challenge/CountryCode;->a:Lkik/android/challenge/CountryCode;
+    sget-object v0, Lkik/arcane/challenge/CountryCode;->a:Lkik/arcane/challenge/CountryCode;
 
     goto :goto_0
 .end method
 
-.method public static a(Ljava/util/Locale;)Lkik/android/challenge/CountryCode;
+.method public static a(Ljava/util/Locale;)Lkik/arcane/challenge/CountryCode;
     .locals 4
 
     .prologue
@@ -4067,7 +4067,7 @@
     if-nez p0, :cond_0
 
     .line 345
-    sget-object v0, Lkik/android/challenge/CountryCode;->a:Lkik/android/challenge/CountryCode;
+    sget-object v0, Lkik/arcane/challenge/CountryCode;->a:Lkik/arcane/challenge/CountryCode;
 
     .line 356
     :goto_0
@@ -4080,20 +4080,20 @@
     move-result-object v1
 
     .line 348
-    invoke-static {v1}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v1}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
     .line 349
-    sget-object v0, Lkik/android/challenge/CountryCode;->a:Lkik/android/challenge/CountryCode;
+    sget-object v0, Lkik/arcane/challenge/CountryCode;->a:Lkik/arcane/challenge/CountryCode;
 
     goto :goto_0
 
     .line 351
     :cond_1
-    sget-object v0, Lkik/android/challenge/CountryCode;->b:Ljava/util/List;
+    sget-object v0, Lkik/arcane/challenge/CountryCode;->b:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -4110,10 +4110,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/challenge/CountryCode;
+    check-cast v0, Lkik/arcane/challenge/CountryCode;
 
     .line 352
-    iget-object v3, v0, Lkik/android/challenge/CountryCode;->f:Ljava/lang/String;
+    iget-object v3, v0, Lkik/arcane/challenge/CountryCode;->f:Ljava/lang/String;
 
     invoke-virtual {v3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -4125,7 +4125,7 @@
 
     .line 356
     :cond_3
-    sget-object v0, Lkik/android/challenge/CountryCode;->a:Lkik/android/challenge/CountryCode;
+    sget-object v0, Lkik/arcane/challenge/CountryCode;->a:Lkik/arcane/challenge/CountryCode;
 
     goto :goto_0
 .end method
@@ -4147,22 +4147,22 @@
 
     .prologue
     .line 296
-    iget v0, p0, Lkik/android/challenge/CountryCode;->c:I
+    iget v0, p0, Lkik/arcane/challenge/CountryCode;->c:I
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
     .line 297
-    iget-object v0, p0, Lkik/android/challenge/CountryCode;->d:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/challenge/CountryCode;->d:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
     .line 298
-    iget-object v0, p0, Lkik/android/challenge/CountryCode;->e:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/challenge/CountryCode;->e:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
     .line 299
-    iget-object v0, p0, Lkik/android/challenge/CountryCode;->f:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/challenge/CountryCode;->f:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 

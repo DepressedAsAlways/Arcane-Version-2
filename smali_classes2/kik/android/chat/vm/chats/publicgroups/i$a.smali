@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/vm/chats/publicgroups/i$a;
+.class public final Lkik/arcane/chat/vm/chats/publicgroups/i$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/chats/publicgroups/i;
+    value = Lkik/arcane/chat/vm/chats/publicgroups/i;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,10 +29,10 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 19
-    iput-object p1, p0, Lkik/android/chat/vm/chats/publicgroups/i$a;->a:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/chat/vm/chats/publicgroups/i$a;->a:Ljava/lang/String;
 
     .line 20
-    iput-boolean p2, p0, Lkik/android/chat/vm/chats/publicgroups/i$a;->b:Z
+    iput-boolean p2, p0, Lkik/arcane/chat/vm/chats/publicgroups/i$a;->b:Z
 
     .line 21
     return-void

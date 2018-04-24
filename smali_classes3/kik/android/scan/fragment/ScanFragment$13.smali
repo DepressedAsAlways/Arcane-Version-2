@@ -1,11 +1,11 @@
-.class final Lkik/android/scan/fragment/ScanFragment$13;
+.class final Lkik/arcane/scan/fragment/ScanFragment$13;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/scan/fragment/ScanFragment;
+    value = Lkik/arcane/scan/fragment/ScanFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,18 +26,18 @@
 # instance fields
 .field final synthetic a:Lcom/kik/scan/GroupKikCode;
 
-.field final synthetic b:Lkik/android/scan/fragment/ScanFragment;
+.field final synthetic b:Lkik/arcane/scan/fragment/ScanFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/scan/fragment/ScanFragment;Lcom/kik/scan/GroupKikCode;)V
+.method constructor <init>(Lkik/arcane/scan/fragment/ScanFragment;Lcom/kik/scan/GroupKikCode;)V
     .locals 0
 
     .prologue
     .line 347
-    iput-object p1, p0, Lkik/android/scan/fragment/ScanFragment$13;->b:Lkik/android/scan/fragment/ScanFragment;
+    iput-object p1, p0, Lkik/arcane/scan/fragment/ScanFragment$13;->b:Lkik/arcane/scan/fragment/ScanFragment;
 
-    iput-object p2, p0, Lkik/android/scan/fragment/ScanFragment$13;->a:Lcom/kik/scan/GroupKikCode;
+    iput-object p2, p0, Lkik/arcane/scan/fragment/ScanFragment$13;->a:Lcom/kik/scan/GroupKikCode;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -73,14 +73,14 @@
 
     .line 1358
     :goto_0
-    iget-object v1, p0, Lkik/android/scan/fragment/ScanFragment$13;->b:Lkik/android/scan/fragment/ScanFragment;
+    iget-object v1, p0, Lkik/arcane/scan/fragment/ScanFragment$13;->b:Lkik/arcane/scan/fragment/ScanFragment;
 
-    invoke-static {v1, v0}, Lkik/android/scan/fragment/ScanFragment;->a(Lkik/android/scan/fragment/ScanFragment;Lcom/kik/events/Promise;)Lcom/kik/events/Promise;
+    invoke-static {v1, v0}, Lkik/arcane/scan/fragment/ScanFragment;->a(Lkik/arcane/scan/fragment/ScanFragment;Lcom/kik/events/Promise;)Lcom/kik/events/Promise;
 
     .line 1359
-    new-instance v1, Lkik/android/scan/fragment/ScanFragment$13$1;
+    new-instance v1, Lkik/arcane/scan/fragment/ScanFragment$13$1;
 
-    invoke-direct {v1, p0}, Lkik/android/scan/fragment/ScanFragment$13$1;-><init>(Lkik/android/scan/fragment/ScanFragment$13;)V
+    invoke-direct {v1, p0}, Lkik/arcane/scan/fragment/ScanFragment$13$1;-><init>(Lkik/arcane/scan/fragment/ScanFragment$13;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -89,15 +89,15 @@
 
     .line 1356
     :cond_0
-    iget-object v0, p0, Lkik/android/scan/fragment/ScanFragment$13;->b:Lkik/android/scan/fragment/ScanFragment;
+    iget-object v0, p0, Lkik/arcane/scan/fragment/ScanFragment$13;->b:Lkik/arcane/scan/fragment/ScanFragment;
 
-    iget-object v1, p0, Lkik/android/scan/fragment/ScanFragment$13;->a:Lcom/kik/scan/GroupKikCode;
+    iget-object v1, p0, Lkik/arcane/scan/fragment/ScanFragment$13;->a:Lcom/kik/scan/GroupKikCode;
 
-    invoke-static {v1}, Lkik/android/scan/a/c;->a(Lcom/kik/scan/GroupKikCode;)Lkik/android/scan/a/c;
+    invoke-static {v1}, Lkik/arcane/scan/a/c;->a(Lcom/kik/scan/GroupKikCode;)Lkik/arcane/scan/a/c;
 
     move-result-object v1
 
-    invoke-static {v0, p1, v1}, Lkik/android/scan/fragment/ScanFragment;->a(Lkik/android/scan/fragment/ScanFragment;Lkik/core/datatypes/p;Lkik/android/scan/a/c;)Lcom/kik/events/Promise;
+    invoke-static {v0, p1, v1}, Lkik/arcane/scan/fragment/ScanFragment;->a(Lkik/arcane/scan/fragment/ScanFragment;Lkik/core/datatypes/p;Lkik/arcane/scan/a/c;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
@@ -109,11 +109,11 @@
 
     .prologue
     .line 384
-    iget-object v0, p0, Lkik/android/scan/fragment/ScanFragment$13;->b:Lkik/android/scan/fragment/ScanFragment;
+    iget-object v0, p0, Lkik/arcane/scan/fragment/ScanFragment$13;->b:Lkik/arcane/scan/fragment/ScanFragment;
 
-    iget-object v1, p0, Lkik/android/scan/fragment/ScanFragment$13;->a:Lcom/kik/scan/GroupKikCode;
+    iget-object v1, p0, Lkik/arcane/scan/fragment/ScanFragment$13;->a:Lcom/kik/scan/GroupKikCode;
 
-    invoke-static {v0, v1}, Lkik/android/scan/fragment/ScanFragment;->b(Lkik/android/scan/fragment/ScanFragment;Lcom/kik/scan/KikCode;)V
+    invoke-static {v0, v1}, Lkik/arcane/scan/fragment/ScanFragment;->b(Lkik/arcane/scan/fragment/ScanFragment;Lcom/kik/scan/KikCode;)V
 
     .line 385
     return-void

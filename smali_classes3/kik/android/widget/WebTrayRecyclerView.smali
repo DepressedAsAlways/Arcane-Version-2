@@ -1,25 +1,25 @@
-.class public Lkik/android/widget/WebTrayRecyclerView;
+.class public Lkik/arcane/widget/WebTrayRecyclerView;
 .super Landroid/support/v7/widget/RecyclerView;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/widget/dn$a;
+.implements Lkik/arcane/widget/dn$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/WebTrayRecyclerView$a;
+        Lkik/arcane/widget/WebTrayRecyclerView$a;
     }
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Landroid/support/v7/widget/RecyclerView;",
-        "Lkik/android/widget/dn$a",
+        "Lkik/arcane/widget/dn$a",
         "<",
-        "Lkik/android/chat/vm/widget/ai;",
-        "Lkik/android/widget/WebTrayRecyclerView$a;",
+        "Lkik/arcane/chat/vm/widget/ai;",
+        "Lkik/arcane/widget/WebTrayRecyclerView$a;",
         ">;"
     }
 .end annotation
@@ -47,7 +47,7 @@
     .line 36
     const/4 v0, 0x4
 
-    sput v0, Lkik/android/widget/WebTrayRecyclerView;->a:I
+    sput v0, Lkik/arcane/widget/WebTrayRecyclerView;->a:I
 
     return-void
 .end method
@@ -59,7 +59,7 @@
     .line 52
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/WebTrayRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/WebTrayRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 53
     return-void
@@ -72,7 +72,7 @@
     .line 57
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/WebTrayRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/WebTrayRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 58
     return-void
@@ -88,19 +88,19 @@
     .line 63
     new-instance v0, Landroid/support/v7/widget/GridLayoutManager;
 
-    sget v1, Lkik/android/widget/WebTrayRecyclerView;->a:I
+    sget v1, Lkik/arcane/widget/WebTrayRecyclerView;->a:I
 
     invoke-direct {v0, p1, v1}, Landroid/support/v7/widget/GridLayoutManager;-><init>(Landroid/content/Context;I)V
 
-    iput-object v0, p0, Lkik/android/widget/WebTrayRecyclerView;->c:Landroid/support/v7/widget/GridLayoutManager;
+    iput-object v0, p0, Lkik/arcane/widget/WebTrayRecyclerView;->c:Landroid/support/v7/widget/GridLayoutManager;
 
     .line 64
-    sget v0, Lkik/android/widget/WebTrayRecyclerView;->a:I
+    sget v0, Lkik/arcane/widget/WebTrayRecyclerView;->a:I
 
-    iput v0, p0, Lkik/android/widget/WebTrayRecyclerView;->e:I
+    iput v0, p0, Lkik/arcane/widget/WebTrayRecyclerView;->e:I
 
     .line 65
-    invoke-virtual {p0}, Lkik/android/widget/WebTrayRecyclerView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/WebTrayRecyclerView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -110,23 +110,23 @@
 
     move-result v0
 
-    iput v0, p0, Lkik/android/widget/WebTrayRecyclerView;->b:F
+    iput v0, p0, Lkik/arcane/widget/WebTrayRecyclerView;->b:F
 
     .line 66
-    iget-object v0, p0, Lkik/android/widget/WebTrayRecyclerView;->c:Landroid/support/v7/widget/GridLayoutManager;
+    iget-object v0, p0, Lkik/arcane/widget/WebTrayRecyclerView;->c:Landroid/support/v7/widget/GridLayoutManager;
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/WebTrayRecyclerView;->setLayoutManager(Landroid/support/v7/widget/RecyclerView$LayoutManager;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/WebTrayRecyclerView;->setLayoutManager(Landroid/support/v7/widget/RecyclerView$LayoutManager;)V
 
     .line 67
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/WebTrayRecyclerView;->setItemAnimator(Landroid/support/v7/widget/RecyclerView$ItemAnimator;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/WebTrayRecyclerView;->setItemAnimator(Landroid/support/v7/widget/RecyclerView$ItemAnimator;)V
 
     .line 68
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/WebTrayRecyclerView;Lrx/functions/h;)V
+.method public static a(Lkik/arcane/widget/WebTrayRecyclerView;Lrx/functions/h;)V
     .locals 1
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -137,7 +137,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/WebTrayRecyclerView;",
+            "Lkik/arcane/widget/WebTrayRecyclerView;",
             "Lrx/functions/h",
             "<",
             "Ljava/lang/Integer;",
@@ -157,11 +157,11 @@
 
     .line 33
     :cond_0
-    invoke-static {p1}, Lkik/android/widget/ds;->a(Lrx/functions/h;)Landroid/view/View$OnTouchListener;
+    invoke-static {p1}, Lkik/arcane/widget/ds;->a(Lrx/functions/h;)Landroid/view/View$OnTouchListener;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/WebTrayRecyclerView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/WebTrayRecyclerView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     goto :goto_0
 .end method
@@ -225,13 +225,13 @@
     move-result-object v0
 
     .line 1080
-    new-instance v1, Lkik/android/widget/WebTrayRecyclerView$a;
+    new-instance v1, Lkik/arcane/widget/WebTrayRecyclerView$a;
 
     invoke-virtual {v0}, Landroid/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object v0
 
-    invoke-direct {v1, p0, v0}, Lkik/android/widget/WebTrayRecyclerView$a;-><init>(Lkik/android/widget/WebTrayRecyclerView;Landroid/view/View;)V
+    invoke-direct {v1, p0, v0}, Lkik/arcane/widget/WebTrayRecyclerView$a;-><init>(Lkik/arcane/widget/WebTrayRecyclerView;Landroid/view/View;)V
 
     .line 24
     return-object v1
@@ -242,7 +242,7 @@
 
     .prologue
     .line 105
-    iput p1, p0, Lkik/android/widget/WebTrayRecyclerView;->d:I
+    iput p1, p0, Lkik/arcane/widget/WebTrayRecyclerView;->d:I
 
     .line 106
     return-void
@@ -256,7 +256,7 @@
     invoke-super {p0, p1, p2}, Landroid/support/v7/widget/RecyclerView;->onMeasure(II)V
 
     .line 88
-    invoke-virtual {p0}, Lkik/android/widget/WebTrayRecyclerView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/WebTrayRecyclerView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -271,7 +271,7 @@
     if-ne v0, v1, :cond_1
 
     .line 89
-    iget v0, p0, Lkik/android/widget/WebTrayRecyclerView;->b:F
+    iget v0, p0, Lkik/arcane/widget/WebTrayRecyclerView;->b:F
 
     const/4 v1, 0x0
 
@@ -279,18 +279,18 @@
 
     if-lez v0, :cond_0
 
-    iget v0, p0, Lkik/android/widget/WebTrayRecyclerView;->d:I
+    iget v0, p0, Lkik/arcane/widget/WebTrayRecyclerView;->d:I
 
     if-lez v0, :cond_0
 
     .line 90
-    invoke-virtual {p0}, Lkik/android/widget/WebTrayRecyclerView;->getMeasuredWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/WebTrayRecyclerView;->getMeasuredWidth()I
 
     move-result v0
 
     int-to-double v0, v0
 
-    iget v2, p0, Lkik/android/widget/WebTrayRecyclerView;->b:F
+    iget v2, p0, Lkik/arcane/widget/WebTrayRecyclerView;->b:F
 
     float-to-double v2, v2
 
@@ -302,24 +302,24 @@
 
     double-to-int v0, v0
 
-    iget v1, p0, Lkik/android/widget/WebTrayRecyclerView;->d:I
+    iget v1, p0, Lkik/arcane/widget/WebTrayRecyclerView;->d:I
 
     invoke-static {v0, v1}, Ljava/lang/Math;->min(II)I
 
     move-result v0
 
     .line 91
-    iget v1, p0, Lkik/android/widget/WebTrayRecyclerView;->e:I
+    iget v1, p0, Lkik/arcane/widget/WebTrayRecyclerView;->e:I
 
     if-eq v1, v0, :cond_0
 
     .line 92
-    iget-object v1, p0, Lkik/android/widget/WebTrayRecyclerView;->c:Landroid/support/v7/widget/GridLayoutManager;
+    iget-object v1, p0, Lkik/arcane/widget/WebTrayRecyclerView;->c:Landroid/support/v7/widget/GridLayoutManager;
 
     invoke-virtual {v1, v0}, Landroid/support/v7/widget/GridLayoutManager;->a(I)V
 
     .line 93
-    iput v0, p0, Lkik/android/widget/WebTrayRecyclerView;->e:I
+    iput v0, p0, Lkik/arcane/widget/WebTrayRecyclerView;->e:I
 
     .line 101
     :cond_0
@@ -328,16 +328,16 @@
 
     .line 98
     :cond_1
-    iget-object v0, p0, Lkik/android/widget/WebTrayRecyclerView;->c:Landroid/support/v7/widget/GridLayoutManager;
+    iget-object v0, p0, Lkik/arcane/widget/WebTrayRecyclerView;->c:Landroid/support/v7/widget/GridLayoutManager;
 
-    sget v1, Lkik/android/widget/WebTrayRecyclerView;->a:I
+    sget v1, Lkik/arcane/widget/WebTrayRecyclerView;->a:I
 
     invoke-virtual {v0, v1}, Landroid/support/v7/widget/GridLayoutManager;->a(I)V
 
     .line 99
-    sget v0, Lkik/android/widget/WebTrayRecyclerView;->a:I
+    sget v0, Lkik/arcane/widget/WebTrayRecyclerView;->a:I
 
-    iput v0, p0, Lkik/android/widget/WebTrayRecyclerView;->e:I
+    iput v0, p0, Lkik/arcane/widget/WebTrayRecyclerView;->e:I
 
     goto :goto_0
 .end method

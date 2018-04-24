@@ -120,7 +120,7 @@
     .line 77
     iget-object v0, p0, Lkik/core/manager/z;->a:Lkik/core/interfaces/v;
 
-    invoke-static {p1, v0}, Lkik/android/util/i;->a(Lkik/core/datatypes/d;Lkik/core/interfaces/v;)Ljava/util/List;
+    invoke-static {p1, v0}, Lkik/arcane/util/i;->a(Lkik/core/datatypes/d;Lkik/core/interfaces/v;)Ljava/util/List;
 
     move-result-object v0
 
@@ -374,7 +374,7 @@
     .line 133
     iget-object v5, p0, Lkik/core/manager/z;->a:Lkik/core/interfaces/v;
 
-    invoke-static {v4, v5}, Lkik/android/util/i;->a(Lkik/core/datatypes/c;Lkik/core/interfaces/v;)Lkik/core/datatypes/l;
+    invoke-static {v4, v5}, Lkik/arcane/util/i;->a(Lkik/core/datatypes/c;Lkik/core/interfaces/v;)Lkik/core/datatypes/l;
 
     move-result-object v5
 
@@ -410,7 +410,7 @@
 
     iget-object v1, p0, Lkik/core/manager/z;->a:Lkik/core/interfaces/v;
 
-    invoke-static {p1, v1}, Lkik/android/util/i;->a(Lkik/core/datatypes/d;Lkik/core/interfaces/v;)Ljava/util/List;
+    invoke-static {p1, v1}, Lkik/arcane/util/i;->a(Lkik/core/datatypes/d;Lkik/core/interfaces/v;)Ljava/util/List;
 
     move-result-object v3
 
@@ -548,17 +548,17 @@
 
     .prologue
     .line 101
-    invoke-static {}, Lkik/android/config/c;->c()Lkik/android/config/b;
+    invoke-static {}, Lkik/arcane/config/c;->c()Lkik/arcane/config/b;
 
     move-result-object v0
 
     const-string v1, "inline_bot_server_search_config"
 
-    invoke-interface {v0, v1}, Lkik/android/config/b;->a(Ljava/lang/String;)Lkik/android/config/Configuration;
+    invoke-interface {v0, v1}, Lkik/arcane/config/b;->a(Ljava/lang/String;)Lkik/arcane/config/Configuration;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/config/Configuration;->b()Ljava/lang/Object;
+    invoke-virtual {v0}, Lkik/arcane/config/Configuration;->b()Ljava/lang/Object;
 
     move-result-object v0
 

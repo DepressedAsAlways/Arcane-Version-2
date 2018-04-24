@@ -1,11 +1,11 @@
-.class public interface abstract Lkik/android/chat/fragment/ProgressDialogFragment$a;
+.class public interface abstract Lkik/arcane/chat/fragment/ProgressDialogFragment$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/ProgressDialogFragment;
+    value = Lkik/arcane/chat/fragment/ProgressDialogFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

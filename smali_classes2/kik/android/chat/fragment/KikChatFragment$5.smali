@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/KikChatFragment$5;
+.class final Lkik/arcane/chat/fragment/KikChatFragment$5;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/KikChatFragment;->handleBackPress()Z
+    value = Lkik/arcane/chat/fragment/KikChatFragment;->handleBackPress()Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikChatFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikChatFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikChatFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikChatFragment;)V
     .locals 0
 
     .prologue
     .line 1953
-    iput-object p1, p0, Lkik/android/chat/fragment/KikChatFragment$5;->a:Lkik/android/chat/fragment/KikChatFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikChatFragment$5;->a:Lkik/arcane/chat/fragment/KikChatFragment;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -57,9 +57,9 @@
     if-eqz v0, :cond_0
 
     .line 2958
-    iget-object v0, p0, Lkik/android/chat/fragment/KikChatFragment$5;->a:Lkik/android/chat/fragment/KikChatFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikChatFragment$5;->a:Lkik/arcane/chat/fragment/KikChatFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/KikChatFragment;->p(Lkik/android/chat/fragment/KikChatFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/KikChatFragment;->p(Lkik/arcane/chat/fragment/KikChatFragment;)V
 
     .line 1953
     :cond_0

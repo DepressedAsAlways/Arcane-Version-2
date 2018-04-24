@@ -1,11 +1,11 @@
-.class public interface abstract Lkik/android/chat/presentation/c$a;
+.class public interface abstract Lkik/arcane/chat/presentation/c$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/presentation/c;
+    value = Lkik/arcane/chat/presentation/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

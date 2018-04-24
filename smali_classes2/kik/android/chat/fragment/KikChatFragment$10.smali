@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/KikChatFragment$10;
+.class final Lkik/arcane/chat/fragment/KikChatFragment$10;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikChatFragment;
+    value = Lkik/arcane/chat/fragment/KikChatFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikChatFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikChatFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikChatFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikChatFragment;)V
     .locals 0
 
     .prologue
     .line 489
-    iput-object p1, p0, Lkik/android/chat/fragment/KikChatFragment$10;->a:Lkik/android/chat/fragment/KikChatFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikChatFragment$10;->a:Lkik/arcane/chat/fragment/KikChatFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -54,9 +54,9 @@
     check-cast p2, Lkik/core/net/outgoing/GroupLeaveRequest;
 
     .line 1493
-    iget-object v0, p0, Lkik/android/chat/fragment/KikChatFragment$10;->a:Lkik/android/chat/fragment/KikChatFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikChatFragment$10;->a:Lkik/arcane/chat/fragment/KikChatFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/KikChatFragment;->b:Lkik/core/manager/x;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/KikChatFragment;->b:Lkik/core/manager/x;
 
     invoke-virtual {p2}, Lkik/core/net/outgoing/GroupLeaveRequest;->getGroupJid()Ljava/lang/String;
 

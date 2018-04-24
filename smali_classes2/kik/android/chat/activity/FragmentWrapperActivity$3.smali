@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/activity/FragmentWrapperActivity$3;
+.class final Lkik/arcane/chat/activity/FragmentWrapperActivity$3;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/activity/FragmentWrapperActivity;
+    value = Lkik/arcane/chat/activity/FragmentWrapperActivity;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/activity/FragmentWrapperActivity;
+.field final synthetic a:Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/activity/FragmentWrapperActivity;)V
+.method constructor <init>(Lkik/arcane/chat/activity/FragmentWrapperActivity;)V
     .locals 0
 
     .prologue
     .line 119
-    iput-object p1, p0, Lkik/android/chat/activity/FragmentWrapperActivity$3;->a:Lkik/android/chat/activity/FragmentWrapperActivity;
+    iput-object p1, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity$3;->a:Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -54,17 +54,17 @@
     check-cast p2, Ljava/lang/String;
 
     .line 1123
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity$3;->a:Lkik/android/chat/activity/FragmentWrapperActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity$3;->a:Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
-    invoke-static {v0}, Lkik/android/chat/activity/FragmentWrapperActivity;->c(Lkik/android/chat/activity/FragmentWrapperActivity;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->c(Lkik/arcane/chat/activity/FragmentWrapperActivity;)Ljava/lang/String;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity$3;->a:Lkik/android/chat/activity/FragmentWrapperActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity$3;->a:Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
-    invoke-static {v0}, Lkik/android/chat/activity/FragmentWrapperActivity;->c(Lkik/android/chat/activity/FragmentWrapperActivity;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->c(Lkik/arcane/chat/activity/FragmentWrapperActivity;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -75,18 +75,18 @@
     if-eqz v0, :cond_0
 
     .line 1124
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity$3;->a:Lkik/android/chat/activity/FragmentWrapperActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity$3;->a:Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
-    invoke-static {v0}, Lkik/android/chat/activity/FragmentWrapperActivity;->a(Lkik/android/chat/activity/FragmentWrapperActivity;)Lcom/kik/events/d;
+    invoke-static {v0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->a(Lkik/arcane/chat/activity/FragmentWrapperActivity;)Lcom/kik/events/d;
 
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/kik/events/d;->a()V
 
     .line 1125
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity$3;->a:Lkik/android/chat/activity/FragmentWrapperActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity$3;->a:Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/FragmentWrapperActivity;->finish()V
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->finish()V
 
     .line 119
     :cond_0

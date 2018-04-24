@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/profile/gridvm/ak;
+.class final synthetic Lkik/arcane/chat/vm/profile/gridvm/ak;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/vm/profile/gridvm/ak;
+.field private static final a:Lkik/arcane/chat/vm/profile/gridvm/ak;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/profile/gridvm/ak;
+    new-instance v0, Lkik/arcane/chat/vm/profile/gridvm/ak;
 
-    invoke-direct {v0}, Lkik/android/chat/vm/profile/gridvm/ak;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/vm/profile/gridvm/ak;-><init>()V
 
-    sput-object v0, Lkik/android/chat/vm/profile/gridvm/ak;->a:Lkik/android/chat/vm/profile/gridvm/ak;
+    sput-object v0, Lkik/arcane/chat/vm/profile/gridvm/ak;->a:Lkik/arcane/chat/vm/profile/gridvm/ak;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lrx/functions/b;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/vm/profile/gridvm/ak;->a:Lkik/android/chat/vm/profile/gridvm/ak;
+    sget-object v0, Lkik/arcane/chat/vm/profile/gridvm/ak;->a:Lkik/arcane/chat/vm/profile/gridvm/ak;
 
     return-object v0
 .end method
@@ -43,9 +43,9 @@
 .method public final call(Ljava/lang/Object;)V
     .locals 0
 
-    check-cast p1, Lcom/kik/android/Mixpanel$d;
+    check-cast p1, Lcom/kik/arcane/Mixpanel$d;
 
-    invoke-virtual {p1}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {p1}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     return-void
 .end method

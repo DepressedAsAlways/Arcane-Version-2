@@ -1,11 +1,11 @@
-.class public final Lcom/kik/android/Mixpanel$BatteryChangeProperties$NetWorkState;
+.class public final Lcom/kik/arcane/Mixpanel$BatteryChangeProperties$NetWorkState;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/kik/android/Mixpanel$BatteryChangeProperties;
+    value = Lcom/kik/arcane/Mixpanel$BatteryChangeProperties;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

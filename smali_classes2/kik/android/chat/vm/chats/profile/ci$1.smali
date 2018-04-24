@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/vm/chats/profile/ci$1;
+.class final Lkik/arcane/chat/vm/chats/profile/ci$1;
 .super Lrx/j;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/chats/profile/ci;->b()Lrx/b;
+    value = Lkik/arcane/chat/vm/chats/profile/ci;->b()Lrx/b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/chats/profile/ci;
+.field final synthetic a:Lkik/arcane/chat/vm/chats/profile/ci;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/chats/profile/ci;)V
+.method constructor <init>(Lkik/arcane/chat/vm/chats/profile/ci;)V
     .locals 0
 
     .prologue
     .line 100
-    iput-object p1, p0, Lkik/android/chat/vm/chats/profile/ci$1;->a:Lkik/android/chat/vm/chats/profile/ci;
+    iput-object p1, p0, Lkik/arcane/chat/vm/chats/profile/ci$1;->a:Lkik/arcane/chat/vm/chats/profile/ci;
 
     invoke-direct {p0}, Lrx/j;-><init>()V
 
@@ -60,22 +60,22 @@
     if-eqz v0, :cond_0
 
     .line 112
-    sget-object v0, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->SERVER_ERROR_BAD_WORD:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
+    sget-object v0, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->SERVER_ERROR_BAD_WORD:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
 
     .line 120
     :goto_0
-    iget-object v1, p0, Lkik/android/chat/vm/chats/profile/ci$1;->a:Lkik/android/chat/vm/chats/profile/ci;
+    iget-object v1, p0, Lkik/arcane/chat/vm/chats/profile/ci$1;->a:Lkik/arcane/chat/vm/chats/profile/ci;
 
-    invoke-static {v1}, Lkik/android/chat/vm/chats/profile/ci;->c(Lkik/android/chat/vm/chats/profile/ci;)Lrx/subjects/a;
+    invoke-static {v1}, Lkik/arcane/chat/vm/chats/profile/ci;->c(Lkik/arcane/chat/vm/chats/profile/ci;)Lrx/subjects/a;
 
     move-result-object v1
 
     invoke-virtual {v1, v0}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 
     .line 122
-    iget-object v1, p0, Lkik/android/chat/vm/chats/profile/ci$1;->a:Lkik/android/chat/vm/chats/profile/ci;
+    iget-object v1, p0, Lkik/arcane/chat/vm/chats/profile/ci$1;->a:Lkik/arcane/chat/vm/chats/profile/ci;
 
-    invoke-static {v1, v0}, Lkik/android/chat/vm/chats/profile/ci;->d(Lkik/android/chat/vm/chats/profile/ci;Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;)V
+    invoke-static {v1, v0}, Lkik/arcane/chat/vm/chats/profile/ci;->d(Lkik/arcane/chat/vm/chats/profile/ci;Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;)V
 
     .line 123
     return-void
@@ -97,13 +97,13 @@
     if-ne v0, v1, :cond_1
 
     .line 115
-    sget-object v0, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->NETWORK_ERROR:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
+    sget-object v0, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->NETWORK_ERROR:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
 
     goto :goto_0
 
     .line 118
     :cond_1
-    sget-object v0, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->SERVER_ERROR_UNKNOWN:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
+    sget-object v0, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->SERVER_ERROR_UNKNOWN:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
 
     goto :goto_0
 .end method
@@ -113,9 +113,9 @@
 
     .prologue
     .line 104
-    iget-object v0, p0, Lkik/android/chat/vm/chats/profile/ci$1;->a:Lkik/android/chat/vm/chats/profile/ci;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/profile/ci$1;->a:Lkik/arcane/chat/vm/chats/profile/ci;
 
-    invoke-static {v0}, Lkik/android/chat/vm/chats/profile/ci;->b(Lkik/android/chat/vm/chats/profile/ci;)V
+    invoke-static {v0}, Lkik/arcane/chat/vm/chats/profile/ci;->b(Lkik/arcane/chat/vm/chats/profile/ci;)V
 
     .line 105
     return-void

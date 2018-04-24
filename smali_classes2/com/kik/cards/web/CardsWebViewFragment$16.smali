@@ -70,7 +70,7 @@
 
     aput-object v1, v0, v2
 
-    invoke-static {v0}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     .line 725
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment$16;->b:Lcom/kik/cards/web/CardsWebViewFragment;

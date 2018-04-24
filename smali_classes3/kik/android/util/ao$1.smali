@@ -1,4 +1,4 @@
-.class final Lkik/android/util/ao$1;
+.class final Lkik/arcane/util/ao$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/util/ao;->b(Landroid/view/View;)V
+    value = Lkik/arcane/util/ao;->b(Landroid/view/View;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,9 +29,9 @@
 
     .prologue
     .line 157
-    iput-object p1, p0, Lkik/android/util/ao$1;->a:Landroid/view/View;
+    iput-object p1, p0, Lkik/arcane/util/ao$1;->a:Landroid/view/View;
 
-    iput-object p2, p0, Lkik/android/util/ao$1;->b:Landroid/graphics/drawable/Drawable;
+    iput-object p2, p0, Lkik/arcane/util/ao$1;->b:Landroid/graphics/drawable/Drawable;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,9 +45,9 @@
 
     .prologue
     .line 172
-    iget-object v0, p0, Lkik/android/util/ao$1;->a:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/util/ao$1;->a:Landroid/view/View;
 
-    iget-object v1, p0, Lkik/android/util/ao$1;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v1, p0, Lkik/arcane/util/ao$1;->b:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 

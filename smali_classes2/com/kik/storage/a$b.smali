@@ -1,5 +1,5 @@
 .class final Lcom/kik/storage/a$b;
-.super Lkik/android/i/c;
+.super Lkik/arcane/i/c;
 .source "SourceFile"
 
 
@@ -31,7 +31,7 @@
 
     const/4 v1, 0x1
 
-    invoke-direct {p0, p2, v0, v1, p3}, Lkik/android/i/c;-><init>(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-direct {p0, p2, v0, v1, p3}, Lkik/arcane/i/c;-><init>(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 251
     return-void

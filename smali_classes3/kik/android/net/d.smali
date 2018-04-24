@@ -1,4 +1,4 @@
-.class public final Lkik/android/net/d;
+.class public final Lkik/arcane/net/d;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -40,10 +40,10 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 10
-    iput-object p1, p0, Lkik/android/net/d;->a:Ljava/lang/Object;
+    iput-object p1, p0, Lkik/arcane/net/d;->a:Ljava/lang/Object;
 
     .line 11
-    iput p2, p0, Lkik/android/net/d;->b:I
+    iput p2, p0, Lkik/arcane/net/d;->b:I
 
     .line 12
     return-void

@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/activity/FragmentWrapperActivity$4;
+.class final Lkik/arcane/chat/activity/FragmentWrapperActivity$4;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/activity/FragmentWrapperActivity;->a(Landroid/content/Intent;)Landroid/support/v4/app/Fragment;
+    value = Lkik/arcane/chat/activity/FragmentWrapperActivity;->a(Landroid/content/Intent;)Landroid/support/v4/app/Fragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/activity/FragmentWrapperActivity;
+.field final synthetic a:Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/activity/FragmentWrapperActivity;)V
+.method constructor <init>(Lkik/arcane/chat/activity/FragmentWrapperActivity;)V
     .locals 0
 
     .prologue
     .line 308
-    iput-object p1, p0, Lkik/android/chat/activity/FragmentWrapperActivity$4;->a:Lkik/android/chat/activity/FragmentWrapperActivity;
+    iput-object p1, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity$4;->a:Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -53,18 +53,18 @@
     invoke-super {p0, p1}, Lcom/kik/events/k;->a(Ljava/lang/Object;)V
 
     .line 1314
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity$4;->a:Lkik/android/chat/activity/FragmentWrapperActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity$4;->a:Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
-    invoke-static {v0}, Lkik/android/chat/activity/FragmentWrapperActivity;->d(Lkik/android/chat/activity/FragmentWrapperActivity;)Lcom/kik/events/Promise;
+    invoke-static {v0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->d(Lkik/arcane/chat/activity/FragmentWrapperActivity;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
     .line 1315
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity$4;->a:Lkik/android/chat/activity/FragmentWrapperActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity$4;->a:Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
-    invoke-static {v0}, Lkik/android/chat/activity/FragmentWrapperActivity;->d(Lkik/android/chat/activity/FragmentWrapperActivity;)Lcom/kik/events/Promise;
+    invoke-static {v0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->d(Lkik/arcane/chat/activity/FragmentWrapperActivity;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
@@ -83,18 +83,18 @@
     invoke-super {p0, p1}, Lcom/kik/events/k;->a(Ljava/lang/Throwable;)V
 
     .line 323
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity$4;->a:Lkik/android/chat/activity/FragmentWrapperActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity$4;->a:Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
-    invoke-static {v0}, Lkik/android/chat/activity/FragmentWrapperActivity;->d(Lkik/android/chat/activity/FragmentWrapperActivity;)Lcom/kik/events/Promise;
+    invoke-static {v0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->d(Lkik/arcane/chat/activity/FragmentWrapperActivity;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
     .line 324
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity$4;->a:Lkik/android/chat/activity/FragmentWrapperActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity$4;->a:Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
-    invoke-static {v0}, Lkik/android/chat/activity/FragmentWrapperActivity;->d(Lkik/android/chat/activity/FragmentWrapperActivity;)Lcom/kik/events/Promise;
+    invoke-static {v0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->d(Lkik/arcane/chat/activity/FragmentWrapperActivity;)Lcom/kik/events/Promise;
 
     move-result-object v0
 

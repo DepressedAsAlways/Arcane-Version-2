@@ -1,11 +1,11 @@
-.class final Lkik/android/internal/platform/PlatformHelper$6;
+.class final Lkik/arcane/internal/platform/PlatformHelper$6;
 .super Landroid/os/AsyncTask;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/internal/platform/PlatformHelper;
+    value = Lkik/arcane/internal/platform/PlatformHelper;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -30,20 +30,20 @@
 
 .field final synthetic b:Lcom/kik/events/Promise;
 
-.field final synthetic c:Lkik/android/internal/platform/PlatformHelper;
+.field final synthetic c:Lkik/arcane/internal/platform/PlatformHelper;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/internal/platform/PlatformHelper;Ljava/lang/String;Lcom/kik/events/Promise;)V
+.method constructor <init>(Lkik/arcane/internal/platform/PlatformHelper;Ljava/lang/String;Lcom/kik/events/Promise;)V
     .locals 0
 
     .prologue
     .line 708
-    iput-object p1, p0, Lkik/android/internal/platform/PlatformHelper$6;->c:Lkik/android/internal/platform/PlatformHelper;
+    iput-object p1, p0, Lkik/arcane/internal/platform/PlatformHelper$6;->c:Lkik/arcane/internal/platform/PlatformHelper;
 
-    iput-object p2, p0, Lkik/android/internal/platform/PlatformHelper$6;->a:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/internal/platform/PlatformHelper$6;->a:Ljava/lang/String;
 
-    iput-object p3, p0, Lkik/android/internal/platform/PlatformHelper$6;->b:Lcom/kik/events/Promise;
+    iput-object p3, p0, Lkik/arcane/internal/platform/PlatformHelper$6;->b:Lcom/kik/events/Promise;
 
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
 
@@ -63,7 +63,7 @@
     :try_start_0
     new-instance v1, Lorg/apache/http/client/methods/HttpHead;
 
-    iget-object v2, p0, Lkik/android/internal/platform/PlatformHelper$6;->a:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/internal/platform/PlatformHelper$6;->a:Ljava/lang/String;
 
     invoke-direct {v1, v2}, Lorg/apache/http/client/methods/HttpHead;-><init>(Ljava/lang/String;)V
 
@@ -82,7 +82,7 @@
     if-eqz v0, :cond_0
 
     .line 717
-    iget-object v1, p0, Lkik/android/internal/platform/PlatformHelper$6;->b:Lcom/kik/events/Promise;
+    iget-object v1, p0, Lkik/arcane/internal/platform/PlatformHelper$6;->b:Lcom/kik/events/Promise;
 
     invoke-interface {v0}, Lorg/apache/http/Header;->getValue()Ljava/lang/String;
 
@@ -106,7 +106,7 @@
 
     .line 721
     :cond_0
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper$6;->b:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper$6;->b:Lcom/kik/events/Promise;
 
     const-wide/16 v2, 0x0
 
@@ -128,7 +128,7 @@
     move-exception v0
 
     .line 725
-    iget-object v1, p0, Lkik/android/internal/platform/PlatformHelper$6;->b:Lcom/kik/events/Promise;
+    iget-object v1, p0, Lkik/arcane/internal/platform/PlatformHelper$6;->b:Lcom/kik/events/Promise;
 
     invoke-virtual {v1, v0}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 
@@ -139,7 +139,7 @@
     move-exception v0
 
     .line 728
-    iget-object v1, p0, Lkik/android/internal/platform/PlatformHelper$6;->b:Lcom/kik/events/Promise;
+    iget-object v1, p0, Lkik/arcane/internal/platform/PlatformHelper$6;->b:Lcom/kik/events/Promise;
 
     invoke-virtual {v1, v0}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 
@@ -150,7 +150,7 @@
     move-exception v0
 
     .line 731
-    iget-object v1, p0, Lkik/android/internal/platform/PlatformHelper$6;->b:Lcom/kik/events/Promise;
+    iget-object v1, p0, Lkik/arcane/internal/platform/PlatformHelper$6;->b:Lcom/kik/events/Promise;
 
     invoke-virtual {v1, v0}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 
@@ -161,7 +161,7 @@
     move-exception v0
 
     .line 734
-    iget-object v1, p0, Lkik/android/internal/platform/PlatformHelper$6;->b:Lcom/kik/events/Promise;
+    iget-object v1, p0, Lkik/arcane/internal/platform/PlatformHelper$6;->b:Lcom/kik/events/Promise;
 
     invoke-virtual {v1, v0}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 
@@ -175,7 +175,7 @@
 
     .prologue
     .line 708
-    invoke-direct {p0}, Lkik/android/internal/platform/PlatformHelper$6;->a()Ljava/lang/Void;
+    invoke-direct {p0}, Lkik/arcane/internal/platform/PlatformHelper$6;->a()Ljava/lang/Void;
 
     move-result-object v0
 

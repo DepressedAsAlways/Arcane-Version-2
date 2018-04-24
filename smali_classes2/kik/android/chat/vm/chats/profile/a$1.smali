@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/vm/chats/profile/a$1;
+.class final Lkik/arcane/chat/vm/chats/profile/a$1;
 .super Lrx/j;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/chats/profile/a;->b()Lrx/b;
+    value = Lkik/arcane/chat/vm/chats/profile/a;->b()Lrx/b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/chats/profile/a;
+.field final synthetic a:Lkik/arcane/chat/vm/chats/profile/a;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/chats/profile/a;)V
+.method constructor <init>(Lkik/arcane/chat/vm/chats/profile/a;)V
     .locals 0
 
     .prologue
     .line 93
-    iput-object p1, p0, Lkik/android/chat/vm/chats/profile/a$1;->a:Lkik/android/chat/vm/chats/profile/a;
+    iput-object p1, p0, Lkik/arcane/chat/vm/chats/profile/a$1;->a:Lkik/arcane/chat/vm/chats/profile/a;
 
     invoke-direct {p0}, Lrx/j;-><init>()V
 
@@ -64,48 +64,48 @@
     if-eqz v0, :cond_0
 
     .line 110
-    sget-object v0, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->SERVER_ERROR_BAD_WORD:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
+    sget-object v0, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->SERVER_ERROR_BAD_WORD:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
 
     .line 118
     :goto_0
-    iget-object v3, p0, Lkik/android/chat/vm/chats/profile/a$1;->a:Lkik/android/chat/vm/chats/profile/a;
+    iget-object v3, p0, Lkik/arcane/chat/vm/chats/profile/a$1;->a:Lkik/arcane/chat/vm/chats/profile/a;
 
-    invoke-static {v3}, Lkik/android/chat/vm/chats/profile/a;->c(Lkik/android/chat/vm/chats/profile/a;)Lrx/subjects/a;
+    invoke-static {v3}, Lkik/arcane/chat/vm/chats/profile/a;->c(Lkik/arcane/chat/vm/chats/profile/a;)Lrx/subjects/a;
 
     move-result-object v3
 
     invoke-virtual {v3, v0}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 
     .line 120
-    iget-object v3, p0, Lkik/android/chat/vm/chats/profile/a$1;->a:Lkik/android/chat/vm/chats/profile/a;
+    iget-object v3, p0, Lkik/arcane/chat/vm/chats/profile/a$1;->a:Lkik/arcane/chat/vm/chats/profile/a;
 
-    iget-object v3, v3, Lkik/android/chat/vm/chats/profile/a;->b:Lcom/kik/android/Mixpanel;
+    iget-object v3, v3, Lkik/arcane/chat/vm/chats/profile/a;->b:Lcom/kik/arcane/Mixpanel;
 
     const-string v4, "settings_biosave_failed"
 
-    invoke-virtual {v3, v4}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v3, v4}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v3
 
     const-string v4, "error_reason"
 
-    iget-object v0, v0, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->metricName:Ljava/lang/String;
+    iget-object v0, v0, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->metricName:Ljava/lang/String;
 
     .line 121
-    invoke-virtual {v3, v4, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v3, v4, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v3
 
     const-string v4, "bio_set"
 
-    iget-object v0, p0, Lkik/android/chat/vm/chats/profile/a$1;->a:Lkik/android/chat/vm/chats/profile/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/profile/a$1;->a:Lkik/arcane/chat/vm/chats/profile/a;
 
     .line 122
-    invoke-static {v0}, Lkik/android/chat/vm/chats/profile/a;->b(Lkik/android/chat/vm/chats/profile/a;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/vm/chats/profile/a;->b(Lkik/arcane/chat/vm/chats/profile/a;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -114,16 +114,16 @@
     move v0, v1
 
     :goto_1
-    invoke-virtual {v3, v4, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v3, v4, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v3, "contains_emoji"
 
-    iget-object v4, p0, Lkik/android/chat/vm/chats/profile/a$1;->a:Lkik/android/chat/vm/chats/profile/a;
+    iget-object v4, p0, Lkik/arcane/chat/vm/chats/profile/a$1;->a:Lkik/arcane/chat/vm/chats/profile/a;
 
     .line 124
-    invoke-static {v4}, Lkik/android/chat/vm/chats/profile/a;->b(Lkik/android/chat/vm/chats/profile/a;)Ljava/lang/String;
+    invoke-static {v4}, Lkik/arcane/chat/vm/chats/profile/a;->b(Lkik/arcane/chat/vm/chats/profile/a;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -138,17 +138,17 @@
     if-nez v4, :cond_3
 
     :goto_2
-    invoke-virtual {v0, v3, v1}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v3, v1}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 125
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 126
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 127
     return-void
@@ -170,13 +170,13 @@
     if-ne v0, v3, :cond_1
 
     .line 113
-    sget-object v0, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->NETWORK_ERROR:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
+    sget-object v0, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->NETWORK_ERROR:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
 
     goto :goto_0
 
     .line 116
     :cond_1
-    sget-object v0, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->SERVER_ERROR_UNKNOWN:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
+    sget-object v0, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->SERVER_ERROR_UNKNOWN:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
 
     goto :goto_0
 
@@ -202,26 +202,26 @@
     const/4 v2, 0x0
 
     .line 97
-    iget-object v0, p0, Lkik/android/chat/vm/chats/profile/a$1;->a:Lkik/android/chat/vm/chats/profile/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/profile/a$1;->a:Lkik/arcane/chat/vm/chats/profile/a;
 
-    iget-object v0, v0, Lkik/android/chat/vm/chats/profile/a;->b:Lcom/kik/android/Mixpanel;
+    iget-object v0, v0, Lkik/arcane/chat/vm/chats/profile/a;->b:Lcom/kik/arcane/Mixpanel;
 
     const-string v3, "settings_biosave_success"
 
-    invoke-virtual {v0, v3}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v3}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v3
 
     const-string v4, "bio_set"
 
-    iget-object v0, p0, Lkik/android/chat/vm/chats/profile/a$1;->a:Lkik/android/chat/vm/chats/profile/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/profile/a$1;->a:Lkik/arcane/chat/vm/chats/profile/a;
 
     .line 98
-    invoke-static {v0}, Lkik/android/chat/vm/chats/profile/a;->b(Lkik/android/chat/vm/chats/profile/a;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/vm/chats/profile/a;->b(Lkik/arcane/chat/vm/chats/profile/a;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -230,16 +230,16 @@
     move v0, v1
 
     :goto_0
-    invoke-virtual {v3, v4, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v3, v4, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v3, "contains_emoji"
 
-    iget-object v4, p0, Lkik/android/chat/vm/chats/profile/a$1;->a:Lkik/android/chat/vm/chats/profile/a;
+    iget-object v4, p0, Lkik/arcane/chat/vm/chats/profile/a$1;->a:Lkik/arcane/chat/vm/chats/profile/a;
 
     .line 100
-    invoke-static {v4}, Lkik/android/chat/vm/chats/profile/a;->b(Lkik/android/chat/vm/chats/profile/a;)Ljava/lang/String;
+    invoke-static {v4}, Lkik/arcane/chat/vm/chats/profile/a;->b(Lkik/arcane/chat/vm/chats/profile/a;)Ljava/lang/String;
 
     move-result-object v4
 
@@ -254,17 +254,17 @@
     if-nez v4, :cond_1
 
     :goto_1
-    invoke-virtual {v0, v3, v1}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v3, v1}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 101
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 102
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 103
     return-void

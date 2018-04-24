@@ -1,4 +1,4 @@
-.class public final Lkik/android/net/a;
+.class public final Lkik/arcane/net/a;
 .super Ljava/io/BufferedReader;
 .source "SourceFile"
 
@@ -14,7 +14,7 @@
 
 .field private c:Z
 
-.field private d:Lcom/kik/android/a/a;
+.field private d:Lcom/kik/arcane/a/a;
 
 .field private volatile e:J
 
@@ -31,12 +31,12 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/net/a;->f:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/net/a;->f:Lorg/slf4j/b;
 
     return-void
 .end method
 
-.method public constructor <init>(Ljava/io/Reader;Ljava/lang/String;Lcom/kik/android/a/a;)V
+.method public constructor <init>(Ljava/io/Reader;Ljava/lang/String;Lcom/kik/arcane/a/a;)V
     .locals 3
 
     .prologue
@@ -48,25 +48,25 @@
     .line 18
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/net/a;->c:Z
+    iput-boolean v0, p0, Lkik/arcane/net/a;->c:Z
 
     .line 21
     const-wide/16 v0, 0x0
 
-    iput-wide v0, p0, Lkik/android/net/a;->e:J
+    iput-wide v0, p0, Lkik/arcane/net/a;->e:J
 
     .line 28
     new-instance v0, Ljava/lang/StringBuffer;
 
     invoke-direct {v0, v2}, Ljava/lang/StringBuffer;-><init>(I)V
 
-    iput-object v0, p0, Lkik/android/net/a;->a:Ljava/lang/StringBuffer;
+    iput-object v0, p0, Lkik/arcane/net/a;->a:Ljava/lang/StringBuffer;
 
     .line 29
-    iput-object p2, p0, Lkik/android/net/a;->b:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/net/a;->b:Ljava/lang/String;
 
     .line 30
-    iput-object p3, p0, Lkik/android/net/a;->d:Lcom/kik/android/a/a;
+    iput-object p3, p0, Lkik/arcane/net/a;->d:Lcom/kik/arcane/a/a;
 
     .line 31
     return-void
@@ -85,7 +85,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v1, p0, Lkik/android/net/a;->b:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/net/a;->b:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -97,7 +97,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/net/a;->a:Ljava/lang/StringBuffer;
+    iget-object v1, p0, Lkik/arcane/net/a;->a:Ljava/lang/StringBuffer;
 
     invoke-virtual {v1}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
 
@@ -106,9 +106,9 @@
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 98
-    iget-object v0, p0, Lkik/android/net/a;->a:Ljava/lang/StringBuffer;
+    iget-object v0, p0, Lkik/arcane/net/a;->a:Ljava/lang/StringBuffer;
 
-    iget-object v1, p0, Lkik/android/net/a;->a:Ljava/lang/StringBuffer;
+    iget-object v1, p0, Lkik/arcane/net/a;->a:Ljava/lang/StringBuffer;
 
     invoke-virtual {v1}, Ljava/lang/StringBuffer;->length()I
 
@@ -117,7 +117,7 @@
     invoke-virtual {v0, v2, v1}, Ljava/lang/StringBuffer;->delete(II)Ljava/lang/StringBuffer;
 
     .line 99
-    iput-boolean v2, p0, Lkik/android/net/a;->c:Z
+    iput-boolean v2, p0, Lkik/arcane/net/a;->c:Z
 
     .line 100
     return-void
@@ -128,7 +128,7 @@
 
     .prologue
     .line 111
-    iget-wide v0, p0, Lkik/android/net/a;->e:J
+    iget-wide v0, p0, Lkik/arcane/net/a;->e:J
 
     return-wide v0
 .end method
@@ -143,9 +143,9 @@
 
     .prologue
     .line 105
-    iget-object v0, p0, Lkik/android/net/a;->d:Lcom/kik/android/a/a;
+    iget-object v0, p0, Lkik/arcane/net/a;->d:Lcom/kik/arcane/a/a;
 
-    invoke-virtual {v0}, Lcom/kik/android/a/a;->e()V
+    invoke-virtual {v0}, Lcom/kik/arcane/a/a;->e()V
 
     .line 106
     invoke-super {p0}, Ljava/io/BufferedReader;->close()V
@@ -171,18 +171,18 @@
     move-result v1
 
     .line 47
-    iget-object v2, p0, Lkik/android/net/a;->d:Lcom/kik/android/a/a;
+    iget-object v2, p0, Lkik/arcane/net/a;->d:Lcom/kik/arcane/a/a;
 
     const-wide/16 v4, 0x3e8
 
-    invoke-virtual {v2, v4, v5}, Lcom/kik/android/a/a;->a(J)Lcom/kik/events/o;
+    invoke-virtual {v2, v4, v5}, Lcom/kik/arcane/a/a;->a(J)Lcom/kik/events/o;
 
     .line 48
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    iput-wide v2, p0, Lkik/android/net/a;->e:J
+    iput-wide v2, p0, Lkik/arcane/net/a;->e:J
 
     .line 50
     if-ne v1, v0, :cond_0
@@ -193,7 +193,7 @@
 
     .line 53
     :cond_0
-    iget-object v0, p0, Lkik/android/net/a;->a:Ljava/lang/StringBuffer;
+    iget-object v0, p0, Lkik/arcane/net/a;->a:Ljava/lang/StringBuffer;
 
     invoke-virtual {v0}, Ljava/lang/StringBuffer;->length()I
 
@@ -201,7 +201,7 @@
 
     add-int/2addr v0, v1
 
-    iget-object v2, p0, Lkik/android/net/a;->a:Ljava/lang/StringBuffer;
+    iget-object v2, p0, Lkik/arcane/net/a;->a:Ljava/lang/StringBuffer;
 
     invoke-virtual {v2}, Ljava/lang/StringBuffer;->capacity()I
 
@@ -210,24 +210,24 @@
     if-lt v0, v2, :cond_1
 
     .line 54
-    invoke-virtual {p0}, Lkik/android/net/a;->a()V
+    invoke-virtual {p0}, Lkik/arcane/net/a;->a()V
 
     .line 56
     :cond_1
     if-ltz v1, :cond_2
 
-    iget-boolean v0, p0, Lkik/android/net/a;->c:Z
+    iget-boolean v0, p0, Lkik/arcane/net/a;->c:Z
 
     if-nez v0, :cond_2
 
     .line 57
-    iget-object v0, p0, Lkik/android/net/a;->a:Ljava/lang/StringBuffer;
+    iget-object v0, p0, Lkik/arcane/net/a;->a:Ljava/lang/StringBuffer;
 
     invoke-virtual {v0}, Ljava/lang/StringBuffer;->capacity()I
 
     move-result v0
 
-    iget-object v2, p0, Lkik/android/net/a;->a:Ljava/lang/StringBuffer;
+    iget-object v2, p0, Lkik/arcane/net/a;->a:Ljava/lang/StringBuffer;
 
     invoke-virtual {v2}, Ljava/lang/StringBuffer;->length()I
 
@@ -240,7 +240,7 @@
     if-lez v0, :cond_3
 
     .line 58
-    iget-object v0, p0, Lkik/android/net/a;->a:Ljava/lang/StringBuffer;
+    iget-object v0, p0, Lkik/arcane/net/a;->a:Ljava/lang/StringBuffer;
 
     int-to-char v2, v1
 
@@ -255,7 +255,7 @@
 
     .line 61
     :cond_3
-    iget-object v0, p0, Lkik/android/net/a;->a:Ljava/lang/StringBuffer;
+    iget-object v0, p0, Lkik/arcane/net/a;->a:Ljava/lang/StringBuffer;
 
     const-string v2, "... TRUNCATED"
 
@@ -264,7 +264,7 @@
     .line 62
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/net/a;->c:Z
+    iput-boolean v0, p0, Lkik/arcane/net/a;->c:Z
 
     goto :goto_1
 .end method
@@ -286,18 +286,18 @@
     move-result v1
 
     .line 75
-    iget-object v2, p0, Lkik/android/net/a;->d:Lcom/kik/android/a/a;
+    iget-object v2, p0, Lkik/arcane/net/a;->d:Lcom/kik/arcane/a/a;
 
     const-wide/16 v4, 0x3e8
 
-    invoke-virtual {v2, v4, v5}, Lcom/kik/android/a/a;->a(J)Lcom/kik/events/o;
+    invoke-virtual {v2, v4, v5}, Lcom/kik/arcane/a/a;->a(J)Lcom/kik/events/o;
 
     .line 76
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
 
-    iput-wide v2, p0, Lkik/android/net/a;->e:J
+    iput-wide v2, p0, Lkik/arcane/net/a;->e:J
 
     .line 78
     if-ne v1, v0, :cond_0
@@ -308,13 +308,13 @@
 
     .line 81
     :cond_0
-    iget-object v0, p0, Lkik/android/net/a;->a:Ljava/lang/StringBuffer;
+    iget-object v0, p0, Lkik/arcane/net/a;->a:Ljava/lang/StringBuffer;
 
     invoke-virtual {v0}, Ljava/lang/StringBuffer;->capacity()I
 
     move-result v0
 
-    iget-object v2, p0, Lkik/android/net/a;->a:Ljava/lang/StringBuffer;
+    iget-object v2, p0, Lkik/arcane/net/a;->a:Ljava/lang/StringBuffer;
 
     invoke-virtual {v2}, Ljava/lang/StringBuffer;->length()I
 
@@ -325,7 +325,7 @@
     add-int/lit8 v0, v0, -0xd
 
     .line 82
-    iget-boolean v2, p0, Lkik/android/net/a;->c:Z
+    iget-boolean v2, p0, Lkik/arcane/net/a;->c:Z
 
     if-nez v2, :cond_1
 
@@ -333,7 +333,7 @@
     if-ge v1, v0, :cond_2
 
     .line 84
-    iget-object v0, p0, Lkik/android/net/a;->a:Ljava/lang/StringBuffer;
+    iget-object v0, p0, Lkik/arcane/net/a;->a:Ljava/lang/StringBuffer;
 
     invoke-virtual {v0, p1, p2, v1}, Ljava/lang/StringBuffer;->append([CII)Ljava/lang/StringBuffer;
 
@@ -346,12 +346,12 @@
 
     .line 87
     :cond_2
-    iget-object v2, p0, Lkik/android/net/a;->a:Ljava/lang/StringBuffer;
+    iget-object v2, p0, Lkik/arcane/net/a;->a:Ljava/lang/StringBuffer;
 
     invoke-virtual {v2, p1, p2, v0}, Ljava/lang/StringBuffer;->append([CII)Ljava/lang/StringBuffer;
 
     .line 88
-    iget-object v0, p0, Lkik/android/net/a;->a:Ljava/lang/StringBuffer;
+    iget-object v0, p0, Lkik/arcane/net/a;->a:Ljava/lang/StringBuffer;
 
     const-string v2, "... TRUNCATED"
 
@@ -360,7 +360,7 @@
     .line 89
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/net/a;->c:Z
+    iput-boolean v0, p0, Lkik/arcane/net/a;->c:Z
 
     goto :goto_1
 .end method

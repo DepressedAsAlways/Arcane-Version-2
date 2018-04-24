@@ -1,5 +1,5 @@
 .class final Lcom/kik/cards/web/iap/b$4;
-.super Lkik/android/util/aq;
+.super Lkik/arcane/util/aq;
 .source "SourceFile"
 
 
@@ -15,7 +15,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkik/android/util/aq",
+        "Lkik/arcane/util/aq",
         "<",
         "Ljava/lang/Void;",
         "Ljava/lang/Void;",
@@ -37,7 +37,7 @@
     .line 195
     iput-object p1, p0, Lcom/kik/cards/web/iap/b$4;->a:Lcom/kik/cards/web/iap/b;
 
-    invoke-direct {p0}, Lkik/android/util/aq;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/util/aq;-><init>()V
 
     return-void
 .end method

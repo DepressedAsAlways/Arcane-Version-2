@@ -1,4 +1,4 @@
-.class public Lkik/android/challenge/PhoneNumberModel;
+.class public Lkik/arcane/challenge/PhoneNumberModel;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,7 +12,7 @@
         value = {
             "Landroid/os/Parcelable$Creator",
             "<",
-            "Lkik/android/challenge/PhoneNumberModel;",
+            "Lkik/arcane/challenge/PhoneNumberModel;",
             ">;"
         }
     .end annotation
@@ -20,7 +20,7 @@
 
 
 # instance fields
-.field private a:Lkik/android/challenge/CountryCode;
+.field private a:Lkik/arcane/challenge/CountryCode;
 
 .field private b:Ljava/lang/String;
 
@@ -31,11 +31,11 @@
 
     .prologue
     .line 73
-    new-instance v0, Lkik/android/challenge/PhoneNumberModel$1;
+    new-instance v0, Lkik/arcane/challenge/PhoneNumberModel$1;
 
-    invoke-direct {v0}, Lkik/android/challenge/PhoneNumberModel$1;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/challenge/PhoneNumberModel$1;-><init>()V
 
-    sput-object v0, Lkik/android/challenge/PhoneNumberModel;->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lkik/arcane/challenge/PhoneNumberModel;->CREATOR:Landroid/os/Parcelable$Creator;
 
     return-void
 .end method
@@ -48,7 +48,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 56
-    const-class v0, Lkik/android/challenge/CountryCode;
+    const-class v0, Lkik/arcane/challenge/CountryCode;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
 
@@ -58,16 +58,16 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/challenge/CountryCode;
+    check-cast v0, Lkik/arcane/challenge/CountryCode;
 
-    iput-object v0, p0, Lkik/android/challenge/PhoneNumberModel;->a:Lkik/android/challenge/CountryCode;
+    iput-object v0, p0, Lkik/arcane/challenge/PhoneNumberModel;->a:Lkik/arcane/challenge/CountryCode;
 
     .line 57
     invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/challenge/PhoneNumberModel;->b:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/challenge/PhoneNumberModel;->b:Ljava/lang/String;
 
     .line 58
     return-void
@@ -92,11 +92,11 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/challenge/CountryCode;->a(Ljava/util/Locale;)Lkik/android/challenge/CountryCode;
+    invoke-static {v0}, Lkik/arcane/challenge/CountryCode;->a(Ljava/util/Locale;)Lkik/arcane/challenge/CountryCode;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/challenge/PhoneNumberModel;->a:Lkik/android/challenge/CountryCode;
+    iput-object v0, p0, Lkik/arcane/challenge/PhoneNumberModel;->a:Lkik/arcane/challenge/CountryCode;
 
     .line 52
     :goto_0
@@ -107,7 +107,7 @@
     const/4 v0, 0x0
 
     :try_start_0
-    invoke-static {p1, v0}, Lkik/android/challenge/PhoneNumberModel;->a(Ljava/lang/String;Ljava/lang/String;)Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
+    invoke-static {p1, v0}, Lkik/arcane/challenge/PhoneNumberModel;->a(Ljava/lang/String;Ljava/lang/String;)Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
 
     move-result-object v0
 
@@ -120,7 +120,7 @@
 
     move-result-object v1
 
-    iput-object v1, p0, Lkik/android/challenge/PhoneNumberModel;->b:Ljava/lang/String;
+    iput-object v1, p0, Lkik/arcane/challenge/PhoneNumberModel;->b:Ljava/lang/String;
 
     .line 38
     invoke-virtual {v0}, Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;->a()I
@@ -131,11 +131,11 @@
     if-lez v0, :cond_1
 
     .line 40
-    invoke-static {v0}, Lkik/android/challenge/CountryCode;->a(I)Lkik/android/challenge/CountryCode;
+    invoke-static {v0}, Lkik/arcane/challenge/CountryCode;->a(I)Lkik/arcane/challenge/CountryCode;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/challenge/PhoneNumberModel;->a:Lkik/android/challenge/CountryCode;
+    iput-object v0, p0, Lkik/arcane/challenge/PhoneNumberModel;->a:Lkik/arcane/challenge/CountryCode;
     :try_end_0
     .catch Lcom/google/i18n/phonenumbers/NumberParseException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -149,11 +149,11 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/challenge/CountryCode;->a(Ljava/util/Locale;)Lkik/android/challenge/CountryCode;
+    invoke-static {v0}, Lkik/arcane/challenge/CountryCode;->a(Ljava/util/Locale;)Lkik/arcane/challenge/CountryCode;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/challenge/PhoneNumberModel;->a:Lkik/android/challenge/CountryCode;
+    iput-object v0, p0, Lkik/arcane/challenge/PhoneNumberModel;->a:Lkik/arcane/challenge/CountryCode;
 
     goto :goto_0
 
@@ -164,11 +164,11 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/challenge/CountryCode;->a(Ljava/util/Locale;)Lkik/android/challenge/CountryCode;
+    invoke-static {v0}, Lkik/arcane/challenge/CountryCode;->a(Ljava/util/Locale;)Lkik/arcane/challenge/CountryCode;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/challenge/PhoneNumberModel;->a:Lkik/android/challenge/CountryCode;
+    iput-object v0, p0, Lkik/arcane/challenge/PhoneNumberModel;->a:Lkik/arcane/challenge/CountryCode;
     :try_end_1
     .catch Lcom/google/i18n/phonenumbers/NumberParseException; {:try_start_1 .. :try_end_1} :catch_0
 
@@ -213,7 +213,7 @@
 
     .line 148
     :cond_1
-    invoke-static {p1}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {p1}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -231,22 +231,22 @@
     goto :goto_0
 .end method
 
-.method public static a(Lkik/android/challenge/PhoneNumberModel;)Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
+.method public static a(Lkik/arcane/challenge/PhoneNumberModel;)Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
     .locals 2
 
     .prologue
     .line 129
     .line 2104
     :try_start_0
-    iget-object v0, p0, Lkik/android/challenge/PhoneNumberModel;->b:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/challenge/PhoneNumberModel;->b:Ljava/lang/String;
 
     .line 3094
-    iget-object v1, p0, Lkik/android/challenge/PhoneNumberModel;->a:Lkik/android/challenge/CountryCode;
+    iget-object v1, p0, Lkik/arcane/challenge/PhoneNumberModel;->a:Lkik/arcane/challenge/CountryCode;
 
     .line 129
-    iget-object v1, v1, Lkik/android/challenge/CountryCode;->f:Ljava/lang/String;
+    iget-object v1, v1, Lkik/arcane/challenge/CountryCode;->f:Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lkik/android/challenge/PhoneNumberModel;->a(Ljava/lang/String;Ljava/lang/String;)Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
+    invoke-static {v0, v1}, Lkik/arcane/challenge/PhoneNumberModel;->a(Ljava/lang/String;Ljava/lang/String;)Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
     :try_end_0
     .catch Lcom/google/i18n/phonenumbers/NumberParseException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -266,12 +266,12 @@
 
 
 # virtual methods
-.method public final a()Lkik/android/challenge/CountryCode;
+.method public final a()Lkik/arcane/challenge/CountryCode;
     .locals 1
 
     .prologue
     .line 94
-    iget-object v0, p0, Lkik/android/challenge/PhoneNumberModel;->a:Lkik/android/challenge/CountryCode;
+    iget-object v0, p0, Lkik/arcane/challenge/PhoneNumberModel;->a:Lkik/arcane/challenge/CountryCode;
 
     return-object v0
 .end method
@@ -281,18 +281,18 @@
 
     .prologue
     .line 99
-    iput-object p1, p0, Lkik/android/challenge/PhoneNumberModel;->b:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/challenge/PhoneNumberModel;->b:Ljava/lang/String;
 
     .line 100
     return-void
 .end method
 
-.method public final a(Lkik/android/challenge/CountryCode;)V
+.method public final a(Lkik/arcane/challenge/CountryCode;)V
     .locals 0
 
     .prologue
     .line 89
-    iput-object p1, p0, Lkik/android/challenge/PhoneNumberModel;->a:Lkik/android/challenge/CountryCode;
+    iput-object p1, p0, Lkik/arcane/challenge/PhoneNumberModel;->a:Lkik/arcane/challenge/CountryCode;
 
     .line 90
     return-void
@@ -303,7 +303,7 @@
 
     .prologue
     .line 104
-    iget-object v0, p0, Lkik/android/challenge/PhoneNumberModel;->b:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/challenge/PhoneNumberModel;->b:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -315,9 +315,9 @@
     const/4 v0, 0x0
 
     .line 109
-    iget-object v1, p0, Lkik/android/challenge/PhoneNumberModel;->b:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/challenge/PhoneNumberModel;->b:Ljava/lang/String;
 
-    invoke-static {v1}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v1}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -333,20 +333,20 @@
 
     .line 114
     :try_start_0
-    iget-object v2, p0, Lkik/android/challenge/PhoneNumberModel;->a:Lkik/android/challenge/CountryCode;
+    iget-object v2, p0, Lkik/arcane/challenge/PhoneNumberModel;->a:Lkik/arcane/challenge/CountryCode;
 
     if-eqz v2, :cond_1
 
     .line 115
-    iget-object v1, p0, Lkik/android/challenge/PhoneNumberModel;->a:Lkik/android/challenge/CountryCode;
+    iget-object v1, p0, Lkik/arcane/challenge/PhoneNumberModel;->a:Lkik/arcane/challenge/CountryCode;
 
-    iget-object v1, v1, Lkik/android/challenge/CountryCode;->f:Ljava/lang/String;
+    iget-object v1, v1, Lkik/arcane/challenge/CountryCode;->f:Ljava/lang/String;
 
     .line 117
     :cond_1
-    iget-object v2, p0, Lkik/android/challenge/PhoneNumberModel;->b:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/challenge/PhoneNumberModel;->b:Ljava/lang/String;
 
-    invoke-static {v2, v1}, Lkik/android/challenge/PhoneNumberModel;->a(Ljava/lang/String;Ljava/lang/String;)Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
+    invoke-static {v2, v1}, Lkik/arcane/challenge/PhoneNumberModel;->a(Ljava/lang/String;Ljava/lang/String;)Lcom/google/i18n/phonenumbers/Phonenumber$PhoneNumber;
 
     move-result-object v1
 
@@ -385,12 +385,12 @@
 
     .prologue
     .line 63
-    iget-object v0, p0, Lkik/android/challenge/PhoneNumberModel;->a:Lkik/android/challenge/CountryCode;
+    iget-object v0, p0, Lkik/arcane/challenge/PhoneNumberModel;->a:Lkik/arcane/challenge/CountryCode;
 
     invoke-virtual {p1, v0, p2}, Landroid/os/Parcel;->writeParcelable(Landroid/os/Parcelable;I)V
 
     .line 64
-    iget-object v0, p0, Lkik/android/challenge/PhoneNumberModel;->b:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/challenge/PhoneNumberModel;->b:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 

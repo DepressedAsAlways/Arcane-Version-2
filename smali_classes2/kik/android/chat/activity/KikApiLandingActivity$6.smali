@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/activity/KikApiLandingActivity$6;
+.class final Lkik/arcane/chat/activity/KikApiLandingActivity$6;
 .super Lcom/kik/a/a;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/activity/KikApiLandingActivity;
+    value = Lkik/arcane/chat/activity/KikApiLandingActivity;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic b:Lkik/android/chat/activity/KikApiLandingActivity;
+.field final synthetic b:Lkik/arcane/chat/activity/KikApiLandingActivity;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
+.method constructor <init>(Lkik/arcane/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
     .locals 0
 
     .prologue
     .line 109
-    iput-object p1, p0, Lkik/android/chat/activity/KikApiLandingActivity$6;->b:Lkik/android/chat/activity/KikApiLandingActivity;
+    iput-object p1, p0, Lkik/arcane/chat/activity/KikApiLandingActivity$6;->b:Lkik/arcane/chat/activity/KikApiLandingActivity;
 
     invoke-direct {p0, p2}, Lcom/kik/a/a;-><init>(Ljava/lang/String;)V
 
@@ -55,19 +55,19 @@
 
     .prologue
     .line 113
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity$6;->b:Lkik/android/chat/activity/KikApiLandingActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity$6;->b:Lkik/arcane/chat/activity/KikApiLandingActivity;
 
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikApiLandingActivity$6;->b()Ljava/lang/String;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikApiLandingActivity$6;->b()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikApiLandingActivity$6;->a()Z
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikApiLandingActivity$6;->a()Z
 
     move-result v2
 
     const/4 v3, 0x0
 
-    invoke-static {v0, p1, v1, v2, v3}, Lkik/android/chat/activity/KikApiLandingActivity;->a(Lkik/android/chat/activity/KikApiLandingActivity;Ljava/util/Map;Ljava/lang/String;ZZ)V
+    invoke-static {v0, p1, v1, v2, v3}, Lkik/arcane/chat/activity/KikApiLandingActivity;->a(Lkik/arcane/chat/activity/KikApiLandingActivity;Ljava/util/Map;Ljava/lang/String;ZZ)V
 
     .line 114
     return-void

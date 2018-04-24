@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/chat/vm/widget/u;
+.class public interface abstract Lkik/arcane/chat/vm/widget/u;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -13,7 +13,7 @@
 .method public abstract l()Ljava/lang/String;
 .end method
 
-.method public abstract m()Lkik/android/widget/ExpandableTextView$a;
+.method public abstract m()Lkik/arcane/widget/ExpandableTextView$a;
 .end method
 
 .method public abstract o()Lrx/d;

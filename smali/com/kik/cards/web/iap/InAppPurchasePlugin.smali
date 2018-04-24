@@ -974,7 +974,7 @@
 
     .prologue
     .line 582
-    invoke-static {}, Lkik/android/chat/KikApplication;->k()Lkik/android/a/b;
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->k()Lkik/arcane/a/b;
 
     move-result-object v0
 
@@ -982,7 +982,7 @@
     if-eqz v0, :cond_0
 
     .line 585
-    invoke-virtual {v0}, Lkik/android/a/b;->c()Lcom/kik/clientmetrics/f;
+    invoke-virtual {v0}, Lkik/arcane/a/b;->c()Lcom/kik/clientmetrics/f;
 
     move-result-object v0
 
@@ -1008,7 +1008,7 @@
     const/4 v3, 0x0
 
     .line 736
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v0
 
@@ -1583,7 +1583,7 @@
     .line 207
     iget-object v2, p0, Lcom/kik/cards/web/iap/InAppPurchasePlugin;->_ctx:Landroid/content/Context;
 
-    invoke-static {v2}, Lkik/android/util/DeviceUtils;->d(Landroid/content/Context;)Z
+    invoke-static {v2}, Lkik/arcane/util/DeviceUtils;->d(Landroid/content/Context;)Z
 
     move-result v2
 
@@ -1973,7 +1973,7 @@
 
     iget-object v0, p0, Lcom/kik/cards/web/iap/InAppPurchasePlugin;->_ctx:Landroid/content/Context;
 
-    invoke-static {v0}, Lkik/android/util/DeviceUtils;->d(Landroid/content/Context;)Z
+    invoke-static {v0}, Lkik/arcane/util/DeviceUtils;->d(Landroid/content/Context;)Z
 
     move-result v0
 

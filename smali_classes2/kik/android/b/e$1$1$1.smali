@@ -1,11 +1,11 @@
-.class final Lkik/android/b/e$1$1$1;
+.class final Lkik/arcane/b/e$1$1$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/b/e$1$1;
+    value = Lkik/arcane/b/e$1$1;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/b/e$1$1;
+.field final synthetic a:Lkik/arcane/b/e$1$1;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/b/e$1$1;)V
+.method constructor <init>(Lkik/arcane/b/e$1$1;)V
     .locals 0
 
     .prologue
     .line 140
-    iput-object p1, p0, Lkik/android/b/e$1$1$1;->a:Lkik/android/b/e$1$1;
+    iput-object p1, p0, Lkik/arcane/b/e$1$1$1;->a:Lkik/arcane/b/e$1$1;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -45,11 +45,11 @@
 
     .prologue
     .line 172
-    iget-object v0, p0, Lkik/android/b/e$1$1$1;->a:Lkik/android/b/e$1$1;
+    iget-object v0, p0, Lkik/arcane/b/e$1$1$1;->a:Lkik/arcane/b/e$1$1;
 
-    iget-object v0, v0, Lkik/android/b/e$1$1;->a:Lkik/android/b/e$1;
+    iget-object v0, v0, Lkik/arcane/b/e$1$1;->a:Lkik/arcane/b/e$1;
 
-    iget-object v0, v0, Lkik/android/b/e$1;->a:Lcom/kik/events/Promise;
+    iget-object v0, v0, Lkik/arcane/b/e$1;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {v0}, Lcom/kik/events/Promise;->f()V
 
@@ -82,39 +82,39 @@
     if-eqz v0, :cond_0
 
     .line 1147
-    iget-object v1, p0, Lkik/android/b/e$1$1$1;->a:Lkik/android/b/e$1$1;
+    iget-object v1, p0, Lkik/arcane/b/e$1$1$1;->a:Lkik/arcane/b/e$1$1;
 
-    iget-object v1, v1, Lkik/android/b/e$1$1;->a:Lkik/android/b/e$1;
+    iget-object v1, v1, Lkik/arcane/b/e$1$1;->a:Lkik/arcane/b/e$1;
 
-    iget-object v1, v1, Lkik/android/b/e$1;->a:Lcom/kik/events/Promise;
+    iget-object v1, v1, Lkik/arcane/b/e$1;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {v1, v0}, Lcom/kik/events/Promise;->a(Ljava/lang/Object;)V
 
     .line 1148
-    iget-object v0, p0, Lkik/android/b/e$1$1$1;->a:Lkik/android/b/e$1$1;
+    iget-object v0, p0, Lkik/arcane/b/e$1$1$1;->a:Lkik/arcane/b/e$1$1;
 
-    iget-object v0, v0, Lkik/android/b/e$1$1;->a:Lkik/android/b/e$1;
+    iget-object v0, v0, Lkik/arcane/b/e$1$1;->a:Lkik/arcane/b/e$1;
 
-    iget-object v0, v0, Lkik/android/b/e$1;->c:Lkik/android/b/e;
+    iget-object v0, v0, Lkik/arcane/b/e$1;->c:Lkik/arcane/b/e;
 
-    invoke-static {v0}, Lkik/android/b/e;->c(Lkik/android/b/e;)Lkik/android/b/g;
+    invoke-static {v0}, Lkik/arcane/b/e;->c(Lkik/arcane/b/e;)Lkik/arcane/b/g;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/b/e$1$1$1;->a:Lkik/android/b/e$1$1;
+    iget-object v1, p0, Lkik/arcane/b/e$1$1$1;->a:Lkik/arcane/b/e$1$1;
 
-    iget-object v1, v1, Lkik/android/b/e$1$1;->a:Lkik/android/b/e$1;
+    iget-object v1, v1, Lkik/arcane/b/e$1$1;->a:Lkik/arcane/b/e$1;
 
-    iget-object v1, v1, Lkik/android/b/e$1;->b:Ljava/lang/String;
+    iget-object v1, v1, Lkik/arcane/b/e$1;->b:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lkik/android/b/g;->g(Ljava/lang/String;)Lcom/kik/events/Promise;
+    invoke-virtual {v0, v1}, Lkik/arcane/b/g;->g(Ljava/lang/String;)Lcom/kik/events/Promise;
 
     :goto_0
     return-void
 
     .line 1152
     :cond_0
-    invoke-direct {p0}, Lkik/android/b/e$1$1$1;->d()V
+    invoke-direct {p0}, Lkik/arcane/b/e$1$1$1;->d()V
 
     goto :goto_0
 .end method
@@ -127,11 +127,11 @@
     invoke-super {p0, p1}, Lcom/kik/events/k;->b(Ljava/lang/Throwable;)V
 
     .line 160
-    iget-object v0, p0, Lkik/android/b/e$1$1$1;->a:Lkik/android/b/e$1$1;
+    iget-object v0, p0, Lkik/arcane/b/e$1$1$1;->a:Lkik/arcane/b/e$1$1;
 
-    iget-object v0, v0, Lkik/android/b/e$1$1;->a:Lkik/android/b/e$1;
+    iget-object v0, v0, Lkik/arcane/b/e$1$1;->a:Lkik/arcane/b/e$1;
 
-    iget-object v0, v0, Lkik/android/b/e$1;->a:Lcom/kik/events/Promise;
+    iget-object v0, v0, Lkik/arcane/b/e$1;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {v0, p1}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 
@@ -147,7 +147,7 @@
     invoke-super {p0}, Lcom/kik/events/k;->c()V
 
     .line 167
-    invoke-direct {p0}, Lkik/android/b/e$1$1$1;->d()V
+    invoke-direct {p0}, Lkik/arcane/b/e$1$1$1;->d()V
 
     .line 168
     return-void

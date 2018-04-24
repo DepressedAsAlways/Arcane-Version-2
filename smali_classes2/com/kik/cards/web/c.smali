@@ -129,7 +129,7 @@
 
     move-result-object v0
 
-    const-class v1, Lcom/kik/android/stickers/StickerPlugin;
+    const-class v1, Lcom/kik/arcane/stickers/StickerPlugin;
 
     .line 65
     invoke-virtual {p1, v1}, Lcom/kik/cards/web/n;->a(Ljava/lang/Class;)Lcom/kik/cards/web/plugin/BridgePlugin;

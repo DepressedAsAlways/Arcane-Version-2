@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/DownloadImageView_ViewBinding;
+.class public Lkik/arcane/widget/DownloadImageView_ViewBinding;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -7,11 +7,11 @@
 
 
 # instance fields
-.field private a:Lkik/android/widget/DownloadImageView;
+.field private a:Lkik/arcane/widget/DownloadImageView;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/widget/DownloadImageView;Landroid/view/View;)V
+.method public constructor <init>(Lkik/arcane/widget/DownloadImageView;Landroid/view/View;)V
     .locals 2
 
     .prologue
@@ -19,7 +19,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 23
-    iput-object p1, p0, Lkik/android/widget/DownloadImageView_ViewBinding;->a:Lkik/android/widget/DownloadImageView;
+    iput-object p1, p0, Lkik/arcane/widget/DownloadImageView_ViewBinding;->a:Lkik/arcane/widget/DownloadImageView;
 
     .line 25
     const v0, 0x7f1001c9
@@ -30,7 +30,7 @@
 
     move-result-object v0
 
-    iput-object v0, p1, Lkik/android/widget/DownloadImageView;->_iconView:Landroid/view/View;
+    iput-object v0, p1, Lkik/arcane/widget/DownloadImageView;->_iconView:Landroid/view/View;
 
     .line 26
     const v0, 0x7f1001c8
@@ -41,7 +41,7 @@
 
     move-result-object v0
 
-    iput-object v0, p1, Lkik/android/widget/DownloadImageView;->_spinnerView:Landroid/view/View;
+    iput-object v0, p1, Lkik/arcane/widget/DownloadImageView;->_spinnerView:Landroid/view/View;
 
     .line 27
     const v0, 0x7f1001c7
@@ -52,7 +52,7 @@
 
     move-result-object v0
 
-    iput-object v0, p1, Lkik/android/widget/DownloadImageView;->_checkmarkView:Landroid/view/View;
+    iput-object v0, p1, Lkik/arcane/widget/DownloadImageView;->_checkmarkView:Landroid/view/View;
 
     .line 28
     return-void
@@ -67,7 +67,7 @@
     const/4 v1, 0x0
 
     .line 33
-    iget-object v0, p0, Lkik/android/widget/DownloadImageView_ViewBinding;->a:Lkik/android/widget/DownloadImageView;
+    iget-object v0, p0, Lkik/arcane/widget/DownloadImageView_ViewBinding;->a:Lkik/arcane/widget/DownloadImageView;
 
     .line 34
     if-nez v0, :cond_0
@@ -82,16 +82,16 @@
 
     .line 35
     :cond_0
-    iput-object v1, p0, Lkik/android/widget/DownloadImageView_ViewBinding;->a:Lkik/android/widget/DownloadImageView;
+    iput-object v1, p0, Lkik/arcane/widget/DownloadImageView_ViewBinding;->a:Lkik/arcane/widget/DownloadImageView;
 
     .line 37
-    iput-object v1, v0, Lkik/android/widget/DownloadImageView;->_iconView:Landroid/view/View;
+    iput-object v1, v0, Lkik/arcane/widget/DownloadImageView;->_iconView:Landroid/view/View;
 
     .line 38
-    iput-object v1, v0, Lkik/android/widget/DownloadImageView;->_spinnerView:Landroid/view/View;
+    iput-object v1, v0, Lkik/arcane/widget/DownloadImageView;->_spinnerView:Landroid/view/View;
 
     .line 39
-    iput-object v1, v0, Lkik/android/widget/DownloadImageView;->_checkmarkView:Landroid/view/View;
+    iput-object v1, v0, Lkik/arcane/widget/DownloadImageView;->_checkmarkView:Landroid/view/View;
 
     .line 40
     return-void

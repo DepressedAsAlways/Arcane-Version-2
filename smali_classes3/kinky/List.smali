@@ -1,5 +1,5 @@
 .class public Lkinky/List;
-.super Lkik/android/widget/preferences/KikListPreference;
+.super Lkik/arcane/widget/preferences/KikListPreference;
 .source "List.java"
 
 
@@ -9,7 +9,7 @@
 
     .prologue
     .line 22
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/preferences/KikListPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/preferences/KikListPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 23
     return-void

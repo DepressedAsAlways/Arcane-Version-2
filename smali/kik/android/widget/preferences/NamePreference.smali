@@ -1,5 +1,5 @@
-.class public Lkik/android/widget/preferences/NamePreference;
-.super Lkik/android/widget/preferences/KikPreference;
+.class public Lkik/arcane/widget/preferences/NamePreference;
+.super Lkik/arcane/widget/preferences/KikPreference;
 .source "SourceFile"
 
 
@@ -20,10 +20,10 @@
     .line 29
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/preferences/KikPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/preferences/KikPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
 
     .line 30
-    invoke-direct {p0}, Lkik/android/widget/preferences/NamePreference;->c()V
+    invoke-direct {p0}, Lkik/arcane/widget/preferences/NamePreference;->c()V
 
     .line 31
     return-void
@@ -36,21 +36,21 @@
     .line 35
     sget-object v0, Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;->CHANGE_NAME:Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;
 
-    invoke-direct {p0, p1, p2, p3, v0}, Lkik/android/widget/preferences/KikPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
+    invoke-direct {p0, p1, p2, p3, v0}, Lkik/arcane/widget/preferences/KikPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
 
     .line 36
-    invoke-direct {p0}, Lkik/android/widget/preferences/NamePreference;->c()V
+    invoke-direct {p0}, Lkik/arcane/widget/preferences/NamePreference;->c()V
 
     .line 37
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/preferences/NamePreference;)V
+.method static synthetic a(Lkik/arcane/widget/preferences/NamePreference;)V
     .locals 2
 
     .prologue
     .line 49
-    invoke-virtual {p0}, Lkik/android/widget/preferences/NamePreference;->b()Landroid/view/View;
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/NamePreference;->b()Landroid/view/View;
 
     move-result-object v0
 
@@ -58,7 +58,7 @@
     if-eqz v0, :cond_0
 
     .line 51
-    invoke-static {p0}, Lkik/android/widget/preferences/i;->a(Lkik/android/widget/preferences/NamePreference;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/widget/preferences/i;->a(Lkik/arcane/widget/preferences/NamePreference;)Ljava/lang/Runnable;
 
     move-result-object v1
 
@@ -69,12 +69,12 @@
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/widget/preferences/NamePreference;)V
+.method static synthetic b(Lkik/arcane/widget/preferences/NamePreference;)V
     .locals 0
 
     .prologue
     .line 51
-    invoke-virtual {p0}, Lkik/android/widget/preferences/NamePreference;->notifyChanged()V
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/NamePreference;->notifyChanged()V
 
     return-void
 .end method
@@ -86,14 +86,14 @@
     .line 41
     const v0, 0x7f040137
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/preferences/NamePreference;->setLayoutResource(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/preferences/NamePreference;->setLayoutResource(I)V
 
     .line 42
     new-instance v0, Lcom/kik/events/d;
 
     invoke-direct {v0}, Lcom/kik/events/d;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/preferences/NamePreference;->b:Lcom/kik/events/d;
+    iput-object v0, p0, Lkik/arcane/widget/preferences/NamePreference;->b:Lcom/kik/events/d;
 
     .line 43
     return-void
@@ -106,18 +106,18 @@
 
     .prologue
     .line 47
-    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/widget/preferences/NamePreference;)V
+    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/widget/preferences/NamePreference;)V
 
     .line 48
-    iget-object v0, p0, Lkik/android/widget/preferences/NamePreference;->b:Lcom/kik/events/d;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/NamePreference;->b:Lcom/kik/events/d;
 
-    iget-object v1, p0, Lkik/android/widget/preferences/NamePreference;->a:Lkik/core/interfaces/ag;
+    iget-object v1, p0, Lkik/arcane/widget/preferences/NamePreference;->a:Lkik/core/interfaces/ag;
 
     invoke-interface {v1}, Lkik/core/interfaces/ag;->a()Lcom/kik/events/c;
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/widget/preferences/h;->a(Lkik/android/widget/preferences/NamePreference;)Lcom/kik/events/e;
+    invoke-static {p0}, Lkik/arcane/widget/preferences/h;->a(Lkik/arcane/widget/preferences/NamePreference;)Lcom/kik/events/e;
 
     move-result-object v2
 
@@ -132,10 +132,10 @@
 
     .prologue
     .line 66
-    invoke-super {p0, p1}, Lkik/android/widget/preferences/KikPreference;->onBindView(Landroid/view/View;)V
+    invoke-super {p0, p1}, Lkik/arcane/widget/preferences/KikPreference;->onBindView(Landroid/view/View;)V
 
     .line 67
-    iget-object v0, p0, Lkik/android/widget/preferences/NamePreference;->a:Lkik/core/interfaces/ag;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/NamePreference;->a:Lkik/core/interfaces/ag;
 
     invoke-interface {v0}, Lkik/core/interfaces/ag;->d()Lkik/core/datatypes/aa;
 
@@ -194,19 +194,19 @@
 
     .prologue
     .line 81
-    new-instance v0, Lkik/android/chat/fragment/settings/EditNameFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/settings/EditNameFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/settings/EditNameFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/settings/EditNameFragment$a;-><init>()V
 
-    invoke-virtual {p0}, Lkik/android/widget/preferences/NamePreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/NamePreference;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/util/ae;Landroid/content/Context;)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-static {v0, v1}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/util/ae;Landroid/content/Context;)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
 
     .line 82
     const/4 v0, 0x0
@@ -219,10 +219,10 @@
 
     .prologue
     .line 59
-    invoke-super {p0}, Lkik/android/widget/preferences/KikPreference;->onPrepareForRemoval()V
+    invoke-super {p0}, Lkik/arcane/widget/preferences/KikPreference;->onPrepareForRemoval()V
 
     .line 60
-    iget-object v0, p0, Lkik/android/widget/preferences/NamePreference;->b:Lcom/kik/events/d;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/NamePreference;->b:Lcom/kik/events/d;
 
     invoke-virtual {v0}, Lcom/kik/events/d;->a()V
 

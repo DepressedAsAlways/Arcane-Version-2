@@ -265,7 +265,7 @@
 
     iget-object v2, v2, Lcom/kik/cards/usermedia/CustomGalleryActivity$b;->e:Lcom/kik/cards/usermedia/CustomGalleryActivity;
 
-    invoke-static {v2}, Lcom/kik/cards/usermedia/CustomGalleryActivity;->f(Lcom/kik/cards/usermedia/CustomGalleryActivity;)Lkik/android/widget/UserMediaImageThumbNailList;
+    invoke-static {v2}, Lcom/kik/cards/usermedia/CustomGalleryActivity;->f(Lcom/kik/cards/usermedia/CustomGalleryActivity;)Lkik/arcane/widget/UserMediaImageThumbNailList;
 
     move-result-object v2
 
@@ -297,7 +297,7 @@
 
     move-result-object v6
 
-    invoke-virtual {v2, v4, v5, v6, v3}, Lkik/android/widget/UserMediaImageThumbNailList;->a(Lcom/kik/cache/BitmapLRUCache;Lcom/kik/sdkutils/b/a;Lcom/kik/sdkutils/b/b;Ljava/lang/Object;)V
+    invoke-virtual {v2, v4, v5, v6, v3}, Lkik/arcane/widget/UserMediaImageThumbNailList;->a(Lcom/kik/cache/BitmapLRUCache;Lcom/kik/sdkutils/b/a;Lcom/kik/sdkutils/b/b;Ljava/lang/Object;)V
 
     .line 459
     :goto_1
@@ -344,7 +344,7 @@
 
     aput-object v1, v0, v10
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 470
     :goto_2
@@ -393,11 +393,11 @@
 
     iget-object v2, v2, Lcom/kik/cards/usermedia/CustomGalleryActivity$b;->e:Lcom/kik/cards/usermedia/CustomGalleryActivity;
 
-    invoke-static {v2}, Lcom/kik/cards/usermedia/CustomGalleryActivity;->f(Lcom/kik/cards/usermedia/CustomGalleryActivity;)Lkik/android/widget/UserMediaImageThumbNailList;
+    invoke-static {v2}, Lcom/kik/cards/usermedia/CustomGalleryActivity;->f(Lcom/kik/cards/usermedia/CustomGalleryActivity;)Lkik/arcane/widget/UserMediaImageThumbNailList;
 
     move-result-object v2
 
-    invoke-virtual {v2, v3}, Lkik/android/widget/UserMediaImageThumbNailList;->a(Ljava/lang/Object;)Lcom/kik/events/n;
+    invoke-virtual {v2, v3}, Lkik/arcane/widget/UserMediaImageThumbNailList;->a(Ljava/lang/Object;)Lcom/kik/events/n;
 
     goto :goto_1
 
@@ -411,7 +411,7 @@
 
     aput-object v1, v0, v10
 
-    invoke-static {v0}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     .line 467
     iget-object v0, p0, Lcom/kik/cards/usermedia/CustomGalleryActivity$b$a;->c:Lcom/kik/cards/usermedia/CustomGalleryActivity$a$a;

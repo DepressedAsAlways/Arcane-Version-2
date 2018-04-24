@@ -1,11 +1,11 @@
-.class public interface abstract Lkik/android/widget/ProgressWheel$a;
+.class public interface abstract Lkik/arcane/widget/ProgressWheel$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/ProgressWheel;
+    value = Lkik/arcane/widget/ProgressWheel;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

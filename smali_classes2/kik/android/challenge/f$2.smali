@@ -1,11 +1,11 @@
-.class final Lkik/android/challenge/f$2;
+.class final Lkik/arcane/challenge/f$2;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/challenge/f;
+    value = Lkik/arcane/challenge/f;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/challenge/f;
+.field final synthetic a:Lkik/arcane/challenge/f;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/challenge/f;)V
+.method constructor <init>(Lkik/arcane/challenge/f;)V
     .locals 0
 
     .prologue
     .line 64
-    iput-object p1, p0, Lkik/android/challenge/f$2;->a:Lkik/android/challenge/f;
+    iput-object p1, p0, Lkik/arcane/challenge/f$2;->a:Lkik/arcane/challenge/f;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -48,9 +48,9 @@
     .prologue
     .line 64
     .line 1068
-    iget-object v0, p0, Lkik/android/challenge/f$2;->a:Lkik/android/challenge/f;
+    iget-object v0, p0, Lkik/arcane/challenge/f$2;->a:Lkik/arcane/challenge/f;
 
-    invoke-static {v0}, Lkik/android/challenge/f;->c(Lkik/android/challenge/f;)Lkik/core/interfaces/ICommunication;
+    invoke-static {v0}, Lkik/arcane/challenge/f;->c(Lkik/arcane/challenge/f;)Lkik/core/interfaces/ICommunication;
 
     move-result-object v0
 

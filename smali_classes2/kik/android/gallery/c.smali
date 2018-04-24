@@ -1,9 +1,9 @@
-.class public final Lkik/android/gallery/c;
+.class public final Lkik/arcane/gallery/c;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/gallery/b;
+.implements Lkik/arcane/gallery/b;
 
 
 # instance fields
@@ -30,7 +30,7 @@
     .end annotation
 .end field
 
-.field private c:Lkik/android/gallery/b$a;
+.field private c:Lkik/arcane/gallery/b$a;
 
 .field private d:Z
 
@@ -38,7 +38,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/gallery/b$a;Z)V
+.method public constructor <init>(Lkik/arcane/gallery/b$a;Z)V
     .locals 2
 
     .prologue
@@ -52,7 +52,7 @@
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    iput-object v0, p0, Lkik/android/gallery/c;->a:Ljava/util/HashMap;
+    iput-object v0, p0, Lkik/arcane/gallery/c;->a:Ljava/util/HashMap;
 
     .line 25
     invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
@@ -63,23 +63,23 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/gallery/c;->b:Lrx/subjects/a;
+    iput-object v0, p0, Lkik/arcane/gallery/c;->b:Lrx/subjects/a;
 
     .line 28
-    iput-boolean v1, p0, Lkik/android/gallery/c;->d:Z
+    iput-boolean v1, p0, Lkik/arcane/gallery/c;->d:Z
 
     .line 29
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    iput-object v0, p0, Lkik/android/gallery/c;->e:Ljava/lang/Object;
+    iput-object v0, p0, Lkik/arcane/gallery/c;->e:Ljava/lang/Object;
 
     .line 33
-    iput-object p1, p0, Lkik/android/gallery/c;->c:Lkik/android/gallery/b$a;
+    iput-object p1, p0, Lkik/arcane/gallery/c;->c:Lkik/arcane/gallery/b$a;
 
     .line 34
-    iput-boolean p2, p0, Lkik/android/gallery/c;->d:Z
+    iput-boolean p2, p0, Lkik/arcane/gallery/c;->d:Z
 
     .line 35
     return-void
@@ -119,7 +119,7 @@
 
     .line 132
     .line 2145
-    iget-boolean v0, p0, Lkik/android/gallery/c;->d:Z
+    iget-boolean v0, p0, Lkik/arcane/gallery/c;->d:Z
 
     .line 3139
     if-eqz v0, :cond_0
@@ -128,14 +128,14 @@
 
     .line 133
     :goto_0
-    iget-object v2, p0, Lkik/android/gallery/c;->c:Lkik/android/gallery/b$a;
+    iget-object v2, p0, Lkik/arcane/gallery/c;->c:Lkik/arcane/gallery/b$a;
 
-    invoke-interface {v2}, Lkik/android/gallery/b$a;->D()V
+    invoke-interface {v2}, Lkik/arcane/gallery/b$a;->D()V
 
     .line 134
-    iget-object v2, p0, Lkik/android/gallery/c;->b:Lrx/subjects/a;
+    iget-object v2, p0, Lkik/arcane/gallery/c;->b:Lrx/subjects/a;
 
-    iget-object v3, p0, Lkik/android/gallery/c;->a:Ljava/util/HashMap;
+    iget-object v3, p0, Lkik/arcane/gallery/c;->a:Ljava/util/HashMap;
 
     invoke-virtual {v3}, Ljava/util/HashMap;->size()I
 
@@ -173,7 +173,7 @@
 
     .prologue
     .line 40
-    iget-object v0, p0, Lkik/android/gallery/c;->a:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/gallery/c;->a:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->size()I
 
@@ -197,7 +197,7 @@
     return v0
 
     :cond_0
-    iget-object v0, p0, Lkik/android/gallery/c;->a:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/gallery/c;->a:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
 
@@ -211,19 +211,19 @@
 
     .prologue
     .line 120
-    iget-object v1, p0, Lkik/android/gallery/c;->e:Ljava/lang/Object;
+    iget-object v1, p0, Lkik/arcane/gallery/c;->e:Ljava/lang/Object;
 
     monitor-enter v1
 
     .line 121
     :try_start_0
-    iget-object v0, p0, Lkik/android/gallery/c;->a:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/gallery/c;->a:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/gallery/c;->a(Ljava/util/Set;)Ljava/util/Set;
+    invoke-static {v0}, Lkik/arcane/gallery/c;->a(Ljava/util/Set;)Ljava/util/Set;
 
     move-result-object v0
 
@@ -245,9 +245,9 @@
     check-cast v0, Ljava/lang/String;
 
     .line 122
-    iget-object v3, p0, Lkik/android/gallery/c;->c:Lkik/android/gallery/b$a;
+    iget-object v3, p0, Lkik/arcane/gallery/c;->c:Lkik/arcane/gallery/b$a;
 
-    invoke-interface {v3, v0}, Lkik/android/gallery/b$a;->c(Ljava/lang/String;)V
+    invoke-interface {v3, v0}, Lkik/arcane/gallery/b$a;->c(Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -264,12 +264,12 @@
     .line 125
     :cond_0
     :try_start_1
-    iget-object v0, p0, Lkik/android/gallery/c;->a:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/gallery/c;->a:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
 
     .line 126
-    invoke-direct {p0}, Lkik/android/gallery/c;->f()V
+    invoke-direct {p0}, Lkik/arcane/gallery/c;->f()V
 
     .line 127
     monitor-exit v1
@@ -286,14 +286,14 @@
     const/4 v0, 0x1
 
     .line 73
-    iget-object v1, p0, Lkik/android/gallery/c;->a:Ljava/util/HashMap;
+    iget-object v1, p0, Lkik/arcane/gallery/c;->a:Ljava/util/HashMap;
 
     invoke-virtual {v1}, Ljava/util/HashMap;->size()I
 
     move-result v2
 
     .line 1145
-    iget-boolean v1, p0, Lkik/android/gallery/c;->d:Z
+    iget-boolean v1, p0, Lkik/arcane/gallery/c;->d:Z
 
     .line 2139
     if-eqz v1, :cond_0
@@ -305,7 +305,7 @@
     if-lt v2, v1, :cond_2
 
     .line 74
-    iget-boolean v1, p0, Lkik/android/gallery/c;->d:Z
+    iget-boolean v1, p0, Lkik/arcane/gallery/c;->d:Z
 
     if-eqz v1, :cond_1
 
@@ -324,31 +324,31 @@
 
     .line 78
     :cond_1
-    invoke-virtual {p0}, Lkik/android/gallery/c;->b()V
+    invoke-virtual {p0}, Lkik/arcane/gallery/c;->b()V
 
     .line 81
     :cond_2
-    iget-object v1, p0, Lkik/android/gallery/c;->e:Ljava/lang/Object;
+    iget-object v1, p0, Lkik/arcane/gallery/c;->e:Ljava/lang/Object;
 
     monitor-enter v1
 
     .line 82
     :try_start_0
-    invoke-virtual {p0, p1}, Lkik/android/gallery/c;->a(Ljava/lang/String;)Z
+    invoke-virtual {p0, p1}, Lkik/arcane/gallery/c;->a(Ljava/lang/String;)Z
 
     move-result v2
 
     if-nez v2, :cond_3
 
     .line 83
-    iget-object v2, p0, Lkik/android/gallery/c;->a:Ljava/util/HashMap;
+    iget-object v2, p0, Lkik/arcane/gallery/c;->a:Ljava/util/HashMap;
 
     sget-object v3, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     invoke-virtual {v2, p1, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 84
-    invoke-direct {p0}, Lkik/android/gallery/c;->f()V
+    invoke-direct {p0}, Lkik/arcane/gallery/c;->f()V
 
     .line 86
     :cond_3
@@ -371,7 +371,7 @@
 
     .prologue
     .line 145
-    iget-boolean v0, p0, Lkik/android/gallery/c;->d:Z
+    iget-boolean v0, p0, Lkik/arcane/gallery/c;->d:Z
 
     .line 4139
     if-eqz v0, :cond_0
@@ -393,30 +393,30 @@
 
     .prologue
     .line 94
-    iget-object v1, p0, Lkik/android/gallery/c;->e:Ljava/lang/Object;
+    iget-object v1, p0, Lkik/arcane/gallery/c;->e:Ljava/lang/Object;
 
     monitor-enter v1
 
     .line 95
     :try_start_0
-    invoke-virtual {p0, p1}, Lkik/android/gallery/c;->a(Ljava/lang/String;)Z
+    invoke-virtual {p0, p1}, Lkik/arcane/gallery/c;->a(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 96
-    iget-object v0, p0, Lkik/android/gallery/c;->a:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/gallery/c;->a:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 97
-    iget-object v0, p0, Lkik/android/gallery/c;->c:Lkik/android/gallery/b$a;
+    iget-object v0, p0, Lkik/arcane/gallery/c;->c:Lkik/arcane/gallery/b$a;
 
-    invoke-interface {v0, p1}, Lkik/android/gallery/b$a;->c(Ljava/lang/String;)V
+    invoke-interface {v0, p1}, Lkik/arcane/gallery/b$a;->c(Ljava/lang/String;)V
 
     .line 98
-    invoke-direct {p0}, Lkik/android/gallery/c;->f()V
+    invoke-direct {p0}, Lkik/arcane/gallery/c;->f()V
 
     .line 100
     :cond_0
@@ -452,7 +452,7 @@
 
     .prologue
     .line 151
-    iget-object v0, p0, Lkik/android/gallery/c;->b:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/gallery/c;->b:Lrx/subjects/a;
 
     return-object v0
 .end method
@@ -462,14 +462,14 @@
 
     .prologue
     .line 108
-    invoke-virtual {p0, p1}, Lkik/android/gallery/c;->a(Ljava/lang/String;)Z
+    invoke-virtual {p0, p1}, Lkik/arcane/gallery/c;->a(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 109
-    invoke-virtual {p0, p1}, Lkik/android/gallery/c;->c(Ljava/lang/String;)Z
+    invoke-virtual {p0, p1}, Lkik/arcane/gallery/c;->c(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -478,7 +478,7 @@
     return v0
 
     :cond_0
-    invoke-virtual {p0, p1}, Lkik/android/gallery/c;->b(Ljava/lang/String;)Z
+    invoke-virtual {p0, p1}, Lkik/arcane/gallery/c;->b(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -496,13 +496,13 @@
     const/4 v0, 0x1
 
     .line 60
-    iget-object v1, p0, Lkik/android/gallery/c;->a:Ljava/util/HashMap;
+    iget-object v1, p0, Lkik/arcane/gallery/c;->a:Ljava/util/HashMap;
 
     invoke-virtual {v1}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
 
     move-result-object v1
 
-    invoke-static {v1}, Lkik/android/gallery/c;->a(Ljava/util/Set;)Ljava/util/Set;
+    invoke-static {v1}, Lkik/arcane/gallery/c;->a(Ljava/util/Set;)Ljava/util/Set;
 
     move-result-object v1
 
@@ -557,13 +557,13 @@
 
     .prologue
     .line 157
-    iget-object v1, p0, Lkik/android/gallery/c;->e:Ljava/lang/Object;
+    iget-object v1, p0, Lkik/arcane/gallery/c;->e:Ljava/lang/Object;
 
     monitor-enter v1
 
     .line 158
     :try_start_0
-    iget-object v0, p0, Lkik/android/gallery/c;->a:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/gallery/c;->a:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->entrySet()Ljava/util/Set;
 
@@ -626,13 +626,13 @@
 
     .prologue
     .line 170
-    iget-object v1, p0, Lkik/android/gallery/c;->e:Ljava/lang/Object;
+    iget-object v1, p0, Lkik/arcane/gallery/c;->e:Ljava/lang/Object;
 
     monitor-enter v1
 
     .line 171
     :try_start_0
-    iget-object v0, p0, Lkik/android/gallery/c;->a:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/gallery/c;->a:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
 
@@ -641,7 +641,7 @@
     if-eqz v0, :cond_0
 
     .line 172
-    iget-object v0, p0, Lkik/android/gallery/c;->a:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/gallery/c;->a:Ljava/util/HashMap;
 
     sget-object v2, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 

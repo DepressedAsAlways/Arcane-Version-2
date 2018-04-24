@@ -1,5 +1,5 @@
 .class public Lcom/kik/cards/web/CardsWebViewFragment;
-.super Lkik/android/chat/fragment/KikScopedDialogFragment;
+.super Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 .source "SourceFile"
 
 # interfaces
@@ -57,7 +57,7 @@
 
 .field private K:Landroid/support/v4/app/FragmentActivity;
 
-.field private L:Lkik/android/util/ca$c;
+.field private L:Lkik/arcane/util/ca$c;
 
 .field private M:Z
 
@@ -254,7 +254,7 @@
 
 .field private ac:Landroid/view/ViewGroup;
 
-.field private ad:Lkik/android/widget/EllipsizingTextView;
+.field private ad:Lkik/arcane/widget/EllipsizingTextView;
 
 .field private ae:Landroid/widget/ImageView;
 
@@ -388,9 +388,9 @@
 
 .field private ay:Z
 
-.field private az:Lkik/android/chat/fragment/ProgressDialogFragment;
+.field private az:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
-.field protected d:Lcom/kik/android/Mixpanel;
+.field protected d:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -454,7 +454,7 @@
     .end annotation
 .end field
 
-.field protected p:Lkik/android/util/aj;
+.field protected p:Lkik/arcane/util/aj;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -473,7 +473,7 @@
 
 .field protected t:Lcom/kik/cards/web/kik/KikContentMessageParcelable;
 
-.field protected u:Lkik/android/b/g;
+.field protected u:Lkik/arcane/b/g;
 
 .field private w:J
 
@@ -565,7 +565,7 @@
     const/4 v1, 0x0
 
     .line 698
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikScopedDialogFragment;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;-><init>()V
 
     .line 169
     new-instance v0, Lcom/kik/events/d;
@@ -909,12 +909,12 @@
     return-object v0
 .end method
 
-.method static synthetic a(Lcom/kik/cards/web/CardsWebViewFragment;Lkik/android/chat/fragment/ProgressDialogFragment;)Lkik/android/chat/fragment/ProgressDialogFragment;
+.method static synthetic a(Lcom/kik/cards/web/CardsWebViewFragment;Lkik/arcane/chat/fragment/ProgressDialogFragment;)Lkik/arcane/chat/fragment/ProgressDialogFragment;
     .locals 0
 
     .prologue
     .line 131
-    iput-object p1, p0, Lcom/kik/cards/web/CardsWebViewFragment;->az:Lkik/android/chat/fragment/ProgressDialogFragment;
+    iput-object p1, p0, Lcom/kik/cards/web/CardsWebViewFragment;->az:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
     return-object p1
 .end method
@@ -1206,7 +1206,7 @@
 
     aput-object v2, v0, v1
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 14709
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->ab:Landroid/widget/ProgressBar;
@@ -1284,13 +1284,13 @@
 
     .prologue
     .line 18118
-    new-instance v0, Lkik/android/chat/fragment/KikDialogFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/KikDialogFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/KikDialogFragment$a;-><init>()V
 
     const-string v1, "Location"
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikDialogFragment$a;->a(Ljava/lang/String;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a(Ljava/lang/String;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     move-result-object v0
 
@@ -1315,13 +1315,13 @@
     move-result-object v1
 
     .line 18119
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikDialogFragment$a;->b(Ljava/lang/String;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->b(Ljava/lang/String;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     move-result-object v0
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikDialogFragment$a;->a(Z)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a(Z)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     move-result-object v0
 
@@ -1332,7 +1332,7 @@
     invoke-direct {v2, p0, p2, p1}, Lcom/kik/cards/web/CardsWebViewFragment$35;-><init>(Lcom/kik/cards/web/CardsWebViewFragment;Landroid/webkit/GeolocationPermissions$Callback;Ljava/lang/String;)V
 
     .line 18120
-    invoke-virtual {v0, v1, v2}, Lkik/android/chat/fragment/KikDialogFragment$a;->a(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v0, v1, v2}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     move-result-object v0
 
@@ -1343,7 +1343,7 @@
     invoke-direct {v2, p0, p2, p1}, Lcom/kik/cards/web/CardsWebViewFragment$34;-><init>(Lcom/kik/cards/web/CardsWebViewFragment;Landroid/webkit/GeolocationPermissions$Callback;Ljava/lang/String;)V
 
     .line 18129
-    invoke-virtual {v0, v1, v2}, Lkik/android/chat/fragment/KikDialogFragment$a;->b(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v0, v1, v2}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->b(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     move-result-object v0
 
@@ -1352,16 +1352,16 @@
     invoke-direct {v1, p0, p2, p1}, Lcom/kik/cards/web/CardsWebViewFragment$32;-><init>(Lcom/kik/cards/web/CardsWebViewFragment;Landroid/webkit/GeolocationPermissions$Callback;Ljava/lang/String;)V
 
     .line 18136
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikDialogFragment$a;->a(Landroid/content/DialogInterface$OnCancelListener;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a(Landroid/content/DialogInterface$OnCancelListener;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     move-result-object v0
 
     .line 18145
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikDialogFragment$a;->a()Lkik/android/chat/fragment/KikDialogFragment;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a()Lkik/arcane/chat/fragment/KikDialogFragment;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/kik/cards/web/CardsWebViewFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {p0, v0}, Lcom/kik/cards/web/CardsWebViewFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 131
     return-void
@@ -1434,7 +1434,7 @@
 
     aput-object v1, v0, v4
 
-    invoke-static {v0}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     .line 11126
     :goto_0
@@ -1448,7 +1448,7 @@
 
     aput-object v1, v0, v2
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 11124
     if-ne p1, v4, :cond_1
@@ -1460,7 +1460,7 @@
 
     aput-object v1, v0, v2
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 11126
     new-array v0, v3, [Landroid/view/View;
@@ -1469,7 +1469,7 @@
 
     aput-object v1, v0, v2
 
-    invoke-static {v0}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     goto :goto_0
 
@@ -1481,7 +1481,7 @@
 
     aput-object v1, v0, v2
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 11130
     new-array v0, v3, [Landroid/view/View;
@@ -1490,7 +1490,7 @@
 
     aput-object v1, v0, v2
 
-    invoke-static {v0}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     goto :goto_0
 .end method
@@ -1530,7 +1530,7 @@
 
     aput-object v1, v0, v2
 
-    invoke-static {v0}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     .line 15220
     new-array v0, v3, [Landroid/view/View;
@@ -1539,7 +1539,7 @@
 
     aput-object v1, v0, v2
 
-    invoke-static {v0}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     .line 15221
     new-array v0, v3, [Landroid/view/View;
@@ -1548,7 +1548,7 @@
 
     aput-object v1, v0, v2
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 131
     return-void
@@ -1620,7 +1620,7 @@
 
     aput-object v2, v1, v3
 
-    invoke-static {v1}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v1}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 1909
     :goto_0
@@ -1644,7 +1644,7 @@
 
     aput-object v2, v1, v3
 
-    invoke-static {v1}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v1}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     goto :goto_0
 .end method
@@ -1732,7 +1732,7 @@
 
     aput-object v1, v0, v2
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 16210
     new-array v0, v3, [Landroid/view/View;
@@ -1741,7 +1741,7 @@
 
     aput-object v1, v0, v2
 
-    invoke-static {v0}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     .line 16211
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->W:Landroid/widget/ImageView;
@@ -1796,7 +1796,7 @@
 
     aput-object v2, v0, v1
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 17188
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->W:Landroid/widget/ImageView;
@@ -1823,7 +1823,7 @@
     .line 17202
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->V:Landroid/widget/ImageView;
 
-    invoke-static {}, Lkik/android/util/ab;->a()I
+    invoke-static {}, Lkik/arcane/util/ab;->a()I
 
     move-result v1
 
@@ -1921,9 +1921,9 @@
 
     move-result-object v7
 
-    new-instance v10, Lkik/android/chat/vm/cc;
+    new-instance v10, Lkik/arcane/chat/vm/cc;
 
-    invoke-direct {v10, p0}, Lkik/android/chat/vm/cc;-><init>(Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+    invoke-direct {v10, p0}, Lkik/arcane/chat/vm/cc;-><init>(Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
 
     move-object v4, p0
 
@@ -1933,7 +1933,7 @@
 
     move-object v9, p0
 
-    invoke-direct/range {v0 .. v10}, Lcom/kik/cards/web/n;-><init>(Lcom/kik/components/CoreComponent;Landroid/app/Activity;Landroid/webkit/WebView;Lcom/kik/cards/web/browser/BrowserPlugin$a;Lcom/kik/cards/web/b;Lcom/kik/cards/web/picker/PickerRequest;Ljava/lang/String;Lcom/kik/cards/web/r;Lcom/kik/cards/web/f;Lkik/android/chat/vm/bd;)V
+    invoke-direct/range {v0 .. v10}, Lcom/kik/cards/web/n;-><init>(Lcom/kik/components/CoreComponent;Landroid/app/Activity;Landroid/webkit/WebView;Lcom/kik/cards/web/browser/BrowserPlugin$a;Lcom/kik/cards/web/b;Lcom/kik/cards/web/picker/PickerRequest;Ljava/lang/String;Lcom/kik/cards/web/r;Lcom/kik/cards/web/f;Lkik/arcane/chat/vm/bd;)V
 
     .line 11240
     iget-object v1, p0, Lcom/kik/cards/web/CardsWebViewFragment;->J:Ljava/lang/String;
@@ -1982,7 +1982,7 @@
 
     if-nez v1, :cond_3
 
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v1
 
@@ -2119,12 +2119,12 @@
     goto :goto_0
 .end method
 
-.method static synthetic r(Lcom/kik/cards/web/CardsWebViewFragment;)Lkik/android/chat/fragment/ProgressDialogFragment;
+.method static synthetic r(Lcom/kik/cards/web/CardsWebViewFragment;)Lkik/arcane/chat/fragment/ProgressDialogFragment;
     .locals 1
 
     .prologue
     .line 131
-    iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->az:Lkik/android/chat/fragment/ProgressDialogFragment;
+    iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->az:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
     return-object v0
 .end method
@@ -2173,12 +2173,12 @@
     return-void
 .end method
 
-.method static synthetic t(Lcom/kik/cards/web/CardsWebViewFragment;)Lkik/android/util/ca$c;
+.method static synthetic t(Lcom/kik/cards/web/CardsWebViewFragment;)Lkik/arcane/util/ca$c;
     .locals 1
 
     .prologue
     .line 131
-    iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->L:Lkik/android/util/ca$c;
+    iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->L:Lkik/arcane/util/ca$c;
 
     return-object v0
 .end method
@@ -2482,11 +2482,11 @@
     .line 1555
     iget-object v2, p0, Lcom/kik/cards/web/CardsWebViewFragment;->K:Landroid/support/v4/app/FragmentActivity;
 
-    invoke-static {v1, v2}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/util/ae;Landroid/content/Context;)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-static {v1, v2}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/util/ae;Landroid/content/Context;)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
+    invoke-virtual {v1}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
 
     move-result-object v1
 
@@ -2662,7 +2662,7 @@
 
     aput-object p1, v0, v1
 
-    invoke-static {v0}, Lkik/android/util/ca;->f([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->f([Landroid/view/View;)V
 
     .line 1928
     iput-object p2, p0, Lcom/kik/cards/web/CardsWebViewFragment;->S:Landroid/webkit/WebChromeClient$CustomViewCallback;
@@ -2698,22 +2698,22 @@
     if-nez v0, :cond_0
 
     .line 2250
-    new-instance v5, Lkik/android/chat/fragment/ProgressDialogFragment;
+    new-instance v5, Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
     invoke-virtual {p1}, Lcom/kik/cards/web/usermedia/b;->c()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-direct {v5, v0, v1}, Lkik/android/chat/fragment/ProgressDialogFragment;-><init>(Ljava/lang/String;Z)V
+    invoke-direct {v5, v0, v1}, Lkik/arcane/chat/fragment/ProgressDialogFragment;-><init>(Ljava/lang/String;Z)V
 
     .line 2251
-    invoke-virtual {v5}, Lkik/android/chat/fragment/ProgressDialogFragment;->c()V
+    invoke-virtual {v5}, Lkik/arcane/chat/fragment/ProgressDialogFragment;->c()V
 
     .line 2252
-    invoke-virtual {v5, v1}, Lkik/android/chat/fragment/ProgressDialogFragment;->setCancelable(Z)V
+    invoke-virtual {v5, v1}, Lkik/arcane/chat/fragment/ProgressDialogFragment;->setCancelable(Z)V
 
     .line 2254
-    invoke-virtual {p0, v5}, Lcom/kik/cards/web/CardsWebViewFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {p0, v5}, Lcom/kik/cards/web/CardsWebViewFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 2259
     :goto_0
@@ -2728,7 +2728,7 @@
 
     move-object v3, p1
 
-    invoke-direct/range {v0 .. v5}, Lcom/kik/cards/web/CardsWebViewFragment$37;-><init>(Lcom/kik/cards/web/CardsWebViewFragment;Landroid/app/Activity;Lcom/kik/cards/web/usermedia/b;Ljava/lang/String;Lkik/android/chat/fragment/ProgressDialogFragment;)V
+    invoke-direct/range {v0 .. v5}, Lcom/kik/cards/web/CardsWebViewFragment$37;-><init>(Lcom/kik/cards/web/CardsWebViewFragment;Landroid/app/Activity;Lcom/kik/cards/web/usermedia/b;Ljava/lang/String;Lkik/arcane/chat/fragment/ProgressDialogFragment;)V
 
     invoke-virtual {p1, v0}, Lcom/kik/cards/web/usermedia/b;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -2787,9 +2787,9 @@
 
     .prologue
     .line 2092
-    iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->u:Lkik/android/b/g;
+    iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->u:Lkik/arcane/b/g;
 
-    invoke-virtual {v0, p1}, Lkik/android/b/g;->c(Ljava/lang/String;)Lcom/kik/events/Promise;
+    invoke-virtual {v0, p1}, Lkik/arcane/b/g;->c(Ljava/lang/String;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
@@ -3363,52 +3363,52 @@
 
     .prologue
     .line 872
-    new-instance v0, Lkik/android/chat/fragment/KikDialogFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/KikDialogFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/KikDialogFragment$a;-><init>()V
 
     const v1, 0x7f0903fc
 
     .line 873
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikDialogFragment$a;->a(Ljava/lang/String;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a(Ljava/lang/String;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     move-result-object v0
 
     const v1, 0x7f09027d
 
     .line 874
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v1
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v1, v2}, Lkik/android/chat/fragment/KikDialogFragment$a;->a(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v0, v1, v2}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     move-result-object v0
 
     const/4 v1, 0x1
 
     .line 875
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikDialogFragment$a;->b(Z)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->b(Z)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     move-result-object v0
 
     .line 876
-    invoke-virtual {v0, p1}, Lkik/android/chat/fragment/KikDialogFragment$a;->b(Ljava/lang/String;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v0, p1}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->b(Ljava/lang/String;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     move-result-object v0
 
     .line 878
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikDialogFragment$a;->a()Lkik/android/chat/fragment/KikDialogFragment;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a()Lkik/arcane/chat/fragment/KikDialogFragment;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lcom/kik/cards/web/CardsWebViewFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {p0, v0}, Lcom/kik/cards/web/CardsWebViewFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 879
     return-void
@@ -3462,11 +3462,11 @@
 
     .prologue
     .line 926
-    iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->d:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->d:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Browser Screen Opened"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -3475,14 +3475,14 @@
     const-string v2, "Navigation"
 
     .line 927
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "URL"
 
     .line 928
-    invoke-virtual {v0, v1, p1}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, p1}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -3493,25 +3493,25 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Depth"
 
     .line 930
-    invoke-static {}, Lkik/android/chat/activity/KActivityLauncher;->f()I
+    invoke-static {}, Lkik/arcane/chat/activity/KActivityLauncher;->f()I
 
     move-result v2
 
     int-to-long v2, v2
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 931
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 933
     new-instance v0, Lcom/kik/cards/web/CardsWebViewFragment$a;
@@ -3542,7 +3542,7 @@
     move-result-object v0
 
     .line 933
-    invoke-virtual {p0, v0}, Lcom/kik/cards/web/CardsWebViewFragment;->startFragmentForResult(Lkik/android/util/ae;)Lcom/kik/events/Promise;
+    invoke-virtual {p0, v0}, Lcom/kik/cards/web/CardsWebViewFragment;->startFragmentForResult(Lkik/arcane/util/ae;)Lcom/kik/events/Promise;
 
     .line 937
     return-void
@@ -3607,9 +3607,9 @@
     invoke-direct {v2}, Lcom/kik/events/Promise;-><init>()V
 
     .line 2325
-    new-instance v3, Lkik/android/chat/fragment/KikDialogFragment;
+    new-instance v3, Lkik/arcane/chat/fragment/KikDialogFragment;
 
-    invoke-direct {v3}, Lkik/android/chat/fragment/KikDialogFragment;-><init>()V
+    invoke-direct {v3}, Lkik/arcane/chat/fragment/KikDialogFragment;-><init>()V
 
     .line 2326
     const v4, 0x7f0903df
@@ -3618,12 +3618,12 @@
 
     move-result-object v4
 
-    invoke-virtual {v3, v4}, Lkik/android/chat/fragment/KikDialogFragment;->a(Ljava/lang/String;)V
+    invoke-virtual {v3, v4}, Lkik/arcane/chat/fragment/KikDialogFragment;->a(Ljava/lang/String;)V
 
     .line 2327
     const v4, 0x7f09009d
 
-    invoke-static {v4}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v4}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v4
 
@@ -3637,13 +3637,13 @@
 
     move-result-object v4
 
-    invoke-virtual {v3, v4}, Lkik/android/chat/fragment/KikDialogFragment;->b(Ljava/lang/String;)V
+    invoke-virtual {v3, v4}, Lkik/arcane/chat/fragment/KikDialogFragment;->b(Ljava/lang/String;)V
 
     .line 2328
-    invoke-virtual {v3, v7}, Lkik/android/chat/fragment/KikDialogFragment;->setCancelable(Z)V
+    invoke-virtual {v3, v7}, Lkik/arcane/chat/fragment/KikDialogFragment;->setCancelable(Z)V
 
     .line 2329
-    invoke-virtual {v3}, Lkik/android/chat/fragment/KikDialogFragment;->b()Lcom/kik/events/Promise;
+    invoke-virtual {v3}, Lkik/arcane/chat/fragment/KikDialogFragment;->b()Lcom/kik/events/Promise;
 
     move-result-object v4
 
@@ -3658,24 +3658,24 @@
 
     invoke-direct {v4, p0, v2}, Lcom/kik/cards/web/CardsWebViewFragment$39;-><init>(Lcom/kik/cards/web/CardsWebViewFragment;Lcom/kik/events/Promise;)V
 
-    invoke-virtual {v3, v0, v4}, Lkik/android/chat/fragment/KikDialogFragment;->a(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)V
+    invoke-virtual {v3, v0, v4}, Lkik/arcane/chat/fragment/KikDialogFragment;->a(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)V
 
     .line 2346
     new-instance v0, Lcom/kik/cards/web/CardsWebViewFragment$40;
 
     invoke-direct {v0, p0, v2}, Lcom/kik/cards/web/CardsWebViewFragment$40;-><init>(Lcom/kik/cards/web/CardsWebViewFragment;Lcom/kik/events/Promise;)V
 
-    invoke-virtual {v3, v1, v0}, Lkik/android/chat/fragment/KikDialogFragment;->b(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)V
+    invoke-virtual {v3, v1, v0}, Lkik/arcane/chat/fragment/KikDialogFragment;->b(Ljava/lang/String;Landroid/content/DialogInterface$OnClickListener;)V
 
     .line 2355
     new-instance v0, Lcom/kik/cards/web/CardsWebViewFragment$41;
 
     invoke-direct {v0, p0, v2}, Lcom/kik/cards/web/CardsWebViewFragment$41;-><init>(Lcom/kik/cards/web/CardsWebViewFragment;Lcom/kik/events/Promise;)V
 
-    invoke-virtual {v3, v0}, Lkik/android/chat/fragment/KikDialogFragment;->a(Landroid/content/DialogInterface$OnCancelListener;)V
+    invoke-virtual {v3, v0}, Lkik/arcane/chat/fragment/KikDialogFragment;->a(Landroid/content/DialogInterface$OnCancelListener;)V
 
     .line 2363
-    invoke-virtual {p0, v3}, Lcom/kik/cards/web/CardsWebViewFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {p0, v3}, Lcom/kik/cards/web/CardsWebViewFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 2364
     return-object v2
@@ -3960,7 +3960,7 @@
 
     .prologue
     .line 2412
-    invoke-static {}, Lkik/android/chat/activity/KActivityLauncher;->e()Ljava/util/List;
+    invoke-static {}, Lkik/arcane/chat/activity/KActivityLauncher;->e()Ljava/util/List;
 
     move-result-object v1
 
@@ -3969,7 +3969,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/activity/FragmentWrapperActivity;
+    check-cast v0, Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
     .line 2414
     invoke-interface {v1}, Ljava/util/List;->size()I
@@ -3977,21 +3977,21 @@
     move-result v2
 
     .line 2416
-    new-instance v3, Lkik/android/chat/activity/KActivityLauncher$a;
+    new-instance v3, Lkik/arcane/chat/activity/KActivityLauncher$a;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v4
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/FragmentWrapperActivity;->e()Ljava/lang/String;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->e()Ljava/lang/String;
 
     move-result-object v5
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/FragmentWrapperActivity;->f()Ljava/lang/String;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->f()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-direct {v3, v4, v5, v0}, Lkik/android/chat/activity/KActivityLauncher$a;-><init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v3, v4, v5, v0}, Lkik/arcane/chat/activity/KActivityLauncher$a;-><init>(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 2418
     const/4 v0, 0x2
@@ -4004,9 +4004,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/activity/KActivityLauncher$a;
+    check-cast v0, Lkik/arcane/chat/activity/KActivityLauncher$a;
 
-    invoke-virtual {v0, v3}, Lkik/android/chat/activity/KActivityLauncher$a;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Lkik/arcane/chat/activity/KActivityLauncher$a;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -4037,7 +4037,7 @@
     const/4 v2, -0x1
 
     .line 1815
-    invoke-super {p0, p1, p2, p3}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onActivityResult(IILandroid/content/Intent;)V
+    invoke-super {p0, p1, p2, p3}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onActivityResult(IILandroid/content/Intent;)V
 
     .line 1817
     if-eq p1, v0, :cond_3
@@ -4153,7 +4153,7 @@
     invoke-direct {p0, v0}, Lcom/kik/cards/web/CardsWebViewFragment;->b(I)V
 
     .line 1109
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
     .line 1110
     return-void
@@ -4181,7 +4181,7 @@
     invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lcom/kik/cards/web/CardsWebViewFragment;)V
 
     .line 792
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onCreate(Landroid/os/Bundle;)V
 
     .line 794
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->ax:Lcom/kik/cards/web/CardsWebViewFragment$a;
@@ -4211,13 +4211,13 @@
     iput-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->af:Lcom/kik/events/o;
 
     .line 798
-    new-instance v0, Lkik/android/b/g;
+    new-instance v0, Lkik/arcane/b/g;
 
     iget-object v1, p0, Lcom/kik/cards/web/CardsWebViewFragment;->e:Lkik/core/e/d;
 
-    invoke-direct {v0, v1}, Lkik/android/b/g;-><init>(Lkik/core/e/f;)V
+    invoke-direct {v0, v1}, Lkik/arcane/b/g;-><init>(Lkik/core/e/f;)V
 
-    iput-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->u:Lkik/android/b/g;
+    iput-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->u:Lkik/arcane/b/g;
 
     .line 3381
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->ax:Lcom/kik/cards/web/CardsWebViewFragment$a;
@@ -4317,7 +4317,7 @@
     const/4 v7, 0x0
 
     .line 942
-    invoke-super {p0, p1, p2, p3}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     .line 944
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->G:Landroid/widget/RelativeLayout;
@@ -4367,13 +4367,13 @@
     iget-object v1, p0, Lcom/kik/cards/web/CardsWebViewFragment;->K:Landroid/support/v4/app/FragmentActivity;
 
     .line 4369
-    new-instance v3, Lkik/android/util/ar;
+    new-instance v3, Lkik/arcane/util/ar;
 
     invoke-virtual {p0}, Lcom/kik/cards/web/CardsWebViewFragment;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
-    invoke-direct {v3, v2}, Lkik/android/util/ar;-><init>(Landroid/content/Context;)V
+    invoke-direct {v3, v2}, Lkik/arcane/util/ar;-><init>(Landroid/content/Context;)V
 
     .line 954
     iget-object v5, p0, Lcom/kik/cards/web/CardsWebViewFragment;->m:Lkik/core/net/e;
@@ -4467,7 +4467,7 @@
     .line 967
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->X:Landroid/widget/TextView;
 
-    invoke-static {v0}, Lkik/android/util/ca;->b(Landroid/widget/TextView;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->b(Landroid/widget/TextView;)V
 
     .line 968
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->X:Landroid/widget/TextView;
@@ -4642,9 +4642,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/widget/EllipsizingTextView;
+    check-cast v0, Lkik/arcane/widget/EllipsizingTextView;
 
-    iput-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->ad:Lkik/android/widget/EllipsizingTextView;
+    iput-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->ad:Lkik/arcane/widget/EllipsizingTextView;
 
     .line 988
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->G:Landroid/widget/RelativeLayout;
@@ -4747,17 +4747,17 @@
     .line 5086
     iget-object v2, p0, Lcom/kik/cards/web/CardsWebViewFragment;->t:Lcom/kik/cards/web/kik/KikContentMessageParcelable;
 
-    invoke-static {v2}, Lkik/android/chat/fragment/ViewPictureFragment;->a(Lcom/kik/cards/web/kik/KikContentMessageParcelable;)Lkik/core/datatypes/messageExtensions/ContentMessage;
+    invoke-static {v2}, Lkik/arcane/chat/fragment/ViewPictureFragment;->a(Lcom/kik/cards/web/kik/KikContentMessageParcelable;)Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     move-result-object v2
 
     iget-object v3, p0, Lcom/kik/cards/web/CardsWebViewFragment;->K:Landroid/support/v4/app/FragmentActivity;
 
-    invoke-static {v2, v3, v1}, Lkik/android/util/ca;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Landroid/content/Context;Ljava/lang/String;)Lkik/android/util/ca$c;
+    invoke-static {v2, v3, v1}, Lkik/arcane/util/ca;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Landroid/content/Context;Ljava/lang/String;)Lkik/arcane/util/ca$c;
 
     move-result-object v2
 
-    iput-object v2, p0, Lcom/kik/cards/web/CardsWebViewFragment;->L:Lkik/android/util/ca$c;
+    iput-object v2, p0, Lcom/kik/cards/web/CardsWebViewFragment;->L:Lkik/arcane/util/ca$c;
 
     .line 5092
     :cond_2
@@ -4787,7 +4787,7 @@
     invoke-direct {p0, v0}, Lcom/kik/cards/web/CardsWebViewFragment;->g(Ljava/lang/String;)V
 
     .line 1013
-    iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->L:Lkik/android/util/ca$c;
+    iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->L:Lkik/arcane/util/ca$c;
 
     if-eqz v0, :cond_3
 
@@ -4798,7 +4798,7 @@
 
     aput-object v1, v0, v9
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 1015
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->ac:Landroid/view/ViewGroup;
@@ -4810,22 +4810,22 @@
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 1023
-    iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->ad:Lkik/android/widget/EllipsizingTextView;
+    iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->ad:Lkik/arcane/widget/EllipsizingTextView;
 
-    iget-object v1, p0, Lcom/kik/cards/web/CardsWebViewFragment;->L:Lkik/android/util/ca$c;
+    iget-object v1, p0, Lcom/kik/cards/web/CardsWebViewFragment;->L:Lkik/arcane/util/ca$c;
 
-    invoke-virtual {v1}, Lkik/android/util/ca$c;->d()Ljava/lang/String;
+    invoke-virtual {v1}, Lkik/arcane/util/ca$c;->d()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/EllipsizingTextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/EllipsizingTextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 1024
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->ae:Landroid/widget/ImageView;
 
-    iget-object v1, p0, Lcom/kik/cards/web/CardsWebViewFragment;->L:Lkik/android/util/ca$c;
+    iget-object v1, p0, Lcom/kik/cards/web/CardsWebViewFragment;->L:Lkik/arcane/util/ca$c;
 
-    invoke-virtual {v1}, Lkik/android/util/ca$c;->c()Landroid/graphics/Bitmap;
+    invoke-virtual {v1}, Lkik/arcane/util/ca$c;->c()Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -5353,7 +5353,7 @@
     invoke-virtual {v0, v1}, Lcom/kik/events/g;->a(Ljava/lang/Object;)V
 
     .line 890
-    invoke-super {p0}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onDestroy()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onDestroy()V
 
     .line 892
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->A:Ljava/util/concurrent/ScheduledExecutorService;
@@ -5367,16 +5367,16 @@
 
     .line 903
     :goto_0
-    iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->d:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->d:Lcom/kik/arcane/Mixpanel;
 
     if-eqz v0, :cond_1
 
     .line 904
-    iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->d:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->d:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Browser Screen Closed"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -5385,7 +5385,7 @@
     const-string v2, "Implicit"
 
     .line 905
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->b(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->b(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
@@ -5405,12 +5405,12 @@
 
     .line 906
     :goto_1
-    invoke-virtual {v1, v2, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 907
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 909
     :cond_1
@@ -5430,7 +5430,7 @@
     invoke-virtual {v0, v1}, Lcom/kik/events/g;->a(Ljava/lang/Object;)V
 
     .line 898
-    invoke-super {p0}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onDestroy()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onDestroy()V
 
     .line 900
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->A:Ljava/util/concurrent/ScheduledExecutorService;
@@ -5483,7 +5483,7 @@
 
     .prologue
     .line 1371
-    invoke-super {p0}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onDestroyView()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onDestroyView()V
 
     .line 1372
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->x:Lcom/kik/events/d;
@@ -5632,7 +5632,7 @@
 
     .line 2013
     :goto_0
-    invoke-super {p0}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onPause()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onPause()V
 
     .line 2014
     return-void
@@ -5648,7 +5648,7 @@
 
     .prologue
     .line 1976
-    invoke-super {p0}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onResume()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onResume()V
 
     .line 1981
     :try_start_0
@@ -5694,7 +5694,7 @@
     if-eqz v0, :cond_0
 
     .line 1992
-    iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->az:Lkik/android/chat/fragment/ProgressDialogFragment;
+    iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->az:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
     invoke-virtual {p0}, Lcom/kik/cards/web/CardsWebViewFragment;->getFragmentManager()Landroid/support/v4/app/FragmentManager;
 
@@ -5702,7 +5702,7 @@
 
     const-string v2, "Loading Spinner"
 
-    invoke-virtual {v0, v1, v2}, Lkik/android/chat/fragment/ProgressDialogFragment;->show(Landroid/support/v4/app/FragmentManager;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lkik/arcane/chat/fragment/ProgressDialogFragment;->show(Landroid/support/v4/app/FragmentManager;Ljava/lang/String;)V
 
     .line 1993
     const/4 v0, 0x0
@@ -5724,7 +5724,7 @@
 
     .prologue
     .line 830
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onSaveInstanceState(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onSaveInstanceState(Landroid/os/Bundle;)V
 
     .line 832
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment;->F:Ljava/lang/String;
@@ -5774,7 +5774,7 @@
     invoke-virtual {v0, v1}, Landroid/support/v4/app/FragmentActivity;->setRequestedOrientation(I)V
 
     .line 1205
-    invoke-super {p0}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onStackedFragmentsPopped()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onStackedFragmentsPopped()V
 
     .line 1206
     return-void
@@ -5813,7 +5813,7 @@
 
     .line 2238
     :cond_0
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onWindowFocusChanged(Z)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onWindowFocusChanged(Z)V
 
     .line 13920
     invoke-virtual {p0}, Lcom/kik/cards/web/CardsWebViewFragment;->hasFocus()Z

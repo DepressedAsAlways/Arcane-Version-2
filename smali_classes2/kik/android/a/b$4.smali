@@ -1,11 +1,11 @@
-.class final Lkik/android/a/b$4;
+.class final Lkik/arcane/a/b$4;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/a/b;
+    value = Lkik/arcane/a/b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/a/b;
+.field final synthetic a:Lkik/arcane/a/b;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/a/b;)V
+.method constructor <init>(Lkik/arcane/a/b;)V
     .locals 0
 
     .prologue
     .line 196
-    iput-object p1, p0, Lkik/android/a/b$4;->a:Lkik/android/a/b;
+    iput-object p1, p0, Lkik/arcane/a/b$4;->a:Lkik/arcane/a/b;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -71,18 +71,18 @@
     if-nez v0, :cond_1
 
     .line 1201
-    iget-object v0, p0, Lkik/android/a/b$4;->a:Lkik/android/a/b;
+    iget-object v0, p0, Lkik/arcane/a/b$4;->a:Lkik/arcane/a/b;
 
     invoke-virtual {p1}, Lcom/kik/xdata/model/clientmetrics/XMetricsAnonymousId;->a()Ljava/lang/String;
 
     move-result-object v1
 
-    iput-object v1, v0, Lkik/android/a/b;->c:Ljava/lang/String;
+    iput-object v1, v0, Lkik/arcane/a/b;->c:Ljava/lang/String;
 
     .line 1202
-    iget-object v0, p0, Lkik/android/a/b$4;->a:Lkik/android/a/b;
+    iget-object v0, p0, Lkik/arcane/a/b$4;->a:Lkik/arcane/a/b;
 
-    invoke-static {v0}, Lkik/android/a/b;->b(Lkik/android/a/b;)Lkik/core/interfaces/ad;
+    invoke-static {v0}, Lkik/arcane/a/b;->b(Lkik/arcane/a/b;)Lkik/core/interfaces/ad;
 
     move-result-object v0
 
@@ -101,40 +101,40 @@
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v1, p0, Lkik/android/a/b$4;->a:Lkik/android/a/b;
+    iget-object v1, p0, Lkik/arcane/a/b$4;->a:Lkik/arcane/a/b;
 
-    iget-object v1, v1, Lkik/android/a/b;->c:Ljava/lang/String;
+    iget-object v1, v1, Lkik/arcane/a/b;->c:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 1217
     :cond_0
     :goto_0
-    iget-object v0, p0, Lkik/android/a/b$4;->a:Lkik/android/a/b;
+    iget-object v0, p0, Lkik/arcane/a/b$4;->a:Lkik/arcane/a/b;
 
-    invoke-static {v0}, Lkik/android/a/b;->a(Lkik/android/a/b;)Lkik/android/a/a;
+    invoke-static {v0}, Lkik/arcane/a/b;->a(Lkik/arcane/a/b;)Lkik/arcane/a/a;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/a/b$4;->a:Lkik/android/a/b;
+    iget-object v1, p0, Lkik/arcane/a/b$4;->a:Lkik/arcane/a/b;
 
-    iget-object v1, v1, Lkik/android/a/b;->c:Ljava/lang/String;
+    iget-object v1, v1, Lkik/arcane/a/b;->c:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lkik/android/a/a;->c(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/a/a;->c(Ljava/lang/String;)V
 
     .line 196
     return-void
 
     .line 1209
     :cond_1
-    iget-object v0, p0, Lkik/android/a/b$4;->a:Lkik/android/a/b;
+    iget-object v0, p0, Lkik/arcane/a/b$4;->a:Lkik/arcane/a/b;
 
-    iget-object v0, v0, Lkik/android/a/b;->c:Ljava/lang/String;
+    iget-object v0, v0, Lkik/arcane/a/b;->c:Ljava/lang/String;
 
     if-nez v0, :cond_0
 
     .line 1210
-    iget-object v0, p0, Lkik/android/a/b$4;->a:Lkik/android/a/b;
+    iget-object v0, p0, Lkik/arcane/a/b$4;->a:Lkik/arcane/a/b;
 
     invoke-static {}, Ljava/util/UUID;->randomUUID()Ljava/util/UUID;
 
@@ -152,7 +152,7 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lkik/android/a/b;->c:Ljava/lang/String;
+    iput-object v1, v0, Lkik/arcane/a/b;->c:Ljava/lang/String;
 
     .line 1212
     new-instance v0, Ljava/lang/StringBuilder;
@@ -161,16 +161,16 @@
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v1, p0, Lkik/android/a/b$4;->a:Lkik/android/a/b;
+    iget-object v1, p0, Lkik/arcane/a/b$4;->a:Lkik/arcane/a/b;
 
-    iget-object v1, v1, Lkik/android/a/b;->c:Ljava/lang/String;
+    iget-object v1, v1, Lkik/arcane/a/b;->c:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 1214
-    iget-object v0, p0, Lkik/android/a/b$4;->a:Lkik/android/a/b;
+    iget-object v0, p0, Lkik/arcane/a/b$4;->a:Lkik/arcane/a/b;
 
-    invoke-virtual {v0}, Lkik/android/a/b;->b()V
+    invoke-virtual {v0}, Lkik/arcane/a/b;->b()V
 
     goto :goto_0
 .end method
@@ -191,11 +191,11 @@
 
     .prologue
     .line 231
-    iget-object v0, p0, Lkik/android/a/b$4;->a:Lkik/android/a/b;
+    iget-object v0, p0, Lkik/arcane/a/b$4;->a:Lkik/arcane/a/b;
 
     const/4 v1, 0x0
 
-    iput-boolean v1, v0, Lkik/android/a/b;->b:Z
+    iput-boolean v1, v0, Lkik/arcane/a/b;->b:Z
 
     .line 232
     invoke-super {p0}, Lcom/kik/events/k;->b()V

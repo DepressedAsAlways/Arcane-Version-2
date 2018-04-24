@@ -1,11 +1,11 @@
-.class final Lkik/android/b/a$a;
+.class final Lkik/arcane/b/a$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/b/a;
+    value = Lkik/arcane/b/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -42,7 +42,7 @@
 
     .prologue
     .line 59
-    invoke-direct {p0}, Lkik/android/b/a$a;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/b/a$a;-><init>()V
 
     return-void
 .end method

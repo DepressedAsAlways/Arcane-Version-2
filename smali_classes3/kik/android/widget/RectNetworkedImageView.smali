@@ -1,5 +1,5 @@
-.class public Lkik/android/widget/RectNetworkedImageView;
-.super Lkik/android/widget/KikNetworkedImageView;
+.class public Lkik/arcane/widget/RectNetworkedImageView;
+.super Lkik/arcane/widget/KikNetworkedImageView;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
     .prologue
     .line 13
-    invoke-direct {p0, p1}, Lkik/android/widget/KikNetworkedImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lkik/arcane/widget/KikNetworkedImageView;-><init>(Landroid/content/Context;)V
 
     .line 14
     return-void
@@ -20,7 +20,7 @@
 
     .prologue
     .line 17
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/KikNetworkedImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/KikNetworkedImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 18
     return-void
@@ -31,7 +31,7 @@
 
     .prologue
     .line 21
-    invoke-direct {p0, p1, p2, p3}, Lkik/android/widget/KikNetworkedImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lkik/arcane/widget/KikNetworkedImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 22
     return-void
@@ -39,14 +39,14 @@
 
 
 # virtual methods
-.method protected final a(Landroid/graphics/Bitmap;Ljava/lang/String;)Lkik/android/widget/bb;
+.method protected final a(Landroid/graphics/Bitmap;Ljava/lang/String;)Lkik/arcane/widget/bb;
     .locals 1
 
     .prologue
     .line 26
-    new-instance v0, Lkik/android/widget/cr;
+    new-instance v0, Lkik/arcane/widget/cr;
 
-    invoke-direct {v0, p1, p2}, Lkik/android/widget/cr;-><init>(Landroid/graphics/Bitmap;Ljava/lang/String;)V
+    invoke-direct {v0, p1, p2}, Lkik/arcane/widget/cr;-><init>(Landroid/graphics/Bitmap;Ljava/lang/String;)V
 
     return-object v0
 .end method

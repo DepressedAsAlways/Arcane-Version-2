@@ -1,11 +1,11 @@
-.class final Lkik/android/b/a$4$1;
+.class final Lkik/arcane/b/a$4$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/b/a$4;
+    value = Lkik/arcane/b/a$4;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,18 +26,18 @@
 # instance fields
 .field final synthetic a:Ljava/util/Map;
 
-.field final synthetic b:Lkik/android/b/a$4;
+.field final synthetic b:Lkik/arcane/b/a$4;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/b/a$4;Ljava/util/Map;)V
+.method constructor <init>(Lkik/arcane/b/a$4;Ljava/util/Map;)V
     .locals 0
 
     .prologue
     .line 158
-    iput-object p1, p0, Lkik/android/b/a$4$1;->b:Lkik/android/b/a$4;
+    iput-object p1, p0, Lkik/arcane/b/a$4$1;->b:Lkik/arcane/b/a$4;
 
-    iput-object p2, p0, Lkik/android/b/a$4$1;->a:Ljava/util/Map;
+    iput-object p2, p0, Lkik/arcane/b/a$4$1;->a:Ljava/util/Map;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -58,7 +58,7 @@
     .line 1163
     new-instance v2, Ljava/util/ArrayList;
 
-    iget-object v0, p0, Lkik/android/b/a$4$1;->a:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/b/a$4$1;->a:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->values()Ljava/util/Collection;
 
@@ -100,7 +100,7 @@
     check-cast v0, Lkik/core/d/b$a;
 
     .line 1171
-    invoke-static {v0}, Lkik/android/b/a;->a(Lkik/core/d/b$a;)[B
+    invoke-static {v0}, Lkik/arcane/b/a;->a(Lkik/core/d/b$a;)[B
 
     move-result-object v4
 
@@ -125,7 +125,7 @@
     move-exception v0
 
     .line 1179
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v4
 
@@ -219,7 +219,7 @@
     move-exception v0
 
     .line 1204
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v7
 
@@ -250,11 +250,11 @@
     check-cast v0, Lkik/core/d/b$a;
 
     .line 1215
-    iget-object v2, p0, Lkik/android/b/a$4$1;->b:Lkik/android/b/a$4;
+    iget-object v2, p0, Lkik/arcane/b/a$4$1;->b:Lkik/arcane/b/a$4;
 
-    iget-object v2, v2, Lkik/android/b/a$4;->c:Lkik/android/b/a;
+    iget-object v2, v2, Lkik/arcane/b/a$4;->c:Lkik/arcane/b/a;
 
-    invoke-static {v2}, Lkik/android/b/a;->c(Lkik/android/b/a;)Lkik/core/d/b;
+    invoke-static {v2}, Lkik/arcane/b/a;->c(Lkik/arcane/b/a;)Lkik/core/d/b;
 
     move-result-object v2
 
@@ -264,9 +264,9 @@
 
     .line 1217
     :cond_5
-    iget-object v0, p0, Lkik/android/b/a$4$1;->b:Lkik/android/b/a$4;
+    iget-object v0, p0, Lkik/arcane/b/a$4$1;->b:Lkik/arcane/b/a$4;
 
-    iget-object v0, v0, Lkik/android/b/a$4;->b:Lcom/kik/events/Promise;
+    iget-object v0, v0, Lkik/arcane/b/a$4;->b:Lcom/kik/events/Promise;
 
     invoke-static {v10}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -275,11 +275,11 @@
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Ljava/lang/Object;)V
 
     .line 1220
-    iget-object v0, p0, Lkik/android/b/a$4$1;->b:Lkik/android/b/a$4;
+    iget-object v0, p0, Lkik/arcane/b/a$4$1;->b:Lkik/arcane/b/a$4;
 
-    iget-object v0, v0, Lkik/android/b/a$4;->c:Lkik/android/b/a;
+    iget-object v0, v0, Lkik/arcane/b/a$4;->c:Lkik/arcane/b/a;
 
-    invoke-static {v0}, Lkik/android/b/a;->b(Lkik/android/b/a;)Lkik/core/interfaces/ad;
+    invoke-static {v0}, Lkik/arcane/b/a;->b(Lkik/arcane/b/a;)Lkik/core/interfaces/ad;
 
     move-result-object v0
 
@@ -300,9 +300,9 @@
 
     .prologue
     .line 226
-    iget-object v0, p0, Lkik/android/b/a$4$1;->b:Lkik/android/b/a$4;
+    iget-object v0, p0, Lkik/arcane/b/a$4$1;->b:Lkik/arcane/b/a$4;
 
-    iget-object v0, v0, Lkik/android/b/a$4;->b:Lcom/kik/events/Promise;
+    iget-object v0, v0, Lkik/arcane/b/a$4;->b:Lcom/kik/events/Promise;
 
     invoke-virtual {v0, p1}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 

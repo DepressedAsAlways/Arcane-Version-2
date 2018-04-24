@@ -1,11 +1,11 @@
-.class final Lcom/kik/android/b/j$a;
-.super Lkik/android/i/c;
+.class final Lcom/kik/arcane/b/j$a;
+.super Lkik/arcane/i/c;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/kik/android/b/j;
+    value = Lcom/kik/arcane/b/j;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,23 +15,23 @@
 
 
 # instance fields
-.field final synthetic a:Lcom/kik/android/b/j;
+.field final synthetic a:Lcom/kik/arcane/b/j;
 
 
 # direct methods
-.method public constructor <init>(Lcom/kik/android/b/j;Landroid/content/Context;Ljava/lang/String;)V
+.method public constructor <init>(Lcom/kik/arcane/b/j;Landroid/content/Context;Ljava/lang/String;)V
     .locals 2
 
     .prologue
     .line 368
-    iput-object p1, p0, Lcom/kik/android/b/j$a;->a:Lcom/kik/android/b/j;
+    iput-object p1, p0, Lcom/kik/arcane/b/j$a;->a:Lcom/kik/arcane/b/j;
 
     .line 369
     const-string v0, "alternatesTable"
 
     const/4 v1, 0x1
 
-    invoke-direct {p0, p2, v0, v1, p3}, Lkik/android/i/c;-><init>(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-direct {p0, p2, v0, v1, p3}, Lkik/arcane/i/c;-><init>(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 370
     return-void
@@ -69,14 +69,14 @@
 
     const-string v2, "smiley_category"
 
-    invoke-static {v0, p1, v1, v2}, Lcom/kik/android/b/j$a;->a(Landroid/database/Cursor;Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1, v1, v2}, Lcom/kik/arcane/b/j$a;->a(Landroid/database/Cursor;Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 390
     const-string v1, "alternatesTable"
 
     const-string v2, "smiley_id"
 
-    invoke-static {v0, p1, v1, v2}, Lcom/kik/android/b/j$a;->a(Landroid/database/Cursor;Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v0, p1, v1, v2}, Lcom/kik/arcane/b/j$a;->a(Landroid/database/Cursor;Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 391
     invoke-interface {v0}, Landroid/database/Cursor;->close()V

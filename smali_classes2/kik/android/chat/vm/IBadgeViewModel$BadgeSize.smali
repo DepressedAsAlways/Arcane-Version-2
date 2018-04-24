@@ -1,11 +1,11 @@
-.class public final enum Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;
+.class public final enum Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;
 .super Ljava/lang/Enum;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/IBadgeViewModel;
+    value = Lkik/arcane/chat/vm/IBadgeViewModel;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,18 +17,18 @@
     value = {
         "Ljava/lang/Enum",
         "<",
-        "Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;",
+        "Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;",
         ">;"
     }
 .end annotation
 
 
 # static fields
-.field private static final synthetic $VALUES:[Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;
+.field private static final synthetic $VALUES:[Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;
 
-.field public static final enum BADGE_SIZE_LARGE:Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;
+.field public static final enum BADGE_SIZE_LARGE:Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;
 
-.field public static final enum BADGE_SIZE_SMALL:Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;
+.field public static final enum BADGE_SIZE_SMALL:Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;
 
 
 # direct methods
@@ -41,37 +41,37 @@
     const/4 v2, 0x0
 
     .line 21
-    new-instance v0, Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;
+    new-instance v0, Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;
 
     const-string v1, "BADGE_SIZE_SMALL"
 
-    invoke-direct {v0, v1, v2}, Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;->BADGE_SIZE_SMALL:Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;
+    sput-object v0, Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;->BADGE_SIZE_SMALL:Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;
 
     .line 22
-    new-instance v0, Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;
+    new-instance v0, Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;
 
     const-string v1, "BADGE_SIZE_LARGE"
 
-    invoke-direct {v0, v1, v3}, Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v3}, Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;->BADGE_SIZE_LARGE:Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;
+    sput-object v0, Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;->BADGE_SIZE_LARGE:Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;
 
     .line 19
     const/4 v0, 0x2
 
-    new-array v0, v0, [Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;
+    new-array v0, v0, [Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;
 
-    sget-object v1, Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;->BADGE_SIZE_SMALL:Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;
+    sget-object v1, Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;->BADGE_SIZE_SMALL:Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;->BADGE_SIZE_LARGE:Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;
+    sget-object v1, Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;->BADGE_SIZE_LARGE:Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;
 
     aput-object v1, v0, v3
 
-    sput-object v0, Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;->$VALUES:[Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;
+    sput-object v0, Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;->$VALUES:[Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;
 
     return-void
 .end method
@@ -91,34 +91,34 @@
     return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;
+.method public static valueOf(Ljava/lang/String;)Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;
     .locals 1
 
     .prologue
     .line 19
-    const-class v0, Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;
+    const-class v0, Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;
+    check-cast v0, Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;
 
     return-object v0
 .end method
 
-.method public static values()[Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;
+.method public static values()[Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;
     .locals 1
 
     .prologue
     .line 19
-    sget-object v0, Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;->$VALUES:[Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;
+    sget-object v0, Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;->$VALUES:[Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;
 
-    invoke-virtual {v0}, [Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;
+    check-cast v0, [Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;
 
     return-object v0
 .end method

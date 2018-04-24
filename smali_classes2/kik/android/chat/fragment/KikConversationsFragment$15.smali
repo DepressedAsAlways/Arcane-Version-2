@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/KikConversationsFragment$15;
+.class final Lkik/arcane/chat/fragment/KikConversationsFragment$15;
 .super Landroid/animation/AnimatorListenerAdapter;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikConversationsFragment;
+    value = Lkik/arcane/chat/fragment/KikConversationsFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikConversationsFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikConversationsFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikConversationsFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikConversationsFragment;)V
     .locals 0
 
     .prologue
     .line 1023
-    iput-object p1, p0, Lkik/android/chat/fragment/KikConversationsFragment$15;->a:Lkik/android/chat/fragment/KikConversationsFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikConversationsFragment$15;->a:Lkik/arcane/chat/fragment/KikConversationsFragment;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
@@ -38,9 +38,9 @@
 
     .prologue
     .line 1027
-    iget-object v0, p0, Lkik/android/chat/fragment/KikConversationsFragment$15;->a:Lkik/android/chat/fragment/KikConversationsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikConversationsFragment$15;->a:Lkik/arcane/chat/fragment/KikConversationsFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/KikConversationsFragment;->_searchBarBackIcon:Landroid/widget/ImageView;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/KikConversationsFragment;->_searchBarBackIcon:Landroid/widget/ImageView;
 
     const/4 v1, 0x0
 

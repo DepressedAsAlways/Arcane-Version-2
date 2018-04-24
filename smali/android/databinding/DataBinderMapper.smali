@@ -77,7 +77,7 @@
 
     .line 11
     :sswitch_0
-    invoke-static {p2, p1}, Lkik/android/e/da;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/da;
+    invoke-static {p2, p1}, Lkik/arcane/e/da;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/da;
 
     move-result-object v0
 
@@ -85,7 +85,7 @@
 
     .line 13
     :sswitch_1
-    invoke-static {p2, p1}, Lkik/android/e/be;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/be;
+    invoke-static {p2, p1}, Lkik/arcane/e/be;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/be;
 
     move-result-object v0
 
@@ -93,7 +93,7 @@
 
     .line 15
     :sswitch_2
-    invoke-static {p2, p1}, Lkik/android/e/cg;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/cg;
+    invoke-static {p2, p1}, Lkik/arcane/e/cg;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/cg;
 
     move-result-object v0
 
@@ -101,7 +101,7 @@
 
     .line 17
     :sswitch_3
-    invoke-static {p2, p1}, Lkik/android/e/br;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/br;
+    invoke-static {p2, p1}, Lkik/arcane/e/br;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/br;
 
     move-result-object v0
 
@@ -109,7 +109,7 @@
 
     .line 19
     :sswitch_4
-    invoke-static {p2, p1}, Lkik/android/e/dg;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/dg;
+    invoke-static {p2, p1}, Lkik/arcane/e/dg;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/dg;
 
     move-result-object v0
 
@@ -117,7 +117,7 @@
 
     .line 21
     :sswitch_5
-    invoke-static {p2, p1}, Lkik/android/e/az;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/az;
+    invoke-static {p2, p1}, Lkik/arcane/e/az;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/az;
 
     move-result-object v0
 
@@ -125,7 +125,7 @@
 
     .line 23
     :sswitch_6
-    invoke-static {p2, p1}, Lkik/android/e/bz;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/bz;
+    invoke-static {p2, p1}, Lkik/arcane/e/bz;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/bz;
 
     move-result-object v0
 
@@ -133,7 +133,7 @@
 
     .line 25
     :sswitch_7
-    invoke-static {p2, p1}, Lkik/android/e/dl;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/dl;
+    invoke-static {p2, p1}, Lkik/arcane/e/dl;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/dl;
 
     move-result-object v0
 
@@ -141,7 +141,7 @@
 
     .line 27
     :sswitch_8
-    invoke-static {p2, p1}, Lkik/android/e/ec;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/ec;
+    invoke-static {p2, p1}, Lkik/arcane/e/ec;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/ec;
 
     move-result-object v0
 
@@ -149,7 +149,7 @@
 
     .line 29
     :sswitch_9
-    invoke-static {p2, p1}, Lkik/android/e/cw;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/cw;
+    invoke-static {p2, p1}, Lkik/arcane/e/cw;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/cw;
 
     move-result-object v0
 
@@ -157,7 +157,7 @@
 
     .line 31
     :sswitch_a
-    invoke-static {p2, p1}, Lkik/android/e/di;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/di;
+    invoke-static {p2, p1}, Lkik/arcane/e/di;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/di;
 
     move-result-object v0
 
@@ -165,19 +165,19 @@
 
     .line 33
     :sswitch_b
-    new-instance v0, Lkik/android/e/h;
+    new-instance v0, Lkik/arcane/e/h;
 
     new-array v1, v1, [Landroid/view/View;
 
     aput-object p2, v1, v2
 
-    invoke-direct {v0, p1, v1}, Lkik/android/e/h;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
+    invoke-direct {v0, p1, v1}, Lkik/arcane/e/h;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
 
     goto :goto_0
 
     .line 35
     :sswitch_c
-    invoke-static {p2, p1}, Lkik/android/e/dz;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/dz;
+    invoke-static {p2, p1}, Lkik/arcane/e/dz;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/dz;
 
     move-result-object v0
 
@@ -185,7 +185,7 @@
 
     .line 37
     :sswitch_d
-    invoke-static {p2, p1}, Lkik/android/e/ah;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/ah;
+    invoke-static {p2, p1}, Lkik/arcane/e/ah;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/ah;
 
     move-result-object v0
 
@@ -193,7 +193,7 @@
 
     .line 39
     :sswitch_e
-    invoke-static {p2, p1}, Lkik/android/e/do;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/do;
+    invoke-static {p2, p1}, Lkik/arcane/e/do;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/do;
 
     move-result-object v0
 
@@ -201,7 +201,7 @@
 
     .line 41
     :sswitch_f
-    invoke-static {p2, p1}, Lkik/android/e/at;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/at;
+    invoke-static {p2, p1}, Lkik/arcane/e/at;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/at;
 
     move-result-object v0
 
@@ -209,7 +209,7 @@
 
     .line 43
     :sswitch_10
-    invoke-static {p2, p1}, Lkik/android/e/du;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/du;
+    invoke-static {p2, p1}, Lkik/arcane/e/du;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/du;
 
     move-result-object v0
 
@@ -217,7 +217,7 @@
 
     .line 45
     :sswitch_11
-    invoke-static {p2, p1}, Lkik/android/e/ce;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/ce;
+    invoke-static {p2, p1}, Lkik/arcane/e/ce;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/ce;
 
     move-result-object v0
 
@@ -225,7 +225,7 @@
 
     .line 47
     :sswitch_12
-    invoke-static {p2, p1}, Lkik/android/e/dj;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/dj;
+    invoke-static {p2, p1}, Lkik/arcane/e/dj;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/dj;
 
     move-result-object v0
 
@@ -233,7 +233,7 @@
 
     .line 49
     :sswitch_13
-    invoke-static {p2, p1}, Lkik/android/e/cl;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/cl;
+    invoke-static {p2, p1}, Lkik/arcane/e/cl;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/cl;
 
     move-result-object v0
 
@@ -241,7 +241,7 @@
 
     .line 51
     :sswitch_14
-    invoke-static {p2, p1}, Lkik/android/e/q;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/q;
+    invoke-static {p2, p1}, Lkik/arcane/e/q;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/q;
 
     move-result-object v0
 
@@ -249,19 +249,19 @@
 
     .line 53
     :sswitch_15
-    new-instance v0, Lkik/android/e/m;
+    new-instance v0, Lkik/arcane/e/m;
 
     new-array v1, v1, [Landroid/view/View;
 
     aput-object p2, v1, v2
 
-    invoke-direct {v0, p1, v1}, Lkik/android/e/m;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
+    invoke-direct {v0, p1, v1}, Lkik/arcane/e/m;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
 
     goto :goto_0
 
     .line 55
     :sswitch_16
-    invoke-static {p2, p1}, Lkik/android/e/w;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/w;
+    invoke-static {p2, p1}, Lkik/arcane/e/w;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/w;
 
     move-result-object v0
 
@@ -269,7 +269,7 @@
 
     .line 57
     :sswitch_17
-    invoke-static {p2, p1}, Lkik/android/e/dd;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/dd;
+    invoke-static {p2, p1}, Lkik/arcane/e/dd;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/dd;
 
     move-result-object v0
 
@@ -277,7 +277,7 @@
 
     .line 59
     :sswitch_18
-    invoke-static {p2, p1}, Lkik/android/e/p;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/p;
+    invoke-static {p2, p1}, Lkik/arcane/e/p;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/p;
 
     move-result-object v0
 
@@ -285,7 +285,7 @@
 
     .line 61
     :sswitch_19
-    invoke-static {p2, p1}, Lkik/android/e/bp;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/bp;
+    invoke-static {p2, p1}, Lkik/arcane/e/bp;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/bp;
 
     move-result-object v0
 
@@ -293,7 +293,7 @@
 
     .line 63
     :sswitch_1a
-    invoke-static {p2, p1}, Lkik/android/e/cp;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/cp;
+    invoke-static {p2, p1}, Lkik/arcane/e/cp;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/cp;
 
     move-result-object v0
 
@@ -301,7 +301,7 @@
 
     .line 65
     :sswitch_1b
-    invoke-static {p2, p1}, Lkik/android/e/ag;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/ag;
+    invoke-static {p2, p1}, Lkik/arcane/e/ag;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/ag;
 
     move-result-object v0
 
@@ -309,7 +309,7 @@
 
     .line 67
     :sswitch_1c
-    invoke-static {p2, p1}, Lkik/android/e/ch;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/ch;
+    invoke-static {p2, p1}, Lkik/arcane/e/ch;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/ch;
 
     move-result-object v0
 
@@ -317,7 +317,7 @@
 
     .line 69
     :sswitch_1d
-    invoke-static {p2, p1}, Lkik/android/e/cz;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/cz;
+    invoke-static {p2, p1}, Lkik/arcane/e/cz;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/cz;
 
     move-result-object v0
 
@@ -325,7 +325,7 @@
 
     .line 71
     :sswitch_1e
-    invoke-static {p2, p1}, Lkik/android/e/dt;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/dt;
+    invoke-static {p2, p1}, Lkik/arcane/e/dt;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/dt;
 
     move-result-object v0
 
@@ -333,7 +333,7 @@
 
     .line 73
     :sswitch_1f
-    invoke-static {p2, p1}, Lkik/android/e/au;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/au;
+    invoke-static {p2, p1}, Lkik/arcane/e/au;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/au;
 
     move-result-object v0
 
@@ -341,7 +341,7 @@
 
     .line 75
     :sswitch_20
-    invoke-static {p2, p1}, Lkik/android/e/bw;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/bw;
+    invoke-static {p2, p1}, Lkik/arcane/e/bw;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/bw;
 
     move-result-object v0
 
@@ -349,7 +349,7 @@
 
     .line 77
     :sswitch_21
-    invoke-static {p2, p1}, Lkik/android/e/ae;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/ae;
+    invoke-static {p2, p1}, Lkik/arcane/e/ae;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/ae;
 
     move-result-object v0
 
@@ -357,7 +357,7 @@
 
     .line 79
     :sswitch_22
-    invoke-static {p2, p1}, Lkik/android/e/z;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/z;
+    invoke-static {p2, p1}, Lkik/arcane/e/z;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/z;
 
     move-result-object v0
 
@@ -365,7 +365,7 @@
 
     .line 81
     :sswitch_23
-    invoke-static {p2, p1}, Lkik/android/e/n;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/n;
+    invoke-static {p2, p1}, Lkik/arcane/e/n;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/n;
 
     move-result-object v0
 
@@ -373,7 +373,7 @@
 
     .line 83
     :sswitch_24
-    invoke-static {p2, p1}, Lkik/android/e/al;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/al;
+    invoke-static {p2, p1}, Lkik/arcane/e/al;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/al;
 
     move-result-object v0
 
@@ -381,7 +381,7 @@
 
     .line 85
     :sswitch_25
-    invoke-static {p2, p1}, Lkik/android/e/dx;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/dx;
+    invoke-static {p2, p1}, Lkik/arcane/e/dx;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/dx;
 
     move-result-object v0
 
@@ -389,7 +389,7 @@
 
     .line 87
     :sswitch_26
-    invoke-static {p2, p1}, Lkik/android/e/dp;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/dp;
+    invoke-static {p2, p1}, Lkik/arcane/e/dp;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/dp;
 
     move-result-object v0
 
@@ -397,7 +397,7 @@
 
     .line 89
     :sswitch_27
-    invoke-static {p2, p1}, Lkik/android/e/bl;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/bl;
+    invoke-static {p2, p1}, Lkik/arcane/e/bl;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/bl;
 
     move-result-object v0
 
@@ -405,7 +405,7 @@
 
     .line 91
     :sswitch_28
-    invoke-static {p2, p1}, Lkik/android/e/cb;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/cb;
+    invoke-static {p2, p1}, Lkik/arcane/e/cb;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/cb;
 
     move-result-object v0
 
@@ -413,7 +413,7 @@
 
     .line 93
     :sswitch_29
-    invoke-static {p2, p1}, Lkik/android/e/v;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/v;
+    invoke-static {p2, p1}, Lkik/arcane/e/v;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/v;
 
     move-result-object v0
 
@@ -421,7 +421,7 @@
 
     .line 95
     :sswitch_2a
-    invoke-static {p2, p1}, Lkik/android/e/by;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/by;
+    invoke-static {p2, p1}, Lkik/arcane/e/by;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/by;
 
     move-result-object v0
 
@@ -429,7 +429,7 @@
 
     .line 97
     :sswitch_2b
-    invoke-static {p2, p1}, Lkik/android/e/an;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/an;
+    invoke-static {p2, p1}, Lkik/arcane/e/an;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/an;
 
     move-result-object v0
 
@@ -437,7 +437,7 @@
 
     .line 99
     :sswitch_2c
-    invoke-static {p2, p1}, Lkik/android/e/dv;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/dv;
+    invoke-static {p2, p1}, Lkik/arcane/e/dv;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/dv;
 
     move-result-object v0
 
@@ -445,7 +445,7 @@
 
     .line 101
     :sswitch_2d
-    invoke-static {p2, p1}, Lkik/android/e/ba;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/ba;
+    invoke-static {p2, p1}, Lkik/arcane/e/ba;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/ba;
 
     move-result-object v0
 
@@ -453,7 +453,7 @@
 
     .line 103
     :sswitch_2e
-    invoke-static {p2, p1}, Lkik/android/e/ar;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/ar;
+    invoke-static {p2, p1}, Lkik/arcane/e/ar;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/ar;
 
     move-result-object v0
 
@@ -461,7 +461,7 @@
 
     .line 105
     :sswitch_2f
-    invoke-static {p2, p1}, Lkik/android/e/bh;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/bh;
+    invoke-static {p2, p1}, Lkik/arcane/e/bh;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/bh;
 
     move-result-object v0
 
@@ -469,7 +469,7 @@
 
     .line 107
     :sswitch_30
-    invoke-static {p2, p1}, Lkik/android/e/ax;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/ax;
+    invoke-static {p2, p1}, Lkik/arcane/e/ax;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/ax;
 
     move-result-object v0
 
@@ -477,7 +477,7 @@
 
     .line 109
     :sswitch_31
-    invoke-static {p2, p1}, Lkik/android/e/bq;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/bq;
+    invoke-static {p2, p1}, Lkik/arcane/e/bq;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/bq;
 
     move-result-object v0
 
@@ -485,7 +485,7 @@
 
     .line 111
     :sswitch_32
-    invoke-static {p2, p1}, Lkik/android/e/cu;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/cu;
+    invoke-static {p2, p1}, Lkik/arcane/e/cu;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/cu;
 
     move-result-object v0
 
@@ -493,7 +493,7 @@
 
     .line 113
     :sswitch_33
-    invoke-static {p2, p1}, Lkik/android/e/t;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/t;
+    invoke-static {p2, p1}, Lkik/arcane/e/t;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/t;
 
     move-result-object v0
 
@@ -501,7 +501,7 @@
 
     .line 115
     :sswitch_34
-    invoke-static {p2, p1}, Lkik/android/e/db;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/db;
+    invoke-static {p2, p1}, Lkik/arcane/e/db;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/db;
 
     move-result-object v0
 
@@ -509,7 +509,7 @@
 
     .line 117
     :sswitch_35
-    invoke-static {p2, p1}, Lkik/android/e/eb;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/eb;
+    invoke-static {p2, p1}, Lkik/arcane/e/eb;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/eb;
 
     move-result-object v0
 
@@ -517,7 +517,7 @@
 
     .line 119
     :sswitch_36
-    invoke-static {p2, p1}, Lkik/android/e/cj;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/cj;
+    invoke-static {p2, p1}, Lkik/arcane/e/cj;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/cj;
 
     move-result-object v0
 
@@ -525,7 +525,7 @@
 
     .line 121
     :sswitch_37
-    invoke-static {p2, p1}, Lkik/android/e/cs;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/cs;
+    invoke-static {p2, p1}, Lkik/arcane/e/cs;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/cs;
 
     move-result-object v0
 
@@ -533,7 +533,7 @@
 
     .line 123
     :sswitch_38
-    invoke-static {p2, p1}, Lkik/android/e/ac;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/ac;
+    invoke-static {p2, p1}, Lkik/arcane/e/ac;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/ac;
 
     move-result-object v0
 
@@ -541,7 +541,7 @@
 
     .line 125
     :sswitch_39
-    invoke-static {p2, p1}, Lkik/android/e/s;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/s;
+    invoke-static {p2, p1}, Lkik/arcane/e/s;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/s;
 
     move-result-object v0
 
@@ -549,7 +549,7 @@
 
     .line 127
     :sswitch_3a
-    invoke-static {p2, p1}, Lkik/android/e/ca;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/ca;
+    invoke-static {p2, p1}, Lkik/arcane/e/ca;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/ca;
 
     move-result-object v0
 
@@ -557,7 +557,7 @@
 
     .line 129
     :sswitch_3b
-    invoke-static {p2, p1}, Lkik/android/e/dc;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/dc;
+    invoke-static {p2, p1}, Lkik/arcane/e/dc;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/dc;
 
     move-result-object v0
 
@@ -565,7 +565,7 @@
 
     .line 131
     :sswitch_3c
-    invoke-static {p2, p1}, Lkik/android/e/as;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/as;
+    invoke-static {p2, p1}, Lkik/arcane/e/as;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/as;
 
     move-result-object v0
 
@@ -573,7 +573,7 @@
 
     .line 133
     :sswitch_3d
-    invoke-static {p2, p1}, Lkik/android/e/dw;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/dw;
+    invoke-static {p2, p1}, Lkik/arcane/e/dw;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/dw;
 
     move-result-object v0
 
@@ -581,7 +581,7 @@
 
     .line 135
     :sswitch_3e
-    invoke-static {p2, p1}, Lkik/android/e/bi;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/bi;
+    invoke-static {p2, p1}, Lkik/arcane/e/bi;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/bi;
 
     move-result-object v0
 
@@ -589,7 +589,7 @@
 
     .line 137
     :sswitch_3f
-    invoke-static {p2, p1}, Lkik/android/e/cv;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/cv;
+    invoke-static {p2, p1}, Lkik/arcane/e/cv;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/cv;
 
     move-result-object v0
 
@@ -597,7 +597,7 @@
 
     .line 139
     :sswitch_40
-    invoke-static {p2, p1}, Lkik/android/e/g;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/g;
+    invoke-static {p2, p1}, Lkik/arcane/e/g;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/g;
 
     move-result-object v0
 
@@ -605,7 +605,7 @@
 
     .line 141
     :sswitch_41
-    invoke-static {p2, p1}, Lkik/android/e/aq;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/aq;
+    invoke-static {p2, p1}, Lkik/arcane/e/aq;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/aq;
 
     move-result-object v0
 
@@ -613,7 +613,7 @@
 
     .line 143
     :sswitch_42
-    invoke-static {p2, p1}, Lkik/android/e/ak;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/ak;
+    invoke-static {p2, p1}, Lkik/arcane/e/ak;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/ak;
 
     move-result-object v0
 
@@ -621,7 +621,7 @@
 
     .line 145
     :sswitch_43
-    invoke-static {p2, p1}, Lkik/android/e/bj;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/bj;
+    invoke-static {p2, p1}, Lkik/arcane/e/bj;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/bj;
 
     move-result-object v0
 
@@ -629,7 +629,7 @@
 
     .line 147
     :sswitch_44
-    invoke-static {p2, p1}, Lkik/android/e/bo;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/bo;
+    invoke-static {p2, p1}, Lkik/arcane/e/bo;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/bo;
 
     move-result-object v0
 
@@ -637,7 +637,7 @@
 
     .line 149
     :sswitch_45
-    invoke-static {p2, p1}, Lkik/android/e/ct;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/ct;
+    invoke-static {p2, p1}, Lkik/arcane/e/ct;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/ct;
 
     move-result-object v0
 
@@ -645,7 +645,7 @@
 
     .line 151
     :sswitch_46
-    invoke-static {p2, p1}, Lkik/android/e/cc;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/cc;
+    invoke-static {p2, p1}, Lkik/arcane/e/cc;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/cc;
 
     move-result-object v0
 
@@ -653,19 +653,19 @@
 
     .line 153
     :sswitch_47
-    new-instance v0, Lkik/android/e/bd;
+    new-instance v0, Lkik/arcane/e/bd;
 
     new-array v1, v1, [Landroid/view/View;
 
     aput-object p2, v1, v2
 
-    invoke-direct {v0, p1, v1}, Lkik/android/e/bd;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
+    invoke-direct {v0, p1, v1}, Lkik/arcane/e/bd;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
 
     goto/16 :goto_0
 
     .line 155
     :sswitch_48
-    invoke-static {p2, p1}, Lkik/android/e/aa;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/aa;
+    invoke-static {p2, p1}, Lkik/arcane/e/aa;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/aa;
 
     move-result-object v0
 
@@ -673,7 +673,7 @@
 
     .line 157
     :sswitch_49
-    invoke-static {p2, p1}, Lkik/android/e/dm;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/dm;
+    invoke-static {p2, p1}, Lkik/arcane/e/dm;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/dm;
 
     move-result-object v0
 
@@ -681,7 +681,7 @@
 
     .line 159
     :sswitch_4a
-    invoke-static {p2, p1}, Lkik/android/e/bv;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/bv;
+    invoke-static {p2, p1}, Lkik/arcane/e/bv;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/bv;
 
     move-result-object v0
 
@@ -689,7 +689,7 @@
 
     .line 161
     :sswitch_4b
-    invoke-static {p2, p1}, Lkik/android/e/ao;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/ao;
+    invoke-static {p2, p1}, Lkik/arcane/e/ao;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/ao;
 
     move-result-object v0
 
@@ -697,7 +697,7 @@
 
     .line 163
     :sswitch_4c
-    invoke-static {p2, p1}, Lkik/android/e/ea;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/ea;
+    invoke-static {p2, p1}, Lkik/arcane/e/ea;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/ea;
 
     move-result-object v0
 
@@ -705,19 +705,19 @@
 
     .line 165
     :sswitch_4d
-    new-instance v0, Lkik/android/e/dr;
+    new-instance v0, Lkik/arcane/e/dr;
 
     new-array v1, v1, [Landroid/view/View;
 
     aput-object p2, v1, v2
 
-    invoke-direct {v0, p1, v1}, Lkik/android/e/dr;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
+    invoke-direct {v0, p1, v1}, Lkik/arcane/e/dr;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
 
     goto/16 :goto_0
 
     .line 167
     :sswitch_4e
-    invoke-static {p2, p1}, Lkik/android/e/aj;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/aj;
+    invoke-static {p2, p1}, Lkik/arcane/e/aj;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/aj;
 
     move-result-object v0
 
@@ -725,7 +725,7 @@
 
     .line 169
     :sswitch_4f
-    invoke-static {p2, p1}, Lkik/android/e/c;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/c;
+    invoke-static {p2, p1}, Lkik/arcane/e/c;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/c;
 
     move-result-object v0
 
@@ -733,7 +733,7 @@
 
     .line 171
     :sswitch_50
-    invoke-static {p2, p1}, Lkik/android/e/cy;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/cy;
+    invoke-static {p2, p1}, Lkik/arcane/e/cy;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/cy;
 
     move-result-object v0
 
@@ -741,7 +741,7 @@
 
     .line 173
     :sswitch_51
-    invoke-static {p2, p1}, Lkik/android/e/ci;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/ci;
+    invoke-static {p2, p1}, Lkik/arcane/e/ci;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/ci;
 
     move-result-object v0
 
@@ -749,7 +749,7 @@
 
     .line 175
     :sswitch_52
-    invoke-static {p2, p1}, Lkik/android/e/cd;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/cd;
+    invoke-static {p2, p1}, Lkik/arcane/e/cd;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/cd;
 
     move-result-object v0
 
@@ -757,7 +757,7 @@
 
     .line 177
     :sswitch_53
-    invoke-static {p2, p1}, Lkik/android/e/cf;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/cf;
+    invoke-static {p2, p1}, Lkik/arcane/e/cf;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/cf;
 
     move-result-object v0
 
@@ -765,7 +765,7 @@
 
     .line 179
     :sswitch_54
-    invoke-static {p2, p1}, Lkik/android/e/bx;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/bx;
+    invoke-static {p2, p1}, Lkik/arcane/e/bx;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/bx;
 
     move-result-object v0
 
@@ -773,7 +773,7 @@
 
     .line 181
     :sswitch_55
-    invoke-static {p2, p1}, Lkik/android/e/ds;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/ds;
+    invoke-static {p2, p1}, Lkik/arcane/e/ds;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/ds;
 
     move-result-object v0
 
@@ -781,7 +781,7 @@
 
     .line 183
     :sswitch_56
-    invoke-static {p2, p1}, Lkik/android/e/ab;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/ab;
+    invoke-static {p2, p1}, Lkik/arcane/e/ab;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/ab;
 
     move-result-object v0
 
@@ -789,7 +789,7 @@
 
     .line 185
     :sswitch_57
-    invoke-static {p2, p1}, Lkik/android/e/am;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/am;
+    invoke-static {p2, p1}, Lkik/arcane/e/am;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/am;
 
     move-result-object v0
 
@@ -797,7 +797,7 @@
 
     .line 187
     :sswitch_58
-    invoke-static {p2, p1}, Lkik/android/e/bg;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/bg;
+    invoke-static {p2, p1}, Lkik/arcane/e/bg;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/bg;
 
     move-result-object v0
 
@@ -805,7 +805,7 @@
 
     .line 189
     :sswitch_59
-    invoke-static {p2, p1}, Lkik/android/e/u;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/u;
+    invoke-static {p2, p1}, Lkik/arcane/e/u;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/u;
 
     move-result-object v0
 
@@ -813,7 +813,7 @@
 
     .line 191
     :sswitch_5a
-    invoke-static {p2, p1}, Lkik/android/e/bs;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/bs;
+    invoke-static {p2, p1}, Lkik/arcane/e/bs;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/bs;
 
     move-result-object v0
 
@@ -821,7 +821,7 @@
 
     .line 193
     :sswitch_5b
-    invoke-static {p2, p1}, Lkik/android/e/av;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/av;
+    invoke-static {p2, p1}, Lkik/arcane/e/av;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/av;
 
     move-result-object v0
 
@@ -829,7 +829,7 @@
 
     .line 195
     :sswitch_5c
-    invoke-static {p2, p1}, Lkik/android/e/f;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/f;
+    invoke-static {p2, p1}, Lkik/arcane/e/f;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/f;
 
     move-result-object v0
 
@@ -837,7 +837,7 @@
 
     .line 197
     :sswitch_5d
-    invoke-static {p2, p1}, Lkik/android/e/cr;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/cr;
+    invoke-static {p2, p1}, Lkik/arcane/e/cr;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/cr;
 
     move-result-object v0
 
@@ -845,7 +845,7 @@
 
     .line 199
     :sswitch_5e
-    invoke-static {p2, p1}, Lkik/android/e/bm;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/bm;
+    invoke-static {p2, p1}, Lkik/arcane/e/bm;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/bm;
 
     move-result-object v0
 
@@ -853,7 +853,7 @@
 
     .line 201
     :sswitch_5f
-    invoke-static {p2, p1}, Lkik/android/e/bk;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/bk;
+    invoke-static {p2, p1}, Lkik/arcane/e/bk;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/bk;
 
     move-result-object v0
 
@@ -861,7 +861,7 @@
 
     .line 203
     :sswitch_60
-    invoke-static {p2, p1}, Lkik/android/e/co;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/co;
+    invoke-static {p2, p1}, Lkik/arcane/e/co;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/co;
 
     move-result-object v0
 
@@ -869,7 +869,7 @@
 
     .line 205
     :sswitch_61
-    invoke-static {p2, p1}, Lkik/android/e/e;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/e;
+    invoke-static {p2, p1}, Lkik/arcane/e/e;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/e;
 
     move-result-object v0
 
@@ -877,7 +877,7 @@
 
     .line 207
     :sswitch_62
-    invoke-static {p2, p1}, Lkik/android/e/aw;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/aw;
+    invoke-static {p2, p1}, Lkik/arcane/e/aw;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/aw;
 
     move-result-object v0
 
@@ -885,7 +885,7 @@
 
     .line 209
     :sswitch_63
-    invoke-static {p2, p1}, Lkik/android/e/b;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/b;
+    invoke-static {p2, p1}, Lkik/arcane/e/b;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/b;
 
     move-result-object v0
 
@@ -893,7 +893,7 @@
 
     .line 211
     :sswitch_64
-    invoke-static {p2, p1}, Lkik/android/e/ay;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/ay;
+    invoke-static {p2, p1}, Lkik/arcane/e/ay;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/ay;
 
     move-result-object v0
 
@@ -901,7 +901,7 @@
 
     .line 213
     :sswitch_65
-    invoke-static {p2, p1}, Lkik/android/e/dy;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/dy;
+    invoke-static {p2, p1}, Lkik/arcane/e/dy;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/dy;
 
     move-result-object v0
 
@@ -909,7 +909,7 @@
 
     .line 215
     :sswitch_66
-    invoke-static {p2, p1}, Lkik/android/e/bn;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/bn;
+    invoke-static {p2, p1}, Lkik/arcane/e/bn;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/bn;
 
     move-result-object v0
 
@@ -917,7 +917,7 @@
 
     .line 217
     :sswitch_67
-    invoke-static {p2, p1}, Lkik/android/e/bt;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/bt;
+    invoke-static {p2, p1}, Lkik/arcane/e/bt;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/bt;
 
     move-result-object v0
 
@@ -925,7 +925,7 @@
 
     .line 219
     :sswitch_68
-    invoke-static {p2, p1}, Lkik/android/e/k;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/k;
+    invoke-static {p2, p1}, Lkik/arcane/e/k;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/k;
 
     move-result-object v0
 
@@ -933,7 +933,7 @@
 
     .line 221
     :sswitch_69
-    invoke-static {p2, p1}, Lkik/android/e/dq;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/dq;
+    invoke-static {p2, p1}, Lkik/arcane/e/dq;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/dq;
 
     move-result-object v0
 
@@ -941,7 +941,7 @@
 
     .line 223
     :sswitch_6a
-    invoke-static {p2, p1}, Lkik/android/e/j;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/j;
+    invoke-static {p2, p1}, Lkik/arcane/e/j;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/j;
 
     move-result-object v0
 
@@ -949,7 +949,7 @@
 
     .line 225
     :sswitch_6b
-    invoke-static {p2, p1}, Lkik/android/e/ai;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/ai;
+    invoke-static {p2, p1}, Lkik/arcane/e/ai;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/ai;
 
     move-result-object v0
 
@@ -957,7 +957,7 @@
 
     .line 227
     :sswitch_6c
-    invoke-static {p2, p1}, Lkik/android/e/a;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/a;
+    invoke-static {p2, p1}, Lkik/arcane/e/a;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/a;
 
     move-result-object v0
 
@@ -965,7 +965,7 @@
 
     .line 229
     :sswitch_6d
-    invoke-static {p2, p1}, Lkik/android/e/dn;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/dn;
+    invoke-static {p2, p1}, Lkik/arcane/e/dn;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/dn;
 
     move-result-object v0
 
@@ -973,7 +973,7 @@
 
     .line 231
     :sswitch_6e
-    invoke-static {p2, p1}, Lkik/android/e/r;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/r;
+    invoke-static {p2, p1}, Lkik/arcane/e/r;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/r;
 
     move-result-object v0
 
@@ -981,7 +981,7 @@
 
     .line 233
     :sswitch_6f
-    invoke-static {p2, p1}, Lkik/android/e/af;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/af;
+    invoke-static {p2, p1}, Lkik/arcane/e/af;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/af;
 
     move-result-object v0
 
@@ -989,7 +989,7 @@
 
     .line 235
     :sswitch_70
-    invoke-static {p2, p1}, Lkik/android/e/ap;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/ap;
+    invoke-static {p2, p1}, Lkik/arcane/e/ap;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/ap;
 
     move-result-object v0
 
@@ -997,7 +997,7 @@
 
     .line 237
     :sswitch_71
-    invoke-static {p2, p1}, Lkik/android/e/cx;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/cx;
+    invoke-static {p2, p1}, Lkik/arcane/e/cx;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/cx;
 
     move-result-object v0
 
@@ -1005,7 +1005,7 @@
 
     .line 239
     :sswitch_72
-    invoke-static {p2, p1}, Lkik/android/e/df;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/df;
+    invoke-static {p2, p1}, Lkik/arcane/e/df;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/df;
 
     move-result-object v0
 
@@ -1013,7 +1013,7 @@
 
     .line 241
     :sswitch_73
-    invoke-static {p2, p1}, Lkik/android/e/x;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/x;
+    invoke-static {p2, p1}, Lkik/arcane/e/x;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/x;
 
     move-result-object v0
 
@@ -1021,7 +1021,7 @@
 
     .line 243
     :sswitch_74
-    invoke-static {p2, p1}, Lkik/android/e/cm;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/cm;
+    invoke-static {p2, p1}, Lkik/arcane/e/cm;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/cm;
 
     move-result-object v0
 
@@ -1029,7 +1029,7 @@
 
     .line 245
     :sswitch_75
-    invoke-static {p2, p1}, Lkik/android/e/bu;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/bu;
+    invoke-static {p2, p1}, Lkik/arcane/e/bu;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/bu;
 
     move-result-object v0
 
@@ -1037,7 +1037,7 @@
 
     .line 247
     :sswitch_76
-    invoke-static {p2, p1}, Lkik/android/e/cq;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/cq;
+    invoke-static {p2, p1}, Lkik/arcane/e/cq;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/cq;
 
     move-result-object v0
 
@@ -1045,7 +1045,7 @@
 
     .line 249
     :sswitch_77
-    invoke-static {p2, p1}, Lkik/android/e/o;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/o;
+    invoke-static {p2, p1}, Lkik/arcane/e/o;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/o;
 
     move-result-object v0
 
@@ -1053,7 +1053,7 @@
 
     .line 251
     :sswitch_78
-    invoke-static {p2, p1}, Lkik/android/e/l;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/l;
+    invoke-static {p2, p1}, Lkik/arcane/e/l;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/l;
 
     move-result-object v0
 
@@ -1061,7 +1061,7 @@
 
     .line 253
     :sswitch_79
-    invoke-static {p2, p1}, Lkik/android/e/dk;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/dk;
+    invoke-static {p2, p1}, Lkik/arcane/e/dk;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/dk;
 
     move-result-object v0
 
@@ -1069,7 +1069,7 @@
 
     .line 255
     :sswitch_7a
-    invoke-static {p2, p1}, Lkik/android/e/ck;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/ck;
+    invoke-static {p2, p1}, Lkik/arcane/e/ck;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/ck;
 
     move-result-object v0
 
@@ -1077,7 +1077,7 @@
 
     .line 257
     :sswitch_7b
-    invoke-static {p2, p1}, Lkik/android/e/bf;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/bf;
+    invoke-static {p2, p1}, Lkik/arcane/e/bf;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/bf;
 
     move-result-object v0
 
@@ -1085,7 +1085,7 @@
 
     .line 259
     :sswitch_7c
-    invoke-static {p2, p1}, Lkik/android/e/de;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/de;
+    invoke-static {p2, p1}, Lkik/arcane/e/de;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/de;
 
     move-result-object v0
 
@@ -1093,7 +1093,7 @@
 
     .line 261
     :sswitch_7d
-    invoke-static {p2, p1}, Lkik/android/e/dh;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/dh;
+    invoke-static {p2, p1}, Lkik/arcane/e/dh;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/dh;
 
     move-result-object v0
 
@@ -1101,7 +1101,7 @@
 
     .line 263
     :sswitch_7e
-    invoke-static {p2, p1}, Lkik/android/e/cn;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/cn;
+    invoke-static {p2, p1}, Lkik/arcane/e/cn;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/cn;
 
     move-result-object v0
 
@@ -1109,19 +1109,19 @@
 
     .line 265
     :sswitch_7f
-    new-instance v0, Lkik/android/e/bb;
+    new-instance v0, Lkik/arcane/e/bb;
 
     new-array v1, v1, [Landroid/view/View;
 
     aput-object p2, v1, v2
 
-    invoke-direct {v0, p1, v1}, Lkik/android/e/bb;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
+    invoke-direct {v0, p1, v1}, Lkik/arcane/e/bb;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
 
     goto/16 :goto_0
 
     .line 267
     :sswitch_80
-    invoke-static {p2, p1}, Lkik/android/e/d;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/d;
+    invoke-static {p2, p1}, Lkik/arcane/e/d;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/d;
 
     move-result-object v0
 
@@ -1129,7 +1129,7 @@
 
     .line 269
     :sswitch_81
-    invoke-static {p2, p1}, Lkik/android/e/ad;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/ad;
+    invoke-static {p2, p1}, Lkik/arcane/e/ad;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/ad;
 
     move-result-object v0
 
@@ -1137,19 +1137,19 @@
 
     .line 271
     :sswitch_82
-    new-instance v0, Lkik/android/e/bc;
+    new-instance v0, Lkik/arcane/e/bc;
 
     new-array v1, v1, [Landroid/view/View;
 
     aput-object p2, v1, v2
 
-    invoke-direct {v0, p1, v1}, Lkik/android/e/bc;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
+    invoke-direct {v0, p1, v1}, Lkik/arcane/e/bc;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
 
     goto/16 :goto_0
 
     .line 273
     :sswitch_83
-    invoke-static {p2, p1}, Lkik/android/e/y;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/y;
+    invoke-static {p2, p1}, Lkik/arcane/e/y;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/y;
 
     move-result-object v0
 
@@ -1157,7 +1157,7 @@
 
     .line 275
     :sswitch_84
-    invoke-static {p2, p1}, Lkik/android/e/i;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/i;
+    invoke-static {p2, p1}, Lkik/arcane/e/i;->a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/i;
 
     move-result-object v0
 
@@ -1317,49 +1317,49 @@
 
     .line 282
     :sswitch_0
-    new-instance v0, Lkik/android/e/h;
+    new-instance v0, Lkik/arcane/e/h;
 
-    invoke-direct {v0, p1, p2}, Lkik/android/e/h;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
+    invoke-direct {v0, p1, p2}, Lkik/arcane/e/h;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
 
     goto :goto_0
 
     .line 285
     :sswitch_1
-    new-instance v0, Lkik/android/e/m;
+    new-instance v0, Lkik/arcane/e/m;
 
-    invoke-direct {v0, p1, p2}, Lkik/android/e/m;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
+    invoke-direct {v0, p1, p2}, Lkik/arcane/e/m;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
 
     goto :goto_0
 
     .line 288
     :sswitch_2
-    new-instance v0, Lkik/android/e/bd;
+    new-instance v0, Lkik/arcane/e/bd;
 
-    invoke-direct {v0, p1, p2}, Lkik/android/e/bd;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
+    invoke-direct {v0, p1, p2}, Lkik/arcane/e/bd;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
 
     goto :goto_0
 
     .line 291
     :sswitch_3
-    new-instance v0, Lkik/android/e/dr;
+    new-instance v0, Lkik/arcane/e/dr;
 
-    invoke-direct {v0, p1, p2}, Lkik/android/e/dr;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
+    invoke-direct {v0, p1, p2}, Lkik/arcane/e/dr;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
 
     goto :goto_0
 
     .line 294
     :sswitch_4
-    new-instance v0, Lkik/android/e/bb;
+    new-instance v0, Lkik/arcane/e/bb;
 
-    invoke-direct {v0, p1, p2}, Lkik/android/e/bb;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
+    invoke-direct {v0, p1, p2}, Lkik/arcane/e/bb;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
 
     goto :goto_0
 
     .line 297
     :sswitch_5
-    new-instance v0, Lkik/android/e/bc;
+    new-instance v0, Lkik/arcane/e/bc;
 
-    invoke-direct {v0, p1, p2}, Lkik/android/e/bc;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
+    invoke-direct {v0, p1, p2}, Lkik/arcane/e/bc;-><init>(Landroid/databinding/DataBindingComponent;[Landroid/view/View;)V
 
     goto :goto_0
 

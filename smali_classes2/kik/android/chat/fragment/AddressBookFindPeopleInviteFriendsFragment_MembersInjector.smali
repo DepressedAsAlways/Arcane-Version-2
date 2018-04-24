@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;
+.class public final Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/b",
         "<",
-        "Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;",
+        "Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;",
         ">;"
     }
 .end annotation
@@ -83,7 +83,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -94,7 +94,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/presentation/a;",
+            "Lkik/arcane/chat/presentation/a;",
             ">;"
         }
     .end annotation
@@ -105,7 +105,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/presentation/c;",
+            "Lkik/arcane/chat/presentation/c;",
             ">;"
         }
     .end annotation
@@ -116,7 +116,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/presentation/ac;",
+            "Lkik/arcane/chat/presentation/ac;",
             ">;"
         }
     .end annotation
@@ -162,7 +162,7 @@
 
     .prologue
     .line 20
-    const-class v0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;
+    const-class v0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;
 
     invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
 
@@ -173,7 +173,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    sput-boolean v0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
+    sput-boolean v0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
 
     return-void
 
@@ -210,19 +210,19 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/presentation/a;",
+            "Lkik/arcane/chat/presentation/a;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/presentation/c;",
+            "Lkik/arcane/chat/presentation/c;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/presentation/ac;",
+            "Lkik/arcane/chat/presentation/ac;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -244,7 +244,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 63
-    sget-boolean v0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_0
 
@@ -258,10 +258,10 @@
 
     .line 64
     :cond_0
-    iput-object p1, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->b:Ljavax/inject/Provider;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->b:Ljavax/inject/Provider;
 
     .line 65
-    sget-boolean v0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_1
 
@@ -275,10 +275,10 @@
 
     .line 66
     :cond_1
-    iput-object p2, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->c:Ljavax/inject/Provider;
+    iput-object p2, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->c:Ljavax/inject/Provider;
 
     .line 67
-    sget-boolean v0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_2
 
@@ -292,10 +292,10 @@
 
     .line 68
     :cond_2
-    iput-object p3, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->d:Ljavax/inject/Provider;
+    iput-object p3, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->d:Ljavax/inject/Provider;
 
     .line 69
-    sget-boolean v0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_3
 
@@ -309,10 +309,10 @@
 
     .line 70
     :cond_3
-    iput-object p4, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->e:Ljavax/inject/Provider;
+    iput-object p4, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->e:Ljavax/inject/Provider;
 
     .line 71
-    sget-boolean v0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_4
 
@@ -326,10 +326,10 @@
 
     .line 72
     :cond_4
-    iput-object p5, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->f:Ljavax/inject/Provider;
+    iput-object p5, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->f:Ljavax/inject/Provider;
 
     .line 73
-    sget-boolean v0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_5
 
@@ -343,10 +343,10 @@
 
     .line 74
     :cond_5
-    iput-object p6, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->g:Ljavax/inject/Provider;
+    iput-object p6, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->g:Ljavax/inject/Provider;
 
     .line 75
-    sget-boolean v0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_6
 
@@ -360,10 +360,10 @@
 
     .line 76
     :cond_6
-    iput-object p7, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->h:Ljavax/inject/Provider;
+    iput-object p7, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->h:Ljavax/inject/Provider;
 
     .line 77
-    sget-boolean v0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_7
 
@@ -377,10 +377,10 @@
 
     .line 78
     :cond_7
-    iput-object p8, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->i:Ljavax/inject/Provider;
+    iput-object p8, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->i:Ljavax/inject/Provider;
 
     .line 79
-    sget-boolean v0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_8
 
@@ -394,10 +394,10 @@
 
     .line 80
     :cond_8
-    iput-object p9, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->j:Ljavax/inject/Provider;
+    iput-object p9, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->j:Ljavax/inject/Provider;
 
     .line 81
-    sget-boolean v0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_9
 
@@ -411,10 +411,10 @@
 
     .line 82
     :cond_9
-    iput-object p10, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->k:Ljavax/inject/Provider;
+    iput-object p10, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->k:Ljavax/inject/Provider;
 
     .line 83
-    sget-boolean v0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_a
 
@@ -428,10 +428,10 @@
 
     .line 84
     :cond_a
-    iput-object p11, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->l:Ljavax/inject/Provider;
+    iput-object p11, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->l:Ljavax/inject/Provider;
 
     .line 85
-    sget-boolean v0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_b
 
@@ -445,7 +445,7 @@
 
     .line 86
     :cond_b
-    iput-object p12, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->m:Ljavax/inject/Provider;
+    iput-object p12, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->m:Ljavax/inject/Provider;
 
     .line 87
     return-void
@@ -478,19 +478,19 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/presentation/a;",
+            "Lkik/arcane/chat/presentation/a;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/presentation/c;",
+            "Lkik/arcane/chat/presentation/c;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/presentation/ac;",
+            "Lkik/arcane/chat/presentation/ac;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -506,14 +506,14 @@
             ">;)",
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;",
+            "Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 102
-    new-instance v0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;
+    new-instance v0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;
 
     move-object v1, p0
 
@@ -539,7 +539,7 @@
 
     move-object/from16 v12, p11
 
-    invoke-direct/range {v0 .. v12}, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
+    invoke-direct/range {v0 .. v12}, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
 
     return-object v0
 .end method
@@ -551,7 +551,7 @@
 
     .prologue
     .line 20
-    check-cast p1, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
+    check-cast p1, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
 
     .line 1119
     if-nez p1, :cond_0
@@ -567,7 +567,7 @@
 
     .line 1122
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->b:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->b:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -575,10 +575,10 @@
 
     check-cast v0, Lkik/core/interfaces/ad;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikScopedDialogFragment;->_storage:Lkik/core/interfaces/ad;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->_storage:Lkik/core/interfaces/ad;
 
     .line 1123
-    iget-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->c:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->c:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -586,10 +586,10 @@
 
     check-cast v0, Lcom/kik/metrics/c/d;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikScopedDialogFragment;->_metricsService:Lcom/kik/metrics/c/d;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->_metricsService:Lcom/kik/metrics/c/d;
 
     .line 1124
-    iget-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->d:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->d:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -597,10 +597,10 @@
 
     check-cast v0, Lkik/core/interfaces/ICommunication;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikIqFragmentBase;->_comm:Lkik/core/interfaces/ICommunication;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikIqFragmentBase;->_comm:Lkik/core/interfaces/ICommunication;
 
     .line 1125
-    iget-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->e:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->e:Ljavax/inject/Provider;
 
     .line 1126
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
@@ -609,10 +609,10 @@
 
     check-cast v0, Lkik/core/interfaces/IAddressBookIntegration;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/AddressbookFragmentBase;->j:Lkik/core/interfaces/IAddressBookIntegration;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/AddressbookFragmentBase;->j:Lkik/core/interfaces/IAddressBookIntegration;
 
     .line 1127
-    iget-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->f:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->f:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -620,21 +620,21 @@
 
     check-cast v0, Lkik/core/interfaces/b;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/AddressbookFragmentBase;->k:Lkik/core/interfaces/b;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/AddressbookFragmentBase;->k:Lkik/core/interfaces/b;
 
     .line 1128
-    iget-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->g:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->g:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/Mixpanel;
+    check-cast v0, Lcom/kik/arcane/Mixpanel;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/AddressbookFragmentBase;->l:Lcom/kik/android/Mixpanel;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/AddressbookFragmentBase;->l:Lcom/kik/arcane/Mixpanel;
 
     .line 1129
-    iget-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->e:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->e:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -642,78 +642,78 @@
 
     check-cast v0, Lkik/core/interfaces/IAddressBookIntegration;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->a:Lkik/core/interfaces/IAddressBookIntegration;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->a:Lkik/core/interfaces/IAddressBookIntegration;
 
     .line 1130
-    iget-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->g:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->g:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/Mixpanel;
+    check-cast v0, Lcom/kik/arcane/Mixpanel;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->b:Lcom/kik/android/Mixpanel;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->b:Lcom/kik/arcane/Mixpanel;
 
     .line 1131
-    iget-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->h:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->h:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/presentation/a;
+    check-cast v0, Lkik/arcane/chat/presentation/a;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->c:Lkik/android/chat/presentation/a;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->c:Lkik/arcane/chat/presentation/a;
 
     .line 1132
-    iget-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->i:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->i:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/presentation/c;
+    check-cast v0, Lkik/arcane/chat/presentation/c;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->d:Lkik/android/chat/presentation/c;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->d:Lkik/arcane/chat/presentation/c;
 
     .line 1133
-    iget-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->j:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->j:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/presentation/ac;
+    check-cast v0, Lkik/arcane/chat/presentation/ac;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->e:Lkik/android/chat/presentation/ac;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->e:Lkik/arcane/chat/presentation/ac;
 
     .line 1134
-    iget-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->k:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->k:Ljavax/inject/Provider;
 
     invoke-static {v0}, Ldagger/internal/a;->b(Ljavax/inject/Provider;)Ldagger/a;
 
     move-result-object v0
 
-    iput-object v0, p1, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->f:Ldagger/a;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->f:Ldagger/a;
 
     .line 1135
-    iget-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->l:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->l:Ljavax/inject/Provider;
 
     invoke-static {v0}, Ldagger/internal/a;->b(Ljavax/inject/Provider;)Ldagger/a;
 
     move-result-object v0
 
-    iput-object v0, p1, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->g:Ldagger/a;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->g:Ldagger/a;
 
     .line 1136
-    iget-object v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->m:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment_MembersInjector;->m:Ljavax/inject/Provider;
 
     invoke-static {v0}, Ldagger/internal/a;->b(Ljavax/inject/Provider;)Ldagger/a;
 
     move-result-object v0
 
-    iput-object v0, p1, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->h:Ldagger/a;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;->h:Ldagger/a;
 
     .line 20
     return-void

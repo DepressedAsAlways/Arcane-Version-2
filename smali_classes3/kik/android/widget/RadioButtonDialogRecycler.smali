@@ -1,25 +1,25 @@
-.class public Lkik/android/widget/RadioButtonDialogRecycler;
+.class public Lkik/arcane/widget/RadioButtonDialogRecycler;
 .super Landroid/support/v7/widget/RecyclerView;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/widget/dn$a;
+.implements Lkik/arcane/widget/dn$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/RadioButtonDialogRecycler$a;
+        Lkik/arcane/widget/RadioButtonDialogRecycler$a;
     }
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Landroid/support/v7/widget/RecyclerView;",
-        "Lkik/android/widget/dn$a",
+        "Lkik/arcane/widget/dn$a",
         "<",
-        "Lkik/android/chat/vm/al;",
-        "Lkik/android/widget/RadioButtonDialogRecycler$a;",
+        "Lkik/arcane/chat/vm/al;",
+        "Lkik/arcane/widget/RadioButtonDialogRecycler$a;",
         ">;"
     }
 .end annotation
@@ -86,9 +86,9 @@
     move-result-object v0
 
     .line 1070
-    new-instance v1, Lkik/android/widget/RadioButtonDialogRecycler$a;
+    new-instance v1, Lkik/arcane/widget/RadioButtonDialogRecycler$a;
 
-    invoke-direct {v1, v0}, Lkik/android/widget/RadioButtonDialogRecycler$a;-><init>(Landroid/databinding/ViewDataBinding;)V
+    invoke-direct {v1, v0}, Lkik/arcane/widget/RadioButtonDialogRecycler$a;-><init>(Landroid/databinding/ViewDataBinding;)V
 
     .line 21
     return-object v1

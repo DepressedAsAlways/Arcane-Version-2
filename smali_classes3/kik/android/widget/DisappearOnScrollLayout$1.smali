@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/DisappearOnScrollLayout$1;
+.class final Lkik/arcane/widget/DisappearOnScrollLayout$1;
 .super Landroid/support/v7/widget/RecyclerView$OnScrollListener;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/DisappearOnScrollLayout;
+    value = Lkik/arcane/widget/DisappearOnScrollLayout;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/DisappearOnScrollLayout;
+.field final synthetic a:Lkik/arcane/widget/DisappearOnScrollLayout;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/DisappearOnScrollLayout;)V
+.method constructor <init>(Lkik/arcane/widget/DisappearOnScrollLayout;)V
     .locals 0
 
     .prologue
     .line 26
-    iput-object p1, p0, Lkik/android/widget/DisappearOnScrollLayout$1;->a:Lkik/android/widget/DisappearOnScrollLayout;
+    iput-object p1, p0, Lkik/arcane/widget/DisappearOnScrollLayout$1;->a:Lkik/arcane/widget/DisappearOnScrollLayout;
 
     invoke-direct {p0}, Landroid/support/v7/widget/RecyclerView$OnScrollListener;-><init>()V
 
@@ -60,9 +60,9 @@
     sub-int/2addr v1, v2
 
     .line 37
-    iget-object v2, p0, Lkik/android/widget/DisappearOnScrollLayout$1;->a:Lkik/android/widget/DisappearOnScrollLayout;
+    iget-object v2, p0, Lkik/arcane/widget/DisappearOnScrollLayout$1;->a:Lkik/arcane/widget/DisappearOnScrollLayout;
 
-    invoke-virtual {v2, v0, v1}, Lkik/android/widget/DisappearOnScrollLayout;->a(II)V
+    invoke-virtual {v2, v0, v1}, Lkik/arcane/widget/DisappearOnScrollLayout;->a(II)V
 
     .line 38
     return-void

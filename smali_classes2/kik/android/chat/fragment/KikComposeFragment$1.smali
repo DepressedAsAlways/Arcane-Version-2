@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/KikComposeFragment$1;
+.class final Lkik/arcane/chat/fragment/KikComposeFragment$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/KikComposeFragment;->onResume()V
+    value = Lkik/arcane/chat/fragment/KikComposeFragment;->onResume()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikComposeFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikComposeFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikComposeFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikComposeFragment;)V
     .locals 0
 
     .prologue
     .line 132
-    iput-object p1, p0, Lkik/android/chat/fragment/KikComposeFragment$1;->a:Lkik/android/chat/fragment/KikComposeFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikComposeFragment$1;->a:Lkik/arcane/chat/fragment/KikComposeFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,9 +41,9 @@
 
     .prologue
     .line 136
-    iget-object v0, p0, Lkik/android/chat/fragment/KikComposeFragment$1;->a:Lkik/android/chat/fragment/KikComposeFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikComposeFragment$1;->a:Lkik/arcane/chat/fragment/KikComposeFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikComposeFragment;->G()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikComposeFragment;->G()V
 
     .line 137
     return-void

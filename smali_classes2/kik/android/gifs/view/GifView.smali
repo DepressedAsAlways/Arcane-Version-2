@@ -1,5 +1,5 @@
-.class public Lkik/android/gifs/view/GifView;
-.super Lkik/android/widget/ClampedContentPreviewView;
+.class public Lkik/arcane/gifs/view/GifView;
+.super Lkik/arcane/widget/ClampedContentPreviewView;
 .source "SourceFile"
 
 
@@ -11,7 +11,7 @@
     .line 42
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/gifs/view/GifView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/gifs/view/GifView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 43
     return-void
@@ -22,7 +22,7 @@
 
     .prologue
     .line 47
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/ClampedContentPreviewView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/ClampedContentPreviewView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 48
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -35,13 +35,13 @@
 
     move-result v0
 
-    invoke-virtual {p0, v0}, Lkik/android/gifs/view/GifView;->setBackgroundColor(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/gifs/view/GifView;->setBackgroundColor(I)V
 
     .line 49
     return-void
 .end method
 
-.method public static a(Lkik/android/gifs/view/GifView;Landroid/graphics/drawable/Drawable;)V
+.method public static a(Lkik/arcane/gifs/view/GifView;Landroid/graphics/drawable/Drawable;)V
     .locals 0
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -51,13 +51,13 @@
 
     .prologue
     .line 37
-    invoke-virtual {p0, p1}, Lkik/android/gifs/view/GifView;->a(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p0, p1}, Lkik/arcane/gifs/view/GifView;->a(Landroid/graphics/drawable/Drawable;)V
 
     .line 38
     return-void
 .end method
 
-.method public static a(Lkik/android/gifs/view/GifView;Lrx/d;)V
+.method public static a(Lkik/arcane/gifs/view/GifView;Lrx/d;)V
     .locals 3
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -68,10 +68,10 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/gifs/view/GifView;",
+            "Lkik/arcane/gifs/view/GifView;",
             "Lrx/d",
             "<",
-            "Lkik/android/gifs/view/c;",
+            "Lkik/arcane/gifs/view/c;",
             ">;)V"
         }
     .end annotation
@@ -82,7 +82,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/gifs/view/g;->a(Lkik/android/gifs/view/GifView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/gifs/view/g;->a(Lkik/arcane/gifs/view/GifView;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -96,14 +96,14 @@
 
 
 # virtual methods
-.method protected final a(Landroid/graphics/Bitmap;Ljava/lang/String;)Lkik/android/widget/bb;
+.method protected final a(Landroid/graphics/Bitmap;Ljava/lang/String;)Lkik/arcane/widget/bb;
     .locals 1
 
     .prologue
     .line 67
-    new-instance v0, Lkik/android/widget/cr;
+    new-instance v0, Lkik/arcane/widget/cr;
 
-    invoke-direct {v0, p1, p2}, Lkik/android/widget/cr;-><init>(Landroid/graphics/Bitmap;Ljava/lang/String;)V
+    invoke-direct {v0, p1, p2}, Lkik/arcane/widget/cr;-><init>(Landroid/graphics/Bitmap;Ljava/lang/String;)V
 
     return-object v0
 .end method

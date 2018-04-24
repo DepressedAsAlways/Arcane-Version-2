@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/fragment/ScanCodeTabFragment$a;
+.class public final Lkik/arcane/chat/fragment/ScanCodeTabFragment$a;
 .super Lcom/kik/ui/fragment/FragmentBase$FragmentBundle;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/ScanCodeTabFragment;
+    value = Lkik/arcane/chat/fragment/ScanCodeTabFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -37,34 +37,34 @@
     .line 581
     const-string v0, "kik.tab.code.first"
 
-    iput-object v0, p0, Lkik/android/chat/fragment/ScanCodeTabFragment$a;->a:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$a;->a:Ljava/lang/String;
 
     .line 582
     const-string v0, "kik.tab.group.jid"
 
-    iput-object v0, p0, Lkik/android/chat/fragment/ScanCodeTabFragment$a;->b:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$a;->b:Ljava/lang/String;
 
     .line 583
     const-string v0, "kik.tab.group.set"
 
-    iput-object v0, p0, Lkik/android/chat/fragment/ScanCodeTabFragment$a;->c:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$a;->c:Ljava/lang/String;
 
     .line 584
     const-string v0, "kik.tab.opened.from"
 
-    iput-object v0, p0, Lkik/android/chat/fragment/ScanCodeTabFragment$a;->d:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$a;->d:Ljava/lang/String;
 
     .line 585
     const-string v0, "kik.tab.hidden.on.fragment.install"
 
-    iput-object v0, p0, Lkik/android/chat/fragment/ScanCodeTabFragment$a;->e:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/ScanCodeTabFragment$a;->e:Ljava/lang/String;
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final a(Ljava/lang/String;)Lkik/android/chat/fragment/ScanCodeTabFragment$a;
+.method public final a(Ljava/lang/String;)Lkik/arcane/chat/fragment/ScanCodeTabFragment$a;
     .locals 2
 
     .prologue
@@ -74,21 +74,21 @@
     .line 609
     const-string v0, "kik.tab.group.jid"
 
-    invoke-virtual {p0, v0, p1}, Lkik/android/chat/fragment/ScanCodeTabFragment$a;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, p1}, Lkik/arcane/chat/fragment/ScanCodeTabFragment$a;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 610
     const-string v0, "kik.tab.group.set"
 
     const/4 v1, 0x1
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/chat/fragment/ScanCodeTabFragment$a;->b(Ljava/lang/String;Z)V
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/chat/fragment/ScanCodeTabFragment$a;->b(Ljava/lang/String;Z)V
 
     .line 612
     :cond_0
     return-object p0
 .end method
 
-.method public final a(Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;)Lkik/android/chat/fragment/ScanCodeTabFragment$a;
+.method public final a(Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;)Lkik/arcane/chat/fragment/ScanCodeTabFragment$a;
     .locals 2
 
     .prologue
@@ -98,18 +98,18 @@
     .line 618
     const-string v0, "kik.tab.opened.from"
 
-    invoke-virtual {p1}, Lkik/android/chat/fragment/ScanCodeTabFragment$OpenTypes;->getName()Ljava/lang/String;
+    invoke-virtual {p1}, Lkik/arcane/chat/fragment/ScanCodeTabFragment$OpenTypes;->getName()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/chat/fragment/ScanCodeTabFragment$a;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/chat/fragment/ScanCodeTabFragment$a;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 620
     :cond_0
     return-object p0
 .end method
 
-.method public final b()Lkik/android/chat/fragment/ScanCodeTabFragment$a;
+.method public final b()Lkik/arcane/chat/fragment/ScanCodeTabFragment$a;
     .locals 2
 
     .prologue
@@ -118,7 +118,7 @@
 
     const/4 v1, 0x1
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/chat/fragment/ScanCodeTabFragment$a;->b(Ljava/lang/String;Z)V
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/chat/fragment/ScanCodeTabFragment$a;->b(Ljava/lang/String;Z)V
 
     .line 590
     return-object p0
@@ -133,7 +133,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/chat/fragment/ScanCodeTabFragment$a;->c(Ljava/lang/String;Z)Ljava/lang/Boolean;
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/chat/fragment/ScanCodeTabFragment$a;->c(Ljava/lang/String;Z)Ljava/lang/Boolean;
 
     move-result-object v0
 
@@ -151,7 +151,7 @@
     .line 625
     const-string v0, "kik.tab.opened.from"
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/ScanCodeTabFragment$a;->h(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/ScanCodeTabFragment$a;->h(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -165,7 +165,7 @@
     .line 630
     const-string v0, "kik.tab.group.jid"
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/ScanCodeTabFragment$a;->h(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/ScanCodeTabFragment$a;->h(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -179,7 +179,7 @@
     .line 635
     const-string v0, "kik.tab.group.set"
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/ScanCodeTabFragment$a;->g(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/ScanCodeTabFragment$a;->g(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v0
 
@@ -199,7 +199,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/chat/fragment/ScanCodeTabFragment$a;->c(Ljava/lang/String;Z)Ljava/lang/Boolean;
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/chat/fragment/ScanCodeTabFragment$a;->c(Ljava/lang/String;Z)Ljava/lang/Boolean;
 
     move-result-object v0
 

@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/widget/GifTrayPage$1;
+.class final synthetic Lkik/arcane/widget/GifTrayPage$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/GifTrayPage;
+    value = Lkik/arcane/widget/GifTrayPage;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     .prologue
     .line 34
-    invoke-static {}, Lkik/android/widget/GifTrayPage;->values()[Lkik/android/widget/GifTrayPage;
+    invoke-static {}, Lkik/arcane/widget/GifTrayPage;->values()[Lkik/arcane/widget/GifTrayPage;
 
     move-result-object v0
 
@@ -32,14 +32,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/widget/GifTrayPage$1;->a:[I
+    sput-object v0, Lkik/arcane/widget/GifTrayPage$1;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/widget/GifTrayPage$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/GifTrayPage$1;->a:[I
 
-    sget-object v1, Lkik/android/widget/GifTrayPage;->FEATURED:Lkik/android/widget/GifTrayPage;
+    sget-object v1, Lkik/arcane/widget/GifTrayPage;->FEATURED:Lkik/arcane/widget/GifTrayPage;
 
-    invoke-virtual {v1}, Lkik/android/widget/GifTrayPage;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/widget/GifTrayPage;->ordinal()I
 
     move-result v1
 
@@ -51,11 +51,11 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/widget/GifTrayPage$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/GifTrayPage$1;->a:[I
 
-    sget-object v1, Lkik/android/widget/GifTrayPage;->EMOJI:Lkik/android/widget/GifTrayPage;
+    sget-object v1, Lkik/arcane/widget/GifTrayPage;->EMOJI:Lkik/arcane/widget/GifTrayPage;
 
-    invoke-virtual {v1}, Lkik/android/widget/GifTrayPage;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/widget/GifTrayPage;->ordinal()I
 
     move-result v1
 
@@ -67,11 +67,11 @@
 
     :goto_1
     :try_start_2
-    sget-object v0, Lkik/android/widget/GifTrayPage$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/GifTrayPage$1;->a:[I
 
-    sget-object v1, Lkik/android/widget/GifTrayPage;->TRENDING:Lkik/android/widget/GifTrayPage;
+    sget-object v1, Lkik/arcane/widget/GifTrayPage;->TRENDING:Lkik/arcane/widget/GifTrayPage;
 
-    invoke-virtual {v1}, Lkik/android/widget/GifTrayPage;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/widget/GifTrayPage;->ordinal()I
 
     move-result v1
 
@@ -83,11 +83,11 @@
 
     :goto_2
     :try_start_3
-    sget-object v0, Lkik/android/widget/GifTrayPage$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/GifTrayPage$1;->a:[I
 
-    sget-object v1, Lkik/android/widget/GifTrayPage;->FAVOURITES:Lkik/android/widget/GifTrayPage;
+    sget-object v1, Lkik/arcane/widget/GifTrayPage;->FAVOURITES:Lkik/arcane/widget/GifTrayPage;
 
-    invoke-virtual {v1}, Lkik/android/widget/GifTrayPage;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/widget/GifTrayPage;->ordinal()I
 
     move-result v1
 

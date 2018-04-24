@@ -21,7 +21,7 @@
         "Ljava/lang/Object;",
         "Lcom/google/common/base/Predicate",
         "<",
-        "Lkik/android/challenge/CountryCode;",
+        "Lkik/arcane/challenge/CountryCode;",
         ">;"
     }
 .end annotation
@@ -55,10 +55,10 @@
 
     .prologue
     .line 132
-    check-cast p1, Lkik/android/challenge/CountryCode;
+    check-cast p1, Lkik/arcane/challenge/CountryCode;
 
     .line 1136
-    iget-object v0, p1, Lkik/android/challenge/CountryCode;->e:Ljava/lang/String;
+    iget-object v0, p1, Lkik/arcane/challenge/CountryCode;->e:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/kik/view/adapters/CountryCodeRecyclerAdapter$1;->a:Ljava/lang/String;
 

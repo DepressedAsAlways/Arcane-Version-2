@@ -1,4 +1,4 @@
-.class public final Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;
+.class public final Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/b",
         "<",
-        "Lkik/android/widget/preferences/ResetKikPreference;",
+        "Lkik/arcane/widget/preferences/ResetKikPreference;",
         ">;"
     }
 .end annotation
@@ -72,7 +72,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -118,7 +118,7 @@
 
     .prologue
     .line 15
-    const-class v0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;
+    const-class v0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;
 
     invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
 
@@ -129,7 +129,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    sput-boolean v0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->a:Z
+    sput-boolean v0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->a:Z
 
     return-void
 
@@ -162,7 +162,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -184,7 +184,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 46
-    sget-boolean v0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->a:Z
 
     if-nez v0, :cond_0
 
@@ -198,10 +198,10 @@
 
     .line 47
     :cond_0
-    iput-object p1, p0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->b:Ljavax/inject/Provider;
+    iput-object p1, p0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->b:Ljavax/inject/Provider;
 
     .line 48
-    sget-boolean v0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->a:Z
 
     if-nez v0, :cond_1
 
@@ -215,10 +215,10 @@
 
     .line 49
     :cond_1
-    iput-object p2, p0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->c:Ljavax/inject/Provider;
+    iput-object p2, p0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->c:Ljavax/inject/Provider;
 
     .line 50
-    sget-boolean v0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->a:Z
 
     if-nez v0, :cond_2
 
@@ -232,10 +232,10 @@
 
     .line 51
     :cond_2
-    iput-object p3, p0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->d:Ljavax/inject/Provider;
+    iput-object p3, p0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->d:Ljavax/inject/Provider;
 
     .line 52
-    sget-boolean v0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->a:Z
 
     if-nez v0, :cond_3
 
@@ -249,10 +249,10 @@
 
     .line 53
     :cond_3
-    iput-object p4, p0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->e:Ljavax/inject/Provider;
+    iput-object p4, p0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->e:Ljavax/inject/Provider;
 
     .line 54
-    sget-boolean v0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->a:Z
 
     if-nez v0, :cond_4
 
@@ -266,10 +266,10 @@
 
     .line 55
     :cond_4
-    iput-object p5, p0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->f:Ljavax/inject/Provider;
+    iput-object p5, p0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->f:Ljavax/inject/Provider;
 
     .line 56
-    sget-boolean v0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->a:Z
 
     if-nez v0, :cond_5
 
@@ -283,10 +283,10 @@
 
     .line 57
     :cond_5
-    iput-object p6, p0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->g:Ljavax/inject/Provider;
+    iput-object p6, p0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->g:Ljavax/inject/Provider;
 
     .line 58
-    sget-boolean v0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->a:Z
 
     if-nez v0, :cond_6
 
@@ -300,10 +300,10 @@
 
     .line 59
     :cond_6
-    iput-object p7, p0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->h:Ljavax/inject/Provider;
+    iput-object p7, p0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->h:Ljavax/inject/Provider;
 
     .line 60
-    sget-boolean v0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->a:Z
 
     if-nez v0, :cond_7
 
@@ -317,7 +317,7 @@
 
     .line 61
     :cond_7
-    iput-object p8, p0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->i:Ljavax/inject/Provider;
+    iput-object p8, p0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->i:Ljavax/inject/Provider;
 
     .line 62
     return-void
@@ -346,7 +346,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -362,14 +362,14 @@
             ">;)",
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/preferences/ResetKikPreference;",
+            "Lkik/arcane/widget/preferences/ResetKikPreference;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 73
-    new-instance v0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;
+    new-instance v0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;
 
     move-object v1, p0
 
@@ -387,7 +387,7 @@
 
     move-object/from16 v8, p7
 
-    invoke-direct/range {v0 .. v8}, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
+    invoke-direct/range {v0 .. v8}, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
 
     return-object v0
 .end method
@@ -399,7 +399,7 @@
 
     .prologue
     .line 15
-    check-cast p1, Lkik/android/widget/preferences/ResetKikPreference;
+    check-cast p1, Lkik/arcane/widget/preferences/ResetKikPreference;
 
     .line 1086
     if-nez p1, :cond_0
@@ -415,7 +415,7 @@
 
     .line 1089
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->b:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->b:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -423,10 +423,10 @@
 
     check-cast v0, Lkik/core/interfaces/f;
 
-    iput-object v0, p1, Lkik/android/widget/preferences/KikPreference;->c:Lkik/core/interfaces/f;
+    iput-object v0, p1, Lkik/arcane/widget/preferences/KikPreference;->c:Lkik/core/interfaces/f;
 
     .line 1090
-    iget-object v0, p0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->c:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->c:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -434,10 +434,10 @@
 
     check-cast v0, Lkik/core/ICoreEvents;
 
-    iput-object v0, p1, Lkik/android/widget/preferences/ResetKikPreference;->a:Lkik/core/ICoreEvents;
+    iput-object v0, p1, Lkik/arcane/widget/preferences/ResetKikPreference;->a:Lkik/core/ICoreEvents;
 
     .line 1091
-    iget-object v0, p0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->d:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->d:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -445,10 +445,10 @@
 
     check-cast v0, Lkik/core/interfaces/IConversation;
 
-    iput-object v0, p1, Lkik/android/widget/preferences/ResetKikPreference;->b:Lkik/core/interfaces/IConversation;
+    iput-object v0, p1, Lkik/arcane/widget/preferences/ResetKikPreference;->b:Lkik/core/interfaces/IConversation;
 
     .line 1092
-    iget-object v0, p0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->e:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->e:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -456,21 +456,21 @@
 
     check-cast v0, Lkik/core/interfaces/b;
 
-    iput-object v0, p1, Lkik/android/widget/preferences/ResetKikPreference;->d:Lkik/core/interfaces/b;
+    iput-object v0, p1, Lkik/arcane/widget/preferences/ResetKikPreference;->d:Lkik/core/interfaces/b;
 
     .line 1093
-    iget-object v0, p0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->f:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->f:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/Mixpanel;
+    check-cast v0, Lcom/kik/arcane/Mixpanel;
 
-    iput-object v0, p1, Lkik/android/widget/preferences/ResetKikPreference;->e:Lcom/kik/android/Mixpanel;
+    iput-object v0, p1, Lkik/arcane/widget/preferences/ResetKikPreference;->e:Lcom/kik/arcane/Mixpanel;
 
     .line 1094
-    iget-object v0, p0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->g:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->g:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -478,10 +478,10 @@
 
     check-cast v0, Lkik/core/interfaces/ICommunication;
 
-    iput-object v0, p1, Lkik/android/widget/preferences/ResetKikPreference;->f:Lkik/core/interfaces/ICommunication;
+    iput-object v0, p1, Lkik/arcane/widget/preferences/ResetKikPreference;->f:Lkik/core/interfaces/ICommunication;
 
     .line 1095
-    iget-object v0, p0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->h:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->h:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -489,10 +489,10 @@
 
     check-cast v0, Lkik/core/manager/n;
 
-    iput-object v0, p1, Lkik/android/widget/preferences/ResetKikPreference;->g:Lkik/core/manager/n;
+    iput-object v0, p1, Lkik/arcane/widget/preferences/ResetKikPreference;->g:Lkik/core/manager/n;
 
     .line 1096
-    iget-object v0, p0, Lkik/android/widget/preferences/ResetKikPreference_MembersInjector;->i:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/ResetKikPreference_MembersInjector;->i:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -500,7 +500,7 @@
 
     check-cast v0, Lcom/kik/metrics/c/d;
 
-    iput-object v0, p1, Lkik/android/widget/preferences/ResetKikPreference;->h:Lcom/kik/metrics/c/d;
+    iput-object v0, p1, Lkik/arcane/widget/preferences/ResetKikPreference;->h:Lcom/kik/metrics/c/d;
 
     .line 15
     return-void

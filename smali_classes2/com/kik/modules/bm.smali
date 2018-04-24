@@ -46,7 +46,7 @@
     invoke-direct {v0}, Lokhttp3/v$a;-><init>()V
 
     .line 37
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v1
 

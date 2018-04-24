@@ -1,10 +1,10 @@
-.class public Lkik/android/HeadphoneUnpluggedReceiver;
+.class public Lkik/arcane/HeadphoneUnpluggedReceiver;
 .super Landroid/content/BroadcastReceiver;
 .source "SourceFile"
 
 
 # static fields
-.field private static b:Lkik/android/HeadphoneUnpluggedReceiver;
+.field private static b:Lkik/arcane/HeadphoneUnpluggedReceiver;
 
 
 # instance fields
@@ -13,7 +13,7 @@
         value = {
             "Ljava/util/List",
             "<",
-            "Lkik/android/sdkutils/a;",
+            "Lkik/arcane/sdkutils/a;",
             ">;"
         }
     .end annotation
@@ -26,11 +26,11 @@
 
     .prologue
     .line 24
-    new-instance v0, Lkik/android/HeadphoneUnpluggedReceiver;
+    new-instance v0, Lkik/arcane/HeadphoneUnpluggedReceiver;
 
-    invoke-direct {v0}, Lkik/android/HeadphoneUnpluggedReceiver;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/HeadphoneUnpluggedReceiver;-><init>()V
 
-    sput-object v0, Lkik/android/HeadphoneUnpluggedReceiver;->b:Lkik/android/HeadphoneUnpluggedReceiver;
+    sput-object v0, Lkik/arcane/HeadphoneUnpluggedReceiver;->b:Lkik/arcane/HeadphoneUnpluggedReceiver;
 
     return-void
 .end method
@@ -47,17 +47,17 @@
 
     invoke-direct {v0}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
 
-    iput-object v0, p0, Lkik/android/HeadphoneUnpluggedReceiver;->a:Ljava/util/List;
+    iput-object v0, p0, Lkik/arcane/HeadphoneUnpluggedReceiver;->a:Ljava/util/List;
 
     return-void
 .end method
 
-.method public static a()Lkik/android/HeadphoneUnpluggedReceiver;
+.method public static a()Lkik/arcane/HeadphoneUnpluggedReceiver;
     .locals 1
 
     .prologue
     .line 28
-    sget-object v0, Lkik/android/HeadphoneUnpluggedReceiver;->b:Lkik/android/HeadphoneUnpluggedReceiver;
+    sget-object v0, Lkik/arcane/HeadphoneUnpluggedReceiver;->b:Lkik/arcane/HeadphoneUnpluggedReceiver;
 
     return-object v0
 .end method
@@ -77,7 +77,7 @@
     invoke-virtual {v0, v1}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
     .line 35
-    sget-object v1, Lkik/android/HeadphoneUnpluggedReceiver;->b:Lkik/android/HeadphoneUnpluggedReceiver;
+    sget-object v1, Lkik/arcane/HeadphoneUnpluggedReceiver;->b:Lkik/arcane/HeadphoneUnpluggedReceiver;
 
     invoke-virtual {p0, v1, v0}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
@@ -87,12 +87,12 @@
 
 
 # virtual methods
-.method public final a(Lkik/android/sdkutils/a;)V
+.method public final a(Lkik/arcane/sdkutils/a;)V
     .locals 1
 
     .prologue
     .line 40
-    iget-object v0, p0, Lkik/android/HeadphoneUnpluggedReceiver;->a:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/HeadphoneUnpluggedReceiver;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -100,12 +100,12 @@
     return-void
 .end method
 
-.method public final b(Lkik/android/sdkutils/a;)V
+.method public final b(Lkik/arcane/sdkutils/a;)V
     .locals 1
 
     .prologue
     .line 45
-    iget-object v0, p0, Lkik/android/HeadphoneUnpluggedReceiver;->a:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/HeadphoneUnpluggedReceiver;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
@@ -119,7 +119,7 @@
     .prologue
     .line 51
     .line 1056
-    iget-object v0, p0, Lkik/android/HeadphoneUnpluggedReceiver;->a:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/HeadphoneUnpluggedReceiver;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -136,10 +136,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/sdkutils/a;
+    check-cast v0, Lkik/arcane/sdkutils/a;
 
     .line 1057
-    invoke-interface {v0}, Lkik/android/sdkutils/a;->g()V
+    invoke-interface {v0}, Lkik/arcane/sdkutils/a;->g()V
 
     goto :goto_0
 

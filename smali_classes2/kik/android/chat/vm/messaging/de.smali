@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/messaging/de;
+.class final synthetic Lkik/arcane/chat/vm/messaging/de;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/vm/messaging/de;
+.field private static final a:Lkik/arcane/chat/vm/messaging/de;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/messaging/de;
+    new-instance v0, Lkik/arcane/chat/vm/messaging/de;
 
-    invoke-direct {v0}, Lkik/android/chat/vm/messaging/de;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/vm/messaging/de;-><init>()V
 
-    sput-object v0, Lkik/android/chat/vm/messaging/de;->a:Lkik/android/chat/vm/messaging/de;
+    sput-object v0, Lkik/arcane/chat/vm/messaging/de;->a:Lkik/arcane/chat/vm/messaging/de;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lrx/functions/b;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/vm/messaging/de;->a:Lkik/android/chat/vm/messaging/de;
+    sget-object v0, Lkik/arcane/chat/vm/messaging/de;->a:Lkik/arcane/chat/vm/messaging/de;
 
     return-object v0
 .end method
@@ -43,7 +43,7 @@
 .method public final call(Ljava/lang/Object;)V
     .locals 0
 
-    check-cast p1, Lkik/android/gifs/view/c;
+    check-cast p1, Lkik/arcane/gifs/view/c;
 
     check-cast p1, Landroid/graphics/drawable/AnimationDrawable;
 

@@ -1,10 +1,10 @@
-.class public final Lkik/android/net/http/b;
+.class public final Lkik/arcane/net/http/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # static fields
-.field private static a:Lkik/android/net/http/b;
+.field private static a:Lkik/arcane/net/http/b;
 
 .field private static b:Ljava/lang/Object;
 
@@ -23,7 +23,7 @@
         value = {
             "Ljava/util/List",
             "<",
-            "Lkik/android/net/http/a;",
+            "Lkik/arcane/net/http/a;",
             ">;"
         }
     .end annotation
@@ -37,7 +37,7 @@
             "Ljava/lang/String;",
             "Ljava/lang/ref/WeakReference",
             "<",
-            "Lkik/android/net/http/a;",
+            "Lkik/arcane/net/http/a;",
             ">;>;"
         }
     .end annotation
@@ -69,14 +69,14 @@
     .line 26
     const/4 v0, 0x0
 
-    sput-object v0, Lkik/android/net/http/b;->a:Lkik/android/net/http/b;
+    sput-object v0, Lkik/arcane/net/http/b;->a:Lkik/arcane/net/http/b;
 
     .line 27
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    sput-object v0, Lkik/android/net/http/b;->b:Ljava/lang/Object;
+    sput-object v0, Lkik/arcane/net/http/b;->b:Ljava/lang/Object;
 
     .line 29
     const-string v0, "FileUploadManager"
@@ -85,7 +85,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/net/http/b;->c:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/net/http/b;->c:Lorg/slf4j/b;
 
     return-void
 .end method
@@ -102,14 +102,14 @@
 
     invoke-direct {v0}, Lcom/kik/events/d;-><init>()V
 
-    iput-object v0, p0, Lkik/android/net/http/b;->e:Lcom/kik/events/d;
+    iput-object v0, p0, Lkik/arcane/net/http/b;->e:Lcom/kik/events/d;
 
     .line 67
     new-instance v0, Ljava/lang/Object;
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    iput-object v0, p0, Lkik/android/net/http/b;->f:Ljava/lang/Object;
+    iput-object v0, p0, Lkik/arcane/net/http/b;->f:Ljava/lang/Object;
 
     .line 69
     new-instance v0, Ljava/util/LinkedList;
@@ -120,44 +120,44 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/net/http/b;->g:Ljava/util/List;
+    iput-object v0, p0, Lkik/arcane/net/http/b;->g:Ljava/util/List;
 
     .line 70
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    iput-object v0, p0, Lkik/android/net/http/b;->h:Ljava/util/HashMap;
+    iput-object v0, p0, Lkik/arcane/net/http/b;->h:Ljava/util/HashMap;
 
     .line 74
     const/4 v0, 0x3
 
-    iput v0, p0, Lkik/android/net/http/b;->j:I
+    iput v0, p0, Lkik/arcane/net/http/b;->j:I
 
     .line 76
-    new-instance v0, Lkik/android/net/http/b$1;
+    new-instance v0, Lkik/arcane/net/http/b$1;
 
-    invoke-direct {v0, p0}, Lkik/android/net/http/b$1;-><init>(Lkik/android/net/http/b;)V
+    invoke-direct {v0, p0}, Lkik/arcane/net/http/b$1;-><init>(Lkik/arcane/net/http/b;)V
 
-    iput-object v0, p0, Lkik/android/net/http/b;->k:Lcom/kik/events/e;
+    iput-object v0, p0, Lkik/arcane/net/http/b;->k:Lcom/kik/events/e;
 
     .line 95
-    new-instance v0, Lkik/android/net/http/b$2;
+    new-instance v0, Lkik/arcane/net/http/b$2;
 
-    invoke-direct {v0, p0}, Lkik/android/net/http/b$2;-><init>(Lkik/android/net/http/b;)V
+    invoke-direct {v0, p0}, Lkik/arcane/net/http/b$2;-><init>(Lkik/arcane/net/http/b;)V
 
-    iput-object v0, p0, Lkik/android/net/http/b;->l:Ljava/lang/Runnable;
+    iput-object v0, p0, Lkik/arcane/net/http/b;->l:Ljava/lang/Runnable;
 
     .line 88
-    iput-object p1, p0, Lkik/android/net/http/b;->d:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/net/http/b;->d:Ljava/lang/String;
 
     .line 89
-    iput-object p2, p0, Lkik/android/net/http/b;->i:Landroid/os/PowerManager$WakeLock;
+    iput-object p2, p0, Lkik/arcane/net/http/b;->i:Landroid/os/PowerManager$WakeLock;
 
     .line 90
     new-instance v0, Ljava/lang/Thread;
 
-    iget-object v1, p0, Lkik/android/net/http/b;->l:Ljava/lang/Runnable;
+    iget-object v1, p0, Lkik/arcane/net/http/b;->l:Ljava/lang/Runnable;
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -178,13 +178,13 @@
     invoke-virtual {v0}, Ljava/lang/Thread;->start()V
 
     .line 91
-    iget-object v0, p0, Lkik/android/net/http/b;->e:Lcom/kik/events/d;
+    iget-object v0, p0, Lkik/arcane/net/http/b;->e:Lcom/kik/events/d;
 
     invoke-interface {p3}, Lkik/core/interfaces/ICommunication;->b()Lcom/kik/events/c;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/net/http/b;->k:Lcom/kik/events/e;
+    iget-object v2, p0, Lkik/arcane/net/http/b;->k:Lcom/kik/events/e;
 
     new-instance v3, Lcom/kik/events/i;
 
@@ -193,13 +193,13 @@
     invoke-virtual {v0, v1, v2, v3}, Lcom/kik/events/d;->a(Lcom/kik/events/c;Lcom/kik/events/e;Lcom/kik/events/p;)Lcom/kik/events/e;
 
     .line 92
-    iget-object v0, p0, Lkik/android/net/http/b;->e:Lcom/kik/events/d;
+    iget-object v0, p0, Lkik/arcane/net/http/b;->e:Lcom/kik/events/d;
 
     invoke-interface {p3}, Lkik/core/interfaces/ICommunication;->e()Lcom/kik/events/c;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/net/http/b;->k:Lcom/kik/events/e;
+    iget-object v2, p0, Lkik/arcane/net/http/b;->k:Lcom/kik/events/e;
 
     new-instance v3, Lcom/kik/events/i;
 
@@ -211,18 +211,18 @@
     return-void
 .end method
 
-.method public static a()Lkik/android/net/http/b;
+.method public static a()Lkik/arcane/net/http/b;
     .locals 3
 
     .prologue
     .line 34
-    sget-object v1, Lkik/android/net/http/b;->b:Ljava/lang/Object;
+    sget-object v1, Lkik/arcane/net/http/b;->b:Ljava/lang/Object;
 
     monitor-enter v1
 
     .line 35
     :try_start_0
-    sget-object v0, Lkik/android/net/http/b;->a:Lkik/android/net/http/b;
+    sget-object v0, Lkik/arcane/net/http/b;->a:Lkik/arcane/net/http/b;
 
     .line 37
     if-nez v0, :cond_0
@@ -256,18 +256,18 @@
     return-object v0
 .end method
 
-.method public static a(Landroid/content/Context;Lkik/core/interfaces/ICommunication;)Lkik/android/net/http/b;
+.method public static a(Landroid/content/Context;Lkik/core/interfaces/ICommunication;)Lkik/arcane/net/http/b;
     .locals 4
 
     .prologue
     .line 49
-    sget-object v1, Lkik/android/net/http/b;->b:Ljava/lang/Object;
+    sget-object v1, Lkik/arcane/net/http/b;->b:Ljava/lang/Object;
 
     monitor-enter v1
 
     .line 50
     :try_start_0
-    sget-object v0, Lkik/android/net/http/b;->a:Lkik/android/net/http/b;
+    sget-object v0, Lkik/arcane/net/http/b;->a:Lkik/arcane/net/http/b;
 
     .line 52
     if-nez v0, :cond_0
@@ -291,14 +291,14 @@
     move-result-object v2
 
     .line 55
-    new-instance v0, Lkik/android/net/http/b;
+    new-instance v0, Lkik/arcane/net/http/b;
 
     const-string v3, ""
 
-    invoke-direct {v0, v3, v2, p1}, Lkik/android/net/http/b;-><init>(Ljava/lang/String;Landroid/os/PowerManager$WakeLock;Lkik/core/interfaces/ICommunication;)V
+    invoke-direct {v0, v3, v2, p1}, Lkik/arcane/net/http/b;-><init>(Ljava/lang/String;Landroid/os/PowerManager$WakeLock;Lkik/core/interfaces/ICommunication;)V
 
     .line 57
-    sput-object v0, Lkik/android/net/http/b;->a:Lkik/android/net/http/b;
+    sput-object v0, Lkik/arcane/net/http/b;->a:Lkik/arcane/net/http/b;
 
     .line 59
     :cond_0
@@ -318,12 +318,12 @@
     throw v0
 .end method
 
-.method static synthetic a(Lkik/android/net/http/b;)V
+.method static synthetic a(Lkik/arcane/net/http/b;)V
     .locals 0
 
     .prologue
     .line 24
-    invoke-direct {p0}, Lkik/android/net/http/b;->e()V
+    invoke-direct {p0}, Lkik/arcane/net/http/b;->e()V
 
     return-void
 .end method
@@ -333,12 +333,12 @@
 
     .prologue
     .line 24
-    sget-object v0, Lkik/android/net/http/b;->c:Lorg/slf4j/b;
+    sget-object v0, Lkik/arcane/net/http/b;->c:Lorg/slf4j/b;
 
     return-object v0
 .end method
 
-.method static synthetic b(Lkik/android/net/http/b;)V
+.method static synthetic b(Lkik/arcane/net/http/b;)V
     .locals 10
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -360,7 +360,7 @@
     const/4 v0, 0x0
 
     .line 1125
-    iget-object v3, p0, Lkik/android/net/http/b;->g:Ljava/util/List;
+    iget-object v3, p0, Lkik/arcane/net/http/b;->g:Ljava/util/List;
 
     invoke-interface {v3}, Ljava/util/List;->size()I
 
@@ -369,16 +369,16 @@
     if-lez v3, :cond_b
 
     .line 1126
-    iget-object v0, p0, Lkik/android/net/http/b;->g:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/net/http/b;->g:Ljava/util/List;
 
     invoke-interface {v0, v2}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/net/http/a;
+    check-cast v0, Lkik/arcane/net/http/a;
 
     .line 1128
-    iget-object v3, p0, Lkik/android/net/http/b;->i:Landroid/os/PowerManager$WakeLock;
+    iget-object v3, p0, Lkik/arcane/net/http/b;->i:Landroid/os/PowerManager$WakeLock;
 
     invoke-virtual {v3}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
 
@@ -387,7 +387,7 @@
     if-nez v3, :cond_1
 
     .line 1129
-    iget-object v3, p0, Lkik/android/net/http/b;->i:Landroid/os/PowerManager$WakeLock;
+    iget-object v3, p0, Lkik/arcane/net/http/b;->i:Landroid/os/PowerManager$WakeLock;
 
     invoke-virtual {v3}, Landroid/os/PowerManager$WakeLock;->acquire()V
 
@@ -402,7 +402,7 @@
     move-result-wide v4
 
     .line 1134
-    invoke-virtual {v0}, Lkik/android/net/http/a;->c()I
+    invoke-virtual {v0}, Lkik/arcane/net/http/a;->c()I
 
     move-result v3
 
@@ -414,7 +414,7 @@
     sub-long/2addr v6, v4
 
     .line 1136
-    invoke-virtual {v0, v3}, Lkik/android/net/http/a;->c(I)Z
+    invoke-virtual {v0, v3}, Lkik/arcane/net/http/a;->c(I)Z
 
     move-result v4
 
@@ -443,11 +443,11 @@
     :catch_0
     move-exception v4
 
-    invoke-virtual {v0}, Lkik/android/net/http/a;->f()V
+    invoke-virtual {v0}, Lkik/arcane/net/http/a;->f()V
 
     .line 1159
     :goto_1
-    invoke-static {v3}, Lkik/android/net/http/a;->b(I)Z
+    invoke-static {v3}, Lkik/arcane/net/http/a;->b(I)Z
 
     move-result v3
 
@@ -458,14 +458,14 @@
 
     .line 1164
     :cond_2
-    invoke-virtual {v0}, Lkik/android/net/http/a;->g()Z
+    invoke-virtual {v0}, Lkik/arcane/net/http/a;->g()Z
 
     move-result v3
 
     if-eqz v3, :cond_6
 
     .line 1165
-    iget-object v3, p0, Lkik/android/net/http/b;->g:Ljava/util/List;
+    iget-object v3, p0, Lkik/arcane/net/http/b;->g:Ljava/util/List;
 
     invoke-interface {v3, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -477,7 +477,7 @@
 
     .line 1174
     :goto_2
-    iget-object v3, p0, Lkik/android/net/http/b;->g:Ljava/util/List;
+    iget-object v3, p0, Lkik/arcane/net/http/b;->g:Ljava/util/List;
 
     invoke-interface {v3}, Ljava/util/List;->size()I
 
@@ -488,13 +488,13 @@
     if-ge v0, v8, :cond_7
 
     .line 1175
-    iget-object v1, p0, Lkik/android/net/http/b;->f:Ljava/lang/Object;
+    iget-object v1, p0, Lkik/arcane/net/http/b;->f:Ljava/lang/Object;
 
     monitor-enter v1
 
     .line 1176
     :try_start_1
-    iget-object v3, p0, Lkik/android/net/http/b;->f:Ljava/lang/Object;
+    iget-object v3, p0, Lkik/arcane/net/http/b;->f:Ljava/lang/Object;
 
     const-wide/16 v4, 0x3e8
 
@@ -523,14 +523,14 @@
 
     .line 1144
     :try_start_2
-    invoke-static {v3}, Lkik/android/net/http/a;->b(I)Z
+    invoke-static {v3}, Lkik/arcane/net/http/a;->b(I)Z
 
     move-result v4
 
     if-eqz v4, :cond_5
 
     .line 1146
-    invoke-virtual {v0}, Lkik/android/net/http/a;->e()V
+    invoke-virtual {v0}, Lkik/arcane/net/http/a;->e()V
 
     goto :goto_1
 
@@ -572,7 +572,7 @@
 
     .line 1169
     :cond_6
-    invoke-virtual {v0}, Lkik/android/net/http/a;->i()V
+    invoke-virtual {v0}, Lkik/arcane/net/http/a;->i()V
 
     move-object v9, v0
 
@@ -596,7 +596,7 @@
     .line 1180
     :cond_7
     :goto_4
-    iget-object v3, p0, Lkik/android/net/http/b;->i:Landroid/os/PowerManager$WakeLock;
+    iget-object v3, p0, Lkik/arcane/net/http/b;->i:Landroid/os/PowerManager$WakeLock;
 
     invoke-virtual {v3}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
 
@@ -605,7 +605,7 @@
     if-eqz v3, :cond_8
 
     .line 1181
-    iget-object v3, p0, Lkik/android/net/http/b;->i:Landroid/os/PowerManager$WakeLock;
+    iget-object v3, p0, Lkik/arcane/net/http/b;->i:Landroid/os/PowerManager$WakeLock;
 
     invoke-virtual {v3}, Landroid/os/PowerManager$WakeLock;->release()V
 
@@ -613,7 +613,7 @@
 
     .line 1184
     :cond_8
-    iget-object v3, p0, Lkik/android/net/http/b;->f:Ljava/lang/Object;
+    iget-object v3, p0, Lkik/arcane/net/http/b;->f:Ljava/lang/Object;
 
     monitor-enter v3
 
@@ -625,15 +625,15 @@
 
     .line 1188
     :try_start_4
-    invoke-virtual {v1}, Lkik/android/net/http/a;->i()V
+    invoke-virtual {v1}, Lkik/arcane/net/http/a;->i()V
 
     .line 1190
     :cond_9
-    invoke-direct {p0}, Lkik/android/net/http/b;->f()V
+    invoke-direct {p0}, Lkik/arcane/net/http/b;->f()V
 
     .line 1194
     :cond_a
-    iget-object v0, p0, Lkik/android/net/http/b;->f:Ljava/lang/Object;
+    iget-object v0, p0, Lkik/arcane/net/http/b;->f:Ljava/lang/Object;
 
     invoke-virtual {v0}, Ljava/lang/Object;->wait()V
 
@@ -668,39 +668,39 @@
 
     .prologue
     .line 24
-    sget-object v0, Lkik/android/net/http/b;->b:Ljava/lang/Object;
+    sget-object v0, Lkik/arcane/net/http/b;->b:Ljava/lang/Object;
 
     return-object v0
 .end method
 
-.method static synthetic c(Lkik/android/net/http/b;)Ljava/lang/String;
+.method static synthetic c(Lkik/arcane/net/http/b;)Ljava/lang/String;
     .locals 1
 
     .prologue
     .line 24
-    iget-object v0, p0, Lkik/android/net/http/b;->d:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/net/http/b;->d:Ljava/lang/String;
 
     return-object v0
 .end method
 
-.method static synthetic d(Lkik/android/net/http/b;)Landroid/os/PowerManager$WakeLock;
+.method static synthetic d(Lkik/arcane/net/http/b;)Landroid/os/PowerManager$WakeLock;
     .locals 1
 
     .prologue
     .line 24
-    iget-object v0, p0, Lkik/android/net/http/b;->i:Landroid/os/PowerManager$WakeLock;
+    iget-object v0, p0, Lkik/arcane/net/http/b;->i:Landroid/os/PowerManager$WakeLock;
 
     return-object v0
 .end method
 
-.method static synthetic d()Lkik/android/net/http/b;
+.method static synthetic d()Lkik/arcane/net/http/b;
     .locals 1
 
     .prologue
     .line 24
     const/4 v0, 0x0
 
-    sput-object v0, Lkik/android/net/http/b;->a:Lkik/android/net/http/b;
+    sput-object v0, Lkik/arcane/net/http/b;->a:Lkik/arcane/net/http/b;
 
     return-object v0
 .end method
@@ -710,13 +710,13 @@
 
     .prologue
     .line 243
-    iget-object v1, p0, Lkik/android/net/http/b;->f:Ljava/lang/Object;
+    iget-object v1, p0, Lkik/arcane/net/http/b;->f:Ljava/lang/Object;
 
     monitor-enter v1
 
     .line 244
     :try_start_0
-    iget-object v0, p0, Lkik/android/net/http/b;->f:Ljava/lang/Object;
+    iget-object v0, p0, Lkik/arcane/net/http/b;->f:Ljava/lang/Object;
 
     invoke-virtual {v0}, Ljava/lang/Object;->notifyAll()V
 
@@ -740,13 +740,13 @@
 
     .prologue
     .line 250
-    iget-object v1, p0, Lkik/android/net/http/b;->f:Ljava/lang/Object;
+    iget-object v1, p0, Lkik/arcane/net/http/b;->f:Ljava/lang/Object;
 
     monitor-enter v1
 
     .line 251
     :try_start_0
-    iget-object v0, p0, Lkik/android/net/http/b;->h:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/net/http/b;->h:Ljava/util/HashMap;
 
     invoke-virtual {v0}, Ljava/util/HashMap;->values()Ljava/util/Collection;
 
@@ -776,12 +776,12 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/net/http/a;
+    check-cast v0, Lkik/arcane/net/http/a;
 
     .line 254
     if-eqz v0, :cond_0
 
-    invoke-virtual {v0}, Lkik/android/net/http/a;->b()I
+    invoke-virtual {v0}, Lkik/arcane/net/http/a;->b()I
 
     move-result v3
 
@@ -790,7 +790,7 @@
     if-eq v3, v4, :cond_0
 
     .line 255
-    invoke-virtual {v0}, Lkik/android/net/http/a;->i()V
+    invoke-virtual {v0}, Lkik/arcane/net/http/a;->i()V
 
     goto :goto_0
 
@@ -824,14 +824,14 @@
             ")",
             "Ljava/lang/ref/WeakReference",
             "<",
-            "Lkik/android/net/http/a;",
+            "Lkik/arcane/net/http/a;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 238
-    iget-object v0, p0, Lkik/android/net/http/b;->h:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/net/http/b;->h:Ljava/util/HashMap;
 
     invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -842,12 +842,12 @@
     return-object v0
 .end method
 
-.method public final a(Lkik/android/net/http/a;)V
+.method public final a(Lkik/arcane/net/http/a;)V
     .locals 4
 
     .prologue
     .line 204
-    invoke-virtual {p1}, Lkik/android/net/http/a;->m()J
+    invoke-virtual {p1}, Lkik/arcane/net/http/a;->m()J
 
     move-result-wide v0
 
@@ -858,7 +858,7 @@
     if-lez v0, :cond_0
 
     .line 205
-    invoke-virtual {p1}, Lkik/android/net/http/a;->j()V
+    invoke-virtual {p1}, Lkik/arcane/net/http/a;->j()V
 
     .line 223
     :goto_0
@@ -866,10 +866,10 @@
 
     .line 210
     :cond_0
-    invoke-virtual {p1}, Lkik/android/net/http/a;->k()V
+    invoke-virtual {p1}, Lkik/arcane/net/http/a;->k()V
 
     .line 211
-    iget-object v0, p0, Lkik/android/net/http/b;->g:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/net/http/b;->g:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
@@ -878,9 +878,9 @@
     if-eqz v0, :cond_1
 
     .line 212
-    iget-object v0, p0, Lkik/android/net/http/b;->g:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/net/http/b;->g:Ljava/util/List;
 
-    iget-object v1, p0, Lkik/android/net/http/b;->g:Ljava/util/List;
+    iget-object v1, p0, Lkik/arcane/net/http/b;->g:Ljava/util/List;
 
     invoke-interface {v1, p1}, Ljava/util/List;->indexOf(Ljava/lang/Object;)I
 
@@ -889,7 +889,7 @@
     invoke-interface {v0, v1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     .line 213
-    iget-object v0, p0, Lkik/android/net/http/b;->g:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/net/http/b;->g:Ljava/util/List;
 
     const/4 v1, 0x0
 
@@ -897,15 +897,15 @@
 
     .line 219
     :goto_1
-    iget-object v1, p0, Lkik/android/net/http/b;->f:Ljava/lang/Object;
+    iget-object v1, p0, Lkik/arcane/net/http/b;->f:Ljava/lang/Object;
 
     monitor-enter v1
 
     .line 220
     :try_start_0
-    iget-object v0, p0, Lkik/android/net/http/b;->h:Ljava/util/HashMap;
+    iget-object v0, p0, Lkik/arcane/net/http/b;->h:Ljava/util/HashMap;
 
-    invoke-virtual {p1}, Lkik/android/net/http/a;->d()Ljava/lang/String;
+    invoke-virtual {p1}, Lkik/arcane/net/http/a;->d()Ljava/lang/String;
 
     move-result-object v2
 
@@ -921,15 +921,15 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 222
-    invoke-direct {p0}, Lkik/android/net/http/b;->e()V
+    invoke-direct {p0}, Lkik/arcane/net/http/b;->e()V
 
     goto :goto_0
 
     .line 216
     :cond_1
-    iget-object v0, p0, Lkik/android/net/http/b;->g:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/net/http/b;->g:Ljava/util/List;
 
-    iget-object v1, p0, Lkik/android/net/http/b;->g:Ljava/util/List;
+    iget-object v1, p0, Lkik/arcane/net/http/b;->g:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
 
@@ -951,7 +951,7 @@
     throw v0
 .end method
 
-.method public final b(Lkik/android/net/http/a;)V
+.method public final b(Lkik/arcane/net/http/a;)V
     .locals 1
 
     .prologue
@@ -964,13 +964,13 @@
 
     .line 231
     :cond_0
-    invoke-virtual {p1}, Lkik/android/net/http/a;->i()V
+    invoke-virtual {p1}, Lkik/arcane/net/http/a;->i()V
 
     .line 232
-    invoke-virtual {p1}, Lkik/android/net/http/a;->h()V
+    invoke-virtual {p1}, Lkik/arcane/net/http/a;->h()V
 
     .line 233
-    iget-object v0, p0, Lkik/android/net/http/b;->g:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/net/http/b;->g:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 

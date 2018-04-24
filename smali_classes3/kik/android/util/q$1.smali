@@ -1,4 +1,4 @@
-.class final Lkik/android/util/q$1;
+.class final Lkik/arcane/util/q$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/util/q;->a(Landroid/view/View;)V
+    value = Lkik/arcane/util/q;->a(Landroid/view/View;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,7 +27,7 @@
 
     .prologue
     .line 48
-    iput-object p1, p0, Lkik/android/util/q$1;->a:Landroid/view/View;
+    iput-object p1, p0, Lkik/arcane/util/q$1;->a:Landroid/view/View;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,10 +41,10 @@
 
     .prologue
     .line 52
-    invoke-static {}, Lkik/android/util/q;->c()V
+    invoke-static {}, Lkik/arcane/util/q;->c()V
 
     .line 53
-    iget-object v0, p0, Lkik/android/util/q$1;->a:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/util/q$1;->a:Landroid/view/View;
 
     invoke-virtual {v0}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
 

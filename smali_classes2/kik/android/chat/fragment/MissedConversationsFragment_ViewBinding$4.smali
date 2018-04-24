@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/MissedConversationsFragment_ViewBinding$4;
+.class final Lkik/arcane/chat/fragment/MissedConversationsFragment_ViewBinding$4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/MissedConversationsFragment_ViewBinding;-><init>(Lkik/android/chat/fragment/MissedConversationsFragment;Landroid/view/View;)V
+    value = Lkik/arcane/chat/fragment/MissedConversationsFragment_ViewBinding;-><init>(Lkik/arcane/chat/fragment/MissedConversationsFragment;Landroid/view/View;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/MissedConversationsFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/MissedConversationsFragment;
 
-.field final synthetic b:Lkik/android/chat/fragment/MissedConversationsFragment_ViewBinding;
+.field final synthetic b:Lkik/arcane/chat/fragment/MissedConversationsFragment_ViewBinding;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/MissedConversationsFragment_ViewBinding;Lkik/android/chat/fragment/MissedConversationsFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/MissedConversationsFragment_ViewBinding;Lkik/arcane/chat/fragment/MissedConversationsFragment;)V
     .locals 0
 
     .prologue
     .line 61
-    iput-object p1, p0, Lkik/android/chat/fragment/MissedConversationsFragment_ViewBinding$4;->b:Lkik/android/chat/fragment/MissedConversationsFragment_ViewBinding;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment_ViewBinding$4;->b:Lkik/arcane/chat/fragment/MissedConversationsFragment_ViewBinding;
 
-    iput-object p2, p0, Lkik/android/chat/fragment/MissedConversationsFragment_ViewBinding$4;->a:Lkik/android/chat/fragment/MissedConversationsFragment;
+    iput-object p2, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment_ViewBinding$4;->a:Lkik/arcane/chat/fragment/MissedConversationsFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -54,9 +54,9 @@
 
     .prologue
     .line 64
-    iget-object v0, p0, Lkik/android/chat/fragment/MissedConversationsFragment_ViewBinding$4;->a:Lkik/android/chat/fragment/MissedConversationsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment_ViewBinding$4;->a:Lkik/arcane/chat/fragment/MissedConversationsFragment;
 
-    invoke-virtual {v0, p3}, Lkik/android/chat/fragment/MissedConversationsFragment;->onConversationListClicked(I)V
+    invoke-virtual {v0, p3}, Lkik/arcane/chat/fragment/MissedConversationsFragment;->onConversationListClicked(I)V
 
     .line 65
     return-void

@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/b/a;
+.class public final Lkik/arcane/chat/b/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -36,7 +36,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/chat/b/a;->a:Ljava/lang/Long;
+    sput-object v0, Lkik/arcane/chat/b/a;->a:Ljava/lang/Long;
 
     return-void
 .end method
@@ -65,18 +65,18 @@
 
     invoke-direct {v0}, Lcom/kik/events/Promise;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/b/a;->d:Lcom/kik/events/Promise;
+    iput-object v0, p0, Lkik/arcane/chat/b/a;->d:Lcom/kik/events/Promise;
 
     .line 29
-    iput-object p1, p0, Lkik/android/chat/b/a;->b:Lkik/core/e/f;
+    iput-object p1, p0, Lkik/arcane/chat/b/a;->b:Lkik/core/e/f;
 
     .line 30
-    iput-object p3, p0, Lkik/android/chat/b/a;->c:Lkik/core/interfaces/ad;
+    iput-object p3, p0, Lkik/arcane/chat/b/a;->c:Lkik/core/interfaces/ad;
 
     .line 31
-    new-instance v0, Lkik/android/chat/b/a$1;
+    new-instance v0, Lkik/arcane/chat/b/a$1;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/b/a$1;-><init>(Lkik/android/chat/b/a;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/b/a$1;-><init>(Lkik/arcane/chat/b/a;)V
 
     invoke-virtual {p2, v0}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -84,15 +84,15 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/b/a;)V
+.method static synthetic a(Lkik/arcane/chat/b/a;)V
     .locals 3
 
     .prologue
     .line 17
     .line 1094
-    iget-object v0, p0, Lkik/android/chat/b/a;->c:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/b/a;->c:Lkik/core/interfaces/ad;
 
-    const-string v1, "kik.android.chat.preferences.UserPreferenceManager.restored"
+    const-string v1, "kik.arcane.chat.preferences.UserPreferenceManager.restored"
 
     const/4 v2, 0x1
 
@@ -106,12 +106,12 @@
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/chat/b/a;)Lcom/kik/events/Promise;
+.method static synthetic b(Lkik/arcane/chat/b/a;)Lcom/kik/events/Promise;
     .locals 1
 
     .prologue
     .line 17
-    iget-object v0, p0, Lkik/android/chat/b/a;->d:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/chat/b/a;->d:Lcom/kik/events/Promise;
 
     return-object v0
 .end method
@@ -126,7 +126,7 @@
     invoke-direct {v0}, Lcom/kik/xdata/model/userpreferences/XUserPreferences;-><init>()V
 
     .line 65
-    invoke-virtual {p0}, Lkik/android/chat/b/a;->a()Z
+    invoke-virtual {p0}, Lkik/arcane/chat/b/a;->a()Z
 
     move-result v1
 
@@ -137,14 +137,14 @@
     invoke-virtual {v0, v1}, Lcom/kik/xdata/model/userpreferences/XUserPreferences;->a(Ljava/lang/Boolean;)Lcom/kik/xdata/model/userpreferences/XUserPreferences;
 
     .line 66
-    invoke-virtual {p0}, Lkik/android/chat/b/a;->b()Lcom/kik/xdata/model/userpreferences/XUserPreferences$XBubbleColor;
+    invoke-virtual {p0}, Lkik/arcane/chat/b/a;->b()Lcom/kik/xdata/model/userpreferences/XUserPreferences$XBubbleColor;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Lcom/kik/xdata/model/userpreferences/XUserPreferences;->a(Lcom/kik/xdata/model/userpreferences/XUserPreferences$XBubbleColor;)Lcom/kik/xdata/model/userpreferences/XUserPreferences;
 
     .line 67
-    invoke-virtual {p0}, Lkik/android/chat/b/a;->c()Z
+    invoke-virtual {p0}, Lkik/arcane/chat/b/a;->c()Z
 
     move-result v1
 
@@ -173,7 +173,7 @@
 
     .line 46
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/b/a;->c:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/b/a;->c:Lkik/core/interfaces/ad;
 
     const-string v1, "kik.chat.bubble.id"
 
@@ -188,13 +188,13 @@
     invoke-interface {v0, v1, v2}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Integer;)Z
 
     .line 47
-    iget-object v0, p0, Lkik/android/chat/b/a;->b:Lkik/core/e/f;
+    iget-object v0, p0, Lkik/arcane/chat/b/a;->b:Lkik/core/e/f;
 
     const-string v1, "user_preferences"
 
     const/4 v2, 0x0
 
-    invoke-direct {p0}, Lkik/android/chat/b/a;->f()Lcom/kik/xdata/model/userpreferences/XUserPreferences;
+    invoke-direct {p0}, Lkik/arcane/chat/b/a;->f()Lcom/kik/xdata/model/userpreferences/XUserPreferences;
 
     move-result-object v3
 
@@ -208,7 +208,7 @@
 
     .prologue
     .line 52
-    iget-object v0, p0, Lkik/android/chat/b/a;->c:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/b/a;->c:Lkik/core/interfaces/ad;
 
     const-string v1, "kik.enterbutton.sends"
 
@@ -219,17 +219,17 @@
     invoke-interface {v0, v1, v2}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
 
     .line 53
-    iget-object v0, p0, Lkik/android/chat/b/a;->b:Lkik/core/e/f;
+    iget-object v0, p0, Lkik/arcane/chat/b/a;->b:Lkik/core/e/f;
 
     const-string v1, "user_preferences"
 
     const/4 v2, 0x0
 
-    invoke-direct {p0}, Lkik/android/chat/b/a;->f()Lcom/kik/xdata/model/userpreferences/XUserPreferences;
+    invoke-direct {p0}, Lkik/arcane/chat/b/a;->f()Lcom/kik/xdata/model/userpreferences/XUserPreferences;
 
     move-result-object v3
 
-    sget-object v4, Lkik/android/chat/b/a;->a:Ljava/lang/Long;
+    sget-object v4, Lkik/arcane/chat/b/a;->a:Ljava/lang/Long;
 
     invoke-interface {v0, v1, v2, v3, v4}, Lkik/core/e/f;->b(Ljava/lang/String;Ljava/lang/String;Lcom/dyuproject/protostuff/p;Ljava/lang/Long;)Lcom/kik/events/Promise;
 
@@ -242,7 +242,7 @@
 
     .prologue
     .line 73
-    iget-object v0, p0, Lkik/android/chat/b/a;->c:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/b/a;->c:Lkik/core/interfaces/ad;
 
     const-string v1, "kik.enterbutton.sends"
 
@@ -262,7 +262,7 @@
 
     .prologue
     .line 78
-    iget-object v0, p0, Lkik/android/chat/b/a;->c:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/b/a;->c:Lkik/core/interfaces/ad;
 
     const-string v1, "kik.chat.bubble.id"
 
@@ -288,9 +288,9 @@
 
     .prologue
     .line 58
-    iget-object v0, p0, Lkik/android/chat/b/a;->c:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/b/a;->c:Lkik/core/interfaces/ad;
 
-    const-string v1, "kik.android.chat.video.automatic_fullscreen"
+    const-string v1, "kik.arcane.chat.video.automatic_fullscreen"
 
     invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -299,17 +299,17 @@
     invoke-interface {v0, v1, v2}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
 
     .line 59
-    iget-object v0, p0, Lkik/android/chat/b/a;->b:Lkik/core/e/f;
+    iget-object v0, p0, Lkik/arcane/chat/b/a;->b:Lkik/core/e/f;
 
     const-string v1, "user_preferences"
 
     const/4 v2, 0x0
 
-    invoke-direct {p0}, Lkik/android/chat/b/a;->f()Lcom/kik/xdata/model/userpreferences/XUserPreferences;
+    invoke-direct {p0}, Lkik/arcane/chat/b/a;->f()Lcom/kik/xdata/model/userpreferences/XUserPreferences;
 
     move-result-object v3
 
-    sget-object v4, Lkik/android/chat/b/a;->a:Ljava/lang/Long;
+    sget-object v4, Lkik/arcane/chat/b/a;->a:Ljava/lang/Long;
 
     invoke-interface {v0, v1, v2, v3, v4}, Lkik/core/e/f;->b(Ljava/lang/String;Ljava/lang/String;Lcom/dyuproject/protostuff/p;Ljava/lang/Long;)Lcom/kik/events/Promise;
 
@@ -322,9 +322,9 @@
 
     .prologue
     .line 83
-    iget-object v0, p0, Lkik/android/chat/b/a;->c:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/b/a;->c:Lkik/core/interfaces/ad;
 
-    const-string v1, "kik.android.chat.video.automatic_fullscreen"
+    const-string v1, "kik.arcane.chat.video.automatic_fullscreen"
 
     const/4 v2, 0x0
 
@@ -345,9 +345,9 @@
     .prologue
     .line 99
     .line 1089
-    iget-object v0, p0, Lkik/android/chat/b/a;->c:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/b/a;->c:Lkik/core/interfaces/ad;
 
-    const-string v1, "kik.android.chat.preferences.UserPreferenceManager.restored"
+    const-string v1, "kik.arcane.chat.preferences.UserPreferenceManager.restored"
 
     invoke-interface {v0, v1}, Lkik/core/interfaces/ad;->w(Ljava/lang/String;)Ljava/lang/Boolean;
 
@@ -361,7 +361,7 @@
     if-eqz v0, :cond_0
 
     .line 101
-    iget-object v0, p0, Lkik/android/chat/b/a;->d:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/chat/b/a;->d:Lcom/kik/events/Promise;
 
     invoke-virtual {v0}, Lcom/kik/events/Promise;->f()V
 
@@ -371,7 +371,7 @@
 
     .line 104
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/b/a;->b:Lkik/core/e/f;
+    iget-object v0, p0, Lkik/arcane/chat/b/a;->b:Lkik/core/e/f;
 
     const-string v1, "user_preferences"
 
@@ -381,9 +381,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/chat/b/a$2;
+    new-instance v1, Lkik/arcane/chat/b/a$2;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/b/a$2;-><init>(Lkik/android/chat/b/a;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/b/a$2;-><init>(Lkik/arcane/chat/b/a;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -404,7 +404,7 @@
 
     .prologue
     .line 133
-    iget-object v0, p0, Lkik/android/chat/b/a;->d:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/chat/b/a;->d:Lcom/kik/events/Promise;
 
     return-object v0
 .end method

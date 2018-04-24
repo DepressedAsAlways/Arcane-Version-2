@@ -1,11 +1,11 @@
-.class final Lkik/android/net/communicator/a$d;
+.class final Lkik/arcane/net/communicator/a$d;
 .super Ljava/util/TimerTask;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/net/communicator/a;
+    value = Lkik/arcane/net/communicator/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,23 +15,23 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/net/communicator/a;
+.field final synthetic a:Lkik/arcane/net/communicator/a;
 
-.field private b:Lkik/android/net/communicator/a$c;
+.field private b:Lkik/arcane/net/communicator/a$c;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/net/communicator/a;Lkik/android/net/communicator/a$c;)V
+.method public constructor <init>(Lkik/arcane/net/communicator/a;Lkik/arcane/net/communicator/a$c;)V
     .locals 0
 
     .prologue
     .line 817
-    iput-object p1, p0, Lkik/android/net/communicator/a$d;->a:Lkik/android/net/communicator/a;
+    iput-object p1, p0, Lkik/arcane/net/communicator/a$d;->a:Lkik/arcane/net/communicator/a;
 
     invoke-direct {p0}, Ljava/util/TimerTask;-><init>()V
 
     .line 818
-    iput-object p2, p0, Lkik/android/net/communicator/a$d;->b:Lkik/android/net/communicator/a$c;
+    iput-object p2, p0, Lkik/arcane/net/communicator/a$d;->b:Lkik/arcane/net/communicator/a$c;
 
     .line 819
     return-void
@@ -45,9 +45,9 @@
     .prologue
     .line 825
     :try_start_0
-    iget-object v0, p0, Lkik/android/net/communicator/a$d;->a:Lkik/android/net/communicator/a;
+    iget-object v0, p0, Lkik/arcane/net/communicator/a$d;->a:Lkik/arcane/net/communicator/a;
 
-    invoke-static {v0}, Lkik/android/net/communicator/a;->A(Lkik/android/net/communicator/a;)Ljava/lang/Object;
+    invoke-static {v0}, Lkik/arcane/net/communicator/a;->A(Lkik/arcane/net/communicator/a;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -57,11 +57,11 @@
 
     .line 826
     :try_start_1
-    iget-object v0, p0, Lkik/android/net/communicator/a$d;->b:Lkik/android/net/communicator/a$c;
+    iget-object v0, p0, Lkik/arcane/net/communicator/a$d;->b:Lkik/arcane/net/communicator/a$c;
 
-    iget-object v2, p0, Lkik/android/net/communicator/a$d;->a:Lkik/android/net/communicator/a;
+    iget-object v2, p0, Lkik/arcane/net/communicator/a$d;->a:Lkik/arcane/net/communicator/a;
 
-    invoke-static {v2}, Lkik/android/net/communicator/a;->B(Lkik/android/net/communicator/a;)Lkik/android/net/communicator/a$c;
+    invoke-static {v2}, Lkik/arcane/net/communicator/a;->B(Lkik/arcane/net/communicator/a;)Lkik/arcane/net/communicator/a$c;
 
     move-result-object v2
 
@@ -71,9 +71,9 @@
 
     .line 831
     :goto_0
-    iget-object v2, p0, Lkik/android/net/communicator/a$d;->b:Lkik/android/net/communicator/a$c;
+    iget-object v2, p0, Lkik/arcane/net/communicator/a$d;->b:Lkik/arcane/net/communicator/a$c;
 
-    invoke-virtual {v2}, Lkik/android/net/communicator/a$c;->c()Z
+    invoke-virtual {v2}, Lkik/arcane/net/communicator/a$c;->c()Z
 
     move-result v2
 
@@ -103,11 +103,11 @@
 
     .line 836
     :try_start_2
-    iget-object v0, p0, Lkik/android/net/communicator/a$d;->a:Lkik/android/net/communicator/a;
+    iget-object v0, p0, Lkik/arcane/net/communicator/a$d;->a:Lkik/arcane/net/communicator/a;
 
     const/16 v1, 0x8
 
-    invoke-static {v0, v1}, Lkik/android/net/communicator/a;->b(Lkik/android/net/communicator/a;I)V
+    invoke-static {v0, v1}, Lkik/arcane/net/communicator/a;->b(Lkik/arcane/net/communicator/a;I)V
     :try_end_2
     .catch Ljava/lang/Throwable; {:try_start_2 .. :try_end_2} :catch_0
 

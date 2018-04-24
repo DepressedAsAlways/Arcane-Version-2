@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/KikIqFragmentBase$1;
+.class final Lkik/arcane/chat/fragment/KikIqFragmentBase$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/KikIqFragmentBase;->sendRequest(Ljava/util/concurrent/Callable;Ljava/lang/String;Z)Lcom/kik/events/Promise;
+    value = Lkik/arcane/chat/fragment/KikIqFragmentBase;->sendRequest(Ljava/util/concurrent/Callable;Ljava/lang/String;Z)Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,16 +22,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikIqFragmentBase;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikIqFragmentBase;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikIqFragmentBase;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikIqFragmentBase;)V
     .locals 0
 
     .prologue
     .line 77
-    iput-object p1, p0, Lkik/android/chat/fragment/KikIqFragmentBase$1;->a:Lkik/android/chat/fragment/KikIqFragmentBase;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikIqFragmentBase$1;->a:Lkik/arcane/chat/fragment/KikIqFragmentBase;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -50,9 +50,9 @@
 
     .prologue
     .line 81
-    iget-object v0, p0, Lkik/android/chat/fragment/KikIqFragmentBase$1;->a:Lkik/android/chat/fragment/KikIqFragmentBase;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikIqFragmentBase$1;->a:Lkik/arcane/chat/fragment/KikIqFragmentBase;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikIqFragmentBase;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v0
 
@@ -60,9 +60,9 @@
     if-eqz v0, :cond_0
 
     .line 84
-    new-instance v1, Lkik/android/chat/fragment/KikIqFragmentBase$1$1;
+    new-instance v1, Lkik/arcane/chat/fragment/KikIqFragmentBase$1$1;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/fragment/KikIqFragmentBase$1$1;-><init>(Lkik/android/chat/fragment/KikIqFragmentBase$1;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/fragment/KikIqFragmentBase$1$1;-><init>(Lkik/arcane/chat/fragment/KikIqFragmentBase$1;)V
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->runOnUiThread(Ljava/lang/Runnable;)V
 
@@ -76,9 +76,9 @@
 
     .prologue
     .line 97
-    iget-object v0, p0, Lkik/android/chat/fragment/KikIqFragmentBase$1;->a:Lkik/android/chat/fragment/KikIqFragmentBase;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikIqFragmentBase$1;->a:Lkik/arcane/chat/fragment/KikIqFragmentBase;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikIqFragmentBase;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v0
 
@@ -86,9 +86,9 @@
     if-eqz v0, :cond_0
 
     .line 100
-    new-instance v1, Lkik/android/chat/fragment/KikIqFragmentBase$1$2;
+    new-instance v1, Lkik/arcane/chat/fragment/KikIqFragmentBase$1$2;
 
-    invoke-direct {v1, p0, p1}, Lkik/android/chat/fragment/KikIqFragmentBase$1$2;-><init>(Lkik/android/chat/fragment/KikIqFragmentBase$1;Ljava/lang/Throwable;)V
+    invoke-direct {v1, p0, p1}, Lkik/arcane/chat/fragment/KikIqFragmentBase$1$2;-><init>(Lkik/arcane/chat/fragment/KikIqFragmentBase$1;Ljava/lang/Throwable;)V
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->runOnUiThread(Ljava/lang/Runnable;)V
 
@@ -98,9 +98,9 @@
 
     .line 119
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/KikIqFragmentBase$1;->a:Lkik/android/chat/fragment/KikIqFragmentBase;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikIqFragmentBase$1;->a:Lkik/arcane/chat/fragment/KikIqFragmentBase;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikIqFragmentBase;->resignWaitDialog()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->resignWaitDialog()V
 
     goto :goto_0
 .end method

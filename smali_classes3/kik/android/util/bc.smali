@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/util/bc;
+.class final synthetic Lkik/arcane/util/bc;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/util/bc;
+.field private static final a:Lkik/arcane/util/bc;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/util/bc;
+    new-instance v0, Lkik/arcane/util/bc;
 
-    invoke-direct {v0}, Lkik/android/util/bc;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/util/bc;-><init>()V
 
-    sput-object v0, Lkik/android/util/bc;->a:Lkik/android/util/bc;
+    sput-object v0, Lkik/arcane/util/bc;->a:Lkik/arcane/util/bc;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Landroid/content/DialogInterface$OnClickListener;
     .locals 1
 
-    sget-object v0, Lkik/android/util/bc;->a:Lkik/android/util/bc;
+    sget-object v0, Lkik/arcane/util/bc;->a:Lkik/arcane/util/bc;
 
     return-object v0
 .end method

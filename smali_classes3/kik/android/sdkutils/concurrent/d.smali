@@ -1,12 +1,12 @@
-.class public final Lkik/android/sdkutils/concurrent/d;
-.super Lkik/android/sdkutils/concurrent/f;
+.class public final Lkik/arcane/sdkutils/concurrent/d;
+.super Lkik/arcane/sdkutils/concurrent/f;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkik/android/sdkutils/concurrent/f",
+        "Lkik/arcane/sdkutils/concurrent/f",
         "<",
         "Ljava/lang/String;",
         "Lkik/core/datatypes/n;",
@@ -25,10 +25,10 @@
 
     .prologue
     .line 19
-    invoke-direct {p0, p1}, Lkik/android/sdkutils/concurrent/f;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p1}, Lkik/arcane/sdkutils/concurrent/f;-><init>(Ljava/lang/Object;)V
 
     .line 20
-    iput-object p2, p0, Lkik/android/sdkutils/concurrent/d;->a:Lkik/core/interfaces/l;
+    iput-object p2, p0, Lkik/arcane/sdkutils/concurrent/d;->a:Lkik/core/interfaces/l;
 
     .line 21
     return-void
@@ -50,9 +50,9 @@
 
     .prologue
     .line 26
-    iget-object v1, p0, Lkik/android/sdkutils/concurrent/d;->a:Lkik/core/interfaces/l;
+    iget-object v1, p0, Lkik/arcane/sdkutils/concurrent/d;->a:Lkik/core/interfaces/l;
 
-    iget-object v0, p0, Lkik/android/sdkutils/concurrent/d;->c:Ljava/lang/Object;
+    iget-object v0, p0, Lkik/arcane/sdkutils/concurrent/d;->c:Ljava/lang/Object;
 
     check-cast v0, Ljava/lang/String;
 
@@ -60,10 +60,10 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/sdkutils/concurrent/d;->b:Lcom/kik/events/Promise;
+    iput-object v0, p0, Lkik/arcane/sdkutils/concurrent/d;->b:Lcom/kik/events/Promise;
 
     .line 27
-    iget-object v0, p0, Lkik/android/sdkutils/concurrent/d;->b:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/sdkutils/concurrent/d;->b:Lcom/kik/events/Promise;
 
     return-object v0
 .end method
@@ -78,7 +78,7 @@
 
     .prologue
     .line 13
-    invoke-virtual {p0}, Lkik/android/sdkutils/concurrent/d;->a()Lcom/kik/events/Promise;
+    invoke-virtual {p0}, Lkik/arcane/sdkutils/concurrent/d;->a()Lcom/kik/events/Promise;
 
     move-result-object v0
 

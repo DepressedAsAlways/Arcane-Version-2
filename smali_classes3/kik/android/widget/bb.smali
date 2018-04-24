@@ -1,4 +1,4 @@
-.class public abstract Lkik/android/widget/bb;
+.class public abstract Lkik/arcane/widget/bb;
 .super Landroid/graphics/drawable/Drawable;
 .source "SourceFile"
 

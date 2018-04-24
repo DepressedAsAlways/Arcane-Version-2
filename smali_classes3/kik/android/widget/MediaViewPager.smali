@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/MediaViewPager;
+.class public Lkik/arcane/widget/MediaViewPager;
 .super Landroid/support/v4/view/ViewPager;
 .source "SourceFile"
 

@@ -1,4 +1,4 @@
-.class public final Lkik/android/b/h;
+.class public final Lkik/arcane/b/h;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,13 +6,13 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/b/h$a;
+        Lkik/arcane/b/h$a;
     }
 .end annotation
 
 
 # instance fields
-.field private a:Lkik/android/b/h$a;
+.field private a:Lkik/arcane/b/h$a;
 
 
 # direct methods
@@ -24,16 +24,16 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 18
-    new-instance v0, Lkik/android/b/h$a;
+    new-instance v0, Lkik/arcane/b/h$a;
 
-    invoke-direct {v0, p0, p1, p2}, Lkik/android/b/h$a;-><init>(Lkik/android/b/h;Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {v0, p0, p1, p2}, Lkik/arcane/b/h$a;-><init>(Lkik/arcane/b/h;Landroid/content/Context;Ljava/lang/String;)V
 
-    iput-object v0, p0, Lkik/android/b/h;->a:Lkik/android/b/h$a;
+    iput-object v0, p0, Lkik/arcane/b/h;->a:Lkik/arcane/b/h$a;
 
     .line 20
-    iget-object v0, p0, Lkik/android/b/h;->a:Lkik/android/b/h$a;
+    iget-object v0, p0, Lkik/arcane/b/h;->a:Lkik/arcane/b/h$a;
 
-    invoke-virtual {v0}, Lkik/android/b/h$a;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v0}, Lkik/arcane/b/h$a;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v0
 
@@ -50,15 +50,15 @@
 
     .prologue
     .line 25
-    iget-object v1, p0, Lkik/android/b/h;->a:Lkik/android/b/h$a;
+    iget-object v1, p0, Lkik/arcane/b/h;->a:Lkik/arcane/b/h$a;
 
     monitor-enter v1
 
     .line 26
     :try_start_0
-    iget-object v0, p0, Lkik/android/b/h;->a:Lkik/android/b/h$a;
+    iget-object v0, p0, Lkik/arcane/b/h;->a:Lkik/arcane/b/h$a;
 
-    invoke-virtual {v0}, Lkik/android/b/h$a;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v0}, Lkik/arcane/b/h$a;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v0
 

@@ -1,10 +1,10 @@
-.class public Lkik/android/widget/EllipsisTextView;
-.super Lkik/android/widget/RobotoTextView;
+.class public Lkik/arcane/widget/EllipsisTextView;
+.super Lkik/arcane/widget/RobotoTextView;
 .source "SourceFile"
 
 
 # instance fields
-.field protected a:Lkik/android/util/by;
+.field protected a:Lkik/arcane/util/by;
 
 .field protected b:Landroid/text/SpannableStringBuilder;
 
@@ -52,34 +52,34 @@
 
     .prologue
     .line 61
-    invoke-direct {p0, p1}, Lkik/android/widget/RobotoTextView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lkik/arcane/widget/RobotoTextView;-><init>(Landroid/content/Context;)V
 
     .line 48
     new-instance v0, Lrx/f/b;
 
     invoke-direct {v0}, Lrx/f/b;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/EllipsisTextView;->h:Lrx/f/b;
+    iput-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->h:Lrx/f/b;
 
     .line 50
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/EllipsisTextView;->i:Ljava/util/ArrayList;
+    iput-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->i:Ljava/util/ArrayList;
 
     .line 52
     const/high16 v0, 0x3f800000    # 1.0f
 
-    iput v0, p0, Lkik/android/widget/EllipsisTextView;->k:F
+    iput v0, p0, Lkik/arcane/widget/EllipsisTextView;->k:F
 
     .line 53
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/widget/EllipsisTextView;->l:F
+    iput v0, p0, Lkik/arcane/widget/EllipsisTextView;->l:F
 
     .line 62
-    invoke-direct {p0}, Lkik/android/widget/EllipsisTextView;->d()V
+    invoke-direct {p0}, Lkik/arcane/widget/EllipsisTextView;->d()V
 
     .line 63
     return-void
@@ -90,34 +90,34 @@
 
     .prologue
     .line 67
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/RobotoTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/RobotoTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 48
     new-instance v0, Lrx/f/b;
 
     invoke-direct {v0}, Lrx/f/b;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/EllipsisTextView;->h:Lrx/f/b;
+    iput-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->h:Lrx/f/b;
 
     .line 50
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/EllipsisTextView;->i:Ljava/util/ArrayList;
+    iput-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->i:Ljava/util/ArrayList;
 
     .line 52
     const/high16 v0, 0x3f800000    # 1.0f
 
-    iput v0, p0, Lkik/android/widget/EllipsisTextView;->k:F
+    iput v0, p0, Lkik/arcane/widget/EllipsisTextView;->k:F
 
     .line 53
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/widget/EllipsisTextView;->l:F
+    iput v0, p0, Lkik/arcane/widget/EllipsisTextView;->l:F
 
     .line 68
-    invoke-direct {p0}, Lkik/android/widget/EllipsisTextView;->d()V
+    invoke-direct {p0}, Lkik/arcane/widget/EllipsisTextView;->d()V
 
     .line 69
     return-void
@@ -128,34 +128,34 @@
 
     .prologue
     .line 73
-    invoke-direct {p0, p1, p2, p3}, Lkik/android/widget/RobotoTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lkik/arcane/widget/RobotoTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 48
     new-instance v0, Lrx/f/b;
 
     invoke-direct {v0}, Lrx/f/b;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/EllipsisTextView;->h:Lrx/f/b;
+    iput-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->h:Lrx/f/b;
 
     .line 50
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/EllipsisTextView;->i:Ljava/util/ArrayList;
+    iput-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->i:Ljava/util/ArrayList;
 
     .line 52
     const/high16 v0, 0x3f800000    # 1.0f
 
-    iput v0, p0, Lkik/android/widget/EllipsisTextView;->k:F
+    iput v0, p0, Lkik/arcane/widget/EllipsisTextView;->k:F
 
     .line 53
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/widget/EllipsisTextView;->l:F
+    iput v0, p0, Lkik/arcane/widget/EllipsisTextView;->l:F
 
     .line 74
-    invoke-direct {p0}, Lkik/android/widget/EllipsisTextView;->d()V
+    invoke-direct {p0}, Lkik/arcane/widget/EllipsisTextView;->d()V
 
     .line 75
     return-void
@@ -168,23 +168,23 @@
     .line 220
     new-instance v0, Landroid/text/StaticLayout;
 
-    invoke-virtual {p0}, Lkik/android/widget/EllipsisTextView;->getPaint()Landroid/text/TextPaint;
+    invoke-virtual {p0}, Lkik/arcane/widget/EllipsisTextView;->getPaint()Landroid/text/TextPaint;
 
     move-result-object v2
 
     const/4 v1, 0x0
 
-    invoke-virtual {p0}, Lkik/android/widget/EllipsisTextView;->getMeasuredWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/EllipsisTextView;->getMeasuredWidth()I
 
     move-result v3
 
-    invoke-virtual {p0}, Lkik/android/widget/EllipsisTextView;->getPaddingLeft()I
+    invoke-virtual {p0}, Lkik/arcane/widget/EllipsisTextView;->getPaddingLeft()I
 
     move-result v4
 
     sub-int/2addr v3, v4
 
-    invoke-virtual {p0}, Lkik/android/widget/EllipsisTextView;->getPaddingRight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/EllipsisTextView;->getPaddingRight()I
 
     move-result v4
 
@@ -196,9 +196,9 @@
 
     sget-object v4, Landroid/text/Layout$Alignment;->ALIGN_NORMAL:Landroid/text/Layout$Alignment;
 
-    iget v5, p0, Lkik/android/widget/EllipsisTextView;->k:F
+    iget v5, p0, Lkik/arcane/widget/EllipsisTextView;->k:F
 
-    iget v6, p0, Lkik/android/widget/EllipsisTextView;->l:F
+    iget v6, p0, Lkik/arcane/widget/EllipsisTextView;->l:F
 
     const/4 v7, 0x1
 
@@ -220,7 +220,7 @@
     const/4 v1, 0x0
 
     .line 152
-    iget-object v0, p0, Lkik/android/widget/EllipsisTextView;->d:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->d:Ljava/lang/CharSequence;
 
     invoke-static {v0}, Lkik/core/util/u;->a(Ljava/lang/CharSequence;)Z
 
@@ -234,7 +234,7 @@
 
     .line 156
     :cond_0
-    iget v0, p0, Lkik/android/widget/EllipsisTextView;->p:I
+    iget v0, p0, Lkik/arcane/widget/EllipsisTextView;->p:I
 
     add-int/lit8 v0, v0, -0x1
 
@@ -243,15 +243,15 @@
     move-result v4
 
     .line 157
-    iget-object v0, p0, Lkik/android/widget/EllipsisTextView;->b:Landroid/text/SpannableStringBuilder;
+    iget-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->b:Landroid/text/SpannableStringBuilder;
 
-    new-instance v2, Lkik/android/chat/view/text/a;
+    new-instance v2, Lkik/arcane/chat/view/text/a;
 
-    invoke-static {p0}, Lkik/android/widget/ah;->a(Lkik/android/widget/EllipsisTextView;)Lrx/functions/a;
+    invoke-static {p0}, Lkik/arcane/widget/ah;->a(Lkik/arcane/widget/EllipsisTextView;)Lrx/functions/a;
 
     move-result-object v5
 
-    invoke-virtual {p0}, Lkik/android/widget/EllipsisTextView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/EllipsisTextView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v6
 
@@ -261,9 +261,9 @@
 
     move-result v6
 
-    invoke-direct {v2, v5, v6}, Lkik/android/chat/view/text/a;-><init>(Lrx/functions/a;I)V
+    invoke-direct {v2, v5, v6}, Lkik/arcane/chat/view/text/a;-><init>(Lrx/functions/a;I)V
 
-    iget-object v5, p0, Lkik/android/widget/EllipsisTextView;->b:Landroid/text/SpannableStringBuilder;
+    iget-object v5, p0, Lkik/arcane/widget/EllipsisTextView;->b:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v5}, Landroid/text/SpannableStringBuilder;->length()I
 
@@ -274,14 +274,14 @@
     invoke-virtual {v0, v2, v1, v5, v6}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
     .line 160
-    iget-object v0, p0, Lkik/android/widget/EllipsisTextView;->d:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->d:Ljava/lang/CharSequence;
 
     invoke-interface {v0, v1, v4}, Ljava/lang/CharSequence;->subSequence(II)Ljava/lang/CharSequence;
 
     move-result-object v0
 
     .line 162
-    iget-object v2, p0, Lkik/android/widget/EllipsisTextView;->b:Landroid/text/SpannableStringBuilder;
+    iget-object v2, p0, Lkik/arcane/widget/EllipsisTextView;->b:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v2}, Landroid/text/SpannableStringBuilder;->length()I
 
@@ -304,7 +304,7 @@
     .line 179
     new-array v0, v8, [Ljava/lang/CharSequence;
 
-    iget-object v2, p0, Lkik/android/widget/EllipsisTextView;->d:Ljava/lang/CharSequence;
+    iget-object v2, p0, Lkik/arcane/widget/EllipsisTextView;->d:Ljava/lang/CharSequence;
 
     add-int/lit8 v4, v4, -0x1
 
@@ -314,7 +314,7 @@
 
     aput-object v2, v0, v1
 
-    iget-object v1, p0, Lkik/android/widget/EllipsisTextView;->b:Landroid/text/SpannableStringBuilder;
+    iget-object v1, p0, Lkik/arcane/widget/EllipsisTextView;->b:Landroid/text/SpannableStringBuilder;
 
     aput-object v1, v0, v3
 
@@ -322,13 +322,13 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/EllipsisTextView;->e:Ljava/lang/CharSequence;
+    iput-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->e:Ljava/lang/CharSequence;
 
     .line 185
     :goto_2
-    iget-object v0, p0, Lkik/android/widget/EllipsisTextView;->e:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->e:Ljava/lang/CharSequence;
 
-    invoke-direct {p0, v0}, Lkik/android/widget/EllipsisTextView;->a(Ljava/lang/CharSequence;)Landroid/text/StaticLayout;
+    invoke-direct {p0, v0}, Lkik/arcane/widget/EllipsisTextView;->a(Ljava/lang/CharSequence;)Landroid/text/StaticLayout;
 
     move-result-object v0
 
@@ -355,7 +355,7 @@
 
     add-int/2addr v0, v2
 
-    iget v2, p0, Lkik/android/widget/EllipsisTextView;->p:I
+    iget v2, p0, Lkik/arcane/widget/EllipsisTextView;->p:I
 
     add-int/lit8 v2, v2, 0x5
 
@@ -363,10 +363,10 @@
 
     add-int/2addr v0, v1
 
-    iput v0, p0, Lkik/android/widget/EllipsisTextView;->n:I
+    iput v0, p0, Lkik/arcane/widget/EllipsisTextView;->n:I
 
     .line 188
-    invoke-direct {p0}, Lkik/android/widget/EllipsisTextView;->e()V
+    invoke-direct {p0}, Lkik/arcane/widget/EllipsisTextView;->e()V
 
     goto :goto_0
 
@@ -377,7 +377,7 @@
 
     .line 166
     :goto_3
-    iget-object v5, p0, Lkik/android/widget/EllipsisTextView;->b:Landroid/text/SpannableStringBuilder;
+    iget-object v5, p0, Lkik/arcane/widget/EllipsisTextView;->b:Landroid/text/SpannableStringBuilder;
 
     invoke-virtual {v5}, Landroid/text/SpannableStringBuilder;->length()I
 
@@ -441,7 +441,7 @@
 
     aput-object v2, v0, v1
 
-    iget-object v1, p0, Lkik/android/widget/EllipsisTextView;->b:Landroid/text/SpannableStringBuilder;
+    iget-object v1, p0, Lkik/arcane/widget/EllipsisTextView;->b:Landroid/text/SpannableStringBuilder;
 
     aput-object v1, v0, v3
 
@@ -449,7 +449,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/EllipsisTextView;->e:Ljava/lang/CharSequence;
+    iput-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->e:Ljava/lang/CharSequence;
 
     goto :goto_2
 
@@ -459,7 +459,7 @@
     goto :goto_1
 .end method
 
-.method static synthetic a(Lkik/android/widget/EllipsisTextView;)V
+.method static synthetic a(Lkik/arcane/widget/EllipsisTextView;)V
     .locals 2
 
     .prologue
@@ -468,44 +468,44 @@
     .line 195
     const-string v0, ""
 
-    iput-object v0, p0, Lkik/android/widget/EllipsisTextView;->d:Ljava/lang/CharSequence;
+    iput-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->d:Ljava/lang/CharSequence;
 
     .line 196
     const-string v0, ""
 
-    iput-object v0, p0, Lkik/android/widget/EllipsisTextView;->e:Ljava/lang/CharSequence;
+    iput-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->e:Ljava/lang/CharSequence;
 
     .line 197
-    iput v1, p0, Lkik/android/widget/EllipsisTextView;->o:I
+    iput v1, p0, Lkik/arcane/widget/EllipsisTextView;->o:I
 
     .line 198
-    iput v1, p0, Lkik/android/widget/EllipsisTextView;->m:I
+    iput v1, p0, Lkik/arcane/widget/EllipsisTextView;->m:I
 
     .line 199
-    iput v1, p0, Lkik/android/widget/EllipsisTextView;->n:I
+    iput v1, p0, Lkik/arcane/widget/EllipsisTextView;->n:I
 
     .line 200
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/widget/EllipsisTextView;)V
+.method static synthetic b(Lkik/arcane/widget/EllipsisTextView;)V
     .locals 5
 
     .prologue
     const/4 v4, 0x0
 
     .line 107
-    new-instance v1, Lkik/android/chat/view/text/a;
+    new-instance v1, Lkik/arcane/chat/view/text/a;
 
-    invoke-static {p0}, Lkik/android/widget/aj;->a(Lkik/android/widget/EllipsisTextView;)Lrx/functions/a;
+    invoke-static {p0}, Lkik/arcane/widget/aj;->a(Lkik/arcane/widget/EllipsisTextView;)Lrx/functions/a;
 
     move-result-object v0
 
-    invoke-virtual {p0}, Lkik/android/widget/EllipsisTextView;->getCurrentTextColor()I
+    invoke-virtual {p0}, Lkik/arcane/widget/EllipsisTextView;->getCurrentTextColor()I
 
     move-result v2
 
-    invoke-direct {v1, v0, v2}, Lkik/android/chat/view/text/a;-><init>(Lrx/functions/a;I)V
+    invoke-direct {v1, v0, v2}, Lkik/arcane/chat/view/text/a;-><init>(Lrx/functions/a;I)V
 
     .line 108
     new-instance v0, Landroid/text/SpannableStringBuilder;
@@ -514,7 +514,7 @@
 
     invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v3, p0, Lkik/android/widget/EllipsisTextView;->c:Ljava/lang/CharSequence;
+    iget-object v3, p0, Lkik/arcane/widget/EllipsisTextView;->c:Ljava/lang/CharSequence;
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -546,18 +546,18 @@
 
     move-result-object v2
 
-    invoke-virtual {p0, v2}, Lkik/android/widget/EllipsisTextView;->setMovementMethod(Landroid/text/method/MovementMethod;)V
+    invoke-virtual {p0, v2}, Lkik/arcane/widget/EllipsisTextView;->setMovementMethod(Landroid/text/method/MovementMethod;)V
 
     .line 111
-    invoke-virtual {p0, v4}, Lkik/android/widget/EllipsisTextView;->setHighlightColor(I)V
+    invoke-virtual {p0, v4}, Lkik/arcane/widget/EllipsisTextView;->setHighlightColor(I)V
 
     .line 113
-    iput-object v0, p0, Lkik/android/widget/EllipsisTextView;->d:Ljava/lang/CharSequence;
+    iput-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->d:Ljava/lang/CharSequence;
 
     .line 115
-    iget-object v0, p0, Lkik/android/widget/EllipsisTextView;->c:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->c:Ljava/lang/CharSequence;
 
-    invoke-direct {p0, v0}, Lkik/android/widget/EllipsisTextView;->a(Ljava/lang/CharSequence;)Landroid/text/StaticLayout;
+    invoke-direct {p0, v0}, Lkik/arcane/widget/EllipsisTextView;->a(Ljava/lang/CharSequence;)Landroid/text/StaticLayout;
 
     move-result-object v0
 
@@ -566,7 +566,7 @@
 
     move-result v2
 
-    iput v2, p0, Lkik/android/widget/EllipsisTextView;->o:I
+    iput v2, p0, Lkik/arcane/widget/EllipsisTextView;->o:I
 
     .line 117
     invoke-virtual {v0}, Landroid/text/StaticLayout;->getHeight()I
@@ -591,7 +591,7 @@
 
     add-int/2addr v3, v4
 
-    iget v4, p0, Lkik/android/widget/EllipsisTextView;->o:I
+    iget v4, p0, Lkik/arcane/widget/EllipsisTextView;->o:I
 
     add-int/lit8 v4, v4, 0x5
 
@@ -599,55 +599,55 @@
 
     add-int/2addr v2, v3
 
-    iput v2, p0, Lkik/android/widget/EllipsisTextView;->m:I
+    iput v2, p0, Lkik/arcane/widget/EllipsisTextView;->m:I
 
     .line 119
-    iget-object v2, p0, Lkik/android/widget/EllipsisTextView;->d:Ljava/lang/CharSequence;
+    iget-object v2, p0, Lkik/arcane/widget/EllipsisTextView;->d:Ljava/lang/CharSequence;
 
-    iput-object v2, p0, Lkik/android/widget/EllipsisTextView;->e:Ljava/lang/CharSequence;
+    iput-object v2, p0, Lkik/arcane/widget/EllipsisTextView;->e:Ljava/lang/CharSequence;
 
     .line 120
-    iget v2, p0, Lkik/android/widget/EllipsisTextView;->m:I
+    iget v2, p0, Lkik/arcane/widget/EllipsisTextView;->m:I
 
-    iput v2, p0, Lkik/android/widget/EllipsisTextView;->n:I
+    iput v2, p0, Lkik/arcane/widget/EllipsisTextView;->n:I
 
     .line 122
-    iget v2, p0, Lkik/android/widget/EllipsisTextView;->o:I
+    iget v2, p0, Lkik/arcane/widget/EllipsisTextView;->o:I
 
-    iget v3, p0, Lkik/android/widget/EllipsisTextView;->p:I
+    iget v3, p0, Lkik/arcane/widget/EllipsisTextView;->p:I
 
     if-le v2, v3, :cond_0
 
     .line 123
-    invoke-direct {p0, v0}, Lkik/android/widget/EllipsisTextView;->a(Landroid/text/StaticLayout;)V
+    invoke-direct {p0, v0}, Lkik/arcane/widget/EllipsisTextView;->a(Landroid/text/StaticLayout;)V
 
     .line 134
     :goto_0
-    invoke-virtual {p0}, Lkik/android/widget/EllipsisTextView;->b()V
+    invoke-virtual {p0}, Lkik/arcane/widget/EllipsisTextView;->b()V
 
     .line 135
     return-void
 
     .line 126
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/EllipsisTextView;->d:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->d:Ljava/lang/CharSequence;
 
     check-cast v0, Landroid/text/Spannable;
 
     invoke-interface {v0, v1}, Landroid/text/Spannable;->removeSpan(Ljava/lang/Object;)V
 
     .line 128
-    invoke-direct {p0}, Lkik/android/widget/EllipsisTextView;->e()V
+    invoke-direct {p0}, Lkik/arcane/widget/EllipsisTextView;->e()V
 
     .line 130
-    iget-object v0, p0, Lkik/android/widget/EllipsisTextView;->d:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->d:Ljava/lang/CharSequence;
 
-    iput-object v0, p0, Lkik/android/widget/EllipsisTextView;->e:Ljava/lang/CharSequence;
+    iput-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->e:Ljava/lang/CharSequence;
 
     .line 131
-    iget v0, p0, Lkik/android/widget/EllipsisTextView;->m:I
+    iget v0, p0, Lkik/arcane/widget/EllipsisTextView;->m:I
 
-    iput v0, p0, Lkik/android/widget/EllipsisTextView;->n:I
+    iput v0, p0, Lkik/arcane/widget/EllipsisTextView;->n:I
 
     goto :goto_0
 .end method
@@ -657,11 +657,11 @@
 
     .prologue
     .line 79
-    new-instance v0, Lkik/android/util/by;
+    new-instance v0, Lkik/arcane/util/by;
 
-    invoke-direct {v0, p0}, Lkik/android/util/by;-><init>(Landroid/view/View;)V
+    invoke-direct {v0, p0}, Lkik/arcane/util/by;-><init>(Landroid/view/View;)V
 
-    iput-object v0, p0, Lkik/android/widget/EllipsisTextView;->a:Lkik/android/util/by;
+    iput-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->a:Lkik/arcane/util/by;
 
     .line 80
     return-void
@@ -672,7 +672,7 @@
 
     .prologue
     .line 205
-    iget-boolean v0, p0, Lkik/android/widget/EllipsisTextView;->j:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/EllipsisTextView;->j:Z
 
     if-eqz v0, :cond_0
 
@@ -683,7 +683,7 @@
 
     const/4 v1, 0x0
 
-    iget-object v2, p0, Lkik/android/widget/EllipsisTextView;->d:Ljava/lang/CharSequence;
+    iget-object v2, p0, Lkik/arcane/widget/EllipsisTextView;->d:Ljava/lang/CharSequence;
 
     aput-object v2, v0, v1
 
@@ -695,7 +695,7 @@
 
     const/4 v1, 0x2
 
-    iget-object v2, p0, Lkik/android/widget/EllipsisTextView;->f:Landroid/text/SpannableString;
+    iget-object v2, p0, Lkik/arcane/widget/EllipsisTextView;->f:Landroid/text/SpannableString;
 
     aput-object v2, v0, v1
 
@@ -703,12 +703,12 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/EllipsisTextView;->d:Ljava/lang/CharSequence;
+    iput-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->d:Ljava/lang/CharSequence;
 
     .line 1213
-    iget-object v0, p0, Lkik/android/widget/EllipsisTextView;->d:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->d:Ljava/lang/CharSequence;
 
-    invoke-direct {p0, v0}, Lkik/android/widget/EllipsisTextView;->a(Ljava/lang/CharSequence;)Landroid/text/StaticLayout;
+    invoke-direct {p0, v0}, Lkik/arcane/widget/EllipsisTextView;->a(Ljava/lang/CharSequence;)Landroid/text/StaticLayout;
 
     move-result-object v0
 
@@ -717,7 +717,7 @@
 
     move-result v1
 
-    iput v1, p0, Lkik/android/widget/EllipsisTextView;->o:I
+    iput v1, p0, Lkik/arcane/widget/EllipsisTextView;->o:I
 
     .line 1215
     invoke-virtual {v0}, Landroid/text/StaticLayout;->getHeight()I
@@ -742,7 +742,7 @@
 
     add-int/2addr v0, v2
 
-    iget v2, p0, Lkik/android/widget/EllipsisTextView;->o:I
+    iget v2, p0, Lkik/arcane/widget/EllipsisTextView;->o:I
 
     add-int/lit8 v2, v2, 0x5
 
@@ -750,7 +750,7 @@
 
     add-int/2addr v0, v1
 
-    iput v0, p0, Lkik/android/widget/EllipsisTextView;->m:I
+    iput v0, p0, Lkik/arcane/widget/EllipsisTextView;->m:I
 
     .line 209
     :cond_0
@@ -764,7 +764,7 @@
 
     .prologue
     .line 99
-    iget-object v0, p0, Lkik/android/widget/EllipsisTextView;->c:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->c:Ljava/lang/CharSequence;
 
     invoke-static {v0}, Lkik/core/util/u;->a(Ljava/lang/CharSequence;)Z
 
@@ -773,22 +773,22 @@
     if-eqz v0, :cond_0
 
     .line 1193
-    iget-object v0, p0, Lkik/android/widget/EllipsisTextView;->a:Lkik/android/util/by;
+    iget-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->a:Lkik/arcane/util/by;
 
-    invoke-static {p0}, Lkik/android/widget/ai;->a(Lkik/android/widget/EllipsisTextView;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/widget/ai;->a(Lkik/arcane/widget/EllipsisTextView;)Ljava/lang/Runnable;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/util/by;->a(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/util/by;->a(Ljava/lang/Runnable;)V
 
     .line 101
-    iget-object v0, p0, Lkik/android/widget/EllipsisTextView;->a:Lkik/android/util/by;
+    iget-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->a:Lkik/arcane/util/by;
 
-    invoke-static {p0}, Lkik/android/widget/af;->a(Lkik/android/widget/EllipsisTextView;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/widget/af;->a(Lkik/arcane/widget/EllipsisTextView;)Ljava/lang/Runnable;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/util/by;->a(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/util/by;->a(Ljava/lang/Runnable;)V
 
     .line 137
     :goto_0
@@ -796,13 +796,13 @@
 
     .line 105
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/EllipsisTextView;->a:Lkik/android/util/by;
+    iget-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->a:Lkik/arcane/util/by;
 
-    invoke-static {p0}, Lkik/android/widget/ag;->a(Lkik/android/widget/EllipsisTextView;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/widget/ag;->a(Lkik/arcane/widget/EllipsisTextView;)Ljava/lang/Runnable;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/util/by;->a(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/util/by;->a(Ljava/lang/Runnable;)V
 
     goto :goto_0
 .end method
@@ -826,16 +826,16 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/EllipsisTextView;->c:Ljava/lang/CharSequence;
+    iput-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->c:Ljava/lang/CharSequence;
 
     .line 85
-    iput-boolean p2, p0, Lkik/android/widget/EllipsisTextView;->j:Z
+    iput-boolean p2, p0, Lkik/arcane/widget/EllipsisTextView;->j:Z
 
     .line 86
-    iput p4, p0, Lkik/android/widget/EllipsisTextView;->p:I
+    iput p4, p0, Lkik/arcane/widget/EllipsisTextView;->p:I
 
     .line 87
-    iput-object p5, p0, Lkik/android/widget/EllipsisTextView;->g:Ljava/lang/String;
+    iput-object p5, p0, Lkik/arcane/widget/EllipsisTextView;->g:Ljava/lang/String;
 
     .line 89
     new-instance v0, Landroid/text/SpannableString;
@@ -846,14 +846,14 @@
 
     invoke-direct {v0, v1}, Landroid/text/SpannableString;-><init>(Ljava/lang/CharSequence;)V
 
-    iput-object v0, p0, Lkik/android/widget/EllipsisTextView;->f:Landroid/text/SpannableString;
+    iput-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->f:Landroid/text/SpannableString;
 
     .line 90
-    iget-object v0, p0, Lkik/android/widget/EllipsisTextView;->f:Landroid/text/SpannableString;
+    iget-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->f:Landroid/text/SpannableString;
 
-    new-instance v1, Lkik/android/chat/view/text/a;
+    new-instance v1, Lkik/arcane/chat/view/text/a;
 
-    invoke-virtual {p0}, Lkik/android/widget/EllipsisTextView;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/EllipsisTextView;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
@@ -863,9 +863,9 @@
 
     move-result v2
 
-    invoke-direct {v1, p3, v2}, Lkik/android/chat/view/text/a;-><init>(Lrx/functions/a;I)V
+    invoke-direct {v1, p3, v2}, Lkik/arcane/chat/view/text/a;-><init>(Lrx/functions/a;I)V
 
-    iget-object v2, p0, Lkik/android/widget/EllipsisTextView;->f:Landroid/text/SpannableString;
+    iget-object v2, p0, Lkik/arcane/widget/EllipsisTextView;->f:Landroid/text/SpannableString;
 
     invoke-virtual {v2}, Landroid/text/SpannableString;->length()I
 
@@ -888,7 +888,7 @@
 
     new-array v3, v3, [Ljava/lang/Object;
 
-    iget-object v4, p0, Lkik/android/widget/EllipsisTextView;->g:Ljava/lang/String;
+    iget-object v4, p0, Lkik/arcane/widget/EllipsisTextView;->g:Ljava/lang/String;
 
     aput-object v4, v3, v5
 
@@ -898,10 +898,10 @@
 
     invoke-direct {v0, v1}, Landroid/text/SpannableStringBuilder;-><init>(Ljava/lang/CharSequence;)V
 
-    iput-object v0, p0, Lkik/android/widget/EllipsisTextView;->b:Landroid/text/SpannableStringBuilder;
+    iput-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->b:Landroid/text/SpannableStringBuilder;
 
     .line 94
-    invoke-virtual {p0}, Lkik/android/widget/EllipsisTextView;->a()V
+    invoke-virtual {p0}, Lkik/arcane/widget/EllipsisTextView;->a()V
 
     .line 95
     return-void
@@ -912,12 +912,12 @@
 
     .prologue
     .line 141
-    iget-object v0, p0, Lkik/android/widget/EllipsisTextView;->e:Ljava/lang/CharSequence;
+    iget-object v0, p0, Lkik/arcane/widget/EllipsisTextView;->e:Ljava/lang/CharSequence;
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/EllipsisTextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/EllipsisTextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 142
-    invoke-virtual {p0}, Lkik/android/widget/EllipsisTextView;->requestLayout()V
+    invoke-virtual {p0}, Lkik/arcane/widget/EllipsisTextView;->requestLayout()V
 
     .line 143
     return-void

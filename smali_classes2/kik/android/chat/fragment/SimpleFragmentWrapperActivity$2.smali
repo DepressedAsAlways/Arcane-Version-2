@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/SimpleFragmentWrapperActivity$2;
+.class final Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity$2;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;->onCreate(Landroid/os/Bundle;)V
+    value = Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;->onCreate(Landroid/os/Bundle;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;
+.field final synthetic a:Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;)V
     .locals 0
 
     .prologue
     .line 112
-    iput-object p1, p0, Lkik/android/chat/fragment/SimpleFragmentWrapperActivity$2;->a:Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity$2;->a:Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -63,11 +63,11 @@
     invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Bundle;)Landroid/content/Intent;
 
     .line 1120
-    iget-object v1, p0, Lkik/android/chat/fragment/SimpleFragmentWrapperActivity$2;->a:Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity$2;->a:Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;
 
     const/4 v2, -0x1
 
-    invoke-virtual {v1, v2, v0}, Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;->setResult(ILandroid/content/Intent;)V
+    invoke-virtual {v1, v2, v0}, Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;->setResult(ILandroid/content/Intent;)V
 
     .line 112
     return-void
@@ -81,11 +81,11 @@
     invoke-super {p0, p1}, Lcom/kik/events/k;->a(Ljava/lang/Throwable;)V
 
     .line 127
-    iget-object v0, p0, Lkik/android/chat/fragment/SimpleFragmentWrapperActivity$2;->a:Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity$2;->a:Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;->setResult(I)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;->setResult(I)V
 
     .line 128
     return-void

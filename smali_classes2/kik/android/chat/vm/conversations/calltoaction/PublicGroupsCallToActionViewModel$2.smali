@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$2;
+.class final synthetic Lkik/arcane/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel;
+    value = Lkik/arcane/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     .prologue
     .line 104
-    invoke-static {}, Lkik/android/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$Variant;->values()[Lkik/android/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$Variant;
+    invoke-static {}, Lkik/arcane/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$Variant;->values()[Lkik/arcane/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$Variant;
 
     move-result-object v0
 
@@ -32,14 +32,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$2;->a:[I
+    sput-object v0, Lkik/arcane/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$2;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$2;->a:[I
+    sget-object v0, Lkik/arcane/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$2;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$Variant;->BLUE:Lkik/android/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$Variant;
+    sget-object v1, Lkik/arcane/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$Variant;->BLUE:Lkik/arcane/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$Variant;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$Variant;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$Variant;->ordinal()I
 
     move-result v1
 
@@ -51,11 +51,11 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$2;->a:[I
+    sget-object v0, Lkik/arcane/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$2;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$Variant;->CAT:Lkik/android/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$Variant;
+    sget-object v1, Lkik/arcane/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$Variant;->CAT:Lkik/arcane/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$Variant;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$Variant;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$Variant;->ordinal()I
 
     move-result v1
 
@@ -67,11 +67,11 @@
 
     :goto_1
     :try_start_2
-    sget-object v0, Lkik/android/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$2;->a:[I
+    sget-object v0, Lkik/arcane/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$2;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$Variant;->TEXT:Lkik/android/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$Variant;
+    sget-object v1, Lkik/arcane/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$Variant;->TEXT:Lkik/arcane/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$Variant;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$Variant;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/conversations/calltoaction/PublicGroupsCallToActionViewModel$Variant;->ordinal()I
 
     move-result v1
 

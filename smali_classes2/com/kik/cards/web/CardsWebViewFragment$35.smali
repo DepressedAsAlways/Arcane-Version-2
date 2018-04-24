@@ -62,11 +62,11 @@
     .line 2126
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment$35;->c:Lcom/kik/cards/web/CardsWebViewFragment;
 
-    iget-object v0, v0, Lcom/kik/cards/web/CardsWebViewFragment;->u:Lkik/android/b/g;
+    iget-object v0, v0, Lcom/kik/cards/web/CardsWebViewFragment;->u:Lkik/arcane/b/g;
 
     iget-object v1, p0, Lcom/kik/cards/web/CardsWebViewFragment$35;->b:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lkik/android/b/g;->d(Ljava/lang/String;)Lcom/kik/events/Promise;
+    invoke-virtual {v0, v1}, Lkik/arcane/b/g;->d(Ljava/lang/String;)Lcom/kik/events/Promise;
 
     .line 2127
     return-void

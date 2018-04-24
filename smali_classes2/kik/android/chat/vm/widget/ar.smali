@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/widget/ar;
+.class final synthetic Lkik/arcane/chat/vm/widget/ar;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,30 +6,30 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/vm/widget/SmileyItemViewModel;
+.field private final a:Lkik/arcane/chat/vm/widget/SmileyItemViewModel;
 
-.field private final b:Lcom/kik/android/b/f;
+.field private final b:Lcom/kik/arcane/b/f;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/vm/widget/SmileyItemViewModel;Lcom/kik/android/b/f;)V
+.method private constructor <init>(Lkik/arcane/chat/vm/widget/SmileyItemViewModel;Lcom/kik/arcane/b/f;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/vm/widget/ar;->a:Lkik/android/chat/vm/widget/SmileyItemViewModel;
+    iput-object p1, p0, Lkik/arcane/chat/vm/widget/ar;->a:Lkik/arcane/chat/vm/widget/SmileyItemViewModel;
 
-    iput-object p2, p0, Lkik/android/chat/vm/widget/ar;->b:Lcom/kik/android/b/f;
+    iput-object p2, p0, Lkik/arcane/chat/vm/widget/ar;->b:Lcom/kik/arcane/b/f;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/vm/widget/SmileyItemViewModel;Lcom/kik/android/b/f;)Lrx/functions/b;
+.method public static a(Lkik/arcane/chat/vm/widget/SmileyItemViewModel;Lcom/kik/arcane/b/f;)Lrx/functions/b;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/widget/ar;
+    new-instance v0, Lkik/arcane/chat/vm/widget/ar;
 
-    invoke-direct {v0, p0, p1}, Lkik/android/chat/vm/widget/ar;-><init>(Lkik/android/chat/vm/widget/SmileyItemViewModel;Lcom/kik/android/b/f;)V
+    invoke-direct {v0, p0, p1}, Lkik/arcane/chat/vm/widget/ar;-><init>(Lkik/arcane/chat/vm/widget/SmileyItemViewModel;Lcom/kik/arcane/b/f;)V
 
     return-object v0
 .end method
@@ -39,13 +39,13 @@
 .method public final call(Ljava/lang/Object;)V
     .locals 2
 
-    iget-object v0, p0, Lkik/android/chat/vm/widget/ar;->a:Lkik/android/chat/vm/widget/SmileyItemViewModel;
+    iget-object v0, p0, Lkik/arcane/chat/vm/widget/ar;->a:Lkik/arcane/chat/vm/widget/SmileyItemViewModel;
 
-    iget-object v1, p0, Lkik/android/chat/vm/widget/ar;->b:Lcom/kik/android/b/f;
+    iget-object v1, p0, Lkik/arcane/chat/vm/widget/ar;->b:Lcom/kik/arcane/b/f;
 
     check-cast p1, Lrx/Emitter;
 
-    invoke-static {v0, v1, p1}, Lkik/android/chat/vm/widget/SmileyItemViewModel;->a(Lkik/android/chat/vm/widget/SmileyItemViewModel;Lcom/kik/android/b/f;Lrx/Emitter;)V
+    invoke-static {v0, v1, p1}, Lkik/arcane/chat/vm/widget/SmileyItemViewModel;->a(Lkik/arcane/chat/vm/widget/SmileyItemViewModel;Lcom/kik/arcane/b/f;Lrx/Emitter;)V
 
     return-void
 .end method

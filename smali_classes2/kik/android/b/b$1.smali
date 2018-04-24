@@ -1,14 +1,14 @@
-.class final Lkik/android/b/b$1;
+.class final Lkik/arcane/b/b$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/f/a;
+.implements Lkik/arcane/f/a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/b/b;
+    value = Lkik/arcane/b/b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/b/b;
+.field final synthetic a:Lkik/arcane/b/b;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/b/b;)V
+.method constructor <init>(Lkik/arcane/b/b;)V
     .locals 0
 
     .prologue
     .line 64
-    iput-object p1, p0, Lkik/android/b/b$1;->a:Lkik/android/b/b;
+    iput-object p1, p0, Lkik/arcane/b/b$1;->a:Lkik/arcane/b/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -219,11 +219,11 @@
     invoke-virtual {v0, p3}, Lcom/kik/cards/web/CardsWebViewFragment$a;->a(Lcom/kik/ui/fragment/FragmentBase$FragmentBundle$StackType;)Lcom/kik/ui/fragment/FragmentBase$FragmentBundle;
 
     .line 107
-    invoke-static {v1, p1}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/util/ae;Landroid/content/Context;)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-static {v1, p1}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/util/ae;Landroid/content/Context;)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->d()Landroid/content/Intent;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->d()Landroid/content/Intent;
 
     move-result-object v0
 

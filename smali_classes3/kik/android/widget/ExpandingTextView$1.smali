@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/ExpandingTextView$1;
+.class final Lkik/arcane/widget/ExpandingTextView$1;
 .super Landroid/text/style/ClickableSpan;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/ExpandingTextView;->d()V
+    value = Lkik/arcane/widget/ExpandingTextView;->d()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/ExpandingTextView;
+.field final synthetic a:Lkik/arcane/widget/ExpandingTextView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/ExpandingTextView;)V
+.method constructor <init>(Lkik/arcane/widget/ExpandingTextView;)V
     .locals 0
 
     .prologue
     .line 95
-    iput-object p1, p0, Lkik/android/widget/ExpandingTextView$1;->a:Lkik/android/widget/ExpandingTextView;
+    iput-object p1, p0, Lkik/arcane/widget/ExpandingTextView$1;->a:Lkik/arcane/widget/ExpandingTextView;
 
     invoke-direct {p0}, Landroid/text/style/ClickableSpan;-><init>()V
 
@@ -38,14 +38,14 @@
 
     .prologue
     .line 99
-    iget-object v0, p0, Lkik/android/widget/ExpandingTextView$1;->a:Lkik/android/widget/ExpandingTextView;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandingTextView$1;->a:Lkik/arcane/widget/ExpandingTextView;
 
-    invoke-static {v0}, Lkik/android/widget/ExpandingTextView;->c(Lkik/android/widget/ExpandingTextView;)Z
+    invoke-static {v0}, Lkik/arcane/widget/ExpandingTextView;->c(Lkik/arcane/widget/ExpandingTextView;)Z
 
     .line 100
-    iget-object v0, p0, Lkik/android/widget/ExpandingTextView$1;->a:Lkik/android/widget/ExpandingTextView;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandingTextView$1;->a:Lkik/arcane/widget/ExpandingTextView;
 
-    invoke-virtual {v0}, Lkik/android/widget/ExpandingTextView;->b()V
+    invoke-virtual {v0}, Lkik/arcane/widget/ExpandingTextView;->b()V
 
     .line 101
     return-void

@@ -1,4 +1,4 @@
-.class public Lkik/android/chat/fragment/AppCompatDialogFragment;
+.class public Lkik/arcane/chat/fragment/AppCompatDialogFragment;
 .super Landroid/support/v4/app/DialogFragment;
 .source "SourceFile"
 
@@ -23,11 +23,11 @@
     .line 27
     new-instance v0, Landroid/support/v7/app/AppCompatDialog;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/AppCompatDialogFragment;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/AppCompatDialogFragment;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/AppCompatDialogFragment;->getTheme()I
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/AppCompatDialogFragment;->getTheme()I
 
     move-result v2
 

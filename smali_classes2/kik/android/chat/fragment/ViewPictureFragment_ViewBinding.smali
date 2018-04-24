@@ -1,4 +1,4 @@
-.class public Lkik/android/chat/fragment/ViewPictureFragment_ViewBinding;
+.class public Lkik/arcane/chat/fragment/ViewPictureFragment_ViewBinding;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -7,11 +7,11 @@
 
 
 # instance fields
-.field private a:Lkik/android/chat/fragment/ViewPictureFragment;
+.field private a:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/chat/fragment/ViewPictureFragment;Landroid/view/View;)V
+.method public constructor <init>(Lkik/arcane/chat/fragment/ViewPictureFragment;Landroid/view/View;)V
     .locals 3
 
     .prologue
@@ -19,7 +19,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 26
-    iput-object p1, p0, Lkik/android/chat/fragment/ViewPictureFragment_ViewBinding;->a:Lkik/android/chat/fragment/ViewPictureFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ViewPictureFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
     .line 28
     const v0, 0x7f10013d
@@ -34,7 +34,7 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/ViewPictureFragment;->_topbar:Landroid/view/ViewGroup;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/ViewPictureFragment;->_topbar:Landroid/view/ViewGroup;
 
     .line 29
     const v0, 0x7f100148
@@ -49,7 +49,7 @@
 
     check-cast v0, Landroid/view/ViewGroup;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/ViewPictureFragment;->openButton:Landroid/view/ViewGroup;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/ViewPictureFragment;->openButton:Landroid/view/ViewGroup;
 
     .line 30
     const v0, 0x7f100145
@@ -64,7 +64,7 @@
 
     check-cast v0, Lcom/kik/cache/ContentImageView;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/ViewPictureFragment;->contentImageView:Lcom/kik/cache/ContentImageView;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/ViewPictureFragment;->contentImageView:Lcom/kik/cache/ContentImageView;
 
     .line 31
     const v0, 0x7f100146
@@ -79,7 +79,7 @@
 
     check-cast v0, Lcom/kik/cache/ProfileImageView;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/ViewPictureFragment;->profImageView:Lcom/kik/cache/ProfileImageView;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/ViewPictureFragment;->profImageView:Lcom/kik/cache/ProfileImageView;
 
     .line 32
     const v0, 0x7f100143
@@ -94,7 +94,7 @@
 
     check-cast v0, Landroid/widget/ImageButton;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/ViewPictureFragment;->_saveButton:Landroid/widget/ImageButton;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/ViewPictureFragment;->_saveButton:Landroid/widget/ImageButton;
 
     .line 33
     const v0, 0x7f100144
@@ -109,7 +109,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/ViewPictureFragment;->title:Landroid/widget/TextView;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/ViewPictureFragment;->title:Landroid/widget/TextView;
 
     .line 34
     const v0, 0x7f10013f
@@ -124,7 +124,7 @@
 
     check-cast v0, Landroid/widget/VideoView;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/ViewPictureFragment;->_videoView:Landroid/widget/VideoView;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/ViewPictureFragment;->_videoView:Landroid/widget/VideoView;
 
     .line 35
     const v0, 0x7f100140
@@ -139,7 +139,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/ViewPictureFragment;->_videoPlayIcon:Landroid/widget/ImageView;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/ViewPictureFragment;->_videoPlayIcon:Landroid/widget/ImageView;
 
     .line 36
     const v0, 0x7f10013c
@@ -154,7 +154,7 @@
 
     check-cast v0, Landroid/widget/FrameLayout;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/ViewPictureFragment;->_videoViewContainer:Landroid/widget/FrameLayout;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/ViewPictureFragment;->_videoViewContainer:Landroid/widget/FrameLayout;
 
     .line 37
     return-void
@@ -169,7 +169,7 @@
     const/4 v1, 0x0
 
     .line 42
-    iget-object v0, p0, Lkik/android/chat/fragment/ViewPictureFragment_ViewBinding;->a:Lkik/android/chat/fragment/ViewPictureFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ViewPictureFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
     .line 43
     if-nez v0, :cond_0
@@ -184,34 +184,34 @@
 
     .line 44
     :cond_0
-    iput-object v1, p0, Lkik/android/chat/fragment/ViewPictureFragment_ViewBinding;->a:Lkik/android/chat/fragment/ViewPictureFragment;
+    iput-object v1, p0, Lkik/arcane/chat/fragment/ViewPictureFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
     .line 46
-    iput-object v1, v0, Lkik/android/chat/fragment/ViewPictureFragment;->_topbar:Landroid/view/ViewGroup;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/ViewPictureFragment;->_topbar:Landroid/view/ViewGroup;
 
     .line 47
-    iput-object v1, v0, Lkik/android/chat/fragment/ViewPictureFragment;->openButton:Landroid/view/ViewGroup;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/ViewPictureFragment;->openButton:Landroid/view/ViewGroup;
 
     .line 48
-    iput-object v1, v0, Lkik/android/chat/fragment/ViewPictureFragment;->contentImageView:Lcom/kik/cache/ContentImageView;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/ViewPictureFragment;->contentImageView:Lcom/kik/cache/ContentImageView;
 
     .line 49
-    iput-object v1, v0, Lkik/android/chat/fragment/ViewPictureFragment;->profImageView:Lcom/kik/cache/ProfileImageView;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/ViewPictureFragment;->profImageView:Lcom/kik/cache/ProfileImageView;
 
     .line 50
-    iput-object v1, v0, Lkik/android/chat/fragment/ViewPictureFragment;->_saveButton:Landroid/widget/ImageButton;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/ViewPictureFragment;->_saveButton:Landroid/widget/ImageButton;
 
     .line 51
-    iput-object v1, v0, Lkik/android/chat/fragment/ViewPictureFragment;->title:Landroid/widget/TextView;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/ViewPictureFragment;->title:Landroid/widget/TextView;
 
     .line 52
-    iput-object v1, v0, Lkik/android/chat/fragment/ViewPictureFragment;->_videoView:Landroid/widget/VideoView;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/ViewPictureFragment;->_videoView:Landroid/widget/VideoView;
 
     .line 53
-    iput-object v1, v0, Lkik/android/chat/fragment/ViewPictureFragment;->_videoPlayIcon:Landroid/widget/ImageView;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/ViewPictureFragment;->_videoPlayIcon:Landroid/widget/ImageView;
 
     .line 54
-    iput-object v1, v0, Lkik/android/chat/fragment/ViewPictureFragment;->_videoViewContainer:Landroid/widget/FrameLayout;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/ViewPictureFragment;->_videoViewContainer:Landroid/widget/FrameLayout;
 
     .line 55
     return-void

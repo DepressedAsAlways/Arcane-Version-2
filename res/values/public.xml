@@ -2071,6 +2071,13 @@
     <public type="xml" name="topbar_button_selector_transparent" id="0x7f070022" />
 	<public type="xml" name="kinky_mods" id="0x7f070023" />
 	<public type="xml" name="kinky_devs" id="0x7f070024" />
+	<public type="xml" name="ic_read_receipt_delivered_tint" id="0x7f070025" />
+	<public type="xml" name="ic_read_receipt_ellipsis_tint" id="0x7f070026" />
+	<public type="xml" name="ic_read_receipt_error_tint" id="0x7f070027" />
+	<public type="xml" name="ic_read_receipt_incoming_tint" id="0x7f070028" />
+	<public type="xml" name="ic_read_receipt_pushed_tint" id="0x7f070029" />
+	<public type="xml" name="ic_read_receipt_read_tint" id="0x7f07002a" />
+	<public type="xml" name="ic_read_receipt_sent_tint" id="0x7f07002b" />
     <public type="raw" name="ca_certificates" id="0x7f080000" />
     <public type="raw" name="kik_icon" id="0x7f080001" />
     <public type="raw" name="lut_deeply" id="0x7f080002" />
@@ -4993,6 +5000,8 @@
     <public type="color" name="switch_thumb_material_dark" id="0x7f0e010a" />
     <public type="color" name="switch_thumb_material_light" id="0x7f0e010b" />
     <public type="color" name="text_toolbar_action_selector" id="0x7f0e010c" />
+	<public type="color" name="theme" id="0x7f0e010d" />
+	<public type="color" name="fab_buttons" id="0x7f0e010e" />
     <public type="color" name="abc_background_cache_hint_selector_material_dark" id="0x7f0e00e8" />
     <public type="color" name="abc_background_cache_hint_selector_material_light" id="0x7f0e00e9" />
     <public type="color" name="abc_color_highlight_material" id="0x7f0e00ec" />

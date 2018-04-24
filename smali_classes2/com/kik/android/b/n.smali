@@ -1,4 +1,4 @@
-.class final synthetic Lcom/kik/android/b/n;
+.class final synthetic Lcom/kik/arcane/b/n;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lcom/kik/android/b/l;
+.field private final a:Lcom/kik/arcane/b/l;
 
 
 # direct methods
-.method private constructor <init>(Lcom/kik/android/b/l;)V
+.method private constructor <init>(Lcom/kik/arcane/b/l;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/kik/android/b/n;->a:Lcom/kik/android/b/l;
+    iput-object p1, p0, Lcom/kik/arcane/b/n;->a:Lcom/kik/arcane/b/l;
 
     return-void
 .end method
 
-.method public static a(Lcom/kik/android/b/l;)Lcom/kik/events/p;
+.method public static a(Lcom/kik/arcane/b/l;)Lcom/kik/events/p;
     .locals 1
 
-    new-instance v0, Lcom/kik/android/b/n;
+    new-instance v0, Lcom/kik/arcane/b/n;
 
-    invoke-direct {v0, p0}, Lcom/kik/android/b/n;-><init>(Lcom/kik/android/b/l;)V
+    invoke-direct {v0, p0}, Lcom/kik/arcane/b/n;-><init>(Lcom/kik/arcane/b/l;)V
 
     return-object v0
 .end method
@@ -50,7 +50,7 @@
 
     .line 1298
     :cond_0
-    new-instance v0, Lcom/kik/android/b/a;
+    new-instance v0, Lcom/kik/arcane/b/a;
 
     invoke-virtual {p1}, Lcom/kik/xdata/model/smileys/XAlternateSmileys;->a()Ljava/lang/String;
 
@@ -60,7 +60,7 @@
 
     move-result-object v2
 
-    invoke-direct {v0, v1, v2}, Lcom/kik/android/b/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v2}, Lcom/kik/arcane/b/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 .end method

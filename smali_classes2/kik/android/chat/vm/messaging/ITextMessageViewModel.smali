@@ -1,15 +1,15 @@
-.class public interface abstract Lkik/android/chat/vm/messaging/ITextMessageViewModel;
+.class public interface abstract Lkik/arcane/chat/vm/messaging/ITextMessageViewModel;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/messaging/IMessageViewModel;
+.implements Lkik/arcane/chat/vm/messaging/IMessageViewModel;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
+        Lkik/arcane/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
     }
 .end annotation
 

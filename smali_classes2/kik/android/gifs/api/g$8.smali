@@ -1,11 +1,11 @@
-.class final Lkik/android/gifs/api/g$8;
+.class final Lkik/arcane/gifs/api/g$8;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/gifs/api/g;->a(Ljava/lang/String;Lcom/kik/events/Promise;)Lcom/kik/events/Promise;
+    value = Lkik/arcane/gifs/api/g;->a(Ljava/lang/String;Lcom/kik/events/Promise;)Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/gifs/api/g;
+.field final synthetic a:Lkik/arcane/gifs/api/g;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/gifs/api/g;)V
+.method constructor <init>(Lkik/arcane/gifs/api/g;)V
     .locals 0
 
     .prologue
     .line 184
-    iput-object p1, p0, Lkik/android/gifs/api/g$8;->a:Lkik/android/gifs/api/g;
+    iput-object p1, p0, Lkik/arcane/gifs/api/g$8;->a:Lkik/arcane/gifs/api/g;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -48,15 +48,15 @@
     .prologue
     .line 184
     .line 1188
-    iget-object v0, p0, Lkik/android/gifs/api/g$8;->a:Lkik/android/gifs/api/g;
+    iget-object v0, p0, Lkik/arcane/gifs/api/g$8;->a:Lkik/arcane/gifs/api/g;
 
-    invoke-static {v0}, Lkik/android/gifs/api/g;->c(Lkik/android/gifs/api/g;)Lcom/kik/events/Promise;
+    invoke-static {v0}, Lkik/arcane/gifs/api/g;->c(Lkik/arcane/gifs/api/g;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/gifs/api/g$8;->a:Lkik/android/gifs/api/g;
+    iget-object v1, p0, Lkik/arcane/gifs/api/g$8;->a:Lkik/arcane/gifs/api/g;
 
-    invoke-static {v1}, Lkik/android/gifs/api/g;->a(Lkik/android/gifs/api/g;)Ljava/util/List;
+    invoke-static {v1}, Lkik/arcane/gifs/api/g;->a(Lkik/arcane/gifs/api/g;)Ljava/util/List;
 
     move-result-object v1
 
@@ -71,9 +71,9 @@
 
     .prologue
     .line 194
-    iget-object v0, p0, Lkik/android/gifs/api/g$8;->a:Lkik/android/gifs/api/g;
+    iget-object v0, p0, Lkik/arcane/gifs/api/g$8;->a:Lkik/arcane/gifs/api/g;
 
-    invoke-static {v0}, Lkik/android/gifs/api/g;->c(Lkik/android/gifs/api/g;)Lcom/kik/events/Promise;
+    invoke-static {v0}, Lkik/arcane/gifs/api/g;->c(Lkik/arcane/gifs/api/g;)Lcom/kik/events/Promise;
 
     move-result-object v0
 

@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/gifs/vm/bq;
+.class public interface abstract Lkik/arcane/gifs/vm/bq;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -79,7 +79,7 @@
             "()",
             "Lrx/d",
             "<",
-            "Lkik/android/gifs/view/c;",
+            "Lkik/arcane/gifs/view/c;",
             ">;"
         }
     .end annotation

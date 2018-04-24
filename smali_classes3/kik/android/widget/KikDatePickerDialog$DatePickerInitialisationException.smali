@@ -1,11 +1,11 @@
-.class public Lkik/android/widget/KikDatePickerDialog$DatePickerInitialisationException;
+.class public Lkik/arcane/widget/KikDatePickerDialog$DatePickerInitialisationException;
 .super Ljava/lang/Exception;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/KikDatePickerDialog;
+    value = Lkik/arcane/widget/KikDatePickerDialog;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

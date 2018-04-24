@@ -1,14 +1,14 @@
-.class public final Lkik/android/chat/vm/a/d;
-.super Lkik/android/chat/vm/c;
+.class public final Lkik/arcane/chat/vm/a/d;
+.super Lkik/arcane/chat/vm/c;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkik/android/chat/vm/c",
+        "Lkik/arcane/chat/vm/c",
         "<",
-        "Lkik/android/chat/vm/a/f;",
+        "Lkik/arcane/chat/vm/a/f;",
         ">;"
     }
 .end annotation
@@ -42,10 +42,10 @@
 
     .prologue
     .line 25
-    invoke-direct {p0}, Lkik/android/chat/vm/c;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/c;-><init>()V
 
     .line 26
-    iput-object p1, p0, Lkik/android/chat/vm/a/d;->a:Ljava/util/List;
+    iput-object p1, p0, Lkik/arcane/chat/vm/a/d;->a:Ljava/util/List;
 
     .line 27
     return-void
@@ -53,15 +53,15 @@
 
 
 # virtual methods
-.method protected final synthetic a(I)Lkik/android/chat/vm/ay;
+.method protected final synthetic a(I)Lkik/arcane/chat/vm/ay;
     .locals 2
 
     .prologue
     .line 15
     .line 1038
-    new-instance v1, Lkik/android/chat/vm/a/c;
+    new-instance v1, Lkik/arcane/chat/vm/a/c;
 
-    iget-object v0, p0, Lkik/android/chat/vm/a/d;->a:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/vm/a/d;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -69,7 +69,7 @@
 
     check-cast v0, Lkik/core/datatypes/GroupContactInfoHolder;
 
-    invoke-direct {v1, v0}, Lkik/android/chat/vm/a/c;-><init>(Lkik/core/datatypes/GroupContactInfoHolder;)V
+    invoke-direct {v1, v0}, Lkik/arcane/chat/vm/a/c;-><init>(Lkik/core/datatypes/GroupContactInfoHolder;)V
 
     .line 15
     return-object v1
@@ -80,7 +80,7 @@
 
     .prologue
     .line 44
-    iget-object v0, p0, Lkik/android/chat/vm/a/d;->a:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/vm/a/d;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -104,7 +104,7 @@
 
     .prologue
     .line 32
-    iget-object v0, p0, Lkik/android/chat/vm/a/d;->a:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/vm/a/d;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
 

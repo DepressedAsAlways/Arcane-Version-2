@@ -1,4 +1,4 @@
-.class public final Lkik/android/BatteryDrainMetricsManager_MembersInjector;
+.class public final Lkik/arcane/BatteryDrainMetricsManager_MembersInjector;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/b",
         "<",
-        "Lkik/android/f;",
+        "Lkik/arcane/f;",
         ">;"
     }
 .end annotation
@@ -28,7 +28,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/service/BatteryChangeReceiver;",
+            "Lkik/arcane/chat/service/BatteryChangeReceiver;",
             ">;"
         }
     .end annotation
@@ -52,7 +52,7 @@
 
     .prologue
     .line 9
-    const-class v0, Lkik/android/BatteryDrainMetricsManager_MembersInjector;
+    const-class v0, Lkik/arcane/BatteryDrainMetricsManager_MembersInjector;
 
     invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
 
@@ -63,7 +63,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    sput-boolean v0, Lkik/android/BatteryDrainMetricsManager_MembersInjector;->a:Z
+    sput-boolean v0, Lkik/arcane/BatteryDrainMetricsManager_MembersInjector;->a:Z
 
     return-void
 
@@ -80,7 +80,7 @@
             "(",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/service/BatteryChangeReceiver;",
+            "Lkik/arcane/chat/service/BatteryChangeReceiver;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -94,7 +94,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 22
-    sget-boolean v0, Lkik/android/BatteryDrainMetricsManager_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/BatteryDrainMetricsManager_MembersInjector;->a:Z
 
     if-nez v0, :cond_0
 
@@ -108,10 +108,10 @@
 
     .line 23
     :cond_0
-    iput-object p1, p0, Lkik/android/BatteryDrainMetricsManager_MembersInjector;->b:Ljavax/inject/Provider;
+    iput-object p1, p0, Lkik/arcane/BatteryDrainMetricsManager_MembersInjector;->b:Ljavax/inject/Provider;
 
     .line 24
-    sget-boolean v0, Lkik/android/BatteryDrainMetricsManager_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/BatteryDrainMetricsManager_MembersInjector;->a:Z
 
     if-nez v0, :cond_1
 
@@ -125,7 +125,7 @@
 
     .line 25
     :cond_1
-    iput-object p2, p0, Lkik/android/BatteryDrainMetricsManager_MembersInjector;->c:Ljavax/inject/Provider;
+    iput-object p2, p0, Lkik/arcane/BatteryDrainMetricsManager_MembersInjector;->c:Ljavax/inject/Provider;
 
     .line 26
     return-void
@@ -138,7 +138,7 @@
             "(",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/service/BatteryChangeReceiver;",
+            "Lkik/arcane/chat/service/BatteryChangeReceiver;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -146,16 +146,16 @@
             ">;)",
             "Ldagger/b",
             "<",
-            "Lkik/android/f;",
+            "Lkik/arcane/f;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 31
-    new-instance v0, Lkik/android/BatteryDrainMetricsManager_MembersInjector;
+    new-instance v0, Lkik/arcane/BatteryDrainMetricsManager_MembersInjector;
 
-    invoke-direct {v0, p0, p1}, Lkik/android/BatteryDrainMetricsManager_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;)V
+    invoke-direct {v0, p0, p1}, Lkik/arcane/BatteryDrainMetricsManager_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;)V
 
     return-object v0
 .end method
@@ -167,7 +167,7 @@
 
     .prologue
     .line 9
-    check-cast p1, Lkik/android/f;
+    check-cast p1, Lkik/arcane/f;
 
     .line 1037
     if-nez p1, :cond_0
@@ -183,18 +183,18 @@
 
     .line 1040
     :cond_0
-    iget-object v0, p0, Lkik/android/BatteryDrainMetricsManager_MembersInjector;->b:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/BatteryDrainMetricsManager_MembersInjector;->b:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/service/BatteryChangeReceiver;
+    check-cast v0, Lkik/arcane/chat/service/BatteryChangeReceiver;
 
-    iput-object v0, p1, Lkik/android/f;->a:Lkik/android/chat/service/BatteryChangeReceiver;
+    iput-object v0, p1, Lkik/arcane/f;->a:Lkik/arcane/chat/service/BatteryChangeReceiver;
 
     .line 1041
-    iget-object v0, p0, Lkik/android/BatteryDrainMetricsManager_MembersInjector;->c:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/BatteryDrainMetricsManager_MembersInjector;->c:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -202,7 +202,7 @@
 
     check-cast v0, Lkik/core/interfaces/ad;
 
-    iput-object v0, p1, Lkik/android/f;->b:Lkik/core/interfaces/ad;
+    iput-object v0, p1, Lkik/arcane/f;->b:Lkik/core/interfaces/ad;
 
     .line 9
     return-void

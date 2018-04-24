@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/activity/KikApiLandingActivity$3;
+.class final Lkik/arcane/chat/activity/KikApiLandingActivity$3;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/activity/KikApiLandingActivity;->b(Ljava/lang/String;)V
+    value = Lkik/arcane/chat/activity/KikApiLandingActivity;->b(Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Ljava/lang/String;
 
-.field final synthetic b:Lkik/android/chat/activity/KikApiLandingActivity;
+.field final synthetic b:Lkik/arcane/chat/activity/KikApiLandingActivity;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
+.method constructor <init>(Lkik/arcane/chat/activity/KikApiLandingActivity;Ljava/lang/String;)V
     .locals 0
 
     .prologue
     .line 239
-    iput-object p1, p0, Lkik/android/chat/activity/KikApiLandingActivity$3;->b:Lkik/android/chat/activity/KikApiLandingActivity;
+    iput-object p1, p0, Lkik/arcane/chat/activity/KikApiLandingActivity$3;->b:Lkik/arcane/chat/activity/KikApiLandingActivity;
 
-    iput-object p2, p0, Lkik/android/chat/activity/KikApiLandingActivity$3;->a:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/chat/activity/KikApiLandingActivity$3;->a:Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,25 +45,25 @@
 
     .prologue
     .line 244
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity$3;->b:Lkik/android/chat/activity/KikApiLandingActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity$3;->b:Lkik/arcane/chat/activity/KikApiLandingActivity;
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KikApiLandingActivity;->a()V
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->a()V
 
     .line 245
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity$3;->b:Lkik/android/chat/activity/KikApiLandingActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity$3;->b:Lkik/arcane/chat/activity/KikApiLandingActivity;
 
-    invoke-static {v0}, Lkik/android/chat/activity/KikApiLandingActivity;->f(Lkik/android/chat/activity/KikApiLandingActivity;)Landroid/widget/Toast;
+    invoke-static {v0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->f(Lkik/arcane/chat/activity/KikApiLandingActivity;)Landroid/widget/Toast;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/chat/activity/KikApiLandingActivity$3;->a:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/chat/activity/KikApiLandingActivity$3;->a:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Landroid/widget/Toast;->setText(Ljava/lang/CharSequence;)V
 
     .line 246
-    iget-object v0, p0, Lkik/android/chat/activity/KikApiLandingActivity$3;->b:Lkik/android/chat/activity/KikApiLandingActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikApiLandingActivity$3;->b:Lkik/arcane/chat/activity/KikApiLandingActivity;
 
-    invoke-static {v0}, Lkik/android/chat/activity/KikApiLandingActivity;->f(Lkik/android/chat/activity/KikApiLandingActivity;)Landroid/widget/Toast;
+    invoke-static {v0}, Lkik/arcane/chat/activity/KikApiLandingActivity;->f(Lkik/arcane/chat/activity/KikApiLandingActivity;)Landroid/widget/Toast;
 
     move-result-object v0
 

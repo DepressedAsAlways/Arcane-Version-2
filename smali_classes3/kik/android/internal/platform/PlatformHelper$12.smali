@@ -1,11 +1,11 @@
-.class final Lkik/android/internal/platform/PlatformHelper$12;
+.class final Lkik/arcane/internal/platform/PlatformHelper$12;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/internal/platform/PlatformHelper;->a(Lcom/kik/cards/web/kik/KikMessageParcelable;Landroid/app/Activity;Lcom/kik/cards/web/f;Lcom/kik/ui/fragment/FragmentBase$FragmentBundle$StackType;Lkik/core/interfaces/v;)Lcom/kik/events/Promise;
+    value = Lkik/arcane/internal/platform/PlatformHelper;->a(Lcom/kik/cards/web/kik/KikMessageParcelable;Landroid/app/Activity;Lcom/kik/cards/web/f;Lcom/kik/ui/fragment/FragmentBase$FragmentBundle$StackType;Lkik/core/interfaces/v;)Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,18 +26,18 @@
 # instance fields
 .field final synthetic a:Lcom/kik/events/Promise;
 
-.field final synthetic b:Lkik/android/internal/platform/PlatformHelper;
+.field final synthetic b:Lkik/arcane/internal/platform/PlatformHelper;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/internal/platform/PlatformHelper;Lcom/kik/events/Promise;)V
+.method constructor <init>(Lkik/arcane/internal/platform/PlatformHelper;Lcom/kik/events/Promise;)V
     .locals 0
 
     .prologue
     .line 1479
-    iput-object p1, p0, Lkik/android/internal/platform/PlatformHelper$12;->b:Lkik/android/internal/platform/PlatformHelper;
+    iput-object p1, p0, Lkik/arcane/internal/platform/PlatformHelper$12;->b:Lkik/arcane/internal/platform/PlatformHelper;
 
-    iput-object p2, p0, Lkik/android/internal/platform/PlatformHelper$12;->a:Lcom/kik/events/Promise;
+    iput-object p2, p0, Lkik/arcane/internal/platform/PlatformHelper$12;->a:Lcom/kik/events/Promise;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -54,7 +54,7 @@
     check-cast p1, Lkik/core/datatypes/l;
 
     .line 2483
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper$12;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper$12;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {p1}, Lkik/core/datatypes/l;->k()Ljava/lang/String;
 
@@ -71,7 +71,7 @@
 
     .prologue
     .line 1490
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper$12;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper$12;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {v0, p1}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 

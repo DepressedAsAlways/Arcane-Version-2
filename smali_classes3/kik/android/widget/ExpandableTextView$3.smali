@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/ExpandableTextView$3;
+.class final Lkik/arcane/widget/ExpandableTextView$3;
 .super Landroid/animation/AnimatorListenerAdapter;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/ExpandableTextView;->e()V
+    value = Lkik/arcane/widget/ExpandableTextView;->e()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/ExpandableTextView;
+.field final synthetic a:Lkik/arcane/widget/ExpandableTextView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/ExpandableTextView;)V
+.method constructor <init>(Lkik/arcane/widget/ExpandableTextView;)V
     .locals 0
 
     .prologue
     .line 157
-    iput-object p1, p0, Lkik/android/widget/ExpandableTextView$3;->a:Lkik/android/widget/ExpandableTextView;
+    iput-object p1, p0, Lkik/arcane/widget/ExpandableTextView$3;->a:Lkik/arcane/widget/ExpandableTextView;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
@@ -38,13 +38,13 @@
 
     .prologue
     .line 161
-    iget-object v0, p0, Lkik/android/widget/ExpandableTextView$3;->a:Lkik/android/widget/ExpandableTextView;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandableTextView$3;->a:Lkik/arcane/widget/ExpandableTextView;
 
-    iget-object v1, p0, Lkik/android/widget/ExpandableTextView$3;->a:Lkik/android/widget/ExpandableTextView;
+    iget-object v1, p0, Lkik/arcane/widget/ExpandableTextView$3;->a:Lkik/arcane/widget/ExpandableTextView;
 
-    iget-object v1, v1, Lkik/android/widget/ExpandableTextView;->e:Ljava/lang/CharSequence;
+    iget-object v1, v1, Lkik/arcane/widget/ExpandableTextView;->e:Ljava/lang/CharSequence;
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/ExpandableTextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/ExpandableTextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 162
     return-void

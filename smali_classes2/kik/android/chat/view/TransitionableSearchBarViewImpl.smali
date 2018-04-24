@@ -1,5 +1,5 @@
-.class public Lkik/android/chat/view/TransitionableSearchBarViewImpl;
-.super Lkik/android/chat/view/SearchBarViewImpl;
+.class public Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;
+.super Lkik/arcane/chat/view/SearchBarViewImpl;
 .source "SourceFile"
 
 
@@ -13,12 +13,12 @@
 
     .prologue
     .line 20
-    invoke-direct {p0, p1}, Lkik/android/chat/view/SearchBarViewImpl;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lkik/arcane/chat/view/SearchBarViewImpl;-><init>(Landroid/content/Context;)V
 
     .line 16
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->a:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->a:Z
 
     .line 21
     return-void
@@ -29,12 +29,12 @@
 
     .prologue
     .line 25
-    invoke-direct {p0, p1, p2}, Lkik/android/chat/view/SearchBarViewImpl;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/chat/view/SearchBarViewImpl;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 16
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->a:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->a:Z
 
     .line 26
     return-void
@@ -45,12 +45,12 @@
 
     .prologue
     .line 30
-    invoke-direct {p0, p1, p2, p3}, Lkik/android/chat/view/SearchBarViewImpl;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lkik/arcane/chat/view/SearchBarViewImpl;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 16
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->a:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->a:Z
 
     .line 31
     return-void
@@ -61,12 +61,12 @@
 
     .prologue
     .line 35
-    invoke-direct {p0, p1, p2, p3, p4}, Lkik/android/chat/view/SearchBarViewImpl;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lkik/arcane/chat/view/SearchBarViewImpl;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
     .line 16
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->a:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->a:Z
 
     .line 36
     return-void
@@ -79,7 +79,7 @@
 
     .prologue
     .line 61
-    iget-boolean v0, p0, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->a:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->a:Z
 
     if-eqz v0, :cond_0
 
@@ -91,7 +91,7 @@
 
     .line 62
     :cond_0
-    invoke-super {p0, p1}, Lkik/android/chat/view/SearchBarViewImpl;->a(F)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/view/SearchBarViewImpl;->a(F)V
 
     .line 64
     :cond_1
@@ -105,15 +105,15 @@
     .line 40
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->a:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->a:Z
 
     .line 41
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     .line 42
-    invoke-virtual {p0}, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -128,12 +128,12 @@
     move-result v0
 
     .line 43
-    invoke-virtual {p0, v0, v0, v0, v0}, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->setPadding(IIII)V
+    invoke-virtual {p0, v0, v0, v0, v0}, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->setPadding(IIII)V
 
     .line 44
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->a(F)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->a(F)V
 
     .line 45
     return-void
@@ -146,16 +146,16 @@
     .line 49
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->a:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->a:Z
 
     .line 50
     const v0, 0x7f02018d
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->f(I)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->f(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     .line 51
     return-void
@@ -166,7 +166,7 @@
 
     .prologue
     .line 55
-    iget-boolean v0, p0, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->a:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->a:Z
 
     return v0
 .end method

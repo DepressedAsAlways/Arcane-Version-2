@@ -33,13 +33,13 @@
 
 .field final synthetic c:Ljava/lang/String;
 
-.field final synthetic d:Lkik/android/chat/fragment/ProgressDialogFragment;
+.field final synthetic d:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
 .field final synthetic e:Lcom/kik/cards/web/CardsWebViewFragment;
 
 
 # direct methods
-.method constructor <init>(Lcom/kik/cards/web/CardsWebViewFragment;Landroid/app/Activity;Lcom/kik/cards/web/usermedia/b;Ljava/lang/String;Lkik/android/chat/fragment/ProgressDialogFragment;)V
+.method constructor <init>(Lcom/kik/cards/web/CardsWebViewFragment;Landroid/app/Activity;Lcom/kik/cards/web/usermedia/b;Ljava/lang/String;Lkik/arcane/chat/fragment/ProgressDialogFragment;)V
     .locals 0
 
     .prologue
@@ -52,7 +52,7 @@
 
     iput-object p4, p0, Lcom/kik/cards/web/CardsWebViewFragment$37;->c:Ljava/lang/String;
 
-    iput-object p5, p0, Lcom/kik/cards/web/CardsWebViewFragment$37;->d:Lkik/android/chat/fragment/ProgressDialogFragment;
+    iput-object p5, p0, Lcom/kik/cards/web/CardsWebViewFragment$37;->d:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 

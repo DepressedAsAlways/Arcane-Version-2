@@ -203,7 +203,7 @@
 
     .line 462
     :cond_0
-    invoke-static {}, Lkik/android/d/g;->a()Lkik/android/d/g;
+    invoke-static {}, Lkik/arcane/d/g;->a()Lkik/arcane/d/g;
 
     move-result-object v0
 
@@ -218,17 +218,17 @@
     const-string v3, "**"
 
     .line 463
-    invoke-virtual {v0, v1, v2, v3}, Lkik/android/d/g;->a(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;)Lkik/android/d/g;
+    invoke-virtual {v0, v1, v2, v3}, Lkik/arcane/d/g;->a(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;)Lkik/arcane/d/g;
 
     move-result-object v0
 
     .line 464
-    invoke-virtual {v0}, Lkik/android/d/g;->b()Lkik/android/d/f;
+    invoke-virtual {v0}, Lkik/arcane/d/g;->b()Lkik/arcane/d/f;
 
     move-result-object v0
 
     .line 466
-    invoke-interface {v0, p0}, Lkik/android/d/f;->a(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+    invoke-interface {v0, p0}, Lkik/arcane/d/f;->a(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
 
     move-result-object v0
 
@@ -815,7 +815,7 @@
 
     .prologue
     .line 355
-    invoke-static {p0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {p0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 

@@ -1,9 +1,9 @@
-.class public abstract Lkik/android/net/http/a;
+.class public abstract Lkik/arcane/net/http/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/f/g;
+.implements Lkik/arcane/f/g;
 
 
 # instance fields
@@ -40,16 +40,16 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 14
-    iput v3, p0, Lkik/android/net/http/a;->c:I
+    iput v3, p0, Lkik/arcane/net/http/a;->c:I
 
     .line 15
-    iput v3, p0, Lkik/android/net/http/a;->d:I
+    iput v3, p0, Lkik/arcane/net/http/a;->d:I
 
     .line 16
-    iput v3, p0, Lkik/android/net/http/a;->e:I
+    iput v3, p0, Lkik/arcane/net/http/a;->e:I
 
     .line 17
-    iput v3, p0, Lkik/android/net/http/a;->a:I
+    iput v3, p0, Lkik/arcane/net/http/a;->a:I
 
     .line 18
     const/4 v0, 0x2
@@ -78,10 +78,10 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/net/http/a;->b:Ljava/util/List;
+    iput-object v0, p0, Lkik/arcane/net/http/a;->b:Ljava/util/List;
 
     .line 19
-    iput-boolean v3, p0, Lkik/android/net/http/a;->f:Z
+    iput-boolean v3, p0, Lkik/arcane/net/http/a;->f:Z
 
     return-void
 .end method
@@ -151,18 +151,18 @@
 
     .line 65
     :cond_1
-    invoke-static {p1}, Lkik/android/net/http/a;->b(I)Z
+    invoke-static {p1}, Lkik/arcane/net/http/a;->b(I)Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
     .line 66
-    iget v0, p0, Lkik/android/net/http/a;->a:I
+    iget v0, p0, Lkik/arcane/net/http/a;->a:I
 
     add-int/lit8 v0, v0, 0x1
 
-    iput v0, p0, Lkik/android/net/http/a;->a:I
+    iput v0, p0, Lkik/arcane/net/http/a;->a:I
 
     :goto_2
     move v0, v1
@@ -172,28 +172,28 @@
 
     .line 68
     :cond_2
-    invoke-virtual {p0, p1}, Lkik/android/net/http/a;->a(I)Z
+    invoke-virtual {p0, p1}, Lkik/arcane/net/http/a;->a(I)Z
 
     move-result v0
 
     if-eqz v0, :cond_3
 
     .line 69
-    iget v0, p0, Lkik/android/net/http/a;->d:I
+    iget v0, p0, Lkik/arcane/net/http/a;->d:I
 
     add-int/lit8 v0, v0, 0x1
 
-    iput v0, p0, Lkik/android/net/http/a;->d:I
+    iput v0, p0, Lkik/arcane/net/http/a;->d:I
 
     goto :goto_2
 
     .line 72
     :cond_3
-    iget v0, p0, Lkik/android/net/http/a;->e:I
+    iget v0, p0, Lkik/arcane/net/http/a;->e:I
 
     add-int/lit8 v0, v0, 0x1
 
-    iput v0, p0, Lkik/android/net/http/a;->e:I
+    iput v0, p0, Lkik/arcane/net/http/a;->e:I
 
     goto :goto_2
 .end method
@@ -209,11 +209,11 @@
 
     .prologue
     .line 56
-    iget v0, p0, Lkik/android/net/http/a;->c:I
+    iget v0, p0, Lkik/arcane/net/http/a;->c:I
 
     add-int/lit8 v0, v0, 0x1
 
-    iput v0, p0, Lkik/android/net/http/a;->c:I
+    iput v0, p0, Lkik/arcane/net/http/a;->c:I
 
     .line 57
     return-void
@@ -224,21 +224,21 @@
 
     .prologue
     .line 80
-    iget-boolean v0, p0, Lkik/android/net/http/a;->f:Z
+    iget-boolean v0, p0, Lkik/arcane/net/http/a;->f:Z
 
     if-nez v0, :cond_0
 
-    iget v0, p0, Lkik/android/net/http/a;->e:I
+    iget v0, p0, Lkik/arcane/net/http/a;->e:I
 
     if-gtz v0, :cond_0
 
-    iget v0, p0, Lkik/android/net/http/a;->d:I
+    iget v0, p0, Lkik/arcane/net/http/a;->d:I
 
     const/4 v1, 0x2
 
     if-ge v0, v1, :cond_0
 
-    iget v0, p0, Lkik/android/net/http/a;->c:I
+    iget v0, p0, Lkik/arcane/net/http/a;->c:I
 
     const/16 v1, 0xa
 
@@ -260,11 +260,11 @@
 
     .prologue
     .line 85
-    iget v0, p0, Lkik/android/net/http/a;->e:I
+    iget v0, p0, Lkik/arcane/net/http/a;->e:I
 
     add-int/lit8 v0, v0, 0x1
 
-    iput v0, p0, Lkik/android/net/http/a;->e:I
+    iput v0, p0, Lkik/arcane/net/http/a;->e:I
 
     .line 86
     return-void

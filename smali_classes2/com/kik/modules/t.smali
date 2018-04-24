@@ -30,7 +30,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/net/http/b;",
+            "Lkik/arcane/net/http/b;",
             ">;"
         }
     .end annotation
@@ -52,7 +52,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -149,7 +149,7 @@
             "Lcom/kik/modules/s;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/net/http/b;",
+            "Lkik/arcane/net/http/b;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -157,7 +157,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -351,7 +351,7 @@
             "Lcom/kik/modules/s;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/net/http/b;",
+            "Lkik/arcane/net/http/b;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -359,7 +359,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -430,7 +430,7 @@
 
     move-result-object v2
 
-    check-cast v2, Lkik/android/net/http/b;
+    check-cast v2, Lkik/arcane/net/http/b;
 
     iget-object v0, p0, Lcom/kik/modules/t;->d:Ljavax/inject/Provider;
 
@@ -448,7 +448,7 @@
 
     move-result-object v4
 
-    check-cast v4, Lcom/kik/android/Mixpanel;
+    check-cast v4, Lcom/kik/arcane/Mixpanel;
 
     iget-object v0, p0, Lcom/kik/modules/t;->f:Ljavax/inject/Provider;
 
@@ -500,11 +500,11 @@
 
     new-instance v0, Lcom/kik/c/a;
 
-    invoke-static {}, Lkik/android/internal/platform/PlatformHelper;->a()Lkik/android/internal/platform/PlatformHelper;
+    invoke-static {}, Lkik/arcane/internal/platform/PlatformHelper;->a()Lkik/arcane/internal/platform/PlatformHelper;
 
     move-result-object v1
 
-    invoke-direct/range {v0 .. v9}, Lcom/kik/c/a;-><init>(Lkik/android/internal/platform/PlatformHelper;Lkik/android/net/http/b;Lcom/kik/cache/KikVolleyImageLoader;Lcom/kik/android/Mixpanel;Lkik/core/net/e;Lkik/core/interfaces/n;Lkik/core/interfaces/ad;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/z;)V
+    invoke-direct/range {v0 .. v9}, Lcom/kik/c/a;-><init>(Lkik/arcane/internal/platform/PlatformHelper;Lkik/arcane/net/http/b;Lcom/kik/cache/KikVolleyImageLoader;Lcom/kik/arcane/Mixpanel;Lkik/core/net/e;Lkik/core/interfaces/n;Lkik/core/interfaces/ad;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/z;)V
 
     invoke-direct {v10, v0}, Lkik/core/content/AttachmentManager;-><init>(Lkik/core/content/c;)V
 

@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/bv;
+.class public final Lkik/arcane/util/bv;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -32,11 +32,11 @@
     .line 28
     new-instance v0, Landroid/graphics/Point;
 
-    iget v1, p0, Lkik/android/util/bv;->a:F
+    iget v1, p0, Lkik/arcane/util/bv;->a:F
 
     float-to-int v1, v1
 
-    iget v2, p0, Lkik/android/util/bv;->b:F
+    iget v2, p0, Lkik/arcane/util/bv;->b:F
 
     float-to-int v2, v2
 
@@ -71,7 +71,7 @@
 
     add-float/2addr v0, v1
 
-    iput v0, p0, Lkik/android/util/bv;->a:F
+    iput v0, p0, Lkik/arcane/util/bv;->a:F
 
     .line 21
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getY()F
@@ -86,7 +86,7 @@
 
     add-float/2addr v0, v1
 
-    iput v0, p0, Lkik/android/util/bv;->b:F
+    iput v0, p0, Lkik/arcane/util/bv;->b:F
 
     .line 23
     :cond_0

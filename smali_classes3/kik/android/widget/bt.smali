@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/widget/bt;
+.class final synthetic Lkik/arcane/widget/bt;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/widget/InlineVideoPlayerView;
+.field private final a:Lkik/arcane/widget/InlineVideoPlayerView;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/widget/InlineVideoPlayerView;)V
+.method private constructor <init>(Lkik/arcane/widget/InlineVideoPlayerView;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/widget/bt;->a:Lkik/android/widget/InlineVideoPlayerView;
+    iput-object p1, p0, Lkik/arcane/widget/bt;->a:Lkik/arcane/widget/InlineVideoPlayerView;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/InlineVideoPlayerView;)Lrx/functions/b;
+.method public static a(Lkik/arcane/widget/InlineVideoPlayerView;)Lrx/functions/b;
     .locals 1
 
-    new-instance v0, Lkik/android/widget/bt;
+    new-instance v0, Lkik/arcane/widget/bt;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/bt;-><init>(Lkik/android/widget/InlineVideoPlayerView;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/bt;-><init>(Lkik/arcane/widget/InlineVideoPlayerView;)V
 
     return-object v0
 .end method
@@ -35,11 +35,11 @@
 .method public final call(Ljava/lang/Object;)V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/widget/bt;->a:Lkik/android/widget/InlineVideoPlayerView;
+    iget-object v0, p0, Lkik/arcane/widget/bt;->a:Lkik/arcane/widget/InlineVideoPlayerView;
 
     check-cast p1, Ljava/lang/Integer;
 
-    invoke-static {v0, p1}, Lkik/android/widget/InlineVideoPlayerView;->a(Lkik/android/widget/InlineVideoPlayerView;Ljava/lang/Integer;)V
+    invoke-static {v0, p1}, Lkik/arcane/widget/InlineVideoPlayerView;->a(Lkik/arcane/widget/InlineVideoPlayerView;Ljava/lang/Integer;)V
 
     return-void
 .end method

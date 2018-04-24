@@ -283,7 +283,7 @@
     return-object v0
 .end method
 
-.method public prepMigration(Ljava/io/File;Lkik/android/util/aj;)V
+.method public prepMigration(Ljava/io/File;Lkik/arcane/util/aj;)V
     .locals 3
 
     .prologue
@@ -298,7 +298,7 @@
     :cond_0
     const-string v0, "Kik.Storage.ContentImageCache.pref"
 
-    invoke-interface {p2, v0}, Lkik/android/util/aj;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
+    invoke-interface {p2, v0}, Lkik/arcane/util/aj;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -504,7 +504,7 @@
     invoke-direct {v0, p2, p1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
     .line 70
-    invoke-static {v0, v1}, Lkik/android/util/e;->a(Ljava/io/File;Ljava/io/File;)V
+    invoke-static {v0, v1}, Lkik/arcane/util/e;->a(Ljava/io/File;Ljava/io/File;)V
 
     .line 72
     const-string v2, "AN"
@@ -523,9 +523,9 @@
 
     .line 84
     :goto_0
-    new-instance v2, Lkik/android/net/c;
+    new-instance v2, Lkik/arcane/net/c;
 
-    invoke-direct {v2, v0}, Lkik/android/net/c;-><init>(Lcom/android/volley/toolbox/e;)V
+    invoke-direct {v2, v0}, Lkik/arcane/net/c;-><init>(Lcom/android/volley/toolbox/e;)V
 
     .line 85
     new-instance v0, Lcom/android/volley/toolbox/DiskBasedCache;
@@ -661,7 +661,7 @@
     goto :goto_1
 .end method
 
-.method public wantsContentMigration(Lkik/android/util/aj;)Z
+.method public wantsContentMigration(Lkik/arcane/util/aj;)Z
     .locals 3
 
     .prologue
@@ -670,7 +670,7 @@
     .line 130
     const-string v1, "Kik.Storage.ContentImageCache.pref"
 
-    invoke-interface {p1, v1}, Lkik/android/util/aj;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
+    invoke-interface {p1, v1}, Lkik/arcane/util/aj;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
 
     move-result-object v1
 

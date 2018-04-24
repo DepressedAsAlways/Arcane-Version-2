@@ -1,9 +1,9 @@
-.class public final Lkik/android/chat/vm/conversations/a;
-.super Lkik/android/chat/vm/conversations/b;
+.class public final Lkik/arcane/chat/vm/conversations/a;
+.super Lkik/arcane/chat/vm/conversations/b;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/conversations/d;
+.implements Lkik/arcane/chat/vm/conversations/d;
 
 
 # direct methods
@@ -12,7 +12,7 @@
 
     .prologue
     .line 21
-    invoke-direct {p0}, Lkik/android/chat/vm/conversations/b;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/conversations/b;-><init>()V
 
     .line 22
     return-void
@@ -25,7 +25,7 @@
 
     .prologue
     .line 26
-    iget-boolean v0, p0, Lkik/android/chat/vm/conversations/a;->e:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/vm/conversations/a;->e:Z
 
     if-nez v0, :cond_0
 

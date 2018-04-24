@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/kik/storage/ContentImageCache;->prepMigration(Ljava/io/File;Lkik/android/util/aj;)V
+    value = Lcom/kik/storage/ContentImageCache;->prepMigration(Ljava/io/File;Lkik/arcane/util/aj;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

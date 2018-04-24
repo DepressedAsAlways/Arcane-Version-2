@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/widget/bi;
+.class final synthetic Lkik/arcane/widget/bi;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/widget/GlideImageView;
+.field private final a:Lkik/arcane/widget/GlideImageView;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/widget/GlideImageView;)V
+.method private constructor <init>(Lkik/arcane/widget/GlideImageView;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/widget/bi;->a:Lkik/android/widget/GlideImageView;
+    iput-object p1, p0, Lkik/arcane/widget/bi;->a:Lkik/arcane/widget/GlideImageView;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/GlideImageView;)Lrx/functions/b;
+.method public static a(Lkik/arcane/widget/GlideImageView;)Lrx/functions/b;
     .locals 1
 
-    new-instance v0, Lkik/android/widget/bi;
+    new-instance v0, Lkik/arcane/widget/bi;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/bi;-><init>(Lkik/android/widget/GlideImageView;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/bi;-><init>(Lkik/arcane/widget/GlideImageView;)V
 
     return-object v0
 .end method
@@ -37,7 +37,7 @@
 
     .prologue
     .line 0
-    iget-object v1, p0, Lkik/android/widget/bi;->a:Lkik/android/widget/GlideImageView;
+    iget-object v1, p0, Lkik/arcane/widget/bi;->a:Lkik/arcane/widget/GlideImageView;
 
     check-cast p1, Lkik/core/chat/profile/am;
 
@@ -46,7 +46,7 @@
 
     iget-object v0, p1, Lkik/core/chat/profile/am;->a:Ljava/lang/String;
 
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -56,7 +56,7 @@
     :cond_0
     const/4 v0, 0x0
 
-    invoke-virtual {v1, v0}, Lkik/android/widget/GlideImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v1, v0}, Lkik/arcane/widget/GlideImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 1052
     :goto_0
@@ -83,17 +83,17 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     .line 1060
     iget v0, v0, Landroid/graphics/BitmapFactory$Options;->outHeight:I
 
     int-to-float v0, v0
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     .line 1063
-    invoke-virtual {v1}, Lkik/android/widget/GlideImageView;->getContext()Landroid/content/Context;
+    invoke-virtual {v1}, Lkik/arcane/widget/GlideImageView;->getContext()Landroid/content/Context;
 
     move-result-object v0
 

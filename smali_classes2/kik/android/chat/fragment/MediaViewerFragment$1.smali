@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/MediaViewerFragment$1;
+.class final Lkik/arcane/chat/fragment/MediaViewerFragment$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/MediaViewerFragment;
+    value = Lkik/arcane/chat/fragment/MediaViewerFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,25 +18,25 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/MediaViewerFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/MediaViewerFragment;
 
 .field private b:Z
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/MediaViewerFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/MediaViewerFragment;)V
     .locals 1
 
     .prologue
     .line 150
-    iput-object p1, p0, Lkik/android/chat/fragment/MediaViewerFragment$1;->a:Lkik/android/chat/fragment/MediaViewerFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment$1;->a:Lkik/arcane/chat/fragment/MediaViewerFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 152
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/fragment/MediaViewerFragment$1;->b:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment$1;->b:Z
 
     return-void
 .end method
@@ -51,24 +51,24 @@
     if-nez p1, :cond_0
 
     .line 187
-    iget-boolean v0, p0, Lkik/android/chat/fragment/MediaViewerFragment$1;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment$1;->b:Z
 
     if-eqz v0, :cond_0
 
     .line 188
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/fragment/MediaViewerFragment$1;->b:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment$1;->b:Z
 
     .line 189
-    iget-object v0, p0, Lkik/android/chat/fragment/MediaViewerFragment$1;->a:Lkik/android/chat/fragment/MediaViewerFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment$1;->a:Lkik/arcane/chat/fragment/MediaViewerFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/MediaViewerFragment;->a(Lkik/android/chat/fragment/MediaViewerFragment;)Lkik/android/chat/fragment/MediaItemFragment;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/MediaViewerFragment;->a(Lkik/arcane/chat/fragment/MediaViewerFragment;)Lkik/arcane/chat/fragment/MediaItemFragment;
 
     move-result-object v0
 
     .line 190
-    invoke-virtual {v0}, Lkik/android/chat/fragment/MediaItemFragment;->b()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/MediaItemFragment;->b()V
 
     .line 193
     :cond_0
@@ -90,40 +90,40 @@
     .line 166
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/fragment/MediaViewerFragment$1;->b:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment$1;->b:Z
 
     .line 169
-    iget-object v0, p0, Lkik/android/chat/fragment/MediaViewerFragment$1;->a:Lkik/android/chat/fragment/MediaViewerFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment$1;->a:Lkik/arcane/chat/fragment/MediaViewerFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/MediaViewerFragment;->a(Lkik/android/chat/fragment/MediaViewerFragment;)Lkik/android/chat/fragment/MediaItemFragment;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/MediaViewerFragment;->a(Lkik/arcane/chat/fragment/MediaViewerFragment;)Lkik/arcane/chat/fragment/MediaItemFragment;
 
     move-result-object v0
 
     .line 170
-    invoke-virtual {v0}, Lkik/android/chat/fragment/MediaItemFragment;->q()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/MediaItemFragment;->q()V
 
     .line 173
-    iget-object v0, p0, Lkik/android/chat/fragment/MediaViewerFragment$1;->a:Lkik/android/chat/fragment/MediaViewerFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment$1;->a:Lkik/arcane/chat/fragment/MediaViewerFragment;
 
-    invoke-static {v0, p1}, Lkik/android/chat/fragment/MediaViewerFragment;->a(Lkik/android/chat/fragment/MediaViewerFragment;I)I
+    invoke-static {v0, p1}, Lkik/arcane/chat/fragment/MediaViewerFragment;->a(Lkik/arcane/chat/fragment/MediaViewerFragment;I)I
 
     .line 174
-    iget-object v0, p0, Lkik/android/chat/fragment/MediaViewerFragment$1;->a:Lkik/android/chat/fragment/MediaViewerFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment$1;->a:Lkik/arcane/chat/fragment/MediaViewerFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/MediaViewerFragment;->a(Lkik/android/chat/fragment/MediaViewerFragment;)Lkik/android/chat/fragment/MediaItemFragment;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/MediaViewerFragment;->a(Lkik/arcane/chat/fragment/MediaViewerFragment;)Lkik/arcane/chat/fragment/MediaItemFragment;
 
     move-result-object v0
 
     .line 175
-    iget-object v1, p0, Lkik/android/chat/fragment/MediaViewerFragment$1;->a:Lkik/android/chat/fragment/MediaViewerFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment$1;->a:Lkik/arcane/chat/fragment/MediaViewerFragment;
 
-    invoke-static {v1}, Lkik/android/chat/fragment/MediaViewerFragment;->b(Lkik/android/chat/fragment/MediaViewerFragment;)Z
+    invoke-static {v1}, Lkik/arcane/chat/fragment/MediaViewerFragment;->b(Lkik/arcane/chat/fragment/MediaViewerFragment;)Z
 
     move-result v1
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v1, v2}, Lkik/android/chat/fragment/MediaItemFragment;->a(ZZ)V
+    invoke-virtual {v0, v1, v2}, Lkik/arcane/chat/fragment/MediaItemFragment;->a(ZZ)V
 
     .line 176
     return-void

@@ -14,7 +14,7 @@
 
 .field private final _dialogDelegate:Lcom/kik/cards/web/f;
 
-.field private final _navigator:Lkik/android/chat/vm/cc;
+.field private final _navigator:Lkik/arcane/chat/vm/cc;
 
 .field private _userName:Ljava/lang/String;
 
@@ -35,11 +35,11 @@
     iput-object p1, p0, Lcom/kik/cards/web/profile/ProfilePlugin;->_activity:Landroid/app/Activity;
 
     .line 44
-    new-instance v0, Lkik/android/chat/vm/cc;
+    new-instance v0, Lkik/arcane/chat/vm/cc;
 
-    invoke-direct {v0, p1}, Lkik/android/chat/vm/cc;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p1}, Lkik/arcane/chat/vm/cc;-><init>(Landroid/content/Context;)V
 
-    iput-object v0, p0, Lcom/kik/cards/web/profile/ProfilePlugin;->_navigator:Lkik/android/chat/vm/cc;
+    iput-object v0, p0, Lcom/kik/cards/web/profile/ProfilePlugin;->_navigator:Lkik/arcane/chat/vm/cc;
 
     .line 45
     iput-object p2, p0, Lcom/kik/cards/web/profile/ProfilePlugin;->_dialogDelegate:Lcom/kik/cards/web/f;
@@ -97,12 +97,12 @@
     return-object v0
 .end method
 
-.method static synthetic access$400(Lcom/kik/cards/web/profile/ProfilePlugin;)Lkik/android/chat/vm/cc;
+.method static synthetic access$400(Lcom/kik/cards/web/profile/ProfilePlugin;)Lkik/arcane/chat/vm/cc;
     .locals 1
 
     .prologue
     .line 29
-    iget-object v0, p0, Lcom/kik/cards/web/profile/ProfilePlugin;->_navigator:Lkik/android/chat/vm/cc;
+    iget-object v0, p0, Lcom/kik/cards/web/profile/ProfilePlugin;->_navigator:Lkik/arcane/chat/vm/cc;
 
     return-object v0
 .end method
@@ -236,7 +236,7 @@
 
     const v2, 0x7f09016b
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v2
 

@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/c/i;
+.class final synthetic Lkik/arcane/c/i;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/c/d;
+.field private final a:Lkik/arcane/c/d;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/c/d;)V
+.method private constructor <init>(Lkik/arcane/c/d;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/c/i;->a:Lkik/android/c/d;
+    iput-object p1, p0, Lkik/arcane/c/i;->a:Lkik/arcane/c/d;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/c/d;)Landroid/media/MediaRecorder$OnInfoListener;
+.method public static a(Lkik/arcane/c/d;)Landroid/media/MediaRecorder$OnInfoListener;
     .locals 1
 
-    new-instance v0, Lkik/android/c/i;
+    new-instance v0, Lkik/arcane/c/i;
 
-    invoke-direct {v0, p0}, Lkik/android/c/i;-><init>(Lkik/android/c/d;)V
+    invoke-direct {v0, p0}, Lkik/arcane/c/i;-><init>(Lkik/arcane/c/d;)V
 
     return-object v0
 .end method
@@ -35,9 +35,9 @@
 .method public final onInfo(Landroid/media/MediaRecorder;II)V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/c/i;->a:Lkik/android/c/d;
+    iget-object v0, p0, Lkik/arcane/c/i;->a:Lkik/arcane/c/d;
 
-    invoke-static {v0, p2}, Lkik/android/c/d;->a(Lkik/android/c/d;I)V
+    invoke-static {v0, p2}, Lkik/arcane/c/d;->a(Lkik/arcane/c/d;I)V
 
     return-void
 .end method

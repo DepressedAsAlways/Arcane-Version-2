@@ -1,15 +1,15 @@
-.class public final Lkik/android/chat/vm/dx;
-.super Lkik/android/chat/vm/e;
+.class public final Lkik/arcane/chat/vm/dx;
+.super Lkik/arcane/chat/vm/e;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/bo;
+.implements Lkik/arcane/chat/vm/bo;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/vm/dx$a;
+        Lkik/arcane/chat/vm/dx$a;
     }
 .end annotation
 
@@ -52,32 +52,32 @@
     const/4 v0, 0x0
 
     .line 90
-    invoke-direct {p0}, Lkik/android/chat/vm/e;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/e;-><init>()V
 
     .line 91
-    iput-object v0, p0, Lkik/android/chat/vm/dx;->c:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/vm/dx;->c:Ljava/lang/String;
 
     .line 92
-    iput-object v0, p0, Lkik/android/chat/vm/dx;->h:Landroid/graphics/Bitmap;
+    iput-object v0, p0, Lkik/arcane/chat/vm/dx;->h:Landroid/graphics/Bitmap;
 
     .line 93
-    iput p1, p0, Lkik/android/chat/vm/dx;->i:I
+    iput p1, p0, Lkik/arcane/chat/vm/dx;->i:I
 
     .line 94
-    iput-object p2, p0, Lkik/android/chat/vm/dx;->e:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/chat/vm/dx;->e:Ljava/lang/String;
 
     .line 95
-    iput p3, p0, Lkik/android/chat/vm/dx;->d:I
+    iput p3, p0, Lkik/arcane/chat/vm/dx;->d:I
 
     .line 96
     invoke-static {p4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/vm/dx;->f:Ljava/lang/Integer;
+    iput-object v0, p0, Lkik/arcane/chat/vm/dx;->f:Ljava/lang/Integer;
 
     .line 97
-    iput p5, p0, Lkik/android/chat/vm/dx;->g:I
+    iput p5, p0, Lkik/arcane/chat/vm/dx;->g:I
 
     .line 98
     return-void
@@ -88,56 +88,56 @@
 
     .prologue
     .line 111
-    invoke-direct {p0}, Lkik/android/chat/vm/e;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/e;-><init>()V
 
     .line 112
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/chat/vm/dx;->c:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/vm/dx;->c:Ljava/lang/String;
 
     .line 113
-    iput-object p1, p0, Lkik/android/chat/vm/dx;->h:Landroid/graphics/Bitmap;
+    iput-object p1, p0, Lkik/arcane/chat/vm/dx;->h:Landroid/graphics/Bitmap;
 
     .line 114
-    iput-object p2, p0, Lkik/android/chat/vm/dx;->e:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/chat/vm/dx;->e:Ljava/lang/String;
 
     .line 115
     const/16 v0, 0xe
 
-    iput v0, p0, Lkik/android/chat/vm/dx;->d:I
+    iput v0, p0, Lkik/arcane/chat/vm/dx;->d:I
 
     .line 116
     invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/vm/dx;->f:Ljava/lang/Integer;
+    iput-object v0, p0, Lkik/arcane/chat/vm/dx;->f:Ljava/lang/Integer;
 
     .line 117
     const/16 v0, 0x55
 
-    iput v0, p0, Lkik/android/chat/vm/dx;->g:I
+    iput v0, p0, Lkik/arcane/chat/vm/dx;->g:I
 
     .line 118
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/dx;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
+.method static synthetic a(Lkik/arcane/chat/vm/dx;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
     .locals 0
 
     .prologue
     .line 29
-    iput-object p1, p0, Lkik/android/chat/vm/dx;->h:Landroid/graphics/Bitmap;
+    iput-object p1, p0, Lkik/arcane/chat/vm/dx;->h:Landroid/graphics/Bitmap;
 
     return-object p1
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/dx;)Ljava/lang/String;
+.method static synthetic a(Lkik/arcane/chat/vm/dx;)Ljava/lang/String;
     .locals 1
 
     .prologue
     .line 29
-    iget-object v0, p0, Lkik/android/chat/vm/dx;->c:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/vm/dx;->c:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -158,7 +158,7 @@
 
     .prologue
     .line 204
-    iget v0, p0, Lkik/android/chat/vm/dx;->g:I
+    iget v0, p0, Lkik/arcane/chat/vm/dx;->g:I
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -185,12 +185,12 @@
 
     .prologue
     .line 137
-    iget-object v0, p0, Lkik/android/chat/vm/dx;->h:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/chat/vm/dx;->h:Landroid/graphics/Bitmap;
 
     if-eqz v0, :cond_0
 
     .line 138
-    iget-object v0, p0, Lkik/android/chat/vm/dx;->h:Landroid/graphics/Bitmap;
+    iget-object v0, p0, Lkik/arcane/chat/vm/dx;->h:Landroid/graphics/Bitmap;
 
     invoke-static {v0}, Lrx/d;->b(Ljava/lang/Object;)Lrx/d;
 
@@ -202,9 +202,9 @@
 
     .line 140
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/vm/dx;->c:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/vm/dx;->c:Ljava/lang/String;
 
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -221,9 +221,9 @@
 
     .line 144
     :cond_1
-    new-instance v0, Lkik/android/chat/vm/dx$1;
+    new-instance v0, Lkik/arcane/chat/vm/dx$1;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/vm/dx$1;-><init>(Lkik/android/chat/vm/dx;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/vm/dx$1;-><init>(Lkik/arcane/chat/vm/dx;)V
 
     sget-object v1, Lrx/Emitter$BackpressureMode;->BUFFER:Lrx/Emitter$BackpressureMode;
 
@@ -243,25 +243,25 @@
     goto :goto_0
 .end method
 
-.method public final a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+.method public final a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
     .locals 2
 
     .prologue
     .line 123
-    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/vm/dx;)V
+    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/vm/dx;)V
 
     .line 124
-    invoke-super {p0, p1, p2}, Lkik/android/chat/vm/e;->a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+    invoke-super {p0, p1, p2}, Lkik/arcane/chat/vm/e;->a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
 
     .line 126
-    iget v0, p0, Lkik/android/chat/vm/dx;->i:I
+    iget v0, p0, Lkik/arcane/chat/vm/dx;->i:I
 
     if-eqz v0, :cond_0
 
     .line 127
-    iget-object v0, p0, Lkik/android/chat/vm/dx;->b:Landroid/content/res/Resources;
+    iget-object v0, p0, Lkik/arcane/chat/vm/dx;->b:Landroid/content/res/Resources;
 
-    iget v1, p0, Lkik/android/chat/vm/dx;->i:I
+    iget v1, p0, Lkik/arcane/chat/vm/dx;->i:I
 
     invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -281,7 +281,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/vm/dx;->h:Landroid/graphics/Bitmap;
+    iput-object v0, p0, Lkik/arcane/chat/vm/dx;->h:Landroid/graphics/Bitmap;
 
     .line 132
     :cond_0
@@ -302,7 +302,7 @@
 
     .prologue
     .line 186
-    iget-object v0, p0, Lkik/android/chat/vm/dx;->e:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/vm/dx;->e:Ljava/lang/String;
 
     invoke-static {v0}, Lrx/d;->b(Ljava/lang/Object;)Lrx/d;
 
@@ -316,7 +316,7 @@
 
     .prologue
     .line 192
-    iget v0, p0, Lkik/android/chat/vm/dx;->d:I
+    iget v0, p0, Lkik/arcane/chat/vm/dx;->d:I
 
     return v0
 .end method
@@ -335,7 +335,7 @@
 
     .prologue
     .line 198
-    iget-object v0, p0, Lkik/android/chat/vm/dx;->f:Ljava/lang/Integer;
+    iget-object v0, p0, Lkik/arcane/chat/vm/dx;->f:Ljava/lang/Integer;
 
     invoke-static {v0}, Lrx/d;->b(Ljava/lang/Object;)Lrx/d;
 

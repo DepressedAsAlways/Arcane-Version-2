@@ -1,11 +1,11 @@
-.class public final Lcom/kik/android/b/g$b;
+.class public final Lcom/kik/arcane/b/g$b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/kik/android/b/g;
+    value = Lcom/kik/arcane/b/g;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field private a:Lcom/kik/android/b/f;
+.field private a:Lcom/kik/arcane/b/f;
 
 .field private b:J
 
@@ -25,7 +25,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/kik/android/b/f;JJJ)V
+.method public constructor <init>(Lcom/kik/arcane/b/f;JJJ)V
     .locals 0
 
     .prologue
@@ -33,40 +33,40 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 169
-    iput-wide p2, p0, Lcom/kik/android/b/g$b;->d:J
+    iput-wide p2, p0, Lcom/kik/arcane/b/g$b;->d:J
 
     .line 170
-    iput-object p1, p0, Lcom/kik/android/b/g$b;->a:Lcom/kik/android/b/f;
+    iput-object p1, p0, Lcom/kik/arcane/b/g$b;->a:Lcom/kik/arcane/b/f;
 
     .line 171
-    iput-wide p4, p0, Lcom/kik/android/b/g$b;->b:J
+    iput-wide p4, p0, Lcom/kik/arcane/b/g$b;->b:J
 
     .line 172
-    iput-wide p6, p0, Lcom/kik/android/b/g$b;->c:J
+    iput-wide p6, p0, Lcom/kik/arcane/b/g$b;->c:J
 
     .line 173
     return-void
 .end method
 
-.method static synthetic a(Lcom/kik/android/b/g$b;J)V
+.method static synthetic a(Lcom/kik/arcane/b/g$b;J)V
     .locals 1
 
     .prologue
     .line 160
     .line 1182
-    iput-wide p1, p0, Lcom/kik/android/b/g$b;->c:J
+    iput-wide p1, p0, Lcom/kik/arcane/b/g$b;->c:J
 
     .line 160
     return-void
 .end method
 
-.method static synthetic a(Lcom/kik/android/b/g$b;Lcom/kik/android/b/f;)V
+.method static synthetic a(Lcom/kik/arcane/b/g$b;Lcom/kik/arcane/b/f;)V
     .locals 0
 
     .prologue
     .line 160
     .line 1177
-    iput-object p1, p0, Lcom/kik/android/b/g$b;->a:Lcom/kik/android/b/f;
+    iput-object p1, p0, Lcom/kik/arcane/b/g$b;->a:Lcom/kik/arcane/b/f;
 
     .line 160
     return-void
@@ -79,17 +79,17 @@
 
     .prologue
     .line 192
-    iget-wide v0, p0, Lcom/kik/android/b/g$b;->c:J
+    iget-wide v0, p0, Lcom/kik/arcane/b/g$b;->c:J
 
     return-wide v0
 .end method
 
-.method public final b()Lcom/kik/android/b/f;
+.method public final b()Lcom/kik/arcane/b/f;
     .locals 1
 
     .prologue
     .line 197
-    iget-object v0, p0, Lcom/kik/android/b/g$b;->a:Lcom/kik/android/b/f;
+    iget-object v0, p0, Lcom/kik/arcane/b/g$b;->a:Lcom/kik/arcane/b/f;
 
     return-object v0
 .end method
@@ -99,9 +99,9 @@
 
     .prologue
     .line 202
-    iget-wide v0, p0, Lcom/kik/android/b/g$b;->c:J
+    iget-wide v0, p0, Lcom/kik/arcane/b/g$b;->c:J
 
-    iget-wide v2, p0, Lcom/kik/android/b/g$b;->d:J
+    iget-wide v2, p0, Lcom/kik/arcane/b/g$b;->d:J
 
     cmp-long v0, v0, v2
 
@@ -123,9 +123,9 @@
 
     .prologue
     .line 223
-    iget-wide v0, p0, Lcom/kik/android/b/g$b;->c:J
+    iget-wide v0, p0, Lcom/kik/arcane/b/g$b;->c:J
 
-    iget-wide v2, p0, Lcom/kik/android/b/g$b;->b:J
+    iget-wide v2, p0, Lcom/kik/arcane/b/g$b;->b:J
 
     cmp-long v0, v0, v2
 

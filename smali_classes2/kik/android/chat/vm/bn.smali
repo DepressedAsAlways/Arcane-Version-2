@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/chat/vm/bn;
+.class public interface abstract Lkik/arcane/chat/vm/bn;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -21,5 +21,5 @@
     .end annotation
 .end method
 
-.method public abstract c()Lcom/kik/android/Mixpanel;
+.method public abstract c()Lcom/kik/arcane/Mixpanel;
 .end method

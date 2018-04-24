@@ -48,9 +48,9 @@
 
     .prologue
     .line 78
-    new-instance v0, Lkik/android/chat/fragment/KikFindByUsernameFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/KikFindByUsernameFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/KikFindByUsernameFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/KikFindByUsernameFragment$a;-><init>()V
 
     .line 80
     iget-object v1, p0, Lcom/kik/view/adapters/o$d;->b:Lcom/kik/view/adapters/o;
@@ -59,22 +59,22 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/util/ae;Landroid/content/Context;)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-static {v0, v1}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/util/ae;Landroid/content/Context;)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
 
     .line 82
     iget-object v0, p0, Lcom/kik/view/adapters/o$d;->b:Lcom/kik/view/adapters/o;
 
-    invoke-static {v0}, Lcom/kik/view/adapters/o;->a(Lcom/kik/view/adapters/o;)Lcom/kik/android/Mixpanel;
+    invoke-static {v0}, Lcom/kik/view/adapters/o;->a(Lcom/kik/view/adapters/o;)Lcom/kik/arcane/Mixpanel;
 
     move-result-object v0
 
     const-string v1, "Find by Username Tapped"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -83,17 +83,17 @@
     const-string v2, "Find People"
 
     .line 83
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 84
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 85
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 86
     return-void

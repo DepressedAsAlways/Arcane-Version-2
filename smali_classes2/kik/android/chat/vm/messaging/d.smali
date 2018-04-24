@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/messaging/d;
+.class final synthetic Lkik/arcane/chat/vm/messaging/d;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -17,9 +17,9 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/vm/messaging/d;->a:Lcom/kik/clientmetrics/f;
+    iput-object p1, p0, Lkik/arcane/chat/vm/messaging/d;->a:Lcom/kik/clientmetrics/f;
 
-    iput-object p2, p0, Lkik/android/chat/vm/messaging/d;->b:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/chat/vm/messaging/d;->b:Ljava/lang/String;
 
     return-void
 .end method
@@ -27,9 +27,9 @@
 .method public static a(Lcom/kik/clientmetrics/f;Ljava/lang/String;)Lrx/functions/g;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/messaging/d;
+    new-instance v0, Lkik/arcane/chat/vm/messaging/d;
 
-    invoke-direct {v0, p0, p1}, Lkik/android/chat/vm/messaging/d;-><init>(Lcom/kik/clientmetrics/f;Ljava/lang/String;)V
+    invoke-direct {v0, p0, p1}, Lkik/arcane/chat/vm/messaging/d;-><init>(Lcom/kik/clientmetrics/f;Ljava/lang/String;)V
 
     return-object v0
 .end method
@@ -43,9 +43,9 @@
     const/4 v8, 0x1
 
     .line 0
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/d;->a:Lcom/kik/clientmetrics/f;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/d;->a:Lcom/kik/clientmetrics/f;
 
-    iget-object v1, p0, Lkik/android/chat/vm/messaging/d;->b:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/chat/vm/messaging/d;->b:Ljava/lang/String;
 
     check-cast p1, Ljava/lang/Throwable;
 

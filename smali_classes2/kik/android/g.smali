@@ -1,4 +1,4 @@
-.class public final Lkik/android/g;
+.class public final Lkik/arcane/g;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,17 +6,17 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/g$a;
+        Lkik/arcane/g$a;
     }
 .end annotation
 
 
 # static fields
-.field private static a:Lkik/android/g;
+.field private static a:Lkik/arcane/g;
 
 
 # instance fields
-.field private b:Lkik/android/g$a;
+.field private b:Lkik/arcane/g$a;
 
 .field private c:Lcom/kik/events/Promise;
     .annotation system Ldalvik/annotation/Signature;
@@ -43,37 +43,37 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/g;)Ljava/lang/String;
+.method static synthetic a(Lkik/arcane/g;)Ljava/lang/String;
     .locals 1
 
     .prologue
     .line 21
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/g;->d:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/g;->d:Ljava/lang/String;
 
     return-object v0
 .end method
 
-.method public static a()Lkik/android/g;
+.method public static a()Lkik/arcane/g;
     .locals 1
 
     .prologue
     .line 30
-    sget-object v0, Lkik/android/g;->a:Lkik/android/g;
+    sget-object v0, Lkik/arcane/g;->a:Lkik/arcane/g;
 
     if-nez v0, :cond_0
 
     .line 31
-    new-instance v0, Lkik/android/g;
+    new-instance v0, Lkik/arcane/g;
 
-    invoke-direct {v0}, Lkik/android/g;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/g;-><init>()V
 
-    sput-object v0, Lkik/android/g;->a:Lkik/android/g;
+    sput-object v0, Lkik/arcane/g;->a:Lkik/arcane/g;
 
     .line 33
     :cond_0
-    sget-object v0, Lkik/android/g;->a:Lkik/android/g;
+    sget-object v0, Lkik/arcane/g;->a:Lkik/arcane/g;
 
     return-object v0
 .end method
@@ -97,11 +97,11 @@
 
     .prologue
     .line 38
-    iget-object v0, p0, Lkik/android/g;->d:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/g;->d:Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/g;->d:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/g;->d:Ljava/lang/String;
 
     invoke-virtual {p1}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
@@ -114,7 +114,7 @@
     if-eqz v0, :cond_0
 
     .line 39
-    iget-object v0, p0, Lkik/android/g;->c:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/g;->c:Lcom/kik/events/Promise;
 
     .line 54
     :goto_0
@@ -122,51 +122,51 @@
 
     .line 41
     :cond_0
-    invoke-virtual {p0}, Lkik/android/g;->b()V
+    invoke-virtual {p0}, Lkik/arcane/g;->b()V
 
     .line 43
     new-instance v0, Lcom/kik/events/Promise;
 
     invoke-direct {v0}, Lcom/kik/events/Promise;-><init>()V
 
-    iput-object v0, p0, Lkik/android/g;->c:Lcom/kik/events/Promise;
+    iput-object v0, p0, Lkik/arcane/g;->c:Lcom/kik/events/Promise;
 
     .line 44
-    iget-object v0, p0, Lkik/android/g;->c:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/g;->c:Lcom/kik/events/Promise;
 
-    new-instance v1, Lkik/android/g$1;
+    new-instance v1, Lkik/arcane/g$1;
 
-    invoke-direct {v1, p0}, Lkik/android/g$1;-><init>(Lkik/android/g;)V
+    invoke-direct {v1, p0}, Lkik/arcane/g$1;-><init>(Lkik/arcane/g;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
     .line 51
-    new-instance v0, Lkik/android/g$a;
+    new-instance v0, Lkik/arcane/g$a;
 
-    iget-object v1, p0, Lkik/android/g;->c:Lcom/kik/events/Promise;
+    iget-object v1, p0, Lkik/arcane/g;->c:Lcom/kik/events/Promise;
 
-    invoke-direct {v0, p2, p1, v1}, Lkik/android/g$a;-><init>(Landroid/content/Context;Landroid/net/Uri;Lcom/kik/events/Promise;)V
+    invoke-direct {v0, p2, p1, v1}, Lkik/arcane/g$a;-><init>(Landroid/content/Context;Landroid/net/Uri;Lcom/kik/events/Promise;)V
 
-    iput-object v0, p0, Lkik/android/g;->b:Lkik/android/g$a;
+    iput-object v0, p0, Lkik/arcane/g;->b:Lkik/arcane/g$a;
 
     .line 52
-    iget-object v0, p0, Lkik/android/g;->b:Lkik/android/g$a;
+    iget-object v0, p0, Lkik/arcane/g;->b:Lkik/arcane/g$a;
 
     const/4 v1, 0x0
 
     new-array v1, v1, [Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lkik/android/g$a;->a([Ljava/lang/Object;)Landroid/os/AsyncTask;
+    invoke-virtual {v0, v1}, Lkik/arcane/g$a;->a([Ljava/lang/Object;)Landroid/os/AsyncTask;
 
     .line 53
     invoke-virtual {p1}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/g;->d:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/g;->d:Ljava/lang/String;
 
     .line 54
-    iget-object v0, p0, Lkik/android/g;->c:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/g;->c:Lcom/kik/events/Promise;
 
     goto :goto_0
 .end method
@@ -176,24 +176,24 @@
 
     .prologue
     .line 59
-    iget-object v0, p0, Lkik/android/g;->d:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/g;->d:Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
     .line 60
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/g;->d:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/g;->d:Ljava/lang/String;
 
     .line 61
-    iget-object v0, p0, Lkik/android/g;->b:Lkik/android/g$a;
+    iget-object v0, p0, Lkik/arcane/g;->b:Lkik/arcane/g$a;
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lkik/android/g$a;->cancel(Z)Z
+    invoke-virtual {v0, v1}, Lkik/arcane/g$a;->cancel(Z)Z
 
     .line 62
-    iget-object v0, p0, Lkik/android/g;->c:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/g;->c:Lcom/kik/events/Promise;
 
     new-instance v1, Ljava/lang/Throwable;
 

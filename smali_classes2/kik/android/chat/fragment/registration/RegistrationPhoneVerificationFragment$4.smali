@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$4;
+.class final Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;
+    value = Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,20 +18,20 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/challenge/PhoneNumberModel;
+.field final synthetic a:Lkik/arcane/challenge/PhoneNumberModel;
 
-.field final synthetic b:Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;
+.field final synthetic b:Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;Lkik/android/challenge/PhoneNumberModel;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;Lkik/arcane/challenge/PhoneNumberModel;)V
     .locals 0
 
     .prologue
     .line 210
-    iput-object p1, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$4;->b:Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$4;->b:Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;
 
-    iput-object p2, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$4;->a:Lkik/android/challenge/PhoneNumberModel;
+    iput-object p2, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$4;->a:Lkik/arcane/challenge/PhoneNumberModel;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,22 +45,22 @@
 
     .prologue
     .line 214
-    iget-object v0, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$4;->a:Lkik/android/challenge/PhoneNumberModel;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$4;->a:Lkik/arcane/challenge/PhoneNumberModel;
 
-    invoke-virtual {v0}, Lkik/android/challenge/PhoneNumberModel;->a()Lkik/android/challenge/CountryCode;
+    invoke-virtual {v0}, Lkik/arcane/challenge/PhoneNumberModel;->a()Lkik/arcane/challenge/CountryCode;
 
     move-result-object v0
 
-    iget-object v0, v0, Lkik/android/challenge/CountryCode;->e:Ljava/lang/String;
+    iget-object v0, v0, Lkik/arcane/challenge/CountryCode;->e:Ljava/lang/String;
 
     .line 215
-    iget-object v1, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$4;->b:Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$4;->b:Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;
 
-    iget-object v1, v1, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;->b:Lcom/kik/android/Mixpanel;
+    iget-object v1, v1, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;->b:Lcom/kik/arcane/Mixpanel;
 
     const-string v2, "Phone Verification Skip Cancelled"
 
-    invoke-virtual {v1, v2}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
@@ -69,24 +69,24 @@
     const-string v3, "Unsupported Country"
 
     .line 216
-    invoke-virtual {v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
     const-string v2, "Selected Country"
 
     .line 217
-    invoke-virtual {v1, v2, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 218
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 219
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 220
     return-void

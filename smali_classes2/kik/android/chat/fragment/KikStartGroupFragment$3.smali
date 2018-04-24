@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/KikStartGroupFragment$3;
+.class final Lkik/arcane/chat/fragment/KikStartGroupFragment$3;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/KikStartGroupFragment;->n_()V
+    value = Lkik/arcane/chat/fragment/KikStartGroupFragment;->n_()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikStartGroupFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikStartGroupFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikStartGroupFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikStartGroupFragment;)V
     .locals 0
 
     .prologue
     .line 699
-    iput-object p1, p0, Lkik/android/chat/fragment/KikStartGroupFragment$3;->a:Lkik/android/chat/fragment/KikStartGroupFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikStartGroupFragment$3;->a:Lkik/arcane/chat/fragment/KikStartGroupFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,38 +41,38 @@
 
     .prologue
     .line 703
-    iget-object v0, p0, Lkik/android/chat/fragment/KikStartGroupFragment$3;->a:Lkik/android/chat/fragment/KikStartGroupFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikStartGroupFragment$3;->a:Lkik/arcane/chat/fragment/KikStartGroupFragment;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/KikStartGroupFragment$3;->a:Lkik/android/chat/fragment/KikStartGroupFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikStartGroupFragment$3;->a:Lkik/arcane/chat/fragment/KikStartGroupFragment;
 
     const v2, 0x7f09049b
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikStartGroupFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikStartGroupFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/chat/fragment/KikStartGroupFragment$3;->a:Lkik/android/chat/fragment/KikStartGroupFragment;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/KikStartGroupFragment$3;->a:Lkik/arcane/chat/fragment/KikStartGroupFragment;
 
     const v3, 0x7f09005c
 
     .line 704
-    invoke-virtual {v2, v3}, Lkik/android/chat/fragment/KikStartGroupFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {v2, v3}, Lkik/arcane/chat/fragment/KikStartGroupFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v2
 
     .line 703
-    invoke-virtual {v0, v1, v2}, Lkik/android/chat/fragment/KikStartGroupFragment;->displayErrorDialog(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lkik/arcane/chat/fragment/KikStartGroupFragment;->displayErrorDialog(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 705
-    iget-object v0, p0, Lkik/android/chat/fragment/KikStartGroupFragment$3;->a:Lkik/android/chat/fragment/KikStartGroupFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikStartGroupFragment$3;->a:Lkik/arcane/chat/fragment/KikStartGroupFragment;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/KikStartGroupFragment$3;->a:Lkik/android/chat/fragment/KikStartGroupFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikStartGroupFragment$3;->a:Lkik/arcane/chat/fragment/KikStartGroupFragment;
 
-    invoke-static {v1}, Lkik/android/chat/fragment/KikStartGroupFragment;->j(Lkik/android/chat/fragment/KikStartGroupFragment;)Lkik/core/datatypes/p;
+    invoke-static {v1}, Lkik/arcane/chat/fragment/KikStartGroupFragment;->j(Lkik/arcane/chat/fragment/KikStartGroupFragment;)Lkik/core/datatypes/p;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lkik/android/chat/fragment/KikStartGroupFragment;->b(Lkik/android/chat/fragment/KikStartGroupFragment;Lkik/core/datatypes/p;)V
+    invoke-static {v0, v1}, Lkik/arcane/chat/fragment/KikStartGroupFragment;->b(Lkik/arcane/chat/fragment/KikStartGroupFragment;Lkik/core/datatypes/p;)V
 
     .line 706
     return-void

@@ -1,4 +1,4 @@
-.class public abstract Lkik/android/config/Configuration;
+.class public abstract Lkik/arcane/config/Configuration;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/config/Configuration$Type;
+        Lkik/arcane/config/Configuration$Type;
     }
 .end annotation
 
@@ -50,11 +50,11 @@
 
 .field private final e:Ljava/lang/Runnable;
 
-.field private f:Lkik/android/util/aj;
+.field private f:Lkik/arcane/util/aj;
 
 
 # direct methods
-.method protected constructor <init>(Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Runnable;Lkik/android/util/aj;)V
+.method protected constructor <init>(Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Runnable;Lkik/arcane/util/aj;)V
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -62,7 +62,7 @@
             "Ljava/lang/String;",
             "TT;[TT;",
             "Ljava/lang/Runnable;",
-            "Lkik/android/util/aj;",
+            "Lkik/arcane/util/aj;",
             ")V"
         }
     .end annotation
@@ -85,7 +85,7 @@
 
     .line 35
     :cond_0
-    iput-object p1, p0, Lkik/android/config/Configuration;->a:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/config/Configuration;->a:Ljava/lang/String;
 
     .line 36
     if-nez p2, :cond_1
@@ -101,7 +101,7 @@
 
     .line 39
     :cond_1
-    iput-object p2, p0, Lkik/android/config/Configuration;->c:Ljava/lang/Object;
+    iput-object p2, p0, Lkik/arcane/config/Configuration;->c:Ljava/lang/Object;
 
     .line 40
     if-nez p3, :cond_3
@@ -109,23 +109,23 @@
     .line 41
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/config/Configuration;->d:Ljava/util/List;
+    iput-object v0, p0, Lkik/arcane/config/Configuration;->d:Ljava/util/List;
 
     .line 50
     :cond_2
-    iput-object p4, p0, Lkik/android/config/Configuration;->e:Ljava/lang/Runnable;
+    iput-object p4, p0, Lkik/arcane/config/Configuration;->e:Ljava/lang/Runnable;
 
     .line 52
-    iput-object p5, p0, Lkik/android/config/Configuration;->f:Lkik/android/util/aj;
+    iput-object p5, p0, Lkik/arcane/config/Configuration;->f:Lkik/arcane/util/aj;
 
     .line 54
-    iget-object v0, p0, Lkik/android/config/Configuration;->f:Lkik/android/util/aj;
+    iget-object v0, p0, Lkik/arcane/config/Configuration;->f:Lkik/arcane/util/aj;
 
-    invoke-virtual {p0, v0}, Lkik/android/config/Configuration;->b(Lkik/android/util/aj;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Lkik/arcane/config/Configuration;->b(Lkik/arcane/util/aj;)Ljava/lang/Object;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/config/Configuration;->b:Ljava/lang/Object;
+    iput-object v0, p0, Lkik/arcane/config/Configuration;->b:Ljava/lang/Object;
 
     .line 55
     return-void
@@ -136,12 +136,12 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/config/Configuration;->d:Ljava/util/List;
+    iput-object v0, p0, Lkik/arcane/config/Configuration;->d:Ljava/util/List;
 
     .line 45
-    iget-object v0, p0, Lkik/android/config/Configuration;->d:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/config/Configuration;->d:Ljava/util/List;
 
-    iget-object v1, p0, Lkik/android/config/Configuration;->c:Ljava/lang/Object;
+    iget-object v1, p0, Lkik/arcane/config/Configuration;->c:Ljava/lang/Object;
 
     invoke-interface {v0, v1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
@@ -161,10 +161,10 @@
 
 
 # virtual methods
-.method public abstract a()Lkik/android/config/Configuration$Type;
+.method public abstract a()Lkik/arcane/config/Configuration$Type;
 .end method
 
-.method protected abstract a(Lkik/android/util/aj;)V
+.method protected abstract a(Lkik/arcane/util/aj;)V
 .end method
 
 .method public a(Ljava/lang/Object;)Z
@@ -177,11 +177,11 @@
 
     .prologue
     .line 101
-    iget-object v0, p0, Lkik/android/config/Configuration;->d:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/config/Configuration;->d:Ljava/util/List;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/config/Configuration;->d:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/config/Configuration;->d:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
@@ -191,20 +191,20 @@
 
     .line 102
     :cond_0
-    iput-object p1, p0, Lkik/android/config/Configuration;->b:Ljava/lang/Object;
+    iput-object p1, p0, Lkik/arcane/config/Configuration;->b:Ljava/lang/Object;
 
     .line 103
-    iget-object v0, p0, Lkik/android/config/Configuration;->f:Lkik/android/util/aj;
+    iget-object v0, p0, Lkik/arcane/config/Configuration;->f:Lkik/arcane/util/aj;
 
-    invoke-virtual {p0, v0}, Lkik/android/config/Configuration;->a(Lkik/android/util/aj;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/config/Configuration;->a(Lkik/arcane/util/aj;)V
 
     .line 104
-    iget-object v0, p0, Lkik/android/config/Configuration;->e:Ljava/lang/Runnable;
+    iget-object v0, p0, Lkik/arcane/config/Configuration;->e:Ljava/lang/Runnable;
 
     if-eqz v0, :cond_1
 
     .line 105
-    iget-object v0, p0, Lkik/android/config/Configuration;->e:Ljava/lang/Runnable;
+    iget-object v0, p0, Lkik/arcane/config/Configuration;->e:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
@@ -232,16 +232,16 @@
 
     .prologue
     .line 75
-    iget-object v0, p0, Lkik/android/config/Configuration;->b:Ljava/lang/Object;
+    iget-object v0, p0, Lkik/arcane/config/Configuration;->b:Ljava/lang/Object;
 
     return-object v0
 .end method
 
-.method protected abstract b(Lkik/android/util/aj;)Ljava/lang/Object;
+.method protected abstract b(Lkik/arcane/util/aj;)Ljava/lang/Object;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/util/aj;",
+            "Lkik/arcane/util/aj;",
             ")TT;"
         }
     .end annotation
@@ -252,7 +252,7 @@
 
     .prologue
     .line 62
-    iget-object v0, p0, Lkik/android/config/Configuration;->a:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/config/Configuration;->a:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -267,7 +267,7 @@
 
     .prologue
     .line 83
-    iget-object v0, p0, Lkik/android/config/Configuration;->c:Ljava/lang/Object;
+    iget-object v0, p0, Lkik/arcane/config/Configuration;->c:Ljava/lang/Object;
 
     return-object v0
 .end method
@@ -284,7 +284,7 @@
 
     .prologue
     .line 91
-    iget-object v0, p0, Lkik/android/config/Configuration;->d:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/config/Configuration;->d:Ljava/util/List;
 
     return-object v0
 .end method

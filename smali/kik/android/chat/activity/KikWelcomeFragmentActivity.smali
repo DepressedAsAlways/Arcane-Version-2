@@ -1,5 +1,5 @@
-.class public Lkik/android/chat/activity/KikWelcomeFragmentActivity;
-.super Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;
+.class public Lkik/arcane/chat/activity/KikWelcomeFragmentActivity;
+.super Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;
 .source "SourceFile"
 
 
@@ -16,7 +16,7 @@
 
     .prologue
     .line 22
-    invoke-direct {p0}, Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;-><init>()V
 
     return-void
 .end method
@@ -28,20 +28,20 @@
 
     .prologue
     .line 29
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikWelcomeFragmentActivity;->getApplication()Landroid/app/Application;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikWelcomeFragmentActivity;->getApplication()Landroid/app/Application;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/e;
+    check-cast v0, Lkik/arcane/chat/e;
 
-    invoke-interface {v0}, Lkik/android/chat/e;->a()Lcom/kik/components/CoreComponent;
+    invoke-interface {v0}, Lkik/arcane/chat/e;->a()Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 
-    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/activity/KikWelcomeFragmentActivity;)V
+    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/activity/KikWelcomeFragmentActivity;)V
 
     .line 30
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikWelcomeFragmentActivity;->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikWelcomeFragmentActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object v0
 
@@ -52,7 +52,7 @@
     const-string v1, "SimpleFragmentWrapperActivity.fragmentlaunchclass"
 
     .line 1055
-    const-class v2, Lkik/android/chat/fragment/KikWelcomeFragment;
+    const-class v2, Lkik/arcane/chat/fragment/KikWelcomeFragment;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getCanonicalName()Ljava/lang/String;
 
@@ -63,7 +63,7 @@
 
     .line 34
     :cond_0
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;->onCreate(Landroid/os/Bundle;)V
 
     .line 35
     return-void
@@ -74,16 +74,16 @@
 
     .prologue
     .line 48
-    invoke-super {p0}, Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;->onPause()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;->onPause()V
 
     .line 50
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikWelcomeFragmentActivity;->getApplication()Landroid/app/Application;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikWelcomeFragmentActivity;->getApplication()Landroid/app/Application;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/KikApplication;
+    check-cast v0, Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v0, p0}, Lkik/android/chat/KikApplication;->c(Landroid/app/Activity;)V
+    invoke-virtual {v0, p0}, Lkik/arcane/chat/KikApplication;->c(Landroid/app/Activity;)V
 
     .line 51
     return-void
@@ -94,16 +94,16 @@
 
     .prologue
     .line 40
-    invoke-super {p0}, Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;->onResume()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;->onResume()V
 
     .line 42
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikWelcomeFragmentActivity;->getApplication()Landroid/app/Application;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikWelcomeFragmentActivity;->getApplication()Landroid/app/Application;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/KikApplication;
+    check-cast v0, Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v0, p0}, Lkik/android/chat/KikApplication;->d(Landroid/app/Activity;)V
+    invoke-virtual {v0, p0}, Lkik/arcane/chat/KikApplication;->d(Landroid/app/Activity;)V
 
     .line 43
     return-void

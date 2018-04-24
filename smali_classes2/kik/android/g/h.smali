@@ -1,4 +1,4 @@
-.class public final Lkik/android/g/h;
+.class public final Lkik/arcane/g/h;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -25,16 +25,16 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 18
-    iput p1, p0, Lkik/android/g/h;->a:I
+    iput p1, p0, Lkik/arcane/g/h;->a:I
 
     .line 19
-    iput p2, p0, Lkik/android/g/h;->b:I
+    iput p2, p0, Lkik/arcane/g/h;->b:I
 
     .line 20
-    iput p3, p0, Lkik/android/g/h;->c:I
+    iput p3, p0, Lkik/arcane/g/h;->c:I
 
     .line 21
-    iput p4, p0, Lkik/android/g/h;->d:I
+    iput p4, p0, Lkik/arcane/g/h;->d:I
 
     .line 22
     return-void
@@ -47,7 +47,7 @@
 
     .prologue
     .line 26
-    iget v0, p0, Lkik/android/g/h;->d:I
+    iget v0, p0, Lkik/arcane/g/h;->d:I
 
     return v0
 .end method
@@ -57,7 +57,7 @@
 
     .prologue
     .line 31
-    iget v0, p0, Lkik/android/g/h;->a:I
+    iget v0, p0, Lkik/arcane/g/h;->a:I
 
     return v0
 .end method
@@ -67,7 +67,7 @@
 
     .prologue
     .line 36
-    iget v0, p0, Lkik/android/g/h;->b:I
+    iget v0, p0, Lkik/arcane/g/h;->b:I
 
     return v0
 .end method
@@ -77,7 +77,7 @@
 
     .prologue
     .line 41
-    iget v0, p0, Lkik/android/g/h;->c:I
+    iget v0, p0, Lkik/arcane/g/h;->c:I
 
     return v0
 .end method

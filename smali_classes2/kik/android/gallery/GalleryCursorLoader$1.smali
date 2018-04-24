@@ -1,11 +1,11 @@
-.class final Lkik/android/gallery/GalleryCursorLoader$1;
+.class final Lkik/arcane/gallery/GalleryCursorLoader$1;
 .super Landroid/database/ContentObserver;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/gallery/GalleryCursorLoader;
+    value = Lkik/arcane/gallery/GalleryCursorLoader;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/gallery/GalleryCursorLoader;
+.field final synthetic a:Lkik/arcane/gallery/GalleryCursorLoader;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/gallery/GalleryCursorLoader;Landroid/os/Handler;)V
+.method constructor <init>(Lkik/arcane/gallery/GalleryCursorLoader;Landroid/os/Handler;)V
     .locals 0
 
     .prologue
     .line 71
-    iput-object p1, p0, Lkik/android/gallery/GalleryCursorLoader$1;->a:Lkik/android/gallery/GalleryCursorLoader;
+    iput-object p1, p0, Lkik/arcane/gallery/GalleryCursorLoader$1;->a:Lkik/arcane/gallery/GalleryCursorLoader;
 
     invoke-direct {p0, p2}, Landroid/database/ContentObserver;-><init>(Landroid/os/Handler;)V
 
@@ -41,9 +41,9 @@
     invoke-super {p0, p1}, Landroid/database/ContentObserver;->onChange(Z)V
 
     .line 76
-    iget-object v0, p0, Lkik/android/gallery/GalleryCursorLoader$1;->a:Lkik/android/gallery/GalleryCursorLoader;
+    iget-object v0, p0, Lkik/arcane/gallery/GalleryCursorLoader$1;->a:Lkik/arcane/gallery/GalleryCursorLoader;
 
-    invoke-virtual {v0}, Lkik/android/gallery/GalleryCursorLoader;->a()V
+    invoke-virtual {v0}, Lkik/arcane/gallery/GalleryCursorLoader;->a()V
 
     .line 77
     return-void

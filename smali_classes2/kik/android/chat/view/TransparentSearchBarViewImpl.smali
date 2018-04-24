@@ -1,5 +1,5 @@
-.class public Lkik/android/chat/view/TransparentSearchBarViewImpl;
-.super Lkik/android/chat/view/SearchBarViewImpl;
+.class public Lkik/arcane/chat/view/TransparentSearchBarViewImpl;
+.super Lkik/arcane/chat/view/SearchBarViewImpl;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
     .prologue
     .line 14
-    invoke-direct {p0, p1}, Lkik/android/chat/view/SearchBarViewImpl;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lkik/arcane/chat/view/SearchBarViewImpl;-><init>(Landroid/content/Context;)V
 
     .line 15
     return-void
@@ -20,7 +20,7 @@
 
     .prologue
     .line 19
-    invoke-direct {p0, p1, p2}, Lkik/android/chat/view/SearchBarViewImpl;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/chat/view/SearchBarViewImpl;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 20
     return-void
@@ -31,7 +31,7 @@
 
     .prologue
     .line 24
-    invoke-direct {p0, p1, p2, p3}, Lkik/android/chat/view/SearchBarViewImpl;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lkik/arcane/chat/view/SearchBarViewImpl;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 25
     return-void
@@ -42,7 +42,7 @@
 
     .prologue
     .line 29
-    invoke-direct {p0, p1, p2, p3, p4}, Lkik/android/chat/view/SearchBarViewImpl;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lkik/arcane/chat/view/SearchBarViewImpl;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
     .line 30
     return-void
@@ -63,12 +63,12 @@
 
     .prologue
     .line 35
-    invoke-super {p0, p1, p2}, Lkik/android/chat/view/SearchBarViewImpl;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-super {p0, p1, p2}, Lkik/arcane/chat/view/SearchBarViewImpl;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 37
     const v0, 0x7f1003c2
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/TransparentSearchBarViewImpl;->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/TransparentSearchBarViewImpl;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -82,7 +82,7 @@
     .line 40
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/TransparentSearchBarViewImpl;->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/TransparentSearchBarViewImpl;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     .line 41
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -95,7 +95,7 @@
 
     move-result v0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/TransparentSearchBarViewImpl;->setMinimumHeight(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/TransparentSearchBarViewImpl;->setMinimumHeight(I)V
 
     .line 42
     return-void

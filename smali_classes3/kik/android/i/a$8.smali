@@ -1,11 +1,11 @@
-.class final Lkik/android/i/a$8;
+.class final Lkik/arcane/i/a$8;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/i/a;->f()V
+    value = Lkik/arcane/i/a;->f()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/i/a;
+.field final synthetic a:Lkik/arcane/i/a;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/i/a;)V
+.method constructor <init>(Lkik/arcane/i/a;)V
     .locals 0
 
     .prologue
     .line 341
-    iput-object p1, p0, Lkik/android/i/a$8;->a:Lkik/android/i/a;
+    iput-object p1, p0, Lkik/arcane/i/a$8;->a:Lkik/arcane/i/a;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -85,17 +85,17 @@
     invoke-direct {v3, v4, v0}, Lkik/core/datatypes/a;-><init>(Ljava/lang/Boolean;Ljava/lang/Boolean;)V
 
     .line 1356
-    iget-object v0, p0, Lkik/android/i/a$8;->a:Lkik/android/i/a;
+    iget-object v0, p0, Lkik/arcane/i/a$8;->a:Lkik/arcane/i/a;
 
-    invoke-static {v0, v3}, Lkik/android/i/a;->a(Lkik/android/i/a;Lkik/core/datatypes/a;)Lkik/core/datatypes/a;
+    invoke-static {v0, v3}, Lkik/arcane/i/a;->a(Lkik/arcane/i/a;Lkik/core/datatypes/a;)Lkik/core/datatypes/a;
 
     .line 1358
     if-eqz v1, :cond_2
 
     .line 1359
-    iget-object v0, p0, Lkik/android/i/a$8;->a:Lkik/android/i/a;
+    iget-object v0, p0, Lkik/arcane/i/a$8;->a:Lkik/arcane/i/a;
 
-    invoke-static {v0}, Lkik/android/i/a;->a(Lkik/android/i/a;)Lkik/core/interfaces/ad;
+    invoke-static {v0}, Lkik/arcane/i/a;->a(Lkik/arcane/i/a;)Lkik/core/interfaces/ad;
 
     move-result-object v0
 
@@ -107,14 +107,14 @@
 
     .line 1365
     :goto_1
-    iget-object v0, p0, Lkik/android/i/a$8;->a:Lkik/android/i/a;
+    iget-object v0, p0, Lkik/arcane/i/a$8;->a:Lkik/arcane/i/a;
 
-    invoke-static {v0, v2}, Lkik/android/i/a;->a(Lkik/android/i/a;Ljava/lang/Boolean;)V
+    invoke-static {v0, v2}, Lkik/arcane/i/a;->a(Lkik/arcane/i/a;Ljava/lang/Boolean;)V
 
     .line 1367
-    iget-object v0, p0, Lkik/android/i/a$8;->a:Lkik/android/i/a;
+    iget-object v0, p0, Lkik/arcane/i/a$8;->a:Lkik/arcane/i/a;
 
-    iget-object v0, v0, Lkik/android/i/a;->a:Lcom/kik/events/Promise;
+    iget-object v0, v0, Lkik/arcane/i/a;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {v0, v3}, Lcom/kik/events/Promise;->a(Ljava/lang/Object;)V
 
@@ -132,9 +132,9 @@
 
     .line 1362
     :cond_2
-    iget-object v0, p0, Lkik/android/i/a$8;->a:Lkik/android/i/a;
+    iget-object v0, p0, Lkik/arcane/i/a$8;->a:Lkik/arcane/i/a;
 
-    invoke-static {v0}, Lkik/android/i/a;->a(Lkik/android/i/a;)Lkik/core/interfaces/ad;
+    invoke-static {v0}, Lkik/arcane/i/a;->a(Lkik/arcane/i/a;)Lkik/core/interfaces/ad;
 
     move-result-object v0
 
@@ -152,7 +152,7 @@
 
     .prologue
     .line 374
-    invoke-static {}, Lkik/android/i/a;->k()Lorg/slf4j/b;
+    invoke-static {}, Lkik/arcane/i/a;->k()Lorg/slf4j/b;
 
     move-result-object v0
 
@@ -161,9 +161,9 @@
     invoke-interface {v0, v1, p1}, Lorg/slf4j/b;->error(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 375
-    iget-object v0, p0, Lkik/android/i/a$8;->a:Lkik/android/i/a;
+    iget-object v0, p0, Lkik/arcane/i/a$8;->a:Lkik/arcane/i/a;
 
-    iget-object v0, v0, Lkik/android/i/a;->a:Lcom/kik/events/Promise;
+    iget-object v0, v0, Lkik/arcane/i/a;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {v0, p1}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 

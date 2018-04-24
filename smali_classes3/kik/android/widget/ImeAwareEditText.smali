@@ -1,13 +1,13 @@
-.class public Lkik/android/widget/ImeAwareEditText;
-.super Lkik/android/widget/RobotoEditText;
+.class public Lkik/arcane/widget/ImeAwareEditText;
+.super Lkik/arcane/widget/RobotoEditText;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/ImeAwareEditText$a;,
-        Lkik/android/widget/ImeAwareEditText$b;
+        Lkik/arcane/widget/ImeAwareEditText$a;,
+        Lkik/arcane/widget/ImeAwareEditText$b;
     }
 .end annotation
 
@@ -17,9 +17,9 @@
 
 .field private b:Landroid/util/DisplayMetrics;
 
-.field private c:Lkik/android/widget/ImeAwareEditText$a;
+.field private c:Lkik/arcane/widget/ImeAwareEditText$a;
 
-.field private d:Lkik/android/widget/ImeAwareEditText$b;
+.field private d:Lkik/arcane/widget/ImeAwareEditText$b;
 
 .field private e:Z
 
@@ -32,7 +32,7 @@
     .line 28
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/ImeAwareEditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/ImeAwareEditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 29
     return-void
@@ -43,22 +43,22 @@
 
     .prologue
     .line 33
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/RobotoEditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/RobotoEditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 15
     new-instance v0, Landroid/graphics/Rect;
 
     invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/ImeAwareEditText;->a:Landroid/graphics/Rect;
+    iput-object v0, p0, Lkik/arcane/widget/ImeAwareEditText;->a:Landroid/graphics/Rect;
 
     .line 19
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/widget/ImeAwareEditText;->e:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/ImeAwareEditText;->e:Z
 
     .line 34
-    invoke-virtual {p0}, Lkik/android/widget/ImeAwareEditText;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/ImeAwareEditText;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -66,7 +66,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/ImeAwareEditText;->b:Landroid/util/DisplayMetrics;
+    iput-object v0, p0, Lkik/arcane/widget/ImeAwareEditText;->b:Landroid/util/DisplayMetrics;
 
     .line 35
     return-void
@@ -77,22 +77,22 @@
 
     .prologue
     .line 39
-    invoke-direct {p0, p1, p2, p3}, Lkik/android/widget/RobotoEditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lkik/arcane/widget/RobotoEditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 15
     new-instance v0, Landroid/graphics/Rect;
 
     invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/ImeAwareEditText;->a:Landroid/graphics/Rect;
+    iput-object v0, p0, Lkik/arcane/widget/ImeAwareEditText;->a:Landroid/graphics/Rect;
 
     .line 19
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/widget/ImeAwareEditText;->e:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/ImeAwareEditText;->e:Z
 
     .line 40
-    invoke-virtual {p0}, Lkik/android/widget/ImeAwareEditText;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/ImeAwareEditText;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -100,7 +100,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/ImeAwareEditText;->b:Landroid/util/DisplayMetrics;
+    iput-object v0, p0, Lkik/arcane/widget/ImeAwareEditText;->b:Landroid/util/DisplayMetrics;
 
     .line 41
     return-void
@@ -108,23 +108,23 @@
 
 
 # virtual methods
-.method public final a(Lkik/android/widget/ImeAwareEditText$a;)V
+.method public final a(Lkik/arcane/widget/ImeAwareEditText$a;)V
     .locals 0
 
     .prologue
     .line 45
-    iput-object p1, p0, Lkik/android/widget/ImeAwareEditText;->c:Lkik/android/widget/ImeAwareEditText$a;
+    iput-object p1, p0, Lkik/arcane/widget/ImeAwareEditText;->c:Lkik/arcane/widget/ImeAwareEditText$a;
 
     .line 46
     return-void
 .end method
 
-.method public final a(Lkik/android/widget/ImeAwareEditText$b;)V
+.method public final a(Lkik/arcane/widget/ImeAwareEditText$b;)V
     .locals 0
 
     .prologue
     .line 72
-    iput-object p1, p0, Lkik/android/widget/ImeAwareEditText;->d:Lkik/android/widget/ImeAwareEditText$b;
+    iput-object p1, p0, Lkik/arcane/widget/ImeAwareEditText;->d:Lkik/arcane/widget/ImeAwareEditText$b;
 
     .line 73
     return-void
@@ -135,7 +135,7 @@
 
     .prologue
     .line 89
-    iput-boolean p1, p0, Lkik/android/widget/ImeAwareEditText;->e:Z
+    iput-boolean p1, p0, Lkik/arcane/widget/ImeAwareEditText;->e:Z
 
     .line 90
     return-void
@@ -146,14 +146,14 @@
 
     .prologue
     .line 95
-    iget-object v0, p0, Lkik/android/widget/ImeAwareEditText;->d:Lkik/android/widget/ImeAwareEditText$b;
+    iget-object v0, p0, Lkik/arcane/widget/ImeAwareEditText;->d:Lkik/arcane/widget/ImeAwareEditText$b;
 
     if-eqz v0, :cond_0
 
     .line 96
-    iget-object v0, p0, Lkik/android/widget/ImeAwareEditText;->d:Lkik/android/widget/ImeAwareEditText$b;
+    iget-object v0, p0, Lkik/arcane/widget/ImeAwareEditText;->d:Lkik/arcane/widget/ImeAwareEditText$b;
 
-    invoke-interface {v0, p1}, Lkik/android/widget/ImeAwareEditText$b;->a(Landroid/view/KeyEvent;)Z
+    invoke-interface {v0, p1}, Lkik/arcane/widget/ImeAwareEditText$b;->a(Landroid/view/KeyEvent;)Z
 
     move-result v0
 
@@ -162,7 +162,7 @@
     return v0
 
     :cond_0
-    invoke-super {p0, p1}, Lkik/android/widget/RobotoEditText;->dispatchKeyEventPreIme(Landroid/view/KeyEvent;)Z
+    invoke-super {p0, p1}, Lkik/arcane/widget/RobotoEditText;->dispatchKeyEventPreIme(Landroid/view/KeyEvent;)Z
 
     move-result v0
 
@@ -174,12 +174,12 @@
 
     .prologue
     .line 104
-    invoke-super {p0, p1}, Lkik/android/widget/RobotoEditText;->onCreateInputConnection(Landroid/view/inputmethod/EditorInfo;)Landroid/view/inputmethod/InputConnection;
+    invoke-super {p0, p1}, Lkik/arcane/widget/RobotoEditText;->onCreateInputConnection(Landroid/view/inputmethod/EditorInfo;)Landroid/view/inputmethod/InputConnection;
 
     move-result-object v0
 
     .line 105
-    iget-boolean v1, p0, Lkik/android/widget/ImeAwareEditText;->e:Z
+    iget-boolean v1, p0, Lkik/arcane/widget/ImeAwareEditText;->e:Z
 
     if-eqz v1, :cond_0
 
@@ -214,7 +214,7 @@
 
     if-ne v2, v0, :cond_1
 
-    invoke-virtual {p0}, Lkik/android/widget/ImeAwareEditText;->isFocused()Z
+    invoke-virtual {p0}, Lkik/arcane/widget/ImeAwareEditText;->isFocused()Z
 
     move-result v2
 
@@ -227,7 +227,7 @@
     if-eqz v2, :cond_0
 
     .line 1067
-    invoke-virtual {p0}, Lkik/android/widget/ImeAwareEditText;->getText()Landroid/text/Editable;
+    invoke-virtual {p0}, Lkik/arcane/widget/ImeAwareEditText;->getText()Landroid/text/Editable;
 
     move-result-object v2
 
@@ -235,13 +235,13 @@
 
     if-eqz v2, :cond_2
 
-    invoke-virtual {p0}, Lkik/android/widget/ImeAwareEditText;->onCheckIsTextEditor()Z
+    invoke-virtual {p0}, Lkik/arcane/widget/ImeAwareEditText;->onCheckIsTextEditor()Z
 
     move-result v2
 
     if-eqz v2, :cond_2
 
-    invoke-virtual {p0}, Lkik/android/widget/ImeAwareEditText;->isEnabled()Z
+    invoke-virtual {p0}, Lkik/arcane/widget/ImeAwareEditText;->isEnabled()Z
 
     move-result v2
 
@@ -252,16 +252,16 @@
     if-eqz v0, :cond_0
 
     .line 54
-    iget-object v0, p0, Lkik/android/widget/ImeAwareEditText;->a:Landroid/graphics/Rect;
+    iget-object v0, p0, Lkik/arcane/widget/ImeAwareEditText;->a:Landroid/graphics/Rect;
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/ImeAwareEditText;->getWindowVisibleDisplayFrame(Landroid/graphics/Rect;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/ImeAwareEditText;->getWindowVisibleDisplayFrame(Landroid/graphics/Rect;)V
 
     .line 56
-    iget-object v0, p0, Lkik/android/widget/ImeAwareEditText;->b:Landroid/util/DisplayMetrics;
+    iget-object v0, p0, Lkik/arcane/widget/ImeAwareEditText;->b:Landroid/util/DisplayMetrics;
 
     iget v0, v0, Landroid/util/DisplayMetrics;->heightPixels:I
 
-    iget-object v1, p0, Lkik/android/widget/ImeAwareEditText;->a:Landroid/graphics/Rect;
+    iget-object v1, p0, Lkik/arcane/widget/ImeAwareEditText;->a:Landroid/graphics/Rect;
 
     iget v1, v1, Landroid/graphics/Rect;->bottom:I
 
@@ -272,18 +272,18 @@
     if-ge v0, v1, :cond_0
 
     .line 57
-    iget-object v0, p0, Lkik/android/widget/ImeAwareEditText;->c:Lkik/android/widget/ImeAwareEditText$a;
+    iget-object v0, p0, Lkik/arcane/widget/ImeAwareEditText;->c:Lkik/arcane/widget/ImeAwareEditText$a;
 
     if-eqz v0, :cond_0
 
     .line 58
-    iget-object v0, p0, Lkik/android/widget/ImeAwareEditText;->c:Lkik/android/widget/ImeAwareEditText$a;
+    iget-object v0, p0, Lkik/arcane/widget/ImeAwareEditText;->c:Lkik/arcane/widget/ImeAwareEditText$a;
 
-    invoke-interface {v0}, Lkik/android/widget/ImeAwareEditText$a;->B()V
+    invoke-interface {v0}, Lkik/arcane/widget/ImeAwareEditText$a;->B()V
 
     .line 62
     :cond_0
-    invoke-super {p0, p1}, Lkik/android/widget/RobotoEditText;->onTouchEvent(Landroid/view/MotionEvent;)Z
+    invoke-super {p0, p1}, Lkik/arcane/widget/RobotoEditText;->onTouchEvent(Landroid/view/MotionEvent;)Z
 
     move-result v0
 

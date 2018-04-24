@@ -1,5 +1,5 @@
-.class public abstract Lkik/android/chat/activity/KikIqActivityBase;
-.super Lkik/android/chat/activity/KikActivityBase;
+.class public abstract Lkik/arcane/chat/activity/KikIqActivityBase;
+.super Lkik/arcane/chat/activity/KikActivityBase;
 .source "SourceFile"
 
 # interfaces
@@ -37,7 +37,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/chat/activity/KikIqActivityBase;->f:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/chat/activity/KikIqActivityBase;->f:Lorg/slf4j/b;
 
     return-void
 .end method
@@ -49,23 +49,23 @@
     const/4 v0, 0x0
 
     .line 21
-    invoke-direct {p0}, Lkik/android/chat/activity/KikActivityBase;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/activity/KikActivityBase;-><init>()V
 
     .line 24
-    iput-object v0, p0, Lkik/android/chat/activity/KikIqActivityBase;->a:Lkik/core/net/outgoing/i;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikIqActivityBase;->a:Lkik/core/net/outgoing/i;
 
     .line 29
-    iput-object v0, p0, Lkik/android/chat/activity/KikIqActivityBase;->e:Landroid/app/Dialog;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikIqActivityBase;->e:Landroid/app/Dialog;
 
     .line 30
     const-string v0, ""
 
-    iput-object v0, p0, Lkik/android/chat/activity/KikIqActivityBase;->k:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikIqActivityBase;->k:Ljava/lang/String;
 
     .line 31
     const-string v0, ""
 
-    iput-object v0, p0, Lkik/android/chat/activity/KikIqActivityBase;->l:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikIqActivityBase;->l:Ljava/lang/String;
 
     return-void
 .end method
@@ -75,33 +75,33 @@
 
     .prologue
     .line 71
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikIqActivityBase;->c()Z
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikIqActivityBase;->c()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
     .line 72
-    iget-object v0, p0, Lkik/android/chat/activity/KikIqActivityBase;->e:Landroid/app/Dialog;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikIqActivityBase;->e:Landroid/app/Dialog;
 
     if-eqz v0, :cond_0
 
     .line 73
-    iget-object v0, p0, Lkik/android/chat/activity/KikIqActivityBase;->e:Landroid/app/Dialog;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikIqActivityBase;->e:Landroid/app/Dialog;
 
     invoke-virtual {v0}, Landroid/app/Dialog;->dismiss()V
 
     .line 74
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/chat/activity/KikIqActivityBase;->e:Landroid/app/Dialog;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikIqActivityBase;->e:Landroid/app/Dialog;
 
     .line 76
     :cond_0
     if-eqz p1, :cond_1
 
     .line 77
-    iput-object p1, p0, Lkik/android/chat/activity/KikIqActivityBase;->e:Landroid/app/Dialog;
+    iput-object p1, p0, Lkik/arcane/chat/activity/KikIqActivityBase;->e:Landroid/app/Dialog;
 
     .line 78
     invoke-virtual {p1}, Landroid/app/Dialog;->show()V
@@ -111,7 +111,7 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/activity/KikIqActivityBase;Ljava/lang/String;Ljava/lang/String;)V
+.method static synthetic a(Lkik/arcane/chat/activity/KikIqActivityBase;Ljava/lang/String;Ljava/lang/String;)V
     .locals 3
 
     .prologue
@@ -135,18 +135,18 @@
     .line 1112
     const v1, 0x7f09027d
 
-    invoke-virtual {p0, v1}, Lkik/android/chat/activity/KikIqActivityBase;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, v1}, Lkik/arcane/chat/activity/KikIqActivityBase;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
-    new-instance v2, Lkik/android/chat/activity/KikIqActivityBase$1;
+    new-instance v2, Lkik/arcane/chat/activity/KikIqActivityBase$1;
 
-    invoke-direct {v2, p0, v0}, Lkik/android/chat/activity/KikIqActivityBase$1;-><init>(Lkik/android/chat/activity/KikIqActivityBase;Landroid/support/v7/app/AlertDialog;)V
+    invoke-direct {v2, p0, v0}, Lkik/arcane/chat/activity/KikIqActivityBase$1;-><init>(Lkik/arcane/chat/activity/KikIqActivityBase;Landroid/support/v7/app/AlertDialog;)V
 
     invoke-virtual {v0, v1, v2}, Landroid/support/v7/app/AlertDialog;->a(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)V
 
     .line 1120
-    invoke-direct {p0, v0}, Lkik/android/chat/activity/KikIqActivityBase;->a(Landroid/app/Dialog;)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/activity/KikIqActivityBase;->a(Landroid/app/Dialog;)V
 
     .line 21
     return-void
@@ -161,7 +161,7 @@
     .line 104
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lkik/android/chat/activity/KikIqActivityBase;->a(Landroid/app/Dialog;)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/activity/KikIqActivityBase;->a(Landroid/app/Dialog;)V
 
     .line 105
     return-void
@@ -172,38 +172,38 @@
 
     .prologue
     .line 40
-    invoke-super {p0, p1}, Lkik/android/chat/activity/KikActivityBase;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/activity/KikActivityBase;->onCreate(Landroid/os/Bundle;)V
 
     .line 41
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikIqActivityBase;->getApplication()Landroid/app/Application;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikIqActivityBase;->getApplication()Landroid/app/Application;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/e;
+    check-cast v0, Lkik/arcane/chat/e;
 
-    invoke-interface {v0}, Lkik/android/chat/e;->a()Lcom/kik/components/CoreComponent;
+    invoke-interface {v0}, Lkik/arcane/chat/e;->a()Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 
-    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/activity/KikIqActivityBase;)V
+    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/activity/KikIqActivityBase;)V
 
     .line 42
     const v0, 0x7f0903fc
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/activity/KikIqActivityBase;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/activity/KikIqActivityBase;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/activity/KikIqActivityBase;->k:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikIqActivityBase;->k:Ljava/lang/String;
 
     .line 43
     const v0, 0x7f0904ff
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/activity/KikIqActivityBase;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/activity/KikIqActivityBase;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/activity/KikIqActivityBase;->l:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikIqActivityBase;->l:Ljava/lang/String;
 
     .line 44
     return-void
@@ -214,18 +214,18 @@
 
     .prologue
     .line 201
-    iget-object v0, p0, Lkik/android/chat/activity/KikIqActivityBase;->e:Landroid/app/Dialog;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikIqActivityBase;->e:Landroid/app/Dialog;
 
     if-eqz v0, :cond_0
 
     .line 202
-    iget-object v0, p0, Lkik/android/chat/activity/KikIqActivityBase;->e:Landroid/app/Dialog;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikIqActivityBase;->e:Landroid/app/Dialog;
 
     invoke-virtual {v0}, Landroid/app/Dialog;->cancel()V
 
     .line 204
     :cond_0
-    invoke-super {p0}, Lkik/android/chat/activity/KikActivityBase;->onPause()V
+    invoke-super {p0}, Lkik/arcane/chat/activity/KikActivityBase;->onPause()V
 
     .line 205
     return-void
@@ -238,7 +238,7 @@
     const/4 v1, 0x0
 
     .line 127
-    iget-object v0, p0, Lkik/android/chat/activity/KikIqActivityBase;->a:Lkik/core/net/outgoing/i;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikIqActivityBase;->a:Lkik/core/net/outgoing/i;
 
     invoke-virtual {p1, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
@@ -256,23 +256,23 @@
 
     .line 137
     :pswitch_1
-    invoke-direct {p0, v1}, Lkik/android/chat/activity/KikIqActivityBase;->a(Landroid/app/Dialog;)V
+    invoke-direct {p0, v1}, Lkik/arcane/chat/activity/KikIqActivityBase;->a(Landroid/app/Dialog;)V
 
     .line 138
-    iput-object v1, p0, Lkik/android/chat/activity/KikIqActivityBase;->a:Lkik/core/net/outgoing/i;
+    iput-object v1, p0, Lkik/arcane/chat/activity/KikIqActivityBase;->a:Lkik/core/net/outgoing/i;
 
     goto :goto_0
 
     .line 142
     :pswitch_2
-    new-instance v0, Lkik/android/chat/activity/KikIqActivityBase$2;
+    new-instance v0, Lkik/arcane/chat/activity/KikIqActivityBase$2;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/activity/KikIqActivityBase$2;-><init>(Lkik/android/chat/activity/KikIqActivityBase;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/activity/KikIqActivityBase$2;-><init>(Lkik/arcane/chat/activity/KikIqActivityBase;)V
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/activity/KikIqActivityBase;->runOnUiThread(Ljava/lang/Runnable;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/activity/KikIqActivityBase;->runOnUiThread(Ljava/lang/Runnable;)V
 
     .line 152
-    iput-object v1, p0, Lkik/android/chat/activity/KikIqActivityBase;->a:Lkik/core/net/outgoing/i;
+    iput-object v1, p0, Lkik/arcane/chat/activity/KikIqActivityBase;->a:Lkik/core/net/outgoing/i;
 
     goto :goto_0
 

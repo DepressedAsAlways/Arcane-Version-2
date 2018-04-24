@@ -1,4 +1,4 @@
-.class final Lkik/android/challenge/PhoneNumberModel$1;
+.class final Lkik/arcane/challenge/PhoneNumberModel$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/challenge/PhoneNumberModel;
+    value = Lkik/arcane/challenge/PhoneNumberModel;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -21,7 +21,7 @@
         "Ljava/lang/Object;",
         "Landroid/os/Parcelable$Creator",
         "<",
-        "Lkik/android/challenge/PhoneNumberModel;",
+        "Lkik/arcane/challenge/PhoneNumberModel;",
         ">;"
     }
 .end annotation
@@ -45,9 +45,9 @@
 
     .prologue
     .line 2077
-    new-instance v0, Lkik/android/challenge/PhoneNumberModel;
+    new-instance v0, Lkik/arcane/challenge/PhoneNumberModel;
 
-    invoke-direct {v0, p1}, Lkik/android/challenge/PhoneNumberModel;-><init>(Landroid/os/Parcel;)V
+    invoke-direct {v0, p1}, Lkik/arcane/challenge/PhoneNumberModel;-><init>(Landroid/os/Parcel;)V
 
     .line 73
     return-object v0
@@ -59,7 +59,7 @@
     .prologue
     .line 73
     .line 1083
-    new-array v0, p1, [Lkik/android/challenge/PhoneNumberModel;
+    new-array v0, p1, [Lkik/arcane/challenge/PhoneNumberModel;
 
     .line 73
     return-object v0

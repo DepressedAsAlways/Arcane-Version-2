@@ -1,4 +1,4 @@
-.class public final Lkik/android/e/dt$a;
+.class public final Lkik/arcane/e/dt$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/e/dt;
+    value = Lkik/arcane/e/dt;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private a:Lkik/android/chat/vm/widget/IStickerWidgetViewModel;
+.field private a:Lkik/arcane/chat/vm/widget/IStickerWidgetViewModel;
 
 
 # direct methods
@@ -34,12 +34,12 @@
 
 
 # virtual methods
-.method public final a(Lkik/android/chat/vm/widget/IStickerWidgetViewModel;)Lkik/android/e/dt$a;
+.method public final a(Lkik/arcane/chat/vm/widget/IStickerWidgetViewModel;)Lkik/arcane/e/dt$a;
     .locals 0
 
     .prologue
     .line 161
-    iput-object p1, p0, Lkik/android/e/dt$a;->a:Lkik/android/chat/vm/widget/IStickerWidgetViewModel;
+    iput-object p1, p0, Lkik/arcane/e/dt$a;->a:Lkik/arcane/chat/vm/widget/IStickerWidgetViewModel;
 
     .line 162
     if-nez p1, :cond_0
@@ -55,9 +55,9 @@
 
     .prologue
     .line 166
-    iget-object v0, p0, Lkik/android/e/dt$a;->a:Lkik/android/chat/vm/widget/IStickerWidgetViewModel;
+    iget-object v0, p0, Lkik/arcane/e/dt$a;->a:Lkik/arcane/chat/vm/widget/IStickerWidgetViewModel;
 
-    invoke-interface {v0}, Lkik/android/chat/vm/widget/IStickerWidgetViewModel;->d()V
+    invoke-interface {v0}, Lkik/arcane/chat/vm/widget/IStickerWidgetViewModel;->d()V
 
     .line 167
     return-void

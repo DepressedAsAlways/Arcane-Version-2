@@ -1,4 +1,4 @@
-.class public Lkik/android/chat/service/CustomCampaignTrackingReceiver;
+.class public Lkik/arcane/chat/service/CustomCampaignTrackingReceiver;
 .super Landroid/content/BroadcastReceiver;
 .source "SourceFile"
 
@@ -19,7 +19,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/chat/service/CustomCampaignTrackingReceiver;->a:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/chat/service/CustomCampaignTrackingReceiver;->a:Lorg/slf4j/b;
 
     return-void
 .end method
@@ -46,7 +46,7 @@
     if-nez p1, :cond_0
 
     .line 24
-    sget-object v0, Lkik/android/chat/service/CustomCampaignTrackingReceiver;->a:Lorg/slf4j/b;
+    sget-object v0, Lkik/arcane/chat/service/CustomCampaignTrackingReceiver;->a:Lorg/slf4j/b;
 
     const-string v1, "context unexpectedly null"
 
@@ -61,7 +61,7 @@
     if-nez p2, :cond_1
 
     .line 28
-    sget-object v0, Lkik/android/chat/service/CustomCampaignTrackingReceiver;->a:Lorg/slf4j/b;
+    sget-object v0, Lkik/arcane/chat/service/CustomCampaignTrackingReceiver;->a:Lorg/slf4j/b;
 
     const-string v1, "intent unexpectedly null"
 

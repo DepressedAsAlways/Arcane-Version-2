@@ -1,9 +1,9 @@
-.class public final Lcom/kik/android/b/k;
+.class public final Lcom/kik/arcane/b/k;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/kik/android/b/i;
+.implements Lcom/kik/arcane/b/i;
 
 
 # instance fields
@@ -21,10 +21,10 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 13
-    iput-object p1, p0, Lcom/kik/android/b/k;->a:Ljava/lang/String;
+    iput-object p1, p0, Lcom/kik/arcane/b/k;->a:Ljava/lang/String;
 
     .line 14
-    iput p2, p0, Lcom/kik/android/b/k;->b:I
+    iput p2, p0, Lcom/kik/arcane/b/k;->b:I
 
     .line 15
     return-void
@@ -37,7 +37,7 @@
 
     .prologue
     .line 20
-    iget-object v0, p0, Lcom/kik/android/b/k;->a:Ljava/lang/String;
+    iget-object v0, p0, Lcom/kik/arcane/b/k;->a:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -57,7 +57,7 @@
 
     .prologue
     .line 32
-    iget v0, p0, Lcom/kik/android/b/k;->b:I
+    iget v0, p0, Lcom/kik/arcane/b/k;->b:I
 
     return v0
 .end method

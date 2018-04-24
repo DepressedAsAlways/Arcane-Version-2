@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/profile/e;
+.class final synthetic Lkik/arcane/chat/vm/profile/e;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/vm/profile/b;
+.field private final a:Lkik/arcane/chat/vm/profile/b;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/vm/profile/b;)V
+.method private constructor <init>(Lkik/arcane/chat/vm/profile/b;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/vm/profile/e;->a:Lkik/android/chat/vm/profile/b;
+    iput-object p1, p0, Lkik/arcane/chat/vm/profile/e;->a:Lkik/arcane/chat/vm/profile/b;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/vm/profile/b;)Lrx/functions/g;
+.method public static a(Lkik/arcane/chat/vm/profile/b;)Lrx/functions/g;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/profile/e;
+    new-instance v0, Lkik/arcane/chat/vm/profile/e;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/vm/profile/e;-><init>(Lkik/android/chat/vm/profile/b;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/vm/profile/e;-><init>(Lkik/arcane/chat/vm/profile/b;)V
 
     return-object v0
 .end method
@@ -37,7 +37,7 @@
 
     .prologue
     .line 0
-    iget-object v2, p0, Lkik/android/chat/vm/profile/e;->a:Lkik/android/chat/vm/profile/b;
+    iget-object v2, p0, Lkik/arcane/chat/vm/profile/e;->a:Lkik/arcane/chat/vm/profile/b;
 
     check-cast p1, Lcom/kik/core/domain/a/a/c;
 
@@ -89,7 +89,7 @@
     if-ge v1, v0, :cond_1
 
     .line 1389
-    iget-object v5, v2, Lkik/android/chat/vm/profile/b;->g:Lcom/kik/core/domain/users/a;
+    iget-object v5, v2, Lkik/arcane/chat/vm/profile/b;->g:Lcom/kik/core/domain/users/a;
 
     invoke-interface {v3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
@@ -116,7 +116,7 @@
 
     .line 1392
     :cond_1
-    invoke-static {}, Lkik/android/chat/vm/profile/h;->a()Lrx/functions/k;
+    invoke-static {}, Lkik/arcane/chat/vm/profile/h;->a()Lrx/functions/k;
 
     move-result-object v0
 

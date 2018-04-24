@@ -1,14 +1,14 @@
-.class final Lkik/android/f$f;
+.class final Lkik/arcane/f$f;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/f$g;
+.implements Lkik/arcane/f$g;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/f;
+    value = Lkik/arcane/f;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,28 +18,28 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/f;
+.field final synthetic a:Lkik/arcane/f;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/f;)V
+.method private constructor <init>(Lkik/arcane/f;)V
     .locals 0
 
     .prologue
     .line 264
-    iput-object p1, p0, Lkik/android/f$f;->a:Lkik/android/f;
+    iput-object p1, p0, Lkik/arcane/f$f;->a:Lkik/arcane/f;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
 
-.method synthetic constructor <init>(Lkik/android/f;B)V
+.method synthetic constructor <init>(Lkik/arcane/f;B)V
     .locals 0
 
     .prologue
     .line 264
-    invoke-direct {p0, p1}, Lkik/android/f$f;-><init>(Lkik/android/f;)V
+    invoke-direct {p0, p1}, Lkik/arcane/f$f;-><init>(Lkik/arcane/f;)V
 
     return-void
 .end method

@@ -7,7 +7,7 @@
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<ItemViewModel::",
-        "Lkik/android/chat/vm/ay;",
+        "Lkik/arcane/chat/vm/ay;",
         ">",
         "Landroid/widget/BaseAdapter;"
     }
@@ -15,10 +15,10 @@
 
 
 # instance fields
-.field private a:Lkik/android/chat/vm/IListViewModel;
+.field private a:Lkik/arcane/chat/vm/IListViewModel;
     .annotation system Ldalvik/annotation/Signature;
         value = {
-            "Lkik/android/chat/vm/IListViewModel",
+            "Lkik/arcane/chat/vm/IListViewModel",
             "<TItemViewModel;>;"
         }
     .end annotation
@@ -26,7 +26,7 @@
 
 .field private final b:Lcom/kik/components/CoreComponent;
 
-.field private final c:Lkik/android/chat/vm/bd;
+.field private final c:Lkik/arcane/chat/vm/bd;
 
 .field private final d:Landroid/content/Context;
 
@@ -34,16 +34,16 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lkik/android/chat/vm/IListViewModel;Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+.method public constructor <init>(Landroid/content/Context;Lkik/arcane/chat/vm/IListViewModel;Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Landroid/content/Context;",
-            "Lkik/android/chat/vm/IListViewModel",
+            "Lkik/arcane/chat/vm/IListViewModel",
             "<TItemViewModel;>;",
             "Lcom/kik/components/CoreComponent;",
-            "Lkik/android/chat/vm/bd;",
+            "Lkik/arcane/chat/vm/bd;",
             ")V"
         }
     .end annotation
@@ -53,13 +53,13 @@
     invoke-direct {p0}, Landroid/widget/BaseAdapter;-><init>()V
 
     .line 42
-    invoke-virtual {p0, p2}, Lcom/kik/view/adapters/a;->a(Lkik/android/chat/vm/IListViewModel;)V
+    invoke-virtual {p0, p2}, Lcom/kik/view/adapters/a;->a(Lkik/arcane/chat/vm/IListViewModel;)V
 
     .line 43
     iput-object p1, p0, Lcom/kik/view/adapters/a;->d:Landroid/content/Context;
 
     .line 44
-    iput-object p4, p0, Lcom/kik/view/adapters/a;->c:Lkik/android/chat/vm/bd;
+    iput-object p4, p0, Lcom/kik/view/adapters/a;->c:Lkik/arcane/chat/vm/bd;
 
     .line 45
     iput-object p3, p0, Lcom/kik/view/adapters/a;->b:Lcom/kik/components/CoreComponent;
@@ -95,7 +95,7 @@
     return-object p2
 .end method
 
-.method public final a(I)Lkik/android/chat/vm/ay;
+.method public final a(I)Lkik/arcane/chat/vm/ay;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -105,17 +105,17 @@
 
     .prologue
     .line 73
-    iget-object v0, p0, Lcom/kik/view/adapters/a;->a:Lkik/android/chat/vm/IListViewModel;
+    iget-object v0, p0, Lcom/kik/view/adapters/a;->a:Lkik/arcane/chat/vm/IListViewModel;
 
-    invoke-interface {v0}, Lkik/android/chat/vm/IListViewModel;->g()I
+    invoke-interface {v0}, Lkik/arcane/chat/vm/IListViewModel;->g()I
 
     move-result v0
 
     if-le v0, p1, :cond_0
 
-    iget-object v0, p0, Lcom/kik/view/adapters/a;->a:Lkik/android/chat/vm/IListViewModel;
+    iget-object v0, p0, Lcom/kik/view/adapters/a;->a:Lkik/arcane/chat/vm/IListViewModel;
 
-    invoke-interface {v0, p1}, Lkik/android/chat/vm/IListViewModel;->d(I)Lkik/android/chat/vm/ay;
+    invoke-interface {v0, p1}, Lkik/arcane/chat/vm/IListViewModel;->d(I)Lkik/arcane/chat/vm/ay;
 
     move-result-object v0
 
@@ -133,16 +133,16 @@
 
     .prologue
     .line 141
-    invoke-virtual {p0, p1}, Lcom/kik/view/adapters/a;->a(I)Lkik/android/chat/vm/ay;
+    invoke-virtual {p0, p1}, Lcom/kik/view/adapters/a;->a(I)Lkik/arcane/chat/vm/ay;
 
     move-result-object v0
 
     .line 142
     iget-object v1, p0, Lcom/kik/view/adapters/a;->b:Lcom/kik/components/CoreComponent;
 
-    iget-object v2, p0, Lcom/kik/view/adapters/a;->c:Lkik/android/chat/vm/bd;
+    iget-object v2, p0, Lcom/kik/view/adapters/a;->c:Lkik/arcane/chat/vm/bd;
 
-    invoke-interface {v0, v1, v2}, Lkik/android/chat/vm/ay;->a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+    invoke-interface {v0, v1, v2}, Lkik/arcane/chat/vm/ay;->a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
 
     .line 143
     const/16 v1, 0xe
@@ -153,19 +153,19 @@
     return-void
 .end method
 
-.method public a(Lkik/android/chat/vm/IListViewModel;)V
+.method public a(Lkik/arcane/chat/vm/IListViewModel;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/chat/vm/IListViewModel",
+            "Lkik/arcane/chat/vm/IListViewModel",
             "<TItemViewModel;>;)V"
         }
     .end annotation
 
     .prologue
     .line 60
-    iput-object p1, p0, Lcom/kik/view/adapters/a;->a:Lkik/android/chat/vm/IListViewModel;
+    iput-object p1, p0, Lcom/kik/view/adapters/a;->a:Lkik/arcane/chat/vm/IListViewModel;
 
     .line 61
     invoke-virtual {p0}, Lcom/kik/view/adapters/a;->notifyDataSetChanged()V
@@ -192,9 +192,9 @@
 
     .prologue
     .line 67
-    iget-object v0, p0, Lcom/kik/view/adapters/a;->a:Lkik/android/chat/vm/IListViewModel;
+    iget-object v0, p0, Lcom/kik/view/adapters/a;->a:Lkik/arcane/chat/vm/IListViewModel;
 
-    invoke-interface {v0}, Lkik/android/chat/vm/IListViewModel;->g()I
+    invoke-interface {v0}, Lkik/arcane/chat/vm/IListViewModel;->g()I
 
     move-result v0
 
@@ -206,7 +206,7 @@
 
     .prologue
     .line 28
-    invoke-virtual {p0, p1}, Lcom/kik/view/adapters/a;->a(I)Lkik/android/chat/vm/ay;
+    invoke-virtual {p0, p1}, Lcom/kik/view/adapters/a;->a(I)Lkik/arcane/chat/vm/ay;
 
     move-result-object v0
 
@@ -218,7 +218,7 @@
 
     .prologue
     .line 79
-    invoke-virtual {p0, p1}, Lcom/kik/view/adapters/a;->a(I)Lkik/android/chat/vm/ay;
+    invoke-virtual {p0, p1}, Lcom/kik/view/adapters/a;->a(I)Lkik/arcane/chat/vm/ay;
 
     move-result-object v0
 
@@ -226,7 +226,7 @@
     if-eqz v0, :cond_0
 
     .line 81
-    invoke-interface {v0}, Lkik/android/chat/vm/ay;->ah_()J
+    invoke-interface {v0}, Lkik/arcane/chat/vm/ay;->ah_()J
 
     move-result-wide v0
 

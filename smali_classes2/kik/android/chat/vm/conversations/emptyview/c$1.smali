@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/vm/conversations/emptyview/c$1;
+.class final Lkik/arcane/chat/vm/conversations/emptyview/c$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/conversations/emptyview/c;->a()V
+    value = Lkik/arcane/chat/vm/conversations/emptyview/c;->a()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/conversations/emptyview/c;
+.field final synthetic a:Lkik/arcane/chat/vm/conversations/emptyview/c;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/conversations/emptyview/c;)V
+.method constructor <init>(Lkik/arcane/chat/vm/conversations/emptyview/c;)V
     .locals 0
 
     .prologue
     .line 37
-    iput-object p1, p0, Lkik/android/chat/vm/conversations/emptyview/c$1;->a:Lkik/android/chat/vm/conversations/emptyview/c;
+    iput-object p1, p0, Lkik/arcane/chat/vm/conversations/emptyview/c$1;->a:Lkik/arcane/chat/vm/conversations/emptyview/c;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -50,17 +50,17 @@
     check-cast p1, Ljava/lang/Boolean;
 
     .line 1041
-    iget-object v0, p0, Lkik/android/chat/vm/conversations/emptyview/c$1;->a:Lkik/android/chat/vm/conversations/emptyview/c;
+    iget-object v0, p0, Lkik/arcane/chat/vm/conversations/emptyview/c$1;->a:Lkik/arcane/chat/vm/conversations/emptyview/c;
 
-    invoke-static {v0}, Lkik/android/chat/vm/conversations/emptyview/c;->a(Lkik/android/chat/vm/conversations/emptyview/c;)Lkik/android/chat/vm/bd;
+    invoke-static {v0}, Lkik/arcane/chat/vm/conversations/emptyview/c;->a(Lkik/arcane/chat/vm/conversations/emptyview/c;)Lkik/arcane/chat/vm/bd;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/chat/vm/conversations/emptyview/c$1$1;
+    new-instance v1, Lkik/arcane/chat/vm/conversations/emptyview/c$1$1;
 
-    invoke-direct {v1, p0, p1}, Lkik/android/chat/vm/conversations/emptyview/c$1$1;-><init>(Lkik/android/chat/vm/conversations/emptyview/c$1;Ljava/lang/Boolean;)V
+    invoke-direct {v1, p0, p1}, Lkik/arcane/chat/vm/conversations/emptyview/c$1$1;-><init>(Lkik/arcane/chat/vm/conversations/emptyview/c$1;Ljava/lang/Boolean;)V
 
-    invoke-interface {v0, v1}, Lkik/android/chat/vm/bd;->a(Lkik/android/chat/vm/bi;)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/vm/bd;->a(Lkik/arcane/chat/vm/bi;)V
 
     .line 37
     return-void

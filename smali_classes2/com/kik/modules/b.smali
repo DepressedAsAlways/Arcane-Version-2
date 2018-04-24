@@ -30,7 +30,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -83,7 +83,7 @@
             "Lcom/kik/modules/a;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -159,7 +159,7 @@
             "Lcom/kik/modules/a;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -198,7 +198,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/Mixpanel;
+    check-cast v0, Lcom/kik/arcane/Mixpanel;
 
     iget-object v1, p0, Lcom/kik/modules/b;->d:Ljavax/inject/Provider;
 
@@ -208,7 +208,7 @@
 
     check-cast v1, Lkik/core/interfaces/r;
 
-    invoke-virtual {v2, v0, v1}, Lcom/kik/modules/a;->a(Lcom/kik/android/Mixpanel;Lkik/core/interfaces/r;)Lkik/core/interfaces/b;
+    invoke-virtual {v2, v0, v1}, Lcom/kik/modules/a;->a(Lcom/kik/arcane/Mixpanel;Lkik/core/interfaces/r;)Lkik/core/interfaces/b;
 
     move-result-object v0
 

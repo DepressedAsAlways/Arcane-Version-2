@@ -157,7 +157,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lkik/android/util/h;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
+    invoke-static {v1}, Lkik/arcane/util/h;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 

@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/widget/au;
+.class final synthetic Lkik/arcane/widget/au;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/widget/au;
+.field private static final a:Lkik/arcane/widget/au;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/widget/au;
+    new-instance v0, Lkik/arcane/widget/au;
 
-    invoke-direct {v0}, Lkik/android/widget/au;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/widget/au;-><init>()V
 
-    sput-object v0, Lkik/android/widget/au;->a:Lkik/android/widget/au;
+    sput-object v0, Lkik/arcane/widget/au;->a:Lkik/arcane/widget/au;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lrx/functions/g;
     .locals 1
 
-    sget-object v0, Lkik/android/widget/au;->a:Lkik/android/widget/au;
+    sget-object v0, Lkik/arcane/widget/au;->a:Lkik/arcane/widget/au;
 
     return-object v0
 .end method
@@ -45,7 +45,7 @@
 
     check-cast p1, Ljava/lang/Integer;
 
-    invoke-static {p1}, Lkik/android/widget/ExploreView;->a(Ljava/lang/Integer;)Ljava/lang/Boolean;
+    invoke-static {p1}, Lkik/arcane/widget/ExploreView;->a(Ljava/lang/Integer;)Ljava/lang/Boolean;
 
     move-result-object v0
 

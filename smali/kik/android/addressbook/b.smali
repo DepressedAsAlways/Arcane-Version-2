@@ -1,4 +1,4 @@
-.class public final Lkik/android/addressbook/b;
+.class public final Lkik/arcane/addressbook/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 

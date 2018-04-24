@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/ClampedContentPreviewView;
+.class public Lkik/arcane/widget/ClampedContentPreviewView;
 .super Lcom/kik/cache/ContentPreviewImageView;
 .source "SourceFile"
 
@@ -28,10 +28,10 @@
 
     invoke-direct {v0}, Landroid/graphics/Point;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/ClampedContentPreviewView;->h:Landroid/graphics/Point;
+    iput-object v0, p0, Lkik/arcane/widget/ClampedContentPreviewView;->h:Landroid/graphics/Point;
 
     .line 36
-    invoke-direct {p0}, Lkik/android/widget/ClampedContentPreviewView;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/ClampedContentPreviewView;->a()V
 
     .line 37
     return-void
@@ -49,10 +49,10 @@
 
     invoke-direct {v0}, Landroid/graphics/Point;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/ClampedContentPreviewView;->h:Landroid/graphics/Point;
+    iput-object v0, p0, Lkik/arcane/widget/ClampedContentPreviewView;->h:Landroid/graphics/Point;
 
     .line 42
-    invoke-direct {p0}, Lkik/android/widget/ClampedContentPreviewView;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/ClampedContentPreviewView;->a()V
 
     .line 43
     return-void
@@ -72,7 +72,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/ClampedContentPreviewView;->i:Ljava/lang/reflect/Field;
+    iput-object v0, p0, Lkik/arcane/widget/ClampedContentPreviewView;->i:Ljava/lang/reflect/Field;
 
     .line 49
     const-class v0, Landroid/widget/ImageView;
@@ -83,7 +83,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/ClampedContentPreviewView;->j:Ljava/lang/reflect/Field;
+    iput-object v0, p0, Lkik/arcane/widget/ClampedContentPreviewView;->j:Ljava/lang/reflect/Field;
 
     .line 50
     const-class v0, Landroid/view/View;
@@ -94,7 +94,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/ClampedContentPreviewView;->k:Ljava/lang/reflect/Field;
+    iput-object v0, p0, Lkik/arcane/widget/ClampedContentPreviewView;->k:Ljava/lang/reflect/Field;
 
     .line 51
     const-class v0, Landroid/view/View;
@@ -105,31 +105,31 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/ClampedContentPreviewView;->l:Ljava/lang/reflect/Field;
+    iput-object v0, p0, Lkik/arcane/widget/ClampedContentPreviewView;->l:Ljava/lang/reflect/Field;
 
     .line 52
-    iget-object v0, p0, Lkik/android/widget/ClampedContentPreviewView;->i:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Lkik/arcane/widget/ClampedContentPreviewView;->i:Ljava/lang/reflect/Field;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
     .line 53
-    iget-object v0, p0, Lkik/android/widget/ClampedContentPreviewView;->j:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Lkik/arcane/widget/ClampedContentPreviewView;->j:Ljava/lang/reflect/Field;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
     .line 54
-    iget-object v0, p0, Lkik/android/widget/ClampedContentPreviewView;->k:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Lkik/arcane/widget/ClampedContentPreviewView;->k:Ljava/lang/reflect/Field;
 
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Ljava/lang/reflect/Field;->setAccessible(Z)V
 
     .line 55
-    iget-object v0, p0, Lkik/android/widget/ClampedContentPreviewView;->l:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Lkik/arcane/widget/ClampedContentPreviewView;->l:Ljava/lang/reflect/Field;
 
     const/4 v1, 0x1
 
@@ -156,20 +156,20 @@
     .line 168
     const/high16 v0, 0x434d0000    # 205.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
     .line 169
     const v0, 0x43858000    # 267.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v1
 
     .line 172
     :try_start_0
-    iget-object v0, p0, Lkik/android/widget/ClampedContentPreviewView;->i:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Lkik/arcane/widget/ClampedContentPreviewView;->i:Ljava/lang/reflect/Field;
 
     invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -182,7 +182,7 @@
     move-result v2
 
     .line 173
-    iget-object v0, p0, Lkik/android/widget/ClampedContentPreviewView;->j:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Lkik/arcane/widget/ClampedContentPreviewView;->j:Ljava/lang/reflect/Field;
 
     invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -200,7 +200,7 @@
 
     .line 177
     :goto_0
-    invoke-static {p1, p2, v1, v0}, Lkik/android/util/f;->a(IIII)Landroid/graphics/Point;
+    invoke-static {p1, p2, v1, v0}, Lkik/arcane/util/f;->a(IIII)Landroid/graphics/Point;
 
     move-result-object v0
 
@@ -225,7 +225,7 @@
 
     .prologue
     .line 64
-    invoke-virtual {p0}, Lkik/android/widget/ClampedContentPreviewView;->getDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Lkik/arcane/widget/ClampedContentPreviewView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
@@ -251,30 +251,30 @@
     move-result v1
 
     .line 74
-    iget-object v2, p0, Lkik/android/widget/ClampedContentPreviewView;->a:Landroid/graphics/Point;
+    iget-object v2, p0, Lkik/arcane/widget/ClampedContentPreviewView;->a:Landroid/graphics/Point;
 
     if-nez v2, :cond_8
 
     .line 76
-    invoke-virtual {p0, v1, v0}, Lkik/android/widget/ClampedContentPreviewView;->a(II)Landroid/graphics/Point;
+    invoke-virtual {p0, v1, v0}, Lkik/arcane/widget/ClampedContentPreviewView;->a(II)Landroid/graphics/Point;
 
     move-result-object v2
 
-    iput-object v2, p0, Lkik/android/widget/ClampedContentPreviewView;->h:Landroid/graphics/Point;
+    iput-object v2, p0, Lkik/arcane/widget/ClampedContentPreviewView;->h:Landroid/graphics/Point;
 
     .line 85
     :goto_1
-    iget-object v2, p0, Lkik/android/widget/ClampedContentPreviewView;->h:Landroid/graphics/Point;
+    iget-object v2, p0, Lkik/arcane/widget/ClampedContentPreviewView;->h:Landroid/graphics/Point;
 
     if-eqz v2, :cond_c
 
     .line 86
-    iget-object v0, p0, Lkik/android/widget/ClampedContentPreviewView;->h:Landroid/graphics/Point;
+    iget-object v0, p0, Lkik/arcane/widget/ClampedContentPreviewView;->h:Landroid/graphics/Point;
 
     iget v1, v0, Landroid/graphics/Point;->x:I
 
     .line 87
-    iget-object v0, p0, Lkik/android/widget/ClampedContentPreviewView;->h:Landroid/graphics/Point;
+    iget-object v0, p0, Lkik/arcane/widget/ClampedContentPreviewView;->h:Landroid/graphics/Point;
 
     iget v0, v0, Landroid/graphics/Point;->y:I
 
@@ -297,7 +297,7 @@
 
     .line 96
     :try_start_0
-    iget-object v0, p0, Lkik/android/widget/ClampedContentPreviewView;->i:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Lkik/arcane/widget/ClampedContentPreviewView;->i:Ljava/lang/reflect/Field;
 
     invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -310,7 +310,7 @@
     move-result v4
 
     .line 97
-    iget-object v0, p0, Lkik/android/widget/ClampedContentPreviewView;->j:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Lkik/arcane/widget/ClampedContentPreviewView;->j:Ljava/lang/reflect/Field;
 
     invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -323,7 +323,7 @@
     move-result v5
 
     .line 98
-    iget-object v0, p0, Lkik/android/widget/ClampedContentPreviewView;->k:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Lkik/arcane/widget/ClampedContentPreviewView;->k:Ljava/lang/reflect/Field;
 
     invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -336,7 +336,7 @@
     move-result v3
 
     .line 99
-    iget-object v0, p0, Lkik/android/widget/ClampedContentPreviewView;->l:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Lkik/arcane/widget/ClampedContentPreviewView;->l:Ljava/lang/reflect/Field;
 
     invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -463,24 +463,24 @@
 
     .line 159
     :cond_7
-    iget v2, p0, Lkik/android/widget/ClampedContentPreviewView;->b:I
+    iget v2, p0, Lkik/arcane/widget/ClampedContentPreviewView;->b:I
 
-    iget v3, p0, Lkik/android/widget/ClampedContentPreviewView;->c:I
+    iget v3, p0, Lkik/arcane/widget/ClampedContentPreviewView;->c:I
 
     add-int/2addr v2, v3
 
     add-int/2addr v1, v2
 
     .line 161
-    invoke-virtual {p0, v1, v0}, Lkik/android/widget/ClampedContentPreviewView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v1, v0}, Lkik/arcane/widget/ClampedContentPreviewView;->setMeasuredDimension(II)V
 
     goto/16 :goto_0
 
     .line 83
     :cond_8
-    iget-object v2, p0, Lkik/android/widget/ClampedContentPreviewView;->a:Landroid/graphics/Point;
+    iget-object v2, p0, Lkik/arcane/widget/ClampedContentPreviewView;->a:Landroid/graphics/Point;
 
-    iput-object v2, p0, Lkik/android/widget/ClampedContentPreviewView;->h:Landroid/graphics/Point;
+    iput-object v2, p0, Lkik/arcane/widget/ClampedContentPreviewView;->h:Landroid/graphics/Point;
 
     goto/16 :goto_1
 
@@ -505,7 +505,7 @@
     :cond_9
     const v0, 0x43858000    # 267.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
@@ -514,7 +514,7 @@
     .line 134
     const v2, 0x43858000    # 267.0f
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 

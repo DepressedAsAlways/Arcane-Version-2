@@ -1,12 +1,12 @@
-.class public Lkik/android/chat/fragment/PublicGroupIntroFragment;
-.super Lkik/android/chat/fragment/KikIqFragmentBase;
+.class public Lkik/arcane/chat/fragment/PublicGroupIntroFragment;
+.super Lkik/arcane/chat/fragment/KikIqFragmentBase;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/fragment/PublicGroupIntroFragment$a;
+        Lkik/arcane/chat/fragment/PublicGroupIntroFragment$a;
     }
 .end annotation
 
@@ -23,7 +23,7 @@
     .end annotation
 .end field
 
-.field protected b:Lcom/kik/android/Mixpanel;
+.field protected b:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -42,7 +42,7 @@
 
     .prologue
     .line 24
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikIqFragmentBase;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikIqFragmentBase;-><init>()V
 
     return-void
 .end method
@@ -54,59 +54,59 @@
 
     .prologue
     .line 37
-    invoke-virtual {p0}, Lkik/android/chat/fragment/PublicGroupIntroFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/PublicGroupIntroFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 
-    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/fragment/PublicGroupIntroFragment;)V
+    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/fragment/PublicGroupIntroFragment;)V
 
     .line 38
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikIqFragmentBase;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->onCreate(Landroid/os/Bundle;)V
 
     .line 39
-    new-instance v0, Lkik/android/chat/fragment/PublicGroupIntroFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/PublicGroupIntroFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/PublicGroupIntroFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/PublicGroupIntroFragment$a;-><init>()V
 
     .line 40
-    invoke-virtual {p0}, Lkik/android/chat/fragment/PublicGroupIntroFragment;->getArguments()Landroid/os/Bundle;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/PublicGroupIntroFragment;->getArguments()Landroid/os/Bundle;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/PublicGroupIntroFragment$a;->a(Landroid/os/Bundle;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/PublicGroupIntroFragment$a;->a(Landroid/os/Bundle;)V
 
     .line 41
-    invoke-static {v0}, Lkik/android/chat/fragment/PublicGroupIntroFragment$a;->a(Lkik/android/chat/fragment/PublicGroupIntroFragment$a;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/PublicGroupIntroFragment$a;->a(Lkik/arcane/chat/fragment/PublicGroupIntroFragment$a;)Ljava/lang/String;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/fragment/PublicGroupIntroFragment;->d:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/PublicGroupIntroFragment;->d:Ljava/lang/String;
 
     .line 1082
-    iget-object v0, p0, Lkik/android/chat/fragment/PublicGroupIntroFragment;->b:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/PublicGroupIntroFragment;->b:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Public Group Intro Shown"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Source"
 
-    iget-object v2, p0, Lkik/android/chat/fragment/PublicGroupIntroFragment;->d:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/PublicGroupIntroFragment;->d:Ljava/lang/String;
 
     .line 1083
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 1084
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 1085
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 43
     return-void
@@ -129,7 +129,7 @@
     invoke-static {p0, v0}, Lbutterknife/ButterKnife;->bind(Ljava/lang/Object;Landroid/view/View;)Lbutterknife/Unbinder;
 
     .line 50
-    invoke-virtual {p0}, Lkik/android/chat/fragment/PublicGroupIntroFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/PublicGroupIntroFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v1
 
@@ -146,13 +146,13 @@
 
     const v2, 0x7f090626
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v2
 
     const v3, 0x7f0e00d9
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->d(I)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->d(I)I
 
     move-result v3
 
@@ -213,7 +213,7 @@
 
     const v2, 0x7f090627
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v2
 
@@ -234,9 +234,9 @@
     move-result-object v1
 
     .line 1100
-    iget-object v2, p0, Lkik/android/chat/fragment/PublicGroupIntroFragment;->_body:Landroid/widget/TextView;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/PublicGroupIntroFragment;->_body:Landroid/widget/TextView;
 
-    invoke-static {v2, v1}, Lkik/android/chat/view/text/d;->a(Landroid/widget/TextView;Ljava/lang/String;)V
+    invoke-static {v2, v1}, Lkik/arcane/chat/view/text/d;->a(Landroid/widget/TextView;Ljava/lang/String;)V
 
     .line 52
     return-object v0
@@ -247,7 +247,7 @@
 
     .prologue
     .line 76
-    invoke-virtual {p0}, Lkik/android/chat/fragment/PublicGroupIntroFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/PublicGroupIntroFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v0
 
@@ -256,7 +256,7 @@
     invoke-virtual {v0, v1}, Landroid/support/v4/app/FragmentActivity;->setRequestedOrientation(I)V
 
     .line 77
-    invoke-super {p0}, Lkik/android/chat/fragment/KikIqFragmentBase;->onDestroyView()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->onDestroyView()V
 
     .line 78
     return-void
@@ -282,35 +282,35 @@
 
     .prologue
     .line 58
-    iget-object v0, p0, Lkik/android/chat/fragment/PublicGroupIntroFragment;->c:Lkik/core/e/c;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/PublicGroupIntroFragment;->c:Lkik/core/e/c;
 
     invoke-interface {v0}, Lkik/core/e/c;->b()V
 
     .line 2090
-    iget-object v0, p0, Lkik/android/chat/fragment/PublicGroupIntroFragment;->b:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/PublicGroupIntroFragment;->b:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Public Group Intro Ack"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Source"
 
-    iget-object v2, p0, Lkik/android/chat/fragment/PublicGroupIntroFragment;->d:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/PublicGroupIntroFragment;->d:Ljava/lang/String;
 
     .line 2091
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 2092
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 2093
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 60
     new-instance v0, Landroid/os/Bundle;
@@ -325,10 +325,10 @@
     invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
     .line 62
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/PublicGroupIntroFragment;->setResultData(Landroid/os/Bundle;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/PublicGroupIntroFragment;->setResultData(Landroid/os/Bundle;)V
 
     .line 63
-    invoke-virtual {p0}, Lkik/android/chat/fragment/PublicGroupIntroFragment;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/PublicGroupIntroFragment;->finish()V
 
     .line 64
     return-void

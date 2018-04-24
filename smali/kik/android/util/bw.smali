@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/bw;
+.class public final Lkik/arcane/util/bw;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -44,19 +44,19 @@
 
     invoke-direct {v0, v1}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
 
-    sput-object v0, Lkik/android/util/bw;->a:Ljava/util/Set;
+    sput-object v0, Lkik/arcane/util/bw;->a:Ljava/util/Set;
 
     .line 56
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    sput-object v0, Lkik/android/util/bw;->b:Ljava/lang/StringBuilder;
+    sput-object v0, Lkik/arcane/util/bw;->b:Ljava/lang/StringBuilder;
 
     .line 57
     new-instance v0, Ljava/util/Formatter;
 
-    sget-object v1, Lkik/android/util/bw;->b:Ljava/lang/StringBuilder;
+    sget-object v1, Lkik/arcane/util/bw;->b:Ljava/lang/StringBuilder;
 
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
@@ -64,7 +64,7 @@
 
     invoke-direct {v0, v1, v2}, Ljava/util/Formatter;-><init>(Ljava/lang/Appendable;Ljava/util/Locale;)V
 
-    sput-object v0, Lkik/android/util/bw;->c:Ljava/util/Formatter;
+    sput-object v0, Lkik/arcane/util/bw;->c:Ljava/util/Formatter;
 
     return-void
 .end method
@@ -288,7 +288,7 @@
     .line 314
     const/16 v0, 0x9
 
-    invoke-static {v2, v0}, Lkik/android/util/bw;->b(Landroid/media/MediaMetadataRetriever;I)J
+    invoke-static {v2, v0}, Lkik/arcane/util/bw;->b(Landroid/media/MediaMetadataRetriever;I)J
 
     move-result-wide v0
 
@@ -386,7 +386,7 @@
 
     .line 158
     :try_start_0
-    invoke-static {p1}, Lkik/android/VideoContentProvider;->a(Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {p1}, Lkik/arcane/VideoContentProvider;->a(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v0
 
@@ -395,7 +395,7 @@
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 167
-    invoke-static {v3}, Lkik/android/util/bw;->a(Landroid/media/MediaMetadataRetriever;)Landroid/graphics/Bitmap;
+    invoke-static {v3}, Lkik/arcane/util/bw;->a(Landroid/media/MediaMetadataRetriever;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -405,7 +405,7 @@
     .line 172
     const/4 v0, 0x0
 
-    invoke-static {p1, v0}, Lkik/android/util/bw;->a(Ljava/lang/String;Z)Landroid/graphics/Bitmap;
+    invoke-static {p1, v0}, Lkik/arcane/util/bw;->a(Ljava/lang/String;Z)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -426,14 +426,14 @@
     .line 183
     const/16 v1, 0x13
 
-    invoke-static {v3, v1}, Lkik/android/util/bw;->a(Landroid/media/MediaMetadataRetriever;I)I
+    invoke-static {v3, v1}, Lkik/arcane/util/bw;->a(Landroid/media/MediaMetadataRetriever;I)I
 
     move-result v1
 
     .line 184
     const/16 v4, 0x12
 
-    invoke-static {v3, v4}, Lkik/android/util/bw;->a(Landroid/media/MediaMetadataRetriever;I)I
+    invoke-static {v3, v4}, Lkik/arcane/util/bw;->a(Landroid/media/MediaMetadataRetriever;I)I
 
     move-result v4
 
@@ -447,7 +447,7 @@
 
     .line 196
     :goto_1
-    invoke-static {v1, v2}, Lkik/android/util/bw;->a(II)Landroid/graphics/Bitmap;
+    invoke-static {v1, v2}, Lkik/arcane/util/bw;->a(II)Landroid/graphics/Bitmap;
     :try_end_1
     .catch Ljava/lang/OutOfMemoryError; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -464,7 +464,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {p1, v1}, Lkik/android/util/bw;->a(Ljava/lang/String;Z)Landroid/graphics/Bitmap;
+    invoke-static {p1, v1}, Lkik/arcane/util/bw;->a(Ljava/lang/String;Z)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -490,7 +490,7 @@
 
     .line 206
     :cond_4
-    invoke-static {p1, v1}, Lkik/android/util/bw;->a(Ljava/lang/String;Z)Landroid/graphics/Bitmap;
+    invoke-static {p1, v1}, Lkik/arcane/util/bw;->a(Ljava/lang/String;Z)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -565,7 +565,7 @@
     const/16 v2, 0x60
 
     :try_start_1
-    invoke-static {v1, v2}, Lkik/android/util/bw;->a(II)Landroid/graphics/Bitmap;
+    invoke-static {v1, v2}, Lkik/arcane/util/bw;->a(II)Landroid/graphics/Bitmap;
     :try_end_1
     .catch Ljava/lang/OutOfMemoryError; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -623,7 +623,7 @@
 
     .line 73
     :cond_0
-    sget-object v3, Lkik/android/util/bw;->b:Ljava/lang/StringBuilder;
+    sget-object v3, Lkik/arcane/util/bw;->b:Ljava/lang/StringBuilder;
 
     invoke-virtual {v3, v6}, Ljava/lang/StringBuilder;->setLength(I)V
 
@@ -631,7 +631,7 @@
     if-lez v1, :cond_1
 
     .line 75
-    sget-object v3, Lkik/android/util/bw;->c:Ljava/util/Formatter;
+    sget-object v3, Lkik/arcane/util/bw;->c:Ljava/util/Formatter;
 
     const-string v4, "%d:%02d:%02d"
 
@@ -670,7 +670,7 @@
     return-object v0
 
     :cond_1
-    sget-object v1, Lkik/android/util/bw;->c:Ljava/util/Formatter;
+    sget-object v1, Lkik/arcane/util/bw;->c:Ljava/util/Formatter;
 
     const-string v3, "%d:%02d"
 
@@ -799,14 +799,14 @@
     :cond_0
     const/4 v3, 0x0
 
-    invoke-static {v2, v10, v11, v3}, Lkik/android/util/bw;->a(Lcom/googlecode/mp4parser/authoring/Track;DZ)D
+    invoke-static {v2, v10, v11, v3}, Lkik/arcane/util/bw;->a(Lcom/googlecode/mp4parser/authoring/Track;DZ)D
 
     move-result-wide v4
 
     .line 359
     const/4 v3, 0x1
 
-    invoke-static {v2, v8, v9, v3}, Lkik/android/util/bw;->a(Lcom/googlecode/mp4parser/authoring/Track;DZ)D
+    invoke-static {v2, v8, v9, v3}, Lkik/arcane/util/bw;->a(Lcom/googlecode/mp4parser/authoring/Track;DZ)D
 
     move-result-wide v2
 
@@ -1152,7 +1152,7 @@
     :cond_5
     const v3, 0x7f0904e1
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v3
 
@@ -1186,7 +1186,7 @@
     :cond_6
     const v0, 0x7f0904e0
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1234,7 +1234,7 @@
     if-ltz v1, :cond_0
 
     .line 91
-    sget-object v0, Lkik/android/util/bw;->a:Ljava/util/Set;
+    sget-object v0, Lkik/arcane/util/bw;->a:Ljava/util/Set;
 
     invoke-virtual {p0, v1}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
@@ -1277,7 +1277,7 @@
     if-eqz v1, :cond_2
 
     .line 520
-    invoke-static {p0}, Lkik/android/util/aa;->b(Ljava/lang/String;)J
+    invoke-static {p0}, Lkik/arcane/util/aa;->b(Ljava/lang/String;)J
 
     move-result-wide v2
 
@@ -1368,7 +1368,7 @@
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 115
-    invoke-static {v1}, Lkik/android/util/bw;->a(Landroid/media/MediaMetadataRetriever;)Landroid/graphics/Bitmap;
+    invoke-static {v1}, Lkik/arcane/util/bw;->a(Landroid/media/MediaMetadataRetriever;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -1418,7 +1418,7 @@
     .line 275
     const/16 v0, 0x9
 
-    invoke-static {v1, v0}, Lkik/android/util/bw;->a(Landroid/media/MediaMetadataRetriever;I)I
+    invoke-static {v1, v0}, Lkik/arcane/util/bw;->a(Landroid/media/MediaMetadataRetriever;I)I
 
     move-result v0
 

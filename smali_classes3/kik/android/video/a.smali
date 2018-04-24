@@ -1,4 +1,4 @@
-.class public final Lkik/android/video/a;
+.class public final Lkik/arcane/video/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -20,13 +20,13 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 17
-    iput-object p1, p0, Lkik/android/video/a;->a:Landroid/graphics/Point;
+    iput-object p1, p0, Lkik/arcane/video/a;->a:Landroid/graphics/Point;
 
     .line 18
-    iput-object p2, p0, Lkik/android/video/a;->b:Landroid/graphics/Point;
+    iput-object p2, p0, Lkik/arcane/video/a;->b:Landroid/graphics/Point;
 
     .line 19
-    iput-object p3, p0, Lkik/android/video/a;->c:Landroid/graphics/Point;
+    iput-object p3, p0, Lkik/arcane/video/a;->c:Landroid/graphics/Point;
 
     .line 20
     return-void
@@ -39,7 +39,7 @@
 
     .prologue
     .line 24
-    iget-object v0, p0, Lkik/android/video/a;->b:Landroid/graphics/Point;
+    iget-object v0, p0, Lkik/arcane/video/a;->b:Landroid/graphics/Point;
 
     return-object v0
 .end method
@@ -49,7 +49,7 @@
 
     .prologue
     .line 29
-    iget-object v0, p0, Lkik/android/video/a;->c:Landroid/graphics/Point;
+    iget-object v0, p0, Lkik/arcane/video/a;->c:Landroid/graphics/Point;
 
     return-object v0
 .end method

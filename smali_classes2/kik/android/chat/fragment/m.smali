@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/fragment/m;
+.class final synthetic Lkik/arcane/chat/fragment/m;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/fragment/ConversationsBaseFragment;
+.field private final a:Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/fragment/ConversationsBaseFragment;)V
+.method private constructor <init>(Lkik/arcane/chat/fragment/ConversationsBaseFragment;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/fragment/m;->a:Lkik/android/chat/fragment/ConversationsBaseFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/m;->a:Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/fragment/ConversationsBaseFragment;)Ljava/lang/Runnable;
+.method public static a(Lkik/arcane/chat/fragment/ConversationsBaseFragment;)Ljava/lang/Runnable;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/fragment/m;
+    new-instance v0, Lkik/arcane/chat/fragment/m;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/fragment/m;-><init>(Lkik/android/chat/fragment/ConversationsBaseFragment;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/fragment/m;-><init>(Lkik/arcane/chat/fragment/ConversationsBaseFragment;)V
 
     return-object v0
 .end method
@@ -35,9 +35,9 @@
 .method public final run()V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/chat/fragment/m;->a:Lkik/android/chat/fragment/ConversationsBaseFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/m;->a:Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/ConversationsBaseFragment;->lambda$null$0(Lkik/android/chat/fragment/ConversationsBaseFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/ConversationsBaseFragment;->lambda$null$0(Lkik/arcane/chat/fragment/ConversationsBaseFragment;)V
 
     return-void
 .end method

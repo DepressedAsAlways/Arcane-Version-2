@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/KikMultiselectContactsListFragment$7;
+.class final Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment$7;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/KikMultiselectContactsListFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    value = Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikMultiselectContactsListFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikMultiselectContactsListFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment;)V
     .locals 0
 
     .prologue
     .line 202
-    iput-object p1, p0, Lkik/android/chat/fragment/KikMultiselectContactsListFragment$7;->a:Lkik/android/chat/fragment/KikMultiselectContactsListFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment$7;->a:Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -61,17 +61,17 @@
 
     if-ne v1, v2, :cond_1
 
-    iget-object v1, p0, Lkik/android/chat/fragment/KikMultiselectContactsListFragment$7;->a:Lkik/android/chat/fragment/KikMultiselectContactsListFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment$7;->a:Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment;
 
-    iget-boolean v1, v1, Lkik/android/chat/fragment/KikMultiselectContactsListFragment;->H:Z
+    iget-boolean v1, v1, Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment;->H:Z
 
     if-nez v1, :cond_1
 
     .line 208
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/KikMultiselectContactsListFragment$7;->a:Lkik/android/chat/fragment/KikMultiselectContactsListFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment$7;->a:Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment;
 
-    invoke-virtual {v0, p1}, Lkik/android/chat/fragment/KikMultiselectContactsListFragment;->hideKeyBoard(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment;->hideKeyBoard(Landroid/view/View;)V
 
     .line 209
     invoke-virtual {p1}, Landroid/widget/TextView;->clearFocus()V
@@ -85,9 +85,9 @@
 
     .line 213
     :cond_1
-    iget-object v1, p0, Lkik/android/chat/fragment/KikMultiselectContactsListFragment$7;->a:Lkik/android/chat/fragment/KikMultiselectContactsListFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment$7;->a:Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment;
 
-    iput-boolean v0, v1, Lkik/android/chat/fragment/KikMultiselectContactsListFragment;->H:Z
+    iput-boolean v0, v1, Lkik/arcane/chat/fragment/KikMultiselectContactsListFragment;->H:Z
 
     goto :goto_0
 .end method

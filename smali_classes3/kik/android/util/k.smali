@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/k;
+.class public final Lkik/arcane/util/k;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -21,7 +21,7 @@
 
     fill-array-data v0, :array_0
 
-    sput-object v0, Lkik/android/util/k;->a:[I
+    sput-object v0, Lkik/arcane/util/k;->a:[I
 
     .line 52
     const-string v0, "CameraUtils"
@@ -30,7 +30,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/util/k;->b:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/util/k;->b:Lorg/slf4j/b;
 
     return-void
 
@@ -443,7 +443,7 @@
 
     const/16 v3, 0x50
 
-    invoke-static {v1, v2, v3}, Lkik/android/util/k;->a(Landroid/graphics/BitmapFactory$Options;II)I
+    invoke-static {v1, v2, v3}, Lkik/arcane/util/k;->a(Landroid/graphics/BitmapFactory$Options;II)I
 
     move-result v2
 
@@ -585,7 +585,7 @@
 
     .line 330
     :cond_1
-    invoke-static {v1, p1}, Lkik/android/util/k;->a(Landroid/graphics/BitmapFactory$Options;I)I
+    invoke-static {v1, p1}, Lkik/arcane/util/k;->a(Landroid/graphics/BitmapFactory$Options;I)I
 
     move-result v2
 
@@ -822,7 +822,7 @@
 
     invoke-direct {v0}, Landroid/graphics/Point;-><init>()V
 
-    invoke-static {p0, v0}, Lkik/android/util/k;->a(Landroid/app/Activity;Landroid/graphics/Point;)Landroid/graphics/Point;
+    invoke-static {p0, v0}, Lkik/arcane/util/k;->a(Landroid/app/Activity;Landroid/graphics/Point;)Landroid/graphics/Point;
 
     move-result-object v0
 
@@ -931,7 +931,7 @@
     if-nez v1, :cond_0
 
     .line 175
-    sget-object v0, Lkik/android/util/k;->b:Lorg/slf4j/b;
+    sget-object v0, Lkik/arcane/util/k;->b:Lorg/slf4j/b;
 
     const-string v2, "No preview size match the aspect ratio"
 
@@ -1173,7 +1173,7 @@
 
     .line 620
     :cond_1
-    invoke-static {}, Lkik/android/util/k;->b()I
+    invoke-static {}, Lkik/arcane/util/k;->b()I
 
     move-result v1
 
@@ -1463,7 +1463,7 @@
 
     float-to-int v2, v2
 
-    invoke-static {v1, p1, v2}, Lkik/android/util/k;->a(Landroid/graphics/BitmapFactory$Options;II)I
+    invoke-static {v1, p1, v2}, Lkik/arcane/util/k;->a(Landroid/graphics/BitmapFactory$Options;II)I
 
     move-result v2
 
@@ -1600,7 +1600,7 @@
 
     invoke-direct {v0}, Landroid/graphics/Point;-><init>()V
 
-    invoke-static {p0, v0}, Lkik/android/util/k;->a(Landroid/app/Activity;Landroid/graphics/Point;)Landroid/graphics/Point;
+    invoke-static {p0, v0}, Lkik/arcane/util/k;->a(Landroid/app/Activity;Landroid/graphics/Point;)Landroid/graphics/Point;
 
     move-result-object v0
 
@@ -1703,7 +1703,7 @@
     if-nez v1, :cond_0
 
     .line 261
-    sget-object v0, Lkik/android/util/k;->b:Lorg/slf4j/b;
+    sget-object v0, Lkik/arcane/util/k;->b:Lorg/slf4j/b;
 
     const-string v2, "No preview size match the aspect ratio"
 
@@ -2045,7 +2045,7 @@
 
     .prologue
     .line 675
-    invoke-static {}, Lkik/android/util/k;->b()I
+    invoke-static {}, Lkik/arcane/util/k;->b()I
 
     move-result v0
 

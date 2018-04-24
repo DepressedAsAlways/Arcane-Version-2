@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/activity/KikCropActivity_ViewBinding$1;
+.class final Lkik/arcane/chat/activity/KikCropActivity_ViewBinding$1;
 .super Lbutterknife/internal/DebouncingOnClickListener;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/activity/KikCropActivity_ViewBinding;-><init>(Lkik/android/chat/activity/KikCropActivity;Landroid/view/View;)V
+    value = Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;-><init>(Lkik/arcane/chat/activity/KikCropActivity;Landroid/view/View;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,20 +15,20 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/activity/KikCropActivity;
+.field final synthetic a:Lkik/arcane/chat/activity/KikCropActivity;
 
-.field final synthetic b:Lkik/android/chat/activity/KikCropActivity_ViewBinding;
+.field final synthetic b:Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/activity/KikCropActivity_ViewBinding;Lkik/android/chat/activity/KikCropActivity;)V
+.method constructor <init>(Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;Lkik/arcane/chat/activity/KikCropActivity;)V
     .locals 0
 
     .prologue
     .line 41
-    iput-object p1, p0, Lkik/android/chat/activity/KikCropActivity_ViewBinding$1;->b:Lkik/android/chat/activity/KikCropActivity_ViewBinding;
+    iput-object p1, p0, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding$1;->b:Lkik/arcane/chat/activity/KikCropActivity_ViewBinding;
 
-    iput-object p2, p0, Lkik/android/chat/activity/KikCropActivity_ViewBinding$1;->a:Lkik/android/chat/activity/KikCropActivity;
+    iput-object p2, p0, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding$1;->a:Lkik/arcane/chat/activity/KikCropActivity;
 
     invoke-direct {p0}, Lbutterknife/internal/DebouncingOnClickListener;-><init>()V
 
@@ -42,9 +42,9 @@
 
     .prologue
     .line 44
-    iget-object v0, p0, Lkik/android/chat/activity/KikCropActivity_ViewBinding$1;->a:Lkik/android/chat/activity/KikCropActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikCropActivity_ViewBinding$1;->a:Lkik/arcane/chat/activity/KikCropActivity;
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KikCropActivity;->onBackClick()V
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KikCropActivity;->onBackClick()V
 
     .line 45
     return-void

@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/view/PreviewResultsViewImpl$b;
+.class final Lkik/arcane/chat/view/PreviewResultsViewImpl$b;
 .super Landroid/view/GestureDetector$SimpleOnGestureListener;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/view/PreviewResultsViewImpl;
+    value = Lkik/arcane/chat/view/PreviewResultsViewImpl;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/view/PreviewResultsViewImpl;
+.field final synthetic a:Lkik/arcane/chat/view/PreviewResultsViewImpl;
 
 .field private final b:I
 
@@ -27,32 +27,32 @@
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/view/PreviewResultsViewImpl;)V
+.method constructor <init>(Lkik/arcane/chat/view/PreviewResultsViewImpl;)V
     .locals 2
 
     .prologue
     const/4 v1, 0x0
 
     .line 116
-    iput-object p1, p0, Lkik/android/chat/view/PreviewResultsViewImpl$b;->a:Lkik/android/chat/view/PreviewResultsViewImpl;
+    iput-object p1, p0, Lkik/arcane/chat/view/PreviewResultsViewImpl$b;->a:Lkik/arcane/chat/view/PreviewResultsViewImpl;
 
     invoke-direct {p0}, Landroid/view/GestureDetector$SimpleOnGestureListener;-><init>()V
 
     .line 122
     const/4 v0, -0x1
 
-    iput v0, p0, Lkik/android/chat/view/PreviewResultsViewImpl$b;->b:I
+    iput v0, p0, Lkik/arcane/chat/view/PreviewResultsViewImpl$b;->b:I
 
     .line 123
-    iput v1, p0, Lkik/android/chat/view/PreviewResultsViewImpl$b;->c:I
+    iput v1, p0, Lkik/arcane/chat/view/PreviewResultsViewImpl$b;->c:I
 
     .line 124
     const/4 v0, 0x1
 
-    iput v0, p0, Lkik/android/chat/view/PreviewResultsViewImpl$b;->d:I
+    iput v0, p0, Lkik/arcane/chat/view/PreviewResultsViewImpl$b;->d:I
 
     .line 126
-    iput-boolean v1, p0, Lkik/android/chat/view/PreviewResultsViewImpl$b;->e:Z
+    iput-boolean v1, p0, Lkik/arcane/chat/view/PreviewResultsViewImpl$b;->e:Z
 
     return-void
 .end method
@@ -112,9 +112,9 @@
 
     .line 133
     :goto_0
-    iget-object v2, p0, Lkik/android/chat/view/PreviewResultsViewImpl$b;->a:Lkik/android/chat/view/PreviewResultsViewImpl;
+    iget-object v2, p0, Lkik/arcane/chat/view/PreviewResultsViewImpl$b;->a:Lkik/arcane/chat/view/PreviewResultsViewImpl;
 
-    invoke-static {v2}, Lkik/android/chat/view/PreviewResultsViewImpl;->a(Lkik/android/chat/view/PreviewResultsViewImpl;)Z
+    invoke-static {v2}, Lkik/arcane/chat/view/PreviewResultsViewImpl;->a(Lkik/arcane/chat/view/PreviewResultsViewImpl;)Z
 
     move-result v2
 
@@ -130,9 +130,9 @@
 
     .line 143
     :goto_1
-    iget-object v2, p0, Lkik/android/chat/view/PreviewResultsViewImpl$b;->a:Lkik/android/chat/view/PreviewResultsViewImpl;
+    iget-object v2, p0, Lkik/arcane/chat/view/PreviewResultsViewImpl$b;->a:Lkik/arcane/chat/view/PreviewResultsViewImpl;
 
-    invoke-virtual {v2}, Lkik/android/chat/view/PreviewResultsViewImpl;->getContext()Landroid/content/Context;
+    invoke-virtual {v2}, Lkik/arcane/chat/view/PreviewResultsViewImpl;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
@@ -145,9 +145,9 @@
     invoke-static {v2, v1}, Lcom/rounds/kik/analytics/Reporter;->report(Landroid/content/Context;Lcom/rounds/kik/analytics/AnalyticsEvent$Builder;)V
 
     .line 144
-    iget-object v1, p0, Lkik/android/chat/view/PreviewResultsViewImpl$b;->a:Lkik/android/chat/view/PreviewResultsViewImpl;
+    iget-object v1, p0, Lkik/arcane/chat/view/PreviewResultsViewImpl$b;->a:Lkik/arcane/chat/view/PreviewResultsViewImpl;
 
-    invoke-static {v1}, Lkik/android/chat/view/PreviewResultsViewImpl;->b(Lkik/android/chat/view/PreviewResultsViewImpl;)Z
+    invoke-static {v1}, Lkik/arcane/chat/view/PreviewResultsViewImpl;->b(Lkik/arcane/chat/view/PreviewResultsViewImpl;)Z
 
     .line 149
     :cond_0
@@ -191,7 +191,7 @@
 
     .prologue
     .line 155
-    iget-boolean v0, p0, Lkik/android/chat/view/PreviewResultsViewImpl$b;->e:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/view/PreviewResultsViewImpl$b;->e:Z
 
     if-nez v0, :cond_0
 
@@ -209,9 +209,9 @@
     invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
 
     .line 160
-    iget-object v1, p0, Lkik/android/chat/view/PreviewResultsViewImpl$b;->a:Lkik/android/chat/view/PreviewResultsViewImpl;
+    iget-object v1, p0, Lkik/arcane/chat/view/PreviewResultsViewImpl$b;->a:Lkik/arcane/chat/view/PreviewResultsViewImpl;
 
-    invoke-static {v1}, Lkik/android/chat/view/PreviewResultsViewImpl;->c(Lkik/android/chat/view/PreviewResultsViewImpl;)I
+    invoke-static {v1}, Lkik/arcane/chat/view/PreviewResultsViewImpl;->c(Lkik/arcane/chat/view/PreviewResultsViewImpl;)I
 
     move-result v1
 
@@ -253,7 +253,7 @@
 
     move v5, p3
 
-    invoke-direct/range {v0 .. v6}, Lkik/android/chat/view/PreviewResultsViewImpl$b;->a(FFFFFZ)I
+    invoke-direct/range {v0 .. v6}, Lkik/arcane/chat/view/PreviewResultsViewImpl$b;->a(FFFFFZ)I
 
     move-result v0
 
@@ -283,7 +283,7 @@
 
     move v5, p4
 
-    invoke-direct/range {v0 .. v6}, Lkik/android/chat/view/PreviewResultsViewImpl$b;->a(FFFFFZ)I
+    invoke-direct/range {v0 .. v6}, Lkik/arcane/chat/view/PreviewResultsViewImpl$b;->a(FFFFFZ)I
 
     move-result v0
 
@@ -294,10 +294,10 @@
     .line 168
     const/4 v1, 0x0
 
-    iput-boolean v1, p0, Lkik/android/chat/view/PreviewResultsViewImpl$b;->e:Z
+    iput-boolean v1, p0, Lkik/arcane/chat/view/PreviewResultsViewImpl$b;->e:Z
 
     .line 169
-    iget-object v1, p0, Lkik/android/chat/view/PreviewResultsViewImpl$b;->a:Lkik/android/chat/view/PreviewResultsViewImpl;
+    iget-object v1, p0, Lkik/arcane/chat/view/PreviewResultsViewImpl$b;->a:Lkik/arcane/chat/view/PreviewResultsViewImpl;
 
     const/4 v2, -0x1
 
@@ -306,7 +306,7 @@
     const/4 v0, 0x1
 
     :goto_1
-    invoke-virtual {v1, v0}, Lkik/android/chat/view/PreviewResultsViewImpl;->a(Z)V
+    invoke-virtual {v1, v0}, Lkik/arcane/chat/view/PreviewResultsViewImpl;->a(Z)V
 
     .line 171
     :cond_2
@@ -330,7 +330,7 @@
     const/4 v0, 0x1
 
     .line 189
-    iput-boolean v0, p0, Lkik/android/chat/view/PreviewResultsViewImpl$b;->e:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/view/PreviewResultsViewImpl$b;->e:Z
 
     .line 190
     return v0
@@ -341,7 +341,7 @@
 
     .prologue
     .line 177
-    invoke-direct {p0, p1, p2, p3, p4}, Lkik/android/chat/view/PreviewResultsViewImpl$b;->a(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
+    invoke-direct {p0, p1, p2, p3, p4}, Lkik/arcane/chat/view/PreviewResultsViewImpl$b;->a(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
 
     move-result v0
 
@@ -353,7 +353,7 @@
 
     .prologue
     .line 183
-    invoke-direct {p0, p1, p2, p3, p4}, Lkik/android/chat/view/PreviewResultsViewImpl$b;->a(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
+    invoke-direct {p0, p1, p2, p3, p4}, Lkik/arcane/chat/view/PreviewResultsViewImpl$b;->a(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
 
     move-result v0
 

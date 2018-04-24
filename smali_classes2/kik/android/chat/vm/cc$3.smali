@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/vm/cc$3;
+.class final Lkik/arcane/chat/vm/cc$3;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/cc;->a(Z)Lcom/kik/events/Promise;
+    value = Lkik/arcane/chat/vm/cc;->a(Z)Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,20 +28,20 @@
 
 .field final synthetic b:Z
 
-.field final synthetic c:Lkik/android/chat/vm/cc;
+.field final synthetic c:Lkik/arcane/chat/vm/cc;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/cc;Lcom/kik/events/Promise;Z)V
+.method constructor <init>(Lkik/arcane/chat/vm/cc;Lcom/kik/events/Promise;Z)V
     .locals 0
 
     .prologue
     .line 836
-    iput-object p1, p0, Lkik/android/chat/vm/cc$3;->c:Lkik/android/chat/vm/cc;
+    iput-object p1, p0, Lkik/arcane/chat/vm/cc$3;->c:Lkik/arcane/chat/vm/cc;
 
-    iput-object p2, p0, Lkik/android/chat/vm/cc$3;->a:Lcom/kik/events/Promise;
+    iput-object p2, p0, Lkik/arcane/chat/vm/cc$3;->a:Lcom/kik/events/Promise;
 
-    iput-boolean p3, p0, Lkik/android/chat/vm/cc$3;->b:Z
+    iput-boolean p3, p0, Lkik/arcane/chat/vm/cc$3;->b:Z
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -58,9 +58,9 @@
     check-cast p1, Landroid/os/Bundle;
 
     .line 1840
-    iget-object v0, p0, Lkik/android/chat/vm/cc$3;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cc$3;->a:Lcom/kik/events/Promise;
 
-    new-instance v1, Lkik/android/chat/vm/dk;
+    new-instance v1, Lkik/arcane/chat/vm/dk;
 
     const-string v2, "Image Success"
 
@@ -74,9 +74,9 @@
 
     move-result v3
 
-    iget-boolean v4, p0, Lkik/android/chat/vm/cc$3;->b:Z
+    iget-boolean v4, p0, Lkik/arcane/chat/vm/cc$3;->b:Z
 
-    invoke-direct {v1, v2, v3, v4}, Lkik/android/chat/vm/dk;-><init>(ZIZ)V
+    invoke-direct {v1, v2, v3, v4}, Lkik/arcane/chat/vm/dk;-><init>(ZIZ)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Ljava/lang/Object;)V
 
@@ -91,13 +91,13 @@
     const/4 v3, 0x0
 
     .line 846
-    iget-object v0, p0, Lkik/android/chat/vm/cc$3;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/chat/vm/cc$3;->a:Lcom/kik/events/Promise;
 
-    new-instance v1, Lkik/android/chat/vm/dk;
+    new-instance v1, Lkik/arcane/chat/vm/dk;
 
-    iget-boolean v2, p0, Lkik/android/chat/vm/cc$3;->b:Z
+    iget-boolean v2, p0, Lkik/arcane/chat/vm/cc$3;->b:Z
 
-    invoke-direct {v1, v3, v3, v2}, Lkik/android/chat/vm/dk;-><init>(ZIZ)V
+    invoke-direct {v1, v3, v3, v2}, Lkik/arcane/chat/vm/dk;-><init>(ZIZ)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Ljava/lang/Object;)V
 

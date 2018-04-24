@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/view/g$1;
+.class final Lkik/arcane/chat/view/g$1;
 .super Landroid/animation/AnimatorListenerAdapter;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/view/g;->a(Landroid/widget/ImageView;I)Landroid/animation/Animator;
+    value = Lkik/arcane/chat/view/g;->a(Landroid/widget/ImageView;I)Landroid/animation/Animator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,9 +26,9 @@
 
     .prologue
     .line 60
-    iput-object p1, p0, Lkik/android/chat/view/g$1;->a:Landroid/widget/ImageView;
+    iput-object p1, p0, Lkik/arcane/chat/view/g$1;->a:Landroid/widget/ImageView;
 
-    iput p2, p0, Lkik/android/chat/view/g$1;->b:I
+    iput p2, p0, Lkik/arcane/chat/view/g$1;->b:I
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
@@ -42,9 +42,9 @@
 
     .prologue
     .line 64
-    iget-object v0, p0, Lkik/android/chat/view/g$1;->a:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/chat/view/g$1;->a:Landroid/widget/ImageView;
 
-    iget v1, p0, Lkik/android/chat/view/g$1;->b:I
+    iget v1, p0, Lkik/arcane/chat/view/g$1;->b:I
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 

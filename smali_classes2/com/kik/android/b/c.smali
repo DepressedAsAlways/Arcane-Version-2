@@ -1,9 +1,9 @@
-.class public Lcom/kik/android/b/c;
+.class public Lcom/kik/arcane/b/c;
 .super Landroid/text/style/ImageSpan;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/kik/android/b/i;
+.implements Lcom/kik/arcane/b/i;
 
 
 # instance fields
@@ -11,7 +11,7 @@
 
 .field private final b:Ljava/lang/String;
 
-.field private final c:Lkik/android/f/i;
+.field private final c:Lkik/arcane/f/i;
 
 .field private final d:Z
 
@@ -23,7 +23,7 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/graphics/drawable/Drawable;Ljava/lang/String;Ljava/lang/String;Lkik/android/f/i;IZZ)V
+.method public constructor <init>(Landroid/graphics/drawable/Drawable;Ljava/lang/String;Ljava/lang/String;Lkik/arcane/f/i;IZZ)V
     .locals 1
 
     .prologue
@@ -31,10 +31,10 @@
     invoke-direct {p0, p1}, Landroid/text/style/ImageSpan;-><init>(Landroid/graphics/drawable/Drawable;)V
 
     .line 33
-    iput-object p3, p0, Lcom/kik/android/b/c;->b:Ljava/lang/String;
+    iput-object p3, p0, Lcom/kik/arcane/b/c;->b:Ljava/lang/String;
 
     .line 34
-    iput-object p4, p0, Lcom/kik/android/b/c;->c:Lkik/android/f/i;
+    iput-object p4, p0, Lcom/kik/arcane/b/c;->c:Lkik/arcane/f/i;
 
     .line 35
     if-nez p6, :cond_0
@@ -42,16 +42,16 @@
     const/4 v0, 0x1
 
     :goto_0
-    iput-boolean v0, p0, Lcom/kik/android/b/c;->d:Z
+    iput-boolean v0, p0, Lcom/kik/arcane/b/c;->d:Z
 
     .line 36
-    iput p5, p0, Lcom/kik/android/b/c;->e:I
+    iput p5, p0, Lcom/kik/arcane/b/c;->e:I
 
     .line 37
-    iput-object p2, p0, Lcom/kik/android/b/c;->f:Ljava/lang/String;
+    iput-object p2, p0, Lcom/kik/arcane/b/c;->f:Ljava/lang/String;
 
     .line 38
-    iput-boolean p7, p0, Lcom/kik/android/b/c;->a:Z
+    iput-boolean p7, p0, Lcom/kik/arcane/b/c;->a:Z
 
     .line 39
     return-void
@@ -70,24 +70,24 @@
 
     .prologue
     .line 54
-    iget-object v0, p0, Lcom/kik/android/b/c;->c:Lkik/android/f/i;
+    iget-object v0, p0, Lcom/kik/arcane/b/c;->c:Lkik/arcane/f/i;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/kik/android/b/c;->b:Ljava/lang/String;
+    iget-object v0, p0, Lcom/kik/arcane/b/c;->b:Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
     .line 57
-    iget-object v0, p0, Lcom/kik/android/b/c;->c:Lkik/android/f/i;
+    iget-object v0, p0, Lcom/kik/arcane/b/c;->c:Lkik/arcane/f/i;
 
-    iget-object v1, p0, Lcom/kik/android/b/c;->f:Ljava/lang/String;
+    iget-object v1, p0, Lcom/kik/arcane/b/c;->f:Ljava/lang/String;
 
-    iget-object v2, p0, Lcom/kik/android/b/c;->b:Ljava/lang/String;
+    iget-object v2, p0, Lcom/kik/arcane/b/c;->b:Ljava/lang/String;
 
-    iget-object v3, p0, Lcom/kik/android/b/c;->b:Ljava/lang/String;
+    iget-object v3, p0, Lcom/kik/arcane/b/c;->b:Ljava/lang/String;
 
-    invoke-static {v3}, Lcom/kik/android/b/f;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3}, Lcom/kik/arcane/b/f;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -95,7 +95,7 @@
 
     invoke-direct {v4}, Landroid/os/Bundle;-><init>()V
 
-    invoke-interface {v0, v1, v2, v3}, Lkik/android/f/i;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-interface {v0, v1, v2, v3}, Lkik/arcane/f/i;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 59
     :cond_0
@@ -107,7 +107,7 @@
 
     .prologue
     .line 97
-    iput-boolean p1, p0, Lcom/kik/android/b/c;->g:Z
+    iput-boolean p1, p0, Lcom/kik/arcane/b/c;->g:Z
 
     .line 98
     return-void
@@ -118,22 +118,22 @@
 
     .prologue
     .line 63
-    iget-object v0, p0, Lcom/kik/android/b/c;->c:Lkik/android/f/i;
+    iget-object v0, p0, Lcom/kik/arcane/b/c;->c:Lkik/arcane/f/i;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/kik/android/b/c;->c:Lkik/android/f/i;
+    iget-object v0, p0, Lcom/kik/arcane/b/c;->c:Lkik/arcane/f/i;
 
-    instance-of v0, v0, Lkik/android/f/j;
+    instance-of v0, v0, Lkik/arcane/f/j;
 
     if-eqz v0, :cond_0
 
     .line 64
-    iget-object v0, p0, Lcom/kik/android/b/c;->c:Lkik/android/f/i;
+    iget-object v0, p0, Lcom/kik/arcane/b/c;->c:Lkik/arcane/f/i;
 
-    check-cast v0, Lkik/android/f/j;
+    check-cast v0, Lkik/arcane/f/j;
 
-    invoke-interface {v0}, Lkik/android/f/j;->a()V
+    invoke-interface {v0}, Lkik/arcane/f/j;->a()V
 
     .line 66
     :cond_0
@@ -148,7 +148,7 @@
     if-eqz p1, :cond_0
 
     .line 111
-    invoke-virtual {p0}, Lcom/kik/android/b/c;->getDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Lcom/kik/arcane/b/c;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -164,7 +164,7 @@
 
     .line 114
     :cond_0
-    invoke-virtual {p0}, Lcom/kik/android/b/c;->getDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Lcom/kik/arcane/b/c;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -180,7 +180,7 @@
 
     .prologue
     .line 70
-    iget-object v0, p0, Lcom/kik/android/b/c;->b:Ljava/lang/String;
+    iget-object v0, p0, Lcom/kik/arcane/b/c;->b:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -190,7 +190,7 @@
 
     .prologue
     .line 76
-    iget-object v0, p0, Lcom/kik/android/b/c;->f:Ljava/lang/String;
+    iget-object v0, p0, Lcom/kik/arcane/b/c;->f:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -200,7 +200,7 @@
 
     .prologue
     .line 82
-    iget v0, p0, Lcom/kik/android/b/c;->e:I
+    iget v0, p0, Lcom/kik/arcane/b/c;->e:I
 
     return v0
 .end method
@@ -210,7 +210,7 @@
 
     .prologue
     .line 88
-    iget-boolean v0, p0, Lcom/kik/android/b/c;->d:Z
+    iget-boolean v0, p0, Lcom/kik/arcane/b/c;->d:Z
 
     return v0
 .end method
@@ -220,13 +220,13 @@
 
     .prologue
     .line 105
-    iget-boolean v0, p0, Lcom/kik/android/b/c;->g:Z
+    iget-boolean v0, p0, Lcom/kik/arcane/b/c;->g:Z
 
     if-nez v0, :cond_0
 
-    iget v0, p0, Lcom/kik/android/b/c;->e:I
+    iget v0, p0, Lcom/kik/arcane/b/c;->e:I
 
-    iget-object v1, p0, Lcom/kik/android/b/c;->f:Ljava/lang/String;
+    iget-object v1, p0, Lcom/kik/arcane/b/c;->f:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->length()I
 

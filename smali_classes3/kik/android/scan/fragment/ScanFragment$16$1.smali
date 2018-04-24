@@ -1,4 +1,4 @@
-.class final Lkik/android/scan/fragment/ScanFragment$16$1;
+.class final Lkik/arcane/scan/fragment/ScanFragment$16$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/scan/fragment/ScanFragment$16;->run()V
+    value = Lkik/arcane/scan/fragment/ScanFragment$16;->run()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/scan/fragment/ScanFragment$16;
+.field final synthetic a:Lkik/arcane/scan/fragment/ScanFragment$16;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/scan/fragment/ScanFragment$16;)V
+.method constructor <init>(Lkik/arcane/scan/fragment/ScanFragment$16;)V
     .locals 0
 
     .prologue
     .line 457
-    iput-object p1, p0, Lkik/android/scan/fragment/ScanFragment$16$1;->a:Lkik/android/scan/fragment/ScanFragment$16;
+    iput-object p1, p0, Lkik/arcane/scan/fragment/ScanFragment$16$1;->a:Lkik/arcane/scan/fragment/ScanFragment$16;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,11 +41,11 @@
 
     .prologue
     .line 461
-    iget-object v0, p0, Lkik/android/scan/fragment/ScanFragment$16$1;->a:Lkik/android/scan/fragment/ScanFragment$16;
+    iget-object v0, p0, Lkik/arcane/scan/fragment/ScanFragment$16$1;->a:Lkik/arcane/scan/fragment/ScanFragment$16;
 
-    iget-object v0, v0, Lkik/android/scan/fragment/ScanFragment$16;->a:Lkik/android/scan/fragment/ScanFragment;
+    iget-object v0, v0, Lkik/arcane/scan/fragment/ScanFragment$16;->a:Lkik/arcane/scan/fragment/ScanFragment;
 
-    invoke-virtual {v0}, Lkik/android/scan/fragment/ScanFragment;->b()V
+    invoke-virtual {v0}, Lkik/arcane/scan/fragment/ScanFragment;->b()V
 
     .line 462
     return-void

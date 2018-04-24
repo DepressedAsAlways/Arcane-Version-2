@@ -207,9 +207,9 @@
     check-cast v1, Lkik/core/interfaces/ad;
 
     .line 2025
-    new-instance v2, Lcom/kik/android/stickers/k;
+    new-instance v2, Lcom/kik/arcane/stickers/k;
 
-    invoke-direct {v2, v0, v1}, Lcom/kik/android/stickers/k;-><init>(Lkik/core/interfaces/b;Lkik/core/interfaces/ad;)V
+    invoke-direct {v2, v0, v1}, Lcom/kik/arcane/stickers/k;-><init>(Lkik/core/interfaces/b;Lkik/core/interfaces/ad;)V
 
     .line 1038
     const-string v0, "Cannot return null from a non-@Nullable @Provides method"

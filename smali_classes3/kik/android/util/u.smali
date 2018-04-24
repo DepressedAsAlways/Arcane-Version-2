@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/u;
+.class public final Lkik/arcane/util/u;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -24,29 +24,29 @@
     .line 18
     const/high16 v0, 0x41c00000    # 24.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
     int-to-float v0, v0
 
-    iput v0, p0, Lkik/android/util/u;->a:F
+    iput v0, p0, Lkik/arcane/util/u;->a:F
 
     .line 20
-    new-instance v0, Lkik/android/util/u$1;
+    new-instance v0, Lkik/arcane/util/u$1;
 
-    invoke-direct {v0, p0}, Lkik/android/util/u$1;-><init>(Lkik/android/util/u;)V
+    invoke-direct {v0, p0}, Lkik/arcane/util/u$1;-><init>(Lkik/arcane/util/u;)V
 
-    iput-object v0, p0, Lkik/android/util/u;->d:Lcom/github/ksoichiro/android/observablescrollview/a;
+    iput-object v0, p0, Lkik/arcane/util/u;->d:Lcom/github/ksoichiro/android/observablescrollview/a;
 
     .line 51
-    iput-object p1, p0, Lkik/android/util/u;->b:Landroid/view/View;
+    iput-object p1, p0, Lkik/arcane/util/u;->b:Landroid/view/View;
 
     .line 52
-    iput-object p2, p0, Lkik/android/util/u;->c:Lcom/github/ksoichiro/android/observablescrollview/b;
+    iput-object p2, p0, Lkik/arcane/util/u;->c:Lcom/github/ksoichiro/android/observablescrollview/b;
 
     .line 53
-    iget-object v0, p0, Lkik/android/util/u;->d:Lcom/github/ksoichiro/android/observablescrollview/a;
+    iget-object v0, p0, Lkik/arcane/util/u;->d:Lcom/github/ksoichiro/android/observablescrollview/a;
 
     invoke-interface {p2, v0}, Lcom/github/ksoichiro/android/observablescrollview/b;->a(Lcom/github/ksoichiro/android/observablescrollview/a;)V
 
@@ -54,17 +54,17 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/util/u;F)V
+.method static synthetic a(Lkik/arcane/util/u;F)V
     .locals 3
 
     .prologue
     .line 1069
-    iget v0, p0, Lkik/android/util/u;->a:F
+    iget v0, p0, Lkik/arcane/util/u;->a:F
 
     div-float v0, p1, v0
 
     .line 1070
-    iget-object v1, p0, Lkik/android/util/u;->b:Landroid/view/View;
+    iget-object v1, p0, Lkik/arcane/util/u;->b:Landroid/view/View;
 
     const/high16 v2, 0x3f800000    # 1.0f
 
@@ -85,7 +85,7 @@
 
     .prologue
     .line 61
-    iget-object v0, p0, Lkik/android/util/u;->c:Lcom/github/ksoichiro/android/observablescrollview/b;
+    iget-object v0, p0, Lkik/arcane/util/u;->c:Lcom/github/ksoichiro/android/observablescrollview/b;
 
     const/4 v1, 0x0
 

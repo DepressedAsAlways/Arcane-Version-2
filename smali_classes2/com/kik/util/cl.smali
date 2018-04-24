@@ -92,10 +92,10 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/widget/RobotoTextView;
+    check-cast v0, Lkik/arcane/widget/RobotoTextView;
 
     .line 52
-    invoke-virtual {v0, v3}, Lkik/android/widget/RobotoTextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v3}, Lkik/arcane/widget/RobotoTextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 53
     new-instance v3, Lorg/apmem/tools/layouts/FlowLayout$LayoutParams;
@@ -103,26 +103,26 @@
     invoke-direct {v3}, Lorg/apmem/tools/layouts/FlowLayout$LayoutParams;-><init>()V
 
     .line 54
-    invoke-static {v8}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v8}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v4
 
-    invoke-static {v8}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v8}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v5
 
-    invoke-static {v8}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v8}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v6
 
-    invoke-static {v8}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v8}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v7
 
     invoke-virtual {v3, v4, v5, v6, v7}, Lorg/apmem/tools/layouts/FlowLayout$LayoutParams;->setMargins(IIII)V
 
     .line 55
-    invoke-virtual {v0, v3}, Lkik/android/widget/RobotoTextView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v0, v3}, Lkik/arcane/widget/RobotoTextView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 56
     invoke-virtual {p0, v0}, Lorg/apmem/tools/layouts/FlowLayout;->addView(Landroid/view/View;)V

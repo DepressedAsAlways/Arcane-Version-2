@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/SelfMaskingImageLayout;
+.class public Lkik/arcane/widget/SelfMaskingImageLayout;
 .super Landroid/widget/FrameLayout;
 .source "SourceFile"
 
@@ -15,7 +15,7 @@
     .line 56
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/SelfMaskingImageLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/SelfMaskingImageLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 57
     return-void
@@ -28,7 +28,7 @@
     .line 61
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/SelfMaskingImageLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/SelfMaskingImageLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 62
     return-void
@@ -48,10 +48,10 @@
 
     invoke-direct {v0, p1}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
-    iput-object v0, p0, Lkik/android/widget/SelfMaskingImageLayout;->a:Landroid/widget/ImageView;
+    iput-object v0, p0, Lkik/arcane/widget/SelfMaskingImageLayout;->a:Landroid/widget/ImageView;
 
     .line 68
-    iget-object v0, p0, Lkik/android/widget/SelfMaskingImageLayout;->a:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/widget/SelfMaskingImageLayout;->a:Landroid/widget/ImageView;
 
     new-instance v1, Landroid/widget/FrameLayout$LayoutParams;
 
@@ -60,15 +60,15 @@
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 69
-    iget-object v0, p0, Lkik/android/widget/SelfMaskingImageLayout;->a:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/widget/SelfMaskingImageLayout;->a:Landroid/widget/ImageView;
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/SelfMaskingImageLayout;->addView(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/SelfMaskingImageLayout;->addView(Landroid/view/View;)V
 
     .line 70
     if-eqz p2, :cond_1
 
     .line 71
-    sget-object v0, Lkik/android/R$styleable;->SelfMaskingImageLayout:[I
+    sget-object v0, Lkik/arcane/R$styleable;->SelfMaskingImageLayout:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -86,7 +86,7 @@
     if-eqz v0, :cond_0
 
     .line 1086
-    iget-object v2, p0, Lkik/android/widget/SelfMaskingImageLayout;->a:Landroid/widget/ImageView;
+    iget-object v2, p0, Lkik/arcane/widget/SelfMaskingImageLayout;->a:Landroid/widget/ImageView;
 
     invoke-virtual {v2, v0}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
@@ -103,7 +103,7 @@
     move-result-object v0
 
     .line 1089
-    invoke-direct {p0, v0}, Lkik/android/widget/SelfMaskingImageLayout;->b(Landroid/graphics/Bitmap;)V
+    invoke-direct {p0, v0}, Lkik/arcane/widget/SelfMaskingImageLayout;->b(Landroid/graphics/Bitmap;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -125,16 +125,16 @@
     throw v0
 .end method
 
-.method static synthetic a(Lkik/android/widget/SelfMaskingImageLayout;Lkik/core/interfaces/o;)Lrx/d;
+.method static synthetic a(Lkik/arcane/widget/SelfMaskingImageLayout;Lkik/core/interfaces/o;)Lrx/d;
     .locals 2
 
     .prologue
     .line 46
-    invoke-virtual {p0}, Lkik/android/widget/SelfMaskingImageLayout;->getMeasuredWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/SelfMaskingImageLayout;->getMeasuredWidth()I
 
     move-result v0
 
-    invoke-virtual {p0}, Lkik/android/widget/SelfMaskingImageLayout;->getMeasuredHeight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/SelfMaskingImageLayout;->getMeasuredHeight()I
 
     move-result v1
 
@@ -155,19 +155,19 @@
     return-object v0
 .end method
 
-.method static synthetic a(Lkik/android/widget/SelfMaskingImageLayout;)V
+.method static synthetic a(Lkik/arcane/widget/SelfMaskingImageLayout;)V
     .locals 1
 
     .prologue
     .line 49
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/SelfMaskingImageLayout;->a(Landroid/graphics/Bitmap;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/SelfMaskingImageLayout;->a(Landroid/graphics/Bitmap;)V
 
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/SelfMaskingImageLayout;Lrx/d;)V
+.method public static a(Lkik/arcane/widget/SelfMaskingImageLayout;Lrx/d;)V
     .locals 6
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -178,7 +178,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/SelfMaskingImageLayout;",
+            "Lkik/arcane/widget/SelfMaskingImageLayout;",
             "Lrx/d",
             "<",
             "Lkik/core/interfaces/o",
@@ -196,7 +196,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {p0}, Lkik/android/widget/cy;->a(Lkik/android/widget/SelfMaskingImageLayout;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/cy;->a(Lkik/arcane/widget/SelfMaskingImageLayout;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -206,7 +206,7 @@
 
     .line 45
     :goto_0
-    invoke-static {p0}, Lkik/android/widget/da;->a(Lkik/android/widget/SelfMaskingImageLayout;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/widget/da;->a(Lkik/arcane/widget/SelfMaskingImageLayout;)Ljava/lang/Runnable;
 
     move-result-object v5
 
@@ -220,7 +220,7 @@
 
     .line 42
     :cond_0
-    invoke-static {p0}, Lkik/android/widget/cz;->a(Lkik/android/widget/SelfMaskingImageLayout;)Lrx/functions/g;
+    invoke-static {p0}, Lkik/arcane/widget/cz;->a(Lkik/arcane/widget/SelfMaskingImageLayout;)Lrx/functions/g;
 
     move-result-object v2
 
@@ -246,7 +246,7 @@
     if-nez p1, :cond_0
 
     .line 102
-    invoke-virtual {p0, v4}, Lkik/android/widget/SelfMaskingImageLayout;->setForeground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p0, v4}, Lkik/arcane/widget/SelfMaskingImageLayout;->setForeground(Landroid/graphics/drawable/Drawable;)V
 
     .line 128
     :goto_0
@@ -272,7 +272,7 @@
     move-result-object v0
 
     .line 108
-    invoke-virtual {p0}, Lkik/android/widget/SelfMaskingImageLayout;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/SelfMaskingImageLayout;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -363,7 +363,7 @@
     .line 119
     new-instance v1, Landroid/graphics/drawable/BitmapDrawable;
 
-    invoke-virtual {p0}, Lkik/android/widget/SelfMaskingImageLayout;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/SelfMaskingImageLayout;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
@@ -373,7 +373,7 @@
 
     .line 127
     :goto_2
-    invoke-virtual {p0, v0}, Lkik/android/widget/SelfMaskingImageLayout;->setForeground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/SelfMaskingImageLayout;->setForeground(Landroid/graphics/drawable/Drawable;)V
 
     goto :goto_0
 
@@ -404,7 +404,7 @@
     .line 125
     new-instance v0, Landroid/graphics/drawable/BitmapDrawable;
 
-    invoke-virtual {p0}, Lkik/android/widget/SelfMaskingImageLayout;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/SelfMaskingImageLayout;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
@@ -420,12 +420,12 @@
 
     .prologue
     .line 95
-    iget-object v0, p0, Lkik/android/widget/SelfMaskingImageLayout;->a:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/widget/SelfMaskingImageLayout;->a:Landroid/widget/ImageView;
 
     invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     .line 96
-    invoke-direct {p0, p1}, Lkik/android/widget/SelfMaskingImageLayout;->b(Landroid/graphics/Bitmap;)V
+    invoke-direct {p0, p1}, Lkik/arcane/widget/SelfMaskingImageLayout;->b(Landroid/graphics/Bitmap;)V
 
     .line 97
     return-void
@@ -498,7 +498,7 @@
 
     new-instance v2, Landroid/graphics/drawable/ColorDrawable;
 
-    invoke-virtual {p0}, Lkik/android/widget/SelfMaskingImageLayout;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/SelfMaskingImageLayout;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
@@ -519,7 +519,7 @@
 
     .line 147
     :cond_1
-    invoke-virtual {p0}, Lkik/android/widget/SelfMaskingImageLayout;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/widget/SelfMaskingImageLayout;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 

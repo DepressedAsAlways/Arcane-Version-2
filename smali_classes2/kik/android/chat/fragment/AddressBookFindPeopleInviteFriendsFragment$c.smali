@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$c;
+.class final Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$c;
 .super Landroid/support/v7/widget/RecyclerView$ItemDecoration;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
+    value = Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,7 +29,7 @@
     invoke-direct {p0}, Landroid/support/v7/widget/RecyclerView$ItemDecoration;-><init>()V
 
     .line 98
-    iput p1, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$c;->a:I
+    iput p1, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$c;->a:I
 
     .line 99
     return-void
@@ -55,7 +55,7 @@
     move-result v2
 
     .line 111
-    iget-boolean v3, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$c;->b:Z
+    iget-boolean v3, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$c;->b:Z
 
     if-eqz v3, :cond_0
 
@@ -72,7 +72,7 @@
     if-ne v2, v0, :cond_0
 
     .line 112
-    iget v0, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$c;->a:I
+    iget v0, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$c;->a:I
 
     .line 114
     :goto_0
@@ -92,7 +92,7 @@
 
     .prologue
     .line 119
-    iput-boolean p1, p0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$c;->b:Z
+    iput-boolean p1, p0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$c;->b:Z
 
     .line 120
     return-void

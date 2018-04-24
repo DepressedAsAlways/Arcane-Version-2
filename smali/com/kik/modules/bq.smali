@@ -6,11 +6,11 @@
 # instance fields
 .field private final a:Landroid/content/Context;
 
-.field private final b:Lkik/android/config/b;
+.field private final b:Lkik/arcane/config/b;
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lkik/android/config/b;)V
+.method public constructor <init>(Landroid/content/Context;Lkik/arcane/config/b;)V
     .locals 0
 
     .prologue
@@ -21,7 +21,7 @@
     iput-object p1, p0, Lcom/kik/modules/bq;->a:Landroid/content/Context;
 
     .line 28
-    iput-object p2, p0, Lcom/kik/modules/bq;->b:Lkik/android/config/b;
+    iput-object p2, p0, Lcom/kik/modules/bq;->b:Lkik/arcane/config/b;
 
     .line 29
     return-void
@@ -45,7 +45,7 @@
 
 
 # virtual methods
-.method final a(Lkik/core/interfaces/ad;Lkik/android/util/aj;)Lcom/kik/e/h;
+.method final a(Lkik/core/interfaces/ad;Lkik/arcane/util/aj;)Lcom/kik/e/h;
     .locals 3
     .annotation runtime Ljavax/inject/Singleton;
     .end annotation
@@ -56,9 +56,9 @@
 
     iget-object v1, p0, Lcom/kik/modules/bq;->a:Landroid/content/Context;
 
-    iget-object v2, p0, Lcom/kik/modules/bq;->b:Lkik/android/config/b;
+    iget-object v2, p0, Lcom/kik/modules/bq;->b:Lkik/arcane/config/b;
 
-    invoke-direct {v0, v1, p1, v2, p2}, Lcom/kik/e/h;-><init>(Landroid/content/Context;Lkik/core/interfaces/ad;Lkik/android/config/b;Lkik/android/util/aj;)V
+    invoke-direct {v0, v1, p1, v2, p2}, Lcom/kik/e/h;-><init>(Landroid/content/Context;Lkik/core/interfaces/ad;Lkik/arcane/config/b;Lkik/arcane/util/aj;)V
 
     return-object v0
 .end method

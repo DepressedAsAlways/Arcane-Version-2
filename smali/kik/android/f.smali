@@ -1,4 +1,4 @@
-.class public final Lkik/android/f;
+.class public final Lkik/arcane/f;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,19 +6,19 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/f$d;,
-        Lkik/android/f$e;,
-        Lkik/android/f$f;,
-        Lkik/android/f$g;,
-        Lkik/android/f$a;,
-        Lkik/android/f$c;,
-        Lkik/android/f$b;
+        Lkik/arcane/f$d;,
+        Lkik/arcane/f$e;,
+        Lkik/arcane/f$f;,
+        Lkik/arcane/f$g;,
+        Lkik/arcane/f$a;,
+        Lkik/arcane/f$c;,
+        Lkik/arcane/f$b;
     }
 .end annotation
 
 
 # instance fields
-.field protected a:Lkik/android/chat/service/BatteryChangeReceiver;
+.field protected a:Lkik/arcane/chat/service/BatteryChangeReceiver;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -28,15 +28,15 @@
     .end annotation
 .end field
 
-.field private c:Lcom/kik/android/Mixpanel;
+.field private c:Lcom/kik/arcane/Mixpanel;
 
 .field private d:Landroid/content/Context;
 
-.field private e:Lkik/android/f$c;
+.field private e:Lkik/arcane/f$c;
 
-.field private f:Lkik/android/f$g;
+.field private f:Lkik/arcane/f$g;
 
-.field private g:Lkik/android/f$e;
+.field private g:Lkik/arcane/f$e;
 
 .field private h:I
 
@@ -56,7 +56,7 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/kik/android/Mixpanel;Lcom/kik/components/CoreComponent;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/kik/arcane/Mixpanel;Lcom/kik/components/CoreComponent;)V
     .locals 5
 
     .prologue
@@ -72,80 +72,80 @@
     .line 37
     const/4 v0, 0x5
 
-    iput v0, p0, Lkik/android/f;->h:I
+    iput v0, p0, Lkik/arcane/f;->h:I
 
     .line 38
-    iput v1, p0, Lkik/android/f;->i:I
+    iput v1, p0, Lkik/arcane/f;->i:I
 
     .line 39
-    iput v1, p0, Lkik/android/f;->j:I
+    iput v1, p0, Lkik/arcane/f;->j:I
 
     .line 40
-    iput v1, p0, Lkik/android/f;->k:I
+    iput v1, p0, Lkik/arcane/f;->k:I
 
     .line 41
-    iput v1, p0, Lkik/android/f;->l:I
+    iput v1, p0, Lkik/arcane/f;->l:I
 
     .line 42
-    iput-wide v2, p0, Lkik/android/f;->m:J
+    iput-wide v2, p0, Lkik/arcane/f;->m:J
 
     .line 43
-    iput-wide v2, p0, Lkik/android/f;->n:J
+    iput-wide v2, p0, Lkik/arcane/f;->n:J
 
     .line 44
-    iput-wide v2, p0, Lkik/android/f;->o:J
+    iput-wide v2, p0, Lkik/arcane/f;->o:J
 
     .line 48
-    invoke-interface {p3, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/f;)V
+    invoke-interface {p3, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/f;)V
 
     .line 1063
-    iput-object p2, p0, Lkik/android/f;->c:Lcom/kik/android/Mixpanel;
+    iput-object p2, p0, Lkik/arcane/f;->c:Lcom/kik/arcane/Mixpanel;
 
     .line 1064
-    iput-object p1, p0, Lkik/android/f;->d:Landroid/content/Context;
+    iput-object p1, p0, Lkik/arcane/f;->d:Landroid/content/Context;
 
     .line 1065
-    new-instance v0, Lkik/android/f$a;
+    new-instance v0, Lkik/arcane/f$a;
 
-    invoke-direct {v0, p0}, Lkik/android/f$a;-><init>(Lkik/android/f;)V
+    invoke-direct {v0, p0}, Lkik/arcane/f$a;-><init>(Lkik/arcane/f;)V
 
-    iput-object v0, p0, Lkik/android/f;->e:Lkik/android/f$c;
+    iput-object v0, p0, Lkik/arcane/f;->e:Lkik/arcane/f$c;
 
     .line 1066
-    iget-object v0, p0, Lkik/android/f;->a:Lkik/android/chat/service/BatteryChangeReceiver;
+    iget-object v0, p0, Lkik/arcane/f;->a:Lkik/arcane/chat/service/BatteryChangeReceiver;
 
-    iget-object v1, p0, Lkik/android/f;->e:Lkik/android/f$c;
+    iget-object v1, p0, Lkik/arcane/f;->e:Lkik/arcane/f$c;
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/service/BatteryChangeReceiver;->a(Lkik/android/f$c;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/service/BatteryChangeReceiver;->a(Lkik/arcane/f$c;)V
 
     .line 1067
-    iget-object v0, p0, Lkik/android/f;->f:Lkik/android/f$g;
+    iget-object v0, p0, Lkik/arcane/f;->f:Lkik/arcane/f$g;
 
     if-nez v0, :cond_0
 
     .line 1068
-    new-instance v0, Lkik/android/f$f;
+    new-instance v0, Lkik/arcane/f$f;
 
-    invoke-direct {v0, p0, v4}, Lkik/android/f$f;-><init>(Lkik/android/f;B)V
+    invoke-direct {v0, p0, v4}, Lkik/arcane/f$f;-><init>(Lkik/arcane/f;B)V
 
-    iput-object v0, p0, Lkik/android/f;->f:Lkik/android/f$g;
+    iput-object v0, p0, Lkik/arcane/f;->f:Lkik/arcane/f$g;
 
     .line 1070
     :cond_0
-    iget-object v0, p0, Lkik/android/f;->g:Lkik/android/f$e;
+    iget-object v0, p0, Lkik/arcane/f;->g:Lkik/arcane/f$e;
 
     if-nez v0, :cond_1
 
     .line 1071
-    new-instance v0, Lkik/android/f$d;
+    new-instance v0, Lkik/arcane/f$d;
 
-    invoke-direct {v0, p0, v4}, Lkik/android/f$d;-><init>(Lkik/android/f;B)V
+    invoke-direct {v0, p0, v4}, Lkik/arcane/f$d;-><init>(Lkik/arcane/f;B)V
 
-    iput-object v0, p0, Lkik/android/f;->g:Lkik/android/f$e;
+    iput-object v0, p0, Lkik/arcane/f;->g:Lkik/arcane/f$e;
 
     .line 1073
     :cond_1
-    iget-object v0, p0, Lkik/android/f;->d:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/f;->d:Landroid/content/Context;
 
     const/4 v1, 0x0
 
@@ -160,41 +160,41 @@
     move-result-object v0
 
     .line 1074
-    invoke-static {v0}, Lkik/android/f;->a(Landroid/content/Intent;)Lkik/android/f$b;
+    invoke-static {v0}, Lkik/arcane/f;->a(Landroid/content/Intent;)Lkik/arcane/f$b;
 
     move-result-object v1
 
-    iget v1, v1, Lkik/android/f$b;->a:I
+    iget v1, v1, Lkik/arcane/f$b;->a:I
 
-    iput v1, p0, Lkik/android/f;->i:I
+    iput v1, p0, Lkik/arcane/f;->i:I
 
     .line 1075
-    invoke-static {v0}, Lkik/android/f;->a(Landroid/content/Intent;)Lkik/android/f$b;
+    invoke-static {v0}, Lkik/arcane/f;->a(Landroid/content/Intent;)Lkik/arcane/f$b;
 
     move-result-object v0
 
-    iget v0, v0, Lkik/android/f$b;->b:I
+    iget v0, v0, Lkik/arcane/f$b;->b:I
 
-    iput v0, p0, Lkik/android/f;->k:I
+    iput v0, p0, Lkik/arcane/f;->k:I
 
     .line 1076
-    invoke-direct {p0}, Lkik/android/f;->d()V
+    invoke-direct {p0}, Lkik/arcane/f;->d()V
 
     .line 50
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/f;I)I
+.method static synthetic a(Lkik/arcane/f;I)I
     .locals 0
 
     .prologue
     .line 24
-    iput p1, p0, Lkik/android/f;->i:I
+    iput p1, p0, Lkik/arcane/f;->i:I
 
     return p1
 .end method
 
-.method public static a(Landroid/content/Intent;)Lkik/android/f$b;
+.method public static a(Landroid/content/Intent;)Lkik/arcane/f$b;
     .locals 3
 
     .prologue
@@ -235,31 +235,31 @@
     move-result v1
 
     .line 233
-    new-instance v2, Lkik/android/f$b;
+    new-instance v2, Lkik/arcane/f$b;
 
-    invoke-direct {v2, v0, v1}, Lkik/android/f$b;-><init>(II)V
+    invoke-direct {v2, v0, v1}, Lkik/arcane/f$b;-><init>(II)V
 
     return-object v2
 .end method
 
-.method static synthetic a(Lkik/android/f;)V
+.method static synthetic a(Lkik/arcane/f;)V
     .locals 8
 
     .prologue
     .line 24
     .line 1096
-    iget v0, p0, Lkik/android/f;->i:I
+    iget v0, p0, Lkik/arcane/f;->i:I
 
-    iget v1, p0, Lkik/android/f;->j:I
+    iget v1, p0, Lkik/arcane/f;->j:I
 
     sub-int/2addr v0, v1
 
     int-to-float v1, v0
 
     .line 1097
-    iget v0, p0, Lkik/android/f;->k:I
+    iget v0, p0, Lkik/arcane/f;->k:I
 
-    iget v2, p0, Lkik/android/f;->l:I
+    iget v2, p0, Lkik/arcane/f;->l:I
 
     sub-int/2addr v0, v2
 
@@ -280,7 +280,7 @@
     if-ltz v0, :cond_0
 
     .line 1100
-    invoke-direct {p0}, Lkik/android/f;->d()V
+    invoke-direct {p0}, Lkik/arcane/f;->d()V
 
     .line 1102
     :cond_0
@@ -293,7 +293,7 @@
 
     move-result v2
 
-    iget v3, p0, Lkik/android/f;->h:I
+    iget v3, p0, Lkik/arcane/f;->h:I
 
     int-to-float v3, v3
 
@@ -302,32 +302,32 @@
     if-ltz v2, :cond_0
 
     .line 1112
-    iget-object v2, p0, Lkik/android/f;->c:Lcom/kik/android/Mixpanel;
+    iget-object v2, p0, Lkik/arcane/f;->c:Lcom/kik/arcane/Mixpanel;
 
     const-string v3, "Battery Level Changed"
 
-    invoke-virtual {v2, v3}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v2, v3}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v2
 
     .line 1133
     const-string v3, "Battery - Current Level"
 
-    iget v4, p0, Lkik/android/f;->i:I
+    iget v4, p0, Lkik/arcane/f;->i:I
 
     int-to-long v4, v4
 
-    invoke-virtual {v2, v3, v4, v5}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v2, v3, v4, v5}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     .line 1134
     const-string v3, "Battery - Phone Temperature Change"
 
     float-to-double v4, v0
 
-    invoke-virtual {v2, v3, v4, v5}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;D)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v2, v3, v4, v5}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;D)Lcom/kik/arcane/Mixpanel$d;
 
     .line 1135
-    iget-object v0, p0, Lkik/android/f;->d:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/f;->d:Landroid/content/Context;
 
     const-string v3, "power"
 
@@ -344,10 +344,10 @@
     .line 1136
     const-string v3, "Battery - Is Screen On"
 
-    invoke-virtual {v2, v3, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v2, v3, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     .line 1138
-    iget-object v0, p0, Lkik/android/f;->d:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/f;->d:Landroid/content/Context;
 
     const/4 v3, 0x0
 
@@ -386,16 +386,16 @@
     :goto_1
     const-string v3, "Battery - Is Charging"
 
-    invoke-virtual {v2, v3, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v2, v3, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     .line 1146
-    iget-object v0, p0, Lkik/android/f;->f:Lkik/android/f$g;
+    iget-object v0, p0, Lkik/arcane/f;->f:Lkik/arcane/f$g;
 
-    invoke-interface {v0}, Lkik/android/f$g;->a()J
+    invoke-interface {v0}, Lkik/arcane/f$g;->a()J
 
     move-result-wide v4
 
-    iget-wide v6, p0, Lkik/android/f;->m:J
+    iget-wide v6, p0, Lkik/arcane/f;->m:J
 
     sub-long/2addr v4, v6
 
@@ -413,16 +413,16 @@
     .line 1148
     const-string v3, "Battery - Change Per Hour"
 
-    invoke-virtual {v2, v3, v0, v1}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;D)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v2, v3, v0, v1}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;D)Lcom/kik/arcane/Mixpanel$d;
 
     .line 1156
-    sget-object v0, Lkik/android/f$1;->a:[I
+    sget-object v0, Lkik/arcane/f$1;->a:[I
 
-    iget-object v1, p0, Lkik/android/f;->g:Lkik/android/f$e;
+    iget-object v1, p0, Lkik/arcane/f;->g:Lkik/arcane/f$e;
 
-    iget-object v3, p0, Lkik/android/f;->d:Landroid/content/Context;
+    iget-object v3, p0, Lkik/arcane/f;->d:Landroid/content/Context;
 
-    invoke-interface {v1, v3}, Lkik/android/f$e;->a(Landroid/content/Context;)Lcom/rounds/kik/utils/NetworkingUtils$NetworkType;
+    invoke-interface {v1, v3}, Lkik/arcane/f$e;->a(Landroid/content/Context;)Lcom/rounds/kik/utils/NetworkingUtils$NetworkType;
 
     move-result-object v1
 
@@ -439,13 +439,13 @@
 
     .line 1176
     :goto_2
-    sget-object v1, Lkik/android/f$1;->b:[I
+    sget-object v1, Lkik/arcane/f$1;->b:[I
 
-    iget-object v3, p0, Lkik/android/f;->g:Lkik/android/f$e;
+    iget-object v3, p0, Lkik/arcane/f;->g:Lkik/arcane/f$e;
 
-    iget-object v4, p0, Lkik/android/f;->d:Landroid/content/Context;
+    iget-object v4, p0, Lkik/arcane/f;->d:Landroid/content/Context;
 
-    invoke-interface {v3, v4}, Lkik/android/f$e;->b(Landroid/content/Context;)Lcom/rounds/kik/utils/NetworkingUtils$NetworkState;
+    invoke-interface {v3, v4}, Lkik/arcane/f$e;->b(Landroid/content/Context;)Lcom/rounds/kik/utils/NetworkingUtils$NetworkState;
 
     move-result-object v3
 
@@ -464,29 +464,29 @@
     :goto_3
     const-string v3, "Battery - Network Type"
 
-    invoke-virtual {v2, v3, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v2, v3, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     .line 1194
     const-string v0, "Battery - Network State"
 
-    invoke-virtual {v2, v0, v1}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v2, v0, v1}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     .line 1199
-    iget-object v0, p0, Lkik/android/f;->b:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/f;->b:Lkik/core/interfaces/ad;
 
     invoke-interface {v0}, Lkik/core/interfaces/ad;->l()J
 
     move-result-wide v0
 
     .line 1200
-    iget-wide v4, p0, Lkik/android/f;->n:J
+    iget-wide v4, p0, Lkik/arcane/f;->n:J
 
     cmp-long v3, v0, v4
 
     if-lez v3, :cond_3
 
     .line 1201
-    iget-wide v4, p0, Lkik/android/f;->n:J
+    iget-wide v4, p0, Lkik/arcane/f;->n:J
 
     sub-long/2addr v0, v4
 
@@ -497,25 +497,25 @@
 
     int-to-long v4, v0
 
-    invoke-virtual {v2, v1, v4, v5}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v2, v1, v4, v5}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     .line 1205
     :cond_3
-    iget-object v0, p0, Lkik/android/f;->b:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/f;->b:Lkik/core/interfaces/ad;
 
     invoke-interface {v0}, Lkik/core/interfaces/ad;->m()J
 
     move-result-wide v0
 
     .line 1206
-    iget-wide v4, p0, Lkik/android/f;->o:J
+    iget-wide v4, p0, Lkik/arcane/f;->o:J
 
     cmp-long v3, v0, v4
 
     if-lez v3, :cond_4
 
     .line 1207
-    iget-wide v4, p0, Lkik/android/f;->o:J
+    iget-wide v4, p0, Lkik/arcane/f;->o:J
 
     sub-long/2addr v0, v4
 
@@ -526,18 +526,18 @@
 
     int-to-long v4, v0
 
-    invoke-virtual {v2, v1, v4, v5}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v2, v1, v4, v5}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     .line 1117
     :cond_4
-    invoke-virtual {v2}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v2}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 1106
-    invoke-direct {p0}, Lkik/android/f;->d()V
+    invoke-direct {p0}, Lkik/arcane/f;->d()V
 
     goto/16 :goto_0
 
@@ -621,12 +621,12 @@
     .end packed-switch
 .end method
 
-.method static synthetic b(Lkik/android/f;I)I
+.method static synthetic b(Lkik/arcane/f;I)I
     .locals 0
 
     .prologue
     .line 24
-    iput p1, p0, Lkik/android/f;->k:I
+    iput p1, p0, Lkik/arcane/f;->k:I
 
     return p1
 .end method
@@ -636,41 +636,41 @@
 
     .prologue
     .line 122
-    iget v0, p0, Lkik/android/f;->i:I
+    iget v0, p0, Lkik/arcane/f;->i:I
 
-    iput v0, p0, Lkik/android/f;->j:I
+    iput v0, p0, Lkik/arcane/f;->j:I
 
     .line 123
-    iget v0, p0, Lkik/android/f;->k:I
+    iget v0, p0, Lkik/arcane/f;->k:I
 
-    iput v0, p0, Lkik/android/f;->l:I
+    iput v0, p0, Lkik/arcane/f;->l:I
 
     .line 124
-    iget-object v0, p0, Lkik/android/f;->f:Lkik/android/f$g;
+    iget-object v0, p0, Lkik/arcane/f;->f:Lkik/arcane/f$g;
 
-    invoke-interface {v0}, Lkik/android/f$g;->a()J
+    invoke-interface {v0}, Lkik/arcane/f$g;->a()J
 
     move-result-wide v0
 
-    iput-wide v0, p0, Lkik/android/f;->m:J
+    iput-wide v0, p0, Lkik/arcane/f;->m:J
 
     .line 125
-    iget-object v0, p0, Lkik/android/f;->b:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/f;->b:Lkik/core/interfaces/ad;
 
     invoke-interface {v0}, Lkik/core/interfaces/ad;->m()J
 
     move-result-wide v0
 
-    iput-wide v0, p0, Lkik/android/f;->o:J
+    iput-wide v0, p0, Lkik/arcane/f;->o:J
 
     .line 126
-    iget-object v0, p0, Lkik/android/f;->b:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/f;->b:Lkik/core/interfaces/ad;
 
     invoke-interface {v0}, Lkik/core/interfaces/ad;->l()J
 
     move-result-wide v0
 
-    iput-wide v0, p0, Lkik/android/f;->n:J
+    iput-wide v0, p0, Lkik/arcane/f;->n:J
 
     .line 127
     return-void
@@ -683,9 +683,9 @@
 
     .prologue
     .line 81
-    iget-object v0, p0, Lkik/android/f;->d:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/f;->d:Landroid/content/Context;
 
-    iget-object v1, p0, Lkik/android/f;->a:Lkik/android/chat/service/BatteryChangeReceiver;
+    iget-object v1, p0, Lkik/arcane/f;->a:Lkik/arcane/chat/service/BatteryChangeReceiver;
 
     new-instance v2, Landroid/content/IntentFilter;
 
@@ -704,9 +704,9 @@
 
     .prologue
     .line 86
-    iget-object v0, p0, Lkik/android/f;->d:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/f;->d:Landroid/content/Context;
 
-    iget-object v1, p0, Lkik/android/f;->a:Lkik/android/chat/service/BatteryChangeReceiver;
+    iget-object v1, p0, Lkik/arcane/f;->a:Lkik/arcane/chat/service/BatteryChangeReceiver;
 
     invoke-virtual {v0, v1}, Landroid/content/Context;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
 
@@ -721,7 +721,7 @@
     .line 91
     const/4 v0, 0x3
 
-    iput v0, p0, Lkik/android/f;->h:I
+    iput v0, p0, Lkik/arcane/f;->h:I
 
     .line 92
     return-void

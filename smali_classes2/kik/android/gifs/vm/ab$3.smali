@@ -1,11 +1,11 @@
-.class final Lkik/android/gifs/vm/ab$3;
+.class final Lkik/arcane/gifs/vm/ab$3;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/gifs/vm/ab;
+    value = Lkik/arcane/gifs/vm/ab;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,7 +19,7 @@
         "<",
         "Ljava/util/List",
         "<",
-        "Lkik/android/gifs/api/GifResponseData;",
+        "Lkik/arcane/gifs/api/GifResponseData;",
         ">;>;"
     }
 .end annotation
@@ -28,18 +28,18 @@
 # instance fields
 .field final synthetic a:Lcom/kik/events/Promise;
 
-.field final synthetic b:Lkik/android/gifs/vm/ab;
+.field final synthetic b:Lkik/arcane/gifs/vm/ab;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/gifs/vm/ab;Lcom/kik/events/Promise;)V
+.method constructor <init>(Lkik/arcane/gifs/vm/ab;Lcom/kik/events/Promise;)V
     .locals 0
 
     .prologue
     .line 183
-    iput-object p1, p0, Lkik/android/gifs/vm/ab$3;->b:Lkik/android/gifs/vm/ab;
+    iput-object p1, p0, Lkik/arcane/gifs/vm/ab$3;->b:Lkik/arcane/gifs/vm/ab;
 
-    iput-object p2, p0, Lkik/android/gifs/vm/ab$3;->a:Lcom/kik/events/Promise;
+    iput-object p2, p0, Lkik/arcane/gifs/vm/ab$3;->a:Lcom/kik/events/Promise;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -53,7 +53,7 @@
 
     .prologue
     .line 187
-    iget-object v0, p0, Lkik/android/gifs/vm/ab$3;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/ab$3;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {v0}, Lcom/kik/events/Promise;->f()V
 

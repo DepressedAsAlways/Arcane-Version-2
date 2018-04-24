@@ -1,11 +1,11 @@
-.class abstract Lkik/android/videochat/j$c;
+.class abstract Lkik/arcane/videochat/j$c;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/videochat/j;
+    value = Lkik/arcane/videochat/j;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -19,24 +19,24 @@
 
 .field protected c:Lkik/core/interfaces/IConversation;
 
-.field protected d:Lkik/android/videochat/c;
+.field protected d:Lkik/arcane/videochat/c;
 
-.field protected e:Lkik/android/videochat/j$b;
+.field protected e:Lkik/arcane/videochat/j$b;
 
 .field protected f:Z
 
 .field protected g:Lkik/core/datatypes/l;
 
-.field final synthetic h:Lkik/android/videochat/j;
+.field final synthetic h:Lkik/arcane/videochat/j;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/videochat/j;Lkik/android/videochat/c;Lkik/core/datatypes/l;Lkik/core/interfaces/IConversation;Lkik/android/videochat/j$b;)V
+.method public constructor <init>(Lkik/arcane/videochat/j;Lkik/arcane/videochat/c;Lkik/core/datatypes/l;Lkik/core/interfaces/IConversation;Lkik/arcane/videochat/j$b;)V
     .locals 1
 
     .prologue
     .line 58
-    iput-object p1, p0, Lkik/android/videochat/j$c;->h:Lkik/android/videochat/j;
+    iput-object p1, p0, Lkik/arcane/videochat/j$c;->h:Lkik/arcane/videochat/j;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,19 +45,19 @@
 
     invoke-direct {v0}, Lcom/kik/events/d;-><init>()V
 
-    iput-object v0, p0, Lkik/android/videochat/j$c;->b:Lcom/kik/events/d;
+    iput-object v0, p0, Lkik/arcane/videochat/j$c;->b:Lcom/kik/events/d;
 
     .line 59
-    iput-object p2, p0, Lkik/android/videochat/j$c;->d:Lkik/android/videochat/c;
+    iput-object p2, p0, Lkik/arcane/videochat/j$c;->d:Lkik/arcane/videochat/c;
 
     .line 60
-    iput-object p4, p0, Lkik/android/videochat/j$c;->c:Lkik/core/interfaces/IConversation;
+    iput-object p4, p0, Lkik/arcane/videochat/j$c;->c:Lkik/core/interfaces/IConversation;
 
     .line 61
-    iput-object p3, p0, Lkik/android/videochat/j$c;->g:Lkik/core/datatypes/l;
+    iput-object p3, p0, Lkik/arcane/videochat/j$c;->g:Lkik/core/datatypes/l;
 
     .line 62
-    iput-object p5, p0, Lkik/android/videochat/j$c;->e:Lkik/android/videochat/j$b;
+    iput-object p5, p0, Lkik/arcane/videochat/j$c;->e:Lkik/arcane/videochat/j$b;
 
     .line 63
     return-void
@@ -73,9 +73,9 @@
 
     .prologue
     .line 69
-    iget-object v0, p0, Lkik/android/videochat/j$c;->d:Lkik/android/videochat/c;
+    iget-object v0, p0, Lkik/arcane/videochat/j$c;->d:Lkik/arcane/videochat/c;
 
-    invoke-interface {v0}, Lkik/android/videochat/c;->f()Lkik/core/interfaces/ad;
+    invoke-interface {v0}, Lkik/arcane/videochat/c;->f()Lkik/core/interfaces/ad;
 
     move-result-object v0
 
@@ -98,14 +98,14 @@
 
     .prologue
     .line 75
-    iget-object v0, p0, Lkik/android/videochat/j$c;->e:Lkik/android/videochat/j$b;
+    iget-object v0, p0, Lkik/arcane/videochat/j$c;->e:Lkik/arcane/videochat/j$b;
 
-    invoke-interface {v0}, Lkik/android/videochat/j$b;->b()V
+    invoke-interface {v0}, Lkik/arcane/videochat/j$b;->b()V
 
     .line 76
-    iget-object v0, p0, Lkik/android/videochat/j$c;->d:Lkik/android/videochat/c;
+    iget-object v0, p0, Lkik/arcane/videochat/j$c;->d:Lkik/arcane/videochat/c;
 
-    invoke-interface {v0}, Lkik/android/videochat/c;->f()Lkik/core/interfaces/ad;
+    invoke-interface {v0}, Lkik/arcane/videochat/c;->f()Lkik/core/interfaces/ad;
 
     move-result-object v0
 
@@ -114,9 +114,9 @@
     invoke-interface {v0, v1}, Lkik/core/interfaces/ad;->y(Ljava/lang/String;)Z
 
     .line 77
-    iget-object v0, p0, Lkik/android/videochat/j$c;->d:Lkik/android/videochat/c;
+    iget-object v0, p0, Lkik/arcane/videochat/j$c;->d:Lkik/arcane/videochat/c;
 
-    invoke-interface {v0}, Lkik/android/videochat/c;->f()Lkik/core/interfaces/ad;
+    invoke-interface {v0}, Lkik/arcane/videochat/c;->f()Lkik/core/interfaces/ad;
 
     move-result-object v0
 
@@ -135,7 +135,7 @@
     .line 78
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/videochat/j$c;->f:Z
+    iput-boolean v0, p0, Lkik/arcane/videochat/j$c;->f:Z
 
     .line 79
     return-void
@@ -146,11 +146,11 @@
 
     .prologue
     .line 83
-    iget-object v0, p0, Lkik/android/videochat/j$c;->d:Lkik/android/videochat/c;
+    iget-object v0, p0, Lkik/arcane/videochat/j$c;->d:Lkik/arcane/videochat/c;
 
-    iget-object v1, p0, Lkik/android/videochat/j$c;->g:Lkik/core/datatypes/l;
+    iget-object v1, p0, Lkik/arcane/videochat/j$c;->g:Lkik/core/datatypes/l;
 
-    invoke-interface {v0, v1}, Lkik/android/videochat/c;->c(Lkik/core/datatypes/l;)Z
+    invoke-interface {v0, v1}, Lkik/arcane/videochat/c;->c(Lkik/core/datatypes/l;)Z
 
     move-result v0
 

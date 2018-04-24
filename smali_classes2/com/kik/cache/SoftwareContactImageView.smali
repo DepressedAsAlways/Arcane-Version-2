@@ -119,7 +119,7 @@
 
 
 # virtual methods
-.method protected final a(Landroid/graphics/Bitmap;Ljava/lang/String;)Lkik/android/widget/bb;
+.method protected final a(Landroid/graphics/Bitmap;Ljava/lang/String;)Lkik/arcane/widget/bb;
     .locals 6
 
     .prologue
@@ -140,7 +140,7 @@
 
     .line 63
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/kik/cache/ContactImageView;->a(Landroid/graphics/Bitmap;Ljava/lang/String;)Lkik/android/widget/bb;
+    invoke-super {p0, p1, p2}, Lcom/kik/cache/ContactImageView;->a(Landroid/graphics/Bitmap;Ljava/lang/String;)Lkik/arcane/widget/bb;
 
     move-result-object v0
 
@@ -221,7 +221,7 @@
     invoke-virtual {v1, v2, v3, v4, v5}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
     .line 71
-    invoke-super {p0, v0, p2}, Lcom/kik/cache/ContactImageView;->a(Landroid/graphics/Bitmap;Ljava/lang/String;)Lkik/android/widget/bb;
+    invoke-super {p0, v0, p2}, Lcom/kik/cache/ContactImageView;->a(Landroid/graphics/Bitmap;Ljava/lang/String;)Lkik/arcane/widget/bb;
     :try_end_0
     .catch Ljava/lang/OutOfMemoryError; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -233,7 +233,7 @@
     :catch_0
     move-exception v0
 
-    invoke-super {p0, p1, p2}, Lcom/kik/cache/ContactImageView;->a(Landroid/graphics/Bitmap;Ljava/lang/String;)Lkik/android/widget/bb;
+    invoke-super {p0, p1, p2}, Lcom/kik/cache/ContactImageView;->a(Landroid/graphics/Bitmap;Ljava/lang/String;)Lkik/arcane/widget/bb;
 
     move-result-object v0
 

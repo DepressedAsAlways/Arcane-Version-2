@@ -1,5 +1,5 @@
-.class public final Lkik/android/chat/vm/chats/search/l;
-.super Lkik/android/chat/vm/chats/search/e;
+.class public final Lkik/arcane/chat/vm/chats/search/l;
+.super Lkik/arcane/chat/vm/chats/search/e;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
     .prologue
     .line 18
-    invoke-direct {p0, p1, p2, p3}, Lkik/android/chat/vm/chats/search/e;-><init>(Ljava/lang/String;Ljava/lang/String;Z)V
+    invoke-direct {p0, p1, p2, p3}, Lkik/arcane/chat/vm/chats/search/e;-><init>(Ljava/lang/String;Ljava/lang/String;Z)V
 
     .line 19
     return-void
@@ -17,12 +17,12 @@
 
 
 # virtual methods
-.method public final ab_()Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;
+.method public final ab_()Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;
     .locals 1
 
     .prologue
     .line 24
-    sget-object v0, Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->PublicGroup:Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;
+    sget-object v0, Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->PublicGroup:Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;
 
     return-object v0
 .end method
@@ -41,10 +41,10 @@
 
     .prologue
     .line 30
-    iget-object v0, p0, Lkik/android/chat/vm/chats/search/l;->g:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/search/l;->g:Ljava/lang/String;
 
     .line 1036
-    iget-object v1, p0, Lkik/android/chat/vm/chats/search/l;->c:Lkik/core/interfaces/l;
+    iget-object v1, p0, Lkik/arcane/chat/vm/chats/search/l;->c:Lkik/core/interfaces/l;
 
     const/4 v2, 0x0
 
@@ -72,7 +72,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v1}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -95,7 +95,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->c(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/br;->c(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

@@ -31,7 +31,7 @@
     iput-object p1, p0, Lcom/kik/cards/web/u;->a:Lcom/kik/storage/s;
 
     .line 1063
-    invoke-static {p2}, Lkik/android/util/DeviceUtils;->f(Landroid/content/Context;)I
+    invoke-static {p2}, Lkik/arcane/util/DeviceUtils;->f(Landroid/content/Context;)I
 
     move-result v0
 

@@ -1,11 +1,11 @@
-.class final Lkik/android/h$a;
-.super Lkik/android/util/aq;
+.class final Lkik/arcane/h$a;
+.super Lkik/arcane/util/aq;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/h;
+    value = Lkik/arcane/h;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,7 +15,7 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkik/android/util/aq",
+        "Lkik/arcane/util/aq",
         "<",
         "Ljava/lang/String;",
         "Ljava/lang/Double;",
@@ -28,7 +28,7 @@
 # instance fields
 .field a:Z
 
-.field final synthetic b:Lkik/android/h;
+.field final synthetic b:Lkik/arcane/h;
 
 .field private c:Ljava/lang/String;
 
@@ -40,31 +40,31 @@
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/h;Ljava/lang/String;Ljava/lang/String;Ljava/io/File;I)V
+.method public constructor <init>(Lkik/arcane/h;Ljava/lang/String;Ljava/lang/String;Ljava/io/File;I)V
     .locals 1
 
     .prologue
     .line 179
-    iput-object p1, p0, Lkik/android/h$a;->b:Lkik/android/h;
+    iput-object p1, p0, Lkik/arcane/h$a;->b:Lkik/arcane/h;
 
-    invoke-direct {p0}, Lkik/android/util/aq;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/util/aq;-><init>()V
 
     .line 176
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/h$a;->a:Z
+    iput-boolean v0, p0, Lkik/arcane/h$a;->a:Z
 
     .line 180
-    iput-object p2, p0, Lkik/android/h$a;->c:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/h$a;->c:Ljava/lang/String;
 
     .line 181
-    iput-object p3, p0, Lkik/android/h$a;->e:Ljava/lang/String;
+    iput-object p3, p0, Lkik/arcane/h$a;->e:Ljava/lang/String;
 
     .line 182
-    iput-object p4, p0, Lkik/android/h$a;->d:Ljava/io/File;
+    iput-object p4, p0, Lkik/arcane/h$a;->d:Ljava/io/File;
 
     .line 183
-    iput p5, p0, Lkik/android/h$a;->f:I
+    iput p5, p0, Lkik/arcane/h$a;->f:I
 
     .line 184
     return-void
@@ -80,11 +80,11 @@
     invoke-direct {v14}, Ljava/util/Timer;-><init>()V
 
     .line 209
-    new-instance v2, Lkik/android/h$a$1;
+    new-instance v2, Lkik/arcane/h$a$1;
 
     move-object/from16 v0, p0
 
-    invoke-direct {v2, v0}, Lkik/android/h$a$1;-><init>(Lkik/android/h$a;)V
+    invoke-direct {v2, v0}, Lkik/arcane/h$a$1;-><init>(Lkik/arcane/h$a;)V
 
     .line 217
     const-wide/32 v4, 0xea60
@@ -106,7 +106,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v2, v0, Lkik/android/h$a;->c:Ljava/lang/String;
+    iget-object v2, v0, Lkik/arcane/h$a;->c:Ljava/lang/String;
 
     invoke-direct {v6, v2}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
@@ -125,7 +125,7 @@
     :try_start_1
     move-object/from16 v0, p0
 
-    iget-object v15, v0, Lkik/android/h$a;->d:Ljava/io/File;
+    iget-object v15, v0, Lkik/arcane/h$a;->d:Ljava/io/File;
 
     .line 232
     invoke-virtual {v15}, Ljava/io/File;->length()J
@@ -246,7 +246,7 @@
     :goto_2
     move-object/from16 v0, p0
 
-    iget v2, v0, Lkik/android/h$a;->f:I
+    iget v2, v0, Lkik/arcane/h$a;->f:I
 
     int-to-long v2, v2
 
@@ -255,9 +255,9 @@
     if-ltz v2, :cond_5
 
     .line 256
-    new-instance v2, Lkik/android/FileSizeTooLargeException;
+    new-instance v2, Lkik/arcane/FileSizeTooLargeException;
 
-    invoke-direct {v2}, Lkik/android/FileSizeTooLargeException;-><init>()V
+    invoke-direct {v2}, Lkik/arcane/FileSizeTooLargeException;-><init>()V
 
     throw v2
     :try_end_2
@@ -279,11 +279,11 @@
     :try_start_3
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/h$a;->b:Lkik/android/h;
+    iget-object v5, v0, Lkik/arcane/h$a;->b:Lkik/arcane/h;
 
     move-object/from16 v0, p0
 
-    invoke-static {v5, v0}, Lkik/android/h;->a(Lkik/android/h;Lkik/android/h$a;)V
+    invoke-static {v5, v0}, Lkik/arcane/h;->a(Lkik/arcane/h;Lkik/arcane/h$a;)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_5
 
@@ -349,7 +349,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v2}, Lkik/android/h$a;->publishProgress([Ljava/lang/Object;)V
+    invoke-virtual {v0, v2}, Lkik/arcane/h$a;->publishProgress([Ljava/lang/Object;)V
 
     .line 261
     const v2, 0xea60
@@ -429,7 +429,7 @@
     .line 276
     move-object/from16 v0, p0
 
-    iget v8, v0, Lkik/android/h$a;->f:I
+    iget v8, v0, Lkik/arcane/h$a;->f:I
 
     int-to-long v8, v8
 
@@ -438,9 +438,9 @@
     if-ltz v8, :cond_8
 
     .line 277
-    new-instance v4, Lkik/android/FileSizeTooLargeException;
+    new-instance v4, Lkik/arcane/FileSizeTooLargeException;
 
-    invoke-direct {v4}, Lkik/android/FileSizeTooLargeException;-><init>()V
+    invoke-direct {v4}, Lkik/arcane/FileSizeTooLargeException;-><init>()V
 
     throw v4
 
@@ -480,10 +480,10 @@
 
     move-object/from16 v0, p0
 
-    invoke-virtual {v0, v8}, Lkik/android/h$a;->publishProgress([Ljava/lang/Object;)V
+    invoke-virtual {v0, v8}, Lkik/arcane/h$a;->publishProgress([Ljava/lang/Object;)V
 
     .line 281
-    invoke-virtual/range {p0 .. p0}, Lkik/android/h$a;->isCancelled()Z
+    invoke-virtual/range {p0 .. p0}, Lkik/arcane/h$a;->isCancelled()Z
     :try_end_6
     .catch Ljava/net/SocketTimeoutException; {:try_start_6 .. :try_end_6} :catch_1
     .catch Ljava/lang/Exception; {:try_start_6 .. :try_end_6} :catch_6
@@ -536,22 +536,22 @@
     .line 294
     move-object/from16 v0, p0
 
-    iget-object v7, v0, Lkik/android/h$a;->e:Ljava/lang/String;
+    iget-object v7, v0, Lkik/arcane/h$a;->e:Ljava/lang/String;
 
     if-eqz v7, :cond_b
 
     .line 295
     move-object/from16 v0, p0
 
-    iget-object v7, v0, Lkik/android/h$a;->b:Lkik/android/h;
+    iget-object v7, v0, Lkik/arcane/h$a;->b:Lkik/arcane/h;
 
-    invoke-static {v7}, Lkik/android/h;->b(Lkik/android/h;)Lcom/kik/android/Mixpanel;
+    invoke-static {v7}, Lkik/arcane/h;->b(Lkik/arcane/h;)Lcom/kik/arcane/Mixpanel;
 
     move-result-object v7
 
     const-string v8, "Content Downloaded"
 
-    invoke-virtual {v7, v8}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v7, v8}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v7
 
@@ -560,7 +560,7 @@
     const/4 v9, 0x0
 
     .line 296
-    invoke-virtual {v7, v8, v9}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v7, v8, v9}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v7
 
@@ -571,7 +571,7 @@
     div-double/2addr v4, v10
 
     .line 297
-    invoke-virtual {v7, v8, v4, v5}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;D)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v7, v8, v4, v5}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;D)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v4
 
@@ -582,7 +582,7 @@
 
     move-result-wide v8
 
-    invoke-virtual {v4, v5, v8, v9}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v4, v5, v8, v9}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v4
 
@@ -590,15 +590,15 @@
 
     move-object/from16 v0, p0
 
-    iget-object v7, v0, Lkik/android/h$a;->e:Ljava/lang/String;
+    iget-object v7, v0, Lkik/arcane/h$a;->e:Ljava/lang/String;
 
     .line 299
-    invoke-virtual {v4, v5, v7}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v4, v5, v7}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v4
 
     .line 300
-    invoke-virtual {v4}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v4}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 303
     :cond_b
@@ -606,7 +606,7 @@
 
     move-object/from16 v0, p0
 
-    iput-boolean v4, v0, Lkik/android/h$a;->a:Z
+    iput-boolean v4, v0, Lkik/arcane/h$a;->a:Z
     :try_end_7
     .catch Ljava/net/SocketTimeoutException; {:try_start_7 .. :try_end_7} :catch_1
     .catch Ljava/lang/Exception; {:try_start_7 .. :try_end_7} :catch_6
@@ -643,13 +643,13 @@
     :try_start_8
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/h$a;->b:Lkik/android/h;
+    iget-object v5, v0, Lkik/arcane/h$a;->b:Lkik/arcane/h;
 
     move-object/from16 v0, p0
 
-    iget-object v7, v0, Lkik/android/h$a;->c:Ljava/lang/String;
+    iget-object v7, v0, Lkik/arcane/h$a;->c:Ljava/lang/String;
 
-    invoke-static {v5, v7, v2}, Lkik/android/h;->a(Lkik/android/h;Ljava/lang/String;Ljava/lang/Exception;)V
+    invoke-static {v5, v7, v2}, Lkik/arcane/h;->a(Lkik/arcane/h;Ljava/lang/String;Ljava/lang/Exception;)V
     :try_end_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_3
 
@@ -824,42 +824,42 @@
     goto/16 :goto_0
 .end method
 
-.method static synthetic a(Lkik/android/h$a;)Ljava/lang/String;
+.method static synthetic a(Lkik/arcane/h$a;)Ljava/lang/String;
     .locals 1
 
     .prologue
     .line 169
-    iget-object v0, p0, Lkik/android/h$a;->c:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/h$a;->c:Ljava/lang/String;
 
     return-object v0
 .end method
 
-.method static synthetic b(Lkik/android/h$a;)Ljava/lang/String;
+.method static synthetic b(Lkik/arcane/h$a;)Ljava/lang/String;
     .locals 1
 
     .prologue
     .line 169
-    iget-object v0, p0, Lkik/android/h$a;->e:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/h$a;->e:Ljava/lang/String;
 
     return-object v0
 .end method
 
-.method static synthetic c(Lkik/android/h$a;)Ljava/io/File;
+.method static synthetic c(Lkik/arcane/h$a;)Ljava/io/File;
     .locals 1
 
     .prologue
     .line 169
-    iget-object v0, p0, Lkik/android/h$a;->d:Ljava/io/File;
+    iget-object v0, p0, Lkik/arcane/h$a;->d:Ljava/io/File;
 
     return-object v0
 .end method
 
-.method static synthetic d(Lkik/android/h$a;)I
+.method static synthetic d(Lkik/arcane/h$a;)I
     .locals 1
 
     .prologue
     .line 169
-    iget v0, p0, Lkik/android/h$a;->f:I
+    iget v0, p0, Lkik/arcane/h$a;->f:I
 
     return v0
 .end method
@@ -871,7 +871,7 @@
 
     .prologue
     .line 169
-    invoke-direct {p0}, Lkik/android/h$a;->a()Ljava/lang/String;
+    invoke-direct {p0}, Lkik/arcane/h$a;->a()Ljava/lang/String;
 
     move-result-object v0
 
@@ -884,18 +884,18 @@
     .prologue
     .line 169
     .line 2189
-    iget-boolean v0, p0, Lkik/android/h$a;->a:Z
+    iget-boolean v0, p0, Lkik/arcane/h$a;->a:Z
 
     if-eqz v0, :cond_0
 
     .line 2190
-    iget-object v0, p0, Lkik/android/h$a;->b:Lkik/android/h;
+    iget-object v0, p0, Lkik/arcane/h$a;->b:Lkik/arcane/h;
 
-    iget-object v1, p0, Lkik/android/h$a;->c:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/h$a;->c:Ljava/lang/String;
 
-    iget-object v2, p0, Lkik/android/h$a;->d:Ljava/io/File;
+    iget-object v2, p0, Lkik/arcane/h$a;->d:Ljava/io/File;
 
-    invoke-static {v0, v1, v2}, Lkik/android/h;->a(Lkik/android/h;Ljava/lang/String;Ljava/io/File;)V
+    invoke-static {v0, v1, v2}, Lkik/arcane/h;->a(Lkik/arcane/h;Ljava/lang/String;Ljava/io/File;)V
 
     .line 169
     :cond_0
@@ -910,13 +910,13 @@
     check-cast p1, [Ljava/lang/Double;
 
     .line 1197
-    iget-object v0, p0, Lkik/android/h$a;->b:Lkik/android/h;
+    iget-object v0, p0, Lkik/arcane/h$a;->b:Lkik/arcane/h;
 
-    invoke-static {v0}, Lkik/android/h;->a(Lkik/android/h;)Ljava/util/Map;
+    invoke-static {v0}, Lkik/arcane/h;->a(Lkik/arcane/h;)Ljava/util/Map;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/h$a;->c:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/h$a;->c:Ljava/lang/String;
 
     invoke-interface {v0, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
@@ -924,13 +924,13 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/h$a;->b:Lkik/android/h;
+    iget-object v0, p0, Lkik/arcane/h$a;->b:Lkik/arcane/h;
 
-    invoke-static {v0}, Lkik/android/h;->a(Lkik/android/h;)Ljava/util/Map;
+    invoke-static {v0}, Lkik/arcane/h;->a(Lkik/arcane/h;)Ljava/util/Map;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/h$a;->c:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/h$a;->c:Ljava/lang/String;
 
     invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -939,13 +939,13 @@
     if-eqz v0, :cond_0
 
     .line 1198
-    iget-object v0, p0, Lkik/android/h$a;->b:Lkik/android/h;
+    iget-object v0, p0, Lkik/arcane/h$a;->b:Lkik/arcane/h;
 
-    invoke-static {v0}, Lkik/android/h;->a(Lkik/android/h;)Ljava/util/Map;
+    invoke-static {v0}, Lkik/arcane/h;->a(Lkik/arcane/h;)Ljava/util/Map;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/h$a;->c:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/h$a;->c:Ljava/lang/String;
 
     invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 

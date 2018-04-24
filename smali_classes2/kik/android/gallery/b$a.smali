@@ -1,11 +1,11 @@
-.class public interface abstract Lkik/android/gallery/b$a;
+.class public interface abstract Lkik/arcane/gallery/b$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/gallery/b;
+    value = Lkik/arcane/gallery/b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

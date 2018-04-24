@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/activity/BackgroundPhotoCropFragment$a;
+.class public final Lkik/arcane/chat/activity/BackgroundPhotoCropFragment$a;
 .super Lcom/kik/ui/fragment/FragmentBase$FragmentBundle;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/activity/BackgroundPhotoCropFragment;
+    value = Lkik/arcane/chat/activity/BackgroundPhotoCropFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,7 +27,7 @@
 
 
 # virtual methods
-.method public final a(Landroid/net/Uri;)Lkik/android/chat/activity/BackgroundPhotoCropFragment$a;
+.method public final a(Landroid/net/Uri;)Lkik/arcane/chat/activity/BackgroundPhotoCropFragment$a;
     .locals 2
 
     .prologue
@@ -46,19 +46,19 @@
 
     move-result-object v1
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/chat/activity/BackgroundPhotoCropFragment$a;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/chat/activity/BackgroundPhotoCropFragment$a;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 .end method
 
-.method public final a(Z)Lkik/android/chat/activity/BackgroundPhotoCropFragment$a;
+.method public final a(Z)Lkik/arcane/chat/activity/BackgroundPhotoCropFragment$a;
     .locals 1
 
     .prologue
     .line 257
     const-string v0, "BackgroundPhotoCropFragment.EXTRA_IS_FROM_GALLERY"
 
-    invoke-virtual {p0, v0, p1}, Lkik/android/chat/activity/BackgroundPhotoCropFragment$a;->b(Ljava/lang/String;Z)V
+    invoke-virtual {p0, v0, p1}, Lkik/arcane/chat/activity/BackgroundPhotoCropFragment$a;->b(Ljava/lang/String;Z)V
 
     .line 258
     return-object p0
@@ -73,7 +73,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/chat/activity/BackgroundPhotoCropFragment$a;->c(Ljava/lang/String;Z)Ljava/lang/Boolean;
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/chat/activity/BackgroundPhotoCropFragment$a;->c(Ljava/lang/String;Z)Ljava/lang/Boolean;
 
     move-result-object v0
 
@@ -91,7 +91,7 @@
     .line 251
     const-string v0, "BackgroundPhotoCropFragment.EXTRA_TAG_KEY"
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/activity/BackgroundPhotoCropFragment$a;->h(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/activity/BackgroundPhotoCropFragment$a;->h(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

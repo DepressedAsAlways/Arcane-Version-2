@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/widget/ChatSearchRecyclerView$1;
+.class final synthetic Lkik/arcane/widget/ChatSearchRecyclerView$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/ChatSearchRecyclerView;
+    value = Lkik/arcane/widget/ChatSearchRecyclerView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     .prologue
     .line 41
-    invoke-static {}, Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->values()[Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;
+    invoke-static {}, Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->values()[Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;
 
     move-result-object v0
 
@@ -32,14 +32,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/widget/ChatSearchRecyclerView$1;->a:[I
+    sput-object v0, Lkik/arcane/widget/ChatSearchRecyclerView$1;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/widget/ChatSearchRecyclerView$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/ChatSearchRecyclerView$1;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->PrivateGroup:Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;
+    sget-object v1, Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->PrivateGroup:Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->ordinal()I
 
     move-result v1
 
@@ -51,11 +51,11 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/widget/ChatSearchRecyclerView$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/ChatSearchRecyclerView$1;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->PublicGroup:Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;
+    sget-object v1, Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->PublicGroup:Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->ordinal()I
 
     move-result v1
 
@@ -67,11 +67,11 @@
 
     :goto_1
     :try_start_2
-    sget-object v0, Lkik/android/widget/ChatSearchRecyclerView$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/ChatSearchRecyclerView$1;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->UsernameSearch:Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;
+    sget-object v1, Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->UsernameSearch:Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->ordinal()I
 
     move-result v1
 
@@ -83,11 +83,11 @@
 
     :goto_2
     :try_start_3
-    sget-object v0, Lkik/android/widget/ChatSearchRecyclerView$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/ChatSearchRecyclerView$1;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->RosterMatch:Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;
+    sget-object v1, Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->RosterMatch:Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->ordinal()I
 
     move-result v1
 
@@ -99,11 +99,11 @@
 
     :goto_3
     :try_start_4
-    sget-object v0, Lkik/android/widget/ChatSearchRecyclerView$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/ChatSearchRecyclerView$1;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->OneToOneChat:Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;
+    sget-object v1, Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->OneToOneChat:Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel$LayoutType;->ordinal()I
 
     move-result v1
 

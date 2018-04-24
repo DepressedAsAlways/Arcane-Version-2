@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/fragment/CameraFragment_MembersInjector;
+.class public final Lkik/arcane/chat/fragment/CameraFragment_MembersInjector;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/b",
         "<",
-        "Lkik/android/chat/fragment/CameraFragment;",
+        "Lkik/arcane/chat/fragment/CameraFragment;",
         ">;"
     }
 .end annotation
@@ -50,7 +50,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -72,7 +72,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/presentation/n;",
+            "Lkik/arcane/chat/presentation/n;",
             ">;"
         }
     .end annotation
@@ -85,7 +85,7 @@
 
     .prologue
     .line 12
-    const-class v0, Lkik/android/chat/fragment/CameraFragment_MembersInjector;
+    const-class v0, Lkik/arcane/chat/fragment/CameraFragment_MembersInjector;
 
     invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
 
@@ -96,7 +96,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    sput-boolean v0, Lkik/android/chat/fragment/CameraFragment_MembersInjector;->a:Z
+    sput-boolean v0, Lkik/arcane/chat/fragment/CameraFragment_MembersInjector;->a:Z
 
     return-void
 
@@ -121,7 +121,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -129,7 +129,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/presentation/n;",
+            "Lkik/arcane/chat/presentation/n;",
             ">;)V"
         }
     .end annotation
@@ -139,7 +139,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 33
-    sget-boolean v0, Lkik/android/chat/fragment/CameraFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/CameraFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_0
 
@@ -153,10 +153,10 @@
 
     .line 34
     :cond_0
-    iput-object p1, p0, Lkik/android/chat/fragment/CameraFragment_MembersInjector;->b:Ljavax/inject/Provider;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/CameraFragment_MembersInjector;->b:Ljavax/inject/Provider;
 
     .line 35
-    sget-boolean v0, Lkik/android/chat/fragment/CameraFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/CameraFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_1
 
@@ -170,10 +170,10 @@
 
     .line 36
     :cond_1
-    iput-object p2, p0, Lkik/android/chat/fragment/CameraFragment_MembersInjector;->c:Ljavax/inject/Provider;
+    iput-object p2, p0, Lkik/arcane/chat/fragment/CameraFragment_MembersInjector;->c:Ljavax/inject/Provider;
 
     .line 37
-    sget-boolean v0, Lkik/android/chat/fragment/CameraFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/CameraFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_2
 
@@ -187,10 +187,10 @@
 
     .line 38
     :cond_2
-    iput-object p3, p0, Lkik/android/chat/fragment/CameraFragment_MembersInjector;->d:Ljavax/inject/Provider;
+    iput-object p3, p0, Lkik/arcane/chat/fragment/CameraFragment_MembersInjector;->d:Ljavax/inject/Provider;
 
     .line 39
-    sget-boolean v0, Lkik/android/chat/fragment/CameraFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/CameraFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_3
 
@@ -204,10 +204,10 @@
 
     .line 40
     :cond_3
-    iput-object p4, p0, Lkik/android/chat/fragment/CameraFragment_MembersInjector;->e:Ljavax/inject/Provider;
+    iput-object p4, p0, Lkik/arcane/chat/fragment/CameraFragment_MembersInjector;->e:Ljavax/inject/Provider;
 
     .line 41
-    sget-boolean v0, Lkik/android/chat/fragment/CameraFragment_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/fragment/CameraFragment_MembersInjector;->a:Z
 
     if-nez v0, :cond_4
 
@@ -221,7 +221,7 @@
 
     .line 42
     :cond_4
-    iput-object p5, p0, Lkik/android/chat/fragment/CameraFragment_MembersInjector;->f:Ljavax/inject/Provider;
+    iput-object p5, p0, Lkik/arcane/chat/fragment/CameraFragment_MembersInjector;->f:Ljavax/inject/Provider;
 
     .line 43
     return-void
@@ -242,7 +242,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -250,18 +250,18 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/presentation/n;",
+            "Lkik/arcane/chat/presentation/n;",
             ">;)",
             "Ldagger/b",
             "<",
-            "Lkik/android/chat/fragment/CameraFragment;",
+            "Lkik/arcane/chat/fragment/CameraFragment;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 51
-    new-instance v0, Lkik/android/chat/fragment/CameraFragment_MembersInjector;
+    new-instance v0, Lkik/arcane/chat/fragment/CameraFragment_MembersInjector;
 
     move-object v1, p0
 
@@ -273,7 +273,7 @@
 
     move-object v5, p4
 
-    invoke-direct/range {v0 .. v5}, Lkik/android/chat/fragment/CameraFragment_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
+    invoke-direct/range {v0 .. v5}, Lkik/arcane/chat/fragment/CameraFragment_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
 
     return-object v0
 .end method
@@ -285,7 +285,7 @@
 
     .prologue
     .line 12
-    check-cast p1, Lkik/android/chat/fragment/CameraFragment;
+    check-cast p1, Lkik/arcane/chat/fragment/CameraFragment;
 
     .line 1061
     if-nez p1, :cond_0
@@ -301,7 +301,7 @@
 
     .line 1064
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/CameraFragment_MembersInjector;->b:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/CameraFragment_MembersInjector;->b:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -309,10 +309,10 @@
 
     check-cast v0, Lkik/core/interfaces/ad;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikScopedDialogFragment;->_storage:Lkik/core/interfaces/ad;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->_storage:Lkik/core/interfaces/ad;
 
     .line 1065
-    iget-object v0, p0, Lkik/android/chat/fragment/CameraFragment_MembersInjector;->c:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/CameraFragment_MembersInjector;->c:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -320,10 +320,10 @@
 
     check-cast v0, Lcom/kik/metrics/c/d;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikScopedDialogFragment;->_metricsService:Lcom/kik/metrics/c/d;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->_metricsService:Lcom/kik/metrics/c/d;
 
     .line 1066
-    iget-object v0, p0, Lkik/android/chat/fragment/CameraFragment_MembersInjector;->b:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/CameraFragment_MembersInjector;->b:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -331,21 +331,21 @@
 
     check-cast v0, Lkik/core/interfaces/ad;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/CameraFragment;->b:Lkik/core/interfaces/ad;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/CameraFragment;->b:Lkik/core/interfaces/ad;
 
     .line 1067
-    iget-object v0, p0, Lkik/android/chat/fragment/CameraFragment_MembersInjector;->d:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/CameraFragment_MembersInjector;->d:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/Mixpanel;
+    check-cast v0, Lcom/kik/arcane/Mixpanel;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/CameraFragment;->c:Lcom/kik/android/Mixpanel;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/CameraFragment;->c:Lcom/kik/arcane/Mixpanel;
 
     .line 1068
-    iget-object v0, p0, Lkik/android/chat/fragment/CameraFragment_MembersInjector;->e:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/CameraFragment_MembersInjector;->e:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -353,18 +353,18 @@
 
     check-cast v0, Lcom/kik/storage/s;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/CameraFragment;->d:Lcom/kik/storage/s;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/CameraFragment;->d:Lcom/kik/storage/s;
 
     .line 1069
-    iget-object v0, p0, Lkik/android/chat/fragment/CameraFragment_MembersInjector;->f:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/CameraFragment_MembersInjector;->f:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/presentation/n;
+    check-cast v0, Lkik/arcane/chat/presentation/n;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/CameraFragment;->e:Lkik/android/chat/presentation/n;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/CameraFragment;->e:Lkik/arcane/chat/presentation/n;
 
     .line 12
     return-void

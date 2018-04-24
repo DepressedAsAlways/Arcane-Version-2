@@ -116,7 +116,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lkik/android/internal/platform/PlatformUtils;->a(Ljava/io/File;)J
+    invoke-static {v1}, Lkik/arcane/internal/platform/PlatformUtils;->a(Ljava/io/File;)J
 
     move-result-wide v2
 

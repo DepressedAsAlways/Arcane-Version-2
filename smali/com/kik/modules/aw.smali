@@ -6,11 +6,11 @@
 # instance fields
 .field private final a:Lcom/kik/storage/s;
 
-.field private final b:Lkik/android/b/c;
+.field private final b:Lkik/arcane/b/c;
 
 
 # direct methods
-.method public constructor <init>(Lcom/kik/storage/s;Lkik/android/b/c;)V
+.method public constructor <init>(Lcom/kik/storage/s;Lkik/arcane/b/c;)V
     .locals 0
 
     .prologue
@@ -21,7 +21,7 @@
     iput-object p1, p0, Lcom/kik/modules/aw;->a:Lcom/kik/storage/s;
 
     .line 54
-    iput-object p2, p0, Lcom/kik/modules/aw;->b:Lkik/android/b/c;
+    iput-object p2, p0, Lcom/kik/modules/aw;->b:Lkik/arcane/b/c;
 
     .line 55
     return-void
@@ -60,7 +60,7 @@
     return-object v1
 .end method
 
-.method static a(Lcom/kik/cache/KikVolleyImageLoader;Landroid/content/res/Resources;Lkik/core/interfaces/v;Lcom/kik/android/Mixpanel;)Lkik/core/interfaces/g;
+.method static a(Lcom/kik/cache/KikVolleyImageLoader;Landroid/content/res/Resources;Lkik/core/interfaces/v;Lcom/kik/arcane/Mixpanel;)Lkik/core/interfaces/g;
     .locals 6
     .param p0    # Lcom/kik/cache/KikVolleyImageLoader;
         .annotation runtime Ljavax/inject/Named;
@@ -73,7 +73,7 @@
             "Lcom/kik/cache/KikVolleyImageLoader;",
             "Landroid/content/res/Resources;",
             "Lkik/core/interfaces/v;",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ")",
             "Lkik/core/interfaces/g",
             "<",
@@ -94,7 +94,7 @@
     move-result-object v4
 
     .line 83
-    invoke-static {p0, p1, p2, p3}, Lcom/kik/modules/az;->a(Lcom/kik/cache/KikVolleyImageLoader;Landroid/content/res/Resources;Lkik/core/interfaces/v;Lcom/kik/android/Mixpanel;)Lrx/d$c;
+    invoke-static {p0, p1, p2, p3}, Lcom/kik/modules/az;->a(Lcom/kik/cache/KikVolleyImageLoader;Landroid/content/res/Resources;Lkik/core/interfaces/v;Lcom/kik/arcane/Mixpanel;)Lrx/d$c;
 
     move-result-object v2
 
@@ -153,7 +153,7 @@
     return-object v2
 .end method
 
-.method static synthetic a(Lcom/kik/cache/KikVolleyImageLoader;Landroid/content/res/Resources;Lkik/core/interfaces/v;Lcom/kik/android/Mixpanel;Lrx/d;)Lrx/d;
+.method static synthetic a(Lcom/kik/cache/KikVolleyImageLoader;Landroid/content/res/Resources;Lkik/core/interfaces/v;Lcom/kik/arcane/Mixpanel;Lrx/d;)Lrx/d;
     .locals 6
     .param p0    # Lcom/kik/cache/KikVolleyImageLoader;
         .annotation runtime Ljavax/inject/Named;
@@ -175,7 +175,7 @@
 
     move-object v5, p3
 
-    invoke-direct/range {v0 .. v5}, Lcom/kik/cache/s;-><init>(Lrx/d;Lcom/kik/cache/KikVolleyImageLoader;Landroid/content/res/Resources;Lkik/core/interfaces/v;Lcom/kik/android/Mixpanel;)V
+    invoke-direct/range {v0 .. v5}, Lcom/kik/cache/s;-><init>(Lrx/d;Lcom/kik/cache/KikVolleyImageLoader;Landroid/content/res/Resources;Lkik/core/interfaces/v;Lcom/kik/arcane/Mixpanel;)V
 
     invoke-static {v0}, Lrx/d;->b(Ljava/lang/Object;)Lrx/d;
 

@@ -1,27 +1,27 @@
-.class public abstract Lkik/android/widget/ViewModelItemCreator;
+.class public abstract Lkik/arcane/widget/ViewModelItemCreator;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/IDontObfuscateMeBro;
-.implements Lkik/android/widget/dn$a;
+.implements Lkik/arcane/IDontObfuscateMeBro;
+.implements Lkik/arcane/widget/dn$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/ViewModelItemCreator$a;
+        Lkik/arcane/widget/ViewModelItemCreator$a;
     }
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkik/android/IDontObfuscateMeBro;",
-        "Lkik/android/widget/dn$a",
+        "Lkik/arcane/IDontObfuscateMeBro;",
+        "Lkik/arcane/widget/dn$a",
         "<",
-        "Lkik/android/chat/vm/ay;",
-        "Lkik/android/widget/ViewModelItemCreator$a;",
+        "Lkik/arcane/chat/vm/ay;",
+        "Lkik/arcane/widget/ViewModelItemCreator$a;",
         ">;"
     }
 .end annotation
@@ -55,7 +55,7 @@
 
     invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/ViewModelItemCreator;->a:Ljava/util/Map;
+    iput-object v0, p0, Lkik/arcane/widget/ViewModelItemCreator;->a:Ljava/util/Map;
 
     return-void
 .end method
@@ -67,10 +67,10 @@
 
     .prologue
     .line 18
-    check-cast p1, Lkik/android/chat/vm/ay;
+    check-cast p1, Lkik/arcane/chat/vm/ay;
 
     .line 2026
-    iget-object v0, p0, Lkik/android/widget/ViewModelItemCreator;->a:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/widget/ViewModelItemCreator;->a:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
@@ -145,9 +145,9 @@
     move-result-object v0
 
     .line 1041
-    new-instance v1, Lkik/android/widget/ViewModelItemCreator$a;
+    new-instance v1, Lkik/arcane/widget/ViewModelItemCreator$a;
 
-    invoke-direct {v1, v0}, Lkik/android/widget/ViewModelItemCreator$a;-><init>(Landroid/view/View;)V
+    invoke-direct {v1, v0}, Lkik/arcane/widget/ViewModelItemCreator$a;-><init>(Landroid/view/View;)V
 
     .line 18
     return-object v1
@@ -165,7 +165,7 @@
 
     .prologue
     .line 54
-    iget-object v0, p0, Lkik/android/widget/ViewModelItemCreator;->a:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/widget/ViewModelItemCreator;->a:Ljava/util/Map;
 
     invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

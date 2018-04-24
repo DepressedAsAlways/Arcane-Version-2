@@ -1,4 +1,4 @@
-.class final Lkik/android/widget/ThumbNailListView$1;
+.class final Lkik/arcane/widget/ThumbNailListView$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/ThumbNailListView;
+    value = Lkik/arcane/widget/ThumbNailListView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Ljava/lang/Object;
 
-.field final synthetic b:Lkik/android/widget/ThumbNailListView;
+.field final synthetic b:Lkik/arcane/widget/ThumbNailListView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/ThumbNailListView;Ljava/lang/Object;)V
+.method constructor <init>(Lkik/arcane/widget/ThumbNailListView;Ljava/lang/Object;)V
     .locals 0
 
     .prologue
     .line 95
-    iput-object p1, p0, Lkik/android/widget/ThumbNailListView$1;->b:Lkik/android/widget/ThumbNailListView;
+    iput-object p1, p0, Lkik/arcane/widget/ThumbNailListView$1;->b:Lkik/arcane/widget/ThumbNailListView;
 
-    iput-object p2, p0, Lkik/android/widget/ThumbNailListView$1;->a:Ljava/lang/Object;
+    iput-object p2, p0, Lkik/arcane/widget/ThumbNailListView$1;->a:Ljava/lang/Object;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,13 +45,13 @@
 
     .prologue
     .line 99
-    iget-object v0, p0, Lkik/android/widget/ThumbNailListView$1;->b:Lkik/android/widget/ThumbNailListView;
+    iget-object v0, p0, Lkik/arcane/widget/ThumbNailListView$1;->b:Lkik/arcane/widget/ThumbNailListView;
 
-    invoke-static {v0}, Lkik/android/widget/ThumbNailListView;->a(Lkik/android/widget/ThumbNailListView;)Lcom/kik/events/g;
+    invoke-static {v0}, Lkik/arcane/widget/ThumbNailListView;->a(Lkik/arcane/widget/ThumbNailListView;)Lcom/kik/events/g;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/widget/ThumbNailListView$1;->a:Ljava/lang/Object;
+    iget-object v1, p0, Lkik/arcane/widget/ThumbNailListView$1;->a:Ljava/lang/Object;
 
     invoke-virtual {v0, v1}, Lcom/kik/events/g;->a(Ljava/lang/Object;)V
 

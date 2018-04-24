@@ -1,11 +1,11 @@
-.class final Lkik/android/scan/d$1;
-.super Lkik/android/c/b$a;
+.class final Lkik/arcane/scan/d$1;
+.super Lkik/arcane/c/b$a;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/scan/d;
+    value = Lkik/arcane/scan/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,18 +15,18 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/scan/d;
+.field final synthetic a:Lkik/arcane/scan/d;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/scan/d;)V
+.method constructor <init>(Lkik/arcane/scan/d;)V
     .locals 0
 
     .prologue
     .line 60
-    iput-object p1, p0, Lkik/android/scan/d$1;->a:Lkik/android/scan/d;
+    iput-object p1, p0, Lkik/arcane/scan/d$1;->a:Lkik/arcane/scan/d;
 
-    invoke-direct {p0}, Lkik/android/c/b$a;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/c/b$a;-><init>()V
 
     return-void
 .end method
@@ -38,9 +38,9 @@
 
     .prologue
     .line 64
-    iget-object v0, p0, Lkik/android/scan/d$1;->a:Lkik/android/scan/d;
+    iget-object v0, p0, Lkik/arcane/scan/d$1;->a:Lkik/arcane/scan/d;
 
-    invoke-static {v0, p1}, Lkik/android/scan/d;->a(Lkik/android/scan/d;Landroid/hardware/Camera;)V
+    invoke-static {v0, p1}, Lkik/arcane/scan/d;->a(Lkik/arcane/scan/d;Landroid/hardware/Camera;)V
 
     .line 65
     return-void

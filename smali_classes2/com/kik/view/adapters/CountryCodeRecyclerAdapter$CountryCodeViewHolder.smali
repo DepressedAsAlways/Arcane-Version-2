@@ -27,7 +27,7 @@
     .end annotation
 .end field
 
-.field private a:Lkik/android/challenge/CountryCode;
+.field private a:Lkik/arcane/challenge/CountryCode;
 
 .field private final b:Lcom/kik/view/adapters/CountryCodeRecyclerAdapter$a;
 
@@ -52,24 +52,24 @@
 
 
 # virtual methods
-.method final a(Lkik/android/challenge/CountryCode;)V
+.method final a(Lkik/arcane/challenge/CountryCode;)V
     .locals 2
 
     .prologue
     .line 57
-    iput-object p1, p0, Lcom/kik/view/adapters/CountryCodeRecyclerAdapter$CountryCodeViewHolder;->a:Lkik/android/challenge/CountryCode;
+    iput-object p1, p0, Lcom/kik/view/adapters/CountryCodeRecyclerAdapter$CountryCodeViewHolder;->a:Lkik/arcane/challenge/CountryCode;
 
     .line 58
     iget-object v0, p0, Lcom/kik/view/adapters/CountryCodeRecyclerAdapter$CountryCodeViewHolder;->_countryCode:Landroid/widget/TextView;
 
-    iget-object v1, p1, Lkik/android/challenge/CountryCode;->d:Ljava/lang/String;
+    iget-object v1, p1, Lkik/arcane/challenge/CountryCode;->d:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 59
     iget-object v0, p0, Lcom/kik/view/adapters/CountryCodeRecyclerAdapter$CountryCodeViewHolder;->_countryDescription:Landroid/widget/TextView;
 
-    iget-object v1, p1, Lkik/android/challenge/CountryCode;->e:Ljava/lang/String;
+    iget-object v1, p1, Lkik/arcane/challenge/CountryCode;->e:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
@@ -89,9 +89,9 @@
     .line 65
     iget-object v0, p0, Lcom/kik/view/adapters/CountryCodeRecyclerAdapter$CountryCodeViewHolder;->b:Lcom/kik/view/adapters/CountryCodeRecyclerAdapter$a;
 
-    iget-object v1, p0, Lcom/kik/view/adapters/CountryCodeRecyclerAdapter$CountryCodeViewHolder;->a:Lkik/android/challenge/CountryCode;
+    iget-object v1, p0, Lcom/kik/view/adapters/CountryCodeRecyclerAdapter$CountryCodeViewHolder;->a:Lkik/arcane/challenge/CountryCode;
 
-    invoke-interface {v0, v1}, Lcom/kik/view/adapters/CountryCodeRecyclerAdapter$a;->a(Lkik/android/challenge/CountryCode;)V
+    invoke-interface {v0, v1}, Lcom/kik/view/adapters/CountryCodeRecyclerAdapter$a;->a(Lkik/arcane/challenge/CountryCode;)V
 
     .line 66
     return-void

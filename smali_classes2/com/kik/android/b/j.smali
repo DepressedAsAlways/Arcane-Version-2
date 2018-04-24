@@ -1,24 +1,24 @@
-.class public final Lcom/kik/android/b/j;
+.class public final Lcom/kik/arcane/b/j;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/kik/android/b/e;
+.implements Lcom/kik/arcane/b/e;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/kik/android/b/j$a;,
-        Lcom/kik/android/b/j$b;
+        Lcom/kik/arcane/b/j$a;,
+        Lcom/kik/arcane/b/j$b;
     }
 .end annotation
 
 
 # instance fields
-.field private final a:Lcom/kik/android/b/j$b;
+.field private final a:Lcom/kik/arcane/b/j$b;
 
-.field private final b:Lcom/kik/android/b/j$a;
+.field private final b:Lcom/kik/arcane/b/j$a;
 
 .field private final c:Lkik/core/interfaces/ad;
 
@@ -32,43 +32,43 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 37
-    iput-object p2, p0, Lcom/kik/android/b/j;->c:Lkik/core/interfaces/ad;
+    iput-object p2, p0, Lcom/kik/arcane/b/j;->c:Lkik/core/interfaces/ad;
 
     .line 38
-    new-instance v0, Lcom/kik/android/b/j$b;
+    new-instance v0, Lcom/kik/arcane/b/j$b;
 
     invoke-interface {p2}, Lkik/core/interfaces/ad;->q()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-direct {v0, p0, p1, v1}, Lcom/kik/android/b/j$b;-><init>(Lcom/kik/android/b/j;Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {v0, p0, p1, v1}, Lcom/kik/arcane/b/j$b;-><init>(Lcom/kik/arcane/b/j;Landroid/content/Context;Ljava/lang/String;)V
 
-    iput-object v0, p0, Lcom/kik/android/b/j;->a:Lcom/kik/android/b/j$b;
+    iput-object v0, p0, Lcom/kik/arcane/b/j;->a:Lcom/kik/arcane/b/j$b;
 
     .line 39
-    new-instance v0, Lcom/kik/android/b/j$a;
+    new-instance v0, Lcom/kik/arcane/b/j$a;
 
     invoke-interface {p2}, Lkik/core/interfaces/ad;->q()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-direct {v0, p0, p1, v1}, Lcom/kik/android/b/j$a;-><init>(Lcom/kik/android/b/j;Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {v0, p0, p1, v1}, Lcom/kik/arcane/b/j$a;-><init>(Lcom/kik/arcane/b/j;Landroid/content/Context;Ljava/lang/String;)V
 
-    iput-object v0, p0, Lcom/kik/android/b/j;->b:Lcom/kik/android/b/j$a;
+    iput-object v0, p0, Lcom/kik/arcane/b/j;->b:Lcom/kik/arcane/b/j$a;
 
     .line 41
-    iget-object v0, p0, Lcom/kik/android/b/j;->a:Lcom/kik/android/b/j$b;
+    iget-object v0, p0, Lcom/kik/arcane/b/j;->a:Lcom/kik/arcane/b/j$b;
 
-    invoke-virtual {v0}, Lcom/kik/android/b/j$b;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v0}, Lcom/kik/arcane/b/j$b;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v0
 
     invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->close()V
 
     .line 42
-    iget-object v0, p0, Lcom/kik/android/b/j;->b:Lcom/kik/android/b/j$a;
+    iget-object v0, p0, Lcom/kik/arcane/b/j;->b:Lcom/kik/arcane/b/j$a;
 
-    invoke-virtual {v0}, Lcom/kik/android/b/j$a;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v0}, Lcom/kik/arcane/b/j$a;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v0
 
@@ -78,7 +78,7 @@
     return-void
 .end method
 
-.method private static a(Landroid/database/Cursor;)Lcom/kik/android/b/a;
+.method private static a(Landroid/database/Cursor;)Lcom/kik/arcane/b/a;
     .locals 3
 
     .prologue
@@ -105,14 +105,14 @@
     move-result-object v1
 
     .line 195
-    new-instance v2, Lcom/kik/android/b/a;
+    new-instance v2, Lcom/kik/arcane/b/a;
 
-    invoke-direct {v2, v1, v0}, Lcom/kik/android/b/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v1, v0}, Lcom/kik/arcane/b/a;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     return-object v2
 .end method
 
-.method private static a(Landroid/database/Cursor;Ljava/util/Map;)Lcom/kik/android/b/f;
+.method private static a(Landroid/database/Cursor;Ljava/util/Map;)Lcom/kik/arcane/b/f;
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -121,9 +121,9 @@
             "Ljava/util/Map",
             "<",
             "Ljava/lang/String;",
-            "Lcom/kik/android/b/a;",
+            "Lcom/kik/arcane/b/a;",
             ">;)",
-            "Lcom/kik/android/b/f;"
+            "Lcom/kik/arcane/b/f;"
         }
     .end annotation
 
@@ -184,27 +184,27 @@
     move-result-wide v4
 
     .line 135
-    invoke-static/range {v0 .. v5}, Lcom/kik/android/b/f;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)Lcom/kik/android/b/f;
+    invoke-static/range {v0 .. v5}, Lcom/kik/arcane/b/f;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)Lcom/kik/arcane/b/f;
 
     move-result-object v1
 
     .line 136
     if-eqz p1, :cond_0
 
-    invoke-virtual {v1}, Lcom/kik/android/b/f;->g()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/kik/arcane/b/f;->g()Ljava/lang/String;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {v1}, Lcom/kik/android/b/f;->e()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/kik/arcane/b/f;->e()Ljava/lang/String;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
     .line 137
-    invoke-virtual {v1}, Lcom/kik/android/b/f;->g()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/kik/arcane/b/f;->g()Ljava/lang/String;
 
     move-result-object v0
 
@@ -212,16 +212,16 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/b/a;
+    check-cast v0, Lcom/kik/arcane/b/a;
 
     .line 138
     if-eqz v0, :cond_0
 
-    invoke-virtual {v1}, Lcom/kik/android/b/f;->e()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/kik/arcane/b/f;->e()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0}, Lcom/kik/android/b/a;->c()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/kik/arcane/b/a;->c()Ljava/lang/String;
 
     move-result-object v0
 
@@ -232,7 +232,7 @@
     if-eqz v0, :cond_0
 
     .line 139
-    invoke-virtual {v1}, Lcom/kik/android/b/f;->c()V
+    invoke-virtual {v1}, Lcom/kik/arcane/b/f;->c()V
 
     .line 142
     :cond_0
@@ -256,7 +256,7 @@
     :cond_0
     new-instance v0, Ljava/lang/StringBuilder;
 
-    const-string v1, "com.kik.android.smileys.category.accessed."
+    const-string v1, "com.kik.arcane.smileys.category.accessed."
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -273,7 +273,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/kik/android/b/f;)J
+.method public final a(Lcom/kik/arcane/b/f;)J
     .locals 2
 
     .prologue
@@ -284,11 +284,11 @@
     if-eqz p1, :cond_0
 
     .line 254
-    invoke-virtual {p1}, Lcom/kik/android/b/f;->g()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/kik/arcane/b/f;->g()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/kik/android/b/j;->d(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/kik/arcane/b/j;->d(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -297,7 +297,7 @@
     if-eqz v0, :cond_1
 
     .line 258
-    iget-object v1, p0, Lcom/kik/android/b/j;->c:Lkik/core/interfaces/ad;
+    iget-object v1, p0, Lcom/kik/arcane/b/j;->c:Lkik/core/interfaces/ad;
 
     invoke-interface {v1, v0}, Lkik/core/interfaces/ad;->v(Ljava/lang/String;)Ljava/lang/Long;
 
@@ -317,7 +317,7 @@
     goto :goto_0
 .end method
 
-.method public final a(Ljava/lang/String;)Lcom/kik/android/b/f;
+.method public final a(Ljava/lang/String;)Lcom/kik/arcane/b/f;
     .locals 8
 
     .prologue
@@ -325,9 +325,9 @@
 
     .line 71
     .line 72
-    iget-object v0, p0, Lcom/kik/android/b/j;->a:Lcom/kik/android/b/j$b;
+    iget-object v0, p0, Lcom/kik/arcane/b/j;->a:Lcom/kik/arcane/b/j$b;
 
-    invoke-virtual {v0}, Lcom/kik/android/b/j$b;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v0}, Lcom/kik/arcane/b/j$b;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v0
 
@@ -361,11 +361,11 @@
     if-eqz v1, :cond_0
 
     .line 75
-    invoke-virtual {p0}, Lcom/kik/android/b/j;->d()Ljava/util/Map;
+    invoke-virtual {p0}, Lcom/kik/arcane/b/j;->d()Ljava/util/Map;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lcom/kik/android/b/j;->a(Landroid/database/Cursor;Ljava/util/Map;)Lcom/kik/android/b/f;
+    invoke-static {v0, v1}, Lcom/kik/arcane/b/j;->a(Landroid/database/Cursor;Ljava/util/Map;)Lcom/kik/arcane/b/f;
 
     move-result-object v2
 
@@ -384,14 +384,14 @@
             "()",
             "Ljava/util/List",
             "<",
-            "Lcom/kik/android/b/f;",
+            "Lcom/kik/arcane/b/f;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 48
-    invoke-virtual {p0}, Lcom/kik/android/b/j;->d()Ljava/util/Map;
+    invoke-virtual {p0}, Lcom/kik/arcane/b/j;->d()Ljava/util/Map;
 
     move-result-object v8
 
@@ -401,15 +401,15 @@
     invoke-direct {v9}, Ljava/util/ArrayList;-><init>()V
 
     .line 50
-    iget-object v10, p0, Lcom/kik/android/b/j;->a:Lcom/kik/android/b/j$b;
+    iget-object v10, p0, Lcom/kik/arcane/b/j;->a:Lcom/kik/arcane/b/j$b;
 
     monitor-enter v10
 
     .line 52
     :try_start_0
-    iget-object v0, p0, Lcom/kik/android/b/j;->a:Lcom/kik/android/b/j$b;
+    iget-object v0, p0, Lcom/kik/arcane/b/j;->a:Lcom/kik/arcane/b/j$b;
 
-    invoke-virtual {v0}, Lcom/kik/android/b/j$b;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v0}, Lcom/kik/arcane/b/j$b;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v0
 
@@ -440,7 +440,7 @@
 
     .line 56
     :cond_0
-    invoke-static {v0, v8}, Lcom/kik/android/b/j;->a(Landroid/database/Cursor;Ljava/util/Map;)Lcom/kik/android/b/f;
+    invoke-static {v0, v8}, Lcom/kik/arcane/b/j;->a(Landroid/database/Cursor;Ljava/util/Map;)Lcom/kik/arcane/b/f;
 
     move-result-object v1
 
@@ -479,7 +479,7 @@
     throw v0
 .end method
 
-.method public final a(Lcom/kik/android/b/a;)V
+.method public final a(Lcom/kik/arcane/b/a;)V
     .locals 8
 
     .prologue
@@ -495,9 +495,9 @@
 
     .line 167
     :cond_1
-    iget-object v0, p0, Lcom/kik/android/b/j;->b:Lcom/kik/android/b/j$a;
+    iget-object v0, p0, Lcom/kik/arcane/b/j;->b:Lcom/kik/arcane/b/j$a;
 
-    invoke-virtual {v0}, Lcom/kik/android/b/j$a;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v0}, Lcom/kik/arcane/b/j$a;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v2
 
@@ -522,7 +522,7 @@
     const/4 v6, 0x0
 
     .line 173
-    invoke-virtual {p1}, Lcom/kik/android/b/a;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/kik/arcane/b/a;->b()Ljava/lang/String;
 
     move-result-object v7
 
@@ -552,7 +552,7 @@
     .line 1186
     const-string v3, "smiley_category"
 
-    invoke-virtual {p1}, Lcom/kik/android/b/a;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/kik/arcane/b/a;->b()Ljava/lang/String;
 
     move-result-object v4
 
@@ -561,7 +561,7 @@
     .line 1187
     const-string v3, "smiley_id"
 
-    invoke-virtual {p1}, Lcom/kik/android/b/a;->c()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/kik/arcane/b/a;->c()Ljava/lang/String;
 
     move-result-object v4
 
@@ -577,7 +577,7 @@
             "(",
             "Ljava/util/List",
             "<",
-            "Lcom/kik/android/b/f;",
+            "Lcom/kik/arcane/b/f;",
             ">;)V"
         }
     .end annotation
@@ -586,9 +586,9 @@
     const/4 v2, 0x0
 
     .line 85
-    iget-object v0, p0, Lcom/kik/android/b/j;->a:Lcom/kik/android/b/j$b;
+    iget-object v0, p0, Lcom/kik/arcane/b/j;->a:Lcom/kik/arcane/b/j$b;
 
-    invoke-virtual {v0}, Lcom/kik/android/b/j$b;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v0}, Lcom/kik/arcane/b/j$b;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v3
 
@@ -612,7 +612,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/b/f;
+    check-cast v0, Lcom/kik/arcane/b/f;
 
     .line 1116
     new-instance v1, Landroid/content/ContentValues;
@@ -622,7 +622,7 @@
     .line 1117
     if-eqz v0, :cond_1
 
-    invoke-virtual {v0}, Lcom/kik/android/b/f;->e()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/kik/arcane/b/f;->e()Ljava/lang/String;
 
     move-result-object v5
 
@@ -647,7 +647,7 @@
     const/4 v8, 0x0
 
     .line 95
-    invoke-virtual {v0}, Lcom/kik/android/b/f;->e()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/kik/arcane/b/f;->e()Ljava/lang/String;
 
     move-result-object v0
 
@@ -672,7 +672,7 @@
     :cond_2
     const-string v5, "smiley_id"
 
-    invoke-virtual {v0}, Lcom/kik/android/b/f;->e()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/kik/arcane/b/f;->e()Ljava/lang/String;
 
     move-result-object v6
 
@@ -681,7 +681,7 @@
     .line 1121
     const-string v5, "smiley_text"
 
-    invoke-virtual {v0}, Lcom/kik/android/b/f;->f()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/kik/arcane/b/f;->f()Ljava/lang/String;
 
     move-result-object v6
 
@@ -690,7 +690,7 @@
     .line 1122
     const-string v5, "smiley_title"
 
-    invoke-virtual {v0}, Lcom/kik/android/b/f;->d()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/kik/arcane/b/f;->d()Ljava/lang/String;
 
     move-result-object v6
 
@@ -699,7 +699,7 @@
     .line 1123
     const-string v5, "smiley_install_date"
 
-    invoke-virtual {v0}, Lcom/kik/android/b/f;->i()J
+    invoke-virtual {v0}, Lcom/kik/arcane/b/f;->i()J
 
     move-result-wide v6
 
@@ -712,7 +712,7 @@
     .line 1124
     const-string v5, "smiley_category"
 
-    invoke-virtual {v0}, Lcom/kik/android/b/f;->g()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/kik/arcane/b/f;->g()Ljava/lang/String;
 
     move-result-object v6
 
@@ -738,9 +738,9 @@
     const/4 v2, 0x0
 
     .line 148
-    iget-object v0, p0, Lcom/kik/android/b/j;->a:Lcom/kik/android/b/j$b;
+    iget-object v0, p0, Lcom/kik/arcane/b/j;->a:Lcom/kik/arcane/b/j$b;
 
-    invoke-virtual {v0}, Lcom/kik/android/b/j$b;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v0}, Lcom/kik/arcane/b/j$b;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v0
 
@@ -750,22 +750,22 @@
     invoke-virtual {v0, v1, v2, v2}, Landroid/database/sqlite/SQLiteDatabase;->delete(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I
 
     .line 150
-    iget-object v0, p0, Lcom/kik/android/b/j;->a:Lcom/kik/android/b/j$b;
+    iget-object v0, p0, Lcom/kik/arcane/b/j;->a:Lcom/kik/arcane/b/j$b;
 
-    invoke-virtual {v0}, Lcom/kik/android/b/j$b;->a()V
+    invoke-virtual {v0}, Lcom/kik/arcane/b/j$b;->a()V
 
     .line 151
     return-void
 .end method
 
-.method public final b(Lcom/kik/android/b/a;)V
+.method public final b(Lcom/kik/arcane/b/a;)V
     .locals 6
 
     .prologue
     .line 242
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1}, Lcom/kik/android/b/a;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/kik/arcane/b/a;->b()Ljava/lang/String;
 
     move-result-object v0
 
@@ -778,9 +778,9 @@
 
     .line 245
     :cond_1
-    iget-object v0, p0, Lcom/kik/android/b/j;->b:Lcom/kik/android/b/j$a;
+    iget-object v0, p0, Lcom/kik/arcane/b/j;->b:Lcom/kik/arcane/b/j$a;
 
-    invoke-virtual {v0}, Lcom/kik/android/b/j$a;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v0}, Lcom/kik/arcane/b/j$a;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v0
 
@@ -795,7 +795,7 @@
     const/4 v4, 0x0
 
     .line 246
-    invoke-virtual {p1}, Lcom/kik/android/b/a;->b()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/kik/arcane/b/a;->b()Ljava/lang/String;
 
     move-result-object v5
 
@@ -806,16 +806,16 @@
     goto :goto_0
 .end method
 
-.method public final b(Lcom/kik/android/b/f;)V
+.method public final b(Lcom/kik/arcane/b/f;)V
     .locals 4
 
     .prologue
     .line 266
-    invoke-virtual {p1}, Lcom/kik/android/b/f;->g()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/kik/arcane/b/f;->g()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0}, Lcom/kik/android/b/j;->d(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lcom/kik/arcane/b/j;->d(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -823,7 +823,7 @@
     if-eqz v0, :cond_0
 
     .line 268
-    iget-object v1, p0, Lcom/kik/android/b/j;->c:Lkik/core/interfaces/ad;
+    iget-object v1, p0, Lcom/kik/arcane/b/j;->c:Lkik/core/interfaces/ad;
 
     invoke-static {}, Lkik/core/util/v;->b()J
 
@@ -853,9 +853,9 @@
 
     .line 111
     :cond_0
-    iget-object v0, p0, Lcom/kik/android/b/j;->a:Lcom/kik/android/b/j$b;
+    iget-object v0, p0, Lcom/kik/arcane/b/j;->a:Lcom/kik/arcane/b/j$b;
 
-    invoke-virtual {v0}, Lcom/kik/android/b/j$b;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v0}, Lcom/kik/arcane/b/j$b;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v0
 
@@ -876,7 +876,7 @@
     goto :goto_0
 .end method
 
-.method public final c(Ljava/lang/String;)Lcom/kik/android/b/a;
+.method public final c(Ljava/lang/String;)Lcom/kik/arcane/b/a;
     .locals 11
 
     .prologue
@@ -884,15 +884,15 @@
 
     .line 227
     .line 228
-    iget-object v10, p0, Lcom/kik/android/b/j;->b:Lcom/kik/android/b/j$a;
+    iget-object v10, p0, Lcom/kik/arcane/b/j;->b:Lcom/kik/arcane/b/j$a;
 
     monitor-enter v10
 
     .line 229
     :try_start_0
-    iget-object v0, p0, Lcom/kik/android/b/j;->b:Lcom/kik/android/b/j$a;
+    iget-object v0, p0, Lcom/kik/arcane/b/j;->b:Lcom/kik/arcane/b/j$a;
 
-    invoke-virtual {v0}, Lcom/kik/android/b/j$a;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v0}, Lcom/kik/arcane/b/j$a;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v0
 
@@ -931,7 +931,7 @@
     if-eqz v0, :cond_0
 
     .line 232
-    invoke-static {v1}, Lcom/kik/android/b/j;->a(Landroid/database/Cursor;)Lcom/kik/android/b/a;
+    invoke-static {v1}, Lcom/kik/arcane/b/j;->a(Landroid/database/Cursor;)Lcom/kik/arcane/b/a;
 
     move-result-object v0
 
@@ -968,9 +968,9 @@
     const/4 v2, 0x0
 
     .line 156
-    iget-object v0, p0, Lcom/kik/android/b/j;->b:Lcom/kik/android/b/j$a;
+    iget-object v0, p0, Lcom/kik/arcane/b/j;->b:Lcom/kik/arcane/b/j$a;
 
-    invoke-virtual {v0}, Lcom/kik/android/b/j$a;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v0}, Lcom/kik/arcane/b/j$a;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v0
 
@@ -980,9 +980,9 @@
     invoke-virtual {v0, v1, v2, v2}, Landroid/database/sqlite/SQLiteDatabase;->delete(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I
 
     .line 158
-    iget-object v0, p0, Lcom/kik/android/b/j;->b:Lcom/kik/android/b/j$a;
+    iget-object v0, p0, Lcom/kik/arcane/b/j;->b:Lcom/kik/arcane/b/j$a;
 
-    invoke-virtual {v0}, Lcom/kik/android/b/j$a;->a()V
+    invoke-virtual {v0}, Lcom/kik/arcane/b/j$a;->a()V
 
     .line 159
     return-void
@@ -996,7 +996,7 @@
             "Ljava/util/Map",
             "<",
             "Ljava/lang/String;",
-            "Lcom/kik/android/b/a;",
+            "Lcom/kik/arcane/b/a;",
             ">;"
         }
     .end annotation
@@ -1008,15 +1008,15 @@
     invoke-direct {v8}, Ljava/util/HashMap;-><init>()V
 
     .line 202
-    iget-object v9, p0, Lcom/kik/android/b/j;->b:Lcom/kik/android/b/j$a;
+    iget-object v9, p0, Lcom/kik/arcane/b/j;->b:Lcom/kik/arcane/b/j$a;
 
     monitor-enter v9
 
     .line 203
     :try_start_0
-    iget-object v0, p0, Lcom/kik/android/b/j;->b:Lcom/kik/android/b/j$a;
+    iget-object v0, p0, Lcom/kik/arcane/b/j;->b:Lcom/kik/arcane/b/j$a;
 
-    invoke-virtual {v0}, Lcom/kik/android/b/j$a;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v0}, Lcom/kik/arcane/b/j$a;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v0
 
@@ -1047,19 +1047,19 @@
 
     .line 206
     :cond_0
-    invoke-static {v0}, Lcom/kik/android/b/j;->a(Landroid/database/Cursor;)Lcom/kik/android/b/a;
+    invoke-static {v0}, Lcom/kik/arcane/b/j;->a(Landroid/database/Cursor;)Lcom/kik/arcane/b/a;
 
     move-result-object v1
 
     .line 207
-    invoke-virtual {v1}, Lcom/kik/android/b/a;->b()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/kik/arcane/b/a;->b()Ljava/lang/String;
 
     move-result-object v2
 
     if-eqz v2, :cond_1
 
     .line 208
-    invoke-virtual {v1}, Lcom/kik/android/b/a;->b()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/kik/arcane/b/a;->b()Ljava/lang/String;
 
     move-result-object v2
 
@@ -1099,9 +1099,9 @@
 
     .prologue
     .line 275
-    iget-object v0, p0, Lcom/kik/android/b/j;->c:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lcom/kik/arcane/b/j;->c:Lkik/core/interfaces/ad;
 
-    const-string v1, "com.kik.android.smileys.tray.opened"
+    const-string v1, "com.kik.arcane.smileys.tray.opened"
 
     invoke-interface {v0, v1}, Lkik/core/interfaces/ad;->v(Ljava/lang/String;)Ljava/lang/Long;
 
@@ -1128,9 +1128,9 @@
 
     .prologue
     .line 282
-    iget-object v0, p0, Lcom/kik/android/b/j;->c:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lcom/kik/arcane/b/j;->c:Lkik/core/interfaces/ad;
 
-    const-string v1, "com.kik.android.smileys.tray.opened"
+    const-string v1, "com.kik.arcane.smileys.tray.opened"
 
     invoke-static {}, Lkik/core/util/v;->b()J
 
@@ -1153,9 +1153,9 @@
     const/4 v0, 0x1
 
     .line 288
-    iget-object v1, p0, Lcom/kik/android/b/j;->c:Lkik/core/interfaces/ad;
+    iget-object v1, p0, Lcom/kik/arcane/b/j;->c:Lkik/core/interfaces/ad;
 
-    const-string v2, "com.kik.android.smileys.preload.complete"
+    const-string v2, "com.kik.arcane.smileys.preload.complete"
 
     invoke-interface {v1, v2}, Lkik/core/interfaces/ad;->w(Ljava/lang/String;)Ljava/lang/Boolean;
 
@@ -1181,9 +1181,9 @@
 
     .prologue
     .line 294
-    iget-object v0, p0, Lcom/kik/android/b/j;->c:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lcom/kik/arcane/b/j;->c:Lkik/core/interfaces/ad;
 
-    const-string v1, "com.kik.android.smileys.preload.complete"
+    const-string v1, "com.kik.arcane.smileys.preload.complete"
 
     const/4 v2, 0x1
 
@@ -1204,9 +1204,9 @@
     const/4 v0, 0x1
 
     .line 300
-    iget-object v1, p0, Lcom/kik/android/b/j;->c:Lkik/core/interfaces/ad;
+    iget-object v1, p0, Lcom/kik/arcane/b/j;->c:Lkik/core/interfaces/ad;
 
-    const-string v2, "com.kik.android.smileys.longpress.complete"
+    const-string v2, "com.kik.arcane.smileys.longpress.complete"
 
     invoke-interface {v1, v2}, Lkik/core/interfaces/ad;->w(Ljava/lang/String;)Ljava/lang/Boolean;
 
@@ -1232,9 +1232,9 @@
 
     .prologue
     .line 306
-    iget-object v0, p0, Lcom/kik/android/b/j;->c:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lcom/kik/arcane/b/j;->c:Lkik/core/interfaces/ad;
 
-    const-string v1, "com.kik.android.smileys.longpress.complete"
+    const-string v1, "com.kik.arcane.smileys.longpress.complete"
 
     const/4 v2, 0x1
 

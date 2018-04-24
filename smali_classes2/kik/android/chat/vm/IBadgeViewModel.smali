@@ -1,16 +1,16 @@
-.class public interface abstract Lkik/android/chat/vm/IBadgeViewModel;
+.class public interface abstract Lkik/arcane/chat/vm/IBadgeViewModel;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/bu;
+.implements Lkik/arcane/chat/vm/bu;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;,
-        Lkik/android/chat/vm/IBadgeViewModel$BadgeType;
+        Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;,
+        Lkik/arcane/chat/vm/IBadgeViewModel$BadgeType;
     }
 .end annotation
 
@@ -19,7 +19,7 @@
 .method public abstract I_()Z
 .end method
 
-.method public abstract a()Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;
+.method public abstract a()Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;
 .end method
 
 .method public abstract b()Lrx/d;
@@ -28,7 +28,7 @@
             "()",
             "Lrx/d",
             "<",
-            "Lkik/android/chat/vm/IBadgeViewModel$BadgeType;",
+            "Lkik/arcane/chat/vm/IBadgeViewModel$BadgeType;",
             ">;"
         }
     .end annotation

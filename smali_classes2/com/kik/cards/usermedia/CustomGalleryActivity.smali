@@ -1,5 +1,5 @@
 .class public Lcom/kik/cards/usermedia/CustomGalleryActivity;
-.super Lkik/android/chat/activity/KikActivityBase;
+.super Lkik/arcane/chat/activity/KikActivityBase;
 .source "SourceFile"
 
 
@@ -38,7 +38,7 @@
 
 .field private j:Landroid/view/View;
 
-.field private k:Lkik/android/widget/UserMediaImageThumbNailList;
+.field private k:Lkik/arcane/widget/UserMediaImageThumbNailList;
 
 .field private l:Landroid/widget/TextView;
 
@@ -107,7 +107,7 @@
     const/4 v1, 0x0
 
     .line 46
-    invoke-direct {p0}, Lkik/android/chat/activity/KikActivityBase;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/activity/KikActivityBase;-><init>()V
 
     .line 97
     iput v2, p0, Lcom/kik/cards/usermedia/CustomGalleryActivity;->e:I
@@ -128,7 +128,7 @@
     iput-object v1, p0, Lcom/kik/cards/usermedia/CustomGalleryActivity;->j:Landroid/view/View;
 
     .line 103
-    iput-object v1, p0, Lcom/kik/cards/usermedia/CustomGalleryActivity;->k:Lkik/android/widget/UserMediaImageThumbNailList;
+    iput-object v1, p0, Lcom/kik/cards/usermedia/CustomGalleryActivity;->k:Lkik/arcane/widget/UserMediaImageThumbNailList;
 
     .line 104
     iput-object v1, p0, Lcom/kik/cards/usermedia/CustomGalleryActivity;->l:Landroid/widget/TextView;
@@ -225,12 +225,12 @@
     return-object v0
 .end method
 
-.method static synthetic f(Lcom/kik/cards/usermedia/CustomGalleryActivity;)Lkik/android/widget/UserMediaImageThumbNailList;
+.method static synthetic f(Lcom/kik/cards/usermedia/CustomGalleryActivity;)Lkik/arcane/widget/UserMediaImageThumbNailList;
     .locals 1
 
     .prologue
     .line 46
-    iget-object v0, p0, Lcom/kik/cards/usermedia/CustomGalleryActivity;->k:Lkik/android/widget/UserMediaImageThumbNailList;
+    iget-object v0, p0, Lcom/kik/cards/usermedia/CustomGalleryActivity;->k:Lkik/arcane/widget/UserMediaImageThumbNailList;
 
     return-object v0
 .end method
@@ -292,7 +292,7 @@
 
     aput-object v1, v0, v5
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 513
     iget-object v0, p0, Lcom/kik/cards/usermedia/CustomGalleryActivity;->q:Ljava/util/HashMap;
@@ -337,7 +337,7 @@
 
     aput-object v1, v0, v4
 
-    invoke-static {v0}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     .line 528
     :cond_0
@@ -450,7 +450,7 @@
 
     aput-object v3, v1, v2
 
-    invoke-static {v1}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v1}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 482
     iget-object v1, p0, Lcom/kik/cards/usermedia/CustomGalleryActivity;->g:Landroid/widget/GridView;
@@ -511,7 +511,7 @@
     const/4 v1, 0x3
 
     .line 240
-    invoke-super {p0, p1}, Lkik/android/chat/activity/KikActivityBase;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/activity/KikActivityBase;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
     .line 241
     iget-object v0, p0, Lcom/kik/cards/usermedia/CustomGalleryActivity;->g:Landroid/widget/GridView;
@@ -583,7 +583,7 @@
     const/4 v12, 0x0
 
     .line 133
-    invoke-super {p0, p1}, Lkik/android/chat/activity/KikActivityBase;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/activity/KikActivityBase;->onCreate(Landroid/os/Bundle;)V
 
     .line 134
     invoke-virtual {p0}, Lcom/kik/cards/usermedia/CustomGalleryActivity;->getIntent()Landroid/content/Intent;
@@ -753,9 +753,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/widget/UserMediaImageThumbNailList;
+    check-cast v0, Lkik/arcane/widget/UserMediaImageThumbNailList;
 
-    iput-object v0, p0, Lcom/kik/cards/usermedia/CustomGalleryActivity;->k:Lkik/android/widget/UserMediaImageThumbNailList;
+    iput-object v0, p0, Lcom/kik/cards/usermedia/CustomGalleryActivity;->k:Lkik/arcane/widget/UserMediaImageThumbNailList;
 
     .line 149
     const v0, 0x7f100122
@@ -891,7 +891,7 @@
 
     aput-object v1, v0, v12
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 165
     :goto_2
@@ -909,9 +909,9 @@
     .line 196
     iget-object v0, p0, Lcom/kik/cards/usermedia/CustomGalleryActivity;->r:Lcom/kik/events/d;
 
-    iget-object v1, p0, Lcom/kik/cards/usermedia/CustomGalleryActivity;->k:Lkik/android/widget/UserMediaImageThumbNailList;
+    iget-object v1, p0, Lcom/kik/cards/usermedia/CustomGalleryActivity;->k:Lkik/arcane/widget/UserMediaImageThumbNailList;
 
-    invoke-virtual {v1}, Lkik/android/widget/UserMediaImageThumbNailList;->a()Lcom/kik/events/c;
+    invoke-virtual {v1}, Lkik/arcane/widget/UserMediaImageThumbNailList;->a()Lcom/kik/events/c;
 
     move-result-object v1
 
@@ -981,7 +981,7 @@
 
     aput-object v1, v0, v12
 
-    invoke-static {v0}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     goto :goto_2
 .end method
@@ -993,7 +993,7 @@
     const/4 v1, 0x0
 
     .line 228
-    invoke-super {p0}, Lkik/android/chat/activity/KikActivityBase;->onDestroy()V
+    invoke-super {p0}, Lkik/arcane/chat/activity/KikActivityBase;->onDestroy()V
 
     .line 229
     iget-object v0, p0, Lcom/kik/cards/usermedia/CustomGalleryActivity;->m:Lcom/kik/cards/usermedia/UserMediaCache;

@@ -1,25 +1,25 @@
-.class public Lkik/android/gifs/view/EmojiRecyclerView;
-.super Lkik/android/widget/AutoResizeRecyclerGridView;
+.class public Lkik/arcane/gifs/view/EmojiRecyclerView;
+.super Lkik/arcane/widget/AutoResizeRecyclerGridView;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/widget/dn$a;
+.implements Lkik/arcane/widget/dn$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/gifs/view/EmojiRecyclerView$a;
+        Lkik/arcane/gifs/view/EmojiRecyclerView$a;
     }
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkik/android/widget/AutoResizeRecyclerGridView;",
-        "Lkik/android/widget/dn$a",
+        "Lkik/arcane/widget/AutoResizeRecyclerGridView;",
+        "Lkik/arcane/widget/dn$a",
         "<",
-        "Lkik/android/gifs/vm/bk;",
-        "Lkik/android/gifs/view/EmojiRecyclerView$a;",
+        "Lkik/arcane/gifs/vm/bk;",
+        "Lkik/arcane/gifs/view/EmojiRecyclerView$a;",
         ">;"
     }
 .end annotation
@@ -33,7 +33,7 @@
     .line 42
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/gifs/view/EmojiRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/gifs/view/EmojiRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 43
     return-void
@@ -44,18 +44,18 @@
 
     .prologue
     .line 47
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/AutoResizeRecyclerGridView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/AutoResizeRecyclerGridView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 48
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/gifs/view/EmojiRecyclerView;->setItemAnimator(Landroid/support/v7/widget/RecyclerView$ItemAnimator;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/gifs/view/EmojiRecyclerView;->setItemAnimator(Landroid/support/v7/widget/RecyclerView$ItemAnimator;)V
 
     .line 49
     return-void
 .end method
 
-.method public static a(Lkik/android/gifs/view/EmojiRecyclerView;Lkik/android/gifs/vm/bj;)V
+.method public static a(Lkik/arcane/gifs/view/EmojiRecyclerView;Lkik/arcane/gifs/vm/bj;)V
     .locals 1
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -65,33 +65,33 @@
 
     .prologue
     .line 30
-    check-cast p1, Lkik/android/gifs/vm/c;
+    check-cast p1, Lkik/arcane/gifs/vm/c;
 
     .line 31
-    new-instance v0, Lkik/android/widget/dn;
+    new-instance v0, Lkik/arcane/widget/dn;
 
-    invoke-direct {v0, p0, p1}, Lkik/android/widget/dn;-><init>(Lkik/android/widget/dn$a;Lkik/android/chat/vm/IListViewModel;)V
+    invoke-direct {v0, p0, p1}, Lkik/arcane/widget/dn;-><init>(Lkik/arcane/widget/dn$a;Lkik/arcane/chat/vm/IListViewModel;)V
 
     .line 32
-    invoke-virtual {p0, v0}, Lkik/android/gifs/view/EmojiRecyclerView;->setAdapter(Landroid/support/v7/widget/RecyclerView$Adapter;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/gifs/view/EmojiRecyclerView;->setAdapter(Landroid/support/v7/widget/RecyclerView$Adapter;)V
 
     .line 34
-    invoke-static {p0, p1}, Lkik/android/gifs/view/b;->a(Lkik/android/gifs/view/EmojiRecyclerView;Lkik/android/gifs/vm/c;)Landroid/view/View$OnTouchListener;
+    invoke-static {p0, p1}, Lkik/arcane/gifs/view/b;->a(Lkik/arcane/gifs/view/EmojiRecyclerView;Lkik/arcane/gifs/vm/c;)Landroid/view/View$OnTouchListener;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/gifs/view/EmojiRecyclerView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/gifs/view/EmojiRecyclerView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     .line 38
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/gifs/view/EmojiRecyclerView;Lkik/android/gifs/vm/c;Landroid/view/MotionEvent;)Z
+.method static synthetic a(Lkik/arcane/gifs/view/EmojiRecyclerView;Lkik/arcane/gifs/vm/c;Landroid/view/MotionEvent;)Z
     .locals 3
 
     .prologue
     .line 35
-    invoke-virtual {p0}, Lkik/android/gifs/view/EmojiRecyclerView;->getLayoutManager()Landroid/support/v7/widget/RecyclerView$LayoutManager;
+    invoke-virtual {p0}, Lkik/arcane/gifs/view/EmojiRecyclerView;->getLayoutManager()Landroid/support/v7/widget/RecyclerView$LayoutManager;
 
     move-result-object v0
 
@@ -115,7 +115,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    invoke-virtual {p1, v1, v2, v0}, Lkik/android/gifs/vm/c;->a(IFZ)Z
+    invoke-virtual {p1, v1, v2, v0}, Lkik/arcane/gifs/vm/c;->a(IFZ)Z
 
     move-result v0
 
@@ -152,9 +152,9 @@
     move-result-object v0
 
     .line 1070
-    new-instance v1, Lkik/android/gifs/view/EmojiRecyclerView$a;
+    new-instance v1, Lkik/arcane/gifs/view/EmojiRecyclerView$a;
 
-    invoke-direct {v1, v0}, Lkik/android/gifs/view/EmojiRecyclerView$a;-><init>(Landroid/databinding/ViewDataBinding;)V
+    invoke-direct {v1, v0}, Lkik/arcane/gifs/view/EmojiRecyclerView$a;-><init>(Landroid/databinding/ViewDataBinding;)V
 
     .line 25
     return-object v1
@@ -165,12 +165,12 @@
 
     .prologue
     .line 60
-    invoke-super {p0}, Lkik/android/widget/AutoResizeRecyclerGridView;->onDetachedFromWindow()V
+    invoke-super {p0}, Lkik/arcane/widget/AutoResizeRecyclerGridView;->onDetachedFromWindow()V
 
     .line 63
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/gifs/view/EmojiRecyclerView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/gifs/view/EmojiRecyclerView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     .line 64
     return-void

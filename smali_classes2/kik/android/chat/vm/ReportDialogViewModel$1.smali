@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/chat/vm/ReportDialogViewModel$1;
+.class final synthetic Lkik/arcane/chat/vm/ReportDialogViewModel$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/ReportDialogViewModel;
+    value = Lkik/arcane/chat/vm/ReportDialogViewModel;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,7 +26,7 @@
 
     .prologue
     .line 122
-    invoke-static {}, Lkik/android/chat/vm/ReportDialogViewModel$ReportContext;->values()[Lkik/android/chat/vm/ReportDialogViewModel$ReportContext;
+    invoke-static {}, Lkik/arcane/chat/vm/ReportDialogViewModel$ReportContext;->values()[Lkik/arcane/chat/vm/ReportDialogViewModel$ReportContext;
 
     move-result-object v0
 
@@ -34,14 +34,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/chat/vm/ReportDialogViewModel$1;->b:[I
+    sput-object v0, Lkik/arcane/chat/vm/ReportDialogViewModel$1;->b:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/chat/vm/ReportDialogViewModel$1;->b:[I
+    sget-object v0, Lkik/arcane/chat/vm/ReportDialogViewModel$1;->b:[I
 
-    sget-object v1, Lkik/android/chat/vm/ReportDialogViewModel$ReportContext;->GROUP:Lkik/android/chat/vm/ReportDialogViewModel$ReportContext;
+    sget-object v1, Lkik/arcane/chat/vm/ReportDialogViewModel$ReportContext;->GROUP:Lkik/arcane/chat/vm/ReportDialogViewModel$ReportContext;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/ReportDialogViewModel$ReportContext;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/ReportDialogViewModel$ReportContext;->ordinal()I
 
     move-result v1
 
@@ -53,11 +53,11 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/chat/vm/ReportDialogViewModel$1;->b:[I
+    sget-object v0, Lkik/arcane/chat/vm/ReportDialogViewModel$1;->b:[I
 
-    sget-object v1, Lkik/android/chat/vm/ReportDialogViewModel$ReportContext;->USERINGROUP:Lkik/android/chat/vm/ReportDialogViewModel$ReportContext;
+    sget-object v1, Lkik/arcane/chat/vm/ReportDialogViewModel$ReportContext;->USERINGROUP:Lkik/arcane/chat/vm/ReportDialogViewModel$ReportContext;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/ReportDialogViewModel$ReportContext;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/ReportDialogViewModel$ReportContext;->ordinal()I
 
     move-result v1
 
@@ -69,11 +69,11 @@
 
     :goto_1
     :try_start_2
-    sget-object v0, Lkik/android/chat/vm/ReportDialogViewModel$1;->b:[I
+    sget-object v0, Lkik/arcane/chat/vm/ReportDialogViewModel$1;->b:[I
 
-    sget-object v1, Lkik/android/chat/vm/ReportDialogViewModel$ReportContext;->USER:Lkik/android/chat/vm/ReportDialogViewModel$ReportContext;
+    sget-object v1, Lkik/arcane/chat/vm/ReportDialogViewModel$ReportContext;->USER:Lkik/arcane/chat/vm/ReportDialogViewModel$ReportContext;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/ReportDialogViewModel$ReportContext;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/ReportDialogViewModel$ReportContext;->ordinal()I
 
     move-result v1
 
@@ -85,7 +85,7 @@
 
     .line 63
     :goto_2
-    invoke-static {}, Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;->values()[Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;
+    invoke-static {}, Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;->values()[Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;
 
     move-result-object v0
 
@@ -93,14 +93,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/chat/vm/ReportDialogViewModel$1;->a:[I
+    sput-object v0, Lkik/arcane/chat/vm/ReportDialogViewModel$1;->a:[I
 
     :try_start_3
-    sget-object v0, Lkik/android/chat/vm/ReportDialogViewModel$1;->a:[I
+    sget-object v0, Lkik/arcane/chat/vm/ReportDialogViewModel$1;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;->SPAM:Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;
+    sget-object v1, Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;->SPAM:Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;->ordinal()I
 
     move-result v1
 
@@ -112,11 +112,11 @@
 
     :goto_3
     :try_start_4
-    sget-object v0, Lkik/android/chat/vm/ReportDialogViewModel$1;->a:[I
+    sget-object v0, Lkik/arcane/chat/vm/ReportDialogViewModel$1;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;->UNWANTED:Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;
+    sget-object v1, Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;->UNWANTED:Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;->ordinal()I
 
     move-result v1
 
@@ -128,11 +128,11 @@
 
     :goto_4
     :try_start_5
-    sget-object v0, Lkik/android/chat/vm/ReportDialogViewModel$1;->a:[I
+    sget-object v0, Lkik/arcane/chat/vm/ReportDialogViewModel$1;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;->ABUSE:Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;
+    sget-object v1, Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;->ABUSE:Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;->ordinal()I
 
     move-result v1
 
@@ -144,11 +144,11 @@
 
     :goto_5
     :try_start_6
-    sget-object v0, Lkik/android/chat/vm/ReportDialogViewModel$1;->a:[I
+    sget-object v0, Lkik/arcane/chat/vm/ReportDialogViewModel$1;->a:[I
 
-    sget-object v1, Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;->OFFENSIVE:Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;
+    sget-object v1, Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;->OFFENSIVE:Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/ReportDialogViewModel$ReportReason;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/ReportDialogViewModel$ReportReason;->ordinal()I
 
     move-result v1
 

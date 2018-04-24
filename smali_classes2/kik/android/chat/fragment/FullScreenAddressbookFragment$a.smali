@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;
-.super Lkik/android/chat/fragment/AddressbookFragmentBase$a;
+.class public final Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;
+.super Lkik/arcane/chat/fragment/AddressbookFragmentBase$a;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/FullScreenAddressbookFragment;
+    value = Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,33 +20,33 @@
 
     .prologue
     .line 271
-    invoke-direct {p0}, Lkik/android/chat/fragment/AddressbookFragmentBase$a;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/AddressbookFragmentBase$a;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method public final synthetic a(Ljava/lang/String;)Lkik/android/chat/fragment/AddressbookFragmentBase$a;
+.method public final synthetic a(Ljava/lang/String;)Lkik/arcane/chat/fragment/AddressbookFragmentBase$a;
     .locals 1
 
     .prologue
     .line 271
-    invoke-virtual {p0, p1}, Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;->b(Ljava/lang/String;)Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;
+    invoke-virtual {p0, p1}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;->b(Ljava/lang/String;)Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public final b(Ljava/lang/String;)Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;
+.method public final b(Ljava/lang/String;)Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;
     .locals 1
 
     .prologue
     .line 295
     const-string v0, "address-book-sync-origin"
 
-    invoke-virtual {p0, v0, p1}, Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, p1}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 296
     return-object p0
@@ -61,7 +61,7 @@
 
     const-string v1, "unknown-origin"
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

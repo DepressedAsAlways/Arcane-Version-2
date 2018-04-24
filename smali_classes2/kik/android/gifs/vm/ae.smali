@@ -1,9 +1,9 @@
-.class public final Lkik/android/gifs/vm/ae;
-.super Lkik/android/chat/vm/e;
+.class public final Lkik/arcane/gifs/vm/ae;
+.super Lkik/arcane/chat/vm/e;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/gifs/vm/bu;
+.implements Lkik/arcane/gifs/vm/bu;
 
 
 # instance fields
@@ -12,7 +12,7 @@
         value = {
             "Lrx/subjects/a",
             "<",
-            "Lkik/android/widget/GifTrayPage;",
+            "Lkik/arcane/widget/GifTrayPage;",
             ">;"
         }
     .end annotation
@@ -23,7 +23,7 @@
         value = {
             "Lrx/functions/b",
             "<",
-            "Lkik/android/widget/GifTrayPage;",
+            "Lkik/arcane/widget/GifTrayPage;",
             ">;"
         }
     .end annotation
@@ -38,24 +38,24 @@
             "(",
             "Lrx/functions/b",
             "<",
-            "Lkik/android/widget/GifTrayPage;",
+            "Lkik/arcane/widget/GifTrayPage;",
             ">;)V"
         }
     .end annotation
 
     .prologue
     .line 19
-    invoke-direct {p0}, Lkik/android/chat/vm/e;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/e;-><init>()V
 
     .line 15
     invoke-static {}, Lrx/subjects/a;->m()Lrx/subjects/a;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/gifs/vm/ae;->a:Lrx/subjects/a;
+    iput-object v0, p0, Lkik/arcane/gifs/vm/ae;->a:Lrx/subjects/a;
 
     .line 20
-    iput-object p1, p0, Lkik/android/gifs/vm/ae;->b:Lrx/functions/b;
+    iput-object p1, p0, Lkik/arcane/gifs/vm/ae;->b:Lrx/functions/b;
 
     .line 21
     return-void
@@ -77,9 +77,9 @@
 
     .prologue
     .line 42
-    iget-object v0, p0, Lkik/android/gifs/vm/ae;->a:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/ae;->a:Lrx/subjects/a;
 
-    invoke-static {}, Lkik/android/gifs/vm/af;->a()Lrx/functions/g;
+    invoke-static {}, Lkik/arcane/gifs/vm/af;->a()Lrx/functions/g;
 
     move-result-object v1
 
@@ -96,22 +96,22 @@
     return-object v0
 .end method
 
-.method public final a(Lkik/android/widget/GifTrayPage;)V
+.method public final a(Lkik/arcane/widget/GifTrayPage;)V
     .locals 1
 
     .prologue
     .line 33
-    iget-object v0, p0, Lkik/android/gifs/vm/ae;->b:Lrx/functions/b;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/ae;->b:Lrx/functions/b;
 
     if-eqz v0, :cond_0
 
     .line 34
-    iget-object v0, p0, Lkik/android/gifs/vm/ae;->a:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/ae;->a:Lrx/subjects/a;
 
     invoke-virtual {v0, p1}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 
     .line 35
-    iget-object v0, p0, Lkik/android/gifs/vm/ae;->b:Lrx/functions/b;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/ae;->b:Lrx/functions/b;
 
     invoke-interface {v0, p1}, Lrx/functions/b;->call(Ljava/lang/Object;)V
 
@@ -127,10 +127,10 @@
     .line 26
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/gifs/vm/ae;->b:Lrx/functions/b;
+    iput-object v0, p0, Lkik/arcane/gifs/vm/ae;->b:Lrx/functions/b;
 
     .line 27
-    invoke-super {p0}, Lkik/android/chat/vm/e;->al_()V
+    invoke-super {p0}, Lkik/arcane/chat/vm/e;->al_()V
 
     .line 28
     return-void
@@ -150,9 +150,9 @@
 
     .prologue
     .line 51
-    iget-object v0, p0, Lkik/android/gifs/vm/ae;->a:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/ae;->a:Lrx/subjects/a;
 
-    invoke-static {}, Lkik/android/gifs/vm/ag;->a()Lrx/functions/g;
+    invoke-static {}, Lkik/arcane/gifs/vm/ag;->a()Lrx/functions/g;
 
     move-result-object v1
 
@@ -183,9 +183,9 @@
 
     .prologue
     .line 60
-    iget-object v0, p0, Lkik/android/gifs/vm/ae;->a:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/ae;->a:Lrx/subjects/a;
 
-    invoke-static {}, Lkik/android/gifs/vm/ah;->a()Lrx/functions/g;
+    invoke-static {}, Lkik/arcane/gifs/vm/ah;->a()Lrx/functions/g;
 
     move-result-object v1
 
@@ -216,9 +216,9 @@
 
     .prologue
     .line 69
-    iget-object v0, p0, Lkik/android/gifs/vm/ae;->a:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/ae;->a:Lrx/subjects/a;
 
-    invoke-static {}, Lkik/android/gifs/vm/ai;->a()Lrx/functions/g;
+    invoke-static {}, Lkik/arcane/gifs/vm/ai;->a()Lrx/functions/g;
 
     move-result-object v1
 

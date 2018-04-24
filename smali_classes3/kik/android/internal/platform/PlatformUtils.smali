@@ -1,4 +1,4 @@
-.class public final Lkik/android/internal/platform/PlatformUtils;
+.class public final Lkik/arcane/internal/platform/PlatformUtils;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,8 +6,8 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/internal/platform/PlatformUtils$a;,
-        Lkik/android/internal/platform/PlatformUtils$ContentMessageException;
+        Lkik/arcane/internal/platform/PlatformUtils$a;,
+        Lkik/arcane/internal/platform/PlatformUtils$ContentMessageException;
     }
 .end annotation
 
@@ -28,7 +28,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/internal/platform/PlatformUtils;->a:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/internal/platform/PlatformUtils;->a:Lorg/slf4j/b;
 
     return-void
 .end method
@@ -76,7 +76,7 @@
 
     invoke-direct {v4, p0, v5}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    invoke-static {v4}, Lkik/android/internal/platform/PlatformUtils;->a(Ljava/io/File;)J
+    invoke-static {v4}, Lkik/arcane/internal/platform/PlatformUtils;->a(Ljava/io/File;)J
 
     move-result-wide v4
 
@@ -117,22 +117,22 @@
 
     .prologue
     .line 131
-    new-instance v0, Lkik/android/internal/platform/PlatformUtils$a;
+    new-instance v0, Lkik/arcane/internal/platform/PlatformUtils$a;
 
-    invoke-direct {v0, p1}, Lkik/android/internal/platform/PlatformUtils$a;-><init>(Lcom/kik/cache/KikVolleyImageLoader;)V
+    invoke-direct {v0, p1}, Lkik/arcane/internal/platform/PlatformUtils$a;-><init>(Lcom/kik/cache/KikVolleyImageLoader;)V
 
     .line 132
-    invoke-virtual {v0, p0}, Lkik/android/internal/platform/PlatformUtils$a;->a(Lcom/kik/cards/web/kik/KikMessageParcelable;)V
+    invoke-virtual {v0, p0}, Lkik/arcane/internal/platform/PlatformUtils$a;->a(Lcom/kik/cards/web/kik/KikMessageParcelable;)V
 
     .line 133
     const/4 v1, 0x0
 
     new-array v1, v1, [Ljava/lang/Void;
 
-    invoke-virtual {v0, v1}, Lkik/android/internal/platform/PlatformUtils$a;->a([Ljava/lang/Object;)Landroid/os/AsyncTask;
+    invoke-virtual {v0, v1}, Lkik/arcane/internal/platform/PlatformUtils$a;->a([Ljava/lang/Object;)Landroid/os/AsyncTask;
 
     .line 134
-    invoke-virtual {v0}, Lkik/android/internal/platform/PlatformUtils$a;->a()Lcom/kik/events/Promise;
+    invoke-virtual {v0}, Lkik/arcane/internal/platform/PlatformUtils$a;->a()Lcom/kik/events/Promise;
 
     move-result-object v0
 
@@ -156,22 +156,22 @@
 
     .prologue
     .line 139
-    new-instance v0, Lkik/android/internal/platform/PlatformUtils$a;
+    new-instance v0, Lkik/arcane/internal/platform/PlatformUtils$a;
 
-    invoke-direct {v0, p1}, Lkik/android/internal/platform/PlatformUtils$a;-><init>(Lcom/kik/cache/KikVolleyImageLoader;)V
+    invoke-direct {v0, p1}, Lkik/arcane/internal/platform/PlatformUtils$a;-><init>(Lcom/kik/cache/KikVolleyImageLoader;)V
 
     .line 140
-    invoke-virtual {v0, p0}, Lkik/android/internal/platform/PlatformUtils$a;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;)V
+    invoke-virtual {v0, p0}, Lkik/arcane/internal/platform/PlatformUtils$a;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;)V
 
     .line 141
     const/4 v1, 0x0
 
     new-array v1, v1, [Ljava/lang/Void;
 
-    invoke-virtual {v0, v1}, Lkik/android/internal/platform/PlatformUtils$a;->a([Ljava/lang/Object;)Landroid/os/AsyncTask;
+    invoke-virtual {v0, v1}, Lkik/arcane/internal/platform/PlatformUtils$a;->a([Ljava/lang/Object;)Landroid/os/AsyncTask;
 
     .line 142
-    invoke-virtual {v0}, Lkik/android/internal/platform/PlatformUtils$a;->a()Lcom/kik/events/Promise;
+    invoke-virtual {v0}, Lkik/arcane/internal/platform/PlatformUtils$a;->a()Lcom/kik/events/Promise;
 
     move-result-object v0
 
@@ -259,7 +259,7 @@
     aget-object v3, v1, v0
 
     .line 202
-    invoke-static {v3}, Lkik/android/internal/platform/PlatformUtils;->b(Ljava/io/File;)V
+    invoke-static {v3}, Lkik/arcane/internal/platform/PlatformUtils;->b(Ljava/io/File;)V
 
     .line 201
     add-int/lit8 v0, v0, 0x1

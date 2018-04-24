@@ -1,11 +1,11 @@
-.class final Lkik/android/b/h$a;
-.super Lkik/android/i/c;
+.class final Lkik/arcane/b/h$a;
+.super Lkik/arcane/i/c;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/b/h;
+    value = Lkik/arcane/b/h;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,23 +15,23 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/b/h;
+.field final synthetic a:Lkik/arcane/b/h;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/b/h;Landroid/content/Context;Ljava/lang/String;)V
+.method public constructor <init>(Lkik/arcane/b/h;Landroid/content/Context;Ljava/lang/String;)V
     .locals 2
 
     .prologue
     .line 36
-    iput-object p1, p0, Lkik/android/b/h$a;->a:Lkik/android/b/h;
+    iput-object p1, p0, Lkik/arcane/b/h$a;->a:Lkik/arcane/b/h;
 
     .line 37
     const-string v0, "appTable"
 
     const/4 v1, 0x7
 
-    invoke-direct {p0, p2, v0, v1, p3}, Lkik/android/i/c;-><init>(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
+    invoke-direct {p0, p2, v0, v1, p3}, Lkik/arcane/i/c;-><init>(Landroid/content/Context;Ljava/lang/String;ILjava/lang/String;)V
 
     .line 38
     return-void

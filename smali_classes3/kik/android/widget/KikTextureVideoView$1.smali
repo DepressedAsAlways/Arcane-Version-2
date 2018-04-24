@@ -1,4 +1,4 @@
-.class final Lkik/android/widget/KikTextureVideoView$1;
+.class final Lkik/arcane/widget/KikTextureVideoView$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/KikTextureVideoView;->h()V
+    value = Lkik/arcane/widget/KikTextureVideoView;->h()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/KikTextureVideoView;
+.field final synthetic a:Lkik/arcane/widget/KikTextureVideoView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/KikTextureVideoView;)V
+.method constructor <init>(Lkik/arcane/widget/KikTextureVideoView;)V
     .locals 0
 
     .prologue
     .line 277
-    iput-object p1, p0, Lkik/android/widget/KikTextureVideoView$1;->a:Lkik/android/widget/KikTextureVideoView;
+    iput-object p1, p0, Lkik/arcane/widget/KikTextureVideoView$1;->a:Lkik/arcane/widget/KikTextureVideoView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,20 +41,20 @@
 
     .prologue
     .line 281
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView$1;->a:Lkik/android/widget/KikTextureVideoView;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView$1;->a:Lkik/arcane/widget/KikTextureVideoView;
 
-    invoke-static {v0}, Lkik/android/widget/KikTextureVideoView;->a(Lkik/android/widget/KikTextureVideoView;)Lkik/android/widget/KikTextureVideoView$VideoType;
+    invoke-static {v0}, Lkik/arcane/widget/KikTextureVideoView;->a(Lkik/arcane/widget/KikTextureVideoView;)Lkik/arcane/widget/KikTextureVideoView$VideoType;
 
     move-result-object v0
 
-    sget-object v1, Lkik/android/widget/KikTextureVideoView$VideoType;->GIF:Lkik/android/widget/KikTextureVideoView$VideoType;
+    sget-object v1, Lkik/arcane/widget/KikTextureVideoView$VideoType;->GIF:Lkik/arcane/widget/KikTextureVideoView$VideoType;
 
     if-eq v0, v1, :cond_0
 
     .line 282
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView$1;->a:Lkik/android/widget/KikTextureVideoView;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView$1;->a:Lkik/arcane/widget/KikTextureVideoView;
 
-    invoke-static {v0}, Lkik/android/widget/KikTextureVideoView;->b(Lkik/android/widget/KikTextureVideoView;)Landroid/media/MediaPlayer;
+    invoke-static {v0}, Lkik/arcane/widget/KikTextureVideoView;->b(Lkik/arcane/widget/KikTextureVideoView;)Landroid/media/MediaPlayer;
 
     move-result-object v0
 
@@ -64,9 +64,9 @@
 
     .line 284
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView$1;->a:Lkik/android/widget/KikTextureVideoView;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView$1;->a:Lkik/arcane/widget/KikTextureVideoView;
 
-    invoke-static {v0}, Lkik/android/widget/KikTextureVideoView;->b(Lkik/android/widget/KikTextureVideoView;)Landroid/media/MediaPlayer;
+    invoke-static {v0}, Lkik/arcane/widget/KikTextureVideoView;->b(Lkik/arcane/widget/KikTextureVideoView;)Landroid/media/MediaPlayer;
 
     move-result-object v0
 
@@ -75,24 +75,24 @@
     invoke-virtual {v0, v1}, Landroid/media/MediaPlayer;->setScreenOnWhilePlaying(Z)V
 
     .line 285
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView$1;->a:Lkik/android/widget/KikTextureVideoView;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView$1;->a:Lkik/arcane/widget/KikTextureVideoView;
 
-    invoke-static {v0}, Lkik/android/widget/KikTextureVideoView;->c(Lkik/android/widget/KikTextureVideoView;)Landroid/media/MediaPlayer$OnPreparedListener;
+    invoke-static {v0}, Lkik/arcane/widget/KikTextureVideoView;->c(Lkik/arcane/widget/KikTextureVideoView;)Landroid/media/MediaPlayer$OnPreparedListener;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
     .line 286
-    iget-object v0, p0, Lkik/android/widget/KikTextureVideoView$1;->a:Lkik/android/widget/KikTextureVideoView;
+    iget-object v0, p0, Lkik/arcane/widget/KikTextureVideoView$1;->a:Lkik/arcane/widget/KikTextureVideoView;
 
-    invoke-static {v0}, Lkik/android/widget/KikTextureVideoView;->c(Lkik/android/widget/KikTextureVideoView;)Landroid/media/MediaPlayer$OnPreparedListener;
+    invoke-static {v0}, Lkik/arcane/widget/KikTextureVideoView;->c(Lkik/arcane/widget/KikTextureVideoView;)Landroid/media/MediaPlayer$OnPreparedListener;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/widget/KikTextureVideoView$1;->a:Lkik/android/widget/KikTextureVideoView;
+    iget-object v1, p0, Lkik/arcane/widget/KikTextureVideoView$1;->a:Lkik/arcane/widget/KikTextureVideoView;
 
-    invoke-static {v1}, Lkik/android/widget/KikTextureVideoView;->b(Lkik/android/widget/KikTextureVideoView;)Landroid/media/MediaPlayer;
+    invoke-static {v1}, Lkik/arcane/widget/KikTextureVideoView;->b(Lkik/arcane/widget/KikTextureVideoView;)Landroid/media/MediaPlayer;
 
     move-result-object v1
 

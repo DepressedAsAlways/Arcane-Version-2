@@ -8,7 +8,7 @@
     value = {
         "Lcom/kik/view/adapters/a",
         "<",
-        "Lkik/android/chat/vm/a/f;",
+        "Lkik/arcane/chat/vm/a/f;",
         ">;"
     }
 .end annotation
@@ -28,7 +28,7 @@
 
 .field protected b:Lcom/kik/cache/KikVolleyImageLoader;
 
-.field protected c:Lcom/kik/android/Mixpanel;
+.field protected c:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -47,7 +47,7 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Ljava/util/ArrayList;Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+.method public constructor <init>(Landroid/content/Context;Ljava/util/ArrayList;Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -58,7 +58,7 @@
             "Lkik/core/datatypes/GroupContactInfoHolder;",
             ">;",
             "Lcom/kik/components/CoreComponent;",
-            "Lkik/android/chat/vm/bd;",
+            "Lkik/arcane/chat/vm/bd;",
             ")V"
         }
     .end annotation
@@ -77,13 +77,13 @@
 
     move-object v4, p4
 
-    invoke-direct/range {v0 .. v5}, Lcom/kik/view/adapters/p;-><init>(Landroid/content/Context;Ljava/util/ArrayList;Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;Lkik/core/datatypes/MemberPermissions$Type;)V
+    invoke-direct/range {v0 .. v5}, Lcom/kik/view/adapters/p;-><init>(Landroid/content/Context;Ljava/util/ArrayList;Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;Lkik/core/datatypes/MemberPermissions$Type;)V
 
     .line 43
     return-void
 .end method
 
-.method public constructor <init>(Landroid/content/Context;Ljava/util/ArrayList;Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;Lkik/core/datatypes/MemberPermissions$Type;)V
+.method public constructor <init>(Landroid/content/Context;Ljava/util/ArrayList;Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;Lkik/core/datatypes/MemberPermissions$Type;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -94,7 +94,7 @@
             "Lkik/core/datatypes/GroupContactInfoHolder;",
             ">;",
             "Lcom/kik/components/CoreComponent;",
-            "Lkik/android/chat/vm/bd;",
+            "Lkik/arcane/chat/vm/bd;",
             "Lkik/core/datatypes/MemberPermissions$Type;",
             ")V"
         }
@@ -102,11 +102,11 @@
 
     .prologue
     .line 51
-    new-instance v0, Lkik/android/chat/vm/a/d;
+    new-instance v0, Lkik/arcane/chat/vm/a/d;
 
-    invoke-direct {v0, p2}, Lkik/android/chat/vm/a/d;-><init>(Ljava/util/List;)V
+    invoke-direct {v0, p2}, Lkik/arcane/chat/vm/a/d;-><init>(Ljava/util/List;)V
 
-    invoke-direct {p0, p1, v0, p3, p4}, Lcom/kik/view/adapters/a;-><init>(Landroid/content/Context;Lkik/android/chat/vm/IListViewModel;Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+    invoke-direct {p0, p1, v0, p3, p4}, Lcom/kik/view/adapters/a;-><init>(Landroid/content/Context;Lkik/arcane/chat/vm/IListViewModel;Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
 
     .line 52
     invoke-interface {p3, p0}, Lcom/kik/components/CoreComponent;->a(Lcom/kik/view/adapters/p;)V
@@ -245,9 +245,9 @@
 
     iget-object v4, p0, Lcom/kik/view/adapters/p;->d:Lkik/core/interfaces/v;
 
-    iget-object v5, p0, Lcom/kik/view/adapters/p;->c:Lcom/kik/android/Mixpanel;
+    iget-object v5, p0, Lcom/kik/view/adapters/p;->c:Lcom/kik/arcane/Mixpanel;
 
-    invoke-virtual {v1, v3, v2, v4, v5}, Lcom/kik/cache/ContactImageView;->a(Lkik/core/datatypes/l;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/v;Lcom/kik/android/Mixpanel;)V
+    invoke-virtual {v1, v3, v2, v4, v5}, Lcom/kik/cache/ContactImageView;->a(Lkik/core/datatypes/l;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/v;Lcom/kik/arcane/Mixpanel;)V
 
     .line 84
     invoke-virtual {v3}, Lkik/core/datatypes/l;->f()Z

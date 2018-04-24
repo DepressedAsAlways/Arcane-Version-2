@@ -4,11 +4,11 @@
 
 
 # instance fields
-.field private final a:Lcom/kik/android/b/g;
+.field private final a:Lcom/kik/arcane/b/g;
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lkik/core/e/f;Lkik/core/interfaces/ad;Lcom/kik/events/Promise;Lkik/core/interfaces/ag;Lkik/core/interfaces/z;Lkik/android/util/aj;Lkik/core/interfaces/s;)V
+.method public constructor <init>(Landroid/content/Context;Lkik/core/e/f;Lkik/core/interfaces/ad;Lcom/kik/events/Promise;Lkik/core/interfaces/ag;Lkik/core/interfaces/z;Lkik/arcane/util/aj;Lkik/core/interfaces/s;)V
     .locals 9
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -22,7 +22,7 @@
             ">;",
             "Lkik/core/interfaces/ag;",
             "Lkik/core/interfaces/z;",
-            "Lkik/android/util/aj;",
+            "Lkik/arcane/util/aj;",
             "Lkik/core/interfaces/s;",
             ")V"
         }
@@ -33,7 +33,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 29
-    new-instance v0, Lcom/kik/android/b/g;
+    new-instance v0, Lcom/kik/arcane/b/g;
 
     move-object v1, p1
 
@@ -51,9 +51,9 @@
 
     move-object/from16 v8, p8
 
-    invoke-direct/range {v0 .. v8}, Lcom/kik/android/b/g;-><init>(Landroid/content/Context;Lkik/core/e/f;Lkik/core/interfaces/ad;Lcom/kik/events/Promise;Lkik/core/interfaces/ag;Lkik/core/interfaces/z;Lkik/android/util/aj;Lkik/core/interfaces/s;)V
+    invoke-direct/range {v0 .. v8}, Lcom/kik/arcane/b/g;-><init>(Landroid/content/Context;Lkik/core/e/f;Lkik/core/interfaces/ad;Lcom/kik/events/Promise;Lkik/core/interfaces/ag;Lkik/core/interfaces/z;Lkik/arcane/util/aj;Lkik/core/interfaces/s;)V
 
-    iput-object v0, p0, Lcom/kik/modules/dl;->a:Lcom/kik/android/b/g;
+    iput-object v0, p0, Lcom/kik/modules/dl;->a:Lcom/kik/arcane/b/g;
 
     .line 30
     return-void
@@ -61,14 +61,14 @@
 
 
 # virtual methods
-.method final a()Lcom/kik/android/b/g;
+.method final a()Lcom/kik/arcane/b/g;
     .locals 1
     .annotation runtime Ljavax/inject/Singleton;
     .end annotation
 
     .prologue
     .line 36
-    iget-object v0, p0, Lcom/kik/modules/dl;->a:Lcom/kik/android/b/g;
+    iget-object v0, p0, Lcom/kik/modules/dl;->a:Lcom/kik/arcane/b/g;
 
     return-object v0
 .end method

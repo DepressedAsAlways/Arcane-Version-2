@@ -1,11 +1,11 @@
-.class final Lkik/android/g$1;
+.class final Lkik/arcane/g$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/g;->a(Landroid/net/Uri;Landroid/content/Context;)Lcom/kik/events/Promise;
+    value = Lkik/arcane/g;->a(Landroid/net/Uri;Landroid/content/Context;)Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/g;
+.field final synthetic a:Lkik/arcane/g;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/g;)V
+.method constructor <init>(Lkik/arcane/g;)V
     .locals 0
 
     .prologue
     .line 44
-    iput-object p1, p0, Lkik/android/g$1;->a:Lkik/android/g;
+    iput-object p1, p0, Lkik/arcane/g$1;->a:Lkik/arcane/g;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -47,9 +47,9 @@
 
     .prologue
     .line 48
-    iget-object v0, p0, Lkik/android/g$1;->a:Lkik/android/g;
+    iget-object v0, p0, Lkik/arcane/g$1;->a:Lkik/arcane/g;
 
-    invoke-static {v0}, Lkik/android/g;->a(Lkik/android/g;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/g;->a(Lkik/arcane/g;)Ljava/lang/String;
 
     .line 49
     return-void

@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/view/ValidateableInputView$4;
+.class final Lkik/arcane/chat/view/ValidateableInputView$4;
 .super Landroid/animation/AnimatorListenerAdapter;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/view/ValidateableInputView;
+    value = Lkik/arcane/chat/view/ValidateableInputView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/view/ValidateableInputView;
+.field final synthetic a:Lkik/arcane/chat/view/ValidateableInputView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/view/ValidateableInputView;)V
+.method constructor <init>(Lkik/arcane/chat/view/ValidateableInputView;)V
     .locals 0
 
     .prologue
     .line 1044
-    iput-object p1, p0, Lkik/android/chat/view/ValidateableInputView$4;->a:Lkik/android/chat/view/ValidateableInputView;
+    iput-object p1, p0, Lkik/arcane/chat/view/ValidateableInputView$4;->a:Lkik/arcane/chat/view/ValidateableInputView;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
@@ -44,13 +44,13 @@
 
     const/4 v1, 0x0
 
-    iget-object v2, p0, Lkik/android/chat/view/ValidateableInputView$4;->a:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v2, p0, Lkik/arcane/chat/view/ValidateableInputView$4;->a:Lkik/arcane/chat/view/ValidateableInputView;
 
-    iget-object v2, v2, Lkik/android/chat/view/ValidateableInputView;->_clearTextButton:Landroid/view/View;
+    iget-object v2, v2, Lkik/arcane/chat/view/ValidateableInputView;->_clearTextButton:Landroid/view/View;
 
     aput-object v2, v0, v1
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 1049
     return-void

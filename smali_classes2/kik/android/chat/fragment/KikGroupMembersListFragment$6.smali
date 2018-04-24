@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/KikGroupMembersListFragment$6;
+.class final Lkik/arcane/chat/fragment/KikGroupMembersListFragment$6;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/KikGroupMembersListFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    value = Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikGroupMembersListFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikGroupMembersListFragment;)V
     .locals 0
 
     .prologue
     .line 293
-    iput-object p1, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$6;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$6;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -50,9 +50,9 @@
 
     .prologue
     .line 297
-    iget-object v0, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$6;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$6;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/KikGroupMembersListFragment;->_groupMembersList:Landroid/widget/ListView;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->_groupMembersList:Landroid/widget/ListView;
 
     invoke-virtual {v0, p3}, Landroid/widget/ListView;->getItemAtPosition(I)Ljava/lang/Object;
 
@@ -61,12 +61,12 @@
     .line 298
     if-eqz v0, :cond_0
 
-    instance-of v1, v0, Lkik/android/chat/vm/a/c;
+    instance-of v1, v0, Lkik/arcane/chat/vm/a/c;
 
     if-eqz v1, :cond_0
 
     .line 299
-    check-cast v0, Lkik/android/chat/vm/a/c;
+    check-cast v0, Lkik/arcane/chat/vm/a/c;
 
     .line 300
     const v1, 0x7f100113
@@ -80,14 +80,14 @@
 
     .line 306
     :goto_0
-    invoke-virtual {v0}, Lkik/android/chat/vm/a/c;->e()Lkik/core/datatypes/GroupContactInfoHolder;
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/a/c;->e()Lkik/core/datatypes/GroupContactInfoHolder;
 
     move-result-object v0
 
     .line 307
-    iget-object v1, p0, Lkik/android/chat/fragment/KikGroupMembersListFragment$6;->a:Lkik/android/chat/fragment/KikGroupMembersListFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikGroupMembersListFragment$6;->a:Lkik/arcane/chat/fragment/KikGroupMembersListFragment;
 
-    invoke-static {v1, p2, v0}, Lkik/android/chat/fragment/KikGroupMembersListFragment;->a(Lkik/android/chat/fragment/KikGroupMembersListFragment;Landroid/view/View;Lkik/core/datatypes/GroupContactInfoHolder;)V
+    invoke-static {v1, p2, v0}, Lkik/arcane/chat/fragment/KikGroupMembersListFragment;->a(Lkik/arcane/chat/fragment/KikGroupMembersListFragment;Landroid/view/View;Lkik/core/datatypes/GroupContactInfoHolder;)V
 
     .line 309
     :cond_0

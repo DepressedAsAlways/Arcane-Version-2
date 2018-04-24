@@ -1,11 +1,11 @@
-.class public interface abstract Lkik/android/widget/ExpandingTextView$a;
+.class public interface abstract Lkik/arcane/widget/ExpandingTextView$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/ExpandingTextView;
+    value = Lkik/arcane/widget/ExpandingTextView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

@@ -1,11 +1,11 @@
-.class final Lkik/android/gifs/vm/a$1;
+.class final Lkik/arcane/gifs/vm/a$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/gifs/vm/a;->a(Lkik/android/gifs/vm/a;Lrx/j;)V
+    value = Lkik/arcane/gifs/vm/a;->a(Lkik/arcane/gifs/vm/a;Lrx/j;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,7 +17,7 @@
     value = {
         "Lcom/kik/events/k",
         "<",
-        "Lkik/android/gifs/view/c;",
+        "Lkik/arcane/gifs/view/c;",
         ">;"
     }
 .end annotation
@@ -26,18 +26,18 @@
 # instance fields
 .field final synthetic a:Lrx/j;
 
-.field final synthetic b:Lkik/android/gifs/vm/a;
+.field final synthetic b:Lkik/arcane/gifs/vm/a;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/gifs/vm/a;Lrx/j;)V
+.method constructor <init>(Lkik/arcane/gifs/vm/a;Lrx/j;)V
     .locals 0
 
     .prologue
     .line 56
-    iput-object p1, p0, Lkik/android/gifs/vm/a$1;->b:Lkik/android/gifs/vm/a;
+    iput-object p1, p0, Lkik/arcane/gifs/vm/a$1;->b:Lkik/arcane/gifs/vm/a;
 
-    iput-object p2, p0, Lkik/android/gifs/vm/a$1;->a:Lrx/j;
+    iput-object p2, p0, Lkik/arcane/gifs/vm/a$1;->a:Lrx/j;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -51,7 +51,7 @@
 
     .prologue
     .line 56
-    check-cast p1, Lkik/android/gifs/view/c;
+    check-cast p1, Lkik/arcane/gifs/view/c;
 
     .line 1060
     if-eqz p1, :cond_0
@@ -59,27 +59,27 @@
     .line 1061
     const/4 v0, 0x0
 
-    invoke-virtual {p1, v0}, Lkik/android/gifs/view/c;->getFrame(I)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p1, v0}, Lkik/arcane/gifs/view/c;->getFrame(I)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
     .line 1063
-    iget-object v1, p0, Lkik/android/gifs/vm/a$1;->b:Lkik/android/gifs/vm/a;
+    iget-object v1, p0, Lkik/arcane/gifs/vm/a$1;->b:Lkik/arcane/gifs/vm/a;
 
-    invoke-static {v1}, Lkik/android/gifs/vm/a;->a(Lkik/android/gifs/vm/a;)Lrx/functions/b;
+    invoke-static {v1}, Lkik/arcane/gifs/vm/a;->a(Lkik/arcane/gifs/vm/a;)Lrx/functions/b;
 
     move-result-object v1
 
     invoke-interface {v1, v0}, Lrx/functions/b;->call(Ljava/lang/Object;)V
 
     .line 1064
-    iget-object v1, p0, Lkik/android/gifs/vm/a$1;->b:Lkik/android/gifs/vm/a;
+    iget-object v1, p0, Lkik/arcane/gifs/vm/a$1;->b:Lkik/arcane/gifs/vm/a;
 
-    invoke-static {v1, v0}, Lkik/android/gifs/vm/a;->a(Lkik/android/gifs/vm/a;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
+    invoke-static {v1, v0}, Lkik/arcane/gifs/vm/a;->a(Lkik/arcane/gifs/vm/a;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     .line 1066
     :cond_0
-    iget-object v0, p0, Lkik/android/gifs/vm/a$1;->a:Lrx/j;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/a$1;->a:Lrx/j;
 
     invoke-virtual {v0, p1}, Lrx/j;->a(Ljava/lang/Object;)V
 

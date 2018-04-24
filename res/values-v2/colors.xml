@@ -9,9 +9,13 @@
 	<color name="tab">#ff262626</color>
 	<color name="divider">#ff202020</color>
 	<color name="fab_buttons">#ff1d1d1d</color>
-	<color name="fab_shadows">#66212121</color>
+	<color name="fab_shadow">#66212121</color>
 	<color name="incoming_bubble_color">#ffffffff</color>
 	<color name="kinky_chat_background">@color/bg</color>
 	<color name="sub_section_background">@color/bg</color>
 	<color name="sub_section_text">#ffeeeeee</color>
+	<color name="arcane_black">#ff000000</color>
+	<color name="arcane_white">#ffffffff</color>
+	<color name="arcane_grey">#ffb2b2b2</color>
+<!-- skidding arcane is a bitch -->
 </resources>

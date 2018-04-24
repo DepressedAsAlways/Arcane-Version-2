@@ -1,11 +1,11 @@
-.class public Lkik/android/internal/platform/PlatformUtils$ContentMessageException;
+.class public Lkik/arcane/internal/platform/PlatformUtils$ContentMessageException;
 .super Ljava/lang/Exception;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/internal/platform/PlatformUtils;
+    value = Lkik/arcane/internal/platform/PlatformUtils;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,7 +27,7 @@
     invoke-direct {p0}, Ljava/lang/Exception;-><init>()V
 
     .line 99
-    iput p1, p0, Lkik/android/internal/platform/PlatformUtils$ContentMessageException;->_errorReason:I
+    iput p1, p0, Lkik/arcane/internal/platform/PlatformUtils$ContentMessageException;->_errorReason:I
 
     .line 100
     return-void
@@ -47,7 +47,7 @@
     move-result-object v0
 
     .line 106
-    iget v1, p0, Lkik/android/internal/platform/PlatformUtils$ContentMessageException;->_errorReason:I
+    iget v1, p0, Lkik/arcane/internal/platform/PlatformUtils$ContentMessageException;->_errorReason:I
 
     packed-switch v1, :pswitch_data_0
 

@@ -1,14 +1,14 @@
-.class final Lkik/android/chat/vm/conversations/emptyview/c$1$1;
+.class final Lkik/arcane/chat/vm/conversations/emptyview/c$1$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/bi;
+.implements Lkik/arcane/chat/vm/bi;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/conversations/emptyview/c$1;
+    value = Lkik/arcane/chat/vm/conversations/emptyview/c$1;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Ljava/lang/Boolean;
 
-.field final synthetic b:Lkik/android/chat/vm/conversations/emptyview/c$1;
+.field final synthetic b:Lkik/arcane/chat/vm/conversations/emptyview/c$1;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/conversations/emptyview/c$1;Ljava/lang/Boolean;)V
+.method constructor <init>(Lkik/arcane/chat/vm/conversations/emptyview/c$1;Ljava/lang/Boolean;)V
     .locals 0
 
     .prologue
     .line 42
-    iput-object p1, p0, Lkik/android/chat/vm/conversations/emptyview/c$1$1;->b:Lkik/android/chat/vm/conversations/emptyview/c$1;
+    iput-object p1, p0, Lkik/arcane/chat/vm/conversations/emptyview/c$1$1;->b:Lkik/arcane/chat/vm/conversations/emptyview/c$1;
 
-    iput-object p2, p0, Lkik/android/chat/vm/conversations/emptyview/c$1$1;->a:Ljava/lang/Boolean;
+    iput-object p2, p0, Lkik/arcane/chat/vm/conversations/emptyview/c$1$1;->a:Ljava/lang/Boolean;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -65,7 +65,7 @@
 
     .prologue
     .line 59
-    iget-object v0, p0, Lkik/android/chat/vm/conversations/emptyview/c$1$1;->a:Ljava/lang/Boolean;
+    iget-object v0, p0, Lkik/arcane/chat/vm/conversations/emptyview/c$1$1;->a:Ljava/lang/Boolean;
 
     invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
 

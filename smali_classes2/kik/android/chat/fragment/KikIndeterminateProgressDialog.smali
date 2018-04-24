@@ -1,12 +1,12 @@
-.class public Lkik/android/chat/fragment/KikIndeterminateProgressDialog;
-.super Lkik/android/chat/fragment/KikDialogFragment;
+.class public Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog;
+.super Lkik/arcane/chat/fragment/KikDialogFragment;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;
+        Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;
     }
 .end annotation
 
@@ -17,7 +17,7 @@
 
     .prologue
     .line 22
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikDialogFragment;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikDialogFragment;-><init>()V
 
     return-void
 .end method

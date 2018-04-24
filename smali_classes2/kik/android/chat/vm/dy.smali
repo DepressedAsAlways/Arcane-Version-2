@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/dy;
+.class final synthetic Lkik/arcane/chat/vm/dy;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -15,7 +15,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/vm/dy;->a:Lcom/kik/cache/SimpleUrlRequest;
+    iput-object p1, p0, Lkik/arcane/chat/vm/dy;->a:Lcom/kik/cache/SimpleUrlRequest;
 
     return-void
 .end method
@@ -23,9 +23,9 @@
 .method public static a(Lcom/kik/cache/SimpleUrlRequest;)Lrx/functions/e;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/dy;
+    new-instance v0, Lkik/arcane/chat/vm/dy;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/vm/dy;-><init>(Lcom/kik/cache/SimpleUrlRequest;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/vm/dy;-><init>(Lcom/kik/cache/SimpleUrlRequest;)V
 
     return-object v0
 .end method
@@ -37,7 +37,7 @@
 
     .prologue
     .line 0
-    iget-object v0, p0, Lkik/android/chat/vm/dy;->a:Lcom/kik/cache/SimpleUrlRequest;
+    iget-object v0, p0, Lkik/arcane/chat/vm/dy;->a:Lcom/kik/cache/SimpleUrlRequest;
 
     .line 1173
     invoke-virtual {v0}, Lcom/kik/cache/SimpleUrlRequest;->cancel()V

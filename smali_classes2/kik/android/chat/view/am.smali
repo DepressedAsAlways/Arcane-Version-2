@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/view/am;
+.class final synthetic Lkik/arcane/chat/view/am;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/view/am;
+.field private static final a:Lkik/arcane/chat/view/am;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/view/am;
+    new-instance v0, Lkik/arcane/chat/view/am;
 
-    invoke-direct {v0}, Lkik/android/chat/view/am;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/view/am;-><init>()V
 
-    sput-object v0, Lkik/android/chat/view/am;->a:Lkik/android/chat/view/am;
+    sput-object v0, Lkik/arcane/chat/view/am;->a:Lkik/arcane/chat/view/am;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lrx/functions/g;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/view/am;->a:Lkik/android/chat/view/am;
+    sget-object v0, Lkik/arcane/chat/view/am;->a:Lkik/arcane/chat/view/am;
 
     return-object v0
 .end method
@@ -45,7 +45,7 @@
 
     check-cast p1, Lcom/jakewharton/a/c/b;
 
-    invoke-static {p1}, Lkik/android/chat/view/ValidateableInputView;->a(Lcom/jakewharton/a/c/b;)Ljava/lang/String;
+    invoke-static {p1}, Lkik/arcane/chat/view/ValidateableInputView;->a(Lcom/jakewharton/a/c/b;)Ljava/lang/String;
 
     move-result-object v0
 

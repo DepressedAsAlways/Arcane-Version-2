@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/p;
+.class public final Lkik/arcane/chat/p;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lkik/android/chat/m;",
+        "Lkik/arcane/chat/m;",
         ">;"
     }
 .end annotation
@@ -74,7 +74,7 @@
 
     .prologue
     .line 11
-    const-class v0, Lkik/android/chat/p;
+    const-class v0, Lkik/arcane/chat/p;
 
     invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
 
@@ -85,7 +85,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    sput-boolean v0, Lkik/android/chat/p;->a:Z
+    sput-boolean v0, Lkik/arcane/chat/p;->a:Z
 
     return-void
 
@@ -124,7 +124,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 29
-    sget-boolean v0, Lkik/android/chat/p;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/p;->a:Z
 
     if-nez v0, :cond_0
 
@@ -138,10 +138,10 @@
 
     .line 30
     :cond_0
-    iput-object p1, p0, Lkik/android/chat/p;->b:Ljavax/inject/Provider;
+    iput-object p1, p0, Lkik/arcane/chat/p;->b:Ljavax/inject/Provider;
 
     .line 31
-    sget-boolean v0, Lkik/android/chat/p;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/p;->a:Z
 
     if-nez v0, :cond_1
 
@@ -155,10 +155,10 @@
 
     .line 32
     :cond_1
-    iput-object p2, p0, Lkik/android/chat/p;->c:Ljavax/inject/Provider;
+    iput-object p2, p0, Lkik/arcane/chat/p;->c:Ljavax/inject/Provider;
 
     .line 33
-    sget-boolean v0, Lkik/android/chat/p;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/p;->a:Z
 
     if-nez v0, :cond_2
 
@@ -172,10 +172,10 @@
 
     .line 34
     :cond_2
-    iput-object p3, p0, Lkik/android/chat/p;->d:Ljavax/inject/Provider;
+    iput-object p3, p0, Lkik/arcane/chat/p;->d:Ljavax/inject/Provider;
 
     .line 35
-    sget-boolean v0, Lkik/android/chat/p;->a:Z
+    sget-boolean v0, Lkik/arcane/chat/p;->a:Z
 
     if-nez v0, :cond_3
 
@@ -189,7 +189,7 @@
 
     .line 36
     :cond_3
-    iput-object p4, p0, Lkik/android/chat/p;->e:Ljavax/inject/Provider;
+    iput-object p4, p0, Lkik/arcane/chat/p;->e:Ljavax/inject/Provider;
 
     .line 37
     return-void
@@ -218,16 +218,16 @@
             ">;)",
             "Ldagger/internal/b",
             "<",
-            "Lkik/android/chat/m;",
+            "Lkik/arcane/chat/m;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 53
-    new-instance v0, Lkik/android/chat/p;
+    new-instance v0, Lkik/arcane/chat/p;
 
-    invoke-direct {v0, p0, p1, p2, p3}, Lkik/android/chat/p;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
+    invoke-direct {v0, p0, p1, p2, p3}, Lkik/arcane/chat/p;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
 
     return-object v0
 .end method
@@ -240,9 +240,9 @@
     .prologue
     .line 11
     .line 1041
-    new-instance v4, Lkik/android/chat/m;
+    new-instance v4, Lkik/arcane/chat/m;
 
-    iget-object v0, p0, Lkik/android/chat/p;->b:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/p;->b:Ljavax/inject/Provider;
 
     .line 1042
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
@@ -251,7 +251,7 @@
 
     check-cast v0, Lcom/kik/storage/s;
 
-    iget-object v1, p0, Lkik/android/chat/p;->c:Ljavax/inject/Provider;
+    iget-object v1, p0, Lkik/arcane/chat/p;->c:Ljavax/inject/Provider;
 
     .line 1043
     invoke-interface {v1}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
@@ -260,7 +260,7 @@
 
     check-cast v1, Lkik/core/interfaces/ad;
 
-    iget-object v2, p0, Lkik/android/chat/p;->d:Ljavax/inject/Provider;
+    iget-object v2, p0, Lkik/arcane/chat/p;->d:Ljavax/inject/Provider;
 
     .line 1044
     invoke-interface {v2}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
@@ -269,7 +269,7 @@
 
     check-cast v2, Lkik/core/interfaces/v;
 
-    iget-object v3, p0, Lkik/android/chat/p;->e:Ljavax/inject/Provider;
+    iget-object v3, p0, Lkik/arcane/chat/p;->e:Ljavax/inject/Provider;
 
     .line 1045
     invoke-interface {v3}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
@@ -278,7 +278,7 @@
 
     check-cast v3, Lkik/core/interfaces/b;
 
-    invoke-direct {v4, v0, v1, v2, v3}, Lkik/android/chat/m;-><init>(Lcom/kik/storage/s;Lkik/core/interfaces/ad;Lkik/core/interfaces/v;Lkik/core/interfaces/b;)V
+    invoke-direct {v4, v0, v1, v2, v3}, Lkik/arcane/chat/m;-><init>(Lcom/kik/storage/s;Lkik/core/interfaces/ad;Lkik/core/interfaces/v;Lkik/core/interfaces/b;)V
 
     .line 11
     return-object v4

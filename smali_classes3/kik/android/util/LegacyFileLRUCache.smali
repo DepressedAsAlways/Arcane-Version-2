@@ -1,4 +1,4 @@
-.class public Lkik/android/util/LegacyFileLRUCache;
+.class public Lkik/arcane/util/LegacyFileLRUCache;
 .super Ljava/util/LinkedHashMap;
 .source "SourceFile"
 
@@ -48,7 +48,7 @@
     invoke-direct {p0, v0, v1, v4}, Ljava/util/LinkedHashMap;-><init>(IFZ)V
 
     .line 9
-    iput-boolean v4, p0, Lkik/android/util/LegacyFileLRUCache;->_limitedCache:Z
+    iput-boolean v4, p0, Lkik/arcane/util/LegacyFileLRUCache;->_limitedCache:Z
 
     .line 14
     if-gtz p1, :cond_0
@@ -56,11 +56,11 @@
     .line 15
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/util/LegacyFileLRUCache;->_limitedCache:Z
+    iput-boolean v0, p0, Lkik/arcane/util/LegacyFileLRUCache;->_limitedCache:Z
 
     .line 17
     :cond_0
-    iput p1, p0, Lkik/android/util/LegacyFileLRUCache;->_maxSize:I
+    iput p1, p0, Lkik/arcane/util/LegacyFileLRUCache;->_maxSize:I
 
     .line 18
     return-void
@@ -83,15 +83,15 @@
 
     .prologue
     .line 23
-    invoke-virtual {p0}, Lkik/android/util/LegacyFileLRUCache;->size()I
+    invoke-virtual {p0}, Lkik/arcane/util/LegacyFileLRUCache;->size()I
 
     move-result v0
 
-    iget v1, p0, Lkik/android/util/LegacyFileLRUCache;->_maxSize:I
+    iget v1, p0, Lkik/arcane/util/LegacyFileLRUCache;->_maxSize:I
 
     if-le v0, v1, :cond_0
 
-    iget-boolean v0, p0, Lkik/android/util/LegacyFileLRUCache;->_limitedCache:Z
+    iget-boolean v0, p0, Lkik/arcane/util/LegacyFileLRUCache;->_limitedCache:Z
 
     if-nez v0, :cond_1
 

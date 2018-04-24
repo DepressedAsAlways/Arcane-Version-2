@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/ProgressWheel;
+.class public Lkik/arcane/widget/ProgressWheel;
 .super Landroid/view/View;
 .source "SourceFile"
 
@@ -6,8 +6,8 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/ProgressWheel$a;,
-        Lkik/android/widget/ProgressWheel$WheelSavedState;
+        Lkik/arcane/widget/ProgressWheel$a;,
+        Lkik/arcane/widget/ProgressWheel$WheelSavedState;
     }
 .end annotation
 
@@ -68,7 +68,7 @@
 
 .field private y:Z
 
-.field private z:Lkik/android/widget/ProgressWheel$a;
+.field private z:Lkik/arcane/widget/ProgressWheel$a;
 
 
 # direct methods
@@ -77,13 +77,13 @@
 
     .prologue
     .line 36
-    const-class v0, Lkik/android/widget/ProgressWheel;
+    const-class v0, Lkik/arcane/widget/ProgressWheel;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/widget/ProgressWheel;->a:Ljava/lang/String;
+    sput-object v0, Lkik/arcane/widget/ProgressWheel;->a:Ljava/lang/String;
 
     return-void
 .end method
@@ -106,103 +106,103 @@
     .line 39
     const/16 v0, 0x1c
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->b:I
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->b:I
 
     .line 40
-    iput v1, p0, Lkik/android/widget/ProgressWheel;->c:I
+    iput v1, p0, Lkik/arcane/widget/ProgressWheel;->c:I
 
     .line 41
-    iput v1, p0, Lkik/android/widget/ProgressWheel;->d:I
+    iput v1, p0, Lkik/arcane/widget/ProgressWheel;->d:I
 
     .line 43
     const/16 v0, 0x10
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->e:I
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->e:I
 
     .line 44
     const/16 v0, 0x10e
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->f:I
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->f:I
 
     .line 46
-    iput-boolean v3, p0, Lkik/android/widget/ProgressWheel;->g:Z
+    iput-boolean v3, p0, Lkik/arcane/widget/ProgressWheel;->g:Z
 
     .line 48
     const-wide/16 v0, 0x0
 
-    iput-wide v0, p0, Lkik/android/widget/ProgressWheel;->h:D
+    iput-wide v0, p0, Lkik/arcane/widget/ProgressWheel;->h:D
 
     .line 49
     const-wide v0, 0x407cc00000000000L    # 460.0
 
-    iput-wide v0, p0, Lkik/android/widget/ProgressWheel;->i:D
+    iput-wide v0, p0, Lkik/arcane/widget/ProgressWheel;->i:D
 
     .line 50
-    iput v2, p0, Lkik/android/widget/ProgressWheel;->j:F
+    iput v2, p0, Lkik/arcane/widget/ProgressWheel;->j:F
 
     .line 51
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/widget/ProgressWheel;->k:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/ProgressWheel;->k:Z
 
     .line 53
-    iput-wide v4, p0, Lkik/android/widget/ProgressWheel;->l:J
+    iput-wide v4, p0, Lkik/arcane/widget/ProgressWheel;->l:J
 
     .line 54
     const-wide/16 v0, 0xc8
 
-    iput-wide v0, p0, Lkik/android/widget/ProgressWheel;->m:J
+    iput-wide v0, p0, Lkik/arcane/widget/ProgressWheel;->m:J
 
     .line 57
     const/high16 v0, -0x56000000
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->n:I
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->n:I
 
     .line 58
     const v0, 0xffffff
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->o:I
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->o:I
 
     .line 61
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0}, Landroid/graphics/Paint;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/ProgressWheel;->p:Landroid/graphics/Paint;
+    iput-object v0, p0, Lkik/arcane/widget/ProgressWheel;->p:Landroid/graphics/Paint;
 
     .line 62
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0}, Landroid/graphics/Paint;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/ProgressWheel;->q:Landroid/graphics/Paint;
+    iput-object v0, p0, Lkik/arcane/widget/ProgressWheel;->q:Landroid/graphics/Paint;
 
     .line 65
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/ProgressWheel;->r:Landroid/graphics/RectF;
+    iput-object v0, p0, Lkik/arcane/widget/ProgressWheel;->r:Landroid/graphics/RectF;
 
     .line 69
     const/high16 v0, 0x43660000    # 230.0f
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->s:F
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->s:F
 
     .line 72
-    iput-wide v4, p0, Lkik/android/widget/ProgressWheel;->t:J
+    iput-wide v4, p0, Lkik/arcane/widget/ProgressWheel;->t:J
 
     .line 76
-    iput v2, p0, Lkik/android/widget/ProgressWheel;->v:F
+    iput v2, p0, Lkik/arcane/widget/ProgressWheel;->v:F
 
     .line 77
-    iput v2, p0, Lkik/android/widget/ProgressWheel;->w:F
+    iput v2, p0, Lkik/arcane/widget/ProgressWheel;->w:F
 
     .line 78
-    iput v2, p0, Lkik/android/widget/ProgressWheel;->x:F
+    iput v2, p0, Lkik/arcane/widget/ProgressWheel;->x:F
 
     .line 79
-    iput-boolean v3, p0, Lkik/android/widget/ProgressWheel;->y:Z
+    iput-boolean v3, p0, Lkik/arcane/widget/ProgressWheel;->y:Z
 
     .line 105
     return-void
@@ -228,115 +228,115 @@
     .line 39
     const/16 v0, 0x1c
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->b:I
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->b:I
 
     .line 40
-    iput v3, p0, Lkik/android/widget/ProgressWheel;->c:I
+    iput v3, p0, Lkik/arcane/widget/ProgressWheel;->c:I
 
     .line 41
-    iput v3, p0, Lkik/android/widget/ProgressWheel;->d:I
+    iput v3, p0, Lkik/arcane/widget/ProgressWheel;->d:I
 
     .line 43
     const/16 v0, 0x10
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->e:I
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->e:I
 
     .line 44
     const/16 v0, 0x10e
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->f:I
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->f:I
 
     .line 46
-    iput-boolean v4, p0, Lkik/android/widget/ProgressWheel;->g:Z
+    iput-boolean v4, p0, Lkik/arcane/widget/ProgressWheel;->g:Z
 
     .line 48
     const-wide/16 v0, 0x0
 
-    iput-wide v0, p0, Lkik/android/widget/ProgressWheel;->h:D
+    iput-wide v0, p0, Lkik/arcane/widget/ProgressWheel;->h:D
 
     .line 49
     const-wide v0, 0x407cc00000000000L    # 460.0
 
-    iput-wide v0, p0, Lkik/android/widget/ProgressWheel;->i:D
+    iput-wide v0, p0, Lkik/arcane/widget/ProgressWheel;->i:D
 
     .line 50
-    iput v5, p0, Lkik/android/widget/ProgressWheel;->j:F
+    iput v5, p0, Lkik/arcane/widget/ProgressWheel;->j:F
 
     .line 51
-    iput-boolean v6, p0, Lkik/android/widget/ProgressWheel;->k:Z
+    iput-boolean v6, p0, Lkik/arcane/widget/ProgressWheel;->k:Z
 
     .line 53
     const-wide/16 v0, 0x0
 
-    iput-wide v0, p0, Lkik/android/widget/ProgressWheel;->l:J
+    iput-wide v0, p0, Lkik/arcane/widget/ProgressWheel;->l:J
 
     .line 54
     const-wide/16 v0, 0xc8
 
-    iput-wide v0, p0, Lkik/android/widget/ProgressWheel;->m:J
+    iput-wide v0, p0, Lkik/arcane/widget/ProgressWheel;->m:J
 
     .line 57
     const/high16 v0, -0x56000000
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->n:I
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->n:I
 
     .line 58
     const v0, 0xffffff
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->o:I
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->o:I
 
     .line 61
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0}, Landroid/graphics/Paint;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/ProgressWheel;->p:Landroid/graphics/Paint;
+    iput-object v0, p0, Lkik/arcane/widget/ProgressWheel;->p:Landroid/graphics/Paint;
 
     .line 62
     new-instance v0, Landroid/graphics/Paint;
 
     invoke-direct {v0}, Landroid/graphics/Paint;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/ProgressWheel;->q:Landroid/graphics/Paint;
+    iput-object v0, p0, Lkik/arcane/widget/ProgressWheel;->q:Landroid/graphics/Paint;
 
     .line 65
     new-instance v0, Landroid/graphics/RectF;
 
     invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
-    iput-object v0, p0, Lkik/android/widget/ProgressWheel;->r:Landroid/graphics/RectF;
+    iput-object v0, p0, Lkik/arcane/widget/ProgressWheel;->r:Landroid/graphics/RectF;
 
     .line 69
     const/high16 v0, 0x43660000    # 230.0f
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->s:F
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->s:F
 
     .line 72
     const-wide/16 v0, 0x0
 
-    iput-wide v0, p0, Lkik/android/widget/ProgressWheel;->t:J
+    iput-wide v0, p0, Lkik/arcane/widget/ProgressWheel;->t:J
 
     .line 76
-    iput v5, p0, Lkik/android/widget/ProgressWheel;->v:F
+    iput v5, p0, Lkik/arcane/widget/ProgressWheel;->v:F
 
     .line 77
-    iput v5, p0, Lkik/android/widget/ProgressWheel;->w:F
+    iput v5, p0, Lkik/arcane/widget/ProgressWheel;->w:F
 
     .line 78
-    iput v5, p0, Lkik/android/widget/ProgressWheel;->x:F
+    iput v5, p0, Lkik/arcane/widget/ProgressWheel;->x:F
 
     .line 79
-    iput-boolean v4, p0, Lkik/android/widget/ProgressWheel;->y:Z
+    iput-boolean v4, p0, Lkik/arcane/widget/ProgressWheel;->y:Z
 
     .line 93
-    sget-object v0, Lkik/android/R$styleable;->ProgressWheel:[I
+    sget-object v0, Lkik/arcane/R$styleable;->ProgressWheel:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     move-result-object v0
 
     .line 1232
-    invoke-virtual {p0}, Lkik/android/widget/ProgressWheel;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/ProgressWheel;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -349,7 +349,7 @@
     move-result-object v1
 
     .line 1233
-    iget v2, p0, Lkik/android/widget/ProgressWheel;->c:I
+    iget v2, p0, Lkik/arcane/widget/ProgressWheel;->c:I
 
     int-to-float v2, v2
 
@@ -359,10 +359,10 @@
 
     float-to-int v2, v2
 
-    iput v2, p0, Lkik/android/widget/ProgressWheel;->c:I
+    iput v2, p0, Lkik/arcane/widget/ProgressWheel;->c:I
 
     .line 1234
-    iget v2, p0, Lkik/android/widget/ProgressWheel;->d:I
+    iget v2, p0, Lkik/arcane/widget/ProgressWheel;->d:I
 
     int-to-float v2, v2
 
@@ -372,10 +372,10 @@
 
     float-to-int v2, v2
 
-    iput v2, p0, Lkik/android/widget/ProgressWheel;->d:I
+    iput v2, p0, Lkik/arcane/widget/ProgressWheel;->d:I
 
     .line 1235
-    iget v2, p0, Lkik/android/widget/ProgressWheel;->b:I
+    iget v2, p0, Lkik/arcane/widget/ProgressWheel;->b:I
 
     int-to-float v2, v2
 
@@ -385,12 +385,12 @@
 
     float-to-int v1, v1
 
-    iput v1, p0, Lkik/android/widget/ProgressWheel;->b:I
+    iput v1, p0, Lkik/arcane/widget/ProgressWheel;->b:I
 
     .line 1237
     const/4 v1, 0x6
 
-    iget v2, p0, Lkik/android/widget/ProgressWheel;->b:I
+    iget v2, p0, Lkik/arcane/widget/ProgressWheel;->b:I
 
     int-to-float v2, v2
 
@@ -400,7 +400,7 @@
 
     float-to-int v1, v1
 
-    iput v1, p0, Lkik/android/widget/ProgressWheel;->b:I
+    iput v1, p0, Lkik/arcane/widget/ProgressWheel;->b:I
 
     .line 1239
     const/4 v1, 0x7
@@ -409,12 +409,12 @@
 
     move-result v1
 
-    iput-boolean v1, p0, Lkik/android/widget/ProgressWheel;->g:Z
+    iput-boolean v1, p0, Lkik/arcane/widget/ProgressWheel;->g:Z
 
     .line 1241
     const/16 v1, 0x8
 
-    iget v2, p0, Lkik/android/widget/ProgressWheel;->c:I
+    iget v2, p0, Lkik/arcane/widget/ProgressWheel;->c:I
 
     int-to-float v2, v2
 
@@ -424,10 +424,10 @@
 
     float-to-int v1, v1
 
-    iput v1, p0, Lkik/android/widget/ProgressWheel;->c:I
+    iput v1, p0, Lkik/arcane/widget/ProgressWheel;->c:I
 
     .line 1243
-    iget v1, p0, Lkik/android/widget/ProgressWheel;->d:I
+    iget v1, p0, Lkik/arcane/widget/ProgressWheel;->d:I
 
     int-to-float v1, v1
 
@@ -437,12 +437,12 @@
 
     float-to-int v1, v1
 
-    iput v1, p0, Lkik/android/widget/ProgressWheel;->d:I
+    iput v1, p0, Lkik/arcane/widget/ProgressWheel;->d:I
 
     .line 1245
     const/4 v1, 0x4
 
-    iget v2, p0, Lkik/android/widget/ProgressWheel;->s:F
+    iget v2, p0, Lkik/arcane/widget/ProgressWheel;->s:F
 
     div-float/2addr v2, v7
 
@@ -453,12 +453,12 @@
     .line 1246
     mul-float/2addr v1, v7
 
-    iput v1, p0, Lkik/android/widget/ProgressWheel;->s:F
+    iput v1, p0, Lkik/arcane/widget/ProgressWheel;->s:F
 
     .line 1248
     const/4 v1, 0x5
 
-    iget-wide v2, p0, Lkik/android/widget/ProgressWheel;->i:D
+    iget-wide v2, p0, Lkik/arcane/widget/ProgressWheel;->i:D
 
     double-to-int v2, v2
 
@@ -468,27 +468,27 @@
 
     int-to-double v2, v1
 
-    iput-wide v2, p0, Lkik/android/widget/ProgressWheel;->i:D
+    iput-wide v2, p0, Lkik/arcane/widget/ProgressWheel;->i:D
 
     .line 1250
-    iget v1, p0, Lkik/android/widget/ProgressWheel;->n:I
+    iget v1, p0, Lkik/arcane/widget/ProgressWheel;->n:I
 
     invoke-virtual {v0, v6, v1}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result v1
 
-    iput v1, p0, Lkik/android/widget/ProgressWheel;->n:I
+    iput v1, p0, Lkik/arcane/widget/ProgressWheel;->n:I
 
     .line 1252
     const/4 v1, 0x2
 
-    iget v2, p0, Lkik/android/widget/ProgressWheel;->o:I
+    iget v2, p0, Lkik/arcane/widget/ProgressWheel;->o:I
 
     invoke-virtual {v0, v1, v2}, Landroid/content/res/TypedArray;->getColor(II)I
 
     move-result v1
 
-    iput v1, p0, Lkik/android/widget/ProgressWheel;->o:I
+    iput v1, p0, Lkik/arcane/widget/ProgressWheel;->o:I
 
     .line 1254
     const/16 v1, 0x9
@@ -497,7 +497,7 @@
 
     move-result v1
 
-    iput-boolean v1, p0, Lkik/android/widget/ProgressWheel;->u:Z
+    iput-boolean v1, p0, Lkik/arcane/widget/ProgressWheel;->u:Z
 
     .line 1256
     invoke-virtual {v0, v4, v4}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
@@ -507,24 +507,24 @@
     if-eqz v1, :cond_1
 
     .line 1257
-    invoke-direct {p0}, Lkik/android/widget/ProgressWheel;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/ProgressWheel;->a()V
 
     .line 1501
-    iget-boolean v1, p0, Lkik/android/widget/ProgressWheel;->y:Z
+    iget-boolean v1, p0, Lkik/arcane/widget/ProgressWheel;->y:Z
 
     if-eqz v1, :cond_0
 
     .line 1502
-    iput v5, p0, Lkik/android/widget/ProgressWheel;->w:F
+    iput v5, p0, Lkik/arcane/widget/ProgressWheel;->w:F
 
     .line 1503
-    iput-boolean v4, p0, Lkik/android/widget/ProgressWheel;->y:Z
+    iput-boolean v4, p0, Lkik/arcane/widget/ProgressWheel;->y:Z
 
     .line 1513
     :cond_0
     const v1, 0x3f19999a    # 0.6f
 
-    iget v2, p0, Lkik/android/widget/ProgressWheel;->x:F
+    iget v2, p0, Lkik/arcane/widget/ProgressWheel;->x:F
 
     cmpl-float v1, v1, v2
 
@@ -537,22 +537,22 @@
 
     move-result v1
 
-    iput v1, p0, Lkik/android/widget/ProgressWheel;->x:F
+    iput v1, p0, Lkik/arcane/widget/ProgressWheel;->x:F
 
     .line 1518
-    iget v1, p0, Lkik/android/widget/ProgressWheel;->x:F
+    iget v1, p0, Lkik/arcane/widget/ProgressWheel;->x:F
 
-    iput v1, p0, Lkik/android/widget/ProgressWheel;->w:F
+    iput v1, p0, Lkik/arcane/widget/ProgressWheel;->w:F
 
     .line 1519
     invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
     move-result-wide v2
 
-    iput-wide v2, p0, Lkik/android/widget/ProgressWheel;->t:J
+    iput-wide v2, p0, Lkik/arcane/widget/ProgressWheel;->t:J
 
     .line 1520
-    invoke-virtual {p0}, Lkik/android/widget/ProgressWheel;->invalidate()V
+    invoke-virtual {p0}, Lkik/arcane/widget/ProgressWheel;->invalidate()V
 
     .line 1263
     :cond_1
@@ -571,21 +571,21 @@
 
     move-result-wide v0
 
-    iput-wide v0, p0, Lkik/android/widget/ProgressWheel;->t:J
+    iput-wide v0, p0, Lkik/arcane/widget/ProgressWheel;->t:J
 
     .line 430
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/widget/ProgressWheel;->y:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/ProgressWheel;->y:Z
 
     .line 431
-    invoke-virtual {p0}, Lkik/android/widget/ProgressWheel;->invalidate()V
+    invoke-virtual {p0}, Lkik/arcane/widget/ProgressWheel;->invalidate()V
 
     .line 432
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/ProgressWheel;Ljava/lang/Float;)V
+.method static synthetic a(Lkik/arcane/widget/ProgressWheel;Ljava/lang/Float;)V
     .locals 5
 
     .prologue
@@ -605,7 +605,7 @@
     if-gez v1, :cond_1
 
     .line 447
-    invoke-direct {p0}, Lkik/android/widget/ProgressWheel;->a()V
+    invoke-direct {p0}, Lkik/arcane/widget/ProgressWheel;->a()V
 
     .line 452
     :cond_0
@@ -619,20 +619,20 @@
     move-result v1
 
     .line 3463
-    iget-boolean v2, p0, Lkik/android/widget/ProgressWheel;->y:Z
+    iget-boolean v2, p0, Lkik/arcane/widget/ProgressWheel;->y:Z
 
     if-eqz v2, :cond_2
 
     .line 3464
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->w:F
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->w:F
 
     .line 3465
     const/4 v2, 0x0
 
-    iput-boolean v2, p0, Lkik/android/widget/ProgressWheel;->y:Z
+    iput-boolean v2, p0, Lkik/arcane/widget/ProgressWheel;->y:Z
 
     .line 3467
-    invoke-direct {p0}, Lkik/android/widget/ProgressWheel;->b()V
+    invoke-direct {p0}, Lkik/arcane/widget/ProgressWheel;->b()V
 
     .line 3470
     :cond_2
@@ -646,16 +646,16 @@
     .line 3477
     :cond_3
     :goto_1
-    iget v1, p0, Lkik/android/widget/ProgressWheel;->x:F
+    iget v1, p0, Lkik/arcane/widget/ProgressWheel;->x:F
 
     cmpl-float v1, v0, v1
 
     if-eqz v1, :cond_0
 
     .line 3484
-    iget v1, p0, Lkik/android/widget/ProgressWheel;->w:F
+    iget v1, p0, Lkik/arcane/widget/ProgressWheel;->w:F
 
-    iget v2, p0, Lkik/android/widget/ProgressWheel;->x:F
+    iget v2, p0, Lkik/arcane/widget/ProgressWheel;->x:F
 
     cmpl-float v1, v1, v2
 
@@ -666,7 +666,7 @@
 
     move-result-wide v2
 
-    iput-wide v2, p0, Lkik/android/widget/ProgressWheel;->t:J
+    iput-wide v2, p0, Lkik/arcane/widget/ProgressWheel;->t:J
 
     .line 3488
     :cond_4
@@ -676,10 +676,10 @@
 
     move-result v0
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->x:F
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->x:F
 
     .line 3490
-    invoke-virtual {p0}, Lkik/android/widget/ProgressWheel;->invalidate()V
+    invoke-virtual {p0}, Lkik/arcane/widget/ProgressWheel;->invalidate()V
 
     goto :goto_0
 
@@ -694,7 +694,7 @@
     goto :goto_1
 .end method
 
-.method public static a(Lkik/android/widget/ProgressWheel;Lrx/d;)V
+.method public static a(Lkik/arcane/widget/ProgressWheel;Lrx/d;)V
     .locals 2
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -705,7 +705,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/widget/ProgressWheel;",
+            "Lkik/arcane/widget/ProgressWheel;",
             "Lrx/d",
             "<",
             "Ljava/lang/Float;",
@@ -717,7 +717,7 @@
     .line 445
     const v0, 0x1010137
 
-    invoke-static {p0}, Lkik/android/widget/cs;->a(Lkik/android/widget/ProgressWheel;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/cs;->a(Lkik/arcane/widget/ProgressWheel;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -732,12 +732,12 @@
 
     .prologue
     .line 436
-    iget-object v0, p0, Lkik/android/widget/ProgressWheel;->z:Lkik/android/widget/ProgressWheel$a;
+    iget-object v0, p0, Lkik/arcane/widget/ProgressWheel;->z:Lkik/arcane/widget/ProgressWheel$a;
 
     if-eqz v0, :cond_0
 
     .line 437
-    iget v0, p0, Lkik/android/widget/ProgressWheel;->w:F
+    iget v0, p0, Lkik/arcane/widget/ProgressWheel;->w:F
 
     const/high16 v1, 0x42c80000    # 100.0f
 
@@ -774,9 +774,9 @@
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
     .line 283
-    iget-object v1, p0, Lkik/android/widget/ProgressWheel;->r:Landroid/graphics/RectF;
+    iget-object v1, p0, Lkik/arcane/widget/ProgressWheel;->r:Landroid/graphics/RectF;
 
-    iget-object v5, p0, Lkik/android/widget/ProgressWheel;->q:Landroid/graphics/Paint;
+    iget-object v5, p0, Lkik/arcane/widget/ProgressWheel;->q:Landroid/graphics/Paint;
 
     move-object v0, p1
 
@@ -785,7 +785,7 @@
     invoke-virtual/range {v0 .. v5}, Landroid/graphics/Canvas;->drawArc(Landroid/graphics/RectF;FFZLandroid/graphics/Paint;)V
 
     .line 287
-    iget-boolean v0, p0, Lkik/android/widget/ProgressWheel;->y:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/ProgressWheel;->y:Z
 
     if-eqz v0, :cond_2
 
@@ -794,14 +794,14 @@
 
     move-result-wide v0
 
-    iget-wide v6, p0, Lkik/android/widget/ProgressWheel;->t:J
+    iget-wide v6, p0, Lkik/arcane/widget/ProgressWheel;->t:J
 
     sub-long/2addr v0, v6
 
     .line 292
     long-to-float v0, v0
 
-    iget v1, p0, Lkik/android/widget/ProgressWheel;->s:F
+    iget v1, p0, Lkik/arcane/widget/ProgressWheel;->s:F
 
     mul-float/2addr v0, v1
 
@@ -810,25 +810,25 @@
     div-float/2addr v0, v1
 
     .line 294
-    iget v1, p0, Lkik/android/widget/ProgressWheel;->w:F
+    iget v1, p0, Lkik/arcane/widget/ProgressWheel;->w:F
 
     add-float/2addr v0, v1
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->w:F
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->w:F
 
     .line 295
-    iget v0, p0, Lkik/android/widget/ProgressWheel;->w:F
+    iget v0, p0, Lkik/arcane/widget/ProgressWheel;->w:F
 
     cmpl-float v0, v0, v2
 
     if-lez v0, :cond_0
 
     .line 296
-    iget v0, p0, Lkik/android/widget/ProgressWheel;->w:F
+    iget v0, p0, Lkik/arcane/widget/ProgressWheel;->w:F
 
     sub-float/2addr v0, v2
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->w:F
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->w:F
 
     .line 298
     :cond_0
@@ -836,22 +836,22 @@
 
     move-result-wide v0
 
-    iput-wide v0, p0, Lkik/android/widget/ProgressWheel;->t:J
+    iput-wide v0, p0, Lkik/arcane/widget/ProgressWheel;->t:J
 
     .line 300
-    iget v0, p0, Lkik/android/widget/ProgressWheel;->w:F
+    iget v0, p0, Lkik/arcane/widget/ProgressWheel;->w:F
 
     sub-float v2, v0, v11
 
     .line 301
     const/high16 v0, 0x41800000    # 16.0f
 
-    iget v1, p0, Lkik/android/widget/ProgressWheel;->j:F
+    iget v1, p0, Lkik/arcane/widget/ProgressWheel;->j:F
 
     add-float v3, v0, v1
 
     .line 303
-    invoke-virtual {p0}, Lkik/android/widget/ProgressWheel;->isInEditMode()Z
+    invoke-virtual {p0}, Lkik/arcane/widget/ProgressWheel;->isInEditMode()Z
 
     move-result v0
 
@@ -865,9 +865,9 @@
 
     .line 308
     :cond_1
-    iget-object v1, p0, Lkik/android/widget/ProgressWheel;->r:Landroid/graphics/RectF;
+    iget-object v1, p0, Lkik/arcane/widget/ProgressWheel;->r:Landroid/graphics/RectF;
 
-    iget-object v5, p0, Lkik/android/widget/ProgressWheel;->p:Landroid/graphics/Paint;
+    iget-object v5, p0, Lkik/arcane/widget/ProgressWheel;->p:Landroid/graphics/Paint;
 
     move-object v0, p1
 
@@ -875,7 +875,7 @@
 
     .line 348
     :goto_0
-    invoke-virtual {p0}, Lkik/android/widget/ProgressWheel;->invalidate()V
+    invoke-virtual {p0}, Lkik/arcane/widget/ProgressWheel;->invalidate()V
 
     .line 350
     return-void
@@ -886,14 +886,14 @@
 
     move-result-wide v0
 
-    iget-wide v6, p0, Lkik/android/widget/ProgressWheel;->t:J
+    iget-wide v6, p0, Lkik/arcane/widget/ProgressWheel;->t:J
 
     sub-long/2addr v0, v6
 
     .line 316
     long-to-float v3, v0
 
-    iget v5, p0, Lkik/android/widget/ProgressWheel;->s:F
+    iget v5, p0, Lkik/arcane/widget/ProgressWheel;->s:F
 
     mul-float/2addr v3, v5
 
@@ -902,44 +902,44 @@
     div-float/2addr v3, v5
 
     .line 319
-    iget v5, p0, Lkik/android/widget/ProgressWheel;->w:F
+    iget v5, p0, Lkik/arcane/widget/ProgressWheel;->w:F
 
     .line 321
-    iget v6, p0, Lkik/android/widget/ProgressWheel;->w:F
+    iget v6, p0, Lkik/arcane/widget/ProgressWheel;->w:F
 
-    iget v7, p0, Lkik/android/widget/ProgressWheel;->x:F
+    iget v7, p0, Lkik/arcane/widget/ProgressWheel;->x:F
 
     cmpl-float v6, v6, v7
 
     if-eqz v6, :cond_3
 
     .line 325
-    iget v6, p0, Lkik/android/widget/ProgressWheel;->w:F
+    iget v6, p0, Lkik/arcane/widget/ProgressWheel;->w:F
 
     add-float/2addr v6, v3
 
-    iget v7, p0, Lkik/android/widget/ProgressWheel;->x:F
+    iget v7, p0, Lkik/arcane/widget/ProgressWheel;->x:F
 
     invoke-static {v6, v7}, Ljava/lang/Math;->min(FF)F
 
     move-result v6
 
-    iput v6, p0, Lkik/android/widget/ProgressWheel;->w:F
+    iput v6, p0, Lkik/arcane/widget/ProgressWheel;->w:F
 
     .line 328
     :cond_3
-    iget v6, p0, Lkik/android/widget/ProgressWheel;->w:F
+    iget v6, p0, Lkik/arcane/widget/ProgressWheel;->w:F
 
     cmpl-float v5, v5, v6
 
     if-eqz v5, :cond_4
 
     .line 329
-    invoke-direct {p0}, Lkik/android/widget/ProgressWheel;->b()V
+    invoke-direct {p0}, Lkik/arcane/widget/ProgressWheel;->b()V
 
     .line 3364
     :cond_4
-    iget-wide v6, p0, Lkik/android/widget/ProgressWheel;->l:J
+    iget-wide v6, p0, Lkik/arcane/widget/ProgressWheel;->l:J
 
     const-wide/16 v8, 0xc8
 
@@ -948,52 +948,52 @@
     if-ltz v5, :cond_9
 
     .line 3365
-    iget-wide v6, p0, Lkik/android/widget/ProgressWheel;->h:D
+    iget-wide v6, p0, Lkik/arcane/widget/ProgressWheel;->h:D
 
     long-to-double v0, v0
 
     add-double/2addr v0, v6
 
-    iput-wide v0, p0, Lkik/android/widget/ProgressWheel;->h:D
+    iput-wide v0, p0, Lkik/arcane/widget/ProgressWheel;->h:D
 
     .line 3367
-    iget-wide v0, p0, Lkik/android/widget/ProgressWheel;->h:D
+    iget-wide v0, p0, Lkik/arcane/widget/ProgressWheel;->h:D
 
-    iget-wide v6, p0, Lkik/android/widget/ProgressWheel;->i:D
+    iget-wide v6, p0, Lkik/arcane/widget/ProgressWheel;->i:D
 
     cmpl-double v0, v0, v6
 
     if-lez v0, :cond_5
 
     .line 3370
-    iget-wide v0, p0, Lkik/android/widget/ProgressWheel;->h:D
+    iget-wide v0, p0, Lkik/arcane/widget/ProgressWheel;->h:D
 
-    iget-wide v6, p0, Lkik/android/widget/ProgressWheel;->i:D
+    iget-wide v6, p0, Lkik/arcane/widget/ProgressWheel;->i:D
 
     sub-double/2addr v0, v6
 
-    iput-wide v0, p0, Lkik/android/widget/ProgressWheel;->h:D
+    iput-wide v0, p0, Lkik/arcane/widget/ProgressWheel;->h:D
 
     .line 3372
     const-wide/16 v0, 0x0
 
-    iput-wide v0, p0, Lkik/android/widget/ProgressWheel;->l:J
+    iput-wide v0, p0, Lkik/arcane/widget/ProgressWheel;->l:J
 
     .line 3374
-    iget-boolean v0, p0, Lkik/android/widget/ProgressWheel;->k:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/ProgressWheel;->k:Z
 
     if-nez v0, :cond_7
 
     const/4 v0, 0x1
 
     :goto_1
-    iput-boolean v0, p0, Lkik/android/widget/ProgressWheel;->k:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/ProgressWheel;->k:Z
 
     .line 3377
     :cond_5
-    iget-wide v0, p0, Lkik/android/widget/ProgressWheel;->h:D
+    iget-wide v0, p0, Lkik/arcane/widget/ProgressWheel;->h:D
 
-    iget-wide v6, p0, Lkik/android/widget/ProgressWheel;->i:D
+    iget-wide v6, p0, Lkik/arcane/widget/ProgressWheel;->i:D
 
     div-double/2addr v0, v6
 
@@ -1018,38 +1018,38 @@
     add-float/2addr v0, v1
 
     .line 3380
-    iget-boolean v1, p0, Lkik/android/widget/ProgressWheel;->k:Z
+    iget-boolean v1, p0, Lkik/arcane/widget/ProgressWheel;->k:Z
 
     if-eqz v1, :cond_8
 
     .line 3381
     mul-float/2addr v0, v12
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->j:F
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->j:F
 
     .line 336
     :goto_2
-    iget v0, p0, Lkik/android/widget/ProgressWheel;->v:F
+    iget v0, p0, Lkik/arcane/widget/ProgressWheel;->v:F
 
     mul-float v1, v3, v10
 
     add-float/2addr v0, v1
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->v:F
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->v:F
 
     .line 337
-    iget v0, p0, Lkik/android/widget/ProgressWheel;->v:F
+    iget v0, p0, Lkik/arcane/widget/ProgressWheel;->v:F
 
     cmpl-float v0, v0, v2
 
     if-lez v0, :cond_6
 
     .line 338
-    iget v0, p0, Lkik/android/widget/ProgressWheel;->v:F
+    iget v0, p0, Lkik/arcane/widget/ProgressWheel;->v:F
 
     sub-float/2addr v0, v2
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->v:F
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->v:F
 
     .line 342
     :cond_6
@@ -1057,18 +1057,18 @@
 
     move-result-wide v0
 
-    iput-wide v0, p0, Lkik/android/widget/ProgressWheel;->t:J
+    iput-wide v0, p0, Lkik/arcane/widget/ProgressWheel;->t:J
 
     .line 344
-    iget-object v1, p0, Lkik/android/widget/ProgressWheel;->r:Landroid/graphics/RectF;
+    iget-object v1, p0, Lkik/arcane/widget/ProgressWheel;->r:Landroid/graphics/RectF;
 
-    iget v0, p0, Lkik/android/widget/ProgressWheel;->v:F
+    iget v0, p0, Lkik/arcane/widget/ProgressWheel;->v:F
 
     sub-float v2, v0, v11
 
-    iget v3, p0, Lkik/android/widget/ProgressWheel;->w:F
+    iget v3, p0, Lkik/arcane/widget/ProgressWheel;->w:F
 
-    iget-object v5, p0, Lkik/android/widget/ProgressWheel;->p:Landroid/graphics/Paint;
+    iget-object v5, p0, Lkik/arcane/widget/ProgressWheel;->p:Landroid/graphics/Paint;
 
     move-object v0, p1
 
@@ -1091,28 +1091,28 @@
     mul-float/2addr v0, v12
 
     .line 3385
-    iget v1, p0, Lkik/android/widget/ProgressWheel;->v:F
+    iget v1, p0, Lkik/arcane/widget/ProgressWheel;->v:F
 
-    iget v5, p0, Lkik/android/widget/ProgressWheel;->j:F
+    iget v5, p0, Lkik/arcane/widget/ProgressWheel;->j:F
 
     sub-float/2addr v5, v0
 
     add-float/2addr v1, v5
 
-    iput v1, p0, Lkik/android/widget/ProgressWheel;->v:F
+    iput v1, p0, Lkik/arcane/widget/ProgressWheel;->v:F
 
     .line 3386
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->j:F
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->j:F
 
     goto :goto_2
 
     .line 3390
     :cond_9
-    iget-wide v6, p0, Lkik/android/widget/ProgressWheel;->l:J
+    iget-wide v6, p0, Lkik/arcane/widget/ProgressWheel;->l:J
 
     add-long/2addr v0, v6
 
-    iput-wide v0, p0, Lkik/android/widget/ProgressWheel;->l:J
+    iput-wide v0, p0, Lkik/arcane/widget/ProgressWheel;->l:J
 
     goto :goto_2
 .end method
@@ -1129,30 +1129,30 @@
     invoke-super {p0, p1, p2}, Landroid/view/View;->onMeasure(II)V
 
     .line 116
-    iget v0, p0, Lkik/android/widget/ProgressWheel;->b:I
+    iget v0, p0, Lkik/arcane/widget/ProgressWheel;->b:I
 
-    invoke-virtual {p0}, Lkik/android/widget/ProgressWheel;->getPaddingLeft()I
+    invoke-virtual {p0}, Lkik/arcane/widget/ProgressWheel;->getPaddingLeft()I
 
     move-result v1
 
     add-int/2addr v0, v1
 
-    invoke-virtual {p0}, Lkik/android/widget/ProgressWheel;->getPaddingRight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/ProgressWheel;->getPaddingRight()I
 
     move-result v1
 
     add-int v2, v0, v1
 
     .line 117
-    iget v0, p0, Lkik/android/widget/ProgressWheel;->b:I
+    iget v0, p0, Lkik/arcane/widget/ProgressWheel;->b:I
 
-    invoke-virtual {p0}, Lkik/android/widget/ProgressWheel;->getPaddingTop()I
+    invoke-virtual {p0}, Lkik/arcane/widget/ProgressWheel;->getPaddingTop()I
 
     move-result v1
 
     add-int/2addr v0, v1
 
-    invoke-virtual {p0}, Lkik/android/widget/ProgressWheel;->getPaddingBottom()I
+    invoke-virtual {p0}, Lkik/arcane/widget/ProgressWheel;->getPaddingBottom()I
 
     move-result v1
 
@@ -1202,7 +1202,7 @@
     .line 155
     :cond_2
     :goto_1
-    invoke-virtual {p0, v2, v0}, Lkik/android/widget/ProgressWheel;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v2, v0}, Lkik/arcane/widget/ProgressWheel;->setMeasuredDimension(II)V
 
     .line 156
     return-void
@@ -1229,7 +1229,7 @@
 
     .prologue
     .line 550
-    instance-of v0, p1, Lkik/android/widget/ProgressWheel$WheelSavedState;
+    instance-of v0, p1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;
 
     if-nez v0, :cond_0
 
@@ -1242,69 +1242,69 @@
 
     .line 555
     :cond_0
-    check-cast p1, Lkik/android/widget/ProgressWheel$WheelSavedState;
+    check-cast p1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;
 
     .line 556
-    invoke-virtual {p1}, Lkik/android/widget/ProgressWheel$WheelSavedState;->getSuperState()Landroid/os/Parcelable;
+    invoke-virtual {p1}, Lkik/arcane/widget/ProgressWheel$WheelSavedState;->getSuperState()Landroid/os/Parcelable;
 
     move-result-object v0
 
     invoke-super {p0, v0}, Landroid/view/View;->onRestoreInstanceState(Landroid/os/Parcelable;)V
 
     .line 558
-    iget v0, p1, Lkik/android/widget/ProgressWheel$WheelSavedState;->a:F
+    iget v0, p1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;->a:F
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->w:F
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->w:F
 
     .line 559
-    iget v0, p1, Lkik/android/widget/ProgressWheel$WheelSavedState;->b:F
+    iget v0, p1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;->b:F
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->x:F
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->x:F
 
     .line 560
-    iget-boolean v0, p1, Lkik/android/widget/ProgressWheel$WheelSavedState;->c:Z
+    iget-boolean v0, p1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;->c:Z
 
-    iput-boolean v0, p0, Lkik/android/widget/ProgressWheel;->y:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/ProgressWheel;->y:Z
 
     .line 561
-    iget v0, p1, Lkik/android/widget/ProgressWheel$WheelSavedState;->d:F
+    iget v0, p1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;->d:F
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->s:F
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->s:F
 
     .line 562
-    iget v0, p1, Lkik/android/widget/ProgressWheel$WheelSavedState;->e:I
+    iget v0, p1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;->e:I
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->c:I
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->c:I
 
     .line 563
-    iget v0, p1, Lkik/android/widget/ProgressWheel$WheelSavedState;->f:I
+    iget v0, p1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;->f:I
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->n:I
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->n:I
 
     .line 564
-    iget v0, p1, Lkik/android/widget/ProgressWheel$WheelSavedState;->g:I
+    iget v0, p1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;->g:I
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->d:I
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->d:I
 
     .line 565
-    iget v0, p1, Lkik/android/widget/ProgressWheel$WheelSavedState;->h:I
+    iget v0, p1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;->h:I
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->o:I
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->o:I
 
     .line 566
-    iget v0, p1, Lkik/android/widget/ProgressWheel$WheelSavedState;->i:I
+    iget v0, p1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;->i:I
 
-    iput v0, p0, Lkik/android/widget/ProgressWheel;->b:I
+    iput v0, p0, Lkik/arcane/widget/ProgressWheel;->b:I
 
     .line 567
-    iget-boolean v0, p1, Lkik/android/widget/ProgressWheel$WheelSavedState;->j:Z
+    iget-boolean v0, p1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;->j:Z
 
-    iput-boolean v0, p0, Lkik/android/widget/ProgressWheel;->u:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/ProgressWheel;->u:Z
 
     .line 568
-    iget-boolean v0, p1, Lkik/android/widget/ProgressWheel$WheelSavedState;->k:Z
+    iget-boolean v0, p1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;->k:Z
 
-    iput-boolean v0, p0, Lkik/android/widget/ProgressWheel;->g:Z
+    iput-boolean v0, p0, Lkik/arcane/widget/ProgressWheel;->g:Z
 
     goto :goto_0
 .end method
@@ -1319,64 +1319,64 @@
     move-result-object v0
 
     .line 529
-    new-instance v1, Lkik/android/widget/ProgressWheel$WheelSavedState;
+    new-instance v1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;
 
-    invoke-direct {v1, v0}, Lkik/android/widget/ProgressWheel$WheelSavedState;-><init>(Landroid/os/Parcelable;)V
+    invoke-direct {v1, v0}, Lkik/arcane/widget/ProgressWheel$WheelSavedState;-><init>(Landroid/os/Parcelable;)V
 
     .line 532
-    iget v0, p0, Lkik/android/widget/ProgressWheel;->w:F
+    iget v0, p0, Lkik/arcane/widget/ProgressWheel;->w:F
 
-    iput v0, v1, Lkik/android/widget/ProgressWheel$WheelSavedState;->a:F
+    iput v0, v1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;->a:F
 
     .line 533
-    iget v0, p0, Lkik/android/widget/ProgressWheel;->x:F
+    iget v0, p0, Lkik/arcane/widget/ProgressWheel;->x:F
 
-    iput v0, v1, Lkik/android/widget/ProgressWheel$WheelSavedState;->b:F
+    iput v0, v1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;->b:F
 
     .line 534
-    iget-boolean v0, p0, Lkik/android/widget/ProgressWheel;->y:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/ProgressWheel;->y:Z
 
-    iput-boolean v0, v1, Lkik/android/widget/ProgressWheel$WheelSavedState;->c:Z
+    iput-boolean v0, v1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;->c:Z
 
     .line 535
-    iget v0, p0, Lkik/android/widget/ProgressWheel;->s:F
+    iget v0, p0, Lkik/arcane/widget/ProgressWheel;->s:F
 
-    iput v0, v1, Lkik/android/widget/ProgressWheel$WheelSavedState;->d:F
+    iput v0, v1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;->d:F
 
     .line 536
-    iget v0, p0, Lkik/android/widget/ProgressWheel;->c:I
+    iget v0, p0, Lkik/arcane/widget/ProgressWheel;->c:I
 
-    iput v0, v1, Lkik/android/widget/ProgressWheel$WheelSavedState;->e:I
+    iput v0, v1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;->e:I
 
     .line 537
-    iget v0, p0, Lkik/android/widget/ProgressWheel;->n:I
+    iget v0, p0, Lkik/arcane/widget/ProgressWheel;->n:I
 
-    iput v0, v1, Lkik/android/widget/ProgressWheel$WheelSavedState;->f:I
+    iput v0, v1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;->f:I
 
     .line 538
-    iget v0, p0, Lkik/android/widget/ProgressWheel;->d:I
+    iget v0, p0, Lkik/arcane/widget/ProgressWheel;->d:I
 
-    iput v0, v1, Lkik/android/widget/ProgressWheel$WheelSavedState;->g:I
+    iput v0, v1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;->g:I
 
     .line 539
-    iget v0, p0, Lkik/android/widget/ProgressWheel;->o:I
+    iget v0, p0, Lkik/arcane/widget/ProgressWheel;->o:I
 
-    iput v0, v1, Lkik/android/widget/ProgressWheel$WheelSavedState;->h:I
+    iput v0, v1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;->h:I
 
     .line 540
-    iget v0, p0, Lkik/android/widget/ProgressWheel;->b:I
+    iget v0, p0, Lkik/arcane/widget/ProgressWheel;->b:I
 
-    iput v0, v1, Lkik/android/widget/ProgressWheel$WheelSavedState;->i:I
+    iput v0, v1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;->i:I
 
     .line 541
-    iget-boolean v0, p0, Lkik/android/widget/ProgressWheel;->u:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/ProgressWheel;->u:Z
 
-    iput-boolean v0, v1, Lkik/android/widget/ProgressWheel$WheelSavedState;->j:Z
+    iput-boolean v0, v1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;->j:Z
 
     .line 542
-    iget-boolean v0, p0, Lkik/android/widget/ProgressWheel;->g:Z
+    iget-boolean v0, p0, Lkik/arcane/widget/ProgressWheel;->g:Z
 
-    iput-boolean v0, v1, Lkik/android/widget/ProgressWheel$WheelSavedState;->k:Z
+    iput-boolean v0, v1, Lkik/arcane/widget/ProgressWheel$WheelSavedState;->k:Z
 
     .line 544
     return-object v1
@@ -1392,27 +1392,27 @@
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/View;->onSizeChanged(IIII)V
 
     .line 2195
-    invoke-virtual {p0}, Lkik/android/widget/ProgressWheel;->getPaddingTop()I
+    invoke-virtual {p0}, Lkik/arcane/widget/ProgressWheel;->getPaddingTop()I
 
     move-result v0
 
     .line 2196
-    invoke-virtual {p0}, Lkik/android/widget/ProgressWheel;->getPaddingBottom()I
+    invoke-virtual {p0}, Lkik/arcane/widget/ProgressWheel;->getPaddingBottom()I
 
     move-result v1
 
     .line 2197
-    invoke-virtual {p0}, Lkik/android/widget/ProgressWheel;->getPaddingLeft()I
+    invoke-virtual {p0}, Lkik/arcane/widget/ProgressWheel;->getPaddingLeft()I
 
     move-result v2
 
     .line 2198
-    invoke-virtual {p0}, Lkik/android/widget/ProgressWheel;->getPaddingRight()I
+    invoke-virtual {p0}, Lkik/arcane/widget/ProgressWheel;->getPaddingRight()I
 
     move-result v3
 
     .line 2200
-    iget-boolean v4, p0, Lkik/android/widget/ProgressWheel;->g:Z
+    iget-boolean v4, p0, Lkik/arcane/widget/ProgressWheel;->g:Z
 
     if-nez v4, :cond_0
 
@@ -1430,11 +1430,11 @@
     move-result v4
 
     .line 2205
-    iget v5, p0, Lkik/android/widget/ProgressWheel;->b:I
+    iget v5, p0, Lkik/arcane/widget/ProgressWheel;->b:I
 
     mul-int/lit8 v5, v5, 0x2
 
-    iget v6, p0, Lkik/android/widget/ProgressWheel;->c:I
+    iget v6, p0, Lkik/arcane/widget/ProgressWheel;->c:I
 
     mul-int/lit8 v6, v6, 0x2
 
@@ -1469,13 +1469,13 @@
     .line 2211
     new-instance v1, Landroid/graphics/RectF;
 
-    iget v3, p0, Lkik/android/widget/ProgressWheel;->c:I
+    iget v3, p0, Lkik/arcane/widget/ProgressWheel;->c:I
 
     add-int/2addr v3, v2
 
     int-to-float v3, v3
 
-    iget v5, p0, Lkik/android/widget/ProgressWheel;->c:I
+    iget v5, p0, Lkik/arcane/widget/ProgressWheel;->c:I
 
     add-int/2addr v5, v0
 
@@ -1483,7 +1483,7 @@
 
     add-int/2addr v2, v4
 
-    iget v6, p0, Lkik/android/widget/ProgressWheel;->c:I
+    iget v6, p0, Lkik/arcane/widget/ProgressWheel;->c:I
 
     sub-int/2addr v2, v6
 
@@ -1491,7 +1491,7 @@
 
     add-int/2addr v0, v4
 
-    iget v4, p0, Lkik/android/widget/ProgressWheel;->c:I
+    iget v4, p0, Lkik/arcane/widget/ProgressWheel;->c:I
 
     sub-int/2addr v0, v4
 
@@ -1499,67 +1499,67 @@
 
     invoke-direct {v1, v3, v5, v2, v0}, Landroid/graphics/RectF;-><init>(FFFF)V
 
-    iput-object v1, p0, Lkik/android/widget/ProgressWheel;->r:Landroid/graphics/RectF;
+    iput-object v1, p0, Lkik/arcane/widget/ProgressWheel;->r:Landroid/graphics/RectF;
 
     .line 3179
     :goto_0
-    iget-object v0, p0, Lkik/android/widget/ProgressWheel;->p:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/ProgressWheel;->p:Landroid/graphics/Paint;
 
-    iget v1, p0, Lkik/android/widget/ProgressWheel;->n:I
+    iget v1, p0, Lkik/arcane/widget/ProgressWheel;->n:I
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
     .line 3180
-    iget-object v0, p0, Lkik/android/widget/ProgressWheel;->p:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/ProgressWheel;->p:Landroid/graphics/Paint;
 
     invoke-virtual {v0, v7}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
     .line 3181
-    iget-object v0, p0, Lkik/android/widget/ProgressWheel;->p:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/ProgressWheel;->p:Landroid/graphics/Paint;
 
     sget-object v1, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
     .line 3182
-    iget-object v0, p0, Lkik/android/widget/ProgressWheel;->p:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/ProgressWheel;->p:Landroid/graphics/Paint;
 
-    iget v1, p0, Lkik/android/widget/ProgressWheel;->c:I
+    iget v1, p0, Lkik/arcane/widget/ProgressWheel;->c:I
 
     int-to-float v1, v1
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     .line 3184
-    iget-object v0, p0, Lkik/android/widget/ProgressWheel;->q:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/ProgressWheel;->q:Landroid/graphics/Paint;
 
-    iget v1, p0, Lkik/android/widget/ProgressWheel;->o:I
+    iget v1, p0, Lkik/arcane/widget/ProgressWheel;->o:I
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
     .line 3185
-    iget-object v0, p0, Lkik/android/widget/ProgressWheel;->q:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/ProgressWheel;->q:Landroid/graphics/Paint;
 
     invoke-virtual {v0, v7}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
     .line 3186
-    iget-object v0, p0, Lkik/android/widget/ProgressWheel;->q:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/ProgressWheel;->q:Landroid/graphics/Paint;
 
     sget-object v1, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
     .line 3187
-    iget-object v0, p0, Lkik/android/widget/ProgressWheel;->q:Landroid/graphics/Paint;
+    iget-object v0, p0, Lkik/arcane/widget/ProgressWheel;->q:Landroid/graphics/Paint;
 
-    iget v1, p0, Lkik/android/widget/ProgressWheel;->d:I
+    iget v1, p0, Lkik/arcane/widget/ProgressWheel;->d:I
 
     int-to-float v1, v1
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
     .line 170
-    invoke-virtual {p0}, Lkik/android/widget/ProgressWheel;->invalidate()V
+    invoke-virtual {p0}, Lkik/arcane/widget/ProgressWheel;->invalidate()V
 
     .line 171
     return-void
@@ -1568,13 +1568,13 @@
     :cond_0
     new-instance v4, Landroid/graphics/RectF;
 
-    iget v5, p0, Lkik/android/widget/ProgressWheel;->c:I
+    iget v5, p0, Lkik/arcane/widget/ProgressWheel;->c:I
 
     add-int/2addr v2, v5
 
     int-to-float v2, v2
 
-    iget v5, p0, Lkik/android/widget/ProgressWheel;->c:I
+    iget v5, p0, Lkik/arcane/widget/ProgressWheel;->c:I
 
     add-int/2addr v0, v5
 
@@ -1582,7 +1582,7 @@
 
     sub-int v3, p1, v3
 
-    iget v5, p0, Lkik/android/widget/ProgressWheel;->c:I
+    iget v5, p0, Lkik/arcane/widget/ProgressWheel;->c:I
 
     sub-int/2addr v3, v5
 
@@ -1590,7 +1590,7 @@
 
     sub-int v1, p2, v1
 
-    iget v5, p0, Lkik/android/widget/ProgressWheel;->c:I
+    iget v5, p0, Lkik/arcane/widget/ProgressWheel;->c:I
 
     sub-int/2addr v1, v5
 
@@ -1598,7 +1598,7 @@
 
     invoke-direct {v4, v2, v0, v3, v1}, Landroid/graphics/RectF;-><init>(FFFF)V
 
-    iput-object v4, p0, Lkik/android/widget/ProgressWheel;->r:Landroid/graphics/RectF;
+    iput-object v4, p0, Lkik/arcane/widget/ProgressWheel;->r:Landroid/graphics/RectF;
 
     goto :goto_0
 .end method
@@ -1618,7 +1618,7 @@
 
     move-result-wide v0
 
-    iput-wide v0, p0, Lkik/android/widget/ProgressWheel;->t:J
+    iput-wide v0, p0, Lkik/arcane/widget/ProgressWheel;->t:J
 
     .line 360
     :cond_0

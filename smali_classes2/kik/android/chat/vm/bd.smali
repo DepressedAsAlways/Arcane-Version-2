@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/chat/vm/bd;
+.class public interface abstract Lkik/arcane/chat/vm/bd;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -10,17 +10,17 @@
             "(Z)",
             "Lcom/kik/events/Promise",
             "<",
-            "Lkik/android/chat/vm/dk;",
+            "Lkik/arcane/chat/vm/dk;",
             ">;"
         }
     .end annotation
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/ae;)Lrx/d;
+.method public abstract a(Lkik/arcane/chat/vm/ae;)Lrx/d;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/chat/vm/ae;",
+            "Lkik/arcane/chat/vm/ae;",
             ")",
             "Lrx/d",
             "<",
@@ -30,11 +30,11 @@
     .end annotation
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/aq;)Lrx/d;
+.method public abstract a(Lkik/arcane/chat/vm/aq;)Lrx/d;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/chat/vm/aq;",
+            "Lkik/arcane/chat/vm/aq;",
             ")",
             "Lrx/d",
             "<",
@@ -44,11 +44,11 @@
     .end annotation
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/ax;)Lrx/d;
+.method public abstract a(Lkik/arcane/chat/vm/ax;)Lrx/d;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/chat/vm/ax;",
+            "Lkik/arcane/chat/vm/ax;",
             ")",
             "Lrx/d",
             "<",
@@ -58,11 +58,11 @@
     .end annotation
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/bg;)Lrx/d;
+.method public abstract a(Lkik/arcane/chat/vm/bg;)Lrx/d;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/chat/vm/bg;",
+            "Lkik/arcane/chat/vm/bg;",
             ")",
             "Lrx/d",
             "<",
@@ -74,11 +74,11 @@
     .end annotation
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/bx;Z)Lrx/d;
+.method public abstract a(Lkik/arcane/chat/vm/bx;Z)Lrx/d;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/chat/vm/bx;",
+            "Lkik/arcane/chat/vm/bx;",
             "Z)",
             "Lrx/d",
             "<",
@@ -88,11 +88,11 @@
     .end annotation
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/profile/dt;)Lrx/d;
+.method public abstract a(Lkik/arcane/chat/vm/profile/dt;)Lrx/d;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/chat/vm/profile/dt;",
+            "Lkik/arcane/chat/vm/profile/dt;",
             ")",
             "Lrx/d",
             "<",
@@ -102,11 +102,11 @@
     .end annotation
 .end method
 
-.method public abstract a(Lkik/android/gallery/vm/s;)Lrx/d;
+.method public abstract a(Lkik/arcane/gallery/vm/s;)Lrx/d;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/gallery/vm/s;",
+            "Lkik/arcane/gallery/vm/s;",
             ")",
             "Lrx/d",
             "<",
@@ -116,11 +116,11 @@
     .end annotation
 .end method
 
-.method public abstract a(Lkik/android/gallery/vm/t;)Lrx/d;
+.method public abstract a(Lkik/arcane/gallery/vm/t;)Lrx/d;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/gallery/vm/t;",
+            "Lkik/arcane/gallery/vm/t;",
             ")",
             "Lrx/d",
             "<",
@@ -130,15 +130,15 @@
     .end annotation
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/IShareUsernameViewModel;)Lrx/h;
+.method public abstract a(Lkik/arcane/chat/vm/IShareUsernameViewModel;)Lrx/h;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/chat/vm/IShareUsernameViewModel;",
+            "Lkik/arcane/chat/vm/IShareUsernameViewModel;",
             ")",
             "Lrx/h",
             "<",
-            "Lkik/android/chat/vm/IShareUsernameViewModel$ShareResult;",
+            "Lkik/arcane/chat/vm/IShareUsernameViewModel$ShareResult;",
             ">;"
         }
     .end annotation
@@ -153,82 +153,82 @@
 .method public abstract a(Ljava/lang/String;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/DialogViewModel;)V
+.method public abstract a(Lkik/arcane/chat/vm/DialogViewModel;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/ag;)V
+.method public abstract a(Lkik/arcane/chat/vm/ag;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/an;)V
+.method public abstract a(Lkik/arcane/chat/vm/an;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/ao;)V
+.method public abstract a(Lkik/arcane/chat/vm/ao;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/ar;)V
+.method public abstract a(Lkik/arcane/chat/vm/ar;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/as;)V
+.method public abstract a(Lkik/arcane/chat/vm/as;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/at;)V
+.method public abstract a(Lkik/arcane/chat/vm/at;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/aw;)V
+.method public abstract a(Lkik/arcane/chat/vm/aw;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/ba;)V
+.method public abstract a(Lkik/arcane/chat/vm/ba;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/bh;)V
+.method public abstract a(Lkik/arcane/chat/vm/bh;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/bi;)V
+.method public abstract a(Lkik/arcane/chat/vm/bi;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/bj;)V
+.method public abstract a(Lkik/arcane/chat/vm/bj;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/bk;)V
+.method public abstract a(Lkik/arcane/chat/vm/bk;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/bn;)V
+.method public abstract a(Lkik/arcane/chat/vm/bn;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/bp;)V
+.method public abstract a(Lkik/arcane/chat/vm/bp;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/bs;)V
+.method public abstract a(Lkik/arcane/chat/vm/bs;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/bt;)V
+.method public abstract a(Lkik/arcane/chat/vm/bt;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/bw;)V
+.method public abstract a(Lkik/arcane/chat/vm/bw;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/k;)V
+.method public abstract a(Lkik/arcane/chat/vm/k;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/profile/cc;)V
+.method public abstract a(Lkik/arcane/chat/vm/profile/cc;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/vm/profile/dr;)V
+.method public abstract a(Lkik/arcane/chat/vm/profile/dr;)V
 .end method
 
-.method public abstract a(Lkik/core/datatypes/aa;Lcom/kik/android/Mixpanel;Lkik/core/interfaces/b;Lcom/kik/events/Promise;Ljava/lang/String;Lkik/android/f/h;)V
+.method public abstract a(Lkik/core/datatypes/aa;Lcom/kik/arcane/Mixpanel;Lkik/core/interfaces/b;Lcom/kik/events/Promise;Ljava/lang/String;Lkik/arcane/f/h;)V
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lkik/core/datatypes/aa;",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             "Lkik/core/interfaces/b;",
             "Lcom/kik/events/Promise",
             "<",
             "Lkik/core/net/outgoing/GetGroupKikCodeRequest;",
             ">;",
             "Ljava/lang/String;",
-            "Lkik/android/f/h;",
+            "Lkik/arcane/f/h;",
             ")V"
         }
     .end annotation

@@ -1,5 +1,5 @@
-.class public Lkik/android/gifs/view/AbsoluteSizeGifView;
-.super Lkik/android/gifs/view/GifView;
+.class public Lkik/arcane/gifs/view/AbsoluteSizeGifView;
+.super Lkik/arcane/gifs/view/GifView;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
     .prologue
     .line 16
-    invoke-direct {p0, p1}, Lkik/android/gifs/view/GifView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lkik/arcane/gifs/view/GifView;-><init>(Landroid/content/Context;)V
 
     .line 17
     return-void
@@ -20,7 +20,7 @@
 
     .prologue
     .line 21
-    invoke-direct {p0, p1, p2}, Lkik/android/gifs/view/GifView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/gifs/view/GifView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 22
     return-void
@@ -55,7 +55,7 @@
     move-result v1
 
     .line 29
-    invoke-virtual {p0, v1, v0}, Lkik/android/gifs/view/AbsoluteSizeGifView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v1, v0}, Lkik/arcane/gifs/view/AbsoluteSizeGifView;->setMeasuredDimension(II)V
 
     .line 30
     return-void

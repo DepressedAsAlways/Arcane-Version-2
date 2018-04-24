@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/challenge/e;
+.class final synthetic Lkik/arcane/challenge/e;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/challenge/e;
+.field private static final a:Lkik/arcane/challenge/e;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/challenge/e;
+    new-instance v0, Lkik/arcane/challenge/e;
 
-    invoke-direct {v0}, Lkik/android/challenge/e;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/challenge/e;-><init>()V
 
-    sput-object v0, Lkik/android/challenge/e;->a:Lkik/android/challenge/e;
+    sput-object v0, Lkik/arcane/challenge/e;->a:Lkik/arcane/challenge/e;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lcom/kik/events/p;
     .locals 1
 
-    sget-object v0, Lkik/android/challenge/e;->a:Lkik/android/challenge/e;
+    sget-object v0, Lkik/arcane/challenge/e;->a:Lkik/arcane/challenge/e;
 
     return-object v0
 .end method
@@ -45,7 +45,7 @@
 
     check-cast p1, Lkik/core/xiphias/ag;
 
-    invoke-static {p1}, Lkik/android/challenge/SafetyNetValidator;->a(Lkik/core/xiphias/ag;)[B
+    invoke-static {p1}, Lkik/arcane/challenge/SafetyNetValidator;->a(Lkik/core/xiphias/ag;)[B
 
     move-result-object v0
 

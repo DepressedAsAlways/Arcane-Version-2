@@ -1,4 +1,4 @@
-.class public final Lkik/android/h/a;
+.class public final Lkik/arcane/h/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -20,13 +20,13 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 12
-    iput-object p1, p0, Lkik/android/h/a;->b:Lkik/core/datatypes/l;
+    iput-object p1, p0, Lkik/arcane/h/a;->b:Lkik/core/datatypes/l;
 
     .line 13
-    iput p2, p0, Lkik/android/h/a;->c:I
+    iput p2, p0, Lkik/arcane/h/a;->c:I
 
     .line 14
-    iput-boolean p3, p0, Lkik/android/h/a;->a:Z
+    iput-boolean p3, p0, Lkik/arcane/h/a;->a:Z
 
     .line 15
     return-void
@@ -39,7 +39,7 @@
 
     .prologue
     .line 24
-    iget-object v0, p0, Lkik/android/h/a;->b:Lkik/core/datatypes/l;
+    iget-object v0, p0, Lkik/arcane/h/a;->b:Lkik/core/datatypes/l;
 
     return-object v0
 .end method

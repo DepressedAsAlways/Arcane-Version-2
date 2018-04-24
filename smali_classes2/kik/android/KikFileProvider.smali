@@ -1,4 +1,4 @@
-.class public Lkik/android/KikFileProvider;
+.class public Lkik/arcane/KikFileProvider;
 .super Landroid/content/ContentProvider;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/KikFileProvider$a;
+        Lkik/arcane/KikFileProvider$a;
     }
 .end annotation
 
@@ -27,7 +27,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/KikFileProvider;->a:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/KikFileProvider;->a:Lorg/slf4j/b;
 
     return-void
 .end method
@@ -65,7 +65,7 @@
 
     if-eqz v0, :cond_2
 
-    const-string v0, "content://kik.android.debug.KikFileProvider"
+    const-string v0, "content://kik.arcane.debug.KikFileProvider"
 
     invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
@@ -140,7 +140,7 @@
 
     new-instance v3, Ljava/lang/StringBuilder;
 
-    const-string v4, "file:///data/data/kik.android/thirdpartyfiles/"
+    const-string v4, "file:///data/data/kik.arcane/thirdpartyfiles/"
 
     invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
@@ -166,7 +166,7 @@
 
     .line 47
     :cond_2
-    sget-object v0, Lkik/android/internal/platform/b;->a:Landroid/net/Uri;
+    sget-object v0, Lkik/arcane/internal/platform/b;->a:Landroid/net/Uri;
 
     goto :goto_0
 
@@ -203,7 +203,7 @@
     .line 140
     new-instance v0, Ljava/io/File;
 
-    const-string v1, "file:///data/data/kik.android/thirdpartyfiles/"
+    const-string v1, "file:///data/data/kik.arcane/thirdpartyfiles/"
 
     invoke-static {v1}, Ljava/net/URI;->create(Ljava/lang/String;)Ljava/net/URI;
 
@@ -229,9 +229,9 @@
     if-le v0, v8, :cond_3
 
     .line 144
-    new-instance v0, Lkik/android/KikFileProvider$a;
+    new-instance v0, Lkik/arcane/KikFileProvider$a;
 
-    invoke-direct {v0, p0, v2}, Lkik/android/KikFileProvider$a;-><init>(Lkik/android/KikFileProvider;B)V
+    invoke-direct {v0, p0, v2}, Lkik/arcane/KikFileProvider$a;-><init>(Lkik/arcane/KikFileProvider;B)V
 
     invoke-static {v1, v0}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
@@ -266,7 +266,7 @@
 
     move-result-object v3
 
-    invoke-static {v3}, Lkik/android/util/bw;->a(Ljava/lang/String;)Z
+    invoke-static {v3}, Lkik/arcane/util/bw;->a(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -294,13 +294,13 @@
 
     move-result-object v5
 
-    invoke-static {v5}, Lkik/android/util/bw;->c(Ljava/lang/String;)I
+    invoke-static {v5}, Lkik/arcane/util/bw;->c(Ljava/lang/String;)I
 
     move-result v5
 
     int-to-long v6, v5
 
-    invoke-static {v3, v6, v7}, Lkik/android/util/bw;->a(Ljava/lang/String;J)Z
+    invoke-static {v3, v6, v7}, Lkik/arcane/util/bw;->a(Ljava/lang/String;J)Z
 
     move-result v3
 
@@ -318,7 +318,7 @@
     .line 40
     if-eqz p0, :cond_0
 
-    const-string v0, "file:///data/data/kik.android/thirdpartyfiles/"
+    const-string v0, "file:///data/data/kik.arcane/thirdpartyfiles/"
 
     invoke-static {v0}, Ljava/net/URI;->create(Ljava/lang/String;)Ljava/net/URI;
 
@@ -399,7 +399,7 @@
     .line 1129
     new-instance v0, Ljava/io/File;
 
-    const-string v1, "file:///data/data/kik.android/thirdpartyfiles/"
+    const-string v1, "file:///data/data/kik.arcane/thirdpartyfiles/"
 
     invoke-static {v1}, Ljava/net/URI;->create(Ljava/lang/String;)Ljava/net/URI;
 
@@ -419,7 +419,7 @@
 
     .line 111
     :cond_0
-    invoke-direct {p0}, Lkik/android/KikFileProvider;->a()V
+    invoke-direct {p0}, Lkik/arcane/KikFileProvider;->a()V
 
     .line 113
     invoke-virtual {p1}, Landroid/net/Uri;->getLastPathSegment()Ljava/lang/String;
@@ -431,7 +431,7 @@
 
     new-instance v2, Ljava/lang/StringBuilder;
 
-    const-string v3, "file:///data/data/kik.android/thirdpartyfiles/"
+    const-string v3, "file:///data/data/kik.arcane/thirdpartyfiles/"
 
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 

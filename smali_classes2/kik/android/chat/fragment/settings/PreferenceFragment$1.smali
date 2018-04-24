@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/settings/PreferenceFragment$1;
+.class final Lkik/arcane/chat/fragment/settings/PreferenceFragment$1;
 .super Landroid/os/Handler;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/settings/PreferenceFragment;
+    value = Lkik/arcane/chat/fragment/settings/PreferenceFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/settings/PreferenceFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/settings/PreferenceFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/settings/PreferenceFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/settings/PreferenceFragment;)V
     .locals 0
 
     .prologue
     .line 92
-    iput-object p1, p0, Lkik/android/chat/fragment/settings/PreferenceFragment$1;->a:Lkik/android/chat/fragment/settings/PreferenceFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment$1;->a:Lkik/arcane/chat/fragment/settings/PreferenceFragment;
 
     invoke-direct {p0}, Landroid/os/Handler;-><init>()V
 
@@ -49,18 +49,18 @@
 
     .line 100
     :pswitch_0
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment$1;->a:Lkik/android/chat/fragment/settings/PreferenceFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment$1;->a:Lkik/arcane/chat/fragment/settings/PreferenceFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/settings/PreferenceFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
     .line 101
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/PreferenceFragment$1;->a:Lkik/android/chat/fragment/settings/PreferenceFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/PreferenceFragment$1;->a:Lkik/arcane/chat/fragment/settings/PreferenceFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/settings/PreferenceFragment;->a(Lkik/android/chat/fragment/settings/PreferenceFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/settings/PreferenceFragment;->a(Lkik/arcane/chat/fragment/settings/PreferenceFragment;)V
 
     goto :goto_0
 

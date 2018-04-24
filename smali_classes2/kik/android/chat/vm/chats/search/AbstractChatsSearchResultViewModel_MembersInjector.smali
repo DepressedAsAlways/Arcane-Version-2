@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/vm/chats/search/AbstractChatsSearchResultViewModel_MembersInjector;
+.class public final Lkik/arcane/chat/vm/chats/search/AbstractChatsSearchResultViewModel_MembersInjector;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/b",
         "<",
-        "Lkik/android/chat/vm/chats/search/a;",
+        "Lkik/arcane/chat/vm/chats/search/a;",
         ">;"
     }
 .end annotation
@@ -28,7 +28,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -41,7 +41,7 @@
 
     .prologue
     .line 8
-    const-class v0, Lkik/android/chat/vm/chats/search/AbstractChatsSearchResultViewModel_MembersInjector;
+    const-class v0, Lkik/arcane/chat/vm/chats/search/AbstractChatsSearchResultViewModel_MembersInjector;
 
     invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
 
@@ -52,7 +52,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    sput-boolean v0, Lkik/android/chat/vm/chats/search/AbstractChatsSearchResultViewModel_MembersInjector;->a:Z
+    sput-boolean v0, Lkik/arcane/chat/vm/chats/search/AbstractChatsSearchResultViewModel_MembersInjector;->a:Z
 
     return-void
 
@@ -69,7 +69,7 @@
 
     .prologue
     .line 8
-    check-cast p1, Lkik/android/chat/vm/chats/search/a;
+    check-cast p1, Lkik/arcane/chat/vm/chats/search/a;
 
     .line 1028
     if-nez p1, :cond_0
@@ -85,15 +85,15 @@
 
     .line 1031
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/vm/chats/search/AbstractChatsSearchResultViewModel_MembersInjector;->b:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/search/AbstractChatsSearchResultViewModel_MembersInjector;->b:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/Mixpanel;
+    check-cast v0, Lcom/kik/arcane/Mixpanel;
 
-    iput-object v0, p1, Lkik/android/chat/vm/chats/search/a;->a:Lcom/kik/android/Mixpanel;
+    iput-object v0, p1, Lkik/arcane/chat/vm/chats/search/a;->a:Lcom/kik/arcane/Mixpanel;
 
     .line 8
     return-void

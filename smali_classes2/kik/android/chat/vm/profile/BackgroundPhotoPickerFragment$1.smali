@@ -1,14 +1,14 @@
-.class final Lkik/android/chat/vm/profile/BackgroundPhotoPickerFragment$1;
+.class final Lkik/arcane/chat/vm/profile/BackgroundPhotoPickerFragment$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/ae;
+.implements Lkik/arcane/chat/vm/ae;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/profile/BackgroundPhotoPickerFragment;
+    value = Lkik/arcane/chat/vm/profile/BackgroundPhotoPickerFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Landroid/content/Intent;
 
-.field final synthetic b:Lkik/android/chat/vm/profile/BackgroundPhotoPickerFragment;
+.field final synthetic b:Lkik/arcane/chat/vm/profile/BackgroundPhotoPickerFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/profile/BackgroundPhotoPickerFragment;Landroid/content/Intent;)V
+.method constructor <init>(Lkik/arcane/chat/vm/profile/BackgroundPhotoPickerFragment;Landroid/content/Intent;)V
     .locals 0
 
     .prologue
     .line 82
-    iput-object p1, p0, Lkik/android/chat/vm/profile/BackgroundPhotoPickerFragment$1;->b:Lkik/android/chat/vm/profile/BackgroundPhotoPickerFragment;
+    iput-object p1, p0, Lkik/arcane/chat/vm/profile/BackgroundPhotoPickerFragment$1;->b:Lkik/arcane/chat/vm/profile/BackgroundPhotoPickerFragment;
 
-    iput-object p2, p0, Lkik/android/chat/vm/profile/BackgroundPhotoPickerFragment$1;->a:Landroid/content/Intent;
+    iput-object p2, p0, Lkik/arcane/chat/vm/profile/BackgroundPhotoPickerFragment$1;->a:Landroid/content/Intent;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,11 +45,11 @@
 
     .prologue
     .line 88
-    iget-object v0, p0, Lkik/android/chat/vm/profile/BackgroundPhotoPickerFragment$1;->a:Landroid/content/Intent;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/BackgroundPhotoPickerFragment$1;->a:Landroid/content/Intent;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/vm/profile/BackgroundPhotoPickerFragment$1;->a:Landroid/content/Intent;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/BackgroundPhotoPickerFragment$1;->a:Landroid/content/Intent;
 
     invoke-virtual {v0}, Landroid/content/Intent;->getData()Landroid/net/Uri;
 
@@ -58,9 +58,9 @@
     if-nez v0, :cond_1
 
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/vm/profile/BackgroundPhotoPickerFragment$1;->b:Lkik/android/chat/vm/profile/BackgroundPhotoPickerFragment;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/BackgroundPhotoPickerFragment$1;->b:Lkik/arcane/chat/vm/profile/BackgroundPhotoPickerFragment;
 
-    invoke-static {v0}, Lkik/android/chat/vm/profile/BackgroundPhotoPickerFragment;->a(Lkik/android/chat/vm/profile/BackgroundPhotoPickerFragment;)Ljava/io/File;
+    invoke-static {v0}, Lkik/arcane/chat/vm/profile/BackgroundPhotoPickerFragment;->a(Lkik/arcane/chat/vm/profile/BackgroundPhotoPickerFragment;)Ljava/io/File;
 
     move-result-object v0
 
@@ -72,7 +72,7 @@
     return-object v0
 
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/vm/profile/BackgroundPhotoPickerFragment$1;->a:Landroid/content/Intent;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/BackgroundPhotoPickerFragment$1;->a:Landroid/content/Intent;
 
     invoke-virtual {v0}, Landroid/content/Intent;->getData()Landroid/net/Uri;
 
@@ -86,9 +86,9 @@
 
     .prologue
     .line 94
-    iget-object v0, p0, Lkik/android/chat/vm/profile/BackgroundPhotoPickerFragment$1;->b:Lkik/android/chat/vm/profile/BackgroundPhotoPickerFragment;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/BackgroundPhotoPickerFragment$1;->b:Lkik/arcane/chat/vm/profile/BackgroundPhotoPickerFragment;
 
-    invoke-static {v0}, Lkik/android/chat/vm/profile/BackgroundPhotoPickerFragment;->b(Lkik/android/chat/vm/profile/BackgroundPhotoPickerFragment;)Z
+    invoke-static {v0}, Lkik/arcane/chat/vm/profile/BackgroundPhotoPickerFragment;->b(Lkik/arcane/chat/vm/profile/BackgroundPhotoPickerFragment;)Z
 
     move-result v0
 

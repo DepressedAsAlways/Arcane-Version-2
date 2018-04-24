@@ -1,11 +1,11 @@
-.class public final enum Lkik/android/util/RobotoFontUtils$Type;
+.class public final enum Lkik/arcane/util/RobotoFontUtils$Type;
 .super Ljava/lang/Enum;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/RobotoFontUtils;
+    value = Lkik/arcane/util/RobotoFontUtils;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,26 +17,26 @@
     value = {
         "Ljava/lang/Enum",
         "<",
-        "Lkik/android/util/RobotoFontUtils$Type;",
+        "Lkik/arcane/util/RobotoFontUtils$Type;",
         ">;"
     }
 .end annotation
 
 
 # static fields
-.field private static final synthetic $VALUES:[Lkik/android/util/RobotoFontUtils$Type;
+.field private static final synthetic $VALUES:[Lkik/arcane/util/RobotoFontUtils$Type;
 
-.field public static final enum BLACK:Lkik/android/util/RobotoFontUtils$Type;
+.field public static final enum BLACK:Lkik/arcane/util/RobotoFontUtils$Type;
 
-.field public static final enum CONDENSED:Lkik/android/util/RobotoFontUtils$Type;
+.field public static final enum CONDENSED:Lkik/arcane/util/RobotoFontUtils$Type;
 
-.field public static final enum LIGHT:Lkik/android/util/RobotoFontUtils$Type;
+.field public static final enum LIGHT:Lkik/arcane/util/RobotoFontUtils$Type;
 
-.field public static final enum MEDIUM:Lkik/android/util/RobotoFontUtils$Type;
+.field public static final enum MEDIUM:Lkik/arcane/util/RobotoFontUtils$Type;
 
-.field public static final enum NONE:Lkik/android/util/RobotoFontUtils$Type;
+.field public static final enum NONE:Lkik/arcane/util/RobotoFontUtils$Type;
 
-.field public static final enum THIN:Lkik/android/util/RobotoFontUtils$Type;
+.field public static final enum THIN:Lkik/arcane/util/RobotoFontUtils$Type;
 
 
 # direct methods
@@ -55,88 +55,88 @@
     const/4 v3, 0x0
 
     .line 11
-    new-instance v0, Lkik/android/util/RobotoFontUtils$Type;
+    new-instance v0, Lkik/arcane/util/RobotoFontUtils$Type;
 
     const-string v1, "NONE"
 
-    invoke-direct {v0, v1, v3}, Lkik/android/util/RobotoFontUtils$Type;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v3}, Lkik/arcane/util/RobotoFontUtils$Type;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/util/RobotoFontUtils$Type;->NONE:Lkik/android/util/RobotoFontUtils$Type;
+    sput-object v0, Lkik/arcane/util/RobotoFontUtils$Type;->NONE:Lkik/arcane/util/RobotoFontUtils$Type;
 
-    new-instance v0, Lkik/android/util/RobotoFontUtils$Type;
+    new-instance v0, Lkik/arcane/util/RobotoFontUtils$Type;
 
     const-string v1, "BLACK"
 
-    invoke-direct {v0, v1, v4}, Lkik/android/util/RobotoFontUtils$Type;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v4}, Lkik/arcane/util/RobotoFontUtils$Type;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/util/RobotoFontUtils$Type;->BLACK:Lkik/android/util/RobotoFontUtils$Type;
+    sput-object v0, Lkik/arcane/util/RobotoFontUtils$Type;->BLACK:Lkik/arcane/util/RobotoFontUtils$Type;
 
-    new-instance v0, Lkik/android/util/RobotoFontUtils$Type;
+    new-instance v0, Lkik/arcane/util/RobotoFontUtils$Type;
 
     const-string v1, "CONDENSED"
 
-    invoke-direct {v0, v1, v5}, Lkik/android/util/RobotoFontUtils$Type;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v5}, Lkik/arcane/util/RobotoFontUtils$Type;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/util/RobotoFontUtils$Type;->CONDENSED:Lkik/android/util/RobotoFontUtils$Type;
+    sput-object v0, Lkik/arcane/util/RobotoFontUtils$Type;->CONDENSED:Lkik/arcane/util/RobotoFontUtils$Type;
 
-    new-instance v0, Lkik/android/util/RobotoFontUtils$Type;
+    new-instance v0, Lkik/arcane/util/RobotoFontUtils$Type;
 
     const-string v1, "LIGHT"
 
-    invoke-direct {v0, v1, v6}, Lkik/android/util/RobotoFontUtils$Type;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v6}, Lkik/arcane/util/RobotoFontUtils$Type;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/util/RobotoFontUtils$Type;->LIGHT:Lkik/android/util/RobotoFontUtils$Type;
+    sput-object v0, Lkik/arcane/util/RobotoFontUtils$Type;->LIGHT:Lkik/arcane/util/RobotoFontUtils$Type;
 
-    new-instance v0, Lkik/android/util/RobotoFontUtils$Type;
+    new-instance v0, Lkik/arcane/util/RobotoFontUtils$Type;
 
     const-string v1, "MEDIUM"
 
-    invoke-direct {v0, v1, v7}, Lkik/android/util/RobotoFontUtils$Type;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v7}, Lkik/arcane/util/RobotoFontUtils$Type;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/util/RobotoFontUtils$Type;->MEDIUM:Lkik/android/util/RobotoFontUtils$Type;
+    sput-object v0, Lkik/arcane/util/RobotoFontUtils$Type;->MEDIUM:Lkik/arcane/util/RobotoFontUtils$Type;
 
-    new-instance v0, Lkik/android/util/RobotoFontUtils$Type;
+    new-instance v0, Lkik/arcane/util/RobotoFontUtils$Type;
 
     const-string v1, "THIN"
 
     const/4 v2, 0x5
 
-    invoke-direct {v0, v1, v2}, Lkik/android/util/RobotoFontUtils$Type;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Lkik/arcane/util/RobotoFontUtils$Type;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/util/RobotoFontUtils$Type;->THIN:Lkik/android/util/RobotoFontUtils$Type;
+    sput-object v0, Lkik/arcane/util/RobotoFontUtils$Type;->THIN:Lkik/arcane/util/RobotoFontUtils$Type;
 
     .line 10
     const/4 v0, 0x6
 
-    new-array v0, v0, [Lkik/android/util/RobotoFontUtils$Type;
+    new-array v0, v0, [Lkik/arcane/util/RobotoFontUtils$Type;
 
-    sget-object v1, Lkik/android/util/RobotoFontUtils$Type;->NONE:Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v1, Lkik/arcane/util/RobotoFontUtils$Type;->NONE:Lkik/arcane/util/RobotoFontUtils$Type;
 
     aput-object v1, v0, v3
 
-    sget-object v1, Lkik/android/util/RobotoFontUtils$Type;->BLACK:Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v1, Lkik/arcane/util/RobotoFontUtils$Type;->BLACK:Lkik/arcane/util/RobotoFontUtils$Type;
 
     aput-object v1, v0, v4
 
-    sget-object v1, Lkik/android/util/RobotoFontUtils$Type;->CONDENSED:Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v1, Lkik/arcane/util/RobotoFontUtils$Type;->CONDENSED:Lkik/arcane/util/RobotoFontUtils$Type;
 
     aput-object v1, v0, v5
 
-    sget-object v1, Lkik/android/util/RobotoFontUtils$Type;->LIGHT:Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v1, Lkik/arcane/util/RobotoFontUtils$Type;->LIGHT:Lkik/arcane/util/RobotoFontUtils$Type;
 
     aput-object v1, v0, v6
 
-    sget-object v1, Lkik/android/util/RobotoFontUtils$Type;->MEDIUM:Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v1, Lkik/arcane/util/RobotoFontUtils$Type;->MEDIUM:Lkik/arcane/util/RobotoFontUtils$Type;
 
     aput-object v1, v0, v7
 
     const/4 v1, 0x5
 
-    sget-object v2, Lkik/android/util/RobotoFontUtils$Type;->THIN:Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v2, Lkik/arcane/util/RobotoFontUtils$Type;->THIN:Lkik/arcane/util/RobotoFontUtils$Type;
 
     aput-object v2, v0, v1
 
-    sput-object v0, Lkik/android/util/RobotoFontUtils$Type;->$VALUES:[Lkik/android/util/RobotoFontUtils$Type;
+    sput-object v0, Lkik/arcane/util/RobotoFontUtils$Type;->$VALUES:[Lkik/arcane/util/RobotoFontUtils$Type;
 
     return-void
 .end method
@@ -156,34 +156,34 @@
     return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lkik/android/util/RobotoFontUtils$Type;
+.method public static valueOf(Ljava/lang/String;)Lkik/arcane/util/RobotoFontUtils$Type;
     .locals 1
 
     .prologue
     .line 10
-    const-class v0, Lkik/android/util/RobotoFontUtils$Type;
+    const-class v0, Lkik/arcane/util/RobotoFontUtils$Type;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/util/RobotoFontUtils$Type;
+    check-cast v0, Lkik/arcane/util/RobotoFontUtils$Type;
 
     return-object v0
 .end method
 
-.method public static values()[Lkik/android/util/RobotoFontUtils$Type;
+.method public static values()[Lkik/arcane/util/RobotoFontUtils$Type;
     .locals 1
 
     .prologue
     .line 10
-    sget-object v0, Lkik/android/util/RobotoFontUtils$Type;->$VALUES:[Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v0, Lkik/arcane/util/RobotoFontUtils$Type;->$VALUES:[Lkik/arcane/util/RobotoFontUtils$Type;
 
-    invoke-virtual {v0}, [Lkik/android/util/RobotoFontUtils$Type;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lkik/arcane/util/RobotoFontUtils$Type;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkik/android/util/RobotoFontUtils$Type;
+    check-cast v0, [Lkik/arcane/util/RobotoFontUtils$Type;
 
     return-object v0
 .end method

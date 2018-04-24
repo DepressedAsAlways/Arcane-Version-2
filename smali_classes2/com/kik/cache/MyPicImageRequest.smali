@@ -141,16 +141,16 @@
 
     move v6, p6
 
-    invoke-static/range {v0 .. v7}, Lcom/kik/cache/MyPicImageRequest;->getProfileRequest(Lkik/core/datatypes/aa;Lcom/android/volley/h$b;IILcom/android/volley/h$a;ZZLcom/kik/android/Mixpanel;)Lcom/kik/cache/MyPicImageRequest;
+    invoke-static/range {v0 .. v7}, Lcom/kik/cache/MyPicImageRequest;->getProfileRequest(Lkik/core/datatypes/aa;Lcom/android/volley/h$b;IILcom/android/volley/h$a;ZZLcom/kik/arcane/Mixpanel;)Lcom/kik/cache/MyPicImageRequest;
 
     move-result-object v0
 
     return-object v0
 .end method
 
-.method public static getProfileRequest(Lkik/core/datatypes/aa;Lcom/android/volley/h$b;IILcom/android/volley/h$a;ZZLcom/kik/android/Mixpanel;)Lcom/kik/cache/MyPicImageRequest;
+.method public static getProfileRequest(Lkik/core/datatypes/aa;Lcom/android/volley/h$b;IILcom/android/volley/h$a;ZZLcom/kik/arcane/Mixpanel;)Lcom/kik/cache/MyPicImageRequest;
     .locals 10
-    .param p7    # Lcom/kik/android/Mixpanel;
+    .param p7    # Lcom/kik/arcane/Mixpanel;
         .annotation runtime Ljavax/annotation/Nullable;
         .end annotation
     .end param
@@ -164,7 +164,7 @@
             ">;II",
             "Lcom/android/volley/h$a;",
             "ZZ",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ")",
             "Lcom/kik/cache/MyPicImageRequest;"
         }

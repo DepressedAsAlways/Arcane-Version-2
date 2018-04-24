@@ -7,11 +7,11 @@
 
 
 # instance fields
-.field private a:Lkik/android/internal/platform/PlatformHelper;
+.field private a:Lkik/arcane/internal/platform/PlatformHelper;
 
 .field private b:Lcom/kik/cache/KikVolleyImageLoader;
 
-.field private c:Lcom/kik/android/Mixpanel;
+.field private c:Lcom/kik/arcane/Mixpanel;
 
 .field private d:Lkik/core/net/e;
 
@@ -23,11 +23,11 @@
 
 .field private h:Lkik/core/interfaces/z;
 
-.field private i:Lkik/android/net/http/b;
+.field private i:Lkik/arcane/net/http/b;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/internal/platform/PlatformHelper;Lkik/android/net/http/b;Lcom/kik/cache/KikVolleyImageLoader;Lcom/kik/android/Mixpanel;Lkik/core/net/e;Lkik/core/interfaces/n;Lkik/core/interfaces/ad;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/z;)V
+.method public constructor <init>(Lkik/arcane/internal/platform/PlatformHelper;Lkik/arcane/net/http/b;Lcom/kik/cache/KikVolleyImageLoader;Lcom/kik/arcane/Mixpanel;Lkik/core/net/e;Lkik/core/interfaces/n;Lkik/core/interfaces/ad;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/z;)V
     .locals 0
 
     .prologue
@@ -35,16 +35,16 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 44
-    iput-object p1, p0, Lcom/kik/c/a;->a:Lkik/android/internal/platform/PlatformHelper;
+    iput-object p1, p0, Lcom/kik/c/a;->a:Lkik/arcane/internal/platform/PlatformHelper;
 
     .line 45
-    iput-object p2, p0, Lcom/kik/c/a;->i:Lkik/android/net/http/b;
+    iput-object p2, p0, Lcom/kik/c/a;->i:Lkik/arcane/net/http/b;
 
     .line 46
     iput-object p3, p0, Lcom/kik/c/a;->b:Lcom/kik/cache/KikVolleyImageLoader;
 
     .line 47
-    iput-object p4, p0, Lcom/kik/c/a;->c:Lcom/kik/android/Mixpanel;
+    iput-object p4, p0, Lcom/kik/c/a;->c:Lcom/kik/arcane/Mixpanel;
 
     .line 48
     iput-object p5, p0, Lcom/kik/c/a;->d:Lkik/core/net/e;
@@ -85,13 +85,13 @@
 
     .line 97
     :cond_0
-    new-instance v0, Lkik/android/net/http/ContentUploadItem;
+    new-instance v0, Lkik/arcane/net/http/ContentUploadItem;
 
     invoke-virtual {p2}, Lcom/kik/core/network/xmpp/jid/a;->toString()Ljava/lang/String;
 
     move-result-object v2
 
-    iget-object v4, p0, Lcom/kik/c/a;->c:Lcom/kik/android/Mixpanel;
+    iget-object v4, p0, Lcom/kik/c/a;->c:Lcom/kik/arcane/Mixpanel;
 
     iget-object v5, p0, Lcom/kik/c/a;->d:Lkik/core/net/e;
 
@@ -107,12 +107,12 @@
 
     move-object v3, p3
 
-    invoke-direct/range {v0 .. v9}, Lkik/android/net/http/ContentUploadItem;-><init>(Lkik/core/datatypes/messageExtensions/ContentMessage;Ljava/lang/String;Ljava/lang/String;Lcom/kik/android/Mixpanel;Lkik/core/net/e;Lkik/core/interfaces/n;Lkik/core/interfaces/ad;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/z;)V
+    invoke-direct/range {v0 .. v9}, Lkik/arcane/net/http/ContentUploadItem;-><init>(Lkik/core/datatypes/messageExtensions/ContentMessage;Ljava/lang/String;Ljava/lang/String;Lcom/kik/arcane/Mixpanel;Lkik/core/net/e;Lkik/core/interfaces/n;Lkik/core/interfaces/ad;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/z;)V
 
     .line 98
-    iget-object v1, p0, Lcom/kik/c/a;->i:Lkik/android/net/http/b;
+    iget-object v1, p0, Lcom/kik/c/a;->i:Lkik/arcane/net/http/b;
 
-    invoke-virtual {v1, v0}, Lkik/android/net/http/b;->a(Lkik/android/net/http/a;)V
+    invoke-virtual {v1, v0}, Lkik/arcane/net/http/b;->a(Lkik/arcane/net/http/a;)V
 
     .line 99
     const/4 v0, 0x1
@@ -170,13 +170,13 @@
 
     .line 72
     :cond_1
-    iget-object v0, p0, Lcom/kik/c/a;->i:Lkik/android/net/http/b;
+    iget-object v0, p0, Lcom/kik/c/a;->i:Lkik/arcane/net/http/b;
 
     invoke-virtual {p1}, Lkik/core/datatypes/messageExtensions/ContentMessage;->n()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0, v2}, Lkik/android/net/http/b;->a(Ljava/lang/String;)Ljava/lang/ref/WeakReference;
+    invoke-virtual {v0, v2}, Lkik/arcane/net/http/b;->a(Ljava/lang/String;)Ljava/lang/ref/WeakReference;
 
     move-result-object v0
 
@@ -188,13 +188,13 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/net/http/ContentUploadItem;
+    check-cast v0, Lkik/arcane/net/http/ContentUploadItem;
 
     .line 75
     if-eqz v0, :cond_2
 
     .line 76
-    invoke-virtual {v0, p1}, Lkik/android/net/http/ContentUploadItem;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;)V
+    invoke-virtual {v0, p1}, Lkik/arcane/net/http/ContentUploadItem;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;)V
 
     .line 2057
     :cond_2
@@ -211,15 +211,15 @@
     if-eqz v0, :cond_4
 
     .line 2058
-    iget-object v0, p0, Lcom/kik/c/a;->a:Lkik/android/internal/platform/PlatformHelper;
+    iget-object v0, p0, Lcom/kik/c/a;->a:Lkik/arcane/internal/platform/PlatformHelper;
 
     iget-object v2, p0, Lcom/kik/c/a;->b:Lcom/kik/cache/KikVolleyImageLoader;
 
-    iget-object v3, p0, Lcom/kik/c/a;->c:Lcom/kik/android/Mixpanel;
+    iget-object v3, p0, Lcom/kik/c/a;->c:Lcom/kik/arcane/Mixpanel;
 
     iget-object v4, p0, Lcom/kik/c/a;->d:Lkik/core/net/e;
 
-    invoke-virtual {v0, p1, v2, v3, v4}, Lkik/android/internal/platform/PlatformHelper;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Lcom/kik/cache/KikVolleyImageLoader;Lcom/kik/android/Mixpanel;Lkik/core/net/e;)Lcom/kik/events/Promise;
+    invoke-virtual {v0, p1, v2, v3, v4}, Lkik/arcane/internal/platform/PlatformHelper;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Lcom/kik/cache/KikVolleyImageLoader;Lcom/kik/arcane/Mixpanel;Lkik/core/net/e;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
@@ -234,7 +234,7 @@
     move-result v4
 
     .line 2090
-    iget-object v5, p0, Lcom/kik/c/a;->a:Lkik/android/internal/platform/PlatformHelper;
+    iget-object v5, p0, Lcom/kik/c/a;->a:Lkik/arcane/internal/platform/PlatformHelper;
 
     .line 2922
     if-eqz p1, :cond_3
@@ -279,7 +279,7 @@
     if-eqz v1, :cond_5
 
     .line 2932
-    invoke-static {v2}, Lkik/android/util/aa;->b(Ljava/lang/String;)J
+    invoke-static {v2}, Lkik/arcane/util/aa;->b(Ljava/lang/String;)J
 
     move-result-wide v2
 
@@ -289,7 +289,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v5, v1, v2, v3}, Lkik/android/internal/platform/PlatformHelper;->a(Ljava/lang/String;J)Z
+    invoke-virtual {v5, v1, v2, v3}, Lkik/arcane/internal/platform/PlatformHelper;->a(Ljava/lang/String;J)Z
 
     move-result v1
 
@@ -302,9 +302,9 @@
     if-eq v4, v1, :cond_6
 
     .line 2091
-    iget-object v1, p0, Lcom/kik/c/a;->a:Lkik/android/internal/platform/PlatformHelper;
+    iget-object v1, p0, Lcom/kik/c/a;->a:Lkik/arcane/internal/platform/PlatformHelper;
 
-    invoke-virtual {v1, p1}, Lkik/android/internal/platform/PlatformHelper;->d(Lkik/core/datatypes/messageExtensions/ContentMessage;)Lcom/kik/events/Promise;
+    invoke-virtual {v1, p1}, Lkik/arcane/internal/platform/PlatformHelper;->d(Lkik/core/datatypes/messageExtensions/ContentMessage;)Lcom/kik/events/Promise;
 
     move-result-object v1
 

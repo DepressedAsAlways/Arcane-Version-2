@@ -1,4 +1,4 @@
-.class final Lkik/android/net/http/f$1;
+.class final Lkik/arcane/net/http/f$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/net/http/f;
+    value = Lkik/arcane/net/http/f;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/net/http/f;
+.field final synthetic a:Lkik/arcane/net/http/f;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/net/http/f;)V
+.method constructor <init>(Lkik/arcane/net/http/f;)V
     .locals 0
 
     .prologue
     .line 173
-    iput-object p1, p0, Lkik/android/net/http/f$1;->a:Lkik/android/net/http/f;
+    iput-object p1, p0, Lkik/arcane/net/http/f$1;->a:Lkik/arcane/net/http/f;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -48,11 +48,11 @@
 
     .line 178
     :try_start_0
-    iget-object v0, p0, Lkik/android/net/http/f$1;->a:Lkik/android/net/http/f;
+    iget-object v0, p0, Lkik/arcane/net/http/f$1;->a:Lkik/arcane/net/http/f;
 
-    iget-object v1, p0, Lkik/android/net/http/f$1;->a:Lkik/android/net/http/f;
+    iget-object v1, p0, Lkik/arcane/net/http/f$1;->a:Lkik/arcane/net/http/f;
 
-    invoke-static {v1}, Lkik/android/net/http/f;->a(Lkik/android/net/http/f;)Ljava/net/Socket;
+    invoke-static {v1}, Lkik/arcane/net/http/f;->a(Lkik/arcane/net/http/f;)Ljava/net/Socket;
 
     move-result-object v1
 
@@ -60,16 +60,16 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lkik/android/net/http/f;->a(Lkik/android/net/http/f;Ljava/io/InputStream;)Ljava/io/InputStream;
+    invoke-static {v0, v1}, Lkik/arcane/net/http/f;->a(Lkik/arcane/net/http/f;Ljava/io/InputStream;)Ljava/io/InputStream;
 
     .line 179
     new-instance v3, Ljava/io/BufferedReader;
 
     new-instance v0, Ljava/io/InputStreamReader;
 
-    iget-object v1, p0, Lkik/android/net/http/f$1;->a:Lkik/android/net/http/f;
+    iget-object v1, p0, Lkik/arcane/net/http/f$1;->a:Lkik/arcane/net/http/f;
 
-    invoke-static {v1}, Lkik/android/net/http/f;->b(Lkik/android/net/http/f;)Ljava/io/InputStream;
+    invoke-static {v1}, Lkik/arcane/net/http/f;->b(Lkik/arcane/net/http/f;)Ljava/io/InputStream;
 
     move-result-object v1
 
@@ -110,9 +110,9 @@
 
     if-eqz v4, :cond_1
 
-    iget-object v4, p0, Lkik/android/net/http/f$1;->a:Lkik/android/net/http/f;
+    iget-object v4, p0, Lkik/arcane/net/http/f$1;->a:Lkik/arcane/net/http/f;
 
-    invoke-static {v4}, Lkik/android/net/http/f;->c(Lkik/android/net/http/f;)I
+    invoke-static {v4}, Lkik/arcane/net/http/f;->c(Lkik/arcane/net/http/f;)I
 
     move-result v4
 
@@ -136,9 +136,9 @@
     move-exception v0
 
     .line 288
-    iget-object v1, p0, Lkik/android/net/http/f$1;->a:Lkik/android/net/http/f;
+    iget-object v1, p0, Lkik/arcane/net/http/f$1;->a:Lkik/arcane/net/http/f;
 
-    invoke-static {v1}, Lkik/android/net/http/f;->d(Lkik/android/net/http/f;)Ljava/lang/Object;
+    invoke-static {v1}, Lkik/arcane/net/http/f;->d(Lkik/arcane/net/http/f;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -146,9 +146,9 @@
 
     .line 289
     :try_start_3
-    iget-object v2, p0, Lkik/android/net/http/f$1;->a:Lkik/android/net/http/f;
+    iget-object v2, p0, Lkik/arcane/net/http/f$1;->a:Lkik/arcane/net/http/f;
 
-    invoke-static {v2, v0}, Lkik/android/net/http/f;->a(Lkik/android/net/http/f;Ljava/io/IOException;)Ljava/io/IOException;
+    invoke-static {v2, v0}, Lkik/arcane/net/http/f;->a(Lkik/arcane/net/http/f;Ljava/io/IOException;)Ljava/io/IOException;
 
     .line 290
     monitor-exit v1
@@ -315,9 +315,9 @@
 
     .line 224
     :cond_7
-    iget-object v5, p0, Lkik/android/net/http/f$1;->a:Lkik/android/net/http/f;
+    iget-object v5, p0, Lkik/arcane/net/http/f$1;->a:Lkik/arcane/net/http/f;
 
-    invoke-static {v5}, Lkik/android/net/http/f;->d(Lkik/android/net/http/f;)Ljava/lang/Object;
+    invoke-static {v5}, Lkik/arcane/net/http/f;->d(Lkik/arcane/net/http/f;)Ljava/lang/Object;
 
     move-result-object v5
 
@@ -327,24 +327,24 @@
 
     .line 225
     :try_start_5
-    iget-object v6, p0, Lkik/android/net/http/f$1;->a:Lkik/android/net/http/f;
+    iget-object v6, p0, Lkik/arcane/net/http/f$1;->a:Lkik/arcane/net/http/f;
 
-    invoke-static {v6, v0}, Lkik/android/net/http/f;->a(Lkik/android/net/http/f;I)I
+    invoke-static {v6, v0}, Lkik/arcane/net/http/f;->a(Lkik/arcane/net/http/f;I)I
 
     .line 226
-    iget-object v0, p0, Lkik/android/net/http/f$1;->a:Lkik/android/net/http/f;
+    iget-object v0, p0, Lkik/arcane/net/http/f$1;->a:Lkik/arcane/net/http/f;
 
-    invoke-static {v0, v1}, Lkik/android/net/http/f;->a(Lkik/android/net/http/f;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lkik/arcane/net/http/f;->a(Lkik/arcane/net/http/f;Ljava/lang/String;)Ljava/lang/String;
 
     .line 227
-    iget-object v0, p0, Lkik/android/net/http/f$1;->a:Lkik/android/net/http/f;
+    iget-object v0, p0, Lkik/arcane/net/http/f$1;->a:Lkik/arcane/net/http/f;
 
-    invoke-static {v0, v4}, Lkik/android/net/http/f;->a(Lkik/android/net/http/f;Ljava/util/HashMap;)Ljava/util/HashMap;
+    invoke-static {v0, v4}, Lkik/arcane/net/http/f;->a(Lkik/arcane/net/http/f;Ljava/util/HashMap;)Ljava/util/HashMap;
 
     .line 228
-    iget-object v0, p0, Lkik/android/net/http/f$1;->a:Lkik/android/net/http/f;
+    iget-object v0, p0, Lkik/arcane/net/http/f$1;->a:Lkik/arcane/net/http/f;
 
-    invoke-static {v0}, Lkik/android/net/http/f;->d(Lkik/android/net/http/f;)Ljava/lang/Object;
+    invoke-static {v0}, Lkik/arcane/net/http/f;->d(Lkik/arcane/net/http/f;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -446,13 +446,13 @@
 
     .line 284
     :cond_a
-    iget-object v0, p0, Lkik/android/net/http/f$1;->a:Lkik/android/net/http/f;
+    iget-object v0, p0, Lkik/arcane/net/http/f$1;->a:Lkik/arcane/net/http/f;
 
     invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lkik/android/net/http/f;->b(Lkik/android/net/http/f;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lkik/arcane/net/http/f;->b(Lkik/arcane/net/http/f;Ljava/lang/String;)Ljava/lang/String;
     :try_end_8
     .catch Ljava/io/IOException; {:try_start_8 .. :try_end_8} :catch_0
 

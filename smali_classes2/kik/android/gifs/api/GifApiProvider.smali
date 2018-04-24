@@ -1,4 +1,4 @@
-.class public abstract Lkik/android/gifs/api/GifApiProvider;
+.class public abstract Lkik/arcane/gifs/api/GifApiProvider;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/gifs/api/GifApiProvider$GifSearchRating;
+        Lkik/arcane/gifs/api/GifApiProvider$GifSearchRating;
     }
 .end annotation
 
@@ -55,10 +55,10 @@
 
     invoke-direct {v1, v3, v2, v0}, Lcom/android/volley/g;-><init>(Lcom/android/volley/Cache;Lcom/android/volley/d;I)V
 
-    iput-object v1, p0, Lkik/android/gifs/api/GifApiProvider;->a:Lcom/android/volley/g;
+    iput-object v1, p0, Lkik/arcane/gifs/api/GifApiProvider;->a:Lcom/android/volley/g;
 
     .line 48
-    iget-object v0, p0, Lkik/android/gifs/api/GifApiProvider;->a:Lcom/android/volley/g;
+    iget-object v0, p0, Lkik/arcane/gifs/api/GifApiProvider;->a:Lcom/android/volley/g;
 
     invoke-virtual {v0}, Lcom/android/volley/g;->a()V
 
@@ -76,23 +76,23 @@
             "<",
             "Ljava/util/List",
             "<",
-            "Lkik/android/gifs/api/GifResponseData;",
+            "Lkik/arcane/gifs/api/GifResponseData;",
             ">;>;"
         }
     .end annotation
 .end method
 
-.method public abstract a(Ljava/lang/String;Lkik/android/gifs/api/GifApiProvider$GifSearchRating;Ljava/util/Locale;)Lcom/kik/events/Promise;
+.method public abstract a(Ljava/lang/String;Lkik/arcane/gifs/api/GifApiProvider$GifSearchRating;Ljava/util/Locale;)Lcom/kik/events/Promise;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
-            "Lkik/android/gifs/api/GifApiProvider$GifSearchRating;",
+            "Lkik/arcane/gifs/api/GifApiProvider$GifSearchRating;",
             "Ljava/util/Locale;",
             ")",
             "Lcom/kik/events/Promise",
             "<",
-            "Lkik/android/gifs/api/d;",
+            "Lkik/arcane/gifs/api/d;",
             ">;"
         }
     .end annotation
@@ -108,17 +108,17 @@
             "<",
             "Ljava/util/List",
             "<",
-            "Lkik/android/gifs/api/b;",
+            "Lkik/arcane/gifs/api/b;",
             ">;>;"
         }
     .end annotation
 .end method
 
-.method public abstract a(Lkik/android/gifs/api/GifResponseData;)Lcom/kik/events/Promise;
+.method public abstract a(Lkik/arcane/gifs/api/GifResponseData;)Lcom/kik/events/Promise;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/gifs/api/GifResponseData;",
+            "Lkik/arcane/gifs/api/GifResponseData;",
             ")",
             "Lcom/kik/events/Promise",
             "<",
@@ -131,11 +131,11 @@
 .method public abstract a(Ljava/lang/String;Ljava/lang/String;Ljava/util/Locale;Ljava/lang/String;I)V
 .end method
 
-.method public abstract b(Lkik/android/gifs/api/GifResponseData;)Lcom/kik/events/Promise;
+.method public abstract b(Lkik/arcane/gifs/api/GifResponseData;)Lcom/kik/events/Promise;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/gifs/api/GifResponseData;",
+            "Lkik/arcane/gifs/api/GifResponseData;",
             ")",
             "Lcom/kik/events/Promise",
             "<",
@@ -151,7 +151,7 @@
             "()",
             "Lrx/d",
             "<",
-            "Lkik/android/gifs/api/GifResponseData;",
+            "Lkik/arcane/gifs/api/GifResponseData;",
             ">;"
         }
     .end annotation
@@ -175,7 +175,7 @@
             "()",
             "Lcom/kik/events/Promise",
             "<",
-            "Lkik/android/gifs/api/d;",
+            "Lkik/arcane/gifs/api/d;",
             ">;"
         }
     .end annotation
@@ -189,7 +189,7 @@
             "<",
             "Ljava/util/List",
             "<",
-            "Lkik/android/gifs/api/f;",
+            "Lkik/arcane/gifs/api/f;",
             ">;>;"
         }
     .end annotation

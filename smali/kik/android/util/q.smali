@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/q;
+.class public final Lkik/arcane/util/q;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -32,7 +32,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/util/q;->a:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/util/q;->a:Lorg/slf4j/b;
 
     .line 20
     new-instance v0, Lcom/kik/events/g;
@@ -43,7 +43,7 @@
 
     invoke-direct {v0, v1}, Lcom/kik/events/g;-><init>(Ljava/lang/Object;)V
 
-    sput-object v0, Lkik/android/util/q;->c:Lcom/kik/events/g;
+    sput-object v0, Lkik/arcane/util/q;->c:Lcom/kik/events/g;
 
     return-void
 .end method
@@ -57,7 +57,7 @@
 
     move-result-wide v0
 
-    sput-wide v0, Lkik/android/util/q;->b:J
+    sput-wide v0, Lkik/arcane/util/q;->b:J
 
     .line 25
     return-void
@@ -80,9 +80,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/util/q$1;
+    new-instance v1, Lkik/arcane/util/q$1;
 
-    invoke-direct {v1, p0}, Lkik/android/util/q$1;-><init>(Landroid/view/View;)V
+    invoke-direct {v1, p0}, Lkik/arcane/util/q$1;-><init>(Landroid/view/View;)V
 
     invoke-virtual {v0, v1}, Landroid/view/ViewTreeObserver;->addOnPreDrawListener(Landroid/view/ViewTreeObserver$OnPreDrawListener;)V
 
@@ -103,7 +103,7 @@
 
     .prologue
     .line 29
-    sget-object v0, Lkik/android/util/q;->c:Lcom/kik/events/g;
+    sget-object v0, Lkik/arcane/util/q;->c:Lcom/kik/events/g;
 
     invoke-virtual {v0}, Lcom/kik/events/g;->a()Lcom/kik/events/c;
 
@@ -122,9 +122,9 @@
     move-result-wide v0
 
     .line 67
-    sget-object v2, Lkik/android/util/q;->c:Lcom/kik/events/g;
+    sget-object v2, Lkik/arcane/util/q;->c:Lcom/kik/events/g;
 
-    sget-wide v4, Lkik/android/util/q;->b:J
+    sget-wide v4, Lkik/arcane/util/q;->b:J
 
     sub-long/2addr v0, v4
 

@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/MediaViewerFragment$2;
+.class final Lkik/arcane/chat/fragment/MediaViewerFragment$2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/MediaViewerFragment;->a(IZ)V
+    value = Lkik/arcane/chat/fragment/MediaViewerFragment;->a(IZ)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/MediaViewerFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/MediaViewerFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/MediaViewerFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/MediaViewerFragment;)V
     .locals 0
 
     .prologue
     .line 336
-    iput-object p1, p0, Lkik/android/chat/fragment/MediaViewerFragment$2;->a:Lkik/android/chat/fragment/MediaViewerFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment$2;->a:Lkik/arcane/chat/fragment/MediaViewerFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -58,9 +58,9 @@
     move-result v0
 
     .line 341
-    iget-object v1, p0, Lkik/android/chat/fragment/MediaViewerFragment$2;->a:Lkik/android/chat/fragment/MediaViewerFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment$2;->a:Lkik/arcane/chat/fragment/MediaViewerFragment;
 
-    invoke-static {v1}, Lkik/android/chat/fragment/MediaViewerFragment;->c(Lkik/android/chat/fragment/MediaViewerFragment;)Landroid/widget/FrameLayout;
+    invoke-static {v1}, Lkik/arcane/chat/fragment/MediaViewerFragment;->c(Lkik/arcane/chat/fragment/MediaViewerFragment;)Landroid/widget/FrameLayout;
 
     move-result-object v1
 

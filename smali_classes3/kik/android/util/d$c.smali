@@ -1,11 +1,11 @@
-.class final Lkik/android/util/d$c;
+.class final Lkik/arcane/util/d$c;
 .super Landroid/os/Handler;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/d;
+    value = Lkik/arcane/util/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/util/d;
+.field final synthetic a:Lkik/arcane/util/d;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/util/d;Landroid/os/Looper;)V
+.method public constructor <init>(Lkik/arcane/util/d;Landroid/os/Looper;)V
     .locals 0
 
     .prologue
     .line 467
-    iput-object p1, p0, Lkik/android/util/d$c;->a:Lkik/android/util/d;
+    iput-object p1, p0, Lkik/arcane/util/d$c;->a:Lkik/arcane/util/d;
 
     .line 468
     invoke-direct {p0, p2}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
@@ -59,22 +59,22 @@
     :pswitch_0
     iget-object v0, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
-    invoke-virtual {p0, v3, v0}, Lkik/android/util/d$c;->removeMessages(ILjava/lang/Object;)V
+    invoke-virtual {p0, v3, v0}, Lkik/arcane/util/d$c;->removeMessages(ILjava/lang/Object;)V
 
     .line 480
     iget-object v0, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
-    invoke-virtual {p0, v2, v0}, Lkik/android/util/d$c;->removeMessages(ILjava/lang/Object;)V
+    invoke-virtual {p0, v2, v0}, Lkik/arcane/util/d$c;->removeMessages(ILjava/lang/Object;)V
 
     .line 481
     iget-object v0, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
-    check-cast v0, Lkik/android/util/d$a;
+    check-cast v0, Lkik/arcane/util/d$a;
 
     .line 482
-    iget-object v1, p0, Lkik/android/util/d$c;->a:Lkik/android/util/d;
+    iget-object v1, p0, Lkik/arcane/util/d$c;->a:Lkik/arcane/util/d;
 
-    invoke-static {v1, v0, v3}, Lkik/android/util/d;->a(Lkik/android/util/d;Lkik/android/util/d$a;I)V
+    invoke-static {v1, v0, v3}, Lkik/arcane/util/d;->a(Lkik/arcane/util/d;Lkik/arcane/util/d$a;I)V
 
     goto :goto_0
 
@@ -82,17 +82,17 @@
     :pswitch_1
     iget-object v0, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
-    invoke-virtual {p0, v2, v0}, Lkik/android/util/d$c;->removeMessages(ILjava/lang/Object;)V
+    invoke-virtual {p0, v2, v0}, Lkik/arcane/util/d$c;->removeMessages(ILjava/lang/Object;)V
 
     .line 488
     iget-object v0, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
-    check-cast v0, Lkik/android/util/d$a;
+    check-cast v0, Lkik/arcane/util/d$a;
 
     .line 489
-    iget-object v1, p0, Lkik/android/util/d$c;->a:Lkik/android/util/d;
+    iget-object v1, p0, Lkik/arcane/util/d$c;->a:Lkik/arcane/util/d;
 
-    invoke-static {v1, v0, v2}, Lkik/android/util/d;->a(Lkik/android/util/d;Lkik/android/util/d$a;I)V
+    invoke-static {v1, v0, v2}, Lkik/arcane/util/d;->a(Lkik/arcane/util/d;Lkik/arcane/util/d$a;I)V
 
     goto :goto_0
 
@@ -100,20 +100,20 @@
     :pswitch_2
     iget-object v0, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
-    check-cast v0, Lkik/android/util/d$d;
+    check-cast v0, Lkik/arcane/util/d$d;
 
     .line 493
-    iget-object v1, p0, Lkik/android/util/d$c;->a:Lkik/android/util/d;
+    iget-object v1, p0, Lkik/arcane/util/d$c;->a:Lkik/arcane/util/d;
 
-    invoke-static {v0}, Lkik/android/util/d$d;->a(Lkik/android/util/d$d;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/d$d;->a(Lkik/arcane/util/d$d;)Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-static {v0}, Lkik/android/util/d$d;->b(Lkik/android/util/d$d;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/d$d;->b(Lkik/arcane/util/d$d;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v1, v2, v0}, Lkik/android/util/d;->a(Lkik/android/util/d;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {v1, v2, v0}, Lkik/arcane/util/d;->a(Lkik/arcane/util/d;Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 

@@ -1,4 +1,4 @@
-.class public final Lcom/kik/android/b/a;
+.class public final Lcom/kik/arcane/b/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -18,10 +18,10 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 15
-    iput-object p1, p0, Lcom/kik/android/b/a;->a:Ljava/lang/String;
+    iput-object p1, p0, Lcom/kik/arcane/b/a;->a:Ljava/lang/String;
 
     .line 16
-    iput-object p2, p0, Lcom/kik/android/b/a;->b:Ljava/lang/String;
+    iput-object p2, p0, Lcom/kik/arcane/b/a;->b:Ljava/lang/String;
 
     .line 17
     return-void
@@ -39,12 +39,12 @@
     invoke-direct {v0}, Lcom/kik/xdata/model/smileys/XAlternateSmileys;-><init>()V
 
     .line 22
-    iget-object v1, p0, Lcom/kik/android/b/a;->b:Ljava/lang/String;
+    iget-object v1, p0, Lcom/kik/arcane/b/a;->b:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Lcom/kik/xdata/model/smileys/XAlternateSmileys;->b(Ljava/lang/String;)Lcom/kik/xdata/model/smileys/XAlternateSmileys;
 
     .line 23
-    iget-object v1, p0, Lcom/kik/android/b/a;->a:Ljava/lang/String;
+    iget-object v1, p0, Lcom/kik/arcane/b/a;->a:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Lcom/kik/xdata/model/smileys/XAlternateSmileys;->a(Ljava/lang/String;)Lcom/kik/xdata/model/smileys/XAlternateSmileys;
 
@@ -57,7 +57,7 @@
 
     .prologue
     .line 29
-    iget-object v0, p0, Lcom/kik/android/b/a;->a:Ljava/lang/String;
+    iget-object v0, p0, Lcom/kik/arcane/b/a;->a:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -67,7 +67,7 @@
 
     .prologue
     .line 34
-    iget-object v0, p0, Lcom/kik/android/b/a;->b:Ljava/lang/String;
+    iget-object v0, p0, Lcom/kik/arcane/b/a;->b:Ljava/lang/String;
 
     return-object v0
 .end method

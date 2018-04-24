@@ -1,5 +1,5 @@
 .class public Lkinky/Tab;
-.super Lkik/android/widget/preferences/KikBasePreferenceScreen;
+.super Lkik/arcane/widget/preferences/KikBasePreferenceScreen;
 .source "Tab.java"
 
 
@@ -9,7 +9,7 @@
 
     .prologue
     .line 22
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/preferences/KikBasePreferenceScreen;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/preferences/KikBasePreferenceScreen;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 23
     return-void

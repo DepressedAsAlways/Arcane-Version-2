@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/fragment/en;
+.class final synthetic Lkik/arcane/chat/fragment/en;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/fragment/KikWelcomeFragment;
+.field private final a:Lkik/arcane/chat/fragment/KikWelcomeFragment;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/fragment/KikWelcomeFragment;)V
+.method private constructor <init>(Lkik/arcane/chat/fragment/KikWelcomeFragment;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/fragment/en;->a:Lkik/android/chat/fragment/KikWelcomeFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/en;->a:Lkik/arcane/chat/fragment/KikWelcomeFragment;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/fragment/KikWelcomeFragment;)Landroid/view/View$OnClickListener;
+.method public static a(Lkik/arcane/chat/fragment/KikWelcomeFragment;)Landroid/view/View$OnClickListener;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/fragment/en;
+    new-instance v0, Lkik/arcane/chat/fragment/en;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/fragment/en;-><init>(Lkik/android/chat/fragment/KikWelcomeFragment;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/fragment/en;-><init>(Lkik/arcane/chat/fragment/KikWelcomeFragment;)V
 
     return-object v0
 .end method
@@ -35,9 +35,9 @@
 .method public final onClick(Landroid/view/View;)V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/chat/fragment/en;->a:Lkik/android/chat/fragment/KikWelcomeFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/en;->a:Lkik/arcane/chat/fragment/KikWelcomeFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/KikWelcomeFragment;->e(Lkik/android/chat/fragment/KikWelcomeFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/KikWelcomeFragment;->e(Lkik/arcane/chat/fragment/KikWelcomeFragment;)V
 
     return-void
 .end method

@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/ViewPictureFragment$11;
+.class final Lkik/arcane/chat/fragment/ViewPictureFragment$11;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/ViewPictureFragment;
+    value = Lkik/arcane/chat/fragment/ViewPictureFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
-.field final synthetic b:Lkik/android/chat/fragment/ViewPictureFragment;
+.field final synthetic b:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/ViewPictureFragment;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/ViewPictureFragment;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
     .locals 0
 
     .prologue
     .line 918
-    iput-object p1, p0, Lkik/android/chat/fragment/ViewPictureFragment$11;->b:Lkik/android/chat/fragment/ViewPictureFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$11;->b:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
-    iput-object p2, p0, Lkik/android/chat/fragment/ViewPictureFragment$11;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iput-object p2, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$11;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,7 +45,7 @@
 
     .prologue
     .line 922
-    iget-object v0, p0, Lkik/android/chat/fragment/ViewPictureFragment$11;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$11;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v0}, Lkik/core/datatypes/messageExtensions/ContentMessage;->C()Z
 
@@ -54,9 +54,9 @@
     if-nez v0, :cond_0
 
     .line 923
-    iget-object v0, p0, Lkik/android/chat/fragment/ViewPictureFragment$11;->b:Lkik/android/chat/fragment/ViewPictureFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$11;->b:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/ViewPictureFragment;->v(Lkik/android/chat/fragment/ViewPictureFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/ViewPictureFragment;->v(Lkik/arcane/chat/fragment/ViewPictureFragment;)V
 
     .line 925
     :cond_0

@@ -1,15 +1,15 @@
-.class public final Lcom/kik/android/b/b;
-.super Lcom/kik/android/b/c;
+.class public final Lcom/kik/arcane/b/b;
+.super Lcom/kik/arcane/b/c;
 .source "SourceFile"
 
 
 # direct methods
-.method public constructor <init>(Landroid/graphics/drawable/Drawable;Ljava/lang/String;Ljava/lang/String;Lkik/android/f/i;IZZ)V
+.method public constructor <init>(Landroid/graphics/drawable/Drawable;Ljava/lang/String;Ljava/lang/String;Lkik/arcane/f/i;IZZ)V
     .locals 0
 
     .prologue
     .line 17
-    invoke-direct/range {p0 .. p7}, Lcom/kik/android/b/c;-><init>(Landroid/graphics/drawable/Drawable;Ljava/lang/String;Ljava/lang/String;Lkik/android/f/i;IZZ)V
+    invoke-direct/range {p0 .. p7}, Lcom/kik/arcane/b/c;-><init>(Landroid/graphics/drawable/Drawable;Ljava/lang/String;Ljava/lang/String;Lkik/arcane/f/i;IZZ)V
 
     .line 18
     return-void
@@ -24,17 +24,17 @@
     const/4 v0, 0x0
 
     .line 23
-    invoke-virtual {p0}, Lcom/kik/android/b/b;->getDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Lcom/kik/arcane/b/b;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
     .line 25
-    iget-boolean v2, p0, Lcom/kik/android/b/b;->a:Z
+    iget-boolean v2, p0, Lcom/kik/arcane/b/b;->a:Z
 
     if-eqz v2, :cond_1
 
     .line 26
-    invoke-super/range {p0 .. p5}, Lcom/kik/android/b/c;->getSize(Landroid/graphics/Paint;Ljava/lang/CharSequence;IILandroid/graphics/Paint$FontMetricsInt;)I
+    invoke-super/range {p0 .. p5}, Lcom/kik/arcane/b/c;->getSize(Landroid/graphics/Paint;Ljava/lang/CharSequence;IILandroid/graphics/Paint$FontMetricsInt;)I
 
     move-result v0
 

@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/AutoResizeRecyclerGridView$1;
+.class final Lkik/arcane/widget/AutoResizeRecyclerGridView$1;
 .super Landroid/support/v7/widget/GridLayoutManager$SpanSizeLookup;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/AutoResizeRecyclerGridView;
+    value = Lkik/arcane/widget/AutoResizeRecyclerGridView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic b:Lkik/android/widget/AutoResizeRecyclerGridView;
+.field final synthetic b:Lkik/arcane/widget/AutoResizeRecyclerGridView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/AutoResizeRecyclerGridView;)V
+.method constructor <init>(Lkik/arcane/widget/AutoResizeRecyclerGridView;)V
     .locals 0
 
     .prologue
     .line 58
-    iput-object p1, p0, Lkik/android/widget/AutoResizeRecyclerGridView$1;->b:Lkik/android/widget/AutoResizeRecyclerGridView;
+    iput-object p1, p0, Lkik/arcane/widget/AutoResizeRecyclerGridView$1;->b:Lkik/arcane/widget/AutoResizeRecyclerGridView;
 
     invoke-direct {p0}, Landroid/support/v7/widget/GridLayoutManager$SpanSizeLookup;-><init>()V
 
@@ -38,16 +38,16 @@
 
     .prologue
     .line 62
-    iget-object v0, p0, Lkik/android/widget/AutoResizeRecyclerGridView$1;->b:Lkik/android/widget/AutoResizeRecyclerGridView;
+    iget-object v0, p0, Lkik/arcane/widget/AutoResizeRecyclerGridView$1;->b:Lkik/arcane/widget/AutoResizeRecyclerGridView;
 
-    invoke-virtual {v0}, Lkik/android/widget/AutoResizeRecyclerGridView;->getLayoutManager()Landroid/support/v7/widget/RecyclerView$LayoutManager;
+    invoke-virtual {v0}, Lkik/arcane/widget/AutoResizeRecyclerGridView;->getLayoutManager()Landroid/support/v7/widget/RecyclerView$LayoutManager;
 
     move-result-object v0
 
     .line 63
-    iget-object v1, p0, Lkik/android/widget/AutoResizeRecyclerGridView$1;->b:Lkik/android/widget/AutoResizeRecyclerGridView;
+    iget-object v1, p0, Lkik/arcane/widget/AutoResizeRecyclerGridView$1;->b:Lkik/arcane/widget/AutoResizeRecyclerGridView;
 
-    invoke-static {v1}, Lkik/android/widget/AutoResizeRecyclerGridView;->a(Lkik/android/widget/AutoResizeRecyclerGridView;)I
+    invoke-static {v1}, Lkik/arcane/widget/AutoResizeRecyclerGridView;->a(Lkik/arcane/widget/AutoResizeRecyclerGridView;)I
 
     move-result v1
 

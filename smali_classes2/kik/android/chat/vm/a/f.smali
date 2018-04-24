@@ -1,5 +1,5 @@
-.class public interface abstract Lkik/android/chat/vm/a/f;
+.class public interface abstract Lkik/arcane/chat/vm/a/f;
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lkik/android/chat/vm/a/e;
+.implements Lkik/arcane/chat/vm/a/e;

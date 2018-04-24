@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/AutoResizeRecyclerGridView;
+.class public Lkik/arcane/widget/AutoResizeRecyclerGridView;
 .super Landroid/support/v7/widget/RecyclerView;
 .source "SourceFile"
 
@@ -24,11 +24,11 @@
     invoke-direct {p0, p1, p2}, Landroid/support/v7/widget/RecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 57
-    new-instance v0, Lkik/android/widget/AutoResizeRecyclerGridView$1;
+    new-instance v0, Lkik/arcane/widget/AutoResizeRecyclerGridView$1;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/AutoResizeRecyclerGridView$1;-><init>(Lkik/android/widget/AutoResizeRecyclerGridView;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/AutoResizeRecyclerGridView$1;-><init>(Lkik/arcane/widget/AutoResizeRecyclerGridView;)V
 
-    iput-object v0, p0, Lkik/android/widget/AutoResizeRecyclerGridView;->b:Landroid/support/v7/widget/GridLayoutManager$SpanSizeLookup;
+    iput-object v0, p0, Lkik/arcane/widget/AutoResizeRecyclerGridView;->b:Landroid/support/v7/widget/GridLayoutManager$SpanSizeLookup;
 
     .line 23
     if-eqz p2, :cond_0
@@ -52,21 +52,21 @@
 
     move-result v1
 
-    iput v1, p0, Lkik/android/widget/AutoResizeRecyclerGridView;->a:I
+    iput v1, p0, Lkik/arcane/widget/AutoResizeRecyclerGridView;->a:I
 
     .line 31
     invoke-virtual {v0, v3, v2}, Landroid/content/res/TypedArray;->getInt(II)I
 
     move-result v1
 
-    iput v1, p0, Lkik/android/widget/AutoResizeRecyclerGridView;->c:I
+    iput v1, p0, Lkik/arcane/widget/AutoResizeRecyclerGridView;->c:I
 
     .line 32
     invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 35
     :cond_0
-    invoke-virtual {p0}, Lkik/android/widget/AutoResizeRecyclerGridView;->getLayoutManager()Landroid/support/v7/widget/RecyclerView$LayoutManager;
+    invoke-virtual {p0}, Lkik/arcane/widget/AutoResizeRecyclerGridView;->getLayoutManager()Landroid/support/v7/widget/RecyclerView$LayoutManager;
 
     move-result-object v0
 
@@ -77,7 +77,7 @@
 
     invoke-direct {v0, p1, v3}, Landroid/support/v7/widget/GridLayoutManager;-><init>(Landroid/content/Context;I)V
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/AutoResizeRecyclerGridView;->setLayoutManager(Landroid/support/v7/widget/RecyclerView$LayoutManager;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/AutoResizeRecyclerGridView;->setLayoutManager(Landroid/support/v7/widget/RecyclerView$LayoutManager;)V
 
     .line 38
     :cond_1
@@ -93,12 +93,12 @@
     .end array-data
 .end method
 
-.method static synthetic a(Lkik/android/widget/AutoResizeRecyclerGridView;)I
+.method static synthetic a(Lkik/arcane/widget/AutoResizeRecyclerGridView;)I
     .locals 1
 
     .prologue
     .line 14
-    iget v0, p0, Lkik/android/widget/AutoResizeRecyclerGridView;->c:I
+    iget v0, p0, Lkik/arcane/widget/AutoResizeRecyclerGridView;->c:I
 
     return v0
 .end method
@@ -113,12 +113,12 @@
     invoke-super {p0, p1, p2}, Landroid/support/v7/widget/RecyclerView;->onMeasure(II)V
 
     .line 44
-    invoke-virtual {p0}, Lkik/android/widget/AutoResizeRecyclerGridView;->getLayoutManager()Landroid/support/v7/widget/RecyclerView$LayoutManager;
+    invoke-virtual {p0}, Lkik/arcane/widget/AutoResizeRecyclerGridView;->getLayoutManager()Landroid/support/v7/widget/RecyclerView$LayoutManager;
 
     move-result-object v0
 
     .line 45
-    iget v1, p0, Lkik/android/widget/AutoResizeRecyclerGridView;->a:I
+    iget v1, p0, Lkik/arcane/widget/AutoResizeRecyclerGridView;->a:I
 
     if-lez v1, :cond_0
 
@@ -129,11 +129,11 @@
     .line 46
     const/4 v1, 0x1
 
-    invoke-virtual {p0}, Lkik/android/widget/AutoResizeRecyclerGridView;->getMeasuredWidth()I
+    invoke-virtual {p0}, Lkik/arcane/widget/AutoResizeRecyclerGridView;->getMeasuredWidth()I
 
     move-result v2
 
-    iget v3, p0, Lkik/android/widget/AutoResizeRecyclerGridView;->a:I
+    iget v3, p0, Lkik/arcane/widget/AutoResizeRecyclerGridView;->a:I
 
     div-int/2addr v2, v3
 
@@ -148,7 +148,7 @@
     invoke-virtual {v0, v1}, Landroid/support/v7/widget/GridLayoutManager;->a(I)V
 
     .line 49
-    iget-object v1, p0, Lkik/android/widget/AutoResizeRecyclerGridView;->b:Landroid/support/v7/widget/GridLayoutManager$SpanSizeLookup;
+    iget-object v1, p0, Lkik/arcane/widget/AutoResizeRecyclerGridView;->b:Landroid/support/v7/widget/GridLayoutManager$SpanSizeLookup;
 
     invoke-virtual {v0, v1}, Landroid/support/v7/widget/GridLayoutManager;->a(Landroid/support/v7/widget/GridLayoutManager$SpanSizeLookup;)V
 

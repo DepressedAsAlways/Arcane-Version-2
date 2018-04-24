@@ -25,13 +25,13 @@
 
 
 # instance fields
-.field private final a:Lcom/kik/android/Mixpanel;
+.field private final a:Lcom/kik/arcane/Mixpanel;
 
 .field private b:Ljava/lang/String;
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/kik/android/Mixpanel;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/kik/arcane/Mixpanel;)V
     .locals 3
 
     .prologue
@@ -41,7 +41,7 @@
     invoke-direct {p0, p1, v0}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;I)V
 
     .line 140
-    iput-object p2, p0, Lcom/kik/view/adapters/o;->a:Lcom/kik/android/Mixpanel;
+    iput-object p2, p0, Lcom/kik/view/adapters/o;->a:Lcom/kik/arcane/Mixpanel;
 
     .line 142
     const/4 v0, 0x3
@@ -78,12 +78,12 @@
     return-void
 .end method
 
-.method static synthetic a(Lcom/kik/view/adapters/o;)Lcom/kik/android/Mixpanel;
+.method static synthetic a(Lcom/kik/view/adapters/o;)Lcom/kik/arcane/Mixpanel;
     .locals 1
 
     .prologue
     .line 29
-    iget-object v0, p0, Lcom/kik/view/adapters/o;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lcom/kik/view/adapters/o;->a:Lcom/kik/arcane/Mixpanel;
 
     return-object v0
 .end method
@@ -111,7 +111,7 @@
     .line 149
     iget-object v0, p0, Lcom/kik/view/adapters/o;->b:Ljava/lang/String;
 
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 

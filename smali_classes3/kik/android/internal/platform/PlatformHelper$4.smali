@@ -1,11 +1,11 @@
-.class final Lkik/android/internal/platform/PlatformHelper$4;
+.class final Lkik/arcane/internal/platform/PlatformHelper$4;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/internal/platform/PlatformHelper;->a(Lcom/kik/cards/web/kik/KikMessageParcelable;Landroid/app/Activity;Lcom/kik/cards/web/f;Lcom/kik/ui/fragment/FragmentBase$FragmentBundle$StackType;Lkik/core/interfaces/v;)Lcom/kik/events/Promise;
+    value = Lkik/arcane/internal/platform/PlatformHelper;->a(Lcom/kik/cards/web/kik/KikMessageParcelable;Landroid/app/Activity;Lcom/kik/cards/web/f;Lcom/kik/ui/fragment/FragmentBase$FragmentBundle$StackType;Lkik/core/interfaces/v;)Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -38,30 +38,30 @@
 
 .field final synthetic g:Lcom/kik/events/Promise;
 
-.field final synthetic h:Lkik/android/internal/platform/PlatformHelper;
+.field final synthetic h:Lkik/arcane/internal/platform/PlatformHelper;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/internal/platform/PlatformHelper;Lcom/kik/events/Promise;Lkik/core/interfaces/v;Landroid/app/Activity;Lcom/kik/ui/fragment/FragmentBase$FragmentBundle$StackType;ZLcom/kik/cards/web/kik/KikMessageParcelable;Lcom/kik/events/Promise;)V
+.method constructor <init>(Lkik/arcane/internal/platform/PlatformHelper;Lcom/kik/events/Promise;Lkik/core/interfaces/v;Landroid/app/Activity;Lcom/kik/ui/fragment/FragmentBase$FragmentBundle$StackType;ZLcom/kik/cards/web/kik/KikMessageParcelable;Lcom/kik/events/Promise;)V
     .locals 0
 
     .prologue
     .line 1576
-    iput-object p1, p0, Lkik/android/internal/platform/PlatformHelper$4;->h:Lkik/android/internal/platform/PlatformHelper;
+    iput-object p1, p0, Lkik/arcane/internal/platform/PlatformHelper$4;->h:Lkik/arcane/internal/platform/PlatformHelper;
 
-    iput-object p2, p0, Lkik/android/internal/platform/PlatformHelper$4;->a:Lcom/kik/events/Promise;
+    iput-object p2, p0, Lkik/arcane/internal/platform/PlatformHelper$4;->a:Lcom/kik/events/Promise;
 
-    iput-object p3, p0, Lkik/android/internal/platform/PlatformHelper$4;->b:Lkik/core/interfaces/v;
+    iput-object p3, p0, Lkik/arcane/internal/platform/PlatformHelper$4;->b:Lkik/core/interfaces/v;
 
-    iput-object p4, p0, Lkik/android/internal/platform/PlatformHelper$4;->c:Landroid/app/Activity;
+    iput-object p4, p0, Lkik/arcane/internal/platform/PlatformHelper$4;->c:Landroid/app/Activity;
 
-    iput-object p5, p0, Lkik/android/internal/platform/PlatformHelper$4;->d:Lcom/kik/ui/fragment/FragmentBase$FragmentBundle$StackType;
+    iput-object p5, p0, Lkik/arcane/internal/platform/PlatformHelper$4;->d:Lcom/kik/ui/fragment/FragmentBase$FragmentBundle$StackType;
 
-    iput-boolean p6, p0, Lkik/android/internal/platform/PlatformHelper$4;->e:Z
+    iput-boolean p6, p0, Lkik/arcane/internal/platform/PlatformHelper$4;->e:Z
 
-    iput-object p7, p0, Lkik/android/internal/platform/PlatformHelper$4;->f:Lcom/kik/cards/web/kik/KikMessageParcelable;
+    iput-object p7, p0, Lkik/arcane/internal/platform/PlatformHelper$4;->f:Lcom/kik/cards/web/kik/KikMessageParcelable;
 
-    iput-object p8, p0, Lkik/android/internal/platform/PlatformHelper$4;->g:Lcom/kik/events/Promise;
+    iput-object p8, p0, Lkik/arcane/internal/platform/PlatformHelper$4;->g:Lcom/kik/events/Promise;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -78,11 +78,11 @@
     check-cast p1, Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     .line 2580
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper$4;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper$4;->a:Lcom/kik/events/Promise;
 
-    new-instance v1, Lkik/android/internal/platform/PlatformHelper$4$1;
+    new-instance v1, Lkik/arcane/internal/platform/PlatformHelper$4$1;
 
-    invoke-direct {v1, p0, p1}, Lkik/android/internal/platform/PlatformHelper$4$1;-><init>(Lkik/android/internal/platform/PlatformHelper$4;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
+    invoke-direct {v1, p0, p1}, Lkik/arcane/internal/platform/PlatformHelper$4$1;-><init>(Lkik/arcane/internal/platform/PlatformHelper$4;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -95,7 +95,7 @@
 
     .prologue
     .line 1623
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper$4;->g:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper$4;->g:Lcom/kik/events/Promise;
 
     invoke-virtual {v0}, Lcom/kik/events/Promise;->h()Z
 
@@ -104,7 +104,7 @@
     if-nez v0, :cond_0
 
     .line 1624
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper$4;->g:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper$4;->g:Lcom/kik/events/Promise;
 
     new-instance v1, Ljava/lang/Exception;
 
@@ -132,11 +132,11 @@
 
     .line 1626
     :cond_0
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper$4;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper$4;->a:Lcom/kik/events/Promise;
 
-    new-instance v1, Lkik/android/internal/platform/PlatformHelper$4$2;
+    new-instance v1, Lkik/arcane/internal/platform/PlatformHelper$4$2;
 
-    invoke-direct {v1, p0, p1}, Lkik/android/internal/platform/PlatformHelper$4$2;-><init>(Lkik/android/internal/platform/PlatformHelper$4;Ljava/lang/Throwable;)V
+    invoke-direct {v1, p0, p1}, Lkik/arcane/internal/platform/PlatformHelper$4$2;-><init>(Lkik/arcane/internal/platform/PlatformHelper$4;Ljava/lang/Throwable;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 

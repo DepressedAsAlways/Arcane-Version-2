@@ -1,11 +1,11 @@
-.class final Lkik/android/b/a$3;
+.class final Lkik/arcane/b/a$3;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/b/a;
+    value = Lkik/arcane/b/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
         "Ljava/util/Map",
         "<",
         "Ljava/lang/String;",
-        "Lkik/android/b/a$a;",
+        "Lkik/arcane/b/a$a;",
         ">;>;"
     }
 .end annotation
@@ -29,18 +29,18 @@
 # instance fields
 .field final synthetic a:Lcom/kik/events/Promise;
 
-.field final synthetic b:Lkik/android/b/a;
+.field final synthetic b:Lkik/arcane/b/a;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/b/a;Lcom/kik/events/Promise;)V
+.method constructor <init>(Lkik/arcane/b/a;Lcom/kik/events/Promise;)V
     .locals 0
 
     .prologue
     .line 105
-    iput-object p1, p0, Lkik/android/b/a$3;->b:Lkik/android/b/a;
+    iput-object p1, p0, Lkik/arcane/b/a$3;->b:Lkik/arcane/b/a;
 
-    iput-object p2, p0, Lkik/android/b/a$3;->a:Lcom/kik/events/Promise;
+    iput-object p2, p0, Lkik/arcane/b/a$3;->a:Lcom/kik/events/Promise;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -94,76 +94,76 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/b/a$a;
+    check-cast v0, Lkik/arcane/b/a$a;
 
     .line 1115
     if-eqz v0, :cond_1
 
     .line 1119
-    iget-boolean v2, v0, Lkik/android/b/a$a;->a:Z
+    iget-boolean v2, v0, Lkik/arcane/b/a$a;->a:Z
 
     if-eqz v2, :cond_2
 
     .line 1120
-    iget-object v2, p0, Lkik/android/b/a$3;->b:Lkik/android/b/a;
+    iget-object v2, p0, Lkik/arcane/b/a$3;->b:Lkik/arcane/b/a;
 
-    invoke-static {v2}, Lkik/android/b/a;->a(Lkik/android/b/a;)Lkik/android/b/g;
+    invoke-static {v2}, Lkik/arcane/b/a;->a(Lkik/arcane/b/a;)Lkik/arcane/b/g;
 
     move-result-object v2
 
-    iget-object v3, v0, Lkik/android/b/a$a;->c:Ljava/lang/String;
+    iget-object v3, v0, Lkik/arcane/b/a$a;->c:Ljava/lang/String;
 
-    invoke-virtual {v2, v3}, Lkik/android/b/g;->d(Ljava/lang/String;)Lcom/kik/events/Promise;
+    invoke-virtual {v2, v3}, Lkik/arcane/b/g;->d(Ljava/lang/String;)Lcom/kik/events/Promise;
 
     .line 1122
     :cond_2
-    iget-boolean v2, v0, Lkik/android/b/a$a;->b:Z
+    iget-boolean v2, v0, Lkik/arcane/b/a$a;->b:Z
 
     if-eqz v2, :cond_3
 
     .line 1123
-    iget-object v2, p0, Lkik/android/b/a$3;->b:Lkik/android/b/a;
+    iget-object v2, p0, Lkik/arcane/b/a$3;->b:Lkik/arcane/b/a;
 
-    invoke-static {v2}, Lkik/android/b/a;->a(Lkik/android/b/a;)Lkik/android/b/g;
+    invoke-static {v2}, Lkik/arcane/b/a;->a(Lkik/arcane/b/a;)Lkik/arcane/b/g;
 
     move-result-object v2
 
-    iget-object v3, v0, Lkik/android/b/a$a;->c:Ljava/lang/String;
+    iget-object v3, v0, Lkik/arcane/b/a$a;->c:Ljava/lang/String;
 
-    invoke-virtual {v2, v3}, Lkik/android/b/g;->g(Ljava/lang/String;)Lcom/kik/events/Promise;
+    invoke-virtual {v2, v3}, Lkik/arcane/b/g;->g(Ljava/lang/String;)Lcom/kik/events/Promise;
 
     .line 1125
     :cond_3
-    iget-object v2, v0, Lkik/android/b/a$a;->d:[B
+    iget-object v2, v0, Lkik/arcane/b/a$a;->d:[B
 
     if-eqz v2, :cond_1
 
-    iget-object v2, v0, Lkik/android/b/a$a;->e:[B
+    iget-object v2, v0, Lkik/arcane/b/a$a;->e:[B
 
     if-eqz v2, :cond_1
 
     .line 1126
-    iget-object v2, p0, Lkik/android/b/a$3;->b:Lkik/android/b/a;
+    iget-object v2, p0, Lkik/arcane/b/a$3;->b:Lkik/arcane/b/a;
 
-    invoke-static {v2}, Lkik/android/b/a;->a(Lkik/android/b/a;)Lkik/android/b/g;
+    invoke-static {v2}, Lkik/arcane/b/a;->a(Lkik/arcane/b/a;)Lkik/arcane/b/g;
 
     move-result-object v2
 
-    iget-object v3, v0, Lkik/android/b/a$a;->e:[B
+    iget-object v3, v0, Lkik/arcane/b/a$a;->e:[B
 
-    iget-object v4, v0, Lkik/android/b/a$a;->d:[B
+    iget-object v4, v0, Lkik/arcane/b/a$a;->d:[B
 
-    iget-object v0, v0, Lkik/android/b/a$a;->c:Ljava/lang/String;
+    iget-object v0, v0, Lkik/arcane/b/a$a;->c:Ljava/lang/String;
 
-    invoke-virtual {v2, v3, v4, v0}, Lkik/android/b/g;->a([B[BLjava/lang/String;)Lcom/kik/events/Promise;
+    invoke-virtual {v2, v3, v4, v0}, Lkik/arcane/b/g;->a([B[BLjava/lang/String;)Lcom/kik/events/Promise;
 
     goto :goto_0
 
     .line 1130
     :cond_4
-    iget-object v0, p0, Lkik/android/b/a$3;->b:Lkik/android/b/a;
+    iget-object v0, p0, Lkik/arcane/b/a$3;->b:Lkik/arcane/b/a;
 
-    invoke-static {v0}, Lkik/android/b/a;->b(Lkik/android/b/a;)Lkik/core/interfaces/ad;
+    invoke-static {v0}, Lkik/arcane/b/a;->b(Lkik/arcane/b/a;)Lkik/core/interfaces/ad;
 
     move-result-object v0
 
@@ -176,7 +176,7 @@
     invoke-interface {v0, v1, v2}, Lkik/core/interfaces/ad;->a(Ljava/lang/String;Ljava/lang/Boolean;)Z
 
     .line 1131
-    iget-object v0, p0, Lkik/android/b/a$3;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/b/a$3;->a:Lcom/kik/events/Promise;
 
     invoke-static {v5}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -193,7 +193,7 @@
 
     .prologue
     .line 137
-    iget-object v0, p0, Lkik/android/b/a$3;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/b/a$3;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {v0, p1}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 

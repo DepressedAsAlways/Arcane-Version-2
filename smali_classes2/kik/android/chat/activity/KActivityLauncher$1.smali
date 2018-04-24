@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/activity/KActivityLauncher$1;
+.class final Lkik/arcane/chat/activity/KActivityLauncher$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/activity/KActivityLauncher;->a(Landroid/content/Intent;Landroid/content/Context;)Lcom/kik/events/Promise;
+    value = Lkik/arcane/chat/activity/KActivityLauncher;->a(Landroid/content/Intent;Landroid/content/Context;)Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -33,7 +33,7 @@
 
     .prologue
     .line 279
-    iput-object p1, p0, Lkik/android/chat/activity/KActivityLauncher$1;->a:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/chat/activity/KActivityLauncher$1;->a:Ljava/lang/String;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -72,11 +72,11 @@
 
     .prologue
     .line 296
-    invoke-static {}, Lkik/android/chat/activity/KActivityLauncher;->g()Ljava/util/HashMap;
+    invoke-static {}, Lkik/arcane/chat/activity/KActivityLauncher;->g()Ljava/util/HashMap;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/chat/activity/KActivityLauncher$1;->a:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/chat/activity/KActivityLauncher$1;->a:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 

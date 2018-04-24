@@ -1,18 +1,18 @@
-.class public interface abstract Lkik/android/chat/vm/messaging/dm;
+.class public interface abstract Lkik/arcane/chat/vm/messaging/dm;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/IListViewModel;
+.implements Lkik/arcane/chat/vm/IListViewModel;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lkik/android/chat/vm/IListViewModel",
+        "Lkik/arcane/chat/vm/IListViewModel",
         "<",
-        "Lkik/android/chat/vm/messaging/IMessageViewModel;",
+        "Lkik/arcane/chat/vm/messaging/IMessageViewModel;",
         ">;"
     }
 .end annotation
@@ -103,7 +103,7 @@
 .method public abstract l()V
 .end method
 
-.method public abstract m()Lkik/android/chat/vm/bf;
+.method public abstract m()Lkik/arcane/chat/vm/bf;
 .end method
 
 .method public abstract n()Lrx/d;

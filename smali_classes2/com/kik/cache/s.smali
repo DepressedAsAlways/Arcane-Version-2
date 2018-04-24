@@ -36,11 +36,11 @@
 
 .field private final d:Lkik/core/interfaces/v;
 
-.field private final e:Lcom/kik/android/Mixpanel;
+.field private final e:Lcom/kik/arcane/Mixpanel;
 
 
 # direct methods
-.method public constructor <init>(Lrx/d;Lcom/kik/cache/KikVolleyImageLoader;Landroid/content/res/Resources;Lkik/core/interfaces/v;Lcom/kik/android/Mixpanel;)V
+.method public constructor <init>(Lrx/d;Lcom/kik/cache/KikVolleyImageLoader;Landroid/content/res/Resources;Lkik/core/interfaces/v;Lcom/kik/arcane/Mixpanel;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -52,7 +52,7 @@
             "Lcom/kik/cache/KikVolleyImageLoader;",
             "Landroid/content/res/Resources;",
             "Lkik/core/interfaces/v;",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ")V"
         }
     .end annotation
@@ -74,7 +74,7 @@
     iput-object p4, p0, Lcom/kik/cache/s;->d:Lkik/core/interfaces/v;
 
     .line 39
-    iput-object p5, p0, Lcom/kik/cache/s;->e:Lcom/kik/android/Mixpanel;
+    iput-object p5, p0, Lcom/kik/cache/s;->e:Lcom/kik/arcane/Mixpanel;
 
     .line 40
     return-void
@@ -206,7 +206,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -311,7 +311,7 @@
     :goto_2
     iget-object v8, p0, Lcom/kik/cache/s;->b:Lcom/kik/cache/KikVolleyImageLoader;
 
-    iget-object v9, p0, Lcom/kik/cache/s;->e:Lcom/kik/android/Mixpanel;
+    iget-object v9, p0, Lcom/kik/cache/s;->e:Lcom/kik/arcane/Mixpanel;
 
     move-object v0, p3
 
@@ -322,7 +322,7 @@
     move-object v5, v10
 
     .line 67
-    invoke-static/range {v0 .. v9}, Lcom/kik/cache/GroupImageRequest;->makeGroupImageRequest(Lkik/core/datatypes/p;Lcom/android/volley/h$b;IILandroid/graphics/Bitmap$Config;Lcom/android/volley/h$a;Lkik/core/interfaces/v;ZLcom/kik/cache/KikVolleyImageLoader;Lcom/kik/android/Mixpanel;)Lcom/kik/cache/GroupImageRequest;
+    invoke-static/range {v0 .. v9}, Lcom/kik/cache/GroupImageRequest;->makeGroupImageRequest(Lkik/core/datatypes/p;Lcom/android/volley/h$b;IILandroid/graphics/Bitmap$Config;Lcom/android/volley/h$a;Lkik/core/interfaces/v;ZLcom/kik/cache/KikVolleyImageLoader;Lcom/kik/arcane/Mixpanel;)Lcom/kik/cache/GroupImageRequest;
 
     move-result-object v0
 

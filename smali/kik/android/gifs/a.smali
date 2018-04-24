@@ -1,4 +1,4 @@
-.class public abstract Lkik/android/gifs/a;
+.class public abstract Lkik/arcane/gifs/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,11 +8,11 @@
 
 .field public static b:Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
 
-.field public static c:Lkik/android/gifs/api/GifResponseData$MediaType;
+.field public static c:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
-.field public static d:Lkik/android/gifs/api/GifResponseData$MediaType;
+.field public static d:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
-.field public static e:Lkik/android/gifs/api/GifResponseData$MediaType;
+.field public static e:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
 
 # direct methods
@@ -23,27 +23,27 @@
     .line 15
     sget-object v0, Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;->TinyWebM:Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
 
-    sput-object v0, Lkik/android/gifs/a;->a:Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
+    sput-object v0, Lkik/arcane/gifs/a;->a:Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
 
     .line 16
     sget-object v0, Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;->NanoWebM:Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
 
-    sput-object v0, Lkik/android/gifs/a;->b:Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
+    sput-object v0, Lkik/arcane/gifs/a;->b:Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
 
     .line 17
-    sget-object v0, Lkik/android/gifs/api/GifResponseData$MediaType;->TinyWebM:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;->TinyWebM:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
-    sput-object v0, Lkik/android/gifs/a;->c:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sput-object v0, Lkik/arcane/gifs/a;->c:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     .line 18
-    sget-object v0, Lkik/android/gifs/api/GifResponseData$MediaType;->NanoWebM:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;->NanoWebM:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
-    sput-object v0, Lkik/android/gifs/a;->d:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sput-object v0, Lkik/arcane/gifs/a;->d:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     .line 19
-    sget-object v0, Lkik/android/gifs/api/GifResponseData$MediaType;->TinyMP4:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;->TinyMP4:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
-    sput-object v0, Lkik/android/gifs/a;->e:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sput-object v0, Lkik/arcane/gifs/a;->e:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     return-void
 .end method
@@ -74,7 +74,7 @@
     .line 36
     sget-object v0, Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;->NanoWebM:Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
 
-    sput-object v0, Lkik/android/gifs/a;->a:Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
+    sput-object v0, Lkik/arcane/gifs/a;->a:Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
 
     .line 39
     :cond_0
@@ -90,14 +90,14 @@
     const/4 v0, 0x0
 
     .line 46
-    sget-object v2, Lkik/android/gifs/a;->a:Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
+    sget-object v2, Lkik/arcane/gifs/a;->a:Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
 
     invoke-virtual {p0, v2}, Lkik/core/datatypes/messageExtensions/ContentMessage;->b(Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;)Z
 
     move-result v3
 
     .line 47
-    sget-object v2, Lkik/android/gifs/a;->b:Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
+    sget-object v2, Lkik/arcane/gifs/a;->b:Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
 
     invoke-virtual {p0, v2}, Lkik/core/datatypes/messageExtensions/ContentMessage;->b(Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;)Z
 

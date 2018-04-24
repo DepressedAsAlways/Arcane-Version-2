@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/bg;
+.class public final Lkik/arcane/util/bg;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -25,7 +25,7 @@
 
     move-result-object v0
 
-    invoke-static {p1}, Lkik/android/util/bh;->a(Lkik/core/interfaces/l;)Lcom/kik/events/p;
+    invoke-static {p1}, Lkik/arcane/util/bh;->a(Lkik/core/interfaces/l;)Lcom/kik/events/p;
 
     move-result-object v1
 
@@ -64,21 +64,21 @@
 
     .prologue
     .line 39
-    sget-object v0, Lkik/android/util/HashtagAction;->CONTAINS_VALID_HASHTAG:Lkik/android/util/HashtagAction;
+    sget-object v0, Lkik/arcane/util/HashtagAction;->CONTAINS_VALID_HASHTAG:Lkik/arcane/util/HashtagAction;
 
-    invoke-static {p0, v0}, Lkik/android/util/bg;->a(Ljava/lang/String;Lkik/android/util/HashtagAction;)Z
+    invoke-static {p0, v0}, Lkik/arcane/util/bg;->a(Ljava/lang/String;Lkik/arcane/util/HashtagAction;)Z
 
     move-result v0
 
     return v0
 .end method
 
-.method private static a(Ljava/lang/String;Lkik/android/util/HashtagAction;)Z
+.method private static a(Ljava/lang/String;Lkik/arcane/util/HashtagAction;)Z
     .locals 3
 
     .prologue
     .line 49
-    invoke-static {p0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {p0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -97,9 +97,9 @@
     move-result-object v0
 
     .line 52
-    sget-object v1, Lkik/android/util/bg$1;->a:[I
+    sget-object v1, Lkik/arcane/util/bg$1;->a:[I
 
-    invoke-virtual {p1}, Lkik/android/util/HashtagAction;->ordinal()I
+    invoke-virtual {p1}, Lkik/arcane/util/HashtagAction;->ordinal()I
 
     move-result v2
 
@@ -214,7 +214,7 @@
     move-result v4
 
     .line 1075
-    invoke-static {v2}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v2}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -261,9 +261,9 @@
 
     .prologue
     .line 44
-    sget-object v0, Lkik/android/util/HashtagAction;->IS__VALID_HASHTAG:Lkik/android/util/HashtagAction;
+    sget-object v0, Lkik/arcane/util/HashtagAction;->IS__VALID_HASHTAG:Lkik/arcane/util/HashtagAction;
 
-    invoke-static {p0, v0}, Lkik/android/util/bg;->a(Ljava/lang/String;Lkik/android/util/HashtagAction;)Z
+    invoke-static {p0, v0}, Lkik/arcane/util/bg;->a(Ljava/lang/String;Lkik/arcane/util/HashtagAction;)Z
 
     move-result v0
 

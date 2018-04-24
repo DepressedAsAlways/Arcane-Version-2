@@ -50,7 +50,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -99,7 +99,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;)V"
         }
     .end annotation
@@ -178,7 +178,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;)",
             "Ldagger/b",
             "<",
@@ -221,12 +221,12 @@
     :cond_0
     iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment_MembersInjector;->b:Ljavax/inject/Provider;
 
-    invoke-static {p1, v0}, Lkik/android/chat/fragment/KikScopedDialogFragment_MembersInjector;->a(Lkik/android/chat/fragment/KikScopedDialogFragment;Ljavax/inject/Provider;)V
+    invoke-static {p1, v0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment_MembersInjector;->a(Lkik/arcane/chat/fragment/KikScopedDialogFragment;Ljavax/inject/Provider;)V
 
     .line 1049
     iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment_MembersInjector;->c:Ljavax/inject/Provider;
 
-    invoke-static {p1, v0}, Lkik/android/chat/fragment/KikScopedDialogFragment_MembersInjector;->b(Lkik/android/chat/fragment/KikScopedDialogFragment;Ljavax/inject/Provider;)V
+    invoke-static {p1, v0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment_MembersInjector;->b(Lkik/arcane/chat/fragment/KikScopedDialogFragment;Ljavax/inject/Provider;)V
 
     .line 1051
     iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment_MembersInjector;->d:Ljavax/inject/Provider;
@@ -235,9 +235,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/Mixpanel;
+    check-cast v0, Lcom/kik/arcane/Mixpanel;
 
-    iput-object v0, p1, Lcom/kik/cards/browser/CaptchaWindowFragment;->f:Lcom/kik/android/Mixpanel;
+    iput-object v0, p1, Lcom/kik/cards/browser/CaptchaWindowFragment;->f:Lcom/kik/arcane/Mixpanel;
 
     .line 10
     return-void

@@ -1348,7 +1348,7 @@
     invoke-virtual {v1, v0, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 234
-    invoke-static {}, Lkik/android/chat/KikApplication;->l()Z
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->l()Z
 
     move-result v0
 

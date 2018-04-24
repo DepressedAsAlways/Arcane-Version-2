@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lkik/android/challenge/f;",
+        "Lkik/arcane/challenge/f;",
         ">;"
     }
 .end annotation
@@ -90,7 +90,7 @@
             ")",
             "Ldagger/internal/b",
             "<",
-            "Lkik/android/challenge/f;",
+            "Lkik/arcane/challenge/f;",
             ">;"
         }
     .end annotation
@@ -115,7 +115,7 @@
     iget-object v0, p0, Lcom/kik/modules/dy;->b:Lcom/kik/modules/dx;
 
     .line 1025
-    invoke-virtual {v0}, Lcom/kik/modules/dx;->a()Lkik/android/challenge/f;
+    invoke-virtual {v0}, Lcom/kik/modules/dx;->a()Lkik/arcane/challenge/f;
 
     move-result-object v0
 
@@ -126,7 +126,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/challenge/f;
+    check-cast v0, Lkik/arcane/challenge/f;
 
     .line 8
     return-object v0

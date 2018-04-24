@@ -44,7 +44,7 @@
 
     .prologue
     .line 33
-    invoke-static {}, Lkik/android/chat/KikApplication;->c()Ljava/lang/String;
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->c()Ljava/lang/String;
 
     move-result-object v0
 
@@ -83,7 +83,7 @@
     move-result-object v0
 
     .line 44
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -111,7 +111,7 @@
 
     .prologue
     .line 57
-    invoke-static {}, Lkik/android/chat/KikApplication;->d()Ljava/lang/String;
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->d()Ljava/lang/String;
 
     move-result-object v0
 

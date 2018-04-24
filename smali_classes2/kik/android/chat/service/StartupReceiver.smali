@@ -1,4 +1,4 @@
-.class public Lkik/android/chat/service/StartupReceiver;
+.class public Lkik/arcane/chat/service/StartupReceiver;
 .super Landroid/content/BroadcastReceiver;
 .source "SourceFile"
 
@@ -23,7 +23,7 @@
     .line 16
     new-instance v0, Landroid/content/Intent;
 
-    const-class v1, Lkik/android/net/communicator/CommunicatorService;
+    const-class v1, Lkik/arcane/net/communicator/CommunicatorService;
 
     invoke-direct {v0, p1, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
@@ -31,7 +31,7 @@
     invoke-virtual {p1, v0}, Landroid/content/Context;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
 
     .line 18
-    invoke-static {}, Lkik/android/chat/KikApplication;->j()V
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->j()V
 
     .line 19
     return-void

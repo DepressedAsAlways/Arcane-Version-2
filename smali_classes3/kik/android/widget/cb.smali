@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/widget/cb;
+.class final synthetic Lkik/arcane/widget/cb;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/widget/cb;
+.field private static final a:Lkik/arcane/widget/cb;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/widget/cb;
+    new-instance v0, Lkik/arcane/widget/cb;
 
-    invoke-direct {v0}, Lkik/android/widget/cb;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/widget/cb;-><init>()V
 
-    sput-object v0, Lkik/android/widget/cb;->a:Lkik/android/widget/cb;
+    sput-object v0, Lkik/arcane/widget/cb;->a:Lkik/arcane/widget/cb;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Landroid/view/View$OnClickListener;
     .locals 1
 
-    sget-object v0, Lkik/android/widget/cb;->a:Lkik/android/widget/cb;
+    sget-object v0, Lkik/arcane/widget/cb;->a:Lkik/arcane/widget/cb;
 
     return-object v0
 .end method
@@ -43,7 +43,7 @@
 .method public final onClick(Landroid/view/View;)V
     .locals 0
 
-    invoke-static {}, Lkik/android/widget/bx;->e()V
+    invoke-static {}, Lkik/arcane/widget/bx;->e()V
 
     return-void
 .end method

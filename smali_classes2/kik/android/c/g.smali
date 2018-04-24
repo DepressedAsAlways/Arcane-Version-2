@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/c/g;
+.class final synthetic Lkik/arcane/c/g;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/c/d;
+.field private final a:Lkik/arcane/c/d;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/c/d;)V
+.method private constructor <init>(Lkik/arcane/c/d;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/c/g;->a:Lkik/android/c/d;
+    iput-object p1, p0, Lkik/arcane/c/g;->a:Lkik/arcane/c/d;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/c/d;)Lrx/functions/b;
+.method public static a(Lkik/arcane/c/d;)Lrx/functions/b;
     .locals 1
 
-    new-instance v0, Lkik/android/c/g;
+    new-instance v0, Lkik/arcane/c/g;
 
-    invoke-direct {v0, p0}, Lkik/android/c/g;-><init>(Lkik/android/c/d;)V
+    invoke-direct {v0, p0}, Lkik/arcane/c/g;-><init>(Lkik/arcane/c/d;)V
 
     return-object v0
 .end method
@@ -35,11 +35,11 @@
 .method public final call(Ljava/lang/Object;)V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/c/g;->a:Lkik/android/c/d;
+    iget-object v0, p0, Lkik/arcane/c/g;->a:Lkik/arcane/c/d;
 
     check-cast p1, Lrx/Emitter;
 
-    invoke-static {v0, p1}, Lkik/android/c/d;->b(Lkik/android/c/d;Lrx/Emitter;)V
+    invoke-static {v0, p1}, Lkik/arcane/c/d;->b(Lkik/arcane/c/d;Lrx/Emitter;)V
 
     return-void
 .end method

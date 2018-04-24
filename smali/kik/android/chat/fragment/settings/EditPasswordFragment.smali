@@ -1,30 +1,30 @@
-.class public Lkik/android/chat/fragment/settings/EditPasswordFragment;
-.super Lkik/android/chat/fragment/KikScopedDialogFragment;
+.class public Lkik/arcane/chat/fragment/settings/EditPasswordFragment;
+.super Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/fragment/settings/EditPasswordFragment$a;
+        Lkik/arcane/chat/fragment/settings/EditPasswordFragment$a;
     }
 .end annotation
 
 
 # instance fields
-.field protected _existingPasswordField:Lkik/android/chat/view/ValidateableInputView;
+.field protected _existingPasswordField:Lkik/arcane/chat/view/ValidateableInputView;
     .annotation build Lbutterknife/BindView;
         value = 0x7f1001e5
     .end annotation
 .end field
 
-.field protected _newPasswordField:Lkik/android/chat/view/ValidateableInputView;
+.field protected _newPasswordField:Lkik/arcane/chat/view/ValidateableInputView;
     .annotation build Lbutterknife/BindView;
         value = 0x7f1001e6
     .end annotation
 .end field
 
-.field protected _retypePasswordField:Lkik/android/chat/view/ValidateableInputView;
+.field protected _retypePasswordField:Lkik/arcane/chat/view/ValidateableInputView;
     .annotation build Lbutterknife/BindView;
         value = 0x7f1001e7
     .end annotation
@@ -53,19 +53,19 @@
 
     .prologue
     .line 40
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikScopedDialogFragment;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;-><init>()V
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/settings/EditPasswordFragment;Ljava/lang/String;)Ljava/lang/String;
+.method static synthetic a(Lkik/arcane/chat/fragment/settings/EditPasswordFragment;Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
     .prologue
     .line 88
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_existingPasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_existingPasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
+    invoke-virtual {v0}, Lkik/arcane/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
 
     move-result-object v0
 
@@ -73,9 +73,9 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_newPasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_newPasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v1}, Lkik/android/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
+    invoke-virtual {v1}, Lkik/arcane/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
 
     move-result-object v1
 
@@ -83,7 +83,7 @@
 
     move-result-object v1
 
-    invoke-direct {p0, v0, v1, p1}, Lkik/android/chat/fragment/settings/EditPasswordFragment;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {p0, v0, v1, p1}, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 89
     return-object p1
@@ -112,19 +112,19 @@
 
     .prologue
     .line 195
-    invoke-static {p1}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {p1}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    invoke-static {p2}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {p2}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    invoke-static {p3}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {p3}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -132,7 +132,7 @@
 
     .line 196
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_saveButton:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_saveButton:Landroid/view/View;
 
     const/4 v1, 0x0
 
@@ -144,7 +144,7 @@
 
     .line 199
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_saveButton:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_saveButton:Landroid/view/View;
 
     const/4 v1, 0x1
 
@@ -153,26 +153,26 @@
     goto :goto_0
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/settings/EditPasswordFragment;)V
+.method static synthetic a(Lkik/arcane/chat/fragment/settings/EditPasswordFragment;)V
     .locals 1
 
     .prologue
     .line 104
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_existingPasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_existingPasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0, p0}, Lkik/android/chat/view/ValidateableInputView;->a(Lkik/android/util/KeyboardManipulator;)V
+    invoke-virtual {v0, p0}, Lkik/arcane/chat/view/ValidateableInputView;->a(Lkik/arcane/util/KeyboardManipulator;)V
 
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/chat/fragment/settings/EditPasswordFragment;Ljava/lang/String;)Ljava/lang/String;
+.method static synthetic b(Lkik/arcane/chat/fragment/settings/EditPasswordFragment;Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
     .prologue
     .line 83
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_existingPasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_existingPasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
+    invoke-virtual {v0}, Lkik/arcane/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
 
     move-result-object v0
 
@@ -180,9 +180,9 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_retypePasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_retypePasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v1}, Lkik/android/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
+    invoke-virtual {v1}, Lkik/arcane/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
 
     move-result-object v1
 
@@ -190,7 +190,7 @@
 
     move-result-object v1
 
-    invoke-direct {p0, v0, p1, v1}, Lkik/android/chat/fragment/settings/EditPasswordFragment;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {p0, v0, p1, v1}, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 84
     return-object p1
@@ -214,14 +214,14 @@
     return-object v0
 .end method
 
-.method static synthetic c(Lkik/android/chat/fragment/settings/EditPasswordFragment;Ljava/lang/String;)Ljava/lang/String;
+.method static synthetic c(Lkik/arcane/chat/fragment/settings/EditPasswordFragment;Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
     .prologue
     .line 78
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_newPasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_newPasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
+    invoke-virtual {v0}, Lkik/arcane/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
 
     move-result-object v0
 
@@ -229,9 +229,9 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_retypePasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_retypePasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v1}, Lkik/android/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
+    invoke-virtual {v1}, Lkik/arcane/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
 
     move-result-object v1
 
@@ -239,7 +239,7 @@
 
     move-result-object v1
 
-    invoke-direct {p0, p1, v0, v1}, Lkik/android/chat/fragment/settings/EditPasswordFragment;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {p0, p1, v0, v1}, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 79
     return-object p1
@@ -280,14 +280,14 @@
 
     .prologue
     .line 59
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/EditPasswordFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 
-    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/fragment/settings/EditPasswordFragment;)V
+    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/fragment/settings/EditPasswordFragment;)V
 
     .line 60
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onCreate(Landroid/os/Bundle;)V
 
     .line 61
     return-void
@@ -310,58 +310,58 @@
     invoke-static {p0, v0}, Lbutterknife/ButterKnife;->bind(Ljava/lang/Object;Landroid/view/View;)Lbutterknife/Unbinder;
 
     .line 77
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_existingPasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_existingPasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-static {p0}, Lkik/android/chat/fragment/settings/k;->a(Lkik/android/chat/fragment/settings/EditPasswordFragment;)Lkik/android/chat/view/ValidateableInputView$a;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/settings/k;->a(Lkik/arcane/chat/fragment/settings/EditPasswordFragment;)Lkik/arcane/chat/view/ValidateableInputView$a;
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/view/ValidateableInputView;->a(Lkik/android/chat/view/ValidateableInputView$a;)V
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/view/ValidateableInputView;->a(Lkik/arcane/chat/view/ValidateableInputView$a;)V
 
     .line 82
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_newPasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_newPasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-static {p0}, Lkik/android/chat/fragment/settings/l;->a(Lkik/android/chat/fragment/settings/EditPasswordFragment;)Lkik/android/chat/view/ValidateableInputView$a;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/settings/l;->a(Lkik/arcane/chat/fragment/settings/EditPasswordFragment;)Lkik/arcane/chat/view/ValidateableInputView$a;
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/view/ValidateableInputView;->a(Lkik/android/chat/view/ValidateableInputView$a;)V
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/view/ValidateableInputView;->a(Lkik/arcane/chat/view/ValidateableInputView$a;)V
 
     .line 87
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_retypePasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_retypePasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-static {p0}, Lkik/android/chat/fragment/settings/m;->a(Lkik/android/chat/fragment/settings/EditPasswordFragment;)Lkik/android/chat/view/ValidateableInputView$a;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/settings/m;->a(Lkik/arcane/chat/fragment/settings/EditPasswordFragment;)Lkik/arcane/chat/view/ValidateableInputView$a;
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/view/ValidateableInputView;->a(Lkik/android/chat/view/ValidateableInputView$a;)V
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/view/ValidateableInputView;->a(Lkik/arcane/chat/view/ValidateableInputView$a;)V
 
     .line 93
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_existingPasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_existingPasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-static {}, Lkik/android/chat/fragment/settings/n;->a()Lkik/android/chat/view/ValidateableInputView$b;
+    invoke-static {}, Lkik/arcane/chat/fragment/settings/n;->a()Lkik/arcane/chat/view/ValidateableInputView$b;
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/view/ValidateableInputView;->a(Lkik/android/chat/view/ValidateableInputView$b;)V
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/view/ValidateableInputView;->a(Lkik/arcane/chat/view/ValidateableInputView$b;)V
 
     .line 94
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_newPasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_newPasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-static {}, Lkik/android/chat/fragment/settings/o;->a()Lkik/android/chat/view/ValidateableInputView$b;
+    invoke-static {}, Lkik/arcane/chat/fragment/settings/o;->a()Lkik/arcane/chat/view/ValidateableInputView$b;
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/view/ValidateableInputView;->a(Lkik/android/chat/view/ValidateableInputView$b;)V
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/view/ValidateableInputView;->a(Lkik/arcane/chat/view/ValidateableInputView$b;)V
 
     .line 95
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_retypePasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_retypePasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-static {}, Lkik/android/chat/fragment/settings/p;->a()Lkik/android/chat/view/ValidateableInputView$b;
+    invoke-static {}, Lkik/arcane/chat/fragment/settings/p;->a()Lkik/arcane/chat/view/ValidateableInputView$b;
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/view/ValidateableInputView;->a(Lkik/android/chat/view/ValidateableInputView$b;)V
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/view/ValidateableInputView;->a(Lkik/arcane/chat/view/ValidateableInputView$b;)V
 
     .line 97
     return-object v0
@@ -372,16 +372,16 @@
 
     .prologue
     .line 103
-    invoke-super {p0}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onResume()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onResume()V
 
     .line 104
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_existingPasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_existingPasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-static {p0}, Lkik/android/chat/fragment/settings/q;->a(Lkik/android/chat/fragment/settings/EditPasswordFragment;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/settings/q;->a(Lkik/arcane/chat/fragment/settings/EditPasswordFragment;)Ljava/lang/Runnable;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/view/ValidateableInputView;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/view/ValidateableInputView;->post(Ljava/lang/Runnable;)Z
 
     .line 105
     return-void
@@ -399,9 +399,9 @@
     const v6, 0x7f0905eb
 
     .line 110
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_existingPasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_existingPasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
+    invoke-virtual {v0}, Lkik/arcane/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
 
     move-result-object v0
 
@@ -410,9 +410,9 @@
     move-result-object v1
 
     .line 111
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_newPasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_newPasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
+    invoke-virtual {v0}, Lkik/arcane/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
 
     move-result-object v0
 
@@ -421,9 +421,9 @@
     move-result-object v2
 
     .line 112
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_retypePasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_retypePasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
+    invoke-virtual {v0}, Lkik/arcane/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
 
     move-result-object v0
 
@@ -451,7 +451,7 @@
 
     move-result-object v4
 
-    invoke-static {v4}, Lkik/android/util/br;->a([B)Ljava/lang/String;
+    invoke-static {v4}, Lkik/arcane/util/br;->a([B)Ljava/lang/String;
     :try_end_0
     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -459,7 +459,7 @@
 
     .line 125
     :goto_0
-    iget-object v4, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->b:Lkik/core/interfaces/ad;
+    iget-object v4, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->b:Lkik/core/interfaces/ad;
 
     invoke-static {v4}, Lkik/core/z;->b(Lkik/core/interfaces/ad;)Lkik/core/z;
 
@@ -473,16 +473,16 @@
     if-nez v1, :cond_0
 
     .line 129
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_existingPasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_existingPasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
     const v1, 0x7f0902b6
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/view/ValidateableInputView;->b(I)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/view/ValidateableInputView;->b(I)V
 
     .line 130
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_existingPasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_existingPasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/ValidateableInputView;->k()V
+    invoke-virtual {v0}, Lkik/arcane/chat/view/ValidateableInputView;->k()V
 
     .line 153
     :goto_1
@@ -501,16 +501,16 @@
     if-nez v0, :cond_1
 
     .line 134
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_existingPasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_existingPasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
     const v1, 0x7f090297
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/view/ValidateableInputView;->b(I)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/view/ValidateableInputView;->b(I)V
 
     .line 135
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_existingPasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_existingPasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/ValidateableInputView;->k()V
+    invoke-virtual {v0}, Lkik/arcane/chat/view/ValidateableInputView;->k()V
 
     goto :goto_1
 
@@ -526,14 +526,14 @@
     if-nez v0, :cond_2
 
     .line 138
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_newPasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_newPasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0, v6}, Lkik/android/chat/view/ValidateableInputView;->b(I)V
+    invoke-virtual {v0, v6}, Lkik/arcane/chat/view/ValidateableInputView;->b(I)V
 
     .line 139
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_newPasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_newPasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/ValidateableInputView;->k()V
+    invoke-virtual {v0}, Lkik/arcane/chat/view/ValidateableInputView;->k()V
 
     goto :goto_1
 
@@ -549,14 +549,14 @@
     if-nez v0, :cond_3
 
     .line 142
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_retypePasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_retypePasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0, v6}, Lkik/android/chat/view/ValidateableInputView;->b(I)V
+    invoke-virtual {v0, v6}, Lkik/arcane/chat/view/ValidateableInputView;->b(I)V
 
     .line 143
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_retypePasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_retypePasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/ValidateableInputView;->k()V
+    invoke-virtual {v0}, Lkik/arcane/chat/view/ValidateableInputView;->k()V
 
     goto :goto_1
 
@@ -569,62 +569,62 @@
     if-nez v0, :cond_4
 
     .line 147
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_retypePasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_retypePasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
     const v1, 0x7f0902a0
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/view/ValidateableInputView;->b(I)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/view/ValidateableInputView;->b(I)V
 
     .line 148
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->_retypePasswordField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->_retypePasswordField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/ValidateableInputView;->k()V
+    invoke-virtual {v0}, Lkik/arcane/chat/view/ValidateableInputView;->k()V
 
     goto :goto_1
 
     .line 2157
     :cond_4
-    new-instance v0, Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;
+    new-instance v0, Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/EditPasswordFragment;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;-><init>(Landroid/content/Context;)V
 
     const v1, 0x7f0904b0
 
     .line 2158
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;->a(I)Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;->a(I)Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
     .line 2159
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;->a(Z)Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;->a(Z)Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;
 
     move-result-object v0
 
     .line 2160
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikIndeterminateProgressDialog$Builder;->a()Lkik/android/chat/fragment/KikDialogFragment;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikIndeterminateProgressDialog$Builder;->a()Lkik/arcane/chat/fragment/KikDialogFragment;
 
     move-result-object v0
 
     .line 2161
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/settings/EditPasswordFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 2163
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditPasswordFragment;->a:Lkik/core/interfaces/ag;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditPasswordFragment;->a:Lkik/core/interfaces/ag;
 
     invoke-interface {v0, v2}, Lkik/core/interfaces/ag;->b(Ljava/lang/String;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
     .line 2164
-    new-instance v1, Lkik/android/chat/fragment/settings/EditPasswordFragment$1;
+    new-instance v1, Lkik/arcane/chat/fragment/settings/EditPasswordFragment$1;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/fragment/settings/EditPasswordFragment$1;-><init>(Lkik/android/chat/fragment/settings/EditPasswordFragment;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/fragment/settings/EditPasswordFragment$1;-><init>(Lkik/arcane/chat/fragment/settings/EditPasswordFragment;)V
 
     invoke-static {v1}, Lcom/kik/sdkutils/b;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 

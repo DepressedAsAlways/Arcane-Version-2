@@ -1,4 +1,4 @@
-.class final synthetic Lcom/kik/android/b/o;
+.class final synthetic Lcom/kik/arcane/b/o;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lcom/kik/android/b/o;
+.field private static final a:Lcom/kik/arcane/b/o;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lcom/kik/android/b/o;
+    new-instance v0, Lcom/kik/arcane/b/o;
 
-    invoke-direct {v0}, Lcom/kik/android/b/o;-><init>()V
+    invoke-direct {v0}, Lcom/kik/arcane/b/o;-><init>()V
 
-    sput-object v0, Lcom/kik/android/b/o;->a:Lcom/kik/android/b/o;
+    sput-object v0, Lcom/kik/arcane/b/o;->a:Lcom/kik/arcane/b/o;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Ljava/lang/Runnable;
     .locals 1
 
-    sget-object v0, Lcom/kik/android/b/o;->a:Lcom/kik/android/b/o;
+    sget-object v0, Lcom/kik/arcane/b/o;->a:Lcom/kik/arcane/b/o;
 
     return-object v0
 .end method

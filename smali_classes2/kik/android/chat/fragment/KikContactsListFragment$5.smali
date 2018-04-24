@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/KikContactsListFragment$5;
+.class final Lkik/arcane/chat/fragment/KikContactsListFragment$5;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/KikContactsListFragment;->a(Landroid/view/View;)V
+    value = Lkik/arcane/chat/fragment/KikContactsListFragment;->a(Landroid/view/View;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,25 +18,25 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikContactsListFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
 .field private b:I
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikContactsListFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikContactsListFragment;)V
     .locals 1
 
     .prologue
     .line 341
-    iput-object p1, p0, Lkik/android/chat/fragment/KikContactsListFragment$5;->a:Lkik/android/chat/fragment/KikContactsListFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$5;->a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 342
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/chat/fragment/KikContactsListFragment$5;->b:I
+    iput v0, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$5;->b:I
 
     return-void
 .end method
@@ -56,16 +56,16 @@
 
     .prologue
     .line 347
-    iget v0, p0, Lkik/android/chat/fragment/KikContactsListFragment$5;->b:I
+    iget v0, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$5;->b:I
 
     if-nez v0, :cond_0
 
     if-eqz p2, :cond_0
 
     .line 348
-    iget-object v0, p0, Lkik/android/chat/fragment/KikContactsListFragment$5;->a:Lkik/android/chat/fragment/KikContactsListFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$5;->a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikContactsListFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikContactsListFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v0
 
@@ -78,15 +78,15 @@
     check-cast v0, Landroid/view/inputmethod/InputMethodManager;
 
     .line 349
-    iget-object v1, p0, Lkik/android/chat/fragment/KikContactsListFragment$5;->a:Lkik/android/chat/fragment/KikContactsListFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$5;->a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
-    iget-object v1, v1, Lkik/android/chat/fragment/KikContactsListFragment;->j:Lkik/android/chat/view/SearchBarViewImpl;
+    iget-object v1, v1, Lkik/arcane/chat/fragment/KikContactsListFragment;->j:Lkik/arcane/chat/view/SearchBarViewImpl;
 
-    invoke-virtual {v1}, Lkik/android/chat/view/SearchBarViewImpl;->b()Lkik/android/widget/RobotoEditText;
+    invoke-virtual {v1}, Lkik/arcane/chat/view/SearchBarViewImpl;->b()Lkik/arcane/widget/RobotoEditText;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lkik/android/widget/RobotoEditText;->getWindowToken()Landroid/os/IBinder;
+    invoke-virtual {v1}, Lkik/arcane/widget/RobotoEditText;->getWindowToken()Landroid/os/IBinder;
 
     move-result-object v1
 
@@ -95,19 +95,19 @@
     invoke-virtual {v0, v1, v2}, Landroid/view/inputmethod/InputMethodManager;->hideSoftInputFromWindow(Landroid/os/IBinder;I)Z
 
     .line 350
-    iget-object v0, p0, Lkik/android/chat/fragment/KikContactsListFragment$5;->a:Lkik/android/chat/fragment/KikContactsListFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$5;->a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/KikContactsListFragment;->j:Lkik/android/chat/view/SearchBarViewImpl;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/KikContactsListFragment;->j:Lkik/arcane/chat/view/SearchBarViewImpl;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/SearchBarViewImpl;->b()Lkik/android/widget/RobotoEditText;
+    invoke-virtual {v0}, Lkik/arcane/chat/view/SearchBarViewImpl;->b()Lkik/arcane/widget/RobotoEditText;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/widget/RobotoEditText;->clearFocus()V
+    invoke-virtual {v0}, Lkik/arcane/widget/RobotoEditText;->clearFocus()V
 
     .line 352
     :cond_0
-    iput p2, p0, Lkik/android/chat/fragment/KikContactsListFragment$5;->b:I
+    iput p2, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$5;->b:I
 
     .line 353
     return-void

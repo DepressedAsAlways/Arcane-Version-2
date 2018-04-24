@@ -1,4 +1,4 @@
-.class public final Lkik/android/i/b;
+.class public final Lkik/arcane/i/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -9,13 +9,13 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/i/b$a;
+        Lkik/arcane/i/b$a;
     }
 .end annotation
 
 
 # instance fields
-.field private final a:Lkik/android/i/b$a;
+.field private final a:Lkik/arcane/i/b$a;
 
 .field private b:Lkik/core/datatypes/i;
 
@@ -29,11 +29,11 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 25
-    new-instance v0, Lkik/android/i/b$a;
+    new-instance v0, Lkik/arcane/i/b$a;
 
-    invoke-direct {v0, p1}, Lkik/android/i/b$a;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p1}, Lkik/arcane/i/b$a;-><init>(Landroid/content/Context;)V
 
-    iput-object v0, p0, Lkik/android/i/b;->a:Lkik/android/i/b$a;
+    iput-object v0, p0, Lkik/arcane/i/b;->a:Lkik/arcane/i/b$a;
 
     .line 26
     return-void
@@ -54,15 +54,15 @@
 
     .line 60
     :cond_0
-    iget-object v2, p0, Lkik/android/i/b;->a:Lkik/android/i/b$a;
+    iget-object v2, p0, Lkik/arcane/i/b;->a:Lkik/arcane/i/b$a;
 
     monitor-enter v2
 
     .line 61
     :try_start_0
-    iget-object v1, p0, Lkik/android/i/b;->a:Lkik/android/i/b$a;
+    iget-object v1, p0, Lkik/arcane/i/b;->a:Lkik/arcane/i/b$a;
 
-    invoke-virtual {v1}, Lkik/android/i/b$a;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v1}, Lkik/arcane/i/b$a;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -224,15 +224,15 @@
     invoke-direct {v8}, Ljava/util/ArrayList;-><init>()V
 
     .line 97
-    iget-object v9, p0, Lkik/android/i/b;->a:Lkik/android/i/b$a;
+    iget-object v9, p0, Lkik/arcane/i/b;->a:Lkik/arcane/i/b$a;
 
     monitor-enter v9
 
     .line 98
     :try_start_0
-    iget-object v0, p0, Lkik/android/i/b;->a:Lkik/android/i/b$a;
+    iget-object v0, p0, Lkik/arcane/i/b;->a:Lkik/arcane/i/b$a;
 
-    invoke-virtual {v0}, Lkik/android/i/b$a;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v0}, Lkik/arcane/i/b$a;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object v0
 
@@ -347,19 +347,19 @@
 
     .prologue
     .line 49
-    iget-object v0, p0, Lkik/android/i/b;->b:Lkik/core/datatypes/i;
+    iget-object v0, p0, Lkik/arcane/i/b;->b:Lkik/core/datatypes/i;
 
     if-eqz v0, :cond_0
 
     .line 50
-    iget-object v0, p0, Lkik/android/i/b;->b:Lkik/core/datatypes/i;
+    iget-object v0, p0, Lkik/arcane/i/b;->b:Lkik/core/datatypes/i;
 
     invoke-virtual {v0, p1}, Lkik/core/datatypes/i;->a(Ljava/lang/String;)V
 
     .line 51
-    iget-object v0, p0, Lkik/android/i/b;->b:Lkik/core/datatypes/i;
+    iget-object v0, p0, Lkik/arcane/i/b;->b:Lkik/core/datatypes/i;
 
-    invoke-direct {p0, v0}, Lkik/android/i/b;->b(Lkik/core/datatypes/i;)Z
+    invoke-direct {p0, v0}, Lkik/arcane/i/b;->b(Lkik/core/datatypes/i;)Z
 
     .line 53
     :cond_0
@@ -381,17 +381,17 @@
 
     .line 34
     :cond_0
-    iget-object v1, p0, Lkik/android/i/b;->a:Lkik/android/i/b$a;
+    iget-object v1, p0, Lkik/arcane/i/b;->a:Lkik/arcane/i/b$a;
 
     monitor-enter v1
 
     .line 35
     :try_start_0
-    iget-object v0, p0, Lkik/android/i/b;->b:Lkik/core/datatypes/i;
+    iget-object v0, p0, Lkik/arcane/i/b;->b:Lkik/core/datatypes/i;
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lkik/android/i/b;->b:Lkik/core/datatypes/i;
+    iget-object v0, p0, Lkik/arcane/i/b;->b:Lkik/core/datatypes/i;
 
     invoke-virtual {v0}, Lkik/core/datatypes/i;->a()Ljava/lang/String;
 
@@ -399,7 +399,7 @@
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lkik/android/i/b;->b:Lkik/core/datatypes/i;
+    iget-object v0, p0, Lkik/arcane/i/b;->b:Lkik/core/datatypes/i;
 
     invoke-virtual {v0}, Lkik/core/datatypes/i;->a()Ljava/lang/String;
 
@@ -416,32 +416,32 @@
     if-nez v0, :cond_1
 
     .line 36
-    iget-object v0, p0, Lkik/android/i/b;->b:Lkik/core/datatypes/i;
+    iget-object v0, p0, Lkik/arcane/i/b;->b:Lkik/core/datatypes/i;
 
     const/4 v2, 0x0
 
     invoke-virtual {v0, v2}, Lkik/core/datatypes/i;->a(Z)V
 
     .line 37
-    iget-object v0, p0, Lkik/android/i/b;->b:Lkik/core/datatypes/i;
+    iget-object v0, p0, Lkik/arcane/i/b;->b:Lkik/core/datatypes/i;
 
-    invoke-direct {p0, v0}, Lkik/android/i/b;->b(Lkik/core/datatypes/i;)Z
+    invoke-direct {p0, v0}, Lkik/arcane/i/b;->b(Lkik/core/datatypes/i;)Z
 
     .line 40
     :cond_1
-    iput-object p1, p0, Lkik/android/i/b;->b:Lkik/core/datatypes/i;
+    iput-object p1, p0, Lkik/arcane/i/b;->b:Lkik/core/datatypes/i;
 
     .line 41
-    iget-object v0, p0, Lkik/android/i/b;->b:Lkik/core/datatypes/i;
+    iget-object v0, p0, Lkik/arcane/i/b;->b:Lkik/core/datatypes/i;
 
     const/4 v2, 0x1
 
     invoke-virtual {v0, v2}, Lkik/core/datatypes/i;->a(Z)V
 
     .line 42
-    iget-object v0, p0, Lkik/android/i/b;->b:Lkik/core/datatypes/i;
+    iget-object v0, p0, Lkik/arcane/i/b;->b:Lkik/core/datatypes/i;
 
-    invoke-direct {p0, v0}, Lkik/android/i/b;->b(Lkik/core/datatypes/i;)Z
+    invoke-direct {p0, v0}, Lkik/arcane/i/b;->b(Lkik/core/datatypes/i;)Z
 
     move-result v0
 
@@ -477,15 +477,15 @@
 
     .line 119
     :cond_0
-    iget-object v2, p0, Lkik/android/i/b;->a:Lkik/android/i/b$a;
+    iget-object v2, p0, Lkik/arcane/i/b;->a:Lkik/arcane/i/b$a;
 
     monitor-enter v2
 
     .line 120
     :try_start_0
-    iget-object v3, p0, Lkik/android/i/b;->a:Lkik/android/i/b$a;
+    iget-object v3, p0, Lkik/arcane/i/b;->a:Lkik/arcane/i/b$a;
 
-    invoke-virtual {v3}, Lkik/android/i/b$a;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v3}, Lkik/arcane/i/b$a;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -493,11 +493,11 @@
 
     .line 123
     :try_start_1
-    iget-object v4, p0, Lkik/android/i/b;->b:Lkik/core/datatypes/i;
+    iget-object v4, p0, Lkik/arcane/i/b;->b:Lkik/core/datatypes/i;
 
     if-eqz v4, :cond_1
 
-    iget-object v4, p0, Lkik/android/i/b;->b:Lkik/core/datatypes/i;
+    iget-object v4, p0, Lkik/arcane/i/b;->b:Lkik/core/datatypes/i;
 
     invoke-virtual {v4}, Lkik/core/datatypes/i;->a()Ljava/lang/String;
 
@@ -512,7 +512,7 @@
     .line 125
     const/4 v4, 0x0
 
-    iput-object v4, p0, Lkik/android/i/b;->b:Lkik/core/datatypes/i;
+    iput-object v4, p0, Lkik/arcane/i/b;->b:Lkik/core/datatypes/i;
 
     .line 127
     :cond_1

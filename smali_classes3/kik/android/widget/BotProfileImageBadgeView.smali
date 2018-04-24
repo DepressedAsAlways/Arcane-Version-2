@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/BotProfileImageBadgeView;
+.class public Lkik/arcane/widget/BotProfileImageBadgeView;
 .super Landroid/support/v7/widget/AppCompatImageView;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # instance fields
 .field private a:Lrx/k;
 
-.field private b:Lkik/android/chat/vm/IBadgeViewModel;
+.field private b:Lkik/arcane/chat/vm/IBadgeViewModel;
 
 
 # direct methods
@@ -43,7 +43,7 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/BotProfileImageBadgeView;Lkik/android/chat/vm/IBadgeViewModel$BadgeType;)I
+.method static synthetic a(Lkik/arcane/widget/BotProfileImageBadgeView;Lkik/arcane/chat/vm/IBadgeViewModel$BadgeType;)I
     .locals 3
 
     .prologue
@@ -51,16 +51,16 @@
 
     .line 0
     .line 1067
-    iget-object v1, p0, Lkik/android/widget/BotProfileImageBadgeView;->b:Lkik/android/chat/vm/IBadgeViewModel;
+    iget-object v1, p0, Lkik/arcane/widget/BotProfileImageBadgeView;->b:Lkik/arcane/chat/vm/IBadgeViewModel;
 
-    invoke-interface {v1}, Lkik/android/chat/vm/IBadgeViewModel;->a()Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;
+    invoke-interface {v1}, Lkik/arcane/chat/vm/IBadgeViewModel;->a()Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;
 
     move-result-object v1
 
     .line 1068
-    sget-object v2, Lkik/android/widget/BotProfileImageBadgeView$1;->b:[I
+    sget-object v2, Lkik/arcane/widget/BotProfileImageBadgeView$1;->b:[I
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/IBadgeViewModel$BadgeSize;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/IBadgeViewModel$BadgeSize;->ordinal()I
 
     move-result v1
 
@@ -69,9 +69,9 @@
     packed-switch v1, :pswitch_data_0
 
     .line 1082
-    sget-object v1, Lkik/android/widget/BotProfileImageBadgeView$1;->a:[I
+    sget-object v1, Lkik/arcane/widget/BotProfileImageBadgeView$1;->a:[I
 
-    invoke-virtual {p1}, Lkik/android/chat/vm/IBadgeViewModel$BadgeType;->ordinal()I
+    invoke-virtual {p1}, Lkik/arcane/chat/vm/IBadgeViewModel$BadgeType;->ordinal()I
 
     move-result v2
 
@@ -85,9 +85,9 @@
 
     .line 1070
     :pswitch_0
-    sget-object v1, Lkik/android/widget/BotProfileImageBadgeView$1;->a:[I
+    sget-object v1, Lkik/arcane/widget/BotProfileImageBadgeView$1;->a:[I
 
-    invoke-virtual {p1}, Lkik/android/chat/vm/IBadgeViewModel$BadgeType;->ordinal()I
+    invoke-virtual {p1}, Lkik/arcane/chat/vm/IBadgeViewModel$BadgeType;->ordinal()I
 
     move-result v2
 
@@ -142,29 +142,29 @@
     .end packed-switch
 .end method
 
-.method static synthetic a()Lkik/android/chat/vm/IBadgeViewModel$BadgeType;
+.method static synthetic a()Lkik/arcane/chat/vm/IBadgeViewModel$BadgeType;
     .locals 1
 
     .prologue
     .line 49
-    sget-object v0, Lkik/android/chat/vm/IBadgeViewModel$BadgeType;->BADGE_TYPE_NONE:Lkik/android/chat/vm/IBadgeViewModel$BadgeType;
+    sget-object v0, Lkik/arcane/chat/vm/IBadgeViewModel$BadgeType;->BADGE_TYPE_NONE:Lkik/arcane/chat/vm/IBadgeViewModel$BadgeType;
 
     return-object v0
 .end method
 
 
 # virtual methods
-.method public final a(Lkik/android/chat/vm/IBadgeViewModel;)V
+.method public final a(Lkik/arcane/chat/vm/IBadgeViewModel;)V
     .locals 2
 
     .prologue
     .line 41
-    iget-object v0, p0, Lkik/android/widget/BotProfileImageBadgeView;->a:Lrx/k;
+    iget-object v0, p0, Lkik/arcane/widget/BotProfileImageBadgeView;->a:Lrx/k;
 
     if-eqz v0, :cond_0
 
     .line 42
-    iget-object v0, p0, Lkik/android/widget/BotProfileImageBadgeView;->a:Lrx/k;
+    iget-object v0, p0, Lkik/arcane/widget/BotProfileImageBadgeView;->a:Lrx/k;
 
     invoke-interface {v0}, Lrx/k;->unsubscribe()V
 
@@ -178,14 +178,14 @@
 
     .line 47
     :cond_1
-    iput-object p1, p0, Lkik/android/widget/BotProfileImageBadgeView;->b:Lkik/android/chat/vm/IBadgeViewModel;
+    iput-object p1, p0, Lkik/arcane/widget/BotProfileImageBadgeView;->b:Lkik/arcane/chat/vm/IBadgeViewModel;
 
     .line 48
-    invoke-interface {p1}, Lkik/android/chat/vm/IBadgeViewModel;->b()Lrx/d;
+    invoke-interface {p1}, Lkik/arcane/chat/vm/IBadgeViewModel;->b()Lrx/d;
 
     move-result-object v0
 
-    invoke-static {}, Lkik/android/widget/g;->a()Lrx/functions/g;
+    invoke-static {}, Lkik/arcane/widget/g;->a()Lrx/functions/g;
 
     move-result-object v1
 
@@ -194,7 +194,7 @@
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/widget/h;->a(Lkik/android/widget/BotProfileImageBadgeView;)Lrx/functions/g;
+    invoke-static {p0}, Lkik/arcane/widget/h;->a(Lkik/arcane/widget/BotProfileImageBadgeView;)Lrx/functions/g;
 
     move-result-object v1
 
@@ -212,7 +212,7 @@
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/widget/i;->a(Lkik/android/widget/BotProfileImageBadgeView;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/widget/i;->a(Lkik/arcane/widget/BotProfileImageBadgeView;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -221,7 +221,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/BotProfileImageBadgeView;->a:Lrx/k;
+    iput-object v0, p0, Lkik/arcane/widget/BotProfileImageBadgeView;->a:Lrx/k;
 
     goto :goto_0
 .end method
@@ -234,12 +234,12 @@
     invoke-super {p0}, Landroid/support/v7/widget/AppCompatImageView;->onDetachedFromWindow()V
 
     .line 59
-    iget-object v0, p0, Lkik/android/widget/BotProfileImageBadgeView;->a:Lrx/k;
+    iget-object v0, p0, Lkik/arcane/widget/BotProfileImageBadgeView;->a:Lrx/k;
 
     if-eqz v0, :cond_0
 
     .line 60
-    iget-object v0, p0, Lkik/android/widget/BotProfileImageBadgeView;->a:Lrx/k;
+    iget-object v0, p0, Lkik/arcane/widget/BotProfileImageBadgeView;->a:Lrx/k;
 
     invoke-interface {v0}, Lrx/k;->unsubscribe()V
 

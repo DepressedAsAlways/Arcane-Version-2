@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/presentation/MediaTrayPresenterImpl$12;
+.class final Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$12;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    value = Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+.field final synthetic a:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/presentation/MediaTrayPresenterImpl;)V
+.method constructor <init>(Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;)V
     .locals 0
 
     .prologue
     .line 503
-    iput-object p1, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$12;->a:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    iput-object p1, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$12;->a:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -54,41 +54,41 @@
     check-cast p2, Lkik/core/datatypes/l;
 
     .line 1507
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$12;->a:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$12;->a:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
-    iget-object v0, v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Bot Mention Sent"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Participants Count"
 
-    iget-object v2, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$12;->a:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    iget-object v2, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$12;->a:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
     .line 1508
-    invoke-static {v2}, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->r(Lkik/android/chat/presentation/MediaTrayPresenterImpl;)I
+    invoke-static {v2}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->r(Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;)I
 
     move-result v2
 
     int-to-long v2, v2
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Content Type"
 
-    iget-object v2, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$12;->a:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    iget-object v2, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$12;->a:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
     .line 1509
-    invoke-virtual {v2}, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->x()Ljava/lang/String;
+    invoke-virtual {v2}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->x()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -99,33 +99,33 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Byline Variant"
 
-    iget-object v2, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$12;->a:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    iget-object v2, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$12;->a:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
     .line 1511
-    invoke-static {v2}, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->n(Lkik/android/chat/presentation/MediaTrayPresenterImpl;)Lkik/android/chat/presentation/s;
+    invoke-static {v2}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->n(Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;)Lkik/arcane/chat/presentation/s;
 
     move-result-object v2
 
-    invoke-interface {v2}, Lkik/android/chat/presentation/s;->f()Ljava/lang/String;
+    invoke-interface {v2}, Lkik/arcane/chat/presentation/s;->f()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
     const-string v2, "Chat Id"
 
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$12;->a:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$12;->a:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
     .line 1512
-    invoke-static {v0}, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->q(Lkik/android/chat/presentation/MediaTrayPresenterImpl;)Lkik/core/datatypes/l;
+    invoke-static {v0}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->q(Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;)Lkik/core/datatypes/l;
 
     move-result-object v0
 
@@ -134,26 +134,26 @@
     const-string v0, ""
 
     :goto_0
-    invoke-virtual {v1, v2, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 1513
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 1514
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 503
     return-void
 
     .line 1512
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$12;->a:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$12;->a:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
-    invoke-static {v0}, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->q(Lkik/android/chat/presentation/MediaTrayPresenterImpl;)Lkik/core/datatypes/l;
+    invoke-static {v0}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->q(Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;)Lkik/core/datatypes/l;
 
     move-result-object v0
 

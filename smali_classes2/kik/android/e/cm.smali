@@ -1,4 +1,4 @@
-.class public final Lkik/android/e/cm;
+.class public final Lkik/arcane/e/cm;
 .super Landroid/databinding/ViewDataBinding;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/e/cm$a;
+        Lkik/arcane/e/cm$a;
     }
 .end annotation
 
@@ -18,11 +18,11 @@
 
 
 # instance fields
-.field public final a:Lkik/android/e/ax;
+.field public final a:Lkik/arcane/e/ax;
 
-.field public final b:Lkik/android/widget/RobotoTextView;
+.field public final b:Lkik/arcane/widget/RobotoTextView;
 
-.field public final c:Lkik/android/widget/RobotoTextView;
+.field public final c:Lkik/arcane/widget/RobotoTextView;
 
 .field private final f:Landroid/widget/LinearLayout;
 
@@ -30,7 +30,7 @@
 
 .field private final h:Landroid/widget/LinearLayout;
 
-.field private final i:Lkik/android/widget/RobotoTextView;
+.field private final i:Lkik/arcane/widget/RobotoTextView;
 
 .field private final j:Landroid/widget/LinearLayout;
 
@@ -40,9 +40,9 @@
 
 .field private final m:Landroid/support/v7/widget/SwitchCompat;
 
-.field private n:Lkik/android/chat/vm/be;
+.field private n:Lkik/arcane/chat/vm/be;
 
-.field private o:Lkik/android/e/cm$a;
+.field private o:Lkik/arcane/e/cm$a;
 
 .field private p:J
 
@@ -64,7 +64,7 @@
     invoke-direct {v0, v1}, Landroid/databinding/ViewDataBinding$IncludedLayouts;-><init>(I)V
 
     .line 11
-    sput-object v0, Lkik/android/e/cm;->d:Landroid/databinding/ViewDataBinding$IncludedLayouts;
+    sput-object v0, Lkik/arcane/e/cm;->d:Landroid/databinding/ViewDataBinding$IncludedLayouts;
 
     new-array v1, v4, [Ljava/lang/String;
 
@@ -92,7 +92,7 @@
     invoke-direct {v0}, Landroid/util/SparseIntArray;-><init>()V
 
     .line 16
-    sput-object v0, Lkik/android/e/cm;->e:Landroid/util/SparseIntArray;
+    sput-object v0, Lkik/arcane/e/cm;->e:Landroid/util/SparseIntArray;
 
     const v1, 0x7f100179
 
@@ -118,16 +118,16 @@
     .line 201
     const-wide/16 v0, -0x1
 
-    iput-wide v0, p0, Lkik/android/e/cm;->p:J
+    iput-wide v0, p0, Lkik/arcane/e/cm;->p:J
 
     .line 39
     const/16 v0, 0xb
 
-    sget-object v1, Lkik/android/e/cm;->d:Landroid/databinding/ViewDataBinding$IncludedLayouts;
+    sget-object v1, Lkik/arcane/e/cm;->d:Landroid/databinding/ViewDataBinding$IncludedLayouts;
 
-    sget-object v2, Lkik/android/e/cm;->e:Landroid/util/SparseIntArray;
+    sget-object v2, Lkik/arcane/e/cm;->e:Landroid/util/SparseIntArray;
 
-    invoke-static {p1, p2, v0, v1, v2}, Lkik/android/e/cm;->mapBindings(Landroid/databinding/DataBindingComponent;Landroid/view/View;ILandroid/databinding/ViewDataBinding$IncludedLayouts;Landroid/util/SparseIntArray;)[Ljava/lang/Object;
+    invoke-static {p1, p2, v0, v1, v2}, Lkik/arcane/e/cm;->mapBindings(Landroid/databinding/DataBindingComponent;Landroid/view/View;ILandroid/databinding/ViewDataBinding$IncludedLayouts;Landroid/util/SparseIntArray;)[Ljava/lang/Object;
 
     move-result-object v1
 
@@ -136,14 +136,14 @@
 
     aget-object v0, v1, v0
 
-    check-cast v0, Lkik/android/e/ax;
+    check-cast v0, Lkik/arcane/e/ax;
 
-    iput-object v0, p0, Lkik/android/e/cm;->a:Lkik/android/e/ax;
+    iput-object v0, p0, Lkik/arcane/e/cm;->a:Lkik/arcane/e/ax;
 
     .line 41
-    iget-object v0, p0, Lkik/android/e/cm;->a:Lkik/android/e/ax;
+    iget-object v0, p0, Lkik/arcane/e/cm;->a:Lkik/arcane/e/ax;
 
-    invoke-virtual {p0, v0}, Lkik/android/e/cm;->setContainedBinding(Landroid/databinding/ViewDataBinding;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/e/cm;->setContainedBinding(Landroid/databinding/ViewDataBinding;)V
 
     .line 42
     const/4 v0, 0x0
@@ -152,10 +152,10 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    iput-object v0, p0, Lkik/android/e/cm;->f:Landroid/widget/LinearLayout;
+    iput-object v0, p0, Lkik/arcane/e/cm;->f:Landroid/widget/LinearLayout;
 
     .line 43
-    iget-object v0, p0, Lkik/android/e/cm;->f:Landroid/widget/LinearLayout;
+    iget-object v0, p0, Lkik/arcane/e/cm;->f:Landroid/widget/LinearLayout;
 
     invoke-virtual {v0, v3}, Landroid/widget/LinearLayout;->setTag(Ljava/lang/Object;)V
 
@@ -164,10 +164,10 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    iput-object v0, p0, Lkik/android/e/cm;->g:Landroid/widget/LinearLayout;
+    iput-object v0, p0, Lkik/arcane/e/cm;->g:Landroid/widget/LinearLayout;
 
     .line 45
-    iget-object v0, p0, Lkik/android/e/cm;->g:Landroid/widget/LinearLayout;
+    iget-object v0, p0, Lkik/arcane/e/cm;->g:Landroid/widget/LinearLayout;
 
     invoke-virtual {v0, v3}, Landroid/widget/LinearLayout;->setTag(Ljava/lang/Object;)V
 
@@ -178,10 +178,10 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    iput-object v0, p0, Lkik/android/e/cm;->h:Landroid/widget/LinearLayout;
+    iput-object v0, p0, Lkik/arcane/e/cm;->h:Landroid/widget/LinearLayout;
 
     .line 47
-    iget-object v0, p0, Lkik/android/e/cm;->h:Landroid/widget/LinearLayout;
+    iget-object v0, p0, Lkik/arcane/e/cm;->h:Landroid/widget/LinearLayout;
 
     invoke-virtual {v0, v3}, Landroid/widget/LinearLayout;->setTag(Ljava/lang/Object;)V
 
@@ -190,14 +190,14 @@
 
     aget-object v0, v1, v0
 
-    check-cast v0, Lkik/android/widget/RobotoTextView;
+    check-cast v0, Lkik/arcane/widget/RobotoTextView;
 
-    iput-object v0, p0, Lkik/android/e/cm;->i:Lkik/android/widget/RobotoTextView;
+    iput-object v0, p0, Lkik/arcane/e/cm;->i:Lkik/arcane/widget/RobotoTextView;
 
     .line 49
-    iget-object v0, p0, Lkik/android/e/cm;->i:Lkik/android/widget/RobotoTextView;
+    iget-object v0, p0, Lkik/arcane/e/cm;->i:Lkik/arcane/widget/RobotoTextView;
 
-    invoke-virtual {v0, v3}, Lkik/android/widget/RobotoTextView;->setTag(Ljava/lang/Object;)V
+    invoke-virtual {v0, v3}, Lkik/arcane/widget/RobotoTextView;->setTag(Ljava/lang/Object;)V
 
     .line 50
     const/4 v0, 0x5
@@ -206,10 +206,10 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    iput-object v0, p0, Lkik/android/e/cm;->j:Landroid/widget/LinearLayout;
+    iput-object v0, p0, Lkik/arcane/e/cm;->j:Landroid/widget/LinearLayout;
 
     .line 51
-    iget-object v0, p0, Lkik/android/e/cm;->j:Landroid/widget/LinearLayout;
+    iget-object v0, p0, Lkik/arcane/e/cm;->j:Landroid/widget/LinearLayout;
 
     invoke-virtual {v0, v3}, Landroid/widget/LinearLayout;->setTag(Ljava/lang/Object;)V
 
@@ -220,10 +220,10 @@
 
     check-cast v0, Landroid/support/v7/widget/SwitchCompat;
 
-    iput-object v0, p0, Lkik/android/e/cm;->k:Landroid/support/v7/widget/SwitchCompat;
+    iput-object v0, p0, Lkik/arcane/e/cm;->k:Landroid/support/v7/widget/SwitchCompat;
 
     .line 53
-    iget-object v0, p0, Lkik/android/e/cm;->k:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v0, p0, Lkik/arcane/e/cm;->k:Landroid/support/v7/widget/SwitchCompat;
 
     invoke-virtual {v0, v3}, Landroid/support/v7/widget/SwitchCompat;->setTag(Ljava/lang/Object;)V
 
@@ -234,10 +234,10 @@
 
     check-cast v0, Landroid/widget/LinearLayout;
 
-    iput-object v0, p0, Lkik/android/e/cm;->l:Landroid/widget/LinearLayout;
+    iput-object v0, p0, Lkik/arcane/e/cm;->l:Landroid/widget/LinearLayout;
 
     .line 55
-    iget-object v0, p0, Lkik/android/e/cm;->l:Landroid/widget/LinearLayout;
+    iget-object v0, p0, Lkik/arcane/e/cm;->l:Landroid/widget/LinearLayout;
 
     invoke-virtual {v0, v3}, Landroid/widget/LinearLayout;->setTag(Ljava/lang/Object;)V
 
@@ -248,10 +248,10 @@
 
     check-cast v0, Landroid/support/v7/widget/SwitchCompat;
 
-    iput-object v0, p0, Lkik/android/e/cm;->m:Landroid/support/v7/widget/SwitchCompat;
+    iput-object v0, p0, Lkik/arcane/e/cm;->m:Landroid/support/v7/widget/SwitchCompat;
 
     .line 57
-    iget-object v0, p0, Lkik/android/e/cm;->m:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v0, p0, Lkik/arcane/e/cm;->m:Landroid/support/v7/widget/SwitchCompat;
 
     invoke-virtual {v0, v3}, Landroid/support/v7/widget/SwitchCompat;->setTag(Ljava/lang/Object;)V
 
@@ -260,35 +260,35 @@
 
     aget-object v0, v1, v0
 
-    check-cast v0, Lkik/android/widget/RobotoTextView;
+    check-cast v0, Lkik/arcane/widget/RobotoTextView;
 
-    iput-object v0, p0, Lkik/android/e/cm;->b:Lkik/android/widget/RobotoTextView;
+    iput-object v0, p0, Lkik/arcane/e/cm;->b:Lkik/arcane/widget/RobotoTextView;
 
     .line 59
     const/4 v0, 0x3
 
     aget-object v0, v1, v0
 
-    check-cast v0, Lkik/android/widget/RobotoTextView;
+    check-cast v0, Lkik/arcane/widget/RobotoTextView;
 
-    iput-object v0, p0, Lkik/android/e/cm;->c:Lkik/android/widget/RobotoTextView;
+    iput-object v0, p0, Lkik/arcane/e/cm;->c:Lkik/arcane/widget/RobotoTextView;
 
     .line 60
-    iget-object v0, p0, Lkik/android/e/cm;->c:Lkik/android/widget/RobotoTextView;
+    iget-object v0, p0, Lkik/arcane/e/cm;->c:Lkik/arcane/widget/RobotoTextView;
 
-    invoke-virtual {v0, v3}, Lkik/android/widget/RobotoTextView;->setTag(Ljava/lang/Object;)V
+    invoke-virtual {v0, v3}, Lkik/arcane/widget/RobotoTextView;->setTag(Ljava/lang/Object;)V
 
     .line 61
-    invoke-virtual {p0, p2}, Lkik/android/e/cm;->setRootTag(Landroid/view/View;)V
+    invoke-virtual {p0, p2}, Lkik/arcane/e/cm;->setRootTag(Landroid/view/View;)V
 
     .line 63
-    invoke-virtual {p0}, Lkik/android/e/cm;->invalidateAll()V
+    invoke-virtual {p0}, Lkik/arcane/e/cm;->invalidateAll()V
 
     .line 64
     return-void
 .end method
 
-.method public static a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/android/e/cm;
+.method public static a(Landroid/view/View;Landroid/databinding/DataBindingComponent;)Lkik/arcane/e/cm;
     .locals 3
 
     .prologue
@@ -332,9 +332,9 @@
 
     .line 222
     :cond_0
-    new-instance v0, Lkik/android/e/cm;
+    new-instance v0, Lkik/arcane/e/cm;
 
-    invoke-direct {v0, p1, p0}, Lkik/android/e/cm;-><init>(Landroid/databinding/DataBindingComponent;Landroid/view/View;)V
+    invoke-direct {v0, p1, p0}, Lkik/arcane/e/cm;-><init>(Landroid/databinding/DataBindingComponent;Landroid/view/View;)V
 
     return-object v0
 .end method
@@ -358,13 +358,13 @@
 
     .line 121
     :try_start_0
-    iget-wide v0, p0, Lkik/android/e/cm;->p:J
+    iget-wide v0, p0, Lkik/arcane/e/cm;->p:J
 
     const-wide/16 v2, 0x1
 
     or-long/2addr v0, v2
 
-    iput-wide v0, p0, Lkik/android/e/cm;->p:J
+    iput-wide v0, p0, Lkik/arcane/e/cm;->p:J
 
     .line 122
     monitor-exit p0
@@ -395,25 +395,25 @@
 
 
 # virtual methods
-.method public final a(Lkik/android/chat/vm/be;)V
+.method public final a(Lkik/arcane/chat/vm/be;)V
     .locals 4
 
     .prologue
     .line 98
-    iput-object p1, p0, Lkik/android/e/cm;->n:Lkik/android/chat/vm/be;
+    iput-object p1, p0, Lkik/arcane/e/cm;->n:Lkik/arcane/chat/vm/be;
 
     .line 99
     monitor-enter p0
 
     .line 100
     :try_start_0
-    iget-wide v0, p0, Lkik/android/e/cm;->p:J
+    iget-wide v0, p0, Lkik/arcane/e/cm;->p:J
 
     const-wide/16 v2, 0x2
 
     or-long/2addr v0, v2
 
-    iput-wide v0, p0, Lkik/android/e/cm;->p:J
+    iput-wide v0, p0, Lkik/arcane/e/cm;->p:J
 
     .line 101
     monitor-exit p0
@@ -423,7 +423,7 @@
     .line 102
     const/16 v0, 0xe
 
-    invoke-virtual {p0, v0}, Lkik/android/e/cm;->notifyPropertyChanged(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/e/cm;->notifyPropertyChanged(I)V
 
     .line 103
     invoke-super {p0}, Landroid/databinding/ViewDataBinding;->requestRebind()V
@@ -458,12 +458,12 @@
 
     .line 133
     :try_start_0
-    iget-wide v8, p0, Lkik/android/e/cm;->p:J
+    iget-wide v8, p0, Lkik/arcane/e/cm;->p:J
 
     .line 134
     const-wide/16 v2, 0x0
 
-    iput-wide v2, p0, Lkik/android/e/cm;->p:J
+    iput-wide v2, p0, Lkik/arcane/e/cm;->p:J
 
     .line 135
     monitor-exit p0
@@ -471,7 +471,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 138
-    iget-object v7, p0, Lkik/android/e/cm;->n:Lkik/android/chat/vm/be;
+    iget-object v7, p0, Lkik/arcane/e/cm;->n:Lkik/arcane/chat/vm/be;
 
     .line 146
     and-long v2, v8, v12
@@ -484,48 +484,48 @@
     if-eqz v7, :cond_2
 
     .line 152
-    invoke-interface {v7}, Lkik/android/chat/vm/be;->l()Lrx/d;
+    invoke-interface {v7}, Lkik/arcane/chat/vm/be;->l()Lrx/d;
 
     move-result-object v6
 
     .line 154
-    iget-object v0, p0, Lkik/android/e/cm;->o:Lkik/android/e/cm$a;
+    iget-object v0, p0, Lkik/arcane/e/cm;->o:Lkik/arcane/e/cm$a;
 
     if-nez v0, :cond_1
 
-    new-instance v0, Lkik/android/e/cm$a;
+    new-instance v0, Lkik/arcane/e/cm$a;
 
-    invoke-direct {v0}, Lkik/android/e/cm$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/e/cm$a;-><init>()V
 
-    iput-object v0, p0, Lkik/android/e/cm;->o:Lkik/android/e/cm$a;
+    iput-object v0, p0, Lkik/arcane/e/cm;->o:Lkik/arcane/e/cm$a;
 
     :goto_0
-    invoke-virtual {v0, v7}, Lkik/android/e/cm$a;->a(Lkik/android/chat/vm/be;)Lkik/android/e/cm$a;
+    invoke-virtual {v0, v7}, Lkik/arcane/e/cm$a;->a(Lkik/arcane/chat/vm/be;)Lkik/arcane/e/cm$a;
 
     move-result-object v5
 
     .line 156
-    invoke-interface {v7}, Lkik/android/chat/vm/be;->n()Lrx/d;
+    invoke-interface {v7}, Lkik/arcane/chat/vm/be;->n()Lrx/d;
 
     move-result-object v4
 
     .line 158
-    invoke-interface {v7}, Lkik/android/chat/vm/be;->m()Lrx/d;
+    invoke-interface {v7}, Lkik/arcane/chat/vm/be;->m()Lrx/d;
 
     move-result-object v3
 
     .line 160
-    invoke-interface {v7}, Lkik/android/chat/vm/be;->p()Lrx/functions/b;
+    invoke-interface {v7}, Lkik/arcane/chat/vm/be;->p()Lrx/functions/b;
 
     move-result-object v2
 
     .line 162
-    invoke-interface {v7}, Lkik/android/chat/vm/be;->k()Lrx/d;
+    invoke-interface {v7}, Lkik/arcane/chat/vm/be;->k()Lrx/d;
 
     move-result-object v1
 
     .line 164
-    invoke-interface {v7}, Lkik/android/chat/vm/be;->o()Lrx/functions/b;
+    invoke-interface {v7}, Lkik/arcane/chat/vm/be;->o()Lrx/functions/b;
 
     move-result-object v0
 
@@ -560,55 +560,55 @@
     if-eqz v7, :cond_0
 
     .line 175
-    iget-object v7, p0, Lkik/android/e/cm;->h:Landroid/widget/LinearLayout;
+    iget-object v7, p0, Lkik/arcane/e/cm;->h:Landroid/widget/LinearLayout;
 
     invoke-static {v7, v6}, Lcom/kik/util/j;->a(Landroid/view/View;Ljava/lang/Runnable;)V
 
     .line 176
-    iget-object v6, p0, Lkik/android/e/cm;->i:Lkik/android/widget/RobotoTextView;
+    iget-object v6, p0, Lkik/arcane/e/cm;->i:Lkik/arcane/widget/RobotoTextView;
 
     invoke-static {v6, v0}, Lcom/kik/util/j;->j(Landroid/view/View;Lrx/d;)V
 
     .line 177
-    iget-object v6, p0, Lkik/android/e/cm;->j:Landroid/widget/LinearLayout;
+    iget-object v6, p0, Lkik/arcane/e/cm;->j:Landroid/widget/LinearLayout;
 
     invoke-static {v6, v0}, Lcom/kik/util/j;->j(Landroid/view/View;Lrx/d;)V
 
     .line 178
-    iget-object v6, p0, Lkik/android/e/cm;->k:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v6, p0, Lkik/arcane/e/cm;->k:Landroid/support/v7/widget/SwitchCompat;
 
     invoke-static {v6, v4}, Lcom/kik/util/j;->a(Landroid/widget/CompoundButton;Lrx/d;)V
 
     .line 179
-    iget-object v4, p0, Lkik/android/e/cm;->k:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v4, p0, Lkik/arcane/e/cm;->k:Landroid/support/v7/widget/SwitchCompat;
 
     invoke-static {v4, v1}, Lcom/kik/util/j;->a(Landroid/support/v7/widget/SwitchCompat;Lrx/functions/b;)V
 
     .line 180
-    iget-object v1, p0, Lkik/android/e/cm;->l:Landroid/widget/LinearLayout;
+    iget-object v1, p0, Lkik/arcane/e/cm;->l:Landroid/widget/LinearLayout;
 
     invoke-static {v1, v0}, Lcom/kik/util/j;->j(Landroid/view/View;Lrx/d;)V
 
     .line 181
-    iget-object v0, p0, Lkik/android/e/cm;->m:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v0, p0, Lkik/arcane/e/cm;->m:Landroid/support/v7/widget/SwitchCompat;
 
     invoke-static {v0, v5}, Lcom/kik/util/j;->a(Landroid/widget/CompoundButton;Lrx/d;)V
 
     .line 182
-    iget-object v0, p0, Lkik/android/e/cm;->m:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v0, p0, Lkik/arcane/e/cm;->m:Landroid/support/v7/widget/SwitchCompat;
 
     invoke-static {v0, v3}, Lcom/kik/util/j;->a(Landroid/support/v7/widget/SwitchCompat;Lrx/functions/b;)V
 
     .line 183
-    iget-object v0, p0, Lkik/android/e/cm;->c:Lkik/android/widget/RobotoTextView;
+    iget-object v0, p0, Lkik/arcane/e/cm;->c:Lkik/arcane/widget/RobotoTextView;
 
     invoke-static {v0, v2}, Lcom/kik/util/j;->a(Landroid/widget/TextView;Lrx/d;)V
 
     .line 185
     :cond_0
-    iget-object v0, p0, Lkik/android/e/cm;->a:Lkik/android/e/ax;
+    iget-object v0, p0, Lkik/arcane/e/cm;->a:Lkik/arcane/e/ax;
 
-    invoke-static {v0}, Lkik/android/e/cm;->executeBindingsOn(Landroid/databinding/ViewDataBinding;)V
+    invoke-static {v0}, Lkik/arcane/e/cm;->executeBindingsOn(Landroid/databinding/ViewDataBinding;)V
 
     .line 186
     return-void
@@ -626,7 +626,7 @@
 
     .line 154
     :cond_1
-    iget-object v0, p0, Lkik/android/e/cm;->o:Lkik/android/e/cm$a;
+    iget-object v0, p0, Lkik/arcane/e/cm;->o:Lkik/arcane/e/cm$a;
 
     goto :goto_0
 
@@ -672,7 +672,7 @@
 
     .line 78
     :try_start_0
-    iget-wide v2, p0, Lkik/android/e/cm;->p:J
+    iget-wide v2, p0, Lkik/arcane/e/cm;->p:J
 
     const-wide/16 v4, 0x0
 
@@ -695,9 +695,9 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 82
-    iget-object v1, p0, Lkik/android/e/cm;->a:Lkik/android/e/ax;
+    iget-object v1, p0, Lkik/arcane/e/cm;->a:Lkik/arcane/e/ax;
 
-    invoke-virtual {v1}, Lkik/android/e/ax;->hasPendingBindings()Z
+    invoke-virtual {v1}, Lkik/arcane/e/ax;->hasPendingBindings()Z
 
     move-result v1
 
@@ -731,7 +731,7 @@
     const-wide/16 v0, 0x4
 
     :try_start_0
-    iput-wide v0, p0, Lkik/android/e/cm;->p:J
+    iput-wide v0, p0, Lkik/arcane/e/cm;->p:J
 
     .line 70
     monitor-exit p0
@@ -739,12 +739,12 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 71
-    iget-object v0, p0, Lkik/android/e/cm;->a:Lkik/android/e/ax;
+    iget-object v0, p0, Lkik/arcane/e/cm;->a:Lkik/arcane/e/ax;
 
-    invoke-virtual {v0}, Lkik/android/e/ax;->invalidateAll()V
+    invoke-virtual {v0}, Lkik/arcane/e/ax;->invalidateAll()V
 
     .line 72
-    invoke-virtual {p0}, Lkik/android/e/cm;->requestRebind()V
+    invoke-virtual {p0}, Lkik/arcane/e/cm;->requestRebind()V
 
     .line 73
     return-void
@@ -776,7 +776,7 @@
 
     .line 113
     :pswitch_0
-    invoke-direct {p0, p3}, Lkik/android/e/cm;->a(I)Z
+    invoke-direct {p0, p3}, Lkik/arcane/e/cm;->a(I)Z
 
     move-result v0
 
@@ -804,9 +804,9 @@
 
     .line 91
     :pswitch_0
-    check-cast p2, Lkik/android/chat/vm/be;
+    check-cast p2, Lkik/arcane/chat/vm/be;
 
-    invoke-virtual {p0, p2}, Lkik/android/e/cm;->a(Lkik/android/chat/vm/be;)V
+    invoke-virtual {p0, p2}, Lkik/arcane/e/cm;->a(Lkik/arcane/chat/vm/be;)V
 
     .line 92
     const/4 v0, 0x1

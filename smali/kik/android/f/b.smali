@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/f/b;
+.class public interface abstract Lkik/arcane/f/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 

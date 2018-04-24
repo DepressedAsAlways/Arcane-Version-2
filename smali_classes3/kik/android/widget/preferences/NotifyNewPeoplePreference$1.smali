@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/preferences/NotifyNewPeoplePreference$1;
+.class final Lkik/arcane/widget/preferences/NotifyNewPeoplePreference$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/preferences/NotifyNewPeoplePreference;->a(Z)V
+    value = Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;->a(Z)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/preferences/NotifyNewPeoplePreference;
+.field final synthetic a:Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/preferences/NotifyNewPeoplePreference;)V
+.method constructor <init>(Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;)V
     .locals 0
 
     .prologue
     .line 83
-    iput-object p1, p0, Lkik/android/widget/preferences/NotifyNewPeoplePreference$1;->a:Lkik/android/widget/preferences/NotifyNewPeoplePreference;
+    iput-object p1, p0, Lkik/arcane/widget/preferences/NotifyNewPeoplePreference$1;->a:Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -48,22 +48,22 @@
     .prologue
     .line 83
     .line 1087
-    iget-object v0, p0, Lkik/android/widget/preferences/NotifyNewPeoplePreference$1;->a:Lkik/android/widget/preferences/NotifyNewPeoplePreference;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/NotifyNewPeoplePreference$1;->a:Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;
 
-    invoke-virtual {v0}, Lkik/android/widget/preferences/NotifyNewPeoplePreference;->getContext()Landroid/content/Context;
+    invoke-virtual {v0}, Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/widget/preferences/NotifyNewPeoplePreference$1;->a:Lkik/android/widget/preferences/NotifyNewPeoplePreference;
+    iget-object v1, p0, Lkik/arcane/widget/preferences/NotifyNewPeoplePreference$1;->a:Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;
 
     .line 1088
-    invoke-virtual {v1}, Lkik/android/widget/preferences/NotifyNewPeoplePreference;->a()Lkik/android/chat/fragment/KikScopedDialogFragment;
+    invoke-virtual {v1}, Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;->a()Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     move-result-object v1
 
     const v2, 0x7f090353
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikScopedDialogFragment;->getString(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -78,7 +78,7 @@
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
     .line 1090
-    invoke-static {}, Lkik/android/chat/KikApplication;->i()V
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->i()V
 
     .line 83
     return-void
@@ -89,22 +89,22 @@
 
     .prologue
     .line 96
-    iget-object v0, p0, Lkik/android/widget/preferences/NotifyNewPeoplePreference$1;->a:Lkik/android/widget/preferences/NotifyNewPeoplePreference;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/NotifyNewPeoplePreference$1;->a:Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;
 
-    invoke-virtual {v0}, Lkik/android/widget/preferences/NotifyNewPeoplePreference;->getContext()Landroid/content/Context;
+    invoke-virtual {v0}, Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/widget/preferences/NotifyNewPeoplePreference$1;->a:Lkik/android/widget/preferences/NotifyNewPeoplePreference;
+    iget-object v1, p0, Lkik/arcane/widget/preferences/NotifyNewPeoplePreference$1;->a:Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;
 
     .line 97
-    invoke-virtual {v1}, Lkik/android/widget/preferences/NotifyNewPeoplePreference;->a()Lkik/android/chat/fragment/KikScopedDialogFragment;
+    invoke-virtual {v1}, Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;->a()Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     move-result-object v1
 
     const v2, 0x7f0904ff
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikScopedDialogFragment;->getString(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -119,13 +119,13 @@
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
     .line 100
-    iget-object v0, p0, Lkik/android/widget/preferences/NotifyNewPeoplePreference$1;->a:Lkik/android/widget/preferences/NotifyNewPeoplePreference;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/NotifyNewPeoplePreference$1;->a:Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;
 
-    iget-object v0, v0, Lkik/android/widget/preferences/NotifyNewPeoplePreference;->d:Lcom/kik/android/Mixpanel;
+    iget-object v0, v0, Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;->d:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Mute New Chats Timed Out"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -134,17 +134,17 @@
     const-string v2, "Notification Settings"
 
     .line 101
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 102
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 103
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 104
     return-void
@@ -157,30 +157,30 @@
     const/4 v2, 0x1
 
     .line 109
-    iget-object v0, p0, Lkik/android/widget/preferences/NotifyNewPeoplePreference$1;->a:Lkik/android/widget/preferences/NotifyNewPeoplePreference;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/NotifyNewPeoplePreference$1;->a:Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;
 
-    invoke-virtual {v0}, Lkik/android/widget/preferences/NotifyNewPeoplePreference;->a()Lkik/android/chat/fragment/KikScopedDialogFragment;
+    invoke-virtual {v0}, Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;->a()Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikScopedDialogFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 110
-    iget-object v0, p0, Lkik/android/widget/preferences/NotifyNewPeoplePreference$1;->a:Lkik/android/widget/preferences/NotifyNewPeoplePreference;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/NotifyNewPeoplePreference$1;->a:Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;
 
-    invoke-virtual {v0, v2}, Lkik/android/widget/preferences/NotifyNewPeoplePreference;->setEnabled(Z)V
+    invoke-virtual {v0, v2}, Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;->setEnabled(Z)V
 
     .line 111
-    iget-object v0, p0, Lkik/android/widget/preferences/NotifyNewPeoplePreference$1;->a:Lkik/android/widget/preferences/NotifyNewPeoplePreference;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/NotifyNewPeoplePreference$1;->a:Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;
 
-    invoke-static {v0}, Lkik/android/widget/preferences/NotifyNewPeoplePreference;->c(Lkik/android/widget/preferences/NotifyNewPeoplePreference;)V
+    invoke-static {v0}, Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;->c(Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;)V
 
     .line 112
-    iget-object v0, p0, Lkik/android/widget/preferences/NotifyNewPeoplePreference$1;->a:Lkik/android/widget/preferences/NotifyNewPeoplePreference;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/NotifyNewPeoplePreference$1;->a:Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;
 
-    invoke-virtual {v0, v2}, Lkik/android/widget/preferences/NotifyNewPeoplePreference;->setEnabled(Z)V
+    invoke-virtual {v0, v2}, Lkik/arcane/widget/preferences/NotifyNewPeoplePreference;->setEnabled(Z)V
 
     .line 113
     return-void

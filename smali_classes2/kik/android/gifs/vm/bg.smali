@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/gifs/vm/bg;
+.class final synthetic Lkik/arcane/gifs/vm/bg;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/gifs/vm/bg;
+.field private static final a:Lkik/arcane/gifs/vm/bg;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/gifs/vm/bg;
+    new-instance v0, Lkik/arcane/gifs/vm/bg;
 
-    invoke-direct {v0}, Lkik/android/gifs/vm/bg;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/gifs/vm/bg;-><init>()V
 
-    sput-object v0, Lkik/android/gifs/vm/bg;->a:Lkik/android/gifs/vm/bg;
+    sput-object v0, Lkik/arcane/gifs/vm/bg;->a:Lkik/arcane/gifs/vm/bg;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lrx/functions/h;
     .locals 1
 
-    sget-object v0, Lkik/android/gifs/vm/bg;->a:Lkik/android/gifs/vm/bg;
+    sget-object v0, Lkik/arcane/gifs/vm/bg;->a:Lkik/arcane/gifs/vm/bg;
 
     return-object v0
 .end method
@@ -56,7 +56,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {p2}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {p2}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 

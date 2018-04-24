@@ -24,9 +24,9 @@
 
 .field private f:Ljava/io/File;
 
-.field private j:Lkik/android/util/LegacyFileLRUCache;
+.field private j:Lkik/arcane/util/LegacyFileLRUCache;
 
-.field private k:Lkik/android/util/LegacyFileLRUCache;
+.field private k:Lkik/arcane/util/LegacyFileLRUCache;
 
 .field private l:Lcom/kik/storage/ContentImageCache;
 
@@ -48,7 +48,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Landroid/content/Context;Ljava/io/File;Ljava/io/File;Ljava/io/File;Ljava/io/File;Ljava/io/File;Lkik/android/util/LegacyFileLRUCache;Lkik/android/util/LegacyFileLRUCache;Lcom/kik/storage/ContentImageCache;)V
+.method public constructor <init>(Landroid/content/Context;Ljava/io/File;Ljava/io/File;Ljava/io/File;Ljava/io/File;Ljava/io/File;Lkik/arcane/util/LegacyFileLRUCache;Lkik/arcane/util/LegacyFileLRUCache;Lcom/kik/storage/ContentImageCache;)V
     .locals 1
 
     .prologue
@@ -75,10 +75,10 @@
     iput-object p4, p0, Lcom/kik/storage/t;->f:Ljava/io/File;
 
     .line 54
-    iput-object p7, p0, Lcom/kik/storage/t;->j:Lkik/android/util/LegacyFileLRUCache;
+    iput-object p7, p0, Lcom/kik/storage/t;->j:Lkik/arcane/util/LegacyFileLRUCache;
 
     .line 55
-    iput-object p8, p0, Lcom/kik/storage/t;->k:Lkik/android/util/LegacyFileLRUCache;
+    iput-object p8, p0, Lcom/kik/storage/t;->k:Lkik/arcane/util/LegacyFileLRUCache;
 
     .line 56
     sput-object p5, Lcom/kik/storage/t;->h:Ljava/io/File;
@@ -168,9 +168,9 @@
     if-eqz p2, :cond_6
 
     .line 624
-    iget-object v0, p0, Lcom/kik/storage/t;->j:Lkik/android/util/LegacyFileLRUCache;
+    iget-object v0, p0, Lcom/kik/storage/t;->j:Lkik/arcane/util/LegacyFileLRUCache;
 
-    invoke-virtual {v0, p1}, Lkik/android/util/LegacyFileLRUCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lkik/arcane/util/LegacyFileLRUCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -180,9 +180,9 @@
     if-nez v0, :cond_2
 
     .line 626
-    iget-object v0, p0, Lcom/kik/storage/t;->k:Lkik/android/util/LegacyFileLRUCache;
+    iget-object v0, p0, Lcom/kik/storage/t;->k:Lkik/arcane/util/LegacyFileLRUCache;
 
-    invoke-virtual {v0, p1}, Lkik/android/util/LegacyFileLRUCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lkik/arcane/util/LegacyFileLRUCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -330,7 +330,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/aw;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/util/aw;->a(Ljava/lang/String;)V
 
     move-object v0, v1
 
@@ -652,14 +652,14 @@
     if-eqz p3, :cond_7
 
     .line 268
-    iget-object v1, p0, Lcom/kik/storage/t;->j:Lkik/android/util/LegacyFileLRUCache;
+    iget-object v1, p0, Lcom/kik/storage/t;->j:Lkik/arcane/util/LegacyFileLRUCache;
 
-    invoke-virtual {v1, p1, v2}, Lkik/android/util/LegacyFileLRUCache;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1, v2}, Lkik/arcane/util/LegacyFileLRUCache;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 269
-    iget-object v1, p0, Lcom/kik/storage/t;->k:Lkik/android/util/LegacyFileLRUCache;
+    iget-object v1, p0, Lcom/kik/storage/t;->k:Lkik/arcane/util/LegacyFileLRUCache;
 
-    invoke-virtual {v1, p1, v0}, Lkik/android/util/LegacyFileLRUCache;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1, v0}, Lkik/arcane/util/LegacyFileLRUCache;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 271
     :cond_7
@@ -1028,7 +1028,7 @@
     :goto_3
     iget-object v0, p0, Lcom/kik/storage/t;->b:Landroid/content/Context;
 
-    invoke-static {v0, v3}, Lkik/android/widget/cf;->a(Landroid/content/Context;Ljava/io/File;)V
+    invoke-static {v0, v3}, Lkik/arcane/widget/cf;->a(Landroid/content/Context;Ljava/io/File;)V
 
     goto :goto_0
 
@@ -1147,9 +1147,9 @@
     invoke-direct {p0}, Lcom/kik/storage/t;->b()V
 
     .line 444
-    iget-object v0, p0, Lcom/kik/storage/t;->k:Lkik/android/util/LegacyFileLRUCache;
+    iget-object v0, p0, Lcom/kik/storage/t;->k:Lkik/arcane/util/LegacyFileLRUCache;
 
-    invoke-virtual {v0, p1}, Lkik/android/util/LegacyFileLRUCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lkik/arcane/util/LegacyFileLRUCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -1295,9 +1295,9 @@
     .line 493
     :cond_2
     :goto_2
-    iget-object v0, p0, Lcom/kik/storage/t;->k:Lkik/android/util/LegacyFileLRUCache;
+    iget-object v0, p0, Lcom/kik/storage/t;->k:Lkik/arcane/util/LegacyFileLRUCache;
 
-    invoke-virtual {v0, p1}, Lkik/android/util/LegacyFileLRUCache;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lkik/arcane/util/LegacyFileLRUCache;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 494
     return-void
@@ -1569,7 +1569,7 @@
     :goto_3
     iget-object v0, p0, Lcom/kik/storage/t;->b:Landroid/content/Context;
 
-    invoke-static {v0, v3}, Lkik/android/widget/cf;->a(Landroid/content/Context;Ljava/io/File;)V
+    invoke-static {v0, v3}, Lkik/arcane/widget/cf;->a(Landroid/content/Context;Ljava/io/File;)V
 
     goto :goto_0
 
@@ -1752,7 +1752,7 @@
     :goto_1
     iget-object v0, p0, Lcom/kik/storage/t;->b:Landroid/content/Context;
 
-    invoke-static {v0, v3}, Lkik/android/widget/cf;->a(Landroid/content/Context;Ljava/io/File;)V
+    invoke-static {v0, v3}, Lkik/arcane/widget/cf;->a(Landroid/content/Context;Ljava/io/File;)V
 
     goto :goto_0
 
@@ -2070,9 +2070,9 @@
 
     .prologue
     .line 560
-    iget-object v0, p0, Lcom/kik/storage/t;->j:Lkik/android/util/LegacyFileLRUCache;
+    iget-object v0, p0, Lcom/kik/storage/t;->j:Lkik/arcane/util/LegacyFileLRUCache;
 
-    invoke-virtual {v0, p1}, Lkik/android/util/LegacyFileLRUCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lkik/arcane/util/LegacyFileLRUCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -2082,9 +2082,9 @@
     if-nez v0, :cond_0
 
     .line 563
-    iget-object v0, p0, Lcom/kik/storage/t;->k:Lkik/android/util/LegacyFileLRUCache;
+    iget-object v0, p0, Lcom/kik/storage/t;->k:Lkik/arcane/util/LegacyFileLRUCache;
 
-    invoke-virtual {v0, p1}, Lkik/android/util/LegacyFileLRUCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Lkik/arcane/util/LegacyFileLRUCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -2440,7 +2440,7 @@
     move-result-object v3
 
     .line 670
-    invoke-static {v3}, Lkik/android/util/aw;->a(Ljava/lang/String;)V
+    invoke-static {v3}, Lkik/arcane/util/aw;->a(Ljava/lang/String;)V
 
     .line 672
     invoke-virtual {v0}, Ljava/io/IOException;->printStackTrace()V

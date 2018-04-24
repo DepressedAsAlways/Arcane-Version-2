@@ -1,11 +1,11 @@
-.class public final Lkik/android/widget/SuggestedChatsRecyclerView$a;
-.super Lkik/android/widget/dn$c;
+.class public final Lkik/arcane/widget/SuggestedChatsRecyclerView$a;
+.super Lkik/arcane/widget/dn$c;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/SuggestedChatsRecyclerView;
+    value = Lkik/arcane/widget/SuggestedChatsRecyclerView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,9 +15,9 @@
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkik/android/widget/dn$c",
+        "Lkik/arcane/widget/dn$c",
         "<",
-        "Lkik/android/chat/vm/chats/search/IChatsSearchResultViewModel;",
+        "Lkik/arcane/chat/vm/chats/search/IChatsSearchResultViewModel;",
         ">;"
     }
 .end annotation
@@ -33,7 +33,7 @@
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lkik/android/widget/dn$c;-><init>(Landroid/view/View;)V
+    invoke-direct {p0, v0}, Lkik/arcane/widget/dn$c;-><init>(Landroid/view/View;)V
 
     .line 60
     return-void

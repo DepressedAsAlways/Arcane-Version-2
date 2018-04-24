@@ -14,7 +14,7 @@
 
 
 # instance fields
-.field private final _configurations:Lkik/android/config/b;
+.field private final _configurations:Lkik/arcane/config/b;
 
 .field private final _kinController:Lcom/kik/core/domain/b/a;
 
@@ -48,7 +48,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lcom/kik/core/domain/b/a;Lcom/kik/core/domain/b/b;Lkik/android/config/b;)V
+.method public constructor <init>(Lcom/kik/core/domain/b/a;Lcom/kik/core/domain/b/b;Lkik/arcane/config/b;)V
     .locals 2
 
     .prologue
@@ -66,7 +66,7 @@
     iput-object p2, p0, Lcom/kik/cards/web/kin/KinPlugin;->_kinRepo:Lcom/kik/core/domain/b/b;
 
     .line 136
-    iput-object p3, p0, Lcom/kik/cards/web/kin/KinPlugin;->_configurations:Lkik/android/config/b;
+    iput-object p3, p0, Lcom/kik/cards/web/kin/KinPlugin;->_configurations:Lkik/arcane/config/b;
 
     .line 137
     return-void
@@ -77,11 +77,11 @@
 
     .prologue
     .line 124
-    iget-object v0, p0, Lcom/kik/cards/web/kin/KinPlugin;->_configurations:Lkik/android/config/b;
+    iget-object v0, p0, Lcom/kik/cards/web/kin/KinPlugin;->_configurations:Lkik/arcane/config/b;
 
     const-string v1, "kin-allow-all-domains"
 
-    invoke-interface {v0, v1}, Lkik/android/config/b;->a(Ljava/lang/String;)Lkik/android/config/Configuration;
+    invoke-interface {v0, v1}, Lkik/arcane/config/b;->a(Ljava/lang/String;)Lkik/arcane/config/Configuration;
 
     move-result-object v0
 
@@ -89,7 +89,7 @@
     if-eqz v0, :cond_0
 
     .line 127
-    invoke-virtual {v0}, Lkik/android/config/Configuration;->b()Ljava/lang/Object;
+    invoke-virtual {v0}, Lkik/arcane/config/Configuration;->b()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -138,11 +138,11 @@
 
     .prologue
     .line 101
-    iget-object v0, p0, Lcom/kik/cards/web/kin/KinPlugin;->_configurations:Lkik/android/config/b;
+    iget-object v0, p0, Lcom/kik/cards/web/kin/KinPlugin;->_configurations:Lkik/arcane/config/b;
 
     const-string v1, "kin-wallet-url"
 
-    invoke-interface {v0, v1}, Lkik/android/config/b;->a(Ljava/lang/String;)Lkik/android/config/Configuration;
+    invoke-interface {v0, v1}, Lkik/arcane/config/b;->a(Ljava/lang/String;)Lkik/arcane/config/Configuration;
 
     move-result-object v0
 
@@ -150,7 +150,7 @@
     if-eqz v0, :cond_0
 
     .line 104
-    invoke-virtual {v0}, Lkik/android/config/Configuration;->b()Ljava/lang/Object;
+    invoke-virtual {v0}, Lkik/arcane/config/Configuration;->b()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -257,11 +257,11 @@
 
     .prologue
     .line 112
-    iget-object v0, p0, Lcom/kik/cards/web/kin/KinPlugin;->_configurations:Lkik/android/config/b;
+    iget-object v0, p0, Lcom/kik/cards/web/kin/KinPlugin;->_configurations:Lkik/arcane/config/b;
 
     const-string v1, "kin-fake-unavailable"
 
-    invoke-interface {v0, v1}, Lkik/android/config/b;->a(Ljava/lang/String;)Lkik/android/config/Configuration;
+    invoke-interface {v0, v1}, Lkik/arcane/config/b;->a(Ljava/lang/String;)Lkik/arcane/config/Configuration;
 
     move-result-object v0
 
@@ -269,7 +269,7 @@
     if-eqz v0, :cond_0
 
     .line 115
-    invoke-virtual {v0}, Lkik/android/config/Configuration;->b()Ljava/lang/Object;
+    invoke-virtual {v0}, Lkik/arcane/config/Configuration;->b()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -551,7 +551,7 @@
     throw v0
 .end method
 
-.method public static setupConfiguration(Lkik/android/util/bp;)V
+.method public static setupConfiguration(Lkik/arcane/util/bp;)V
     .locals 7
 
     .prologue
@@ -560,12 +560,12 @@
     const/4 v5, 0x0
 
     .line 45
-    invoke-static {}, Lkik/android/config/c;->c()Lkik/android/config/b;
+    invoke-static {}, Lkik/arcane/config/c;->c()Lkik/arcane/config/b;
 
     move-result-object v0
 
     .line 47
-    new-instance v1, Lkik/android/config/f;
+    new-instance v1, Lkik/arcane/config/f;
 
     const-string v2, "kin-wallet-url"
 
@@ -575,27 +575,27 @@
 
     sget-object v4, Lcom/kik/cards/web/kin/KinPlugin;->WEB_WALLET_URL_OPTIONS:[Ljava/lang/String;
 
-    invoke-direct {v1, v2, v3, v4, p0}, Lkik/android/config/f;-><init>(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Lkik/android/util/aj;)V
+    invoke-direct {v1, v2, v3, v4, p0}, Lkik/arcane/config/f;-><init>(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Lkik/arcane/util/aj;)V
 
-    invoke-interface {v0, v1}, Lkik/android/config/b;->a(Lkik/android/config/Configuration;)Z
+    invoke-interface {v0, v1}, Lkik/arcane/config/b;->a(Lkik/arcane/config/Configuration;)Z
 
     .line 51
-    new-instance v1, Lkik/android/config/a;
+    new-instance v1, Lkik/arcane/config/a;
 
     const-string v2, "kin-allow-all-domains"
 
-    invoke-direct {v1, v2, v5, v6, p0}, Lkik/android/config/a;-><init>(Ljava/lang/String;ZLjava/lang/Runnable;Lkik/android/util/aj;)V
+    invoke-direct {v1, v2, v5, v6, p0}, Lkik/arcane/config/a;-><init>(Ljava/lang/String;ZLjava/lang/Runnable;Lkik/arcane/util/aj;)V
 
-    invoke-interface {v0, v1}, Lkik/android/config/b;->a(Lkik/android/config/Configuration;)Z
+    invoke-interface {v0, v1}, Lkik/arcane/config/b;->a(Lkik/arcane/config/Configuration;)Z
 
     .line 55
-    new-instance v1, Lkik/android/config/a;
+    new-instance v1, Lkik/arcane/config/a;
 
     const-string v2, "kin-fake-unavailable"
 
-    invoke-direct {v1, v2, v5, v6, p0}, Lkik/android/config/a;-><init>(Ljava/lang/String;ZLjava/lang/Runnable;Lkik/android/util/aj;)V
+    invoke-direct {v1, v2, v5, v6, p0}, Lkik/arcane/config/a;-><init>(Ljava/lang/String;ZLjava/lang/Runnable;Lkik/arcane/util/aj;)V
 
-    invoke-interface {v0, v1}, Lkik/android/config/b;->a(Lkik/android/config/Configuration;)Z
+    invoke-interface {v0, v1}, Lkik/arcane/config/b;->a(Lkik/arcane/config/Configuration;)Z
 
     .line 58
     return-void

@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/vm/profile/gridvm/t$3;
+.class final Lkik/arcane/chat/vm/profile/gridvm/t$3;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/profile/gridvm/t;->a(Lkik/android/chat/vm/profile/gridvm/t;Lcom/kik/core/domain/users/a/c;Lcom/kik/core/domain/a/a/c;Z)V
+    value = Lkik/arcane/chat/vm/profile/gridvm/t;->a(Lkik/arcane/chat/vm/profile/gridvm/t;Lcom/kik/core/domain/users/a/c;Lcom/kik/core/domain/a/a/c;Z)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,20 +22,20 @@
 
 .field final synthetic b:Z
 
-.field final synthetic c:Lkik/android/chat/vm/profile/gridvm/t;
+.field final synthetic c:Lkik/arcane/chat/vm/profile/gridvm/t;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/profile/gridvm/t;Lcom/kik/core/domain/a/a/c;Z)V
+.method constructor <init>(Lkik/arcane/chat/vm/profile/gridvm/t;Lcom/kik/core/domain/a/a/c;Z)V
     .locals 0
 
     .prologue
     .line 365
-    iput-object p1, p0, Lkik/android/chat/vm/profile/gridvm/t$3;->c:Lkik/android/chat/vm/profile/gridvm/t;
+    iput-object p1, p0, Lkik/arcane/chat/vm/profile/gridvm/t$3;->c:Lkik/arcane/chat/vm/profile/gridvm/t;
 
-    iput-object p2, p0, Lkik/android/chat/vm/profile/gridvm/t$3;->a:Lcom/kik/core/domain/a/a/c;
+    iput-object p2, p0, Lkik/arcane/chat/vm/profile/gridvm/t$3;->a:Lcom/kik/core/domain/a/a/c;
 
-    iput-boolean p3, p0, Lkik/android/chat/vm/profile/gridvm/t$3;->b:Z
+    iput-boolean p3, p0, Lkik/arcane/chat/vm/profile/gridvm/t$3;->b:Z
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -49,13 +49,13 @@
 
     .prologue
     .line 369
-    iget-object v0, p0, Lkik/android/chat/vm/profile/gridvm/t$3;->c:Lkik/android/chat/vm/profile/gridvm/t;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/gridvm/t$3;->c:Lkik/arcane/chat/vm/profile/gridvm/t;
 
-    invoke-static {v0}, Lkik/android/chat/vm/profile/gridvm/t;->a(Lkik/android/chat/vm/profile/gridvm/t;)Lkik/android/chat/vm/bd;
+    invoke-static {v0}, Lkik/arcane/chat/vm/profile/gridvm/t;->a(Lkik/arcane/chat/vm/profile/gridvm/t;)Lkik/arcane/chat/vm/bd;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkik/android/chat/vm/bd;->g()V
+    invoke-interface {v0}, Lkik/arcane/chat/vm/bd;->g()V
 
     .line 370
     return-void
@@ -81,9 +81,9 @@
     move-result-object v1
 
     .line 378
-    iget-object v2, p0, Lkik/android/chat/vm/profile/gridvm/t$3;->c:Lkik/android/chat/vm/profile/gridvm/t;
+    iget-object v2, p0, Lkik/arcane/chat/vm/profile/gridvm/t$3;->c:Lkik/arcane/chat/vm/profile/gridvm/t;
 
-    invoke-static {v2, v0, v1}, Lkik/android/chat/vm/profile/gridvm/t;->a(Lkik/android/chat/vm/profile/gridvm/t;ILjava/lang/String;)V
+    invoke-static {v2, v0, v1}, Lkik/arcane/chat/vm/profile/gridvm/t;->a(Lkik/arcane/chat/vm/profile/gridvm/t;ILjava/lang/String;)V
 
     .line 380
     :cond_0
@@ -95,7 +95,7 @@
 
     .prologue
     .line 385
-    iget-object v0, p0, Lkik/android/chat/vm/profile/gridvm/t$3;->a:Lcom/kik/core/domain/a/a/c;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/gridvm/t$3;->a:Lcom/kik/core/domain/a/a/c;
 
     invoke-interface {v0}, Lcom/kik/core/domain/a/a/c;->g()Ljava/util/Set;
 
@@ -108,18 +108,18 @@
     add-int/lit8 v0, v0, -0x1
 
     .line 387
-    iget-boolean v1, p0, Lkik/android/chat/vm/profile/gridvm/t$3;->b:Z
+    iget-boolean v1, p0, Lkik/arcane/chat/vm/profile/gridvm/t$3;->b:Z
 
     if-eqz v1, :cond_0
 
     .line 388
-    iget-object v1, p0, Lkik/android/chat/vm/profile/gridvm/t$3;->c:Lkik/android/chat/vm/profile/gridvm/t;
+    iget-object v1, p0, Lkik/arcane/chat/vm/profile/gridvm/t$3;->c:Lkik/arcane/chat/vm/profile/gridvm/t;
 
-    iget-object v1, v1, Lkik/android/chat/vm/profile/gridvm/t;->i:Lcom/kik/android/Mixpanel;
+    iget-object v1, v1, Lkik/arcane/chat/vm/profile/gridvm/t;->i:Lcom/kik/arcane/Mixpanel;
 
     const-string v2, "User Banned"
 
-    invoke-virtual {v1, v2}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
@@ -127,13 +127,13 @@
 
     int-to-long v4, v0
 
-    invoke-virtual {v1, v2, v4, v5}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v4, v5}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Banned Count"
 
-    iget-object v2, p0, Lkik/android/chat/vm/profile/gridvm/t$3;->a:Lcom/kik/core/domain/a/a/c;
+    iget-object v2, p0, Lkik/arcane/chat/vm/profile/gridvm/t$3;->a:Lcom/kik/core/domain/a/a/c;
 
     invoke-interface {v2}, Lcom/kik/core/domain/a/a/c;->h()Ljava/util/Set;
 
@@ -147,11 +147,11 @@
 
     int-to-long v2, v2
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 393
     :goto_0
@@ -159,13 +159,13 @@
 
     .line 391
     :cond_0
-    iget-object v1, p0, Lkik/android/chat/vm/profile/gridvm/t$3;->c:Lkik/android/chat/vm/profile/gridvm/t;
+    iget-object v1, p0, Lkik/arcane/chat/vm/profile/gridvm/t$3;->c:Lkik/arcane/chat/vm/profile/gridvm/t;
 
-    iget-object v1, v1, Lkik/android/chat/vm/profile/gridvm/t;->i:Lcom/kik/android/Mixpanel;
+    iget-object v1, v1, Lkik/arcane/chat/vm/profile/gridvm/t;->i:Lcom/kik/arcane/Mixpanel;
 
     const-string v2, "User Removed"
 
-    invoke-virtual {v1, v2}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
@@ -173,11 +173,11 @@
 
     int-to-long v4, v0
 
-    invoke-virtual {v1, v2, v4, v5}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v4, v5}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     goto :goto_0
 .end method

@@ -1,9 +1,9 @@
-.class public final Lkik/android/net/http/g;
+.class public final Lkik/arcane/net/http/g;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/net/http/c;
+.implements Lkik/arcane/net/http/c;
 
 
 # instance fields
@@ -28,7 +28,7 @@
 
     invoke-direct {v0, p1, p2}, Ljava/io/RandomAccessFile;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    iput-object v0, p0, Lkik/android/net/http/g;->a:Ljava/io/RandomAccessFile;
+    iput-object v0, p0, Lkik/arcane/net/http/g;->a:Ljava/io/RandomAccessFile;
 
     .line 24
     return-void
@@ -47,7 +47,7 @@
 
     .prologue
     .line 29
-    iget-object v0, p0, Lkik/android/net/http/g;->a:Ljava/io/RandomAccessFile;
+    iget-object v0, p0, Lkik/arcane/net/http/g;->a:Ljava/io/RandomAccessFile;
 
     const/4 v1, 0x0
 
@@ -68,7 +68,7 @@
 
     .prologue
     .line 35
-    iget-object v0, p0, Lkik/android/net/http/g;->a:Ljava/io/RandomAccessFile;
+    iget-object v0, p0, Lkik/arcane/net/http/g;->a:Ljava/io/RandomAccessFile;
 
     invoke-virtual {v0}, Ljava/io/RandomAccessFile;->close()V
 
@@ -86,7 +86,7 @@
 
     .prologue
     .line 41
-    iget-object v0, p0, Lkik/android/net/http/g;->a:Ljava/io/RandomAccessFile;
+    iget-object v0, p0, Lkik/arcane/net/http/g;->a:Ljava/io/RandomAccessFile;
 
     invoke-virtual {v0, p1, p2}, Ljava/io/RandomAccessFile;->seek(J)V
 
@@ -104,7 +104,7 @@
 
     .prologue
     .line 47
-    iget-object v0, p0, Lkik/android/net/http/g;->a:Ljava/io/RandomAccessFile;
+    iget-object v0, p0, Lkik/arcane/net/http/g;->a:Ljava/io/RandomAccessFile;
 
     invoke-virtual {v0}, Ljava/io/RandomAccessFile;->length()J
 

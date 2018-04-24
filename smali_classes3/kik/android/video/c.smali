@@ -1,4 +1,4 @@
-.class final Lkik/android/video/c;
+.class final Lkik/arcane/video/c;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -33,7 +33,7 @@
 
 .field private i:Z
 
-.field private j:Lkik/android/video/d;
+.field private j:Lkik/arcane/video/d;
 
 
 # direct methods
@@ -48,7 +48,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/video/c;->a:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/video/c;->a:Lorg/slf4j/b;
 
     return-void
 .end method
@@ -65,46 +65,46 @@
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    iput-object v0, p0, Lkik/android/video/c;->h:Ljava/lang/Object;
+    iput-object v0, p0, Lkik/arcane/video/c;->h:Ljava/lang/Object;
 
     .line 1093
-    new-instance v0, Lkik/android/video/d;
+    new-instance v0, Lkik/arcane/video/d;
 
-    invoke-direct {v0}, Lkik/android/video/d;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/video/d;-><init>()V
 
-    iput-object v0, p0, Lkik/android/video/c;->j:Lkik/android/video/d;
+    iput-object v0, p0, Lkik/arcane/video/c;->j:Lkik/arcane/video/d;
 
     .line 1094
-    iget-object v0, p0, Lkik/android/video/c;->j:Lkik/android/video/d;
+    iget-object v0, p0, Lkik/arcane/video/c;->j:Lkik/arcane/video/d;
 
-    invoke-virtual {v0}, Lkik/android/video/d;->b()V
+    invoke-virtual {v0}, Lkik/arcane/video/d;->b()V
 
     .line 1102
     new-instance v0, Landroid/graphics/SurfaceTexture;
 
-    iget-object v1, p0, Lkik/android/video/c;->j:Lkik/android/video/d;
+    iget-object v1, p0, Lkik/arcane/video/c;->j:Lkik/arcane/video/d;
 
-    invoke-virtual {v1}, Lkik/android/video/d;->a()I
+    invoke-virtual {v1}, Lkik/arcane/video/d;->a()I
 
     move-result v1
 
     invoke-direct {v0, v1}, Landroid/graphics/SurfaceTexture;-><init>(I)V
 
-    iput-object v0, p0, Lkik/android/video/c;->f:Landroid/graphics/SurfaceTexture;
+    iput-object v0, p0, Lkik/arcane/video/c;->f:Landroid/graphics/SurfaceTexture;
 
     .line 1114
-    iget-object v0, p0, Lkik/android/video/c;->f:Landroid/graphics/SurfaceTexture;
+    iget-object v0, p0, Lkik/arcane/video/c;->f:Landroid/graphics/SurfaceTexture;
 
     invoke-virtual {v0, p0}, Landroid/graphics/SurfaceTexture;->setOnFrameAvailableListener(Landroid/graphics/SurfaceTexture$OnFrameAvailableListener;)V
 
     .line 1115
     new-instance v0, Landroid/view/Surface;
 
-    iget-object v1, p0, Lkik/android/video/c;->f:Landroid/graphics/SurfaceTexture;
+    iget-object v1, p0, Lkik/arcane/video/c;->f:Landroid/graphics/SurfaceTexture;
 
     invoke-direct {v0, v1}, Landroid/view/Surface;-><init>(Landroid/graphics/SurfaceTexture;)V
 
-    iput-object v0, p0, Lkik/android/video/c;->g:Landroid/view/Surface;
+    iput-object v0, p0, Lkik/arcane/video/c;->g:Landroid/view/Surface;
 
     .line 85
     return-void
@@ -119,18 +119,18 @@
     const/4 v5, 0x0
 
     .line 173
-    iget-object v0, p0, Lkik/android/video/c;->b:Ljavax/microedition/khronos/egl/EGL10;
+    iget-object v0, p0, Lkik/arcane/video/c;->b:Ljavax/microedition/khronos/egl/EGL10;
 
     if-eqz v0, :cond_1
 
     .line 174
-    iget-object v0, p0, Lkik/android/video/c;->b:Ljavax/microedition/khronos/egl/EGL10;
+    iget-object v0, p0, Lkik/arcane/video/c;->b:Ljavax/microedition/khronos/egl/EGL10;
 
     invoke-interface {v0}, Ljavax/microedition/khronos/egl/EGL10;->eglGetCurrentContext()Ljavax/microedition/khronos/egl/EGLContext;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/video/c;->d:Ljavax/microedition/khronos/egl/EGLContext;
+    iget-object v1, p0, Lkik/arcane/video/c;->d:Ljavax/microedition/khronos/egl/EGLContext;
 
     invoke-virtual {v0, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
@@ -139,9 +139,9 @@
     if-eqz v0, :cond_0
 
     .line 176
-    iget-object v0, p0, Lkik/android/video/c;->b:Ljavax/microedition/khronos/egl/EGL10;
+    iget-object v0, p0, Lkik/arcane/video/c;->b:Ljavax/microedition/khronos/egl/EGL10;
 
-    iget-object v1, p0, Lkik/android/video/c;->c:Ljavax/microedition/khronos/egl/EGLDisplay;
+    iget-object v1, p0, Lkik/arcane/video/c;->c:Ljavax/microedition/khronos/egl/EGLDisplay;
 
     sget-object v2, Ljavax/microedition/khronos/egl/EGL10;->EGL_NO_SURFACE:Ljavax/microedition/khronos/egl/EGLSurface;
 
@@ -153,54 +153,54 @@
 
     .line 179
     :cond_0
-    iget-object v0, p0, Lkik/android/video/c;->b:Ljavax/microedition/khronos/egl/EGL10;
+    iget-object v0, p0, Lkik/arcane/video/c;->b:Ljavax/microedition/khronos/egl/EGL10;
 
-    iget-object v1, p0, Lkik/android/video/c;->c:Ljavax/microedition/khronos/egl/EGLDisplay;
+    iget-object v1, p0, Lkik/arcane/video/c;->c:Ljavax/microedition/khronos/egl/EGLDisplay;
 
-    iget-object v2, p0, Lkik/android/video/c;->e:Ljavax/microedition/khronos/egl/EGLSurface;
+    iget-object v2, p0, Lkik/arcane/video/c;->e:Ljavax/microedition/khronos/egl/EGLSurface;
 
     invoke-interface {v0, v1, v2}, Ljavax/microedition/khronos/egl/EGL10;->eglDestroySurface(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLSurface;)Z
 
     .line 180
-    iget-object v0, p0, Lkik/android/video/c;->b:Ljavax/microedition/khronos/egl/EGL10;
+    iget-object v0, p0, Lkik/arcane/video/c;->b:Ljavax/microedition/khronos/egl/EGL10;
 
-    iget-object v1, p0, Lkik/android/video/c;->c:Ljavax/microedition/khronos/egl/EGLDisplay;
+    iget-object v1, p0, Lkik/arcane/video/c;->c:Ljavax/microedition/khronos/egl/EGLDisplay;
 
-    iget-object v2, p0, Lkik/android/video/c;->d:Ljavax/microedition/khronos/egl/EGLContext;
+    iget-object v2, p0, Lkik/arcane/video/c;->d:Ljavax/microedition/khronos/egl/EGLContext;
 
     invoke-interface {v0, v1, v2}, Ljavax/microedition/khronos/egl/EGL10;->eglDestroyContext(Ljavax/microedition/khronos/egl/EGLDisplay;Ljavax/microedition/khronos/egl/EGLContext;)Z
 
     .line 182
     :cond_1
-    iget-object v0, p0, Lkik/android/video/c;->g:Landroid/view/Surface;
+    iget-object v0, p0, Lkik/arcane/video/c;->g:Landroid/view/Surface;
 
     invoke-virtual {v0}, Landroid/view/Surface;->release()V
 
     .line 185
-    iget-object v0, p0, Lkik/android/video/c;->f:Landroid/graphics/SurfaceTexture;
+    iget-object v0, p0, Lkik/arcane/video/c;->f:Landroid/graphics/SurfaceTexture;
 
     invoke-virtual {v0}, Landroid/graphics/SurfaceTexture;->release()V
 
     .line 187
-    iput-object v5, p0, Lkik/android/video/c;->c:Ljavax/microedition/khronos/egl/EGLDisplay;
+    iput-object v5, p0, Lkik/arcane/video/c;->c:Ljavax/microedition/khronos/egl/EGLDisplay;
 
     .line 188
-    iput-object v5, p0, Lkik/android/video/c;->d:Ljavax/microedition/khronos/egl/EGLContext;
+    iput-object v5, p0, Lkik/arcane/video/c;->d:Ljavax/microedition/khronos/egl/EGLContext;
 
     .line 189
-    iput-object v5, p0, Lkik/android/video/c;->e:Ljavax/microedition/khronos/egl/EGLSurface;
+    iput-object v5, p0, Lkik/arcane/video/c;->e:Ljavax/microedition/khronos/egl/EGLSurface;
 
     .line 190
-    iput-object v5, p0, Lkik/android/video/c;->b:Ljavax/microedition/khronos/egl/EGL10;
+    iput-object v5, p0, Lkik/arcane/video/c;->b:Ljavax/microedition/khronos/egl/EGL10;
 
     .line 191
-    iput-object v5, p0, Lkik/android/video/c;->j:Lkik/android/video/d;
+    iput-object v5, p0, Lkik/arcane/video/c;->j:Lkik/arcane/video/d;
 
     .line 192
-    iput-object v5, p0, Lkik/android/video/c;->g:Landroid/view/Surface;
+    iput-object v5, p0, Lkik/arcane/video/c;->g:Landroid/view/Surface;
 
     .line 193
-    iput-object v5, p0, Lkik/android/video/c;->f:Landroid/graphics/SurfaceTexture;
+    iput-object v5, p0, Lkik/arcane/video/c;->f:Landroid/graphics/SurfaceTexture;
 
     .line 194
     return-void
@@ -211,7 +211,7 @@
 
     .prologue
     .line 215
-    iget-object v0, p0, Lkik/android/video/c;->g:Landroid/view/Surface;
+    iget-object v0, p0, Lkik/arcane/video/c;->g:Landroid/view/Surface;
 
     return-object v0
 .end method
@@ -223,14 +223,14 @@
     const/4 v0, 0x0
 
     .line 237
-    iget-object v1, p0, Lkik/android/video/c;->h:Ljava/lang/Object;
+    iget-object v1, p0, Lkik/arcane/video/c;->h:Ljava/lang/Object;
 
     monitor-enter v1
 
     .line 238
     :cond_0
     :try_start_0
-    iget-boolean v2, p0, Lkik/android/video/c;->i:Z
+    iget-boolean v2, p0, Lkik/arcane/video/c;->i:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -238,14 +238,14 @@
 
     .line 242
     :try_start_1
-    iget-object v2, p0, Lkik/android/video/c;->h:Ljava/lang/Object;
+    iget-object v2, p0, Lkik/arcane/video/c;->h:Ljava/lang/Object;
 
     const-wide/16 v4, 0x1f4
 
     invoke-virtual {v2, v4, v5}, Ljava/lang/Object;->wait(J)V
 
     .line 243
-    iget-boolean v2, p0, Lkik/android/video/c;->i:Z
+    iget-boolean v2, p0, Lkik/arcane/video/c;->i:Z
     :try_end_1
     .catch Ljava/lang/InterruptedException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -283,7 +283,7 @@
     const/4 v0, 0x0
 
     :try_start_3
-    iput-boolean v0, p0, Lkik/android/video/c;->i:Z
+    iput-boolean v0, p0, Lkik/arcane/video/c;->i:Z
 
     .line 254
     monitor-exit v1
@@ -293,10 +293,10 @@
     .line 256
     const-string v0, "before updateTexImage"
 
-    invoke-static {v0}, Lkik/android/video/d;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/video/d;->a(Ljava/lang/String;)V
 
     .line 257
-    iget-object v0, p0, Lkik/android/video/c;->f:Landroid/graphics/SurfaceTexture;
+    iget-object v0, p0, Lkik/arcane/video/c;->f:Landroid/graphics/SurfaceTexture;
 
     invoke-virtual {v0}, Landroid/graphics/SurfaceTexture;->updateTexImage()V
 
@@ -311,11 +311,11 @@
 
     .prologue
     .line 267
-    iget-object v0, p0, Lkik/android/video/c;->j:Lkik/android/video/d;
+    iget-object v0, p0, Lkik/arcane/video/c;->j:Lkik/arcane/video/d;
 
-    iget-object v1, p0, Lkik/android/video/c;->f:Landroid/graphics/SurfaceTexture;
+    iget-object v1, p0, Lkik/arcane/video/c;->f:Landroid/graphics/SurfaceTexture;
 
-    invoke-virtual {v0, v1}, Lkik/android/video/d;->a(Landroid/graphics/SurfaceTexture;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/video/d;->a(Landroid/graphics/SurfaceTexture;)V
 
     .line 268
     return-void
@@ -326,13 +326,13 @@
 
     .prologue
     .line 276
-    iget-object v1, p0, Lkik/android/video/c;->h:Ljava/lang/Object;
+    iget-object v1, p0, Lkik/arcane/video/c;->h:Ljava/lang/Object;
 
     monitor-enter v1
 
     .line 277
     :try_start_0
-    iget-boolean v0, p0, Lkik/android/video/c;->i:Z
+    iget-boolean v0, p0, Lkik/arcane/video/c;->i:Z
 
     if-eqz v0, :cond_0
 
@@ -360,10 +360,10 @@
     const/4 v0, 0x1
 
     :try_start_1
-    iput-boolean v0, p0, Lkik/android/video/c;->i:Z
+    iput-boolean v0, p0, Lkik/arcane/video/c;->i:Z
 
     .line 281
-    iget-object v0, p0, Lkik/android/video/c;->h:Ljava/lang/Object;
+    iget-object v0, p0, Lkik/arcane/video/c;->h:Ljava/lang/Object;
 
     invoke-virtual {v0}, Ljava/lang/Object;->notifyAll()V
 

@@ -1,18 +1,18 @@
-.class public Lkik/android/chat/fragment/ProfileEditBioDialogFragment;
-.super Lkik/android/chat/fragment/KikDialogFragment;
+.class public Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;
+.super Lkik/arcane/chat/fragment/KikDialogFragment;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/fragment/ProfileEditBioDialogFragment$a;
+        Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment$a;
     }
 .end annotation
 
 
 # instance fields
-.field g:Lcom/kik/android/Mixpanel;
+.field g:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -22,11 +22,11 @@
     .end annotation
 .end field
 
-.field private i:Lkik/android/e/bj;
+.field private i:Lkik/arcane/e/bj;
 
-.field private j:Lkik/android/chat/vm/bd;
+.field private j:Lkik/arcane/chat/vm/bd;
 
-.field private k:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;
+.field private k:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;
 
 .field private l:Lrx/f/b;
 
@@ -36,7 +36,7 @@
 
 .field private o:Z
 
-.field private p:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
+.field private p:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
 
 
 # direct methods
@@ -45,62 +45,62 @@
 
     .prologue
     .line 39
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikDialogFragment;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikDialogFragment;-><init>()V
 
     .line 51
-    sget-object v0, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->NONE:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
+    sget-object v0, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->NONE:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
 
-    iput-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->p:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->p:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;Lcom/kik/core/network/xmpp/jid/a;)Lcom/kik/core/network/xmpp/jid/a;
+.method static synthetic a(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;Lcom/kik/core/network/xmpp/jid/a;)Lcom/kik/core/network/xmpp/jid/a;
     .locals 0
 
     .prologue
     .line 39
-    iput-object p1, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->n:Lcom/kik/core/network/xmpp/jid/a;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->n:Lcom/kik/core/network/xmpp/jid/a;
 
     return-object p1
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;Ljava/lang/String;)Ljava/lang/String;
+.method static synthetic a(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
     .prologue
     .line 39
-    iput-object p1, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->m:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->m:Ljava/lang/String;
 
     return-object p1
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;Lkik/android/chat/vm/bd;)Lkik/android/chat/vm/bd;
+.method static synthetic a(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;Lkik/arcane/chat/vm/bd;)Lkik/arcane/chat/vm/bd;
     .locals 0
 
     .prologue
     .line 39
-    iput-object p1, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->j:Lkik/android/chat/vm/bd;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->j:Lkik/arcane/chat/vm/bd;
 
     return-object p1
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;)V
+.method static synthetic a(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;)V
     .locals 0
 
     .prologue
     .line 109
-    invoke-direct {p0}, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->e()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->e()V
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;Ljava/lang/Boolean;)V
+.method static synthetic a(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;Ljava/lang/Boolean;)V
     .locals 2
 
     .prologue
     .line 105
-    invoke-virtual {p0}, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->getDialog()Landroid/app/Dialog;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->getDialog()Landroid/app/Dialog;
 
     move-result-object v0
 
@@ -121,44 +121,44 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;)V
+.method static synthetic a(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;)V
     .locals 0
 
     .prologue
     .line 106
-    iput-object p1, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->p:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->p:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;Lcom/kik/core/domain/a/a/c;)V
+.method static synthetic a(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;Lcom/kik/core/domain/a/a/c;)V
     .locals 3
 
     .prologue
     .line 250
-    iget-boolean v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->o:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->o:Z
 
     if-eqz v0, :cond_1
 
     .line 251
-    iget-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->g:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->g:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "groupinfo_descriptioncancel_confirmed"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "related_chat"
 
-    iget-object v2, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->n:Lcom/kik/core/network/xmpp/jid/a;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->n:Lcom/kik/core/network/xmpp/jid/a;
 
     .line 252
     invoke-virtual {v2}, Lcom/kik/core/network/xmpp/jid/a;->a()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
@@ -169,7 +169,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -178,7 +178,7 @@
     const-string v0, "group"
 
     :goto_0
-    invoke-virtual {v1, v2, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -186,30 +186,30 @@
     :goto_1
     const-string v2, "inline_error_shown"
 
-    sget-object v1, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->NONE:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
+    sget-object v1, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->NONE:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
 
     if-eq p1, v1, :cond_2
 
     const/4 v1, 0x1
 
     :goto_2
-    invoke-virtual {v0, v2, v1}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v2, v1}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     .line 260
     const-string v1, "error_reason"
 
-    iget-object v2, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->p:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->p:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
 
-    iget-object v2, v2, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->metricName:Ljava/lang/String;
+    iget-object v2, v2, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->metricName:Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     .line 261
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 262
     return-void
@@ -222,11 +222,11 @@
 
     .line 256
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->g:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->g:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "settings_biocancel_cancelled"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -239,7 +239,7 @@
     goto :goto_2
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;ILandroid/view/KeyEvent;)Z
+.method static synthetic a(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;ILandroid/view/KeyEvent;)Z
     .locals 2
 
     .prologue
@@ -257,32 +257,32 @@
     if-ne v0, v1, :cond_0
 
     .line 92
-    invoke-direct {p0}, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->e()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->e()V
 
     .line 94
     :cond_0
     return v1
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;Z)Z
+.method static synthetic a(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;Z)Z
     .locals 0
 
     .prologue
     .line 39
-    iput-boolean p1, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->o:Z
+    iput-boolean p1, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->o:Z
 
     return p1
 .end method
 
-.method static synthetic b(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;)V
+.method static synthetic b(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;)V
     .locals 2
 
     .prologue
     .line 108
     .line 1114
-    iget-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->k:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->k:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;
 
-    invoke-interface {v0}, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;->b()Lrx/b;
+    invoke-interface {v0}, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;->b()Lrx/b;
 
     move-result-object v0
 
@@ -294,9 +294,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/chat/fragment/ProfileEditBioDialogFragment$1;
+    new-instance v1, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment$1;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/fragment/ProfileEditBioDialogFragment$1;-><init>(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment$1;-><init>(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;)V
 
     invoke-virtual {v0, v1}, Lrx/b;->b(Lrx/c;)V
 
@@ -304,34 +304,34 @@
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;Lcom/kik/core/domain/a/a/c;)V
+.method static synthetic b(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;Lcom/kik/core/domain/a/a/c;)V
     .locals 3
 
     .prologue
     .line 228
-    iget-boolean v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->o:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->o:Z
 
     if-eqz v0, :cond_1
 
     .line 229
-    iget-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->g:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->g:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "groupinfo_descriptioncancel_abort"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "related_chat"
 
-    iget-object v2, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->n:Lcom/kik/core/network/xmpp/jid/a;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->n:Lcom/kik/core/network/xmpp/jid/a;
 
     .line 230
     invoke-virtual {v2}, Lcom/kik/core/network/xmpp/jid/a;->a()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
@@ -342,7 +342,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -351,7 +351,7 @@
     const-string v0, "group"
 
     :goto_0
-    invoke-virtual {v1, v2, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -359,30 +359,30 @@
     :goto_1
     const-string v2, "inline_error_shown"
 
-    sget-object v1, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->NONE:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
+    sget-object v1, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->NONE:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
 
     if-eq p1, v1, :cond_2
 
     const/4 v1, 0x1
 
     :goto_2
-    invoke-virtual {v0, v2, v1}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v2, v1}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     .line 238
     const-string v1, "error_reason"
 
-    iget-object v2, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->p:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->p:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
 
-    iget-object v2, v2, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->metricName:Ljava/lang/String;
+    iget-object v2, v2, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;->metricName:Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     .line 239
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 240
     return-void
@@ -395,11 +395,11 @@
 
     .line 234
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->g:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->g:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "settings_biocancel_cancelled"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -412,23 +412,23 @@
     goto :goto_2
 .end method
 
-.method static synthetic c(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;)Lkik/android/chat/fragment/KikScopedDialogFragment;
+.method static synthetic c(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;)Lkik/arcane/chat/fragment/KikScopedDialogFragment;
     .locals 1
 
     .prologue
     .line 39
     .line 1204
-    invoke-virtual {p0}, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/activity/FragmentWrapperActivity;
+    check-cast v0, Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/fragment/KikScopedDialogFragment;
+    check-cast v0, Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     .line 39
     return-object v0
@@ -450,12 +450,12 @@
     return-void
 .end method
 
-.method static synthetic d(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;)Z
+.method static synthetic d(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;)Z
     .locals 1
 
     .prologue
     .line 39
-    iget-boolean v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->o:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->o:Z
 
     return v0
 .end method
@@ -465,9 +465,9 @@
 
     .prologue
     .line 143
-    iget-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->k:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->k:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;
 
-    invoke-interface {v0}, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;->d()Lrx/b;
+    invoke-interface {v0}, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;->d()Lrx/b;
 
     move-result-object v0
 
@@ -479,9 +479,9 @@
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/chat/fragment/ProfileEditBioDialogFragment$2;
+    new-instance v1, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment$2;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/fragment/ProfileEditBioDialogFragment$2;-><init>(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment$2;-><init>(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;)V
 
     invoke-virtual {v0, v1}, Lrx/b;->b(Lrx/c;)V
 
@@ -489,20 +489,20 @@
     return-void
 .end method
 
-.method static synthetic e(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;)V
+.method static synthetic e(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;)V
     .locals 4
 
     .prologue
     .line 39
     .line 1245
-    iget-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->p:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->p:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
 
     .line 1246
-    iget-object v1, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->l:Lrx/f/b;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->l:Lrx/f/b;
 
-    iget-object v2, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->h:Lcom/kik/core/domain/a/c;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->h:Lcom/kik/core/domain/a/c;
 
-    iget-object v3, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->n:Lcom/kik/core/network/xmpp/jid/a;
+    iget-object v3, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->n:Lcom/kik/core/network/xmpp/jid/a;
 
     invoke-interface {v2, v3}, Lcom/kik/core/domain/a/c;->a(Lcom/kik/core/network/xmpp/jid/a;)Lrx/d;
 
@@ -513,11 +513,11 @@
 
     move-result-object v2
 
-    invoke-static {p0, v0}, Lkik/android/chat/fragment/fg;->a(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;)Lrx/functions/b;
+    invoke-static {p0, v0}, Lkik/arcane/chat/fragment/fg;->a(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;)Lrx/functions/b;
 
     move-result-object v0
 
-    invoke-static {}, Lkik/android/chat/fragment/fh;->a()Lrx/functions/b;
+    invoke-static {}, Lkik/arcane/chat/fragment/fh;->a()Lrx/functions/b;
 
     move-result-object v3
 
@@ -533,20 +533,20 @@
     return-void
 .end method
 
-.method static synthetic f(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;)V
+.method static synthetic f(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;)V
     .locals 4
 
     .prologue
     .line 39
     .line 2223
-    iget-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->p:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->p:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;
 
     .line 2224
-    iget-object v1, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->l:Lrx/f/b;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->l:Lrx/f/b;
 
-    iget-object v2, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->h:Lcom/kik/core/domain/a/c;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->h:Lcom/kik/core/domain/a/c;
 
-    iget-object v3, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->n:Lcom/kik/core/network/xmpp/jid/a;
+    iget-object v3, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->n:Lcom/kik/core/network/xmpp/jid/a;
 
     invoke-interface {v2, v3}, Lcom/kik/core/domain/a/c;->a(Lcom/kik/core/network/xmpp/jid/a;)Lrx/d;
 
@@ -557,11 +557,11 @@
 
     move-result-object v2
 
-    invoke-static {p0, v0}, Lkik/android/chat/fragment/fe;->a(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;)Lrx/functions/b;
+    invoke-static {p0, v0}, Lkik/arcane/chat/fragment/fe;->a(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel$ErrorType;)Lrx/functions/b;
 
     move-result-object v0
 
-    invoke-static {}, Lkik/android/chat/fragment/ff;->a()Lrx/functions/b;
+    invoke-static {}, Lkik/arcane/chat/fragment/ff;->a()Lrx/functions/b;
 
     move-result-object v3
 
@@ -577,12 +577,12 @@
     return-void
 .end method
 
-.method static synthetic g(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;)Lkik/android/chat/vm/bd;
+.method static synthetic g(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;)Lkik/arcane/chat/vm/bd;
     .locals 1
 
     .prologue
     .line 39
-    iget-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->j:Lkik/android/chat/vm/bd;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->j:Lkik/arcane/chat/vm/bd;
 
     return-object v0
 .end method
@@ -598,7 +598,7 @@
     .line 56
     new-instance v1, Landroid/support/v7/app/AlertDialog$Builder;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v0
 
@@ -607,7 +607,7 @@
     invoke-direct {v1, v0, v2}, Landroid/support/v7/app/AlertDialog$Builder;-><init>(Landroid/content/Context;I)V
 
     .line 58
-    iget-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->j:Lkik/android/chat/vm/bd;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->j:Lkik/arcane/chat/vm/bd;
 
     if-nez v0, :cond_0
 
@@ -622,7 +622,7 @@
 
     .line 62
     :cond_0
-    iget-boolean v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->o:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->o:Z
 
     if-eqz v0, :cond_1
 
@@ -632,38 +632,38 @@
     invoke-virtual {v1, v0}, Landroid/support/v7/app/AlertDialog$Builder;->a(I)Landroid/support/v7/app/AlertDialog$Builder;
 
     .line 64
-    new-instance v0, Lkik/android/chat/vm/chats/profile/ci;
+    new-instance v0, Lkik/arcane/chat/vm/chats/profile/ci;
 
-    iget-object v2, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->m:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->m:Ljava/lang/String;
 
-    iget-object v3, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->n:Lcom/kik/core/network/xmpp/jid/a;
+    iget-object v3, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->n:Lcom/kik/core/network/xmpp/jid/a;
 
-    invoke-direct {v0, v2, v3}, Lkik/android/chat/vm/chats/profile/ci;-><init>(Ljava/lang/String;Lcom/kik/core/network/xmpp/jid/a;)V
+    invoke-direct {v0, v2, v3}, Lkik/arcane/chat/vm/chats/profile/ci;-><init>(Ljava/lang/String;Lcom/kik/core/network/xmpp/jid/a;)V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->k:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->k:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;
 
     .line 71
     :goto_0
-    invoke-virtual {p0}, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/s;->a(Landroid/content/Context;)Lcom/kik/components/CoreComponent;
+    invoke-static {v0}, Lkik/arcane/util/s;->a(Landroid/content/Context;)Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 
     .line 72
-    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;)V
+    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;)V
 
     .line 73
-    iget-object v2, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->k:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->k:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;
 
-    iget-object v3, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->j:Lkik/android/chat/vm/bd;
+    iget-object v3, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->j:Lkik/arcane/chat/vm/bd;
 
-    invoke-interface {v2, v0, v3}, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;->a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+    invoke-interface {v2, v0, v3}, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;->a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
 
     .line 74
-    invoke-virtual {p0}, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v0
 
@@ -679,30 +679,30 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/e/bj;
+    check-cast v0, Lkik/arcane/e/bj;
 
-    iput-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->i:Lkik/android/e/bj;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->i:Lkik/arcane/e/bj;
 
     .line 75
-    iget-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->i:Lkik/android/e/bj;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->i:Lkik/arcane/e/bj;
 
-    iget-object v0, v0, Lkik/android/e/bj;->a:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, v0, Lkik/arcane/e/bj;->a:Lkik/arcane/chat/view/ValidateableInputView;
 
-    iget-object v2, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->m:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->m:Ljava/lang/String;
 
-    invoke-virtual {v0, v2}, Lkik/android/chat/view/ValidateableInputView;->e(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v2}, Lkik/arcane/chat/view/ValidateableInputView;->e(Ljava/lang/CharSequence;)V
 
     .line 76
-    iget-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->i:Lkik/android/e/bj;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->i:Lkik/arcane/e/bj;
 
-    iget-object v2, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->k:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->k:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;
 
-    invoke-virtual {v0, v2}, Lkik/android/e/bj;->a(Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;)V
+    invoke-virtual {v0, v2}, Lkik/arcane/e/bj;->a(Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;)V
 
     .line 78
-    iget-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->i:Lkik/android/e/bj;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->i:Lkik/arcane/e/bj;
 
-    invoke-virtual {v0}, Lkik/android/e/bj;->getRoot()Landroid/view/View;
+    invoke-virtual {v0}, Lkik/arcane/e/bj;->getRoot()Landroid/view/View;
 
     move-result-object v0
 
@@ -713,7 +713,7 @@
     invoke-virtual {v1, v4}, Landroid/support/v7/app/AlertDialog$Builder;->a(Z)Landroid/support/v7/app/AlertDialog$Builder;
 
     .line 82
-    invoke-virtual {p0, v4}, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->a(Z)V
+    invoke-virtual {p0, v4}, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->a(Z)V
 
     .line 84
     const v0, 0x7f09031c
@@ -732,7 +732,7 @@
     invoke-virtual {v0, v4}, Landroid/support/v7/app/AlertDialog;->setCanceledOnTouchOutside(Z)V
 
     .line 89
-    invoke-static {p0}, Lkik/android/chat/fragment/ez;->a(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;)Landroid/content/DialogInterface$OnKeyListener;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/ez;->a(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;)Landroid/content/DialogInterface$OnKeyListener;
 
     move-result-object v1
 
@@ -748,13 +748,13 @@
     invoke-virtual {v1, v0}, Landroid/support/v7/app/AlertDialog$Builder;->a(I)Landroid/support/v7/app/AlertDialog$Builder;
 
     .line 68
-    new-instance v0, Lkik/android/chat/vm/chats/profile/a;
+    new-instance v0, Lkik/arcane/chat/vm/chats/profile/a;
 
-    iget-object v2, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->m:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->m:Ljava/lang/String;
 
-    invoke-direct {v0, v2}, Lkik/android/chat/vm/chats/profile/a;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v2}, Lkik/arcane/chat/vm/chats/profile/a;-><init>(Ljava/lang/String;)V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->k:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->k:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;
 
     goto :goto_0
 .end method
@@ -764,12 +764,12 @@
 
     .prologue
     .line 217
-    invoke-super {p0}, Lkik/android/chat/fragment/KikDialogFragment;->onDetach()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikDialogFragment;->onDetach()V
 
     .line 218
-    iget-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->k:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->k:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;
 
-    invoke-interface {v0}, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;->al_()V
+    invoke-interface {v0}, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;->al_()V
 
     .line 219
     return-void
@@ -780,51 +780,51 @@
 
     .prologue
     .line 182
-    invoke-super {p0}, Lkik/android/chat/fragment/KikDialogFragment;->onResume()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikDialogFragment;->onResume()V
 
     .line 192
-    invoke-virtual {p0}, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v0
 
     .line 193
     if-eqz v0, :cond_0
 
-    instance-of v1, v0, Lkik/android/chat/activity/FragmentWrapperActivity;
+    instance-of v1, v0, Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
     if-eqz v1, :cond_0
 
     .line 194
-    check-cast v0, Lkik/android/chat/activity/FragmentWrapperActivity;
+    check-cast v0, Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->d()Landroid/support/v4/app/Fragment;
 
     move-result-object v1
 
     .line 195
     if-eqz v1, :cond_0
 
-    instance-of v0, v1, Lkik/android/util/KeyboardManipulator;
+    instance-of v0, v1, Lkik/arcane/util/KeyboardManipulator;
 
     if-eqz v0, :cond_0
 
     move-object v0, v1
 
     .line 196
-    check-cast v0, Lkik/android/util/KeyboardManipulator;
+    check-cast v0, Lkik/arcane/util/KeyboardManipulator;
 
-    sget-object v2, Lkik/android/util/KeyboardManipulator$InputMode;->OVER_DRAW:Lkik/android/util/KeyboardManipulator$InputMode;
+    sget-object v2, Lkik/arcane/util/KeyboardManipulator$InputMode;->OVER_DRAW:Lkik/arcane/util/KeyboardManipulator$InputMode;
 
-    invoke-interface {v0, v2}, Lkik/android/util/KeyboardManipulator;->setInputMode(Lkik/android/util/KeyboardManipulator$InputMode;)V
+    invoke-interface {v0, v2}, Lkik/arcane/util/KeyboardManipulator;->setInputMode(Lkik/arcane/util/KeyboardManipulator$InputMode;)V
 
     .line 197
-    iget-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->i:Lkik/android/e/bj;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->i:Lkik/arcane/e/bj;
 
-    iget-object v0, v0, Lkik/android/e/bj;->a:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, v0, Lkik/arcane/e/bj;->a:Lkik/arcane/chat/view/ValidateableInputView;
 
-    check-cast v1, Lkik/android/util/KeyboardManipulator;
+    check-cast v1, Lkik/arcane/util/KeyboardManipulator;
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/view/ValidateableInputView;->a(Lkik/android/util/KeyboardManipulator;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/view/ValidateableInputView;->a(Lkik/arcane/util/KeyboardManipulator;)V
 
     .line 200
     :cond_0
@@ -836,7 +836,7 @@
 
     .prologue
     .line 103
-    invoke-super {p0}, Lkik/android/chat/fragment/KikDialogFragment;->onStart()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikDialogFragment;->onStart()V
 
     .line 104
     new-instance v0, Lrx/f/b;
@@ -847,14 +847,14 @@
 
     const/4 v2, 0x0
 
-    iget-object v3, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->k:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;
+    iget-object v3, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->k:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;
 
     .line 105
-    invoke-interface {v3}, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;->a()Lrx/d;
+    invoke-interface {v3}, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;->a()Lrx/d;
 
     move-result-object v3
 
-    invoke-static {p0}, Lkik/android/chat/fragment/fa;->a(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/fa;->a(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;)Lrx/functions/b;
 
     move-result-object v4
 
@@ -866,14 +866,14 @@
 
     const/4 v2, 0x1
 
-    iget-object v3, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->k:Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;
+    iget-object v3, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->k:Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;
 
     .line 106
-    invoke-interface {v3}, Lkik/android/chat/vm/chats/profile/IValidateableInputEditorViewModel;->l()Lrx/d;
+    invoke-interface {v3}, Lkik/arcane/chat/vm/chats/profile/IValidateableInputEditorViewModel;->l()Lrx/d;
 
     move-result-object v3
 
-    invoke-static {p0}, Lkik/android/chat/fragment/fb;->a(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/fb;->a(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;)Lrx/functions/b;
 
     move-result-object v4
 
@@ -885,10 +885,10 @@
 
     invoke-direct {v0, v1}, Lrx/f/b;-><init>([Lrx/k;)V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->l:Lrx/f/b;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->l:Lrx/f/b;
 
     .line 108
-    invoke-virtual {p0}, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->getDialog()Landroid/app/Dialog;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->getDialog()Landroid/app/Dialog;
 
     move-result-object v0
 
@@ -900,14 +900,14 @@
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/chat/fragment/fc;->a(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;)Landroid/view/View$OnClickListener;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/fc;->a(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;)Landroid/view/View$OnClickListener;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 109
-    invoke-virtual {p0}, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->getDialog()Landroid/app/Dialog;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->getDialog()Landroid/app/Dialog;
 
     move-result-object v0
 
@@ -919,7 +919,7 @@
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/chat/fragment/fd;->a(Lkik/android/chat/fragment/ProfileEditBioDialogFragment;)Landroid/view/View$OnClickListener;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/fd;->a(Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;)Landroid/view/View$OnClickListener;
 
     move-result-object v1
 
@@ -934,10 +934,10 @@
 
     .prologue
     .line 210
-    invoke-super {p0}, Lkik/android/chat/fragment/KikDialogFragment;->onStop()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikDialogFragment;->onStop()V
 
     .line 211
-    iget-object v0, p0, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->l:Lrx/f/b;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->l:Lrx/f/b;
 
     invoke-virtual {v0}, Lrx/f/b;->unsubscribe()V
 

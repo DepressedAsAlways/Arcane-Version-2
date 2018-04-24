@@ -1,4 +1,4 @@
-.class final Lkik/android/util/d$1;
+.class final Lkik/arcane/util/d$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/util/d;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Ljava/lang/String;Lcom/kik/cache/KikVolleyImageLoader;Lcom/kik/cache/ContentImageView;Lcom/android/volley/h$a;Lcom/kik/android/Mixpanel;)Lcom/kik/events/Promise;
+    value = Lkik/arcane/util/d;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Ljava/lang/String;Lcom/kik/cache/KikVolleyImageLoader;Lcom/kik/cache/ContentImageView;Lcom/android/volley/h$a;Lcom/kik/arcane/Mixpanel;)Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,22 +24,22 @@
 
 .field final synthetic c:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
-.field final synthetic d:Lkik/android/util/d;
+.field final synthetic d:Lkik/arcane/util/d;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/util/d;Ljava/lang/String;Lcom/kik/events/Promise;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
+.method constructor <init>(Lkik/arcane/util/d;Ljava/lang/String;Lcom/kik/events/Promise;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
     .locals 0
 
     .prologue
     .line 730
-    iput-object p1, p0, Lkik/android/util/d$1;->d:Lkik/android/util/d;
+    iput-object p1, p0, Lkik/arcane/util/d$1;->d:Lkik/arcane/util/d;
 
-    iput-object p2, p0, Lkik/android/util/d$1;->a:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/util/d$1;->a:Ljava/lang/String;
 
-    iput-object p3, p0, Lkik/android/util/d$1;->b:Lcom/kik/events/Promise;
+    iput-object p3, p0, Lkik/arcane/util/d$1;->b:Lcom/kik/events/Promise;
 
-    iput-object p4, p0, Lkik/android/util/d$1;->c:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iput-object p4, p0, Lkik/arcane/util/d$1;->c:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -53,25 +53,25 @@
 
     .prologue
     .line 759
-    iget-object v0, p0, Lkik/android/util/d$1;->b:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/util/d$1;->b:Lcom/kik/events/Promise;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 
     .line 760
-    iget-object v0, p0, Lkik/android/util/d$1;->c:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/util/d$1;->c:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     if-eqz v0, :cond_0
 
     .line 761
-    iget-object v0, p0, Lkik/android/util/d$1;->d:Lkik/android/util/d;
+    iget-object v0, p0, Lkik/arcane/util/d$1;->d:Lkik/arcane/util/d;
 
-    invoke-static {v0}, Lkik/android/util/d;->b(Lkik/android/util/d;)Ljava/util/HashSet;
+    invoke-static {v0}, Lkik/arcane/util/d;->b(Lkik/arcane/util/d;)Ljava/util/HashSet;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/util/d$1;->c:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v1, p0, Lkik/arcane/util/d$1;->c:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v1}, Lkik/core/datatypes/messageExtensions/ContentMessage;->n()Ljava/lang/String;
 
@@ -99,16 +99,16 @@
     if-eqz v0, :cond_0
 
     .line 736
-    new-instance v0, Lkik/android/util/d$1$1;
+    new-instance v0, Lkik/arcane/util/d$1$1;
 
-    invoke-direct {v0, p0, p1}, Lkik/android/util/d$1$1;-><init>(Lkik/android/util/d$1;Lcom/kik/cache/KikVolleyImageLoader$c;)V
+    invoke-direct {v0, p0, p1}, Lkik/arcane/util/d$1$1;-><init>(Lkik/arcane/util/d$1;Lcom/kik/cache/KikVolleyImageLoader$c;)V
 
     .line 748
     const/4 v1, 0x0
 
     new-array v1, v1, [Ljava/lang/Void;
 
-    invoke-virtual {v0, v1}, Lkik/android/util/aq;->a([Ljava/lang/Object;)Landroid/os/AsyncTask;
+    invoke-virtual {v0, v1}, Lkik/arcane/util/aq;->a([Ljava/lang/Object;)Landroid/os/AsyncTask;
     :try_end_0
     .catch Ljava/lang/OutOfMemoryError; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -122,7 +122,7 @@
     move-exception v0
 
     .line 752
-    iget-object v1, p0, Lkik/android/util/d$1;->b:Lcom/kik/events/Promise;
+    iget-object v1, p0, Lkik/arcane/util/d$1;->b:Lcom/kik/events/Promise;
 
     invoke-virtual {v1, v0}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 

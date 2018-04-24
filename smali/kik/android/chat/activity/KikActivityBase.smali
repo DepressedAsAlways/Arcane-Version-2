@@ -1,4 +1,4 @@
-.class public Lkik/android/chat/activity/KikActivityBase;
+.class public Lkik/arcane/chat/activity/KikActivityBase;
 .super Landroid/support/v7/app/AppCompatActivity;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/activity/KikActivityBase$a;
+        Lkik/arcane/chat/activity/KikActivityBase$a;
     }
 .end annotation
 
@@ -28,7 +28,7 @@
 
 .field private volatile e:Z
 
-.field private f:Lkik/android/chat/activity/KikActivityBase$a;
+.field private f:Lkik/arcane/chat/activity/KikActivityBase$a;
 
 
 # direct methods
@@ -42,32 +42,32 @@
     invoke-direct {p0}, Landroid/support/v7/app/AppCompatActivity;-><init>()V
 
     .line 27
-    iput-boolean v0, p0, Lkik/android/chat/activity/KikActivityBase;->a:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/activity/KikActivityBase;->a:Z
 
     .line 28
-    iput-boolean v0, p0, Lkik/android/chat/activity/KikActivityBase;->e:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/activity/KikActivityBase;->e:Z
 
     .line 29
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/chat/activity/KikActivityBase;->f:Lkik/android/chat/activity/KikActivityBase$a;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikActivityBase;->f:Lkik/arcane/chat/activity/KikActivityBase$a;
 
     .line 34
     const/4 v0, 0x1
 
-    iput v0, p0, Lkik/android/chat/activity/KikActivityBase;->d:I
+    iput v0, p0, Lkik/arcane/chat/activity/KikActivityBase;->d:I
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/activity/KikActivityBase;)Lkik/android/chat/activity/KikActivityBase$a;
+.method static synthetic a(Lkik/arcane/chat/activity/KikActivityBase;)Lkik/arcane/chat/activity/KikActivityBase$a;
     .locals 1
 
     .prologue
     .line 24
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/chat/activity/KikActivityBase;->f:Lkik/android/chat/activity/KikActivityBase$a;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikActivityBase;->f:Lkik/arcane/chat/activity/KikActivityBase$a;
 
     return-object v0
 .end method
@@ -81,7 +81,7 @@
     .line 74
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/activity/KikActivityBase;->a:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/activity/KikActivityBase;->a:Z
 
     .line 75
     return-void
@@ -92,7 +92,7 @@
 
     .prologue
     .line 98
-    iget-boolean v0, p0, Lkik/android/chat/activity/KikActivityBase;->a:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/activity/KikActivityBase;->a:Z
 
     return v0
 .end method
@@ -104,30 +104,30 @@
     .line 40
     const/4 v0, 0x1
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/activity/KikActivityBase;->requestWindowFeature(I)Z
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/activity/KikActivityBase;->requestWindowFeature(I)Z
 
     .line 41
     invoke-super {p0, p1}, Landroid/support/v7/app/AppCompatActivity;->onCreate(Landroid/os/Bundle;)V
 
     .line 42
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikActivityBase;->getApplication()Landroid/app/Application;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikActivityBase;->getApplication()Landroid/app/Application;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/e;
+    check-cast v0, Lkik/arcane/chat/e;
 
-    invoke-interface {v0}, Lkik/android/chat/e;->a()Lcom/kik/components/CoreComponent;
+    invoke-interface {v0}, Lkik/arcane/chat/e;->a()Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 
-    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/activity/KikActivityBase;)V
+    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/activity/KikActivityBase;)V
 
     .line 43
-    new-instance v0, Lkik/android/chat/activity/KikActivityBase$a;
+    new-instance v0, Lkik/arcane/chat/activity/KikActivityBase$a;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/activity/KikActivityBase$a;-><init>(Lkik/android/chat/activity/KikActivityBase;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/activity/KikActivityBase$a;-><init>(Lkik/arcane/chat/activity/KikActivityBase;)V
 
-    iput-object v0, p0, Lkik/android/chat/activity/KikActivityBase;->f:Lkik/android/chat/activity/KikActivityBase$a;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikActivityBase;->f:Lkik/arcane/chat/activity/KikActivityBase$a;
 
     .line 44
     return-void
@@ -138,20 +138,20 @@
 
     .prologue
     .line 89
-    iget-object v0, p0, Lkik/android/chat/activity/KikActivityBase;->f:Lkik/android/chat/activity/KikActivityBase$a;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikActivityBase;->f:Lkik/arcane/chat/activity/KikActivityBase$a;
 
     if-eqz v0, :cond_0
 
     .line 90
-    iget-object v0, p0, Lkik/android/chat/activity/KikActivityBase;->f:Lkik/android/chat/activity/KikActivityBase$a;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikActivityBase;->f:Lkik/arcane/chat/activity/KikActivityBase$a;
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KikActivityBase$a;->a()V
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KikActivityBase$a;->a()V
 
     .line 92
     :cond_0
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/chat/activity/KikActivityBase;->f:Lkik/android/chat/activity/KikActivityBase$a;
+    iput-object v0, p0, Lkik/arcane/chat/activity/KikActivityBase;->f:Lkik/arcane/chat/activity/KikActivityBase$a;
 
     .line 93
     invoke-super {p0}, Landroid/support/v7/app/AppCompatActivity;->onDestroy()V
@@ -170,16 +170,16 @@
     .line 82
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/activity/KikActivityBase;->a:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/activity/KikActivityBase;->a:Z
 
     .line 83
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikActivityBase;->getApplication()Landroid/app/Application;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikActivityBase;->getApplication()Landroid/app/Application;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/KikApplication;
+    check-cast v0, Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v0, p0}, Lkik/android/chat/KikApplication;->d(Landroid/app/Activity;)V
+    invoke-virtual {v0, p0}, Lkik/arcane/chat/KikApplication;->d(Landroid/app/Activity;)V
 
     .line 84
     return-void
@@ -195,16 +195,16 @@
     .line 56
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/activity/KikActivityBase;->a:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/activity/KikActivityBase;->a:Z
 
     .line 57
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikActivityBase;->getApplication()Landroid/app/Application;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikActivityBase;->getApplication()Landroid/app/Application;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/KikApplication;
+    check-cast v0, Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v0, p0}, Lkik/android/chat/KikApplication;->c(Landroid/app/Activity;)V
+    invoke-virtual {v0, p0}, Lkik/arcane/chat/KikApplication;->c(Landroid/app/Activity;)V
 
     .line 58
     return-void
@@ -220,16 +220,16 @@
     .line 65
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/activity/KikActivityBase;->a:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/activity/KikActivityBase;->a:Z
 
     .line 66
-    invoke-virtual {p0}, Lkik/android/chat/activity/KikActivityBase;->getApplication()Landroid/app/Application;
+    invoke-virtual {p0}, Lkik/arcane/chat/activity/KikActivityBase;->getApplication()Landroid/app/Application;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/KikApplication;
+    check-cast v0, Lkik/arcane/chat/KikApplication;
 
-    invoke-virtual {v0, p0}, Lkik/android/chat/KikApplication;->d(Landroid/app/Activity;)V
+    invoke-virtual {v0, p0}, Lkik/arcane/chat/KikApplication;->d(Landroid/app/Activity;)V
 
     .line 67
     return-void
@@ -261,7 +261,7 @@
     invoke-super {p0, p1}, Landroid/support/v7/app/AppCompatActivity;->onWindowFocusChanged(Z)V
 
     .line 115
-    iput-boolean p1, p0, Lkik/android/chat/activity/KikActivityBase;->e:Z
+    iput-boolean p1, p0, Lkik/arcane/chat/activity/KikActivityBase;->e:Z
 
     .line 116
     return-void

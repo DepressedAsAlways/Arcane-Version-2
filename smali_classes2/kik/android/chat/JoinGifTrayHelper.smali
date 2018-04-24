@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/JoinGifTrayHelper;
+.class public final Lkik/arcane/chat/JoinGifTrayHelper;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;
+        Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;
     }
 .end annotation
 
@@ -39,10 +39,10 @@
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/JoinGifTrayHelper;->a:Ljava/util/Set;
+    iput-object v0, p0, Lkik/arcane/chat/JoinGifTrayHelper;->a:Ljava/util/Set;
 
     .line 28
-    iput-object p1, p0, Lkik/android/chat/JoinGifTrayHelper;->b:Lkik/core/interfaces/b;
+    iput-object p1, p0, Lkik/arcane/chat/JoinGifTrayHelper;->b:Lkik/core/interfaces/b;
 
     .line 29
     return-void
@@ -55,7 +55,7 @@
 
     .prologue
     .line 39
-    iget-object v0, p0, Lkik/android/chat/JoinGifTrayHelper;->a:Ljava/util/Set;
+    iget-object v0, p0, Lkik/arcane/chat/JoinGifTrayHelper;->a:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
 
@@ -63,7 +63,7 @@
     return-void
 .end method
 
-.method public final b(Ljava/lang/String;)Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;
+.method public final b(Ljava/lang/String;)Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;
     .locals 3
 
     .prologue
@@ -75,7 +75,7 @@
     if-eqz v0, :cond_0
 
     .line 45
-    sget-object v0, Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;->NONE:Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;
+    sget-object v0, Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;->NONE:Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;
 
     .line 69
     :goto_0
@@ -83,7 +83,7 @@
 
     .line 47
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/JoinGifTrayHelper;->a:Ljava/util/Set;
+    iget-object v0, p0, Lkik/arcane/chat/JoinGifTrayHelper;->a:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
 
@@ -92,13 +92,13 @@
     if-nez v0, :cond_1
 
     .line 48
-    sget-object v0, Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;->NONE:Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;
+    sget-object v0, Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;->NONE:Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;
 
     goto :goto_0
 
     .line 51
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/JoinGifTrayHelper;->b:Lkik/core/interfaces/b;
+    iget-object v0, p0, Lkik/arcane/chat/JoinGifTrayHelper;->b:Lkik/core/interfaces/b;
 
     const-string v1, "join_gif_tray_release"
 
@@ -110,7 +110,7 @@
     if-nez v1, :cond_2
 
     .line 54
-    sget-object v0, Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;->NONE:Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;
+    sget-object v0, Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;->NONE:Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;
 
     goto :goto_0
 
@@ -129,7 +129,7 @@
     packed-switch v0, :pswitch_data_0
 
     .line 69
-    sget-object v0, Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;->NONE:Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;
+    sget-object v0, Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;->NONE:Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;
 
     goto :goto_0
 
@@ -188,19 +188,19 @@
 
     .line 59
     :pswitch_0
-    sget-object v0, Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;->TRAY_OPEN:Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;
+    sget-object v0, Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;->TRAY_OPEN:Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;
 
     goto :goto_0
 
     .line 62
     :pswitch_1
-    sget-object v0, Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;->GIF_BUTTON:Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;
+    sget-object v0, Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;->GIF_BUTTON:Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;
 
     goto :goto_0
 
     .line 65
     :pswitch_2
-    sget-object v0, Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;->GIF_BUTTON_TRENDING:Lkik/android/chat/JoinGifTrayHelper$JoinGifVariant;
+    sget-object v0, Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;->GIF_BUTTON_TRENDING:Lkik/arcane/chat/JoinGifTrayHelper$JoinGifVariant;
 
     goto :goto_0
 

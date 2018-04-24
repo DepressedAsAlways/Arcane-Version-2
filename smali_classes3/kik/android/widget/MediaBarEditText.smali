@@ -1,5 +1,5 @@
-.class public Lkik/android/widget/MediaBarEditText;
-.super Lkik/android/widget/ImeAwareEditText;
+.class public Lkik/arcane/widget/MediaBarEditText;
+.super Lkik/arcane/widget/ImeAwareEditText;
 .source "SourceFile"
 
 
@@ -13,10 +13,10 @@
 
     .prologue
     .line 26
-    invoke-direct {p0, p1}, Lkik/android/widget/ImeAwareEditText;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lkik/arcane/widget/ImeAwareEditText;-><init>(Landroid/content/Context;)V
 
     .line 27
-    invoke-direct {p0, p1}, Lkik/android/widget/MediaBarEditText;->a(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lkik/arcane/widget/MediaBarEditText;->a(Landroid/content/Context;)V
 
     .line 28
     return-void
@@ -27,10 +27,10 @@
 
     .prologue
     .line 32
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/ImeAwareEditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/ImeAwareEditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 33
-    invoke-direct {p0, p1}, Lkik/android/widget/MediaBarEditText;->a(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lkik/arcane/widget/MediaBarEditText;->a(Landroid/content/Context;)V
 
     .line 34
     return-void
@@ -41,10 +41,10 @@
 
     .prologue
     .line 38
-    invoke-direct {p0, p1, p2, p3}, Lkik/android/widget/ImeAwareEditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lkik/arcane/widget/ImeAwareEditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 39
-    invoke-direct {p0, p1}, Lkik/android/widget/MediaBarEditText;->a(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lkik/arcane/widget/MediaBarEditText;->a(Landroid/content/Context;)V
 
     .line 40
     return-void
@@ -57,7 +57,7 @@
     const/4 v4, 0x0
 
     .line 92
-    invoke-virtual {p0}, Lkik/android/widget/MediaBarEditText;->getText()Landroid/text/Editable;
+    invoke-virtual {p0}, Lkik/arcane/widget/MediaBarEditText;->getText()Landroid/text/Editable;
 
     move-result-object v0
 
@@ -135,13 +135,13 @@
 
     move-result v0
 
-    const-class v3, Lcom/kik/android/b/c;
+    const-class v3, Lcom/kik/arcane/b/c;
 
     invoke-interface {v1, v4, v0, v3}, Landroid/text/Spannable;->getSpans(IILjava/lang/Class;)[Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lcom/kik/android/b/c;
+    check-cast v0, [Lcom/kik/arcane/b/c;
 
     .line 3121
     :goto_2
@@ -194,7 +194,7 @@
 
     check-cast v0, Landroid/content/ClipboardManager;
 
-    iput-object v0, p0, Lkik/android/widget/MediaBarEditText;->a:Landroid/content/ClipboardManager;
+    iput-object v0, p0, Lkik/arcane/widget/MediaBarEditText;->a:Landroid/content/ClipboardManager;
 
     .line 45
     return-void
@@ -213,12 +213,12 @@
     const/4 v3, 0x0
 
     .line 50
-    iget-object v1, p0, Lkik/android/widget/MediaBarEditText;->a:Landroid/content/ClipboardManager;
+    iget-object v1, p0, Lkik/arcane/widget/MediaBarEditText;->a:Landroid/content/ClipboardManager;
 
     if-nez v1, :cond_0
 
     .line 51
-    invoke-super {p0, p1}, Lkik/android/widget/ImeAwareEditText;->onTextContextMenuItem(I)Z
+    invoke-super {p0, p1}, Lkik/arcane/widget/ImeAwareEditText;->onTextContextMenuItem(I)Z
 
     move-result v0
 
@@ -228,24 +228,24 @@
 
     .line 55
     :cond_0
-    invoke-virtual {p0}, Lkik/android/widget/MediaBarEditText;->length()I
+    invoke-virtual {p0}, Lkik/arcane/widget/MediaBarEditText;->length()I
 
     move-result v1
 
     .line 57
-    invoke-virtual {p0}, Lkik/android/widget/MediaBarEditText;->isFocused()Z
+    invoke-virtual {p0}, Lkik/arcane/widget/MediaBarEditText;->isFocused()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
     .line 58
-    invoke-virtual {p0}, Lkik/android/widget/MediaBarEditText;->getSelectionStart()I
+    invoke-virtual {p0}, Lkik/arcane/widget/MediaBarEditText;->getSelectionStart()I
 
     move-result v1
 
     .line 59
-    invoke-virtual {p0}, Lkik/android/widget/MediaBarEditText;->getSelectionEnd()I
+    invoke-virtual {p0}, Lkik/arcane/widget/MediaBarEditText;->getSelectionEnd()I
 
     move-result v4
 
@@ -272,7 +272,7 @@
     packed-switch p1, :pswitch_data_0
 
     .line 76
-    invoke-super {p0, p1}, Lkik/android/widget/ImeAwareEditText;->onTextContextMenuItem(I)Z
+    invoke-super {p0, p1}, Lkik/arcane/widget/ImeAwareEditText;->onTextContextMenuItem(I)Z
 
     move-result v0
 
@@ -280,9 +280,9 @@
 
     .line 66
     :pswitch_0
-    iget-object v3, p0, Lkik/android/widget/MediaBarEditText;->a:Landroid/content/ClipboardManager;
+    iget-object v3, p0, Lkik/arcane/widget/MediaBarEditText;->a:Landroid/content/ClipboardManager;
 
-    invoke-direct {p0, v2, v1}, Lkik/android/widget/MediaBarEditText;->a(II)Ljava/lang/CharSequence;
+    invoke-direct {p0, v2, v1}, Lkik/arcane/widget/MediaBarEditText;->a(II)Ljava/lang/CharSequence;
 
     move-result-object v4
 
@@ -293,22 +293,22 @@
     invoke-virtual {v3, v4}, Landroid/content/ClipboardManager;->setPrimaryClip(Landroid/content/ClipData;)V
 
     .line 1087
-    invoke-virtual {p0}, Lkik/android/widget/MediaBarEditText;->getText()Landroid/text/Editable;
+    invoke-virtual {p0}, Lkik/arcane/widget/MediaBarEditText;->getText()Landroid/text/Editable;
 
     move-result-object v3
 
     invoke-interface {v3, v2, v1}, Landroid/text/Editable;->delete(II)Landroid/text/Editable;
 
     .line 2082
-    invoke-virtual {p0}, Lkik/android/widget/MediaBarEditText;->clearFocus()V
+    invoke-virtual {p0}, Lkik/arcane/widget/MediaBarEditText;->clearFocus()V
 
     goto :goto_0
 
     .line 72
     :pswitch_1
-    iget-object v3, p0, Lkik/android/widget/MediaBarEditText;->a:Landroid/content/ClipboardManager;
+    iget-object v3, p0, Lkik/arcane/widget/MediaBarEditText;->a:Landroid/content/ClipboardManager;
 
-    invoke-direct {p0, v2, v1}, Lkik/android/widget/MediaBarEditText;->a(II)Ljava/lang/CharSequence;
+    invoke-direct {p0, v2, v1}, Lkik/arcane/widget/MediaBarEditText;->a(II)Ljava/lang/CharSequence;
 
     move-result-object v1
 
@@ -319,7 +319,7 @@
     invoke-virtual {v3, v1}, Landroid/content/ClipboardManager;->setPrimaryClip(Landroid/content/ClipData;)V
 
     .line 3082
-    invoke-virtual {p0}, Lkik/android/widget/MediaBarEditText;->clearFocus()V
+    invoke-virtual {p0}, Lkik/arcane/widget/MediaBarEditText;->clearFocus()V
 
     goto :goto_0
 

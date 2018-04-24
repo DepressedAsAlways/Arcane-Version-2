@@ -1,11 +1,11 @@
-.class public Lkik/android/chat/view/SearchBarViewImpl;
+.class public Lkik/arcane/chat/view/SearchBarViewImpl;
 .super Landroid/widget/LinearLayout;
 .source "SourceFile"
 
 # interfaces
 .implements Landroid/text/TextWatcher;
 .implements Landroid/view/View$OnFocusChangeListener;
-.implements Lkik/android/chat/view/aj;
+.implements Lkik/arcane/chat/view/aj;
 .implements Lkik/core/interfaces/ai;
 
 
@@ -16,7 +16,7 @@
     .end annotation
 .end field
 
-.field _searchField:Lkik/android/widget/RobotoEditText;
+.field _searchField:Lkik/arcane/widget/RobotoEditText;
     .annotation build Lbutterknife/BindView;
         value = 0x7f1003c3
     .end annotation
@@ -33,7 +33,7 @@
         value = {
             "Ljava/util/List",
             "<",
-            "Lkik/android/chat/view/aj$a;",
+            "Lkik/arcane/chat/view/aj$a;",
             ">;"
         }
     .end annotation
@@ -55,12 +55,12 @@
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/view/SearchBarViewImpl;->a:Ljava/util/List;
+    iput-object v0, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->a:Ljava/util/List;
 
     .line 51
     const/4 v0, 0x0
 
-    invoke-virtual {p0, p1, v0}, Lkik/android/chat/view/SearchBarViewImpl;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-virtual {p0, p1, v0}, Lkik/arcane/chat/view/SearchBarViewImpl;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 52
     return-void
@@ -78,10 +78,10 @@
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/view/SearchBarViewImpl;->a:Ljava/util/List;
+    iput-object v0, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->a:Ljava/util/List;
 
     .line 57
-    invoke-virtual {p0, p1, p2}, Lkik/android/chat/view/SearchBarViewImpl;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-virtual {p0, p1, p2}, Lkik/arcane/chat/view/SearchBarViewImpl;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 58
     return-void
@@ -99,10 +99,10 @@
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/view/SearchBarViewImpl;->a:Ljava/util/List;
+    iput-object v0, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->a:Ljava/util/List;
 
     .line 63
-    invoke-virtual {p0, p1, p2}, Lkik/android/chat/view/SearchBarViewImpl;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-virtual {p0, p1, p2}, Lkik/arcane/chat/view/SearchBarViewImpl;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 64
     return-void
@@ -123,10 +123,10 @@
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/view/SearchBarViewImpl;->a:Ljava/util/List;
+    iput-object v0, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->a:Ljava/util/List;
 
     .line 70
-    invoke-virtual {p0, p1, p2}, Lkik/android/chat/view/SearchBarViewImpl;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-virtual {p0, p1, p2}, Lkik/arcane/chat/view/SearchBarViewImpl;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 71
     return-void
@@ -139,9 +139,9 @@
 
     .prologue
     .line 137
-    iget-object v0, p0, Lkik/android/chat/view/SearchBarViewImpl;->_searchField:Lkik/android/widget/RobotoEditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->_searchField:Lkik/arcane/widget/RobotoEditText;
 
-    invoke-virtual {v0}, Lkik/android/widget/RobotoEditText;->clearFocus()V
+    invoke-virtual {v0}, Lkik/arcane/widget/RobotoEditText;->clearFocus()V
 
     .line 138
     return-void
@@ -165,7 +165,7 @@
 
     mul-float/2addr v0, p1
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
@@ -180,7 +180,7 @@
 
     .line 271
     :cond_1
-    invoke-virtual {p0}, Lkik/android/chat/view/SearchBarViewImpl;->getBackground()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Lkik/arcane/chat/view/SearchBarViewImpl;->getBackground()Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -218,17 +218,17 @@
     const/4 v0, 0x0
 
     .line 75
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/SearchBarViewImpl;->setOrientation(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/SearchBarViewImpl;->setOrientation(I)V
 
     .line 76
     const/16 v0, 0x10
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/SearchBarViewImpl;->setGravity(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/SearchBarViewImpl;->setGravity(I)V
 
     .line 77
     const v0, 0x7f02018d
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/SearchBarViewImpl;->setBackgroundResource(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/SearchBarViewImpl;->setBackgroundResource(I)V
 
     .line 78
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -241,41 +241,41 @@
 
     move-result v0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/SearchBarViewImpl;->setMinimumHeight(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/SearchBarViewImpl;->setMinimumHeight(I)V
 
     .line 79
     const v0, 0x7f040157
 
-    invoke-static {p1, v0, p0}, Lkik/android/chat/view/SearchBarViewImpl;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
+    invoke-static {p1, v0, p0}, Lkik/arcane/chat/view/SearchBarViewImpl;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
     .line 80
     invoke-static {p0}, Lbutterknife/ButterKnife;->bind(Landroid/view/View;)Lbutterknife/Unbinder;
 
     .line 81
-    iget-object v0, p0, Lkik/android/chat/view/SearchBarViewImpl;->_searchField:Lkik/android/widget/RobotoEditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->_searchField:Lkik/arcane/widget/RobotoEditText;
 
-    invoke-virtual {v0, p0}, Lkik/android/widget/RobotoEditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
+    invoke-virtual {v0, p0}, Lkik/arcane/widget/RobotoEditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
     .line 82
-    iget-object v0, p0, Lkik/android/chat/view/SearchBarViewImpl;->_searchField:Lkik/android/widget/RobotoEditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->_searchField:Lkik/arcane/widget/RobotoEditText;
 
-    invoke-virtual {v0, p0}, Lkik/android/widget/RobotoEditText;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
+    invoke-virtual {v0, p0}, Lkik/arcane/widget/RobotoEditText;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
 
     .line 83
-    iget-object v0, p0, Lkik/android/chat/view/SearchBarViewImpl;->_searchField:Lkik/android/widget/RobotoEditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->_searchField:Lkik/arcane/widget/RobotoEditText;
 
-    invoke-virtual {v0, p0}, Lkik/android/widget/RobotoEditText;->a(Lkik/core/interfaces/ai;)V
+    invoke-virtual {v0, p0}, Lkik/arcane/widget/RobotoEditText;->a(Lkik/core/interfaces/ai;)V
 
     .line 84
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/SearchBarViewImpl;->a(F)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/SearchBarViewImpl;->a(F)V
 
     .line 86
     if-eqz p2, :cond_0
 
     .line 87
-    sget-object v0, Lkik/android/R$styleable;->SearchBarViewImpl:[I
+    sget-object v0, Lkik/arcane/R$styleable;->SearchBarViewImpl:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -290,7 +290,7 @@
     move-result-object v0
 
     .line 90
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/SearchBarViewImpl;->b(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/SearchBarViewImpl;->b(Ljava/lang/String;)V
 
     .line 91
     const/4 v0, 0x1
@@ -302,9 +302,9 @@
     move-result v0
 
     .line 92
-    iget-object v2, p0, Lkik/android/chat/view/SearchBarViewImpl;->_searchField:Lkik/android/widget/RobotoEditText;
+    iget-object v2, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->_searchField:Lkik/arcane/widget/RobotoEditText;
 
-    invoke-virtual {v2, v0}, Lkik/android/widget/RobotoEditText;->setInputType(I)V
+    invoke-virtual {v2, v0}, Lkik/arcane/widget/RobotoEditText;->setInputType(I)V
 
     .line 93
     const/4 v0, 0x2
@@ -315,7 +315,7 @@
 
     move-result v0
 
-    iput-boolean v0, p0, Lkik/android/chat/view/SearchBarViewImpl;->b:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->b:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -348,12 +348,12 @@
     new-array v0, v0, [I
 
     .line 243
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/SearchBarViewImpl;->getLocationOnScreen([I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/SearchBarViewImpl;->getLocationOnScreen([I)V
 
     .line 244
     aget v1, v0, v3
 
-    invoke-virtual {p0}, Lkik/android/chat/view/SearchBarViewImpl;->getHeight()I
+    invoke-virtual {p0}, Lkik/arcane/chat/view/SearchBarViewImpl;->getHeight()I
 
     move-result v2
 
@@ -368,7 +368,7 @@
     .line 247
     sub-int v0, v1, v0
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(I)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(I)I
 
     move-result v0
 
@@ -378,7 +378,7 @@
     .line 249
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/SearchBarViewImpl;->a(F)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/SearchBarViewImpl;->a(F)V
 
     .line 263
     :goto_0
@@ -393,7 +393,7 @@
     .line 252
     const/high16 v0, 0x3e800000    # 0.25f
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/SearchBarViewImpl;->a(F)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/SearchBarViewImpl;->a(F)V
 
     goto :goto_0
 
@@ -406,7 +406,7 @@
     .line 255
     const/high16 v0, 0x3f000000    # 0.5f
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/SearchBarViewImpl;->a(F)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/SearchBarViewImpl;->a(F)V
 
     goto :goto_0
 
@@ -419,7 +419,7 @@
     .line 258
     const/high16 v0, 0x3f400000    # 0.75f
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/SearchBarViewImpl;->a(F)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/SearchBarViewImpl;->a(F)V
 
     goto :goto_0
 
@@ -427,7 +427,7 @@
     :cond_3
     const/high16 v0, 0x3f800000    # 1.0f
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/SearchBarViewImpl;->a(F)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/SearchBarViewImpl;->a(F)V
 
     goto :goto_0
 .end method
@@ -450,12 +450,12 @@
     if-gtz p2, :cond_2
 
     .line 220
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/SearchBarViewImpl;->a(F)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/SearchBarViewImpl;->a(F)V
 
     .line 237
     :cond_1
     :goto_1
-    invoke-virtual {p0, v0}, Lkik/android/chat/view/SearchBarViewImpl;->setTranslationY(F)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/view/SearchBarViewImpl;->setTranslationY(F)V
 
     goto :goto_0
 
@@ -466,7 +466,7 @@
     move-result v0
 
     .line 224
-    invoke-virtual {p0}, Lkik/android/chat/view/SearchBarViewImpl;->getHeight()I
+    invoke-virtual {p0}, Lkik/arcane/chat/view/SearchBarViewImpl;->getHeight()I
 
     move-result v1
 
@@ -493,7 +493,7 @@
     .line 230
     const/high16 v1, 0x3f800000    # 1.0f
 
-    invoke-virtual {p0, v1}, Lkik/android/chat/view/SearchBarViewImpl;->a(F)V
+    invoke-virtual {p0, v1}, Lkik/arcane/chat/view/SearchBarViewImpl;->a(F)V
 
     goto :goto_1
 
@@ -513,7 +513,7 @@
     move-result-object v1
 
     .line 234
-    invoke-virtual {p0, v1}, Lkik/android/chat/view/SearchBarViewImpl;->a(Landroid/view/View;)V
+    invoke-virtual {p0, v1}, Lkik/arcane/chat/view/SearchBarViewImpl;->a(Landroid/view/View;)V
 
     goto :goto_1
 .end method
@@ -523,20 +523,20 @@
 
     .prologue
     .line 121
-    iget-object v0, p0, Lkik/android/chat/view/SearchBarViewImpl;->_searchField:Lkik/android/widget/RobotoEditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->_searchField:Lkik/arcane/widget/RobotoEditText;
 
-    invoke-virtual {v0, p1}, Lkik/android/widget/RobotoEditText;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, p1}, Lkik/arcane/widget/RobotoEditText;->setText(Ljava/lang/CharSequence;)V
 
     .line 122
     return-void
 .end method
 
-.method public final a(Lkik/android/chat/view/aj$a;)V
+.method public final a(Lkik/arcane/chat/view/aj$a;)V
     .locals 1
 
     .prologue
     .line 104
-    iget-object v0, p0, Lkik/android/chat/view/SearchBarViewImpl;->a:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->a:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -554,14 +554,14 @@
     move-result-object v1
 
     .line 166
-    invoke-static {v1}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v1}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_2
 
     .line 1126
-    iget-object v0, p0, Lkik/android/chat/view/SearchBarViewImpl;->_clearSearch:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->_clearSearch:Landroid/view/View;
 
     const/16 v2, 0x8
 
@@ -570,7 +570,7 @@
     .line 172
     :cond_0
     :goto_0
-    iget-object v0, p0, Lkik/android/chat/view/SearchBarViewImpl;->a:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -588,25 +588,25 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/view/aj$a;
+    check-cast v0, Lkik/arcane/chat/view/aj$a;
 
     .line 173
     if-eqz v0, :cond_1
 
     .line 174
-    invoke-interface {v0, v1}, Lkik/android/chat/view/aj$a;->a(Ljava/lang/String;)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/view/aj$a;->a(Ljava/lang/String;)V
 
     goto :goto_1
 
     .line 169
     :cond_2
-    iget-boolean v0, p0, Lkik/android/chat/view/SearchBarViewImpl;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->b:Z
 
     if-eqz v0, :cond_3
 
-    iget-object v0, p0, Lkik/android/chat/view/SearchBarViewImpl;->_searchField:Lkik/android/widget/RobotoEditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->_searchField:Lkik/arcane/widget/RobotoEditText;
 
-    invoke-virtual {v0}, Lkik/android/widget/RobotoEditText;->hasFocus()Z
+    invoke-virtual {v0}, Lkik/arcane/widget/RobotoEditText;->hasFocus()Z
 
     move-result v0
 
@@ -614,7 +614,7 @@
 
     .line 1131
     :cond_3
-    iget-object v0, p0, Lkik/android/chat/view/SearchBarViewImpl;->_clearSearch:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->_clearSearch:Landroid/view/View;
 
     const/4 v2, 0x0
 
@@ -627,12 +627,12 @@
     return-void
 .end method
 
-.method public final b()Lkik/android/widget/RobotoEditText;
+.method public final b()Lkik/arcane/widget/RobotoEditText;
     .locals 1
 
     .prologue
     .line 203
-    iget-object v0, p0, Lkik/android/chat/view/SearchBarViewImpl;->_searchField:Lkik/android/widget/RobotoEditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->_searchField:Lkik/arcane/widget/RobotoEditText;
 
     return-object v0
 .end method
@@ -642,9 +642,9 @@
 
     .prologue
     .line 115
-    iget-object v0, p0, Lkik/android/chat/view/SearchBarViewImpl;->_searchField:Lkik/android/widget/RobotoEditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->_searchField:Lkik/arcane/widget/RobotoEditText;
 
-    invoke-virtual {v0, p1}, Lkik/android/widget/RobotoEditText;->setHint(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, p1}, Lkik/arcane/widget/RobotoEditText;->setHint(Ljava/lang/CharSequence;)V
 
     .line 116
     return-void
@@ -663,7 +663,7 @@
 
     .prologue
     .line 194
-    iget-object v0, p0, Lkik/android/chat/view/SearchBarViewImpl;->a:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -681,13 +681,13 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/view/aj$a;
+    check-cast v0, Lkik/arcane/chat/view/aj$a;
 
     .line 195
     if-eqz v0, :cond_0
 
     .line 196
-    invoke-interface {v0}, Lkik/android/chat/view/aj$a;->a()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/aj$a;->a()V
 
     goto :goto_0
 
@@ -706,7 +706,7 @@
 
     .prologue
     .line 143
-    iget-object v0, p0, Lkik/android/chat/view/SearchBarViewImpl;->a:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -724,13 +724,13 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/view/aj$a;
+    check-cast v0, Lkik/arcane/chat/view/aj$a;
 
     .line 144
     if-eqz v0, :cond_0
 
     .line 145
-    invoke-interface {v0}, Lkik/android/chat/view/aj$a;->b()V
+    invoke-interface {v0}, Lkik/arcane/chat/view/aj$a;->b()V
 
     goto :goto_0
 
@@ -744,7 +744,7 @@
 
     .prologue
     .line 208
-    iget-object v0, p0, Lkik/android/chat/view/SearchBarViewImpl;->_searchIconView:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->_searchIconView:Landroid/widget/ImageView;
 
     return-object v0
 .end method
@@ -754,12 +754,12 @@
 
     .prologue
     .line 182
-    iget-object v0, p0, Lkik/android/chat/view/SearchBarViewImpl;->_searchField:Lkik/android/widget/RobotoEditText;
+    iget-object v0, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->_searchField:Lkik/arcane/widget/RobotoEditText;
 
     if-ne p1, v0, :cond_1
 
     .line 183
-    iget-object v0, p0, Lkik/android/chat/view/SearchBarViewImpl;->a:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/view/SearchBarViewImpl;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -777,13 +777,13 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/view/aj$a;
+    check-cast v0, Lkik/arcane/chat/view/aj$a;
 
     .line 184
     if-eqz v0, :cond_0
 
     .line 185
-    invoke-interface {v0, p2}, Lkik/android/chat/view/aj$a;->a(Z)V
+    invoke-interface {v0, p2}, Lkik/arcane/chat/view/aj$a;->a(Z)V
 
     goto :goto_0
 

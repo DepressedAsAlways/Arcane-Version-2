@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/a/a;
+.class public final Lkik/arcane/chat/a/a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,8 +6,8 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/a/a$a;,
-        Lkik/android/chat/a/a$b;
+        Lkik/arcane/chat/a/a$a;,
+        Lkik/arcane/chat/a/a$b;
     }
 .end annotation
 

@@ -5,7 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/kik/cache/DiskLruFileCache;->getFileFromNetwork(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Lkik/core/interfaces/x;Lcom/kik/android/Mixpanel;I)Lcom/kik/events/Promise;
+    value = Lcom/kik/cache/DiskLruFileCache;->getFileFromNetwork(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Lkik/core/interfaces/x;Lcom/kik/arcane/Mixpanel;I)Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -78,13 +78,13 @@
     .line 290
     iget-object v0, p0, Lcom/kik/cache/DiskLruFileCache$1;->c:Lcom/kik/cache/DiskLruFileCache;
 
-    invoke-static {v0}, Lcom/kik/cache/DiskLruFileCache;->access$000(Lcom/kik/cache/DiskLruFileCache;)Lkik/android/h;
+    invoke-static {v0}, Lcom/kik/cache/DiskLruFileCache;->access$000(Lcom/kik/cache/DiskLruFileCache;)Lkik/arcane/h;
 
     move-result-object v0
 
     iget-object v1, p0, Lcom/kik/cache/DiskLruFileCache$1;->b:Ljava/lang/String;
 
-    invoke-virtual {v0, v1}, Lkik/android/h;->a(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/h;->a(Ljava/lang/String;)V
 
     .line 291
     return-void

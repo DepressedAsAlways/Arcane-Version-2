@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/presentation/be;
+.class final synthetic Lkik/arcane/chat/presentation/be;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,7 +6,7 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+.field private final a:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
 .field private final b:I
 
@@ -16,28 +16,28 @@
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/presentation/MediaTrayPresenterImpl;III)V
+.method private constructor <init>(Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;III)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/presentation/be;->a:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    iput-object p1, p0, Lkik/arcane/chat/presentation/be;->a:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
-    iput p2, p0, Lkik/android/chat/presentation/be;->b:I
+    iput p2, p0, Lkik/arcane/chat/presentation/be;->b:I
 
-    iput p3, p0, Lkik/android/chat/presentation/be;->c:I
+    iput p3, p0, Lkik/arcane/chat/presentation/be;->c:I
 
-    iput p4, p0, Lkik/android/chat/presentation/be;->d:I
+    iput p4, p0, Lkik/arcane/chat/presentation/be;->d:I
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/presentation/MediaTrayPresenterImpl;III)Landroid/animation/ValueAnimator$AnimatorUpdateListener;
+.method public static a(Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;III)Landroid/animation/ValueAnimator$AnimatorUpdateListener;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/presentation/be;
+    new-instance v0, Lkik/arcane/chat/presentation/be;
 
-    invoke-direct {v0, p0, p1, p2, p3}, Lkik/android/chat/presentation/be;-><init>(Lkik/android/chat/presentation/MediaTrayPresenterImpl;III)V
+    invoke-direct {v0, p0, p1, p2, p3}, Lkik/arcane/chat/presentation/be;-><init>(Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;III)V
 
     return-object v0
 .end method
@@ -47,15 +47,15 @@
 .method public final onAnimationUpdate(Landroid/animation/ValueAnimator;)V
     .locals 4
 
-    iget-object v0, p0, Lkik/android/chat/presentation/be;->a:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/be;->a:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
-    iget v1, p0, Lkik/android/chat/presentation/be;->b:I
+    iget v1, p0, Lkik/arcane/chat/presentation/be;->b:I
 
-    iget v2, p0, Lkik/android/chat/presentation/be;->c:I
+    iget v2, p0, Lkik/arcane/chat/presentation/be;->c:I
 
-    iget v3, p0, Lkik/android/chat/presentation/be;->d:I
+    iget v3, p0, Lkik/arcane/chat/presentation/be;->d:I
 
-    invoke-static {v0, v1, v2, v3, p1}, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->a(Lkik/android/chat/presentation/MediaTrayPresenterImpl;IIILandroid/animation/ValueAnimator;)V
+    invoke-static {v0, v1, v2, v3, p1}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->a(Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;IIILandroid/animation/ValueAnimator;)V
 
     return-void
 .end method

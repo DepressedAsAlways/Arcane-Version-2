@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lkik/android/challenge/PhoneVerificationNetworkProvider;",
+        "Lkik/arcane/challenge/PhoneVerificationNetworkProvider;",
         ">;"
     }
 .end annotation
@@ -131,7 +131,7 @@
             ">;)",
             "Ldagger/internal/b",
             "<",
-            "Lkik/android/challenge/PhoneVerificationNetworkProvider;",
+            "Lkik/arcane/challenge/PhoneVerificationNetworkProvider;",
             ">;"
         }
     .end annotation
@@ -163,13 +163,13 @@
     check-cast v0, Lkik/core/interfaces/ICommunication;
 
     .line 2028
-    new-instance v1, Lkik/android/challenge/b;
+    new-instance v1, Lkik/arcane/challenge/b;
 
-    invoke-static {}, Lkik/android/chat/KikApplication;->c()Ljava/lang/String;
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->c()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-direct {v1, v0, v2}, Lkik/android/challenge/b;-><init>(Lkik/core/interfaces/ICommunication;Ljava/lang/String;)V
+    invoke-direct {v1, v0, v2}, Lkik/arcane/challenge/b;-><init>(Lkik/core/interfaces/ICommunication;Ljava/lang/String;)V
 
     .line 1031
     const-string v0, "Cannot return null from a non-@Nullable @Provides method"
@@ -179,7 +179,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/challenge/PhoneVerificationNetworkProvider;
+    check-cast v0, Lkik/arcane/challenge/PhoneVerificationNetworkProvider;
 
     .line 10
     return-object v0

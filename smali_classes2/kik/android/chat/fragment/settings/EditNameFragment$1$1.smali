@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/settings/EditNameFragment$1$1;
+.class final Lkik/arcane/chat/fragment/settings/EditNameFragment$1$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/settings/EditNameFragment$1;
+    value = Lkik/arcane/chat/fragment/settings/EditNameFragment$1;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/settings/EditNameFragment$1;
+.field final synthetic a:Lkik/arcane/chat/fragment/settings/EditNameFragment$1;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/settings/EditNameFragment$1;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/settings/EditNameFragment$1;)V
     .locals 0
 
     .prologue
     .line 164
-    iput-object p1, p0, Lkik/android/chat/fragment/settings/EditNameFragment$1$1;->a:Lkik/android/chat/fragment/settings/EditNameFragment$1;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/settings/EditNameFragment$1$1;->a:Lkik/arcane/chat/fragment/settings/EditNameFragment$1;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -47,20 +47,20 @@
 
     .prologue
     .line 168
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditNameFragment$1$1;->a:Lkik/android/chat/fragment/settings/EditNameFragment$1;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditNameFragment$1$1;->a:Lkik/arcane/chat/fragment/settings/EditNameFragment$1;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/settings/EditNameFragment$1;->a:Lkik/android/chat/fragment/settings/EditNameFragment;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/settings/EditNameFragment$1;->a:Lkik/arcane/chat/fragment/settings/EditNameFragment;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/settings/EditNameFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/settings/EditNameFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 169
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditNameFragment$1$1;->a:Lkik/android/chat/fragment/settings/EditNameFragment$1;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditNameFragment$1$1;->a:Lkik/arcane/chat/fragment/settings/EditNameFragment$1;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/settings/EditNameFragment$1;->a:Lkik/android/chat/fragment/settings/EditNameFragment;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/settings/EditNameFragment$1;->a:Lkik/arcane/chat/fragment/settings/EditNameFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/settings/EditNameFragment;->finish()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/settings/EditNameFragment;->finish()V
 
     .line 170
     return-void

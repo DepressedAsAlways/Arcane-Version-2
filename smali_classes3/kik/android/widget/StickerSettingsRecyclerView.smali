@@ -1,27 +1,27 @@
-.class public Lkik/android/widget/StickerSettingsRecyclerView;
+.class public Lkik/arcane/widget/StickerSettingsRecyclerView;
 .super Landroid/support/v7/widget/RecyclerView;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/widget/ct$a;
-.implements Lkik/android/widget/dn$a;
+.implements Lkik/arcane/widget/ct$a;
+.implements Lkik/arcane/widget/dn$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;
+        Lkik/arcane/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;
     }
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Landroid/support/v7/widget/RecyclerView;",
-        "Lkik/android/widget/ct$a;",
-        "Lkik/android/widget/dn$a",
+        "Lkik/arcane/widget/ct$a;",
+        "Lkik/arcane/widget/dn$a",
         "<",
-        "Lkik/android/chat/vm/widget/ad;",
-        "Lkik/android/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;",
+        "Lkik/arcane/chat/vm/widget/ad;",
+        "Lkik/arcane/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;",
         ">;"
     }
 .end annotation
@@ -47,17 +47,17 @@
     .line 32
     const v0, 0x7f040166
 
-    sput v0, Lkik/android/widget/StickerSettingsRecyclerView;->a:I
+    sput v0, Lkik/arcane/widget/StickerSettingsRecyclerView;->a:I
 
     .line 33
     const v0, 0x7f040168
 
-    sput v0, Lkik/android/widget/StickerSettingsRecyclerView;->b:I
+    sput v0, Lkik/arcane/widget/StickerSettingsRecyclerView;->b:I
 
     .line 34
     const v0, 0x7f040167
 
-    sput v0, Lkik/android/widget/StickerSettingsRecyclerView;->c:I
+    sput v0, Lkik/arcane/widget/StickerSettingsRecyclerView;->c:I
 
     return-void
 .end method
@@ -95,17 +95,17 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/widget/StickerSettingsRecyclerView;)Landroid/support/v7/widget/helper/ItemTouchHelper;
+.method static synthetic a(Lkik/arcane/widget/StickerSettingsRecyclerView;)Landroid/support/v7/widget/helper/ItemTouchHelper;
     .locals 1
 
     .prologue
     .line 30
-    iget-object v0, p0, Lkik/android/widget/StickerSettingsRecyclerView;->d:Landroid/support/v7/widget/helper/ItemTouchHelper;
+    iget-object v0, p0, Lkik/arcane/widget/StickerSettingsRecyclerView;->d:Landroid/support/v7/widget/helper/ItemTouchHelper;
 
     return-object v0
 .end method
 
-.method public static a(Lkik/android/widget/StickerSettingsRecyclerView;Lkik/android/chat/vm/bq;)V
+.method public static a(Lkik/arcane/widget/StickerSettingsRecyclerView;Lkik/arcane/chat/vm/bq;)V
     .locals 2
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -115,49 +115,49 @@
 
     .prologue
     .line 39
-    new-instance v1, Lkik/android/widget/dn;
+    new-instance v1, Lkik/arcane/widget/dn;
 
     move-object v0, p1
 
-    check-cast v0, Lkik/android/chat/vm/widget/bm;
+    check-cast v0, Lkik/arcane/chat/vm/widget/bm;
 
-    invoke-direct {v1, p0, v0}, Lkik/android/widget/dn;-><init>(Lkik/android/widget/dn$a;Lkik/android/chat/vm/IListViewModel;)V
+    invoke-direct {v1, p0, v0}, Lkik/arcane/widget/dn;-><init>(Lkik/arcane/widget/dn$a;Lkik/arcane/chat/vm/IListViewModel;)V
 
     .line 40
-    invoke-virtual {p0, v1}, Lkik/android/widget/StickerSettingsRecyclerView;->setAdapter(Landroid/support/v7/widget/RecyclerView$Adapter;)V
+    invoke-virtual {p0, v1}, Lkik/arcane/widget/StickerSettingsRecyclerView;->setAdapter(Landroid/support/v7/widget/RecyclerView$Adapter;)V
 
     .line 41
-    new-instance v0, Lkik/android/widget/ct;
+    new-instance v0, Lkik/arcane/widget/ct;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/ct;-><init>(Lkik/android/widget/ct$a;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/ct;-><init>(Lkik/arcane/widget/ct$a;)V
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/StickerSettingsRecyclerView;->addItemDecoration(Landroid/support/v7/widget/RecyclerView$ItemDecoration;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/StickerSettingsRecyclerView;->addItemDecoration(Landroid/support/v7/widget/RecyclerView$ItemDecoration;)V
 
     .line 42
-    new-instance v0, Lkik/android/widget/bn;
+    new-instance v0, Lkik/arcane/widget/bn;
 
-    invoke-virtual {p0}, Lkik/android/widget/StickerSettingsRecyclerView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/StickerSettingsRecyclerView;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-direct {v0, v1, p1}, Lkik/android/widget/bn;-><init>(Landroid/content/Context;Lkik/android/chat/vm/widget/v;)V
+    invoke-direct {v0, v1, p1}, Lkik/arcane/widget/bn;-><init>(Landroid/content/Context;Lkik/arcane/chat/vm/widget/v;)V
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/StickerSettingsRecyclerView;->addItemDecoration(Landroid/support/v7/widget/RecyclerView$ItemDecoration;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/StickerSettingsRecyclerView;->addItemDecoration(Landroid/support/v7/widget/RecyclerView$ItemDecoration;)V
 
     .line 44
     new-instance v0, Landroid/support/v7/widget/helper/ItemTouchHelper;
 
-    new-instance v1, Lkik/android/widget/dl;
+    new-instance v1, Lkik/arcane/widget/dl;
 
-    invoke-direct {v1, p1, p0}, Lkik/android/widget/dl;-><init>(Lkik/android/widget/bk;Landroid/support/v7/widget/RecyclerView;)V
+    invoke-direct {v1, p1, p0}, Lkik/arcane/widget/dl;-><init>(Lkik/arcane/widget/bk;Landroid/support/v7/widget/RecyclerView;)V
 
     invoke-direct {v0, v1}, Landroid/support/v7/widget/helper/ItemTouchHelper;-><init>(Landroid/support/v7/widget/helper/ItemTouchHelper$Callback;)V
 
     .line 1099
-    iput-object v0, p0, Lkik/android/widget/StickerSettingsRecyclerView;->d:Landroid/support/v7/widget/helper/ItemTouchHelper;
+    iput-object v0, p0, Lkik/arcane/widget/StickerSettingsRecyclerView;->d:Landroid/support/v7/widget/helper/ItemTouchHelper;
 
     .line 1100
-    iget-object v0, p0, Lkik/android/widget/StickerSettingsRecyclerView;->d:Landroid/support/v7/widget/helper/ItemTouchHelper;
+    iget-object v0, p0, Lkik/arcane/widget/StickerSettingsRecyclerView;->d:Landroid/support/v7/widget/helper/ItemTouchHelper;
 
     invoke-virtual {v0, p0}, Landroid/support/v7/widget/helper/ItemTouchHelper;->a(Landroid/support/v7/widget/RecyclerView;)V
 
@@ -172,22 +172,22 @@
 
     .prologue
     .line 30
-    check-cast p1, Lkik/android/chat/vm/widget/ad;
+    check-cast p1, Lkik/arcane/chat/vm/widget/ad;
 
     .line 3067
-    invoke-interface {p1}, Lkik/android/chat/vm/widget/ad;->g()Z
+    invoke-interface {p1}, Lkik/arcane/chat/vm/widget/ad;->g()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    sget v0, Lkik/android/widget/StickerSettingsRecyclerView;->a:I
+    sget v0, Lkik/arcane/widget/StickerSettingsRecyclerView;->a:I
 
     :goto_0
     return v0
 
     :cond_0
-    sget v0, Lkik/android/widget/StickerSettingsRecyclerView;->b:I
+    sget v0, Lkik/arcane/widget/StickerSettingsRecyclerView;->b:I
 
     goto :goto_0
 .end method
@@ -197,7 +197,7 @@
 
     .prologue
     .line 80
-    invoke-virtual {p0}, Lkik/android/widget/StickerSettingsRecyclerView;->getAdapter()Landroid/support/v7/widget/RecyclerView$Adapter;
+    invoke-virtual {p0}, Lkik/arcane/widget/StickerSettingsRecyclerView;->getAdapter()Landroid/support/v7/widget/RecyclerView$Adapter;
 
     move-result-object v0
 
@@ -217,7 +217,7 @@
     const/4 v2, 0x0
 
     .line 86
-    sget v0, Lkik/android/widget/StickerSettingsRecyclerView;->b:I
+    sget v0, Lkik/arcane/widget/StickerSettingsRecyclerView;->b:I
 
     int-to-long v0, v0
 
@@ -226,7 +226,7 @@
     if-nez v0, :cond_0
 
     .line 87
-    invoke-virtual {p0}, Lkik/android/widget/StickerSettingsRecyclerView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/StickerSettingsRecyclerView;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -234,7 +234,7 @@
 
     move-result-object v0
 
-    sget v1, Lkik/android/widget/StickerSettingsRecyclerView;->c:I
+    sget v1, Lkik/arcane/widget/StickerSettingsRecyclerView;->c:I
 
     invoke-virtual {v0, v1, p3, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
@@ -248,7 +248,7 @@
     :cond_0
     new-instance v0, Landroid/view/View;
 
-    invoke-virtual {p0}, Lkik/android/widget/StickerSettingsRecyclerView;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/StickerSettingsRecyclerView;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -277,9 +277,9 @@
     move-result-object v0
 
     .line 2074
-    new-instance v1, Lkik/android/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;
+    new-instance v1, Lkik/arcane/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;
 
-    invoke-direct {v1, p0, v0}, Lkik/android/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;-><init>(Lkik/android/widget/StickerSettingsRecyclerView;Landroid/databinding/ViewDataBinding;)V
+    invoke-direct {v1, p0, v0}, Lkik/arcane/widget/StickerSettingsRecyclerView$StickerSettingsViewHolder;-><init>(Lkik/arcane/widget/StickerSettingsRecyclerView;Landroid/databinding/ViewDataBinding;)V
 
     .line 30
     return-object v1

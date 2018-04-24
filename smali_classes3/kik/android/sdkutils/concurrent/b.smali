@@ -1,4 +1,4 @@
-.class public final Lkik/android/sdkutils/concurrent/b;
+.class public final Lkik/arcane/sdkutils/concurrent/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -33,7 +33,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 11
-    iput-object p1, p0, Lkik/android/sdkutils/concurrent/b;->a:Ljava/lang/Runnable;
+    iput-object p1, p0, Lkik/arcane/sdkutils/concurrent/b;->a:Ljava/lang/Runnable;
 
     .line 12
     return-void
@@ -52,7 +52,7 @@
     .prologue
     .line 5
     .line 1019
-    iget-object v0, p0, Lkik/android/sdkutils/concurrent/b;->a:Ljava/lang/Runnable;
+    iget-object v0, p0, Lkik/arcane/sdkutils/concurrent/b;->a:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
@@ -68,7 +68,7 @@
 
     .prologue
     .line 26
-    iget-object v0, p0, Lkik/android/sdkutils/concurrent/b;->a:Ljava/lang/Runnable;
+    iget-object v0, p0, Lkik/arcane/sdkutils/concurrent/b;->a:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 

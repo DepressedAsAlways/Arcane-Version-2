@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/be;
+.class public final Lkik/arcane/util/be;
 .super Landroid/support/v7/widget/RecyclerView$RecycledViewPool;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/util/be$a;
+        Lkik/arcane/util/be$a;
     }
 .end annotation
 
@@ -18,7 +18,7 @@
             "Ljava/util/Map",
             "<",
             "Ljava/lang/Integer;",
-            "Lkik/android/util/be$a;",
+            "Lkik/arcane/util/be$a;",
             ">;"
         }
     .end annotation
@@ -44,7 +44,7 @@
 
     invoke-direct {v0, v1}, Ljava/util/HashMap;-><init>(I)V
 
-    iput-object v0, p0, Lkik/android/util/be;->b:Ljava/util/Map;
+    iput-object v0, p0, Lkik/arcane/util/be;->b:Ljava/util/Map;
 
     .line 83
     return-void
@@ -57,7 +57,7 @@
 
     .prologue
     .line 126
-    iget-object v0, p0, Lkik/android/util/be;->b:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/util/be;->b:Ljava/util/Map;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -67,7 +67,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/util/be$a;
+    check-cast v0, Lkik/arcane/util/be$a;
 
     .line 128
     if-nez v0, :cond_0
@@ -80,7 +80,7 @@
     return-object v0
 
     :cond_0
-    invoke-virtual {v0}, Lkik/android/util/be$a;->a()Landroid/support/v7/widget/RecyclerView$ViewHolder;
+    invoke-virtual {v0}, Lkik/arcane/util/be$a;->a()Landroid/support/v7/widget/RecyclerView$ViewHolder;
 
     move-result-object v0
 
@@ -92,7 +92,7 @@
 
     .prologue
     .line 144
-    iget-object v0, p0, Lkik/android/util/be;->b:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/util/be;->b:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
@@ -116,22 +116,22 @@
     check-cast v0, Ljava/lang/Integer;
 
     .line 145
-    iget-object v2, p0, Lkik/android/util/be;->b:Ljava/util/Map;
+    iget-object v2, p0, Lkik/arcane/util/be;->b:Ljava/util/Map;
 
     invoke-interface {v2, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/util/be$a;
+    check-cast v0, Lkik/arcane/util/be$a;
 
     .line 146
-    invoke-virtual {v0}, Lkik/android/util/be$a;->b()V
+    invoke-virtual {v0}, Lkik/arcane/util/be$a;->b()V
 
     goto :goto_0
 
     .line 148
     :cond_0
-    iget-object v0, p0, Lkik/android/util/be;->b:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/util/be;->b:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->clear()V
 
@@ -144,12 +144,12 @@
 
     .prologue
     .line 104
-    new-instance v0, Lkik/android/util/be$a;
+    new-instance v0, Lkik/arcane/util/be$a;
 
-    invoke-direct {v0, p2, p3}, Lkik/android/util/be$a;-><init>(II)V
+    invoke-direct {v0, p2, p3}, Lkik/arcane/util/be$a;-><init>(II)V
 
     .line 106
-    iget-object v1, p0, Lkik/android/util/be;->b:Ljava/util/Map;
+    iget-object v1, p0, Lkik/arcane/util/be;->b:Ljava/util/Map;
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -166,10 +166,10 @@
 
     .prologue
     .line 87
-    iput-object p1, p0, Lkik/android/util/be;->c:Landroid/support/v7/widget/RecyclerView$Adapter;
+    iput-object p1, p0, Lkik/arcane/util/be;->c:Landroid/support/v7/widget/RecyclerView$Adapter;
 
     .line 88
-    iput-object p2, p0, Lkik/android/util/be;->d:Landroid/support/v7/widget/RecyclerView;
+    iput-object p2, p0, Lkik/arcane/util/be;->d:Landroid/support/v7/widget/RecyclerView;
 
     .line 89
     return-void
@@ -185,7 +185,7 @@
     move-result v1
 
     .line 113
-    iget-object v0, p0, Lkik/android/util/be;->b:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/util/be;->b:Ljava/util/Map;
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -195,7 +195,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/util/be$a;
+    check-cast v0, Lkik/arcane/util/be$a;
 
     .line 115
     if-nez v0, :cond_0
@@ -205,10 +205,10 @@
 
     const/4 v2, 0x2
 
-    invoke-virtual {p0, v1, v0, v2}, Lkik/android/util/be;->a(III)V
+    invoke-virtual {p0, v1, v0, v2}, Lkik/arcane/util/be;->a(III)V
 
     .line 117
-    iget-object v0, p0, Lkik/android/util/be;->b:Ljava/util/Map;
+    iget-object v0, p0, Lkik/arcane/util/be;->b:Ljava/util/Map;
 
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -218,11 +218,11 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/util/be$a;
+    check-cast v0, Lkik/arcane/util/be$a;
 
     .line 120
     :cond_0
-    invoke-virtual {v0, p1}, Lkik/android/util/be$a;->a(Landroid/support/v7/widget/RecyclerView$ViewHolder;)Z
+    invoke-virtual {v0, p1}, Lkik/arcane/util/be$a;->a(Landroid/support/v7/widget/RecyclerView$ViewHolder;)Z
 
     .line 121
     return-void

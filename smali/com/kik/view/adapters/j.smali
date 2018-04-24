@@ -14,14 +14,14 @@
     value = {
         "Lcom/kik/view/adapters/a",
         "<",
-        "Lkik/android/chat/vm/ai;",
+        "Lkik/arcane/chat/vm/ai;",
         ">;"
     }
 .end annotation
 
 
 # instance fields
-.field protected a:Lcom/kik/android/Mixpanel;
+.field protected a:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -51,7 +51,7 @@
     .end annotation
 .end field
 
-.field protected g:Lkik/android/videochat/c;
+.field protected g:Lkik/arcane/videochat/c;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -78,14 +78,14 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lkik/android/chat/vm/m;Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+.method public constructor <init>(Landroid/content/Context;Lkik/arcane/chat/vm/m;Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
     .locals 1
 
     .prologue
     const/4 v0, 0x1
 
     .line 79
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/kik/view/adapters/a;-><init>(Landroid/content/Context;Lkik/android/chat/vm/IListViewModel;Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/kik/view/adapters/a;-><init>(Landroid/content/Context;Lkik/arcane/chat/vm/IListViewModel;Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
 
     .line 60
     iput-boolean v0, p0, Lcom/kik/view/adapters/j;->j:Z
@@ -198,9 +198,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/widget/EmojiStatusCircleView;
+    check-cast v0, Lkik/arcane/widget/EmojiStatusCircleView;
 
-    iput-object v0, v2, Lcom/kik/view/adapters/j$a;->o:Lkik/android/widget/EmojiStatusCircleView;
+    iput-object v0, v2, Lcom/kik/view/adapters/j$a;->o:Lkik/arcane/widget/EmojiStatusCircleView;
 
     .line 385
     const v0, 0x7f100321
@@ -273,9 +273,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/widget/IconImageView;
+    check-cast v0, Lkik/arcane/widget/IconImageView;
 
-    iput-object v0, v2, Lcom/kik/view/adapters/j$a;->c:Lkik/android/widget/IconImageView;
+    iput-object v0, v2, Lcom/kik/view/adapters/j$a;->c:Lkik/arcane/widget/IconImageView;
 
     .line 392
     const v0, 0x7f10031f
@@ -341,14 +341,14 @@
     check-cast v7, Lcom/kik/view/adapters/j$a;
 
     .line 102
-    invoke-virtual {p0, p1}, Lcom/kik/view/adapters/j;->a(I)Lkik/android/chat/vm/ay;
+    invoke-virtual {p0, p1}, Lcom/kik/view/adapters/j;->a(I)Lkik/arcane/chat/vm/ay;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/vm/ai;
+    check-cast v0, Lkik/arcane/chat/vm/ai;
 
     .line 103
-    invoke-interface {v0}, Lkik/android/chat/vm/ai;->b()Lkik/core/datatypes/f;
+    invoke-interface {v0}, Lkik/arcane/chat/vm/ai;->b()Lkik/core/datatypes/f;
 
     move-result-object v10
 
@@ -403,7 +403,7 @@
     move-result-object v0
 
     .line 112
-    invoke-static {v0}, Lkik/android/util/br;->a(Lkik/core/datatypes/l;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/br;->a(Lkik/core/datatypes/l;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -557,11 +557,11 @@
 
     const/4 v1, 0x1
 
-    invoke-static {v2, v3, v1}, Lkik/android/util/br;->a(JZ)Lkik/android/util/br$a;
+    invoke-static {v2, v3, v1}, Lkik/arcane/util/br;->a(JZ)Lkik/arcane/util/br$a;
 
     move-result-object v1
 
-    iget-object v1, v1, Lkik/android/util/br$a;->a:Ljava/lang/String;
+    iget-object v1, v1, Lkik/arcane/util/br$a;->a:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
@@ -636,11 +636,11 @@
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 169
-    iget-object v0, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/android/widget/IconImageView;
+    iget-object v0, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/arcane/widget/IconImageView;
 
     const/16 v1, 0x8
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/IconImageView;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/IconImageView;->setVisibility(I)V
 
     .line 287
     :goto_3
@@ -681,13 +681,13 @@
 
     iget-object v4, p0, Lcom/kik/view/adapters/j;->c:Lkik/core/interfaces/v;
 
-    iget-object v5, p0, Lcom/kik/view/adapters/j;->a:Lcom/kik/android/Mixpanel;
+    iget-object v5, p0, Lcom/kik/view/adapters/j;->a:Lcom/kik/arcane/Mixpanel;
 
     iget-object v6, p0, Lcom/kik/view/adapters/j;->b:Lkik/core/interfaces/b;
 
     move-object v1, v8
 
-    invoke-virtual/range {v0 .. v6}, Lcom/kik/cache/ContactImageView;->a(Lkik/core/datatypes/l;Lcom/kik/cache/KikVolleyImageLoader;ZLkik/core/interfaces/v;Lcom/kik/android/Mixpanel;Lkik/core/interfaces/b;)V
+    invoke-virtual/range {v0 .. v6}, Lcom/kik/cache/ContactImageView;->a(Lkik/core/datatypes/l;Lcom/kik/cache/KikVolleyImageLoader;ZLkik/core/interfaces/v;Lcom/kik/arcane/Mixpanel;Lkik/core/interfaces/b;)V
 
     .line 298
     iget-object v1, v7, Lcom/kik/view/adapters/j$a;->h:Landroid/widget/ImageView;
@@ -742,17 +742,17 @@
 
     aput-object v2, v0, v1
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 338
     :goto_7
-    iget-object v0, p0, Lcom/kik/view/adapters/j;->g:Lkik/android/videochat/c;
+    iget-object v0, p0, Lcom/kik/view/adapters/j;->g:Lkik/arcane/videochat/c;
 
     if-eqz v0, :cond_34
 
-    iget-object v0, p0, Lcom/kik/view/adapters/j;->g:Lkik/android/videochat/c;
+    iget-object v0, p0, Lcom/kik/view/adapters/j;->g:Lkik/arcane/videochat/c;
 
-    invoke-interface {v0, v8}, Lkik/android/videochat/c;->a(Lkik/core/datatypes/l;)Ljava/util/List;
+    invoke-interface {v0, v8}, Lkik/arcane/videochat/c;->a(Lkik/core/datatypes/l;)Ljava/util/List;
 
     move-result-object v0
 
@@ -773,7 +773,7 @@
 
     aput-object v2, v0, v1
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 340
     const/4 v0, 0x2
@@ -792,7 +792,7 @@
 
     aput-object v2, v0, v1
 
-    invoke-static {v0}, Lkik/android/util/ca;->f([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->f([Landroid/view/View;)V
 
     .line 342
     iget-object v0, v7, Lcom/kik/view/adapters/j$a;->n:Lcom/kik/view/a;
@@ -857,7 +857,7 @@
 
     const/high16 v1, 0x40800000    # 4.0f
 
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v1
 
@@ -865,7 +865,7 @@
 
     .line 372
     :goto_9
-    iget-object v0, v7, Lcom/kik/view/adapters/j$a;->o:Lkik/android/widget/EmojiStatusCircleView;
+    iget-object v0, v7, Lcom/kik/view/adapters/j$a;->o:Lkik/arcane/widget/EmojiStatusCircleView;
 
     .line 3404
     iget-object v1, p0, Lcom/kik/view/adapters/j;->f:Lcom/kik/core/domain/users/a;
@@ -888,7 +888,7 @@
     :cond_8
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/EmojiStatusCircleView;->a(Lkik/core/chat/profile/EmojiStatus;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/EmojiStatusCircleView;->a(Lkik/core/chat/profile/EmojiStatus;)V
 
     .line 3406
     const/4 v1, 0x0
@@ -919,7 +919,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -978,7 +978,7 @@
     :cond_a
     iget-object v1, p0, Lcom/kik/view/adapters/j;->c:Lkik/core/interfaces/v;
 
-    invoke-static {v0, v1}, Lkik/android/util/br;->a(Lkik/core/datatypes/p;Lkik/core/interfaces/v;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lkik/arcane/util/br;->a(Lkik/core/datatypes/p;Lkik/core/interfaces/v;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1076,11 +1076,11 @@
 
     .line 182
     :goto_e
-    iget-object v1, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/android/widget/IconImageView;
+    iget-object v1, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/arcane/widget/IconImageView;
 
     iget-object v2, p0, Lcom/kik/view/adapters/j;->e:Lkik/core/interfaces/n;
 
-    invoke-virtual {v1, v0, v2}, Lkik/android/widget/IconImageView;->a(Ljava/lang/String;Lkik/core/interfaces/n;)V
+    invoke-virtual {v1, v0, v2}, Lkik/arcane/widget/IconImageView;->a(Ljava/lang/String;Lkik/core/interfaces/n;)V
 
     .line 183
     if-eqz v0, :cond_11
@@ -1092,11 +1092,11 @@
     if-eqz v0, :cond_1f
 
     .line 190
-    iget-object v0, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/android/widget/IconImageView;
+    iget-object v0, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/arcane/widget/IconImageView;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/IconImageView;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/IconImageView;->setVisibility(I)V
 
     goto/16 :goto_3
 
@@ -1114,7 +1114,7 @@
 
     .line 186
     :cond_12
-    iget-object v3, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/android/widget/IconImageView;
+    iget-object v3, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/arcane/widget/IconImageView;
 
     iget-object v4, p0, Lcom/kik/view/adapters/j;->e:Lkik/core/interfaces/n;
 
@@ -1124,7 +1124,7 @@
     .line 1050
     const/4 v0, 0x0
 
-    invoke-virtual {v3, v0, v4}, Lkik/android/widget/IconImageView;->a(Ljava/lang/String;Lkik/core/interfaces/n;)V
+    invoke-virtual {v3, v0, v4}, Lkik/arcane/widget/IconImageView;->a(Ljava/lang/String;Lkik/core/interfaces/n;)V
 
     .line 1051
     const/4 v0, 0x0
@@ -1174,7 +1174,7 @@
     .line 1056
     const v0, 0x7f0201f9
 
-    invoke-virtual {v3, v0}, Lkik/android/widget/IconImageView;->setImageResource(I)V
+    invoke-virtual {v3, v0}, Lkik/arcane/widget/IconImageView;->setImageResource(I)V
 
     .line 1057
     const/4 v0, 0x1
@@ -1227,7 +1227,7 @@
     .line 1060
     const v0, 0x7f0201f8
 
-    invoke-virtual {v3, v0}, Lkik/android/widget/IconImageView;->setImageResource(I)V
+    invoke-virtual {v3, v0}, Lkik/arcane/widget/IconImageView;->setImageResource(I)V
 
     .line 1061
     const/4 v0, 0x1
@@ -1254,7 +1254,7 @@
     .line 1064
     const v0, 0x7f0201fa
 
-    invoke-virtual {v3, v0}, Lkik/android/widget/IconImageView;->setImageResource(I)V
+    invoke-virtual {v3, v0}, Lkik/arcane/widget/IconImageView;->setImageResource(I)V
 
     .line 1065
     const/4 v0, 0x1
@@ -1294,7 +1294,7 @@
     :cond_1c
     const/4 v0, 0x0
 
-    invoke-virtual {v3, v0, v4}, Lkik/android/widget/IconImageView;->a(Ljava/lang/String;Lkik/core/interfaces/n;)V
+    invoke-virtual {v3, v0, v4}, Lkik/arcane/widget/IconImageView;->a(Ljava/lang/String;Lkik/core/interfaces/n;)V
 
     move v0, v1
 
@@ -1309,7 +1309,7 @@
 
     move-result-object v1
 
-    invoke-virtual {v3, v1, v4}, Lkik/android/widget/IconImageView;->a(Ljava/lang/String;Lkik/core/interfaces/n;)V
+    invoke-virtual {v3, v1, v4}, Lkik/arcane/widget/IconImageView;->a(Ljava/lang/String;Lkik/core/interfaces/n;)V
 
     .line 1076
     invoke-virtual {v0}, Lkik/core/datatypes/b;->b()Ljava/lang/String;
@@ -1329,11 +1329,11 @@
 
     .line 193
     :cond_1f
-    iget-object v0, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/android/widget/IconImageView;
+    iget-object v0, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/arcane/widget/IconImageView;
 
     const/16 v1, 0x8
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/IconImageView;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/IconImageView;->setVisibility(I)V
 
     goto/16 :goto_3
 
@@ -1355,7 +1355,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1385,11 +1385,11 @@
 
     const/4 v1, 0x0
 
-    iget-object v2, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/android/widget/IconImageView;
+    iget-object v2, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/arcane/widget/IconImageView;
 
     aput-object v2, v0, v1
 
-    invoke-static {v0}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     goto/16 :goto_3
 
@@ -1429,11 +1429,11 @@
 
     const/4 v1, 0x0
 
-    iget-object v2, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/android/widget/IconImageView;
+    iget-object v2, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/arcane/widget/IconImageView;
 
     aput-object v2, v0, v1
 
-    invoke-static {v0}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     goto/16 :goto_3
 
@@ -1463,11 +1463,11 @@
 
     const/4 v1, 0x0
 
-    iget-object v2, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/android/widget/IconImageView;
+    iget-object v2, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/arcane/widget/IconImageView;
 
     aput-object v2, v0, v1
 
-    invoke-static {v0}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     goto/16 :goto_3
 
@@ -1476,18 +1476,18 @@
     const/4 v1, 0x0
 
     .line 216
-    iget-object v0, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/android/widget/IconImageView;
+    iget-object v0, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/arcane/widget/IconImageView;
 
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v2}, Lkik/android/widget/IconImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {v0, v2}, Lkik/arcane/widget/IconImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     .line 217
-    iget-object v0, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/android/widget/IconImageView;
+    iget-object v0, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/arcane/widget/IconImageView;
 
     const/16 v2, 0x8
 
-    invoke-virtual {v0, v2}, Lkik/android/widget/IconImageView;->setVisibility(I)V
+    invoke-virtual {v0, v2}, Lkik/arcane/widget/IconImageView;->setVisibility(I)V
 
     .line 218
     invoke-virtual {v11}, Lkik/core/datatypes/Message;->a()Ljava/lang/String;
@@ -1683,7 +1683,7 @@
 
     move-result v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(I)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(I)I
 
     move-result v3
 
@@ -1693,7 +1693,7 @@
 
     const/4 v6, 0x0
 
-    invoke-static/range {v0 .. v6}, Lcom/kik/android/b/g;->a(Landroid/content/Context;Ljava/lang/CharSequence;Lcom/kik/message/model/attachments/RenderInstructionSet;IZLkik/android/f/i;Z)Ljava/lang/CharSequence;
+    invoke-static/range {v0 .. v6}, Lcom/kik/arcane/b/g;->a(Landroid/content/Context;Ljava/lang/CharSequence;Lcom/kik/message/model/attachments/RenderInstructionSet;IZLkik/arcane/f/i;Z)Ljava/lang/CharSequence;
 
     move-result-object v0
 	
@@ -1739,11 +1739,11 @@
 
     const/4 v1, 0x1
 
-    invoke-static {v2, v3, v1}, Lkik/android/util/br;->a(JZ)Lkik/android/util/br$a;
+    invoke-static {v2, v3, v1}, Lkik/arcane/util/br;->a(JZ)Lkik/arcane/util/br$a;
 
     move-result-object v1
 
-    iget-object v1, v1, Lkik/android/util/br$a;->a:Ljava/lang/String;
+    iget-object v1, v1, Lkik/arcane/util/br$a;->a:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
@@ -1753,25 +1753,25 @@
 
     const v1, 0x7f090532
 
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->e(I)Ljava/lang/String;
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->e(I)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 276
-    iget-object v0, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/android/widget/IconImageView;
+    iget-object v0, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/arcane/widget/IconImageView;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/IconImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/IconImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     .line 277
-    iget-object v0, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/android/widget/IconImageView;
+    iget-object v0, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/arcane/widget/IconImageView;
 
     const/16 v1, 0x8
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/IconImageView;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/IconImageView;->setVisibility(I)V
 
     .line 278
     iget-object v0, v7, Lcom/kik/view/adapters/j$a;->a:Landroid/widget/ImageView;
@@ -1805,18 +1805,18 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
     .line 284
-    iget-object v0, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/android/widget/IconImageView;
+    iget-object v0, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/arcane/widget/IconImageView;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/IconImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/IconImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     .line 285
-    iget-object v0, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/android/widget/IconImageView;
+    iget-object v0, v7, Lcom/kik/view/adapters/j$a;->c:Lkik/arcane/widget/IconImageView;
 
     const/16 v1, 0x8
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/IconImageView;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/IconImageView;->setVisibility(I)V
 
     goto/16 :goto_3
 
@@ -1862,7 +1862,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f02020c
+    const v2, 0x7f070028
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1902,7 +1902,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f02020a
+    const v2, 0x7f070026
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1924,7 +1924,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f02020f
+    const v2, 0x7f07002b
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1946,7 +1946,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f02020e
+    const v2, 0x7f07002a
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1968,7 +1968,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f02020d
+    const v2, 0x7f070029
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -1990,7 +1990,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f020209
+    const v2, 0x7f070025
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -2012,7 +2012,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f02020b
+    const v2, 0x7f070027
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
@@ -2056,7 +2056,7 @@
 
     aput-object v2, v0, v1
 
-    invoke-static {v0}, Lkik/android/util/ca;->f([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->f([Landroid/view/View;)V
 
     goto/16 :goto_7
 
@@ -2072,7 +2072,7 @@
 
     aput-object v2, v0, v1
 
-    invoke-static {v0}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     .line 350
     iget-object v0, v7, Lcom/kik/view/adapters/j$a;->n:Lcom/kik/view/a;
@@ -2101,7 +2101,7 @@
 
     aput-object v2, v0, v1
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 356
     invoke-virtual {v10}, Lkik/core/datatypes/f;->q()Z
@@ -2170,7 +2170,7 @@
     move-result-object v1
 
     .line 3410
-    invoke-static {v0, v1}, Lkik/android/widget/EmojiStatusCircleView;->a(Lkik/android/widget/EmojiStatusCircleView;Lrx/d;)V
+    invoke-static {v0, v1}, Lkik/arcane/widget/EmojiStatusCircleView;->a(Lkik/arcane/widget/EmojiStatusCircleView;Lrx/d;)V
 
     .line 3411
     invoke-static {}, Lcom/kik/view/adapters/l;->a()Lrx/functions/g;

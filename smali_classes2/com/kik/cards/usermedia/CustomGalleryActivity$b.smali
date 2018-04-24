@@ -108,11 +108,11 @@
     :cond_0
     iget-object v0, p0, Lcom/kik/cards/usermedia/CustomGalleryActivity$b;->e:Lcom/kik/cards/usermedia/CustomGalleryActivity;
 
-    invoke-static {v0}, Lcom/kik/cards/usermedia/CustomGalleryActivity;->f(Lcom/kik/cards/usermedia/CustomGalleryActivity;)Lkik/android/widget/UserMediaImageThumbNailList;
+    invoke-static {v0}, Lcom/kik/cards/usermedia/CustomGalleryActivity;->f(Lcom/kik/cards/usermedia/CustomGalleryActivity;)Lkik/arcane/widget/UserMediaImageThumbNailList;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Lkik/android/widget/UserMediaImageThumbNailList;->a(Ljava/lang/Object;)Lcom/kik/events/n;
+    invoke-virtual {v0, p1}, Lkik/arcane/widget/UserMediaImageThumbNailList;->a(Ljava/lang/Object;)Lcom/kik/events/n;
 
     .line 408
     iget-object v0, p0, Lcom/kik/cards/usermedia/CustomGalleryActivity$b;->c:Ljava/util/Map;
@@ -150,7 +150,7 @@
 
     aput-object v0, v1, v2
 
-    invoke-static {v1}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v1}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     .line 414
     :cond_1
@@ -325,7 +325,7 @@
 
     aput-object v0, v1, v9
 
-    invoke-static {v1}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v1}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 400
     :goto_0
@@ -346,7 +346,7 @@
 
     aput-object v0, v1, v9
 
-    invoke-static {v1}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v1}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     goto :goto_0
 .end method

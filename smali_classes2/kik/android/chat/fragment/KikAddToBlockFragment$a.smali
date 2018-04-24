@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/fragment/KikAddToBlockFragment$a;
-.super Lkik/android/chat/fragment/KikContactsListFragment$a;
+.class public final Lkik/arcane/chat/fragment/KikAddToBlockFragment$a;
+.super Lkik/arcane/chat/fragment/KikContactsListFragment$a;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikAddToBlockFragment;
+    value = Lkik/arcane/chat/fragment/KikAddToBlockFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
 
     .prologue
     .line 191
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikContactsListFragment$a;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikContactsListFragment$a;-><init>()V
 
     return-void
 .end method

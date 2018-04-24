@@ -19,7 +19,7 @@
 
 .field b:Landroid/widget/ImageView;
 
-.field c:Lkik/android/widget/IconImageView;
+.field c:Lkik/arcane/widget/IconImageView;
 
 .field d:Landroid/widget/TextView;
 
@@ -43,7 +43,7 @@
 
 .field n:Lcom/kik/view/a;
 
-.field o:Lkik/android/widget/EmojiStatusCircleView;
+.field o:Lkik/arcane/widget/EmojiStatusCircleView;
 
 
 # direct methods

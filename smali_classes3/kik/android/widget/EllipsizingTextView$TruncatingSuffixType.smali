@@ -1,11 +1,11 @@
-.class public final enum Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;
+.class public final enum Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;
 .super Ljava/lang/Enum;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/EllipsizingTextView;
+    value = Lkik/arcane/widget/EllipsizingTextView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,18 +17,18 @@
     value = {
         "Ljava/lang/Enum",
         "<",
-        "Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;",
+        "Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;",
         ">;"
     }
 .end annotation
 
 
 # static fields
-.field private static final synthetic $VALUES:[Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;
+.field private static final synthetic $VALUES:[Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;
 
-.field public static final enum TRUNCATING_SUFFIX_TYPE_CUSTOM:Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;
+.field public static final enum TRUNCATING_SUFFIX_TYPE_CUSTOM:Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;
 
-.field public static final enum TRUNCATING_SUFFIX_TYPE_ELLIPSES:Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;
+.field public static final enum TRUNCATING_SUFFIX_TYPE_ELLIPSES:Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;
 
 
 # direct methods
@@ -41,37 +41,37 @@
     const/4 v2, 0x0
 
     .line 31
-    new-instance v0, Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;
+    new-instance v0, Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;
 
     const-string v1, "TRUNCATING_SUFFIX_TYPE_ELLIPSES"
 
-    invoke-direct {v0, v1, v2}, Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;->TRUNCATING_SUFFIX_TYPE_ELLIPSES:Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;
+    sput-object v0, Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;->TRUNCATING_SUFFIX_TYPE_ELLIPSES:Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;
 
     .line 32
-    new-instance v0, Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;
+    new-instance v0, Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;
 
     const-string v1, "TRUNCATING_SUFFIX_TYPE_CUSTOM"
 
-    invoke-direct {v0, v1, v3}, Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v3}, Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;->TRUNCATING_SUFFIX_TYPE_CUSTOM:Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;
+    sput-object v0, Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;->TRUNCATING_SUFFIX_TYPE_CUSTOM:Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;
 
     .line 29
     const/4 v0, 0x2
 
-    new-array v0, v0, [Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;
+    new-array v0, v0, [Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;
 
-    sget-object v1, Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;->TRUNCATING_SUFFIX_TYPE_ELLIPSES:Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;
+    sget-object v1, Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;->TRUNCATING_SUFFIX_TYPE_ELLIPSES:Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;->TRUNCATING_SUFFIX_TYPE_CUSTOM:Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;
+    sget-object v1, Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;->TRUNCATING_SUFFIX_TYPE_CUSTOM:Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;
 
     aput-object v1, v0, v3
 
-    sput-object v0, Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;->$VALUES:[Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;
+    sput-object v0, Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;->$VALUES:[Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;
 
     return-void
 .end method
@@ -91,34 +91,34 @@
     return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;
+.method public static valueOf(Ljava/lang/String;)Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;
     .locals 1
 
     .prologue
     .line 29
-    const-class v0, Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;
+    const-class v0, Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;
+    check-cast v0, Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;
 
     return-object v0
 .end method
 
-.method public static values()[Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;
+.method public static values()[Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;
     .locals 1
 
     .prologue
     .line 29
-    sget-object v0, Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;->$VALUES:[Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;
+    sget-object v0, Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;->$VALUES:[Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;
 
-    invoke-virtual {v0}, [Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkik/android/widget/EllipsizingTextView$TruncatingSuffixType;
+    check-cast v0, [Lkik/arcane/widget/EllipsizingTextView$TruncatingSuffixType;
 
     return-object v0
 .end method

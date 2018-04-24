@@ -1,11 +1,11 @@
-.class public abstract Lkik/android/widget/dn$c;
+.class public abstract Lkik/arcane/widget/dn$c;
 .super Landroid/support/v7/widget/RecyclerView$ViewHolder;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/dn;
+    value = Lkik/arcane/widget/dn;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -48,7 +48,7 @@
 
     .prologue
     .line 60
-    iget-object v0, p0, Lkik/android/widget/dn$c;->itemView:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/dn$c;->itemView:Landroid/view/View;
 
     invoke-static {v0}, Landroid/databinding/DataBindingUtil;->getBinding(Landroid/view/View;)Landroid/databinding/ViewDataBinding;
 
@@ -63,7 +63,7 @@
     invoke-virtual {v0}, Landroid/databinding/ViewDataBinding;->executePendingBindings()V
 
     .line 64
-    iget-object v0, p0, Lkik/android/widget/dn$c;->itemView:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/widget/dn$c;->itemView:Landroid/view/View;
 
     return-object v0
 .end method

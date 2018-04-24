@@ -1,4 +1,4 @@
-.class public final Lkik/android/widget/bn;
+.class public final Lkik/arcane/widget/bn;
 .super Landroid/support/v7/widget/RecyclerView$ItemDecoration;
 .source "SourceFile"
 
@@ -8,11 +8,11 @@
 
 .field private b:I
 
-.field private c:Lkik/android/chat/vm/widget/v;
+.field private c:Lkik/arcane/chat/vm/widget/v;
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lkik/android/chat/vm/widget/v;)V
+.method public constructor <init>(Landroid/content/Context;Lkik/arcane/chat/vm/widget/v;)V
     .locals 1
 
     .prologue
@@ -26,19 +26,19 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/bn;->a:Landroid/graphics/drawable/Drawable;
+    iput-object v0, p0, Lkik/arcane/widget/bn;->a:Landroid/graphics/drawable/Drawable;
 
     .line 26
-    iget-object v0, p0, Lkik/android/widget/bn;->a:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/widget/bn;->a:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/widget/bn;->b:I
+    iput v0, p0, Lkik/arcane/widget/bn;->b:I
 
     .line 27
-    iput-object p2, p0, Lkik/android/widget/bn;->c:Lkik/android/chat/vm/widget/v;
+    iput-object p2, p0, Lkik/arcane/widget/bn;->c:Lkik/arcane/chat/vm/widget/v;
 
     .line 28
     return-void
@@ -58,7 +58,7 @@
     .line 40
     const/high16 v0, 0x42800000    # 64.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
@@ -111,9 +111,9 @@
     move-result v0
 
     .line 54
-    iget-object v1, p0, Lkik/android/widget/bn;->c:Lkik/android/chat/vm/widget/v;
+    iget-object v1, p0, Lkik/arcane/widget/bn;->c:Lkik/arcane/chat/vm/widget/v;
 
-    invoke-interface {v1, v0}, Lkik/android/chat/vm/widget/v;->a_(I)Z
+    invoke-interface {v1, v0}, Lkik/arcane/chat/vm/widget/v;->a_(I)Z
 
     move-result v0
 
@@ -149,17 +149,17 @@
     add-int/2addr v0, v7
 
     .line 64
-    iget v7, p0, Lkik/android/widget/bn;->b:I
+    iget v7, p0, Lkik/arcane/widget/bn;->b:I
 
     add-int/2addr v7, v0
 
     .line 66
-    iget-object v8, p0, Lkik/android/widget/bn;->a:Landroid/graphics/drawable/Drawable;
+    iget-object v8, p0, Lkik/arcane/widget/bn;->a:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v8, v1, v0, v5, v7}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
     .line 67
-    iget-object v0, p0, Lkik/android/widget/bn;->a:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lkik/arcane/widget/bn;->a:Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
@@ -187,7 +187,7 @@
 
     .prologue
     .line 33
-    iget v0, p0, Lkik/android/widget/bn;->b:I
+    iget v0, p0, Lkik/arcane/widget/bn;->b:I
 
     iput v0, p1, Landroid/graphics/Rect;->bottom:I
 

@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/KikRegistrationFragmentAbstract$5;
+.class final Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract$5;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;->onAttach(Landroid/app/Activity;)V
+    value = Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;->onAttach(Landroid/app/Activity;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;)V
     .locals 0
 
     .prologue
     .line 521
-    iput-object p1, p0, Lkik/android/chat/fragment/KikRegistrationFragmentAbstract$5;->a:Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract$5;->a:Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -51,9 +51,9 @@
 
     .prologue
     .line 525
-    iget-object v0, p0, Lkik/android/chat/fragment/KikRegistrationFragmentAbstract$5;->a:Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract$5;->a:Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikRegistrationFragmentAbstract;->d()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikRegistrationFragmentAbstract;->d()V
 
     .line 526
     return-void

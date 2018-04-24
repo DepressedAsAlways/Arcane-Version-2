@@ -1,4 +1,4 @@
-.class public Lkik/android/FileSizeTooLargeException;
+.class public Lkik/arcane/FileSizeTooLargeException;
 .super Ljava/lang/Exception;
 .source "SourceFile"
 

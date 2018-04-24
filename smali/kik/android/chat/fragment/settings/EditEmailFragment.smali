@@ -1,18 +1,18 @@
-.class public Lkik/android/chat/fragment/settings/EditEmailFragment;
-.super Lkik/android/chat/fragment/KikScopedDialogFragment;
+.class public Lkik/arcane/chat/fragment/settings/EditEmailFragment;
+.super Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/fragment/settings/EditEmailFragment$a;
+        Lkik/arcane/chat/fragment/settings/EditEmailFragment$a;
     }
 .end annotation
 
 
 # instance fields
-.field protected _emailInput:Lkik/android/chat/view/ValidateableInputView;
+.field protected _emailInput:Lkik/arcane/chat/view/ValidateableInputView;
     .annotation build Lbutterknife/BindView;
         value = 0x7f1001de
     .end annotation
@@ -51,30 +51,30 @@
 
     .prologue
     .line 41
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikScopedDialogFragment;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;-><init>()V
 
     .line 51
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->c:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->c:Z
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/settings/EditEmailFragment;Ljava/lang/String;)Ljava/lang/String;
+.method static synthetic a(Lkik/arcane/chat/fragment/settings/EditEmailFragment;Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
     .prologue
     .line 85
     .line 1209
-    invoke-static {p1}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {p1}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 1210
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->_saveButton:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->_saveButton:Landroid/view/View;
 
     const/4 v1, 0x0
 
@@ -86,7 +86,7 @@
 
     .line 1213
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->d:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->d:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -97,13 +97,13 @@
     .line 1214
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->c:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->c:Z
 
     .line 1216
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->_saveButton:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->_saveButton:Landroid/view/View;
 
-    iget-boolean v1, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->c:Z
+    iget-boolean v1, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->c:Z
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setEnabled(Z)V
 
@@ -138,19 +138,19 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/settings/EditEmailFragment;)V
+.method static synthetic a(Lkik/arcane/chat/fragment/settings/EditEmailFragment;)V
     .locals 1
 
     .prologue
     .line 106
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->_emailInput:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->_emailInput:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0, p0}, Lkik/android/chat/view/ValidateableInputView;->a(Lkik/android/util/KeyboardManipulator;)V
+    invoke-virtual {v0, p0}, Lkik/arcane/chat/view/ValidateableInputView;->a(Lkik/arcane/util/KeyboardManipulator;)V
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/settings/EditEmailFragment;Lkik/core/datatypes/aa;Landroid/content/DialogInterface;)V
+.method static synthetic a(Lkik/arcane/chat/fragment/settings/EditEmailFragment;Lkik/core/datatypes/aa;Landroid/content/DialogInterface;)V
     .locals 4
 
     .prologue
@@ -170,7 +170,7 @@
     move-result-object v0
 
     .line 133
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->b:Lkik/core/interfaces/ICommunication;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->b:Lkik/core/interfaces/ICommunication;
 
     invoke-interface {v1, v0}, Lkik/core/interfaces/ICommunication;->a(Lkik/core/net/outgoing/j;)Lcom/kik/events/Promise;
 
@@ -178,7 +178,7 @@
     invoke-interface {p2}, Landroid/content/DialogInterface;->cancel()V
 
     .line 135
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/EditEmailFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v0
 
@@ -186,13 +186,13 @@
 
     const-wide/16 v2, 0x3e8
 
-    invoke-virtual {p0, v0, v1, v2, v3}, Lkik/android/chat/fragment/settings/EditEmailFragment;->showTimedProgressDialog(Landroid/content/Context;IJ)Lcom/kik/events/Promise;
+    invoke-virtual {p0, v0, v1, v2, v3}, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->showTimedProgressDialog(Landroid/content/Context;IJ)Lcom/kik/events/Promise;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/chat/fragment/settings/EditEmailFragment$2;
+    new-instance v1, Lkik/arcane/chat/fragment/settings/EditEmailFragment$2;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/fragment/settings/EditEmailFragment$2;-><init>(Lkik/android/chat/fragment/settings/EditEmailFragment;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/fragment/settings/EditEmailFragment$2;-><init>(Lkik/arcane/chat/fragment/settings/EditEmailFragment;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -217,14 +217,14 @@
 
     .prologue
     .line 63
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/EditEmailFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 
-    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/fragment/settings/EditEmailFragment;)V
+    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/fragment/settings/EditEmailFragment;)V
 
     .line 64
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onCreate(Landroid/os/Bundle;)V
 
     .line 65
     return-void
@@ -247,7 +247,7 @@
     invoke-static {p0, v0}, Lbutterknife/ButterKnife;->bind(Ljava/lang/Object;Landroid/view/View;)Lbutterknife/Unbinder;
 
     .line 80
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->a:Lkik/core/interfaces/ag;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->a:Lkik/core/interfaces/ag;
 
     invoke-interface {v1}, Lkik/core/interfaces/ag;->d()Lkik/core/datatypes/aa;
 
@@ -256,32 +256,32 @@
     .line 82
     iget-object v2, v1, Lkik/core/datatypes/aa;->a:Ljava/lang/String;
 
-    iput-object v2, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->d:Ljava/lang/String;
+    iput-object v2, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->d:Ljava/lang/String;
 
     .line 83
-    iget-object v2, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->_emailInput:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->_emailInput:Lkik/arcane/chat/view/ValidateableInputView;
 
-    iget-object v3, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->d:Ljava/lang/String;
+    iget-object v3, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->d:Ljava/lang/String;
 
-    invoke-virtual {v2, v3}, Lkik/android/chat/view/ValidateableInputView;->e(Ljava/lang/CharSequence;)V
+    invoke-virtual {v2, v3}, Lkik/arcane/chat/view/ValidateableInputView;->e(Ljava/lang/CharSequence;)V
 
     .line 84
-    iget-object v2, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->_emailInput:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->_emailInput:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-static {p0}, Lkik/android/chat/fragment/settings/a;->a(Lkik/android/chat/fragment/settings/EditEmailFragment;)Lkik/android/chat/view/ValidateableInputView$a;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/settings/a;->a(Lkik/arcane/chat/fragment/settings/EditEmailFragment;)Lkik/arcane/chat/view/ValidateableInputView$a;
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Lkik/android/chat/view/ValidateableInputView;->a(Lkik/android/chat/view/ValidateableInputView$a;)V
+    invoke-virtual {v2, v3}, Lkik/arcane/chat/view/ValidateableInputView;->a(Lkik/arcane/chat/view/ValidateableInputView$a;)V
 
     .line 89
-    iget-object v2, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->_emailInput:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->_emailInput:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-static {}, Lkik/android/chat/fragment/settings/b;->a()Lkik/android/chat/view/ValidateableInputView$b;
+    invoke-static {}, Lkik/arcane/chat/fragment/settings/b;->a()Lkik/arcane/chat/view/ValidateableInputView$b;
 
     move-result-object v3
 
-    invoke-virtual {v2, v3}, Lkik/android/chat/view/ValidateableInputView;->a(Lkik/android/chat/view/ValidateableInputView$b;)V
+    invoke-virtual {v2, v3}, Lkik/arcane/chat/view/ValidateableInputView;->a(Lkik/arcane/chat/view/ValidateableInputView$b;)V
 
     .line 90
     iget-object v1, v1, Lkik/core/datatypes/aa;->b:Ljava/lang/Boolean;
@@ -293,9 +293,9 @@
     if-eqz v1, :cond_0
 
     .line 91
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->_emailStatus:Landroid/widget/TextView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->_emailStatus:Landroid/widget/TextView;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/EditEmailFragment;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
@@ -308,9 +308,9 @@
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 92
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->_emailStatus:Landroid/widget/TextView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->_emailStatus:Landroid/widget/TextView;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/EditEmailFragment;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
@@ -328,9 +328,9 @@
 
     .line 95
     :cond_0
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->_emailStatus:Landroid/widget/TextView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->_emailStatus:Landroid/widget/TextView;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/EditEmailFragment;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
@@ -343,9 +343,9 @@
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 96
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->_emailStatus:Landroid/widget/TextView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->_emailStatus:Landroid/widget/TextView;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/EditEmailFragment;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
@@ -370,7 +370,7 @@
 
     .prologue
     .line 112
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->a:Lkik/core/interfaces/ag;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->a:Lkik/core/interfaces/ag;
 
     invoke-interface {v0}, Lkik/core/interfaces/ag;->d()Lkik/core/datatypes/aa;
 
@@ -386,7 +386,7 @@
     if-eqz v1, :cond_0
 
     .line 118
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/EditEmailFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v0
 
@@ -394,13 +394,13 @@
 
     const-wide/16 v2, 0x3e8
 
-    invoke-virtual {p0, v0, v1, v2, v3}, Lkik/android/chat/fragment/settings/EditEmailFragment;->showTimedProgressDialog(Landroid/content/Context;IJ)Lcom/kik/events/Promise;
+    invoke-virtual {p0, v0, v1, v2, v3}, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->showTimedProgressDialog(Landroid/content/Context;IJ)Lcom/kik/events/Promise;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/chat/fragment/settings/EditEmailFragment$1;
+    new-instance v1, Lkik/arcane/chat/fragment/settings/EditEmailFragment$1;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/fragment/settings/EditEmailFragment$1;-><init>(Lkik/android/chat/fragment/settings/EditEmailFragment;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/fragment/settings/EditEmailFragment$1;-><init>(Lkik/arcane/chat/fragment/settings/EditEmailFragment;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -410,57 +410,57 @@
 
     .line 127
     :cond_0
-    new-instance v1, Lkik/android/chat/fragment/KikDialogFragment$a;
+    new-instance v1, Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
-    invoke-direct {v1}, Lkik/android/chat/fragment/KikDialogFragment$a;-><init>()V
+    invoke-direct {v1}, Lkik/arcane/chat/fragment/KikDialogFragment$a;-><init>()V
 
     .line 128
     const v2, 0x7f09013d
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikDialogFragment$a;->a(I)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a(I)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     move-result-object v2
 
     const v3, 0x7f0904e4
 
     .line 129
-    invoke-virtual {v2, v3}, Lkik/android/chat/fragment/KikDialogFragment$a;->b(I)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v2, v3}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->b(I)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     move-result-object v2
 
     const/4 v3, 0x0
 
     .line 130
-    invoke-virtual {v2, v3}, Lkik/android/chat/fragment/KikDialogFragment$a;->b(Z)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v2, v3}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->b(Z)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     move-result-object v2
 
     const v3, 0x7f090489
 
-    invoke-static {p0, v0}, Lkik/android/chat/fragment/settings/d;->a(Lkik/android/chat/fragment/settings/EditEmailFragment;Lkik/core/datatypes/aa;)Landroid/content/DialogInterface$OnClickListener;
+    invoke-static {p0, v0}, Lkik/arcane/chat/fragment/settings/d;->a(Lkik/arcane/chat/fragment/settings/EditEmailFragment;Lkik/core/datatypes/aa;)Landroid/content/DialogInterface$OnClickListener;
 
     move-result-object v0
 
     .line 131
-    invoke-virtual {v2, v3, v0}, Lkik/android/chat/fragment/KikDialogFragment$a;->a(ILandroid/content/DialogInterface$OnClickListener;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v2, v3, v0}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a(ILandroid/content/DialogInterface$OnClickListener;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     move-result-object v0
 
     const v2, 0x7f09042c
 
-    invoke-static {}, Lkik/android/chat/fragment/settings/e;->a()Landroid/content/DialogInterface$OnClickListener;
+    invoke-static {}, Lkik/arcane/chat/fragment/settings/e;->a()Landroid/content/DialogInterface$OnClickListener;
 
     move-result-object v3
 
     .line 142
-    invoke-virtual {v0, v2, v3}, Lkik/android/chat/fragment/KikDialogFragment$a;->b(ILandroid/content/DialogInterface$OnClickListener;)Lkik/android/chat/fragment/KikDialogFragment$a;
+    invoke-virtual {v0, v2, v3}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->b(ILandroid/content/DialogInterface$OnClickListener;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
 
     .line 143
-    invoke-virtual {v1}, Lkik/android/chat/fragment/KikDialogFragment$a;->a()Lkik/android/chat/fragment/KikDialogFragment;
+    invoke-virtual {v1}, Lkik/arcane/chat/fragment/KikDialogFragment$a;->a()Lkik/arcane/chat/fragment/KikDialogFragment;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/settings/EditEmailFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     goto :goto_0
 .end method
@@ -470,16 +470,16 @@
 
     .prologue
     .line 105
-    invoke-super {p0}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onResume()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onResume()V
 
     .line 106
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->_emailInput:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->_emailInput:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-static {p0}, Lkik/android/chat/fragment/settings/c;->a(Lkik/android/chat/fragment/settings/EditEmailFragment;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/settings/c;->a(Lkik/arcane/chat/fragment/settings/EditEmailFragment;)Ljava/lang/Runnable;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/view/ValidateableInputView;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/view/ValidateableInputView;->post(Ljava/lang/Runnable;)Z
 
     .line 107
     return-void
@@ -495,12 +495,12 @@
 
     .prologue
     .line 150
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/EditEmailFragment;->hideKeyboard()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->hideKeyboard()V
 
     .line 151
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->_emailInput:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->_emailInput:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
+    invoke-virtual {v0}, Lkik/arcane/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
 
     move-result-object v0
 
@@ -519,16 +519,16 @@
     if-nez v1, :cond_0
 
     .line 154
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->_emailInput:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->_emailInput:Lkik/arcane/chat/view/ValidateableInputView;
 
     const v1, 0x7f090137
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/view/ValidateableInputView;->b(I)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/view/ValidateableInputView;->b(I)V
 
     .line 155
-    iget-object v0, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->_emailInput:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->_emailInput:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/ValidateableInputView;->k()V
+    invoke-virtual {v0}, Lkik/arcane/chat/view/ValidateableInputView;->k()V
 
     .line 205
     :goto_0
@@ -536,7 +536,7 @@
 
     .line 159
     :cond_0
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->d:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->d:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -545,20 +545,20 @@
     if-eqz v1, :cond_1
 
     .line 160
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/EditEmailFragment;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->finish()V
 
     goto :goto_0
 
     .line 164
     :cond_1
-    iget-object v1, p0, Lkik/android/chat/fragment/settings/EditEmailFragment;->a:Lkik/core/interfaces/ag;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->a:Lkik/core/interfaces/ag;
 
     invoke-interface {v1, v0}, Lkik/core/interfaces/ag;->a(Ljava/lang/String;)Lcom/kik/events/Promise;
 
     move-result-object v1
 
     .line 166
-    invoke-virtual {p0}, Lkik/android/chat/fragment/settings/EditEmailFragment;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/settings/EditEmailFragment;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
@@ -572,12 +572,12 @@
 
     move-result-object v3
 
-    invoke-static {v2, v3, p0}, Lkik/android/widget/preferences/KikPreference;->a(Ljava/lang/String;Lcom/kik/events/Promise;Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+    invoke-static {v2, v3, p0}, Lkik/arcane/widget/preferences/KikPreference;->a(Ljava/lang/String;Lcom/kik/events/Promise;Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
 
     .line 168
-    new-instance v2, Lkik/android/chat/fragment/settings/EditEmailFragment$3;
+    new-instance v2, Lkik/arcane/chat/fragment/settings/EditEmailFragment$3;
 
-    invoke-direct {v2, p0, v0}, Lkik/android/chat/fragment/settings/EditEmailFragment$3;-><init>(Lkik/android/chat/fragment/settings/EditEmailFragment;Ljava/lang/String;)V
+    invoke-direct {v2, p0, v0}, Lkik/arcane/chat/fragment/settings/EditEmailFragment$3;-><init>(Lkik/arcane/chat/fragment/settings/EditEmailFragment;Ljava/lang/String;)V
 
     invoke-static {v2}, Lcom/kik/sdkutils/b;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 

@@ -1,4 +1,4 @@
-.class final Lkik/android/b$a;
+.class final Lkik/arcane/b$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/b;
+    value = Lkik/arcane/b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -39,7 +39,7 @@
     .end annotation
 .end field
 
-.field final synthetic b:Lkik/android/b;
+.field final synthetic b:Lkik/arcane/b;
 
 .field private final c:Landroid/database/Cursor;
 
@@ -51,7 +51,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/b;Landroid/database/Cursor;Landroid/database/Cursor;Lcom/google/common/hash/BloomFilter;)V
+.method public constructor <init>(Lkik/arcane/b;Landroid/database/Cursor;Landroid/database/Cursor;Lcom/google/common/hash/BloomFilter;)V
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -71,31 +71,31 @@
     const/4 v0, 0x0
 
     .line 63
-    iput-object p1, p0, Lkik/android/b$a;->b:Lkik/android/b;
+    iput-object p1, p0, Lkik/arcane/b$a;->b:Lkik/arcane/b;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 59
-    iput-boolean v0, p0, Lkik/android/b$a;->e:Z
+    iput-boolean v0, p0, Lkik/arcane/b$a;->e:Z
 
     .line 60
-    iput-boolean v0, p0, Lkik/android/b$a;->f:Z
+    iput-boolean v0, p0, Lkik/arcane/b$a;->f:Z
 
     .line 64
-    iput-object p3, p0, Lkik/android/b$a;->c:Landroid/database/Cursor;
+    iput-object p3, p0, Lkik/arcane/b$a;->c:Landroid/database/Cursor;
 
     .line 65
-    iput-object p2, p0, Lkik/android/b$a;->d:Landroid/database/Cursor;
+    iput-object p2, p0, Lkik/arcane/b$a;->d:Landroid/database/Cursor;
 
     .line 66
-    iput-object p4, p0, Lkik/android/b$a;->a:Lcom/google/common/hash/BloomFilter;
+    iput-object p4, p0, Lkik/arcane/b$a;->a:Lcom/google/common/hash/BloomFilter;
 
     .line 68
-    iget-object v0, p0, Lkik/android/b$a;->c:Landroid/database/Cursor;
+    iget-object v0, p0, Lkik/arcane/b$a;->c:Landroid/database/Cursor;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/b$a;->c:Landroid/database/Cursor;
+    iget-object v0, p0, Lkik/arcane/b$a;->c:Landroid/database/Cursor;
 
     invoke-interface {v0}, Landroid/database/Cursor;->moveToFirst()Z
 
@@ -105,15 +105,15 @@
 
     .line 69
     :cond_0
-    iput-boolean v1, p0, Lkik/android/b$a;->e:Z
+    iput-boolean v1, p0, Lkik/arcane/b$a;->e:Z
 
     .line 71
     :cond_1
-    iget-object v0, p0, Lkik/android/b$a;->d:Landroid/database/Cursor;
+    iget-object v0, p0, Lkik/arcane/b$a;->d:Landroid/database/Cursor;
 
     if-eqz v0, :cond_2
 
-    iget-object v0, p0, Lkik/android/b$a;->d:Landroid/database/Cursor;
+    iget-object v0, p0, Lkik/arcane/b$a;->d:Landroid/database/Cursor;
 
     invoke-interface {v0}, Landroid/database/Cursor;->moveToFirst()Z
 
@@ -123,16 +123,16 @@
 
     .line 72
     :cond_2
-    iput-boolean v1, p0, Lkik/android/b$a;->f:Z
+    iput-boolean v1, p0, Lkik/arcane/b$a;->f:Z
 
     .line 76
     :cond_3
-    iget-boolean v0, p0, Lkik/android/b$a;->e:Z
+    iget-boolean v0, p0, Lkik/arcane/b$a;->e:Z
 
     if-nez v0, :cond_7
 
     .line 77
-    iget-object v0, p0, Lkik/android/b$a;->c:Landroid/database/Cursor;
+    iget-object v0, p0, Lkik/arcane/b$a;->c:Landroid/database/Cursor;
 
     .line 1029
     const-string v1, "data1"
@@ -144,7 +144,7 @@
 
     .line 79
     :cond_4
-    iget-object v1, p0, Lkik/android/b$a;->c:Landroid/database/Cursor;
+    iget-object v1, p0, Lkik/arcane/b$a;->c:Landroid/database/Cursor;
 
     invoke-interface {v1, v0}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
@@ -153,7 +153,7 @@
     .line 80
     if-eqz v1, :cond_5
 
-    invoke-direct {p0, v1}, Lkik/android/b$a;->a(Ljava/lang/String;)Z
+    invoke-direct {p0, v1}, Lkik/arcane/b$a;->a(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -161,12 +161,12 @@
 
     .line 84
     :cond_5
-    iget-object v1, p0, Lkik/android/b$a;->c:Landroid/database/Cursor;
+    iget-object v1, p0, Lkik/arcane/b$a;->c:Landroid/database/Cursor;
 
     invoke-interface {v1}, Landroid/database/Cursor;->moveToNext()Z
 
     .line 85
-    iget-object v1, p0, Lkik/android/b$a;->c:Landroid/database/Cursor;
+    iget-object v1, p0, Lkik/arcane/b$a;->c:Landroid/database/Cursor;
 
     invoke-interface {v1}, Landroid/database/Cursor;->isAfterLast()Z
 
@@ -176,22 +176,22 @@
 
     .line 86
     :cond_6
-    iget-object v0, p0, Lkik/android/b$a;->c:Landroid/database/Cursor;
+    iget-object v0, p0, Lkik/arcane/b$a;->c:Landroid/database/Cursor;
 
     invoke-interface {v0}, Landroid/database/Cursor;->isAfterLast()Z
 
     move-result v0
 
-    iput-boolean v0, p0, Lkik/android/b$a;->e:Z
+    iput-boolean v0, p0, Lkik/arcane/b$a;->e:Z
 
     .line 88
     :cond_7
-    iget-boolean v0, p0, Lkik/android/b$a;->f:Z
+    iget-boolean v0, p0, Lkik/arcane/b$a;->f:Z
 
     if-nez v0, :cond_b
 
     .line 89
-    iget-object v0, p0, Lkik/android/b$a;->d:Landroid/database/Cursor;
+    iget-object v0, p0, Lkik/arcane/b$a;->d:Landroid/database/Cursor;
 
     .line 2024
     const-string v1, "data1"
@@ -203,7 +203,7 @@
 
     .line 91
     :cond_8
-    iget-object v1, p0, Lkik/android/b$a;->d:Landroid/database/Cursor;
+    iget-object v1, p0, Lkik/arcane/b$a;->d:Landroid/database/Cursor;
 
     invoke-interface {v1, v0}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
@@ -216,7 +216,7 @@
     .line 92
     if-eqz v1, :cond_9
 
-    invoke-direct {p0, v1}, Lkik/android/b$a;->a(Ljava/lang/String;)Z
+    invoke-direct {p0, v1}, Lkik/arcane/b$a;->a(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -224,12 +224,12 @@
 
     .line 96
     :cond_9
-    iget-object v1, p0, Lkik/android/b$a;->d:Landroid/database/Cursor;
+    iget-object v1, p0, Lkik/arcane/b$a;->d:Landroid/database/Cursor;
 
     invoke-interface {v1}, Landroid/database/Cursor;->moveToNext()Z
 
     .line 97
-    iget-object v1, p0, Lkik/android/b$a;->d:Landroid/database/Cursor;
+    iget-object v1, p0, Lkik/arcane/b$a;->d:Landroid/database/Cursor;
 
     invoke-interface {v1}, Landroid/database/Cursor;->isAfterLast()Z
 
@@ -239,13 +239,13 @@
 
     .line 98
     :cond_a
-    iget-object v0, p0, Lkik/android/b$a;->d:Landroid/database/Cursor;
+    iget-object v0, p0, Lkik/arcane/b$a;->d:Landroid/database/Cursor;
 
     invoke-interface {v0}, Landroid/database/Cursor;->isAfterLast()Z
 
     move-result v0
 
-    iput-boolean v0, p0, Lkik/android/b$a;->f:Z
+    iput-boolean v0, p0, Lkik/arcane/b$a;->f:Z
 
     .line 100
     :cond_b
@@ -267,11 +267,11 @@
     return v0
 
     :cond_1
-    iget-object v1, p0, Lkik/android/b$a;->a:Lcom/google/common/hash/BloomFilter;
+    iget-object v1, p0, Lkik/arcane/b$a;->a:Lcom/google/common/hash/BloomFilter;
 
     if-eqz v1, :cond_2
 
-    iget-object v1, p0, Lkik/android/b$a;->a:Lcom/google/common/hash/BloomFilter;
+    iget-object v1, p0, Lkik/arcane/b$a;->a:Lcom/google/common/hash/BloomFilter;
 
     invoke-virtual {v1, p1}, Lcom/google/common/hash/BloomFilter;->a(Ljava/lang/Object;)Z
 
@@ -300,11 +300,11 @@
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
     .line 155
-    iget-object v0, p0, Lkik/android/b$a;->c:Landroid/database/Cursor;
+    iget-object v0, p0, Lkik/arcane/b$a;->c:Landroid/database/Cursor;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/b$a;->c:Landroid/database/Cursor;
+    iget-object v0, p0, Lkik/arcane/b$a;->c:Landroid/database/Cursor;
 
     invoke-interface {v0}, Landroid/database/Cursor;->isClosed()Z
 
@@ -313,17 +313,17 @@
     if-nez v0, :cond_0
 
     .line 157
-    iget-object v0, p0, Lkik/android/b$a;->c:Landroid/database/Cursor;
+    iget-object v0, p0, Lkik/arcane/b$a;->c:Landroid/database/Cursor;
 
     invoke-interface {v0}, Landroid/database/Cursor;->close()V
 
     .line 159
     :cond_0
-    iget-object v0, p0, Lkik/android/b$a;->d:Landroid/database/Cursor;
+    iget-object v0, p0, Lkik/arcane/b$a;->d:Landroid/database/Cursor;
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lkik/android/b$a;->d:Landroid/database/Cursor;
+    iget-object v0, p0, Lkik/arcane/b$a;->d:Landroid/database/Cursor;
 
     invoke-interface {v0}, Landroid/database/Cursor;->isClosed()Z
 
@@ -332,7 +332,7 @@
     if-nez v0, :cond_1
 
     .line 160
-    iget-object v0, p0, Lkik/android/b$a;->d:Landroid/database/Cursor;
+    iget-object v0, p0, Lkik/arcane/b$a;->d:Landroid/database/Cursor;
 
     invoke-interface {v0}, Landroid/database/Cursor;->close()V
 
@@ -346,11 +346,11 @@
 
     .prologue
     .line 105
-    iget-boolean v0, p0, Lkik/android/b$a;->e:Z
+    iget-boolean v0, p0, Lkik/arcane/b$a;->e:Z
 
     if-eqz v0, :cond_0
 
-    iget-boolean v0, p0, Lkik/android/b$a;->f:Z
+    iget-boolean v0, p0, Lkik/arcane/b$a;->f:Z
 
     if-nez v0, :cond_1
 
@@ -372,7 +372,7 @@
     .prologue
     .line 54
     .line 2111
-    invoke-virtual {p0}, Lkik/android/b$a;->hasNext()Z
+    invoke-virtual {p0}, Lkik/arcane/b$a;->hasNext()Z
 
     move-result v0
 
@@ -392,12 +392,12 @@
     const/4 v0, 0x0
 
     .line 2116
-    iget-boolean v1, p0, Lkik/android/b$a;->e:Z
+    iget-boolean v1, p0, Lkik/arcane/b$a;->e:Z
 
     if-nez v1, :cond_4
 
     .line 2117
-    iget-object v1, p0, Lkik/android/b$a;->c:Landroid/database/Cursor;
+    iget-object v1, p0, Lkik/arcane/b$a;->c:Landroid/database/Cursor;
 
     .line 3029
     const-string v2, "data1"
@@ -409,7 +409,7 @@
 
     .line 2119
     :cond_1
-    iget-object v2, p0, Lkik/android/b$a;->c:Landroid/database/Cursor;
+    iget-object v2, p0, Lkik/arcane/b$a;->c:Landroid/database/Cursor;
 
     invoke-interface {v2, v1}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
@@ -418,7 +418,7 @@
     .line 2120
     if-eqz v2, :cond_2
 
-    invoke-direct {p0, v2}, Lkik/android/b$a;->a(Ljava/lang/String;)Z
+    invoke-direct {p0, v2}, Lkik/arcane/b$a;->a(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -435,14 +435,14 @@
 
     .line 2123
     :cond_2
-    iget-object v2, p0, Lkik/android/b$a;->c:Landroid/database/Cursor;
+    iget-object v2, p0, Lkik/arcane/b$a;->c:Landroid/database/Cursor;
 
     invoke-interface {v2}, Landroid/database/Cursor;->moveToNext()Z
 
     .line 2124
     if-nez v0, :cond_3
 
-    iget-object v2, p0, Lkik/android/b$a;->c:Landroid/database/Cursor;
+    iget-object v2, p0, Lkik/arcane/b$a;->c:Landroid/database/Cursor;
 
     invoke-interface {v2}, Landroid/database/Cursor;->isAfterLast()Z
 
@@ -452,24 +452,24 @@
 
     .line 2125
     :cond_3
-    iget-object v1, p0, Lkik/android/b$a;->c:Landroid/database/Cursor;
+    iget-object v1, p0, Lkik/arcane/b$a;->c:Landroid/database/Cursor;
 
     invoke-interface {v1}, Landroid/database/Cursor;->isAfterLast()Z
 
     move-result v1
 
-    iput-boolean v1, p0, Lkik/android/b$a;->e:Z
+    iput-boolean v1, p0, Lkik/arcane/b$a;->e:Z
 
     .line 2128
     :cond_4
-    iget-boolean v1, p0, Lkik/android/b$a;->f:Z
+    iget-boolean v1, p0, Lkik/arcane/b$a;->f:Z
 
     if-nez v1, :cond_8
 
     if-nez v0, :cond_8
 
     .line 2129
-    iget-object v1, p0, Lkik/android/b$a;->d:Landroid/database/Cursor;
+    iget-object v1, p0, Lkik/arcane/b$a;->d:Landroid/database/Cursor;
 
     .line 4024
     const-string v2, "data1"
@@ -481,7 +481,7 @@
 
     .line 2131
     :cond_5
-    iget-object v2, p0, Lkik/android/b$a;->d:Landroid/database/Cursor;
+    iget-object v2, p0, Lkik/arcane/b$a;->d:Landroid/database/Cursor;
 
     invoke-interface {v2, v1}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
@@ -494,7 +494,7 @@
     .line 2132
     if-eqz v2, :cond_6
 
-    invoke-direct {p0, v2}, Lkik/android/b$a;->a(Ljava/lang/String;)Z
+    invoke-direct {p0, v2}, Lkik/arcane/b$a;->a(Ljava/lang/String;)Z
 
     move-result v3
 
@@ -511,14 +511,14 @@
 
     .line 2135
     :cond_6
-    iget-object v2, p0, Lkik/android/b$a;->d:Landroid/database/Cursor;
+    iget-object v2, p0, Lkik/arcane/b$a;->d:Landroid/database/Cursor;
 
     invoke-interface {v2}, Landroid/database/Cursor;->moveToNext()Z
 
     .line 2136
     if-nez v0, :cond_7
 
-    iget-object v2, p0, Lkik/android/b$a;->d:Landroid/database/Cursor;
+    iget-object v2, p0, Lkik/arcane/b$a;->d:Landroid/database/Cursor;
 
     invoke-interface {v2}, Landroid/database/Cursor;->isAfterLast()Z
 
@@ -528,21 +528,21 @@
 
     .line 2137
     :cond_7
-    iget-object v1, p0, Lkik/android/b$a;->d:Landroid/database/Cursor;
+    iget-object v1, p0, Lkik/arcane/b$a;->d:Landroid/database/Cursor;
 
     invoke-interface {v1}, Landroid/database/Cursor;->isAfterLast()Z
 
     move-result v1
 
-    iput-boolean v1, p0, Lkik/android/b$a;->f:Z
+    iput-boolean v1, p0, Lkik/arcane/b$a;->f:Z
 
     .line 2141
     :cond_8
-    iget-boolean v1, p0, Lkik/android/b$a;->e:Z
+    iget-boolean v1, p0, Lkik/arcane/b$a;->e:Z
 
     if-eqz v1, :cond_9
 
-    iget-object v1, p0, Lkik/android/b$a;->c:Landroid/database/Cursor;
+    iget-object v1, p0, Lkik/arcane/b$a;->c:Landroid/database/Cursor;
 
     invoke-interface {v1}, Landroid/database/Cursor;->isClosed()Z
 
@@ -551,17 +551,17 @@
     if-nez v1, :cond_9
 
     .line 2142
-    iget-object v1, p0, Lkik/android/b$a;->c:Landroid/database/Cursor;
+    iget-object v1, p0, Lkik/arcane/b$a;->c:Landroid/database/Cursor;
 
     invoke-interface {v1}, Landroid/database/Cursor;->close()V
 
     .line 2144
     :cond_9
-    iget-boolean v1, p0, Lkik/android/b$a;->f:Z
+    iget-boolean v1, p0, Lkik/arcane/b$a;->f:Z
 
     if-eqz v1, :cond_a
 
-    iget-object v1, p0, Lkik/android/b$a;->d:Landroid/database/Cursor;
+    iget-object v1, p0, Lkik/arcane/b$a;->d:Landroid/database/Cursor;
 
     invoke-interface {v1}, Landroid/database/Cursor;->isClosed()Z
 
@@ -570,7 +570,7 @@
     if-nez v1, :cond_a
 
     .line 2145
-    iget-object v1, p0, Lkik/android/b$a;->d:Landroid/database/Cursor;
+    iget-object v1, p0, Lkik/arcane/b$a;->d:Landroid/database/Cursor;
 
     invoke-interface {v1}, Landroid/database/Cursor;->close()V
 

@@ -1,10 +1,10 @@
-.class public final Lkik/android/chat/presentation/b;
+.class public final Lkik/arcane/chat/presentation/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/presentation/a;
-.implements Lkik/android/chat/view/a$a;
+.implements Lkik/arcane/chat/presentation/a;
+.implements Lkik/arcane/chat/view/a$a;
 
 
 # instance fields
@@ -12,15 +12,15 @@
 
 .field private final b:Lkik/core/interfaces/v;
 
-.field private final c:Lcom/kik/android/Mixpanel;
+.field private final c:Lcom/kik/arcane/Mixpanel;
 
-.field private d:Lkik/android/chat/view/a;
+.field private d:Lkik/arcane/chat/view/a;
 
-.field private e:Lkik/android/chat/presentation/a$a;
+.field private e:Lkik/arcane/chat/presentation/a$a;
 
 
 # direct methods
-.method public constructor <init>(Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/v;Lcom/kik/android/Mixpanel;)V
+.method public constructor <init>(Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/v;Lcom/kik/arcane/Mixpanel;)V
     .locals 0
 
     .prologue
@@ -28,13 +28,13 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 31
-    iput-object p1, p0, Lkik/android/chat/presentation/b;->a:Lcom/kik/cache/KikVolleyImageLoader;
+    iput-object p1, p0, Lkik/arcane/chat/presentation/b;->a:Lcom/kik/cache/KikVolleyImageLoader;
 
     .line 32
-    iput-object p2, p0, Lkik/android/chat/presentation/b;->b:Lkik/core/interfaces/v;
+    iput-object p2, p0, Lkik/arcane/chat/presentation/b;->b:Lkik/core/interfaces/v;
 
     .line 33
-    iput-object p3, p0, Lkik/android/chat/presentation/b;->c:Lcom/kik/android/Mixpanel;
+    iput-object p3, p0, Lkik/arcane/chat/presentation/b;->c:Lcom/kik/arcane/Mixpanel;
 
     .line 34
     return-void
@@ -49,53 +49,53 @@
     const/16 v2, 0x8
 
     .line 88
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
-    invoke-interface {v0, v2}, Lkik/android/chat/view/a;->g(I)V
+    invoke-interface {v0, v2}, Lkik/arcane/chat/view/a;->g(I)V
 
     .line 89
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
-    invoke-interface {v0, v2}, Lkik/android/chat/view/a;->h(I)V
+    invoke-interface {v0, v2}, Lkik/arcane/chat/view/a;->h(I)V
 
     .line 90
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
-    invoke-interface {v0, v2}, Lkik/android/chat/view/a;->i(I)V
+    invoke-interface {v0, v2}, Lkik/arcane/chat/view/a;->i(I)V
 
     .line 91
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
     const v1, 0x7f020054
 
-    invoke-interface {v0, v1}, Lkik/android/chat/view/a;->f(I)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/view/a;->f(I)V
 
     .line 92
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
-    invoke-interface {v0, v2}, Lkik/android/chat/view/a;->b(I)V
+    invoke-interface {v0, v2}, Lkik/arcane/chat/view/a;->b(I)V
 
     .line 93
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
-    invoke-interface {v0, v3}, Lkik/android/chat/view/a;->d(I)V
+    invoke-interface {v0, v3}, Lkik/arcane/chat/view/a;->d(I)V
 
     .line 94
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
-    invoke-interface {v0, v2}, Lkik/android/chat/view/a;->e(I)V
+    invoke-interface {v0, v2}, Lkik/arcane/chat/view/a;->e(I)V
 
     .line 95
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
     const/4 v1, 0x0
 
-    invoke-interface {v0, v1}, Lkik/android/chat/view/a;->a(Lkik/android/chat/view/a$a;)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/view/a;->a(Lkik/arcane/chat/view/a$a;)V
 
     .line 96
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
-    invoke-interface {v0, v3}, Lkik/android/chat/view/a;->a(I)V
+    invoke-interface {v0, v3}, Lkik/arcane/chat/view/a;->a(I)V
 
     .line 97
     return-void
@@ -108,7 +108,7 @@
 
     .prologue
     .line 65
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
     if-nez v0, :cond_0
 
@@ -118,7 +118,7 @@
 
     .line 68
     :cond_0
-    invoke-direct {p0}, Lkik/android/chat/presentation/b;->e()V
+    invoke-direct {p0}, Lkik/arcane/chat/presentation/b;->e()V
 
     goto :goto_0
 .end method
@@ -128,10 +128,10 @@
 
     .prologue
     .line 20
-    check-cast p1, Lkik/android/chat/view/a;
+    check-cast p1, Lkik/arcane/chat/view/a;
 
     .line 2039
-    iput-object p1, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iput-object p1, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
     .line 20
     return-void
@@ -159,7 +159,7 @@
     const/4 v2, 0x0
 
     .line 51
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
     if-nez v0, :cond_0
 
@@ -179,7 +179,7 @@
 
     .line 55
     :cond_1
-    invoke-direct {p0}, Lkik/android/chat/presentation/b;->e()V
+    invoke-direct {p0}, Lkik/arcane/chat/presentation/b;->e()V
 
     goto :goto_0
 
@@ -192,7 +192,7 @@
     if-nez v0, :cond_3
 
     .line 1102
-    invoke-direct {p0}, Lkik/android/chat/presentation/b;->e()V
+    invoke-direct {p0}, Lkik/arcane/chat/presentation/b;->e()V
 
     goto :goto_0
 
@@ -238,75 +238,75 @@
     if-ne v3, v8, :cond_5
 
     .line 1111
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
     aget-object v1, v4, v2
 
-    iget-object v4, p0, Lkik/android/chat/presentation/b;->a:Lcom/kik/cache/KikVolleyImageLoader;
+    iget-object v4, p0, Lkik/arcane/chat/presentation/b;->a:Lcom/kik/cache/KikVolleyImageLoader;
 
-    iget-object v5, p0, Lkik/android/chat/presentation/b;->b:Lkik/core/interfaces/v;
+    iget-object v5, p0, Lkik/arcane/chat/presentation/b;->b:Lkik/core/interfaces/v;
 
-    iget-object v6, p0, Lkik/android/chat/presentation/b;->c:Lcom/kik/android/Mixpanel;
+    iget-object v6, p0, Lkik/arcane/chat/presentation/b;->c:Lcom/kik/arcane/Mixpanel;
 
-    invoke-interface {v0, v1, v4, v5, v6}, Lkik/android/chat/view/a;->a(Lkik/core/datatypes/l;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/v;Lcom/kik/android/Mixpanel;)V
+    invoke-interface {v0, v1, v4, v5, v6}, Lkik/arcane/chat/view/a;->a(Lkik/core/datatypes/l;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/v;Lcom/kik/arcane/Mixpanel;)V
 
     .line 1112
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
-    invoke-interface {v0, v2}, Lkik/android/chat/view/a;->g(I)V
+    invoke-interface {v0, v2}, Lkik/arcane/chat/view/a;->g(I)V
 
     .line 1113
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
-    invoke-interface {v0, v9}, Lkik/android/chat/view/a;->h(I)V
+    invoke-interface {v0, v9}, Lkik/arcane/chat/view/a;->h(I)V
 
     .line 1114
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
-    invoke-interface {v0, v9}, Lkik/android/chat/view/a;->i(I)V
+    invoke-interface {v0, v9}, Lkik/arcane/chat/view/a;->i(I)V
 
     .line 1131
     :goto_2
-    iget-object v1, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v1, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
     if-ne v3, v8, :cond_7
 
     const v0, 0x7f09003f
 
     :goto_3
-    invoke-interface {v1, v0}, Lkik/android/chat/view/a;->c(I)V
+    invoke-interface {v1, v0}, Lkik/arcane/chat/view/a;->c(I)V
 
     .line 1132
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
     const v1, 0x7f020053
 
-    invoke-interface {v0, v1}, Lkik/android/chat/view/a;->f(I)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/view/a;->f(I)V
 
     .line 1133
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
-    invoke-interface {v0, v2}, Lkik/android/chat/view/a;->b(I)V
+    invoke-interface {v0, v2}, Lkik/arcane/chat/view/a;->b(I)V
 
     .line 1134
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
-    invoke-interface {v0, v9}, Lkik/android/chat/view/a;->d(I)V
+    invoke-interface {v0, v9}, Lkik/arcane/chat/view/a;->d(I)V
 
     .line 1135
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
-    invoke-interface {v0, v2}, Lkik/android/chat/view/a;->e(I)V
+    invoke-interface {v0, v2}, Lkik/arcane/chat/view/a;->e(I)V
 
     .line 1136
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
-    invoke-interface {v0, p0}, Lkik/android/chat/view/a;->a(Lkik/android/chat/view/a$a;)V
+    invoke-interface {v0, p0}, Lkik/arcane/chat/view/a;->a(Lkik/arcane/chat/view/a$a;)V
 
     .line 1137
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
-    invoke-interface {v0, v2}, Lkik/android/chat/view/a;->a(I)V
+    invoke-interface {v0, v2}, Lkik/arcane/chat/view/a;->a(I)V
 
     goto :goto_0
 
@@ -315,102 +315,102 @@
     if-ne v3, v5, :cond_6
 
     .line 1117
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
     aget-object v1, v4, v8
 
-    iget-object v5, p0, Lkik/android/chat/presentation/b;->a:Lcom/kik/cache/KikVolleyImageLoader;
+    iget-object v5, p0, Lkik/arcane/chat/presentation/b;->a:Lcom/kik/cache/KikVolleyImageLoader;
 
-    iget-object v6, p0, Lkik/android/chat/presentation/b;->b:Lkik/core/interfaces/v;
+    iget-object v6, p0, Lkik/arcane/chat/presentation/b;->b:Lkik/core/interfaces/v;
 
-    iget-object v7, p0, Lkik/android/chat/presentation/b;->c:Lcom/kik/android/Mixpanel;
+    iget-object v7, p0, Lkik/arcane/chat/presentation/b;->c:Lcom/kik/arcane/Mixpanel;
 
-    invoke-interface {v0, v1, v5, v6, v7}, Lkik/android/chat/view/a;->a(Lkik/core/datatypes/l;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/v;Lcom/kik/android/Mixpanel;)V
+    invoke-interface {v0, v1, v5, v6, v7}, Lkik/arcane/chat/view/a;->a(Lkik/core/datatypes/l;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/v;Lcom/kik/arcane/Mixpanel;)V
 
     .line 1118
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
-    invoke-interface {v0, v2}, Lkik/android/chat/view/a;->g(I)V
+    invoke-interface {v0, v2}, Lkik/arcane/chat/view/a;->g(I)V
 
     .line 1119
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
     aget-object v1, v4, v2
 
-    iget-object v4, p0, Lkik/android/chat/presentation/b;->a:Lcom/kik/cache/KikVolleyImageLoader;
+    iget-object v4, p0, Lkik/arcane/chat/presentation/b;->a:Lcom/kik/cache/KikVolleyImageLoader;
 
-    iget-object v5, p0, Lkik/android/chat/presentation/b;->b:Lkik/core/interfaces/v;
+    iget-object v5, p0, Lkik/arcane/chat/presentation/b;->b:Lkik/core/interfaces/v;
 
-    iget-object v6, p0, Lkik/android/chat/presentation/b;->c:Lcom/kik/android/Mixpanel;
+    iget-object v6, p0, Lkik/arcane/chat/presentation/b;->c:Lcom/kik/arcane/Mixpanel;
 
-    invoke-interface {v0, v1, v4, v5, v6}, Lkik/android/chat/view/a;->b(Lkik/core/datatypes/l;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/v;Lcom/kik/android/Mixpanel;)V
+    invoke-interface {v0, v1, v4, v5, v6}, Lkik/arcane/chat/view/a;->b(Lkik/core/datatypes/l;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/v;Lcom/kik/arcane/Mixpanel;)V
 
     .line 1120
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
-    invoke-interface {v0, v2}, Lkik/android/chat/view/a;->h(I)V
+    invoke-interface {v0, v2}, Lkik/arcane/chat/view/a;->h(I)V
 
     .line 1121
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
-    invoke-interface {v0, v9}, Lkik/android/chat/view/a;->i(I)V
+    invoke-interface {v0, v9}, Lkik/arcane/chat/view/a;->i(I)V
 
     goto :goto_2
 
     .line 1124
     :cond_6
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
     aget-object v1, v4, v5
 
-    iget-object v5, p0, Lkik/android/chat/presentation/b;->a:Lcom/kik/cache/KikVolleyImageLoader;
+    iget-object v5, p0, Lkik/arcane/chat/presentation/b;->a:Lcom/kik/cache/KikVolleyImageLoader;
 
-    iget-object v6, p0, Lkik/android/chat/presentation/b;->b:Lkik/core/interfaces/v;
+    iget-object v6, p0, Lkik/arcane/chat/presentation/b;->b:Lkik/core/interfaces/v;
 
-    iget-object v7, p0, Lkik/android/chat/presentation/b;->c:Lcom/kik/android/Mixpanel;
+    iget-object v7, p0, Lkik/arcane/chat/presentation/b;->c:Lcom/kik/arcane/Mixpanel;
 
-    invoke-interface {v0, v1, v5, v6, v7}, Lkik/android/chat/view/a;->a(Lkik/core/datatypes/l;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/v;Lcom/kik/android/Mixpanel;)V
+    invoke-interface {v0, v1, v5, v6, v7}, Lkik/arcane/chat/view/a;->a(Lkik/core/datatypes/l;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/v;Lcom/kik/arcane/Mixpanel;)V
 
     .line 1125
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
-    invoke-interface {v0, v2}, Lkik/android/chat/view/a;->g(I)V
+    invoke-interface {v0, v2}, Lkik/arcane/chat/view/a;->g(I)V
 
     .line 1126
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
     aget-object v1, v4, v8
 
-    iget-object v5, p0, Lkik/android/chat/presentation/b;->a:Lcom/kik/cache/KikVolleyImageLoader;
+    iget-object v5, p0, Lkik/arcane/chat/presentation/b;->a:Lcom/kik/cache/KikVolleyImageLoader;
 
-    iget-object v6, p0, Lkik/android/chat/presentation/b;->b:Lkik/core/interfaces/v;
+    iget-object v6, p0, Lkik/arcane/chat/presentation/b;->b:Lkik/core/interfaces/v;
 
-    iget-object v7, p0, Lkik/android/chat/presentation/b;->c:Lcom/kik/android/Mixpanel;
+    iget-object v7, p0, Lkik/arcane/chat/presentation/b;->c:Lcom/kik/arcane/Mixpanel;
 
-    invoke-interface {v0, v1, v5, v6, v7}, Lkik/android/chat/view/a;->b(Lkik/core/datatypes/l;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/v;Lcom/kik/android/Mixpanel;)V
+    invoke-interface {v0, v1, v5, v6, v7}, Lkik/arcane/chat/view/a;->b(Lkik/core/datatypes/l;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/v;Lcom/kik/arcane/Mixpanel;)V
 
     .line 1127
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
-    invoke-interface {v0, v2}, Lkik/android/chat/view/a;->h(I)V
+    invoke-interface {v0, v2}, Lkik/arcane/chat/view/a;->h(I)V
 
     .line 1128
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
     aget-object v1, v4, v2
 
-    iget-object v4, p0, Lkik/android/chat/presentation/b;->a:Lcom/kik/cache/KikVolleyImageLoader;
+    iget-object v4, p0, Lkik/arcane/chat/presentation/b;->a:Lcom/kik/cache/KikVolleyImageLoader;
 
-    iget-object v5, p0, Lkik/android/chat/presentation/b;->b:Lkik/core/interfaces/v;
+    iget-object v5, p0, Lkik/arcane/chat/presentation/b;->b:Lkik/core/interfaces/v;
 
-    iget-object v6, p0, Lkik/android/chat/presentation/b;->c:Lcom/kik/android/Mixpanel;
+    iget-object v6, p0, Lkik/arcane/chat/presentation/b;->c:Lcom/kik/arcane/Mixpanel;
 
-    invoke-interface {v0, v1, v4, v5, v6}, Lkik/android/chat/view/a;->c(Lkik/core/datatypes/l;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/v;Lcom/kik/android/Mixpanel;)V
+    invoke-interface {v0, v1, v4, v5, v6}, Lkik/arcane/chat/view/a;->c(Lkik/core/datatypes/l;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/v;Lcom/kik/arcane/Mixpanel;)V
 
     .line 1129
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
-    invoke-interface {v0, v2}, Lkik/android/chat/view/a;->i(I)V
+    invoke-interface {v0, v2}, Lkik/arcane/chat/view/a;->i(I)V
 
     goto/16 :goto_2
 
@@ -421,12 +421,12 @@
     goto/16 :goto_3
 .end method
 
-.method public final a(Lkik/android/chat/presentation/a$a;)V
+.method public final a(Lkik/arcane/chat/presentation/a$a;)V
     .locals 0
 
     .prologue
     .line 83
-    iput-object p1, p0, Lkik/android/chat/presentation/b;->e:Lkik/android/chat/presentation/a$a;
+    iput-object p1, p0, Lkik/arcane/chat/presentation/b;->e:Lkik/arcane/chat/presentation/a$a;
 
     .line 84
     return-void
@@ -437,7 +437,7 @@
 
     .prologue
     .line 74
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
     if-nez v0, :cond_0
 
@@ -447,11 +447,11 @@
 
     .line 77
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
     const/16 v1, 0x8
 
-    invoke-interface {v0, v1}, Lkik/android/chat/view/a;->a(I)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/view/a;->a(I)V
 
     goto :goto_0
 .end method
@@ -461,14 +461,14 @@
 
     .prologue
     .line 143
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->e:Lkik/android/chat/presentation/a$a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->e:Lkik/arcane/chat/presentation/a$a;
 
     if-eqz v0, :cond_0
 
     .line 144
-    iget-object v0, p0, Lkik/android/chat/presentation/b;->e:Lkik/android/chat/presentation/a$a;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/b;->e:Lkik/arcane/chat/presentation/a$a;
 
-    invoke-interface {v0}, Lkik/android/chat/presentation/a$a;->f()V
+    invoke-interface {v0}, Lkik/arcane/chat/presentation/a$a;->f()V
 
     .line 146
     :cond_0
@@ -482,7 +482,7 @@
     .line 45
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/chat/presentation/b;->d:Lkik/android/chat/view/a;
+    iput-object v0, p0, Lkik/arcane/chat/presentation/b;->d:Lkik/arcane/chat/view/a;
 
     .line 46
     return-void

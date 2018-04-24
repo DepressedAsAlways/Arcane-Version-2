@@ -1,4 +1,4 @@
-.class public Lkik/android/chat/fragment/KikReportThankYouDialogFragment_ViewBinding;
+.class public Lkik/arcane/chat/fragment/KikReportThankYouDialogFragment_ViewBinding;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -7,11 +7,11 @@
 
 
 # instance fields
-.field private a:Lkik/android/chat/fragment/KikReportThankYouDialogFragment;
+.field private a:Lkik/arcane/chat/fragment/KikReportThankYouDialogFragment;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/chat/fragment/KikReportThankYouDialogFragment;Landroid/view/View;)V
+.method public constructor <init>(Lkik/arcane/chat/fragment/KikReportThankYouDialogFragment;Landroid/view/View;)V
     .locals 3
 
     .prologue
@@ -19,7 +19,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 20
-    iput-object p1, p0, Lkik/android/chat/fragment/KikReportThankYouDialogFragment_ViewBinding;->a:Lkik/android/chat/fragment/KikReportThankYouDialogFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikReportThankYouDialogFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/KikReportThankYouDialogFragment;
 
     .line 22
     const v0, 0x7f1001c3
@@ -34,7 +34,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/KikReportThankYouDialogFragment;->_thankYouMessage:Landroid/widget/TextView;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/KikReportThankYouDialogFragment;->_thankYouMessage:Landroid/widget/TextView;
 
     .line 23
     return-void
@@ -49,7 +49,7 @@
     const/4 v1, 0x0
 
     .line 28
-    iget-object v0, p0, Lkik/android/chat/fragment/KikReportThankYouDialogFragment_ViewBinding;->a:Lkik/android/chat/fragment/KikReportThankYouDialogFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikReportThankYouDialogFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/KikReportThankYouDialogFragment;
 
     .line 29
     if-nez v0, :cond_0
@@ -64,10 +64,10 @@
 
     .line 30
     :cond_0
-    iput-object v1, p0, Lkik/android/chat/fragment/KikReportThankYouDialogFragment_ViewBinding;->a:Lkik/android/chat/fragment/KikReportThankYouDialogFragment;
+    iput-object v1, p0, Lkik/arcane/chat/fragment/KikReportThankYouDialogFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/KikReportThankYouDialogFragment;
 
     .line 32
-    iput-object v1, v0, Lkik/android/chat/fragment/KikReportThankYouDialogFragment;->_thankYouMessage:Landroid/widget/TextView;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/KikReportThankYouDialogFragment;->_thankYouMessage:Landroid/widget/TextView;
 
     .line 33
     return-void

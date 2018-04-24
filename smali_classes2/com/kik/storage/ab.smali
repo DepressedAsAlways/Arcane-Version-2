@@ -60,7 +60,7 @@
 
 .field private final P:Lcom/kik/storage/t;
 
-.field private final Q:Lkik/android/i;
+.field private final Q:Lkik/arcane/i;
 
 .field private final R:Ljava/lang/String;
 
@@ -101,11 +101,11 @@
 
 .field private final b:Landroid/content/Context;
 
-.field private c:Lkik/android/util/ah;
+.field private c:Lkik/arcane/util/ah;
 
-.field private d:Lkik/android/util/LegacyFileLRUCache;
+.field private d:Lkik/arcane/util/LegacyFileLRUCache;
 
-.field private e:Lkik/android/util/LegacyFileLRUCache;
+.field private e:Lkik/arcane/util/LegacyFileLRUCache;
 
 .field private final f:Lkik/core/interfaces/i;
 
@@ -161,7 +161,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Landroid/content/Context;Lkik/core/interfaces/z;Ljava/util/concurrent/ExecutorService;Lkik/core/net/e;Lkik/android/util/ah;Lkik/core/interfaces/s;Ljava/lang/String;)V
+.method public constructor <init>(Landroid/content/Context;Lkik/core/interfaces/z;Ljava/util/concurrent/ExecutorService;Lkik/core/net/e;Lkik/arcane/util/ah;Lkik/core/interfaces/s;Ljava/lang/String;)V
     .locals 11
 
     .prologue
@@ -215,7 +215,7 @@
     .line 235
     move-object/from16 v0, p5
 
-    iput-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iput-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
     .line 236
     move-object/from16 v0, p7
@@ -382,22 +382,22 @@
     iput-object v2, p0, Lcom/kik/storage/ab;->s:Ljava/io/File;
 
     .line 2446
-    new-instance v1, Lkik/android/util/LegacyFileLRUCache;
+    new-instance v1, Lkik/arcane/util/LegacyFileLRUCache;
 
     const/16 v2, 0xa
 
-    invoke-direct {v1, v2}, Lkik/android/util/LegacyFileLRUCache;-><init>(I)V
+    invoke-direct {v1, v2}, Lkik/arcane/util/LegacyFileLRUCache;-><init>(I)V
 
-    iput-object v1, p0, Lcom/kik/storage/ab;->d:Lkik/android/util/LegacyFileLRUCache;
+    iput-object v1, p0, Lcom/kik/storage/ab;->d:Lkik/arcane/util/LegacyFileLRUCache;
 
     .line 2447
-    new-instance v1, Lkik/android/util/LegacyFileLRUCache;
+    new-instance v1, Lkik/arcane/util/LegacyFileLRUCache;
 
     const/4 v2, 0x5
 
-    invoke-direct {v1, v2}, Lkik/android/util/LegacyFileLRUCache;-><init>(I)V
+    invoke-direct {v1, v2}, Lkik/arcane/util/LegacyFileLRUCache;-><init>(I)V
 
-    iput-object v1, p0, Lcom/kik/storage/ab;->e:Lkik/android/util/LegacyFileLRUCache;
+    iput-object v1, p0, Lcom/kik/storage/ab;->e:Lkik/arcane/util/LegacyFileLRUCache;
 
     .line 3478
     invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
@@ -682,9 +682,9 @@
     .line 266
     new-instance v1, Lcom/kik/storage/l;
 
-    iget-object v2, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v2, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-direct {v1, v2}, Lcom/kik/storage/l;-><init>(Lkik/android/util/aj;)V
+    invoke-direct {v1, v2}, Lcom/kik/storage/l;-><init>(Lkik/arcane/util/aj;)V
 
     iput-object v1, p0, Lcom/kik/storage/ab;->f:Lkik/core/interfaces/i;
 
@@ -701,15 +701,15 @@
 
     sget-object v7, Lcom/kik/storage/ab;->x:Ljava/io/File;
 
-    iget-object v8, p0, Lcom/kik/storage/ab;->d:Lkik/android/util/LegacyFileLRUCache;
+    iget-object v8, p0, Lcom/kik/storage/ab;->d:Lkik/arcane/util/LegacyFileLRUCache;
 
-    iget-object v9, p0, Lcom/kik/storage/ab;->e:Lkik/android/util/LegacyFileLRUCache;
+    iget-object v9, p0, Lcom/kik/storage/ab;->e:Lkik/arcane/util/LegacyFileLRUCache;
 
     iget-object v10, p0, Lcom/kik/storage/ab;->A:Lcom/kik/storage/ContentImageCache;
 
     move-object v2, p1
 
-    invoke-direct/range {v1 .. v10}, Lcom/kik/storage/t;-><init>(Landroid/content/Context;Ljava/io/File;Ljava/io/File;Ljava/io/File;Ljava/io/File;Ljava/io/File;Lkik/android/util/LegacyFileLRUCache;Lkik/android/util/LegacyFileLRUCache;Lcom/kik/storage/ContentImageCache;)V
+    invoke-direct/range {v1 .. v10}, Lcom/kik/storage/t;-><init>(Landroid/content/Context;Ljava/io/File;Ljava/io/File;Ljava/io/File;Ljava/io/File;Ljava/io/File;Lkik/arcane/util/LegacyFileLRUCache;Lkik/arcane/util/LegacyFileLRUCache;Lcom/kik/storage/ContentImageCache;)V
 
     iput-object v1, p0, Lcom/kik/storage/ab;->P:Lcom/kik/storage/t;
 
@@ -752,13 +752,13 @@
     iput-object v1, p0, Lcom/kik/storage/ab;->M:Lcom/kik/storage/n;
 
     .line 273
-    new-instance v1, Lkik/android/i;
+    new-instance v1, Lkik/arcane/i;
 
     iget-object v2, p0, Lcom/kik/storage/ab;->h:Lcom/kik/storage/ab$c;
 
-    invoke-direct {v1, v2}, Lkik/android/i;-><init>(Landroid/database/sqlite/SQLiteOpenHelper;)V
+    invoke-direct {v1, v2}, Lkik/arcane/i;-><init>(Landroid/database/sqlite/SQLiteOpenHelper;)V
 
-    iput-object v1, p0, Lcom/kik/storage/ab;->Q:Lkik/android/i;
+    iput-object v1, p0, Lcom/kik/storage/ab;->Q:Lkik/arcane/i;
 
     .line 274
     new-instance v1, Lcom/kik/storage/v;
@@ -965,7 +965,7 @@
     invoke-direct {v1, p1, p2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
     .line 416
-    invoke-static {v1, v0}, Lkik/android/util/e;->a(Ljava/io/File;Ljava/io/File;)V
+    invoke-static {v1, v0}, Lkik/arcane/util/e;->a(Ljava/io/File;Ljava/io/File;)V
 
     .line 417
     return-object v0
@@ -1011,15 +1011,15 @@
     const/4 v3, 0x0
 
     .line 7363
-    invoke-static {}, Lkik/android/internal/platform/PlatformHelper;->a()Lkik/android/internal/platform/PlatformHelper;
+    invoke-static {}, Lkik/arcane/internal/platform/PlatformHelper;->a()Lkik/arcane/internal/platform/PlatformHelper;
 
     const v0, 0x7f0201f8
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->b(I)Landroid/graphics/Bitmap;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->b(I)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/internal/platform/PlatformHelper;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
+    invoke-static {v0}, Lkik/arcane/internal/platform/PlatformHelper;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -1027,7 +1027,7 @@
     if-eqz v0, :cond_1
 
     .line 7366
-    invoke-static {v0}, Lkik/android/util/f;->a(Landroid/graphics/Bitmap;)[B
+    invoke-static {v0}, Lkik/arcane/util/f;->a(Landroid/graphics/Bitmap;)[B
 
     move-result-object v2
 
@@ -1084,15 +1084,15 @@
 
     .line 7382
     :cond_1
-    invoke-static {}, Lkik/android/internal/platform/PlatformHelper;->a()Lkik/android/internal/platform/PlatformHelper;
+    invoke-static {}, Lkik/arcane/internal/platform/PlatformHelper;->a()Lkik/arcane/internal/platform/PlatformHelper;
 
     const v0, 0x7f0201f9
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->b(I)Landroid/graphics/Bitmap;
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->b(I)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/internal/platform/PlatformHelper;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
+    invoke-static {v0}, Lkik/arcane/internal/platform/PlatformHelper;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -1100,7 +1100,7 @@
     if-eqz v0, :cond_3
 
     .line 7385
-    invoke-static {v0}, Lkik/android/util/f;->a(Landroid/graphics/Bitmap;)[B
+    invoke-static {v0}, Lkik/arcane/util/f;->a(Landroid/graphics/Bitmap;)[B
 
     move-result-object v2
 
@@ -1421,9 +1421,9 @@
 
     .prologue
     .line 1278
-    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-interface {v0}, Lkik/android/util/ah;->b()Landroid/content/SharedPreferences;
+    invoke-interface {v0}, Lkik/arcane/util/ah;->b()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -1439,13 +1439,13 @@
 
     .prologue
     .line 637
-    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
     invoke-virtual {p1}, Lkik/core/datatypes/f;->w()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lkik/android/util/ah;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
+    invoke-interface {v0, v1}, Lkik/arcane/util/ah;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -1523,13 +1523,13 @@
     return-object v0
 .end method
 
-.method public final a(Ljava/lang/String;Lcom/kik/android/Mixpanel;)Lcom/kik/events/Promise;
+.method public final a(Ljava/lang/String;Lcom/kik/arcane/Mixpanel;)Lcom/kik/events/Promise;
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/lang/String;",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ")",
             "Lcom/kik/events/Promise",
             "<",
@@ -1568,20 +1568,20 @@
 
     move-object v4, p2
 
-    invoke-virtual/range {v0 .. v5}, Lcom/kik/cache/DiskLruFileCache;->fetchFile(Ljava/lang/String;Ljava/lang/String;Lkik/core/interfaces/x;Lcom/kik/android/Mixpanel;I)Lcom/kik/events/Promise;
+    invoke-virtual/range {v0 .. v5}, Lcom/kik/cache/DiskLruFileCache;->fetchFile(Ljava/lang/String;Ljava/lang/String;Lkik/core/interfaces/x;Lcom/kik/arcane/Mixpanel;I)Lcom/kik/events/Promise;
 
     move-result-object v0
 
     goto :goto_0
 .end method
 
-.method public final a(Lkik/core/datatypes/messageExtensions/ContentMessage;Lcom/kik/android/Mixpanel;)Lcom/kik/events/Promise;
+.method public final a(Lkik/core/datatypes/messageExtensions/ContentMessage;Lcom/kik/arcane/Mixpanel;)Lcom/kik/events/Promise;
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lkik/core/datatypes/messageExtensions/ContentMessage;",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ")",
             "Lcom/kik/events/Promise",
             "<",
@@ -1620,13 +1620,13 @@
     if-eqz v0, :cond_1
 
     .line 1800
-    sget-object v0, Lkik/android/gifs/a;->a:Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
+    sget-object v0, Lkik/arcane/gifs/a;->a:Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;
 
     invoke-virtual {p1, v0}, Lkik/core/datatypes/messageExtensions/ContentMessage;->a(Lkik/core/datatypes/messageExtensions/ContentMessage$ContentLinkFileType;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0, p2}, Lcom/kik/storage/ab;->a(Ljava/lang/String;Lcom/kik/android/Mixpanel;)Lcom/kik/events/Promise;
+    invoke-virtual {p0, v0, p2}, Lcom/kik/storage/ab;->a(Ljava/lang/String;Lcom/kik/arcane/Mixpanel;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
@@ -1648,21 +1648,21 @@
 
     move-object v4, p2
 
-    invoke-virtual/range {v0 .. v5}, Lcom/kik/cache/VideoDiskLruFileCache;->fetchFile(Ljava/lang/String;Ljava/lang/String;Lkik/core/interfaces/x;Lcom/kik/android/Mixpanel;I)Lcom/kik/events/Promise;
+    invoke-virtual/range {v0 .. v5}, Lcom/kik/cache/VideoDiskLruFileCache;->fetchFile(Ljava/lang/String;Ljava/lang/String;Lkik/core/interfaces/x;Lcom/kik/arcane/Mixpanel;I)Lcom/kik/events/Promise;
 
     move-result-object v0
 
     goto :goto_0
 .end method
 
-.method public final a(Lkik/core/datatypes/messageExtensions/ContentMessage;Lkik/core/interfaces/x;Lcom/kik/android/Mixpanel;)Lcom/kik/events/Promise;
+.method public final a(Lkik/core/datatypes/messageExtensions/ContentMessage;Lkik/core/interfaces/x;Lcom/kik/arcane/Mixpanel;)Lcom/kik/events/Promise;
     .locals 6
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lkik/core/datatypes/messageExtensions/ContentMessage;",
             "Lkik/core/interfaces/x;",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ")",
             "Lcom/kik/events/Promise",
             "<",
@@ -1703,7 +1703,7 @@
 
     move-object v4, p3
 
-    invoke-virtual/range {v0 .. v5}, Lcom/kik/cache/VideoDiskLruFileCache;->fetchFile(Ljava/lang/String;Ljava/lang/String;Lkik/core/interfaces/x;Lcom/kik/android/Mixpanel;I)Lcom/kik/events/Promise;
+    invoke-virtual/range {v0 .. v5}, Lcom/kik/cache/VideoDiskLruFileCache;->fetchFile(Ljava/lang/String;Ljava/lang/String;Lkik/core/interfaces/x;Lcom/kik/arcane/Mixpanel;I)Lcom/kik/events/Promise;
 
     move-result-object v0
 
@@ -1739,9 +1739,9 @@
 
     .prologue
     .line 961
-    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-interface {v0}, Lkik/android/util/ah;->b()Landroid/content/SharedPreferences;
+    invoke-interface {v0}, Lkik/arcane/util/ah;->b()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -1761,9 +1761,9 @@
 
     .prologue
     .line 943
-    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-interface {v0}, Lkik/android/util/ah;->b()Landroid/content/SharedPreferences;
+    invoke-interface {v0}, Lkik/arcane/util/ah;->b()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -2132,9 +2132,9 @@
     invoke-virtual {v1}, Lcom/kik/storage/SponsoredResponseDiskCache;->clearCache()V
 
     .line 851
-    iget-object v1, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v1, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-interface {v1}, Lkik/android/util/ah;->b()Landroid/content/SharedPreferences;
+    invoke-interface {v1}, Lkik/arcane/util/ah;->b()Landroid/content/SharedPreferences;
 
     move-result-object v1
 
@@ -2146,11 +2146,11 @@
     invoke-interface {v2}, Landroid/content/SharedPreferences$Editor;->clear()Landroid/content/SharedPreferences$Editor;
 
     .line 853
-    invoke-static {}, Lkik/android/internal/platform/PlatformHelper;->a()Lkik/android/internal/platform/PlatformHelper;
+    invoke-static {}, Lkik/arcane/internal/platform/PlatformHelper;->a()Lkik/arcane/internal/platform/PlatformHelper;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lkik/android/internal/platform/PlatformHelper;->i()V
+    invoke-virtual {v1}, Lkik/arcane/internal/platform/PlatformHelper;->i()V
 
     .line 5456
     sget-object v1, Lcom/kik/storage/ab;->w:Ljava/io/File;
@@ -2227,14 +2227,14 @@
     invoke-interface {v2}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
     .line 864
-    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-interface {v0}, Lkik/android/util/ah;->a()V
+    invoke-interface {v0}, Lkik/arcane/util/ah;->a()V
 
     .line 866
-    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-interface {v0}, Lkik/android/util/ah;->c()Landroid/content/SharedPreferences;
+    invoke-interface {v0}, Lkik/arcane/util/ah;->c()Landroid/content/SharedPreferences;
 
     move-result-object v1
 
@@ -2316,13 +2316,13 @@
 
     .line 622
     :cond_0
-    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
     invoke-virtual {p1}, Lkik/core/datatypes/f;->w()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lkik/android/util/ah;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
+    invoke-interface {v0, v1}, Lkik/arcane/util/ah;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -2463,9 +2463,9 @@
 
     .prologue
     .line 1030
-    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-interface {v0}, Lkik/android/util/ah;->b()Landroid/content/SharedPreferences;
+    invoke-interface {v0}, Lkik/arcane/util/ah;->b()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -2494,9 +2494,9 @@
 
     .prologue
     .line 994
-    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-interface {v0}, Lkik/android/util/ah;->b()Landroid/content/SharedPreferences;
+    invoke-interface {v0}, Lkik/arcane/util/ah;->b()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -2525,9 +2525,9 @@
 
     .prologue
     .line 1009
-    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-interface {v0}, Lkik/android/util/ah;->b()Landroid/content/SharedPreferences;
+    invoke-interface {v0}, Lkik/arcane/util/ah;->b()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -2607,9 +2607,9 @@
 
     .prologue
     .line 985
-    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-interface {v0}, Lkik/android/util/ah;->b()Landroid/content/SharedPreferences;
+    invoke-interface {v0}, Lkik/arcane/util/ah;->b()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -2680,9 +2680,9 @@
 
     .prologue
     .line 535
-    iget-object v0, p0, Lcom/kik/storage/ab;->Q:Lkik/android/i;
+    iget-object v0, p0, Lcom/kik/storage/ab;->Q:Lkik/arcane/i;
 
-    invoke-virtual {v0, p1}, Lkik/android/i;->a(Ljava/util/Vector;)Z
+    invoke-virtual {v0, p1}, Lkik/arcane/i;->a(Ljava/util/Vector;)Z
 
     move-result v0
 
@@ -2722,9 +2722,9 @@
 
     .prologue
     .line 529
-    iget-object v0, p0, Lcom/kik/storage/ab;->Q:Lkik/android/i;
+    iget-object v0, p0, Lcom/kik/storage/ab;->Q:Lkik/arcane/i;
 
-    invoke-virtual {v0, p1}, Lkik/android/i;->a(Lkik/core/datatypes/j;)Z
+    invoke-virtual {v0, p1}, Lkik/arcane/i;->a(Lkik/core/datatypes/j;)Z
 
     move-result v0
 
@@ -2812,9 +2812,9 @@
     if-eqz v0, :cond_1
 
     .line 918
-    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-interface {v0}, Lkik/android/util/ah;->b()Landroid/content/SharedPreferences;
+    invoke-interface {v0}, Lkik/arcane/util/ah;->b()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -2849,9 +2849,9 @@
     return-object v0
 
     :cond_1
-    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-interface {v0}, Lkik/android/util/ah;->b()Landroid/content/SharedPreferences;
+    invoke-interface {v0}, Lkik/arcane/util/ah;->b()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -2991,13 +2991,13 @@
 
     .prologue
     .line 651
-    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
     invoke-virtual {p1}, Lkik/core/datatypes/f;->w()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lkik/android/util/ah;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
+    invoke-interface {v0, v1}, Lkik/arcane/util/ah;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -3168,9 +3168,9 @@
 
     .prologue
     .line 976
-    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-interface {v0}, Lkik/android/util/ah;->b()Landroid/content/SharedPreferences;
+    invoke-interface {v0}, Lkik/arcane/util/ah;->b()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -3365,9 +3365,9 @@
     move-result-object v1
 
     .line 1238
-    invoke-static {}, Lkik/android/internal/platform/PlatformHelper;->a()Lkik/android/internal/platform/PlatformHelper;
+    invoke-static {}, Lkik/arcane/internal/platform/PlatformHelper;->a()Lkik/arcane/internal/platform/PlatformHelper;
 
-    invoke-static {v1}, Lkik/android/internal/platform/PlatformHelper;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
+    invoke-static {v1}, Lkik/arcane/internal/platform/PlatformHelper;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     move-result-object v2
 
@@ -3379,7 +3379,7 @@
 
     new-instance v4, Lkik/core/datatypes/b;
 
-    invoke-static {v2}, Lkik/android/util/f;->a(Landroid/graphics/Bitmap;)[B
+    invoke-static {v2}, Lkik/arcane/util/f;->a(Landroid/graphics/Bitmap;)[B
 
     move-result-object v5
 
@@ -3455,7 +3455,7 @@
     move-result-object v2
 
     .line 1248
-    invoke-static {}, Lkik/android/internal/platform/PlatformHelper;->a()Lkik/android/internal/platform/PlatformHelper;
+    invoke-static {}, Lkik/arcane/internal/platform/PlatformHelper;->a()Lkik/arcane/internal/platform/PlatformHelper;
 
     iget-object v1, p0, Lcom/kik/storage/ab;->b:Landroid/content/Context;
 
@@ -3473,7 +3473,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lkik/android/internal/platform/PlatformHelper;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
+    invoke-static {v1}, Lkik/arcane/internal/platform/PlatformHelper;->a(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -3485,7 +3485,7 @@
 
     new-instance v4, Lkik/core/datatypes/b;
 
-    invoke-static {v1}, Lkik/android/util/f;->a(Landroid/graphics/Bitmap;)[B
+    invoke-static {v1}, Lkik/arcane/util/f;->a(Landroid/graphics/Bitmap;)[B
 
     move-result-object v5
 
@@ -3611,7 +3611,7 @@
 
     .prologue
     .line 313
-    const-string v0, "com.kik.android.smileys.tray.opened"
+    const-string v0, "com.kik.arcane.smileys.tray.opened"
 
     invoke-virtual {p0, v0}, Lcom/kik/storage/ab;->v(Ljava/lang/String;)Ljava/lang/Long;
 
@@ -3689,9 +3689,9 @@
     .line 339
     iget-object v0, p0, Lcom/kik/storage/ab;->z:Lcom/kik/storage/ContactImageCache;
 
-    iget-object v1, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v1, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-virtual {v0, v1}, Lcom/kik/storage/ContactImageCache;->wantsContactsMigration(Lkik/android/util/aj;)Z
+    invoke-virtual {v0, v1}, Lcom/kik/storage/ContactImageCache;->wantsContactsMigration(Lkik/arcane/util/aj;)Z
 
     move-result v0
 
@@ -3710,9 +3710,9 @@
     .line 340
     iget-object v2, p0, Lcom/kik/storage/ab;->b:Landroid/content/Context;
 
-    iget-object v3, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v3, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/storage/ContactImageCache;->prepMigration(Ljava/util/Hashtable;Landroid/content/Context;Lkik/android/util/aj;)V
+    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/storage/ContactImageCache;->prepMigration(Ljava/util/Hashtable;Landroid/content/Context;Lkik/arcane/util/aj;)V
 
     .line 342
     :cond_0
@@ -3737,9 +3737,9 @@
     .line 344
     iget-object v0, p0, Lcom/kik/storage/ab;->A:Lcom/kik/storage/ContentImageCache;
 
-    iget-object v1, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v1, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-virtual {v0, v1}, Lcom/kik/storage/ContentImageCache;->wantsContentMigration(Lkik/android/util/aj;)Z
+    invoke-virtual {v0, v1}, Lcom/kik/storage/ContentImageCache;->wantsContentMigration(Lkik/arcane/util/aj;)Z
 
     move-result v0
 
@@ -3752,9 +3752,9 @@
 
     move-result-object v1
 
-    iget-object v2, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v2, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/storage/ContentImageCache;->prepMigration(Ljava/io/File;Lkik/android/util/aj;)V
+    invoke-virtual {v0, v1, v2}, Lcom/kik/storage/ContentImageCache;->prepMigration(Ljava/io/File;Lkik/arcane/util/aj;)V
 
     .line 348
     :cond_1
@@ -3987,9 +3987,9 @@
 
     .prologue
     .line 604
-    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-interface {v0}, Lkik/android/util/ah;->b()Landroid/content/SharedPreferences;
+    invoke-interface {v0}, Lkik/arcane/util/ah;->b()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -4080,9 +4080,9 @@
 
     .prologue
     .line 612
-    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-interface {v0}, Lkik/android/util/ah;->b()Landroid/content/SharedPreferences;
+    invoke-interface {v0}, Lkik/arcane/util/ah;->b()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -4184,7 +4184,7 @@
 
     .prologue
     .line 320
-    invoke-static {p1}, Lcom/kik/android/b/j;->d(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/kik/arcane/b/j;->d(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -4251,9 +4251,9 @@
 
     .prologue
     .line 552
-    iget-object v0, p0, Lcom/kik/storage/ab;->Q:Lkik/android/i;
+    iget-object v0, p0, Lcom/kik/storage/ab;->Q:Lkik/arcane/i;
 
-    invoke-virtual {v0, p1}, Lkik/android/i;->a(Ljava/lang/String;)Lkik/core/datatypes/j;
+    invoke-virtual {v0, p1}, Lkik/arcane/i;->a(Ljava/lang/String;)Lkik/core/datatypes/j;
 
     move-result-object v0
 
@@ -4439,9 +4439,9 @@
 
     .prologue
     .line 931
-    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-interface {v0}, Lkik/android/util/ah;->b()Landroid/content/SharedPreferences;
+    invoke-interface {v0}, Lkik/arcane/util/ah;->b()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -4461,9 +4461,9 @@
 
     .prologue
     .line 937
-    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-interface {v0}, Lkik/android/util/ah;->b()Landroid/content/SharedPreferences;
+    invoke-interface {v0}, Lkik/arcane/util/ah;->b()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -4485,9 +4485,9 @@
 
     .prologue
     .line 949
-    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-interface {v0}, Lkik/android/util/ah;->b()Landroid/content/SharedPreferences;
+    invoke-interface {v0}, Lkik/arcane/util/ah;->b()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -4509,9 +4509,9 @@
 
     .prologue
     .line 955
-    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-interface {v0}, Lkik/android/util/ah;->b()Landroid/content/SharedPreferences;
+    invoke-interface {v0}, Lkik/arcane/util/ah;->b()Landroid/content/SharedPreferences;
 
     move-result-object v0
 
@@ -4533,9 +4533,9 @@
 
     .prologue
     .line 967
-    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/android/util/ah;
+    iget-object v0, p0, Lcom/kik/storage/ab;->c:Lkik/arcane/util/ah;
 
-    invoke-interface {v0}, Lkik/android/util/ah;->b()Landroid/content/SharedPreferences;
+    invoke-interface {v0}, Lkik/arcane/util/ah;->b()Landroid/content/SharedPreferences;
 
     move-result-object v0
 

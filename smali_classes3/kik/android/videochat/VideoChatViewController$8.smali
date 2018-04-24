@@ -1,11 +1,11 @@
-.class final Lkik/android/videochat/VideoChatViewController$8;
+.class final Lkik/arcane/videochat/VideoChatViewController$8;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/videochat/VideoChatViewController;->a(Z)V
+    value = Lkik/arcane/videochat/VideoChatViewController;->a(Z)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,18 +26,18 @@
 # instance fields
 .field final synthetic a:Ljava/lang/String;
 
-.field final synthetic b:Lkik/android/videochat/VideoChatViewController;
+.field final synthetic b:Lkik/arcane/videochat/VideoChatViewController;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/videochat/VideoChatViewController;Ljava/lang/String;)V
+.method constructor <init>(Lkik/arcane/videochat/VideoChatViewController;Ljava/lang/String;)V
     .locals 0
 
     .prologue
     .line 744
-    iput-object p1, p0, Lkik/android/videochat/VideoChatViewController$8;->b:Lkik/android/videochat/VideoChatViewController;
+    iput-object p1, p0, Lkik/arcane/videochat/VideoChatViewController$8;->b:Lkik/arcane/videochat/VideoChatViewController;
 
-    iput-object p2, p0, Lkik/android/videochat/VideoChatViewController$8;->a:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/videochat/VideoChatViewController$8;->a:Ljava/lang/String;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -54,11 +54,11 @@
     check-cast p1, Lcom/kik/video/mobile/KikVideoService$JoinConvoConferenceResponse;
 
     .line 1748
-    iget-object v0, p0, Lkik/android/videochat/VideoChatViewController$8;->a:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/videochat/VideoChatViewController$8;->a:Ljava/lang/String;
 
-    iget-object v1, p0, Lkik/android/videochat/VideoChatViewController$8;->b:Lkik/android/videochat/VideoChatViewController;
+    iget-object v1, p0, Lkik/arcane/videochat/VideoChatViewController$8;->b:Lkik/arcane/videochat/VideoChatViewController;
 
-    invoke-static {v1}, Lkik/android/videochat/VideoChatViewController;->A(Lkik/android/videochat/VideoChatViewController;)Ljava/lang/String;
+    invoke-static {v1}, Lkik/arcane/videochat/VideoChatViewController;->A(Lkik/arcane/videochat/VideoChatViewController;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -69,7 +69,7 @@
     if-eqz v0, :cond_0
 
     .line 1751
-    sget-object v0, Lkik/android/videochat/VideoChatViewController$9;->a:[I
+    sget-object v0, Lkik/arcane/videochat/VideoChatViewController$9;->a:[I
 
     invoke-virtual {p1}, Lcom/kik/video/mobile/KikVideoService$JoinConvoConferenceResponse;->c()Lcom/kik/video/mobile/KikVideoService$JoinConvoConferenceResponse$Result;
 
@@ -84,9 +84,9 @@
     packed-switch v0, :pswitch_data_0
 
     .line 1762
-    iget-object v0, p0, Lkik/android/videochat/VideoChatViewController$8;->b:Lkik/android/videochat/VideoChatViewController;
+    iget-object v0, p0, Lkik/arcane/videochat/VideoChatViewController$8;->b:Lkik/arcane/videochat/VideoChatViewController;
 
-    invoke-static {v0}, Lkik/android/videochat/VideoChatViewController;->C(Lkik/android/videochat/VideoChatViewController;)V
+    invoke-static {v0}, Lkik/arcane/videochat/VideoChatViewController;->C(Lkik/arcane/videochat/VideoChatViewController;)V
 
     .line 1758
     :cond_0
@@ -95,17 +95,17 @@
 
     .line 1753
     :pswitch_0
-    iget-object v0, p0, Lkik/android/videochat/VideoChatViewController$8;->b:Lkik/android/videochat/VideoChatViewController;
+    iget-object v0, p0, Lkik/arcane/videochat/VideoChatViewController$8;->b:Lkik/arcane/videochat/VideoChatViewController;
 
-    invoke-static {v0, p1}, Lkik/android/videochat/VideoChatViewController;->a(Lkik/android/videochat/VideoChatViewController;Lcom/kik/video/mobile/KikVideoService$JoinConvoConferenceResponse;)V
+    invoke-static {v0, p1}, Lkik/arcane/videochat/VideoChatViewController;->a(Lkik/arcane/videochat/VideoChatViewController;Lcom/kik/video/mobile/KikVideoService$JoinConvoConferenceResponse;)V
 
     goto :goto_0
 
     .line 1757
     :pswitch_1
-    iget-object v0, p0, Lkik/android/videochat/VideoChatViewController$8;->b:Lkik/android/videochat/VideoChatViewController;
+    iget-object v0, p0, Lkik/arcane/videochat/VideoChatViewController$8;->b:Lkik/arcane/videochat/VideoChatViewController;
 
-    invoke-static {v0}, Lkik/android/videochat/VideoChatViewController;->B(Lkik/android/videochat/VideoChatViewController;)V
+    invoke-static {v0}, Lkik/arcane/videochat/VideoChatViewController;->B(Lkik/arcane/videochat/VideoChatViewController;)V
 
     goto :goto_0
 
@@ -124,11 +124,11 @@
 
     .prologue
     .line 770
-    iget-object v0, p0, Lkik/android/videochat/VideoChatViewController$8;->a:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/videochat/VideoChatViewController$8;->a:Ljava/lang/String;
 
-    iget-object v1, p0, Lkik/android/videochat/VideoChatViewController$8;->b:Lkik/android/videochat/VideoChatViewController;
+    iget-object v1, p0, Lkik/arcane/videochat/VideoChatViewController$8;->b:Lkik/arcane/videochat/VideoChatViewController;
 
-    invoke-static {v1}, Lkik/android/videochat/VideoChatViewController;->A(Lkik/android/videochat/VideoChatViewController;)Ljava/lang/String;
+    invoke-static {v1}, Lkik/arcane/videochat/VideoChatViewController;->A(Lkik/arcane/videochat/VideoChatViewController;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -144,9 +144,9 @@
 
     .line 773
     :cond_0
-    iget-object v0, p0, Lkik/android/videochat/VideoChatViewController$8;->b:Lkik/android/videochat/VideoChatViewController;
+    iget-object v0, p0, Lkik/arcane/videochat/VideoChatViewController$8;->b:Lkik/arcane/videochat/VideoChatViewController;
 
-    invoke-static {v0}, Lkik/android/videochat/VideoChatViewController;->D(Lkik/android/videochat/VideoChatViewController;)V
+    invoke-static {v0}, Lkik/arcane/videochat/VideoChatViewController;->D(Lkik/arcane/videochat/VideoChatViewController;)V
 
     goto :goto_0
 .end method

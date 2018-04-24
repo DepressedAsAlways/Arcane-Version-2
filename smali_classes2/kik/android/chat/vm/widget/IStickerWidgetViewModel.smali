@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/chat/vm/widget/IStickerWidgetViewModel;
+.class public interface abstract Lkik/arcane/chat/vm/widget/IStickerWidgetViewModel;
 .super Ljava/lang/Object;
 .source "SourceFile"
 

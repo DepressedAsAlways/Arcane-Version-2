@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/fragment/gm;
+.class final synthetic Lkik/arcane/chat/fragment/gm;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/fragment/gm;
+.field private static final a:Lkik/arcane/chat/fragment/gm;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/fragment/gm;
+    new-instance v0, Lkik/arcane/chat/fragment/gm;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/gm;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/gm;-><init>()V
 
-    sput-object v0, Lkik/android/chat/fragment/gm;->a:Lkik/android/chat/fragment/gm;
+    sput-object v0, Lkik/arcane/chat/fragment/gm;->a:Lkik/arcane/chat/fragment/gm;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Landroid/content/DialogInterface$OnClickListener;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/fragment/gm;->a:Lkik/android/chat/fragment/gm;
+    sget-object v0, Lkik/arcane/chat/fragment/gm;->a:Lkik/arcane/chat/fragment/gm;
 
     return-object v0
 .end method
@@ -43,7 +43,7 @@
 .method public final onClick(Landroid/content/DialogInterface;I)V
     .locals 0
 
-    invoke-static {}, Lkik/android/chat/fragment/UserProfileFragment;->a()V
+    invoke-static {}, Lkik/arcane/chat/fragment/UserProfileFragment;->a()V
 
     return-void
 .end method

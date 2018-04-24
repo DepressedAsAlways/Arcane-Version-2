@@ -1,4 +1,4 @@
-.class public Lkik/android/chat/view/aa;
+.class public Lkik/arcane/chat/view/aa;
 .super Landroid/text/style/ReplacementSpan;
 .source "SourceFile"
 
@@ -16,7 +16,7 @@
     invoke-direct {p0}, Landroid/text/style/ReplacementSpan;-><init>()V
 
     .line 17
-    iput p1, p0, Lkik/android/chat/view/aa;->a:I
+    iput p1, p0, Lkik/arcane/chat/view/aa;->a:I
 
     .line 18
     return-void
@@ -29,7 +29,7 @@
 
     .prologue
     .line 29
-    iget v1, p0, Lkik/android/chat/view/aa;->a:I
+    iget v1, p0, Lkik/arcane/chat/view/aa;->a:I
 
     move-object/from16 v0, p9
 

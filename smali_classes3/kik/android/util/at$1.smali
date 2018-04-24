@@ -1,4 +1,4 @@
-.class final Lkik/android/util/at$1;
+.class final Lkik/arcane/util/at$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/at;
+    value = Lkik/arcane/util/at;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/util/at;
+.field final synthetic a:Lkik/arcane/util/at;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/util/at;)V
+.method constructor <init>(Lkik/arcane/util/at;)V
     .locals 0
 
     .prologue
     .line 87
-    iput-object p1, p0, Lkik/android/util/at$1;->a:Lkik/android/util/at;
+    iput-object p1, p0, Lkik/arcane/util/at$1;->a:Lkik/arcane/util/at;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -90,7 +90,7 @@
     if-nez v0, :cond_0
 
     .line 1097
-    new-instance v0, Lkik/android/net/http/ContentUploadItem;
+    new-instance v0, Lkik/arcane/net/http/ContentUploadItem;
 
     invoke-virtual {p2}, Lkik/core/datatypes/Message;->i()Ljava/lang/String;
 
@@ -100,56 +100,56 @@
 
     move-result-object v3
 
-    iget-object v4, p0, Lkik/android/util/at$1;->a:Lkik/android/util/at;
+    iget-object v4, p0, Lkik/arcane/util/at$1;->a:Lkik/arcane/util/at;
 
-    invoke-static {v4}, Lkik/android/util/at;->a(Lkik/android/util/at;)Lcom/kik/android/Mixpanel;
+    invoke-static {v4}, Lkik/arcane/util/at;->a(Lkik/arcane/util/at;)Lcom/kik/arcane/Mixpanel;
 
     move-result-object v4
 
-    iget-object v5, p0, Lkik/android/util/at$1;->a:Lkik/android/util/at;
+    iget-object v5, p0, Lkik/arcane/util/at$1;->a:Lkik/arcane/util/at;
 
-    invoke-static {v5}, Lkik/android/util/at;->b(Lkik/android/util/at;)Lkik/core/net/e;
+    invoke-static {v5}, Lkik/arcane/util/at;->b(Lkik/arcane/util/at;)Lkik/core/net/e;
 
     move-result-object v5
 
-    iget-object v6, p0, Lkik/android/util/at$1;->a:Lkik/android/util/at;
+    iget-object v6, p0, Lkik/arcane/util/at$1;->a:Lkik/arcane/util/at;
 
-    invoke-static {v6}, Lkik/android/util/at;->c(Lkik/android/util/at;)Lkik/core/interfaces/n;
+    invoke-static {v6}, Lkik/arcane/util/at;->c(Lkik/arcane/util/at;)Lkik/core/interfaces/n;
 
     move-result-object v6
 
-    iget-object v7, p0, Lkik/android/util/at$1;->a:Lkik/android/util/at;
+    iget-object v7, p0, Lkik/arcane/util/at$1;->a:Lkik/arcane/util/at;
 
-    invoke-static {v7}, Lkik/android/util/at;->d(Lkik/android/util/at;)Lkik/core/interfaces/ad;
+    invoke-static {v7}, Lkik/arcane/util/at;->d(Lkik/arcane/util/at;)Lkik/core/interfaces/ad;
 
     move-result-object v7
 
-    iget-object v8, p0, Lkik/android/util/at$1;->a:Lkik/android/util/at;
+    iget-object v8, p0, Lkik/arcane/util/at$1;->a:Lkik/arcane/util/at;
 
-    invoke-static {v8}, Lkik/android/util/at;->e(Lkik/android/util/at;)Lkik/core/interfaces/IConversation;
+    invoke-static {v8}, Lkik/arcane/util/at;->e(Lkik/arcane/util/at;)Lkik/core/interfaces/IConversation;
 
     move-result-object v8
 
-    iget-object v9, p0, Lkik/android/util/at$1;->a:Lkik/android/util/at;
+    iget-object v9, p0, Lkik/arcane/util/at$1;->a:Lkik/arcane/util/at;
 
-    invoke-static {v9}, Lkik/android/util/at;->f(Lkik/android/util/at;)Lkik/core/interfaces/z;
+    invoke-static {v9}, Lkik/arcane/util/at;->f(Lkik/arcane/util/at;)Lkik/core/interfaces/z;
 
     move-result-object v9
 
-    invoke-direct/range {v0 .. v9}, Lkik/android/net/http/ContentUploadItem;-><init>(Lkik/core/datatypes/messageExtensions/ContentMessage;Ljava/lang/String;Ljava/lang/String;Lcom/kik/android/Mixpanel;Lkik/core/net/e;Lkik/core/interfaces/n;Lkik/core/interfaces/ad;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/z;)V
+    invoke-direct/range {v0 .. v9}, Lkik/arcane/net/http/ContentUploadItem;-><init>(Lkik/core/datatypes/messageExtensions/ContentMessage;Ljava/lang/String;Ljava/lang/String;Lcom/kik/arcane/Mixpanel;Lkik/core/net/e;Lkik/core/interfaces/n;Lkik/core/interfaces/ad;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/z;)V
 
     .line 1098
-    invoke-static {}, Lkik/android/net/http/b;->a()Lkik/android/net/http/b;
+    invoke-static {}, Lkik/arcane/net/http/b;->a()Lkik/arcane/net/http/b;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lkik/android/net/http/b;->a(Lkik/android/net/http/a;)V
+    invoke-virtual {v1, v0}, Lkik/arcane/net/http/b;->a(Lkik/arcane/net/http/a;)V
 
     .line 1100
     :cond_0
-    iget-object v0, p0, Lkik/android/util/at$1;->a:Lkik/android/util/at;
+    iget-object v0, p0, Lkik/arcane/util/at$1;->a:Lkik/arcane/util/at;
 
-    invoke-virtual {v0, p2}, Lkik/android/util/at;->b(Lkik/core/datatypes/Message;)V
+    invoke-virtual {v0, p2}, Lkik/arcane/util/at;->b(Lkik/core/datatypes/Message;)V
 
     .line 87
     :cond_1

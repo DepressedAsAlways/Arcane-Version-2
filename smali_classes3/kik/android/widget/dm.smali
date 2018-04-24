@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/widget/dm;
+.class final synthetic Lkik/arcane/widget/dm;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/widget/ViewModelPagerAdapter;
+.field private final a:Lkik/arcane/widget/ViewModelPagerAdapter;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/widget/ViewModelPagerAdapter;)V
+.method private constructor <init>(Lkik/arcane/widget/ViewModelPagerAdapter;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/widget/dm;->a:Lkik/android/widget/ViewModelPagerAdapter;
+    iput-object p1, p0, Lkik/arcane/widget/dm;->a:Lkik/arcane/widget/ViewModelPagerAdapter;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/ViewModelPagerAdapter;)Lrx/functions/b;
+.method public static a(Lkik/arcane/widget/ViewModelPagerAdapter;)Lrx/functions/b;
     .locals 1
 
-    new-instance v0, Lkik/android/widget/dm;
+    new-instance v0, Lkik/arcane/widget/dm;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/dm;-><init>(Lkik/android/widget/ViewModelPagerAdapter;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/dm;-><init>(Lkik/arcane/widget/ViewModelPagerAdapter;)V
 
     return-object v0
 .end method
@@ -35,9 +35,9 @@
 .method public final call(Ljava/lang/Object;)V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/widget/dm;->a:Lkik/android/widget/ViewModelPagerAdapter;
+    iget-object v0, p0, Lkik/arcane/widget/dm;->a:Lkik/arcane/widget/ViewModelPagerAdapter;
 
-    invoke-static {v0}, Lkik/android/widget/ViewModelPagerAdapter;->a(Lkik/android/widget/ViewModelPagerAdapter;)V
+    invoke-static {v0}, Lkik/arcane/widget/ViewModelPagerAdapter;->a(Lkik/arcane/widget/ViewModelPagerAdapter;)V
 
     return-void
 .end method

@@ -1,9 +1,9 @@
-.class public final Lkik/android/chat/vm/a/c;
-.super Lkik/android/chat/vm/a/a;
+.class public final Lkik/arcane/chat/vm/a/c;
+.super Lkik/arcane/chat/vm/a/a;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/a/f;
+.implements Lkik/arcane/chat/vm/a/f;
 
 
 # instance fields
@@ -20,10 +20,10 @@
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Lkik/android/chat/vm/a/a;-><init>(Lkik/core/datatypes/l;)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/vm/a/a;-><init>(Lkik/core/datatypes/l;)V
 
     .line 16
-    iput-object p1, p0, Lkik/android/chat/vm/a/c;->a:Lkik/core/datatypes/GroupContactInfoHolder;
+    iput-object p1, p0, Lkik/arcane/chat/vm/a/c;->a:Lkik/core/datatypes/GroupContactInfoHolder;
 
     .line 17
     return-void
@@ -36,7 +36,7 @@
 
     .prologue
     .line 22
-    iget-object v0, p0, Lkik/android/chat/vm/a/c;->a:Lkik/core/datatypes/GroupContactInfoHolder;
+    iget-object v0, p0, Lkik/arcane/chat/vm/a/c;->a:Lkik/core/datatypes/GroupContactInfoHolder;
 
     return-object v0
 .end method

@@ -1,4 +1,4 @@
-.class final Lkik/android/video/d;
+.class final Lkik/arcane/video/d;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -41,7 +41,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/video/d;->a:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/video/d;->a:Lorg/slf4j/b;
 
     return-void
 .end method
@@ -64,25 +64,25 @@
 
     fill-array-data v0, :array_0
 
-    iput-object v0, p0, Lkik/android/video/d;->b:[F
+    iput-object v0, p0, Lkik/arcane/video/d;->b:[F
 
     .line 68
     new-array v0, v1, [F
 
-    iput-object v0, p0, Lkik/android/video/d;->d:[F
+    iput-object v0, p0, Lkik/arcane/video/d;->d:[F
 
     .line 69
     new-array v0, v1, [F
 
-    iput-object v0, p0, Lkik/android/video/d;->e:[F
+    iput-object v0, p0, Lkik/arcane/video/d;->e:[F
 
     .line 71
     const/16 v0, -0x3039
 
-    iput v0, p0, Lkik/android/video/d;->g:I
+    iput v0, p0, Lkik/arcane/video/d;->g:I
 
     .line 79
-    iget-object v0, p0, Lkik/android/video/d;->b:[F
+    iget-object v0, p0, Lkik/arcane/video/d;->b:[F
 
     array-length v0, v0
 
@@ -105,12 +105,12 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/video/d;->c:Ljava/nio/FloatBuffer;
+    iput-object v0, p0, Lkik/arcane/video/d;->c:Ljava/nio/FloatBuffer;
 
     .line 82
-    iget-object v0, p0, Lkik/android/video/d;->c:Ljava/nio/FloatBuffer;
+    iget-object v0, p0, Lkik/arcane/video/d;->c:Ljava/nio/FloatBuffer;
 
-    iget-object v1, p0, Lkik/android/video/d;->b:[F
+    iget-object v1, p0, Lkik/arcane/video/d;->b:[F
 
     invoke-virtual {v0, v1}, Ljava/nio/FloatBuffer;->put([F)Ljava/nio/FloatBuffer;
 
@@ -119,7 +119,7 @@
     invoke-virtual {v0, v2}, Ljava/nio/FloatBuffer;->position(I)Ljava/nio/Buffer;
 
     .line 83
-    iget-object v0, p0, Lkik/android/video/d;->e:[F
+    iget-object v0, p0, Lkik/arcane/video/d;->e:[F
 
     invoke-static {v0, v2}, Landroid/opengl/Matrix;->setIdentityM([FI)V
 
@@ -180,7 +180,7 @@
 
     move-result-object v2
 
-    invoke-static {v2}, Lkik/android/video/d;->a(Ljava/lang/String;)V
+    invoke-static {v2}, Lkik/arcane/video/d;->a(Ljava/lang/String;)V
 
     .line 182
     invoke-static {v1, p1}, Landroid/opengl/GLES20;->glShaderSource(ILjava/lang/String;)V
@@ -268,7 +268,7 @@
 
     .prologue
     .line 88
-    iget v0, p0, Lkik/android/video/d;->g:I
+    iget v0, p0, Lkik/arcane/video/d;->g:I
 
     return v0
 .end method
@@ -290,10 +290,10 @@
     .line 93
     const-string v0, "onDrawFrame start"
 
-    invoke-static {v0}, Lkik/android/video/d;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/video/d;->a(Ljava/lang/String;)V
 
     .line 94
-    iget-object v0, p0, Lkik/android/video/d;->e:[F
+    iget-object v0, p0, Lkik/arcane/video/d;->e:[F
 
     invoke-virtual {p1, v0}, Landroid/graphics/SurfaceTexture;->getTransformMatrix([F)V
 
@@ -306,14 +306,14 @@
     invoke-static {v0}, Landroid/opengl/GLES20;->glClear(I)V
 
     .line 97
-    iget v0, p0, Lkik/android/video/d;->f:I
+    iget v0, p0, Lkik/arcane/video/d;->f:I
 
     invoke-static {v0}, Landroid/opengl/GLES20;->glUseProgram(I)V
 
     .line 98
     const-string v0, "glUseProgram"
 
-    invoke-static {v0}, Lkik/android/video/d;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/video/d;->a(Ljava/lang/String;)V
 
     .line 99
     const v0, 0x84c0
@@ -323,48 +323,48 @@
     .line 100
     const v0, 0x8d65
 
-    iget v2, p0, Lkik/android/video/d;->g:I
+    iget v2, p0, Lkik/arcane/video/d;->g:I
 
     invoke-static {v0, v2}, Landroid/opengl/GLES20;->glBindTexture(II)V
 
     .line 101
-    iget-object v0, p0, Lkik/android/video/d;->c:Ljava/nio/FloatBuffer;
+    iget-object v0, p0, Lkik/arcane/video/d;->c:Ljava/nio/FloatBuffer;
 
     invoke-virtual {v0, v3}, Ljava/nio/FloatBuffer;->position(I)Ljava/nio/Buffer;
 
     .line 102
-    iget v0, p0, Lkik/android/video/d;->j:I
+    iget v0, p0, Lkik/arcane/video/d;->j:I
 
     const/16 v2, 0x1406
 
     const/16 v4, 0x14
 
-    iget-object v5, p0, Lkik/android/video/d;->c:Ljava/nio/FloatBuffer;
+    iget-object v5, p0, Lkik/arcane/video/d;->c:Ljava/nio/FloatBuffer;
 
     invoke-static/range {v0 .. v5}, Landroid/opengl/GLES20;->glVertexAttribPointer(IIIZILjava/nio/Buffer;)V
 
     .line 104
     const-string v0, "glVertexAttribPointer maPosition"
 
-    invoke-static {v0}, Lkik/android/video/d;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/video/d;->a(Ljava/lang/String;)V
 
     .line 105
-    iget v0, p0, Lkik/android/video/d;->j:I
+    iget v0, p0, Lkik/arcane/video/d;->j:I
 
     invoke-static {v0}, Landroid/opengl/GLES20;->glEnableVertexAttribArray(I)V
 
     .line 106
     const-string v0, "glEnableVertexAttribArray maPositionHandle"
 
-    invoke-static {v0}, Lkik/android/video/d;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/video/d;->a(Ljava/lang/String;)V
 
     .line 107
-    iget-object v0, p0, Lkik/android/video/d;->c:Ljava/nio/FloatBuffer;
+    iget-object v0, p0, Lkik/arcane/video/d;->c:Ljava/nio/FloatBuffer;
 
     invoke-virtual {v0, v1}, Ljava/nio/FloatBuffer;->position(I)Ljava/nio/Buffer;
 
     .line 108
-    iget v0, p0, Lkik/android/video/d;->k:I
+    iget v0, p0, Lkik/arcane/video/d;->k:I
 
     const/4 v1, 0x2
 
@@ -372,41 +372,41 @@
 
     const/16 v4, 0x14
 
-    iget-object v5, p0, Lkik/android/video/d;->c:Ljava/nio/FloatBuffer;
+    iget-object v5, p0, Lkik/arcane/video/d;->c:Ljava/nio/FloatBuffer;
 
     invoke-static/range {v0 .. v5}, Landroid/opengl/GLES20;->glVertexAttribPointer(IIIZILjava/nio/Buffer;)V
 
     .line 110
     const-string v0, "glVertexAttribPointer maTextureHandle"
 
-    invoke-static {v0}, Lkik/android/video/d;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/video/d;->a(Ljava/lang/String;)V
 
     .line 111
-    iget v0, p0, Lkik/android/video/d;->k:I
+    iget v0, p0, Lkik/arcane/video/d;->k:I
 
     invoke-static {v0}, Landroid/opengl/GLES20;->glEnableVertexAttribArray(I)V
 
     .line 112
     const-string v0, "glEnableVertexAttribArray maTextureHandle"
 
-    invoke-static {v0}, Lkik/android/video/d;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/video/d;->a(Ljava/lang/String;)V
 
     .line 113
-    iget-object v0, p0, Lkik/android/video/d;->d:[F
+    iget-object v0, p0, Lkik/arcane/video/d;->d:[F
 
     invoke-static {v0, v3}, Landroid/opengl/Matrix;->setIdentityM([FI)V
 
     .line 114
-    iget v0, p0, Lkik/android/video/d;->h:I
+    iget v0, p0, Lkik/arcane/video/d;->h:I
 
-    iget-object v1, p0, Lkik/android/video/d;->d:[F
+    iget-object v1, p0, Lkik/arcane/video/d;->d:[F
 
     invoke-static {v0, v6, v3, v1, v3}, Landroid/opengl/GLES20;->glUniformMatrix4fv(IIZ[FI)V
 
     .line 115
-    iget v0, p0, Lkik/android/video/d;->i:I
+    iget v0, p0, Lkik/arcane/video/d;->i:I
 
-    iget-object v1, p0, Lkik/android/video/d;->e:[F
+    iget-object v1, p0, Lkik/arcane/video/d;->e:[F
 
     invoke-static {v0, v6, v3, v1, v3}, Landroid/opengl/GLES20;->glUniformMatrix4fv(IIZ[FI)V
 
@@ -420,7 +420,7 @@
     .line 117
     const-string v0, "glDrawArrays"
 
-    invoke-static {v0}, Lkik/android/video/d;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/video/d;->a(Ljava/lang/String;)V
 
     .line 118
     invoke-static {}, Landroid/opengl/GLES20;->glFinish()V
@@ -451,7 +451,7 @@
     .line 1199
     const v3, 0x8b31
 
-    invoke-static {v3, v0}, Lkik/android/video/d;->a(ILjava/lang/String;)I
+    invoke-static {v3, v0}, Lkik/arcane/video/d;->a(ILjava/lang/String;)I
 
     move-result v3
 
@@ -463,10 +463,10 @@
     .line 126
     :cond_0
     :goto_0
-    iput v0, p0, Lkik/android/video/d;->f:I
+    iput v0, p0, Lkik/arcane/video/d;->f:I
 
     .line 127
-    iget v0, p0, Lkik/android/video/d;->f:I
+    iget v0, p0, Lkik/arcane/video/d;->f:I
 
     if-nez v0, :cond_3
 
@@ -483,7 +483,7 @@
     :cond_1
     const v0, 0x8b30
 
-    invoke-static {v0, v2}, Lkik/android/video/d;->a(ILjava/lang/String;)I
+    invoke-static {v0, v2}, Lkik/arcane/video/d;->a(ILjava/lang/String;)I
 
     move-result v2
 
@@ -504,7 +504,7 @@
     .line 1208
     const-string v4, "glCreateProgram"
 
-    invoke-static {v4}, Lkik/android/video/d;->a(Ljava/lang/String;)V
+    invoke-static {v4}, Lkik/arcane/video/d;->a(Ljava/lang/String;)V
 
     .line 1212
     invoke-static {v0, v3}, Landroid/opengl/GLES20;->glAttachShader(II)V
@@ -512,7 +512,7 @@
     .line 1213
     const-string v3, "glAttachShader"
 
-    invoke-static {v3}, Lkik/android/video/d;->a(Ljava/lang/String;)V
+    invoke-static {v3}, Lkik/arcane/video/d;->a(Ljava/lang/String;)V
 
     .line 1214
     invoke-static {v0, v2}, Landroid/opengl/GLES20;->glAttachShader(II)V
@@ -520,7 +520,7 @@
     .line 1215
     const-string v2, "glAttachShader"
 
-    invoke-static {v2}, Lkik/android/video/d;->a(Ljava/lang/String;)V
+    invoke-static {v2}, Lkik/arcane/video/d;->a(Ljava/lang/String;)V
 
     .line 1216
     invoke-static {v0}, Landroid/opengl/GLES20;->glLinkProgram(I)V
@@ -548,7 +548,7 @@
 
     .line 130
     :cond_3
-    iget v0, p0, Lkik/android/video/d;->f:I
+    iget v0, p0, Lkik/arcane/video/d;->f:I
 
     const-string v2, "aPosition"
 
@@ -556,15 +556,15 @@
 
     move-result v0
 
-    iput v0, p0, Lkik/android/video/d;->j:I
+    iput v0, p0, Lkik/arcane/video/d;->j:I
 
     .line 131
     const-string v0, "glGetAttribLocation aPosition"
 
-    invoke-static {v0}, Lkik/android/video/d;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/video/d;->a(Ljava/lang/String;)V
 
     .line 132
-    iget v0, p0, Lkik/android/video/d;->j:I
+    iget v0, p0, Lkik/arcane/video/d;->j:I
 
     if-ne v0, v6, :cond_4
 
@@ -579,7 +579,7 @@
 
     .line 135
     :cond_4
-    iget v0, p0, Lkik/android/video/d;->f:I
+    iget v0, p0, Lkik/arcane/video/d;->f:I
 
     const-string v2, "aTextureCoord"
 
@@ -587,15 +587,15 @@
 
     move-result v0
 
-    iput v0, p0, Lkik/android/video/d;->k:I
+    iput v0, p0, Lkik/arcane/video/d;->k:I
 
     .line 136
     const-string v0, "glGetAttribLocation aTextureCoord"
 
-    invoke-static {v0}, Lkik/android/video/d;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/video/d;->a(Ljava/lang/String;)V
 
     .line 137
-    iget v0, p0, Lkik/android/video/d;->k:I
+    iget v0, p0, Lkik/arcane/video/d;->k:I
 
     if-ne v0, v6, :cond_5
 
@@ -610,7 +610,7 @@
 
     .line 140
     :cond_5
-    iget v0, p0, Lkik/android/video/d;->f:I
+    iget v0, p0, Lkik/arcane/video/d;->f:I
 
     const-string v2, "uMVPMatrix"
 
@@ -618,15 +618,15 @@
 
     move-result v0
 
-    iput v0, p0, Lkik/android/video/d;->h:I
+    iput v0, p0, Lkik/arcane/video/d;->h:I
 
     .line 141
     const-string v0, "glGetUniformLocation uMVPMatrix"
 
-    invoke-static {v0}, Lkik/android/video/d;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/video/d;->a(Ljava/lang/String;)V
 
     .line 142
-    iget v0, p0, Lkik/android/video/d;->h:I
+    iget v0, p0, Lkik/arcane/video/d;->h:I
 
     if-ne v0, v6, :cond_6
 
@@ -641,7 +641,7 @@
 
     .line 145
     :cond_6
-    iget v0, p0, Lkik/android/video/d;->f:I
+    iget v0, p0, Lkik/arcane/video/d;->f:I
 
     const-string v2, "uSTMatrix"
 
@@ -649,15 +649,15 @@
 
     move-result v0
 
-    iput v0, p0, Lkik/android/video/d;->i:I
+    iput v0, p0, Lkik/arcane/video/d;->i:I
 
     .line 146
     const-string v0, "glGetUniformLocation uSTMatrix"
 
-    invoke-static {v0}, Lkik/android/video/d;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/video/d;->a(Ljava/lang/String;)V
 
     .line 147
-    iget v0, p0, Lkik/android/video/d;->i:I
+    iget v0, p0, Lkik/arcane/video/d;->i:I
 
     if-ne v0, v6, :cond_7
 
@@ -680,17 +680,17 @@
     .line 152
     aget v0, v0, v1
 
-    iput v0, p0, Lkik/android/video/d;->g:I
+    iput v0, p0, Lkik/arcane/video/d;->g:I
 
     .line 153
-    iget v0, p0, Lkik/android/video/d;->g:I
+    iget v0, p0, Lkik/arcane/video/d;->g:I
 
     invoke-static {v5, v0}, Landroid/opengl/GLES20;->glBindTexture(II)V
 
     .line 154
     const-string v0, "glBindTexture mTextureID"
 
-    invoke-static {v0}, Lkik/android/video/d;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/video/d;->a(Ljava/lang/String;)V
 
     .line 155
     const/16 v0, 0x2801
@@ -719,7 +719,7 @@
     .line 163
     const-string v0, "glTexParameter"
 
-    invoke-static {v0}, Lkik/android/video/d;->a(Ljava/lang/String;)V
+    invoke-static {v0}, Lkik/arcane/video/d;->a(Ljava/lang/String;)V
 
     .line 164
     return-void

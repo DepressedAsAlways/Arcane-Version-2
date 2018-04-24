@@ -1,11 +1,11 @@
-.class public interface abstract Lkik/android/f$c;
+.class public interface abstract Lkik/arcane/f$c;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/f;
+    value = Lkik/arcane/f;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,5 +15,5 @@
 
 
 # virtual methods
-.method public abstract a(Lkik/android/f$b;)V
+.method public abstract a(Lkik/arcane/f$b;)V
 .end method

@@ -1,5 +1,5 @@
-.class public Lkik/android/widget/preferences/ShareSocialPreference;
-.super Lkik/android/widget/preferences/KikPreference;
+.class public Lkik/arcane/widget/preferences/ShareSocialPreference;
+.super Lkik/arcane/widget/preferences/KikPreference;
 .source "SourceFile"
 
 
@@ -18,7 +18,7 @@
     .line 28
     sget-object v0, Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;->TELL_SOCIAL:Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/preferences/KikPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/preferences/KikPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
 
     .line 29
     return-void
@@ -31,7 +31,7 @@
 
     .prologue
     .line 34
-    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/widget/preferences/ShareSocialPreference;)V
+    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/widget/preferences/ShareSocialPreference;)V
 
     .line 35
     return-void
@@ -44,7 +44,7 @@
     const/4 v3, 0x0
 
     .line 40
-    iget-object v0, p0, Lkik/android/widget/preferences/ShareSocialPreference;->a:Lkik/core/interfaces/ag;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/ShareSocialPreference;->a:Lkik/core/interfaces/ag;
 
     invoke-interface {v0}, Lkik/core/interfaces/ag;->d()Lkik/core/datatypes/aa;
 
@@ -56,13 +56,13 @@
     if-eqz v1, :cond_0
 
     .line 43
-    invoke-virtual {p0}, Lkik/android/widget/preferences/ShareSocialPreference;->a()Lkik/android/chat/fragment/KikScopedDialogFragment;
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/ShareSocialPreference;->a()Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     move-result-object v1
 
     const v2, 0x7f090501
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/KikScopedDialogFragment;->getString(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->getString(I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -90,11 +90,11 @@
     invoke-direct {v1, v2, v0}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
     .line 45
-    invoke-virtual {p0}, Lkik/android/widget/preferences/ShareSocialPreference;->a()Lkik/android/chat/fragment/KikScopedDialogFragment;
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/ShareSocialPreference;->a()Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     move-result-object v0
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikScopedDialogFragment;->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->startActivity(Landroid/content/Intent;)V
 
     .line 51
     :goto_0
@@ -102,7 +102,7 @@
 
     .line 48
     :cond_0
-    invoke-virtual {p0}, Lkik/android/widget/preferences/ShareSocialPreference;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/ShareSocialPreference;->getContext()Landroid/content/Context;
 
     move-result-object v0
 

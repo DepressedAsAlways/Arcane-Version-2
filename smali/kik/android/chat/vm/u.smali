@@ -1,21 +1,21 @@
-.class public final Lkik/android/chat/vm/u;
-.super Lkik/android/chat/vm/c;
+.class public final Lkik/arcane/chat/vm/u;
+.super Lkik/arcane/chat/vm/c;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/chats/profile/dr;
-.implements Lkik/android/chat/vm/s$a;
+.implements Lkik/arcane/chat/vm/chats/profile/dr;
+.implements Lkik/arcane/chat/vm/s$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkik/android/chat/vm/c",
+        "Lkik/arcane/chat/vm/c",
         "<",
-        "Lkik/android/chat/vm/chats/profile/dq;",
+        "Lkik/arcane/chat/vm/chats/profile/dq;",
         ">;",
-        "Lkik/android/chat/vm/chats/profile/dr;",
-        "Lkik/android/chat/vm/s$a;"
+        "Lkik/arcane/chat/vm/chats/profile/dr;",
+        "Lkik/arcane/chat/vm/s$a;"
     }
 .end annotation
 
@@ -68,7 +68,7 @@
     .end annotation
 .end field
 
-.field protected f:Lcom/kik/android/Mixpanel;
+.field protected f:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -103,7 +103,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lkik/android/chat/vm/ab;->a()Lcom/google/common/base/Predicate;
+    invoke-static {}, Lkik/arcane/chat/vm/ab;->a()Lcom/google/common/base/Predicate;
 
     move-result-object v1
 
@@ -111,7 +111,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lkik/android/chat/vm/ac;->a()Lcom/google/common/base/Function;
+    invoke-static {}, Lkik/arcane/chat/vm/ac;->a()Lcom/google/common/base/Function;
 
     move-result-object v1
 
@@ -123,7 +123,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/chat/vm/u;->g:Ljava/util/List;
+    sput-object v0, Lkik/arcane/chat/vm/u;->g:Ljava/util/List;
 
     .line 54
     return-void
@@ -134,24 +134,24 @@
 
     .prologue
     .line 107
-    invoke-direct {p0}, Lkik/android/chat/vm/c;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/c;-><init>()V
 
     .line 108
-    iput-object p1, p0, Lkik/android/chat/vm/u;->i:Lkik/core/chat/profile/EmojiStatus;
+    iput-object p1, p0, Lkik/arcane/chat/vm/u;->i:Lkik/core/chat/profile/EmojiStatus;
 
     .line 109
-    iput-object p1, p0, Lkik/android/chat/vm/u;->h:Lkik/core/chat/profile/EmojiStatus;
+    iput-object p1, p0, Lkik/arcane/chat/vm/u;->h:Lkik/core/chat/profile/EmojiStatus;
 
     .line 110
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/u;Lkik/core/chat/profile/EmojiStatus;)Ljava/lang/Boolean;
+.method static synthetic a(Lkik/arcane/chat/vm/u;Lkik/core/chat/profile/EmojiStatus;)Ljava/lang/Boolean;
     .locals 1
 
     .prologue
     .line 166
-    invoke-direct {p0, p1}, Lkik/android/chat/vm/u;->b(Lkik/core/chat/profile/EmojiStatus;)Z
+    invoke-direct {p0, p1}, Lkik/arcane/chat/vm/u;->b(Lkik/core/chat/profile/EmojiStatus;)Z
 
     move-result v0
 
@@ -184,21 +184,21 @@
     return-object v0
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/u;)V
+.method static synthetic a(Lkik/arcane/chat/vm/u;)V
     .locals 1
 
     .prologue
     .line 200
-    invoke-virtual {p0}, Lkik/android/chat/vm/u;->H_()Lkik/android/chat/vm/bd;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/u;->H_()Lkik/arcane/chat/vm/bd;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkik/android/chat/vm/bd;->j()V
+    invoke-interface {v0}, Lkik/arcane/chat/vm/bd;->j()V
 
     return-void
 .end method
 
-.method public static a(Lorg/apmem/tools/layouts/FlowLayout;Lkik/android/chat/vm/chats/profile/dr;)V
+.method public static a(Lorg/apmem/tools/layouts/FlowLayout;Lkik/arcane/chat/vm/chats/profile/dr;)V
     .locals 6
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -222,18 +222,18 @@
 
     .line 72
     :goto_0
-    invoke-interface {p1}, Lkik/android/chat/vm/chats/profile/dr;->g()I
+    invoke-interface {p1}, Lkik/arcane/chat/vm/chats/profile/dr;->g()I
 
     move-result v0
 
     if-ge v2, v0, :cond_2
 
     .line 73
-    invoke-interface {p1, v2}, Lkik/android/chat/vm/chats/profile/dr;->d(I)Lkik/android/chat/vm/ay;
+    invoke-interface {p1, v2}, Lkik/arcane/chat/vm/chats/profile/dr;->d(I)Lkik/arcane/chat/vm/ay;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/vm/chats/profile/dq;
+    check-cast v0, Lkik/arcane/chat/vm/chats/profile/dq;
 
     .line 74
     const v1, 0x7f04007a
@@ -242,23 +242,23 @@
 
     move-result-object v1
 
-    check-cast v1, Lkik/android/e/ac;
+    check-cast v1, Lkik/arcane/e/ac;
 
     .line 75
-    invoke-virtual {v1, v0}, Lkik/android/e/ac;->a(Lkik/android/chat/vm/chats/profile/dq;)V
+    invoke-virtual {v1, v0}, Lkik/arcane/e/ac;->a(Lkik/arcane/chat/vm/chats/profile/dq;)V
 
     .line 76
-    invoke-virtual {v1}, Lkik/android/e/ac;->executePendingBindings()V
+    invoke-virtual {v1}, Lkik/arcane/e/ac;->executePendingBindings()V
 
     .line 77
-    invoke-virtual {v1}, Lkik/android/e/ac;->getRoot()Landroid/view/View;
+    invoke-virtual {v1}, Lkik/arcane/e/ac;->getRoot()Landroid/view/View;
 
     move-result-object v0
 
     invoke-virtual {p0, v0}, Lorg/apmem/tools/layouts/FlowLayout;->addView(Landroid/view/View;)V
 
     .line 79
-    invoke-virtual {v1}, Lkik/android/e/ac;->getRoot()Landroid/view/View;
+    invoke-virtual {v1}, Lkik/arcane/e/ac;->getRoot()Landroid/view/View;
 
     move-result-object v0
 
@@ -276,9 +276,9 @@
     if-eqz v5, :cond_1
 
     .line 81
-    new-instance v5, Lkik/android/chat/vm/u$1;
+    new-instance v5, Lkik/arcane/chat/vm/u$1;
 
-    invoke-direct {v5, v1, p0}, Lkik/android/chat/vm/u$1;-><init>(Lkik/android/e/ac;Lorg/apmem/tools/layouts/FlowLayout;)V
+    invoke-direct {v5, v1, p0}, Lkik/arcane/chat/vm/u$1;-><init>(Lkik/arcane/e/ac;Lorg/apmem/tools/layouts/FlowLayout;)V
 
     invoke-virtual {v0, v5}, Landroid/view/ViewTreeObserver;->addOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
 
@@ -313,7 +313,7 @@
     move-result-object v0
 
     .line 99
-    invoke-virtual {v1}, Lkik/android/e/ac;->getRoot()Landroid/view/View;
+    invoke-virtual {v1}, Lkik/arcane/e/ac;->getRoot()Landroid/view/View;
 
     move-result-object v1
 
@@ -326,27 +326,27 @@
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/chat/vm/u;)V
+.method static synthetic b(Lkik/arcane/chat/vm/u;)V
     .locals 4
 
     .prologue
     .line 180
-    invoke-virtual {p0}, Lkik/android/chat/vm/u;->H_()Lkik/android/chat/vm/bd;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/u;->H_()Lkik/arcane/chat/vm/bd;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkik/android/chat/vm/bd;->g()V
+    invoke-interface {v0}, Lkik/arcane/chat/vm/bd;->g()V
 
     .line 181
-    invoke-virtual {p0}, Lkik/android/chat/vm/u;->H_()Lkik/android/chat/vm/bd;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/u;->H_()Lkik/arcane/chat/vm/bd;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/chat/vm/DialogViewModel$b;
+    new-instance v1, Lkik/arcane/chat/vm/DialogViewModel$b;
 
-    invoke-direct {v1}, Lkik/android/chat/vm/DialogViewModel$b;-><init>()V
+    invoke-direct {v1}, Lkik/arcane/chat/vm/DialogViewModel$b;-><init>()V
 
-    iget-object v2, p0, Lkik/android/chat/vm/u;->c:Landroid/content/res/Resources;
+    iget-object v2, p0, Lkik/arcane/chat/vm/u;->c:Landroid/content/res/Resources;
 
     const v3, 0x7f090433
 
@@ -355,11 +355,11 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/vm/DialogViewModel$b;->a(Ljava/lang/String;)Lkik/android/chat/vm/DialogViewModel$b;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/vm/DialogViewModel$b;->a(Ljava/lang/String;)Lkik/arcane/chat/vm/DialogViewModel$b;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/chat/vm/u;->c:Landroid/content/res/Resources;
+    iget-object v2, p0, Lkik/arcane/chat/vm/u;->c:Landroid/content/res/Resources;
 
     const v3, 0x7f090395
 
@@ -368,11 +368,11 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/vm/DialogViewModel$b;->b(Ljava/lang/String;)Lkik/android/chat/vm/DialogViewModel$b;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/vm/DialogViewModel$b;->b(Ljava/lang/String;)Lkik/arcane/chat/vm/DialogViewModel$b;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/chat/vm/u;->c:Landroid/content/res/Resources;
+    iget-object v2, p0, Lkik/arcane/chat/vm/u;->c:Landroid/content/res/Resources;
 
     const v3, 0x7f09027d
 
@@ -383,17 +383,17 @@
 
     const/4 v3, 0x0
 
-    invoke-virtual {v1, v2, v3}, Lkik/android/chat/vm/DialogViewModel$b;->a(Ljava/lang/String;Ljava/lang/Runnable;)Lkik/android/chat/vm/DialogViewModel$b;
+    invoke-virtual {v1, v2, v3}, Lkik/arcane/chat/vm/DialogViewModel$b;->a(Ljava/lang/String;Ljava/lang/Runnable;)Lkik/arcane/chat/vm/DialogViewModel$b;
 
     move-result-object v1
 
     .line 185
-    invoke-virtual {v1}, Lkik/android/chat/vm/DialogViewModel$b;->a()Lkik/android/chat/vm/DialogViewModel;
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/DialogViewModel$b;->a()Lkik/arcane/chat/vm/DialogViewModel;
 
     move-result-object v1
 
     .line 181
-    invoke-interface {v0, v1}, Lkik/android/chat/vm/bd;->a(Lkik/android/chat/vm/DialogViewModel;)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/vm/bd;->a(Lkik/arcane/chat/vm/DialogViewModel;)V
 
     .line 186
     return-void
@@ -426,7 +426,7 @@
     const/4 v0, 0x1
 
     .line 208
-    iget-object v1, p0, Lkik/android/chat/vm/u;->i:Lkik/core/chat/profile/EmojiStatus;
+    iget-object v1, p0, Lkik/arcane/chat/vm/u;->i:Lkik/core/chat/profile/EmojiStatus;
 
     if-ne p1, v1, :cond_1
 
@@ -438,7 +438,7 @@
     :cond_1
     if-eqz p1, :cond_2
 
-    iget-object v1, p0, Lkik/android/chat/vm/u;->i:Lkik/core/chat/profile/EmojiStatus;
+    iget-object v1, p0, Lkik/arcane/chat/vm/u;->i:Lkik/core/chat/profile/EmojiStatus;
 
     invoke-virtual {p1, v1}, Lkik/core/chat/profile/EmojiStatus;->equals(Ljava/lang/Object;)Z
 
@@ -452,19 +452,19 @@
     goto :goto_0
 .end method
 
-.method static synthetic c(Lkik/android/chat/vm/u;)V
+.method static synthetic c(Lkik/arcane/chat/vm/u;)V
     .locals 3
 
     .prologue
     .line 176
-    iget-object v0, p0, Lkik/android/chat/vm/u;->h:Lkik/core/chat/profile/EmojiStatus;
+    iget-object v0, p0, Lkik/arcane/chat/vm/u;->h:Lkik/core/chat/profile/EmojiStatus;
 
     .line 2221
-    iget-object v1, p0, Lkik/android/chat/vm/u;->f:Lcom/kik/android/Mixpanel;
+    iget-object v1, p0, Lkik/arcane/chat/vm/u;->f:Lcom/kik/arcane/Mixpanel;
 
     const-string v2, "emoji_status_set"
 
-    invoke-virtual {v1, v2}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
@@ -475,43 +475,43 @@
 
     move-result-object v0
 
-    invoke-virtual {v1, v2, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 2223
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 2224
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 177
-    invoke-virtual {p0}, Lkik/android/chat/vm/u;->H_()Lkik/android/chat/vm/bd;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/u;->H_()Lkik/arcane/chat/vm/bd;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkik/android/chat/vm/bd;->g()V
+    invoke-interface {v0}, Lkik/arcane/chat/vm/bd;->g()V
 
     .line 178
-    invoke-virtual {p0}, Lkik/android/chat/vm/u;->H_()Lkik/android/chat/vm/bd;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/u;->H_()Lkik/arcane/chat/vm/bd;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkik/android/chat/vm/bd;->j()V
+    invoke-interface {v0}, Lkik/arcane/chat/vm/bd;->j()V
 
     .line 179
     return-void
 .end method
 
-.method static synthetic d(Lkik/android/chat/vm/u;)Lkik/core/datatypes/aa;
+.method static synthetic d(Lkik/arcane/chat/vm/u;)Lkik/core/datatypes/aa;
     .locals 1
 
     .prologue
     .line 151
     .line 3216
-    iget-object v0, p0, Lkik/android/chat/vm/u;->b:Lkik/core/interfaces/ag;
+    iget-object v0, p0, Lkik/arcane/chat/vm/u;->b:Lkik/core/interfaces/ag;
 
     invoke-interface {v0}, Lkik/core/interfaces/ag;->d()Lkik/core/datatypes/aa;
 
@@ -523,15 +523,15 @@
 
 
 # virtual methods
-.method protected final synthetic a(I)Lkik/android/chat/vm/ay;
+.method protected final synthetic a(I)Lkik/arcane/chat/vm/ay;
     .locals 3
 
     .prologue
     .line 48
     .line 2129
-    new-instance v1, Lkik/android/chat/vm/s;
+    new-instance v1, Lkik/arcane/chat/vm/s;
 
-    sget-object v0, Lkik/android/chat/vm/u;->g:Ljava/util/List;
+    sget-object v0, Lkik/arcane/chat/vm/u;->g:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -539,32 +539,32 @@
 
     check-cast v0, Lkik/core/chat/profile/EmojiStatus;
 
-    iget-object v2, p0, Lkik/android/chat/vm/u;->j:Lrx/subjects/a;
+    iget-object v2, p0, Lkik/arcane/chat/vm/u;->j:Lrx/subjects/a;
 
-    invoke-direct {v1, v0, p0, v2}, Lkik/android/chat/vm/s;-><init>(Lkik/core/chat/profile/EmojiStatus;Lkik/android/chat/vm/s$a;Lrx/d;)V
+    invoke-direct {v1, v0, p0, v2}, Lkik/arcane/chat/vm/s;-><init>(Lkik/core/chat/profile/EmojiStatus;Lkik/arcane/chat/vm/s$a;Lrx/d;)V
 
     .line 48
     return-object v1
 .end method
 
-.method public final a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+.method public final a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
     .locals 1
 
     .prologue
     .line 115
-    invoke-super {p0, p1, p2}, Lkik/android/chat/vm/c;->a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+    invoke-super {p0, p1, p2}, Lkik/arcane/chat/vm/c;->a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
 
     .line 116
-    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/vm/u;)V
+    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/vm/u;)V
 
     .line 117
-    iget-object v0, p0, Lkik/android/chat/vm/u;->h:Lkik/core/chat/profile/EmojiStatus;
+    iget-object v0, p0, Lkik/arcane/chat/vm/u;->h:Lkik/core/chat/profile/EmojiStatus;
 
     invoke-static {v0}, Lrx/subjects/a;->d(Ljava/lang/Object;)Lrx/subjects/a;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/vm/u;->j:Lrx/subjects/a;
+    iput-object v0, p0, Lkik/arcane/chat/vm/u;->j:Lrx/subjects/a;
 
     .line 118
     return-void
@@ -575,7 +575,7 @@
 
     .prologue
     .line 157
-    iget-object v0, p0, Lkik/android/chat/vm/u;->h:Lkik/core/chat/profile/EmojiStatus;
+    iget-object v0, p0, Lkik/arcane/chat/vm/u;->h:Lkik/core/chat/profile/EmojiStatus;
 
     invoke-virtual {p1, v0}, Lkik/core/chat/profile/EmojiStatus;->equals(Ljava/lang/Object;)Z
 
@@ -584,10 +584,10 @@
     if-nez v0, :cond_0
 
     .line 158
-    iput-object p1, p0, Lkik/android/chat/vm/u;->h:Lkik/core/chat/profile/EmojiStatus;
+    iput-object p1, p0, Lkik/arcane/chat/vm/u;->h:Lkik/core/chat/profile/EmojiStatus;
 
     .line 159
-    iget-object v0, p0, Lkik/android/chat/vm/u;->j:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/u;->j:Lrx/subjects/a;
 
     invoke-virtual {v0, p1}, Lrx/subjects/a;->a(Ljava/lang/Object;)V
 
@@ -601,7 +601,7 @@
 
     .prologue
     .line 135
-    sget-object v0, Lkik/android/chat/vm/u;->g:Ljava/util/List;
+    sget-object v0, Lkik/arcane/chat/vm/u;->g:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
@@ -621,7 +621,7 @@
 
     .prologue
     .line 123
-    sget-object v0, Lkik/android/chat/vm/u;->g:Ljava/util/List;
+    sget-object v0, Lkik/arcane/chat/vm/u;->g:Ljava/util/List;
 
     invoke-static {v0}, Lkik/core/util/l;->b(Ljava/util/List;)I
 
@@ -644,7 +644,7 @@
 
     .prologue
     .line 141
-    iget-object v0, p0, Lkik/android/chat/vm/u;->j:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/u;->j:Lrx/subjects/a;
 
     return-object v0
 .end method
@@ -665,9 +665,9 @@
 
     .prologue
     .line 148
-    iget-object v0, p0, Lkik/android/chat/vm/u;->a:Lkik/core/interfaces/g;
+    iget-object v0, p0, Lkik/arcane/chat/vm/u;->a:Lkik/core/interfaces/g;
 
-    iget-object v1, p0, Lkik/android/chat/vm/u;->b:Lkik/core/interfaces/ag;
+    iget-object v1, p0, Lkik/arcane/chat/vm/u;->b:Lkik/core/interfaces/ag;
 
     invoke-interface {v1}, Lkik/core/interfaces/ag;->a()Lcom/kik/events/c;
 
@@ -686,7 +686,7 @@
 
     const-string v2, "Profile Picture"
 
-    invoke-static {v2}, Lkik/android/chat/vm/v;->a(Ljava/lang/String;)Lrx/functions/g;
+    invoke-static {v2}, Lkik/arcane/chat/vm/v;->a(Ljava/lang/String;)Lrx/functions/g;
 
     move-result-object v2
 
@@ -695,7 +695,7 @@
 
     move-result-object v1
 
-    invoke-static {p0}, Lkik/android/chat/vm/w;->a(Lkik/android/chat/vm/u;)Lrx/functions/g;
+    invoke-static {p0}, Lkik/arcane/chat/vm/w;->a(Lkik/arcane/chat/vm/u;)Lrx/functions/g;
 
     move-result-object v2
 
@@ -726,9 +726,9 @@
 
     .prologue
     .line 166
-    iget-object v0, p0, Lkik/android/chat/vm/u;->j:Lrx/subjects/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/u;->j:Lrx/subjects/a;
 
-    invoke-static {p0}, Lkik/android/chat/vm/x;->a(Lkik/android/chat/vm/u;)Lrx/functions/g;
+    invoke-static {p0}, Lkik/arcane/chat/vm/x;->a(Lkik/arcane/chat/vm/u;)Lrx/functions/g;
 
     move-result-object v1
 
@@ -744,7 +744,7 @@
 
     .prologue
     .line 172
-    iget-object v0, p0, Lkik/android/chat/vm/u;->e:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/vm/u;->e:Lkik/core/interfaces/ad;
 
     .line 1156
     invoke-static {v0}, Lkik/core/z;->b(Lkik/core/interfaces/ad;)Lkik/core/z;
@@ -756,11 +756,11 @@
     move-result-object v0
 
     .line 173
-    invoke-virtual {p0}, Lkik/android/chat/vm/u;->H_()Lkik/android/chat/vm/bd;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/u;->H_()Lkik/arcane/chat/vm/bd;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/chat/vm/u;->c:Landroid/content/res/Resources;
+    iget-object v2, p0, Lkik/arcane/chat/vm/u;->c:Landroid/content/res/Resources;
 
     const v3, 0x7f0904b0
 
@@ -768,30 +768,30 @@
 
     move-result-object v2
 
-    invoke-interface {v1, v2}, Lkik/android/chat/vm/bd;->a(Ljava/lang/String;)V
+    invoke-interface {v1, v2}, Lkik/arcane/chat/vm/bd;->a(Ljava/lang/String;)V
 
     .line 174
-    invoke-virtual {p0}, Lkik/android/chat/vm/u;->ag_()Lrx/f/b;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/u;->ag_()Lrx/f/b;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/chat/vm/u;->d:Lcom/kik/core/domain/users/UserController;
+    iget-object v2, p0, Lkik/arcane/chat/vm/u;->d:Lcom/kik/core/domain/users/UserController;
 
     invoke-static {v0}, Lcom/kik/core/network/xmpp/jid/a;->a(Lkik/core/datatypes/k;)Lcom/kik/core/network/xmpp/jid/a;
 
     move-result-object v0
 
-    iget-object v3, p0, Lkik/android/chat/vm/u;->h:Lkik/core/chat/profile/EmojiStatus;
+    iget-object v3, p0, Lkik/arcane/chat/vm/u;->h:Lkik/core/chat/profile/EmojiStatus;
 
     invoke-interface {v2, v0, v3}, Lcom/kik/core/domain/users/UserController;->a(Lcom/kik/core/network/xmpp/jid/a;Lkik/core/chat/profile/EmojiStatus;)Lrx/b;
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/chat/vm/y;->a(Lkik/android/chat/vm/u;)Lrx/functions/a;
+    invoke-static {p0}, Lkik/arcane/chat/vm/y;->a(Lkik/arcane/chat/vm/u;)Lrx/functions/a;
 
     move-result-object v2
 
-    invoke-static {p0}, Lkik/android/chat/vm/z;->a(Lkik/android/chat/vm/u;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/chat/vm/z;->a(Lkik/arcane/chat/vm/u;)Lrx/functions/b;
 
     move-result-object v3
 
@@ -812,20 +812,20 @@
 
     .prologue
     .line 192
-    iget-object v0, p0, Lkik/android/chat/vm/u;->h:Lkik/core/chat/profile/EmojiStatus;
+    iget-object v0, p0, Lkik/arcane/chat/vm/u;->h:Lkik/core/chat/profile/EmojiStatus;
 
-    invoke-direct {p0, v0}, Lkik/android/chat/vm/u;->b(Lkik/core/chat/profile/EmojiStatus;)Z
+    invoke-direct {p0, v0}, Lkik/arcane/chat/vm/u;->b(Lkik/core/chat/profile/EmojiStatus;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 193
-    invoke-virtual {p0}, Lkik/android/chat/vm/u;->H_()Lkik/android/chat/vm/bd;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/u;->H_()Lkik/arcane/chat/vm/bd;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkik/android/chat/vm/bd;->j()V
+    invoke-interface {v0}, Lkik/arcane/chat/vm/bd;->j()V
 
     .line 204
     :goto_0
@@ -833,15 +833,15 @@
 
     .line 196
     :cond_0
-    invoke-virtual {p0}, Lkik/android/chat/vm/u;->H_()Lkik/android/chat/vm/bd;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/u;->H_()Lkik/arcane/chat/vm/bd;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/chat/vm/DialogViewModel$b;
+    new-instance v1, Lkik/arcane/chat/vm/DialogViewModel$b;
 
-    invoke-direct {v1}, Lkik/android/chat/vm/DialogViewModel$b;-><init>()V
+    invoke-direct {v1}, Lkik/arcane/chat/vm/DialogViewModel$b;-><init>()V
 
-    iget-object v2, p0, Lkik/android/chat/vm/u;->c:Landroid/content/res/Resources;
+    iget-object v2, p0, Lkik/arcane/chat/vm/u;->c:Landroid/content/res/Resources;
 
     const v3, 0x7f0903ce
 
@@ -850,11 +850,11 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/vm/DialogViewModel$b;->a(Ljava/lang/String;)Lkik/android/chat/vm/DialogViewModel$b;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/vm/DialogViewModel$b;->a(Ljava/lang/String;)Lkik/arcane/chat/vm/DialogViewModel$b;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/chat/vm/u;->c:Landroid/content/res/Resources;
+    iget-object v2, p0, Lkik/arcane/chat/vm/u;->c:Landroid/content/res/Resources;
 
     const v3, 0x7f090585
 
@@ -863,11 +863,11 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/vm/DialogViewModel$b;->b(Ljava/lang/String;)Lkik/android/chat/vm/DialogViewModel$b;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/vm/DialogViewModel$b;->b(Ljava/lang/String;)Lkik/arcane/chat/vm/DialogViewModel$b;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/chat/vm/u;->c:Landroid/content/res/Resources;
+    iget-object v2, p0, Lkik/arcane/chat/vm/u;->c:Landroid/content/res/Resources;
 
     const v3, 0x7f0903d7
 
@@ -878,11 +878,11 @@
 
     const/4 v3, 0x0
 
-    invoke-virtual {v1, v2, v3}, Lkik/android/chat/vm/DialogViewModel$b;->b(Ljava/lang/String;Ljava/lang/Runnable;)Lkik/android/chat/vm/DialogViewModel$b;
+    invoke-virtual {v1, v2, v3}, Lkik/arcane/chat/vm/DialogViewModel$b;->b(Ljava/lang/String;Ljava/lang/Runnable;)Lkik/arcane/chat/vm/DialogViewModel$b;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/chat/vm/u;->c:Landroid/content/res/Resources;
+    iget-object v2, p0, Lkik/arcane/chat/vm/u;->c:Landroid/content/res/Resources;
 
     const v3, 0x7f090684
 
@@ -891,28 +891,28 @@
 
     move-result-object v2
 
-    invoke-static {p0}, Lkik/android/chat/vm/aa;->a(Lkik/android/chat/vm/u;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/chat/vm/aa;->a(Lkik/arcane/chat/vm/u;)Ljava/lang/Runnable;
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lkik/android/chat/vm/DialogViewModel$b;->a(Ljava/lang/String;Ljava/lang/Runnable;)Lkik/android/chat/vm/DialogViewModel$b;
+    invoke-virtual {v1, v2, v3}, Lkik/arcane/chat/vm/DialogViewModel$b;->a(Ljava/lang/String;Ljava/lang/Runnable;)Lkik/arcane/chat/vm/DialogViewModel$b;
 
     move-result-object v1
 
     const/4 v2, 0x1
 
     .line 201
-    invoke-virtual {v1, v2}, Lkik/android/chat/vm/DialogViewModel$b;->a(Z)Lkik/android/chat/vm/DialogViewModel$b;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/vm/DialogViewModel$b;->a(Z)Lkik/arcane/chat/vm/DialogViewModel$b;
 
     move-result-object v1
 
     .line 202
-    invoke-virtual {v1}, Lkik/android/chat/vm/DialogViewModel$b;->a()Lkik/android/chat/vm/DialogViewModel;
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/DialogViewModel$b;->a()Lkik/arcane/chat/vm/DialogViewModel;
 
     move-result-object v1
 
     .line 196
-    invoke-interface {v0, v1}, Lkik/android/chat/vm/bd;->a(Lkik/android/chat/vm/DialogViewModel;)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/vm/bd;->a(Lkik/arcane/chat/vm/DialogViewModel;)V
 
     goto :goto_0
 .end method

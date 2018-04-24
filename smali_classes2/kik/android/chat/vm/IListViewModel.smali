@@ -1,26 +1,26 @@
-.class public interface abstract Lkik/android/chat/vm/IListViewModel;
+.class public interface abstract Lkik/arcane/chat/vm/IListViewModel;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/bu;
+.implements Lkik/arcane/chat/vm/bu;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/vm/IListViewModel$a;,
-        Lkik/android/chat/vm/IListViewModel$ChangeType;
+        Lkik/arcane/chat/vm/IListViewModel$a;,
+        Lkik/arcane/chat/vm/IListViewModel$ChangeType;
     }
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "<ItemViewModel::",
-        "Lkik/android/chat/vm/ay;",
+        "Lkik/arcane/chat/vm/ay;",
         ">",
         "Ljava/lang/Object;",
-        "Lkik/android/chat/vm/bu;"
+        "Lkik/arcane/chat/vm/bu;"
     }
 .end annotation
 
@@ -32,13 +32,13 @@
             "()",
             "Lrx/d",
             "<",
-            "Lkik/android/chat/vm/IListViewModel$a;",
+            "Lkik/arcane/chat/vm/IListViewModel$a;",
             ">;"
         }
     .end annotation
 .end method
 
-.method public abstract d(I)Lkik/android/chat/vm/ay;
+.method public abstract d(I)Lkik/arcane/chat/vm/ay;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(I)TItemViewModel;"

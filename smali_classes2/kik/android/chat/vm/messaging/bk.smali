@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/messaging/bk;
+.class final synthetic Lkik/arcane/chat/vm/messaging/bk;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/vm/messaging/AbstractMessageViewModel;
+.field private final a:Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/vm/messaging/AbstractMessageViewModel;)V
+.method private constructor <init>(Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/vm/messaging/bk;->a:Lkik/android/chat/vm/messaging/AbstractMessageViewModel;
+    iput-object p1, p0, Lkik/arcane/chat/vm/messaging/bk;->a:Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/vm/messaging/AbstractMessageViewModel;)Lrx/functions/h;
+.method public static a(Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;)Lrx/functions/h;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/messaging/bk;
+    new-instance v0, Lkik/arcane/chat/vm/messaging/bk;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/vm/messaging/bk;-><init>(Lkik/android/chat/vm/messaging/AbstractMessageViewModel;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/vm/messaging/bk;-><init>(Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;)V
 
     return-object v0
 .end method
@@ -37,7 +37,7 @@
 
     .prologue
     .line 0
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/bk;->a:Lkik/android/chat/vm/messaging/AbstractMessageViewModel;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/bk;->a:Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;
 
     check-cast p1, Lkik/core/interfaces/o;
 
@@ -56,9 +56,9 @@
 
     .line 1640
     :cond_0
-    new-instance p1, Lkik/android/chat/vm/messaging/AbstractMessageViewModel$3;
+    new-instance p1, Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$3;
 
-    invoke-direct {p1, v0}, Lkik/android/chat/vm/messaging/AbstractMessageViewModel$3;-><init>(Lkik/android/chat/vm/messaging/AbstractMessageViewModel;)V
+    invoke-direct {p1, v0}, Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$3;-><init>(Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;)V
 
     goto :goto_0
 .end method

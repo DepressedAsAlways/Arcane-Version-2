@@ -1,5 +1,5 @@
-.class public Lkik/android/c/o;
-.super Lkik/android/c/b;
+.class public Lkik/arcane/c/o;
+.super Lkik/arcane/c/b;
 .source "SourceFile"
 
 # interfaces
@@ -21,23 +21,23 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/view/TextureView;Lkik/android/c/b$c;)V
+.method public constructor <init>(Landroid/view/TextureView;Lkik/arcane/c/b$c;)V
     .locals 1
 
     .prologue
     .line 26
-    invoke-direct {p0}, Lkik/android/c/b;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/c/b;-><init>()V
 
     .line 27
-    iput-object p1, p0, Lkik/android/c/o;->e:Landroid/view/TextureView;
+    iput-object p1, p0, Lkik/arcane/c/o;->e:Landroid/view/TextureView;
 
     .line 28
-    iget-object v0, p0, Lkik/android/c/o;->e:Landroid/view/TextureView;
+    iget-object v0, p0, Lkik/arcane/c/o;->e:Landroid/view/TextureView;
 
     invoke-virtual {v0, p0}, Landroid/view/TextureView;->setSurfaceTextureListener(Landroid/view/TextureView$SurfaceTextureListener;)V
 
     .line 29
-    iput-object p2, p0, Lkik/android/c/o;->b:Lkik/android/c/b$c;
+    iput-object p2, p0, Lkik/arcane/c/o;->b:Lkik/arcane/c/b$c;
 
     .line 30
     return-void
@@ -50,15 +50,15 @@
 
     .prologue
     .line 86
-    invoke-super {p0, p1}, Lkik/android/c/b;->a(Landroid/hardware/Camera;)V
+    invoke-super {p0, p1}, Lkik/arcane/c/b;->a(Landroid/hardware/Camera;)V
 
     .line 87
-    iput-object p1, p0, Lkik/android/c/o;->g:Landroid/hardware/Camera;
+    iput-object p1, p0, Lkik/arcane/c/o;->g:Landroid/hardware/Camera;
 
     .line 88
     if-eqz p1, :cond_0
 
-    iget-boolean v0, p0, Lkik/android/c/o;->f:Z
+    iget-boolean v0, p0, Lkik/arcane/c/o;->f:Z
 
     if-nez v0, :cond_1
 
@@ -69,7 +69,7 @@
 
     .line 91
     :cond_1
-    iget-object v0, p0, Lkik/android/c/o;->e:Landroid/view/TextureView;
+    iget-object v0, p0, Lkik/arcane/c/o;->e:Landroid/view/TextureView;
 
     invoke-virtual {v0}, Landroid/view/TextureView;->getSurfaceTexture()Landroid/graphics/SurfaceTexture;
 
@@ -95,14 +95,14 @@
     move-exception v0
 
     :goto_1
-    iget-object v0, p0, Lkik/android/c/o;->c:Lkik/android/c/b$b;
+    iget-object v0, p0, Lkik/arcane/c/o;->c:Lkik/arcane/c/b$b;
 
     if-eqz v0, :cond_0
 
     .line 102
-    iget-object v0, p0, Lkik/android/c/o;->c:Lkik/android/c/b$b;
+    iget-object v0, p0, Lkik/arcane/c/o;->c:Lkik/arcane/c/b$b;
 
-    invoke-virtual {v0}, Lkik/android/c/b$b;->a()V
+    invoke-virtual {v0}, Lkik/arcane/c/b$b;->a()V
 
     goto :goto_0
 
@@ -118,7 +118,7 @@
 
     .prologue
     .line 35
-    iget-boolean v0, p0, Lkik/android/c/o;->f:Z
+    iget-boolean v0, p0, Lkik/arcane/c/o;->f:Z
 
     return v0
 .end method
@@ -130,7 +130,7 @@
     .line 80
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/c/o;->g:Landroid/hardware/Camera;
+    iput-object v0, p0, Lkik/arcane/c/o;->g:Landroid/hardware/Camera;
 
     .line 81
     return-void
@@ -141,7 +141,7 @@
 
     .prologue
     .line 74
-    iget-object v0, p0, Lkik/android/c/o;->g:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/o;->g:Landroid/hardware/Camera;
 
     return-object v0
 .end method
@@ -153,12 +153,12 @@
     .line 41
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/c/o;->f:Z
+    iput-boolean v0, p0, Lkik/arcane/c/o;->f:Z
 
     .line 42
-    iget-object v0, p0, Lkik/android/c/o;->g:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/o;->g:Landroid/hardware/Camera;
 
-    invoke-virtual {p0, v0}, Lkik/android/c/o;->a(Landroid/hardware/Camera;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/c/o;->a(Landroid/hardware/Camera;)V
 
     .line 43
     const/16 v0, 0xe
@@ -170,9 +170,9 @@
     if-eqz v0, :cond_0
 
     .line 44
-    iget-object v0, p0, Lkik/android/c/o;->e:Landroid/view/TextureView;
+    iget-object v0, p0, Lkik/arcane/c/o;->e:Landroid/view/TextureView;
 
-    iget-object v1, p0, Lkik/android/c/o;->a:Landroid/view/View$OnTouchListener;
+    iget-object v1, p0, Lkik/arcane/c/o;->a:Landroid/view/View$OnTouchListener;
 
     invoke-virtual {v0, v1}, Landroid/view/TextureView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
@@ -188,17 +188,17 @@
     .line 57
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/c/o;->f:Z
+    iput-boolean v0, p0, Lkik/arcane/c/o;->f:Z
 
     .line 58
-    iget-object v0, p0, Lkik/android/c/o;->b:Lkik/android/c/b$c;
+    iget-object v0, p0, Lkik/arcane/c/o;->b:Lkik/arcane/c/b$c;
 
     if-eqz v0, :cond_0
 
     .line 59
-    iget-object v0, p0, Lkik/android/c/o;->b:Lkik/android/c/b$c;
+    iget-object v0, p0, Lkik/arcane/c/o;->b:Lkik/arcane/c/b$c;
 
-    invoke-virtual {v0}, Lkik/android/c/b$c;->a()V
+    invoke-virtual {v0}, Lkik/arcane/c/b$c;->a()V
 
     .line 61
     :cond_0
@@ -215,9 +215,9 @@
 
     .prologue
     .line 51
-    iget-object v0, p0, Lkik/android/c/o;->g:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/o;->g:Landroid/hardware/Camera;
 
-    invoke-virtual {p0, v0}, Lkik/android/c/o;->a(Landroid/hardware/Camera;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/c/o;->a(Landroid/hardware/Camera;)V
 
     .line 52
     return-void

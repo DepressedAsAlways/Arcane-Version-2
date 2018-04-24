@@ -1,14 +1,14 @@
-.class final Lkik/android/widget/MessageTextView$1;
+.class final Lkik/arcane/widget/MessageTextView$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/f/j;
+.implements Lkik/arcane/f/j;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/MessageTextView;
+    value = Lkik/arcane/widget/MessageTextView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/MessageTextView;
+.field final synthetic a:Lkik/arcane/widget/MessageTextView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/MessageTextView;)V
+.method constructor <init>(Lkik/arcane/widget/MessageTextView;)V
     .locals 0
 
     .prologue
     .line 167
-    iput-object p1, p0, Lkik/android/widget/MessageTextView$1;->a:Lkik/android/widget/MessageTextView;
+    iput-object p1, p0, Lkik/arcane/widget/MessageTextView$1;->a:Lkik/arcane/widget/MessageTextView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,13 +41,13 @@
 
     .prologue
     .line 179
-    iget-object v0, p0, Lkik/android/widget/MessageTextView$1;->a:Lkik/android/widget/MessageTextView;
+    iget-object v0, p0, Lkik/arcane/widget/MessageTextView$1;->a:Lkik/arcane/widget/MessageTextView;
 
-    invoke-static {v0}, Lkik/android/widget/MessageTextView;->b(Lkik/android/widget/MessageTextView;)Lkik/android/widget/MessageTextView$b;
+    invoke-static {v0}, Lkik/arcane/widget/MessageTextView;->b(Lkik/arcane/widget/MessageTextView;)Lkik/arcane/widget/MessageTextView$b;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkik/android/widget/MessageTextView$b;->a()V
+    invoke-interface {v0}, Lkik/arcane/widget/MessageTextView$b;->a()V
 
     .line 180
     return-void
@@ -58,22 +58,22 @@
 
     .prologue
     .line 171
-    iget-object v0, p0, Lkik/android/widget/MessageTextView$1;->a:Lkik/android/widget/MessageTextView;
+    iget-object v0, p0, Lkik/arcane/widget/MessageTextView$1;->a:Lkik/arcane/widget/MessageTextView;
 
-    invoke-static {v0}, Lkik/android/widget/MessageTextView;->a(Lkik/android/widget/MessageTextView;)Lkik/android/widget/MessageTextView$a;
+    invoke-static {v0}, Lkik/arcane/widget/MessageTextView;->a(Lkik/arcane/widget/MessageTextView;)Lkik/arcane/widget/MessageTextView$a;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
     .line 172
-    iget-object v0, p0, Lkik/android/widget/MessageTextView$1;->a:Lkik/android/widget/MessageTextView;
+    iget-object v0, p0, Lkik/arcane/widget/MessageTextView$1;->a:Lkik/arcane/widget/MessageTextView;
 
-    invoke-static {v0}, Lkik/android/widget/MessageTextView;->a(Lkik/android/widget/MessageTextView;)Lkik/android/widget/MessageTextView$a;
+    invoke-static {v0}, Lkik/arcane/widget/MessageTextView;->a(Lkik/arcane/widget/MessageTextView;)Lkik/arcane/widget/MessageTextView$a;
 
     move-result-object v0
 
-    invoke-interface {v0, p1, p2, p3}, Lkik/android/widget/MessageTextView$a;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-interface {v0, p1, p2, p3}, Lkik/arcane/widget/MessageTextView$a;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 174
     :cond_0

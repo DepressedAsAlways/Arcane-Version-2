@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/videochat/c;
+.class public interface abstract Lkik/arcane/videochat/c;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -51,7 +51,7 @@
 .method public abstract a(Lcom/rounds/kik/conference/LeaveReason;)V
 .end method
 
-.method public abstract a(Lkik/core/datatypes/l;JILkik/android/videochat/i;)V
+.method public abstract a(Lkik/core/datatypes/l;JILkik/arcane/videochat/i;)V
 .end method
 
 .method public abstract a(Lkik/core/datatypes/l;Z)V
@@ -60,7 +60,7 @@
 .method public abstract a([Ljava/lang/String;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/fragment/KikDialogFragment;)Z
+.method public abstract a(Lkik/arcane/chat/fragment/KikDialogFragment;)Z
 .end method
 
 .method public abstract b(Lcom/rounds/kik/conference/LeaveReason;)Lcom/kik/events/Promise;

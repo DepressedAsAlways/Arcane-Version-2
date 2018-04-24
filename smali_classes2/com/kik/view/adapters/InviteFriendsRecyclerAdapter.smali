@@ -22,7 +22,7 @@
 
 
 # instance fields
-.field private a:Lkik/android/addressbook/AndroidAddressBookCursorWrapper;
+.field private a:Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;
 
 .field private b:Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter$a;
 
@@ -51,7 +51,7 @@
     .line 79
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter;->a:Lkik/android/addressbook/AndroidAddressBookCursorWrapper;
+    iput-object v0, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter;->a:Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;
 
     .line 80
     iput-object p1, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter;->b:Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter$a;
@@ -93,12 +93,12 @@
     return-object v1
 .end method
 
-.method public final a(Lkik/android/addressbook/AndroidAddressBookCursorWrapper;)Lkik/android/addressbook/AndroidAddressBookCursorWrapper;
+.method public final a(Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;)Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;
     .locals 1
 
     .prologue
     .line 108
-    iget-object v0, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter;->a:Lkik/android/addressbook/AndroidAddressBookCursorWrapper;
+    iget-object v0, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter;->a:Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;
 
     if-ne p1, v0, :cond_0
 
@@ -111,10 +111,10 @@
 
     .line 111
     :cond_0
-    iget-object v0, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter;->a:Lkik/android/addressbook/AndroidAddressBookCursorWrapper;
+    iget-object v0, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter;->a:Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;
 
     .line 112
-    iput-object p1, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter;->a:Lkik/android/addressbook/AndroidAddressBookCursorWrapper;
+    iput-object p1, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter;->a:Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;
 
     .line 113
     invoke-virtual {p0}, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter;->notifyDataSetChanged()V
@@ -127,19 +127,19 @@
 
     .prologue
     .line 93
-    iget-object v0, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter;->a:Lkik/android/addressbook/AndroidAddressBookCursorWrapper;
+    iget-object v0, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter;->a:Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;
 
     if-eqz v0, :cond_0
 
     .line 94
-    iget-object v0, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter;->a:Lkik/android/addressbook/AndroidAddressBookCursorWrapper;
+    iget-object v0, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter;->a:Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;
 
-    invoke-virtual {v0, p2}, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->a(I)Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
+    invoke-virtual {v0, p2}, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->a(I)Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;
 
     move-result-object v0
 
     .line 95
-    invoke-virtual {p1, v0}, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter$ViewHolder;->a(Lkik/android/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;)V
+    invoke-virtual {p1, v0}, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter$ViewHolder;->a(Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper$AndroidAddressBookEntry;)V
 
     .line 97
     :cond_0
@@ -151,7 +151,7 @@
 
     .prologue
     .line 102
-    iget-object v0, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter;->a:Lkik/android/addressbook/AndroidAddressBookCursorWrapper;
+    iget-object v0, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter;->a:Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;
 
     if-nez v0, :cond_0
 
@@ -161,9 +161,9 @@
     return v0
 
     :cond_0
-    iget-object v0, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter;->a:Lkik/android/addressbook/AndroidAddressBookCursorWrapper;
+    iget-object v0, p0, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter;->a:Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;
 
-    invoke-virtual {v0}, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->a()I
+    invoke-virtual {v0}, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->a()I
 
     move-result v0
 

@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/util/bh;
+.class final synthetic Lkik/arcane/util/bh;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -15,7 +15,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/util/bh;->a:Lkik/core/interfaces/l;
+    iput-object p1, p0, Lkik/arcane/util/bh;->a:Lkik/core/interfaces/l;
 
     return-void
 .end method
@@ -23,9 +23,9 @@
 .method public static a(Lkik/core/interfaces/l;)Lcom/kik/events/p;
     .locals 1
 
-    new-instance v0, Lkik/android/util/bh;
+    new-instance v0, Lkik/arcane/util/bh;
 
-    invoke-direct {v0, p0}, Lkik/android/util/bh;-><init>(Lkik/core/interfaces/l;)V
+    invoke-direct {v0, p0}, Lkik/arcane/util/bh;-><init>(Lkik/core/interfaces/l;)V
 
     return-object v0
 .end method
@@ -37,7 +37,7 @@
 
     .prologue
     .line 0
-    iget-object v0, p0, Lkik/android/util/bh;->a:Lkik/core/interfaces/l;
+    iget-object v0, p0, Lkik/arcane/util/bh;->a:Lkik/core/interfaces/l;
 
     check-cast p1, Ljava/lang/Boolean;
 

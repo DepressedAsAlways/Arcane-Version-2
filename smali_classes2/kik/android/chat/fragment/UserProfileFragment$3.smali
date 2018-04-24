@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/UserProfileFragment$3;
+.class final Lkik/arcane/chat/fragment/UserProfileFragment$3;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/UserProfileFragment;
+    value = Lkik/arcane/chat/fragment/UserProfileFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/UserProfileFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/UserProfileFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/UserProfileFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/UserProfileFragment;)V
     .locals 0
 
     .prologue
     .line 398
-    iput-object p1, p0, Lkik/android/chat/fragment/UserProfileFragment$3;->a:Lkik/android/chat/fragment/UserProfileFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/UserProfileFragment$3;->a:Lkik/arcane/chat/fragment/UserProfileFragment;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -61,13 +61,13 @@
     if-eqz v0, :cond_0
 
     .line 1405
-    iget-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment$3;->a:Lkik/android/chat/fragment/UserProfileFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/UserProfileFragment$3;->a:Lkik/arcane/chat/fragment/UserProfileFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/UserProfileFragment;->i:Lkik/core/chat/profile/IContactProfileRepository;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/UserProfileFragment;->i:Lkik/core/chat/profile/IContactProfileRepository;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/UserProfileFragment$3;->a:Lkik/android/chat/fragment/UserProfileFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/UserProfileFragment$3;->a:Lkik/arcane/chat/fragment/UserProfileFragment;
 
-    invoke-static {v1}, Lkik/android/chat/fragment/UserProfileFragment;->f(Lkik/android/chat/fragment/UserProfileFragment;)Lcom/kik/core/network/xmpp/jid/a;
+    invoke-static {v1}, Lkik/arcane/chat/fragment/UserProfileFragment;->f(Lkik/arcane/chat/fragment/UserProfileFragment;)Lcom/kik/core/network/xmpp/jid/a;
 
     move-result-object v1
 

@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/config/b;
+.class public interface abstract Lkik/arcane/config/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -10,22 +10,22 @@
             "()",
             "Ljava/util/Collection",
             "<",
-            "Lkik/android/config/Configuration;",
+            "Lkik/arcane/config/Configuration;",
             ">;"
         }
     .end annotation
 .end method
 
-.method public abstract a(Ljava/lang/String;)Lkik/android/config/Configuration;
+.method public abstract a(Ljava/lang/String;)Lkik/arcane/config/Configuration;
 .end method
 
-.method public abstract a(Lkik/android/util/aj;)V
+.method public abstract a(Lkik/arcane/util/aj;)V
 .end method
 
-.method public abstract a(Lkik/android/config/Configuration;)Z
+.method public abstract a(Lkik/arcane/config/Configuration;)Z
 .end method
 
-.method public abstract b(Lkik/android/util/aj;)Ljava/lang/String;
+.method public abstract b(Lkik/arcane/util/aj;)Ljava/lang/String;
 .end method
 
 .method public abstract b()Ljava/util/Hashtable;

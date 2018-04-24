@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/messaging/fi;
+.class final synthetic Lkik/arcane/chat/vm/messaging/fi;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/vm/messaging/fi;
+.field private static final a:Lkik/arcane/chat/vm/messaging/fi;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/messaging/fi;
+    new-instance v0, Lkik/arcane/chat/vm/messaging/fi;
 
-    invoke-direct {v0}, Lkik/android/chat/vm/messaging/fi;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/vm/messaging/fi;-><init>()V
 
-    sput-object v0, Lkik/android/chat/vm/messaging/fi;->a:Lkik/android/chat/vm/messaging/fi;
+    sput-object v0, Lkik/arcane/chat/vm/messaging/fi;->a:Lkik/arcane/chat/vm/messaging/fi;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lrx/functions/g;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/vm/messaging/fi;->a:Lkik/android/chat/vm/messaging/fi;
+    sget-object v0, Lkik/arcane/chat/vm/messaging/fi;->a:Lkik/arcane/chat/vm/messaging/fi;
 
     return-object v0
 .end method
@@ -45,7 +45,7 @@
 
     check-cast p1, Ljava/io/File;
 
-    invoke-static {p1}, Lkik/android/chat/vm/messaging/fe;->a(Ljava/io/File;)Ljava/lang/Boolean;
+    invoke-static {p1}, Lkik/arcane/chat/vm/messaging/fe;->a(Ljava/io/File;)Ljava/lang/Boolean;
 
     move-result-object v0
 

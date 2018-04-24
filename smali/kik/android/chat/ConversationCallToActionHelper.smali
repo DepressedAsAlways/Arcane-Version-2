@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/ConversationCallToActionHelper;
+.class public final Lkik/arcane/chat/ConversationCallToActionHelper;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+        Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
     }
 .end annotation
 
@@ -32,22 +32,22 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 36
-    iput-object p1, p0, Lkik/android/chat/ConversationCallToActionHelper;->a:Lkik/core/interfaces/IAddressBookIntegration;
+    iput-object p1, p0, Lkik/arcane/chat/ConversationCallToActionHelper;->a:Lkik/core/interfaces/IAddressBookIntegration;
 
     .line 37
-    iput-object p2, p0, Lkik/android/chat/ConversationCallToActionHelper;->b:Lkik/core/interfaces/ad;
+    iput-object p2, p0, Lkik/arcane/chat/ConversationCallToActionHelper;->b:Lkik/core/interfaces/ad;
 
     .line 38
-    iput-object p3, p0, Lkik/android/chat/ConversationCallToActionHelper;->c:Lkik/core/interfaces/b;
+    iput-object p3, p0, Lkik/arcane/chat/ConversationCallToActionHelper;->c:Lkik/core/interfaces/b;
 
     .line 39
-    iput-object p4, p0, Lkik/android/chat/ConversationCallToActionHelper;->d:Lkik/core/manager/n;
+    iput-object p4, p0, Lkik/arcane/chat/ConversationCallToActionHelper;->d:Lkik/core/manager/n;
 
     .line 40
     return-void
 .end method
 
-.method private a(ZZ)Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+.method private a(ZZ)Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
     .locals 4
 
     .prologue
@@ -57,7 +57,7 @@
     if-eqz p2, :cond_1
 
     .line 72
-    iget-object v0, p0, Lkik/android/chat/ConversationCallToActionHelper;->b:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/ConversationCallToActionHelper;->b:Lkik/core/interfaces/ad;
 
     const-string v1, "kik.logintime"
 
@@ -84,7 +84,7 @@
     if-nez v0, :cond_0
 
     .line 73
-    sget-object v0, Lkik/android/chat/ConversationCallToActionHelper$ActionType;->PUBLIC_GROUP:Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    sget-object v0, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;->PUBLIC_GROUP:Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
     .line 86
     :goto_0
@@ -92,7 +92,7 @@
 
     .line 76
     :cond_0
-    sget-object v0, Lkik/android/chat/ConversationCallToActionHelper$ActionType;->ADDRESS_BOOK:Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    sget-object v0, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;->ADDRESS_BOOK:Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
     goto :goto_0
 
@@ -101,7 +101,7 @@
     if-eqz p1, :cond_2
 
     .line 80
-    sget-object v0, Lkik/android/chat/ConversationCallToActionHelper$ActionType;->ADDRESS_BOOK:Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    sget-object v0, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;->ADDRESS_BOOK:Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
     goto :goto_0
 
@@ -110,13 +110,13 @@
     if-eqz p2, :cond_3
 
     .line 83
-    sget-object v0, Lkik/android/chat/ConversationCallToActionHelper$ActionType;->PUBLIC_GROUP:Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    sget-object v0, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;->PUBLIC_GROUP:Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
     goto :goto_0
 
     .line 86
     :cond_3
-    sget-object v0, Lkik/android/chat/ConversationCallToActionHelper$ActionType;->NONE:Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    sget-object v0, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;->NONE:Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
     goto :goto_0
 .end method
@@ -130,7 +130,7 @@
     const/4 v0, 0x0
 
     .line 99
-    iget-object v2, p0, Lkik/android/chat/ConversationCallToActionHelper;->c:Lkik/core/interfaces/b;
+    iget-object v2, p0, Lkik/arcane/chat/ConversationCallToActionHelper;->c:Lkik/core/interfaces/b;
 
     const-string v3, "pg_show_in_plus"
 
@@ -149,7 +149,7 @@
 
     .line 1121
     :cond_1
-    iget-object v2, p0, Lkik/android/chat/ConversationCallToActionHelper;->b:Lkik/core/interfaces/ad;
+    iget-object v2, p0, Lkik/arcane/chat/ConversationCallToActionHelper;->b:Lkik/core/interfaces/ad;
 
     .line 2100
     if-nez v2, :cond_2
@@ -161,7 +161,7 @@
     if-nez v2, :cond_0
 
     .line 2126
-    iget-object v2, p0, Lkik/android/chat/ConversationCallToActionHelper;->d:Lkik/core/manager/n;
+    iget-object v2, p0, Lkik/arcane/chat/ConversationCallToActionHelper;->d:Lkik/core/manager/n;
 
     .line 2218
     invoke-virtual {v2}, Lkik/core/manager/n;->a()Lkik/core/manager/n$c;
@@ -171,7 +171,7 @@
     iget-object v2, v2, Lkik/core/manager/n$c;->a:Ljava/lang/String;
 
     .line 2126
-    invoke-static {v2}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v2}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -213,7 +213,7 @@
 
     .prologue
     .line 116
-    iget-object v0, p0, Lkik/android/chat/ConversationCallToActionHelper;->a:Lkik/core/interfaces/IAddressBookIntegration;
+    iget-object v0, p0, Lkik/arcane/chat/ConversationCallToActionHelper;->a:Lkik/core/interfaces/IAddressBookIntegration;
 
     invoke-interface {v0}, Lkik/core/interfaces/IAddressBookIntegration;->b()Z
 
@@ -234,7 +234,7 @@
 
 
 # virtual methods
-.method public final a()Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+.method public final a()Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
     .locals 5
 
     .prologue
@@ -244,7 +244,7 @@
 
     .line 49
     .line 1093
-    iget-object v0, p0, Lkik/android/chat/ConversationCallToActionHelper;->b:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/ConversationCallToActionHelper;->b:Lkik/core/interfaces/ad;
 
     const-string v3, "kik.publicgroup.helper"
 
@@ -258,7 +258,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-direct {p0}, Lkik/android/chat/ConversationCallToActionHelper;->c()Z
+    invoke-direct {p0}, Lkik/arcane/chat/ConversationCallToActionHelper;->c()Z
 
     move-result v0
 
@@ -268,7 +268,7 @@
 
     .line 1110
     :goto_0
-    iget-object v3, p0, Lkik/android/chat/ConversationCallToActionHelper;->b:Lkik/core/interfaces/ad;
+    iget-object v3, p0, Lkik/arcane/chat/ConversationCallToActionHelper;->b:Lkik/core/interfaces/ad;
 
     const-string v4, "kik.friend.helper"
 
@@ -282,7 +282,7 @@
 
     if-nez v3, :cond_1
 
-    invoke-direct {p0}, Lkik/android/chat/ConversationCallToActionHelper;->d()Z
+    invoke-direct {p0}, Lkik/arcane/chat/ConversationCallToActionHelper;->d()Z
 
     move-result v3
 
@@ -290,7 +290,7 @@
 
     .line 52
     :goto_1
-    invoke-direct {p0, v1, v0}, Lkik/android/chat/ConversationCallToActionHelper;->a(ZZ)Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    invoke-direct {p0, v1, v0}, Lkik/arcane/chat/ConversationCallToActionHelper;->a(ZZ)Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
     move-result-object v0
 
@@ -309,22 +309,22 @@
     goto :goto_1
 .end method
 
-.method public final b()Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+.method public final b()Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
     .locals 2
 
     .prologue
     .line 62
-    invoke-direct {p0}, Lkik/android/chat/ConversationCallToActionHelper;->c()Z
+    invoke-direct {p0}, Lkik/arcane/chat/ConversationCallToActionHelper;->c()Z
 
     move-result v0
 
     .line 63
-    invoke-direct {p0}, Lkik/android/chat/ConversationCallToActionHelper;->d()Z
+    invoke-direct {p0}, Lkik/arcane/chat/ConversationCallToActionHelper;->d()Z
 
     move-result v1
 
     .line 64
-    invoke-direct {p0, v1, v0}, Lkik/android/chat/ConversationCallToActionHelper;->a(ZZ)Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    invoke-direct {p0, v1, v0}, Lkik/arcane/chat/ConversationCallToActionHelper;->a(ZZ)Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
     move-result-object v0
 

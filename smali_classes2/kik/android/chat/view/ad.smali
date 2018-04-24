@@ -1,4 +1,4 @@
-.class public interface abstract Lkik/android/chat/view/ad;
+.class public interface abstract Lkik/arcane/chat/view/ad;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/view/ad$a;
+        Lkik/arcane/chat/view/ad$a;
     }
 .end annotation
 
@@ -21,10 +21,10 @@
 .method public abstract a(Ljava/lang/String;)V
 .end method
 
-.method public abstract a(Lkik/android/chat/view/ad$a;)V
+.method public abstract a(Lkik/arcane/chat/view/ad$a;)V
 .end method
 
-.method public abstract a(Lkik/android/util/KeyboardManipulator;)V
+.method public abstract a(Lkik/arcane/util/KeyboardManipulator;)V
 .end method
 
 .method public abstract b(I)V

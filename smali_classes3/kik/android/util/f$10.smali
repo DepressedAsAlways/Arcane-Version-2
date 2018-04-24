@@ -1,4 +1,4 @@
-.class final Lkik/android/util/f$10;
+.class final Lkik/arcane/util/f$10;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/util/f;->a(Lcom/kik/cache/KikVolleyImageLoader;Lcom/kik/cache/KikImageRequest;Z)Lcom/kik/events/Promise;
+    value = Lkik/arcane/util/f;->a(Lcom/kik/cache/KikVolleyImageLoader;Lcom/kik/cache/KikImageRequest;Z)Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,7 +27,7 @@
 
     .prologue
     .line 815
-    iput-object p1, p0, Lkik/android/util/f$10;->a:Lcom/kik/events/Promise;
+    iput-object p1, p0, Lkik/arcane/util/f$10;->a:Lcom/kik/events/Promise;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,7 +41,7 @@
 
     .prologue
     .line 835
-    iget-object v0, p0, Lkik/android/util/f$10;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/util/f$10;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {v0, p1}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 
@@ -57,7 +57,7 @@
     if-nez p1, :cond_1
 
     .line 820
-    iget-object v0, p0, Lkik/android/util/f$10;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/util/f$10;->a:Lcom/kik/events/Promise;
 
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
@@ -84,7 +84,7 @@
 
     .line 827
     :cond_2
-    iget-object v0, p0, Lkik/android/util/f$10;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/util/f$10;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {p1}, Lcom/kik/cache/KikVolleyImageLoader$c;->b()Landroid/graphics/Bitmap;
 

@@ -1,4 +1,4 @@
-.class final Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog$4;
+.class final Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog$4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog;->f()Lkik/android/chat/fragment/KikDialogFragment;
+    value = Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog;->f()Lkik/arcane/chat/fragment/KikDialogFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog;
+.field final synthetic a:Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog;)V
+.method constructor <init>(Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog;)V
     .locals 0
 
     .prologue
     .line 140
-    iput-object p1, p0, Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog$4;->a:Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog;
+    iput-object p1, p0, Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog$4;->a:Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,13 +41,13 @@
 
     .prologue
     .line 144
-    iget-object v0, p0, Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog$4;->a:Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog;
+    iget-object v0, p0, Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog$4;->a:Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog;
 
-    invoke-static {v0}, Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog;->a(Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog;)Lkik/android/chat/presentation/e;
+    invoke-static {v0}, Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog;->a(Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog;)Lkik/arcane/chat/presentation/e;
 
     move-result-object v0
 
-    invoke-interface {v0}, Lkik/android/chat/presentation/e;->c()V
+    invoke-interface {v0}, Lkik/arcane/chat/presentation/e;->c()V
 
     .line 145
     return-void

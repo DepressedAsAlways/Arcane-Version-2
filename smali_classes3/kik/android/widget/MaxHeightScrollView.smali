@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/MaxHeightScrollView;
+.class public Lkik/arcane/widget/MaxHeightScrollView;
 .super Landroid/widget/ScrollView;
 .source "SourceFile"
 
@@ -41,7 +41,7 @@
 
     move-result v1
 
-    iput v1, p0, Lkik/android/widget/MaxHeightScrollView;->a:I
+    iput v1, p0, Lkik/arcane/widget/MaxHeightScrollView;->a:I
 
     .line 27
     invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
@@ -58,12 +58,12 @@
 
     .prologue
     .line 34
-    iget v0, p0, Lkik/android/widget/MaxHeightScrollView;->a:I
+    iget v0, p0, Lkik/arcane/widget/MaxHeightScrollView;->a:I
 
     if-ltz v0, :cond_0
 
     .line 35
-    iget v0, p0, Lkik/android/widget/MaxHeightScrollView;->a:I
+    iget v0, p0, Lkik/arcane/widget/MaxHeightScrollView;->a:I
 
     const/high16 v1, -0x80000000
 

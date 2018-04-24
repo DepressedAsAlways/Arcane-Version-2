@@ -1,4 +1,4 @@
-.class final Lkik/android/scan/fragment/ScanFragment$5;
+.class final Lkik/arcane/scan/fragment/ScanFragment$5;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/scan/fragment/ScanFragment;
+    value = Lkik/arcane/scan/fragment/ScanFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Lcom/kik/scan/KikCode;
 
-.field final synthetic b:Lkik/android/scan/fragment/ScanFragment;
+.field final synthetic b:Lkik/arcane/scan/fragment/ScanFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/scan/fragment/ScanFragment;Lcom/kik/scan/KikCode;)V
+.method constructor <init>(Lkik/arcane/scan/fragment/ScanFragment;Lcom/kik/scan/KikCode;)V
     .locals 0
 
     .prologue
     .line 595
-    iput-object p1, p0, Lkik/android/scan/fragment/ScanFragment$5;->b:Lkik/android/scan/fragment/ScanFragment;
+    iput-object p1, p0, Lkik/arcane/scan/fragment/ScanFragment$5;->b:Lkik/arcane/scan/fragment/ScanFragment;
 
-    iput-object p2, p0, Lkik/android/scan/fragment/ScanFragment$5;->a:Lcom/kik/scan/KikCode;
+    iput-object p2, p0, Lkik/arcane/scan/fragment/ScanFragment$5;->a:Lcom/kik/scan/KikCode;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -51,18 +51,18 @@
     .line 600
     new-array v0, v6, [Landroid/view/View;
 
-    iget-object v1, p0, Lkik/android/scan/fragment/ScanFragment$5;->b:Lkik/android/scan/fragment/ScanFragment;
+    iget-object v1, p0, Lkik/arcane/scan/fragment/ScanFragment$5;->b:Lkik/arcane/scan/fragment/ScanFragment;
 
-    iget-object v1, v1, Lkik/android/scan/fragment/ScanFragment;->_animationContainer:Landroid/view/View;
+    iget-object v1, v1, Lkik/arcane/scan/fragment/ScanFragment;->_animationContainer:Landroid/view/View;
 
     aput-object v1, v0, v5
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 601
-    iget-object v0, p0, Lkik/android/scan/fragment/ScanFragment$5;->b:Lkik/android/scan/fragment/ScanFragment;
+    iget-object v0, p0, Lkik/arcane/scan/fragment/ScanFragment$5;->b:Lkik/arcane/scan/fragment/ScanFragment;
 
-    iget-object v0, v0, Lkik/android/scan/fragment/ScanFragment;->_animationContainer:Landroid/view/View;
+    iget-object v0, v0, Lkik/arcane/scan/fragment/ScanFragment;->_animationContainer:Landroid/view/View;
 
     const-string v1, "backgroundColor"
 
@@ -105,9 +105,9 @@
     move-result-object v0
 
     .line 602
-    new-instance v1, Lkik/android/scan/fragment/ScanFragment$5$1;
+    new-instance v1, Lkik/arcane/scan/fragment/ScanFragment$5$1;
 
-    invoke-direct {v1, p0}, Lkik/android/scan/fragment/ScanFragment$5$1;-><init>(Lkik/android/scan/fragment/ScanFragment$5;)V
+    invoke-direct {v1, p0}, Lkik/arcane/scan/fragment/ScanFragment$5$1;-><init>(Lkik/arcane/scan/fragment/ScanFragment$5;)V
 
     invoke-virtual {v0, v1}, Landroid/animation/ObjectAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 

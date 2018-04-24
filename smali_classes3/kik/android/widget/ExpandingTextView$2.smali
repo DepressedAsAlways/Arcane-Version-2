@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/ExpandingTextView$2;
+.class final Lkik/arcane/widget/ExpandingTextView$2;
 .super Landroid/animation/AnimatorListenerAdapter;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/ExpandingTextView;->a(Lkik/android/widget/ExpandingTextView;ILrx/functions/a;)V
+    value = Lkik/arcane/widget/ExpandingTextView;->a(Lkik/arcane/widget/ExpandingTextView;ILrx/functions/a;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,18 +17,18 @@
 # instance fields
 .field final synthetic a:Lrx/functions/a;
 
-.field final synthetic b:Lkik/android/widget/ExpandingTextView;
+.field final synthetic b:Lkik/arcane/widget/ExpandingTextView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/ExpandingTextView;Lrx/functions/a;)V
+.method constructor <init>(Lkik/arcane/widget/ExpandingTextView;Lrx/functions/a;)V
     .locals 0
 
     .prologue
     .line 189
-    iput-object p1, p0, Lkik/android/widget/ExpandingTextView$2;->b:Lkik/android/widget/ExpandingTextView;
+    iput-object p1, p0, Lkik/arcane/widget/ExpandingTextView$2;->b:Lkik/arcane/widget/ExpandingTextView;
 
-    iput-object p2, p0, Lkik/android/widget/ExpandingTextView$2;->a:Lrx/functions/a;
+    iput-object p2, p0, Lkik/arcane/widget/ExpandingTextView$2;->a:Lrx/functions/a;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
@@ -42,7 +42,7 @@
 
     .prologue
     .line 193
-    iget-object v0, p0, Lkik/android/widget/ExpandingTextView$2;->a:Lrx/functions/a;
+    iget-object v0, p0, Lkik/arcane/widget/ExpandingTextView$2;->a:Lrx/functions/a;
 
     invoke-interface {v0}, Lrx/functions/a;->a()V
 
@@ -55,7 +55,7 @@
 
     .prologue
     .line 199
-    invoke-virtual {p0, p1}, Lkik/android/widget/ExpandingTextView$2;->onAnimationCancel(Landroid/animation/Animator;)V
+    invoke-virtual {p0, p1}, Lkik/arcane/widget/ExpandingTextView$2;->onAnimationCancel(Landroid/animation/Animator;)V
 
     .line 200
     return-void

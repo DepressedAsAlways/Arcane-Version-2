@@ -1,12 +1,12 @@
-.class public Lkik/android/chat/fragment/KikFindByUsernameFragment;
-.super Lkik/android/chat/fragment/KikComposeFragment;
+.class public Lkik/arcane/chat/fragment/KikFindByUsernameFragment;
+.super Lkik/arcane/chat/fragment/KikComposeFragment;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/fragment/KikFindByUsernameFragment$a;
+        Lkik/arcane/chat/fragment/KikFindByUsernameFragment$a;
     }
 .end annotation
 
@@ -25,7 +25,7 @@
 
     .prologue
     .line 28
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikComposeFragment;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikComposeFragment;-><init>()V
 
     return-void
 .end method
@@ -60,7 +60,7 @@
     .line 86
     const-string v0, "explicit-username-search"
 
-    invoke-virtual {p0, p1, v0}, Lkik/android/chat/fragment/KikFindByUsernameFragment;->a(Lkik/core/datatypes/l;Ljava/lang/String;)Lrx/d;
+    invoke-virtual {p0, p1, v0}, Lkik/arcane/chat/fragment/KikFindByUsernameFragment;->a(Lkik/core/datatypes/l;Ljava/lang/String;)Lrx/d;
 
     move-result-object v0
 
@@ -99,7 +99,7 @@
     .line 66
     const-string v1, "Find By Username"
 
-    iget-object v0, p0, Lkik/android/chat/fragment/KikFindByUsernameFragment;->F:Lkik/core/interfaces/ag;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikFindByUsernameFragment;->F:Lkik/core/interfaces/ag;
 
     .line 69
     invoke-interface {v0}, Lkik/core/interfaces/ag;->d()Lkik/core/datatypes/aa;
@@ -107,20 +107,20 @@
     move-result-object v2
 
     .line 70
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikFindByUsernameFragment;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikFindByUsernameFragment;->getContext()Landroid/content/Context;
 
     move-result-object v3
 
-    iget-object v4, p0, Lkik/android/chat/fragment/KikFindByUsernameFragment;->E:Lcom/kik/android/Mixpanel;
+    iget-object v4, p0, Lkik/arcane/chat/fragment/KikFindByUsernameFragment;->E:Lcom/kik/arcane/Mixpanel;
 
-    iget-object v5, p0, Lkik/android/chat/fragment/KikFindByUsernameFragment;->w:Lkik/core/interfaces/b;
+    iget-object v5, p0, Lkik/arcane/chat/fragment/KikFindByUsernameFragment;->w:Lkik/core/interfaces/b;
 
-    iget-object v6, p0, Lkik/android/chat/fragment/KikFindByUsernameFragment;->H:Lcom/kik/cache/KikVolleyImageLoader;
+    iget-object v6, p0, Lkik/arcane/chat/fragment/KikFindByUsernameFragment;->H:Lcom/kik/cache/KikVolleyImageLoader;
 
     move-object v0, p0
 
     .line 66
-    invoke-static/range {v0 .. v6}, Lkik/android/util/bj;->a(Lkik/android/chat/fragment/KikScopedDialogFragment;Ljava/lang/String;Lkik/core/datatypes/aa;Landroid/content/Context;Lcom/kik/android/Mixpanel;Lkik/core/interfaces/b;Lcom/kik/cache/KikVolleyImageLoader;)V
+    invoke-static/range {v0 .. v6}, Lkik/arcane/util/bj;->a(Lkik/arcane/chat/fragment/KikScopedDialogFragment;Ljava/lang/String;Lkik/core/datatypes/aa;Landroid/content/Context;Lcom/kik/arcane/Mixpanel;Lkik/core/interfaces/b;Lcom/kik/cache/KikVolleyImageLoader;)V
 
     .line 74
     return-void
@@ -137,7 +137,7 @@
     const/4 v6, 0x1
 
     .line 35
-    invoke-super {p0, p1, p2, p3}, Lkik/android/chat/fragment/KikComposeFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Lkik/arcane/chat/fragment/KikComposeFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     move-result-object v0
 
@@ -145,9 +145,9 @@
     invoke-static {p0, v0}, Lbutterknife/ButterKnife;->bind(Ljava/lang/Object;Landroid/view/View;)Lbutterknife/Unbinder;
 
     .line 39
-    iget-object v1, p0, Lkik/android/chat/fragment/KikFindByUsernameFragment;->j:Lkik/android/chat/view/SearchBarViewImpl;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikFindByUsernameFragment;->j:Lkik/arcane/chat/view/SearchBarViewImpl;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikFindByUsernameFragment;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikFindByUsernameFragment;->getContext()Landroid/content/Context;
 
     move-result-object v2
 
@@ -157,10 +157,10 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/view/SearchBarViewImpl;->b(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/view/SearchBarViewImpl;->b(Ljava/lang/String;)V
 
     .line 41
-    iget-object v1, p0, Lkik/android/chat/fragment/KikFindByUsernameFragment;->F:Lkik/core/interfaces/ag;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikFindByUsernameFragment;->F:Lkik/core/interfaces/ag;
 
     invoke-interface {v1}, Lkik/core/interfaces/ag;->d()Lkik/core/datatypes/aa;
 
@@ -170,7 +170,7 @@
     iget-object v1, v1, Lkik/core/datatypes/aa;->c:Ljava/lang/String;
 
     .line 43
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikFindByUsernameFragment;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikFindByUsernameFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v2
 
@@ -183,7 +183,7 @@
     move-result-object v2
 
     .line 44
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikFindByUsernameFragment;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikFindByUsernameFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v3
 
@@ -227,7 +227,7 @@
     invoke-virtual {v2, v4, v3, v1, v5}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
     .line 58
-    iget-object v1, p0, Lkik/android/chat/fragment/KikFindByUsernameFragment;->_emptyTextView:Landroid/widget/TextView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikFindByUsernameFragment;->_emptyTextView:Landroid/widget/TextView;
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 

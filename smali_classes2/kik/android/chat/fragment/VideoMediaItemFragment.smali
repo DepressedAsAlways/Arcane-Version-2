@@ -1,9 +1,9 @@
-.class public abstract Lkik/android/chat/fragment/VideoMediaItemFragment;
-.super Lkik/android/chat/fragment/MediaItemFragment;
+.class public abstract Lkik/arcane/chat/fragment/VideoMediaItemFragment;
+.super Lkik/arcane/chat/fragment/MediaItemFragment;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/sdkutils/a;
+.implements Lkik/arcane/sdkutils/a;
 
 
 # instance fields
@@ -26,44 +26,44 @@
 
     .prologue
     .line 42
-    invoke-direct {p0}, Lkik/android/chat/fragment/MediaItemFragment;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/MediaItemFragment;-><init>()V
 
     .line 45
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->s:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->s:Z
 
     .line 46
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->t:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->t:Z
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/VideoMediaItemFragment;Ljava/io/File;)Ljava/io/File;
+.method static synthetic a(Lkik/arcane/chat/fragment/VideoMediaItemFragment;Ljava/io/File;)Ljava/io/File;
     .locals 0
 
     .prologue
     .line 42
-    iput-object p1, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->w:Ljava/io/File;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->w:Ljava/io/File;
 
     return-object p1
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/VideoMediaItemFragment;Landroid/graphics/Bitmap;)V
+.method static synthetic a(Lkik/arcane/chat/fragment/VideoMediaItemFragment;Landroid/graphics/Bitmap;)V
     .locals 1
 
     .prologue
     .line 283
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_contentImageView:Lcom/kik/cache/ContentImageView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_contentImageView:Lcom/kik/cache/ContentImageView;
 
     invoke-virtual {v0, p1}, Lcom/kik/cache/ContentImageView;->d(Landroid/graphics/Bitmap;)V
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/VideoMediaItemFragment;Landroid/media/MediaPlayer;)V
+.method static synthetic a(Lkik/arcane/chat/fragment/VideoMediaItemFragment;Landroid/media/MediaPlayer;)V
     .locals 13
 
     .prologue
@@ -76,32 +76,32 @@
     const/4 v8, 0x0
 
     .line 346
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
-    iget v1, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->u:I
+    iget v1, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->u:I
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/KikTextureVideoView;->b(I)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/KikTextureVideoView;->b(I)V
 
     .line 347
-    iput v8, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->u:I
+    iput v8, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->u:I
 
     .line 349
-    invoke-virtual {p0}, Lkik/android/chat/fragment/VideoMediaItemFragment;->a()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->a()V
 
     .line 351
-    iget-boolean v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->s:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->s:Z
 
     if-eqz v0, :cond_0
 
     .line 352
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     .line 1405
-    iget-object v1, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->c:Lcom/kik/android/Mixpanel;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->c:Lcom/kik/arcane/Mixpanel;
 
     const-string v2, "Video Playback Begin"
 
-    invoke-virtual {v1, v2}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
@@ -112,14 +112,14 @@
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
     const-string v2, "Is Inline"
 
     .line 1407
-    invoke-virtual {v1, v2, v8}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v8}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
@@ -136,15 +136,15 @@
 
     div-double/2addr v4, v10
 
-    invoke-virtual {v1, v2, v4, v5}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;D)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v4, v5}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;D)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
     const-string v2, "Loading Duration"
 
-    iget-wide v4, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->v:J
+    iget-wide v4, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->v:J
 
-    iget-wide v6, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->n:J
+    iget-wide v6, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->n:J
 
     sub-long/2addr v4, v6
 
@@ -153,16 +153,16 @@
     div-double/2addr v4, v10
 
     .line 1409
-    invoke-virtual {v1, v2, v4, v5}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;D)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v4, v5}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;D)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
     const-string v2, "Was Cached"
 
-    iget-boolean v3, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->r:Z
+    iget-boolean v3, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->r:Z
 
     .line 1410
-    invoke-virtual {v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
@@ -173,7 +173,7 @@
 
     move-result v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
@@ -184,7 +184,7 @@
 
     move-result v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
@@ -195,23 +195,23 @@
 
     move-result v0
 
-    invoke-virtual {v1, v2, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Did Autoplay"
 
     .line 1414
-    invoke-virtual {v0, v1, v8}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v8}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 1415
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 354
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v0}, Lkik/core/datatypes/messageExtensions/ContentMessage;->C()Z
 
@@ -223,11 +223,11 @@
     invoke-virtual {p1, v12}, Landroid/media/MediaPlayer;->setLooping(Z)V
 
     .line 356
-    iput-boolean v8, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->s:Z
+    iput-boolean v8, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->s:Z
 
     .line 358
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v0}, Lkik/core/datatypes/messageExtensions/ContentMessage;->D()Z
 
@@ -236,7 +236,7 @@
     if-eqz v0, :cond_2
 
     .line 359
-    iput-boolean v12, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->t:Z
+    iput-boolean v12, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->t:Z
 
     .line 360
     invoke-virtual {p1, v9, v9}, Landroid/media/MediaPlayer;->setVolume(FF)V
@@ -246,13 +246,13 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/VideoMediaItemFragment;Ljava/io/File;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
+.method static synthetic a(Lkik/arcane/chat/fragment/VideoMediaItemFragment;Ljava/io/File;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
     .locals 8
 
     .prologue
     .line 42
     .line 3275
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
     if-eqz v0, :cond_0
 
@@ -267,7 +267,7 @@
 
     .line 3280
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_contentImageView:Lcom/kik/cache/ContentImageView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_contentImageView:Lcom/kik/cache/ContentImageView;
 
     invoke-virtual {v0}, Lcom/kik/cache/ContentImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
@@ -276,9 +276,9 @@
     if-nez v0, :cond_2
 
     .line 3281
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->p:Ljava/util/concurrent/ExecutorService;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->p:Ljava/util/concurrent/ExecutorService;
 
-    invoke-static {p0}, Lkik/android/chat/fragment/gs;->a(Lkik/android/chat/fragment/VideoMediaItemFragment;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/gs;->a(Lkik/arcane/chat/fragment/VideoMediaItemFragment;)Ljava/lang/Runnable;
 
     move-result-object v1
 
@@ -286,20 +286,20 @@
 
     .line 3287
     :cond_2
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_contentImageView:Lcom/kik/cache/ContentImageView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_contentImageView:Lcom/kik/cache/ContentImageView;
 
     invoke-virtual {v0}, Lcom/kik/cache/ContentImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v2
 
     .line 3297
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
     if-eqz v0, :cond_0
 
     if-eqz p1, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     if-eqz v0, :cond_0
 
@@ -310,10 +310,10 @@
 
     move-result-wide v0
 
-    iput-wide v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->v:J
+    iput-wide v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->v:J
 
     .line 3301
-    invoke-static {p1}, Lkik/android/VideoContentProvider;->a(Ljava/io/File;)Landroid/net/Uri;
+    invoke-static {p1}, Lkik/arcane/VideoContentProvider;->a(Ljava/io/File;)Landroid/net/Uri;
 
     move-result-object v3
 
@@ -338,9 +338,9 @@
 
     .line 3307
     :try_start_0
-    iget-object v5, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v5, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
-    invoke-virtual {v5}, Lkik/android/widget/KikTextureVideoView;->getContext()Landroid/content/Context;
+    invoke-virtual {v5}, Lkik/arcane/widget/KikTextureVideoView;->getContext()Landroid/content/Context;
 
     move-result-object v5
 
@@ -395,12 +395,12 @@
     .line 3330
     :cond_3
     :goto_1
-    iget-object v2, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
-    invoke-virtual {v2, v1, v0}, Lkik/android/widget/KikTextureVideoView;->a(FF)V
+    invoke-virtual {v2, v1, v0}, Lkik/arcane/widget/KikTextureVideoView;->a(FF)V
 
     .line 3331
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v0}, Lkik/core/datatypes/messageExtensions/ContentMessage;->z()Z
 
@@ -409,53 +409,53 @@
     if-eqz v0, :cond_4
 
     .line 3332
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
-    sget-object v1, Lkik/android/widget/KikTextureVideoView$VideoType;->AUTOPLAY_VIDEO:Lkik/android/widget/KikTextureVideoView$VideoType;
+    sget-object v1, Lkik/arcane/widget/KikTextureVideoView$VideoType;->AUTOPLAY_VIDEO:Lkik/arcane/widget/KikTextureVideoView$VideoType;
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/KikTextureVideoView;->a(Lkik/android/widget/KikTextureVideoView$VideoType;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/KikTextureVideoView;->a(Lkik/arcane/widget/KikTextureVideoView$VideoType;)V
 
     .line 3341
     :goto_2
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
-    invoke-virtual {v0, v3}, Lkik/android/widget/KikTextureVideoView;->a(Landroid/net/Uri;)V
+    invoke-virtual {v0, v3}, Lkik/arcane/widget/KikTextureVideoView;->a(Landroid/net/Uri;)V
 
     .line 3344
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
-    invoke-static {p0}, Lkik/android/chat/fragment/gt;->a(Lkik/android/chat/fragment/VideoMediaItemFragment;)Landroid/media/MediaPlayer$OnPreparedListener;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/gt;->a(Lkik/arcane/chat/fragment/VideoMediaItemFragment;)Landroid/media/MediaPlayer$OnPreparedListener;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/KikTextureVideoView;->a(Landroid/media/MediaPlayer$OnPreparedListener;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/KikTextureVideoView;->a(Landroid/media/MediaPlayer$OnPreparedListener;)V
 
     .line 3364
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
-    invoke-static {p0}, Lkik/android/chat/fragment/gu;->a(Lkik/android/chat/fragment/VideoMediaItemFragment;)Landroid/media/MediaPlayer$OnCompletionListener;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/gu;->a(Lkik/arcane/chat/fragment/VideoMediaItemFragment;)Landroid/media/MediaPlayer$OnCompletionListener;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/KikTextureVideoView;->a(Landroid/media/MediaPlayer$OnCompletionListener;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/KikTextureVideoView;->a(Landroid/media/MediaPlayer$OnCompletionListener;)V
 
     .line 3366
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
-    invoke-static {p0}, Lkik/android/chat/fragment/gv;->a(Lkik/android/chat/fragment/VideoMediaItemFragment;)Landroid/media/MediaPlayer$OnErrorListener;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/gv;->a(Lkik/arcane/chat/fragment/VideoMediaItemFragment;)Landroid/media/MediaPlayer$OnErrorListener;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/KikTextureVideoView;->a(Landroid/media/MediaPlayer$OnErrorListener;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/KikTextureVideoView;->a(Landroid/media/MediaPlayer$OnErrorListener;)V
 
     .line 3372
-    invoke-virtual {p0}, Lkik/android/chat/fragment/VideoMediaItemFragment;->d()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->d()V
 
     goto/16 :goto_0
 
     .line 3334
     :cond_4
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v0}, Lkik/core/datatypes/messageExtensions/ContentMessage;->A()Z
 
@@ -464,21 +464,21 @@
     if-eqz v0, :cond_5
 
     .line 3335
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
-    sget-object v1, Lkik/android/widget/KikTextureVideoView$VideoType;->GIF:Lkik/android/widget/KikTextureVideoView$VideoType;
+    sget-object v1, Lkik/arcane/widget/KikTextureVideoView$VideoType;->GIF:Lkik/arcane/widget/KikTextureVideoView$VideoType;
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/KikTextureVideoView;->a(Lkik/android/widget/KikTextureVideoView$VideoType;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/KikTextureVideoView;->a(Lkik/arcane/widget/KikTextureVideoView$VideoType;)V
 
     goto :goto_2
 
     .line 3338
     :cond_5
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
-    sget-object v1, Lkik/android/widget/KikTextureVideoView$VideoType;->VIDEO:Lkik/android/widget/KikTextureVideoView$VideoType;
+    sget-object v1, Lkik/arcane/widget/KikTextureVideoView$VideoType;->VIDEO:Lkik/arcane/widget/KikTextureVideoView$VideoType;
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/KikTextureVideoView;->a(Lkik/android/widget/KikTextureVideoView$VideoType;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/KikTextureVideoView;->a(Lkik/arcane/widget/KikTextureVideoView$VideoType;)V
 
     goto :goto_2
 
@@ -498,27 +498,27 @@
     goto :goto_1
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/VideoMediaItemFragment;Lkik/android/chat/fragment/MediaItemFragment;)V
+.method static synthetic a(Lkik/arcane/chat/fragment/VideoMediaItemFragment;Lkik/arcane/chat/fragment/MediaItemFragment;)V
     .locals 4
 
     .prologue
     .line 233
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->g:Lcom/kik/storage/s;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->g:Lcom/kik/storage/s;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     const/4 v2, 0x0
 
-    iget-object v3, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->c:Lcom/kik/android/Mixpanel;
+    iget-object v3, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->c:Lcom/kik/arcane/Mixpanel;
 
-    invoke-interface {v0, v1, v2, v3}, Lcom/kik/storage/s;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Lkik/core/interfaces/x;Lcom/kik/android/Mixpanel;)Lcom/kik/events/Promise;
+    invoke-interface {v0, v1, v2, v3}, Lcom/kik/storage/s;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;Lkik/core/interfaces/x;Lcom/kik/arcane/Mixpanel;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
     .line 234
-    new-instance v1, Lkik/android/chat/fragment/VideoMediaItemFragment$1;
+    new-instance v1, Lkik/arcane/chat/fragment/VideoMediaItemFragment$1;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/fragment/VideoMediaItemFragment$1;-><init>(Lkik/android/chat/fragment/VideoMediaItemFragment;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/fragment/VideoMediaItemFragment$1;-><init>(Lkik/arcane/chat/fragment/VideoMediaItemFragment;)V
 
     invoke-static {p1, v1}, Lcom/kik/sdkutils/b;->a(Landroid/support/v4/app/Fragment;Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -530,14 +530,14 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/VideoMediaItemFragment;)Z
+.method static synthetic a(Lkik/arcane/chat/fragment/VideoMediaItemFragment;)Z
     .locals 2
 
     .prologue
     .line 367
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->g:Lcom/kik/storage/s;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->g:Lcom/kik/storage/s;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v1}, Lkik/core/datatypes/messageExtensions/ContentMessage;->n()Ljava/lang/String;
 
@@ -546,7 +546,7 @@
     invoke-interface {v0, v1}, Lcom/kik/storage/s;->e(Ljava/lang/String;)Z
 
     .line 368
-    invoke-direct {p0}, Lkik/android/chat/fragment/VideoMediaItemFragment;->i()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->i()V
 
     .line 369
     const/4 v0, 0x0
@@ -554,45 +554,45 @@
     return v0
 .end method
 
-.method static synthetic b(Lkik/android/chat/fragment/VideoMediaItemFragment;)V
+.method static synthetic b(Lkik/arcane/chat/fragment/VideoMediaItemFragment;)V
     .locals 0
 
     .prologue
     .line 364
-    invoke-virtual {p0}, Lkik/android/chat/fragment/VideoMediaItemFragment;->e()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->e()V
 
     return-void
 .end method
 
-.method static synthetic c(Lkik/android/chat/fragment/VideoMediaItemFragment;)V
+.method static synthetic c(Lkik/arcane/chat/fragment/VideoMediaItemFragment;)V
     .locals 2
 
     .prologue
     .line 282
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_contentImageView:Lcom/kik/cache/ContentImageView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_contentImageView:Lcom/kik/cache/ContentImageView;
 
     invoke-virtual {v0}, Lcom/kik/cache/ContentImageView;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->i:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->i:Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lkik/android/util/bw;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/Bitmap;
+    invoke-static {v0, v1}, Lkik/arcane/util/bw;->a(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
     .line 283
-    invoke-static {p0, v0}, Lkik/android/chat/fragment/gw;->a(Lkik/android/chat/fragment/VideoMediaItemFragment;Landroid/graphics/Bitmap;)Ljava/lang/Runnable;
+    invoke-static {p0, v0}, Lkik/arcane/chat/fragment/gw;->a(Lkik/arcane/chat/fragment/VideoMediaItemFragment;Landroid/graphics/Bitmap;)Ljava/lang/Runnable;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/VideoMediaItemFragment;->runOnUiIfAttached(Ljava/lang/Runnable;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->runOnUiIfAttached(Ljava/lang/Runnable;)V
 
     .line 284
     return-void
 .end method
 
-.method static synthetic d(Lkik/android/chat/fragment/VideoMediaItemFragment;)V
+.method static synthetic d(Lkik/arcane/chat/fragment/VideoMediaItemFragment;)V
     .locals 5
 
     .prologue
@@ -602,62 +602,62 @@
 
     .line 86
     .line 2205
-    iget-boolean v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->m:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->m:Z
 
     if-eqz v0, :cond_1
 
     .line 2207
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->w:Ljava/io/File;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->w:Ljava/io/File;
 
     if-eqz v0, :cond_2
 
     .line 2208
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->w:Ljava/io/File;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->w:Ljava/io/File;
 
     .line 2380
-    iget-object v1, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->f:Lkik/core/interfaces/ad;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->f:Lkik/core/interfaces/ad;
 
     invoke-interface {v1, v0}, Lkik/core/interfaces/ad;->b(Ljava/io/File;)V
 
     .line 2209
     const v0, 0x7f0904cf
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/VideoMediaItemFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v0
 
     .line 2210
-    iget-object v1, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->h:Lkik/android/f/e;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->h:Lkik/arcane/f/e;
 
     if-eqz v1, :cond_0
 
     .line 2211
-    iget-object v1, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->h:Lkik/android/f/e;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->h:Lkik/arcane/f/e;
 
     const v2, 0x7f020320
 
-    invoke-interface {v1, v2}, Lkik/android/f/e;->b(I)V
+    invoke-interface {v1, v2}, Lkik/arcane/f/e;->b(I)V
 
     .line 2212
-    iget-object v1, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->h:Lkik/android/f/e;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->h:Lkik/arcane/f/e;
 
-    invoke-interface {v1, v3}, Lkik/android/f/e;->b(Z)V
+    invoke-interface {v1, v3}, Lkik/arcane/f/e;->b(Z)V
 
     .line 2215
     :cond_0
-    iget-object v1, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->c:Lcom/kik/android/Mixpanel;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->c:Lcom/kik/arcane/Mixpanel;
 
-    iget-object v2, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v2}, Lkik/core/datatypes/messageExtensions/ContentMessage;->v()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-static {v1, v4, v2, v4, v3}, Lkik/android/util/az;->a(Lcom/kik/android/Mixpanel;ZLjava/lang/String;ZZ)V
+    invoke-static {v1, v4, v2, v4, v3}, Lkik/arcane/util/az;->a(Lcom/kik/arcane/Mixpanel;ZLjava/lang/String;ZZ)V
 
     .line 2221
     :goto_0
-    invoke-static {v0, v3}, Lkik/android/util/bu;->a(Ljava/lang/String;I)V
+    invoke-static {v0, v3}, Lkik/arcane/util/bu;->a(Ljava/lang/String;I)V
 
     .line 86
     :cond_1
@@ -667,30 +667,30 @@
     :cond_2
     const v0, 0x7f09031d
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/VideoMediaItemFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v0
 
     .line 2219
-    iget-object v1, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->c:Lcom/kik/android/Mixpanel;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->c:Lcom/kik/arcane/Mixpanel;
 
-    iget-object v2, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v2}, Lkik/core/datatypes/messageExtensions/ContentMessage;->v()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-static {v1, v3, v2, v4, v3}, Lkik/android/util/az;->a(Lcom/kik/android/Mixpanel;ZLjava/lang/String;ZZ)V
+    invoke-static {v1, v3, v2, v4, v3}, Lkik/arcane/util/az;->a(Lcom/kik/arcane/Mixpanel;ZLjava/lang/String;ZZ)V
 
     goto :goto_0
 .end method
 
-.method static synthetic e(Lkik/android/chat/fragment/VideoMediaItemFragment;)V
+.method static synthetic e(Lkik/arcane/chat/fragment/VideoMediaItemFragment;)V
     .locals 0
 
     .prologue
     .line 42
-    invoke-direct {p0}, Lkik/android/chat/fragment/VideoMediaItemFragment;->i()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->i()V
 
     return-void
 .end method
@@ -700,7 +700,7 @@
 
     .prologue
     .line 385
-    invoke-virtual {p0}, Lkik/android/chat/fragment/VideoMediaItemFragment;->l()Z
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->l()Z
 
     move-result v0
 
@@ -709,7 +709,7 @@
     .line 386
     const v0, 0x7f090148
 
-    invoke-static {v0}, Lkik/android/chat/fragment/VideoMediaItemFragment;->a(I)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->a(I)V
 
     .line 388
     :cond_0
@@ -726,17 +726,17 @@
 
     .prologue
     .line 103
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/MediaItemFragment;->a(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/MediaItemFragment;->a(Landroid/os/Bundle;)V
 
     .line 104
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     if-eqz v0, :cond_0
 
     .line 105
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->g:Lcom/kik/storage/s;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->g:Lcom/kik/storage/s;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v1}, Lkik/core/datatypes/messageExtensions/ContentMessage;->n()Ljava/lang/String;
 
@@ -746,7 +746,7 @@
 
     move-result v0
 
-    iput-boolean v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->r:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->r:Z
 
     .line 107
     :cond_0
@@ -758,13 +758,13 @@
 
     .prologue
     .line 79
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->w:Ljava/io/File;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->w:Ljava/io/File;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->f:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->f:Lkik/core/interfaces/ad;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->w:Ljava/io/File;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->w:Ljava/io/File;
 
     invoke-interface {v0, v1}, Lkik/core/interfaces/ad;->c(Ljava/io/File;)Z
 
@@ -773,11 +773,11 @@
     if-nez v0, :cond_1
 
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->f:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->f:Lkik/core/interfaces/ad;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
-    invoke-static {v0, v1}, Lkik/android/util/d;->a(Lkik/core/interfaces/ad;Lkik/core/datatypes/messageExtensions/ContentMessage;)Z
+    invoke-static {v0, v1}, Lkik/arcane/util/d;->a(Lkik/core/interfaces/ad;Lkik/core/datatypes/messageExtensions/ContentMessage;)Z
 
     move-result v0
 
@@ -785,18 +785,18 @@
 
     .line 80
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->h:Lkik/android/f/e;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->h:Lkik/arcane/f/e;
 
     const v1, 0x7f020320
 
-    invoke-interface {v0, v1}, Lkik/android/f/e;->b(I)V
+    invoke-interface {v0, v1}, Lkik/arcane/f/e;->b(I)V
 
     .line 81
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->h:Lkik/android/f/e;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->h:Lkik/arcane/f/e;
 
     const/4 v1, 0x0
 
-    invoke-interface {v0, v1}, Lkik/android/f/e;->b(Z)V
+    invoke-interface {v0, v1}, Lkik/arcane/f/e;->b(Z)V
 
     .line 88
     :goto_0
@@ -804,27 +804,27 @@
 
     .line 84
     :cond_2
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->h:Lkik/android/f/e;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->h:Lkik/arcane/f/e;
 
     const v1, 0x7f02031f
 
-    invoke-interface {v0, v1}, Lkik/android/f/e;->b(I)V
+    invoke-interface {v0, v1}, Lkik/arcane/f/e;->b(I)V
 
     .line 85
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->h:Lkik/android/f/e;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->h:Lkik/arcane/f/e;
 
     const/4 v1, 0x1
 
-    invoke-interface {v0, v1}, Lkik/android/f/e;->b(Z)V
+    invoke-interface {v0, v1}, Lkik/arcane/f/e;->b(Z)V
 
     .line 86
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->h:Lkik/android/f/e;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->h:Lkik/arcane/f/e;
 
-    invoke-static {p0}, Lkik/android/chat/fragment/gq;->a(Lkik/android/chat/fragment/VideoMediaItemFragment;)Landroid/view/View$OnClickListener;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/gq;->a(Lkik/arcane/chat/fragment/VideoMediaItemFragment;)Landroid/view/View$OnClickListener;
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lkik/android/f/e;->a(Landroid/view/View$OnClickListener;)V
+    invoke-interface {v0, v1}, Lkik/arcane/f/e;->a(Landroid/view/View$OnClickListener;)V
 
     goto :goto_0
 .end method
@@ -843,11 +843,11 @@
     .line 396
     new-array v0, v3, [Landroid/view/View;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
     aput-object v1, v0, v2
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 401
     :goto_0
@@ -859,21 +859,21 @@
 
     new-array v0, v0, [Landroid/view/View;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
     aput-object v1, v0, v2
 
-    iget-object v1, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_videoPlayIcon:Landroid/widget/ImageView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_videoPlayIcon:Landroid/widget/ImageView;
 
     aput-object v1, v0, v3
 
     const/4 v1, 0x2
 
-    iget-object v2, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_videoPauseIcon:Landroid/widget/ImageView;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_videoPauseIcon:Landroid/widget/ImageView;
 
     aput-object v2, v0, v1
 
-    invoke-static {v0}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     goto :goto_0
 .end method
@@ -883,7 +883,7 @@
 
     .prologue
     .line 420
-    iput p1, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->u:I
+    iput p1, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->u:I
 
     .line 421
     return-void
@@ -898,7 +898,7 @@
     const/4 v0, 0x0
 
     .line 177
-    iget-boolean v2, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->m:Z
+    iget-boolean v2, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->m:Z
 
     if-nez v2, :cond_1
 
@@ -909,28 +909,28 @@
 
     .line 180
     :cond_1
-    invoke-virtual {p0, v1}, Lkik/android/chat/fragment/VideoMediaItemFragment;->a(Z)V
+    invoke-virtual {p0, v1}, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->a(Z)V
 
     .line 181
-    iget-object v2, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_videoPlayIcon:Landroid/widget/ImageView;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_videoPlayIcon:Landroid/widget/ImageView;
 
     const/16 v3, 0x8
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
     .line 182
-    iget-object v2, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
     if-eqz v2, :cond_0
 
-    iget-boolean v2, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->t:Z
+    iget-boolean v2, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->t:Z
 
     if-eqz v2, :cond_2
 
-    iget-object v2, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
     .line 183
-    invoke-virtual {v2}, Lkik/android/widget/KikTextureVideoView;->b()Z
+    invoke-virtual {v2}, Lkik/arcane/widget/KikTextureVideoView;->b()Z
 
     move-result v2
 
@@ -942,9 +942,9 @@
     goto :goto_0
 
     :cond_2
-    iget-object v2, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
-    invoke-virtual {v2}, Lkik/android/widget/KikTextureVideoView;->a()Z
+    invoke-virtual {v2}, Lkik/arcane/widget/KikTextureVideoView;->a()Z
 
     move-result v2
 
@@ -967,7 +967,7 @@
 
     .prologue
     .line 160
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
     if-nez v0, :cond_1
 
@@ -981,9 +981,9 @@
 
     .line 163
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
-    invoke-virtual {v0}, Lkik/android/widget/KikTextureVideoView;->c()Z
+    invoke-virtual {v0}, Lkik/arcane/widget/KikTextureVideoView;->c()Z
 
     move-result v0
 
@@ -991,7 +991,7 @@
     if-eqz v0, :cond_0
 
     .line 165
-    invoke-virtual {p0}, Lkik/android/chat/fragment/VideoMediaItemFragment;->j()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->j()V
 
     goto :goto_0
 .end method
@@ -1001,11 +1001,11 @@
 
     .prologue
     .line 200
-    invoke-static {}, Lkik/android/HeadphoneUnpluggedReceiver;->a()Lkik/android/HeadphoneUnpluggedReceiver;
+    invoke-static {}, Lkik/arcane/HeadphoneUnpluggedReceiver;->a()Lkik/arcane/HeadphoneUnpluggedReceiver;
 
     move-result-object v0
 
-    invoke-virtual {v0, p0}, Lkik/android/HeadphoneUnpluggedReceiver;->b(Lkik/android/sdkutils/a;)V
+    invoke-virtual {v0, p0}, Lkik/arcane/HeadphoneUnpluggedReceiver;->b(Lkik/arcane/sdkutils/a;)V
 
     .line 201
     return-void
@@ -1016,7 +1016,7 @@
 
     .prologue
     .line 69
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     if-nez v0, :cond_0
 
@@ -1026,7 +1026,7 @@
 
     .line 72
     :cond_0
-    invoke-virtual {p0}, Lkik/android/chat/fragment/VideoMediaItemFragment;->s()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->s()V
 
     goto :goto_0
 .end method
@@ -1036,7 +1036,7 @@
 
     .prologue
     .line 93
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v0}, Lkik/core/datatypes/messageExtensions/ContentMessage;->z()Z
 
@@ -1054,7 +1054,7 @@
     :cond_0
     const/high16 v0, 0x41f00000    # 30.0f
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
@@ -1066,39 +1066,39 @@
 
     .prologue
     .line 58
-    invoke-super {p0, p1, p2, p3}, Lkik/android/chat/fragment/MediaItemFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Lkik/arcane/chat/fragment/MediaItemFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     move-result-object v0
 
     .line 60
-    iget-object v1, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_contentImageView:Lcom/kik/cache/ContentImageView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_contentImageView:Lcom/kik/cache/ContentImageView;
 
-    new-instance v2, Lkik/android/util/ax;
+    new-instance v2, Lkik/arcane/util/ax;
 
-    iget-object v3, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_viewRoot:Landroid/widget/FrameLayout;
+    iget-object v3, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_viewRoot:Landroid/widget/FrameLayout;
 
-    iget-object v4, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->h:Lkik/android/f/e;
+    iget-object v4, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->h:Lkik/arcane/f/e;
 
-    iget-object v5, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->o:Landroid/graphics/Point;
+    iget-object v5, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->o:Landroid/graphics/Point;
 
-    invoke-direct {v2, v3, v4, p0, v5}, Lkik/android/util/ax;-><init>(Landroid/widget/FrameLayout;Lkik/android/f/e;Lkik/android/chat/fragment/MediaItemFragment;Landroid/graphics/Point;)V
+    invoke-direct {v2, v3, v4, p0, v5}, Lkik/arcane/util/ax;-><init>(Landroid/widget/FrameLayout;Lkik/arcane/f/e;Lkik/arcane/chat/fragment/MediaItemFragment;Landroid/graphics/Point;)V
 
     invoke-virtual {v1, v2}, Lcom/kik/cache/ContentImageView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     .line 61
-    iget-object v1, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
-    new-instance v2, Lkik/android/util/ax;
+    new-instance v2, Lkik/arcane/util/ax;
 
-    iget-object v3, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_viewRoot:Landroid/widget/FrameLayout;
+    iget-object v3, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_viewRoot:Landroid/widget/FrameLayout;
 
-    iget-object v4, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->h:Lkik/android/f/e;
+    iget-object v4, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->h:Lkik/arcane/f/e;
 
-    iget-object v5, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->o:Landroid/graphics/Point;
+    iget-object v5, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->o:Landroid/graphics/Point;
 
-    invoke-direct {v2, v3, v4, p0, v5}, Lkik/android/util/ax;-><init>(Landroid/widget/FrameLayout;Lkik/android/f/e;Lkik/android/chat/fragment/MediaItemFragment;Landroid/graphics/Point;)V
+    invoke-direct {v2, v3, v4, p0, v5}, Lkik/arcane/util/ax;-><init>(Landroid/widget/FrameLayout;Lkik/arcane/f/e;Lkik/arcane/chat/fragment/MediaItemFragment;Landroid/graphics/Point;)V
 
-    invoke-virtual {v1, v2}, Lkik/android/widget/KikTextureVideoView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    invoke-virtual {v1, v2}, Lkik/arcane/widget/KikTextureVideoView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     .line 63
     return-object v0
@@ -1109,11 +1109,11 @@
 
     .prologue
     .line 120
-    invoke-super {p0}, Lkik/android/chat/fragment/MediaItemFragment;->onPause()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/MediaItemFragment;->onPause()V
 
     .line 123
     :try_start_0
-    invoke-virtual {p0}, Lkik/android/chat/fragment/VideoMediaItemFragment;->h()Z
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->h()Z
 
     move-result v0
 
@@ -1121,20 +1121,20 @@
     if-eqz v0, :cond_0
 
     .line 125
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
-    invoke-virtual {v0}, Lkik/android/widget/KikTextureVideoView;->d()I
+    invoke-virtual {v0}, Lkik/arcane/widget/KikTextureVideoView;->d()I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->u:I
+    iput v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->u:I
     :try_end_0
     .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 133
     :cond_0
     :goto_0
-    invoke-virtual {p0}, Lkik/android/chat/fragment/VideoMediaItemFragment;->j()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->j()V
 
     .line 134
     return-void
@@ -1150,23 +1150,23 @@
 
     .prologue
     .line 139
-    invoke-super {p0}, Lkik/android/chat/fragment/MediaItemFragment;->onResume()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/MediaItemFragment;->onResume()V
 
     .line 140
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
     if-eqz v0, :cond_0
 
-    iget v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->u:I
+    iget v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->u:I
 
     if-eqz v0, :cond_0
 
     .line 141
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
-    iget v1, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->u:I
+    iget v1, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->u:I
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/KikTextureVideoView;->b(I)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/KikTextureVideoView;->b(I)V
 
     .line 143
     :cond_0
@@ -1178,10 +1178,10 @@
 
     .prologue
     .line 148
-    invoke-super {p0}, Lkik/android/chat/fragment/MediaItemFragment;->q()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/MediaItemFragment;->q()V
 
     .line 149
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->j:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v0}, Lkik/core/datatypes/messageExtensions/ContentMessage;->A()Z
 
@@ -1190,7 +1190,7 @@
     if-nez v0, :cond_0
 
     .line 150
-    invoke-virtual {p0}, Lkik/android/chat/fragment/VideoMediaItemFragment;->h()Z
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->h()Z
 
     .line 152
     :cond_0
@@ -1202,13 +1202,13 @@
 
     .prologue
     .line 114
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/android/widget/KikTextureVideoView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_textureView:Lkik/arcane/widget/KikTextureVideoView;
 
-    invoke-virtual {v0}, Lkik/android/widget/KikTextureVideoView;->e()Z
+    invoke-virtual {v0}, Lkik/arcane/widget/KikTextureVideoView;->e()Z
 
     move-result v0
 
@@ -1236,16 +1236,16 @@
 
     const/4 v1, 0x0
 
-    iget-object v2, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->_videoProgressBar:Lcom/github/rahatarmanahmed/cpv/CircularProgressView;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->_videoProgressBar:Lcom/github/rahatarmanahmed/cpv/CircularProgressView;
 
     aput-object v2, v0, v1
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 232
-    iget-object v0, p0, Lkik/android/chat/fragment/VideoMediaItemFragment;->p:Ljava/util/concurrent/ExecutorService;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->p:Ljava/util/concurrent/ExecutorService;
 
-    invoke-static {p0, p0}, Lkik/android/chat/fragment/gr;->a(Lkik/android/chat/fragment/VideoMediaItemFragment;Lkik/android/chat/fragment/MediaItemFragment;)Ljava/lang/Runnable;
+    invoke-static {p0, p0}, Lkik/arcane/chat/fragment/gr;->a(Lkik/arcane/chat/fragment/VideoMediaItemFragment;Lkik/arcane/chat/fragment/MediaItemFragment;)Ljava/lang/Runnable;
 
     move-result-object v1
 

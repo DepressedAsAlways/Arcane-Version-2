@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/ab;
+.class public final Lkik/arcane/util/ab;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -19,7 +19,7 @@
 
     invoke-direct {v0}, Ljava/util/Random;-><init>()V
 
-    sput-object v0, Lkik/android/util/ab;->a:Ljava/util/Random;
+    sput-object v0, Lkik/arcane/util/ab;->a:Ljava/util/Random;
 
     .line 13
     const/4 v0, 0x4
@@ -28,7 +28,7 @@
 
     fill-array-data v0, :array_0
 
-    sput-object v0, Lkik/android/util/ab;->b:[I
+    sput-object v0, Lkik/arcane/util/ab;->b:[I
 
     return-void
 
@@ -46,11 +46,11 @@
 
     .prologue
     .line 20
-    sget-object v0, Lkik/android/util/ab;->b:[I
+    sget-object v0, Lkik/arcane/util/ab;->b:[I
 
-    sget-object v1, Lkik/android/util/ab;->a:Ljava/util/Random;
+    sget-object v1, Lkik/arcane/util/ab;->a:Ljava/util/Random;
 
-    sget-object v2, Lkik/android/util/ab;->b:[I
+    sget-object v2, Lkik/arcane/util/ab;->b:[I
 
     array-length v2, v2
 

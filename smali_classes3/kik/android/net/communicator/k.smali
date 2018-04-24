@@ -1,15 +1,15 @@
-.class public final Lkik/android/net/communicator/k;
+.class public final Lkik/arcane/net/communicator/k;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/net/communicator/j$a;
+.implements Lkik/arcane/net/communicator/j$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/net/communicator/k$a;
+        Lkik/arcane/net/communicator/k$a;
     }
 .end annotation
 
@@ -29,7 +29,7 @@
 
 .field protected c:Ljava/io/InputStream;
 
-.field protected d:Lkik/android/net/b;
+.field protected d:Lkik/arcane/net/b;
 
 .field private volatile e:J
 
@@ -37,11 +37,11 @@
 
 .field private g:Ljava/net/Socket;
 
-.field private h:Lkik/android/net/a;
+.field private h:Lkik/arcane/net/a;
 
-.field private i:Lkik/android/net/communicator/j;
+.field private i:Lkik/arcane/net/communicator/j;
 
-.field private j:Lcom/kik/android/a/a;
+.field private j:Lcom/kik/arcane/a/a;
 
 .field private final k:Ljava/lang/String;
 
@@ -49,7 +49,7 @@
 
 .field private m:Ljava/lang/String;
 
-.field private q:Lkik/android/net/communicator/k$a;
+.field private q:Lkik/arcane/net/communicator/k$a;
 
 
 # direct methods
@@ -64,7 +64,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/net/communicator/k;->n:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/net/communicator/k;->n:Lorg/slf4j/b;
 
     .line 98
     const/16 v0, 0x2710
@@ -75,20 +75,20 @@
 
     check-cast v0, Landroid/net/SSLCertificateSocketFactory;
 
-    sput-object v0, Lkik/android/net/communicator/k;->o:Landroid/net/SSLCertificateSocketFactory;
+    sput-object v0, Lkik/arcane/net/communicator/k;->o:Landroid/net/SSLCertificateSocketFactory;
 
     .line 99
     invoke-static {}, Ljavax/net/ssl/HttpsURLConnection;->getDefaultHostnameVerifier()Ljavax/net/ssl/HostnameVerifier;
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/net/communicator/k;->p:Ljavax/net/ssl/HostnameVerifier;
+    sput-object v0, Lkik/arcane/net/communicator/k;->p:Ljavax/net/ssl/HostnameVerifier;
 
     .line 100
     return-void
 .end method
 
-.method public constructor <init>(Lkik/android/net/communicator/j;Lcom/kik/android/a/a;Ljava/lang/String;Ljava/lang/String;)V
+.method public constructor <init>(Lkik/arcane/net/communicator/j;Lcom/kik/arcane/a/a;Ljava/lang/String;Ljava/lang/String;)V
     .locals 3
 
     .prologue
@@ -100,16 +100,16 @@
     .line 77
     const-wide/16 v0, 0x0
 
-    iput-wide v0, p0, Lkik/android/net/communicator/k;->e:J
+    iput-wide v0, p0, Lkik/arcane/net/communicator/k;->e:J
 
     .line 125
-    iput-object p1, p0, Lkik/android/net/communicator/k;->i:Lkik/android/net/communicator/j;
+    iput-object p1, p0, Lkik/arcane/net/communicator/k;->i:Lkik/arcane/net/communicator/j;
 
     .line 126
-    iput-object p2, p0, Lkik/android/net/communicator/k;->j:Lcom/kik/android/a/a;
+    iput-object p2, p0, Lkik/arcane/net/communicator/k;->j:Lcom/kik/arcane/a/a;
 
     .line 127
-    iput-object p4, p0, Lkik/android/net/communicator/k;->l:Ljava/lang/String;
+    iput-object p4, p0, Lkik/arcane/net/communicator/k;->l:Ljava/lang/String;
 
     .line 129
     invoke-virtual {p3}, Ljava/lang/String;->length()I
@@ -127,14 +127,14 @@
 
     .line 132
     :cond_0
-    new-instance v0, Lkik/android/net/communicator/k$a;
+    new-instance v0, Lkik/arcane/net/communicator/k$a;
 
-    invoke-direct {v0, p0}, Lkik/android/net/communicator/k$a;-><init>(Lkik/android/net/communicator/k;)V
+    invoke-direct {v0, p0}, Lkik/arcane/net/communicator/k$a;-><init>(Lkik/arcane/net/communicator/k;)V
 
-    iput-object v0, p0, Lkik/android/net/communicator/k;->q:Lkik/android/net/communicator/k$a;
+    iput-object v0, p0, Lkik/arcane/net/communicator/k;->q:Lkik/arcane/net/communicator/k$a;
 
     .line 134
-    iput-object p3, p0, Lkik/android/net/communicator/k;->k:Ljava/lang/String;
+    iput-object p3, p0, Lkik/arcane/net/communicator/k;->k:Ljava/lang/String;
 
     .line 135
     return-void
@@ -154,7 +154,7 @@
 
     sub-long v0, p1, v0
 
-    iput-wide v0, p0, Lkik/android/net/communicator/k;->f:J
+    iput-wide v0, p0, Lkik/arcane/net/communicator/k;->f:J
 
     .line 375
     return-void
@@ -196,7 +196,7 @@
     move-result-wide v2
 
     .line 156
-    sget-object v0, Lkik/android/net/communicator/k;->o:Landroid/net/SSLCertificateSocketFactory;
+    sget-object v0, Lkik/arcane/net/communicator/k;->o:Landroid/net/SSLCertificateSocketFactory;
 
     invoke-virtual {v0}, Landroid/net/SSLCertificateSocketFactory;->createSocket()Ljava/net/Socket;
 
@@ -212,17 +212,17 @@
     invoke-virtual {v0, v1, v5}, Ljavax/net/ssl/SSLSocket;->connect(Ljava/net/SocketAddress;I)V
 
     .line 159
-    iput-object v0, p0, Lkik/android/net/communicator/k;->g:Ljava/net/Socket;
+    iput-object v0, p0, Lkik/arcane/net/communicator/k;->g:Ljava/net/Socket;
 
     .line 160
-    iget-object v1, p0, Lkik/android/net/communicator/k;->g:Ljava/net/Socket;
+    iget-object v1, p0, Lkik/arcane/net/communicator/k;->g:Ljava/net/Socket;
 
     const/4 v4, 0x1
 
     invoke-virtual {v1, v4}, Ljava/net/Socket;->setKeepAlive(Z)V
 
     .line 161
-    iget-object v1, p0, Lkik/android/net/communicator/k;->g:Ljava/net/Socket;
+    iget-object v1, p0, Lkik/arcane/net/communicator/k;->g:Ljava/net/Socket;
 
     invoke-virtual {v1, v5}, Ljava/net/Socket;->setSoTimeout(I)V
 
@@ -236,7 +236,7 @@
     if-eqz p3, :cond_1
 
     .line 176
-    sget-object v1, Lkik/android/net/communicator/k;->p:Ljavax/net/ssl/HostnameVerifier;
+    sget-object v1, Lkik/arcane/net/communicator/k;->p:Ljavax/net/ssl/HostnameVerifier;
 
     invoke-virtual {v0}, Ljavax/net/ssl/SSLSocket;->getSession()Ljavax/net/ssl/SSLSession;
 
@@ -361,7 +361,7 @@
 
     .line 298
     :goto_0
-    iget-object v1, p0, Lkik/android/net/communicator/k;->b:Lkik/core/net/g;
+    iget-object v1, p0, Lkik/arcane/net/communicator/k;->b:Lkik/core/net/g;
 
     const-string v2, "k"
 
@@ -372,7 +372,7 @@
     if-nez v1, :cond_0
 
     .line 299
-    iget-object v1, p0, Lkik/android/net/communicator/k;->b:Lkik/core/net/g;
+    iget-object v1, p0, Lkik/arcane/net/communicator/k;->b:Lkik/core/net/g;
 
     invoke-virtual {v1}, Lkik/core/net/g;->next()I
 
@@ -380,7 +380,7 @@
 
     .line 301
     :cond_0
-    iget-object v1, p0, Lkik/android/net/communicator/k;->b:Lkik/core/net/g;
+    iget-object v1, p0, Lkik/arcane/net/communicator/k;->b:Lkik/core/net/g;
 
     const-string v2, "ok"
 
@@ -398,15 +398,15 @@
     if-nez v1, :cond_a
 
     .line 304
-    invoke-virtual {p0}, Lkik/android/net/communicator/k;->a()V
+    invoke-virtual {p0}, Lkik/arcane/net/communicator/k;->a()V
 
     .line 305
-    iget-object v1, p0, Lkik/android/net/communicator/k;->b:Lkik/core/net/g;
+    iget-object v1, p0, Lkik/arcane/net/communicator/k;->b:Lkik/core/net/g;
 
     invoke-virtual {v1}, Lkik/core/net/g;->next()I
 
     .line 306
-    iget-object v1, p0, Lkik/android/net/communicator/k;->b:Lkik/core/net/g;
+    iget-object v1, p0, Lkik/arcane/net/communicator/k;->b:Lkik/core/net/g;
 
     const-string v2, "noauth"
 
@@ -427,7 +427,7 @@
 
     .line 309
     :cond_1
-    iget-object v1, p0, Lkik/android/net/communicator/k;->b:Lkik/core/net/g;
+    iget-object v1, p0, Lkik/arcane/net/communicator/k;->b:Lkik/core/net/g;
 
     const-string v2, "redir"
 
@@ -438,7 +438,7 @@
     if-eqz v1, :cond_5
 
     .line 310
-    iget-object v1, p0, Lkik/android/net/communicator/k;->b:Lkik/core/net/g;
+    iget-object v1, p0, Lkik/arcane/net/communicator/k;->b:Lkik/core/net/g;
 
     const-string v2, "host"
 
@@ -448,7 +448,7 @@
     move-result-object v1
 
     .line 311
-    iget-object v2, p0, Lkik/android/net/communicator/k;->b:Lkik/core/net/g;
+    iget-object v2, p0, Lkik/arcane/net/communicator/k;->b:Lkik/core/net/g;
 
     const-string v3, "port"
 
@@ -463,7 +463,7 @@
     move-result v2
 
     .line 312
-    iget-object v3, p0, Lkik/android/net/communicator/k;->b:Lkik/core/net/g;
+    iget-object v3, p0, Lkik/arcane/net/communicator/k;->b:Lkik/core/net/g;
 
     const-string v4, "ttl"
 
@@ -478,7 +478,7 @@
     move-result v3
 
     .line 316
-    iget-object v4, p0, Lkik/android/net/communicator/k;->b:Lkik/core/net/g;
+    iget-object v4, p0, Lkik/arcane/net/communicator/k;->b:Lkik/core/net/g;
 
     const-string v5, "tls"
 
@@ -540,7 +540,7 @@
 
     .line 329
     :cond_5
-    iget-object v1, p0, Lkik/android/net/communicator/k;->b:Lkik/core/net/g;
+    iget-object v1, p0, Lkik/arcane/net/communicator/k;->b:Lkik/core/net/g;
 
     const-string v2, "wait"
 
@@ -551,7 +551,7 @@
     if-eqz v1, :cond_6
 
     .line 330
-    iget-object v1, p0, Lkik/android/net/communicator/k;->b:Lkik/core/net/g;
+    iget-object v1, p0, Lkik/arcane/net/communicator/k;->b:Lkik/core/net/g;
 
     const-string v2, "t"
 
@@ -594,7 +594,7 @@
 
     .line 333
     :cond_6
-    iget-object v1, p0, Lkik/android/net/communicator/k;->b:Lkik/core/net/g;
+    iget-object v1, p0, Lkik/arcane/net/communicator/k;->b:Lkik/core/net/g;
 
     const-string v2, "badhost"
 
@@ -615,7 +615,7 @@
 
     .line 336
     :cond_7
-    iget-object v1, p0, Lkik/android/net/communicator/k;->b:Lkik/core/net/g;
+    iget-object v1, p0, Lkik/arcane/net/communicator/k;->b:Lkik/core/net/g;
 
     const-string v2, "badver"
 
@@ -626,12 +626,12 @@
     if-eqz v1, :cond_9
 
     .line 340
-    iget-object v1, p0, Lkik/android/net/communicator/k;->b:Lkik/core/net/g;
+    iget-object v1, p0, Lkik/arcane/net/communicator/k;->b:Lkik/core/net/g;
 
     invoke-virtual {v1}, Lkik/core/net/g;->next()I
 
     .line 342
-    iget-object v1, p0, Lkik/android/net/communicator/k;->b:Lkik/core/net/g;
+    iget-object v1, p0, Lkik/arcane/net/communicator/k;->b:Lkik/core/net/g;
 
     const-string v2, "msg"
 
@@ -642,7 +642,7 @@
     if-eqz v1, :cond_8
 
     .line 343
-    iget-object v0, p0, Lkik/android/net/communicator/k;->b:Lkik/core/net/g;
+    iget-object v0, p0, Lkik/arcane/net/communicator/k;->b:Lkik/core/net/g;
 
     invoke-virtual {v0}, Lkik/core/net/g;->nextText()Ljava/lang/String;
 
@@ -658,7 +658,7 @@
 
     .line 348
     :cond_9
-    iget-object v1, p0, Lkik/android/net/communicator/k;->b:Lkik/core/net/g;
+    iget-object v1, p0, Lkik/arcane/net/communicator/k;->b:Lkik/core/net/g;
 
     const-string v2, "badts"
 
@@ -669,7 +669,7 @@
     if-eqz v1, :cond_b
 
     .line 349
-    iget-object v1, p0, Lkik/android/net/communicator/k;->b:Lkik/core/net/g;
+    iget-object v1, p0, Lkik/arcane/net/communicator/k;->b:Lkik/core/net/g;
 
     const-string v2, "ts"
 
@@ -684,7 +684,7 @@
     move-result-wide v0
 
     .line 352
-    invoke-direct {p0, v0, v1}, Lkik/android/net/communicator/k;->a(J)V
+    invoke-direct {p0, v0, v1}, Lkik/arcane/net/communicator/k;->a(J)V
 
     .line 354
     new-instance v2, Lkik/core/net/BadTimestampException;
@@ -697,7 +697,7 @@
 
     .line 358
     :cond_a
-    iget-object v1, p0, Lkik/android/net/communicator/k;->b:Lkik/core/net/g;
+    iget-object v1, p0, Lkik/arcane/net/communicator/k;->b:Lkik/core/net/g;
 
     const-string v2, "ts"
 
@@ -714,11 +714,11 @@
 
     move-result-wide v0
 
-    invoke-direct {p0, v0, v1}, Lkik/android/net/communicator/k;->a(J)V
+    invoke-direct {p0, v0, v1}, Lkik/arcane/net/communicator/k;->a(J)V
 
     .line 363
     :cond_b
-    invoke-virtual {p0}, Lkik/android/net/communicator/k;->a()V
+    invoke-virtual {p0}, Lkik/arcane/net/communicator/k;->a()V
 
     .line 364
     return-void
@@ -741,34 +741,34 @@
 
     move-result-wide v0
 
-    iput-wide v0, p0, Lkik/android/net/communicator/k;->e:J
+    iput-wide v0, p0, Lkik/arcane/net/communicator/k;->e:J
 
     .line 399
     :cond_0
-    iget-object v0, p0, Lkik/android/net/communicator/k;->d:Lkik/android/net/b;
+    iget-object v0, p0, Lkik/arcane/net/communicator/k;->d:Lkik/arcane/net/b;
 
     if-eqz v0, :cond_2
 
     .line 400
-    iget-object v0, p0, Lkik/android/net/communicator/k;->a:Lkik/core/net/h;
+    iget-object v0, p0, Lkik/arcane/net/communicator/k;->a:Lkik/core/net/h;
 
     if-eqz v0, :cond_1
 
     .line 401
-    iget-object v0, p0, Lkik/android/net/communicator/k;->a:Lkik/core/net/h;
+    iget-object v0, p0, Lkik/arcane/net/communicator/k;->a:Lkik/core/net/h;
 
     invoke-virtual {v0}, Lkik/core/net/h;->a()V
 
     .line 403
     :cond_1
-    iget-object v0, p0, Lkik/android/net/communicator/k;->d:Lkik/android/net/b;
+    iget-object v0, p0, Lkik/arcane/net/communicator/k;->d:Lkik/arcane/net/b;
 
-    invoke-virtual {v0}, Lkik/android/net/b;->flush()V
+    invoke-virtual {v0}, Lkik/arcane/net/b;->flush()V
 
     .line 404
-    iget-object v0, p0, Lkik/android/net/communicator/k;->d:Lkik/android/net/b;
+    iget-object v0, p0, Lkik/arcane/net/communicator/k;->d:Lkik/arcane/net/b;
 
-    invoke-virtual {v0}, Lkik/android/net/b;->a()V
+    invoke-virtual {v0}, Lkik/arcane/net/b;->a()V
 
     .line 407
     :cond_2
@@ -783,7 +783,7 @@
     :try_start_0
     new-instance v0, Ljavax/crypto/spec/SecretKeySpec;
 
-    iget-object v1, p0, Lkik/android/net/communicator/k;->l:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/net/communicator/k;->l:Ljava/lang/String;
 
     invoke-virtual {v1}, Ljava/lang/String;->getBytes()[B
 
@@ -813,7 +813,7 @@
     move-result-object v0
 
     .line 658
-    invoke-static {v0}, Lkik/android/util/br;->a([B)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/br;->a([B)Ljava/lang/String;
     :try_end_0
     .catch Ljava/security/NoSuchAlgorithmException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/security/InvalidKeyException; {:try_start_0 .. :try_end_0} :catch_0
@@ -851,14 +851,14 @@
 
     .prologue
     .line 411
-    iget-object v0, p0, Lkik/android/net/communicator/k;->h:Lkik/android/net/a;
+    iget-object v0, p0, Lkik/arcane/net/communicator/k;->h:Lkik/arcane/net/a;
 
     if-eqz v0, :cond_0
 
     .line 412
-    iget-object v0, p0, Lkik/android/net/communicator/k;->h:Lkik/android/net/a;
+    iget-object v0, p0, Lkik/arcane/net/communicator/k;->h:Lkik/arcane/net/a;
 
-    invoke-virtual {v0}, Lkik/android/net/a;->a()V
+    invoke-virtual {v0}, Lkik/arcane/net/a;->a()V
 
     .line 414
     :cond_0
@@ -875,12 +875,12 @@
 
     .prologue
     .line 621
-    iget-object v0, p0, Lkik/android/net/communicator/k;->d:Lkik/android/net/b;
+    iget-object v0, p0, Lkik/arcane/net/communicator/k;->d:Lkik/arcane/net/b;
 
     if-eqz v0, :cond_0
 
     .line 622
-    iget-object v0, p0, Lkik/android/net/communicator/k;->d:Lkik/android/net/b;
+    iget-object v0, p0, Lkik/arcane/net/communicator/k;->d:Lkik/arcane/net/b;
 
     const-string v1, "UTF-8"
 
@@ -888,12 +888,12 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/net/b;->write([B)V
+    invoke-virtual {v0, v1}, Lkik/arcane/net/b;->write([B)V
 
     .line 10385
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lkik/android/net/communicator/k;->a(Z)V
+    invoke-direct {p0, v0}, Lkik/arcane/net/communicator/k;->a(Z)V
 
     .line 625
     :cond_0
@@ -934,7 +934,7 @@
     .line 509
     const/4 v3, 0x1
 
-    invoke-direct {p0, p1, p2, v3}, Lkik/android/net/communicator/k;->a(Ljava/lang/String;IZ)V
+    invoke-direct {p0, p1, p2, v3}, Lkik/arcane/net/communicator/k;->a(Ljava/lang/String;IZ)V
 
     .line 7193
     :goto_1
@@ -999,7 +999,7 @@
 
     move-result-object v4
 
-    iput-object v4, p0, Lkik/android/net/communicator/k;->m:Ljava/lang/String;
+    iput-object v4, p0, Lkik/arcane/net/communicator/k;->m:Ljava/lang/String;
 
     .line 7199
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
@@ -1068,13 +1068,13 @@
     move-result-object v3
 
     .line 7213
-    iget-object v2, p0, Lkik/android/net/communicator/k;->m:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/net/communicator/k;->m:Ljava/lang/String;
 
-    invoke-direct {p0, v3}, Lkik/android/net/communicator/k;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, v3}, Lkik/arcane/net/communicator/k;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
 
-    iget-object v11, p0, Lkik/android/net/communicator/k;->k:Ljava/lang/String;
+    iget-object v11, p0, Lkik/arcane/net/communicator/k;->k:Ljava/lang/String;
 
     move-object/from16 v3, p3
 
@@ -1097,14 +1097,14 @@
     move-result-object v3
 
     .line 7224
-    iget-object v2, p0, Lkik/android/net/communicator/k;->g:Ljava/net/Socket;
+    iget-object v2, p0, Lkik/arcane/net/communicator/k;->g:Ljava/net/Socket;
 
     invoke-virtual {v2}, Ljava/net/Socket;->getInputStream()Ljava/io/InputStream;
 
     move-result-object v8
 
     .line 7225
-    iget-object v2, p0, Lkik/android/net/communicator/k;->g:Ljava/net/Socket;
+    iget-object v2, p0, Lkik/arcane/net/communicator/k;->g:Ljava/net/Socket;
 
     invoke-virtual {v2}, Ljava/net/Socket;->getOutputStream()Ljava/io/OutputStream;
 
@@ -1118,41 +1118,41 @@
     if-eq v0, v2, :cond_6
 
     .line 7228
-    new-instance v2, Lkik/android/net/b;
+    new-instance v2, Lkik/arcane/net/b;
 
     new-instance v4, Lkik/core/net/InterruptingOutputStream;
 
     const-wide/16 v6, 0x7530
 
-    new-instance v5, Lkik/android/net/e;
+    new-instance v5, Lkik/arcane/net/e;
 
-    iget-object v10, p0, Lkik/android/net/communicator/k;->g:Ljava/net/Socket;
+    iget-object v10, p0, Lkik/arcane/net/communicator/k;->g:Ljava/net/Socket;
 
-    invoke-direct {v5, v10}, Lkik/android/net/e;-><init>(Ljava/net/Socket;)V
+    invoke-direct {v5, v10}, Lkik/arcane/net/e;-><init>(Ljava/net/Socket;)V
 
     invoke-direct {v4, v9, v6, v7, v5}, Lkik/core/net/InterruptingOutputStream;-><init>(Ljava/io/OutputStream;JLkik/core/net/i;)V
 
     const-string v5, "KIK_XML_SND"
 
-    invoke-direct {v2, v4, v5}, Lkik/android/net/b;-><init>(Ljava/io/OutputStream;Ljava/lang/String;)V
+    invoke-direct {v2, v4, v5}, Lkik/arcane/net/b;-><init>(Ljava/io/OutputStream;Ljava/lang/String;)V
 
-    iput-object v2, p0, Lkik/android/net/communicator/k;->d:Lkik/android/net/b;
+    iput-object v2, p0, Lkik/arcane/net/communicator/k;->d:Lkik/arcane/net/b;
 
     .line 7230
-    iput-object v8, p0, Lkik/android/net/communicator/k;->c:Ljava/io/InputStream;
+    iput-object v8, p0, Lkik/arcane/net/communicator/k;->c:Ljava/io/InputStream;
 
     .line 7231
-    iget-object v2, p0, Lkik/android/net/communicator/k;->d:Lkik/android/net/b;
+    iget-object v2, p0, Lkik/arcane/net/communicator/k;->d:Lkik/arcane/net/b;
 
-    invoke-virtual {v2, v3}, Lkik/android/net/b;->write([B)V
+    invoke-virtual {v2, v3}, Lkik/arcane/net/b;->write([B)V
 
     .line 7287
     :goto_3
-    new-instance v2, Lkik/android/net/a;
+    new-instance v2, Lkik/arcane/net/a;
 
     new-instance v3, Ljava/io/InputStreamReader;
 
-    iget-object v4, p0, Lkik/android/net/communicator/k;->c:Ljava/io/InputStream;
+    iget-object v4, p0, Lkik/arcane/net/communicator/k;->c:Ljava/io/InputStream;
 
     const-string v5, "UTF-8"
 
@@ -1160,23 +1160,23 @@
 
     const-string v4, "KIK_XML_RCV"
 
-    iget-object v5, p0, Lkik/android/net/communicator/k;->j:Lcom/kik/android/a/a;
+    iget-object v5, p0, Lkik/arcane/net/communicator/k;->j:Lcom/kik/arcane/a/a;
 
-    invoke-direct {v2, v3, v4, v5}, Lkik/android/net/a;-><init>(Ljava/io/Reader;Ljava/lang/String;Lcom/kik/android/a/a;)V
+    invoke-direct {v2, v3, v4, v5}, Lkik/arcane/net/a;-><init>(Ljava/io/Reader;Ljava/lang/String;Lcom/kik/arcane/a/a;)V
 
-    iput-object v2, p0, Lkik/android/net/communicator/k;->h:Lkik/android/net/a;
+    iput-object v2, p0, Lkik/arcane/net/communicator/k;->h:Lkik/arcane/net/a;
 
     .line 7288
     new-instance v2, Lkik/core/net/g;
 
     invoke-direct {v2}, Lkik/core/net/g;-><init>()V
 
-    iput-object v2, p0, Lkik/android/net/communicator/k;->b:Lkik/core/net/g;
+    iput-object v2, p0, Lkik/arcane/net/communicator/k;->b:Lkik/core/net/g;
 
     .line 7289
-    iget-object v2, p0, Lkik/android/net/communicator/k;->b:Lkik/core/net/g;
+    iget-object v2, p0, Lkik/arcane/net/communicator/k;->b:Lkik/core/net/g;
 
-    iget-object v3, p0, Lkik/android/net/communicator/k;->h:Lkik/android/net/a;
+    iget-object v3, p0, Lkik/arcane/net/communicator/k;->h:Lkik/arcane/net/a;
 
     invoke-virtual {v2, v3}, Lkik/core/net/g;->setInput(Ljava/io/Reader;)V
 
@@ -1185,12 +1185,12 @@
 
     invoke-direct {v2}, Lkik/core/net/h;-><init>()V
 
-    iput-object v2, p0, Lkik/android/net/communicator/k;->a:Lkik/core/net/h;
+    iput-object v2, p0, Lkik/arcane/net/communicator/k;->a:Lkik/core/net/h;
 
     .line 7291
-    iget-object v2, p0, Lkik/android/net/communicator/k;->a:Lkik/core/net/h;
+    iget-object v2, p0, Lkik/arcane/net/communicator/k;->a:Lkik/core/net/h;
 
-    iget-object v3, p0, Lkik/android/net/communicator/k;->d:Lkik/android/net/b;
+    iget-object v3, p0, Lkik/arcane/net/communicator/k;->d:Lkik/arcane/net/b;
 
     const-string v4, "UTF-8"
 
@@ -1199,31 +1199,31 @@
     .line 7385
     const/4 v2, 0x0
 
-    invoke-direct {p0, v2}, Lkik/android/net/communicator/k;->a(Z)V
+    invoke-direct {p0, v2}, Lkik/arcane/net/communicator/k;->a(Z)V
 
     .line 520
     move-object/from16 v0, p9
 
-    invoke-direct {p0, v0}, Lkik/android/net/communicator/k;->a(Lkik/core/net/security/StreamSecurityType;)V
+    invoke-direct {p0, v0}, Lkik/arcane/net/communicator/k;->a(Lkik/core/net/security/StreamSecurityType;)V
 
     .line 8188
-    iget-object v2, p0, Lkik/android/net/communicator/k;->g:Ljava/net/Socket;
+    iget-object v2, p0, Lkik/arcane/net/communicator/k;->g:Ljava/net/Socket;
 
     const/4 v3, 0x0
 
     invoke-virtual {v2, v3}, Ljava/net/Socket;->setSoTimeout(I)V
 
     .line 8379
-    iget-object v2, p0, Lkik/android/net/communicator/k;->i:Lkik/android/net/communicator/j;
+    iget-object v2, p0, Lkik/arcane/net/communicator/k;->i:Lkik/arcane/net/communicator/j;
 
-    iget-object v3, p0, Lkik/android/net/communicator/k;->b:Lkik/core/net/g;
+    iget-object v3, p0, Lkik/arcane/net/communicator/k;->b:Lkik/core/net/g;
 
-    invoke-virtual {v2, v3, p0}, Lkik/android/net/communicator/j;->a(Lkik/core/net/g;Lkik/android/net/communicator/j$a;)V
+    invoke-virtual {v2, v3, p0}, Lkik/arcane/net/communicator/j;->a(Lkik/core/net/g;Lkik/arcane/net/communicator/j$a;)V
 
     .line 8380
     new-instance v2, Ljava/lang/Thread;
 
-    iget-object v3, p0, Lkik/android/net/communicator/k;->i:Lkik/android/net/communicator/j;
+    iget-object v3, p0, Lkik/arcane/net/communicator/k;->i:Lkik/arcane/net/communicator/j;
 
     const-string v4, "XmppInputThread"
 
@@ -1251,7 +1251,7 @@
     .line 513
     const/4 v3, 0x0
 
-    invoke-direct {p0, p1, p2, v3}, Lkik/android/net/communicator/k;->a(Ljava/lang/String;IZ)V
+    invoke-direct {p0, p1, p2, v3}, Lkik/arcane/net/communicator/k;->a(Ljava/lang/String;IZ)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -1264,13 +1264,13 @@
     .line 8385
     const/4 v3, 0x0
 
-    invoke-direct {p0, v3}, Lkik/android/net/communicator/k;->a(Z)V
+    invoke-direct {p0, v3}, Lkik/arcane/net/communicator/k;->a(Z)V
 
     .line 533
-    invoke-virtual {p0}, Lkik/android/net/communicator/k;->a()V
+    invoke-virtual {p0}, Lkik/arcane/net/communicator/k;->a()V
 
     .line 534
-    invoke-virtual {p0}, Lkik/android/net/communicator/k;->c()V
+    invoke-virtual {p0}, Lkik/arcane/net/communicator/k;->c()V
 
     .line 536
     throw v2
@@ -1306,10 +1306,10 @@
 
     invoke-direct {v3}, Ljava/net/Socket;-><init>()V
 
-    iput-object v3, p0, Lkik/android/net/communicator/k;->g:Ljava/net/Socket;
+    iput-object v3, p0, Lkik/arcane/net/communicator/k;->g:Ljava/net/Socket;
 
     .line 7143
-    iget-object v3, p0, Lkik/android/net/communicator/k;->g:Ljava/net/Socket;
+    iget-object v3, p0, Lkik/arcane/net/communicator/k;->g:Ljava/net/Socket;
 
     new-instance v6, Ljava/net/InetSocketAddress;
 
@@ -1320,14 +1320,14 @@
     invoke-virtual {v3, v6, v7}, Ljava/net/Socket;->connect(Ljava/net/SocketAddress;I)V
 
     .line 7144
-    iget-object v3, p0, Lkik/android/net/communicator/k;->g:Ljava/net/Socket;
+    iget-object v3, p0, Lkik/arcane/net/communicator/k;->g:Ljava/net/Socket;
 
     const/4 v6, 0x1
 
     invoke-virtual {v3, v6}, Ljava/net/Socket;->setKeepAlive(Z)V
 
     .line 7145
-    iget-object v3, p0, Lkik/android/net/communicator/k;->g:Ljava/net/Socket;
+    iget-object v3, p0, Lkik/arcane/net/communicator/k;->g:Ljava/net/Socket;
 
     const/16 v6, 0x2710
 
@@ -1376,13 +1376,13 @@
     move-result-object v2
 
     .line 7217
-    iget-object v4, p0, Lkik/android/net/communicator/k;->m:Ljava/lang/String;
+    iget-object v4, p0, Lkik/arcane/net/communicator/k;->m:Ljava/lang/String;
 
-    invoke-direct {p0, v2}, Lkik/android/net/communicator/k;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, v2}, Lkik/arcane/net/communicator/k;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
 
-    iget-object v11, p0, Lkik/android/net/communicator/k;->k:Ljava/lang/String;
+    iget-object v11, p0, Lkik/arcane/net/communicator/k;->k:Ljava/lang/String;
 
     move-object/from16 v5, p6
 
@@ -1604,29 +1604,29 @@
 
     const-wide/16 v4, 0x7530
 
-    new-instance v6, Lkik/android/net/e;
+    new-instance v6, Lkik/arcane/net/e;
 
-    iget-object v7, p0, Lkik/android/net/communicator/k;->g:Ljava/net/Socket;
+    iget-object v7, p0, Lkik/arcane/net/communicator/k;->g:Ljava/net/Socket;
 
-    invoke-direct {v6, v7}, Lkik/android/net/e;-><init>(Ljava/net/Socket;)V
+    invoke-direct {v6, v7}, Lkik/arcane/net/e;-><init>(Ljava/net/Socket;)V
 
     invoke-direct {v2, v3, v4, v5, v6}, Lkik/core/net/InterruptingOutputStream;-><init>(Ljava/io/OutputStream;JLkik/core/net/i;)V
 
     .line 7282
-    new-instance v3, Lkik/android/net/b;
+    new-instance v3, Lkik/arcane/net/b;
 
     const-string v4, "KIK_XML_SND"
 
-    invoke-direct {v3, v2, v4}, Lkik/android/net/b;-><init>(Ljava/io/OutputStream;Ljava/lang/String;)V
+    invoke-direct {v3, v2, v4}, Lkik/arcane/net/b;-><init>(Ljava/io/OutputStream;Ljava/lang/String;)V
 
-    iput-object v3, p0, Lkik/android/net/communicator/k;->d:Lkik/android/net/b;
+    iput-object v3, p0, Lkik/arcane/net/communicator/k;->d:Lkik/arcane/net/b;
 
     .line 7283
     new-instance v2, Lkik/core/net/security/a;
 
     invoke-direct {v2, v10, v8}, Lkik/core/net/security/a;-><init>(Lorg/bouncycastle/crypto/StreamCipher;Ljava/io/InputStream;)V
 
-    iput-object v2, p0, Lkik/android/net/communicator/k;->c:Ljava/io/InputStream;
+    iput-object v2, p0, Lkik/arcane/net/communicator/k;->c:Ljava/io/InputStream;
 
     goto/16 :goto_3
 
@@ -1661,11 +1661,11 @@
     const/4 v0, 0x0
 
     .line 558
-    iget-object v2, p0, Lkik/android/net/communicator/k;->a:Lkik/core/net/h;
+    iget-object v2, p0, Lkik/arcane/net/communicator/k;->a:Lkik/core/net/h;
 
     if-eqz v2, :cond_4
 
-    iget-object v2, p0, Lkik/android/net/communicator/k;->d:Lkik/android/net/b;
+    iget-object v2, p0, Lkik/arcane/net/communicator/k;->d:Lkik/arcane/net/b;
 
     if-eqz v2, :cond_4
 
@@ -1700,16 +1700,16 @@
     invoke-direct {v2}, Lkik/core/net/h;-><init>()V
 
     .line 566
-    iget-object v3, p0, Lkik/android/net/communicator/k;->q:Lkik/android/net/communicator/k$a;
+    iget-object v3, p0, Lkik/arcane/net/communicator/k;->q:Lkik/arcane/net/communicator/k$a;
 
     const-string v4, "UTF-8"
 
     invoke-virtual {v2, v3, v4}, Lkik/core/net/h;->a(Ljava/io/OutputStream;Ljava/lang/String;)V
 
     .line 568
-    iget-object v3, p0, Lkik/android/net/communicator/k;->q:Lkik/android/net/communicator/k$a;
+    iget-object v3, p0, Lkik/arcane/net/communicator/k;->q:Lkik/arcane/net/communicator/k$a;
 
-    invoke-virtual {v3}, Lkik/android/net/communicator/k$a;->reset()V
+    invoke-virtual {v3}, Lkik/arcane/net/communicator/k$a;->reset()V
 
     .line 571
     :try_start_0
@@ -1721,9 +1721,9 @@
     invoke-virtual {v2}, Lkik/core/net/h;->a()V
 
     .line 589
-    iget-object v2, p0, Lkik/android/net/communicator/k;->q:Lkik/android/net/communicator/k$a;
+    iget-object v2, p0, Lkik/arcane/net/communicator/k;->q:Lkik/arcane/net/communicator/k$a;
 
-    invoke-virtual {v2}, Lkik/android/net/communicator/k$a;->b()I
+    invoke-virtual {v2}, Lkik/arcane/net/communicator/k$a;->b()I
 
     move-result v2
 
@@ -1732,29 +1732,29 @@
     if-gt v2, v3, :cond_0
 
     .line 590
-    iget-object v2, p0, Lkik/android/net/communicator/k;->d:Lkik/android/net/b;
+    iget-object v2, p0, Lkik/arcane/net/communicator/k;->d:Lkik/arcane/net/b;
 
-    iget-object v3, p0, Lkik/android/net/communicator/k;->q:Lkik/android/net/communicator/k$a;
+    iget-object v3, p0, Lkik/arcane/net/communicator/k;->q:Lkik/arcane/net/communicator/k$a;
 
-    invoke-virtual {v3}, Lkik/android/net/communicator/k$a;->a()[B
+    invoke-virtual {v3}, Lkik/arcane/net/communicator/k$a;->a()[B
 
     move-result-object v3
 
-    iget-object v4, p0, Lkik/android/net/communicator/k;->q:Lkik/android/net/communicator/k$a;
+    iget-object v4, p0, Lkik/arcane/net/communicator/k;->q:Lkik/arcane/net/communicator/k$a;
 
-    invoke-virtual {v4}, Lkik/android/net/communicator/k$a;->b()I
+    invoke-virtual {v4}, Lkik/arcane/net/communicator/k$a;->b()I
 
     move-result v4
 
-    invoke-virtual {v2, v3, v0, v4}, Lkik/android/net/b;->write([BII)V
+    invoke-virtual {v2, v3, v0, v4}, Lkik/arcane/net/b;->write([BII)V
 
     move v0, v1
 
     .line 593
     :cond_0
-    iget-object v2, p0, Lkik/android/net/communicator/k;->q:Lkik/android/net/communicator/k$a;
+    iget-object v2, p0, Lkik/arcane/net/communicator/k;->q:Lkik/arcane/net/communicator/k$a;
 
-    invoke-virtual {v2}, Lkik/android/net/communicator/k$a;->b()I
+    invoke-virtual {v2}, Lkik/arcane/net/communicator/k$a;->b()I
 
     move-result v2
 
@@ -1771,14 +1771,14 @@
 
     .line 598
     :cond_1
-    iget-object v2, p0, Lkik/android/net/communicator/k;->q:Lkik/android/net/communicator/k$a;
+    iget-object v2, p0, Lkik/arcane/net/communicator/k;->q:Lkik/arcane/net/communicator/k$a;
 
-    invoke-virtual {v2}, Lkik/android/net/communicator/k$a;->reset()V
+    invoke-virtual {v2}, Lkik/arcane/net/communicator/k$a;->reset()V
 
     .line 600
-    iget-object v2, p0, Lkik/android/net/communicator/k;->d:Lkik/android/net/b;
+    iget-object v2, p0, Lkik/arcane/net/communicator/k;->d:Lkik/arcane/net/b;
 
-    invoke-virtual {v2}, Lkik/android/net/b;->flush()V
+    invoke-virtual {v2}, Lkik/arcane/net/b;->flush()V
 
     .line 602
     if-nez v0, :cond_3
@@ -1800,16 +1800,16 @@
     invoke-direct {v1}, Lkik/core/net/h;-><init>()V
 
     .line 578
-    iget-object v2, p0, Lkik/android/net/communicator/k;->q:Lkik/android/net/communicator/k$a;
+    iget-object v2, p0, Lkik/arcane/net/communicator/k;->q:Lkik/arcane/net/communicator/k$a;
 
     const-string v3, "UTF-8"
 
     invoke-virtual {v1, v2, v3}, Lkik/core/net/h;->a(Ljava/io/OutputStream;Ljava/lang/String;)V
 
     .line 581
-    iget-object v2, p0, Lkik/android/net/communicator/k;->q:Lkik/android/net/communicator/k$a;
+    iget-object v2, p0, Lkik/arcane/net/communicator/k;->q:Lkik/arcane/net/communicator/k$a;
 
-    invoke-virtual {v2}, Lkik/android/net/communicator/k$a;->reset()V
+    invoke-virtual {v2}, Lkik/arcane/net/communicator/k$a;->reset()V
 
     .line 583
     invoke-virtual {p1, v1}, Lkik/core/net/outgoing/f;->writeOutgoingStanza(Lkik/core/net/h;)V
@@ -1819,18 +1819,18 @@
 
     .line 607
     :cond_2
-    iget-object v0, p0, Lkik/android/net/communicator/k;->a:Lkik/core/net/h;
+    iget-object v0, p0, Lkik/arcane/net/communicator/k;->a:Lkik/core/net/h;
 
     invoke-interface {p1, v0}, Lkik/core/net/outgoing/k;->writeOutgoingStanza(Lkik/core/net/h;)V
 
     .line 609
-    iget-object v0, p0, Lkik/android/net/communicator/k;->a:Lkik/core/net/h;
+    iget-object v0, p0, Lkik/arcane/net/communicator/k;->a:Lkik/core/net/h;
 
     invoke-virtual {v0}, Lkik/core/net/h;->a()V
 
     .line 612
     :cond_3
-    invoke-direct {p0, v1}, Lkik/android/net/communicator/k;->a(Z)V
+    invoke-direct {p0, v1}, Lkik/arcane/net/communicator/k;->a(Z)V
 
     return-void
 
@@ -1850,7 +1850,7 @@
 
     .prologue
     .line 368
-    iget-wide v0, p0, Lkik/android/net/communicator/k;->f:J
+    iget-wide v0, p0, Lkik/arcane/net/communicator/k;->f:J
 
     return-wide v0
 .end method
@@ -1863,16 +1863,16 @@
     monitor-enter p0
 
     :try_start_0
-    iget-object v0, p0, Lkik/android/net/communicator/k;->i:Lkik/android/net/communicator/j;
+    iget-object v0, p0, Lkik/arcane/net/communicator/k;->i:Lkik/arcane/net/communicator/j;
 
-    invoke-virtual {v0}, Lkik/android/net/communicator/j;->b()V
+    invoke-virtual {v0}, Lkik/arcane/net/communicator/j;->b()V
 
     .line 8422
-    iget-object v0, p0, Lkik/android/net/communicator/k;->a:Lkik/core/net/h;
+    iget-object v0, p0, Lkik/arcane/net/communicator/k;->a:Lkik/core/net/h;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/net/communicator/k;->d:Lkik/android/net/b;
+    iget-object v0, p0, Lkik/arcane/net/communicator/k;->d:Lkik/arcane/net/b;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -1882,12 +1882,12 @@
     :try_start_1
     const-string v0, "</k>"
 
-    invoke-virtual {p0, v0}, Lkik/android/net/communicator/k;->a(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/net/communicator/k;->a(Ljava/lang/String;)V
 
     .line 9385
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lkik/android/net/communicator/k;->a(Z)V
+    invoke-direct {p0, v0}, Lkik/arcane/net/communicator/k;->a(Z)V
     :try_end_1
     .catch Ljava/lang/Throwable; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -1896,7 +1896,7 @@
     :cond_0
     :goto_0
     :try_start_2
-    iget-object v0, p0, Lkik/android/net/communicator/k;->d:Lkik/android/net/b;
+    iget-object v0, p0, Lkik/arcane/net/communicator/k;->d:Lkik/arcane/net/b;
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -1904,9 +1904,9 @@
 
     .line 9444
     :try_start_3
-    iget-object v0, p0, Lkik/android/net/communicator/k;->d:Lkik/android/net/b;
+    iget-object v0, p0, Lkik/arcane/net/communicator/k;->d:Lkik/arcane/net/b;
 
-    invoke-virtual {v0}, Lkik/android/net/b;->close()V
+    invoke-virtual {v0}, Lkik/arcane/net/b;->close()V
     :try_end_3
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_1
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
@@ -1915,12 +1915,12 @@
     const/4 v0, 0x0
 
     :try_start_4
-    iput-object v0, p0, Lkik/android/net/communicator/k;->d:Lkik/android/net/b;
+    iput-object v0, p0, Lkik/arcane/net/communicator/k;->d:Lkik/arcane/net/b;
 
     .line 9454
     :cond_1
     :goto_1
-    iget-object v0, p0, Lkik/android/net/communicator/k;->c:Ljava/io/InputStream;
+    iget-object v0, p0, Lkik/arcane/net/communicator/k;->c:Ljava/io/InputStream;
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
@@ -1928,7 +1928,7 @@
 
     .line 9456
     :try_start_5
-    iget-object v0, p0, Lkik/android/net/communicator/k;->c:Ljava/io/InputStream;
+    iget-object v0, p0, Lkik/arcane/net/communicator/k;->c:Ljava/io/InputStream;
 
     invoke-virtual {v0}, Ljava/io/InputStream;->close()V
     :try_end_5
@@ -1939,12 +1939,12 @@
     const/4 v0, 0x0
 
     :try_start_6
-    iput-object v0, p0, Lkik/android/net/communicator/k;->c:Ljava/io/InputStream;
+    iput-object v0, p0, Lkik/arcane/net/communicator/k;->c:Ljava/io/InputStream;
 
     .line 9466
     :cond_2
     :goto_2
-    iget-object v0, p0, Lkik/android/net/communicator/k;->g:Ljava/net/Socket;
+    iget-object v0, p0, Lkik/arcane/net/communicator/k;->g:Ljava/net/Socket;
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_0
 
@@ -1952,7 +1952,7 @@
 
     .line 9468
     :try_start_7
-    iget-object v0, p0, Lkik/android/net/communicator/k;->g:Ljava/net/Socket;
+    iget-object v0, p0, Lkik/arcane/net/communicator/k;->g:Ljava/net/Socket;
 
     invoke-virtual {v0}, Ljava/net/Socket;->close()V
     :try_end_7
@@ -1963,7 +1963,7 @@
     const/4 v0, 0x0
 
     :try_start_8
-    iput-object v0, p0, Lkik/android/net/communicator/k;->g:Ljava/net/Socket;
+    iput-object v0, p0, Lkik/arcane/net/communicator/k;->g:Ljava/net/Socket;
     :try_end_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_0
 
@@ -2028,7 +2028,7 @@
     const/4 v0, 0x0
 
     :try_start_b
-    iput-object v0, p0, Lkik/android/net/communicator/k;->d:Lkik/android/net/b;
+    iput-object v0, p0, Lkik/arcane/net/communicator/k;->d:Lkik/arcane/net/b;
 
     goto :goto_1
 
@@ -2037,7 +2037,7 @@
 
     const/4 v1, 0x0
 
-    iput-object v1, p0, Lkik/android/net/communicator/k;->d:Lkik/android/net/b;
+    iput-object v1, p0, Lkik/arcane/net/communicator/k;->d:Lkik/arcane/net/b;
 
     .line 9452
     throw v0
@@ -2068,7 +2068,7 @@
     const/4 v0, 0x0
 
     :try_start_d
-    iput-object v0, p0, Lkik/android/net/communicator/k;->c:Ljava/io/InputStream;
+    iput-object v0, p0, Lkik/arcane/net/communicator/k;->c:Ljava/io/InputStream;
 
     goto :goto_2
 
@@ -2077,7 +2077,7 @@
 
     const/4 v1, 0x0
 
-    iput-object v1, p0, Lkik/android/net/communicator/k;->c:Ljava/io/InputStream;
+    iput-object v1, p0, Lkik/arcane/net/communicator/k;->c:Ljava/io/InputStream;
 
     .line 9464
     throw v0
@@ -2108,7 +2108,7 @@
     const/4 v0, 0x0
 
     :try_start_f
-    iput-object v0, p0, Lkik/android/net/communicator/k;->g:Ljava/net/Socket;
+    iput-object v0, p0, Lkik/arcane/net/communicator/k;->g:Ljava/net/Socket;
 
     goto :goto_3
 
@@ -2117,7 +2117,7 @@
 
     const/4 v1, 0x0
 
-    iput-object v1, p0, Lkik/android/net/communicator/k;->g:Ljava/net/Socket;
+    iput-object v1, p0, Lkik/arcane/net/communicator/k;->g:Ljava/net/Socket;
 
     .line 9476
     throw v0
@@ -2130,7 +2130,7 @@
 
     .prologue
     .line 629
-    iget-object v0, p0, Lkik/android/net/communicator/k;->m:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/net/communicator/k;->m:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -2140,13 +2140,13 @@
 
     .prologue
     .line 637
-    iget-object v0, p0, Lkik/android/net/communicator/k;->h:Lkik/android/net/a;
+    iget-object v0, p0, Lkik/arcane/net/communicator/k;->h:Lkik/arcane/net/a;
 
     .line 638
     if-eqz v0, :cond_0
 
     .line 639
-    invoke-virtual {v0}, Lkik/android/net/a;->b()J
+    invoke-virtual {v0}, Lkik/arcane/net/a;->b()J
 
     move-result-wide v0
 
@@ -2165,7 +2165,7 @@
 
     .prologue
     .line 646
-    iget-wide v0, p0, Lkik/android/net/communicator/k;->e:J
+    iget-wide v0, p0, Lkik/arcane/net/communicator/k;->e:J
 
     return-wide v0
 .end method

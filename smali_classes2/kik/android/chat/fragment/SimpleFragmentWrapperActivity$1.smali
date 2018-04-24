@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/SimpleFragmentWrapperActivity$1;
+.class final Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;
+    value = Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;
+.field final synthetic a:Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;)V
     .locals 0
 
     .prologue
     .line 39
-    iput-object p1, p0, Lkik/android/chat/fragment/SimpleFragmentWrapperActivity$1;->a:Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity$1;->a:Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,13 +52,13 @@
     .prologue
     .line 39
     .line 1043
-    iget-object v0, p0, Lkik/android/chat/fragment/SimpleFragmentWrapperActivity$1;->a:Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity$1;->a:Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;
 
-    new-instance v1, Lkik/android/chat/fragment/SimpleFragmentWrapperActivity$1$1;
+    new-instance v1, Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity$1$1;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/fragment/SimpleFragmentWrapperActivity$1$1;-><init>(Lkik/android/chat/fragment/SimpleFragmentWrapperActivity$1;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity$1$1;-><init>(Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity$1;)V
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/SimpleFragmentWrapperActivity;->runOnUiThread(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/SimpleFragmentWrapperActivity;->runOnUiThread(Ljava/lang/Runnable;)V
 
     .line 39
     return-void

@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/activity/FragmentWrapperActivity$1;
+.class final Lkik/arcane/chat/activity/FragmentWrapperActivity$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/activity/FragmentWrapperActivity;
+    value = Lkik/arcane/chat/activity/FragmentWrapperActivity;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/activity/FragmentWrapperActivity;
+.field final synthetic a:Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/activity/FragmentWrapperActivity;)V
+.method constructor <init>(Lkik/arcane/chat/activity/FragmentWrapperActivity;)V
     .locals 0
 
     .prologue
     .line 93
-    iput-object p1, p0, Lkik/android/chat/activity/FragmentWrapperActivity$1;->a:Lkik/android/chat/activity/FragmentWrapperActivity;
+    iput-object p1, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity$1;->a:Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,13 +52,13 @@
     .prologue
     .line 93
     .line 1097
-    iget-object v0, p0, Lkik/android/chat/activity/FragmentWrapperActivity$1;->a:Lkik/android/chat/activity/FragmentWrapperActivity;
+    iget-object v0, p0, Lkik/arcane/chat/activity/FragmentWrapperActivity$1;->a:Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
-    new-instance v1, Lkik/android/chat/activity/FragmentWrapperActivity$1$1;
+    new-instance v1, Lkik/arcane/chat/activity/FragmentWrapperActivity$1$1;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/activity/FragmentWrapperActivity$1$1;-><init>(Lkik/android/chat/activity/FragmentWrapperActivity$1;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity$1$1;-><init>(Lkik/arcane/chat/activity/FragmentWrapperActivity$1;)V
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/activity/FragmentWrapperActivity;->runOnUiThread(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->runOnUiThread(Ljava/lang/Runnable;)V
 
     .line 93
     return-void

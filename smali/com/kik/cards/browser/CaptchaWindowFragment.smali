@@ -1,5 +1,5 @@
 .class public abstract Lcom/kik/cards/browser/CaptchaWindowFragment;
-.super Lkik/android/chat/fragment/KikScopedDialogFragment;
+.super Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 .source "SourceFile"
 
 
@@ -22,9 +22,9 @@
 
 .field protected d:Ljava/lang/String;
 
-.field protected e:Lkik/android/chat/fragment/ProgressDialogFragment;
+.field protected e:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
-.field protected f:Lcom/kik/android/Mixpanel;
+.field protected f:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -42,7 +42,7 @@
 
     .prologue
     .line 40
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikScopedDialogFragment;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;-><init>()V
 
     .line 49
     new-instance v0, Lcom/kik/cards/browser/CaptchaWindowFragment$c;
@@ -235,7 +235,7 @@
     const/4 v2, 0x1
 
     .line 294
-    new-instance v0, Lkik/android/chat/fragment/ProgressDialogFragment;
+    new-instance v0, Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
     const v1, 0x7f090209
 
@@ -243,33 +243,33 @@
 
     move-result-object v1
 
-    invoke-direct {v0, v1, v2}, Lkik/android/chat/fragment/ProgressDialogFragment;-><init>(Ljava/lang/String;Z)V
+    invoke-direct {v0, v1, v2}, Lkik/arcane/chat/fragment/ProgressDialogFragment;-><init>(Ljava/lang/String;Z)V
 
-    iput-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment;->e:Lkik/android/chat/fragment/ProgressDialogFragment;
+    iput-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment;->e:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
     .line 295
-    iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment;->e:Lkik/android/chat/fragment/ProgressDialogFragment;
+    iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment;->e:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
-    invoke-virtual {v0, v2}, Lkik/android/chat/fragment/ProgressDialogFragment;->setCancelable(Z)V
+    invoke-virtual {v0, v2}, Lkik/arcane/chat/fragment/ProgressDialogFragment;->setCancelable(Z)V
 
     .line 296
-    iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment;->e:Lkik/android/chat/fragment/ProgressDialogFragment;
+    iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment;->e:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/ProgressDialogFragment;->c()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/ProgressDialogFragment;->c()V
 
     .line 298
-    iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment;->e:Lkik/android/chat/fragment/ProgressDialogFragment;
+    iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment;->e:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
     new-instance v1, Lcom/kik/cards/browser/CaptchaWindowFragment$1;
 
     invoke-direct {v1, p0}, Lcom/kik/cards/browser/CaptchaWindowFragment$1;-><init>(Lcom/kik/cards/browser/CaptchaWindowFragment;)V
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/ProgressDialogFragment;->a(Landroid/content/DialogInterface$OnCancelListener;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/ProgressDialogFragment;->a(Landroid/content/DialogInterface$OnCancelListener;)V
 
     .line 310
-    iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment;->e:Lkik/android/chat/fragment/ProgressDialogFragment;
+    iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment;->e:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
-    invoke-virtual {p0, v0}, Lcom/kik/cards/browser/CaptchaWindowFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {p0, v0}, Lcom/kik/cards/browser/CaptchaWindowFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 313
     iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment;->i:Landroid/view/View;
@@ -438,7 +438,7 @@
     invoke-virtual {p0}, Lcom/kik/cards/browser/CaptchaWindowFragment;->a()V
 
     .line 88
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onActivityCreated(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onActivityCreated(Landroid/os/Bundle;)V
 
     .line 89
     return-void
@@ -456,7 +456,7 @@
     invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lcom/kik/cards/browser/CaptchaWindowFragment;)V
 
     .line 63
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onCreate(Landroid/os/Bundle;)V
 
     .line 64
     iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment;->g:Lcom/kik/cards/browser/CaptchaWindowFragment$c;
@@ -468,11 +468,11 @@
     invoke-virtual {v0, v1}, Lcom/kik/cards/browser/CaptchaWindowFragment$c;->a(Landroid/os/Bundle;)V
 
     .line 65
-    iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment;->f:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment;->f:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Captcha Shown"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -484,15 +484,15 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 66
     return-void
@@ -526,7 +526,7 @@
 
     .prologue
     .line 94
-    invoke-super {p0}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onDestroy()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onDestroy()V
 
     .line 95
     iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment;->d:Ljava/lang/String;
@@ -534,11 +534,11 @@
     if-nez v0, :cond_0
 
     .line 96
-    iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment;->f:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment;->f:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Captcha Incomplete"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -550,15 +550,15 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 101
     :goto_0
@@ -566,11 +566,11 @@
 
     .line 99
     :cond_0
-    iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment;->f:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment;->f:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Captcha Complete"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -582,15 +582,15 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     goto :goto_0
 .end method

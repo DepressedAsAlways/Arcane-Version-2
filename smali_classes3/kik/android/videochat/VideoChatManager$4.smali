@@ -1,4 +1,4 @@
-.class final Lkik/android/videochat/VideoChatManager$4;
+.class final Lkik/arcane/videochat/VideoChatManager$4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/videochat/VideoChatManager;
+    value = Lkik/arcane/videochat/VideoChatManager;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/videochat/VideoChatManager;
+.field final synthetic a:Lkik/arcane/videochat/VideoChatManager;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/videochat/VideoChatManager;)V
+.method constructor <init>(Lkik/arcane/videochat/VideoChatManager;)V
     .locals 0
 
     .prologue
     .line 460
-    iput-object p1, p0, Lkik/android/videochat/VideoChatManager$4;->a:Lkik/android/videochat/VideoChatManager;
+    iput-object p1, p0, Lkik/arcane/videochat/VideoChatManager$4;->a:Lkik/arcane/videochat/VideoChatManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,9 +52,9 @@
     .prologue
     .line 460
     .line 1464
-    iget-object v0, p0, Lkik/android/videochat/VideoChatManager$4;->a:Lkik/android/videochat/VideoChatManager;
+    iget-object v0, p0, Lkik/arcane/videochat/VideoChatManager$4;->a:Lkik/arcane/videochat/VideoChatManager;
 
-    invoke-static {v0}, Lkik/android/videochat/VideoChatManager;->e(Lkik/android/videochat/VideoChatManager;)Lkik/core/c/a;
+    invoke-static {v0}, Lkik/arcane/videochat/VideoChatManager;->e(Lkik/arcane/videochat/VideoChatManager;)Lkik/core/c/a;
 
     move-result-object v0
 
@@ -65,9 +65,9 @@
     if-eqz v0, :cond_0
 
     .line 1465
-    iget-object v0, p0, Lkik/android/videochat/VideoChatManager$4;->a:Lkik/android/videochat/VideoChatManager;
+    iget-object v0, p0, Lkik/arcane/videochat/VideoChatManager$4;->a:Lkik/arcane/videochat/VideoChatManager;
 
-    invoke-static {v0}, Lkik/android/videochat/VideoChatManager;->f(Lkik/android/videochat/VideoChatManager;)V
+    invoke-static {v0}, Lkik/arcane/videochat/VideoChatManager;->f(Lkik/arcane/videochat/VideoChatManager;)V
 
     .line 460
     :cond_0

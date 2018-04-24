@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/messaging/ce;
+.class final synthetic Lkik/arcane/chat/vm/messaging/ce;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/vm/messaging/ce;
+.field private static final a:Lkik/arcane/chat/vm/messaging/ce;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/messaging/ce;
+    new-instance v0, Lkik/arcane/chat/vm/messaging/ce;
 
-    invoke-direct {v0}, Lkik/android/chat/vm/messaging/ce;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/vm/messaging/ce;-><init>()V
 
-    sput-object v0, Lkik/android/chat/vm/messaging/ce;->a:Lkik/android/chat/vm/messaging/ce;
+    sput-object v0, Lkik/arcane/chat/vm/messaging/ce;->a:Lkik/arcane/chat/vm/messaging/ce;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lrx/functions/g;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/vm/messaging/ce;->a:Lkik/android/chat/vm/messaging/ce;
+    sget-object v0, Lkik/arcane/chat/vm/messaging/ce;->a:Lkik/arcane/chat/vm/messaging/ce;
 
     return-object v0
 .end method
@@ -45,7 +45,7 @@
 
     check-cast p1, Ljava/lang/Integer;
 
-    invoke-static {p1}, Lkik/android/chat/vm/messaging/bx;->a(Ljava/lang/Integer;)Lkik/android/chat/vm/messaging/IContentMessageViewModel$ItemUploadState;
+    invoke-static {p1}, Lkik/arcane/chat/vm/messaging/bx;->a(Ljava/lang/Integer;)Lkik/arcane/chat/vm/messaging/IContentMessageViewModel$ItemUploadState;
 
     move-result-object v0
 

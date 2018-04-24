@@ -1,9 +1,9 @@
-.class public Lkik/android/widget/CameraPreviewView;
+.class public Lkik/arcane/widget/CameraPreviewView;
 .super Landroid/view/SurfaceView;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/widget/a;
+.implements Lkik/arcane/widget/a;
 
 
 # instance fields
@@ -20,7 +20,7 @@
     .line 28
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/CameraPreviewView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/CameraPreviewView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 29
     return-void
@@ -33,7 +33,7 @@
     .line 33
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/CameraPreviewView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/CameraPreviewView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 34
     return-void
@@ -49,13 +49,13 @@
     invoke-direct {p0, p1, p2, p3}, Landroid/view/SurfaceView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 14
-    iput v0, p0, Lkik/android/widget/CameraPreviewView;->a:I
+    iput v0, p0, Lkik/arcane/widget/CameraPreviewView;->a:I
 
     .line 15
-    iput v0, p0, Lkik/android/widget/CameraPreviewView;->b:I
+    iput v0, p0, Lkik/arcane/widget/CameraPreviewView;->b:I
 
     .line 21
-    invoke-virtual {p0}, Lkik/android/widget/CameraPreviewView;->getHolder()Landroid/view/SurfaceHolder;
+    invoke-virtual {p0}, Lkik/arcane/widget/CameraPreviewView;->getHolder()Landroid/view/SurfaceHolder;
 
     move-result-object v0
 
@@ -75,7 +75,7 @@
 
     .prologue
     .line 61
-    iget v0, p0, Lkik/android/widget/CameraPreviewView;->a:I
+    iget v0, p0, Lkik/arcane/widget/CameraPreviewView;->a:I
 
     return v0
 .end method
@@ -88,11 +88,11 @@
     const/4 v0, 0x0
 
     .line 42
-    iget v1, p0, Lkik/android/widget/CameraPreviewView;->b:I
+    iget v1, p0, Lkik/arcane/widget/CameraPreviewView;->b:I
 
     if-ne v1, p2, :cond_0
 
-    iget v1, p0, Lkik/android/widget/CameraPreviewView;->a:I
+    iget v1, p0, Lkik/arcane/widget/CameraPreviewView;->a:I
 
     if-eq v1, p1, :cond_1
 
@@ -102,16 +102,16 @@
 
     .line 45
     :cond_1
-    iput p2, p0, Lkik/android/widget/CameraPreviewView;->b:I
+    iput p2, p0, Lkik/arcane/widget/CameraPreviewView;->b:I
 
     .line 46
-    iput p1, p0, Lkik/android/widget/CameraPreviewView;->a:I
+    iput p1, p0, Lkik/arcane/widget/CameraPreviewView;->a:I
 
     .line 48
     if-eqz v0, :cond_2
 
     .line 49
-    invoke-virtual {p0}, Lkik/android/widget/CameraPreviewView;->requestLayout()V
+    invoke-virtual {p0}, Lkik/arcane/widget/CameraPreviewView;->requestLayout()V
 
     .line 51
     :cond_2
@@ -123,7 +123,7 @@
 
     .prologue
     .line 66
-    iget v0, p0, Lkik/android/widget/CameraPreviewView;->b:I
+    iget v0, p0, Lkik/arcane/widget/CameraPreviewView;->b:I
 
     return v0
 .end method
@@ -143,20 +143,20 @@
     move-result v0
 
     .line 74
-    iget v2, p0, Lkik/android/widget/CameraPreviewView;->a:I
+    iget v2, p0, Lkik/arcane/widget/CameraPreviewView;->a:I
 
     if-ltz v2, :cond_1
 
-    iget v2, p0, Lkik/android/widget/CameraPreviewView;->b:I
+    iget v2, p0, Lkik/arcane/widget/CameraPreviewView;->b:I
 
     if-ltz v2, :cond_1
 
     .line 75
-    iget v2, p0, Lkik/android/widget/CameraPreviewView;->a:I
+    iget v2, p0, Lkik/arcane/widget/CameraPreviewView;->a:I
 
     int-to-float v2, v2
 
-    iget v3, p0, Lkik/android/widget/CameraPreviewView;->b:I
+    iget v3, p0, Lkik/arcane/widget/CameraPreviewView;->b:I
 
     int-to-float v3, v3
 
@@ -189,7 +189,7 @@
 
     .line 83
     :goto_0
-    invoke-virtual {p0, v1, v0}, Lkik/android/widget/CameraPreviewView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v1, v0}, Lkik/arcane/widget/CameraPreviewView;->setMeasuredDimension(II)V
 
     .line 88
     :goto_1

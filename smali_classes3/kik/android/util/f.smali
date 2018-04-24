@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/f;
+.class public final Lkik/arcane/util/f;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,8 +6,8 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/util/f$a;,
-        Lkik/android/util/f$b;
+        Lkik/arcane/util/f$a;,
+        Lkik/arcane/util/f$b;
     }
 .end annotation
 
@@ -15,7 +15,7 @@
 # static fields
 .field public static final a:[I
 
-.field private static b:Lkik/android/util/LegacyBitmapLRUCache;
+.field private static b:Lkik/arcane/util/LegacyBitmapLRUCache;
 
 .field private static c:Landroid/graphics/BitmapFactory$Options;
 
@@ -36,13 +36,13 @@
 
     .prologue
     .line 76
-    new-instance v0, Lkik/android/util/LegacyBitmapLRUCache;
+    new-instance v0, Lkik/arcane/util/LegacyBitmapLRUCache;
 
     const/16 v1, 0xf
 
-    invoke-direct {v0, v1}, Lkik/android/util/LegacyBitmapLRUCache;-><init>(I)V
+    invoke-direct {v0, v1}, Lkik/arcane/util/LegacyBitmapLRUCache;-><init>(I)V
 
-    sput-object v0, Lkik/android/util/f;->b:Lkik/android/util/LegacyBitmapLRUCache;
+    sput-object v0, Lkik/arcane/util/f;->b:Lkik/arcane/util/LegacyBitmapLRUCache;
 
     .line 91
     const/4 v0, 0x4
@@ -51,35 +51,35 @@
 
     fill-array-data v0, :array_0
 
-    sput-object v0, Lkik/android/util/f;->a:[I
+    sput-object v0, Lkik/arcane/util/f;->a:[I
 
     .line 96
-    new-instance v0, Lkik/android/util/f$1;
+    new-instance v0, Lkik/arcane/util/f$1;
 
-    invoke-direct {v0}, Lkik/android/util/f$1;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/util/f$1;-><init>()V
 
-    sput-object v0, Lkik/android/util/f;->d:Landroid/graphics/Paint;
+    sput-object v0, Lkik/arcane/util/f;->d:Landroid/graphics/Paint;
 
     .line 104
-    new-instance v0, Lkik/android/util/f$3;
+    new-instance v0, Lkik/arcane/util/f$3;
 
-    invoke-direct {v0}, Lkik/android/util/f$3;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/util/f$3;-><init>()V
 
-    sput-object v0, Lkik/android/util/f;->e:Landroid/graphics/Paint;
+    sput-object v0, Lkik/arcane/util/f;->e:Landroid/graphics/Paint;
 
     .line 115
-    new-instance v0, Lkik/android/util/f$4;
+    new-instance v0, Lkik/arcane/util/f$4;
 
-    invoke-direct {v0}, Lkik/android/util/f$4;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/util/f$4;-><init>()V
 
-    sput-object v0, Lkik/android/util/f;->f:Landroid/graphics/Paint;
+    sput-object v0, Lkik/arcane/util/f;->f:Landroid/graphics/Paint;
 
     .line 126
-    new-instance v0, Lkik/android/util/f$5;
+    new-instance v0, Lkik/arcane/util/f$5;
 
-    invoke-direct {v0}, Lkik/android/util/f$5;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/util/f$5;-><init>()V
 
-    sput-object v0, Lkik/android/util/f;->g:Landroid/graphics/Paint;
+    sput-object v0, Lkik/arcane/util/f;->g:Landroid/graphics/Paint;
 
     .line 136
     const-string v0, "AndroidImageUtils"
@@ -88,7 +88,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/util/f;->h:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/util/f;->h:Lorg/slf4j/b;
 
     return-void
 
@@ -109,7 +109,7 @@
     .line 359
     new-instance v0, Landroid/content/Intent;
 
-    const-class v1, Lkik/android/chat/activity/KikCropActivity;
+    const-class v1, Lkik/arcane/chat/activity/KikCropActivity;
 
     invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
@@ -142,9 +142,9 @@
     const/4 v1, 0x0
 
     .line 1566
-    new-instance v3, Lkik/android/util/l;
+    new-instance v3, Lkik/arcane/util/l;
 
-    invoke-direct {v3, p0, v2}, Lkik/android/util/l;-><init>(II)V
+    invoke-direct {v3, p0, v2}, Lkik/arcane/util/l;-><init>(II)V
 
     .line 1567
     new-instance v4, Landroid/graphics/Path;
@@ -152,11 +152,11 @@
     invoke-direct {v4}, Landroid/graphics/Path;-><init>()V
 
     .line 1569
-    invoke-virtual {v3}, Lkik/android/util/l;->a()I
+    invoke-virtual {v3}, Lkik/arcane/util/l;->a()I
 
     move-result v0
 
-    invoke-virtual {v3}, Lkik/android/util/l;->a()I
+    invoke-virtual {v3}, Lkik/arcane/util/l;->a()I
 
     move-result v5
 
@@ -177,37 +177,37 @@
     invoke-virtual {v6, v1, v0}, Landroid/graphics/Canvas;->drawColor(ILandroid/graphics/PorterDuff$Mode;)V
 
     .line 1574
-    invoke-virtual {v3}, Lkik/android/util/l;->f()I
+    invoke-virtual {v3}, Lkik/arcane/util/l;->f()I
 
     move-result v0
 
     if-nez v0, :cond_0
 
     .line 1575
-    invoke-virtual {v3}, Lkik/android/util/l;->c()I
+    invoke-virtual {v3}, Lkik/arcane/util/l;->c()I
 
     move-result v0
 
     new-instance v7, Landroid/graphics/Point;
 
-    invoke-static {v9}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v9}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v8
 
-    invoke-static {v9}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v9}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v9
 
     invoke-direct {v7, v8, v9}, Landroid/graphics/Point;-><init>(II)V
 
-    invoke-static {v0, v7, v6, v4}, Lkik/android/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/Path;)V
+    invoke-static {v0, v7, v6, v4}, Lkik/arcane/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/Path;)V
 
     :cond_0
     move v0, v1
 
     .line 1578
     :goto_0
-    invoke-virtual {v3}, Lkik/android/util/l;->f()I
+    invoke-virtual {v3}, Lkik/arcane/util/l;->f()I
 
     move-result v7
 
@@ -217,46 +217,46 @@
     if-ne p0, v2, :cond_2
 
     .line 1580
-    invoke-virtual {v3}, Lkik/android/util/l;->c()I
+    invoke-virtual {v3}, Lkik/arcane/util/l;->c()I
 
     move-result v7
 
     new-instance v8, Landroid/graphics/Point;
 
-    invoke-static {v12}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v12}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v9
 
-    invoke-static {v12}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v12}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v10
 
     invoke-direct {v8, v9, v10}, Landroid/graphics/Point;-><init>(II)V
 
-    invoke-static {v7, v8, v6, v4}, Lkik/android/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/Path;)V
+    invoke-static {v7, v8, v6, v4}, Lkik/arcane/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/Path;)V
 
     .line 1581
-    invoke-virtual {v3}, Lkik/android/util/l;->c()I
+    invoke-virtual {v3}, Lkik/arcane/util/l;->c()I
 
     move-result v7
 
     new-instance v8, Landroid/graphics/Point;
 
-    invoke-static {v11}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v11}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v9
 
-    invoke-static {v11}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v11}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v10
 
     invoke-direct {v8, v9, v10}, Landroid/graphics/Point;-><init>(II)V
 
-    invoke-virtual {v3}, Lkik/android/util/l;->b()I
+    invoke-virtual {v3}, Lkik/arcane/util/l;->b()I
 
     move-result v9
 
-    invoke-static {v7, v8, v6, v4, v9}, Lkik/android/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/Path;I)V
+    invoke-static {v7, v8, v6, v4, v9}, Lkik/arcane/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/Path;I)V
 
     .line 1578
     :cond_1
@@ -267,7 +267,7 @@
 
     .line 1583
     :cond_2
-    invoke-virtual {v3}, Lkik/android/util/l;->d()Ljava/util/ArrayList;
+    invoke-virtual {v3}, Lkik/arcane/util/l;->d()Ljava/util/ArrayList;
 
     move-result-object v7
 
@@ -278,26 +278,26 @@
     if-ge v0, v7, :cond_1
 
     .line 1584
-    invoke-virtual {v3, v0}, Lkik/android/util/l;->a(I)Landroid/graphics/Point;
+    invoke-virtual {v3, v0}, Lkik/arcane/util/l;->a(I)Landroid/graphics/Point;
 
     move-result-object v7
 
     .line 1585
-    invoke-virtual {v3}, Lkik/android/util/l;->c()I
+    invoke-virtual {v3}, Lkik/arcane/util/l;->c()I
 
     move-result v8
 
-    invoke-virtual {v3}, Lkik/android/util/l;->b()I
+    invoke-virtual {v3}, Lkik/arcane/util/l;->b()I
 
     move-result v9
 
-    invoke-static {v8, v7, v6, v4, v9}, Lkik/android/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/Path;I)V
+    invoke-static {v8, v7, v6, v4, v9}, Lkik/arcane/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/Path;I)V
 
     goto :goto_1
 
     .line 1589
     :cond_3
-    invoke-virtual {v3}, Lkik/android/util/l;->f()I
+    invoke-virtual {v3}, Lkik/arcane/util/l;->f()I
 
     move-result v0
 
@@ -312,13 +312,13 @@
     if-eqz v0, :cond_4
 
     .line 1591
-    invoke-virtual {v3, v1}, Lkik/android/util/l;->a(I)Landroid/graphics/Point;
+    invoke-virtual {v3, v1}, Lkik/arcane/util/l;->a(I)Landroid/graphics/Point;
 
     move-result-object v0
 
     const/4 v1, 0x0
 
-    invoke-static {v3, v4, v0, v6, v1}, Lkik/android/util/f;->a(Lkik/android/util/l;Landroid/graphics/Path;Landroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/BitmapShader;)V
+    invoke-static {v3, v4, v0, v6, v1}, Lkik/arcane/util/f;->a(Lkik/arcane/util/l;Landroid/graphics/Path;Landroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/BitmapShader;)V
 
     .line 561
     :cond_4
@@ -637,14 +637,14 @@
 
     .line 777
     :cond_1
-    new-instance v6, Lkik/android/util/f$b;
+    new-instance v6, Lkik/arcane/util/f$b;
 
-    invoke-direct {v6}, Lkik/android/util/f$b;-><init>()V
+    invoke-direct {v6}, Lkik/arcane/util/f$b;-><init>()V
 
     .line 778
-    new-instance v2, Lkik/android/util/f$9;
+    new-instance v2, Lkik/arcane/util/f$9;
 
-    invoke-direct {v2, v6}, Lkik/android/util/f$9;-><init>(Lkik/android/util/f$b;)V
+    invoke-direct {v2, v6}, Lkik/arcane/util/f$9;-><init>(Lkik/arcane/util/f$b;)V
 
     const/4 v5, 0x1
 
@@ -657,14 +657,14 @@
     invoke-virtual/range {v0 .. v5}, Lcom/kik/cache/KikVolleyImageLoader;->b(Lcom/kik/cache/KikImageRequest;Lcom/kik/cache/KikVolleyImageLoader$d;IIZ)Lcom/kik/cache/KikVolleyImageLoader$c;
 
     .line 795
-    invoke-virtual {v6}, Lkik/android/util/f$b;->a()Landroid/graphics/Bitmap;
+    invoke-virtual {v6}, Lkik/arcane/util/f$b;->a()Landroid/graphics/Bitmap;
 
     move-result-object v0
 
     goto :goto_0
 .end method
 
-.method private static a(Lcom/kik/cache/KikVolleyImageLoader;Lkik/android/util/f$a;Lkik/android/util/f$b;ZLcom/kik/cache/KikImageRequest;)Landroid/graphics/Bitmap;
+.method private static a(Lcom/kik/cache/KikVolleyImageLoader;Lkik/arcane/util/f$a;Lkik/arcane/util/f$b;ZLcom/kik/cache/KikImageRequest;)Landroid/graphics/Bitmap;
     .locals 7
 
     .prologue
@@ -676,9 +676,9 @@
     if-eqz p4, :cond_0
 
     .line 523
-    new-instance v2, Lkik/android/util/f$6;
+    new-instance v2, Lkik/arcane/util/f$6;
 
-    invoke-direct {v2, p2}, Lkik/android/util/f$6;-><init>(Lkik/android/util/f$b;)V
+    invoke-direct {v2, p2}, Lkik/arcane/util/f$6;-><init>(Lkik/arcane/util/f$b;)V
 
     const/4 v5, 0x1
 
@@ -692,24 +692,24 @@
 
     .line 543
     :cond_0
-    invoke-virtual {p2}, Lkik/android/util/f$b;->b()Z
+    invoke-virtual {p2}, Lkik/arcane/util/f$b;->b()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
     .line 544
-    iput-boolean v3, p1, Lkik/android/util/f$a;->b:Z
+    iput-boolean v3, p1, Lkik/arcane/util/f$a;->b:Z
 
     .line 547
     :cond_1
-    invoke-virtual {p2}, Lkik/android/util/f$b;->a()Landroid/graphics/Bitmap;
+    invoke-virtual {p2}, Lkik/arcane/util/f$b;->a()Landroid/graphics/Bitmap;
 
     move-result-object v0
 
     if-eqz v0, :cond_2
 
-    invoke-virtual {p2}, Lkik/android/util/f$b;->b()Z
+    invoke-virtual {p2}, Lkik/arcane/util/f$b;->b()Z
 
     move-result v0
 
@@ -717,7 +717,7 @@
 
     .line 548
     :cond_2
-    invoke-static {v6}, Lkik/android/chat/KikApplication;->b(I)Landroid/graphics/Bitmap;
+    invoke-static {v6}, Lkik/arcane/chat/KikApplication;->b(I)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -730,7 +730,7 @@
     if-eqz p3, :cond_4
 
     .line 551
-    invoke-static {v6}, Lkik/android/chat/KikApplication;->b(I)Landroid/graphics/Bitmap;
+    invoke-static {v6}, Lkik/arcane/chat/KikApplication;->b(I)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -738,7 +738,7 @@
 
     .line 554
     :cond_4
-    invoke-virtual {p2}, Lkik/android/util/f$b;->a()Landroid/graphics/Bitmap;
+    invoke-virtual {p2}, Lkik/arcane/util/f$b;->a()Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -778,12 +778,12 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/h;->b(Ljava/lang/String;)F
+    invoke-static {v0}, Lkik/arcane/util/h;->b(Ljava/lang/String;)F
 
     move-result v1
 
     .line 407
-    sget-object v0, Lkik/android/util/f;->c:Landroid/graphics/BitmapFactory$Options;
+    sget-object v0, Lkik/arcane/util/f;->c:Landroid/graphics/BitmapFactory$Options;
 
     if-nez v0, :cond_0
 
@@ -793,7 +793,7 @@
     invoke-direct {v0}, Landroid/graphics/BitmapFactory$Options;-><init>()V
 
     .line 409
-    sput-object v0, Lkik/android/util/f;->c:Landroid/graphics/BitmapFactory$Options;
+    sput-object v0, Lkik/arcane/util/f;->c:Landroid/graphics/BitmapFactory$Options;
 
     const/4 v2, 0x1
 
@@ -805,7 +805,7 @@
 
     move-result-object v0
 
-    sget-object v2, Lkik/android/util/f;->c:Landroid/graphics/BitmapFactory$Options;
+    sget-object v2, Lkik/arcane/util/f;->c:Landroid/graphics/BitmapFactory$Options;
 
     invoke-static {v0, v2}, Landroid/graphics/BitmapFactory;->decodeFile(Ljava/lang/String;Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
 
@@ -815,11 +815,11 @@
     invoke-direct {v0}, Landroid/graphics/BitmapFactory$Options;-><init>()V
 
     .line 413
-    sget-object v2, Lkik/android/util/f;->c:Landroid/graphics/BitmapFactory$Options;
+    sget-object v2, Lkik/arcane/util/f;->c:Landroid/graphics/BitmapFactory$Options;
 
     iget v2, v2, Landroid/graphics/BitmapFactory$Options;->outWidth:I
 
-    sget-object v3, Lkik/android/util/f;->c:Landroid/graphics/BitmapFactory$Options;
+    sget-object v3, Lkik/arcane/util/f;->c:Landroid/graphics/BitmapFactory$Options;
 
     iget v3, v3, Landroid/graphics/BitmapFactory$Options;->outHeight:I
 
@@ -958,24 +958,24 @@
     const/4 v0, 0x0
 
     .line 448
-    sget-object v1, Lkik/android/util/f;->b:Lkik/android/util/LegacyBitmapLRUCache;
+    sget-object v1, Lkik/arcane/util/f;->b:Lkik/arcane/util/LegacyBitmapLRUCache;
 
     monitor-enter v1
 
     .line 449
     :try_start_0
-    sget-object v2, Lkik/android/util/f;->b:Lkik/android/util/LegacyBitmapLRUCache;
+    sget-object v2, Lkik/arcane/util/f;->b:Lkik/arcane/util/LegacyBitmapLRUCache;
 
-    invoke-virtual {v2, p0}, Lkik/android/util/LegacyBitmapLRUCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, p0}, Lkik/arcane/util/LegacyBitmapLRUCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
     if-eqz v2, :cond_0
 
     .line 450
-    sget-object v0, Lkik/android/util/f;->b:Lkik/android/util/LegacyBitmapLRUCache;
+    sget-object v0, Lkik/arcane/util/f;->b:Lkik/arcane/util/LegacyBitmapLRUCache;
 
-    invoke-virtual {v0, p0}, Lkik/android/util/LegacyBitmapLRUCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0}, Lkik/arcane/util/LegacyBitmapLRUCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -1005,7 +1005,7 @@
     throw v0
 .end method
 
-.method public static a(Lkik/core/datatypes/aa;Landroid/content/Context;Lcom/kik/cache/KikVolleyImageLoader;Lcom/kik/android/Mixpanel;)Landroid/graphics/Bitmap;
+.method public static a(Lkik/core/datatypes/aa;Landroid/content/Context;Lcom/kik/cache/KikVolleyImageLoader;Lcom/kik/arcane/Mixpanel;)Landroid/graphics/Bitmap;
     .locals 10
 
     .prologue
@@ -1028,7 +1028,7 @@
 
     move-object v7, p3
 
-    invoke-static/range {v0 .. v7}, Lcom/kik/cache/MyPicImageRequest;->getProfileRequest(Lkik/core/datatypes/aa;Lcom/android/volley/h$b;IILcom/android/volley/h$a;ZZLcom/kik/android/Mixpanel;)Lcom/kik/cache/MyPicImageRequest;
+    invoke-static/range {v0 .. v7}, Lcom/kik/cache/MyPicImageRequest;->getProfileRequest(Lkik/core/datatypes/aa;Lcom/android/volley/h$b;IILcom/android/volley/h$a;ZZLcom/kik/arcane/Mixpanel;)Lcom/kik/cache/MyPicImageRequest;
 
     move-result-object v4
 
@@ -1050,14 +1050,14 @@
 
     .line 948
     :cond_0
-    new-instance v0, Lkik/android/util/f$b;
+    new-instance v0, Lkik/arcane/util/f$b;
 
-    invoke-direct {v0}, Lkik/android/util/f$b;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/util/f$b;-><init>()V
 
     .line 949
-    new-instance v5, Lkik/android/util/f$2;
+    new-instance v5, Lkik/arcane/util/f$2;
 
-    invoke-direct {v5, v0}, Lkik/android/util/f$2;-><init>(Lkik/android/util/f$b;)V
+    invoke-direct {v5, v0}, Lkik/arcane/util/f$2;-><init>(Lkik/arcane/util/f$b;)V
 
     const/4 v8, 0x1
 
@@ -1070,7 +1070,7 @@
     invoke-virtual/range {v3 .. v8}, Lcom/kik/cache/KikVolleyImageLoader;->a(Lcom/kik/cache/KikImageRequest;Lcom/kik/cache/KikVolleyImageLoader$d;IIZ)Lcom/kik/cache/KikVolleyImageLoader$c;
 
     .line 965
-    invoke-virtual {v0}, Lkik/android/util/f$b;->a()Landroid/graphics/Bitmap;
+    invoke-virtual {v0}, Lkik/arcane/util/f$b;->a()Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -1085,11 +1085,11 @@
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/util/f$b;->a(Landroid/graphics/Bitmap;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/util/f$b;->a(Landroid/graphics/Bitmap;)V
 
     .line 968
     :cond_1
-    invoke-virtual {v0}, Lkik/android/util/f$b;->a()Landroid/graphics/Bitmap;
+    invoke-virtual {v0}, Lkik/arcane/util/f$b;->a()Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -1141,7 +1141,7 @@
     invoke-virtual {p4, v0, v1, v2, v3}, Landroid/graphics/Path;->addCircle(FFFLandroid/graphics/Path$Direction;)V
 
     .line 848
-    sget-object v0, Lkik/android/util/f;->e:Landroid/graphics/Paint;
+    sget-object v0, Lkik/arcane/util/f;->e:Landroid/graphics/Paint;
 
     invoke-virtual {p2, p4, v0}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
@@ -1225,12 +1225,12 @@
     invoke-virtual {v0, p6}, Landroid/graphics/BitmapShader;->setLocalMatrix(Landroid/graphics/Matrix;)V
 
     .line 860
-    sget-object v1, Lkik/android/util/f;->d:Landroid/graphics/Paint;
+    sget-object v1, Lkik/arcane/util/f;->d:Landroid/graphics/Paint;
 
     invoke-virtual {v1, v0}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
     .line 861
-    sget-object v1, Lkik/android/util/f;->d:Landroid/graphics/Paint;
+    sget-object v1, Lkik/arcane/util/f;->d:Landroid/graphics/Paint;
 
     invoke-virtual {p2, p4, v1}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
@@ -1427,9 +1427,9 @@
     invoke-direct {v6}, Lcom/kik/events/Promise;-><init>()V
 
     .line 814
-    new-instance v2, Lkik/android/util/f$10;
+    new-instance v2, Lkik/arcane/util/f$10;
 
-    invoke-direct {v2, v6}, Lkik/android/util/f$10;-><init>(Lcom/kik/events/Promise;)V
+    invoke-direct {v2, v6}, Lkik/arcane/util/f$10;-><init>(Lcom/kik/events/Promise;)V
 
     move-object v0, p0
 
@@ -1461,7 +1461,7 @@
     move-result-object v2
 
     .line 221
-    invoke-static {p0, v2}, Lkik/android/KikFileProvider;->a(Landroid/content/Context;Ljava/io/InputStream;)Ljava/io/File;
+    invoke-static {p0, v2}, Lkik/arcane/KikFileProvider;->a(Landroid/content/Context;Ljava/io/InputStream;)Ljava/io/File;
     :try_end_0
     .catch Ljava/io/FileNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Ljava/lang/SecurityException; {:try_start_0 .. :try_end_0} :catch_3
@@ -1679,7 +1679,7 @@
 
     :goto_3
     :try_start_3
-    invoke-static {p1, v0, p0}, Lkik/android/util/f;->a(Landroid/content/Context;Landroid/content/ContentResolver;Landroid/net/Uri;)Ljava/io/File;
+    invoke-static {p1, v0, p0}, Lkik/arcane/util/f;->a(Landroid/content/Context;Landroid/content/ContentResolver;Landroid/net/Uri;)Ljava/io/File;
 
     move-result-object v1
 
@@ -1687,7 +1687,7 @@
 
     .line 198
     :cond_3
-    invoke-static {p1, v0, p0}, Lkik/android/util/f;->a(Landroid/content/Context;Landroid/content/ContentResolver;Landroid/net/Uri;)Ljava/io/File;
+    invoke-static {p1, v0, p0}, Lkik/arcane/util/f;->a(Landroid/content/Context;Landroid/content/ContentResolver;Landroid/net/Uri;)Ljava/io/File;
 
     move-result-object v0
 
@@ -1695,7 +1695,7 @@
 
     .line 203
     :cond_4
-    invoke-static {p1, v0, p0}, Lkik/android/util/f;->a(Landroid/content/Context;Landroid/content/ContentResolver;Landroid/net/Uri;)Ljava/io/File;
+    invoke-static {p1, v0, p0}, Lkik/arcane/util/f;->a(Landroid/content/Context;Landroid/content/ContentResolver;Landroid/net/Uri;)Ljava/io/File;
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
@@ -1748,7 +1748,7 @@
     invoke-direct {v7, v0}, Ljava/io/ByteArrayOutputStream;-><init>(I)V
 
     .line 292
-    invoke-static {p0, p3}, Lkik/android/util/f;->a(Ljava/io/File;I)Landroid/graphics/Bitmap;
+    invoke-static {p0, p3}, Lkik/arcane/util/f;->a(Ljava/io/File;I)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -2046,7 +2046,7 @@
     const/16 v1, 0x500
 
     :try_start_0
-    invoke-static {p0, v1}, Lkik/android/util/k;->b([BI)Landroid/graphics/Bitmap;
+    invoke-static {p0, v1}, Lkik/arcane/util/k;->b([BI)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
@@ -2149,7 +2149,7 @@
     goto :goto_2
 .end method
 
-.method public static a(Ljava/util/ArrayList;ILcom/kik/cache/KikVolleyImageLoader;)Lkik/android/util/f$a;
+.method public static a(Ljava/util/ArrayList;ILcom/kik/cache/KikVolleyImageLoader;)Lkik/arcane/util/f$a;
     .locals 19
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -2160,18 +2160,18 @@
             ">;I",
             "Lcom/kik/cache/KikVolleyImageLoader;",
             ")",
-            "Lkik/android/util/f$a;"
+            "Lkik/arcane/util/f$a;"
         }
     .end annotation
 
     .prologue
     .line 603
-    new-instance v16, Lkik/android/util/f$a;
+    new-instance v16, Lkik/arcane/util/f$a;
 
-    invoke-direct/range {v16 .. v16}, Lkik/android/util/f$a;-><init>()V
+    invoke-direct/range {v16 .. v16}, Lkik/arcane/util/f$a;-><init>()V
 
     .line 604
-    new-instance v17, Lkik/android/util/l;
+    new-instance v17, Lkik/arcane/util/l;
 
     invoke-virtual/range {p0 .. p0}, Ljava/util/ArrayList;->size()I
 
@@ -2181,17 +2181,17 @@
 
     move/from16 v1, p1
 
-    invoke-direct {v0, v2, v1}, Lkik/android/util/l;-><init>(II)V
+    invoke-direct {v0, v2, v1}, Lkik/arcane/util/l;-><init>(II)V
 
     .line 605
-    new-instance v3, Lkik/android/util/f$7;
+    new-instance v3, Lkik/arcane/util/f$7;
 
-    invoke-direct {v3}, Lkik/android/util/f$7;-><init>()V
+    invoke-direct {v3}, Lkik/arcane/util/f$7;-><init>()V
 
     .line 612
-    new-instance v6, Lkik/android/util/f$8;
+    new-instance v6, Lkik/arcane/util/f$8;
 
-    invoke-direct {v6}, Lkik/android/util/f$8;-><init>()V
+    invoke-direct {v6}, Lkik/arcane/util/f$8;-><init>()V
 
     .line 620
     new-instance v11, Landroid/graphics/Path;
@@ -2199,11 +2199,11 @@
     invoke-direct {v11}, Landroid/graphics/Path;-><init>()V
 
     .line 622
-    invoke-virtual/range {v17 .. v17}, Lkik/android/util/l;->a()I
+    invoke-virtual/range {v17 .. v17}, Lkik/arcane/util/l;->a()I
 
     move-result v2
 
-    invoke-virtual/range {v17 .. v17}, Lkik/android/util/l;->a()I
+    invoke-virtual/range {v17 .. v17}, Lkik/arcane/util/l;->a()I
 
     move-result v4
 
@@ -2236,14 +2236,14 @@
     invoke-direct {v13}, Landroid/graphics/Matrix;-><init>()V
 
     .line 629
-    invoke-virtual/range {v17 .. v17}, Lkik/android/util/l;->f()I
+    invoke-virtual/range {v17 .. v17}, Lkik/arcane/util/l;->f()I
 
     move-result v2
 
     if-nez v2, :cond_0
 
     .line 630
-    invoke-virtual/range {v17 .. v17}, Lkik/android/util/l;->c()I
+    invoke-virtual/range {v17 .. v17}, Lkik/arcane/util/l;->c()I
 
     move-result v2
 
@@ -2253,7 +2253,7 @@
 
     int-to-float v5, v5
 
-    invoke-static {v5}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v5}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v5
 
@@ -2261,13 +2261,13 @@
 
     int-to-float v7, v7
 
-    invoke-static {v7}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v7}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v7
 
     invoke-direct {v4, v5, v7}, Landroid/graphics/Point;-><init>(II)V
 
-    invoke-static {v2, v4, v9, v11}, Lkik/android/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/Path;)V
+    invoke-static {v2, v4, v9, v11}, Lkik/arcane/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/Path;)V
 
     .line 633
     :cond_0
@@ -2276,16 +2276,16 @@
     move v15, v2
 
     :goto_0
-    invoke-virtual/range {v17 .. v17}, Lkik/android/util/l;->f()I
+    invoke-virtual/range {v17 .. v17}, Lkik/arcane/util/l;->f()I
 
     move-result v2
 
     if-ge v15, v2, :cond_5
 
     .line 634
-    new-instance v12, Lkik/android/util/f$b;
+    new-instance v12, Lkik/arcane/util/f$b;
 
-    invoke-direct {v12}, Lkik/android/util/f$b;-><init>()V
+    invoke-direct {v12}, Lkik/arcane/util/f$b;-><init>()V
 
     .line 635
     move-object/from16 v0, p0
@@ -2328,12 +2328,12 @@
 
     move-object/from16 v1, v16
 
-    invoke-static {v0, v1, v12, v10, v2}, Lkik/android/util/f;->a(Lcom/kik/cache/KikVolleyImageLoader;Lkik/android/util/f$a;Lkik/android/util/f$b;ZLcom/kik/cache/KikImageRequest;)Landroid/graphics/Bitmap;
+    invoke-static {v0, v1, v12, v10, v2}, Lkik/arcane/util/f;->a(Lcom/kik/cache/KikVolleyImageLoader;Lkik/arcane/util/f$a;Lkik/arcane/util/f$b;ZLcom/kik/cache/KikImageRequest;)Landroid/graphics/Bitmap;
 
     move-result-object v12
 
     .line 640
-    invoke-virtual/range {v17 .. v17}, Lkik/android/util/l;->f()I
+    invoke-virtual/range {v17 .. v17}, Lkik/arcane/util/l;->f()I
 
     move-result v2
 
@@ -2342,7 +2342,7 @@
     if-ne v2, v4, :cond_3
 
     .line 641
-    invoke-virtual/range {v17 .. v17}, Lkik/android/util/l;->c()I
+    invoke-virtual/range {v17 .. v17}, Lkik/arcane/util/l;->c()I
 
     move-result v2
 
@@ -2352,7 +2352,7 @@
 
     int-to-float v5, v5
 
-    invoke-static {v5}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v5}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v5
 
@@ -2360,16 +2360,16 @@
 
     int-to-float v7, v7
 
-    invoke-static {v7}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v7}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v7
 
     invoke-direct {v4, v5, v7}, Landroid/graphics/Point;-><init>(II)V
 
-    invoke-static {v2, v4, v9, v11}, Lkik/android/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/Path;)V
+    invoke-static {v2, v4, v9, v11}, Lkik/arcane/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/Path;)V
 
     .line 642
-    invoke-virtual/range {v17 .. v17}, Lkik/android/util/l;->c()I
+    invoke-virtual/range {v17 .. v17}, Lkik/arcane/util/l;->c()I
 
     move-result v7
 
@@ -2379,7 +2379,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -2387,17 +2387,17 @@
 
     int-to-float v4, v4
 
-    invoke-static {v4}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v4}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v4
 
     invoke-direct {v8, v2, v4}, Landroid/graphics/Point;-><init>(II)V
 
-    invoke-virtual/range {v17 .. v17}, Lkik/android/util/l;->b()I
+    invoke-virtual/range {v17 .. v17}, Lkik/arcane/util/l;->b()I
 
     move-result v10
 
-    invoke-static/range {v7 .. v13}, Lkik/android/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;ILandroid/graphics/Path;Landroid/graphics/Bitmap;Landroid/graphics/Matrix;)Landroid/graphics/BitmapShader;
+    invoke-static/range {v7 .. v13}, Lkik/arcane/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;ILandroid/graphics/Path;Landroid/graphics/Bitmap;Landroid/graphics/Matrix;)Landroid/graphics/BitmapShader;
 
     move-object v2, v14
 
@@ -2422,7 +2422,7 @@
 
     .line 644
     :cond_3
-    invoke-virtual/range {v17 .. v17}, Lkik/android/util/l;->d()Ljava/util/ArrayList;
+    invoke-virtual/range {v17 .. v17}, Lkik/arcane/util/l;->d()Ljava/util/ArrayList;
 
     move-result-object v2
 
@@ -2435,20 +2435,20 @@
     .line 645
     move-object/from16 v0, v17
 
-    invoke-virtual {v0, v15}, Lkik/android/util/l;->a(I)Landroid/graphics/Point;
+    invoke-virtual {v0, v15}, Lkik/arcane/util/l;->a(I)Landroid/graphics/Point;
 
     move-result-object v8
 
     .line 646
-    invoke-virtual/range {v17 .. v17}, Lkik/android/util/l;->c()I
+    invoke-virtual/range {v17 .. v17}, Lkik/arcane/util/l;->c()I
 
     move-result v7
 
-    invoke-virtual/range {v17 .. v17}, Lkik/android/util/l;->b()I
+    invoke-virtual/range {v17 .. v17}, Lkik/arcane/util/l;->b()I
 
     move-result v10
 
-    invoke-static/range {v7 .. v13}, Lkik/android/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;ILandroid/graphics/Path;Landroid/graphics/Bitmap;Landroid/graphics/Matrix;)Landroid/graphics/BitmapShader;
+    invoke-static/range {v7 .. v13}, Lkik/arcane/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;ILandroid/graphics/Path;Landroid/graphics/Bitmap;Landroid/graphics/Matrix;)Landroid/graphics/BitmapShader;
 
     move-result-object v2
 
@@ -2462,7 +2462,7 @@
 
     .line 653
     :cond_5
-    invoke-virtual/range {v17 .. v17}, Lkik/android/util/l;->f()I
+    invoke-virtual/range {v17 .. v17}, Lkik/arcane/util/l;->f()I
 
     move-result v2
 
@@ -2483,13 +2483,13 @@
 
     move-object/from16 v0, v17
 
-    invoke-virtual {v0, v2}, Lkik/android/util/l;->a(I)Landroid/graphics/Point;
+    invoke-virtual {v0, v2}, Lkik/arcane/util/l;->a(I)Landroid/graphics/Point;
 
     move-result-object v2
 
     move-object/from16 v0, v17
 
-    invoke-static {v0, v11, v2, v9, v14}, Lkik/android/util/f;->a(Lkik/android/util/l;Landroid/graphics/Path;Landroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/BitmapShader;)V
+    invoke-static {v0, v11, v2, v9, v14}, Lkik/arcane/util/f;->a(Lkik/arcane/util/l;Landroid/graphics/Path;Landroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/BitmapShader;)V
 
     .line 657
     :cond_6
@@ -2497,7 +2497,7 @@
 
     move-object/from16 v1, v16
 
-    iput-object v0, v1, Lkik/android/util/f$a;->a:Landroid/graphics/Bitmap;
+    iput-object v0, v1, Lkik/arcane/util/f$a;->a:Landroid/graphics/Bitmap;
 
     .line 658
     return-object v16
@@ -2509,7 +2509,7 @@
     goto :goto_3
 .end method
 
-.method public static a(Ljava/util/List;ILcom/kik/cache/KikVolleyImageLoader;)Lkik/android/util/f$a;
+.method public static a(Ljava/util/List;ILcom/kik/cache/KikVolleyImageLoader;)Lkik/arcane/util/f$a;
     .locals 13
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -2520,24 +2520,24 @@
             ">;I",
             "Lcom/kik/cache/KikVolleyImageLoader;",
             ")",
-            "Lkik/android/util/f$a;"
+            "Lkik/arcane/util/f$a;"
         }
     .end annotation
 
     .prologue
     .line 719
-    new-instance v9, Lkik/android/util/f$a;
+    new-instance v9, Lkik/arcane/util/f$a;
 
-    invoke-direct {v9}, Lkik/android/util/f$a;-><init>()V
+    invoke-direct {v9}, Lkik/arcane/util/f$a;-><init>()V
 
     .line 720
-    new-instance v10, Lkik/android/util/l;
+    new-instance v10, Lkik/arcane/util/l;
 
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
 
-    invoke-direct {v10, v0, p1}, Lkik/android/util/l;-><init>(II)V
+    invoke-direct {v10, v0, p1}, Lkik/arcane/util/l;-><init>(II)V
 
     .line 722
     new-instance v4, Landroid/graphics/Path;
@@ -2545,11 +2545,11 @@
     invoke-direct {v4}, Landroid/graphics/Path;-><init>()V
 
     .line 724
-    invoke-virtual {v10}, Lkik/android/util/l;->a()I
+    invoke-virtual {v10}, Lkik/arcane/util/l;->a()I
 
     move-result v0
 
-    invoke-virtual {v10}, Lkik/android/util/l;->a()I
+    invoke-virtual {v10}, Lkik/arcane/util/l;->a()I
 
     move-result v1
 
@@ -2580,14 +2580,14 @@
     invoke-direct {v6}, Landroid/graphics/Matrix;-><init>()V
 
     .line 731
-    invoke-virtual {v10}, Lkik/android/util/l;->f()I
+    invoke-virtual {v10}, Lkik/arcane/util/l;->f()I
 
     move-result v0
 
     if-nez v0, :cond_0
 
     .line 732
-    invoke-virtual {v10}, Lkik/android/util/l;->c()I
+    invoke-virtual {v10}, Lkik/arcane/util/l;->c()I
 
     move-result v0
 
@@ -2597,7 +2597,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -2605,13 +2605,13 @@
 
     int-to-float v5, v5
 
-    invoke-static {v5}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v5}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v5
 
     invoke-direct {v1, v3, v5}, Landroid/graphics/Point;-><init>(II)V
 
-    invoke-static {v0, v1, v2, v4}, Lkik/android/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/Path;)V
+    invoke-static {v0, v1, v2, v4}, Lkik/arcane/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/Path;)V
 
     .line 735
     :cond_0
@@ -2620,16 +2620,16 @@
     move v8, v0
 
     :goto_0
-    invoke-virtual {v10}, Lkik/android/util/l;->f()I
+    invoke-virtual {v10}, Lkik/arcane/util/l;->f()I
 
     move-result v0
 
     if-ge v8, v0, :cond_4
 
     .line 736
-    new-instance v1, Lkik/android/util/f$b;
+    new-instance v1, Lkik/arcane/util/f$b;
 
-    invoke-direct {v1}, Lkik/android/util/f$b;-><init>()V
+    invoke-direct {v1}, Lkik/arcane/util/f$b;-><init>()V
 
     .line 737
     invoke-interface {p0, v8}, Ljava/util/List;->get(I)Ljava/lang/Object;
@@ -2646,12 +2646,12 @@
     .line 740
     const/4 v3, 0x0
 
-    invoke-static {p2, v9, v1, v3, v0}, Lkik/android/util/f;->a(Lcom/kik/cache/KikVolleyImageLoader;Lkik/android/util/f$a;Lkik/android/util/f$b;ZLcom/kik/cache/KikImageRequest;)Landroid/graphics/Bitmap;
+    invoke-static {p2, v9, v1, v3, v0}, Lkik/arcane/util/f;->a(Lcom/kik/cache/KikVolleyImageLoader;Lkik/arcane/util/f$a;Lkik/arcane/util/f$b;ZLcom/kik/cache/KikImageRequest;)Landroid/graphics/Bitmap;
 
     move-result-object v5
 
     .line 742
-    invoke-virtual {v10}, Lkik/android/util/l;->f()I
+    invoke-virtual {v10}, Lkik/arcane/util/l;->f()I
 
     move-result v0
 
@@ -2660,7 +2660,7 @@
     if-ne v0, v1, :cond_2
 
     .line 743
-    invoke-virtual {v10}, Lkik/android/util/l;->c()I
+    invoke-virtual {v10}, Lkik/arcane/util/l;->c()I
 
     move-result v0
 
@@ -2670,7 +2670,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -2678,16 +2678,16 @@
 
     int-to-float v12, v12
 
-    invoke-static {v12}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v12}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v12
 
     invoke-direct {v1, v3, v12}, Landroid/graphics/Point;-><init>(II)V
 
-    invoke-static {v0, v1, v2, v4}, Lkik/android/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/Path;)V
+    invoke-static {v0, v1, v2, v4}, Lkik/arcane/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/Path;)V
 
     .line 744
-    invoke-virtual {v10}, Lkik/android/util/l;->c()I
+    invoke-virtual {v10}, Lkik/arcane/util/l;->c()I
 
     move-result v0
 
@@ -2697,7 +2697,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -2705,17 +2705,17 @@
 
     int-to-float v12, v12
 
-    invoke-static {v12}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v12}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v12
 
     invoke-direct {v1, v3, v12}, Landroid/graphics/Point;-><init>(II)V
 
-    invoke-virtual {v10}, Lkik/android/util/l;->b()I
+    invoke-virtual {v10}, Lkik/arcane/util/l;->b()I
 
     move-result v3
 
-    invoke-static/range {v0 .. v6}, Lkik/android/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;ILandroid/graphics/Path;Landroid/graphics/Bitmap;Landroid/graphics/Matrix;)Landroid/graphics/BitmapShader;
+    invoke-static/range {v0 .. v6}, Lkik/arcane/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;ILandroid/graphics/Path;Landroid/graphics/Bitmap;Landroid/graphics/Matrix;)Landroid/graphics/BitmapShader;
 
     move-object v0, v7
 
@@ -2732,7 +2732,7 @@
 
     .line 746
     :cond_2
-    invoke-virtual {v10}, Lkik/android/util/l;->d()Ljava/util/ArrayList;
+    invoke-virtual {v10}, Lkik/arcane/util/l;->d()Ljava/util/ArrayList;
 
     move-result-object v0
 
@@ -2743,20 +2743,20 @@
     if-ge v8, v0, :cond_3
 
     .line 747
-    invoke-virtual {v10, v8}, Lkik/android/util/l;->a(I)Landroid/graphics/Point;
+    invoke-virtual {v10, v8}, Lkik/arcane/util/l;->a(I)Landroid/graphics/Point;
 
     move-result-object v1
 
     .line 748
-    invoke-virtual {v10}, Lkik/android/util/l;->c()I
+    invoke-virtual {v10}, Lkik/arcane/util/l;->c()I
 
     move-result v0
 
-    invoke-virtual {v10}, Lkik/android/util/l;->b()I
+    invoke-virtual {v10}, Lkik/arcane/util/l;->b()I
 
     move-result v3
 
-    invoke-static/range {v0 .. v6}, Lkik/android/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;ILandroid/graphics/Path;Landroid/graphics/Bitmap;Landroid/graphics/Matrix;)Landroid/graphics/BitmapShader;
+    invoke-static/range {v0 .. v6}, Lkik/arcane/util/f;->a(ILandroid/graphics/Point;Landroid/graphics/Canvas;ILandroid/graphics/Path;Landroid/graphics/Bitmap;Landroid/graphics/Matrix;)Landroid/graphics/BitmapShader;
 
     move-result-object v0
 
@@ -2770,7 +2770,7 @@
 
     .line 755
     :cond_4
-    invoke-virtual {v10}, Lkik/android/util/l;->f()I
+    invoke-virtual {v10}, Lkik/arcane/util/l;->f()I
 
     move-result v0
 
@@ -2789,15 +2789,15 @@
     .line 757
     const/4 v0, 0x0
 
-    invoke-virtual {v10, v0}, Lkik/android/util/l;->a(I)Landroid/graphics/Point;
+    invoke-virtual {v10, v0}, Lkik/arcane/util/l;->a(I)Landroid/graphics/Point;
 
     move-result-object v0
 
-    invoke-static {v10, v4, v0, v2, v7}, Lkik/android/util/f;->a(Lkik/android/util/l;Landroid/graphics/Path;Landroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/BitmapShader;)V
+    invoke-static {v10, v4, v0, v2, v7}, Lkik/arcane/util/f;->a(Lkik/arcane/util/l;Landroid/graphics/Path;Landroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/BitmapShader;)V
 
     .line 759
     :cond_5
-    iput-object v11, v9, Lkik/android/util/f$a;->a:Landroid/graphics/Bitmap;
+    iput-object v11, v9, Lkik/arcane/util/f$a;->a:Landroid/graphics/Bitmap;
 
     .line 760
     return-object v9
@@ -2831,7 +2831,7 @@
 
     div-float/2addr v2, v3
 
-    sget-object v3, Lkik/android/util/f;->f:Landroid/graphics/Paint;
+    sget-object v3, Lkik/arcane/util/f;->f:Landroid/graphics/Paint;
 
     invoke-virtual {v3}, Landroid/graphics/Paint;->getStrokeWidth()F
 
@@ -2844,7 +2844,7 @@
     invoke-virtual {p3, v0, v1, v2, v3}, Landroid/graphics/Path;->addCircle(FFFLandroid/graphics/Path$Direction;)V
 
     .line 872
-    sget-object v0, Lkik/android/util/f;->f:Landroid/graphics/Paint;
+    sget-object v0, Lkik/arcane/util/f;->f:Landroid/graphics/Paint;
 
     invoke-virtual {p2, p3, v0}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
@@ -2891,7 +2891,7 @@
     invoke-virtual {p3, v0, v1, v2, v3}, Landroid/graphics/Path;->addCircle(FFFLandroid/graphics/Path$Direction;)V
 
     .line 882
-    sget-object v0, Lkik/android/util/f;->e:Landroid/graphics/Paint;
+    sget-object v0, Lkik/arcane/util/f;->e:Landroid/graphics/Paint;
 
     invoke-virtual {p2, p3, v0}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
@@ -2916,7 +2916,7 @@
     invoke-virtual {p3, v0, v1, v2, v3}, Landroid/graphics/Path;->addCircle(FFFLandroid/graphics/Path$Direction;)V
 
     .line 885
-    sget-object v0, Lkik/android/util/f;->g:Landroid/graphics/Paint;
+    sget-object v0, Lkik/arcane/util/f;->g:Landroid/graphics/Paint;
 
     invoke-virtual {p2, p3, v0}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
@@ -2928,19 +2928,19 @@
 
     .prologue
     .line 459
-    sget-object v1, Lkik/android/util/f;->b:Lkik/android/util/LegacyBitmapLRUCache;
+    sget-object v1, Lkik/arcane/util/f;->b:Lkik/arcane/util/LegacyBitmapLRUCache;
 
     monitor-enter v1
 
     .line 460
     :try_start_0
-    sget-object v0, Lkik/android/util/f;->b:Lkik/android/util/LegacyBitmapLRUCache;
+    sget-object v0, Lkik/arcane/util/f;->b:Lkik/arcane/util/LegacyBitmapLRUCache;
 
     new-instance v2, Ljava/lang/ref/SoftReference;
 
     invoke-direct {v2, p0}, Ljava/lang/ref/SoftReference;-><init>(Ljava/lang/Object;)V
 
-    invoke-virtual {v0, p1, v2}, Lkik/android/util/LegacyBitmapLRUCache;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, v2}, Lkik/arcane/util/LegacyBitmapLRUCache;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 461
     monitor-exit v1
@@ -2957,7 +2957,7 @@
     throw v0
 .end method
 
-.method private static a(Lkik/android/util/l;Landroid/graphics/Path;Landroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/BitmapShader;)V
+.method private static a(Lkik/arcane/util/l;Landroid/graphics/Path;Landroid/graphics/Point;Landroid/graphics/Canvas;Landroid/graphics/BitmapShader;)V
     .locals 7
 
     .prologue
@@ -2971,7 +2971,7 @@
     .line 501
     iget v0, p2, Landroid/graphics/Point;->x:I
 
-    invoke-virtual {p0}, Lkik/android/util/l;->e()I
+    invoke-virtual {p0}, Lkik/arcane/util/l;->e()I
 
     move-result v2
 
@@ -2981,7 +2981,7 @@
 
     iget v0, p2, Landroid/graphics/Point;->y:I
 
-    invoke-virtual {p0}, Lkik/android/util/l;->c()I
+    invoke-virtual {p0}, Lkik/arcane/util/l;->c()I
 
     move-result v2
 
@@ -3009,7 +3009,7 @@
 
     int-to-float v1, v1
 
-    invoke-virtual {p0}, Lkik/android/util/l;->c()I
+    invoke-virtual {p0}, Lkik/arcane/util/l;->c()I
 
     move-result v2
 
@@ -3017,7 +3017,7 @@
 
     div-float/2addr v2, v6
 
-    invoke-virtual {p0}, Lkik/android/util/l;->b()I
+    invoke-virtual {p0}, Lkik/arcane/util/l;->b()I
 
     move-result v3
 
@@ -3030,7 +3030,7 @@
     invoke-virtual {p1, v0, v1, v2, v3}, Landroid/graphics/Path;->addCircle(FFFLandroid/graphics/Path$Direction;)V
 
     .line 505
-    sget-object v0, Lkik/android/util/f;->e:Landroid/graphics/Paint;
+    sget-object v0, Lkik/arcane/util/f;->e:Landroid/graphics/Paint;
 
     invoke-virtual {p3, p1, v0}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
@@ -3046,7 +3046,7 @@
 
     int-to-float v1, v1
 
-    invoke-virtual {p0}, Lkik/android/util/l;->c()I
+    invoke-virtual {p0}, Lkik/arcane/util/l;->c()I
 
     move-result v2
 
@@ -3062,12 +3062,12 @@
     if-eqz p4, :cond_0
 
     .line 511
-    sget-object v0, Lkik/android/util/f;->d:Landroid/graphics/Paint;
+    sget-object v0, Lkik/arcane/util/f;->d:Landroid/graphics/Paint;
 
     invoke-virtual {v0, p4}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
     .line 512
-    sget-object v0, Lkik/android/util/f;->d:Landroid/graphics/Paint;
+    sget-object v0, Lkik/arcane/util/f;->d:Landroid/graphics/Paint;
 
     invoke-virtual {p3, p1, v0}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
@@ -3080,7 +3080,7 @@
 
     .line 515
     :cond_0
-    sget-object v0, Lkik/android/util/f;->g:Landroid/graphics/Paint;
+    sget-object v0, Lkik/arcane/util/f;->g:Landroid/graphics/Paint;
 
     invoke-virtual {p3, p1, v0}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 

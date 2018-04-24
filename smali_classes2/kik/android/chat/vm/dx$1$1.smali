@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/vm/dx$1$1;
+.class final Lkik/arcane/chat/vm/dx$1$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/dx$1;
+    value = Lkik/arcane/chat/vm/dx$1;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Lrx/Emitter;
 
-.field final synthetic b:Lkik/android/chat/vm/dx$1;
+.field final synthetic b:Lkik/arcane/chat/vm/dx$1;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/dx$1;Lrx/Emitter;)V
+.method constructor <init>(Lkik/arcane/chat/vm/dx$1;Lrx/Emitter;)V
     .locals 0
 
     .prologue
     .line 154
-    iput-object p1, p0, Lkik/android/chat/vm/dx$1$1;->b:Lkik/android/chat/vm/dx$1;
+    iput-object p1, p0, Lkik/arcane/chat/vm/dx$1$1;->b:Lkik/arcane/chat/vm/dx$1;
 
-    iput-object p2, p0, Lkik/android/chat/vm/dx$1$1;->a:Lrx/Emitter;
+    iput-object p2, p0, Lkik/arcane/chat/vm/dx$1$1;->a:Lrx/Emitter;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,7 +45,7 @@
 
     .prologue
     .line 158
-    iget-object v0, p0, Lkik/android/chat/vm/dx$1$1;->a:Lrx/Emitter;
+    iget-object v0, p0, Lkik/arcane/chat/vm/dx$1$1;->a:Lrx/Emitter;
 
     const/4 v1, 0x0
 
@@ -70,18 +70,18 @@
 
     .line 167
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/vm/dx$1$1;->b:Lkik/android/chat/vm/dx$1;
+    iget-object v0, p0, Lkik/arcane/chat/vm/dx$1$1;->b:Lkik/arcane/chat/vm/dx$1;
 
-    iget-object v0, v0, Lkik/android/chat/vm/dx$1;->a:Lkik/android/chat/vm/dx;
+    iget-object v0, v0, Lkik/arcane/chat/vm/dx$1;->a:Lkik/arcane/chat/vm/dx;
 
     invoke-virtual {p1}, Lcom/kik/cache/KikVolleyImageLoader$c;->b()Landroid/graphics/Bitmap;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lkik/android/chat/vm/dx;->a(Lkik/android/chat/vm/dx;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
+    invoke-static {v0, v1}, Lkik/arcane/chat/vm/dx;->a(Lkik/arcane/chat/vm/dx;Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     .line 168
-    iget-object v0, p0, Lkik/android/chat/vm/dx$1$1;->a:Lrx/Emitter;
+    iget-object v0, p0, Lkik/arcane/chat/vm/dx$1$1;->a:Lrx/Emitter;
 
     invoke-virtual {p1}, Lcom/kik/cache/KikVolleyImageLoader$c;->b()Landroid/graphics/Bitmap;
 

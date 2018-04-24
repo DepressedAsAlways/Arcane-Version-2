@@ -99,7 +99,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lkik/android/util/DeviceUtils;->e(Landroid/content/Context;)Z
+    invoke-static {v1}, Lkik/arcane/util/DeviceUtils;->e(Landroid/content/Context;)Z
 
     move-result v1
 

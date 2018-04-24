@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/fragment/KikGranReportDialogFragment$a;
-.super Lkik/android/chat/fragment/KikDialogFragment$a;
+.class public final Lkik/arcane/chat/fragment/KikGranReportDialogFragment$a;
+.super Lkik/arcane/chat/fragment/KikDialogFragment$a;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikGranReportDialogFragment;
+    value = Lkik/arcane/chat/fragment/KikGranReportDialogFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,11 +20,11 @@
 
     .prologue
     .line 110
-    new-instance v0, Lkik/android/chat/fragment/KikGranReportDialogFragment;
+    new-instance v0, Lkik/arcane/chat/fragment/KikGranReportDialogFragment;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/KikGranReportDialogFragment;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/KikGranReportDialogFragment;-><init>()V
 
-    invoke-direct {p0, v0}, Lkik/android/chat/fragment/KikDialogFragment$a;-><init>(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/fragment/KikDialogFragment$a;-><init>(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 111
     return-void
@@ -32,7 +32,7 @@
 
 
 # virtual methods
-.method public final a(Landroid/view/View;)Lkik/android/chat/fragment/KikDialogFragment$a;
+.method public final a(Landroid/view/View;)Lkik/arcane/chat/fragment/KikDialogFragment$a;
     .locals 2
 
     .prologue
@@ -46,32 +46,32 @@
     throw v0
 .end method
 
-.method public final a(Lkik/android/chat/vm/bd;)Lkik/android/chat/fragment/KikGranReportDialogFragment$a;
+.method public final a(Lkik/arcane/chat/vm/bd;)Lkik/arcane/chat/fragment/KikGranReportDialogFragment$a;
     .locals 1
 
     .prologue
     .line 130
-    iget-object v0, p0, Lkik/android/chat/fragment/KikGranReportDialogFragment$a;->a:Lkik/android/chat/fragment/KikDialogFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikGranReportDialogFragment$a;->a:Lkik/arcane/chat/fragment/KikDialogFragment;
 
-    check-cast v0, Lkik/android/chat/fragment/KikGranReportDialogFragment;
+    check-cast v0, Lkik/arcane/chat/fragment/KikGranReportDialogFragment;
 
-    invoke-static {v0, p1}, Lkik/android/chat/fragment/KikGranReportDialogFragment;->a(Lkik/android/chat/fragment/KikGranReportDialogFragment;Lkik/android/chat/vm/bd;)Lkik/android/chat/vm/bd;
+    invoke-static {v0, p1}, Lkik/arcane/chat/fragment/KikGranReportDialogFragment;->a(Lkik/arcane/chat/fragment/KikGranReportDialogFragment;Lkik/arcane/chat/vm/bd;)Lkik/arcane/chat/vm/bd;
 
     .line 131
     return-object p0
 .end method
 
-.method public final a(Lkik/android/chat/vm/bj;)Lkik/android/chat/fragment/KikGranReportDialogFragment$a;
+.method public final a(Lkik/arcane/chat/vm/bj;)Lkik/arcane/chat/fragment/KikGranReportDialogFragment$a;
     .locals 1
 
     .prologue
     .line 122
-    iget-object v0, p0, Lkik/android/chat/fragment/KikGranReportDialogFragment$a;->a:Lkik/android/chat/fragment/KikDialogFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikGranReportDialogFragment$a;->a:Lkik/arcane/chat/fragment/KikDialogFragment;
 
-    check-cast v0, Lkik/android/chat/fragment/KikGranReportDialogFragment;
+    check-cast v0, Lkik/arcane/chat/fragment/KikGranReportDialogFragment;
 
     .line 124
-    invoke-static {v0, p1}, Lkik/android/chat/fragment/KikGranReportDialogFragment;->a(Lkik/android/chat/fragment/KikGranReportDialogFragment;Lkik/android/chat/vm/bj;)Lkik/android/chat/vm/bj;
+    invoke-static {v0, p1}, Lkik/arcane/chat/fragment/KikGranReportDialogFragment;->a(Lkik/arcane/chat/fragment/KikGranReportDialogFragment;Lkik/arcane/chat/vm/bj;)Lkik/arcane/chat/vm/bj;
 
     .line 125
     return-object p0

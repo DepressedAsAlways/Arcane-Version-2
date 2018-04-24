@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/activity/KikIqActivityBase$1;
+.class final Lkik/arcane/chat/activity/KikIqActivityBase$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/activity/KikIqActivityBase;
+    value = Lkik/arcane/chat/activity/KikIqActivityBase;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Landroid/support/v7/app/AlertDialog;
 
-.field final synthetic b:Lkik/android/chat/activity/KikIqActivityBase;
+.field final synthetic b:Lkik/arcane/chat/activity/KikIqActivityBase;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/activity/KikIqActivityBase;Landroid/support/v7/app/AlertDialog;)V
+.method constructor <init>(Lkik/arcane/chat/activity/KikIqActivityBase;Landroid/support/v7/app/AlertDialog;)V
     .locals 0
 
     .prologue
     .line 113
-    iput-object p1, p0, Lkik/android/chat/activity/KikIqActivityBase$1;->b:Lkik/android/chat/activity/KikIqActivityBase;
+    iput-object p1, p0, Lkik/arcane/chat/activity/KikIqActivityBase$1;->b:Lkik/arcane/chat/activity/KikIqActivityBase;
 
-    iput-object p2, p0, Lkik/android/chat/activity/KikIqActivityBase$1;->a:Landroid/support/v7/app/AlertDialog;
+    iput-object p2, p0, Lkik/arcane/chat/activity/KikIqActivityBase$1;->a:Landroid/support/v7/app/AlertDialog;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,7 +45,7 @@
 
     .prologue
     .line 117
-    iget-object v0, p0, Lkik/android/chat/activity/KikIqActivityBase$1;->a:Landroid/support/v7/app/AlertDialog;
+    iget-object v0, p0, Lkik/arcane/chat/activity/KikIqActivityBase$1;->a:Landroid/support/v7/app/AlertDialog;
 
     invoke-virtual {v0}, Landroid/support/v7/app/AlertDialog;->dismiss()V
 

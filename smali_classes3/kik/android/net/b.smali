@@ -1,4 +1,4 @@
-.class public final Lkik/android/net/b;
+.class public final Lkik/arcane/net/b;
 .super Ljava/io/OutputStream;
 .source "SourceFile"
 
@@ -27,7 +27,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/net/b;->d:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/net/b;->d:Lorg/slf4j/b;
 
     return-void
 .end method
@@ -40,10 +40,10 @@
     invoke-direct {p0}, Ljava/io/OutputStream;-><init>()V
 
     .line 20
-    iput-object p1, p0, Lkik/android/net/b;->a:Ljava/io/OutputStream;
+    iput-object p1, p0, Lkik/arcane/net/b;->a:Ljava/io/OutputStream;
 
     .line 21
-    iput-object p2, p0, Lkik/android/net/b;->b:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/net/b;->b:Ljava/lang/String;
 
     .line 22
     new-instance v0, Ljava/lang/StringBuffer;
@@ -52,7 +52,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuffer;-><init>(I)V
 
-    iput-object v0, p0, Lkik/android/net/b;->c:Ljava/lang/StringBuffer;
+    iput-object v0, p0, Lkik/arcane/net/b;->c:Ljava/lang/StringBuffer;
 
     .line 23
     return-void
@@ -69,7 +69,7 @@
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    iget-object v1, p0, Lkik/android/net/b;->b:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/net/b;->b:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -81,7 +81,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/net/b;->c:Ljava/lang/StringBuffer;
+    iget-object v1, p0, Lkik/arcane/net/b;->c:Ljava/lang/StringBuffer;
 
     invoke-virtual {v1}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
 
@@ -90,11 +90,11 @@
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 42
-    iget-object v0, p0, Lkik/android/net/b;->c:Ljava/lang/StringBuffer;
+    iget-object v0, p0, Lkik/arcane/net/b;->c:Ljava/lang/StringBuffer;
 
     const/4 v1, 0x0
 
-    iget-object v2, p0, Lkik/android/net/b;->c:Ljava/lang/StringBuffer;
+    iget-object v2, p0, Lkik/arcane/net/b;->c:Ljava/lang/StringBuffer;
 
     invoke-virtual {v2}, Ljava/lang/StringBuffer;->length()I
 
@@ -119,7 +119,7 @@
     invoke-super {p0}, Ljava/io/OutputStream;->close()V
 
     .line 55
-    iget-object v0, p0, Lkik/android/net/b;->a:Ljava/io/OutputStream;
+    iget-object v0, p0, Lkik/arcane/net/b;->a:Ljava/io/OutputStream;
 
     invoke-virtual {v0}, Ljava/io/OutputStream;->close()V
 
@@ -137,7 +137,7 @@
 
     .prologue
     .line 48
-    iget-object v0, p0, Lkik/android/net/b;->a:Ljava/io/OutputStream;
+    iget-object v0, p0, Lkik/arcane/net/b;->a:Ljava/io/OutputStream;
 
     invoke-virtual {v0}, Ljava/io/OutputStream;->flush()V
 
@@ -155,14 +155,14 @@
 
     .prologue
     .line 28
-    iget-object v0, p0, Lkik/android/net/b;->c:Ljava/lang/StringBuffer;
+    iget-object v0, p0, Lkik/arcane/net/b;->c:Ljava/lang/StringBuffer;
 
     int-to-byte v1, p1
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(I)Ljava/lang/StringBuffer;
 
     .line 29
-    iget-object v0, p0, Lkik/android/net/b;->a:Ljava/io/OutputStream;
+    iget-object v0, p0, Lkik/arcane/net/b;->a:Ljava/io/OutputStream;
 
     invoke-virtual {v0, p1}, Ljava/io/OutputStream;->write(I)V
 
@@ -180,7 +180,7 @@
 
     .prologue
     .line 35
-    iget-object v0, p0, Lkik/android/net/b;->c:Ljava/lang/StringBuffer;
+    iget-object v0, p0, Lkik/arcane/net/b;->c:Ljava/lang/StringBuffer;
 
     new-instance v1, Ljava/lang/String;
 
@@ -191,7 +191,7 @@
     invoke-virtual {v0, v1}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
     .line 36
-    iget-object v0, p0, Lkik/android/net/b;->a:Ljava/io/OutputStream;
+    iget-object v0, p0, Lkik/arcane/net/b;->a:Ljava/io/OutputStream;
 
     invoke-virtual {v0, p1, p2, p3}, Ljava/io/OutputStream;->write([BII)V
 

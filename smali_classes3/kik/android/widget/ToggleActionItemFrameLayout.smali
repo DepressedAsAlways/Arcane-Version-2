@@ -1,14 +1,14 @@
-.class public Lkik/android/widget/ToggleActionItemFrameLayout;
+.class public Lkik/arcane/widget/ToggleActionItemFrameLayout;
 .super Landroid/widget/FrameLayout;
 .source "SourceFile"
 
 
 # instance fields
-.field private a:Lkik/android/e/de;
+.field private a:Lkik/arcane/e/de;
 
 .field private b:Landroid/graphics/drawable/Drawable;
 
-.field private c:Lkik/android/chat/vm/profile/dv;
+.field private c:Lkik/arcane/chat/vm/profile/dv;
 
 
 # direct methods
@@ -22,7 +22,7 @@
     .line 31
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/ToggleActionItemFrameLayout;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/ToggleActionItemFrameLayout;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 32
     return-void
@@ -36,7 +36,7 @@
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 37
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/ToggleActionItemFrameLayout;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/ToggleActionItemFrameLayout;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 38
     return-void
@@ -50,7 +50,7 @@
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 43
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/ToggleActionItemFrameLayout;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/ToggleActionItemFrameLayout;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 44
     return-void
@@ -64,7 +64,7 @@
     invoke-direct {p0, p1, p2, p3, p4}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
     .line 49
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/ToggleActionItemFrameLayout;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/ToggleActionItemFrameLayout;->a(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 50
     return-void
@@ -79,14 +79,14 @@
 
     move-result-object v0
 
-    invoke-static {v0, p0}, Lkik/android/e/de;->a(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Lkik/android/e/de;
+    invoke-static {v0, p0}, Lkik/arcane/e/de;->a(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;)Lkik/arcane/e/de;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/widget/ToggleActionItemFrameLayout;->a:Lkik/android/e/de;
+    iput-object v0, p0, Lkik/arcane/widget/ToggleActionItemFrameLayout;->a:Lkik/arcane/e/de;
 
     .line 55
-    sget-object v0, Lkik/android/R$styleable;->ActionItemFrameLayout:[I
+    sget-object v0, Lkik/arcane/R$styleable;->ActionItemFrameLayout:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -99,17 +99,17 @@
 
     move-result-object v1
 
-    iput-object v1, p0, Lkik/android/widget/ToggleActionItemFrameLayout;->b:Landroid/graphics/drawable/Drawable;
+    iput-object v1, p0, Lkik/arcane/widget/ToggleActionItemFrameLayout;->b:Landroid/graphics/drawable/Drawable;
 
     .line 57
     invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 59
-    iget-object v0, p0, Lkik/android/widget/ToggleActionItemFrameLayout;->a:Lkik/android/e/de;
+    iget-object v0, p0, Lkik/arcane/widget/ToggleActionItemFrameLayout;->a:Lkik/arcane/e/de;
 
-    iget-object v1, p0, Lkik/android/widget/ToggleActionItemFrameLayout;->b:Landroid/graphics/drawable/Drawable;
+    iget-object v1, p0, Lkik/arcane/widget/ToggleActionItemFrameLayout;->b:Landroid/graphics/drawable/Drawable;
 
-    invoke-virtual {v0, v1}, Lkik/android/e/de;->a(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/e/de;->a(Landroid/graphics/drawable/Drawable;)V
 
     .line 60
     return-void
@@ -117,24 +117,24 @@
 
 
 # virtual methods
-.method public final a(Lkik/android/chat/vm/profile/dv;)V
+.method public final a(Lkik/arcane/chat/vm/profile/dv;)V
     .locals 2
 
     .prologue
     .line 64
-    iput-object p1, p0, Lkik/android/widget/ToggleActionItemFrameLayout;->c:Lkik/android/chat/vm/profile/dv;
+    iput-object p1, p0, Lkik/arcane/widget/ToggleActionItemFrameLayout;->c:Lkik/arcane/chat/vm/profile/dv;
 
     .line 65
-    iget-object v0, p0, Lkik/android/widget/ToggleActionItemFrameLayout;->a:Lkik/android/e/de;
+    iget-object v0, p0, Lkik/arcane/widget/ToggleActionItemFrameLayout;->a:Lkik/arcane/e/de;
 
-    iget-object v1, p0, Lkik/android/widget/ToggleActionItemFrameLayout;->c:Lkik/android/chat/vm/profile/dv;
+    iget-object v1, p0, Lkik/arcane/widget/ToggleActionItemFrameLayout;->c:Lkik/arcane/chat/vm/profile/dv;
 
-    invoke-virtual {v0, v1}, Lkik/android/e/de;->a(Lkik/android/chat/vm/profile/dv;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/e/de;->a(Lkik/arcane/chat/vm/profile/dv;)V
 
     .line 66
-    iget-object v0, p0, Lkik/android/widget/ToggleActionItemFrameLayout;->a:Lkik/android/e/de;
+    iget-object v0, p0, Lkik/arcane/widget/ToggleActionItemFrameLayout;->a:Lkik/arcane/e/de;
 
-    invoke-virtual {v0}, Lkik/android/e/de;->executePendingBindings()V
+    invoke-virtual {v0}, Lkik/arcane/e/de;->executePendingBindings()V
 
     .line 67
     return-void

@@ -1,4 +1,4 @@
-.class public final Lkik/android/chat/vm/profile/dj;
+.class public final Lkik/arcane/chat/vm/profile/dj;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -22,11 +22,11 @@
 
     .prologue
     .line 25
-    invoke-static {}, Lkik/android/chat/vm/profile/dn;->a()Ljava/util/Comparator;
+    invoke-static {}, Lkik/arcane/chat/vm/profile/dn;->a()Ljava/util/Comparator;
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/chat/vm/profile/dj;->a:Ljava/util/Comparator;
+    sput-object v0, Lkik/arcane/chat/vm/profile/dj;->a:Ljava/util/Comparator;
 
     return-void
 .end method
@@ -80,7 +80,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -101,7 +101,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -125,7 +125,7 @@
     invoke-direct {v1, v0}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
     .line 85
-    invoke-static {}, Lkik/android/chat/vm/profile/dm;->a()Ljava/util/Comparator;
+    invoke-static {}, Lkik/arcane/chat/vm/profile/dm;->a()Ljava/util/Comparator;
 
     move-result-object v0
 
@@ -161,7 +161,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/br;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -239,7 +239,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->b(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/br;->b(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -302,7 +302,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -327,7 +327,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -355,7 +355,7 @@
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
     .line 51
-    invoke-static {}, Lkik/android/chat/vm/profile/dk;->a()Ljava/util/Comparator;
+    invoke-static {}, Lkik/arcane/chat/vm/profile/dk;->a()Ljava/util/Comparator;
 
     move-result-object v1
 
@@ -399,7 +399,7 @@
 
     .line 59
     :cond_2
-    invoke-static {}, Lkik/android/chat/vm/profile/dl;->a()Lrx/functions/k;
+    invoke-static {}, Lkik/arcane/chat/vm/profile/dl;->a()Lrx/functions/k;
 
     move-result-object v0
 

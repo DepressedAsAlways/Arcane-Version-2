@@ -1,4 +1,4 @@
-.class public Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;
+.class public Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field private a:Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;
+.field private a:Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;
 
 .field private b:Landroid/view/View;
 
@@ -15,7 +15,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;Landroid/view/View;)V
+.method public constructor <init>(Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;Landroid/view/View;)V
     .locals 4
 
     .prologue
@@ -25,7 +25,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 31
-    iput-object p1, p0, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;->a:Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;
+    iput-object p1, p0, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;->a:Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;
 
     .line 34
     const v0, 0x7f1003aa
@@ -40,22 +40,22 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p1, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;->_enteredPhoneNumber:Landroid/widget/TextView;
+    iput-object v0, p1, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;->_enteredPhoneNumber:Landroid/widget/TextView;
 
     .line 35
     const v0, 0x7f1003ab
 
     const-string v1, "field \'_verificationCodeField\'"
 
-    const-class v2, Lkik/android/widget/RobotoEditText;
+    const-class v2, Lkik/arcane/widget/RobotoEditText;
 
     invoke-static {p2, v0, v1, v2}, Lbutterknife/internal/Utils;->findRequiredViewAsType(Landroid/view/View;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/widget/RobotoEditText;
+    check-cast v0, Lkik/arcane/widget/RobotoEditText;
 
-    iput-object v0, p1, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;->_verificationCodeField:Lkik/android/widget/RobotoEditText;
+    iput-object v0, p1, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;->_verificationCodeField:Lkik/arcane/widget/RobotoEditText;
 
     .line 36
     const v0, 0x7f1003ac
@@ -70,7 +70,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p1, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;->_verificationCodeError:Landroid/widget/TextView;
+    iput-object v0, p1, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;->_verificationCodeError:Landroid/widget/TextView;
 
     .line 37
     const-string v0, "field \'_resendCodeField\' and method \'onResendCodeClick\'"
@@ -90,15 +90,15 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p1, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;->_resendCodeField:Landroid/widget/TextView;
+    iput-object v0, p1, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;->_resendCodeField:Landroid/widget/TextView;
 
     .line 39
-    iput-object v1, p0, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;->b:Landroid/view/View;
+    iput-object v1, p0, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;->b:Landroid/view/View;
 
     .line 40
-    new-instance v0, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding$1;
+    new-instance v0, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding$1;
 
-    invoke-direct {v0, p0, p1}, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding$1;-><init>(Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;)V
+    invoke-direct {v0, p0, p1}, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding$1;-><init>(Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;)V
 
     invoke-virtual {v1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -112,12 +112,12 @@
     move-result-object v0
 
     .line 47
-    iput-object v0, p0, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;->c:Landroid/view/View;
+    iput-object v0, p0, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;->c:Landroid/view/View;
 
     .line 48
-    new-instance v1, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding$2;
+    new-instance v1, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding$2;
 
-    invoke-direct {v1, p0, p1}, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding$2;-><init>(Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;)V
+    invoke-direct {v1, p0, p1}, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding$2;-><init>(Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -134,7 +134,7 @@
     const/4 v1, 0x0
 
     .line 59
-    iget-object v0, p0, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;->a:Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;
+    iget-object v0, p0, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;->a:Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;
 
     .line 60
     if-nez v0, :cond_0
@@ -149,35 +149,35 @@
 
     .line 61
     :cond_0
-    iput-object v1, p0, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;->a:Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;
+    iput-object v1, p0, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;->a:Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;
 
     .line 63
-    iput-object v1, v0, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;->_enteredPhoneNumber:Landroid/widget/TextView;
+    iput-object v1, v0, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;->_enteredPhoneNumber:Landroid/widget/TextView;
 
     .line 64
-    iput-object v1, v0, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;->_verificationCodeField:Lkik/android/widget/RobotoEditText;
+    iput-object v1, v0, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;->_verificationCodeField:Lkik/arcane/widget/RobotoEditText;
 
     .line 65
-    iput-object v1, v0, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;->_verificationCodeError:Landroid/widget/TextView;
+    iput-object v1, v0, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;->_verificationCodeError:Landroid/widget/TextView;
 
     .line 66
-    iput-object v1, v0, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;->_resendCodeField:Landroid/widget/TextView;
+    iput-object v1, v0, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl;->_resendCodeField:Landroid/widget/TextView;
 
     .line 68
-    iget-object v0, p0, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;->b:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;->b:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 69
-    iput-object v1, p0, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;->b:Landroid/view/View;
+    iput-object v1, p0, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;->b:Landroid/view/View;
 
     .line 70
-    iget-object v0, p0, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;->c:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;->c:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 71
-    iput-object v1, p0, Lkik/android/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;->c:Landroid/view/View;
+    iput-object v1, p0, Lkik/arcane/chat/view/registration/RegPhoneVerificationEnterCodeViewImpl_ViewBinding;->c:Landroid/view/View;
 
     .line 72
     return-void

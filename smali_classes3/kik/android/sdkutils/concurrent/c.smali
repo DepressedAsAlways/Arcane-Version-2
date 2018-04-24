@@ -1,12 +1,12 @@
-.class public final Lkik/android/sdkutils/concurrent/c;
-.super Lkik/android/sdkutils/concurrent/f;
+.class public final Lkik/arcane/sdkutils/concurrent/c;
+.super Lkik/arcane/sdkutils/concurrent/f;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkik/android/sdkutils/concurrent/f",
+        "Lkik/arcane/sdkutils/concurrent/f",
         "<",
         "Ljava/lang/String;",
         "Lkik/core/datatypes/l;",
@@ -25,10 +25,10 @@
 
     .prologue
     .line 20
-    invoke-direct {p0, p1}, Lkik/android/sdkutils/concurrent/f;-><init>(Ljava/lang/Object;)V
+    invoke-direct {p0, p1}, Lkik/arcane/sdkutils/concurrent/f;-><init>(Ljava/lang/Object;)V
 
     .line 21
-    iput-object p2, p0, Lkik/android/sdkutils/concurrent/c;->a:Lkik/core/interfaces/v;
+    iput-object p2, p0, Lkik/arcane/sdkutils/concurrent/c;->a:Lkik/core/interfaces/v;
 
     .line 22
     return-void
@@ -50,9 +50,9 @@
 
     .prologue
     .line 27
-    iget-object v1, p0, Lkik/android/sdkutils/concurrent/c;->a:Lkik/core/interfaces/v;
+    iget-object v1, p0, Lkik/arcane/sdkutils/concurrent/c;->a:Lkik/core/interfaces/v;
 
-    iget-object v0, p0, Lkik/android/sdkutils/concurrent/c;->c:Ljava/lang/Object;
+    iget-object v0, p0, Lkik/arcane/sdkutils/concurrent/c;->c:Ljava/lang/Object;
 
     check-cast v0, Ljava/lang/String;
 
@@ -68,24 +68,24 @@
 
     invoke-direct {v1}, Lcom/kik/events/Promise;-><init>()V
 
-    iput-object v1, p0, Lkik/android/sdkutils/concurrent/c;->b:Lcom/kik/events/Promise;
+    iput-object v1, p0, Lkik/arcane/sdkutils/concurrent/c;->b:Lcom/kik/events/Promise;
 
     .line 30
-    iget-object v1, p0, Lkik/android/sdkutils/concurrent/c;->b:Lcom/kik/events/Promise;
+    iget-object v1, p0, Lkik/arcane/sdkutils/concurrent/c;->b:Lcom/kik/events/Promise;
 
     invoke-virtual {v1, v0}, Lcom/kik/events/Promise;->a(Ljava/lang/Object;)V
 
     .line 36
     :goto_0
-    iget-object v0, p0, Lkik/android/sdkutils/concurrent/c;->b:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/sdkutils/concurrent/c;->b:Lcom/kik/events/Promise;
 
     return-object v0
 
     .line 33
     :cond_0
-    iget-object v1, p0, Lkik/android/sdkutils/concurrent/c;->a:Lkik/core/interfaces/v;
+    iget-object v1, p0, Lkik/arcane/sdkutils/concurrent/c;->a:Lkik/core/interfaces/v;
 
-    iget-object v0, p0, Lkik/android/sdkutils/concurrent/c;->c:Ljava/lang/Object;
+    iget-object v0, p0, Lkik/arcane/sdkutils/concurrent/c;->c:Ljava/lang/Object;
 
     check-cast v0, Ljava/lang/String;
 
@@ -93,7 +93,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/sdkutils/concurrent/c;->b:Lcom/kik/events/Promise;
+    iput-object v0, p0, Lkik/arcane/sdkutils/concurrent/c;->b:Lcom/kik/events/Promise;
 
     goto :goto_0
 .end method
@@ -108,7 +108,7 @@
 
     .prologue
     .line 14
-    invoke-virtual {p0}, Lkik/android/sdkutils/concurrent/c;->a()Lcom/kik/events/Promise;
+    invoke-virtual {p0}, Lkik/arcane/sdkutils/concurrent/c;->a()Lcom/kik/events/Promise;
 
     move-result-object v0
 

@@ -13,7 +13,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/util/aj;)V
+.method public constructor <init>(Lkik/arcane/util/aj;)V
     .locals 5
 
     .prologue
@@ -25,7 +25,7 @@
     .line 30
     const-string v0, "Kik.Storage.ContentStorage.Pref"
 
-    invoke-interface {p1, v0}, Lkik/android/util/aj;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
+    invoke-interface {p1, v0}, Lkik/arcane/util/aj;->a(Ljava/lang/String;)Landroid/content/SharedPreferences;
 
     move-result-object v0
 

@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/KikIqFragmentBase$3;
+.class final Lkik/arcane/chat/fragment/KikIqFragmentBase$3;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/KikIqFragmentBase;->stanzaStateChanged(Lkik/core/net/outgoing/j;I)V
+    value = Lkik/arcane/chat/fragment/KikIqFragmentBase;->stanzaStateChanged(Lkik/core/net/outgoing/j;I)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikIqFragmentBase;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikIqFragmentBase;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikIqFragmentBase;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikIqFragmentBase;)V
     .locals 0
 
     .prologue
     .line 211
-    iput-object p1, p0, Lkik/android/chat/fragment/KikIqFragmentBase$3;->a:Lkik/android/chat/fragment/KikIqFragmentBase;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikIqFragmentBase$3;->a:Lkik/arcane/chat/fragment/KikIqFragmentBase;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,9 +41,9 @@
 
     .prologue
     .line 215
-    iget-object v0, p0, Lkik/android/chat/fragment/KikIqFragmentBase$3;->a:Lkik/android/chat/fragment/KikIqFragmentBase;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikIqFragmentBase$3;->a:Lkik/arcane/chat/fragment/KikIqFragmentBase;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikIqFragmentBase;->showErrorHelper()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->showErrorHelper()V
 
     .line 216
     return-void

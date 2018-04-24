@@ -45,7 +45,7 @@
 
     check-cast p1, Landroid/graphics/Bitmap;
 
-    invoke-static {p1}, Lkik/android/util/h;->b(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
+    invoke-static {p1}, Lkik/arcane/util/h;->b(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 

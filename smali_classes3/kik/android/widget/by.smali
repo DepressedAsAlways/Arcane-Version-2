@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/widget/by;
+.class final synthetic Lkik/arcane/widget/by;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -8,28 +8,28 @@
 # instance fields
 .field private final a:Landroid/content/Context;
 
-.field private final b:Lkik/android/chat/fragment/KikScopedDialogFragment;
+.field private final b:Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
 
 # direct methods
-.method private constructor <init>(Landroid/content/Context;Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+.method private constructor <init>(Landroid/content/Context;Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/widget/by;->a:Landroid/content/Context;
+    iput-object p1, p0, Lkik/arcane/widget/by;->a:Landroid/content/Context;
 
-    iput-object p2, p0, Lkik/android/widget/by;->b:Lkik/android/chat/fragment/KikScopedDialogFragment;
+    iput-object p2, p0, Lkik/arcane/widget/by;->b:Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     return-void
 .end method
 
-.method public static a(Landroid/content/Context;Lkik/android/chat/fragment/KikScopedDialogFragment;)Landroid/view/View$OnClickListener;
+.method public static a(Landroid/content/Context;Lkik/arcane/chat/fragment/KikScopedDialogFragment;)Landroid/view/View$OnClickListener;
     .locals 1
 
-    new-instance v0, Lkik/android/widget/by;
+    new-instance v0, Lkik/arcane/widget/by;
 
-    invoke-direct {v0, p0, p1}, Lkik/android/widget/by;-><init>(Landroid/content/Context;Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+    invoke-direct {v0, p0, p1}, Lkik/arcane/widget/by;-><init>(Landroid/content/Context;Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
 
     return-object v0
 .end method
@@ -39,11 +39,11 @@
 .method public final onClick(Landroid/view/View;)V
     .locals 2
 
-    iget-object v0, p0, Lkik/android/widget/by;->a:Landroid/content/Context;
+    iget-object v0, p0, Lkik/arcane/widget/by;->a:Landroid/content/Context;
 
-    iget-object v1, p0, Lkik/android/widget/by;->b:Lkik/android/chat/fragment/KikScopedDialogFragment;
+    iget-object v1, p0, Lkik/arcane/widget/by;->b:Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
-    invoke-static {v0, v1}, Lkik/android/widget/bx;->e(Landroid/content/Context;Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+    invoke-static {v0, v1}, Lkik/arcane/widget/bx;->e(Landroid/content/Context;Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
 
     return-void
 .end method

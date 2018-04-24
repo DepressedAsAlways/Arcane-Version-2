@@ -1,11 +1,11 @@
-.class final Lkik/android/scan/a/c$b;
-.super Lkik/android/scan/a/c;
+.class final Lkik/arcane/scan/a/c$b;
+.super Lkik/arcane/scan/a/c;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/scan/a/c;
+    value = Lkik/arcane/scan/a/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,10 +24,10 @@
 
     .prologue
     .line 124
-    invoke-direct {p0}, Lkik/android/scan/a/c;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/scan/a/c;-><init>()V
 
     .line 125
-    iput-object p1, p0, Lkik/android/scan/a/c$b;->a:Lcom/kik/scan/GroupKikCode;
+    iput-object p1, p0, Lkik/arcane/scan/a/c$b;->a:Lcom/kik/scan/GroupKikCode;
 
     .line 126
     return-void
@@ -43,12 +43,12 @@
     const/4 v0, 0x0
 
     .line 133
-    iget-object v1, p0, Lkik/android/scan/a/c$b;->a:Lcom/kik/scan/GroupKikCode;
+    iget-object v1, p0, Lkik/arcane/scan/a/c$b;->a:Lcom/kik/scan/GroupKikCode;
 
     if-eqz v1, :cond_0
 
     .line 134
-    iget-object v0, p0, Lkik/android/scan/a/c$b;->a:Lcom/kik/scan/GroupKikCode;
+    iget-object v0, p0, Lkik/arcane/scan/a/c$b;->a:Lcom/kik/scan/GroupKikCode;
 
     invoke-virtual {v0}, Lcom/kik/scan/GroupKikCode;->encode()[B
 
@@ -73,7 +73,7 @@
 
     .prologue
     .line 147
-    iget-object v0, p0, Lkik/android/scan/a/c$b;->a:Lcom/kik/scan/GroupKikCode;
+    iget-object v0, p0, Lkik/arcane/scan/a/c$b;->a:Lcom/kik/scan/GroupKikCode;
 
     if-nez v0, :cond_0
 
@@ -83,7 +83,7 @@
     return-object v0
 
     :cond_0
-    iget-object v0, p0, Lkik/android/scan/a/c$b;->a:Lcom/kik/scan/GroupKikCode;
+    iget-object v0, p0, Lkik/arcane/scan/a/c$b;->a:Lcom/kik/scan/GroupKikCode;
 
     invoke-virtual {v0}, Lcom/kik/scan/GroupKikCode;->getInviteCode()[B
 

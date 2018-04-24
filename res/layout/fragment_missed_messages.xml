@@ -12,10 +12,10 @@
             <ImageView android:id="@id/button_clear" android:background="?selectableItemBackgroundBorderless" android:layout_width="@dimen/native_topbar_height" android:layout_height="fill_parent" android:src="@drawable/ic_trash" android:scaleType="centerInside" />
         </LinearLayout>
         <include layout="@layout/navbar_underline" />
-        <kik.android.widget.TransparentListView android:id="@id/conversation_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:smoothScrollbar="true" style="@style/KikListView" />
+        <kik.arcane.widget.TransparentListView android:id="@id/conversation_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:smoothScrollbar="true" style="@style/KikListView" />
         <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <kik.android.widget.RobotoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_no_new_chats" style="@style/KikTextView.EmptyState.Title" />
-            <kik.android.widget.RobotoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_chats_new_people" style="@style/KikTextView.EmptyState.Description" />
+            <kik.arcane.widget.RobotoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_no_new_chats" style="@style/KikTextView.EmptyState.Title" />
+            <kik.arcane.widget.RobotoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_chats_new_people" style="@style/KikTextView.EmptyState.Description" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

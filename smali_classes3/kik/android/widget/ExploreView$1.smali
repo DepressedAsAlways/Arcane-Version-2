@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/ExploreView$1;
+.class final Lkik/arcane/widget/ExploreView$1;
 .super Landroid/animation/AnimatorListenerAdapter;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/ExploreView;
+    value = Lkik/arcane/widget/ExploreView;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/widget/ExploreView;
+.field final synthetic a:Lkik/arcane/widget/ExploreView;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/ExploreView;)V
+.method constructor <init>(Lkik/arcane/widget/ExploreView;)V
     .locals 0
 
     .prologue
     .line 273
-    iput-object p1, p0, Lkik/android/widget/ExploreView$1;->a:Lkik/android/widget/ExploreView;
+    iput-object p1, p0, Lkik/arcane/widget/ExploreView$1;->a:Lkik/arcane/widget/ExploreView;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
@@ -38,11 +38,11 @@
 
     .prologue
     .line 277
-    iget-object v0, p0, Lkik/android/widget/ExploreView$1;->a:Lkik/android/widget/ExploreView;
+    iget-object v0, p0, Lkik/arcane/widget/ExploreView$1;->a:Lkik/arcane/widget/ExploreView;
 
     const/16 v1, 0x8
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/ExploreView;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/ExploreView;->setVisibility(I)V
 
     .line 278
     return-void

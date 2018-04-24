@@ -1,5 +1,5 @@
-.class public Lkik/android/c/n;
-.super Lkik/android/c/b;
+.class public Lkik/arcane/c/n;
+.super Lkik/arcane/c/b;
 .source "SourceFile"
 
 # interfaces
@@ -19,30 +19,30 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/view/SurfaceView;Landroid/os/Handler;Lkik/android/c/b$c;)V
+.method public constructor <init>(Landroid/view/SurfaceView;Landroid/os/Handler;Lkik/arcane/c/b$c;)V
     .locals 1
 
     .prologue
     .line 28
-    invoke-direct {p0}, Lkik/android/c/b;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/c/b;-><init>()V
 
     .line 22
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/c/n;->f:Z
+    iput-boolean v0, p0, Lkik/arcane/c/n;->f:Z
 
     .line 66
-    new-instance v0, Lkik/android/c/n$1;
+    new-instance v0, Lkik/arcane/c/n$1;
 
-    invoke-direct {v0, p0}, Lkik/android/c/n$1;-><init>(Lkik/android/c/n;)V
+    invoke-direct {v0, p0}, Lkik/arcane/c/n$1;-><init>(Lkik/arcane/c/n;)V
 
-    iput-object v0, p0, Lkik/android/c/n;->i:Ljava/lang/Runnable;
+    iput-object v0, p0, Lkik/arcane/c/n;->i:Ljava/lang/Runnable;
 
     .line 29
-    iput-object p1, p0, Lkik/android/c/n;->e:Landroid/view/SurfaceView;
+    iput-object p1, p0, Lkik/arcane/c/n;->e:Landroid/view/SurfaceView;
 
     .line 30
-    iget-object v0, p0, Lkik/android/c/n;->e:Landroid/view/SurfaceView;
+    iget-object v0, p0, Lkik/arcane/c/n;->e:Landroid/view/SurfaceView;
 
     invoke-virtual {v0}, Landroid/view/SurfaceView;->getHolder()Landroid/view/SurfaceHolder;
 
@@ -51,31 +51,31 @@
     invoke-interface {v0, p0}, Landroid/view/SurfaceHolder;->addCallback(Landroid/view/SurfaceHolder$Callback;)V
 
     .line 31
-    iput-object p2, p0, Lkik/android/c/n;->h:Landroid/os/Handler;
+    iput-object p2, p0, Lkik/arcane/c/n;->h:Landroid/os/Handler;
 
     .line 32
-    iput-object p3, p0, Lkik/android/c/n;->b:Lkik/android/c/b$c;
+    iput-object p3, p0, Lkik/arcane/c/n;->b:Lkik/arcane/c/b$c;
 
     .line 33
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/c/n;)Landroid/hardware/Camera;
+.method static synthetic a(Lkik/arcane/c/n;)Landroid/hardware/Camera;
     .locals 1
 
     .prologue
     .line 19
-    iget-object v0, p0, Lkik/android/c/n;->g:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/n;->g:Landroid/hardware/Camera;
 
     return-object v0
 .end method
 
-.method static synthetic b(Lkik/android/c/n;)Landroid/view/SurfaceView;
+.method static synthetic b(Lkik/arcane/c/n;)Landroid/view/SurfaceView;
     .locals 1
 
     .prologue
     .line 19
-    iget-object v0, p0, Lkik/android/c/n;->e:Landroid/view/SurfaceView;
+    iget-object v0, p0, Lkik/arcane/c/n;->e:Landroid/view/SurfaceView;
 
     return-object v0
 .end method
@@ -87,22 +87,22 @@
 
     .prologue
     .line 108
-    invoke-super {p0, p1}, Lkik/android/c/b;->a(Landroid/hardware/Camera;)V
+    invoke-super {p0, p1}, Lkik/arcane/c/b;->a(Landroid/hardware/Camera;)V
 
     .line 109
-    iput-object p1, p0, Lkik/android/c/n;->g:Landroid/hardware/Camera;
+    iput-object p1, p0, Lkik/arcane/c/n;->g:Landroid/hardware/Camera;
 
     .line 110
-    iget-object v0, p0, Lkik/android/c/n;->h:Landroid/os/Handler;
+    iget-object v0, p0, Lkik/arcane/c/n;->h:Landroid/os/Handler;
 
-    iget-object v1, p0, Lkik/android/c/n;->i:Ljava/lang/Runnable;
+    iget-object v1, p0, Lkik/arcane/c/n;->i:Ljava/lang/Runnable;
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
     .line 111
-    iget-object v0, p0, Lkik/android/c/n;->h:Landroid/os/Handler;
+    iget-object v0, p0, Lkik/arcane/c/n;->h:Landroid/os/Handler;
 
-    iget-object v1, p0, Lkik/android/c/n;->i:Ljava/lang/Runnable;
+    iget-object v1, p0, Lkik/arcane/c/n;->i:Ljava/lang/Runnable;
 
     const-wide/16 v2, 0x64
 
@@ -117,7 +117,7 @@
 
     .prologue
     .line 38
-    iget-boolean v0, p0, Lkik/android/c/n;->f:Z
+    iget-boolean v0, p0, Lkik/arcane/c/n;->f:Z
 
     return v0
 .end method
@@ -129,7 +129,7 @@
     .line 123
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lkik/android/c/n;->g:Landroid/hardware/Camera;
+    iput-object v0, p0, Lkik/arcane/c/n;->g:Landroid/hardware/Camera;
 
     .line 124
     return-void
@@ -140,7 +140,7 @@
 
     .prologue
     .line 117
-    iget-object v0, p0, Lkik/android/c/n;->g:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/n;->g:Landroid/hardware/Camera;
 
     return-object v0
 .end method
@@ -150,11 +150,11 @@
 
     .prologue
     .line 128
-    iget-object v0, p0, Lkik/android/c/n;->e:Landroid/view/SurfaceView;
+    iget-object v0, p0, Lkik/arcane/c/n;->e:Landroid/view/SurfaceView;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/c/n;->e:Landroid/view/SurfaceView;
+    iget-object v0, p0, Lkik/arcane/c/n;->e:Landroid/view/SurfaceView;
 
     invoke-virtual {v0}, Landroid/view/SurfaceView;->getHolder()Landroid/view/SurfaceHolder;
 
@@ -163,7 +163,7 @@
     if-eqz v0, :cond_0
 
     .line 129
-    iget-object v0, p0, Lkik/android/c/n;->e:Landroid/view/SurfaceView;
+    iget-object v0, p0, Lkik/arcane/c/n;->e:Landroid/view/SurfaceView;
 
     invoke-virtual {v0}, Landroid/view/SurfaceView;->getHolder()Landroid/view/SurfaceHolder;
 
@@ -188,9 +188,9 @@
 
     .prologue
     .line 54
-    iget-object v0, p0, Lkik/android/c/n;->g:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/n;->g:Landroid/hardware/Camera;
 
-    invoke-virtual {p0, v0}, Lkik/android/c/n;->a(Landroid/hardware/Camera;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/c/n;->a(Landroid/hardware/Camera;)V
 
     .line 55
     return-void
@@ -203,12 +203,12 @@
     .line 44
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/c/n;->f:Z
+    iput-boolean v0, p0, Lkik/arcane/c/n;->f:Z
 
     .line 45
-    iget-object v0, p0, Lkik/android/c/n;->g:Landroid/hardware/Camera;
+    iget-object v0, p0, Lkik/arcane/c/n;->g:Landroid/hardware/Camera;
 
-    invoke-virtual {p0, v0}, Lkik/android/c/n;->a(Landroid/hardware/Camera;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/c/n;->a(Landroid/hardware/Camera;)V
 
     .line 46
     const/16 v0, 0xe
@@ -220,9 +220,9 @@
     if-eqz v0, :cond_0
 
     .line 47
-    iget-object v0, p0, Lkik/android/c/n;->e:Landroid/view/SurfaceView;
+    iget-object v0, p0, Lkik/arcane/c/n;->e:Landroid/view/SurfaceView;
 
-    iget-object v1, p0, Lkik/android/c/n;->a:Landroid/view/View$OnTouchListener;
+    iget-object v1, p0, Lkik/arcane/c/n;->a:Landroid/view/View$OnTouchListener;
 
     invoke-virtual {v0, v1}, Landroid/view/SurfaceView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
@@ -238,17 +238,17 @@
     .line 60
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/c/n;->f:Z
+    iput-boolean v0, p0, Lkik/arcane/c/n;->f:Z
 
     .line 61
-    iget-object v0, p0, Lkik/android/c/n;->b:Lkik/android/c/b$c;
+    iget-object v0, p0, Lkik/arcane/c/n;->b:Lkik/arcane/c/b$c;
 
     if-eqz v0, :cond_0
 
     .line 62
-    iget-object v0, p0, Lkik/android/c/n;->b:Lkik/android/c/b$c;
+    iget-object v0, p0, Lkik/arcane/c/n;->b:Lkik/arcane/c/b$c;
 
-    invoke-virtual {v0}, Lkik/android/c/b$c;->a()V
+    invoke-virtual {v0}, Lkik/arcane/c/b$c;->a()V
 
     .line 64
     :cond_0

@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/widget/m;
+.class final synthetic Lkik/arcane/widget/m;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/widget/BubbleFramelayout;
+.field private final a:Lkik/arcane/widget/BubbleFramelayout;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/widget/BubbleFramelayout;)V
+.method private constructor <init>(Lkik/arcane/widget/BubbleFramelayout;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/widget/m;->a:Lkik/android/widget/BubbleFramelayout;
+    iput-object p1, p0, Lkik/arcane/widget/m;->a:Lkik/arcane/widget/BubbleFramelayout;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/BubbleFramelayout;)Lrx/functions/b;
+.method public static a(Lkik/arcane/widget/BubbleFramelayout;)Lrx/functions/b;
     .locals 1
 
-    new-instance v0, Lkik/android/widget/m;
+    new-instance v0, Lkik/arcane/widget/m;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/m;-><init>(Lkik/android/widget/BubbleFramelayout;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/m;-><init>(Lkik/arcane/widget/BubbleFramelayout;)V
 
     return-object v0
 .end method
@@ -35,7 +35,7 @@
 .method public final call(Ljava/lang/Object;)V
     .locals 2
 
-    iget-object v0, p0, Lkik/android/widget/m;->a:Lkik/android/widget/BubbleFramelayout;
+    iget-object v0, p0, Lkik/arcane/widget/m;->a:Lkik/arcane/widget/BubbleFramelayout;
 
     check-cast p1, Ljava/lang/Boolean;
 
@@ -43,7 +43,7 @@
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lkik/android/widget/BubbleFramelayout;->e(Z)V
+    invoke-virtual {v0, v1}, Lkik/arcane/widget/BubbleFramelayout;->e(Z)V
 
     return-void
 .end method

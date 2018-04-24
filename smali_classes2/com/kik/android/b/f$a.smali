@@ -1,4 +1,4 @@
-.class public final Lcom/kik/android/b/f$a;
+.class public final Lcom/kik/arcane/b/f$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/kik/android/b/f;
+    value = Lcom/kik/arcane/b/f;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -21,7 +21,7 @@
         "Ljava/lang/Object;",
         "Ljava/util/Comparator",
         "<",
-        "Lcom/kik/android/b/f;",
+        "Lcom/kik/arcane/b/f;",
         ">;"
     }
 .end annotation
@@ -49,9 +49,9 @@
     const/4 v1, -0x1
 
     .line 135
-    check-cast p1, Lcom/kik/android/b/f;
+    check-cast p1, Lcom/kik/arcane/b/f;
 
-    check-cast p2, Lcom/kik/android/b/f;
+    check-cast p2, Lcom/kik/arcane/b/f;
 
     .line 1141
     if-nez p1, :cond_1
@@ -77,11 +77,11 @@
     if-eqz p2, :cond_3
 
     .line 1150
-    invoke-virtual {p1}, Lcom/kik/android/b/f;->i()J
+    invoke-virtual {p1}, Lcom/kik/arcane/b/f;->i()J
 
     move-result-wide v2
 
-    invoke-virtual {p2}, Lcom/kik/android/b/f;->i()J
+    invoke-virtual {p2}, Lcom/kik/arcane/b/f;->i()J
 
     move-result-wide v4
 
@@ -90,11 +90,11 @@
     if-eqz v2, :cond_0
 
     .line 1153
-    invoke-virtual {p1}, Lcom/kik/android/b/f;->i()J
+    invoke-virtual {p1}, Lcom/kik/arcane/b/f;->i()J
 
     move-result-wide v2
 
-    invoke-virtual {p2}, Lcom/kik/android/b/f;->i()J
+    invoke-virtual {p2}, Lcom/kik/arcane/b/f;->i()J
 
     move-result-wide v4
 

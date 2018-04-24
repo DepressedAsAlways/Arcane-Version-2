@@ -42,7 +42,7 @@
 
 
 # virtual methods
-.method public final a(Lkik/android/addressbook/AndroidAddressBookCursorWrapper;Ljava/lang/String;)Lkik/android/addressbook/AndroidAddressBookCursorWrapper;
+.method public final a(Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;Ljava/lang/String;)Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;
     .locals 4
 
     .prologue
@@ -56,7 +56,7 @@
     .line 161
     iget-object v0, p0, Lcom/kik/view/adapters/AbmContactListRecyclerAdapter;->c:Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter;
 
-    invoke-virtual {v0, p1}, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter;->a(Lkik/android/addressbook/AndroidAddressBookCursorWrapper;)Lkik/android/addressbook/AndroidAddressBookCursorWrapper;
+    invoke-virtual {v0, p1}, Lcom/kik/view/adapters/InviteFriendsRecyclerAdapter;->a(Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;)Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;
 
     move-result-object v3
 
@@ -94,7 +94,7 @@
 
     .line 162
     :cond_2
-    invoke-virtual {v3}, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->a()I
+    invoke-virtual {v3}, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->a()I
 
     move-result v0
 
@@ -102,7 +102,7 @@
 
     .line 163
     :cond_3
-    invoke-virtual {p1}, Lkik/android/addressbook/AndroidAddressBookCursorWrapper;->a()I
+    invoke-virtual {p1}, Lkik/arcane/addressbook/AndroidAddressBookCursorWrapper;->a()I
 
     move-result v2
 

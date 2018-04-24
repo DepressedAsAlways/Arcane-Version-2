@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/util/RobotoFontUtils$1;
+.class final synthetic Lkik/arcane/util/RobotoFontUtils$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/RobotoFontUtils;
+    value = Lkik/arcane/util/RobotoFontUtils;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     .prologue
     .line 18
-    invoke-static {}, Lkik/android/util/RobotoFontUtils$Type;->values()[Lkik/android/util/RobotoFontUtils$Type;
+    invoke-static {}, Lkik/arcane/util/RobotoFontUtils$Type;->values()[Lkik/arcane/util/RobotoFontUtils$Type;
 
     move-result-object v0
 
@@ -32,14 +32,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/util/RobotoFontUtils$1;->a:[I
+    sput-object v0, Lkik/arcane/util/RobotoFontUtils$1;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/util/RobotoFontUtils$1;->a:[I
+    sget-object v0, Lkik/arcane/util/RobotoFontUtils$1;->a:[I
 
-    sget-object v1, Lkik/android/util/RobotoFontUtils$Type;->BLACK:Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v1, Lkik/arcane/util/RobotoFontUtils$Type;->BLACK:Lkik/arcane/util/RobotoFontUtils$Type;
 
-    invoke-virtual {v1}, Lkik/android/util/RobotoFontUtils$Type;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/util/RobotoFontUtils$Type;->ordinal()I
 
     move-result v1
 
@@ -51,11 +51,11 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/util/RobotoFontUtils$1;->a:[I
+    sget-object v0, Lkik/arcane/util/RobotoFontUtils$1;->a:[I
 
-    sget-object v1, Lkik/android/util/RobotoFontUtils$Type;->CONDENSED:Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v1, Lkik/arcane/util/RobotoFontUtils$Type;->CONDENSED:Lkik/arcane/util/RobotoFontUtils$Type;
 
-    invoke-virtual {v1}, Lkik/android/util/RobotoFontUtils$Type;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/util/RobotoFontUtils$Type;->ordinal()I
 
     move-result v1
 
@@ -67,11 +67,11 @@
 
     :goto_1
     :try_start_2
-    sget-object v0, Lkik/android/util/RobotoFontUtils$1;->a:[I
+    sget-object v0, Lkik/arcane/util/RobotoFontUtils$1;->a:[I
 
-    sget-object v1, Lkik/android/util/RobotoFontUtils$Type;->LIGHT:Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v1, Lkik/arcane/util/RobotoFontUtils$Type;->LIGHT:Lkik/arcane/util/RobotoFontUtils$Type;
 
-    invoke-virtual {v1}, Lkik/android/util/RobotoFontUtils$Type;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/util/RobotoFontUtils$Type;->ordinal()I
 
     move-result v1
 
@@ -83,11 +83,11 @@
 
     :goto_2
     :try_start_3
-    sget-object v0, Lkik/android/util/RobotoFontUtils$1;->a:[I
+    sget-object v0, Lkik/arcane/util/RobotoFontUtils$1;->a:[I
 
-    sget-object v1, Lkik/android/util/RobotoFontUtils$Type;->MEDIUM:Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v1, Lkik/arcane/util/RobotoFontUtils$Type;->MEDIUM:Lkik/arcane/util/RobotoFontUtils$Type;
 
-    invoke-virtual {v1}, Lkik/android/util/RobotoFontUtils$Type;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/util/RobotoFontUtils$Type;->ordinal()I
 
     move-result v1
 
@@ -99,11 +99,11 @@
 
     :goto_3
     :try_start_4
-    sget-object v0, Lkik/android/util/RobotoFontUtils$1;->a:[I
+    sget-object v0, Lkik/arcane/util/RobotoFontUtils$1;->a:[I
 
-    sget-object v1, Lkik/android/util/RobotoFontUtils$Type;->THIN:Lkik/android/util/RobotoFontUtils$Type;
+    sget-object v1, Lkik/arcane/util/RobotoFontUtils$Type;->THIN:Lkik/arcane/util/RobotoFontUtils$Type;
 
-    invoke-virtual {v1}, Lkik/android/util/RobotoFontUtils$Type;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/util/RobotoFontUtils$Type;->ordinal()I
 
     move-result v1
 

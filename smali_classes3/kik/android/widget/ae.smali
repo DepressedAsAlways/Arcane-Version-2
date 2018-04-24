@@ -1,10 +1,10 @@
-.class public final Lkik/android/widget/ae;
-.super Lcom/kik/android/b/c;
+.class public final Lkik/arcane/widget/ae;
+.super Lcom/kik/arcane/b/c;
 .source "SourceFile"
 
 
 # direct methods
-.method public constructor <init>(Landroid/graphics/drawable/Drawable;Ljava/lang/String;Ljava/lang/String;Lkik/android/f/i;IZ)V
+.method public constructor <init>(Landroid/graphics/drawable/Drawable;Ljava/lang/String;Ljava/lang/String;Lkik/arcane/f/i;IZ)V
     .locals 8
 
     .prologue
@@ -25,7 +25,7 @@
 
     move v6, p6
 
-    invoke-direct/range {v0 .. v7}, Lcom/kik/android/b/c;-><init>(Landroid/graphics/drawable/Drawable;Ljava/lang/String;Ljava/lang/String;Lkik/android/f/i;IZZ)V
+    invoke-direct/range {v0 .. v7}, Lcom/kik/arcane/b/c;-><init>(Landroid/graphics/drawable/Drawable;Ljava/lang/String;Ljava/lang/String;Lkik/arcane/f/i;IZZ)V
 
     .line 38
     return-void
@@ -65,7 +65,7 @@
     if-eq v0, v1, :cond_0
 
     .line 53
-    invoke-super/range {p0 .. p9}, Lcom/kik/android/b/c;->draw(Landroid/graphics/Canvas;Ljava/lang/CharSequence;IIFIIILandroid/graphics/Paint;)V
+    invoke-super/range {p0 .. p9}, Lcom/kik/arcane/b/c;->draw(Landroid/graphics/Canvas;Ljava/lang/CharSequence;IIFIIILandroid/graphics/Paint;)V
 
     .line 56
     :cond_0

@@ -28,7 +28,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -69,7 +69,7 @@
             "(",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;)V"
         }
     .end annotation
@@ -106,7 +106,7 @@
             "(",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;)",
             "Ldagger/b",
             "<",
@@ -153,9 +153,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/Mixpanel;
+    check-cast v0, Lcom/kik/arcane/Mixpanel;
 
-    iput-object v0, p1, Lcom/kik/cards/browser/PreCaptchaDescriptiveDialogFragment;->a:Lcom/kik/android/Mixpanel;
+    iput-object v0, p1, Lcom/kik/cards/browser/PreCaptchaDescriptiveDialogFragment;->a:Lcom/kik/arcane/Mixpanel;
 
     .line 8
     return-void

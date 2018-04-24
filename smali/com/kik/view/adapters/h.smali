@@ -8,7 +8,7 @@
     value = {
         "Lcom/kik/view/adapters/a",
         "<",
-        "Lkik/android/chat/vm/a/e;",
+        "Lkik/arcane/chat/vm/a/e;",
         ">;"
     }
 .end annotation
@@ -17,7 +17,7 @@
 # instance fields
 .field protected final b:Lcom/kik/cache/KikVolleyImageLoader;
 
-.field protected c:Lcom/kik/android/Mixpanel;
+.field protected c:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -34,12 +34,12 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lkik/android/chat/vm/a/b;Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+.method public constructor <init>(Landroid/content/Context;Lkik/arcane/chat/vm/a/b;Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
     .locals 1
 
     .prologue
     .line 35
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/kik/view/adapters/a;-><init>(Landroid/content/Context;Lkik/android/chat/vm/IListViewModel;Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/kik/view/adapters/a;-><init>(Landroid/content/Context;Lkik/arcane/chat/vm/IListViewModel;Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
 
     .line 36
     invoke-interface {p3, p0}, Lcom/kik/components/CoreComponent;->a(Lcom/kik/view/adapters/h;)V
@@ -94,13 +94,13 @@
     check-cast v0, Lcom/kik/view/adapters/g;
 
     .line 54
-    invoke-virtual {p0, p1}, Lcom/kik/view/adapters/h;->a(I)Lkik/android/chat/vm/ay;
+    invoke-virtual {p0, p1}, Lcom/kik/view/adapters/h;->a(I)Lkik/arcane/chat/vm/ay;
 
     move-result-object v1
 
-    check-cast v1, Lkik/android/chat/vm/a/e;
+    check-cast v1, Lkik/arcane/chat/vm/a/e;
 
-    invoke-interface {v1}, Lkik/android/chat/vm/a/e;->b()Lkik/core/datatypes/l;
+    invoke-interface {v1}, Lkik/arcane/chat/vm/a/e;->b()Lkik/core/datatypes/l;
 
     move-result-object v2
 
@@ -148,9 +148,9 @@
 
     iget-object v4, p0, Lcom/kik/view/adapters/h;->d:Lkik/core/interfaces/v;
 
-    iget-object v5, p0, Lcom/kik/view/adapters/h;->c:Lcom/kik/android/Mixpanel;
+    iget-object v5, p0, Lcom/kik/view/adapters/h;->c:Lcom/kik/arcane/Mixpanel;
 
-    invoke-virtual {v1, v2, v3, v4, v5}, Lcom/kik/cache/ContactImageView;->a(Lkik/core/datatypes/l;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/v;Lcom/kik/android/Mixpanel;)V
+    invoke-virtual {v1, v2, v3, v4, v5}, Lcom/kik/cache/ContactImageView;->a(Lkik/core/datatypes/l;Lcom/kik/cache/KikVolleyImageLoader;Lkik/core/interfaces/v;Lcom/kik/arcane/Mixpanel;)V
 
     .line 63
     iget-object v3, v0, Lcom/kik/view/adapters/g;->d:Landroid/widget/ImageView;

@@ -1,12 +1,12 @@
-.class public final Lkik/android/net/http/ContentUploadItem;
-.super Lkik/android/net/http/a;
+.class public final Lkik/arcane/net/http/ContentUploadItem;
+.super Lkik/arcane/net/http/a;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+        Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
     }
 .end annotation
 
@@ -26,7 +26,7 @@
 
 .field private E:Lcom/kik/events/Promise;
 
-.field private F:Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+.field private F:Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
 .field private final c:Ljava/lang/String;
 
@@ -79,7 +79,7 @@
 
 .field private x:Ljava/lang/String;
 
-.field private y:Lcom/kik/android/Mixpanel;
+.field private y:Lcom/kik/arcane/Mixpanel;
 
 .field private z:Lkik/core/net/e;
 
@@ -96,96 +96,96 @@
 
     move-result-object v0
 
-    sput-object v0, Lkik/android/net/http/ContentUploadItem;->w:Lorg/slf4j/b;
+    sput-object v0, Lkik/arcane/net/http/ContentUploadItem;->w:Lorg/slf4j/b;
 
     return-void
 .end method
 
-.method public constructor <init>(Lkik/core/datatypes/messageExtensions/ContentMessage;Ljava/lang/String;Ljava/lang/String;Lcom/kik/android/Mixpanel;Lkik/core/net/e;Lkik/core/interfaces/n;Lkik/core/interfaces/ad;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/z;)V
+.method public constructor <init>(Lkik/core/datatypes/messageExtensions/ContentMessage;Ljava/lang/String;Ljava/lang/String;Lcom/kik/arcane/Mixpanel;Lkik/core/net/e;Lkik/core/interfaces/n;Lkik/core/interfaces/ad;Lkik/core/interfaces/IConversation;Lkik/core/interfaces/z;)V
     .locals 4
 
     .prologue
     const/4 v0, 0x0
 
     .line 96
-    invoke-direct {p0}, Lkik/android/net/http/a;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/net/http/a;-><init>()V
 
     .line 62
-    iput v0, p0, Lkik/android/net/http/ContentUploadItem;->m:I
+    iput v0, p0, Lkik/arcane/net/http/ContentUploadItem;->m:I
 
     .line 65
     const/16 v1, -0x190
 
-    iput v1, p0, Lkik/android/net/http/ContentUploadItem;->n:I
+    iput v1, p0, Lkik/arcane/net/http/ContentUploadItem;->n:I
 
     .line 66
     const/16 v1, -0x1f4
 
-    iput v1, p0, Lkik/android/net/http/ContentUploadItem;->o:I
+    iput v1, p0, Lkik/arcane/net/http/ContentUploadItem;->o:I
 
     .line 67
     const/16 v1, -0x258
 
-    iput v1, p0, Lkik/android/net/http/ContentUploadItem;->p:I
+    iput v1, p0, Lkik/arcane/net/http/ContentUploadItem;->p:I
 
     .line 68
     const/16 v1, -0x2bc
 
-    iput v1, p0, Lkik/android/net/http/ContentUploadItem;->q:I
+    iput v1, p0, Lkik/arcane/net/http/ContentUploadItem;->q:I
 
     .line 69
     const/16 v1, -0x320
 
-    iput v1, p0, Lkik/android/net/http/ContentUploadItem;->r:I
+    iput v1, p0, Lkik/arcane/net/http/ContentUploadItem;->r:I
 
     .line 71
     const-wide/32 v2, 0x96000
 
-    iput-wide v2, p0, Lkik/android/net/http/ContentUploadItem;->s:J
+    iput-wide v2, p0, Lkik/arcane/net/http/ContentUploadItem;->s:J
 
     .line 73
-    iput v0, p0, Lkik/android/net/http/ContentUploadItem;->t:I
+    iput v0, p0, Lkik/arcane/net/http/ContentUploadItem;->t:I
 
     .line 75
     const-wide/16 v2, 0x0
 
-    iput-wide v2, p0, Lkik/android/net/http/ContentUploadItem;->u:J
+    iput-wide v2, p0, Lkik/arcane/net/http/ContentUploadItem;->u:J
 
     .line 77
-    iput v0, p0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iput v0, p0, Lkik/arcane/net/http/ContentUploadItem;->v:I
 
     .line 92
     new-instance v1, Lcom/kik/events/Promise;
 
     invoke-direct {v1}, Lcom/kik/events/Promise;-><init>()V
 
-    iput-object v1, p0, Lkik/android/net/http/ContentUploadItem;->E:Lcom/kik/events/Promise;
+    iput-object v1, p0, Lkik/arcane/net/http/ContentUploadItem;->E:Lcom/kik/events/Promise;
 
     .line 93
-    sget-object v1, Lkik/android/net/http/ContentUploadItem$TranscodeStatus;->PENDING:Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    sget-object v1, Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;->PENDING:Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
-    iput-object v1, p0, Lkik/android/net/http/ContentUploadItem;->F:Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    iput-object v1, p0, Lkik/arcane/net/http/ContentUploadItem;->F:Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
     .line 97
-    iput-object p4, p0, Lkik/android/net/http/ContentUploadItem;->y:Lcom/kik/android/Mixpanel;
+    iput-object p4, p0, Lkik/arcane/net/http/ContentUploadItem;->y:Lcom/kik/arcane/Mixpanel;
 
     .line 98
-    iput-object p1, p0, Lkik/android/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iput-object p1, p0, Lkik/arcane/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     .line 99
-    iput-object p6, p0, Lkik/android/net/http/ContentUploadItem;->A:Lkik/core/interfaces/n;
+    iput-object p6, p0, Lkik/arcane/net/http/ContentUploadItem;->A:Lkik/core/interfaces/n;
 
     .line 100
-    iput-object p5, p0, Lkik/android/net/http/ContentUploadItem;->z:Lkik/core/net/e;
+    iput-object p5, p0, Lkik/arcane/net/http/ContentUploadItem;->z:Lkik/core/net/e;
 
     .line 101
-    iput-object p7, p0, Lkik/android/net/http/ContentUploadItem;->B:Lkik/core/interfaces/ad;
+    iput-object p7, p0, Lkik/arcane/net/http/ContentUploadItem;->B:Lkik/core/interfaces/ad;
 
     .line 102
-    iput-object p9, p0, Lkik/android/net/http/ContentUploadItem;->D:Lkik/core/interfaces/z;
+    iput-object p9, p0, Lkik/arcane/net/http/ContentUploadItem;->D:Lkik/core/interfaces/z;
 
     .line 103
-    iput-object p8, p0, Lkik/android/net/http/ContentUploadItem;->C:Lkik/core/interfaces/IConversation;
+    iput-object p8, p0, Lkik/arcane/net/http/ContentUploadItem;->C:Lkik/core/interfaces/IConversation;
 
     .line 106
     const-string v1, "int-chunk-progress"
@@ -212,28 +212,28 @@
     :cond_0
     int-to-long v0, v0
 
-    iput-wide v0, p0, Lkik/android/net/http/ContentUploadItem;->u:J
+    iput-wide v0, p0, Lkik/arcane/net/http/ContentUploadItem;->u:J
 
     .line 112
     invoke-virtual {p1}, Lkik/core/datatypes/messageExtensions/ContentMessage;->j()Ljava/io/File;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/net/http/ContentUploadItem;->j:Ljava/io/File;
+    iput-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->j:Ljava/io/File;
 
     .line 113
     invoke-virtual {p1}, Lkik/core/datatypes/messageExtensions/ContentMessage;->n()Ljava/lang/String;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/net/http/ContentUploadItem;->c:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->c:Ljava/lang/String;
 
     .line 114
     invoke-virtual {p1}, Lkik/core/datatypes/messageExtensions/ContentMessage;->v()Ljava/lang/String;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/net/http/ContentUploadItem;->d:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->d:Ljava/lang/String;
 
     .line 115
     const-string v0, "file-name"
@@ -242,7 +242,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/net/http/ContentUploadItem;->k:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->k:Ljava/lang/String;
 
     .line 116
     const-string v0, "file-content-type"
@@ -251,49 +251,49 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/net/http/ContentUploadItem;->e:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->e:Ljava/lang/String;
 
     .line 119
-    iput-object p2, p0, Lkik/android/net/http/ContentUploadItem;->f:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/net/http/ContentUploadItem;->f:Ljava/lang/String;
 
     .line 120
-    iput-object p3, p0, Lkik/android/net/http/ContentUploadItem;->g:Ljava/lang/String;
+    iput-object p3, p0, Lkik/arcane/net/http/ContentUploadItem;->g:Ljava/lang/String;
 
     .line 122
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Lkik/android/net/http/ContentUploadItem;->i:Ljava/util/ArrayList;
+    iput-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->i:Ljava/util/ArrayList;
 
     .line 124
-    invoke-direct {p0}, Lkik/android/net/http/ContentUploadItem;->n()V
+    invoke-direct {p0}, Lkik/arcane/net/http/ContentUploadItem;->n()V
 
     .line 125
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/net/http/ContentUploadItem;Ljava/io/File;)Ljava/io/File;
+.method static synthetic a(Lkik/arcane/net/http/ContentUploadItem;Ljava/io/File;)Ljava/io/File;
     .locals 0
 
     .prologue
     .line 48
-    iput-object p1, p0, Lkik/android/net/http/ContentUploadItem;->j:Ljava/io/File;
+    iput-object p1, p0, Lkik/arcane/net/http/ContentUploadItem;->j:Ljava/io/File;
 
     return-object p1
 .end method
 
-.method static synthetic a(Lkik/android/net/http/ContentUploadItem;Ljava/lang/String;)Ljava/lang/String;
+.method static synthetic a(Lkik/arcane/net/http/ContentUploadItem;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
     .prologue
     .line 48
-    iput-object p1, p0, Lkik/android/net/http/ContentUploadItem;->k:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/net/http/ContentUploadItem;->k:Ljava/lang/String;
 
     return-object p1
 .end method
 
-.method private static a(Lkik/android/net/http/c;JJ)Ljava/lang/String;
+.method private static a(Lkik/arcane/net/http/c;JJ)Ljava/lang/String;
     .locals 9
     .annotation system Ldalvik/annotation/Throws;
         value = {
@@ -318,7 +318,7 @@
     new-array v3, v1, [B
 
     .line 543
-    invoke-interface {p0, p1, p2}, Lkik/android/net/http/c;->a(J)V
+    invoke-interface {p0, p1, p2}, Lkik/arcane/net/http/c;->a(J)V
 
     .line 545
     :goto_0
@@ -342,7 +342,7 @@
 
     .line 551
     :goto_1
-    invoke-interface {p0, v3, v0}, Lkik/android/net/http/c;->a([BI)I
+    invoke-interface {p0, v3, v0}, Lkik/arcane/net/http/c;->a([BI)I
 
     move-result v0
 
@@ -392,23 +392,23 @@
     goto :goto_1
 .end method
 
-.method static synthetic a(Lkik/android/net/http/ContentUploadItem;Lkik/android/net/http/ContentUploadItem$TranscodeStatus;)Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+.method static synthetic a(Lkik/arcane/net/http/ContentUploadItem;Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;)Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
     .locals 0
 
     .prologue
     .line 48
-    iput-object p1, p0, Lkik/android/net/http/ContentUploadItem;->F:Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    iput-object p1, p0, Lkik/arcane/net/http/ContentUploadItem;->F:Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
     return-object p1
 .end method
 
-.method static synthetic a(Lkik/android/net/http/ContentUploadItem;)Z
+.method static synthetic a(Lkik/arcane/net/http/ContentUploadItem;)Z
     .locals 2
 
     .prologue
     .line 48
     .line 2667
-    invoke-direct {p0}, Lkik/android/net/http/ContentUploadItem;->o()Lkik/core/datatypes/Message;
+    invoke-direct {p0}, Lkik/arcane/net/http/ContentUploadItem;->o()Lkik/core/datatypes/Message;
 
     move-result-object v0
 
@@ -416,7 +416,7 @@
     if-eqz v0, :cond_0
 
     .line 2669
-    iget-object v1, p0, Lkik/android/net/http/ContentUploadItem;->B:Lkik/core/interfaces/ad;
+    iget-object v1, p0, Lkik/arcane/net/http/ContentUploadItem;->B:Lkik/core/interfaces/ad;
 
     invoke-interface {v1, v0}, Lkik/core/interfaces/ad;->c(Lkik/core/datatypes/Message;)Z
 
@@ -434,32 +434,32 @@
     goto :goto_0
 .end method
 
-.method static synthetic b(Lkik/android/net/http/ContentUploadItem;)Ljava/io/File;
+.method static synthetic b(Lkik/arcane/net/http/ContentUploadItem;)Ljava/io/File;
     .locals 1
 
     .prologue
     .line 48
-    iget-object v0, p0, Lkik/android/net/http/ContentUploadItem;->j:Ljava/io/File;
+    iget-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->j:Ljava/io/File;
 
     return-object v0
 .end method
 
-.method static synthetic c(Lkik/android/net/http/ContentUploadItem;)Lkik/core/datatypes/messageExtensions/ContentMessage;
+.method static synthetic c(Lkik/arcane/net/http/ContentUploadItem;)Lkik/core/datatypes/messageExtensions/ContentMessage;
     .locals 1
 
     .prologue
     .line 48
-    iget-object v0, p0, Lkik/android/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     return-object v0
 .end method
 
-.method static synthetic d(Lkik/android/net/http/ContentUploadItem;)Ljava/util/ArrayList;
+.method static synthetic d(Lkik/arcane/net/http/ContentUploadItem;)Ljava/util/ArrayList;
     .locals 1
 
     .prologue
     .line 48
-    iget-object v0, p0, Lkik/android/net/http/ContentUploadItem;->i:Ljava/util/ArrayList;
+    iget-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->i:Ljava/util/ArrayList;
 
     return-object v0
 .end method
@@ -469,18 +469,18 @@
 
     .prologue
     .line 648
-    iget-object v0, p0, Lkik/android/net/http/ContentUploadItem;->f:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->f:Ljava/lang/String;
 
     if-eqz v0, :cond_2
 
-    iget-object v0, p0, Lkik/android/net/http/ContentUploadItem;->g:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->g:Ljava/lang/String;
 
     if-eqz v0, :cond_2
 
     .line 649
-    iget-object v0, p0, Lkik/android/net/http/ContentUploadItem;->C:Lkik/core/interfaces/IConversation;
+    iget-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->C:Lkik/core/interfaces/IConversation;
 
-    iget-object v1, p0, Lkik/android/net/http/ContentUploadItem;->f:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/net/http/ContentUploadItem;->f:Ljava/lang/String;
 
     invoke-interface {v0, v1}, Lkik/core/interfaces/IConversation;->a(Ljava/lang/String;)Lkik/core/datatypes/f;
 
@@ -490,7 +490,7 @@
     if-eqz v0, :cond_2
 
     .line 653
-    iget-object v1, p0, Lkik/android/net/http/ContentUploadItem;->g:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/net/http/ContentUploadItem;->g:Ljava/lang/String;
 
     const-string v2, "int-file-state"
 
@@ -498,7 +498,7 @@
 
     move-result-object v3
 
-    iget-object v4, p0, Lkik/android/net/http/ContentUploadItem;->B:Lkik/core/interfaces/ad;
+    iget-object v4, p0, Lkik/arcane/net/http/ContentUploadItem;->B:Lkik/core/interfaces/ad;
 
     invoke-virtual {v0, v1, v2, v3, v4}, Lkik/core/datatypes/f;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkik/core/interfaces/ad;)Z
 
@@ -507,7 +507,7 @@
     if-nez v0, :cond_0
 
     .line 654
-    iget-object v0, p0, Lkik/android/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     const-string v1, "int-file-state"
 
@@ -519,7 +519,7 @@
 
     .line 656
     :cond_0
-    iget-object v0, p0, Lkik/android/net/http/ContentUploadItem;->i:Ljava/util/ArrayList;
+    iget-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->i:Ljava/util/ArrayList;
 
     invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
@@ -563,12 +563,12 @@
     goto :goto_1
 .end method
 
-.method static synthetic e(Lkik/android/net/http/ContentUploadItem;)I
+.method static synthetic e(Lkik/arcane/net/http/ContentUploadItem;)I
     .locals 1
 
     .prologue
     .line 48
-    iget v0, p0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iget v0, p0, Lkik/arcane/net/http/ContentUploadItem;->v:I
 
     return v0
 .end method
@@ -578,7 +578,7 @@
 
     .prologue
     .line 150
-    iget-object v0, p0, Lkik/android/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v0}, Lkik/core/datatypes/messageExtensions/ContentMessage;->k()Z
 
@@ -587,7 +587,7 @@
     if-eqz v0, :cond_0
 
     .line 152
-    invoke-direct {p0}, Lkik/android/net/http/ContentUploadItem;->o()Lkik/core/datatypes/Message;
+    invoke-direct {p0}, Lkik/arcane/net/http/ContentUploadItem;->o()Lkik/core/datatypes/Message;
 
     move-result-object v0
 
@@ -609,64 +609,64 @@
 
     .line 157
     :cond_1
-    sget-object v0, Lkik/android/net/http/ContentUploadItem$TranscodeStatus;->IN_PROGRESS:Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    sget-object v0, Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;->IN_PROGRESS:Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
-    iput-object v0, p0, Lkik/android/net/http/ContentUploadItem;->F:Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    iput-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->F:Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
     .line 158
-    invoke-static {}, Lkik/android/video/f;->a()Lkik/android/video/f;
+    invoke-static {}, Lkik/arcane/video/f;->a()Lkik/arcane/video/f;
 
     move-result-object v0
 
     .line 159
-    iget-object v1, p0, Lkik/android/net/http/ContentUploadItem;->j:Ljava/io/File;
+    iget-object v1, p0, Lkik/arcane/net/http/ContentUploadItem;->j:Ljava/io/File;
 
     invoke-virtual {v1}, Ljava/io/File;->getPath()Ljava/lang/String;
 
     move-result-object v1
 
     .line 160
-    invoke-static {v1}, Lkik/android/util/aa;->a(Ljava/lang/String;)I
+    invoke-static {v1}, Lkik/arcane/util/aa;->a(Ljava/lang/String;)I
 
     move-result v2
 
     .line 161
-    invoke-static {v1}, Lkik/android/util/bw;->c(Ljava/lang/String;)I
+    invoke-static {v1}, Lkik/arcane/util/bw;->c(Ljava/lang/String;)I
 
     move-result v1
 
     .line 162
-    iget-object v3, p0, Lkik/android/net/http/ContentUploadItem;->j:Ljava/io/File;
+    iget-object v3, p0, Lkik/arcane/net/http/ContentUploadItem;->j:Ljava/io/File;
 
     invoke-virtual {v3}, Ljava/io/File;->getPath()Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-static {v2, v1}, Lkik/android/util/aa;->a(II)I
+    invoke-static {v2, v1}, Lkik/arcane/util/aa;->a(II)I
 
     move-result v1
 
-    iget-object v2, p0, Lkik/android/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v2, p0, Lkik/arcane/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v2}, Lkik/core/datatypes/messageExtensions/ContentMessage;->n()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0, v3, v1, v2}, Lkik/android/video/f;->a(Ljava/lang/String;ILjava/lang/String;)Lcom/kik/events/Promise;
+    invoke-virtual {v0, v3, v1, v2}, Lkik/arcane/video/f;->a(Ljava/lang/String;ILjava/lang/String;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
     .line 163
-    new-instance v1, Lkik/android/net/http/ContentUploadItem$1;
+    new-instance v1, Lkik/arcane/net/http/ContentUploadItem$1;
 
-    invoke-direct {v1, p0}, Lkik/android/net/http/ContentUploadItem$1;-><init>(Lkik/android/net/http/ContentUploadItem;)V
+    invoke-direct {v1, p0}, Lkik/arcane/net/http/ContentUploadItem$1;-><init>(Lkik/arcane/net/http/ContentUploadItem;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
     .line 1643
     const/4 v0, 0x2
 
-    iput v0, p0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iput v0, p0, Lkik/arcane/net/http/ContentUploadItem;->v:I
 
     goto :goto_0
 .end method
@@ -676,22 +676,22 @@
 
     .prologue
     .line 677
-    iget-object v0, p0, Lkik/android/net/http/ContentUploadItem;->f:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->f:Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/net/http/ContentUploadItem;->C:Lkik/core/interfaces/IConversation;
+    iget-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->C:Lkik/core/interfaces/IConversation;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/net/http/ContentUploadItem;->g:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->g:Ljava/lang/String;
 
     if-eqz v0, :cond_0
 
     .line 678
-    iget-object v0, p0, Lkik/android/net/http/ContentUploadItem;->C:Lkik/core/interfaces/IConversation;
+    iget-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->C:Lkik/core/interfaces/IConversation;
 
-    iget-object v1, p0, Lkik/android/net/http/ContentUploadItem;->f:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/net/http/ContentUploadItem;->f:Ljava/lang/String;
 
     invoke-interface {v0, v1}, Lkik/core/interfaces/IConversation;->a(Ljava/lang/String;)Lkik/core/datatypes/f;
 
@@ -701,7 +701,7 @@
     if-eqz v0, :cond_0
 
     .line 680
-    iget-object v1, p0, Lkik/android/net/http/ContentUploadItem;->g:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/net/http/ContentUploadItem;->g:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Lkik/core/datatypes/f;->a(Ljava/lang/String;)Lkik/core/datatypes/Message;
 
@@ -726,7 +726,7 @@
     const/4 v0, 0x0
 
     .line 583
-    iget v1, p0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iget v1, p0, Lkik/arcane/net/http/ContentUploadItem;->v:I
 
     if-nez v1, :cond_0
 
@@ -736,7 +736,7 @@
 
     .line 587
     :cond_0
-    iget-wide v2, p0, Lkik/android/net/http/ContentUploadItem;->l:J
+    iget-wide v2, p0, Lkik/arcane/net/http/ContentUploadItem;->l:J
 
     const-wide/16 v4, 0x0
 
@@ -746,22 +746,22 @@
 
     .line 588
     :goto_1
-    iget v1, p0, Lkik/android/net/http/ContentUploadItem;->m:I
+    iget v1, p0, Lkik/arcane/net/http/ContentUploadItem;->m:I
 
     invoke-static {v1, v0}, Ljava/lang/Math;->max(II)I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/net/http/ContentUploadItem;->m:I
+    iput v0, p0, Lkik/arcane/net/http/ContentUploadItem;->m:I
 
     .line 589
-    iget v0, p0, Lkik/android/net/http/ContentUploadItem;->m:I
+    iget v0, p0, Lkik/arcane/net/http/ContentUploadItem;->m:I
 
     goto :goto_0
 
     .line 587
     :cond_1
-    iget v0, p0, Lkik/android/net/http/ContentUploadItem;->t:I
+    iget v0, p0, Lkik/arcane/net/http/ContentUploadItem;->t:I
 
     int-to-long v0, v0
 
@@ -769,7 +769,7 @@
 
     mul-long/2addr v0, v2
 
-    iget-wide v2, p0, Lkik/android/net/http/ContentUploadItem;->u:J
+    iget-wide v2, p0, Lkik/arcane/net/http/ContentUploadItem;->u:J
 
     add-long/2addr v0, v2
 
@@ -779,7 +779,7 @@
 
     mul-double/2addr v0, v2
 
-    iget-wide v2, p0, Lkik/android/net/http/ContentUploadItem;->l:J
+    iget-wide v2, p0, Lkik/arcane/net/http/ContentUploadItem;->l:J
 
     long-to-double v2, v2
 
@@ -805,7 +805,7 @@
 
     .prologue
     .line 690
-    iget-object v0, p0, Lkik/android/net/http/ContentUploadItem;->i:Ljava/util/ArrayList;
+    iget-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->i:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -849,9 +849,9 @@
 
     .prologue
     .line 597
-    iget-object v0, p0, Lkik/android/net/http/ContentUploadItem;->F:Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    iget-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->F:Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
-    sget-object v1, Lkik/android/net/http/ContentUploadItem$TranscodeStatus;->IN_PROGRESS:Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    sget-object v1, Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;->IN_PROGRESS:Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
     if-ne v0, v1, :cond_0
 
@@ -863,7 +863,7 @@
     return v0
 
     :cond_0
-    iget v0, p0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iget v0, p0, Lkik/arcane/net/http/ContentUploadItem;->v:I
 
     goto :goto_0
 .end method
@@ -880,13 +880,13 @@
     .line 235
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/net/http/ContentUploadItem;->j:Ljava/io/File;
+    iget-object v4, v0, Lkik/arcane/net/http/ContentUploadItem;->j:Ljava/io/File;
 
     if-eqz v4, :cond_0
 
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/net/http/ContentUploadItem;->j:Ljava/io/File;
+    iget-object v4, v0, Lkik/arcane/net/http/ContentUploadItem;->j:Ljava/io/File;
 
     invoke-virtual {v4}, Ljava/io/File;->exists()Z
 
@@ -896,7 +896,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/net/http/ContentUploadItem;->j:Ljava/io/File;
+    iget-object v4, v0, Lkik/arcane/net/http/ContentUploadItem;->j:Ljava/io/File;
 
     invoke-virtual {v4}, Ljava/io/File;->canRead()Z
 
@@ -906,7 +906,7 @@
 
     .line 236
     :cond_0
-    invoke-virtual/range {p0 .. p0}, Lkik/android/net/http/ContentUploadItem;->i()V
+    invoke-virtual/range {p0 .. p0}, Lkik/arcane/net/http/ContentUploadItem;->i()V
 
     .line 237
     const/16 v4, -0x190
@@ -919,9 +919,9 @@
     :cond_1
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/net/http/ContentUploadItem;->F:Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    iget-object v4, v0, Lkik/arcane/net/http/ContentUploadItem;->F:Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
-    sget-object v5, Lkik/android/net/http/ContentUploadItem$TranscodeStatus;->IN_PROGRESS:Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    sget-object v5, Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;->IN_PROGRESS:Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
     if-ne v4, v5, :cond_2
 
@@ -930,7 +930,7 @@
 
     move-object/from16 v0, p0
 
-    iput v4, v0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iput v4, v0, Lkik/arcane/net/http/ContentUploadItem;->v:I
 
     .line 242
     const/16 v4, -0x320
@@ -941,7 +941,7 @@
     :cond_2
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v4, v0, Lkik/arcane/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v4}, Lkik/core/datatypes/messageExtensions/ContentMessage;->k()Z
 
@@ -950,7 +950,7 @@
     if-eqz v4, :cond_3
 
     .line 245
-    invoke-direct/range {p0 .. p0}, Lkik/android/net/http/ContentUploadItem;->n()V
+    invoke-direct/range {p0 .. p0}, Lkik/arcane/net/http/ContentUploadItem;->n()V
 
     .line 246
     const/16 v4, -0x320
@@ -961,15 +961,15 @@
     :cond_3
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/net/http/ContentUploadItem;->F:Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    iget-object v4, v0, Lkik/arcane/net/http/ContentUploadItem;->F:Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
-    sget-object v5, Lkik/android/net/http/ContentUploadItem$TranscodeStatus;->PENDING:Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    sget-object v5, Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;->PENDING:Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
     if-ne v4, v5, :cond_4
 
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v4, v0, Lkik/arcane/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v4}, Lkik/core/datatypes/messageExtensions/ContentMessage;->k()Z
 
@@ -978,7 +978,7 @@
     if-eqz v4, :cond_4
 
     .line 252
-    invoke-direct/range {p0 .. p0}, Lkik/android/net/http/ContentUploadItem;->n()V
+    invoke-direct/range {p0 .. p0}, Lkik/arcane/net/http/ContentUploadItem;->n()V
 
     .line 253
     const/16 v4, -0x320
@@ -988,33 +988,33 @@
     .line 259
     :cond_4
     :try_start_0
-    new-instance v16, Lkik/android/net/http/g;
+    new-instance v16, Lkik/arcane/net/http/g;
 
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/net/http/ContentUploadItem;->j:Ljava/io/File;
+    iget-object v4, v0, Lkik/arcane/net/http/ContentUploadItem;->j:Ljava/io/File;
 
     const-string v5, "r"
 
     move-object/from16 v0, v16
 
-    invoke-direct {v0, v4, v5}, Lkik/android/net/http/g;-><init>(Ljava/io/File;Ljava/lang/String;)V
+    invoke-direct {v0, v4, v5}, Lkik/arcane/net/http/g;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
     .line 262
-    invoke-interface/range {v16 .. v16}, Lkik/android/net/http/c;->b()J
+    invoke-interface/range {v16 .. v16}, Lkik/arcane/net/http/c;->b()J
 
     move-result-wide v4
 
     move-object/from16 v0, p0
 
-    iput-wide v4, v0, Lkik/android/net/http/ContentUploadItem;->l:J
+    iput-wide v4, v0, Lkik/arcane/net/http/ContentUploadItem;->l:J
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 271
     move-object/from16 v0, p0
 
-    iget-wide v4, v0, Lkik/android/net/http/ContentUploadItem;->l:J
+    iget-wide v4, v0, Lkik/arcane/net/http/ContentUploadItem;->l:J
 
     const-wide/32 v6, 0x96000
 
@@ -1023,7 +1023,7 @@
     .line 272
     move-object/from16 v0, p0
 
-    iget-wide v4, v0, Lkik/android/net/http/ContentUploadItem;->l:J
+    iget-wide v4, v0, Lkik/arcane/net/http/ContentUploadItem;->l:J
 
     const-wide/32 v8, 0x96000
 
@@ -1043,7 +1043,7 @@
     .line 274
     move-object/from16 v0, p0
 
-    iget v4, v0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iget v4, v0, Lkik/arcane/net/http/ContentUploadItem;->v:I
 
     const/4 v5, -0x1
 
@@ -1059,14 +1059,14 @@
     move-exception v4
 
     .line 266
-    sget-object v5, Lkik/android/net/http/ContentUploadItem;->w:Lorg/slf4j/b;
+    sget-object v5, Lkik/arcane/net/http/ContentUploadItem;->w:Lorg/slf4j/b;
 
     const-string v6, "Unable to create random access file: "
 
     invoke-interface {v5, v6, v4}, Lorg/slf4j/b;->error(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 267
-    invoke-virtual/range {p0 .. p0}, Lkik/android/net/http/ContentUploadItem;->i()V
+    invoke-virtual/range {p0 .. p0}, Lkik/arcane/net/http/ContentUploadItem;->i()V
 
     .line 268
     const/16 v4, -0x190
@@ -1085,7 +1085,7 @@
 
     move-object/from16 v0, p0
 
-    iput v4, v0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iput v4, v0, Lkik/arcane/net/http/ContentUploadItem;->v:I
 
     .line 280
     new-instance v4, Ljava/lang/StringBuilder;
@@ -1094,7 +1094,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/net/http/ContentUploadItem;->z:Lkik/core/net/e;
+    iget-object v5, v0, Lkik/arcane/net/http/ContentUploadItem;->z:Lkik/core/net/e;
 
     invoke-interface {v5}, Lkik/core/net/e;->g()Ljava/lang/String;
 
@@ -1106,7 +1106,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/net/http/ContentUploadItem;->c:Ljava/lang/String;
+    iget-object v5, v0, Lkik/arcane/net/http/ContentUploadItem;->c:Ljava/lang/String;
 
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1122,13 +1122,13 @@
     .line 283
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/net/http/ContentUploadItem;->k:Ljava/lang/String;
+    iget-object v5, v0, Lkik/arcane/net/http/ContentUploadItem;->k:Ljava/lang/String;
 
     if-eqz v5, :cond_7
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/net/http/ContentUploadItem;->k:Ljava/lang/String;
+    iget-object v5, v0, Lkik/arcane/net/http/ContentUploadItem;->k:Ljava/lang/String;
 
     const-string v6, "."
 
@@ -1141,11 +1141,11 @@
     .line 284
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/net/http/ContentUploadItem;->k:Ljava/lang/String;
+    iget-object v4, v0, Lkik/arcane/net/http/ContentUploadItem;->k:Ljava/lang/String;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/net/http/ContentUploadItem;->k:Ljava/lang/String;
+    iget-object v5, v0, Lkik/arcane/net/http/ContentUploadItem;->k:Ljava/lang/String;
 
     const-string v6, "."
 
@@ -1170,7 +1170,7 @@
     :try_start_1
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/net/http/ContentUploadItem;->B:Lkik/core/interfaces/ad;
+    iget-object v5, v0, Lkik/arcane/net/http/ContentUploadItem;->B:Lkik/core/interfaces/ad;
 
     invoke-static {v5}, Lkik/core/z;->b(Lkik/core/interfaces/ad;)Lkik/core/z;
     :try_end_1
@@ -1183,7 +1183,7 @@
 
     .line 496
     :try_start_2
-    invoke-interface/range {v16 .. v16}, Lkik/android/net/http/c;->a()V
+    invoke-interface/range {v16 .. v16}, Lkik/arcane/net/http/c;->a()V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_1
 
@@ -1200,7 +1200,7 @@
 
     move-object/from16 v0, p0
 
-    iput v4, v0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iput v4, v0, Lkik/arcane/net/http/ContentUploadItem;->v:I
 
     .line 501
     const/4 v4, -0x1
@@ -1212,7 +1212,7 @@
     :try_start_3
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/net/http/ContentUploadItem;->x:Ljava/lang/String;
+    iget-object v5, v0, Lkik/arcane/net/http/ContentUploadItem;->x:Ljava/lang/String;
 
     if-nez v5, :cond_9
 
@@ -1221,17 +1221,17 @@
 
     move-object/from16 v0, p0
 
-    iget-wide v10, v0, Lkik/android/net/http/ContentUploadItem;->l:J
+    iget-wide v10, v0, Lkik/arcane/net/http/ContentUploadItem;->l:J
 
     move-object/from16 v0, v16
 
-    invoke-static {v0, v6, v7, v10, v11}, Lkik/android/net/http/ContentUploadItem;->a(Lkik/android/net/http/c;JJ)Ljava/lang/String;
+    invoke-static {v0, v6, v7, v10, v11}, Lkik/arcane/net/http/ContentUploadItem;->a(Lkik/arcane/net/http/c;JJ)Ljava/lang/String;
 
     move-result-object v5
 
     move-object/from16 v0, p0
 
-    iput-object v5, v0, Lkik/android/net/http/ContentUploadItem;->x:Ljava/lang/String;
+    iput-object v5, v0, Lkik/arcane/net/http/ContentUploadItem;->x:Ljava/lang/String;
 
     .line 314
     :cond_9
@@ -1244,7 +1244,7 @@
     .line 316
     move-object/from16 v0, p0
 
-    iget-wide v6, v0, Lkik/android/net/http/ContentUploadItem;->l:J
+    iget-wide v6, v0, Lkik/arcane/net/http/ContentUploadItem;->l:J
 
     long-to-int v0, v6
 
@@ -1256,7 +1256,7 @@
     .line 320
     move-object/from16 v0, p0
 
-    iget v5, v0, Lkik/android/net/http/ContentUploadItem;->t:I
+    iget v5, v0, Lkik/arcane/net/http/ContentUploadItem;->t:I
 
     move-wide v10, v8
 
@@ -1276,7 +1276,7 @@
 
     move-object/from16 v0, p0
 
-    iput-wide v6, v0, Lkik/android/net/http/ContentUploadItem;->u:J
+    iput-wide v6, v0, Lkik/arcane/net/http/ContentUploadItem;->u:J
 
     .line 323
     const-wide/32 v6, 0x96000
@@ -1288,7 +1288,7 @@
     .line 324
     move-object/from16 v0, p0
 
-    iget-wide v6, v0, Lkik/android/net/http/ContentUploadItem;->l:J
+    iget-wide v6, v0, Lkik/arcane/net/http/ContentUploadItem;->l:J
 
     const-wide/32 v12, 0x96000
 
@@ -1308,9 +1308,9 @@
     const/4 v7, -0x1
 
     .line 328
-    new-instance v6, Lkik/android/net/http/f;
+    new-instance v6, Lkik/arcane/net/http/f;
 
-    invoke-direct {v6}, Lkik/android/net/http/f;-><init>()V
+    invoke-direct {v6}, Lkik/arcane/net/http/f;-><init>()V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
@@ -1318,7 +1318,7 @@
     :try_start_4
     move-object/from16 v0, p0
 
-    iget-object v9, v0, Lkik/android/net/http/ContentUploadItem;->D:Lkik/core/interfaces/z;
+    iget-object v9, v0, Lkik/arcane/net/http/ContentUploadItem;->D:Lkik/core/interfaces/z;
 
     new-instance v12, Ljava/lang/StringBuilder;
 
@@ -1328,7 +1328,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v13, v0, Lkik/android/net/http/ContentUploadItem;->c:Ljava/lang/String;
+    iget-object v13, v0, Lkik/arcane/net/http/ContentUploadItem;->c:Ljava/lang/String;
 
     invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1336,7 +1336,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v13, v0, Lkik/android/net/http/ContentUploadItem;->d:Ljava/lang/String;
+    iget-object v13, v0, Lkik/arcane/net/http/ContentUploadItem;->d:Ljava/lang/String;
 
     invoke-virtual {v12, v13}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1353,21 +1353,21 @@
     .line 332
     move-object/from16 v0, v16
 
-    invoke-interface {v0, v14, v15}, Lkik/android/net/http/c;->a(J)V
+    invoke-interface {v0, v14, v15}, Lkik/arcane/net/http/c;->a(J)V
 
     .line 333
     move-object/from16 v0, v16
 
     move-wide/from16 v1, v26
 
-    invoke-static {v0, v14, v15, v1, v2}, Lkik/android/net/http/ContentUploadItem;->a(Lkik/android/net/http/c;JJ)Ljava/lang/String;
+    invoke-static {v0, v14, v15, v1, v2}, Lkik/arcane/net/http/ContentUploadItem;->a(Lkik/arcane/net/http/c;JJ)Ljava/lang/String;
 
     move-result-object v12
 
     .line 334
     move-object/from16 v0, v16
 
-    invoke-interface {v0, v14, v15}, Lkik/android/net/http/c;->a(J)V
+    invoke-interface {v0, v14, v15}, Lkik/arcane/net/http/c;->a(J)V
 
     .line 336
     sub-long v28, v26, v14
@@ -1381,20 +1381,20 @@
 
     move-object/from16 v0, v25
 
-    invoke-virtual {v6, v13, v0}, Lkik/android/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v13, v0}, Lkik/arcane/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 339
     const-string v13, "User-Agent"
 
     const-string v25, "Content"
 
-    invoke-static/range {v25 .. v25}, Lkik/android/util/DeviceUtils;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static/range {v25 .. v25}, Lkik/arcane/util/DeviceUtils;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v25
 
     move-object/from16 v0, v25
 
-    invoke-virtual {v6, v13, v0}, Lkik/android/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v13, v0}, Lkik/arcane/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 340
     const-string v13, "x-kik-jid"
@@ -1409,7 +1409,7 @@
 
     move-object/from16 v0, v25
 
-    invoke-virtual {v6, v13, v0}, Lkik/android/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v13, v0}, Lkik/arcane/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 341
     const-string v13, "x-kik-password"
@@ -1420,21 +1420,21 @@
 
     move-object/from16 v0, v25
 
-    invoke-virtual {v6, v13, v0}, Lkik/android/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v13, v0}, Lkik/arcane/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 342
     const-string v13, "x-kik-verification"
 
-    invoke-virtual {v6, v13, v9}, Lkik/android/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v13, v9}, Lkik/arcane/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 343
     const-string v9, "x-kik-app-id"
 
     move-object/from16 v0, p0
 
-    iget-object v13, v0, Lkik/android/net/http/ContentUploadItem;->d:Ljava/lang/String;
+    iget-object v13, v0, Lkik/arcane/net/http/ContentUploadItem;->d:Ljava/lang/String;
 
-    invoke-virtual {v6, v9, v13}, Lkik/android/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v9, v13}, Lkik/arcane/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 344
     const-string v9, "x-kik-content-chunks"
@@ -1443,7 +1443,7 @@
 
     move-result-object v13
 
-    invoke-virtual {v6, v9, v13}, Lkik/android/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v9, v13}, Lkik/arcane/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 345
     const-string v9, "x-kik-content-size"
@@ -1458,16 +1458,16 @@
 
     move-result-object v13
 
-    invoke-virtual {v6, v9, v13}, Lkik/android/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v9, v13}, Lkik/arcane/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 346
     const-string v9, "x-kik-content-md5"
 
     move-object/from16 v0, p0
 
-    iget-object v13, v0, Lkik/android/net/http/ContentUploadItem;->x:Ljava/lang/String;
+    iget-object v13, v0, Lkik/arcane/net/http/ContentUploadItem;->x:Ljava/lang/String;
 
-    invoke-virtual {v6, v9, v13}, Lkik/android/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v9, v13}, Lkik/arcane/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 347
     const-string v9, "x-kik-chunk-number"
@@ -1480,17 +1480,17 @@
 
     move-result-object v13
 
-    invoke-virtual {v6, v9, v13}, Lkik/android/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v9, v13}, Lkik/arcane/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 348
     const-string v9, "x-kik-chunk-md5"
 
-    invoke-virtual {v6, v9, v12}, Lkik/android/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v9, v12}, Lkik/arcane/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 351
     move-object/from16 v0, p0
 
-    iget-object v9, v0, Lkik/android/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v9, v0, Lkik/arcane/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     const-string v12, "sha1-original"
 
@@ -1504,13 +1504,13 @@
     .line 353
     const-string v12, "x-kik-sha1-original"
 
-    invoke-virtual {v6, v12, v9}, Lkik/android/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v12, v9}, Lkik/arcane/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 356
     :cond_a
     move-object/from16 v0, p0
 
-    iget-object v9, v0, Lkik/android/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v9, v0, Lkik/arcane/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     const-string v12, "sha1-scaled"
 
@@ -1524,13 +1524,13 @@
     .line 358
     const-string v12, "x-kik-sha1-scaled"
 
-    invoke-virtual {v6, v12, v9}, Lkik/android/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v12, v9}, Lkik/arcane/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 361
     :cond_b
     move-object/from16 v0, p0
 
-    iget-object v9, v0, Lkik/android/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v9, v0, Lkik/arcane/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     const-string v12, "blockhash-scaled"
 
@@ -1544,7 +1544,7 @@
     .line 363
     const-string v12, "x-kik-blockhash-scaled"
 
-    invoke-virtual {v6, v12, v9}, Lkik/android/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v12, v9}, Lkik/arcane/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 366
     :cond_c
@@ -1552,7 +1552,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v12, v0, Lkik/android/net/http/ContentUploadItem;->d:Ljava/lang/String;
+    iget-object v12, v0, Lkik/arcane/net/http/ContentUploadItem;->d:Ljava/lang/String;
 
     invoke-virtual {v9, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1564,7 +1564,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v12, v0, Lkik/android/net/http/ContentUploadItem;->d:Ljava/lang/String;
+    iget-object v12, v0, Lkik/arcane/net/http/ContentUploadItem;->d:Ljava/lang/String;
 
     invoke-virtual {v9, v12}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -1578,7 +1578,7 @@
 
     const-string v12, "video/mp4"
 
-    invoke-virtual {v6, v9, v12}, Lkik/android/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v9, v12}, Lkik/arcane/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 373
     :cond_e
@@ -1588,7 +1588,7 @@
     .line 374
     const-string v9, "x-kik-content-extension"
 
-    invoke-virtual {v6, v9, v4}, Lkik/android/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v9, v4}, Lkik/arcane/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 378
     :cond_f
@@ -1596,7 +1596,7 @@
 
     move-object/from16 v0, v17
 
-    invoke-virtual {v6, v0, v9, v5}, Lkik/android/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;Lkik/android/net/http/f;)V
+    invoke-virtual {v6, v0, v9, v5}, Lkik/arcane/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;Lkik/arcane/net/http/f;)V
 
     .line 379
     const/4 v9, 0x0
@@ -1616,7 +1616,7 @@
 
     move-object/from16 v0, p0
 
-    iget v5, v0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iget v5, v0, Lkik/arcane/net/http/ContentUploadItem;->v:I
 
     const/16 v25, 0x1
 
@@ -1646,7 +1646,7 @@
 
     move-object/from16 v1, v23
 
-    invoke-interface {v0, v1, v5}, Lkik/android/net/http/c;->a([BI)I
+    invoke-interface {v0, v1, v5}, Lkik/arcane/net/http/c;->a([BI)I
 
     move-result v25
 
@@ -1660,7 +1660,7 @@
 
     move/from16 v1, v25
 
-    invoke-virtual {v6, v0, v5, v1}, Lkik/android/net/http/f;->write([BII)V
+    invoke-virtual {v6, v0, v5, v1}, Lkik/arcane/net/http/f;->write([BII)V
 
     .line 390
     move/from16 v0, v25
@@ -1688,7 +1688,7 @@
 
     move-object/from16 v2, p0
 
-    iput-wide v0, v2, Lkik/android/net/http/ContentUploadItem;->u:J
+    iput-wide v0, v2, Lkik/arcane/net/http/ContentUploadItem;->u:J
     :try_end_4
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_2
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
@@ -1720,7 +1720,7 @@
     .line 435
     move-object/from16 v0, p0
 
-    iget-object v8, v0, Lkik/android/net/http/ContentUploadItem;->b:Ljava/util/List;
+    iget-object v8, v0, Lkik/arcane/net/http/ContentUploadItem;->b:Ljava/util/List;
 
     invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1737,7 +1737,7 @@
 
     move-object/from16 v0, p0
 
-    iput v4, v0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iput v4, v0, Lkik/arcane/net/http/ContentUploadItem;->v:I
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_0
 
@@ -1762,7 +1762,7 @@
 
     move-object/from16 v0, p0
 
-    iget v8, v0, Lkik/android/net/http/ContentUploadItem;->t:I
+    iget v8, v0, Lkik/arcane/net/http/ContentUploadItem;->t:I
 
     invoke-virtual {v4, v8}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -1783,7 +1783,7 @@
 
     invoke-direct {v4, v7}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {v6}, Lkik/android/net/http/f;->d()Ljava/lang/String;
+    invoke-virtual {v6}, Lkik/arcane/net/http/f;->d()Ljava/lang/String;
 
     move-result-object v7
 
@@ -1796,7 +1796,7 @@
 
     invoke-direct {v4, v7}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {v6}, Lkik/android/net/http/f;->b()Ljava/lang/String;
+    invoke-virtual {v6}, Lkik/arcane/net/http/f;->b()Ljava/lang/String;
 
     move-result-object v7
 
@@ -1815,7 +1815,7 @@
 
     .line 454
     :try_start_8
-    invoke-virtual {v6}, Lkik/android/net/http/f;->c()V
+    invoke-virtual {v6}, Lkik/arcane/net/http/f;->c()V
 
     .line 456
     :cond_11
@@ -1829,7 +1829,7 @@
 
     .line 496
     :try_start_9
-    invoke-interface/range {v16 .. v16}, Lkik/android/net/http/c;->a()V
+    invoke-interface/range {v16 .. v16}, Lkik/arcane/net/http/c;->a()V
     :try_end_9
     .catch Ljava/io/IOException; {:try_start_9 .. :try_end_9} :catch_9
 
@@ -1841,7 +1841,7 @@
     :try_start_a
     move-object/from16 v0, p0
 
-    iget-object v9, v0, Lkik/android/net/http/ContentUploadItem;->k:Ljava/lang/String;
+    iget-object v9, v0, Lkik/arcane/net/http/ContentUploadItem;->k:Ljava/lang/String;
 
     invoke-static {v9}, Lkik/core/util/u;->a(Ljava/lang/CharSequence;)Z
 
@@ -1851,7 +1851,7 @@
 
     move-object/from16 v0, p0
 
-    iget-object v9, v0, Lkik/android/net/http/ContentUploadItem;->e:Ljava/lang/String;
+    iget-object v9, v0, Lkik/arcane/net/http/ContentUploadItem;->e:Ljava/lang/String;
 
     invoke-static {v9}, Lkik/core/util/u;->a(Ljava/lang/CharSequence;)Z
 
@@ -1864,9 +1864,9 @@
 
     move-object/from16 v0, p0
 
-    iget-object v12, v0, Lkik/android/net/http/ContentUploadItem;->e:Ljava/lang/String;
+    iget-object v12, v0, Lkik/arcane/net/http/ContentUploadItem;->e:Ljava/lang/String;
 
-    invoke-virtual {v6, v9, v12}, Lkik/android/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v9, v12}, Lkik/arcane/net/http/f;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     goto/16 :goto_3
 
@@ -1920,7 +1920,7 @@
     :cond_14
     move-object/from16 v0, p0
 
-    iget v5, v0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iget v5, v0, Lkik/arcane/net/http/ContentUploadItem;->v:I
     :try_end_a
     .catch Ljava/io/IOException; {:try_start_a .. :try_end_a} :catch_2
     .catchall {:try_start_a .. :try_end_a} :catchall_0
@@ -1933,13 +1933,13 @@
 
     .line 454
     :try_start_b
-    invoke-virtual {v6}, Lkik/android/net/http/f;->c()V
+    invoke-virtual {v6}, Lkik/arcane/net/http/f;->c()V
     :try_end_b
     .catchall {:try_start_b .. :try_end_b} :catchall_1
 
     .line 496
     :try_start_c
-    invoke-interface/range {v16 .. v16}, Lkik/android/net/http/c;->a()V
+    invoke-interface/range {v16 .. v16}, Lkik/arcane/net/http/c;->a()V
     :try_end_c
     .catch Ljava/io/IOException; {:try_start_c .. :try_end_c} :catch_3
 
@@ -1956,7 +1956,7 @@
 
     move-object/from16 v0, p0
 
-    iput v4, v0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iput v4, v0, Lkik/arcane/net/http/ContentUploadItem;->v:I
 
     .line 501
     const/4 v4, -0x1
@@ -1966,7 +1966,7 @@
     .line 404
     :cond_15
     :try_start_d
-    invoke-virtual {v6}, Lkik/android/net/http/f;->flush()V
+    invoke-virtual {v6}, Lkik/arcane/net/http/f;->flush()V
 
     .line 406
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -1978,7 +1978,7 @@
     add-long v10, v10, v26
 
     .line 408
-    invoke-virtual {v6}, Lkik/android/net/http/f;->a()I
+    invoke-virtual {v6}, Lkik/arcane/net/http/f;->a()I
     :try_end_d
     .catch Ljava/io/IOException; {:try_start_d .. :try_end_d} :catch_2
     .catchall {:try_start_d .. :try_end_d} :catchall_0
@@ -2000,7 +2000,7 @@
 
     move-object/from16 v0, p0
 
-    iget v7, v0, Lkik/android/net/http/ContentUploadItem;->t:I
+    iget v7, v0, Lkik/arcane/net/http/ContentUploadItem;->t:I
 
     invoke-virtual {v4, v7}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -2015,7 +2015,7 @@
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 412
-    sget-object v4, Lkik/android/net/http/ContentUploadItem;->w:Lorg/slf4j/b;
+    sget-object v4, Lkik/arcane/net/http/ContentUploadItem;->w:Lorg/slf4j/b;
 
     new-instance v7, Ljava/lang/StringBuilder;
 
@@ -2023,7 +2023,7 @@
 
     invoke-direct {v7, v8}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {v6}, Lkik/android/net/http/f;->d()Ljava/lang/String;
+    invoke-virtual {v6}, Lkik/arcane/net/http/f;->d()Ljava/lang/String;
 
     move-result-object v8
 
@@ -2038,7 +2038,7 @@
     invoke-interface {v4, v7}, Lorg/slf4j/b;->error(Ljava/lang/String;)V
 
     .line 413
-    sget-object v4, Lkik/android/net/http/ContentUploadItem;->w:Lorg/slf4j/b;
+    sget-object v4, Lkik/arcane/net/http/ContentUploadItem;->w:Lorg/slf4j/b;
 
     new-instance v7, Ljava/lang/StringBuilder;
 
@@ -2046,7 +2046,7 @@
 
     invoke-direct {v7, v8}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {v6}, Lkik/android/net/http/f;->b()Ljava/lang/String;
+    invoke-virtual {v6}, Lkik/arcane/net/http/f;->b()Ljava/lang/String;
 
     move-result-object v8
 
@@ -2063,7 +2063,7 @@
     .line 414
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/net/http/ContentUploadItem;->b:Ljava/util/List;
+    iget-object v4, v0, Lkik/arcane/net/http/ContentUploadItem;->b:Ljava/util/List;
 
     invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -2076,7 +2076,7 @@
     if-eqz v4, :cond_16
 
     .line 415
-    invoke-virtual/range {p0 .. p0}, Lkik/android/net/http/ContentUploadItem;->j()V
+    invoke-virtual/range {p0 .. p0}, Lkik/arcane/net/http/ContentUploadItem;->j()V
     :try_end_e
     .catch Ljava/io/IOException; {:try_start_e .. :try_end_e} :catch_a
     .catchall {:try_start_e .. :try_end_e} :catchall_0
@@ -2084,13 +2084,13 @@
     .line 454
     :cond_16
     :try_start_f
-    invoke-virtual {v6}, Lkik/android/net/http/f;->c()V
+    invoke-virtual {v6}, Lkik/arcane/net/http/f;->c()V
     :try_end_f
     .catchall {:try_start_f .. :try_end_f} :catchall_1
 
     .line 496
     :try_start_10
-    invoke-interface/range {v16 .. v16}, Lkik/android/net/http/c;->a()V
+    invoke-interface/range {v16 .. v16}, Lkik/arcane/net/http/c;->a()V
     :try_end_10
     .catch Ljava/io/IOException; {:try_start_10 .. :try_end_10} :catch_4
 
@@ -2107,7 +2107,7 @@
 
     move-object/from16 v0, p0
 
-    iput v4, v0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iput v4, v0, Lkik/arcane/net/http/ContentUploadItem;->v:I
 
     .line 501
     const/4 v4, -0x1
@@ -2119,40 +2119,40 @@
     :try_start_11
     move-object/from16 v0, p0
 
-    iget v7, v0, Lkik/android/net/http/ContentUploadItem;->t:I
+    iget v7, v0, Lkik/arcane/net/http/ContentUploadItem;->t:I
 
     add-int/lit8 v7, v7, 0x1
 
     move-object/from16 v0, p0
 
-    iput v7, v0, Lkik/android/net/http/ContentUploadItem;->t:I
+    iput v7, v0, Lkik/arcane/net/http/ContentUploadItem;->t:I
 
     .line 421
     sub-long/2addr v12, v14
 
     move-object/from16 v0, p0
 
-    iput-wide v12, v0, Lkik/android/net/http/ContentUploadItem;->u:J
+    iput-wide v12, v0, Lkik/arcane/net/http/ContentUploadItem;->u:J
 
     .line 422
     move-object/from16 v0, p0
 
-    iget-object v7, v0, Lkik/android/net/http/ContentUploadItem;->A:Lkik/core/interfaces/n;
+    iget-object v7, v0, Lkik/arcane/net/http/ContentUploadItem;->A:Lkik/core/interfaces/n;
 
     move-object/from16 v0, p0
 
-    iget-object v12, v0, Lkik/android/net/http/ContentUploadItem;->c:Ljava/lang/String;
+    iget-object v12, v0, Lkik/arcane/net/http/ContentUploadItem;->c:Ljava/lang/String;
 
     move-object/from16 v0, p0
 
-    iget v13, v0, Lkik/android/net/http/ContentUploadItem;->t:I
+    iget v13, v0, Lkik/arcane/net/http/ContentUploadItem;->t:I
 
     invoke-interface {v7, v12, v13}, Lkik/core/interfaces/n;->a(Ljava/lang/String;I)V
 
     .line 424
     move-object/from16 v0, p0
 
-    iget v7, v0, Lkik/android/net/http/ContentUploadItem;->t:I
+    iget v7, v0, Lkik/arcane/net/http/ContentUploadItem;->t:I
 
     int-to-long v12, v7
 
@@ -2179,7 +2179,7 @@
 
     move-object/from16 v0, p0
 
-    iget v12, v0, Lkik/android/net/http/ContentUploadItem;->t:I
+    iget v12, v0, Lkik/arcane/net/http/ContentUploadItem;->t:I
 
     invoke-virtual {v9, v12}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
     :try_end_11
@@ -2191,7 +2191,7 @@
 
     .line 454
     :try_start_12
-    invoke-virtual {v6}, Lkik/android/net/http/f;->c()V
+    invoke-virtual {v6}, Lkik/arcane/net/http/f;->c()V
     :try_end_12
     .catchall {:try_start_12 .. :try_end_12} :catchall_1
 
@@ -2221,7 +2221,7 @@
     :try_start_14
     move-object/from16 v0, p0
 
-    iget v4, v0, Lkik/android/net/http/ContentUploadItem;->t:I
+    iget v4, v0, Lkik/arcane/net/http/ContentUploadItem;->t:I
 
     int-to-long v4, v4
 
@@ -2232,11 +2232,11 @@
     .line 461
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/net/http/ContentUploadItem;->y:Lcom/kik/android/Mixpanel;
+    iget-object v4, v0, Lkik/arcane/net/http/ContentUploadItem;->y:Lcom/kik/arcane/Mixpanel;
 
     const-string v5, "Content Uploaded"
 
-    invoke-virtual {v4, v5}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v4, v5}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v4
 
@@ -2245,7 +2245,7 @@
     const/4 v6, 0x0
 
     .line 462
-    invoke-virtual {v4, v5, v6}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v4, v5, v6}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v4
 
@@ -2253,10 +2253,10 @@
 
     move-object/from16 v0, p0
 
-    iget-wide v6, v0, Lkik/android/net/http/ContentUploadItem;->l:J
+    iget-wide v6, v0, Lkik/arcane/net/http/ContentUploadItem;->l:J
 
     .line 463
-    invoke-virtual {v4, v5, v6, v7}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v4, v5, v6, v7}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v4
 
@@ -2264,10 +2264,10 @@
 
     move-object/from16 v0, p0
 
-    iget-object v6, v0, Lkik/android/net/http/ContentUploadItem;->d:Ljava/lang/String;
+    iget-object v6, v0, Lkik/arcane/net/http/ContentUploadItem;->d:Ljava/lang/String;
 
     .line 464
-    invoke-virtual {v4, v5, v6}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v4, v5, v6}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v4
 
@@ -2276,12 +2276,12 @@
     const/4 v6, 0x0
 
     .line 465
-    invoke-virtual {v4, v5, v6}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v4, v5, v6}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v4
 
     .line 466
-    invoke-virtual {v4}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v4}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 468
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -2335,7 +2335,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-direct {v0, v4}, Lkik/android/net/http/ContentUploadItem;->d(I)Z
+    invoke-direct {v0, v4}, Lkik/arcane/net/http/ContentUploadItem;->d(I)Z
 
     move-result v4
 
@@ -2344,11 +2344,11 @@
     .line 474
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/net/http/ContentUploadItem;->A:Lkik/core/interfaces/n;
+    iget-object v4, v0, Lkik/arcane/net/http/ContentUploadItem;->A:Lkik/core/interfaces/n;
 
     move-object/from16 v0, p0
 
-    iget-object v5, v0, Lkik/android/net/http/ContentUploadItem;->c:Ljava/lang/String;
+    iget-object v5, v0, Lkik/arcane/net/http/ContentUploadItem;->c:Ljava/lang/String;
 
     invoke-interface {v4, v5}, Lkik/core/interfaces/n;->a(Ljava/lang/String;)V
 
@@ -2356,7 +2356,7 @@
     :cond_1a
     move-object/from16 v0, p0
 
-    iget v4, v0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iget v4, v0, Lkik/arcane/net/http/ContentUploadItem;->v:I
     :try_end_14
     .catchall {:try_start_14 .. :try_end_14} :catchall_1
 
@@ -2366,7 +2366,7 @@
 
     .line 496
     :try_start_15
-    invoke-interface/range {v16 .. v16}, Lkik/android/net/http/c;->a()V
+    invoke-interface/range {v16 .. v16}, Lkik/arcane/net/http/c;->a()V
     :try_end_15
     .catch Ljava/io/IOException; {:try_start_15 .. :try_end_15} :catch_6
 
@@ -2383,7 +2383,7 @@
 
     move-object/from16 v0, p0
 
-    iput v4, v0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iput v4, v0, Lkik/arcane/net/http/ContentUploadItem;->v:I
 
     .line 501
     const/4 v4, -0x1
@@ -2395,7 +2395,7 @@
     :try_start_16
     move-object/from16 v0, p0
 
-    iget-object v4, v0, Lkik/android/net/http/ContentUploadItem;->E:Lcom/kik/events/Promise;
+    iget-object v4, v0, Lkik/arcane/net/http/ContentUploadItem;->E:Lcom/kik/events/Promise;
 
     const/4 v5, 0x0
 
@@ -2406,13 +2406,13 @@
 
     move-object/from16 v0, p0
 
-    iput v4, v0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iput v4, v0, Lkik/arcane/net/http/ContentUploadItem;->v:I
     :try_end_16
     .catchall {:try_start_16 .. :try_end_16} :catchall_1
 
     .line 496
     :try_start_17
-    invoke-interface/range {v16 .. v16}, Lkik/android/net/http/c;->a()V
+    invoke-interface/range {v16 .. v16}, Lkik/arcane/net/http/c;->a()V
     :try_end_17
     .catch Ljava/io/IOException; {:try_start_17 .. :try_end_17} :catch_7
 
@@ -2429,7 +2429,7 @@
 
     move-object/from16 v0, p0
 
-    iput v4, v0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iput v4, v0, Lkik/arcane/net/http/ContentUploadItem;->v:I
 
     .line 501
     const/4 v4, -0x1
@@ -2443,13 +2443,13 @@
     :try_start_18
     move-object/from16 v0, p0
 
-    iput v4, v0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iput v4, v0, Lkik/arcane/net/http/ContentUploadItem;->v:I
     :try_end_18
     .catchall {:try_start_18 .. :try_end_18} :catchall_1
 
     .line 496
     :try_start_19
-    invoke-interface/range {v16 .. v16}, Lkik/android/net/http/c;->a()V
+    invoke-interface/range {v16 .. v16}, Lkik/arcane/net/http/c;->a()V
     :try_end_19
     .catch Ljava/io/IOException; {:try_start_19 .. :try_end_19} :catch_8
 
@@ -2466,7 +2466,7 @@
 
     move-object/from16 v0, p0
 
-    iput v4, v0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iput v4, v0, Lkik/arcane/net/http/ContentUploadItem;->v:I
 
     .line 501
     const/4 v4, -0x1
@@ -2481,7 +2481,7 @@
 
     move-object/from16 v0, p0
 
-    iput v4, v0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iput v4, v0, Lkik/arcane/net/http/ContentUploadItem;->v:I
 
     .line 501
     const/4 v4, -0x1
@@ -2509,7 +2509,7 @@
 
     .prologue
     .line 606
-    iget-object v0, p0, Lkik/android/net/http/ContentUploadItem;->c:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->c:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -2521,15 +2521,15 @@
     const/4 v2, 0x0
 
     .line 510
-    iput v2, p0, Lkik/android/net/http/ContentUploadItem;->t:I
+    iput v2, p0, Lkik/arcane/net/http/ContentUploadItem;->t:I
 
     .line 511
     const-wide/16 v0, 0x0
 
-    iput-wide v0, p0, Lkik/android/net/http/ContentUploadItem;->u:J
+    iput-wide v0, p0, Lkik/arcane/net/http/ContentUploadItem;->u:J
 
     .line 512
-    iput v2, p0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iput v2, p0, Lkik/arcane/net/http/ContentUploadItem;->v:I
 
     .line 513
     return-void
@@ -2542,7 +2542,7 @@
     const/4 v0, 0x0
 
     .line 518
-    iget v1, p0, Lkik/android/net/http/ContentUploadItem;->a:I
+    iget v1, p0, Lkik/arcane/net/http/ContentUploadItem;->a:I
 
     const/4 v2, 0x2
 
@@ -2555,7 +2555,7 @@
     if-eqz v1, :cond_1
 
     .line 522
-    iput v0, p0, Lkik/android/net/http/ContentUploadItem;->a:I
+    iput v0, p0, Lkik/arcane/net/http/ContentUploadItem;->a:I
 
     .line 525
     :goto_1
@@ -2569,7 +2569,7 @@
 
     .line 525
     :cond_1
-    invoke-super {p0}, Lkik/android/net/http/a;->g()Z
+    invoke-super {p0}, Lkik/arcane/net/http/a;->g()Z
 
     move-result v0
 
@@ -2581,27 +2581,27 @@
 
     .prologue
     .line 635
-    invoke-super {p0}, Lkik/android/net/http/a;->h()V
+    invoke-super {p0}, Lkik/arcane/net/http/a;->h()V
 
     .line 636
-    iget-object v0, p0, Lkik/android/net/http/ContentUploadItem;->F:Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    iget-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->F:Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
-    sget-object v1, Lkik/android/net/http/ContentUploadItem$TranscodeStatus;->IN_PROGRESS:Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    sget-object v1, Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;->IN_PROGRESS:Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
     if-ne v0, v1, :cond_0
 
     .line 637
-    invoke-static {}, Lkik/android/video/f;->a()Lkik/android/video/f;
+    invoke-static {}, Lkik/arcane/video/f;->a()Lkik/arcane/video/f;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/net/http/ContentUploadItem;->j:Ljava/io/File;
+    iget-object v1, p0, Lkik/arcane/net/http/ContentUploadItem;->j:Ljava/io/File;
 
     invoke-virtual {v1}, Ljava/io/File;->getPath()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/video/f;->b(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/video/f;->b(Ljava/lang/String;)V
 
     .line 639
     :cond_0
@@ -2613,7 +2613,7 @@
 
     .prologue
     .line 620
-    iget v0, p0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iget v0, p0, Lkik/arcane/net/http/ContentUploadItem;->v:I
 
     const/4 v1, -0x1
 
@@ -2622,7 +2622,7 @@
     .line 621
     const/4 v0, 0x1
 
-    iput v0, p0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iput v0, p0, Lkik/arcane/net/http/ContentUploadItem;->v:I
 
     .line 623
     :cond_0
@@ -2636,10 +2636,10 @@
     const/4 v0, -0x1
 
     .line 628
-    iput v0, p0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iput v0, p0, Lkik/arcane/net/http/ContentUploadItem;->v:I
 
     .line 629
-    invoke-direct {p0, v0}, Lkik/android/net/http/ContentUploadItem;->d(I)Z
+    invoke-direct {p0, v0}, Lkik/arcane/net/http/ContentUploadItem;->d(I)Z
 
     .line 630
     return-void
@@ -2650,7 +2650,7 @@
 
     .prologue
     .line 612
-    iget v0, p0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iget v0, p0, Lkik/arcane/net/http/ContentUploadItem;->v:I
 
     const/4 v1, -0x1
 
@@ -2659,7 +2659,7 @@
     .line 613
     const/4 v0, 0x3
 
-    iput v0, p0, Lkik/android/net/http/ContentUploadItem;->v:I
+    iput v0, p0, Lkik/arcane/net/http/ContentUploadItem;->v:I
 
     .line 615
     :cond_0
@@ -2671,7 +2671,7 @@
 
     .prologue
     .line 130
-    iget-object v0, p0, Lkik/android/net/http/ContentUploadItem;->E:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->E:Lcom/kik/events/Promise;
 
     return-object v0
 .end method
@@ -2681,7 +2681,7 @@
 
     .prologue
     .line 136
-    iget-object v0, p0, Lkik/android/net/http/ContentUploadItem;->j:Ljava/io/File;
+    iget-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->j:Ljava/io/File;
 
     if-nez v0, :cond_0
 
@@ -2694,11 +2694,11 @@
 
     .line 139
     :cond_0
-    iget-object v0, p0, Lkik/android/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     if-eqz v0, :cond_1
 
-    iget-object v0, p0, Lkik/android/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v0}, Lkik/core/datatypes/messageExtensions/ContentMessage;->k()Z
 
@@ -2707,7 +2707,7 @@
     if-eqz v0, :cond_1
 
     .line 140
-    iget-object v0, p0, Lkik/android/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->h:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v0}, Lkik/core/datatypes/messageExtensions/ContentMessage;->j()Ljava/io/File;
 
@@ -2721,7 +2721,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/aa;->b(Ljava/lang/String;)J
+    invoke-static {v0}, Lkik/arcane/util/aa;->b(Ljava/lang/String;)J
 
     move-result-wide v0
 
@@ -2729,7 +2729,7 @@
 
     .line 145
     :cond_1
-    iget-object v0, p0, Lkik/android/net/http/ContentUploadItem;->j:Ljava/io/File;
+    iget-object v0, p0, Lkik/arcane/net/http/ContentUploadItem;->j:Ljava/io/File;
 
     invoke-virtual {v0}, Ljava/io/File;->length()J
 

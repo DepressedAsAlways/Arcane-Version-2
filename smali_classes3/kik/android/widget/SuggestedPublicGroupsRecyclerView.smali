@@ -1,25 +1,25 @@
-.class public Lkik/android/widget/SuggestedPublicGroupsRecyclerView;
+.class public Lkik/arcane/widget/SuggestedPublicGroupsRecyclerView;
 .super Landroid/support/v7/widget/RecyclerView;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/widget/dn$a;
+.implements Lkik/arcane/widget/dn$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/SuggestedPublicGroupsRecyclerView$a;
+        Lkik/arcane/widget/SuggestedPublicGroupsRecyclerView$a;
     }
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Landroid/support/v7/widget/RecyclerView;",
-        "Lkik/android/widget/dn$a",
+        "Lkik/arcane/widget/dn$a",
         "<",
-        "Lkik/android/chat/vm/chats/publicgroups/g;",
-        "Lkik/android/widget/SuggestedPublicGroupsRecyclerView$a;",
+        "Lkik/arcane/chat/vm/chats/publicgroups/g;",
+        "Lkik/arcane/widget/SuggestedPublicGroupsRecyclerView$a;",
         ">;"
     }
 .end annotation
@@ -33,7 +33,7 @@
     .line 31
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/SuggestedPublicGroupsRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/SuggestedPublicGroupsRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 32
     return-void
@@ -58,7 +58,7 @@
     invoke-direct {v0, p1, v1, v2, v3}, Landroid/support/v7/widget/GridLayoutManager;-><init>(Landroid/content/Context;IIZ)V
 
     .line 38
-    invoke-virtual {p0, v0}, Lkik/android/widget/SuggestedPublicGroupsRecyclerView;->setLayoutManager(Landroid/support/v7/widget/RecyclerView$LayoutManager;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/SuggestedPublicGroupsRecyclerView;->setLayoutManager(Landroid/support/v7/widget/RecyclerView$LayoutManager;)V
 
     .line 39
     return-void
@@ -89,9 +89,9 @@
     move-result-object v0
 
     .line 1051
-    new-instance v1, Lkik/android/widget/SuggestedPublicGroupsRecyclerView$a;
+    new-instance v1, Lkik/arcane/widget/SuggestedPublicGroupsRecyclerView$a;
 
-    invoke-direct {v1, v0}, Lkik/android/widget/SuggestedPublicGroupsRecyclerView$a;-><init>(Landroid/databinding/ViewDataBinding;)V
+    invoke-direct {v1, v0}, Lkik/arcane/widget/SuggestedPublicGroupsRecyclerView$a;-><init>(Landroid/databinding/ViewDataBinding;)V
 
     .line 22
     return-object v1

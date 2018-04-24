@@ -24,18 +24,18 @@
 
 
 # virtual methods
-.method final a(Lcom/kik/storage/s;Lcom/kik/android/Mixpanel;)Lkik/android/gifs/c;
+.method final a(Lcom/kik/storage/s;Lcom/kik/arcane/Mixpanel;)Lkik/arcane/gifs/c;
     .locals 2
     .annotation runtime Ljavax/inject/Singleton;
     .end annotation
 
     .prologue
     .line 32
-    new-instance v0, Lkik/android/gifs/b;
+    new-instance v0, Lkik/arcane/gifs/b;
 
     iget-object v1, p0, Lcom/kik/modules/al;->a:Landroid/content/Context;
 
-    invoke-direct {v0, v1, p1, p2}, Lkik/android/gifs/b;-><init>(Landroid/content/Context;Lcom/kik/storage/s;Lcom/kik/android/Mixpanel;)V
+    invoke-direct {v0, v1, p1, p2}, Lkik/arcane/gifs/b;-><init>(Landroid/content/Context;Lcom/kik/storage/s;Lcom/kik/arcane/Mixpanel;)V
 
     return-object v0
 .end method

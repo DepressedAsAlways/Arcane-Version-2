@@ -1,11 +1,11 @@
-.class final Lkik/android/widget/preferences/KikPreference$1;
+.class final Lkik/arcane/widget/preferences/KikPreference$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/preferences/KikPreference;->a(Ljava/lang/String;Lcom/kik/events/Promise;Lkik/android/chat/fragment/KikScopedDialogFragment;)V
+    value = Lkik/arcane/widget/preferences/KikPreference;->a(Ljava/lang/String;Lcom/kik/events/Promise;Lkik/arcane/chat/fragment/KikScopedDialogFragment;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikDialogFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikDialogFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikDialogFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikDialogFragment;)V
     .locals 0
 
     .prologue
     .line 53
-    iput-object p1, p0, Lkik/android/widget/preferences/KikPreference$1;->a:Lkik/android/chat/fragment/KikDialogFragment;
+    iput-object p1, p0, Lkik/arcane/widget/preferences/KikPreference$1;->a:Lkik/arcane/chat/fragment/KikDialogFragment;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -47,9 +47,9 @@
 
     .prologue
     .line 57
-    iget-object v0, p0, Lkik/android/widget/preferences/KikPreference$1;->a:Lkik/android/chat/fragment/KikDialogFragment;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/KikPreference$1;->a:Lkik/arcane/chat/fragment/KikDialogFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikDialogFragment;->dismissAllowingStateLoss()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikDialogFragment;->dismissAllowingStateLoss()V
 
     .line 58
     return-void

@@ -1,5 +1,5 @@
 .class public Lcom/kik/cache/ProfileImageView;
-.super Lkik/android/widget/KikNetworkedImageView;
+.super Lkik/arcane/widget/KikNetworkedImageView;
 .source "SourceFile"
 
 
@@ -96,7 +96,7 @@
     const/high16 v1, 0x3f800000    # 1.0f
 
     .line 85
-    invoke-direct {p0, p1}, Lkik/android/widget/KikNetworkedImageView;-><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Lkik/arcane/widget/KikNetworkedImageView;-><init>(Landroid/content/Context;)V
 
     .line 31
     new-instance v0, Landroid/graphics/Matrix;
@@ -177,7 +177,7 @@
     const/high16 v1, 0x3f800000    # 1.0f
 
     .line 91
-    invoke-direct {p0, p1, p2}, Lkik/android/widget/KikNetworkedImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lkik/arcane/widget/KikNetworkedImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 31
     new-instance v0, Landroid/graphics/Matrix;
@@ -258,7 +258,7 @@
     const/high16 v1, 0x3f800000    # 1.0f
 
     .line 97
-    invoke-direct {p0, p1, p2, p3}, Lkik/android/widget/KikNetworkedImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lkik/arcane/widget/KikNetworkedImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 31
     new-instance v0, Landroid/graphics/Matrix;
@@ -371,7 +371,7 @@
     .line 171
     const/4 v0, 0x1
 
-    invoke-super {p0, v0}, Lkik/android/widget/KikNetworkedImageView;->setClickable(Z)V
+    invoke-super {p0, v0}, Lkik/arcane/widget/KikNetworkedImageView;->setClickable(Z)V
 
     .line 172
     new-instance v0, Landroid/view/ScaleGestureDetector;
@@ -644,14 +644,14 @@
     return-object v0
 .end method
 
-.method protected final a(Landroid/graphics/Bitmap;Ljava/lang/String;)Lkik/android/widget/bb;
+.method protected final a(Landroid/graphics/Bitmap;Ljava/lang/String;)Lkik/arcane/widget/bb;
     .locals 1
 
     .prologue
     .line 166
-    new-instance v0, Lkik/android/widget/cr;
+    new-instance v0, Lkik/arcane/widget/cr;
 
-    invoke-direct {v0, p1, p2}, Lkik/android/widget/cr;-><init>(Landroid/graphics/Bitmap;Ljava/lang/String;)V
+    invoke-direct {v0, p1, p2}, Lkik/arcane/widget/cr;-><init>(Landroid/graphics/Bitmap;Ljava/lang/String;)V
 
     return-object v0
 .end method
@@ -679,20 +679,20 @@
 
     .line 160
     :cond_1
-    invoke-super {p0, p1}, Lkik/android/widget/KikNetworkedImageView;->a(Landroid/graphics/Bitmap;)V
+    invoke-super {p0, p1}, Lkik/arcane/widget/KikNetworkedImageView;->a(Landroid/graphics/Bitmap;)V
 
     .line 161
     return-void
 .end method
 
-.method public final a(Lkik/core/datatypes/aa;Lcom/kik/cache/KikVolleyImageLoader;Lcom/kik/android/Mixpanel;Lcom/android/volley/h$b;Lcom/kik/cache/KikVolleyImageLoader$d;)V
+.method public final a(Lkik/core/datatypes/aa;Lcom/kik/cache/KikVolleyImageLoader;Lcom/kik/arcane/Mixpanel;Lcom/android/volley/h$b;Lcom/kik/cache/KikVolleyImageLoader$d;)V
     .locals 8
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Lkik/core/datatypes/aa;",
             "Lcom/kik/cache/KikVolleyImageLoader;",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             "Lcom/android/volley/h$b",
             "<",
             "Landroid/graphics/Bitmap;",
@@ -720,7 +720,7 @@
 
     move-object v7, p3
 
-    invoke-static/range {v0 .. v7}, Lcom/kik/cache/MyPicImageRequest;->getProfileRequest(Lkik/core/datatypes/aa;Lcom/android/volley/h$b;IILcom/android/volley/h$a;ZZLcom/kik/android/Mixpanel;)Lcom/kik/cache/MyPicImageRequest;
+    invoke-static/range {v0 .. v7}, Lcom/kik/cache/MyPicImageRequest;->getProfileRequest(Lkik/core/datatypes/aa;Lcom/android/volley/h$b;IILcom/android/volley/h$a;ZZLcom/kik/arcane/Mixpanel;)Lcom/kik/cache/MyPicImageRequest;
 
     move-result-object v0
 
@@ -808,7 +808,7 @@
     const/high16 v3, 0x40000000    # 2.0f
 
     .line 362
-    invoke-super {p0, p1, p2}, Lkik/android/widget/KikNetworkedImageView;->onMeasure(II)V
+    invoke-super {p0, p1, p2}, Lkik/arcane/widget/KikNetworkedImageView;->onMeasure(II)V
 
     .line 363
     invoke-static {p1}, Landroid/view/View$MeasureSpec;->getSize(I)I
@@ -989,7 +989,7 @@
 
     .prologue
     .line 264
-    invoke-super {p0, p1}, Lkik/android/widget/KikNetworkedImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-super {p0, p1}, Lkik/arcane/widget/KikNetworkedImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     .line 265
     if-eqz p1, :cond_0
@@ -1022,7 +1022,7 @@
 
     .prologue
     .line 274
-    invoke-super {p0, p1}, Lkik/android/widget/KikNetworkedImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-super {p0, p1}, Lkik/arcane/widget/KikNetworkedImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 276
     if-eqz p1, :cond_0

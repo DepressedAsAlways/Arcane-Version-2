@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/fragment/ff;
+.class final synthetic Lkik/arcane/chat/fragment/ff;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/fragment/ff;
+.field private static final a:Lkik/arcane/chat/fragment/ff;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/fragment/ff;
+    new-instance v0, Lkik/arcane/chat/fragment/ff;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/ff;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/ff;-><init>()V
 
-    sput-object v0, Lkik/android/chat/fragment/ff;->a:Lkik/android/chat/fragment/ff;
+    sput-object v0, Lkik/arcane/chat/fragment/ff;->a:Lkik/arcane/chat/fragment/ff;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lrx/functions/b;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/fragment/ff;->a:Lkik/android/chat/fragment/ff;
+    sget-object v0, Lkik/arcane/chat/fragment/ff;->a:Lkik/arcane/chat/fragment/ff;
 
     return-object v0
 .end method
@@ -43,7 +43,7 @@
 .method public final call(Ljava/lang/Object;)V
     .locals 0
 
-    invoke-static {}, Lkik/android/chat/fragment/ProfileEditBioDialogFragment;->d()V
+    invoke-static {}, Lkik/arcane/chat/fragment/ProfileEditBioDialogFragment;->d()V
 
     return-void
 .end method

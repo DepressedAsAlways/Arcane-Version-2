@@ -27,7 +27,7 @@
     iput-object p1, p0, Lcom/kik/cards/web/advertising/AdvertisingPlugin;->_context:Landroid/app/Activity;
 
     .line 30
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v0
 

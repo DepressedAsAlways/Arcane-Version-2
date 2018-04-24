@@ -1,4 +1,4 @@
-.class public Lkik/android/gifs/view/GifFavouriteToggle;
+.class public Lkik/arcane/gifs/view/GifFavouriteToggle;
 .super Landroid/widget/LinearLayout;
 .source "SourceFile"
 
@@ -19,7 +19,7 @@
     .line 126
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/gifs/view/GifFavouriteToggle;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/gifs/view/GifFavouriteToggle;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 127
     return-void
@@ -32,7 +32,7 @@
     .line 131
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/gifs/view/GifFavouriteToggle;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/gifs/view/GifFavouriteToggle;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 132
     return-void
@@ -46,13 +46,13 @@
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 137
-    invoke-virtual {p0}, Lkik/android/gifs/view/GifFavouriteToggle;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/gifs/view/GifFavouriteToggle;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
     const v1, 0x7f040094
 
-    invoke-static {v0, v1, p0}, Lkik/android/gifs/view/GifFavouriteToggle;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
+    invoke-static {v0, v1, p0}, Lkik/arcane/gifs/view/GifFavouriteToggle;->inflate(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v0
 
@@ -79,7 +79,7 @@
 
     .line 78
     .line 1087
-    iget-object v0, p0, Lkik/android/gifs/view/GifFavouriteToggle;->_starImageView:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/gifs/view/GifFavouriteToggle;->_starImageView:Landroid/widget/ImageView;
 
     sget-object v1, Landroid/view/View;->SCALE_X:Landroid/util/Property;
 
@@ -94,7 +94,7 @@
     move-result-object v0
 
     .line 1088
-    iget-object v1, p0, Lkik/android/gifs/view/GifFavouriteToggle;->_starImageView:Landroid/widget/ImageView;
+    iget-object v1, p0, Lkik/arcane/gifs/view/GifFavouriteToggle;->_starImageView:Landroid/widget/ImageView;
 
     sget-object v2, Landroid/view/View;->SCALE_Y:Landroid/util/Property;
 
@@ -128,14 +128,14 @@
     invoke-virtual {v2, v0, v1}, Landroid/animation/AnimatorSet;->setDuration(J)Landroid/animation/AnimatorSet;
 
     .line 1092
-    new-instance v0, Lkik/android/gifs/view/GifFavouriteToggle$1;
+    new-instance v0, Lkik/arcane/gifs/view/GifFavouriteToggle$1;
 
-    invoke-direct {v0, p0, p1}, Lkik/android/gifs/view/GifFavouriteToggle$1;-><init>(Lkik/android/gifs/view/GifFavouriteToggle;Z)V
+    invoke-direct {v0, p0, p1}, Lkik/arcane/gifs/view/GifFavouriteToggle$1;-><init>(Lkik/arcane/gifs/view/GifFavouriteToggle;Z)V
 
     invoke-virtual {v2, v0}, Landroid/animation/AnimatorSet;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
     .line 1110
-    iget-object v0, p0, Lkik/android/gifs/view/GifFavouriteToggle;->_starImageView:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/gifs/view/GifFavouriteToggle;->_starImageView:Landroid/widget/ImageView;
 
     sget-object v1, Landroid/view/View;->SCALE_X:Landroid/util/Property;
 
@@ -148,7 +148,7 @@
     move-result-object v0
 
     .line 1111
-    iget-object v1, p0, Lkik/android/gifs/view/GifFavouriteToggle;->_starImageView:Landroid/widget/ImageView;
+    iget-object v1, p0, Lkik/arcane/gifs/view/GifFavouriteToggle;->_starImageView:Landroid/widget/ImageView;
 
     sget-object v3, Landroid/view/View;->SCALE_Y:Landroid/util/Property;
 
@@ -161,7 +161,7 @@
     move-result-object v1
 
     .line 1112
-    iget-object v3, p0, Lkik/android/gifs/view/GifFavouriteToggle;->_starImageView:Landroid/widget/ImageView;
+    iget-object v3, p0, Lkik/arcane/gifs/view/GifFavouriteToggle;->_starImageView:Landroid/widget/ImageView;
 
     sget-object v4, Landroid/view/View;->SCALE_X:Landroid/util/Property;
 
@@ -174,7 +174,7 @@
     move-result-object v3
 
     .line 1113
-    iget-object v4, p0, Lkik/android/gifs/view/GifFavouriteToggle;->_starImageView:Landroid/widget/ImageView;
+    iget-object v4, p0, Lkik/arcane/gifs/view/GifFavouriteToggle;->_starImageView:Landroid/widget/ImageView;
 
     sget-object v5, Landroid/view/View;->SCALE_Y:Landroid/util/Property;
 
@@ -256,9 +256,9 @@
 
     .prologue
     .line 56
-    iget-object v0, p0, Lkik/android/gifs/view/GifFavouriteToggle;->_starImageView:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/gifs/view/GifFavouriteToggle;->_starImageView:Landroid/widget/ImageView;
 
-    invoke-virtual {p0}, Lkik/android/gifs/view/GifFavouriteToggle;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/gifs/view/GifFavouriteToggle;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -274,17 +274,17 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/gifs/view/GifFavouriteToggle;)V
+.method static synthetic a(Lkik/arcane/gifs/view/GifFavouriteToggle;)V
     .locals 0
 
     .prologue
     .line 28
-    invoke-direct {p0}, Lkik/android/gifs/view/GifFavouriteToggle;->b()V
+    invoke-direct {p0}, Lkik/arcane/gifs/view/GifFavouriteToggle;->b()V
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/gifs/view/GifFavouriteToggle;Ljava/lang/Boolean;)V
+.method static synthetic a(Lkik/arcane/gifs/view/GifFavouriteToggle;Ljava/lang/Boolean;)V
     .locals 3
 
     .prologue
@@ -298,14 +298,14 @@
     .line 2040
     if-eqz v0, :cond_1
 
-    invoke-virtual {p0}, Lkik/android/gifs/view/GifFavouriteToggle;->getVisibility()I
+    invoke-virtual {p0}, Lkik/arcane/gifs/view/GifFavouriteToggle;->getVisibility()I
 
     move-result v1
 
     if-ne v1, v2, :cond_1
 
     .line 2041
-    invoke-direct {p0}, Lkik/android/gifs/view/GifFavouriteToggle;->b()V
+    invoke-direct {p0}, Lkik/arcane/gifs/view/GifFavouriteToggle;->b()V
 
     .line 2047
     :cond_0
@@ -316,14 +316,14 @@
     :cond_1
     if-nez v0, :cond_2
 
-    invoke-virtual {p0}, Lkik/android/gifs/view/GifFavouriteToggle;->getVisibility()I
+    invoke-virtual {p0}, Lkik/arcane/gifs/view/GifFavouriteToggle;->getVisibility()I
 
     move-result v1
 
     if-ne v1, v2, :cond_2
 
     .line 2044
-    invoke-direct {p0}, Lkik/android/gifs/view/GifFavouriteToggle;->a()V
+    invoke-direct {p0}, Lkik/arcane/gifs/view/GifFavouriteToggle;->a()V
 
     goto :goto_0
 
@@ -331,7 +331,7 @@
     :cond_2
     if-eqz v0, :cond_3
 
-    invoke-virtual {p0}, Lkik/android/gifs/view/GifFavouriteToggle;->getVisibility()I
+    invoke-virtual {p0}, Lkik/arcane/gifs/view/GifFavouriteToggle;->getVisibility()I
 
     move-result v1
 
@@ -340,7 +340,7 @@
     .line 2071
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lkik/android/gifs/view/GifFavouriteToggle;->a(Z)Landroid/animation/AnimatorSet;
+    invoke-direct {p0, v0}, Lkik/arcane/gifs/view/GifFavouriteToggle;->a(Z)Landroid/animation/AnimatorSet;
 
     move-result-object v0
 
@@ -352,7 +352,7 @@
     :cond_3
     if-nez v0, :cond_0
 
-    invoke-virtual {p0}, Lkik/android/gifs/view/GifFavouriteToggle;->getVisibility()I
+    invoke-virtual {p0}, Lkik/arcane/gifs/view/GifFavouriteToggle;->getVisibility()I
 
     move-result v0
 
@@ -361,7 +361,7 @@
     .line 3066
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lkik/android/gifs/view/GifFavouriteToggle;->a(Z)Landroid/animation/AnimatorSet;
+    invoke-direct {p0, v0}, Lkik/arcane/gifs/view/GifFavouriteToggle;->a(Z)Landroid/animation/AnimatorSet;
 
     move-result-object v0
 
@@ -370,7 +370,7 @@
     goto :goto_0
 .end method
 
-.method public static a(Lkik/android/gifs/view/GifFavouriteToggle;Lrx/d;)V
+.method public static a(Lkik/arcane/gifs/view/GifFavouriteToggle;Lrx/d;)V
     .locals 3
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -381,7 +381,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/gifs/view/GifFavouriteToggle;",
+            "Lkik/arcane/gifs/view/GifFavouriteToggle;",
             "Lrx/d",
             "<",
             "Ljava/lang/Boolean;",
@@ -393,7 +393,7 @@
     .line 35
     const v0, 0x7f0101b5
 
-    invoke-static {p0}, Lkik/android/gifs/view/d;->a(Lkik/android/gifs/view/GifFavouriteToggle;)Lrx/functions/b;
+    invoke-static {p0}, Lkik/arcane/gifs/view/d;->a(Lkik/arcane/gifs/view/GifFavouriteToggle;)Lrx/functions/b;
 
     move-result-object v1
 
@@ -414,9 +414,9 @@
 
     .prologue
     .line 61
-    iget-object v0, p0, Lkik/android/gifs/view/GifFavouriteToggle;->_starImageView:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/gifs/view/GifFavouriteToggle;->_starImageView:Landroid/widget/ImageView;
 
-    invoke-virtual {p0}, Lkik/android/gifs/view/GifFavouriteToggle;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/gifs/view/GifFavouriteToggle;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
 
@@ -432,12 +432,12 @@
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/gifs/view/GifFavouriteToggle;)V
+.method static synthetic b(Lkik/arcane/gifs/view/GifFavouriteToggle;)V
     .locals 0
 
     .prologue
     .line 28
-    invoke-direct {p0}, Lkik/android/gifs/view/GifFavouriteToggle;->a()V
+    invoke-direct {p0}, Lkik/arcane/gifs/view/GifFavouriteToggle;->a()V
 
     return-void
 .end method

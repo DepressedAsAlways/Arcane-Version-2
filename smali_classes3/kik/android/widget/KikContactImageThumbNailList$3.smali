@@ -1,4 +1,4 @@
-.class final Lkik/android/widget/KikContactImageThumbNailList$3;
+.class final Lkik/arcane/widget/KikContactImageThumbNailList$3;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/widget/KikContactImageThumbNailList;->a(Ljava/lang/String;Lkik/core/interfaces/v;)V
+    value = Lkik/arcane/widget/KikContactImageThumbNailList;->a(Ljava/lang/String;Lkik/core/interfaces/v;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Ljava/lang/String;
 
-.field final synthetic b:Lkik/android/widget/KikContactImageThumbNailList;
+.field final synthetic b:Lkik/arcane/widget/KikContactImageThumbNailList;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/widget/KikContactImageThumbNailList;Ljava/lang/String;)V
+.method constructor <init>(Lkik/arcane/widget/KikContactImageThumbNailList;Ljava/lang/String;)V
     .locals 0
 
     .prologue
     .line 176
-    iput-object p1, p0, Lkik/android/widget/KikContactImageThumbNailList$3;->b:Lkik/android/widget/KikContactImageThumbNailList;
+    iput-object p1, p0, Lkik/arcane/widget/KikContactImageThumbNailList$3;->b:Lkik/arcane/widget/KikContactImageThumbNailList;
 
-    iput-object p2, p0, Lkik/android/widget/KikContactImageThumbNailList$3;->a:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/widget/KikContactImageThumbNailList$3;->a:Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,13 +45,13 @@
 
     .prologue
     .line 180
-    iget-object v0, p0, Lkik/android/widget/KikContactImageThumbNailList$3;->b:Lkik/android/widget/KikContactImageThumbNailList;
+    iget-object v0, p0, Lkik/arcane/widget/KikContactImageThumbNailList$3;->b:Lkik/arcane/widget/KikContactImageThumbNailList;
 
-    invoke-static {v0}, Lkik/android/widget/KikContactImageThumbNailList;->b(Lkik/android/widget/KikContactImageThumbNailList;)Lcom/kik/events/g;
+    invoke-static {v0}, Lkik/arcane/widget/KikContactImageThumbNailList;->b(Lkik/arcane/widget/KikContactImageThumbNailList;)Lcom/kik/events/g;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/widget/KikContactImageThumbNailList$3;->a:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/widget/KikContactImageThumbNailList$3;->a:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Lcom/kik/events/g;->a(Ljava/lang/Object;)V
 

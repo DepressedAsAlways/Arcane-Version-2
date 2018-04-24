@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;
+.class final Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel;
+    value = Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,7 +15,7 @@
 
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+        Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
     }
 .end annotation
 
@@ -87,13 +87,13 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 61
-    iput-object p1, p0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;->a:Ljava/util/List;
+    iput-object p1, p0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;->a:Ljava/util/List;
 
     .line 62
-    iput-object p2, p0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;->b:Ljava/util/List;
+    iput-object p2, p0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;->b:Ljava/util/List;
 
     .line 63
-    iput-object p3, p0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;->c:Lcom/kik/events/Promise;
+    iput-object p3, p0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;->c:Lcom/kik/events/Promise;
 
     .line 64
     invoke-static {p1}, Lkik/core/util/l;->b(Ljava/util/List;)I
@@ -114,10 +114,10 @@
     :goto_0
     add-int/2addr v0, v1
 
-    iput v0, p0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;->d:I
+    iput v0, p0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;->d:I
 
     .line 67
-    iput-object p4, p0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;->e:Ljava/lang/String;
+    iput-object p4, p0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;->e:Ljava/lang/String;
 
     .line 68
     return-void
@@ -134,19 +134,19 @@
 
     .prologue
     .line 50
-    invoke-direct {p0, p1, p2, p3, p4}, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;-><init>(Ljava/util/List;Ljava/util/List;Lcom/kik/events/Promise;Ljava/lang/String;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;-><init>(Ljava/util/List;Ljava/util/List;Lcom/kik/events/Promise;Ljava/lang/String;)V
 
     return-void
 .end method
 
 
 # virtual methods
-.method final a(I)Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+.method final a(I)Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
     .locals 3
 
     .prologue
     .line 79
-    iget-object v0, p0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;->a:Ljava/util/List;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;->a:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -156,7 +156,7 @@
     if-ge p1, v0, :cond_0
 
     .line 81
-    sget-object v0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->OpenChat:Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+    sget-object v0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->OpenChat:Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
     .line 88
     :goto_0
@@ -164,7 +164,7 @@
 
     .line 83
     :cond_0
-    iget-object v1, p0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;->b:Ljava/util/List;
+    iget-object v1, p0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;->b:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->size()I
 
@@ -176,7 +176,7 @@
     if-ge p1, v2, :cond_1
 
     .line 85
-    sget-object v0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->RosterMatch:Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+    sget-object v0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->RosterMatch:Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
     goto :goto_0
 
@@ -186,12 +186,12 @@
 
     if-ne p1, v0, :cond_2
 
-    iget-object v0, p0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;->c:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;->c:Lcom/kik/events/Promise;
 
     if-eqz v0, :cond_2
 
     .line 88
-    sget-object v0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->UsernameMatch:Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
+    sget-object v0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;->UsernameMatch:Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults$ResultType;
 
     goto :goto_0
 
@@ -215,7 +215,7 @@
 
     move-result-object v1
 
-    iget v2, p0, Lkik/android/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;->d:I
+    iget v2, p0, Lkik/arcane/chat/vm/chats/search/ChatsSearchResultsViewModel$ChatSearchResults;->d:I
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 

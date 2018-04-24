@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$a;
+.class public final Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$a;
 .super Lcom/kik/ui/fragment/FragmentBase$FragmentBundle;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;
+    value = Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -25,7 +25,7 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$a;)Z
+.method static synthetic a(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$a;)Z
     .locals 2
 
     .prologue
@@ -35,7 +35,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$a;->c(Ljava/lang/String;Z)Ljava/lang/Boolean;
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$a;->c(Ljava/lang/String;Z)Ljava/lang/Boolean;
 
     move-result-object v0
 
@@ -47,7 +47,7 @@
     return v0
 .end method
 
-.method static synthetic b(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$a;)Ljava/lang/String;
+.method static synthetic b(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$a;)Ljava/lang/String;
     .locals 1
 
     .prologue
@@ -55,7 +55,7 @@
     .line 2398
     const-string v0, "phone-number"
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$a;->h(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$a;->h(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -65,19 +65,19 @@
 
 
 # virtual methods
-.method public final a(Ljava/lang/String;Z)Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$a;
+.method public final a(Ljava/lang/String;Z)Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$a;
     .locals 1
 
     .prologue
     .line 390
     const-string v0, "phone-number"
 
-    invoke-virtual {p0, v0, p1}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$a;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v0, p1}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$a;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 391
     const-string v0, "phone-number-auto-detected"
 
-    invoke-virtual {p0, v0, p2}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$a;->b(Ljava/lang/String;Z)V
+    invoke-virtual {p0, v0, p2}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$a;->b(Ljava/lang/String;Z)V
 
     .line 392
     return-object p0

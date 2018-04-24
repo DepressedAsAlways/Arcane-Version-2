@@ -1,11 +1,11 @@
-.class public interface abstract Lkik/android/util/ay$b;
+.class public interface abstract Lkik/arcane/util/ay$b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/ay;
+    value = Lkik/arcane/util/ay;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

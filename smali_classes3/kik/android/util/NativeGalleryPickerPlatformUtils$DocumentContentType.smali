@@ -1,11 +1,11 @@
-.class public final enum Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
+.class public final enum Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
 .super Ljava/lang/Enum;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/NativeGalleryPickerPlatformUtils;
+    value = Lkik/arcane/util/NativeGalleryPickerPlatformUtils;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,20 +17,20 @@
     value = {
         "Ljava/lang/Enum",
         "<",
-        "Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;",
+        "Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;",
         ">;"
     }
 .end annotation
 
 
 # static fields
-.field private static final synthetic $VALUES:[Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
+.field private static final synthetic $VALUES:[Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
 
-.field public static final enum ALL:Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
+.field public static final enum ALL:Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
 
-.field public static final enum PICTURE:Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
+.field public static final enum PICTURE:Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
 
-.field public static final enum VIDEO:Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
+.field public static final enum VIDEO:Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
 
 
 # instance fields
@@ -49,7 +49,7 @@
     const/4 v4, 0x0
 
     .line 27
-    new-instance v0, Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
+    new-instance v0, Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
 
     const-string v1, "PICTURE"
 
@@ -59,12 +59,12 @@
 
     aput-object v3, v2, v4
 
-    invoke-direct {v0, v1, v4, v2}, Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;-><init>(Ljava/lang/String;I[Ljava/lang/String;)V
+    invoke-direct {v0, v1, v4, v2}, Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;-><init>(Ljava/lang/String;I[Ljava/lang/String;)V
 
-    sput-object v0, Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->PICTURE:Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
+    sput-object v0, Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->PICTURE:Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
 
     .line 28
-    new-instance v0, Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
+    new-instance v0, Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
 
     const-string v1, "VIDEO"
 
@@ -74,12 +74,12 @@
 
     aput-object v3, v2, v4
 
-    invoke-direct {v0, v1, v5, v2}, Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;-><init>(Ljava/lang/String;I[Ljava/lang/String;)V
+    invoke-direct {v0, v1, v5, v2}, Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;-><init>(Ljava/lang/String;I[Ljava/lang/String;)V
 
-    sput-object v0, Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->VIDEO:Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
+    sput-object v0, Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->VIDEO:Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
 
     .line 29
-    new-instance v0, Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
+    new-instance v0, Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
 
     const-string v1, "ALL"
 
@@ -93,28 +93,28 @@
 
     aput-object v3, v2, v5
 
-    invoke-direct {v0, v1, v6, v2}, Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;-><init>(Ljava/lang/String;I[Ljava/lang/String;)V
+    invoke-direct {v0, v1, v6, v2}, Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;-><init>(Ljava/lang/String;I[Ljava/lang/String;)V
 
-    sput-object v0, Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->ALL:Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
+    sput-object v0, Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->ALL:Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
 
     .line 26
     const/4 v0, 0x3
 
-    new-array v0, v0, [Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
+    new-array v0, v0, [Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
 
-    sget-object v1, Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->PICTURE:Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
+    sget-object v1, Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->PICTURE:Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
 
     aput-object v1, v0, v4
 
-    sget-object v1, Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->VIDEO:Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
+    sget-object v1, Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->VIDEO:Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
 
     aput-object v1, v0, v5
 
-    sget-object v1, Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->ALL:Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
+    sget-object v1, Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->ALL:Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
 
     aput-object v1, v0, v6
 
-    sput-object v0, Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->$VALUES:[Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
+    sput-object v0, Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->$VALUES:[Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
 
     return-void
 .end method
@@ -134,40 +134,40 @@
     invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 35
-    iput-object p3, p0, Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->contentTypes:[Ljava/lang/String;
+    iput-object p3, p0, Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->contentTypes:[Ljava/lang/String;
 
     .line 36
     return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
+.method public static valueOf(Ljava/lang/String;)Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
     .locals 1
 
     .prologue
     .line 26
-    const-class v0, Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
+    const-class v0, Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
+    check-cast v0, Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
 
     return-object v0
 .end method
 
-.method public static values()[Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
+.method public static values()[Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
     .locals 1
 
     .prologue
     .line 26
-    sget-object v0, Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->$VALUES:[Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
+    sget-object v0, Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->$VALUES:[Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
 
-    invoke-virtual {v0}, [Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
+    check-cast v0, [Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
 
     return-object v0
 .end method
@@ -179,7 +179,7 @@
 
     .prologue
     .line 40
-    iget-object v0, p0, Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->contentTypes:[Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->contentTypes:[Ljava/lang/String;
 
     return-object v0
 .end method
@@ -192,7 +192,7 @@
     const-string v1, ""
 
     .line 46
-    iget-object v2, p0, Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->contentTypes:[Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;->contentTypes:[Ljava/lang/String;
 
     array-length v3, v2
 

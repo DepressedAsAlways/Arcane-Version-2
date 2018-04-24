@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="kik.android" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="kik.arcane" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
     <supports-screens/>
-    <permission android:name="kik.android.permission.CONTACT" android:protectionLevel="signature"/>
-    <permission android:name="kik.android.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
-    <uses-permission android:name="kik.android.permission.C2D_MESSAGE"/>
+    <permission android:name="kik.arcane.permission.CONTACT" android:protectionLevel="signature"/>
+    <permission android:name="kik.arcane.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="kik.arcane.permission.C2D_MESSAGE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -12,7 +12,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
-    <uses-permission android:name="kik.android.permission.CONTACT"/>
+    <uses-permission android:name="kik.arcane.permission.CONTACT"/>
     <uses-permission android:name="com.android.vending.BILLING"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
@@ -32,11 +32,12 @@
     <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
     <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
     <uses-feature android:name="android.hardware.bluetooth" android:required="false"/>
-    <application android:allowBackup="true" android:hardwareAccelerated="true" android:icon="@mipmap/icon" android:label="@string/app_name" android:name="kik.android.chat.KikApplication" android:supportsRtl="false" android:theme="@style/AppTheme">
+	<uses-sdk android:minSdkVersion="21"/>
+    <application android:allowBackup="true" android:hardwareAccelerated="true" android:icon="@mipmap/icon" android:label="@string/app_name" android:name="kik.arcane.chat.KikApplication" android:supportsRtl="false" android:theme="@style/AppTheme">
         <meta-data android:name="com.google.android.gms.car.application" android:resource="@xml/automotive_app_desc"/>
-        <meta-data android:name="kik.android.instabug_app_token" android:value=""/>
+        <meta-data android:name="kik.arcane.instabug_app_token" android:value=""/>
         <meta-data android:name="io.branch.sdk.BranchKey" android:value="key_live_fpxk8WuTwagFbmshrrtx3lijCvnqVRgC"/>
-        <activity android:label="@string/app_name" android:name="kik.android.chat.activity.KikApiLandingActivity" android:noHistory="true" android:theme="@style/SplashTheme">
+        <activity android:label="@string/app_name" android:name="kik.arcane.chat.activity.KikApiLandingActivity" android:noHistory="true" android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -105,14 +106,14 @@
                 <data android:host="open" android:scheme="kik"/>
             </intent-filter>
         </activity>
-        <activity android:label="@string/app_name" android:name="kik.android.chat.activity.IntroActivity" android:noHistory="true" android:theme="@style/SplashTheme">
+        <activity android:label="@string/app_name" android:name="kik.arcane.chat.activity.IntroActivity" android:noHistory="true" android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="kik.android.chat.activity.KikCropActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="kik.android.chat.activity.KikPlatformLanding" android:noHistory="true" android:taskAffinity="" android:theme="@style/SplashTheme">
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="kik.arcane.chat.activity.KikCropActivity" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="kik.arcane.chat.activity.KikPlatformLanding" android:noHistory="true" android:taskAffinity="" android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.SEND"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -131,13 +132,13 @@
         </activity>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.kik.cards.browser.PopupWindowActivity" android:theme="@android:style/Theme.Black.NoTitleBar"/>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="com.kik.cards.usermedia.CustomGalleryActivity"/>
-        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="kik.android.chat.fragment.SimpleFragmentWrapperActivity"/>
-        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="kik.android.chat.activity.KikWelcomeFragmentActivity"/>
-        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:theme="@style/ConvoTheme" android:name="kik.android.chat.activity.ConversationsActivity"/>
-        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTop" android:name="kik.android.chat.activity.ChatActivity" android:windowSoftInputMode="adjustResize"/>
-        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="kik.android.chat.activity.MissedConversationsActivity"/>
-        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="kik.android.chat.activity.FragmentWrapperActivity" android:windowSoftInputMode="adjustResize"/>
-        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:name="kik.android.deeplinks.PublicGroupDeepLinkActivity" android:noHistory="true" android:theme="@style/TransparentTheme" android:windowSoftInputMode="adjustResize">
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="kik.arcane.chat.fragment.SimpleFragmentWrapperActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="kik.arcane.chat.activity.KikWelcomeFragmentActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:theme="@style/ConvoTheme" android:name="kik.arcane.chat.activity.ConversationsActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTop" android:name="kik.arcane.chat.activity.ChatActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="kik.arcane.chat.activity.MissedConversationsActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="kik.arcane.chat.activity.FragmentWrapperActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:name="kik.arcane.deeplinks.PublicGroupDeepLinkActivity" android:noHistory="true" android:theme="@style/TransparentTheme" android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <data android:host="gs" android:scheme="kik"/>
                 <action android:name="android.intent.action.VIEW"/>
@@ -145,7 +146,7 @@
                 <category android:name="android.intent.category.BROWSABLE"/>
             </intent-filter>
         </activity>
-        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:name="kik.android.deeplinks.ChatInfoDeepLinkActivity" android:noHistory="true" android:theme="@style/TransparentTheme" android:windowSoftInputMode="adjustResize">
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:name="kik.arcane.deeplinks.ChatInfoDeepLinkActivity" android:noHistory="true" android:theme="@style/TransparentTheme" android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <data android:host="u" android:scheme="kik"/>
                 <action android:name="android.intent.action.VIEW"/>
@@ -153,7 +154,7 @@
                 <category android:name="android.intent.category.BROWSABLE"/>
             </intent-filter>
         </activity>
-        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:name="kik.android.deeplinks.UserProfileDeepLinkActivity" android:noHistory="true" android:theme="@style/TransparentTheme" android:windowSoftInputMode="adjustResize">
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:name="kik.arcane.deeplinks.UserProfileDeepLinkActivity" android:noHistory="true" android:theme="@style/TransparentTheme" android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <data android:host="settings" android:scheme="kik"/>
                 <action android:name="android.intent.action.VIEW"/>
@@ -161,52 +162,52 @@
                 <category android:name="android.intent.category.BROWSABLE"/>
             </intent-filter>
         </activity>
-        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:name="kik.android.deeplinks.InternalDeeplinkActivity" android:noHistory="true" android:theme="@style/TransparentTheme.NoAnimation" android:windowSoftInputMode="adjustResize">
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:name="kik.arcane.deeplinks.InternalDeeplinkActivity" android:noHistory="true" android:theme="@style/TransparentTheme.NoAnimation" android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
             </intent-filter>
         </activity>
-        <service android:label="Kik Connection Service" android:name="kik.android.net.communicator.CommunicatorService"/>
-        <service android:label="Kik Executor Service" android:name="kik.android.sdkutils.concurrent.AlarmManagerExecutorService"/>
-        <service android:exported="false" android:name="kik.android.net.communicator.GcmTickleListenerService">
+        <service android:label="Kik Connection Service" android:name="kik.arcane.net.communicator.CommunicatorService"/>
+        <service android:label="Kik Executor Service" android:name="kik.arcane.sdkutils.concurrent.AlarmManagerExecutorService"/>
+        <service android:exported="false" android:name="kik.arcane.net.communicator.GcmTickleListenerService">
             <intent-filter android:priority="10000">
                 <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
             </intent-filter>
         </service>
-        <service android:exported="false" android:name="kik.android.net.communicator.InstanceIdIntent">
+        <service android:exported="false" android:name="kik.arcane.net.communicator.InstanceIdIntent">
             <intent-filter>
                 <action android:name="com.google.android.gms.iid.InstanceID"/>
             </intent-filter>
         </service>
-        <service android:exported="false" android:name="kik.android.net.communicator.RegistrationIntentService"/>
-        <service android:label="Video Chat Notification Service" android:name="kik.android.videochat.VideoChatNotificationService"/>
-        <provider android:authorities="kik.android.KikDataProvider" android:name="kik.android.KikDataProvider" android:permission="kik.android.permission.CONTACT"/>
-        <provider android:authorities="kik.android.KikFileProvider" android:name="kik.android.KikFileProvider"/>
-        <provider android:authorities="kik.android.VideoContentProvider" android:exported="false" android:name="kik.android.VideoContentProvider"/>
-        <receiver android:name="kik.android.chat.service.StartupReceiver">
+        <service android:exported="false" android:name="kik.arcane.net.communicator.RegistrationIntentService"/>
+        <service android:label="Video Chat Notification Service" android:name="kik.arcane.videochat.VideoChatNotificationService"/>
+        <provider android:authorities="kik.arcane.KikDataProvider" android:name="kik.arcane.KikDataProvider" android:permission="kik.arcane.permission.CONTACT"/>
+        <provider android:authorities="kik.arcane.KikFileProvider" android:name="kik.arcane.KikFileProvider"/>
+        <provider android:authorities="kik.arcane.VideoContentProvider" android:exported="false" android:name="kik.arcane.VideoContentProvider"/>
+        <receiver android:name="kik.arcane.chat.service.StartupReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
                 <category android:name="android.intent.category.HOME"/>
             </intent-filter>
         </receiver>
-        <receiver android:exported="true" android:name="kik.android.chat.service.CustomCampaignTrackingReceiver">
+        <receiver android:exported="true" android:name="kik.arcane.chat.service.CustomCampaignTrackingReceiver">
             <intent-filter>
                 <action android:name="com.android.vending.INSTALL_REFERRER"/>
             </intent-filter>
         </receiver>
-        <receiver android:name="kik.android.AlarmReceiver"/>
+        <receiver android:name="kik.arcane.AlarmReceiver"/>
         <receiver android:exported="true" android:name="com.google.android.gms.gcm.GcmReceiver" android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
-                <category android:name="kik.android"/>
+                <category android:name="kik.arcane"/>
             </intent-filter>
         </receiver>
         <meta-data android:name="com.crashlytics.ApiKey" android:value="05f490868c9518194f9555a7d8664f006da667ac"/>
-        <provider android:authorities="kik.android.crashlyticsinitprovider" android:exported="false" android:initOrder="100" android:name="com.crashlytics.android.CrashlyticsInitProvider"/>
+        <provider android:authorities="kik.arcane.crashlyticsinitprovider" android:exported="false" android:initOrder="100" android:name="com.crashlytics.android.CrashlyticsInitProvider"/>
         <activity android:launchMode="singleTop" android:name="com.instabug.survey.ui.SurveyActivity" android:theme="@style/InstabugSdkTheme" android:windowSoftInputMode="adjustResize"/>
         <service android:name="com.instabug.survey.network.service.InstabugSurveysSubmitterService"/>
         <service android:name="com.instabug.crash.network.InstabugCrashesUploaderService"/>

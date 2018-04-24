@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/ViewPictureFragment$13;
+.class final Lkik/arcane/chat/fragment/ViewPictureFragment$13;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/ViewPictureFragment;
+    value = Lkik/arcane/chat/fragment/ViewPictureFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/ViewPictureFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/ViewPictureFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/ViewPictureFragment;)V
     .locals 0
 
     .prologue
     .line 941
-    iput-object p1, p0, Lkik/android/chat/fragment/ViewPictureFragment$13;->a:Lkik/android/chat/fragment/ViewPictureFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$13;->a:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -47,21 +47,21 @@
 
     const/4 v1, 0x0
 
-    iget-object v2, p0, Lkik/android/chat/fragment/ViewPictureFragment$13;->a:Lkik/android/chat/fragment/ViewPictureFragment;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$13;->a:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
-    iget-object v2, v2, Lkik/android/chat/fragment/ViewPictureFragment;->_videoViewContainer:Landroid/widget/FrameLayout;
+    iget-object v2, v2, Lkik/arcane/chat/fragment/ViewPictureFragment;->_videoViewContainer:Landroid/widget/FrameLayout;
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x1
 
-    iget-object v2, p0, Lkik/android/chat/fragment/ViewPictureFragment$13;->a:Lkik/android/chat/fragment/ViewPictureFragment;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$13;->a:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
-    iget-object v2, v2, Lkik/android/chat/fragment/ViewPictureFragment;->_videoView:Landroid/widget/VideoView;
+    iget-object v2, v2, Lkik/arcane/chat/fragment/ViewPictureFragment;->_videoView:Landroid/widget/VideoView;
 
     aput-object v2, v0, v1
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 957
     return-void

@@ -1,11 +1,11 @@
-.class public final Lkik/android/util/ca$d;
+.class public final Lkik/arcane/util/ca$d;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/util/ca;
+    value = Lkik/arcane/util/ca;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,20 +35,20 @@
     .line 179
     const/high16 v0, 0x40c00000    # 6.0f
 
-    iput v0, p0, Lkik/android/util/ca$d;->a:F
+    iput v0, p0, Lkik/arcane/util/ca$d;->a:F
 
     .line 180
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/util/ca$d;->b:F
+    iput v0, p0, Lkik/arcane/util/ca$d;->b:F
 
     .line 181
     const/high16 v0, 0x3f800000    # 1.0f
 
-    iput v0, p0, Lkik/android/util/ca$d;->c:F
+    iput v0, p0, Lkik/arcane/util/ca$d;->c:F
 
     .line 182
-    iput p1, p0, Lkik/android/util/ca$d;->d:I
+    iput p1, p0, Lkik/arcane/util/ca$d;->d:I
 
     .line 183
     return-void

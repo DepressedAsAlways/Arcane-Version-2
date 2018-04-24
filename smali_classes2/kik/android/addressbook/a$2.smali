@@ -1,4 +1,4 @@
-.class final Lkik/android/addressbook/a$2;
+.class final Lkik/arcane/addressbook/a$2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/addressbook/a;
+    value = Lkik/arcane/addressbook/a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/addressbook/a;
+.field final synthetic a:Lkik/arcane/addressbook/a;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/addressbook/a;)V
+.method constructor <init>(Lkik/arcane/addressbook/a;)V
     .locals 0
 
     .prologue
     .line 117
-    iput-object p1, p0, Lkik/android/addressbook/a$2;->a:Lkik/android/addressbook/a;
+    iput-object p1, p0, Lkik/arcane/addressbook/a$2;->a:Lkik/arcane/addressbook/a;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -54,9 +54,9 @@
     check-cast p2, Ljava/lang/String;
 
     .line 1121
-    iget-object v0, p0, Lkik/android/addressbook/a$2;->a:Lkik/android/addressbook/a;
+    iget-object v0, p0, Lkik/arcane/addressbook/a$2;->a:Lkik/arcane/addressbook/a;
 
-    invoke-static {v0}, Lkik/android/addressbook/a;->b(Lkik/android/addressbook/a;)Lkik/core/interfaces/ag;
+    invoke-static {v0}, Lkik/arcane/addressbook/a;->b(Lkik/arcane/addressbook/a;)Lkik/core/interfaces/ag;
 
     move-result-object v0
 
@@ -80,11 +80,11 @@
     if-eqz v0, :cond_1
 
     .line 1124
-    iget-object v0, p0, Lkik/android/addressbook/a$2;->a:Lkik/android/addressbook/a;
+    iget-object v0, p0, Lkik/arcane/addressbook/a$2;->a:Lkik/arcane/addressbook/a;
 
     const-string v1, "login"
 
-    invoke-static {v0, v1}, Lkik/android/addressbook/a;->a(Lkik/android/addressbook/a;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkik/arcane/addressbook/a;->a(Lkik/arcane/addressbook/a;Ljava/lang/String;)V
 
     .line 1127
     :cond_0
@@ -102,11 +102,11 @@
     if-eqz v0, :cond_2
 
     .line 1127
-    iget-object v0, p0, Lkik/android/addressbook/a$2;->a:Lkik/android/addressbook/a;
+    iget-object v0, p0, Lkik/arcane/addressbook/a$2;->a:Lkik/arcane/addressbook/a;
 
     const-string v1, "registration"
 
-    invoke-static {v0, v1}, Lkik/android/addressbook/a;->a(Lkik/android/addressbook/a;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkik/arcane/addressbook/a;->a(Lkik/arcane/addressbook/a;Ljava/lang/String;)V
 
     goto :goto_0
 
@@ -121,11 +121,11 @@
     if-eqz v0, :cond_0
 
     .line 1132
-    iget-object v0, p0, Lkik/android/addressbook/a$2;->a:Lkik/android/addressbook/a;
+    iget-object v0, p0, Lkik/arcane/addressbook/a$2;->a:Lkik/arcane/addressbook/a;
 
     const-string v1, "account-settings"
 
-    invoke-static {v0, v1}, Lkik/android/addressbook/a;->a(Lkik/android/addressbook/a;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkik/arcane/addressbook/a;->a(Lkik/arcane/addressbook/a;Ljava/lang/String;)V
 
     goto :goto_0
 .end method

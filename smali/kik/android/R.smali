@@ -1,4 +1,4 @@
-.class public final Lkik/android/R;
+.class public final Lkik/arcane/R;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,22 +6,22 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/R$styleable;,
-        Lkik/android/R$xml;,
-        Lkik/android/R$style;,
-        Lkik/android/R$string;,
-        Lkik/android/R$raw;,
-        Lkik/android/R$mipmap;,
-        Lkik/android/R$layout;,
-        Lkik/android/R$integer;,
-        Lkik/android/R$id;,
-        Lkik/android/R$drawable;,
-        Lkik/android/R$dimen;,
-        Lkik/android/R$color;,
-        Lkik/android/R$bool;,
-        Lkik/android/R$attr;,
-        Lkik/android/R$array;,
-        Lkik/android/R$animator;,
-        Lkik/android/R$anim;
+        Lkik/arcane/R$styleable;,
+        Lkik/arcane/R$xml;,
+        Lkik/arcane/R$style;,
+        Lkik/arcane/R$string;,
+        Lkik/arcane/R$raw;,
+        Lkik/arcane/R$mipmap;,
+        Lkik/arcane/R$layout;,
+        Lkik/arcane/R$integer;,
+        Lkik/arcane/R$id;,
+        Lkik/arcane/R$drawable;,
+        Lkik/arcane/R$dimen;,
+        Lkik/arcane/R$color;,
+        Lkik/arcane/R$bool;,
+        Lkik/arcane/R$attr;,
+        Lkik/arcane/R$array;,
+        Lkik/arcane/R$animator;,
+        Lkik/arcane/R$anim;
     }
 .end annotation

@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/internal/b",
         "<",
-        "Lkik/android/net/http/b;",
+        "Lkik/arcane/net/http/b;",
         ">;"
     }
 .end annotation
@@ -90,7 +90,7 @@
             ")",
             "Ldagger/internal/b",
             "<",
-            "Lkik/android/net/http/b;",
+            "Lkik/arcane/net/http/b;",
             ">;"
         }
     .end annotation
@@ -111,7 +111,7 @@
 
     .prologue
     .line 2018
-    invoke-static {}, Lkik/android/net/http/b;->a()Lkik/android/net/http/b;
+    invoke-static {}, Lkik/arcane/net/http/b;->a()Lkik/arcane/net/http/b;
 
     move-result-object v0
 
@@ -123,7 +123,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/net/http/b;
+    check-cast v0, Lkik/arcane/net/http/b;
 
     .line 8
     return-object v0

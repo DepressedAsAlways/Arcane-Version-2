@@ -1,23 +1,23 @@
-.class final synthetic Lkik/android/chat/vm/chats/profile/cw;
+.class final synthetic Lkik/arcane/chat/vm/chats/profile/cw;
 .super Ljava/lang/Object;
 
 # interfaces
-.implements Lkik/android/chat/view/ValidateableInputView$b;
+.implements Lkik/arcane/chat/view/ValidateableInputView$b;
 
 
 # static fields
-.field private static final a:Lkik/android/chat/vm/chats/profile/cw;
+.field private static final a:Lkik/arcane/chat/vm/chats/profile/cw;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/chats/profile/cw;
+    new-instance v0, Lkik/arcane/chat/vm/chats/profile/cw;
 
-    invoke-direct {v0}, Lkik/android/chat/vm/chats/profile/cw;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/vm/chats/profile/cw;-><init>()V
 
-    sput-object v0, Lkik/android/chat/vm/chats/profile/cw;->a:Lkik/android/chat/vm/chats/profile/cw;
+    sput-object v0, Lkik/arcane/chat/vm/chats/profile/cw;->a:Lkik/arcane/chat/vm/chats/profile/cw;
 
     return-void
 .end method
@@ -30,10 +30,10 @@
     return-void
 .end method
 
-.method public static a()Lkik/android/chat/view/ValidateableInputView$b;
+.method public static a()Lkik/arcane/chat/view/ValidateableInputView$b;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/vm/chats/profile/cw;->a:Lkik/android/chat/vm/chats/profile/cw;
+    sget-object v0, Lkik/arcane/chat/vm/chats/profile/cw;->a:Lkik/arcane/chat/vm/chats/profile/cw;
 
     return-object v0
 .end method
@@ -54,7 +54,7 @@
 
     if-gt v0, v1, :cond_0
 
-    invoke-static {p1}, Lkik/android/util/br;->a(Ljava/lang/CharSequence;)Z
+    invoke-static {p1}, Lkik/arcane/util/br;->a(Ljava/lang/CharSequence;)Z
 
     move-result v0
 

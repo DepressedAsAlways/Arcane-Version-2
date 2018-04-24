@@ -1,20 +1,20 @@
-.class public final Lkik/android/chat/vm/widget/ak;
-.super Lkik/android/chat/vm/widget/SmileyItemViewModel;
+.class public final Lkik/arcane/chat/vm/widget/ak;
+.super Lkik/arcane/chat/vm/widget/SmileyItemViewModel;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/widget/ISmileyPopupItemViewModel;
+.implements Lkik/arcane/chat/vm/widget/ISmileyPopupItemViewModel;
 
 
 # direct methods
-.method public constructor <init>(Lcom/kik/android/b/g$b;Lkik/android/chat/presentation/MediaTrayPresenterImpl$b;)V
+.method public constructor <init>(Lcom/kik/arcane/b/g$b;Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$b;)V
     .locals 1
 
     .prologue
     .line 25
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/chat/vm/widget/SmileyItemViewModel;-><init>(Lcom/kik/android/b/g$b;Lkik/android/chat/presentation/MediaTrayPresenterImpl$b;Lrx/subjects/PublishSubject;)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/chat/vm/widget/SmileyItemViewModel;-><init>(Lcom/kik/arcane/b/g$b;Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$b;Lrx/subjects/PublishSubject;)V
 
     .line 26
     return-void
@@ -22,15 +22,15 @@
 
 
 # virtual methods
-.method public final a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+.method public final a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
     .locals 0
 
     .prologue
     .line 19
-    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/vm/widget/SmileyItemViewModel;)V
+    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/vm/widget/SmileyItemViewModel;)V
 
     .line 20
-    invoke-super {p0, p1, p2}, Lkik/android/chat/vm/widget/SmileyItemViewModel;->b(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+    invoke-super {p0, p1, p2}, Lkik/arcane/chat/vm/widget/SmileyItemViewModel;->b(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
 
     .line 21
     return-void
@@ -41,9 +41,9 @@
 
     .prologue
     .line 31
-    sget-object v0, Lkik/android/chat/vm/widget/ISmileyPopupItemViewModel$PopupItemID;->SMILEY:Lkik/android/chat/vm/widget/ISmileyPopupItemViewModel$PopupItemID;
+    sget-object v0, Lkik/arcane/chat/vm/widget/ISmileyPopupItemViewModel$PopupItemID;->SMILEY:Lkik/arcane/chat/vm/widget/ISmileyPopupItemViewModel$PopupItemID;
 
-    invoke-virtual {v0}, Lkik/android/chat/vm/widget/ISmileyPopupItemViewModel$PopupItemID;->getId()J
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/widget/ISmileyPopupItemViewModel$PopupItemID;->getId()J
 
     move-result-wide v0
 

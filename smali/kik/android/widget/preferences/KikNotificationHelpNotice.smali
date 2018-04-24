@@ -1,10 +1,10 @@
-.class public Lkik/android/widget/preferences/KikNotificationHelpNotice;
-.super Lkik/android/widget/preferences/KikPreference;
+.class public Lkik/arcane/widget/preferences/KikNotificationHelpNotice;
+.super Lkik/arcane/widget/preferences/KikPreference;
 .source "SourceFile"
 
 
 # instance fields
-.field _summaryTextView:Lkik/android/widget/RobotoTextView;
+.field _summaryTextView:Lkik/arcane/widget/RobotoTextView;
     .annotation build Lbutterknife/BindView;
         value = 0x7f10038b
     .end annotation
@@ -24,12 +24,12 @@
     .line 42
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/preferences/KikPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/preferences/KikPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
 
     .line 43
     const v0, 0x7f040138
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/preferences/KikNotificationHelpNotice;->setLayoutResource(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/preferences/KikNotificationHelpNotice;->setLayoutResource(I)V
 
     .line 44
     return-void
@@ -42,10 +42,10 @@
 
     .prologue
     .line 49
-    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/widget/preferences/KikNotificationHelpNotice;)V
+    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/widget/preferences/KikNotificationHelpNotice;)V
 
     .line 50
-    invoke-super {p0, p1}, Lkik/android/widget/preferences/KikPreference;->a(Lcom/kik/components/CoreComponent;)V
+    invoke-super {p0, p1}, Lkik/arcane/widget/preferences/KikPreference;->a(Lcom/kik/components/CoreComponent;)V
 
     .line 51
     return-void
@@ -56,14 +56,14 @@
 
     .prologue
     .line 56
-    invoke-super {p0, p1}, Lkik/android/widget/preferences/KikPreference;->onBindView(Landroid/view/View;)V
+    invoke-super {p0, p1}, Lkik/arcane/widget/preferences/KikPreference;->onBindView(Landroid/view/View;)V
 
     .line 58
-    invoke-virtual {p0}, Lkik/android/widget/preferences/KikNotificationHelpNotice;->a()Lkik/android/chat/fragment/KikScopedDialogFragment;
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/KikNotificationHelpNotice;->a()Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikScopedDialogFragment;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -136,9 +136,9 @@
     invoke-virtual {v3, v4, v0, v1, v2}, Landroid/text/SpannableString;->setSpan(Ljava/lang/Object;III)V
 
     .line 68
-    iget-object v0, p0, Lkik/android/widget/preferences/KikNotificationHelpNotice;->_summaryTextView:Lkik/android/widget/RobotoTextView;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/KikNotificationHelpNotice;->_summaryTextView:Lkik/arcane/widget/RobotoTextView;
 
-    invoke-virtual {v0, v3}, Lkik/android/widget/RobotoTextView;->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v3}, Lkik/arcane/widget/RobotoTextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 69
     return-void
@@ -151,7 +151,7 @@
     const/4 v2, 0x1
 
     .line 74
-    iget-object v0, p0, Lkik/android/widget/preferences/KikNotificationHelpNotice;->a:Lcom/kik/metrics/c/d;
+    iget-object v0, p0, Lkik/arcane/widget/preferences/KikNotificationHelpNotice;->a:Lcom/kik/metrics/c/d;
 
     invoke-static {}, Lcom/kik/metrics/b/al;->b()Lcom/kik/metrics/b/al$a;
 
@@ -164,23 +164,23 @@
     invoke-virtual {v0, v1}, Lcom/kik/metrics/c/d;->a(Lcom/kik/metrics/b/t;)V
 
     .line 76
-    new-instance v0, Lkik/android/chat/vm/cc;
+    new-instance v0, Lkik/arcane/chat/vm/cc;
 
-    invoke-virtual {p0}, Lkik/android/widget/preferences/KikNotificationHelpNotice;->a()Lkik/android/chat/fragment/KikScopedDialogFragment;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Lkik/android/chat/fragment/KikScopedDialogFragment;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/widget/preferences/KikNotificationHelpNotice;->a()Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Lkik/android/chat/vm/cc;-><init>(Landroid/content/Context;)V
+    invoke-virtual {v1}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->getContext()Landroid/content/Context;
 
-    new-instance v1, Lkik/android/widget/preferences/KikNotificationHelpNotice$1;
+    move-result-object v1
 
-    invoke-direct {v1, p0}, Lkik/android/widget/preferences/KikNotificationHelpNotice$1;-><init>(Lkik/android/widget/preferences/KikNotificationHelpNotice;)V
+    invoke-direct {v0, v1}, Lkik/arcane/chat/vm/cc;-><init>(Landroid/content/Context;)V
 
-    invoke-virtual {v0, v1, v2}, Lkik/android/chat/vm/cc;->a(Lkik/android/chat/vm/bx;Z)Lrx/d;
+    new-instance v1, Lkik/arcane/widget/preferences/KikNotificationHelpNotice$1;
+
+    invoke-direct {v1, p0}, Lkik/arcane/widget/preferences/KikNotificationHelpNotice$1;-><init>(Lkik/arcane/widget/preferences/KikNotificationHelpNotice;)V
+
+    invoke-virtual {v0, v1, v2}, Lkik/arcane/chat/vm/cc;->a(Lkik/arcane/chat/vm/bx;Z)Lrx/d;
 
     .line 109
     return v2

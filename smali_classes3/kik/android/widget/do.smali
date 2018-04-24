@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/widget/do;
+.class final synthetic Lkik/arcane/widget/do;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/widget/dn;
+.field private final a:Lkik/arcane/widget/dn;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/widget/dn;)V
+.method private constructor <init>(Lkik/arcane/widget/dn;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/widget/do;->a:Lkik/android/widget/dn;
+    iput-object p1, p0, Lkik/arcane/widget/do;->a:Lkik/arcane/widget/dn;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/dn;)Lrx/functions/b;
+.method public static a(Lkik/arcane/widget/dn;)Lrx/functions/b;
     .locals 1
 
-    new-instance v0, Lkik/android/widget/do;
+    new-instance v0, Lkik/arcane/widget/do;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/do;-><init>(Lkik/android/widget/dn;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/do;-><init>(Lkik/arcane/widget/dn;)V
 
     return-object v0
 .end method
@@ -35,11 +35,11 @@
 .method public final call(Ljava/lang/Object;)V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/widget/do;->a:Lkik/android/widget/dn;
+    iget-object v0, p0, Lkik/arcane/widget/do;->a:Lkik/arcane/widget/dn;
 
-    check-cast p1, Lkik/android/chat/vm/IListViewModel$a;
+    check-cast p1, Lkik/arcane/chat/vm/IListViewModel$a;
 
-    invoke-static {v0, p1}, Lkik/android/widget/dn;->a(Lkik/android/widget/dn;Lkik/android/chat/vm/IListViewModel$a;)V
+    invoke-static {v0, p1}, Lkik/arcane/widget/dn;->a(Lkik/arcane/widget/dn;Lkik/arcane/chat/vm/IListViewModel$a;)V
 
     return-void
 .end method

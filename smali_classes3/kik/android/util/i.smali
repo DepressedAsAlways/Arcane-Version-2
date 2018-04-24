@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/i;
+.class public final Lkik/arcane/util/i;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -46,7 +46,7 @@
     if-eqz v4, :cond_0
 
     .line 26
-    invoke-static {v4, p1}, Lkik/android/util/i;->a(Lkik/core/datatypes/c;Lkik/core/interfaces/v;)Lkik/core/datatypes/l;
+    invoke-static {v4, p1}, Lkik/arcane/util/i;->a(Lkik/core/datatypes/c;Lkik/core/interfaces/v;)Lkik/core/datatypes/l;
 
     move-result-object v4
 

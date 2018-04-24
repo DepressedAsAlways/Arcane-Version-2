@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/vm/messaging/a$1;
+.class final Lkik/arcane/chat/vm/messaging/a$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/messaging/a;->a(ZZ)V
+    value = Lkik/arcane/chat/vm/messaging/a;->a(ZZ)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,18 +26,18 @@
 # instance fields
 .field final synthetic a:Z
 
-.field final synthetic b:Lkik/android/chat/vm/messaging/a;
+.field final synthetic b:Lkik/arcane/chat/vm/messaging/a;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/messaging/a;Z)V
+.method constructor <init>(Lkik/arcane/chat/vm/messaging/a;Z)V
     .locals 0
 
     .prologue
     .line 75
-    iput-object p1, p0, Lkik/android/chat/vm/messaging/a$1;->b:Lkik/android/chat/vm/messaging/a;
+    iput-object p1, p0, Lkik/arcane/chat/vm/messaging/a$1;->b:Lkik/arcane/chat/vm/messaging/a;
 
-    iput-boolean p2, p0, Lkik/android/chat/vm/messaging/a$1;->a:Z
+    iput-boolean p2, p0, Lkik/arcane/chat/vm/messaging/a$1;->a:Z
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -61,11 +61,11 @@
     if-eqz v0, :cond_0
 
     .line 1080
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/a$1;->b:Lkik/android/chat/vm/messaging/a;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/a$1;->b:Lkik/arcane/chat/vm/messaging/a;
 
-    iget-boolean v1, p0, Lkik/android/chat/vm/messaging/a$1;->a:Z
+    iget-boolean v1, p0, Lkik/arcane/chat/vm/messaging/a$1;->a:Z
 
-    invoke-static {v0, v1}, Lkik/android/chat/vm/messaging/a;->a(Lkik/android/chat/vm/messaging/a;Z)V
+    invoke-static {v0, v1}, Lkik/arcane/chat/vm/messaging/a;->a(Lkik/arcane/chat/vm/messaging/a;Z)V
 
     .line 75
     :cond_0

@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/MissedConversationsFragment$2;
+.class final Lkik/arcane/chat/fragment/MissedConversationsFragment$2;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/MissedConversationsFragment;->a(Z)V
+    value = Lkik/arcane/chat/fragment/MissedConversationsFragment;->a(Z)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,22 +26,22 @@
 # instance fields
 .field final synthetic a:Z
 
-.field final synthetic b:Lkik/android/chat/fragment/KikDialogFragment;
+.field final synthetic b:Lkik/arcane/chat/fragment/KikDialogFragment;
 
-.field final synthetic c:Lkik/android/chat/fragment/MissedConversationsFragment;
+.field final synthetic c:Lkik/arcane/chat/fragment/MissedConversationsFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/MissedConversationsFragment;ZLkik/android/chat/fragment/KikDialogFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/MissedConversationsFragment;ZLkik/arcane/chat/fragment/KikDialogFragment;)V
     .locals 0
 
     .prologue
     .line 321
-    iput-object p1, p0, Lkik/android/chat/fragment/MissedConversationsFragment$2;->c:Lkik/android/chat/fragment/MissedConversationsFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment$2;->c:Lkik/arcane/chat/fragment/MissedConversationsFragment;
 
-    iput-boolean p2, p0, Lkik/android/chat/fragment/MissedConversationsFragment$2;->a:Z
+    iput-boolean p2, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment$2;->a:Z
 
-    iput-object p3, p0, Lkik/android/chat/fragment/MissedConversationsFragment$2;->b:Lkik/android/chat/fragment/KikDialogFragment;
+    iput-object p3, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment$2;->b:Lkik/arcane/chat/fragment/KikDialogFragment;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -56,40 +56,40 @@
     .prologue
     .line 321
     .line 1325
-    iget-boolean v0, p0, Lkik/android/chat/fragment/MissedConversationsFragment$2;->a:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment$2;->a:Z
 
     if-eqz v0, :cond_0
 
     .line 1326
-    iget-object v0, p0, Lkik/android/chat/fragment/MissedConversationsFragment$2;->c:Lkik/android/chat/fragment/MissedConversationsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment$2;->c:Lkik/arcane/chat/fragment/MissedConversationsFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/MissedConversationsFragment;->f(Lkik/android/chat/fragment/MissedConversationsFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/MissedConversationsFragment;->f(Lkik/arcane/chat/fragment/MissedConversationsFragment;)V
 
     .line 1332
     :goto_0
-    invoke-static {}, Lkik/android/chat/KikApplication;->i()V
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->i()V
 
     .line 321
     return-void
 
     .line 1329
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/MissedConversationsFragment$2;->c:Lkik/android/chat/fragment/MissedConversationsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment$2;->c:Lkik/arcane/chat/fragment/MissedConversationsFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/MissedConversationsFragment;->g(Lkik/android/chat/fragment/MissedConversationsFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/MissedConversationsFragment;->g(Lkik/arcane/chat/fragment/MissedConversationsFragment;)V
 
     .line 1330
-    iget-object v0, p0, Lkik/android/chat/fragment/MissedConversationsFragment$2;->c:Lkik/android/chat/fragment/MissedConversationsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment$2;->c:Lkik/arcane/chat/fragment/MissedConversationsFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/MissedConversationsFragment;->getContext()Landroid/content/Context;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/MissedConversationsFragment;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/chat/fragment/MissedConversationsFragment$2;->c:Lkik/android/chat/fragment/MissedConversationsFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment$2;->c:Lkik/arcane/chat/fragment/MissedConversationsFragment;
 
     const v2, 0x7f0905d1
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/MissedConversationsFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/MissedConversationsFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -109,17 +109,17 @@
 
     .prologue
     .line 338
-    iget-object v0, p0, Lkik/android/chat/fragment/MissedConversationsFragment$2;->c:Lkik/android/chat/fragment/MissedConversationsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment$2;->c:Lkik/arcane/chat/fragment/MissedConversationsFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/MissedConversationsFragment;->getContext()Landroid/content/Context;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/MissedConversationsFragment;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/chat/fragment/MissedConversationsFragment$2;->c:Lkik/android/chat/fragment/MissedConversationsFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment$2;->c:Lkik/arcane/chat/fragment/MissedConversationsFragment;
 
     const v2, 0x7f090395
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/MissedConversationsFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/MissedConversationsFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -132,13 +132,13 @@
     invoke-virtual {v0}, Landroid/widget/Toast;->show()V
 
     .line 340
-    iget-object v0, p0, Lkik/android/chat/fragment/MissedConversationsFragment$2;->c:Lkik/android/chat/fragment/MissedConversationsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment$2;->c:Lkik/arcane/chat/fragment/MissedConversationsFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/MissedConversationsFragment;->_mixpanel:Lcom/kik/android/Mixpanel;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/MissedConversationsFragment;->_mixpanel:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Mute New Chats Timed Out"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -147,17 +147,17 @@
     const-string v2, "New Chats"
 
     .line 341
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 342
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 343
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 344
     return-void
@@ -168,9 +168,9 @@
 
     .prologue
     .line 349
-    iget-object v0, p0, Lkik/android/chat/fragment/MissedConversationsFragment$2;->b:Lkik/android/chat/fragment/KikDialogFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MissedConversationsFragment$2;->b:Lkik/arcane/chat/fragment/KikDialogFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikDialogFragment;->dismiss()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikDialogFragment;->dismiss()V
 
     .line 350
     return-void

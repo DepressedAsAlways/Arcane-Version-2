@@ -1,4 +1,4 @@
-.class public final Lkik/android/widget/GifWidget_MembersInjector;
+.class public final Lkik/arcane/widget/GifWidget_MembersInjector;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -12,7 +12,7 @@
         "Ljava/lang/Object;",
         "Ldagger/b",
         "<",
-        "Lkik/android/widget/GifWidget;",
+        "Lkik/arcane/widget/GifWidget;",
         ">;"
     }
 .end annotation
@@ -50,7 +50,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -83,7 +83,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/JoinGifTrayHelper;",
+            "Lkik/arcane/chat/JoinGifTrayHelper;",
             ">;"
         }
     .end annotation
@@ -96,7 +96,7 @@
 
     .prologue
     .line 13
-    const-class v0, Lkik/android/widget/GifWidget_MembersInjector;
+    const-class v0, Lkik/arcane/widget/GifWidget_MembersInjector;
 
     invoke-virtual {v0}, Ljava/lang/Class;->desiredAssertionStatus()Z
 
@@ -107,7 +107,7 @@
     const/4 v0, 0x1
 
     :goto_0
-    sput-boolean v0, Lkik/android/widget/GifWidget_MembersInjector;->a:Z
+    sput-boolean v0, Lkik/arcane/widget/GifWidget_MembersInjector;->a:Z
 
     return-void
 
@@ -132,7 +132,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -144,7 +144,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/JoinGifTrayHelper;",
+            "Lkik/arcane/chat/JoinGifTrayHelper;",
             ">;)V"
         }
     .end annotation
@@ -154,7 +154,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 37
-    sget-boolean v0, Lkik/android/widget/GifWidget_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/widget/GifWidget_MembersInjector;->a:Z
 
     if-nez v0, :cond_0
 
@@ -168,10 +168,10 @@
 
     .line 38
     :cond_0
-    iput-object p1, p0, Lkik/android/widget/GifWidget_MembersInjector;->b:Ljavax/inject/Provider;
+    iput-object p1, p0, Lkik/arcane/widget/GifWidget_MembersInjector;->b:Ljavax/inject/Provider;
 
     .line 39
-    sget-boolean v0, Lkik/android/widget/GifWidget_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/widget/GifWidget_MembersInjector;->a:Z
 
     if-nez v0, :cond_1
 
@@ -185,10 +185,10 @@
 
     .line 40
     :cond_1
-    iput-object p2, p0, Lkik/android/widget/GifWidget_MembersInjector;->c:Ljavax/inject/Provider;
+    iput-object p2, p0, Lkik/arcane/widget/GifWidget_MembersInjector;->c:Ljavax/inject/Provider;
 
     .line 41
-    sget-boolean v0, Lkik/android/widget/GifWidget_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/widget/GifWidget_MembersInjector;->a:Z
 
     if-nez v0, :cond_2
 
@@ -202,10 +202,10 @@
 
     .line 42
     :cond_2
-    iput-object p3, p0, Lkik/android/widget/GifWidget_MembersInjector;->d:Ljavax/inject/Provider;
+    iput-object p3, p0, Lkik/arcane/widget/GifWidget_MembersInjector;->d:Ljavax/inject/Provider;
 
     .line 43
-    sget-boolean v0, Lkik/android/widget/GifWidget_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/widget/GifWidget_MembersInjector;->a:Z
 
     if-nez v0, :cond_3
 
@@ -219,10 +219,10 @@
 
     .line 44
     :cond_3
-    iput-object p4, p0, Lkik/android/widget/GifWidget_MembersInjector;->e:Ljavax/inject/Provider;
+    iput-object p4, p0, Lkik/arcane/widget/GifWidget_MembersInjector;->e:Ljavax/inject/Provider;
 
     .line 45
-    sget-boolean v0, Lkik/android/widget/GifWidget_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/widget/GifWidget_MembersInjector;->a:Z
 
     if-nez v0, :cond_4
 
@@ -236,10 +236,10 @@
 
     .line 46
     :cond_4
-    iput-object p5, p0, Lkik/android/widget/GifWidget_MembersInjector;->f:Ljavax/inject/Provider;
+    iput-object p5, p0, Lkik/arcane/widget/GifWidget_MembersInjector;->f:Ljavax/inject/Provider;
 
     .line 47
-    sget-boolean v0, Lkik/android/widget/GifWidget_MembersInjector;->a:Z
+    sget-boolean v0, Lkik/arcane/widget/GifWidget_MembersInjector;->a:Z
 
     if-nez v0, :cond_5
 
@@ -253,7 +253,7 @@
 
     .line 48
     :cond_5
-    iput-object p6, p0, Lkik/android/widget/GifWidget_MembersInjector;->g:Ljavax/inject/Provider;
+    iput-object p6, p0, Lkik/arcane/widget/GifWidget_MembersInjector;->g:Ljavax/inject/Provider;
 
     .line 49
     return-void
@@ -274,7 +274,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -286,18 +286,18 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/chat/JoinGifTrayHelper;",
+            "Lkik/arcane/chat/JoinGifTrayHelper;",
             ">;)",
             "Ldagger/b",
             "<",
-            "Lkik/android/widget/GifWidget;",
+            "Lkik/arcane/widget/GifWidget;",
             ">;"
         }
     .end annotation
 
     .prologue
     .line 58
-    new-instance v0, Lkik/android/widget/GifWidget_MembersInjector;
+    new-instance v0, Lkik/arcane/widget/GifWidget_MembersInjector;
 
     move-object v1, p0
 
@@ -311,7 +311,7 @@
 
     move-object v6, p5
 
-    invoke-direct/range {v0 .. v6}, Lkik/android/widget/GifWidget_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
+    invoke-direct/range {v0 .. v6}, Lkik/arcane/widget/GifWidget_MembersInjector;-><init>(Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;Ljavax/inject/Provider;)V
 
     return-object v0
 .end method
@@ -323,7 +323,7 @@
 
     .prologue
     .line 13
-    check-cast p1, Lkik/android/widget/GifWidget;
+    check-cast p1, Lkik/arcane/widget/GifWidget;
 
     .line 1069
     if-nez p1, :cond_0
@@ -339,28 +339,28 @@
 
     .line 1072
     :cond_0
-    iget-object v0, p0, Lkik/android/widget/GifWidget_MembersInjector;->b:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/widget/GifWidget_MembersInjector;->b:Ljavax/inject/Provider;
 
-    invoke-static {p1, v0}, Lkik/android/chat/fragment/KikScopedDialogFragment_MembersInjector;->a(Lkik/android/chat/fragment/KikScopedDialogFragment;Ljavax/inject/Provider;)V
+    invoke-static {p1, v0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment_MembersInjector;->a(Lkik/arcane/chat/fragment/KikScopedDialogFragment;Ljavax/inject/Provider;)V
 
     .line 1074
-    iget-object v0, p0, Lkik/android/widget/GifWidget_MembersInjector;->c:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/widget/GifWidget_MembersInjector;->c:Ljavax/inject/Provider;
 
-    invoke-static {p1, v0}, Lkik/android/chat/fragment/KikScopedDialogFragment_MembersInjector;->b(Lkik/android/chat/fragment/KikScopedDialogFragment;Ljavax/inject/Provider;)V
+    invoke-static {p1, v0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment_MembersInjector;->b(Lkik/arcane/chat/fragment/KikScopedDialogFragment;Ljavax/inject/Provider;)V
 
     .line 1076
-    iget-object v0, p0, Lkik/android/widget/GifWidget_MembersInjector;->d:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/widget/GifWidget_MembersInjector;->d:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/Mixpanel;
+    check-cast v0, Lcom/kik/arcane/Mixpanel;
 
-    iput-object v0, p1, Lkik/android/widget/GifWidget;->a:Lcom/kik/android/Mixpanel;
+    iput-object v0, p1, Lkik/arcane/widget/GifWidget;->a:Lcom/kik/arcane/Mixpanel;
 
     .line 1077
-    iget-object v0, p0, Lkik/android/widget/GifWidget_MembersInjector;->e:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/widget/GifWidget_MembersInjector;->e:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -368,10 +368,10 @@
 
     check-cast v0, Lkik/core/interfaces/ICommunication;
 
-    iput-object v0, p1, Lkik/android/widget/GifWidget;->b:Lkik/core/interfaces/ICommunication;
+    iput-object v0, p1, Lkik/arcane/widget/GifWidget;->b:Lkik/core/interfaces/ICommunication;
 
     .line 1078
-    iget-object v0, p0, Lkik/android/widget/GifWidget_MembersInjector;->f:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/widget/GifWidget_MembersInjector;->f:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
@@ -379,18 +379,18 @@
 
     check-cast v0, Lkik/core/e/e;
 
-    iput-object v0, p1, Lkik/android/widget/GifWidget;->c:Lkik/core/e/e;
+    iput-object v0, p1, Lkik/arcane/widget/GifWidget;->c:Lkik/core/e/e;
 
     .line 1079
-    iget-object v0, p0, Lkik/android/widget/GifWidget_MembersInjector;->g:Ljavax/inject/Provider;
+    iget-object v0, p0, Lkik/arcane/widget/GifWidget_MembersInjector;->g:Ljavax/inject/Provider;
 
     invoke-interface {v0}, Ljavax/inject/Provider;->get()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/JoinGifTrayHelper;
+    check-cast v0, Lkik/arcane/chat/JoinGifTrayHelper;
 
-    iput-object v0, p1, Lkik/android/widget/GifWidget;->d:Lkik/android/chat/JoinGifTrayHelper;
+    iput-object v0, p1, Lkik/arcane/widget/GifWidget;->d:Lkik/arcane/chat/JoinGifTrayHelper;
 
     .line 13
     return-void

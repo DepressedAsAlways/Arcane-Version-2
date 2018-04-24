@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/KikAddToBlockFragment$3;
+.class final Lkik/arcane/chat/fragment/KikAddToBlockFragment$3;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/KikAddToBlockFragment;->c(Ljava/lang/String;Ljava/lang/String;)V
+    value = Lkik/arcane/chat/fragment/KikAddToBlockFragment;->c(Ljava/lang/String;Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikAddToBlockFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikAddToBlockFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikAddToBlockFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikAddToBlockFragment;)V
     .locals 0
 
     .prologue
     .line 71
-    iput-object p1, p0, Lkik/android/chat/fragment/KikAddToBlockFragment$3;->a:Lkik/android/chat/fragment/KikAddToBlockFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikAddToBlockFragment$3;->a:Lkik/arcane/chat/fragment/KikAddToBlockFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

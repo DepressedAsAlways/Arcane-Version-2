@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/widget/cs;
+.class final synthetic Lkik/arcane/widget/cs;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/widget/ProgressWheel;
+.field private final a:Lkik/arcane/widget/ProgressWheel;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/widget/ProgressWheel;)V
+.method private constructor <init>(Lkik/arcane/widget/ProgressWheel;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/widget/cs;->a:Lkik/android/widget/ProgressWheel;
+    iput-object p1, p0, Lkik/arcane/widget/cs;->a:Lkik/arcane/widget/ProgressWheel;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/widget/ProgressWheel;)Lrx/functions/b;
+.method public static a(Lkik/arcane/widget/ProgressWheel;)Lrx/functions/b;
     .locals 1
 
-    new-instance v0, Lkik/android/widget/cs;
+    new-instance v0, Lkik/arcane/widget/cs;
 
-    invoke-direct {v0, p0}, Lkik/android/widget/cs;-><init>(Lkik/android/widget/ProgressWheel;)V
+    invoke-direct {v0, p0}, Lkik/arcane/widget/cs;-><init>(Lkik/arcane/widget/ProgressWheel;)V
 
     return-object v0
 .end method
@@ -35,11 +35,11 @@
 .method public final call(Ljava/lang/Object;)V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/widget/cs;->a:Lkik/android/widget/ProgressWheel;
+    iget-object v0, p0, Lkik/arcane/widget/cs;->a:Lkik/arcane/widget/ProgressWheel;
 
     check-cast p1, Ljava/lang/Float;
 
-    invoke-static {v0, p1}, Lkik/android/widget/ProgressWheel;->a(Lkik/android/widget/ProgressWheel;Ljava/lang/Float;)V
+    invoke-static {v0, p1}, Lkik/arcane/widget/ProgressWheel;->a(Lkik/arcane/widget/ProgressWheel;Ljava/lang/Float;)V
 
     return-void
 .end method

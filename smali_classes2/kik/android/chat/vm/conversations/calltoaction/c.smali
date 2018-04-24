@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/conversations/calltoaction/c;
+.class final synthetic Lkik/arcane/chat/vm/conversations/calltoaction/c;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/vm/conversations/calltoaction/c;
+.field private static final a:Lkik/arcane/chat/vm/conversations/calltoaction/c;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/conversations/calltoaction/c;
+    new-instance v0, Lkik/arcane/chat/vm/conversations/calltoaction/c;
 
-    invoke-direct {v0}, Lkik/android/chat/vm/conversations/calltoaction/c;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/vm/conversations/calltoaction/c;-><init>()V
 
-    sput-object v0, Lkik/android/chat/vm/conversations/calltoaction/c;->a:Lkik/android/chat/vm/conversations/calltoaction/c;
+    sput-object v0, Lkik/arcane/chat/vm/conversations/calltoaction/c;->a:Lkik/arcane/chat/vm/conversations/calltoaction/c;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lrx/functions/b;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/vm/conversations/calltoaction/c;->a:Lkik/android/chat/vm/conversations/calltoaction/c;
+    sget-object v0, Lkik/arcane/chat/vm/conversations/calltoaction/c;->a:Lkik/arcane/chat/vm/conversations/calltoaction/c;
 
     return-object v0
 .end method

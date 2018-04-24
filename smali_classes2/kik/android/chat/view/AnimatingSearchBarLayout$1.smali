@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/view/AnimatingSearchBarLayout$1;
+.class final Lkik/arcane/chat/view/AnimatingSearchBarLayout$1;
 .super Landroid/support/v7/widget/RecyclerView$OnScrollListener;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/view/AnimatingSearchBarLayout;
+    value = Lkik/arcane/chat/view/AnimatingSearchBarLayout;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,16 +15,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/view/AnimatingSearchBarLayout;
+.field final synthetic a:Lkik/arcane/chat/view/AnimatingSearchBarLayout;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/view/AnimatingSearchBarLayout;)V
+.method constructor <init>(Lkik/arcane/chat/view/AnimatingSearchBarLayout;)V
     .locals 0
 
     .prologue
     .line 128
-    iput-object p1, p0, Lkik/android/chat/view/AnimatingSearchBarLayout$1;->a:Lkik/android/chat/view/AnimatingSearchBarLayout;
+    iput-object p1, p0, Lkik/arcane/chat/view/AnimatingSearchBarLayout$1;->a:Lkik/arcane/chat/view/AnimatingSearchBarLayout;
 
     invoke-direct {p0}, Landroid/support/v7/widget/RecyclerView$OnScrollListener;-><init>()V
 
@@ -38,18 +38,18 @@
 
     .prologue
     .line 148
-    iget-object v0, p0, Lkik/android/chat/view/AnimatingSearchBarLayout$1;->a:Lkik/android/chat/view/AnimatingSearchBarLayout;
+    iget-object v0, p0, Lkik/arcane/chat/view/AnimatingSearchBarLayout$1;->a:Lkik/arcane/chat/view/AnimatingSearchBarLayout;
 
-    invoke-static {v0}, Lkik/android/chat/view/AnimatingSearchBarLayout;->c(Lkik/android/chat/view/AnimatingSearchBarLayout;)Lkik/android/chat/view/TransitionableSearchBarViewImpl;
+    invoke-static {v0}, Lkik/arcane/chat/view/AnimatingSearchBarLayout;->c(Lkik/arcane/chat/view/AnimatingSearchBarLayout;)Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->clearFocus()V
+    invoke-virtual {v0}, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->clearFocus()V
 
     .line 149
-    iget-object v0, p0, Lkik/android/chat/view/AnimatingSearchBarLayout$1;->a:Lkik/android/chat/view/AnimatingSearchBarLayout;
+    iget-object v0, p0, Lkik/arcane/chat/view/AnimatingSearchBarLayout$1;->a:Lkik/arcane/chat/view/AnimatingSearchBarLayout;
 
-    invoke-static {v0}, Lkik/android/chat/view/AnimatingSearchBarLayout;->d(Lkik/android/chat/view/AnimatingSearchBarLayout;)V
+    invoke-static {v0}, Lkik/arcane/chat/view/AnimatingSearchBarLayout;->d(Lkik/arcane/chat/view/AnimatingSearchBarLayout;)V
 
     .line 150
     return-void
@@ -60,20 +60,20 @@
 
     .prologue
     .line 132
-    iget-object v0, p0, Lkik/android/chat/view/AnimatingSearchBarLayout$1;->a:Lkik/android/chat/view/AnimatingSearchBarLayout;
+    iget-object v0, p0, Lkik/arcane/chat/view/AnimatingSearchBarLayout$1;->a:Lkik/arcane/chat/view/AnimatingSearchBarLayout;
 
-    invoke-static {v0}, Lkik/android/chat/view/AnimatingSearchBarLayout;->a(Lkik/android/chat/view/AnimatingSearchBarLayout;)Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;
+    invoke-static {v0}, Lkik/arcane/chat/view/AnimatingSearchBarLayout;->a(Lkik/arcane/chat/view/AnimatingSearchBarLayout;)Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;
 
     move-result-object v0
 
-    sget-object v1, Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;->EXIT:Lkik/android/chat/view/AnimatingSearchBarLayout$SearchState;
+    sget-object v1, Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;->EXIT:Lkik/arcane/chat/view/AnimatingSearchBarLayout$SearchState;
 
     if-ne v0, v1, :cond_0
 
     .line 133
-    iget-object v0, p0, Lkik/android/chat/view/AnimatingSearchBarLayout$1;->a:Lkik/android/chat/view/AnimatingSearchBarLayout;
+    iget-object v0, p0, Lkik/arcane/chat/view/AnimatingSearchBarLayout$1;->a:Lkik/arcane/chat/view/AnimatingSearchBarLayout;
 
-    invoke-static {v0}, Lkik/android/chat/view/AnimatingSearchBarLayout;->b(Lkik/android/chat/view/AnimatingSearchBarLayout;)Landroid/support/v7/widget/RecyclerView;
+    invoke-static {v0}, Lkik/arcane/chat/view/AnimatingSearchBarLayout;->b(Lkik/arcane/chat/view/AnimatingSearchBarLayout;)Landroid/support/v7/widget/RecyclerView;
 
     move-result-object v0
 
@@ -92,15 +92,15 @@
     if-lez v0, :cond_1
 
     .line 136
-    iget-object v0, p0, Lkik/android/chat/view/AnimatingSearchBarLayout$1;->a:Lkik/android/chat/view/AnimatingSearchBarLayout;
+    iget-object v0, p0, Lkik/arcane/chat/view/AnimatingSearchBarLayout$1;->a:Lkik/arcane/chat/view/AnimatingSearchBarLayout;
 
-    invoke-static {v0}, Lkik/android/chat/view/AnimatingSearchBarLayout;->c(Lkik/android/chat/view/AnimatingSearchBarLayout;)Lkik/android/chat/view/TransitionableSearchBarViewImpl;
+    invoke-static {v0}, Lkik/arcane/chat/view/AnimatingSearchBarLayout;->c(Lkik/arcane/chat/view/AnimatingSearchBarLayout;)Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;
 
     move-result-object v0
 
     const/high16 v1, 0x3f800000    # 1.0f
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->a(F)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->a(F)V
 
     .line 143
     :cond_0
@@ -109,9 +109,9 @@
 
     .line 138
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/view/AnimatingSearchBarLayout$1;->a:Lkik/android/chat/view/AnimatingSearchBarLayout;
+    iget-object v0, p0, Lkik/arcane/chat/view/AnimatingSearchBarLayout$1;->a:Lkik/arcane/chat/view/AnimatingSearchBarLayout;
 
-    invoke-static {v0}, Lkik/android/chat/view/AnimatingSearchBarLayout;->b(Lkik/android/chat/view/AnimatingSearchBarLayout;)Landroid/support/v7/widget/RecyclerView;
+    invoke-static {v0}, Lkik/arcane/chat/view/AnimatingSearchBarLayout;->b(Lkik/arcane/chat/view/AnimatingSearchBarLayout;)Landroid/support/v7/widget/RecyclerView;
 
     move-result-object v0
 
@@ -122,9 +122,9 @@
     if-lez v0, :cond_0
 
     .line 139
-    iget-object v0, p0, Lkik/android/chat/view/AnimatingSearchBarLayout$1;->a:Lkik/android/chat/view/AnimatingSearchBarLayout;
+    iget-object v0, p0, Lkik/arcane/chat/view/AnimatingSearchBarLayout$1;->a:Lkik/arcane/chat/view/AnimatingSearchBarLayout;
 
-    invoke-static {v0}, Lkik/android/chat/view/AnimatingSearchBarLayout;->b(Lkik/android/chat/view/AnimatingSearchBarLayout;)Landroid/support/v7/widget/RecyclerView;
+    invoke-static {v0}, Lkik/arcane/chat/view/AnimatingSearchBarLayout;->b(Lkik/arcane/chat/view/AnimatingSearchBarLayout;)Landroid/support/v7/widget/RecyclerView;
 
     move-result-object v0
 
@@ -135,13 +135,13 @@
     move-result-object v0
 
     .line 140
-    iget-object v1, p0, Lkik/android/chat/view/AnimatingSearchBarLayout$1;->a:Lkik/android/chat/view/AnimatingSearchBarLayout;
+    iget-object v1, p0, Lkik/arcane/chat/view/AnimatingSearchBarLayout$1;->a:Lkik/arcane/chat/view/AnimatingSearchBarLayout;
 
-    invoke-static {v1}, Lkik/android/chat/view/AnimatingSearchBarLayout;->c(Lkik/android/chat/view/AnimatingSearchBarLayout;)Lkik/android/chat/view/TransitionableSearchBarViewImpl;
+    invoke-static {v1}, Lkik/arcane/chat/view/AnimatingSearchBarLayout;->c(Lkik/arcane/chat/view/AnimatingSearchBarLayout;)Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;
 
     move-result-object v1
 
-    invoke-virtual {v1, v0}, Lkik/android/chat/view/TransitionableSearchBarViewImpl;->a(Landroid/view/View;)V
+    invoke-virtual {v1, v0}, Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;->a(Landroid/view/View;)V
 
     goto :goto_0
 .end method

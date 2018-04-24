@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/SendToFragment$3;
+.class final Lkik/arcane/chat/fragment/SendToFragment$3;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/SendToFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    value = Lkik/arcane/chat/fragment/SendToFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/SendToFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/SendToFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/SendToFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/SendToFragment;)V
     .locals 0
 
     .prologue
     .line 186
-    iput-object p1, p0, Lkik/android/chat/fragment/SendToFragment$3;->a:Lkik/android/chat/fragment/SendToFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/SendToFragment$3;->a:Lkik/arcane/chat/fragment/SendToFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -54,24 +54,24 @@
 
     move-result-object v0
 
-    instance-of v0, v0, Lkik/android/util/r;
+    instance-of v0, v0, Lkik/arcane/util/r;
 
     if-eqz v0, :cond_0
 
     .line 193
-    iget-object v0, p0, Lkik/android/chat/fragment/SendToFragment$3;->a:Lkik/android/chat/fragment/SendToFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/SendToFragment$3;->a:Lkik/arcane/chat/fragment/SendToFragment;
 
-    iget-object v1, v0, Lkik/android/chat/fragment/SendToFragment;->_chatList:Landroid/widget/ListView;
+    iget-object v1, v0, Lkik/arcane/chat/fragment/SendToFragment;->_chatList:Landroid/widget/ListView;
 
     invoke-virtual {p1, p3}, Landroid/widget/AdapterView;->getItemAtPosition(I)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/util/r;
+    check-cast v0, Lkik/arcane/util/r;
 
     invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/fp;->a(Lkik/android/util/r;)Ljava/lang/Runnable;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/fp;->a(Lkik/arcane/util/r;)Ljava/lang/Runnable;
 
     move-result-object v0
 
@@ -83,9 +83,9 @@
 
     .line 196
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/SendToFragment$3;->a:Lkik/android/chat/fragment/SendToFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/SendToFragment$3;->a:Lkik/arcane/chat/fragment/SendToFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/SendToFragment;->_chatList:Landroid/widget/ListView;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/SendToFragment;->_chatList:Landroid/widget/ListView;
 
     invoke-virtual {v0}, Landroid/widget/ListView;->getAdapter()Landroid/widget/ListAdapter;
 
@@ -95,24 +95,24 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/vm/ai;
+    check-cast v0, Lkik/arcane/chat/vm/ai;
 
-    invoke-interface {v0}, Lkik/android/chat/vm/ai;->b()Lkik/core/datatypes/f;
+    invoke-interface {v0}, Lkik/arcane/chat/vm/ai;->b()Lkik/core/datatypes/f;
 
     move-result-object v0
 
     .line 197
-    iget-object v1, p0, Lkik/android/chat/fragment/SendToFragment$3;->a:Lkik/android/chat/fragment/SendToFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/SendToFragment$3;->a:Lkik/arcane/chat/fragment/SendToFragment;
 
-    new-instance v2, Lkik/android/chat/vm/q;
+    new-instance v2, Lkik/arcane/chat/vm/q;
 
     invoke-virtual {v0}, Lkik/core/datatypes/f;->g()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-direct {v2, v0}, Lkik/android/chat/vm/q;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v0}, Lkik/arcane/chat/vm/q;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v1, v2}, Lkik/android/chat/fragment/SendToFragment;->a(Lkik/android/chat/fragment/SendToFragment;Lkik/android/chat/vm/ag;)V
+    invoke-static {v1, v2}, Lkik/arcane/chat/fragment/SendToFragment;->a(Lkik/arcane/chat/fragment/SendToFragment;Lkik/arcane/chat/vm/ag;)V
 
     goto :goto_0
 .end method

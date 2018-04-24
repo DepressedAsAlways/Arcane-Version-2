@@ -8,13 +8,13 @@
 
 .field private _browser:Lcom/kik/cards/web/browser/BrowserPlugin$a;
 
-.field private _permissions:Lkik/android/b/g;
+.field private _permissions:Lkik/arcane/b/g;
 
 .field private _userDataPluginImpl:Lcom/kik/cards/web/userdata/b;
 
 
 # direct methods
-.method public constructor <init>(Lcom/kik/cards/web/userdata/a;Lkik/android/b/g;Lkik/core/interfaces/e;Lcom/kik/cards/web/browser/BrowserPlugin$a;)V
+.method public constructor <init>(Lcom/kik/cards/web/userdata/a;Lkik/arcane/b/g;Lkik/core/interfaces/e;Lcom/kik/cards/web/browser/BrowserPlugin$a;)V
     .locals 2
 
     .prologue
@@ -31,7 +31,7 @@
     iput-object v0, p0, Lcom/kik/cards/web/auth/AuthPlugin;->_userDataPluginImpl:Lcom/kik/cards/web/userdata/b;
 
     .line 55
-    iput-object p2, p0, Lcom/kik/cards/web/auth/AuthPlugin;->_permissions:Lkik/android/b/g;
+    iput-object p2, p0, Lcom/kik/cards/web/auth/AuthPlugin;->_permissions:Lkik/arcane/b/g;
 
     .line 56
     invoke-interface {p1}, Lcom/kik/cards/web/userdata/a;->b()Lcom/kik/cards/web/userdata/b;
@@ -57,12 +57,12 @@
     return-void
 .end method
 
-.method static synthetic access$000(Lcom/kik/cards/web/auth/AuthPlugin;)Lkik/android/b/g;
+.method static synthetic access$000(Lcom/kik/cards/web/auth/AuthPlugin;)Lkik/arcane/b/g;
     .locals 1
 
     .prologue
     .line 44
-    iget-object v0, p0, Lcom/kik/cards/web/auth/AuthPlugin;->_permissions:Lkik/android/b/g;
+    iget-object v0, p0, Lcom/kik/cards/web/auth/AuthPlugin;->_permissions:Lkik/arcane/b/g;
 
     return-object v0
 .end method
@@ -183,9 +183,9 @@
 
     .prologue
     .line 87
-    iget-object v0, p0, Lcom/kik/cards/web/auth/AuthPlugin;->_permissions:Lkik/android/b/g;
+    iget-object v0, p0, Lcom/kik/cards/web/auth/AuthPlugin;->_permissions:Lkik/arcane/b/g;
 
-    invoke-virtual {v0, p1}, Lkik/android/b/g;->a(Ljava/lang/String;)Lcom/kik/events/Promise;
+    invoke-virtual {v0, p1}, Lkik/arcane/b/g;->a(Ljava/lang/String;)Lcom/kik/events/Promise;
 
     move-result-object v0
 
@@ -213,7 +213,7 @@
 
     .prologue
     .line 172
-    iget-object v0, p0, Lcom/kik/cards/web/auth/AuthPlugin;->_permissions:Lkik/android/b/g;
+    iget-object v0, p0, Lcom/kik/cards/web/auth/AuthPlugin;->_permissions:Lkik/arcane/b/g;
 
     if-eqz v0, :cond_0
 
@@ -315,7 +315,7 @@
 
     .line 249
     :cond_0
-    iget-object v0, p0, Lcom/kik/cards/web/auth/AuthPlugin;->_permissions:Lkik/android/b/g;
+    iget-object v0, p0, Lcom/kik/cards/web/auth/AuthPlugin;->_permissions:Lkik/arcane/b/g;
 
     if-eqz v0, :cond_1
 

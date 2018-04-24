@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/vm/messaging/er$1$1;
+.class final Lkik/arcane/chat/vm/messaging/er$1$1;
 .super Lcom/kik/cache/HundredYearImageRequest;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/vm/messaging/er$1;
+    value = Lkik/arcane/chat/vm/messaging/er$1;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,18 +24,18 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/messaging/er$1;
+.field final synthetic a:Lkik/arcane/chat/vm/messaging/er$1;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/messaging/er$1;Ljava/lang/String;Ljava/lang/String;Lcom/android/volley/h$b;Landroid/graphics/Bitmap$Config;Lcom/android/volley/h$a;)V
+.method constructor <init>(Lkik/arcane/chat/vm/messaging/er$1;Ljava/lang/String;Ljava/lang/String;Lcom/android/volley/h$b;Landroid/graphics/Bitmap$Config;Lcom/android/volley/h$a;)V
     .locals 8
 
     .prologue
     const/16 v4, 0x400
 
     .line 98
-    iput-object p1, p0, Lkik/android/chat/vm/messaging/er$1$1;->a:Lkik/android/chat/vm/messaging/er$1;
+    iput-object p1, p0, Lkik/arcane/chat/vm/messaging/er$1$1;->a:Lkik/arcane/chat/vm/messaging/er$1;
 
     move-object v0, p0
 

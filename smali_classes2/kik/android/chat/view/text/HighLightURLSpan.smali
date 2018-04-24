@@ -1,9 +1,9 @@
-.class public Lkik/android/chat/view/text/HighLightURLSpan;
+.class public Lkik/arcane/chat/view/text/HighLightURLSpan;
 .super Landroid/text/style/URLSpan;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/view/text/c;
+.implements Lkik/arcane/chat/view/text/c;
 
 
 # instance fields
@@ -25,12 +25,12 @@
     .line 12
     const/16 v0, 0x96
 
-    iput v0, p0, Lkik/android/chat/view/text/HighLightURLSpan;->a:I
+    iput v0, p0, Lkik/arcane/chat/view/text/HighLightURLSpan;->a:I
 
     .line 24
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lkik/android/chat/view/text/HighLightURLSpan;->c:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/view/text/HighLightURLSpan;->c:Z
 
     .line 25
     return-void
@@ -77,13 +77,13 @@
     if-eqz v4, :cond_2
 
     .line 58
-    new-instance v5, Lkik/android/chat/view/text/HighLightURLSpan;
+    new-instance v5, Lkik/arcane/chat/view/text/HighLightURLSpan;
 
     invoke-virtual {v4}, Landroid/text/style/URLSpan;->getURL()Ljava/lang/String;
 
     move-result-object v6
 
-    invoke-direct {v5, v6}, Lkik/android/chat/view/text/HighLightURLSpan;-><init>(Ljava/lang/String;)V
+    invoke-direct {v5, v6}, Lkik/arcane/chat/view/text/HighLightURLSpan;-><init>(Ljava/lang/String;)V
 
     .line 59
     invoke-interface {p0, v4}, Landroid/text/Spannable;->getSpanStart(Ljava/lang/Object;)I
@@ -115,7 +115,7 @@
 
     .prologue
     .line 29
-    iput-boolean p1, p0, Lkik/android/chat/view/text/HighLightURLSpan;->b:Z
+    iput-boolean p1, p0, Lkik/arcane/chat/view/text/HighLightURLSpan;->b:Z
 
     .line 30
     return-void
@@ -129,17 +129,17 @@
     invoke-super {p0, p1}, Landroid/text/style/URLSpan;->updateDrawState(Landroid/text/TextPaint;)V
 
     .line 36
-    iget-boolean v0, p0, Lkik/android/chat/view/text/HighLightURLSpan;->b:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/view/text/HighLightURLSpan;->b:Z
 
     if-eqz v0, :cond_0
 
-    iget v0, p0, Lkik/android/chat/view/text/HighLightURLSpan;->a:I
+    iget v0, p0, Lkik/arcane/chat/view/text/HighLightURLSpan;->a:I
 
     :goto_0
     invoke-virtual {p1, v0}, Landroid/text/TextPaint;->setAlpha(I)V
 
     .line 37
-    iget-boolean v0, p0, Lkik/android/chat/view/text/HighLightURLSpan;->c:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/view/text/HighLightURLSpan;->c:Z
 
     invoke-virtual {p1, v0}, Landroid/text/TextPaint;->setUnderlineText(Z)V
 

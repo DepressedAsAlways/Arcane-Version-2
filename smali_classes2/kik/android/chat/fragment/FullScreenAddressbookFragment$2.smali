@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/FullScreenAddressbookFragment$2;
+.class final Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$2;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/FullScreenAddressbookFragment;->j()V
+    value = Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->j()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/FullScreenAddressbookFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/FullScreenAddressbookFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;)V
     .locals 0
 
     .prologue
     .line 111
-    iput-object p1, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment$2;->a:Lkik/android/chat/fragment/FullScreenAddressbookFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$2;->a:Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -47,9 +47,9 @@
 
     .prologue
     .line 115
-    iget-object v0, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment$2;->a:Lkik/android/chat/fragment/FullScreenAddressbookFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$2;->a:Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->c(Lkik/android/chat/fragment/FullScreenAddressbookFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->c(Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;)V
 
     .line 116
     return-void

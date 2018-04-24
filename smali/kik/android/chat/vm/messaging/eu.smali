@@ -1,13 +1,13 @@
-.class public final Lkik/android/chat/vm/messaging/eu;
-.super Lkik/android/chat/vm/messaging/AbstractMessageViewModel;
+.class public final Lkik/arcane/chat/vm/messaging/eu;
+.super Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/messaging/ITextMessageViewModel;
+.implements Lkik/arcane/chat/vm/messaging/ITextMessageViewModel;
 
 
 # instance fields
-.field protected a:Lcom/kik/android/Mixpanel;
+.field protected a:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -22,7 +22,7 @@
     .end annotation
 .end field
 
-.field protected d:Lcom/kik/android/b/g;
+.field protected d:Lcom/kik/arcane/b/g;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -31,7 +31,7 @@
 
 .field private final y:Lkik/core/net/messageExtensions/RenderInstructionAttachment;
 
-.field private z:Lkik/android/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
+.field private z:Lkik/arcane/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
 
 
 # direct methods
@@ -56,7 +56,7 @@
             ">;",
             "Lrx/d",
             "<",
-            "Lkik/android/chat/vm/messaging/IMessageViewModel;",
+            "Lkik/arcane/chat/vm/messaging/IMessageViewModel;",
             ">;",
             "Lrx/d",
             "<",
@@ -67,7 +67,7 @@
 
     .prologue
     .line 64
-    invoke-direct/range {p0 .. p7}, Lkik/android/chat/vm/messaging/AbstractMessageViewModel;-><init>(Lkik/core/datatypes/Message;Ljava/lang/String;Lrx/d;Lrx/d;Lrx/d;Lrx/d;Lrx/d;)V
+    invoke-direct/range {p0 .. p7}, Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;-><init>(Lkik/core/datatypes/Message;Ljava/lang/String;Lrx/d;Lrx/d;Lrx/d;Lrx/d;Lrx/d;)V
 
     .line 66
     const-class v0, Lkik/core/datatypes/messageExtensions/k;
@@ -78,7 +78,7 @@
 
     check-cast v0, Lkik/core/datatypes/messageExtensions/k;
 
-    iput-object v0, p0, Lkik/android/chat/vm/messaging/eu;->e:Lkik/core/datatypes/messageExtensions/k;
+    iput-object v0, p0, Lkik/arcane/chat/vm/messaging/eu;->e:Lkik/core/datatypes/messageExtensions/k;
 
     .line 67
     const-class v0, Lkik/core/net/messageExtensions/RenderInstructionAttachment;
@@ -89,7 +89,7 @@
 
     check-cast v0, Lkik/core/net/messageExtensions/RenderInstructionAttachment;
 
-    iput-object v0, p0, Lkik/android/chat/vm/messaging/eu;->y:Lkik/core/net/messageExtensions/RenderInstructionAttachment;
+    iput-object v0, p0, Lkik/arcane/chat/vm/messaging/eu;->y:Lkik/core/net/messageExtensions/RenderInstructionAttachment;
 
     .line 69
     invoke-virtual {p1}, Lkik/core/datatypes/Message;->z()Z
@@ -99,22 +99,22 @@
     .line 70
     if-eqz v0, :cond_0
 
-    sget-object v0, Lkik/android/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;->DoubleHeight:Lkik/android/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
+    sget-object v0, Lkik/arcane/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;->DoubleHeight:Lkik/arcane/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
 
     :goto_0
-    iput-object v0, p0, Lkik/android/chat/vm/messaging/eu;->z:Lkik/android/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
+    iput-object v0, p0, Lkik/arcane/chat/vm/messaging/eu;->z:Lkik/arcane/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
 
     .line 71
     return-void
 
     .line 70
     :cond_0
-    sget-object v0, Lkik/android/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;->Default:Lkik/android/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
+    sget-object v0, Lkik/arcane/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;->Default:Lkik/arcane/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
 
     goto :goto_0
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/messaging/eu;Ljava/lang/Boolean;)Ljava/lang/Boolean;
+.method static synthetic a(Lkik/arcane/chat/vm/messaging/eu;Ljava/lang/Boolean;)Ljava/lang/Boolean;
     .locals 5
 
     .prologue
@@ -130,16 +130,16 @@
     if-nez v0, :cond_2
 
     .line 3189
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/eu;->z:Lkik/android/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/eu;->z:Lkik/arcane/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
 
     if-eqz v0, :cond_0
 
     .line 3190
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/eu;->z:Lkik/android/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/eu;->z:Lkik/arcane/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
 
     .line 179
     :goto_0
-    sget-object v3, Lkik/android/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;->Default:Lkik/android/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
+    sget-object v3, Lkik/arcane/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;->Default:Lkik/arcane/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
 
     if-eq v0, v3, :cond_2
 
@@ -152,19 +152,19 @@
 
     .line 3193
     :cond_0
-    sget-object v0, Lkik/android/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;->Default:Lkik/android/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
+    sget-object v0, Lkik/arcane/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;->Default:Lkik/arcane/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
 
-    iput-object v0, p0, Lkik/android/chat/vm/messaging/eu;->z:Lkik/android/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
+    iput-object v0, p0, Lkik/arcane/chat/vm/messaging/eu;->z:Lkik/arcane/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
 
     .line 3194
-    invoke-virtual {p0}, Lkik/android/chat/vm/messaging/eu;->p()Lkik/core/datatypes/Message;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/messaging/eu;->p()Lkik/core/datatypes/Message;
 
     move-result-object v3
 
     .line 3195
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/eu;->z:Lkik/android/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/eu;->z:Lkik/arcane/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
 
-    sget-object v4, Lkik/android/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;->DoubleHeight:Lkik/android/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
+    sget-object v4, Lkik/arcane/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;->DoubleHeight:Lkik/arcane/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
 
     if-ne v0, v4, :cond_1
 
@@ -174,12 +174,12 @@
     invoke-virtual {v3, v0}, Lkik/core/datatypes/Message;->a(Z)V
 
     .line 3196
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/eu;->c:Lkik/core/interfaces/ad;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/eu;->c:Lkik/core/interfaces/ad;
 
     invoke-interface {v0, v3}, Lkik/core/interfaces/ad;->c(Lkik/core/datatypes/Message;)Z
 
     .line 3198
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/eu;->z:Lkik/android/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/eu;->z:Lkik/arcane/chat/vm/messaging/ITextMessageViewModel$TextRenderSize;
 
     goto :goto_0
 
@@ -196,26 +196,26 @@
     goto :goto_1
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/messaging/eu;Lkik/core/datatypes/Message;)Ljava/lang/Boolean;
+.method static synthetic a(Lkik/arcane/chat/vm/messaging/eu;Lkik/core/datatypes/Message;)Ljava/lang/Boolean;
     .locals 1
 
     .prologue
     .line 249
-    invoke-virtual {p0, p1}, Lkik/android/chat/vm/messaging/eu;->c(Lkik/core/datatypes/Message;)Z
+    invoke-virtual {p0, p1}, Lkik/arcane/chat/vm/messaging/eu;->c(Lkik/core/datatypes/Message;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
     .line 250
-    invoke-virtual {p0, p1}, Lkik/android/chat/vm/messaging/eu;->a(Lkik/core/datatypes/Message;)Z
+    invoke-virtual {p0, p1}, Lkik/arcane/chat/vm/messaging/eu;->a(Lkik/core/datatypes/Message;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 251
-    invoke-virtual {p0, p1}, Lkik/android/chat/vm/messaging/eu;->b(Lkik/core/datatypes/Message;)Z
+    invoke-virtual {p0, p1}, Lkik/arcane/chat/vm/messaging/eu;->b(Lkik/core/datatypes/Message;)Z
 
     move-result v0
 
@@ -239,16 +239,16 @@
     goto :goto_0
 .end method
 
-.method static synthetic a(Lkik/android/chat/vm/messaging/eu;)V
+.method static synthetic a(Lkik/arcane/chat/vm/messaging/eu;)V
     .locals 3
 
     .prologue
     .line 173
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/eu;->b:Lcom/kik/util/co;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/eu;->b:Lcom/kik/util/co;
 
     const-string v1, ""
 
-    invoke-direct {p0}, Lkik/android/chat/vm/messaging/eu;->aj()Ljava/lang/String;
+    invoke-direct {p0}, Lkik/arcane/chat/vm/messaging/eu;->aj()Ljava/lang/String;
 
     move-result-object v2
 
@@ -262,9 +262,9 @@
 
     .prologue
     .line 89
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/eu;->h:Lkik/core/interfaces/IConversation;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/eu;->h:Lkik/core/interfaces/IConversation;
 
-    invoke-virtual {p0}, Lkik/android/chat/vm/messaging/eu;->m()Ljava/lang/String;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/messaging/eu;->m()Ljava/lang/String;
 
     move-result-object v1
 
@@ -293,7 +293,7 @@
 
     .line 101
     :cond_0
-    invoke-virtual {p0}, Lkik/android/chat/vm/messaging/eu;->aH_()Z
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/messaging/eu;->aH_()Z
 
     move-result v1
 
@@ -302,7 +302,7 @@
     if-nez v0, :cond_1
 
     .line 102
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/eu;->m:Landroid/content/res/Resources;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/eu;->m:Landroid/content/res/Resources;
 
     const v1, 0x7f09009c
 
@@ -315,7 +315,7 @@
     return-object v0
 
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/eu;->e:Lkik/core/datatypes/messageExtensions/k;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/eu;->e:Lkik/core/datatypes/messageExtensions/k;
 
     invoke-virtual {v0}, Lkik/core/datatypes/messageExtensions/k;->c()Z
 
@@ -323,7 +323,7 @@
 
     if-eqz v0, :cond_2
 
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/eu;->e:Lkik/core/datatypes/messageExtensions/k;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/eu;->e:Lkik/core/datatypes/messageExtensions/k;
 
     invoke-virtual {v0}, Lkik/core/datatypes/messageExtensions/k;->b()Ljava/lang/String;
 
@@ -332,7 +332,7 @@
     goto :goto_0
 
     :cond_2
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/eu;->e:Lkik/core/datatypes/messageExtensions/k;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/eu;->e:Lkik/core/datatypes/messageExtensions/k;
 
     invoke-virtual {v0}, Lkik/core/datatypes/messageExtensions/k;->a()Ljava/lang/String;
 
@@ -341,12 +341,12 @@
     goto :goto_0
 .end method
 
-.method static synthetic b(Lkik/android/chat/vm/messaging/eu;)Ljava/lang/String;
+.method static synthetic b(Lkik/arcane/chat/vm/messaging/eu;)Ljava/lang/String;
     .locals 1
 
     .prologue
     .line 114
-    invoke-direct {p0}, Lkik/android/chat/vm/messaging/eu;->aj()Ljava/lang/String;
+    invoke-direct {p0}, Lkik/arcane/chat/vm/messaging/eu;->aj()Ljava/lang/String;
 
     move-result-object v0
 
@@ -369,11 +369,11 @@
 
     .prologue
     .line 248
-    invoke-virtual {p0}, Lkik/android/chat/vm/messaging/eu;->aI_()Lrx/d;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/messaging/eu;->aI_()Lrx/d;
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/chat/vm/messaging/fd;->a(Lkik/android/chat/vm/messaging/eu;)Lrx/functions/g;
+    invoke-static {p0}, Lkik/arcane/chat/vm/messaging/fd;->a(Lkik/arcane/chat/vm/messaging/eu;)Lrx/functions/g;
 
     move-result-object v1
 
@@ -398,11 +398,11 @@
 
     .prologue
     .line 179
-    invoke-virtual {p0}, Lkik/android/chat/vm/messaging/eu;->B()Lrx/d;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/messaging/eu;->B()Lrx/d;
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/chat/vm/messaging/fc;->a(Lkik/android/chat/vm/messaging/eu;)Lrx/functions/g;
+    invoke-static {p0}, Lkik/arcane/chat/vm/messaging/fc;->a(Lkik/arcane/chat/vm/messaging/eu;)Lrx/functions/g;
 
     move-result-object v1
 
@@ -418,29 +418,29 @@
 
     .prologue
     .line 257
-    invoke-static {}, Lkik/android/chat/t;->a()Lkik/android/chat/t;
+    invoke-static {}, Lkik/arcane/chat/t;->a()Lkik/arcane/chat/t;
 
     move-result-object v0
 
-    invoke-virtual {p0}, Lkik/android/chat/vm/messaging/eu;->H()Lkik/android/chat/vm/messaging/AbstractMessageViewModel$a;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/messaging/eu;->H()Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$a;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/t;->a(Lkik/android/chat/vm/messaging/AbstractMessageViewModel$a;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/t;->a(Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel$a;)V
 
     .line 258
     return-void
 .end method
 
-.method public final a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+.method public final a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
     .locals 0
 
     .prologue
     .line 76
-    invoke-super {p0, p1, p2}, Lkik/android/chat/vm/messaging/AbstractMessageViewModel;->a(Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+    invoke-super {p0, p1, p2}, Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;->a(Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
 
     .line 78
-    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/vm/messaging/eu;)V
+    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/vm/messaging/eu;)V
 
     .line 79
     return-void
@@ -451,30 +451,30 @@
 
     .prologue
     .line 204
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/eu;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/eu;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "Smiley Tapped in Conversation"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Smiley Category"
 
     .line 205
-    invoke-virtual {v0, v1, p1}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, p1}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Smiley Identifier"
 
     .line 206
-    invoke-virtual {v0, v1, p2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, p2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 207
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 210
     invoke-static {p3}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
@@ -488,47 +488,47 @@
     if-eqz v0, :cond_0
 
     .line 211
-    new-instance v0, Lkik/android/chat/vm/i;
+    new-instance v0, Lkik/arcane/chat/vm/i;
 
-    invoke-direct {v0, p3}, Lkik/android/chat/vm/i;-><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p3}, Lkik/arcane/chat/vm/i;-><init>(Ljava/lang/String;)V
 
     .line 220
     :goto_0
-    invoke-virtual {p0}, Lkik/android/chat/vm/messaging/eu;->H_()Lkik/android/chat/vm/bd;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/messaging/eu;->H_()Lkik/arcane/chat/vm/bd;
 
     move-result-object v1
 
-    invoke-interface {v1, v0}, Lkik/android/chat/vm/bd;->a(Lkik/android/chat/vm/ax;)Lrx/d;
+    invoke-interface {v1, v0}, Lkik/arcane/chat/vm/bd;->a(Lkik/arcane/chat/vm/ax;)Lrx/d;
 
     .line 221
     return-void
 
     .line 214
     :cond_0
-    invoke-static {p3}, Lkik/android/chat/vm/j$a;->a(Ljava/lang/String;)Lkik/android/chat/vm/j$a;
+    invoke-static {p3}, Lkik/arcane/chat/vm/j$a;->a(Ljava/lang/String;)Lkik/arcane/chat/vm/j$a;
 
     move-result-object v0
 
     .line 215
-    invoke-virtual {p0}, Lkik/android/chat/vm/messaging/eu;->p()Lkik/core/datatypes/Message;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/messaging/eu;->p()Lkik/core/datatypes/Message;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/vm/j$a;->a(Lkik/core/datatypes/Message;)Lkik/android/chat/vm/j$a;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/vm/j$a;->a(Lkik/core/datatypes/Message;)Lkik/arcane/chat/vm/j$a;
 
     move-result-object v0
 
     .line 216
-    invoke-static {p3}, Lkik/android/chat/vm/messaging/eu;->d(Ljava/lang/String;)Z
+    invoke-static {p3}, Lkik/arcane/chat/vm/messaging/eu;->d(Ljava/lang/String;)Z
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/vm/j$a;->a(Z)Lkik/android/chat/vm/j$a;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/vm/j$a;->a(Z)Lkik/arcane/chat/vm/j$a;
 
     move-result-object v0
 
     .line 217
-    invoke-virtual {v0}, Lkik/android/chat/vm/j$a;->a()Lkik/android/chat/vm/j;
+    invoke-virtual {v0}, Lkik/arcane/chat/vm/j$a;->a()Lkik/arcane/chat/vm/j;
 
     move-result-object v0
 
@@ -542,7 +542,7 @@
             "()",
             "Ljava/util/List",
             "<",
-            "Lkik/android/chat/vm/k$a;",
+            "Lkik/arcane/chat/vm/k$a;",
             ">;"
         }
     .end annotation
@@ -551,13 +551,13 @@
     .line 171
     const/4 v0, 0x1
 
-    new-array v0, v0, [Lkik/android/chat/vm/k$a;
+    new-array v0, v0, [Lkik/arcane/chat/vm/k$a;
 
     const/4 v1, 0x0
 
-    new-instance v2, Lkik/android/chat/vm/k$a;
+    new-instance v2, Lkik/arcane/chat/vm/k$a;
 
-    iget-object v3, p0, Lkik/android/chat/vm/messaging/eu;->m:Landroid/content/res/Resources;
+    iget-object v3, p0, Lkik/arcane/chat/vm/messaging/eu;->m:Landroid/content/res/Resources;
 
     const v4, 0x7f0903e6
 
@@ -566,11 +566,11 @@
 
     move-result-object v3
 
-    invoke-static {p0}, Lkik/android/chat/vm/messaging/fb;->a(Lkik/android/chat/vm/messaging/eu;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/chat/vm/messaging/fb;->a(Lkik/arcane/chat/vm/messaging/eu;)Ljava/lang/Runnable;
 
     move-result-object v4
 
-    invoke-direct {v2, v3, v4}, Lkik/android/chat/vm/k$a;-><init>(Ljava/lang/String;Ljava/lang/Runnable;)V
+    invoke-direct {v2, v3, v4}, Lkik/arcane/chat/vm/k$a;-><init>(Ljava/lang/String;Ljava/lang/Runnable;)V
 
     aput-object v2, v0, v1
 
@@ -609,12 +609,12 @@
     return-object v0
 .end method
 
-.method public final ao()Lkik/android/chat/vm/messaging/IMessageViewModel$LayoutType;
+.method public final ao()Lkik/arcane/chat/vm/messaging/IMessageViewModel$LayoutType;
     .locals 1
 
     .prologue
     .line 84
-    sget-object v0, Lkik/android/chat/vm/messaging/IMessageViewModel$LayoutType;->Text:Lkik/android/chat/vm/messaging/IMessageViewModel$LayoutType;
+    sget-object v0, Lkik/arcane/chat/vm/messaging/IMessageViewModel$LayoutType;->Text:Lkik/arcane/chat/vm/messaging/IMessageViewModel$LayoutType;
 
     return-object v0
 .end method
@@ -633,11 +633,11 @@
 
     .prologue
     .line 141
-    invoke-virtual {p0}, Lkik/android/chat/vm/messaging/eu;->Q()Lrx/d;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/messaging/eu;->Q()Lrx/d;
 
     move-result-object v0
 
-    invoke-static {}, Lkik/android/chat/vm/messaging/ey;->a()Lrx/functions/g;
+    invoke-static {}, Lkik/arcane/chat/vm/messaging/ey;->a()Lrx/functions/g;
 
     move-result-object v1
 
@@ -663,12 +663,12 @@
     .prologue
     .line 147
     .line 1242
-    invoke-virtual {p0}, Lkik/android/chat/vm/messaging/eu;->Q()Lrx/d;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/messaging/eu;->Q()Lrx/d;
 
     move-result-object v0
 
     .line 147
-    invoke-static {}, Lkik/android/chat/vm/messaging/ez;->a()Lrx/functions/g;
+    invoke-static {}, Lkik/arcane/chat/vm/messaging/ez;->a()Lrx/functions/g;
 
     move-result-object v1
 
@@ -686,9 +686,9 @@
     const/4 v0, 0x0
 
     .line 159
-    iget-object v1, p0, Lkik/android/chat/vm/messaging/eu;->g:Lkik/core/interfaces/v;
+    iget-object v1, p0, Lkik/arcane/chat/vm/messaging/eu;->g:Lkik/core/interfaces/v;
 
-    invoke-virtual {p0}, Lkik/android/chat/vm/messaging/eu;->r()Ljava/lang/String;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/messaging/eu;->r()Ljava/lang/String;
 
     move-result-object v2
 
@@ -713,11 +713,11 @@
     return-object v0
 
     :cond_1
-    iget-object v1, p0, Lkik/android/chat/vm/messaging/eu;->y:Lkik/core/net/messageExtensions/RenderInstructionAttachment;
+    iget-object v1, p0, Lkik/arcane/chat/vm/messaging/eu;->y:Lkik/core/net/messageExtensions/RenderInstructionAttachment;
 
     if-eqz v1, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/eu;->y:Lkik/core/net/messageExtensions/RenderInstructionAttachment;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/eu;->y:Lkik/core/net/messageExtensions/RenderInstructionAttachment;
 
     invoke-virtual {v0}, Lkik/core/net/messageExtensions/RenderInstructionAttachment;->getInstructions()Lcom/kik/message/model/attachments/RenderInstructionSet;
 
@@ -731,26 +731,26 @@
 
     .prologue
     .line 226
-    invoke-virtual {p0}, Lkik/android/chat/vm/messaging/eu;->H_()Lkik/android/chat/vm/bd;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/messaging/eu;->H_()Lkik/arcane/chat/vm/bd;
 
     move-result-object v0
 
-    invoke-virtual {p0}, Lkik/android/chat/vm/messaging/eu;->ai_()Lkik/android/chat/vm/k;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/messaging/eu;->ai_()Lkik/arcane/chat/vm/k;
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lkik/android/chat/vm/bd;->a(Lkik/android/chat/vm/k;)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/vm/bd;->a(Lkik/arcane/chat/vm/k;)V
 
     .line 227
     return-void
 .end method
 
-.method protected final b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+.method protected final b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
     .locals 3
 
     .prologue
     .line 232
-    invoke-super {p0, p1}, Lkik/android/chat/vm/messaging/AbstractMessageViewModel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-super {p0, p1}, Lkik/arcane/chat/vm/messaging/AbstractMessageViewModel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -759,7 +759,7 @@
 
     const-string v2, "Text"
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     .line 236
     return-object v0
@@ -779,11 +779,11 @@
 
     .prologue
     .line 111
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/eu;->y:Lkik/core/net/messageExtensions/RenderInstructionAttachment;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/eu;->y:Lkik/core/net/messageExtensions/RenderInstructionAttachment;
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/eu;->y:Lkik/core/net/messageExtensions/RenderInstructionAttachment;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/eu;->y:Lkik/core/net/messageExtensions/RenderInstructionAttachment;
 
     invoke-virtual {v0}, Lkik/core/net/messageExtensions/RenderInstructionAttachment;->getInstructions()Lcom/kik/message/model/attachments/RenderInstructionSet;
 
@@ -792,9 +792,9 @@
     if-eqz v0, :cond_0
 
     .line 112
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/eu;->d:Lcom/kik/android/b/g;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/eu;->d:Lcom/kik/arcane/b/g;
 
-    invoke-virtual {v0}, Lcom/kik/android/b/g;->d()Lrx/d;
+    invoke-virtual {v0}, Lcom/kik/arcane/b/g;->d()Lrx/d;
 
     move-result-object v0
 
@@ -805,7 +805,7 @@
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/chat/vm/messaging/ev;->a(Lkik/android/chat/vm/messaging/eu;)Lrx/functions/g;
+    invoke-static {p0}, Lkik/arcane/chat/vm/messaging/ev;->a(Lkik/arcane/chat/vm/messaging/eu;)Lrx/functions/g;
 
     move-result-object v1
 
@@ -819,7 +819,7 @@
     return-object v0
 
     :cond_0
-    invoke-direct {p0}, Lkik/android/chat/vm/messaging/eu;->aj()Ljava/lang/String;
+    invoke-direct {p0}, Lkik/arcane/chat/vm/messaging/eu;->aj()Ljava/lang/String;
 
     move-result-object v0
 
@@ -835,7 +835,7 @@
 
     .prologue
     .line 123
-    iget-object v0, p0, Lkik/android/chat/vm/messaging/eu;->e:Lkik/core/datatypes/messageExtensions/k;
+    iget-object v0, p0, Lkik/arcane/chat/vm/messaging/eu;->e:Lkik/core/datatypes/messageExtensions/k;
 
     invoke-virtual {v0}, Lkik/core/datatypes/messageExtensions/k;->c()Z
 
@@ -858,11 +858,11 @@
 
     .prologue
     .line 129
-    invoke-virtual {p0}, Lkik/android/chat/vm/messaging/eu;->Q()Lrx/d;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/messaging/eu;->Q()Lrx/d;
 
     move-result-object v0
 
-    invoke-static {}, Lkik/android/chat/vm/messaging/ew;->a()Lrx/functions/g;
+    invoke-static {}, Lkik/arcane/chat/vm/messaging/ew;->a()Lrx/functions/g;
 
     move-result-object v1
 
@@ -887,7 +887,7 @@
 
     .prologue
     .line 242
-    invoke-virtual {p0}, Lkik/android/chat/vm/messaging/eu;->Q()Lrx/d;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/messaging/eu;->Q()Lrx/d;
 
     move-result-object v0
 
@@ -908,11 +908,11 @@
 
     .prologue
     .line 135
-    invoke-virtual {p0}, Lkik/android/chat/vm/messaging/eu;->Q()Lrx/d;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/messaging/eu;->Q()Lrx/d;
 
     move-result-object v0
 
-    invoke-static {p0}, Lkik/android/chat/vm/messaging/ex;->a(Lkik/android/chat/vm/messaging/eu;)Lrx/functions/g;
+    invoke-static {p0}, Lkik/arcane/chat/vm/messaging/ex;->a(Lkik/arcane/chat/vm/messaging/eu;)Lrx/functions/g;
 
     move-result-object v1
 
@@ -938,12 +938,12 @@
     .prologue
     .line 153
     .line 2242
-    invoke-virtual {p0}, Lkik/android/chat/vm/messaging/eu;->Q()Lrx/d;
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/messaging/eu;->Q()Lrx/d;
 
     move-result-object v0
 
     .line 153
-    invoke-static {}, Lkik/android/chat/vm/messaging/fa;->a()Lrx/functions/g;
+    invoke-static {}, Lkik/arcane/chat/vm/messaging/fa;->a()Lrx/functions/g;
 
     move-result-object v1
 

@@ -1,11 +1,11 @@
-.class final Lkik/android/gifs/vm/t$1$1;
+.class final Lkik/arcane/gifs/vm/t$1$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/gifs/vm/t$1;->a(Ljava/lang/Throwable;)V
+    value = Lkik/arcane/gifs/vm/t$1;->a(Ljava/lang/Throwable;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,23 +17,23 @@
     value = {
         "Lcom/kik/events/k",
         "<",
-        "Lkik/android/gifs/view/c;",
+        "Lkik/arcane/gifs/view/c;",
         ">;"
     }
 .end annotation
 
 
 # instance fields
-.field final synthetic a:Lkik/android/gifs/vm/t$1;
+.field final synthetic a:Lkik/arcane/gifs/vm/t$1;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/gifs/vm/t$1;)V
+.method constructor <init>(Lkik/arcane/gifs/vm/t$1;)V
     .locals 0
 
     .prologue
     .line 150
-    iput-object p1, p0, Lkik/android/gifs/vm/t$1$1;->a:Lkik/android/gifs/vm/t$1;
+    iput-object p1, p0, Lkik/arcane/gifs/vm/t$1$1;->a:Lkik/arcane/gifs/vm/t$1;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -47,14 +47,14 @@
 
     .prologue
     .line 150
-    check-cast p1, Lkik/android/gifs/view/c;
+    check-cast p1, Lkik/arcane/gifs/view/c;
 
     .line 1154
-    iget-object v0, p0, Lkik/android/gifs/vm/t$1$1;->a:Lkik/android/gifs/vm/t$1;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/t$1$1;->a:Lkik/arcane/gifs/vm/t$1;
 
-    iget-object v0, v0, Lkik/android/gifs/vm/t$1;->b:Lkik/android/gifs/vm/t;
+    iget-object v0, v0, Lkik/arcane/gifs/vm/t$1;->b:Lkik/arcane/gifs/vm/t;
 
-    invoke-static {v0, p1}, Lkik/android/gifs/vm/t;->a(Lkik/android/gifs/vm/t;Lkik/android/gifs/view/c;)V
+    invoke-static {v0, p1}, Lkik/arcane/gifs/vm/t;->a(Lkik/arcane/gifs/vm/t;Lkik/arcane/gifs/view/c;)V
 
     .line 150
     return-void
@@ -65,13 +65,13 @@
 
     .prologue
     .line 160
-    iget-object v0, p0, Lkik/android/gifs/vm/t$1$1;->a:Lkik/android/gifs/vm/t$1;
+    iget-object v0, p0, Lkik/arcane/gifs/vm/t$1$1;->a:Lkik/arcane/gifs/vm/t$1;
 
-    iget-object v0, v0, Lkik/android/gifs/vm/t$1;->b:Lkik/android/gifs/vm/t;
+    iget-object v0, v0, Lkik/arcane/gifs/vm/t$1;->b:Lkik/arcane/gifs/vm/t;
 
     const/4 v1, 0x0
 
-    invoke-static {v0, v1}, Lkik/android/gifs/vm/t;->a(Lkik/android/gifs/vm/t;Lkik/android/gifs/view/c;)V
+    invoke-static {v0, v1}, Lkik/arcane/gifs/vm/t;->a(Lkik/arcane/gifs/vm/t;Lkik/arcane/gifs/view/c;)V
 
     .line 161
     return-void

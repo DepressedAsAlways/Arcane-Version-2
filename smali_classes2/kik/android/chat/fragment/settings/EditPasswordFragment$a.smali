@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/fragment/settings/EditPasswordFragment$a;
+.class public final Lkik/arcane/chat/fragment/settings/EditPasswordFragment$a;
 .super Lcom/kik/ui/fragment/FragmentBase$FragmentBundle;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/settings/EditPasswordFragment;
+    value = Lkik/arcane/chat/fragment/settings/EditPasswordFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

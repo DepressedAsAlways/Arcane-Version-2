@@ -1,14 +1,14 @@
-.class final Lkik/android/videochat/VideoChatManager$8;
+.class final Lkik/arcane/videochat/VideoChatManager$8;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/videochat/ar;
+.implements Lkik/arcane/videochat/ar;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/videochat/VideoChatManager;->a(Lkik/core/datatypes/l;JILkik/android/videochat/i;)V
+    value = Lkik/arcane/videochat/VideoChatManager;->a(Lkik/core/datatypes/l;JILkik/arcane/videochat/i;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Lkik/core/datatypes/l;
 
-.field final synthetic b:Lkik/android/videochat/VideoChatManager;
+.field final synthetic b:Lkik/arcane/videochat/VideoChatManager;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/videochat/VideoChatManager;Lkik/core/datatypes/l;)V
+.method constructor <init>(Lkik/arcane/videochat/VideoChatManager;Lkik/core/datatypes/l;)V
     .locals 0
 
     .prologue
     .line 813
-    iput-object p1, p0, Lkik/android/videochat/VideoChatManager$8;->b:Lkik/android/videochat/VideoChatManager;
+    iput-object p1, p0, Lkik/arcane/videochat/VideoChatManager$8;->b:Lkik/arcane/videochat/VideoChatManager;
 
-    iput-object p2, p0, Lkik/android/videochat/VideoChatManager$8;->a:Lkik/core/datatypes/l;
+    iput-object p2, p0, Lkik/arcane/videochat/VideoChatManager$8;->a:Lkik/core/datatypes/l;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,13 +45,13 @@
 
     .prologue
     .line 817
-    iget-object v0, p0, Lkik/android/videochat/VideoChatManager$8;->b:Lkik/android/videochat/VideoChatManager;
+    iget-object v0, p0, Lkik/arcane/videochat/VideoChatManager$8;->b:Lkik/arcane/videochat/VideoChatManager;
 
-    invoke-virtual {v0}, Lkik/android/videochat/VideoChatManager;->g()Lcom/rounds/kik/analytics/IReporterProxy;
+    invoke-virtual {v0}, Lkik/arcane/videochat/VideoChatManager;->g()Lcom/rounds/kik/analytics/IReporterProxy;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/videochat/VideoChatManager$8;->a:Lkik/core/datatypes/l;
+    iget-object v1, p0, Lkik/arcane/videochat/VideoChatManager$8;->a:Lkik/core/datatypes/l;
 
     invoke-interface {v0, v1}, Lcom/rounds/kik/analytics/IReporterProxy;->onCallRateShow(Ljava/lang/Object;)V
 
@@ -64,13 +64,13 @@
 
     .prologue
     .line 823
-    iget-object v0, p0, Lkik/android/videochat/VideoChatManager$8;->b:Lkik/android/videochat/VideoChatManager;
+    iget-object v0, p0, Lkik/arcane/videochat/VideoChatManager$8;->b:Lkik/arcane/videochat/VideoChatManager;
 
-    invoke-virtual {v0}, Lkik/android/videochat/VideoChatManager;->g()Lcom/rounds/kik/analytics/IReporterProxy;
+    invoke-virtual {v0}, Lkik/arcane/videochat/VideoChatManager;->g()Lcom/rounds/kik/analytics/IReporterProxy;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/videochat/VideoChatManager$8;->a:Lkik/core/datatypes/l;
+    iget-object v1, p0, Lkik/arcane/videochat/VideoChatManager$8;->a:Lkik/core/datatypes/l;
 
     invoke-interface {v0, v1, p1}, Lcom/rounds/kik/analytics/IReporterProxy;->onCallRated(Ljava/lang/Object;I)V
 
@@ -83,20 +83,20 @@
 
     .prologue
     .line 829
-    iget-object v0, p0, Lkik/android/videochat/VideoChatManager$8;->b:Lkik/android/videochat/VideoChatManager;
+    iget-object v0, p0, Lkik/arcane/videochat/VideoChatManager$8;->b:Lkik/arcane/videochat/VideoChatManager;
 
-    invoke-virtual {v0}, Lkik/android/videochat/VideoChatManager;->g()Lcom/rounds/kik/analytics/IReporterProxy;
+    invoke-virtual {v0}, Lkik/arcane/videochat/VideoChatManager;->g()Lcom/rounds/kik/analytics/IReporterProxy;
 
     move-result-object v0
 
-    iget-object v1, p0, Lkik/android/videochat/VideoChatManager$8;->a:Lkik/core/datatypes/l;
+    iget-object v1, p0, Lkik/arcane/videochat/VideoChatManager$8;->a:Lkik/core/datatypes/l;
 
     invoke-interface {v0, v1}, Lcom/rounds/kik/analytics/IReporterProxy;->onCallRateCancel(Ljava/lang/Object;)V
 
     .line 833
-    iget-object v0, p0, Lkik/android/videochat/VideoChatManager$8;->b:Lkik/android/videochat/VideoChatManager;
+    iget-object v0, p0, Lkik/arcane/videochat/VideoChatManager$8;->b:Lkik/arcane/videochat/VideoChatManager;
 
-    invoke-static {v0}, Lkik/android/videochat/VideoChatManager;->i(Lkik/android/videochat/VideoChatManager;)Lkik/core/interfaces/ad;
+    invoke-static {v0}, Lkik/arcane/videochat/VideoChatManager;->i(Lkik/arcane/videochat/VideoChatManager;)Lkik/core/interfaces/ad;
 
     move-result-object v0
 
@@ -115,9 +115,9 @@
     add-int/lit8 v0, v0, -0x1
 
     .line 834
-    iget-object v1, p0, Lkik/android/videochat/VideoChatManager$8;->b:Lkik/android/videochat/VideoChatManager;
+    iget-object v1, p0, Lkik/arcane/videochat/VideoChatManager$8;->b:Lkik/arcane/videochat/VideoChatManager;
 
-    invoke-static {v1}, Lkik/android/videochat/VideoChatManager;->i(Lkik/android/videochat/VideoChatManager;)Lkik/core/interfaces/ad;
+    invoke-static {v1}, Lkik/arcane/videochat/VideoChatManager;->i(Lkik/arcane/videochat/VideoChatManager;)Lkik/core/interfaces/ad;
 
     move-result-object v1
 

@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$a;
-.super Lkik/android/chat/fragment/AddressbookFragmentBase$a;
+.class public final Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$a;
+.super Lkik/arcane/chat/fragment/AddressbookFragmentBase$a;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
+    value = Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
 
     .prologue
     .line 862
-    invoke-direct {p0}, Lkik/android/chat/fragment/AddressbookFragmentBase$a;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/AddressbookFragmentBase$a;-><init>()V
 
     return-void
 .end method

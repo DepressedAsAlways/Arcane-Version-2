@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/chats/profile/at;
+.class final synthetic Lkik/arcane/chat/vm/chats/profile/at;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/vm/chats/profile/an;
+.field private final a:Lkik/arcane/chat/vm/chats/profile/an;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/vm/chats/profile/an;)V
+.method private constructor <init>(Lkik/arcane/chat/vm/chats/profile/an;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/vm/chats/profile/at;->a:Lkik/android/chat/vm/chats/profile/an;
+    iput-object p1, p0, Lkik/arcane/chat/vm/chats/profile/at;->a:Lkik/arcane/chat/vm/chats/profile/an;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/vm/chats/profile/an;)Lrx/functions/b;
+.method public static a(Lkik/arcane/chat/vm/chats/profile/an;)Lrx/functions/b;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/chats/profile/at;
+    new-instance v0, Lkik/arcane/chat/vm/chats/profile/at;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/vm/chats/profile/at;-><init>(Lkik/android/chat/vm/chats/profile/an;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/vm/chats/profile/at;-><init>(Lkik/arcane/chat/vm/chats/profile/an;)V
 
     return-object v0
 .end method
@@ -37,12 +37,12 @@
 
     .prologue
     .line 0
-    iget-object v0, p0, Lkik/android/chat/vm/chats/profile/at;->a:Lkik/android/chat/vm/chats/profile/an;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/profile/at;->a:Lkik/arcane/chat/vm/chats/profile/an;
 
     check-cast p1, Ljava/lang/Boolean;
 
     .line 1111
-    iget-object v0, v0, Lkik/android/chat/vm/chats/profile/an;->b:Lcom/kik/metrics/c/d;
+    iget-object v0, v0, Lkik/arcane/chat/vm/chats/profile/an;->b:Lcom/kik/metrics/c/d;
 
     invoke-static {}, Lcom/kik/metrics/b/bf;->b()Lcom/kik/metrics/b/bf$a;
 

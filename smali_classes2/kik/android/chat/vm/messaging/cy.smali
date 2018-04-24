@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/messaging/cy;
+.class final synthetic Lkik/arcane/chat/vm/messaging/cy;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/chat/vm/messaging/cy;
+.field private static final a:Lkik/arcane/chat/vm/messaging/cy;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/messaging/cy;
+    new-instance v0, Lkik/arcane/chat/vm/messaging/cy;
 
-    invoke-direct {v0}, Lkik/android/chat/vm/messaging/cy;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/vm/messaging/cy;-><init>()V
 
-    sput-object v0, Lkik/android/chat/vm/messaging/cy;->a:Lkik/android/chat/vm/messaging/cy;
+    sput-object v0, Lkik/arcane/chat/vm/messaging/cy;->a:Lkik/arcane/chat/vm/messaging/cy;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Lrx/functions/g;
     .locals 1
 
-    sget-object v0, Lkik/android/chat/vm/messaging/cy;->a:Lkik/android/chat/vm/messaging/cy;
+    sget-object v0, Lkik/arcane/chat/vm/messaging/cy;->a:Lkik/arcane/chat/vm/messaging/cy;
 
     return-object v0
 .end method

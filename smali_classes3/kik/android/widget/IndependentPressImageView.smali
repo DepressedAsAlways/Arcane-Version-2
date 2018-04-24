@@ -1,4 +1,4 @@
-.class public Lkik/android/widget/IndependentPressImageView;
+.class public Lkik/arcane/widget/IndependentPressImageView;
 .super Landroid/support/v7/widget/AppCompatImageView;
 .source "SourceFile"
 
@@ -11,7 +11,7 @@
     .line 20
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/IndependentPressImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/IndependentPressImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 21
     return-void
@@ -24,7 +24,7 @@
     .line 25
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/IndependentPressImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/IndependentPressImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 26
     return-void
@@ -48,7 +48,7 @@
 
     .prologue
     .line 36
-    invoke-virtual {p0}, Lkik/android/widget/IndependentPressImageView;->getParent()Landroid/view/ViewParent;
+    invoke-virtual {p0}, Lkik/arcane/widget/IndependentPressImageView;->getParent()Landroid/view/ViewParent;
 
     move-result-object v0
 

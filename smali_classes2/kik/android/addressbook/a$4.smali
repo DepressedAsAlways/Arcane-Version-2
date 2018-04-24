@@ -1,11 +1,11 @@
-.class final Lkik/android/addressbook/a$4;
+.class final Lkik/arcane/addressbook/a$4;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/addressbook/a;->d(Ljava/lang/String;)V
+    value = Lkik/arcane/addressbook/a;->d(Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,18 +26,18 @@
 # instance fields
 .field final synthetic a:Ljava/lang/String;
 
-.field final synthetic b:Lkik/android/addressbook/a;
+.field final synthetic b:Lkik/arcane/addressbook/a;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/addressbook/a;Ljava/lang/String;)V
+.method constructor <init>(Lkik/arcane/addressbook/a;Ljava/lang/String;)V
     .locals 0
 
     .prologue
     .line 377
-    iput-object p1, p0, Lkik/android/addressbook/a$4;->b:Lkik/android/addressbook/a;
+    iput-object p1, p0, Lkik/arcane/addressbook/a$4;->b:Lkik/arcane/addressbook/a;
 
-    iput-object p2, p0, Lkik/android/addressbook/a$4;->a:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/addressbook/a$4;->a:Ljava/lang/String;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -63,15 +63,15 @@
     if-eqz v0, :cond_0
 
     .line 1383
-    iget-object v0, p0, Lkik/android/addressbook/a$4;->b:Lkik/android/addressbook/a;
+    iget-object v0, p0, Lkik/arcane/addressbook/a$4;->b:Lkik/arcane/addressbook/a;
 
-    invoke-static {v0}, Lkik/android/addressbook/a;->h(Lkik/android/addressbook/a;)Landroid/os/Handler;
+    invoke-static {v0}, Lkik/arcane/addressbook/a;->h(Lkik/arcane/addressbook/a;)Landroid/os/Handler;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/addressbook/a$4$1;
+    new-instance v1, Lkik/arcane/addressbook/a$4$1;
 
-    invoke-direct {v1, p0}, Lkik/android/addressbook/a$4$1;-><init>(Lkik/android/addressbook/a$4;)V
+    invoke-direct {v1, p0}, Lkik/arcane/addressbook/a$4$1;-><init>(Lkik/arcane/addressbook/a$4;)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 

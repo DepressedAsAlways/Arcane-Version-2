@@ -247,7 +247,7 @@
 
     iget-object v2, p0, Lcom/kik/cards/web/usermedia/PhotoPlugin$a;->a:Ljava/io/File;
 
-    invoke-static {v0, v2}, Lkik/android/widget/cf;->a(Landroid/content/Context;Ljava/io/File;)V
+    invoke-static {v0, v2}, Lkik/arcane/widget/cf;->a(Landroid/content/Context;Ljava/io/File;)V
 
     .line 242
     :cond_5

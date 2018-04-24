@@ -1,5 +1,5 @@
-.class public final Lcom/kik/android/b/d;
-.super Lcom/kik/android/b/f;
+.class public final Lcom/kik/arcane/b/d;
+.super Lcom/kik/arcane/b/f;
 .source "SourceFile"
 
 
@@ -25,23 +25,23 @@
 
     move-object v5, p1
 
-    invoke-direct/range {v1 .. v7}, Lcom/kik/android/b/f;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V
+    invoke-direct/range {v1 .. v7}, Lcom/kik/arcane/b/f;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V
 
     .line 20
-    iput p2, p0, Lcom/kik/android/b/d;->a:I
+    iput p2, p0, Lcom/kik/arcane/b/d;->a:I
 
     .line 21
     return-void
 .end method
 
-.method static a(Ljava/lang/String;I)Lcom/kik/android/b/d;
+.method static a(Ljava/lang/String;I)Lcom/kik/arcane/b/d;
     .locals 1
 
     .prologue
     .line 14
-    new-instance v0, Lcom/kik/android/b/d;
+    new-instance v0, Lcom/kik/arcane/b/d;
 
-    invoke-direct {v0, p0, p1}, Lcom/kik/android/b/d;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, p0, p1}, Lcom/kik/arcane/b/d;-><init>(Ljava/lang/String;I)V
 
     return-object v0
 .end method
@@ -53,7 +53,7 @@
 
     .prologue
     .line 25
-    iget v0, p0, Lcom/kik/android/b/d;->a:I
+    iget v0, p0, Lcom/kik/arcane/b/d;->a:I
 
     return v0
 .end method

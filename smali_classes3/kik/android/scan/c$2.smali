@@ -1,4 +1,4 @@
-.class final Lkik/android/scan/c$2;
+.class final Lkik/arcane/scan/c$2;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/scan/c;-><init>(Lkik/core/e/f;Lkik/core/net/e;Lcom/kik/events/Promise;Lkik/core/interfaces/ICommunication;Lcom/kik/events/c;Lkik/core/interfaces/v;)V
+    value = Lkik/arcane/scan/c;-><init>(Lkik/core/e/f;Lkik/core/net/e;Lcom/kik/events/Promise;Lkik/core/interfaces/ICommunication;Lcom/kik/events/c;Lkik/core/interfaces/v;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/scan/c;
+.field final synthetic a:Lkik/arcane/scan/c;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/scan/c;)V
+.method constructor <init>(Lkik/arcane/scan/c;)V
     .locals 0
 
     .prologue
     .line 89
-    iput-object p1, p0, Lkik/android/scan/c$2;->a:Lkik/android/scan/c;
+    iput-object p1, p0, Lkik/arcane/scan/c$2;->a:Lkik/arcane/scan/c;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -54,14 +54,14 @@
     check-cast p2, Lkik/core/datatypes/Message;
 
     .line 1093
-    iget-object v0, p0, Lkik/android/scan/c$2;->a:Lkik/android/scan/c;
+    iget-object v0, p0, Lkik/arcane/scan/c$2;->a:Lkik/arcane/scan/c;
 
-    invoke-static {v0, p2}, Lkik/android/scan/c;->a(Lkik/android/scan/c;Lkik/core/datatypes/Message;)V
+    invoke-static {v0, p2}, Lkik/arcane/scan/c;->a(Lkik/arcane/scan/c;Lkik/core/datatypes/Message;)V
 
     .line 1094
-    iget-object v0, p0, Lkik/android/scan/c$2;->a:Lkik/android/scan/c;
+    iget-object v0, p0, Lkik/arcane/scan/c$2;->a:Lkik/arcane/scan/c;
 
-    invoke-virtual {v0}, Lkik/android/scan/c;->a()V
+    invoke-virtual {v0}, Lkik/arcane/scan/c;->a()V
 
     .line 89
     return-void

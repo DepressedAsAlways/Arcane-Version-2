@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/net/communicator/c;
+.class final synthetic Lkik/arcane/net/communicator/c;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/net/communicator/c;
+.field private static final a:Lkik/arcane/net/communicator/c;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/net/communicator/c;
+    new-instance v0, Lkik/arcane/net/communicator/c;
 
-    invoke-direct {v0}, Lkik/android/net/communicator/c;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/net/communicator/c;-><init>()V
 
-    sput-object v0, Lkik/android/net/communicator/c;->a:Lkik/android/net/communicator/c;
+    sput-object v0, Lkik/arcane/net/communicator/c;->a:Lkik/arcane/net/communicator/c;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Ljava/lang/Runnable;
     .locals 1
 
-    sget-object v0, Lkik/android/net/communicator/c;->a:Lkik/android/net/communicator/c;
+    sget-object v0, Lkik/arcane/net/communicator/c;->a:Lkik/arcane/net/communicator/c;
 
     return-object v0
 .end method

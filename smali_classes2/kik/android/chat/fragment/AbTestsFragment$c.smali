@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/AbTestsFragment$c;
+.class final Lkik/arcane/chat/fragment/AbTestsFragment$c;
 .super Landroid/widget/BaseAdapter;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/AbTestsFragment;
+    value = Lkik/arcane/chat/fragment/AbTestsFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,18 +15,18 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/AbTestsFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/AbTestsFragment;
 
 .field private final b:Landroid/view/LayoutInflater;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/chat/fragment/AbTestsFragment;Landroid/content/Context;)V
+.method public constructor <init>(Lkik/arcane/chat/fragment/AbTestsFragment;Landroid/content/Context;)V
     .locals 1
 
     .prologue
     .line 337
-    iput-object p1, p0, Lkik/android/chat/fragment/AbTestsFragment$c;->a:Lkik/android/chat/fragment/AbTestsFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/AbTestsFragment$c;->a:Lkik/arcane/chat/fragment/AbTestsFragment;
 
     invoke-direct {p0}, Landroid/widget/BaseAdapter;-><init>()V
 
@@ -35,7 +35,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment$c;->b:Landroid/view/LayoutInflater;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment$c;->b:Landroid/view/LayoutInflater;
 
     .line 339
     return-void
@@ -46,9 +46,9 @@
 
     .prologue
     .line 351
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment$c;->a:Lkik/android/chat/fragment/AbTestsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment$c;->a:Lkik/arcane/chat/fragment/AbTestsFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/AbTestsFragment;->f(Lkik/android/chat/fragment/AbTestsFragment;)Ljava/util/ArrayList;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/AbTestsFragment;->f(Lkik/arcane/chat/fragment/AbTestsFragment;)Ljava/util/ArrayList;
 
     move-result-object v0
 
@@ -83,9 +83,9 @@
 
     .prologue
     .line 345
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment$c;->a:Lkik/android/chat/fragment/AbTestsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment$c;->a:Lkik/arcane/chat/fragment/AbTestsFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/AbTestsFragment;->f(Lkik/android/chat/fragment/AbTestsFragment;)Ljava/util/ArrayList;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/AbTestsFragment;->f(Lkik/arcane/chat/fragment/AbTestsFragment;)Ljava/util/ArrayList;
 
     move-result-object v0
 
@@ -101,7 +101,7 @@
 
     .prologue
     .line 332
-    invoke-direct {p0, p1}, Lkik/android/chat/fragment/AbTestsFragment$c;->a(I)Lkik/core/abtesting/b;
+    invoke-direct {p0, p1}, Lkik/arcane/chat/fragment/AbTestsFragment$c;->a(I)Lkik/core/abtesting/b;
 
     move-result-object v0
 
@@ -128,7 +128,7 @@
     if-nez p2, :cond_0
 
     .line 368
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment$c;->b:Landroid/view/LayoutInflater;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment$c;->b:Landroid/view/LayoutInflater;
 
     const v1, 0x7f040137
 
@@ -137,11 +137,11 @@
     move-result-object p2
 
     .line 369
-    new-instance v1, Lkik/android/chat/fragment/AbTestsFragment$d;
+    new-instance v1, Lkik/arcane/chat/fragment/AbTestsFragment$d;
 
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment$c;->a:Lkik/android/chat/fragment/AbTestsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment$c;->a:Lkik/arcane/chat/fragment/AbTestsFragment;
 
-    invoke-direct {v1, v0, v5}, Lkik/android/chat/fragment/AbTestsFragment$d;-><init>(Lkik/android/chat/fragment/AbTestsFragment;B)V
+    invoke-direct {v1, v0, v5}, Lkik/arcane/chat/fragment/AbTestsFragment$d;-><init>(Lkik/arcane/chat/fragment/AbTestsFragment;B)V
 
     .line 370
     const v0, 0x1020016
@@ -152,7 +152,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, v1, Lkik/android/chat/fragment/AbTestsFragment$d;->a:Landroid/widget/TextView;
+    iput-object v0, v1, Lkik/arcane/chat/fragment/AbTestsFragment$d;->a:Landroid/widget/TextView;
 
     .line 371
     const v0, 0x1020010
@@ -163,18 +163,18 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, v1, Lkik/android/chat/fragment/AbTestsFragment$d;->b:Landroid/widget/TextView;
+    iput-object v0, v1, Lkik/arcane/chat/fragment/AbTestsFragment$d;->b:Landroid/widget/TextView;
 
     move-object v0, v1
 
     .line 377
     :goto_0
-    invoke-direct {p0, p1}, Lkik/android/chat/fragment/AbTestsFragment$c;->a(I)Lkik/core/abtesting/b;
+    invoke-direct {p0, p1}, Lkik/arcane/chat/fragment/AbTestsFragment$c;->a(I)Lkik/core/abtesting/b;
 
     move-result-object v1
 
     .line 378
-    iget-object v2, v0, Lkik/android/chat/fragment/AbTestsFragment$d;->a:Landroid/widget/TextView;
+    iget-object v2, v0, Lkik/arcane/chat/fragment/AbTestsFragment$d;->a:Landroid/widget/TextView;
 
     invoke-virtual {v1}, Lkik/core/abtesting/b;->a()Ljava/lang/String;
 
@@ -183,7 +183,7 @@
     invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 379
-    iget-object v2, v0, Lkik/android/chat/fragment/AbTestsFragment$d;->b:Landroid/widget/TextView;
+    iget-object v2, v0, Lkik/arcane/chat/fragment/AbTestsFragment$d;->b:Landroid/widget/TextView;
 
     const-string v3, "%s variants"
 
@@ -223,7 +223,7 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/fragment/AbTestsFragment$d;
+    check-cast v0, Lkik/arcane/chat/fragment/AbTestsFragment$d;
 
     goto :goto_0
 .end method

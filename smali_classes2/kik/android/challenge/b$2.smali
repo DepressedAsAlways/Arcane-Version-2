@@ -1,11 +1,11 @@
-.class final Lkik/android/challenge/b$2;
+.class final Lkik/arcane/challenge/b$2;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/challenge/b;->a(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/events/Promise;
+    value = Lkik/arcane/challenge/b;->a(Ljava/lang/String;Ljava/lang/String;)Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,20 +28,20 @@
 
 .field final synthetic b:Lkik/core/net/outgoing/PhoneVerificationVerifyCodeRequest;
 
-.field final synthetic c:Lkik/android/challenge/b;
+.field final synthetic c:Lkik/arcane/challenge/b;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/challenge/b;Lcom/kik/events/Promise;Lkik/core/net/outgoing/PhoneVerificationVerifyCodeRequest;)V
+.method constructor <init>(Lkik/arcane/challenge/b;Lcom/kik/events/Promise;Lkik/core/net/outgoing/PhoneVerificationVerifyCodeRequest;)V
     .locals 0
 
     .prologue
     .line 60
-    iput-object p1, p0, Lkik/android/challenge/b$2;->c:Lkik/android/challenge/b;
+    iput-object p1, p0, Lkik/arcane/challenge/b$2;->c:Lkik/arcane/challenge/b;
 
-    iput-object p2, p0, Lkik/android/challenge/b$2;->a:Lcom/kik/events/Promise;
+    iput-object p2, p0, Lkik/arcane/challenge/b$2;->a:Lcom/kik/events/Promise;
 
-    iput-object p3, p0, Lkik/android/challenge/b$2;->b:Lkik/core/net/outgoing/PhoneVerificationVerifyCodeRequest;
+    iput-object p3, p0, Lkik/arcane/challenge/b$2;->b:Lkik/core/net/outgoing/PhoneVerificationVerifyCodeRequest;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -65,9 +65,9 @@
     .line 1065
     check-cast p1, Lkik/core/net/outgoing/PhoneVerificationVerifyCodeRequest;
 
-    iget-object v0, p0, Lkik/android/challenge/b$2;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/challenge/b$2;->a:Lcom/kik/events/Promise;
 
-    invoke-static {p1, v0}, Lkik/android/challenge/b;->a(Lkik/core/net/outgoing/PhoneVerificationVerifyCodeRequest;Lcom/kik/events/Promise;)V
+    invoke-static {p1, v0}, Lkik/arcane/challenge/b;->a(Lkik/core/net/outgoing/PhoneVerificationVerifyCodeRequest;Lcom/kik/events/Promise;)V
 
     .line 60
     :cond_0
@@ -79,11 +79,11 @@
 
     .prologue
     .line 72
-    iget-object v0, p0, Lkik/android/challenge/b$2;->b:Lkik/core/net/outgoing/PhoneVerificationVerifyCodeRequest;
+    iget-object v0, p0, Lkik/arcane/challenge/b$2;->b:Lkik/core/net/outgoing/PhoneVerificationVerifyCodeRequest;
 
-    iget-object v1, p0, Lkik/android/challenge/b$2;->a:Lcom/kik/events/Promise;
+    iget-object v1, p0, Lkik/arcane/challenge/b$2;->a:Lcom/kik/events/Promise;
 
-    invoke-static {v0, v1}, Lkik/android/challenge/b;->b(Lkik/core/net/outgoing/PhoneVerificationVerifyCodeRequest;Lcom/kik/events/Promise;)V
+    invoke-static {v0, v1}, Lkik/arcane/challenge/b;->b(Lkik/core/net/outgoing/PhoneVerificationVerifyCodeRequest;Lcom/kik/events/Promise;)V
 
     .line 73
     return-void

@@ -15,5 +15,5 @@
 
 
 # virtual methods
-.method public abstract a(Lkik/android/challenge/CountryCode;)V
+.method public abstract a(Lkik/arcane/challenge/CountryCode;)V
 .end method

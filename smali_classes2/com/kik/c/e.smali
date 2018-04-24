@@ -64,7 +64,7 @@
 
     const-string v1, "content"
 
-    invoke-static {v1}, Lkik/android/util/DeviceUtils;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1}, Lkik/arcane/util/DeviceUtils;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 

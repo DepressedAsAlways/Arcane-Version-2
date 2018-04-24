@@ -1,5 +1,5 @@
 .class public Lcom/kik/cards/browser/PreCaptchaDescriptiveDialogFragment;
-.super Lkik/android/chat/fragment/DescriptiveDialogFragment;
+.super Lkik/arcane/chat/fragment/DescriptiveDialogFragment;
 .source "SourceFile"
 
 
@@ -12,7 +12,7 @@
 
 
 # instance fields
-.field protected a:Lcom/kik/android/Mixpanel;
+.field protected a:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -30,7 +30,7 @@
 
     .prologue
     .line 17
-    invoke-direct {p0}, Lkik/android/chat/fragment/DescriptiveDialogFragment;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/DescriptiveDialogFragment;-><init>()V
 
     .line 19
     new-instance v0, Lcom/kik/cards/browser/PreCaptchaDescriptiveDialogFragment$a;
@@ -113,11 +113,11 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/util/ae;Landroid/content/Context;)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-static {v0, v1}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/util/ae;Landroid/content/Context;)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
 
     move-result-object v0
 
@@ -221,16 +221,16 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/e;
+    check-cast v0, Lkik/arcane/chat/e;
 
-    invoke-interface {v0}, Lkik/android/chat/e;->a()Lcom/kik/components/CoreComponent;
+    invoke-interface {v0}, Lkik/arcane/chat/e;->a()Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 
     invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lcom/kik/cards/browser/PreCaptchaDescriptiveDialogFragment;)V
 
     .line 43
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/DescriptiveDialogFragment;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/DescriptiveDialogFragment;->onCreate(Landroid/os/Bundle;)V
 
     .line 45
     iget-object v0, p0, Lcom/kik/cards/browser/PreCaptchaDescriptiveDialogFragment;->b:Lcom/kik/cards/browser/PreCaptchaDescriptiveDialogFragment$a;
@@ -242,11 +242,11 @@
     iput-object v0, p0, Lcom/kik/cards/browser/PreCaptchaDescriptiveDialogFragment;->c:Ljava/lang/String;
 
     .line 46
-    iget-object v0, p0, Lcom/kik/cards/browser/PreCaptchaDescriptiveDialogFragment;->a:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lcom/kik/cards/browser/PreCaptchaDescriptiveDialogFragment;->a:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "On Demand Pre Captcha Dialog Shown"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -259,17 +259,17 @@
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 48
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 49
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 50
     return-void
@@ -280,7 +280,7 @@
 
     .prologue
     .line 35
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/DescriptiveDialogFragment;->setArguments(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/DescriptiveDialogFragment;->setArguments(Landroid/os/Bundle;)V
 
     .line 36
     iget-object v0, p0, Lcom/kik/cards/browser/PreCaptchaDescriptiveDialogFragment;->b:Lcom/kik/cards/browser/PreCaptchaDescriptiveDialogFragment$a;

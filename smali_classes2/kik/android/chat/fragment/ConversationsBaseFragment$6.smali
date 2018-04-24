@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/ConversationsBaseFragment$6;
+.class final Lkik/arcane/chat/fragment/ConversationsBaseFragment$6;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/ConversationsBaseFragment;
+    value = Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/ConversationsBaseFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/ConversationsBaseFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/ConversationsBaseFragment;)V
     .locals 0
 
     .prologue
     .line 195
-    iput-object p1, p0, Lkik/android/chat/fragment/ConversationsBaseFragment$6;->a:Lkik/android/chat/fragment/ConversationsBaseFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ConversationsBaseFragment$6;->a:Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,11 +52,11 @@
     .prologue
     .line 195
     .line 1199
-    iget-object v0, p0, Lkik/android/chat/fragment/ConversationsBaseFragment$6;->a:Lkik/android/chat/fragment/ConversationsBaseFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ConversationsBaseFragment$6;->a:Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/ConversationsBaseFragment$6;->a:Lkik/android/chat/fragment/ConversationsBaseFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/ConversationsBaseFragment$6;->a:Lkik/arcane/chat/fragment/ConversationsBaseFragment;
 
-    iget-object v1, v1, Lkik/android/chat/fragment/ConversationsBaseFragment;->_root:Landroid/view/ViewGroup;
+    iget-object v1, v1, Lkik/arcane/chat/fragment/ConversationsBaseFragment;->_root:Landroid/view/ViewGroup;
 
     invoke-virtual {v1}, Landroid/view/ViewGroup;->getResources()Landroid/content/res/Resources;
 
@@ -70,7 +70,7 @@
 
     const/4 v2, 0x1
 
-    invoke-virtual {v0, v1, v2}, Lkik/android/chat/fragment/ConversationsBaseFragment;->showWaitDialog(Ljava/lang/String;Z)Lkik/android/chat/fragment/KikDialogFragment;
+    invoke-virtual {v0, v1, v2}, Lkik/arcane/chat/fragment/ConversationsBaseFragment;->showWaitDialog(Ljava/lang/String;Z)Lkik/arcane/chat/fragment/KikDialogFragment;
 
     .line 195
     return-void

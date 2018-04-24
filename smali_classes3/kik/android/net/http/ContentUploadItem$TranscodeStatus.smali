@@ -1,11 +1,11 @@
-.class final enum Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+.class final enum Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 .super Ljava/lang/Enum;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/net/http/ContentUploadItem;
+    value = Lkik/arcane/net/http/ContentUploadItem;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,20 +17,20 @@
     value = {
         "Ljava/lang/Enum",
         "<",
-        "Lkik/android/net/http/ContentUploadItem$TranscodeStatus;",
+        "Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;",
         ">;"
     }
 .end annotation
 
 
 # static fields
-.field private static final synthetic $VALUES:[Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+.field private static final synthetic $VALUES:[Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
-.field public static final enum COMPLETED:Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+.field public static final enum COMPLETED:Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
-.field public static final enum IN_PROGRESS:Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+.field public static final enum IN_PROGRESS:Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
-.field public static final enum PENDING:Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+.field public static final enum PENDING:Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
 
 # direct methods
@@ -45,48 +45,48 @@
     const/4 v2, 0x0
 
     .line 89
-    new-instance v0, Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    new-instance v0, Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
     const-string v1, "PENDING"
 
-    invoke-direct {v0, v1, v2}, Lkik/android/net/http/ContentUploadItem$TranscodeStatus;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/net/http/ContentUploadItem$TranscodeStatus;->PENDING:Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    sput-object v0, Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;->PENDING:Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
-    new-instance v0, Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    new-instance v0, Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
     const-string v1, "IN_PROGRESS"
 
-    invoke-direct {v0, v1, v3}, Lkik/android/net/http/ContentUploadItem$TranscodeStatus;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v3}, Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/net/http/ContentUploadItem$TranscodeStatus;->IN_PROGRESS:Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    sput-object v0, Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;->IN_PROGRESS:Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
-    new-instance v0, Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    new-instance v0, Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
     const-string v1, "COMPLETED"
 
-    invoke-direct {v0, v1, v4}, Lkik/android/net/http/ContentUploadItem$TranscodeStatus;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v4}, Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/net/http/ContentUploadItem$TranscodeStatus;->COMPLETED:Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    sput-object v0, Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;->COMPLETED:Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
     .line 88
     const/4 v0, 0x3
 
-    new-array v0, v0, [Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    new-array v0, v0, [Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
-    sget-object v1, Lkik/android/net/http/ContentUploadItem$TranscodeStatus;->PENDING:Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    sget-object v1, Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;->PENDING:Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lkik/android/net/http/ContentUploadItem$TranscodeStatus;->IN_PROGRESS:Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    sget-object v1, Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;->IN_PROGRESS:Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
     aput-object v1, v0, v3
 
-    sget-object v1, Lkik/android/net/http/ContentUploadItem$TranscodeStatus;->COMPLETED:Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    sget-object v1, Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;->COMPLETED:Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
     aput-object v1, v0, v4
 
-    sput-object v0, Lkik/android/net/http/ContentUploadItem$TranscodeStatus;->$VALUES:[Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    sput-object v0, Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;->$VALUES:[Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
     return-void
 .end method
@@ -106,34 +106,34 @@
     return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+.method public static valueOf(Ljava/lang/String;)Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
     .locals 1
 
     .prologue
     .line 88
-    const-class v0, Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    const-class v0, Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    check-cast v0, Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
     return-object v0
 .end method
 
-.method public static values()[Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+.method public static values()[Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
     .locals 1
 
     .prologue
     .line 88
-    sget-object v0, Lkik/android/net/http/ContentUploadItem$TranscodeStatus;->$VALUES:[Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    sget-object v0, Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;->$VALUES:[Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
-    invoke-virtual {v0}, [Lkik/android/net/http/ContentUploadItem$TranscodeStatus;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkik/android/net/http/ContentUploadItem$TranscodeStatus;
+    check-cast v0, [Lkik/arcane/net/http/ContentUploadItem$TranscodeStatus;
 
     return-object v0
 .end method

@@ -1,4 +1,4 @@
-.class public Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;
+.class public Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -7,7 +7,7 @@
 
 
 # instance fields
-.field private a:Lkik/android/chat/fragment/UserProfileFragment;
+.field private a:Lkik/arcane/chat/fragment/UserProfileFragment;
 
 .field private b:Landroid/view/View;
 
@@ -29,7 +29,7 @@
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/chat/fragment/UserProfileFragment;Landroid/view/View;)V
+.method public constructor <init>(Lkik/arcane/chat/fragment/UserProfileFragment;Landroid/view/View;)V
     .locals 3
 
     .prologue
@@ -37,7 +37,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 35
-    iput-object p1, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->a:Lkik/android/chat/fragment/UserProfileFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/UserProfileFragment;
 
     .line 38
     const v0, 0x7f100218
@@ -52,22 +52,22 @@
 
     check-cast v0, Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/UserProfileFragment;->_toolTipParentView:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/UserProfileFragment;->_toolTipParentView:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
 
     .line 39
     const v0, 0x7f100216
 
     const-string v1, "field \'_emojiStatusCircleView\'"
 
-    const-class v2, Lkik/android/widget/EmojiStatusCircleView;
+    const-class v2, Lkik/arcane/widget/EmojiStatusCircleView;
 
     invoke-static {p2, v0, v1, v2}, Lbutterknife/internal/Utils;->findRequiredViewAsType(Landroid/view/View;ILjava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/widget/EmojiStatusCircleView;
+    check-cast v0, Lkik/arcane/widget/EmojiStatusCircleView;
 
-    iput-object v0, p1, Lkik/android/chat/fragment/UserProfileFragment;->_emojiStatusCircleView:Lkik/android/widget/EmojiStatusCircleView;
+    iput-object v0, p1, Lkik/arcane/chat/fragment/UserProfileFragment;->_emojiStatusCircleView:Lkik/arcane/widget/EmojiStatusCircleView;
 
     .line 40
     const v0, 0x7f1002f5
@@ -79,12 +79,12 @@
     move-result-object v0
 
     .line 41
-    iput-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->b:Landroid/view/View;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->b:Landroid/view/View;
 
     .line 42
-    new-instance v1, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$1;
+    new-instance v1, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding$1;
 
-    invoke-direct {v1, p0, p1}, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$1;-><init>(Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;Lkik/android/chat/fragment/UserProfileFragment;)V
+    invoke-direct {v1, p0, p1}, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding$1;-><init>(Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;Lkik/arcane/chat/fragment/UserProfileFragment;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -98,12 +98,12 @@
     move-result-object v0
 
     .line 49
-    iput-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->c:Landroid/view/View;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->c:Landroid/view/View;
 
     .line 50
-    new-instance v1, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$2;
+    new-instance v1, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding$2;
 
-    invoke-direct {v1, p0, p1}, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$2;-><init>(Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;Lkik/android/chat/fragment/UserProfileFragment;)V
+    invoke-direct {v1, p0, p1}, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding$2;-><init>(Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;Lkik/arcane/chat/fragment/UserProfileFragment;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -117,12 +117,12 @@
     move-result-object v0
 
     .line 57
-    iput-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->d:Landroid/view/View;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->d:Landroid/view/View;
 
     .line 58
-    new-instance v1, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$3;
+    new-instance v1, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding$3;
 
-    invoke-direct {v1, p0, p1}, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$3;-><init>(Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;Lkik/android/chat/fragment/UserProfileFragment;)V
+    invoke-direct {v1, p0, p1}, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding$3;-><init>(Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;Lkik/arcane/chat/fragment/UserProfileFragment;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -136,12 +136,12 @@
     move-result-object v0
 
     .line 65
-    iput-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->e:Landroid/view/View;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->e:Landroid/view/View;
 
     .line 66
-    new-instance v1, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$4;
+    new-instance v1, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding$4;
 
-    invoke-direct {v1, p0, p1}, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$4;-><init>(Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;Lkik/android/chat/fragment/UserProfileFragment;)V
+    invoke-direct {v1, p0, p1}, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding$4;-><init>(Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;Lkik/arcane/chat/fragment/UserProfileFragment;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -155,12 +155,12 @@
     move-result-object v0
 
     .line 73
-    iput-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->f:Landroid/view/View;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->f:Landroid/view/View;
 
     .line 74
-    new-instance v1, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$5;
+    new-instance v1, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding$5;
 
-    invoke-direct {v1, p0, p1}, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$5;-><init>(Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;Lkik/android/chat/fragment/UserProfileFragment;)V
+    invoke-direct {v1, p0, p1}, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding$5;-><init>(Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;Lkik/arcane/chat/fragment/UserProfileFragment;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -174,12 +174,12 @@
     move-result-object v0
 
     .line 81
-    iput-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->g:Landroid/view/View;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->g:Landroid/view/View;
 
     .line 82
-    new-instance v1, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$6;
+    new-instance v1, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding$6;
 
-    invoke-direct {v1, p0, p1}, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$6;-><init>(Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;Lkik/android/chat/fragment/UserProfileFragment;)V
+    invoke-direct {v1, p0, p1}, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding$6;-><init>(Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;Lkik/arcane/chat/fragment/UserProfileFragment;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -193,12 +193,12 @@
     move-result-object v0
 
     .line 89
-    iput-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->h:Landroid/view/View;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->h:Landroid/view/View;
 
     .line 90
-    new-instance v1, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$7;
+    new-instance v1, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding$7;
 
-    invoke-direct {v1, p0, p1}, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$7;-><init>(Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;Lkik/android/chat/fragment/UserProfileFragment;)V
+    invoke-direct {v1, p0, p1}, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding$7;-><init>(Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;Lkik/arcane/chat/fragment/UserProfileFragment;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 	
@@ -212,12 +212,12 @@
     move-result-object v0
 
     .line 97
-    iput-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->i:Landroid/view/View;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->i:Landroid/view/View;
 
     .line 98
-    new-instance v1, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$8;
+    new-instance v1, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding$8;
 
-    invoke-direct {v1, p0, p1}, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$8;-><init>(Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;Lkik/android/chat/fragment/UserProfileFragment;)V
+    invoke-direct {v1, p0, p1}, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding$8;-><init>(Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;Lkik/arcane/chat/fragment/UserProfileFragment;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 	
@@ -231,12 +231,12 @@
     move-result-object v0
 
     .line 105
-    iput-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->j:Landroid/view/View;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->j:Landroid/view/View;
 
     .line 106
-    new-instance v1, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$9;
+    new-instance v1, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding$9;
 
-    invoke-direct {v1, p0, p1}, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding$9;-><init>(Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;Lkik/android/chat/fragment/UserProfileFragment;)V
+    invoke-direct {v1, p0, p1}, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding$9;-><init>(Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;Lkik/arcane/chat/fragment/UserProfileFragment;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -253,7 +253,7 @@
     const/4 v1, 0x0
 
     .line 101
-    iget-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->a:Lkik/android/chat/fragment/UserProfileFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/UserProfileFragment;
 
     .line 102
     if-nez v0, :cond_0
@@ -268,85 +268,85 @@
 
     .line 103
     :cond_0
-    iput-object v1, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->a:Lkik/android/chat/fragment/UserProfileFragment;
+    iput-object v1, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->a:Lkik/arcane/chat/fragment/UserProfileFragment;
 
     .line 105
-    iput-object v1, v0, Lkik/android/chat/fragment/UserProfileFragment;->_toolTipParentView:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/UserProfileFragment;->_toolTipParentView:Lcom/nhaarman/supertooltips/ToolTipRelativeLayout;
 
     .line 106
-    iput-object v1, v0, Lkik/android/chat/fragment/UserProfileFragment;->_emojiStatusCircleView:Lkik/android/widget/EmojiStatusCircleView;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/UserProfileFragment;->_emojiStatusCircleView:Lkik/arcane/widget/EmojiStatusCircleView;
 
     .line 108
-    iget-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->b:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->b:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 109
-    iput-object v1, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->b:Landroid/view/View;
+    iput-object v1, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->b:Landroid/view/View;
 
     .line 110
-    iget-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->c:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->c:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 111
-    iput-object v1, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->c:Landroid/view/View;
+    iput-object v1, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->c:Landroid/view/View;
 
     .line 112
-    iget-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->d:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->d:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 113
-    iput-object v1, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->d:Landroid/view/View;
+    iput-object v1, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->d:Landroid/view/View;
 
     .line 114
-    iget-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->e:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->e:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 115
-    iput-object v1, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->e:Landroid/view/View;
+    iput-object v1, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->e:Landroid/view/View;
 
     .line 116
-    iget-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->f:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->f:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 117
-    iput-object v1, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->f:Landroid/view/View;
+    iput-object v1, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->f:Landroid/view/View;
 
     .line 118
-    iget-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->g:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->g:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 119
-    iput-object v1, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->g:Landroid/view/View;
+    iput-object v1, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->g:Landroid/view/View;
 
     .line 120
-    iget-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->h:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->h:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 121
-    iput-object v1, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->h:Landroid/view/View;
+    iput-object v1, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->h:Landroid/view/View;
 	
 	.line 122
-    iget-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->i:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->i:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 123
-    iput-object v1, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->i:Landroid/view/View;
+    iput-object v1, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->i:Landroid/view/View;
 	
 	.line 124
-    iget-object v0, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->j:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->j:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 125
-    iput-object v1, p0, Lkik/android/chat/fragment/UserProfileFragment_ViewBinding;->j:Landroid/view/View;
+    iput-object v1, p0, Lkik/arcane/chat/fragment/UserProfileFragment_ViewBinding;->j:Landroid/view/View;
 
     .line 126
     return-void

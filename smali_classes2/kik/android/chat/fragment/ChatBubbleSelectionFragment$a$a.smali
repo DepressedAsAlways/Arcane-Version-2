@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/ChatBubbleSelectionFragment$a$a;
+.class final Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment$a$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/ChatBubbleSelectionFragment$a;
+    value = Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment$a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -41,7 +41,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p0, Lkik/android/chat/fragment/ChatBubbleSelectionFragment$a$a;->a:Landroid/widget/TextView;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment$a$a;->a:Landroid/widget/TextView;
 
     .line 190
     const v0, 0x7f10030b
@@ -50,7 +50,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/fragment/ChatBubbleSelectionFragment$a$a;->b:Landroid/view/View;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment$a$a;->b:Landroid/view/View;
 
     .line 191
     const v0, 0x7f10030d
@@ -61,7 +61,7 @@
 
     check-cast v0, Landroid/widget/CompoundButton;
 
-    iput-object v0, p0, Lkik/android/chat/fragment/ChatBubbleSelectionFragment$a$a;->c:Landroid/widget/CompoundButton;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment$a$a;->c:Landroid/widget/CompoundButton;
 
     .line 192
     const v0, 0x7f10030f
@@ -70,7 +70,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/fragment/ChatBubbleSelectionFragment$a$a;->d:Landroid/view/View;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment$a$a;->d:Landroid/view/View;
 
     .line 193
     return-void
@@ -94,11 +94,11 @@
     .line 199
     new-array v0, v1, [Landroid/view/View;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/ChatBubbleSelectionFragment$a$a;->d:Landroid/view/View;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment$a$a;->d:Landroid/view/View;
 
     aput-object v1, v0, v2
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 204
     :goto_0
@@ -108,11 +108,11 @@
     :cond_0
     new-array v0, v1, [Landroid/view/View;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/ChatBubbleSelectionFragment$a$a;->d:Landroid/view/View;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/ChatBubbleSelectionFragment$a$a;->d:Landroid/view/View;
 
     aput-object v1, v0, v2
 
-    invoke-static {v0}, Lkik/android/util/ca;->f([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->f([Landroid/view/View;)V
 
     goto :goto_0
 .end method

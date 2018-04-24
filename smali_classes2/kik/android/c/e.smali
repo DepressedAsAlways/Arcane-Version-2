@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/c/e;
+.class final synthetic Lkik/arcane/c/e;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/c/d;
+.field private final a:Lkik/arcane/c/d;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/c/d;)V
+.method private constructor <init>(Lkik/arcane/c/d;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/c/e;->a:Lkik/android/c/d;
+    iput-object p1, p0, Lkik/arcane/c/e;->a:Lkik/arcane/c/d;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/c/d;)Landroid/hardware/Camera$AutoFocusCallback;
+.method public static a(Lkik/arcane/c/d;)Landroid/hardware/Camera$AutoFocusCallback;
     .locals 1
 
-    new-instance v0, Lkik/android/c/e;
+    new-instance v0, Lkik/arcane/c/e;
 
-    invoke-direct {v0, p0}, Lkik/android/c/e;-><init>(Lkik/android/c/d;)V
+    invoke-direct {v0, p0}, Lkik/arcane/c/e;-><init>(Lkik/arcane/c/d;)V
 
     return-object v0
 .end method
@@ -35,9 +35,9 @@
 .method public final onAutoFocus(ZLandroid/hardware/Camera;)V
     .locals 1
 
-    iget-object v0, p0, Lkik/android/c/e;->a:Lkik/android/c/d;
+    iget-object v0, p0, Lkik/arcane/c/e;->a:Lkik/arcane/c/d;
 
-    invoke-static {v0, p1, p2}, Lkik/android/c/d;->a(Lkik/android/c/d;ZLandroid/hardware/Camera;)V
+    invoke-static {v0, p1, p2}, Lkik/arcane/c/d;->a(Lkik/arcane/c/d;ZLandroid/hardware/Camera;)V
 
     return-void
 .end method

@@ -1,11 +1,11 @@
-.class public interface abstract Lkik/android/chat/fragment/KikChatFragment$b;
+.class public interface abstract Lkik/arcane/chat/fragment/KikChatFragment$b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikChatFragment;
+    value = Lkik/arcane/chat/fragment/KikChatFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 .method public abstract a()V
 .end method
 
-.method public abstract a(Lcom/kik/android/b/f;Z)V
+.method public abstract a(Lcom/kik/arcane/b/f;Z)V
 .end method
 
 .method public abstract a(Z)V

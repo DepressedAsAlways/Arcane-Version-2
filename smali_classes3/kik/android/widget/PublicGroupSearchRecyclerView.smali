@@ -1,25 +1,25 @@
-.class public Lkik/android/widget/PublicGroupSearchRecyclerView;
-.super Lkik/android/widget/AutoScrollingRecyclerView;
+.class public Lkik/arcane/widget/PublicGroupSearchRecyclerView;
+.super Lkik/arcane/widget/AutoScrollingRecyclerView;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/widget/dn$a;
+.implements Lkik/arcane/widget/dn$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/widget/PublicGroupSearchRecyclerView$a;
+        Lkik/arcane/widget/PublicGroupSearchRecyclerView$a;
     }
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
-        "Lkik/android/widget/AutoScrollingRecyclerView;",
-        "Lkik/android/widget/dn$a",
+        "Lkik/arcane/widget/AutoScrollingRecyclerView;",
+        "Lkik/arcane/widget/dn$a",
         "<",
-        "Lkik/android/chat/vm/chats/publicgroups/IPublicGroupItemViewModel;",
-        "Lkik/android/widget/PublicGroupSearchRecyclerView$a;",
+        "Lkik/arcane/chat/vm/chats/publicgroups/IPublicGroupItemViewModel;",
+        "Lkik/arcane/widget/PublicGroupSearchRecyclerView$a;",
         ">;"
     }
 .end annotation
@@ -33,7 +33,7 @@
     .line 24
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, v0}, Lkik/android/widget/PublicGroupSearchRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Lkik/arcane/widget/PublicGroupSearchRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 25
     return-void
@@ -46,7 +46,7 @@
     .line 29
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/PublicGroupSearchRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/PublicGroupSearchRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 30
     return-void
@@ -57,7 +57,7 @@
 
     .prologue
     .line 34
-    invoke-direct {p0, p1, p2, p3}, Lkik/android/widget/AutoScrollingRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lkik/arcane/widget/AutoScrollingRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 35
     new-instance v0, Landroid/support/v7/widget/LinearLayoutManager;
@@ -68,12 +68,12 @@
 
     invoke-direct {v0, p1, v1, v2}, Landroid/support/v7/widget/LinearLayoutManager;-><init>(Landroid/content/Context;IZ)V
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/PublicGroupSearchRecyclerView;->setLayoutManager(Landroid/support/v7/widget/RecyclerView$LayoutManager;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/PublicGroupSearchRecyclerView;->setLayoutManager(Landroid/support/v7/widget/RecyclerView$LayoutManager;)V
 
     .line 36
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/PublicGroupSearchRecyclerView;->setItemAnimator(Landroid/support/v7/widget/RecyclerView$ItemAnimator;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/PublicGroupSearchRecyclerView;->setItemAnimator(Landroid/support/v7/widget/RecyclerView$ItemAnimator;)V
 
     .line 37
     return-void
@@ -86,16 +86,16 @@
 
     .prologue
     .line 20
-    check-cast p1, Lkik/android/chat/vm/chats/publicgroups/IPublicGroupItemViewModel;
+    check-cast p1, Lkik/arcane/chat/vm/chats/publicgroups/IPublicGroupItemViewModel;
 
     .line 2042
-    sget-object v0, Lkik/android/widget/PublicGroupSearchRecyclerView$1;->a:[I
+    sget-object v0, Lkik/arcane/widget/PublicGroupSearchRecyclerView$1;->a:[I
 
-    invoke-interface {p1}, Lkik/android/chat/vm/chats/publicgroups/IPublicGroupItemViewModel;->Q_()Lkik/android/chat/vm/chats/publicgroups/IPublicGroupItemViewModel$LayoutType;
+    invoke-interface {p1}, Lkik/arcane/chat/vm/chats/publicgroups/IPublicGroupItemViewModel;->Q_()Lkik/arcane/chat/vm/chats/publicgroups/IPublicGroupItemViewModel$LayoutType;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lkik/android/chat/vm/chats/publicgroups/IPublicGroupItemViewModel$LayoutType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/chats/publicgroups/IPublicGroupItemViewModel$LayoutType;->ordinal()I
 
     move-result v1
 
@@ -112,7 +112,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-interface {p1}, Lkik/android/chat/vm/chats/publicgroups/IPublicGroupItemViewModel;->Q_()Lkik/android/chat/vm/chats/publicgroups/IPublicGroupItemViewModel$LayoutType;
+    invoke-interface {p1}, Lkik/arcane/chat/vm/chats/publicgroups/IPublicGroupItemViewModel;->Q_()Lkik/arcane/chat/vm/chats/publicgroups/IPublicGroupItemViewModel$LayoutType;
 
     move-result-object v2
 
@@ -177,13 +177,13 @@
     move-result-object v0
 
     .line 1060
-    new-instance v1, Lkik/android/widget/PublicGroupSearchRecyclerView$a;
+    new-instance v1, Lkik/arcane/widget/PublicGroupSearchRecyclerView$a;
 
     invoke-virtual {v0}, Landroid/databinding/ViewDataBinding;->getRoot()Landroid/view/View;
 
     move-result-object v0
 
-    invoke-direct {v1, v0}, Lkik/android/widget/PublicGroupSearchRecyclerView$a;-><init>(Landroid/view/View;)V
+    invoke-direct {v1, v0}, Lkik/arcane/widget/PublicGroupSearchRecyclerView$a;-><init>(Landroid/view/View;)V
 
     .line 20
     return-object v1

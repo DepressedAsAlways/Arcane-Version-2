@@ -44,7 +44,7 @@
 
 
 # virtual methods
-.method final a(Lcom/kik/android/Mixpanel;Lkik/core/interfaces/r;)Lkik/core/interfaces/b;
+.method final a(Lcom/kik/arcane/Mixpanel;Lkik/core/interfaces/r;)Lkik/core/interfaces/b;
     .locals 8
     .annotation runtime Ljavax/inject/Singleton;
     .end annotation
@@ -67,7 +67,7 @@
 
     move-object v7, p1
 
-    invoke-direct/range {v0 .. v7}, Lkik/core/abtesting/e;-><init>(Lkik/core/interfaces/c;Lkik/core/abtesting/j;Lkik/core/abtesting/i;Lkik/core/interfaces/k;Lkik/core/interfaces/r;Lkik/core/interfaces/f;Lcom/kik/android/Mixpanel;)V
+    invoke-direct/range {v0 .. v7}, Lkik/core/abtesting/e;-><init>(Lkik/core/interfaces/c;Lkik/core/abtesting/j;Lkik/core/abtesting/i;Lkik/core/interfaces/k;Lkik/core/interfaces/r;Lkik/core/interfaces/f;Lcom/kik/arcane/Mixpanel;)V
 
     return-object v0
 .end method

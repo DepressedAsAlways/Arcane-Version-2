@@ -49,7 +49,7 @@
     .line 27
     iget-object v0, p0, Lcom/kik/view/adapters/w;->a:Ljava/lang/String;
 
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 

@@ -81,16 +81,16 @@
 
     .line 320
     :cond_1
-    instance-of v1, v0, Lkik/android/chat/activity/FragmentWrapperActivity;
+    instance-of v1, v0, Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
     if-eqz v1, :cond_2
 
     .line 321
-    check-cast v0, Lkik/android/chat/activity/FragmentWrapperActivity;
+    check-cast v0, Lkik/arcane/chat/activity/FragmentWrapperActivity;
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/activity/FragmentWrapperActivity;->a(Z)Z
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->a(Z)Z
 
     move-result v0
 

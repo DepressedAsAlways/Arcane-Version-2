@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/videochat/a;
+.class final synthetic Lkik/arcane/videochat/a;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,18 +6,18 @@
 
 
 # static fields
-.field private static final a:Lkik/android/videochat/a;
+.field private static final a:Lkik/arcane/videochat/a;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lkik/android/videochat/a;
+    new-instance v0, Lkik/arcane/videochat/a;
 
-    invoke-direct {v0}, Lkik/android/videochat/a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/videochat/a;-><init>()V
 
-    sput-object v0, Lkik/android/videochat/a;->a:Lkik/android/videochat/a;
+    sput-object v0, Lkik/arcane/videochat/a;->a:Lkik/arcane/videochat/a;
 
     return-void
 .end method
@@ -33,7 +33,7 @@
 .method public static a()Landroid/content/DialogInterface$OnClickListener;
     .locals 1
 
-    sget-object v0, Lkik/android/videochat/a;->a:Lkik/android/videochat/a;
+    sget-object v0, Lkik/arcane/videochat/a;->a:Lkik/arcane/videochat/a;
 
     return-object v0
 .end method
@@ -43,7 +43,7 @@
 .method public final onClick(Landroid/content/DialogInterface;I)V
     .locals 0
 
-    invoke-static {}, Lkik/android/videochat/ExitVideoChatDialogFragment;->c()V
+    invoke-static {}, Lkik/arcane/videochat/ExitVideoChatDialogFragment;->c()V
 
     return-void
 .end method

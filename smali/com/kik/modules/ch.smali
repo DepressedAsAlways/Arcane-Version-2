@@ -10,7 +10,7 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/SharedPreferences;Lkik/android/chat/KikApplication;)V
+.method public constructor <init>(Landroid/content/SharedPreferences;Lkik/arcane/chat/KikApplication;)V
     .locals 2
 
     .prologue
@@ -25,7 +25,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {p2, v0, v1}, Lkik/android/chat/KikApplication;->getDir(Ljava/lang/String;I)Ljava/io/File;
+    invoke-virtual {p2, v0, v1}, Lkik/arcane/chat/KikApplication;->getDir(Ljava/lang/String;I)Ljava/io/File;
 
     move-result-object v0
 
@@ -37,7 +37,7 @@
 
 
 # virtual methods
-.method final a(Lkik/core/e/d;Lkik/core/interfaces/ICommunication;Lkik/core/interfaces/ad;Lkik/core/interfaces/ag;Lkik/core/interfaces/r;Lcom/kik/performance/metrics/c;)Lcom/kik/android/Mixpanel;
+.method final a(Lkik/core/e/d;Lkik/core/interfaces/ICommunication;Lkik/core/interfaces/ad;Lkik/core/interfaces/ag;Lkik/core/interfaces/r;Lcom/kik/performance/metrics/c;)Lcom/kik/arcane/Mixpanel;
     .locals 7
     .annotation runtime Ljavax/inject/Singleton;
     .end annotation
@@ -51,7 +51,7 @@
     invoke-direct {v6, p5, v0, p6}, Lcom/kik/b/b;-><init>(Lkik/core/interfaces/r;Ljava/io/File;Lcom/kik/performance/metrics/c;)V
 
     .line 47
-    new-instance v0, Lcom/kik/android/Mixpanel;
+    new-instance v0, Lcom/kik/arcane/Mixpanel;
 
     iget-object v5, p0, Lcom/kik/modules/ch;->b:Landroid/content/SharedPreferences;
 
@@ -63,7 +63,7 @@
 
     move-object v4, p4
 
-    invoke-direct/range {v0 .. v6}, Lcom/kik/android/Mixpanel;-><init>(Lkik/core/e/d;Lkik/core/interfaces/ICommunication;Lkik/core/interfaces/ad;Lkik/core/interfaces/ag;Landroid/content/SharedPreferences;Lcom/kik/b/b;)V
+    invoke-direct/range {v0 .. v6}, Lcom/kik/arcane/Mixpanel;-><init>(Lkik/core/e/d;Lkik/core/interfaces/ICommunication;Lkik/core/interfaces/ad;Lkik/core/interfaces/ag;Landroid/content/SharedPreferences;Lcom/kik/b/b;)V
 
     return-object v0
 .end method

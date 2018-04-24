@@ -1,11 +1,11 @@
-.class public final Lkik/android/chat/fragment/SendToFragment$a;
+.class public final Lkik/arcane/chat/fragment/SendToFragment$a;
 .super Lcom/kik/ui/fragment/FragmentBase$FragmentBundle;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/SendToFragment;
+    value = Lkik/arcane/chat/fragment/SendToFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -25,7 +25,7 @@
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/SendToFragment$a;)Z
+.method static synthetic a(Lkik/arcane/chat/fragment/SendToFragment$a;)Z
     .locals 1
 
     .prologue
@@ -33,7 +33,7 @@
     .line 1597
     const-string v0, "SendToFragment.EXTRA_AUTOMATICALLY_OPEN_CHAT"
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/SendToFragment$a;->g(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/SendToFragment$a;->g(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v0
 
@@ -45,7 +45,7 @@
     return v0
 .end method
 
-.method static synthetic b(Lkik/android/chat/fragment/SendToFragment$a;)J
+.method static synthetic b(Lkik/arcane/chat/fragment/SendToFragment$a;)J
     .locals 2
 
     .prologue
@@ -53,7 +53,7 @@
     .line 2586
     const-string v0, "SendToFragment.EXTRA_DEPENDENT_PROMISE"
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/SendToFragment$a;->i(Ljava/lang/String;)J
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/SendToFragment$a;->i(Ljava/lang/String;)J
 
     move-result-wide v0
 
@@ -61,7 +61,7 @@
     return-wide v0
 .end method
 
-.method static synthetic c(Lkik/android/chat/fragment/SendToFragment$a;)Z
+.method static synthetic c(Lkik/arcane/chat/fragment/SendToFragment$a;)Z
     .locals 1
 
     .prologue
@@ -69,7 +69,7 @@
     .line 2608
     const-string v0, "SendToFragment.IS_FORWARD"
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/SendToFragment$a;->g(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/SendToFragment$a;->g(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object v0
 
@@ -83,33 +83,33 @@
 
 
 # virtual methods
-.method public final a(J)Lkik/android/chat/fragment/SendToFragment$a;
+.method public final a(J)Lkik/arcane/chat/fragment/SendToFragment$a;
     .locals 1
 
     .prologue
     .line 580
     const-string v0, "SendToFragment.EXTRA_DEPENDENT_PROMISE"
 
-    invoke-virtual {p0, v0, p1, p2}, Lkik/android/chat/fragment/SendToFragment$a;->a(Ljava/lang/String;J)V
+    invoke-virtual {p0, v0, p1, p2}, Lkik/arcane/chat/fragment/SendToFragment$a;->a(Ljava/lang/String;J)V
 
     .line 581
     return-object p0
 .end method
 
-.method public final a(Z)Lkik/android/chat/fragment/SendToFragment$a;
+.method public final a(Z)Lkik/arcane/chat/fragment/SendToFragment$a;
     .locals 1
 
     .prologue
     .line 591
     const-string v0, "SendToFragment.EXTRA_AUTOMATICALLY_OPEN_CHAT"
 
-    invoke-virtual {p0, v0, p1}, Lkik/android/chat/fragment/SendToFragment$a;->b(Ljava/lang/String;Z)V
+    invoke-virtual {p0, v0, p1}, Lkik/arcane/chat/fragment/SendToFragment$a;->b(Ljava/lang/String;Z)V
 
     .line 592
     return-object p0
 .end method
 
-.method public final b()Lkik/android/chat/fragment/SendToFragment$a;
+.method public final b()Lkik/arcane/chat/fragment/SendToFragment$a;
     .locals 2
 
     .prologue
@@ -118,7 +118,7 @@
 
     const/4 v1, 0x1
 
-    invoke-virtual {p0, v0, v1}, Lkik/android/chat/fragment/SendToFragment$a;->b(Ljava/lang/String;Z)V
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/chat/fragment/SendToFragment$a;->b(Ljava/lang/String;Z)V
 
     .line 603
     return-object p0

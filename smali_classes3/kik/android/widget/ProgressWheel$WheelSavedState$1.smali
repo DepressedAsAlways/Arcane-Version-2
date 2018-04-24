@@ -1,4 +1,4 @@
-.class final Lkik/android/widget/ProgressWheel$WheelSavedState$1;
+.class final Lkik/arcane/widget/ProgressWheel$WheelSavedState$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/widget/ProgressWheel$WheelSavedState;
+    value = Lkik/arcane/widget/ProgressWheel$WheelSavedState;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -21,7 +21,7 @@
         "Ljava/lang/Object;",
         "Landroid/os/Parcelable$Creator",
         "<",
-        "Lkik/android/widget/ProgressWheel$WheelSavedState;",
+        "Lkik/arcane/widget/ProgressWheel$WheelSavedState;",
         ">;"
     }
 .end annotation
@@ -45,11 +45,11 @@
 
     .prologue
     .line 2783
-    new-instance v0, Lkik/android/widget/ProgressWheel$WheelSavedState;
+    new-instance v0, Lkik/arcane/widget/ProgressWheel$WheelSavedState;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p1, v1}, Lkik/android/widget/ProgressWheel$WheelSavedState;-><init>(Landroid/os/Parcel;B)V
+    invoke-direct {v0, p1, v1}, Lkik/arcane/widget/ProgressWheel$WheelSavedState;-><init>(Landroid/os/Parcel;B)V
 
     .line 780
     return-object v0
@@ -61,7 +61,7 @@
     .prologue
     .line 780
     .line 1788
-    new-array v0, p1, [Lkik/android/widget/ProgressWheel$WheelSavedState;
+    new-array v0, p1, [Lkik/arcane/widget/ProgressWheel$WheelSavedState;
 
     .line 780
     return-object v0

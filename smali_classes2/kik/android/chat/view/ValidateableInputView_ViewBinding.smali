@@ -1,4 +1,4 @@
-.class public Lkik/android/chat/view/ValidateableInputView_ViewBinding;
+.class public Lkik/arcane/chat/view/ValidateableInputView_ViewBinding;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -7,13 +7,13 @@
 
 
 # instance fields
-.field private a:Lkik/android/chat/view/ValidateableInputView;
+.field private a:Lkik/arcane/chat/view/ValidateableInputView;
 
 .field private b:Landroid/view/View;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/chat/view/ValidateableInputView;Landroid/view/View;)V
+.method public constructor <init>(Lkik/arcane/chat/view/ValidateableInputView;Landroid/view/View;)V
     .locals 3
 
     .prologue
@@ -21,7 +21,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 29
-    iput-object p1, p0, Lkik/android/chat/view/ValidateableInputView_ViewBinding;->a:Lkik/android/chat/view/ValidateableInputView;
+    iput-object p1, p0, Lkik/arcane/chat/view/ValidateableInputView_ViewBinding;->a:Lkik/arcane/chat/view/ValidateableInputView;
 
     .line 32
     const v0, 0x7f10014f
@@ -36,7 +36,7 @@
 
     check-cast v0, Landroid/widget/EditText;
 
-    iput-object v0, p1, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iput-object v0, p1, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     .line 33
     const v0, 0x7f100153
@@ -51,7 +51,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p1, Lkik/android/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
+    iput-object v0, p1, Lkik/arcane/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
 
     .line 34
     const v0, 0x7f100150
@@ -63,15 +63,15 @@
     move-result-object v0
 
     .line 35
-    iput-object v0, p1, Lkik/android/chat/view/ValidateableInputView;->_clearTextButton:Landroid/view/View;
+    iput-object v0, p1, Lkik/arcane/chat/view/ValidateableInputView;->_clearTextButton:Landroid/view/View;
 
     .line 36
-    iput-object v0, p0, Lkik/android/chat/view/ValidateableInputView_ViewBinding;->b:Landroid/view/View;
+    iput-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView_ViewBinding;->b:Landroid/view/View;
 
     .line 37
-    new-instance v1, Lkik/android/chat/view/ValidateableInputView_ViewBinding$1;
+    new-instance v1, Lkik/arcane/chat/view/ValidateableInputView_ViewBinding$1;
 
-    invoke-direct {v1, p0, p1}, Lkik/android/chat/view/ValidateableInputView_ViewBinding$1;-><init>(Lkik/android/chat/view/ValidateableInputView_ViewBinding;Lkik/android/chat/view/ValidateableInputView;)V
+    invoke-direct {v1, p0, p1}, Lkik/arcane/chat/view/ValidateableInputView_ViewBinding$1;-><init>(Lkik/arcane/chat/view/ValidateableInputView_ViewBinding;Lkik/arcane/chat/view/ValidateableInputView;)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -88,7 +88,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    iput-object v0, p1, Lkik/android/chat/view/ValidateableInputView;->_rightImage:Landroid/widget/ImageView;
+    iput-object v0, p1, Lkik/arcane/chat/view/ValidateableInputView;->_rightImage:Landroid/widget/ImageView;
 
     .line 44
     const v0, 0x7f100152
@@ -99,7 +99,7 @@
 
     move-result-object v0
 
-    iput-object v0, p1, Lkik/android/chat/view/ValidateableInputView;->_underline:Landroid/view/View;
+    iput-object v0, p1, Lkik/arcane/chat/view/ValidateableInputView;->_underline:Landroid/view/View;
 
     .line 45
     const v0, 0x7f10014e
@@ -114,7 +114,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p1, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iput-object v0, p1, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     .line 46
     return-void
@@ -129,7 +129,7 @@
     const/4 v1, 0x0
 
     .line 51
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView_ViewBinding;->a:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView_ViewBinding;->a:Lkik/arcane/chat/view/ValidateableInputView;
 
     .line 52
     if-nez v0, :cond_0
@@ -144,33 +144,33 @@
 
     .line 53
     :cond_0
-    iput-object v1, p0, Lkik/android/chat/view/ValidateableInputView_ViewBinding;->a:Lkik/android/chat/view/ValidateableInputView;
+    iput-object v1, p0, Lkik/arcane/chat/view/ValidateableInputView_ViewBinding;->a:Lkik/arcane/chat/view/ValidateableInputView;
 
     .line 55
-    iput-object v1, v0, Lkik/android/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
+    iput-object v1, v0, Lkik/arcane/chat/view/ValidateableInputView;->_inputView:Landroid/widget/EditText;
 
     .line 56
-    iput-object v1, v0, Lkik/android/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
+    iput-object v1, v0, Lkik/arcane/chat/view/ValidateableInputView;->_subtextView:Landroid/widget/TextView;
 
     .line 57
-    iput-object v1, v0, Lkik/android/chat/view/ValidateableInputView;->_clearTextButton:Landroid/view/View;
+    iput-object v1, v0, Lkik/arcane/chat/view/ValidateableInputView;->_clearTextButton:Landroid/view/View;
 
     .line 58
-    iput-object v1, v0, Lkik/android/chat/view/ValidateableInputView;->_rightImage:Landroid/widget/ImageView;
+    iput-object v1, v0, Lkik/arcane/chat/view/ValidateableInputView;->_rightImage:Landroid/widget/ImageView;
 
     .line 59
-    iput-object v1, v0, Lkik/android/chat/view/ValidateableInputView;->_underline:Landroid/view/View;
+    iput-object v1, v0, Lkik/arcane/chat/view/ValidateableInputView;->_underline:Landroid/view/View;
 
     .line 60
-    iput-object v1, v0, Lkik/android/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
+    iput-object v1, v0, Lkik/arcane/chat/view/ValidateableInputView;->_floatingHint:Landroid/widget/TextView;
 
     .line 62
-    iget-object v0, p0, Lkik/android/chat/view/ValidateableInputView_ViewBinding;->b:Landroid/view/View;
+    iget-object v0, p0, Lkik/arcane/chat/view/ValidateableInputView_ViewBinding;->b:Landroid/view/View;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 63
-    iput-object v1, p0, Lkik/android/chat/view/ValidateableInputView_ViewBinding;->b:Landroid/view/View;
+    iput-object v1, p0, Lkik/arcane/chat/view/ValidateableInputView_ViewBinding;->b:Landroid/view/View;
 
     .line 64
     return-void

@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/RobotoFontUtils;
+.class public final Lkik/arcane/util/RobotoFontUtils;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/util/RobotoFontUtils$Type;
+        Lkik/arcane/util/RobotoFontUtils$Type;
     }
 .end annotation
 
@@ -35,12 +35,12 @@
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    sput-object v0, Lkik/android/util/RobotoFontUtils;->a:Ljava/util/HashMap;
+    sput-object v0, Lkik/arcane/util/RobotoFontUtils;->a:Ljava/util/HashMap;
 
     return-void
 .end method
 
-.method public static a(Landroid/widget/TextView;Lkik/android/util/RobotoFontUtils$Type;I)V
+.method public static a(Landroid/widget/TextView;Lkik/arcane/util/RobotoFontUtils$Type;I)V
     .locals 5
 
     .prologue
@@ -66,9 +66,9 @@
 
     .line 1018
     :cond_1
-    sget-object v0, Lkik/android/util/RobotoFontUtils$1;->a:[I
+    sget-object v0, Lkik/arcane/util/RobotoFontUtils$1;->a:[I
 
-    invoke-virtual {p1}, Lkik/android/util/RobotoFontUtils$Type;->ordinal()I
+    invoke-virtual {p1}, Lkik/arcane/util/RobotoFontUtils$Type;->ordinal()I
 
     move-result v1
 
@@ -86,7 +86,7 @@
 
     .line 86
     :goto_1
-    sget-object v0, Lkik/android/util/RobotoFontUtils;->a:Ljava/util/HashMap;
+    sget-object v0, Lkik/arcane/util/RobotoFontUtils;->a:Ljava/util/HashMap;
 
     invoke-virtual {v0, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -111,7 +111,7 @@
     move-result-object v0
 
     .line 89
-    sget-object v2, Lkik/android/util/RobotoFontUtils;->a:Ljava/util/HashMap;
+    sget-object v2, Lkik/arcane/util/RobotoFontUtils;->a:Ljava/util/HashMap;
 
     invoke-virtual {v2, v1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 

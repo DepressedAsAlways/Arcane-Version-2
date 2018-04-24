@@ -1,10 +1,10 @@
-.class public Lkik/android/chat/service/BatteryChangeReceiver;
+.class public Lkik/arcane/chat/service/BatteryChangeReceiver;
 .super Landroid/content/BroadcastReceiver;
 .source "SourceFile"
 
 
 # instance fields
-.field private a:Lkik/android/f$c;
+.field private a:Lkik/arcane/f$c;
 
 
 # direct methods
@@ -20,12 +20,12 @@
 
 
 # virtual methods
-.method public final a(Lkik/android/f$c;)V
+.method public final a(Lkik/arcane/f$c;)V
     .locals 0
 
     .prologue
     .line 26
-    iput-object p1, p0, Lkik/android/chat/service/BatteryChangeReceiver;->a:Lkik/android/f$c;
+    iput-object p1, p0, Lkik/arcane/chat/service/BatteryChangeReceiver;->a:Lkik/arcane/f$c;
 
     .line 27
     return-void
@@ -36,13 +36,13 @@
 
     .prologue
     .line 21
-    iget-object v0, p0, Lkik/android/chat/service/BatteryChangeReceiver;->a:Lkik/android/f$c;
+    iget-object v0, p0, Lkik/arcane/chat/service/BatteryChangeReceiver;->a:Lkik/arcane/f$c;
 
-    invoke-static {p2}, Lkik/android/f;->a(Landroid/content/Intent;)Lkik/android/f$b;
+    invoke-static {p2}, Lkik/arcane/f;->a(Landroid/content/Intent;)Lkik/arcane/f$b;
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lkik/android/f$c;->a(Lkik/android/f$b;)V
+    invoke-interface {v0, v1}, Lkik/arcane/f$c;->a(Lkik/arcane/f$b;)V
 
     .line 22
     return-void

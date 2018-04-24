@@ -16,16 +16,16 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
     .locals 1
 
     .prologue
     .line 34
-    invoke-static {}, Lkik/android/chat/vm/a/b;->j()Lkik/android/chat/vm/a/b;
+    invoke-static {}, Lkik/arcane/chat/vm/a/b;->j()Lkik/arcane/chat/vm/a/b;
 
     move-result-object v0
 
-    invoke-direct {p0, p1, v0, p2, p3}, Lcom/kik/view/adapters/h;-><init>(Landroid/content/Context;Lkik/android/chat/vm/a/b;Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+    invoke-direct {p0, p1, v0, p2, p3}, Lcom/kik/view/adapters/h;-><init>(Landroid/content/Context;Lkik/arcane/chat/vm/a/b;Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
 
     .line 30
     const/4 v0, 0x0
@@ -134,23 +134,23 @@
     iput-object p1, p0, Lcom/kik/view/adapters/AbstractBotsAdapter;->a:Lcom/kik/view/adapters/AbstractBotsAdapter$State;
 
     .line 56
-    invoke-static {}, Lkik/android/chat/vm/a/b;->j()Lkik/android/chat/vm/a/b;
+    invoke-static {}, Lkik/arcane/chat/vm/a/b;->j()Lkik/arcane/chat/vm/a/b;
 
     move-result-object v0
 
-    invoke-super {p0, v0}, Lcom/kik/view/adapters/h;->a(Lkik/android/chat/vm/IListViewModel;)V
+    invoke-super {p0, v0}, Lcom/kik/view/adapters/h;->a(Lkik/arcane/chat/vm/IListViewModel;)V
 
     goto :goto_0
 .end method
 
-.method public final a(Lkik/android/chat/vm/IListViewModel;)V
+.method public final a(Lkik/arcane/chat/vm/IListViewModel;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lkik/android/chat/vm/IListViewModel",
+            "Lkik/arcane/chat/vm/IListViewModel",
             "<",
-            "Lkik/android/chat/vm/a/e;",
+            "Lkik/arcane/chat/vm/a/e;",
             ">;)V"
         }
     .end annotation
@@ -162,7 +162,7 @@
     iput-object v0, p0, Lcom/kik/view/adapters/AbstractBotsAdapter;->a:Lcom/kik/view/adapters/AbstractBotsAdapter$State;
 
     .line 41
-    invoke-super {p0, p1}, Lcom/kik/view/adapters/h;->a(Lkik/android/chat/vm/IListViewModel;)V
+    invoke-super {p0, p1}, Lcom/kik/view/adapters/h;->a(Lkik/arcane/chat/vm/IListViewModel;)V
 
     .line 42
     return-void

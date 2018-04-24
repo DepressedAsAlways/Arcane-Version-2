@@ -1,4 +1,4 @@
-.class final Lkik/android/scan/c$6;
+.class final Lkik/arcane/scan/c$6;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/scan/c;->a(Lcom/kik/scan/RemoteKikCode;)Lcom/kik/events/Promise;
+    value = Lkik/arcane/scan/c;->a(Lcom/kik/scan/RemoteKikCode;)Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,20 +22,20 @@
 
 .field final synthetic b:Lcom/kik/events/Promise;
 
-.field final synthetic c:Lkik/android/scan/c;
+.field final synthetic c:Lkik/arcane/scan/c;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/scan/c;Lcom/kik/scan/RemoteKikCode;Lcom/kik/events/Promise;)V
+.method constructor <init>(Lkik/arcane/scan/c;Lcom/kik/scan/RemoteKikCode;Lcom/kik/events/Promise;)V
     .locals 0
 
     .prologue
     .line 337
-    iput-object p1, p0, Lkik/android/scan/c$6;->c:Lkik/android/scan/c;
+    iput-object p1, p0, Lkik/arcane/scan/c$6;->c:Lkik/arcane/scan/c;
 
-    iput-object p2, p0, Lkik/android/scan/c$6;->a:Lcom/kik/scan/RemoteKikCode;
+    iput-object p2, p0, Lkik/arcane/scan/c$6;->a:Lcom/kik/scan/RemoteKikCode;
 
-    iput-object p3, p0, Lkik/android/scan/c$6;->b:Lcom/kik/events/Promise;
+    iput-object p3, p0, Lkik/arcane/scan/c$6;->b:Lcom/kik/events/Promise;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -57,7 +57,7 @@
 
     invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v2, p0, Lkik/android/scan/c$6;->a:Lcom/kik/scan/RemoteKikCode;
+    iget-object v2, p0, Lkik/arcane/scan/c$6;->a:Lcom/kik/scan/RemoteKikCode;
 
     invoke-virtual {v2}, Lcom/kik/scan/RemoteKikCode;->getPayloadId()[B
 
@@ -112,7 +112,7 @@
 
     const-string v2, "Content"
 
-    invoke-static {v2}, Lkik/android/util/DeviceUtils;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/util/DeviceUtils;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -126,7 +126,7 @@
     invoke-virtual {v0, v1, v2}, Ljava/net/HttpURLConnection;->addRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 356
-    invoke-static {v0}, Lkik/android/scan/c;->a(Ljava/net/HttpURLConnection;)Lorg/apache/http/HttpEntity;
+    invoke-static {v0}, Lkik/arcane/scan/c;->a(Ljava/net/HttpURLConnection;)Lorg/apache/http/HttpEntity;
 
     move-result-object v1
 
@@ -156,11 +156,11 @@
     invoke-direct {v2, v1}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
 
     .line 361
-    iget-object v1, p0, Lkik/android/scan/c$6;->b:Lcom/kik/events/Promise;
+    iget-object v1, p0, Lkik/arcane/scan/c$6;->b:Lcom/kik/events/Promise;
 
-    iget-object v3, p0, Lkik/android/scan/c$6;->a:Lcom/kik/scan/RemoteKikCode;
+    iget-object v3, p0, Lkik/arcane/scan/c$6;->a:Lcom/kik/scan/RemoteKikCode;
 
-    invoke-static {v3, v2}, Lkik/android/scan/c;->a(Lcom/kik/scan/RemoteKikCode;Lorg/json/JSONObject;)Lkik/android/scan/a/b;
+    invoke-static {v3, v2}, Lkik/arcane/scan/c;->a(Lcom/kik/scan/RemoteKikCode;Lorg/json/JSONObject;)Lkik/arcane/scan/a/b;
 
     move-result-object v2
 
@@ -172,7 +172,7 @@
 
     .line 372
     :goto_1
-    iget-object v1, p0, Lkik/android/scan/c$6;->b:Lcom/kik/events/Promise;
+    iget-object v1, p0, Lkik/arcane/scan/c$6;->b:Lcom/kik/events/Promise;
 
     invoke-virtual {v1}, Lcom/kik/events/Promise;->h()Z
 
@@ -181,7 +181,7 @@
     if-nez v1, :cond_1
 
     .line 373
-    iget-object v1, p0, Lkik/android/scan/c$6;->b:Lcom/kik/events/Promise;
+    iget-object v1, p0, Lkik/arcane/scan/c$6;->b:Lcom/kik/events/Promise;
 
     new-instance v2, Ljava/io/IOException;
 
@@ -216,7 +216,7 @@
     .line 364
     :cond_3
     :try_start_3
-    iget-object v1, p0, Lkik/android/scan/c$6;->b:Lcom/kik/events/Promise;
+    iget-object v1, p0, Lkik/arcane/scan/c$6;->b:Lcom/kik/events/Promise;
 
     new-instance v3, Ljava/io/IOException;
 
@@ -257,14 +257,14 @@
     .line 369
     :goto_3
     :try_start_4
-    iget-object v2, p0, Lkik/android/scan/c$6;->b:Lcom/kik/events/Promise;
+    iget-object v2, p0, Lkik/arcane/scan/c$6;->b:Lcom/kik/events/Promise;
 
     invoke-virtual {v2, v0}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
     .line 372
-    iget-object v0, p0, Lkik/android/scan/c$6;->b:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/scan/c$6;->b:Lcom/kik/events/Promise;
 
     invoke-virtual {v0}, Lcom/kik/events/Promise;->h()Z
 
@@ -273,7 +273,7 @@
     if-nez v0, :cond_4
 
     .line 373
-    iget-object v0, p0, Lkik/android/scan/c$6;->b:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/scan/c$6;->b:Lcom/kik/events/Promise;
 
     new-instance v2, Ljava/io/IOException;
 
@@ -297,7 +297,7 @@
     move-exception v0
 
     :goto_4
-    iget-object v2, p0, Lkik/android/scan/c$6;->b:Lcom/kik/events/Promise;
+    iget-object v2, p0, Lkik/arcane/scan/c$6;->b:Lcom/kik/events/Promise;
 
     invoke-virtual {v2}, Lcom/kik/events/Promise;->h()Z
 
@@ -306,7 +306,7 @@
     if-nez v2, :cond_5
 
     .line 373
-    iget-object v2, p0, Lkik/android/scan/c$6;->b:Lcom/kik/events/Promise;
+    iget-object v2, p0, Lkik/arcane/scan/c$6;->b:Lcom/kik/events/Promise;
 
     new-instance v3, Ljava/io/IOException;
 

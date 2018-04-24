@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/bs;
+.class public final Lkik/arcane/util/bs;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/util/bs$a;
+        Lkik/arcane/util/bs$a;
     }
 .end annotation
 
@@ -17,7 +17,7 @@
 
     .prologue
     .line 28
-    invoke-static {p0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {p0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 

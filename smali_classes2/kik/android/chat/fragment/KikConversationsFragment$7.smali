@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/chat/fragment/KikConversationsFragment$7;
+.class final synthetic Lkik/arcane/chat/fragment/KikConversationsFragment$7;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikConversationsFragment;
+    value = Lkik/arcane/chat/fragment/KikConversationsFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     .prologue
     .line 305
-    invoke-static {}, Lkik/android/chat/ConversationCallToActionHelper$ActionType;->values()[Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    invoke-static {}, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;->values()[Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
     move-result-object v0
 
@@ -32,14 +32,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/chat/fragment/KikConversationsFragment$7;->a:[I
+    sput-object v0, Lkik/arcane/chat/fragment/KikConversationsFragment$7;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/chat/fragment/KikConversationsFragment$7;->a:[I
+    sget-object v0, Lkik/arcane/chat/fragment/KikConversationsFragment$7;->a:[I
 
-    sget-object v1, Lkik/android/chat/ConversationCallToActionHelper$ActionType;->PUBLIC_GROUP:Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    sget-object v1, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;->PUBLIC_GROUP:Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
-    invoke-virtual {v1}, Lkik/android/chat/ConversationCallToActionHelper$ActionType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;->ordinal()I
 
     move-result v1
 
@@ -51,11 +51,11 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/chat/fragment/KikConversationsFragment$7;->a:[I
+    sget-object v0, Lkik/arcane/chat/fragment/KikConversationsFragment$7;->a:[I
 
-    sget-object v1, Lkik/android/chat/ConversationCallToActionHelper$ActionType;->ADDRESS_BOOK:Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    sget-object v1, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;->ADDRESS_BOOK:Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
-    invoke-virtual {v1}, Lkik/android/chat/ConversationCallToActionHelper$ActionType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;->ordinal()I
 
     move-result v1
 
@@ -67,11 +67,11 @@
 
     :goto_1
     :try_start_2
-    sget-object v0, Lkik/android/chat/fragment/KikConversationsFragment$7;->a:[I
+    sget-object v0, Lkik/arcane/chat/fragment/KikConversationsFragment$7;->a:[I
 
-    sget-object v1, Lkik/android/chat/ConversationCallToActionHelper$ActionType;->NONE:Lkik/android/chat/ConversationCallToActionHelper$ActionType;
+    sget-object v1, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;->NONE:Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;
 
-    invoke-virtual {v1}, Lkik/android/chat/ConversationCallToActionHelper$ActionType;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/chat/ConversationCallToActionHelper$ActionType;->ordinal()I
 
     move-result v1
 

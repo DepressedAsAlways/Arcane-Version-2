@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/KikFragmentBase$a;
+.class final Lkik/arcane/chat/fragment/KikFragmentBase$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikFragmentBase;
+    value = Lkik/arcane/chat/fragment/KikFragmentBase;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,23 +18,23 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikFragmentBase;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikFragmentBase;
 
 .field private final b:Ljava/lang/Runnable;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/chat/fragment/KikFragmentBase;Ljava/lang/Runnable;)V
+.method public constructor <init>(Lkik/arcane/chat/fragment/KikFragmentBase;Ljava/lang/Runnable;)V
     .locals 0
 
     .prologue
     .line 27
-    iput-object p1, p0, Lkik/android/chat/fragment/KikFragmentBase$a;->a:Lkik/android/chat/fragment/KikFragmentBase;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikFragmentBase$a;->a:Lkik/arcane/chat/fragment/KikFragmentBase;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 28
-    iput-object p2, p0, Lkik/android/chat/fragment/KikFragmentBase$a;->b:Ljava/lang/Runnable;
+    iput-object p2, p0, Lkik/arcane/chat/fragment/KikFragmentBase$a;->b:Ljava/lang/Runnable;
 
     .line 29
     return-void
@@ -47,9 +47,9 @@
 
     .prologue
     .line 34
-    iget-object v0, p0, Lkik/android/chat/fragment/KikFragmentBase$a;->a:Lkik/android/chat/fragment/KikFragmentBase;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikFragmentBase$a;->a:Lkik/arcane/chat/fragment/KikFragmentBase;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikFragmentBase;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikFragmentBase;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v0
 
@@ -57,7 +57,7 @@
     if-eqz v0, :cond_0
 
     .line 39
-    iget-object v0, p0, Lkik/android/chat/fragment/KikFragmentBase$a;->b:Ljava/lang/Runnable;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikFragmentBase$a;->b:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 

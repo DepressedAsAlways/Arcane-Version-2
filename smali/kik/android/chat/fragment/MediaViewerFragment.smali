@@ -1,9 +1,9 @@
-.class public Lkik/android/chat/fragment/MediaViewerFragment;
-.super Lkik/android/chat/fragment/KikIqFragmentBase;
+.class public Lkik/arcane/chat/fragment/MediaViewerFragment;
+.super Lkik/arcane/chat/fragment/KikIqFragmentBase;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/f/e;
+.implements Lkik/arcane/f/e;
 
 
 # instance fields
@@ -13,7 +13,7 @@
     .end annotation
 .end field
 
-.field _mediaViewPager:Lkik/android/widget/MediaViewPager;
+.field _mediaViewPager:Lkik/arcane/widget/MediaViewPager;
     .annotation build Lbutterknife/BindView;
         value = 0x7f10035e
     .end annotation
@@ -36,7 +36,7 @@
     .end annotation
 .end field
 
-.field protected b:Lcom/kik/android/Mixpanel;
+.field protected b:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -66,7 +66,7 @@
 
 .field private h:Landroid/widget/FrameLayout;
 
-.field private i:Lkik/android/f/c;
+.field private i:Lkik/arcane/f/c;
 
 .field private j:Lcom/kik/view/adapters/MediaViewerAdapter;
 
@@ -89,29 +89,29 @@
     const/4 v0, 0x0
 
     .line 54
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikIqFragmentBase;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikIqFragmentBase;-><init>()V
 
     .line 87
-    iput v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->k:I
+    iput v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->k:I
 
     .line 88
-    iput v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->l:I
+    iput v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->l:I
 
     .line 89
-    iput-boolean v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->m:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->m:Z
 
     .line 90
-    iput-boolean v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->n:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->n:Z
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/MediaViewerFragment;I)I
+.method static synthetic a(Lkik/arcane/chat/fragment/MediaViewerFragment;I)I
     .locals 0
 
     .prologue
     .line 54
-    iput p1, p0, Lkik/android/chat/fragment/MediaViewerFragment;->l:I
+    iput p1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->l:I
 
     return p1
 .end method
@@ -141,7 +141,7 @@
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
     .line 215
-    iget-object v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->a:Lkik/core/interfaces/IConversation;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->a:Lkik/core/interfaces/IConversation;
 
     invoke-interface {v0, p1}, Lkik/core/interfaces/IConversation;->a(Ljava/lang/String;)Lkik/core/datatypes/f;
 
@@ -238,7 +238,7 @@
     check-cast v1, Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     .line 226
-    iget-object v5, p0, Lkik/android/chat/fragment/MediaViewerFragment;->c:Lkik/core/interfaces/v;
+    iget-object v5, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->c:Lkik/core/interfaces/v;
 
     invoke-virtual {v0}, Lkik/core/datatypes/Message;->h()Ljava/lang/String;
 
@@ -255,7 +255,7 @@
 
     move-result-object v5
 
-    iget-object v9, p0, Lkik/android/chat/fragment/MediaViewerFragment;->g:Ljava/lang/String;
+    iget-object v9, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->g:Ljava/lang/String;
 
     invoke-virtual {v5, v9}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -269,7 +269,7 @@
 
     move-result v1
 
-    iput v1, p0, Lkik/android/chat/fragment/MediaViewerFragment;->k:I
+    iput v1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->k:I
 
     .line 236
     :goto_4
@@ -302,7 +302,7 @@
 
     move-result-object v5
 
-    iget-object v8, p0, Lkik/android/chat/fragment/MediaViewerFragment;->g:Ljava/lang/String;
+    iget-object v8, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->g:Ljava/lang/String;
 
     invoke-virtual {v5, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -317,7 +317,7 @@
 
     .line 2299
     :cond_4
-    invoke-static {v1}, Lkik/android/util/p;->e(Lkik/core/datatypes/messageExtensions/ContentMessage;)Z
+    invoke-static {v1}, Lkik/arcane/util/p;->e(Lkik/core/datatypes/messageExtensions/ContentMessage;)Z
 
     move-result v1
 
@@ -372,7 +372,7 @@
 
     if-nez v5, :cond_8
 
-    invoke-direct {p0}, Lkik/android/chat/fragment/MediaViewerFragment;->h()Z
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/MediaViewerFragment;->h()Z
 
     move-result v5
 
@@ -386,9 +386,9 @@
 
     .line 3269
     :cond_9
-    iget-object v5, p0, Lkik/android/chat/fragment/MediaViewerFragment;->d:Lkik/core/a/f;
+    iget-object v5, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->d:Lkik/core/a/f;
 
-    iget-object v9, p0, Lkik/android/chat/fragment/MediaViewerFragment;->f:Ljava/lang/String;
+    iget-object v9, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->f:Ljava/lang/String;
 
     invoke-interface {v5, v9}, Lkik/core/a/f;->b(Ljava/lang/String;)Z
 
@@ -404,7 +404,7 @@
 
     if-eqz v5, :cond_b
 
-    invoke-direct {p0}, Lkik/android/chat/fragment/MediaViewerFragment;->h()Z
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/MediaViewerFragment;->h()Z
 
     move-result v5
 
@@ -437,44 +437,44 @@
     goto/16 :goto_0
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/MediaViewerFragment;)Lkik/android/chat/fragment/MediaItemFragment;
+.method static synthetic a(Lkik/arcane/chat/fragment/MediaViewerFragment;)Lkik/arcane/chat/fragment/MediaItemFragment;
     .locals 3
 
     .prologue
     .line 54
     .line 5202
-    iget-object v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->j:Lcom/kik/view/adapters/MediaViewerAdapter;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->j:Lcom/kik/view/adapters/MediaViewerAdapter;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/MediaViewerFragment;->_mediaViewPager:Lkik/android/widget/MediaViewPager;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->_mediaViewPager:Lkik/arcane/widget/MediaViewPager;
 
-    iget v2, p0, Lkik/android/chat/fragment/MediaViewerFragment;->l:I
+    iget v2, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->l:I
 
     invoke-virtual {v0, v1, v2}, Lcom/kik/view/adapters/MediaViewerAdapter;->instantiateItem(Landroid/view/ViewGroup;I)Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/chat/fragment/MediaItemFragment;
+    check-cast v0, Lkik/arcane/chat/fragment/MediaItemFragment;
 
     .line 54
     return-object v0
 .end method
 
-.method static synthetic b(Lkik/android/chat/fragment/MediaViewerFragment;)Z
+.method static synthetic b(Lkik/arcane/chat/fragment/MediaViewerFragment;)Z
     .locals 1
 
     .prologue
     .line 54
-    iget-boolean v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->m:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->m:Z
 
     return v0
 .end method
 
-.method static synthetic c(Lkik/android/chat/fragment/MediaViewerFragment;)Landroid/widget/FrameLayout;
+.method static synthetic c(Lkik/arcane/chat/fragment/MediaViewerFragment;)Landroid/widget/FrameLayout;
     .locals 1
 
     .prologue
     .line 54
-    iget-object v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->h:Landroid/widget/FrameLayout;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->h:Landroid/widget/FrameLayout;
 
     return-object v0
 .end method
@@ -484,7 +484,7 @@
 
     .prologue
     .line 430
-    invoke-virtual {p0}, Lkik/android/chat/fragment/MediaViewerFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/MediaViewerFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v0
 
@@ -556,18 +556,18 @@
 
     .prologue
     .line 274
-    iget-object v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->a:Lkik/core/interfaces/IConversation;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->a:Lkik/core/interfaces/IConversation;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/MediaViewerFragment;->f:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->f:Ljava/lang/String;
 
     invoke-interface {v0, v1}, Lkik/core/interfaces/IConversation;->a(Ljava/lang/String;)Lkik/core/datatypes/f;
 
     move-result-object v0
 
     .line 275
-    iget-object v1, p0, Lkik/android/chat/fragment/MediaViewerFragment;->c:Lkik/core/interfaces/v;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->c:Lkik/core/interfaces/v;
 
-    invoke-static {v0, v1}, Lkik/android/util/bg;->a(Lkik/core/datatypes/f;Lkik/core/interfaces/v;)Z
+    invoke-static {v0, v1}, Lkik/arcane/util/bg;->a(Lkik/core/datatypes/f;Lkik/core/interfaces/v;)Z
 
     move-result v0
 
@@ -581,7 +581,7 @@
 
     .prologue
     .line 358
-    invoke-virtual {p0}, Lkik/android/chat/fragment/MediaViewerFragment;->handleBackPress()Z
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/MediaViewerFragment;->handleBackPress()Z
 
     .line 359
     return-void
@@ -599,7 +599,7 @@
     move-result v0
 
     .line 352
-    iget-object v1, p0, Lkik/android/chat/fragment/MediaViewerFragment;->h:Landroid/widget/FrameLayout;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->h:Landroid/widget/FrameLayout;
 
     invoke-virtual {v1, v0}, Landroid/widget/FrameLayout;->setBackgroundColor(I)V
 
@@ -614,7 +614,7 @@
     const/4 v1, 0x0
 
     .line 327
-    iget-object v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->h:Landroid/widget/FrameLayout;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->h:Landroid/widget/FrameLayout;
 
     invoke-virtual {v0}, Landroid/widget/FrameLayout;->getBackground()Landroid/graphics/drawable/Drawable;
 
@@ -637,7 +637,7 @@
 
     .line 331
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->h:Landroid/widget/FrameLayout;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->h:Landroid/widget/FrameLayout;
 
     invoke-virtual {v0}, Landroid/widget/FrameLayout;->getBackground()Landroid/graphics/drawable/Drawable;
 
@@ -671,9 +671,9 @@
     move-result-object v0
 
     .line 335
-    new-instance v1, Lkik/android/chat/fragment/MediaViewerFragment$2;
+    new-instance v1, Lkik/arcane/chat/fragment/MediaViewerFragment$2;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/fragment/MediaViewerFragment$2;-><init>(Lkik/android/chat/fragment/MediaViewerFragment;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/fragment/MediaViewerFragment$2;-><init>(Lkik/arcane/chat/fragment/MediaViewerFragment;)V
 
     invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->addUpdateListener(Landroid/animation/ValueAnimator$AnimatorUpdateListener;)V
 
@@ -687,7 +687,7 @@
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->start()V
 
     .line 345
-    iget-object v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->_topBar:Landroid/widget/FrameLayout;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->_topBar:Landroid/widget/FrameLayout;
 
     invoke-virtual {v0}, Landroid/widget/FrameLayout;->animate()Landroid/view/ViewPropertyAnimator;
 
@@ -730,7 +730,7 @@
 
     .prologue
     .line 388
-    iget-object v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->_saveButton:Landroid/widget/ImageButton;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->_saveButton:Landroid/widget/ImageButton;
 
     invoke-virtual {v0, p1}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -738,12 +738,12 @@
     return-void
 .end method
 
-.method public final a(Lkik/android/f/c;)V
+.method public final a(Lkik/arcane/f/c;)V
     .locals 0
 
     .prologue
     .line 113
-    iput-object p1, p0, Lkik/android/chat/fragment/MediaViewerFragment;->i:Lkik/android/f/c;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->i:Lkik/arcane/f/c;
 
     .line 114
     return-void
@@ -757,7 +757,7 @@
     if-eqz p1, :cond_0
 
     .line 372
-    iget-object v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->_saveButton:Landroid/widget/ImageButton;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->_saveButton:Landroid/widget/ImageButton;
 
     const/4 v1, 0x0
 
@@ -769,7 +769,7 @@
 
     .line 375
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->_saveButton:Landroid/widget/ImageButton;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->_saveButton:Landroid/widget/ImageButton;
 
     const/16 v1, 0x8
 
@@ -789,7 +789,7 @@
     const/4 v2, 0x0
 
     .line 394
-    iput-boolean p1, p0, Lkik/android/chat/fragment/MediaViewerFragment;->m:Z
+    iput-boolean p1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->m:Z
 
     .line 4450
     if-eqz p2, :cond_1
@@ -798,22 +798,22 @@
     if-nez p1, :cond_0
 
     .line 4452
-    iget-object v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->_topBar:Landroid/widget/FrameLayout;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->_topBar:Landroid/widget/FrameLayout;
 
-    invoke-static {v0, v1}, Lkik/android/util/ao;->a(Landroid/view/View;I)V
+    invoke-static {v0, v1}, Lkik/arcane/util/ao;->a(Landroid/view/View;I)V
 
     .line 396
     :goto_0
-    invoke-direct {p0, p1}, Lkik/android/chat/fragment/MediaViewerFragment;->c(Z)V
+    invoke-direct {p0, p1}, Lkik/arcane/chat/fragment/MediaViewerFragment;->c(Z)V
 
     .line 397
     return-void
 
     .line 4455
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->_topBar:Landroid/widget/FrameLayout;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->_topBar:Landroid/widget/FrameLayout;
 
-    invoke-static {v0, v1}, Lkik/android/util/ao;->b(Landroid/view/View;I)V
+    invoke-static {v0, v1}, Lkik/arcane/util/ao;->b(Landroid/view/View;I)V
 
     goto :goto_0
 
@@ -824,11 +824,11 @@
     .line 4460
     new-array v0, v0, [Landroid/view/View;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/MediaViewerFragment;->_topBar:Landroid/widget/FrameLayout;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->_topBar:Landroid/widget/FrameLayout;
 
     aput-object v1, v0, v2
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     goto :goto_0
 
@@ -836,11 +836,11 @@
     :cond_2
     new-array v0, v0, [Landroid/view/View;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/MediaViewerFragment;->_topBar:Landroid/widget/FrameLayout;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->_topBar:Landroid/widget/FrameLayout;
 
     aput-object v1, v0, v2
 
-    invoke-static {v0}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     goto :goto_0
 .end method
@@ -850,14 +850,14 @@
 
     .prologue
     .line 364
-    iget-object v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->_saveButton:Landroid/widget/ImageButton;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->_saveButton:Landroid/widget/ImageButton;
 
     invoke-virtual {v0, p1}, Landroid/widget/ImageButton;->setImageResource(I)V
 
     .line 365
     const/4 v0, 0x1
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/MediaViewerFragment;->a(Z)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/MediaViewerFragment;->a(Z)V
 
     .line 366
     return-void
@@ -868,7 +868,7 @@
 
     .prologue
     .line 382
-    iget-object v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->_saveButton:Landroid/widget/ImageButton;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->_saveButton:Landroid/widget/ImageButton;
 
     invoke-virtual {v0, p1}, Landroid/widget/ImageButton;->setClickable(Z)V
 
@@ -881,7 +881,7 @@
 
     .prologue
     .line 402
-    iget-boolean v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->m:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->m:Z
 
     return v0
 .end method
@@ -891,9 +891,9 @@
 
     .prologue
     .line 408
-    iget v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->l:I
+    iget v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->l:I
 
-    iget v1, p0, Lkik/android/chat/fragment/MediaViewerFragment;->k:I
+    iget v1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->k:I
 
     sub-int/2addr v0, v1
 
@@ -907,7 +907,7 @@
     .line 414
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->n:Z
+    iput-boolean v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->n:Z
 
     .line 415
     return-void
@@ -918,7 +918,7 @@
 
     .prologue
     .line 420
-    iget-boolean v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->n:Z
+    iget-boolean v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->n:Z
 
     return v0
 .end method
@@ -938,17 +938,17 @@
 
     .prologue
     .line 96
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikIqFragmentBase;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->onCreate(Landroid/os/Bundle;)V
 
     .line 97
-    invoke-virtual {p0}, Lkik/android/chat/fragment/MediaViewerFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/MediaViewerFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 
-    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/fragment/MediaViewerFragment;)V
+    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/fragment/MediaViewerFragment;)V
 
     .line 98
-    invoke-virtual {p0}, Lkik/android/chat/fragment/MediaViewerFragment;->getArguments()Landroid/os/Bundle;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/MediaViewerFragment;->getArguments()Landroid/os/Bundle;
 
     move-result-object v0
 
@@ -959,7 +959,7 @@
 
     move-result-object v1
 
-    iput-object v1, p0, Lkik/android/chat/fragment/MediaViewerFragment;->f:Ljava/lang/String;
+    iput-object v1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->f:Ljava/lang/String;
 
     .line 1305
     const-string v1, "CURRENT_PLAYER_POSITION"
@@ -968,7 +968,7 @@
 
     move-result v1
 
-    iput v1, p0, Lkik/android/chat/fragment/MediaViewerFragment;->o:I
+    iput v1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->o:I
 
     .line 1306
     const-string v1, "INITIAL_ID"
@@ -977,7 +977,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->g:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->g:Ljava/lang/String;
 
     .line 99
     return-void
@@ -1001,112 +1001,112 @@
     check-cast v0, Landroid/widget/FrameLayout;
 
     .line 105
-    iput-object v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->h:Landroid/widget/FrameLayout;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->h:Landroid/widget/FrameLayout;
 
     .line 106
     invoke-static {p0, v0}, Lbutterknife/ButterKnife;->bind(Ljava/lang/Object;Landroid/view/View;)Lbutterknife/Unbinder;
 
     .line 2121
-    iget-object v1, p0, Lkik/android/chat/fragment/MediaViewerFragment;->i:Lkik/android/f/c;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->i:Lkik/arcane/f/c;
 
     if-eqz v1, :cond_0
 
     .line 2122
-    iget-object v1, p0, Lkik/android/chat/fragment/MediaViewerFragment;->i:Lkik/android/f/c;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->i:Lkik/arcane/f/c;
 
-    invoke-interface {v1, v5}, Lkik/android/f/c;->a(Z)V
+    invoke-interface {v1, v5}, Lkik/arcane/f/c;->a(Z)V
 
     .line 2125
     :cond_0
-    iget-object v1, p0, Lkik/android/chat/fragment/MediaViewerFragment;->f:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->f:Ljava/lang/String;
 
-    invoke-direct {p0, v1}, Lkik/android/chat/fragment/MediaViewerFragment;->a(Ljava/lang/String;)Ljava/util/List;
+    invoke-direct {p0, v1}, Lkik/arcane/chat/fragment/MediaViewerFragment;->a(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object v1
 
     .line 2127
     new-instance v2, Lcom/kik/view/adapters/MediaViewerAdapter;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/MediaViewerFragment;->getChildFragmentManager()Landroid/support/v4/app/FragmentManager;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/MediaViewerFragment;->getChildFragmentManager()Landroid/support/v4/app/FragmentManager;
 
     move-result-object v3
 
-    invoke-direct {v2, v3, v1, p0}, Lcom/kik/view/adapters/MediaViewerAdapter;-><init>(Landroid/support/v4/app/FragmentManager;Ljava/util/List;Lkik/android/f/e;)V
+    invoke-direct {v2, v3, v1, p0}, Lcom/kik/view/adapters/MediaViewerAdapter;-><init>(Landroid/support/v4/app/FragmentManager;Ljava/util/List;Lkik/arcane/f/e;)V
 
-    iput-object v2, p0, Lkik/android/chat/fragment/MediaViewerFragment;->j:Lcom/kik/view/adapters/MediaViewerAdapter;
+    iput-object v2, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->j:Lcom/kik/view/adapters/MediaViewerAdapter;
 
     .line 2128
-    iget-object v1, p0, Lkik/android/chat/fragment/MediaViewerFragment;->_mediaViewPager:Lkik/android/widget/MediaViewPager;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->_mediaViewPager:Lkik/arcane/widget/MediaViewPager;
 
     const/high16 v2, 0x41200000    # 10.0f
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
-    invoke-virtual {v1, v2}, Lkik/android/widget/MediaViewPager;->setPageMargin(I)V
+    invoke-virtual {v1, v2}, Lkik/arcane/widget/MediaViewPager;->setPageMargin(I)V
 
     .line 2129
-    iget-object v1, p0, Lkik/android/chat/fragment/MediaViewerFragment;->_mediaViewPager:Lkik/android/widget/MediaViewPager;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->_mediaViewPager:Lkik/arcane/widget/MediaViewPager;
 
-    iget-object v2, p0, Lkik/android/chat/fragment/MediaViewerFragment;->j:Lcom/kik/view/adapters/MediaViewerAdapter;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->j:Lcom/kik/view/adapters/MediaViewerAdapter;
 
-    invoke-virtual {v1, v2}, Lkik/android/widget/MediaViewPager;->setAdapter(Landroid/support/v4/view/PagerAdapter;)V
+    invoke-virtual {v1, v2}, Lkik/arcane/widget/MediaViewPager;->setAdapter(Landroid/support/v4/view/PagerAdapter;)V
 
     .line 2130
-    iget-object v1, p0, Lkik/android/chat/fragment/MediaViewerFragment;->_mediaViewPager:Lkik/android/widget/MediaViewPager;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->_mediaViewPager:Lkik/arcane/widget/MediaViewPager;
 
-    iget v2, p0, Lkik/android/chat/fragment/MediaViewerFragment;->k:I
+    iget v2, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->k:I
 
-    invoke-virtual {v1, v2}, Lkik/android/widget/MediaViewPager;->setCurrentItem(I)V
+    invoke-virtual {v1, v2}, Lkik/arcane/widget/MediaViewPager;->setCurrentItem(I)V
 
     .line 2133
-    iget-object v1, p0, Lkik/android/chat/fragment/MediaViewerFragment;->j:Lcom/kik/view/adapters/MediaViewerAdapter;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->j:Lcom/kik/view/adapters/MediaViewerAdapter;
 
-    iget-object v2, p0, Lkik/android/chat/fragment/MediaViewerFragment;->_mediaViewPager:Lkik/android/widget/MediaViewPager;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->_mediaViewPager:Lkik/arcane/widget/MediaViewPager;
 
-    iget v3, p0, Lkik/android/chat/fragment/MediaViewerFragment;->k:I
+    iget v3, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->k:I
 
     invoke-virtual {v1, v2, v3}, Lcom/kik/view/adapters/MediaViewerAdapter;->instantiateItem(Landroid/view/ViewGroup;I)Ljava/lang/Object;
 
     move-result-object v1
 
-    check-cast v1, Lkik/android/chat/fragment/MediaItemFragment;
+    check-cast v1, Lkik/arcane/chat/fragment/MediaItemFragment;
 
     .line 2134
-    invoke-virtual {v1}, Lkik/android/chat/fragment/MediaItemFragment;->b()V
+    invoke-virtual {v1}, Lkik/arcane/chat/fragment/MediaItemFragment;->b()V
 
     .line 2135
-    invoke-virtual {p0, v5, v4}, Lkik/android/chat/fragment/MediaViewerFragment;->a(ZZ)V
+    invoke-virtual {p0, v5, v4}, Lkik/arcane/chat/fragment/MediaViewerFragment;->a(ZZ)V
 
     .line 2137
-    iget v2, p0, Lkik/android/chat/fragment/MediaViewerFragment;->k:I
+    iget v2, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->k:I
 
-    iput v2, p0, Lkik/android/chat/fragment/MediaViewerFragment;->l:I
+    iput v2, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->l:I
 
     .line 2139
-    instance-of v2, v1, Lkik/android/chat/fragment/VideoMediaItemFragment;
+    instance-of v2, v1, Lkik/arcane/chat/fragment/VideoMediaItemFragment;
 
     if-eqz v2, :cond_1
 
     .line 2140
-    check-cast v1, Lkik/android/chat/fragment/VideoMediaItemFragment;
+    check-cast v1, Lkik/arcane/chat/fragment/VideoMediaItemFragment;
 
-    iget v2, p0, Lkik/android/chat/fragment/MediaViewerFragment;->o:I
+    iget v2, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->o:I
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/fragment/VideoMediaItemFragment;->b(I)V
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/fragment/VideoMediaItemFragment;->b(I)V
 
     .line 2143
     :cond_1
-    iget-object v1, p0, Lkik/android/chat/fragment/MediaViewerFragment;->_mediaViewPager:Lkik/android/widget/MediaViewPager;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->_mediaViewPager:Lkik/arcane/widget/MediaViewPager;
 
     .line 2149
-    new-instance v2, Lkik/android/chat/fragment/MediaViewerFragment$1;
+    new-instance v2, Lkik/arcane/chat/fragment/MediaViewerFragment$1;
 
-    invoke-direct {v2, p0}, Lkik/android/chat/fragment/MediaViewerFragment$1;-><init>(Lkik/android/chat/fragment/MediaViewerFragment;)V
+    invoke-direct {v2, p0}, Lkik/arcane/chat/fragment/MediaViewerFragment$1;-><init>(Lkik/arcane/chat/fragment/MediaViewerFragment;)V
 
     .line 2143
-    invoke-virtual {v1, v2}, Lkik/android/widget/MediaViewPager;->addOnPageChangeListener(Landroid/support/v4/view/ViewPager$OnPageChangeListener;)V
+    invoke-virtual {v1, v2}, Lkik/arcane/widget/MediaViewPager;->addOnPageChangeListener(Landroid/support/v4/view/ViewPager$OnPageChangeListener;)V
 
     .line 108
     return-object v0
@@ -1119,10 +1119,10 @@
     const/4 v1, 0x0
 
     .line 312
-    invoke-super {p0}, Lkik/android/chat/fragment/KikIqFragmentBase;->onDestroyView()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->onDestroyView()V
 
     .line 314
-    invoke-virtual {p0}, Lkik/android/chat/fragment/MediaViewerFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/MediaViewerFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v0
 
@@ -1142,19 +1142,19 @@
 
     .line 318
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->i:Lkik/android/f/c;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->i:Lkik/arcane/f/c;
 
     if-eqz v0, :cond_1
 
     .line 319
-    iget-object v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->i:Lkik/android/f/c;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->i:Lkik/arcane/f/c;
 
-    invoke-interface {v0, v1}, Lkik/android/f/c;->a(Z)V
+    invoke-interface {v0, v1}, Lkik/arcane/f/c;->a(Z)V
 
     .line 320
-    iget-object v0, p0, Lkik/android/chat/fragment/MediaViewerFragment;->i:Lkik/android/f/c;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/MediaViewerFragment;->i:Lkik/arcane/f/c;
 
-    invoke-interface {v0}, Lkik/android/f/c;->b()V
+    invoke-interface {v0}, Lkik/arcane/f/c;->b()V
 
     .line 322
     :cond_1
@@ -1168,10 +1168,10 @@
     .line 487
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lkik/android/chat/fragment/MediaViewerFragment;->c(Z)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/fragment/MediaViewerFragment;->c(Z)V
 
     .line 488
-    invoke-super {p0}, Lkik/android/chat/fragment/KikIqFragmentBase;->onPause()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->onPause()V
 
     .line 489
     return-void
@@ -1182,7 +1182,7 @@
 
     .prologue
     .line 481
-    invoke-super {p0}, Lkik/android/chat/fragment/KikIqFragmentBase;->onResume()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikIqFragmentBase;->onResume()V
 
     .line 482
     return-void

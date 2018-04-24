@@ -1,11 +1,11 @@
-.class final Lkik/android/addressbook/a$3;
+.class final Lkik/arcane/addressbook/a$3;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/addressbook/a;->e()Lcom/kik/events/Promise;
+    value = Lkik/arcane/addressbook/a;->e()Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,18 +26,18 @@
 # instance fields
 .field final synthetic a:Lcom/kik/events/Promise;
 
-.field final synthetic b:Lkik/android/addressbook/a;
+.field final synthetic b:Lkik/arcane/addressbook/a;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/addressbook/a;Lcom/kik/events/Promise;)V
+.method constructor <init>(Lkik/arcane/addressbook/a;Lcom/kik/events/Promise;)V
     .locals 0
 
     .prologue
     .line 285
-    iput-object p1, p0, Lkik/android/addressbook/a$3;->b:Lkik/android/addressbook/a;
+    iput-object p1, p0, Lkik/arcane/addressbook/a$3;->b:Lkik/arcane/addressbook/a;
 
-    iput-object p2, p0, Lkik/android/addressbook/a$3;->a:Lcom/kik/events/Promise;
+    iput-object p2, p0, Lkik/arcane/addressbook/a$3;->a:Lcom/kik/events/Promise;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -62,19 +62,19 @@
     if-eqz v0, :cond_0
 
     .line 1291
-    iget-object v1, p0, Lkik/android/addressbook/a$3;->b:Lkik/android/addressbook/a;
+    iget-object v1, p0, Lkik/arcane/addressbook/a$3;->b:Lkik/arcane/addressbook/a;
 
-    iget-object v2, p0, Lkik/android/addressbook/a$3;->b:Lkik/android/addressbook/a;
+    iget-object v2, p0, Lkik/arcane/addressbook/a$3;->b:Lkik/arcane/addressbook/a;
 
-    invoke-static {v2}, Lkik/android/addressbook/a;->c(Lkik/android/addressbook/a;)Lkik/core/interfaces/b;
+    invoke-static {v2}, Lkik/arcane/addressbook/a;->c(Lkik/arcane/addressbook/a;)Lkik/core/interfaces/b;
 
     move-result-object v2
 
-    invoke-static {v1, v2, v0}, Lkik/android/addressbook/b;->a(Lkik/core/interfaces/IAddressBookIntegration;Lkik/core/interfaces/b;Ljava/lang/Boolean;)V
+    invoke-static {v1, v2, v0}, Lkik/arcane/addressbook/b;->a(Lkik/core/interfaces/IAddressBookIntegration;Lkik/core/interfaces/b;Ljava/lang/Boolean;)V
 
     .line 1293
     :cond_0
-    iget-object v0, p0, Lkik/android/addressbook/a$3;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/addressbook/a$3;->a:Lcom/kik/events/Promise;
 
     const/4 v1, 0x0
 
@@ -89,7 +89,7 @@
 
     .prologue
     .line 299
-    iget-object v0, p0, Lkik/android/addressbook/a$3;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/addressbook/a$3;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {v0, p1}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 

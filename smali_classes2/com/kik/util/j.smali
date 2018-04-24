@@ -47,7 +47,7 @@
     return-void
 .end method
 
-.method public static a(Landroid/support/v7/widget/RecyclerView;Lkik/android/chat/vm/IListViewModel;)V
+.method public static a(Landroid/support/v7/widget/RecyclerView;Lkik/arcane/chat/vm/IListViewModel;)V
     .locals 2
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -57,13 +57,13 @@
 
     .prologue
     .line 740
-    new-instance v1, Lkik/android/widget/dn;
+    new-instance v1, Lkik/arcane/widget/dn;
 
     move-object v0, p0
 
-    check-cast v0, Lkik/android/widget/dn$a;
+    check-cast v0, Lkik/arcane/widget/dn$a;
 
-    invoke-direct {v1, v0, p1}, Lkik/android/widget/dn;-><init>(Lkik/android/widget/dn$a;Lkik/android/chat/vm/IListViewModel;)V
+    invoke-direct {v1, v0, p1}, Lkik/arcane/widget/dn;-><init>(Lkik/arcane/widget/dn$a;Lkik/arcane/chat/vm/IListViewModel;)V
 
     .line 742
     invoke-virtual {p0, v1}, Landroid/support/v7/widget/RecyclerView;->setAdapter(Landroid/support/v7/widget/RecyclerView$Adapter;)V
@@ -72,7 +72,7 @@
     return-void
 .end method
 
-.method public static a(Landroid/support/v7/widget/RecyclerView;Lkik/android/chat/vm/IListViewModel;Ljava/lang/String;)V
+.method public static a(Landroid/support/v7/widget/RecyclerView;Lkik/arcane/chat/vm/IListViewModel;Ljava/lang/String;)V
     .locals 3
     .annotation build Landroid/databinding/BindingAdapter;
         value = {
@@ -119,15 +119,15 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/widget/dn$a;
+    check-cast v0, Lkik/arcane/widget/dn$a;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 290
     :goto_1
-    new-instance v1, Lkik/android/widget/dn;
+    new-instance v1, Lkik/arcane/widget/dn;
 
-    invoke-direct {v1, v0, p1}, Lkik/android/widget/dn;-><init>(Lkik/android/widget/dn$a;Lkik/android/chat/vm/IListViewModel;)V
+    invoke-direct {v1, v0, p1}, Lkik/arcane/widget/dn;-><init>(Lkik/arcane/widget/dn$a;Lkik/arcane/chat/vm/IListViewModel;)V
 
     .line 292
     invoke-virtual {p0, v1}, Landroid/support/v7/widget/RecyclerView;->setAdapter(Landroid/support/v7/widget/RecyclerView$Adapter;)V
@@ -396,7 +396,7 @@
 
     int-to-float v0, v0
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
@@ -858,7 +858,7 @@
 
     int-to-float v0, v0
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 

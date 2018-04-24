@@ -1,11 +1,11 @@
-.class final synthetic Lkik/android/gifs/api/g$4;
+.class final synthetic Lkik/arcane/gifs/api/g$4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/gifs/api/g;
+    value = Lkik/arcane/gifs/api/g;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,7 +24,7 @@
 
     .prologue
     .line 460
-    invoke-static {}, Lkik/android/gifs/api/GifApiProvider$GifSearchRating;->values()[Lkik/android/gifs/api/GifApiProvider$GifSearchRating;
+    invoke-static {}, Lkik/arcane/gifs/api/GifApiProvider$GifSearchRating;->values()[Lkik/arcane/gifs/api/GifApiProvider$GifSearchRating;
 
     move-result-object v0
 
@@ -32,14 +32,14 @@
 
     new-array v0, v0, [I
 
-    sput-object v0, Lkik/android/gifs/api/g$4;->a:[I
+    sput-object v0, Lkik/arcane/gifs/api/g$4;->a:[I
 
     :try_start_0
-    sget-object v0, Lkik/android/gifs/api/g$4;->a:[I
+    sget-object v0, Lkik/arcane/gifs/api/g$4;->a:[I
 
-    sget-object v1, Lkik/android/gifs/api/GifApiProvider$GifSearchRating;->GifSearchRatingY:Lkik/android/gifs/api/GifApiProvider$GifSearchRating;
+    sget-object v1, Lkik/arcane/gifs/api/GifApiProvider$GifSearchRating;->GifSearchRatingY:Lkik/arcane/gifs/api/GifApiProvider$GifSearchRating;
 
-    invoke-virtual {v1}, Lkik/android/gifs/api/GifApiProvider$GifSearchRating;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/gifs/api/GifApiProvider$GifSearchRating;->ordinal()I
 
     move-result v1
 
@@ -51,11 +51,11 @@
 
     :goto_0
     :try_start_1
-    sget-object v0, Lkik/android/gifs/api/g$4;->a:[I
+    sget-object v0, Lkik/arcane/gifs/api/g$4;->a:[I
 
-    sget-object v1, Lkik/android/gifs/api/GifApiProvider$GifSearchRating;->GifSearchRatingG:Lkik/android/gifs/api/GifApiProvider$GifSearchRating;
+    sget-object v1, Lkik/arcane/gifs/api/GifApiProvider$GifSearchRating;->GifSearchRatingG:Lkik/arcane/gifs/api/GifApiProvider$GifSearchRating;
 
-    invoke-virtual {v1}, Lkik/android/gifs/api/GifApiProvider$GifSearchRating;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/gifs/api/GifApiProvider$GifSearchRating;->ordinal()I
 
     move-result v1
 
@@ -67,11 +67,11 @@
 
     :goto_1
     :try_start_2
-    sget-object v0, Lkik/android/gifs/api/g$4;->a:[I
+    sget-object v0, Lkik/arcane/gifs/api/g$4;->a:[I
 
-    sget-object v1, Lkik/android/gifs/api/GifApiProvider$GifSearchRating;->GifSearchRatingPG:Lkik/android/gifs/api/GifApiProvider$GifSearchRating;
+    sget-object v1, Lkik/arcane/gifs/api/GifApiProvider$GifSearchRating;->GifSearchRatingPG:Lkik/arcane/gifs/api/GifApiProvider$GifSearchRating;
 
-    invoke-virtual {v1}, Lkik/android/gifs/api/GifApiProvider$GifSearchRating;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/gifs/api/GifApiProvider$GifSearchRating;->ordinal()I
 
     move-result v1
 
@@ -83,11 +83,11 @@
 
     :goto_2
     :try_start_3
-    sget-object v0, Lkik/android/gifs/api/g$4;->a:[I
+    sget-object v0, Lkik/arcane/gifs/api/g$4;->a:[I
 
-    sget-object v1, Lkik/android/gifs/api/GifApiProvider$GifSearchRating;->GifSearchRatingPG13:Lkik/android/gifs/api/GifApiProvider$GifSearchRating;
+    sget-object v1, Lkik/arcane/gifs/api/GifApiProvider$GifSearchRating;->GifSearchRatingPG13:Lkik/arcane/gifs/api/GifApiProvider$GifSearchRating;
 
-    invoke-virtual {v1}, Lkik/android/gifs/api/GifApiProvider$GifSearchRating;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/gifs/api/GifApiProvider$GifSearchRating;->ordinal()I
 
     move-result v1
 
@@ -99,11 +99,11 @@
 
     :goto_3
     :try_start_4
-    sget-object v0, Lkik/android/gifs/api/g$4;->a:[I
+    sget-object v0, Lkik/arcane/gifs/api/g$4;->a:[I
 
-    sget-object v1, Lkik/android/gifs/api/GifApiProvider$GifSearchRating;->GifSearchRatingR:Lkik/android/gifs/api/GifApiProvider$GifSearchRating;
+    sget-object v1, Lkik/arcane/gifs/api/GifApiProvider$GifSearchRating;->GifSearchRatingR:Lkik/arcane/gifs/api/GifApiProvider$GifSearchRating;
 
-    invoke-virtual {v1}, Lkik/android/gifs/api/GifApiProvider$GifSearchRating;->ordinal()I
+    invoke-virtual {v1}, Lkik/arcane/gifs/api/GifApiProvider$GifSearchRating;->ordinal()I
 
     move-result v1
 

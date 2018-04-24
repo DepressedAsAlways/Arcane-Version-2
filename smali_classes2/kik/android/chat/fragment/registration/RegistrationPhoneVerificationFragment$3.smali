@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$3;
+.class final Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$3;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;->c()V
+    value = Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;->c()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;)V
     .locals 0
 
     .prologue
     .line 172
-    iput-object p1, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$3;->a:Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$3;->a:Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,11 +41,11 @@
 
     .prologue
     .line 175
-    iget-object v0, p0, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment$3;->a:Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment$3;->a:Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;
 
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/registration/RegistrationPhoneVerificationFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/registration/RegistrationPhoneVerificationFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 176
     return-void

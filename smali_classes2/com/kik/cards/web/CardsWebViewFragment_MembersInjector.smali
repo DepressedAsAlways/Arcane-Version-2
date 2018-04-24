@@ -50,7 +50,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;"
         }
     .end annotation
@@ -171,7 +171,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/util/aj;",
+            "Lkik/arcane/util/aj;",
             ">;"
         }
     .end annotation
@@ -242,7 +242,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -286,7 +286,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/util/aj;",
+            "Lkik/arcane/util/aj;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -600,7 +600,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lcom/kik/android/Mixpanel;",
+            "Lcom/kik/arcane/Mixpanel;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -644,7 +644,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/util/aj;",
+            "Lkik/arcane/util/aj;",
             ">;",
             "Ljavax/inject/Provider",
             "<",
@@ -727,12 +727,12 @@
     :cond_0
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment_MembersInjector;->b:Ljavax/inject/Provider;
 
-    invoke-static {p1, v0}, Lkik/android/chat/fragment/KikScopedDialogFragment_MembersInjector;->a(Lkik/android/chat/fragment/KikScopedDialogFragment;Ljavax/inject/Provider;)V
+    invoke-static {p1, v0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment_MembersInjector;->a(Lkik/arcane/chat/fragment/KikScopedDialogFragment;Ljavax/inject/Provider;)V
 
     .line 1155
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment_MembersInjector;->c:Ljavax/inject/Provider;
 
-    invoke-static {p1, v0}, Lkik/android/chat/fragment/KikScopedDialogFragment_MembersInjector;->b(Lkik/android/chat/fragment/KikScopedDialogFragment;Ljavax/inject/Provider;)V
+    invoke-static {p1, v0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment_MembersInjector;->b(Lkik/arcane/chat/fragment/KikScopedDialogFragment;Ljavax/inject/Provider;)V
 
     .line 1157
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment_MembersInjector;->d:Ljavax/inject/Provider;
@@ -741,9 +741,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/kik/android/Mixpanel;
+    check-cast v0, Lcom/kik/arcane/Mixpanel;
 
-    iput-object v0, p1, Lcom/kik/cards/web/CardsWebViewFragment;->d:Lcom/kik/android/Mixpanel;
+    iput-object v0, p1, Lcom/kik/cards/web/CardsWebViewFragment;->d:Lcom/kik/arcane/Mixpanel;
 
     .line 1158
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment_MembersInjector;->e:Ljavax/inject/Provider;
@@ -873,9 +873,9 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/util/aj;
+    check-cast v0, Lkik/arcane/util/aj;
 
-    iput-object v0, p1, Lcom/kik/cards/web/CardsWebViewFragment;->p:Lkik/android/util/aj;
+    iput-object v0, p1, Lcom/kik/cards/web/CardsWebViewFragment;->p:Lkik/arcane/util/aj;
 
     .line 1170
     iget-object v0, p0, Lcom/kik/cards/web/CardsWebViewFragment_MembersInjector;->p:Ljavax/inject/Provider;

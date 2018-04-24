@@ -41,7 +41,7 @@
         value = {
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/util/aj;",
+            "Lkik/arcane/util/aj;",
             ">;"
         }
     .end annotation
@@ -87,7 +87,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/util/aj;",
+            "Lkik/arcane/util/aj;",
             ">;)V"
         }
     .end annotation
@@ -163,7 +163,7 @@
             ">;",
             "Ljavax/inject/Provider",
             "<",
-            "Lkik/android/util/aj;",
+            "Lkik/arcane/util/aj;",
             ">;)",
             "Ldagger/internal/b",
             "<",
@@ -206,9 +206,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lkik/android/util/aj;
+    check-cast v1, Lkik/arcane/util/aj;
 
-    invoke-virtual {v2, v0, v1}, Lcom/kik/modules/bq;->a(Lkik/core/interfaces/ad;Lkik/android/util/aj;)Lcom/kik/e/h;
+    invoke-virtual {v2, v0, v1}, Lcom/kik/modules/bq;->a(Lkik/core/interfaces/ad;Lkik/arcane/util/aj;)Lcom/kik/e/h;
 
     move-result-object v0
 

@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/KikConversationsFragment$1;
+.class final Lkik/arcane/chat/fragment/KikConversationsFragment$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/KikConversationsFragment;->onResume()V
+    value = Lkik/arcane/chat/fragment/KikConversationsFragment;->onResume()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,16 +24,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikConversationsFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikConversationsFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikConversationsFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikConversationsFragment;)V
     .locals 0
 
     .prologue
     .line 272
-    iput-object p1, p0, Lkik/android/chat/fragment/KikConversationsFragment$1;->a:Lkik/android/chat/fragment/KikConversationsFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikConversationsFragment$1;->a:Lkik/arcane/chat/fragment/KikConversationsFragment;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -48,9 +48,9 @@
     .prologue
     .line 272
     .line 1276
-    iget-object v0, p0, Lkik/android/chat/fragment/KikConversationsFragment$1;->a:Lkik/android/chat/fragment/KikConversationsFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikConversationsFragment$1;->a:Lkik/arcane/chat/fragment/KikConversationsFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/KikConversationsFragment;->m(Lkik/android/chat/fragment/KikConversationsFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/KikConversationsFragment;->m(Lkik/arcane/chat/fragment/KikConversationsFragment;)V
 
     .line 272
     return-void

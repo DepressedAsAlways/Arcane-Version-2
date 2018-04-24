@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/vm/widget/bg;
+.class final synthetic Lkik/arcane/chat/vm/widget/bg;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -6,26 +6,26 @@
 
 
 # instance fields
-.field private final a:Lkik/android/chat/vm/widget/bf;
+.field private final a:Lkik/arcane/chat/vm/widget/bf;
 
 
 # direct methods
-.method private constructor <init>(Lkik/android/chat/vm/widget/bf;)V
+.method private constructor <init>(Lkik/arcane/chat/vm/widget/bf;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lkik/android/chat/vm/widget/bg;->a:Lkik/android/chat/vm/widget/bf;
+    iput-object p1, p0, Lkik/arcane/chat/vm/widget/bg;->a:Lkik/arcane/chat/vm/widget/bf;
 
     return-void
 .end method
 
-.method public static a(Lkik/android/chat/vm/widget/bf;)Lrx/functions/g;
+.method public static a(Lkik/arcane/chat/vm/widget/bf;)Lrx/functions/g;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/vm/widget/bg;
+    new-instance v0, Lkik/arcane/chat/vm/widget/bg;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/vm/widget/bg;-><init>(Lkik/android/chat/vm/widget/bf;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/vm/widget/bg;-><init>(Lkik/arcane/chat/vm/widget/bf;)V
 
     return-object v0
 .end method

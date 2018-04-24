@@ -1,12 +1,12 @@
-.class public Lkik/android/chat/fragment/KikBlockedContactsFragment;
-.super Lkik/android/chat/fragment/KikDefaultContactsListFragment;
+.class public Lkik/arcane/chat/fragment/KikBlockedContactsFragment;
+.super Lkik/arcane/chat/fragment/KikDefaultContactsListFragment;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/fragment/KikBlockedContactsFragment$a;
+        Lkik/arcane/chat/fragment/KikBlockedContactsFragment$a;
     }
 .end annotation
 
@@ -17,7 +17,7 @@
 
     .prologue
     .line 28
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikDefaultContactsListFragment;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikDefaultContactsListFragment;-><init>()V
 
     return-void
 .end method
@@ -30,7 +30,7 @@
     .prologue
     .line 67
     .line 1126
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikBlockedContactsFragment;->getNavigator()Lkik/android/chat/vm/bd;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikBlockedContactsFragment;->getNavigator()Lkik/arcane/chat/vm/bd;
 
     move-result-object v0
 
@@ -38,27 +38,27 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lkik/android/chat/vm/profile/ea;->a(Lcom/kik/core/network/xmpp/jid/a;)Lkik/android/chat/vm/profile/ea;
+    invoke-static {v1}, Lkik/arcane/chat/vm/profile/ea;->a(Lcom/kik/core/network/xmpp/jid/a;)Lkik/arcane/chat/vm/profile/ea;
 
     move-result-object v1
 
     .line 1127
-    invoke-virtual {v1}, Lkik/android/chat/vm/profile/ea;->a()Lkik/android/chat/vm/profile/ea;
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/profile/ea;->a()Lkik/arcane/chat/vm/profile/ea;
 
     move-result-object v1
 
     .line 1128
-    invoke-virtual {v1, p3}, Lkik/android/chat/vm/profile/ea;->a(Z)Lkik/android/chat/vm/profile/ea;
+    invoke-virtual {v1, p3}, Lkik/arcane/chat/vm/profile/ea;->a(Z)Lkik/arcane/chat/vm/profile/ea;
 
     move-result-object v1
 
     .line 1129
-    invoke-virtual {v1}, Lkik/android/chat/vm/profile/ea;->b()Lkik/android/chat/vm/profile/dt;
+    invoke-virtual {v1}, Lkik/arcane/chat/vm/profile/ea;->b()Lkik/arcane/chat/vm/profile/dt;
 
     move-result-object v1
 
     .line 1126
-    invoke-interface {v0, v1}, Lkik/android/chat/vm/bd;->a(Lkik/android/chat/vm/profile/dt;)Lrx/d;
+    invoke-interface {v0, v1}, Lkik/arcane/chat/vm/bd;->a(Lkik/arcane/chat/vm/profile/dt;)Lrx/d;
 
     .line 68
     return-void
@@ -77,12 +77,12 @@
 
     .prologue
     .line 79
-    sget-object v0, Lkik/android/KikDataProvider;->d:Landroid/net/Uri;
+    sget-object v0, Lkik/arcane/KikDataProvider;->d:Landroid/net/Uri;
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/KikBlockedContactsFragment;->a(Landroid/net/Uri;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/KikBlockedContactsFragment;->a(Landroid/net/Uri;)V
 
     .line 80
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikBlockedContactsFragment;->t()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikBlockedContactsFragment;->t()V
 
     .line 81
     return-void
@@ -95,7 +95,7 @@
     .line 55
     const v0, 0x7f0904f3
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/KikBlockedContactsFragment;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/KikBlockedContactsFragment;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -109,7 +109,7 @@
     .line 61
     const v0, 0x7f090176
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/KikBlockedContactsFragment;->getString(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/KikBlockedContactsFragment;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -131,22 +131,22 @@
 
     .prologue
     .line 95
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikBlockedContactsFragment;->u()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikBlockedContactsFragment;->u()V
 
     .line 96
-    new-instance v0, Lkik/android/chat/fragment/KikAddToBlockFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/KikAddToBlockFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/KikAddToBlockFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/KikAddToBlockFragment$a;-><init>()V
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikBlockedContactsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikBlockedContactsFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/util/ae;Landroid/content/Context;)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-static {v0, v1}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/util/ae;Landroid/content/Context;)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
 
     .line 97
     return-void
@@ -207,7 +207,7 @@
 
     .prologue
     .line 108
-    invoke-virtual {p0}, Lkik/android/chat/fragment/KikBlockedContactsFragment;->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/KikBlockedContactsFragment;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
@@ -235,12 +235,12 @@
 
     .prologue
     .line 33
-    invoke-super {p0, p1, p2, p3}, Lkik/android/chat/fragment/KikDefaultContactsListFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Lkik/arcane/chat/fragment/KikDefaultContactsListFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     move-result-object v0
 
     .line 35
-    iget-object v1, p0, Lkik/android/chat/fragment/KikBlockedContactsFragment;->c:Landroid/widget/ListView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikBlockedContactsFragment;->c:Landroid/widget/ListView;
 
     const/4 v2, 0x0
 

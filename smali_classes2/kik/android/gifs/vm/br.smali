@@ -1,10 +1,10 @@
-.class public interface abstract Lkik/android/gifs/vm/br;
+.class public interface abstract Lkik/arcane/gifs/vm/br;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
 .implements Landroid/text/TextWatcher;
-.implements Lkik/android/widget/ImeAwareEditText$b;
+.implements Lkik/arcane/widget/ImeAwareEditText$b;
 
 
 # virtual methods

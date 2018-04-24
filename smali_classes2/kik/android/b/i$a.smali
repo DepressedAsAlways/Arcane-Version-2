@@ -1,11 +1,11 @@
-.class public final Lkik/android/b/i$a;
+.class public final Lkik/arcane/b/i$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/b/i;
+    value = Lkik/arcane/b/i;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -33,16 +33,16 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 42
-    iput-object p1, p0, Lkik/android/b/i$a;->a:Ljava/lang/String;
+    iput-object p1, p0, Lkik/arcane/b/i$a;->a:Ljava/lang/String;
 
     .line 43
-    iput-object p2, p0, Lkik/android/b/i$a;->b:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/b/i$a;->b:Ljava/lang/String;
 
     .line 44
-    iput-object p3, p0, Lkik/android/b/i$a;->c:Ljava/lang/String;
+    iput-object p3, p0, Lkik/arcane/b/i$a;->c:Ljava/lang/String;
 
     .line 45
-    iput-object p4, p0, Lkik/android/b/i$a;->d:Ljava/lang/String;
+    iput-object p4, p0, Lkik/arcane/b/i$a;->d:Ljava/lang/String;
 
     .line 46
     return-void
@@ -53,7 +53,7 @@
 
     .prologue
     .line 33
-    invoke-direct {p0, p1, p2, p3, p4}, Lkik/android/b/i$a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lkik/arcane/b/i$a;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -65,7 +65,7 @@
 
     .prologue
     .line 50
-    iget-object v0, p0, Lkik/android/b/i$a;->a:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/b/i$a;->a:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -75,7 +75,7 @@
 
     .prologue
     .line 55
-    iget-object v0, p0, Lkik/android/b/i$a;->b:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/b/i$a;->b:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -85,7 +85,7 @@
 
     .prologue
     .line 65
-    iget-object v0, p0, Lkik/android/b/i$a;->d:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/b/i$a;->d:Ljava/lang/String;
 
     return-object v0
 .end method

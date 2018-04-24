@@ -1,5 +1,5 @@
-.class public Lkik/android/widget/HeightClampedIconImageView;
-.super Lkik/android/widget/IconImageView;
+.class public Lkik/arcane/widget/HeightClampedIconImageView;
+.super Lkik/arcane/widget/IconImageView;
 .source "SourceFile"
 
 
@@ -17,7 +17,7 @@
     .line 18
     const/4 v0, 0x0
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/HeightClampedIconImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/HeightClampedIconImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 19
     return-void
@@ -30,23 +30,23 @@
     const v2, 0x3fcccccd    # 1.6f
 
     .line 23
-    invoke-direct {p0, p1, p2, p3}, Lkik/android/widget/IconImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lkik/arcane/widget/IconImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 13
-    iput v2, p0, Lkik/android/widget/HeightClampedIconImageView;->a:F
+    iput v2, p0, Lkik/arcane/widget/HeightClampedIconImageView;->a:F
 
     .line 14
     const/4 v0, 0x0
 
-    iput v0, p0, Lkik/android/widget/HeightClampedIconImageView;->b:F
+    iput v0, p0, Lkik/arcane/widget/HeightClampedIconImageView;->b:F
 
     .line 24
     sget-object v0, Landroid/widget/ImageView$ScaleType;->CENTER_INSIDE:Landroid/widget/ImageView$ScaleType;
 
-    invoke-virtual {p0, v0}, Lkik/android/widget/HeightClampedIconImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/widget/HeightClampedIconImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
 
     .line 25
-    sget-object v0, Lkik/android/R$styleable;->HeightClampedIconImageView:[I
+    sget-object v0, Lkik/arcane/R$styleable;->HeightClampedIconImageView:[I
 
     invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
@@ -59,14 +59,14 @@
 
     move-result v1
 
-    iput v1, p0, Lkik/android/widget/HeightClampedIconImageView;->a:F
+    iput v1, p0, Lkik/arcane/widget/HeightClampedIconImageView;->a:F
 
     .line 27
     const/4 v1, 0x1
 
     const/high16 v2, 0x41800000    # 16.0f
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -76,7 +76,7 @@
 
     move-result v0
 
-    iput v0, p0, Lkik/android/widget/HeightClampedIconImageView;->b:F
+    iput v0, p0, Lkik/arcane/widget/HeightClampedIconImageView;->b:F
 
     .line 28
     return-void
@@ -94,12 +94,12 @@
     invoke-static {p1}, Landroid/view/View$MeasureSpec;->getSize(I)I
 
     .line 34
-    iget v0, p0, Lkik/android/widget/HeightClampedIconImageView;->b:F
+    iget v0, p0, Lkik/arcane/widget/HeightClampedIconImageView;->b:F
 
     float-to-int v1, v0
 
     .line 38
-    invoke-virtual {p0}, Lkik/android/widget/HeightClampedIconImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Lkik/arcane/widget/HeightClampedIconImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -124,7 +124,7 @@
     div-float/2addr v0, v2
 
     .line 44
-    iget v2, p0, Lkik/android/widget/HeightClampedIconImageView;->a:F
+    iget v2, p0, Lkik/arcane/widget/HeightClampedIconImageView;->a:F
 
     cmpl-float v2, v0, v2
 
@@ -133,7 +133,7 @@
     .line 45
     int-to-double v2, v1
 
-    iget v0, p0, Lkik/android/widget/HeightClampedIconImageView;->a:F
+    iget v0, p0, Lkik/arcane/widget/HeightClampedIconImageView;->a:F
 
     float-to-double v4, v0
 
@@ -147,7 +147,7 @@
 
     .line 50
     :goto_0
-    invoke-virtual {p0, v0, v1}, Lkik/android/widget/HeightClampedIconImageView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v0, v1}, Lkik/arcane/widget/HeightClampedIconImageView;->setMeasuredDimension(II)V
 
     .line 56
     :goto_1
@@ -171,7 +171,7 @@
 
     .line 53
     :cond_1
-    invoke-virtual {p0, v2, v2}, Lkik/android/widget/HeightClampedIconImageView;->setMeasuredDimension(II)V
+    invoke-virtual {p0, v2, v2}, Lkik/arcane/widget/HeightClampedIconImageView;->setMeasuredDimension(II)V
 
     goto :goto_1
 .end method

@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/l;
+.class public final Lkik/arcane/util/l;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -40,18 +40,18 @@
     if-le p1, v0, :cond_1
 
     :goto_0
-    iput v0, p0, Lkik/android/util/l;->a:I
+    iput v0, p0, Lkik/arcane/util/l;->a:I
 
     .line 27
     mul-int/lit8 v0, p2, 0x36
 
     int-to-float v0, v0
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/util/l;->b:I
+    iput v0, p0, Lkik/arcane/util/l;->b:I
 
     .line 28
     if-nez p1, :cond_2
@@ -61,7 +61,7 @@
 
     const/high16 v1, 0x3f000000    # 0.5f
 
-    invoke-static {v1}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v1}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v1
 
@@ -71,7 +71,7 @@
 
     mul-int/2addr v0, p2
 
-    iput v0, p0, Lkik/android/util/l;->c:I
+    iput v0, p0, Lkik/arcane/util/l;->c:I
 
     .line 1042
     :goto_1
@@ -82,13 +82,13 @@
 
     int-to-float v0, v0
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
     .line 34
     :goto_2
-    iput v0, p0, Lkik/android/util/l;->d:I
+    iput v0, p0, Lkik/arcane/util/l;->d:I
 
     .line 1089
     new-instance v0, Ljava/util/ArrayList;
@@ -105,7 +105,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -113,7 +113,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -128,7 +128,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -136,7 +136,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -151,7 +151,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -159,7 +159,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -174,7 +174,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -182,7 +182,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -197,7 +197,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -205,7 +205,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -220,7 +220,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -228,7 +228,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -243,7 +243,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -251,7 +251,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -266,7 +266,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -274,7 +274,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -289,7 +289,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -297,7 +297,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -307,7 +307,7 @@
 
     .line 35
     :goto_3
-    iput-object v0, p0, Lkik/android/util/l;->e:Ljava/util/ArrayList;
+    iput-object v0, p0, Lkik/arcane/util/l;->e:Ljava/util/ArrayList;
 
     .line 2077
     const/4 v0, 0x0
@@ -322,14 +322,14 @@
 
     int-to-float v0, v0
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
     .line 36
     :cond_0
     :goto_4
-    iput v0, p0, Lkik/android/util/l;->f:I
+    iput v0, p0, Lkik/arcane/util/l;->f:I
 
     .line 37
     return-void
@@ -346,11 +346,11 @@
 
     int-to-float v0, v0
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
-    iput v0, p0, Lkik/android/util/l;->c:I
+    iput v0, p0, Lkik/arcane/util/l;->c:I
 
     goto/16 :goto_1
 
@@ -360,7 +360,7 @@
 
     int-to-float v0, v0
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
@@ -372,7 +372,7 @@
 
     int-to-float v0, v0
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
@@ -384,7 +384,7 @@
 
     int-to-float v0, v0
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
@@ -396,7 +396,7 @@
 
     int-to-float v0, v0
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
@@ -408,7 +408,7 @@
 
     int-to-float v0, v0
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
@@ -420,7 +420,7 @@
 
     int-to-float v0, v0
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
@@ -432,7 +432,7 @@
 
     int-to-float v0, v0
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
@@ -444,7 +444,7 @@
 
     int-to-float v0, v0
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
@@ -458,7 +458,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -466,7 +466,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -484,7 +484,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -492,7 +492,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -507,7 +507,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -515,7 +515,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -533,7 +533,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -541,7 +541,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -556,7 +556,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -564,7 +564,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -579,7 +579,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -587,7 +587,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -605,7 +605,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -613,7 +613,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -628,7 +628,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -636,7 +636,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -651,7 +651,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -659,7 +659,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -674,7 +674,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -682,7 +682,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -700,7 +700,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -708,7 +708,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -723,7 +723,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -731,7 +731,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -746,7 +746,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -754,7 +754,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -769,7 +769,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -777,7 +777,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -792,7 +792,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -800,7 +800,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -818,7 +818,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -826,7 +826,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -841,7 +841,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -849,7 +849,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -864,7 +864,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -872,7 +872,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -887,7 +887,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -895,7 +895,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -910,7 +910,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -918,7 +918,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -933,7 +933,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -941,7 +941,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -959,7 +959,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -967,7 +967,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -982,7 +982,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -990,7 +990,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -1005,7 +1005,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -1013,7 +1013,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -1028,7 +1028,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -1036,7 +1036,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -1051,7 +1051,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -1059,7 +1059,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -1074,7 +1074,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -1082,7 +1082,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -1097,7 +1097,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -1105,7 +1105,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -1123,7 +1123,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -1131,7 +1131,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -1146,7 +1146,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -1154,7 +1154,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -1169,7 +1169,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -1177,7 +1177,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -1192,7 +1192,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -1200,7 +1200,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -1215,7 +1215,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -1223,7 +1223,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -1238,7 +1238,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -1246,7 +1246,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -1261,7 +1261,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -1269,7 +1269,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -1284,7 +1284,7 @@
 
     int-to-float v2, v2
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
@@ -1292,7 +1292,7 @@
 
     int-to-float v3, v3
 
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
@@ -1313,7 +1313,7 @@
 
     int-to-float v0, v0
 
-    invoke-static {v0}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v0}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
@@ -1357,7 +1357,7 @@
 
     .prologue
     .line 169
-    iget v0, p0, Lkik/android/util/l;->b:I
+    iget v0, p0, Lkik/arcane/util/l;->b:I
 
     return v0
 .end method
@@ -1367,7 +1367,7 @@
 
     .prologue
     .line 185
-    iget-object v0, p0, Lkik/android/util/l;->e:Ljava/util/ArrayList;
+    iget-object v0, p0, Lkik/arcane/util/l;->e:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
@@ -1383,7 +1383,7 @@
 
     .prologue
     .line 173
-    iget v0, p0, Lkik/android/util/l;->c:I
+    iget v0, p0, Lkik/arcane/util/l;->c:I
 
     return v0
 .end method
@@ -1393,7 +1393,7 @@
 
     .prologue
     .line 177
-    iget v0, p0, Lkik/android/util/l;->d:I
+    iget v0, p0, Lkik/arcane/util/l;->d:I
 
     return v0
 .end method
@@ -1412,7 +1412,7 @@
 
     .prologue
     .line 181
-    iget-object v0, p0, Lkik/android/util/l;->e:Ljava/util/ArrayList;
+    iget-object v0, p0, Lkik/arcane/util/l;->e:Ljava/util/ArrayList;
 
     return-object v0
 .end method
@@ -1422,7 +1422,7 @@
 
     .prologue
     .line 189
-    iget v0, p0, Lkik/android/util/l;->f:I
+    iget v0, p0, Lkik/arcane/util/l;->f:I
 
     return v0
 .end method
@@ -1432,7 +1432,7 @@
 
     .prologue
     .line 193
-    iget v0, p0, Lkik/android/util/l;->a:I
+    iget v0, p0, Lkik/arcane/util/l;->a:I
 
     return v0
 .end method

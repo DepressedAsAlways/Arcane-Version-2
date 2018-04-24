@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/FullControlVideoMediaItemFragment$4;
+.class final Lkik/arcane/chat/fragment/FullControlVideoMediaItemFragment$4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/FullControlVideoMediaItemFragment;->d()V
+    value = Lkik/arcane/chat/fragment/FullControlVideoMediaItemFragment;->d()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/FullControlVideoMediaItemFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/FullControlVideoMediaItemFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/FullControlVideoMediaItemFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/FullControlVideoMediaItemFragment;)V
     .locals 0
 
     .prologue
     .line 167
-    iput-object p1, p0, Lkik/android/chat/fragment/FullControlVideoMediaItemFragment$4;->a:Lkik/android/chat/fragment/FullControlVideoMediaItemFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/FullControlVideoMediaItemFragment$4;->a:Lkik/arcane/chat/fragment/FullControlVideoMediaItemFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,9 +41,9 @@
 
     .prologue
     .line 171
-    iget-object v0, p0, Lkik/android/chat/fragment/FullControlVideoMediaItemFragment$4;->a:Lkik/android/chat/fragment/FullControlVideoMediaItemFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/FullControlVideoMediaItemFragment$4;->a:Lkik/arcane/chat/fragment/FullControlVideoMediaItemFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/FullControlVideoMediaItemFragment;->b(Lkik/android/chat/fragment/FullControlVideoMediaItemFragment;)Z
+    invoke-static {v0}, Lkik/arcane/chat/fragment/FullControlVideoMediaItemFragment;->b(Lkik/arcane/chat/fragment/FullControlVideoMediaItemFragment;)Z
 
     move-result v0
 
@@ -55,9 +55,9 @@
 
     .line 174
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/FullControlVideoMediaItemFragment$4;->a:Lkik/android/chat/fragment/FullControlVideoMediaItemFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/FullControlVideoMediaItemFragment$4;->a:Lkik/arcane/chat/fragment/FullControlVideoMediaItemFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/FullControlVideoMediaItemFragment;->h()Z
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/FullControlVideoMediaItemFragment;->h()Z
 
     goto :goto_0
 .end method

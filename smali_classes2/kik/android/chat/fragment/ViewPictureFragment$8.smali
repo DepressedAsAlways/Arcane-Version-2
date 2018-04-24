@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/ViewPictureFragment$8;
+.class final Lkik/arcane/chat/fragment/ViewPictureFragment$8;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/ViewPictureFragment;
+    value = Lkik/arcane/chat/fragment/ViewPictureFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
-.field final synthetic b:Lkik/android/chat/fragment/ViewPictureFragment;
+.field final synthetic b:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/ViewPictureFragment;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/ViewPictureFragment;Lkik/core/datatypes/messageExtensions/ContentMessage;)V
     .locals 0
 
     .prologue
     .line 873
-    iput-object p1, p0, Lkik/android/chat/fragment/ViewPictureFragment$8;->b:Lkik/android/chat/fragment/ViewPictureFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$8;->b:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
-    iput-object p2, p0, Lkik/android/chat/fragment/ViewPictureFragment$8;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iput-object p2, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$8;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,11 +45,11 @@
 
     .prologue
     .line 878
-    iget-object v0, p0, Lkik/android/chat/fragment/ViewPictureFragment$8;->b:Lkik/android/chat/fragment/ViewPictureFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$8;->b:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/ViewPictureFragment;->j:Lcom/kik/storage/s;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/ViewPictureFragment;->j:Lcom/kik/storage/s;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/ViewPictureFragment$8;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$8;->a:Lkik/core/datatypes/messageExtensions/ContentMessage;
 
     invoke-virtual {v1}, Lkik/core/datatypes/messageExtensions/ContentMessage;->n()Ljava/lang/String;
 
@@ -58,9 +58,9 @@
     invoke-interface {v0, v1}, Lcom/kik/storage/s;->e(Ljava/lang/String;)Z
 
     .line 879
-    iget-object v0, p0, Lkik/android/chat/fragment/ViewPictureFragment$8;->b:Lkik/android/chat/fragment/ViewPictureFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/ViewPictureFragment$8;->b:Lkik/arcane/chat/fragment/ViewPictureFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/ViewPictureFragment;->h(Lkik/android/chat/fragment/ViewPictureFragment;)V
+    invoke-static {v0}, Lkik/arcane/chat/fragment/ViewPictureFragment;->h(Lkik/arcane/chat/fragment/ViewPictureFragment;)V
 
     .line 880
     const/4 v0, 0x0

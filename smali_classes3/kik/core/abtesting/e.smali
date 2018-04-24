@@ -21,7 +21,7 @@
 
 .field private final d:Lkik/core/interfaces/f;
 
-.field private final e:Lcom/kik/android/Mixpanel;
+.field private final e:Lcom/kik/arcane/Mixpanel;
 
 .field private final f:Lkik/core/interfaces/k;
 
@@ -149,7 +149,7 @@
     return-void
 .end method
 
-.method public constructor <init>(Lkik/core/interfaces/c;Lkik/core/abtesting/j;Lkik/core/abtesting/i;Lkik/core/interfaces/k;Lkik/core/interfaces/r;Lkik/core/interfaces/f;Lcom/kik/android/Mixpanel;)V
+.method public constructor <init>(Lkik/core/interfaces/c;Lkik/core/abtesting/j;Lkik/core/abtesting/i;Lkik/core/interfaces/k;Lkik/core/interfaces/r;Lkik/core/interfaces/f;Lcom/kik/arcane/Mixpanel;)V
     .locals 8
 
     .prologue
@@ -206,12 +206,12 @@
     iput-object p6, p0, Lkik/core/abtesting/e;->d:Lkik/core/interfaces/f;
 
     .line 268
-    iput-object p7, p0, Lkik/core/abtesting/e;->e:Lcom/kik/android/Mixpanel;
+    iput-object p7, p0, Lkik/core/abtesting/e;->e:Lcom/kik/arcane/Mixpanel;
 
     .line 269
-    iget-object v0, p0, Lkik/core/abtesting/e;->e:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/core/abtesting/e;->e:Lcom/kik/arcane/Mixpanel;
 
-    invoke-virtual {v0, p0}, Lcom/kik/android/Mixpanel;->a(Lkik/core/interfaces/b;)V
+    invoke-virtual {v0, p0}, Lcom/kik/arcane/Mixpanel;->a(Lkik/core/interfaces/b;)V
 
     .line 270
     iput-object p3, p0, Lkik/core/abtesting/e;->g:Lkik/core/abtesting/i;
@@ -2286,12 +2286,12 @@
     return-object v0
 .end method
 
-.method static synthetic e(Lkik/core/abtesting/e;)Lcom/kik/android/Mixpanel;
+.method static synthetic e(Lkik/core/abtesting/e;)Lcom/kik/arcane/Mixpanel;
     .locals 1
 
     .prologue
     .line 54
-    iget-object v0, p0, Lkik/core/abtesting/e;->e:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/core/abtesting/e;->e:Lcom/kik/arcane/Mixpanel;
 
     return-object v0
 .end method
@@ -2665,28 +2665,28 @@
     move-result-object v0
 
     .line 2436
-    iget-object v1, p0, Lkik/core/abtesting/e;->e:Lcom/kik/android/Mixpanel;
+    iget-object v1, p0, Lkik/core/abtesting/e;->e:Lcom/kik/arcane/Mixpanel;
 
     const-string v2, "AB PreRegistration Selected"
 
-    invoke-virtual {v1, v2}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
     const-string v2, "experiments"
 
     .line 2437
-    invoke-virtual {v1, v2, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 2438
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->h()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->h()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 2439
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 431
     return-void
@@ -2847,11 +2847,11 @@
     move-result-object v0
 
     .line 2975
-    iget-object v1, p0, Lkik/core/abtesting/e;->e:Lcom/kik/android/Mixpanel;
+    iget-object v1, p0, Lkik/core/abtesting/e;->e:Lcom/kik/arcane/Mixpanel;
 
     const-string v3, "CM_AB_SELECTION"
 
-    invoke-virtual {v1, v3}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v3}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
@@ -2862,17 +2862,17 @@
 
     move-result-object v4
 
-    invoke-virtual {v1, v3, v4}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v3, v4}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
     .line 2977
-    invoke-virtual {v1}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
     .line 2978
-    invoke-virtual {v1}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v1}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 2980
     iget-object v1, p0, Lkik/core/abtesting/e;->d:Lkik/core/interfaces/f;

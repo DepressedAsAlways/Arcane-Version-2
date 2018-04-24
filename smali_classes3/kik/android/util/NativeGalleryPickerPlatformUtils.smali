@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/NativeGalleryPickerPlatformUtils;
+.class public final Lkik/arcane/util/NativeGalleryPickerPlatformUtils;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
+        Lkik/arcane/util/NativeGalleryPickerPlatformUtils$DocumentContentType;
     }
 .end annotation
 

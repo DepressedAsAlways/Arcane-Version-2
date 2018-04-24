@@ -1,11 +1,11 @@
-.class public final enum Lkik/android/gifs/api/GifResponseData$MediaType;
+.class public final enum Lkik/arcane/gifs/api/GifResponseData$MediaType;
 .super Ljava/lang/Enum;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/gifs/api/GifResponseData;
+    value = Lkik/arcane/gifs/api/GifResponseData;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,32 +17,32 @@
     value = {
         "Ljava/lang/Enum",
         "<",
-        "Lkik/android/gifs/api/GifResponseData$MediaType;",
+        "Lkik/arcane/gifs/api/GifResponseData$MediaType;",
         ">;"
     }
 .end annotation
 
 
 # static fields
-.field private static final synthetic $VALUES:[Lkik/android/gifs/api/GifResponseData$MediaType;
+.field private static final synthetic $VALUES:[Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
-.field public static final enum GIF:Lkik/android/gifs/api/GifResponseData$MediaType;
+.field public static final enum GIF:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
-.field public static final enum MP4:Lkik/android/gifs/api/GifResponseData$MediaType;
+.field public static final enum MP4:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
-.field public static final enum NanoGif:Lkik/android/gifs/api/GifResponseData$MediaType;
+.field public static final enum NanoGif:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
-.field public static final enum NanoMP4:Lkik/android/gifs/api/GifResponseData$MediaType;
+.field public static final enum NanoMP4:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
-.field public static final enum NanoWebM:Lkik/android/gifs/api/GifResponseData$MediaType;
+.field public static final enum NanoWebM:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
-.field public static final enum TinyGif:Lkik/android/gifs/api/GifResponseData$MediaType;
+.field public static final enum TinyGif:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
-.field public static final enum TinyMP4:Lkik/android/gifs/api/GifResponseData$MediaType;
+.field public static final enum TinyMP4:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
-.field public static final enum TinyWebM:Lkik/android/gifs/api/GifResponseData$MediaType;
+.field public static final enum TinyWebM:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
-.field public static final enum WebM:Lkik/android/gifs/api/GifResponseData$MediaType;
+.field public static final enum WebM:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
 
 # direct methods
@@ -61,144 +61,144 @@
     const/4 v3, 0x0
 
     .line 25
-    new-instance v0, Lkik/android/gifs/api/GifResponseData$MediaType;
+    new-instance v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     const-string v1, "MP4"
 
-    invoke-direct {v0, v1, v3}, Lkik/android/gifs/api/GifResponseData$MediaType;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v3}, Lkik/arcane/gifs/api/GifResponseData$MediaType;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/gifs/api/GifResponseData$MediaType;->MP4:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sput-object v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;->MP4:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     .line 26
-    new-instance v0, Lkik/android/gifs/api/GifResponseData$MediaType;
+    new-instance v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     const-string v1, "WebM"
 
-    invoke-direct {v0, v1, v4}, Lkik/android/gifs/api/GifResponseData$MediaType;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v4}, Lkik/arcane/gifs/api/GifResponseData$MediaType;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/gifs/api/GifResponseData$MediaType;->WebM:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sput-object v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;->WebM:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     .line 27
-    new-instance v0, Lkik/android/gifs/api/GifResponseData$MediaType;
+    new-instance v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     const-string v1, "TinyWebM"
 
-    invoke-direct {v0, v1, v5}, Lkik/android/gifs/api/GifResponseData$MediaType;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v5}, Lkik/arcane/gifs/api/GifResponseData$MediaType;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/gifs/api/GifResponseData$MediaType;->TinyWebM:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sput-object v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;->TinyWebM:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     .line 28
-    new-instance v0, Lkik/android/gifs/api/GifResponseData$MediaType;
+    new-instance v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     const-string v1, "NanoWebM"
 
-    invoke-direct {v0, v1, v6}, Lkik/android/gifs/api/GifResponseData$MediaType;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v6}, Lkik/arcane/gifs/api/GifResponseData$MediaType;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/gifs/api/GifResponseData$MediaType;->NanoWebM:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sput-object v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;->NanoWebM:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     .line 29
-    new-instance v0, Lkik/android/gifs/api/GifResponseData$MediaType;
+    new-instance v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     const-string v1, "TinyGif"
 
-    invoke-direct {v0, v1, v7}, Lkik/android/gifs/api/GifResponseData$MediaType;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v7}, Lkik/arcane/gifs/api/GifResponseData$MediaType;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/gifs/api/GifResponseData$MediaType;->TinyGif:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sput-object v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;->TinyGif:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     .line 30
-    new-instance v0, Lkik/android/gifs/api/GifResponseData$MediaType;
+    new-instance v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     const-string v1, "NanoGif"
 
     const/4 v2, 0x5
 
-    invoke-direct {v0, v1, v2}, Lkik/android/gifs/api/GifResponseData$MediaType;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Lkik/arcane/gifs/api/GifResponseData$MediaType;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/gifs/api/GifResponseData$MediaType;->NanoGif:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sput-object v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;->NanoGif:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     .line 31
-    new-instance v0, Lkik/android/gifs/api/GifResponseData$MediaType;
+    new-instance v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     const-string v1, "TinyMP4"
 
     const/4 v2, 0x6
 
-    invoke-direct {v0, v1, v2}, Lkik/android/gifs/api/GifResponseData$MediaType;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Lkik/arcane/gifs/api/GifResponseData$MediaType;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/gifs/api/GifResponseData$MediaType;->TinyMP4:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sput-object v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;->TinyMP4:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     .line 32
-    new-instance v0, Lkik/android/gifs/api/GifResponseData$MediaType;
+    new-instance v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     const-string v1, "NanoMP4"
 
     const/4 v2, 0x7
 
-    invoke-direct {v0, v1, v2}, Lkik/android/gifs/api/GifResponseData$MediaType;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Lkik/arcane/gifs/api/GifResponseData$MediaType;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/gifs/api/GifResponseData$MediaType;->NanoMP4:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sput-object v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;->NanoMP4:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     .line 33
-    new-instance v0, Lkik/android/gifs/api/GifResponseData$MediaType;
+    new-instance v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     const-string v1, "GIF"
 
     const/16 v2, 0x8
 
-    invoke-direct {v0, v1, v2}, Lkik/android/gifs/api/GifResponseData$MediaType;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Lkik/arcane/gifs/api/GifResponseData$MediaType;-><init>(Ljava/lang/String;I)V
 
-    sput-object v0, Lkik/android/gifs/api/GifResponseData$MediaType;->GIF:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sput-object v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;->GIF:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     .line 23
     const/16 v0, 0x9
 
-    new-array v0, v0, [Lkik/android/gifs/api/GifResponseData$MediaType;
+    new-array v0, v0, [Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
-    sget-object v1, Lkik/android/gifs/api/GifResponseData$MediaType;->MP4:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v1, Lkik/arcane/gifs/api/GifResponseData$MediaType;->MP4:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     aput-object v1, v0, v3
 
-    sget-object v1, Lkik/android/gifs/api/GifResponseData$MediaType;->WebM:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v1, Lkik/arcane/gifs/api/GifResponseData$MediaType;->WebM:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     aput-object v1, v0, v4
 
-    sget-object v1, Lkik/android/gifs/api/GifResponseData$MediaType;->TinyWebM:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v1, Lkik/arcane/gifs/api/GifResponseData$MediaType;->TinyWebM:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     aput-object v1, v0, v5
 
-    sget-object v1, Lkik/android/gifs/api/GifResponseData$MediaType;->NanoWebM:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v1, Lkik/arcane/gifs/api/GifResponseData$MediaType;->NanoWebM:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     aput-object v1, v0, v6
 
-    sget-object v1, Lkik/android/gifs/api/GifResponseData$MediaType;->TinyGif:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v1, Lkik/arcane/gifs/api/GifResponseData$MediaType;->TinyGif:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     aput-object v1, v0, v7
 
     const/4 v1, 0x5
 
-    sget-object v2, Lkik/android/gifs/api/GifResponseData$MediaType;->NanoGif:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v2, Lkik/arcane/gifs/api/GifResponseData$MediaType;->NanoGif:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x6
 
-    sget-object v2, Lkik/android/gifs/api/GifResponseData$MediaType;->TinyMP4:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v2, Lkik/arcane/gifs/api/GifResponseData$MediaType;->TinyMP4:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     aput-object v2, v0, v1
 
     const/4 v1, 0x7
 
-    sget-object v2, Lkik/android/gifs/api/GifResponseData$MediaType;->NanoMP4:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v2, Lkik/arcane/gifs/api/GifResponseData$MediaType;->NanoMP4:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     aput-object v2, v0, v1
 
     const/16 v1, 0x8
 
-    sget-object v2, Lkik/android/gifs/api/GifResponseData$MediaType;->GIF:Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v2, Lkik/arcane/gifs/api/GifResponseData$MediaType;->GIF:Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     aput-object v2, v0, v1
 
-    sput-object v0, Lkik/android/gifs/api/GifResponseData$MediaType;->$VALUES:[Lkik/android/gifs/api/GifResponseData$MediaType;
+    sput-object v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;->$VALUES:[Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     return-void
 .end method
@@ -218,34 +218,34 @@
     return-void
 .end method
 
-.method public static valueOf(Ljava/lang/String;)Lkik/android/gifs/api/GifResponseData$MediaType;
+.method public static valueOf(Ljava/lang/String;)Lkik/arcane/gifs/api/GifResponseData$MediaType;
     .locals 1
 
     .prologue
     .line 23
-    const-class v0, Lkik/android/gifs/api/GifResponseData$MediaType;
+    const-class v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/gifs/api/GifResponseData$MediaType;
+    check-cast v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     return-object v0
 .end method
 
-.method public static values()[Lkik/android/gifs/api/GifResponseData$MediaType;
+.method public static values()[Lkik/arcane/gifs/api/GifResponseData$MediaType;
     .locals 1
 
     .prologue
     .line 23
-    sget-object v0, Lkik/android/gifs/api/GifResponseData$MediaType;->$VALUES:[Lkik/android/gifs/api/GifResponseData$MediaType;
+    sget-object v0, Lkik/arcane/gifs/api/GifResponseData$MediaType;->$VALUES:[Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
-    invoke-virtual {v0}, [Lkik/android/gifs/api/GifResponseData$MediaType;->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lkik/arcane/gifs/api/GifResponseData$MediaType;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
-    check-cast v0, [Lkik/android/gifs/api/GifResponseData$MediaType;
+    check-cast v0, [Lkik/arcane/gifs/api/GifResponseData$MediaType;
 
     return-object v0
 .end method

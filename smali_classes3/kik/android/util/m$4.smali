@@ -1,4 +1,4 @@
-.class final Lkik/android/util/m$4;
+.class final Lkik/arcane/util/m$4;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/util/m;->a(Ljava/util/ArrayList;)V
+    value = Lkik/arcane/util/m;->a(Ljava/util/ArrayList;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -21,7 +21,7 @@
         "Ljava/lang/Object;",
         "Ljava/util/Comparator",
         "<",
-        "Lkik/android/util/au;",
+        "Lkik/arcane/util/au;",
         ">;"
     }
 .end annotation
@@ -49,14 +49,14 @@
     const/4 v0, -0x1
 
     .line 599
-    check-cast p1, Lkik/android/util/au;
+    check-cast p1, Lkik/arcane/util/au;
 
-    check-cast p2, Lkik/android/util/au;
+    check-cast p2, Lkik/arcane/util/au;
 
     .line 1602
-    iget v2, p1, Lkik/android/util/au;->b:I
+    iget v2, p1, Lkik/arcane/util/au;->b:I
 
-    iget v3, p2, Lkik/android/util/au;->b:I
+    iget v3, p2, Lkik/arcane/util/au;->b:I
 
     if-ge v2, v3, :cond_1
 
@@ -67,9 +67,9 @@
 
     .line 1606
     :cond_1
-    iget v2, p1, Lkik/android/util/au;->b:I
+    iget v2, p1, Lkik/arcane/util/au;->b:I
 
-    iget v3, p2, Lkik/android/util/au;->b:I
+    iget v3, p2, Lkik/arcane/util/au;->b:I
 
     if-le v2, v3, :cond_2
 
@@ -80,9 +80,9 @@
 
     .line 1610
     :cond_2
-    iget v2, p1, Lkik/android/util/au;->c:I
+    iget v2, p1, Lkik/arcane/util/au;->c:I
 
-    iget v3, p2, Lkik/android/util/au;->c:I
+    iget v3, p2, Lkik/arcane/util/au;->c:I
 
     if-ge v2, v3, :cond_3
 
@@ -93,9 +93,9 @@
 
     .line 1614
     :cond_3
-    iget v1, p1, Lkik/android/util/au;->c:I
+    iget v1, p1, Lkik/arcane/util/au;->c:I
 
-    iget v2, p2, Lkik/android/util/au;->c:I
+    iget v2, p2, Lkik/arcane/util/au;->c:I
 
     if-gt v1, v2, :cond_0
 

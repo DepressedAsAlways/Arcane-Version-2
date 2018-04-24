@@ -1,21 +1,21 @@
-.class public interface abstract Lkik/android/chat/vm/messaging/IContentMessageViewModel;
+.class public interface abstract Lkik/arcane/chat/vm/messaging/IContentMessageViewModel;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/messaging/IMessageViewModel;
+.implements Lkik/arcane/chat/vm/messaging/IMessageViewModel;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/vm/messaging/IContentMessageViewModel$ItemUploadState;
+        Lkik/arcane/chat/vm/messaging/IContentMessageViewModel$ItemUploadState;
     }
 .end annotation
 
 
 # virtual methods
-.method public abstract aA()Lkik/android/widget/ContentPreviewImageView$ContentType;
+.method public abstract aA()Lkik/arcane/widget/ContentPreviewImageView$ContentType;
 .end method
 
 .method public abstract aB()Lrx/d;
@@ -102,7 +102,7 @@
 .method public abstract aM()V
 .end method
 
-.method public abstract aN()Lkik/android/chat/vm/messaging/dl;
+.method public abstract aN()Lkik/arcane/chat/vm/messaging/dl;
 .end method
 
 .method public abstract ap()Ljava/lang/String;

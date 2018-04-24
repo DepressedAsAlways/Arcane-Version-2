@@ -8,7 +8,7 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/content/Context;Landroid/database/Cursor;ZZLcom/kik/view/adapters/m;Lcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+.method public constructor <init>(Landroid/content/Context;Landroid/database/Cursor;ZZLcom/kik/view/adapters/m;Lcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
     .locals 7
 
     .prologue
@@ -27,7 +27,7 @@
 
     move-object v6, p7
 
-    invoke-direct/range {v0 .. v6}, Lcom/kik/view/adapters/ContactsCursorAdapter;-><init>(Landroid/content/Context;Landroid/database/Cursor;ZZLcom/kik/components/CoreComponent;Lkik/android/chat/vm/bd;)V
+    invoke-direct/range {v0 .. v6}, Lcom/kik/view/adapters/ContactsCursorAdapter;-><init>(Landroid/content/Context;Landroid/database/Cursor;ZZLcom/kik/components/CoreComponent;Lkik/arcane/chat/vm/bd;)V
 
     .line 20
     iput-object p5, p0, Lcom/kik/view/adapters/MultiselectContactsCursorAdapter;->e:Lcom/kik/view/adapters/m;

@@ -1,18 +1,18 @@
-.class public Lkik/android/chat/fragment/EmojiStatusPickerFragment;
-.super Lkik/android/chat/fragment/KikScopedDialogFragment;
+.class public Lkik/arcane/chat/fragment/EmojiStatusPickerFragment;
+.super Lkik/arcane/chat/fragment/KikScopedDialogFragment;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/fragment/EmojiStatusPickerFragment$a;
+        Lkik/arcane/chat/fragment/EmojiStatusPickerFragment$a;
     }
 .end annotation
 
 
 # instance fields
-.field private a:Lkik/android/chat/vm/chats/profile/dr;
+.field private a:Lkik/arcane/chat/vm/chats/profile/dr;
 
 
 # direct methods
@@ -21,7 +21,7 @@
 
     .prologue
     .line 25
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikScopedDialogFragment;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;-><init>()V
 
     return-void
 .end method
@@ -33,9 +33,9 @@
 
     .prologue
     .line 53
-    iget-object v0, p0, Lkik/android/chat/fragment/EmojiStatusPickerFragment;->a:Lkik/android/chat/vm/chats/profile/dr;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/EmojiStatusPickerFragment;->a:Lkik/arcane/chat/vm/chats/profile/dr;
 
-    invoke-interface {v0}, Lkik/android/chat/vm/chats/profile/dr;->n()V
+    invoke-interface {v0}, Lkik/arcane/chat/vm/chats/profile/dr;->n()V
 
     .line 54
     const/4 v0, 0x1
@@ -56,51 +56,51 @@
 
     move-result-object v0
 
-    check-cast v0, Lkik/android/e/ad;
+    check-cast v0, Lkik/arcane/e/ad;
 
     .line 34
-    invoke-virtual {v0}, Lkik/android/e/ad;->getRoot()Landroid/view/View;
+    invoke-virtual {v0}, Lkik/arcane/e/ad;->getRoot()Landroid/view/View;
 
     move-result-object v1
 
     .line 36
-    new-instance v2, Lkik/android/chat/vm/u;
+    new-instance v2, Lkik/arcane/chat/vm/u;
 
     .line 1066
-    new-instance v3, Lkik/android/chat/fragment/EmojiStatusPickerFragment$a;
+    new-instance v3, Lkik/arcane/chat/fragment/EmojiStatusPickerFragment$a;
 
-    invoke-direct {v3}, Lkik/android/chat/fragment/EmojiStatusPickerFragment$a;-><init>()V
+    invoke-direct {v3}, Lkik/arcane/chat/fragment/EmojiStatusPickerFragment$a;-><init>()V
 
     .line 1067
-    invoke-virtual {p0}, Lkik/android/chat/fragment/EmojiStatusPickerFragment;->getArguments()Landroid/os/Bundle;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/EmojiStatusPickerFragment;->getArguments()Landroid/os/Bundle;
 
     move-result-object v4
 
-    invoke-virtual {v3, v4}, Lkik/android/chat/fragment/EmojiStatusPickerFragment$a;->a(Landroid/os/Bundle;)V
+    invoke-virtual {v3, v4}, Lkik/arcane/chat/fragment/EmojiStatusPickerFragment$a;->a(Landroid/os/Bundle;)V
 
     .line 36
-    invoke-static {v3}, Lkik/android/chat/fragment/EmojiStatusPickerFragment$a;->a(Lkik/android/chat/fragment/EmojiStatusPickerFragment$a;)Lkik/core/chat/profile/EmojiStatus;
+    invoke-static {v3}, Lkik/arcane/chat/fragment/EmojiStatusPickerFragment$a;->a(Lkik/arcane/chat/fragment/EmojiStatusPickerFragment$a;)Lkik/core/chat/profile/EmojiStatus;
 
     move-result-object v3
 
-    invoke-direct {v2, v3}, Lkik/android/chat/vm/u;-><init>(Lkik/core/chat/profile/EmojiStatus;)V
+    invoke-direct {v2, v3}, Lkik/arcane/chat/vm/u;-><init>(Lkik/core/chat/profile/EmojiStatus;)V
 
-    iput-object v2, p0, Lkik/android/chat/fragment/EmojiStatusPickerFragment;->a:Lkik/android/chat/vm/chats/profile/dr;
+    iput-object v2, p0, Lkik/arcane/chat/fragment/EmojiStatusPickerFragment;->a:Lkik/arcane/chat/vm/chats/profile/dr;
 
     .line 37
-    iget-object v2, p0, Lkik/android/chat/fragment/EmojiStatusPickerFragment;->a:Lkik/android/chat/vm/chats/profile/dr;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/EmojiStatusPickerFragment;->a:Lkik/arcane/chat/vm/chats/profile/dr;
 
-    invoke-virtual {p0, v2}, Lkik/android/chat/fragment/EmojiStatusPickerFragment;->attachVm(Lkik/android/chat/vm/bu;)Lkik/android/chat/vm/bu;
+    invoke-virtual {p0, v2}, Lkik/arcane/chat/fragment/EmojiStatusPickerFragment;->attachVm(Lkik/arcane/chat/vm/bu;)Lkik/arcane/chat/vm/bu;
 
     .line 38
-    iget-object v2, p0, Lkik/android/chat/fragment/EmojiStatusPickerFragment;->a:Lkik/android/chat/vm/chats/profile/dr;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/EmojiStatusPickerFragment;->a:Lkik/arcane/chat/vm/chats/profile/dr;
 
-    invoke-virtual {v0, v2}, Lkik/android/e/ad;->a(Lkik/android/chat/vm/chats/profile/dr;)V
+    invoke-virtual {v0, v2}, Lkik/arcane/e/ad;->a(Lkik/arcane/chat/vm/chats/profile/dr;)V
 
     .line 39
     const/4 v0, 0x1
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/EmojiStatusPickerFragment;->setScreenOrientation(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/EmojiStatusPickerFragment;->setScreenOrientation(I)V
 
     .line 40
     return-object v1
@@ -113,10 +113,10 @@
     .line 60
     const/4 v0, -0x1
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/EmojiStatusPickerFragment;->setScreenOrientation(I)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/EmojiStatusPickerFragment;->setScreenOrientation(I)V
 
     .line 61
-    invoke-super {p0}, Lkik/android/chat/fragment/KikScopedDialogFragment;->onDestroyView()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/KikScopedDialogFragment;->onDestroyView()V
 
     .line 62
     return-void

@@ -1,5 +1,5 @@
-.class public Lkik/android/chat/activity/MissedConversationsActivity;
-.super Lkik/android/chat/activity/FragmentWrapperActivity;
+.class public Lkik/arcane/chat/activity/MissedConversationsActivity;
+.super Lkik/arcane/chat/activity/FragmentWrapperActivity;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
     .prologue
     .line 6
-    invoke-direct {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;-><init>()V
 
     return-void
 .end method

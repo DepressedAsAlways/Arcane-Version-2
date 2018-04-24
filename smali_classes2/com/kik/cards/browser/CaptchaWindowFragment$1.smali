@@ -43,9 +43,9 @@
     .line 303
     iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment$1;->a:Lcom/kik/cards/browser/CaptchaWindowFragment;
 
-    iget-object v0, v0, Lcom/kik/cards/browser/CaptchaWindowFragment;->e:Lkik/android/chat/fragment/ProgressDialogFragment;
+    iget-object v0, v0, Lcom/kik/cards/browser/CaptchaWindowFragment;->e:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/ProgressDialogFragment;->isAdded()Z
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/ProgressDialogFragment;->isAdded()Z
 
     move-result v0
 
@@ -54,9 +54,9 @@
     .line 304
     iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment$1;->a:Lcom/kik/cards/browser/CaptchaWindowFragment;
 
-    iget-object v0, v0, Lcom/kik/cards/browser/CaptchaWindowFragment;->e:Lkik/android/chat/fragment/ProgressDialogFragment;
+    iget-object v0, v0, Lcom/kik/cards/browser/CaptchaWindowFragment;->e:Lkik/arcane/chat/fragment/ProgressDialogFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/ProgressDialogFragment;->dismissAllowingStateLoss()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/ProgressDialogFragment;->dismissAllowingStateLoss()V
 
     .line 305
     iget-object v0, p0, Lcom/kik/cards/browser/CaptchaWindowFragment$1;->a:Lcom/kik/cards/browser/CaptchaWindowFragment;

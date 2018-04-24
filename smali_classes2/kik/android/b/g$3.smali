@@ -1,4 +1,4 @@
-.class final Lkik/android/b/g$3;
+.class final Lkik/arcane/b/g$3;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/b/g;->a([B[BLjava/lang/String;)Lcom/kik/events/Promise;
+    value = Lkik/arcane/b/g;->a([B[BLjava/lang/String;)Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,22 +35,22 @@
 
 .field final synthetic c:[B
 
-.field final synthetic d:Lkik/android/b/g;
+.field final synthetic d:Lkik/arcane/b/g;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/b/g;Ljava/lang/String;[B[B)V
+.method constructor <init>(Lkik/arcane/b/g;Ljava/lang/String;[B[B)V
     .locals 0
 
     .prologue
     .line 127
-    iput-object p1, p0, Lkik/android/b/g$3;->d:Lkik/android/b/g;
+    iput-object p1, p0, Lkik/arcane/b/g$3;->d:Lkik/arcane/b/g;
 
-    iput-object p2, p0, Lkik/android/b/g$3;->a:Ljava/lang/String;
+    iput-object p2, p0, Lkik/arcane/b/g$3;->a:Ljava/lang/String;
 
-    iput-object p3, p0, Lkik/android/b/g$3;->b:[B
+    iput-object p3, p0, Lkik/arcane/b/g$3;->b:[B
 
-    iput-object p4, p0, Lkik/android/b/g$3;->c:[B
+    iput-object p4, p0, Lkik/arcane/b/g$3;->c:[B
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -74,7 +74,7 @@
 
     invoke-direct {v0}, Lcom/kik/xdata/model/browser/XBrowserDomainInfo;-><init>()V
 
-    iget-object v1, p0, Lkik/android/b/g$3;->a:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/b/g$3;->a:Ljava/lang/String;
 
     .line 1133
     invoke-virtual {v0, v1}, Lcom/kik/xdata/model/browser/XBrowserDomainInfo;->a(Ljava/lang/String;)Lcom/kik/xdata/model/browser/XBrowserDomainInfo;
@@ -88,7 +88,7 @@
     invoke-direct {v0}, Lcom/kik/xdata/model/browser/XBrowserAnonymousKey;-><init>()V
 
     .line 1138
-    iget-object v1, p0, Lkik/android/b/g$3;->b:[B
+    iget-object v1, p0, Lkik/arcane/b/g$3;->b:[B
 
     invoke-static {v1}, Lcom/dyuproject/protostuff/c;->b([B)Lcom/dyuproject/protostuff/c;
 
@@ -97,7 +97,7 @@
     invoke-virtual {v0, v1}, Lcom/kik/xdata/model/browser/XBrowserAnonymousKey;->b(Lcom/dyuproject/protostuff/c;)Lcom/kik/xdata/model/browser/XBrowserAnonymousKey;
 
     .line 1139
-    iget-object v1, p0, Lkik/android/b/g$3;->c:[B
+    iget-object v1, p0, Lkik/arcane/b/g$3;->c:[B
 
     invoke-static {v1}, Lcom/dyuproject/protostuff/c;->b([B)Lcom/dyuproject/protostuff/c;
 

@@ -48,14 +48,14 @@
 
     .prologue
     .line 102
-    new-instance v0, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$a;-><init>()V
 
     const-string v1, "talk-to"
 
     .line 103
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$a;->a(Ljava/lang/String;)Lkik/android/chat/fragment/AddressbookFragmentBase$a;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/AddressBookFindPeopleInviteFriendsFragment$a;->a(Ljava/lang/String;)Lkik/arcane/chat/fragment/AddressbookFragmentBase$a;
 
     move-result-object v0
 
@@ -66,22 +66,22 @@
 
     move-result-object v1
 
-    invoke-static {v0, v1}, Lkik/android/chat/activity/KActivityLauncher;->a(Lkik/android/util/ae;Landroid/content/Context;)Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
+    invoke-static {v0, v1}, Lkik/arcane/chat/activity/KActivityLauncher;->a(Lkik/arcane/util/ae;Landroid/content/Context;)Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
+    invoke-virtual {v0}, Lkik/arcane/chat/activity/KActivityLauncher$ActivityLaunchDescriptor;->e()Lcom/kik/events/Promise;
 
     .line 107
     iget-object v0, p0, Lcom/kik/view/adapters/o$c;->b:Lcom/kik/view/adapters/o;
 
-    invoke-static {v0}, Lcom/kik/view/adapters/o;->a(Lcom/kik/view/adapters/o;)Lcom/kik/android/Mixpanel;
+    invoke-static {v0}, Lcom/kik/view/adapters/o;->a(Lcom/kik/view/adapters/o;)Lcom/kik/arcane/Mixpanel;
 
     move-result-object v0
 
     const-string v1, "Use Phone Contacts Tapped"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -90,17 +90,17 @@
     const-string v2, "Find People"
 
     .line 108
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 109
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 110
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 111
     return-void

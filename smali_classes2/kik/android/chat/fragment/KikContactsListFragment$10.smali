@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/KikContactsListFragment$10;
+.class final Lkik/arcane/chat/fragment/KikContactsListFragment$10;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/KikContactsListFragment;
+    value = Lkik/arcane/chat/fragment/KikContactsListFragment;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +28,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikContactsListFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikContactsListFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikContactsListFragment;)V
     .locals 0
 
     .prologue
     .line 986
-    iput-object p1, p0, Lkik/android/chat/fragment/KikContactsListFragment$10;->a:Lkik/android/chat/fragment/KikContactsListFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$10;->a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -55,16 +55,16 @@
     const/4 v7, 0x1
 
     .line 990
-    iget-object v0, p0, Lkik/android/chat/fragment/KikContactsListFragment$10;->a:Lkik/android/chat/fragment/KikContactsListFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$10;->a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
-    iget-boolean v0, v0, Lkik/android/chat/fragment/KikContactsListFragment;->r:Z
+    iget-boolean v0, v0, Lkik/arcane/chat/fragment/KikContactsListFragment;->r:Z
 
     if-eqz v0, :cond_0
 
     .line 991
-    iget-object v0, p0, Lkik/android/chat/fragment/KikContactsListFragment$10;->a:Lkik/android/chat/fragment/KikContactsListFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$10;->a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/KikContactsListFragment;->resignWaitDialog()V
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/KikContactsListFragment;->resignWaitDialog()V
 
     .line 993
     :cond_0
@@ -89,9 +89,9 @@
     sparse-switch v0, :sswitch_data_0
 
     .line 1018
-    iget-object v1, p0, Lkik/android/chat/fragment/KikContactsListFragment$10;->a:Lkik/android/chat/fragment/KikContactsListFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$10;->a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
-    invoke-virtual {v1, v0}, Lkik/android/chat/fragment/KikContactsListFragment;->displayGenericIqError(I)V
+    invoke-virtual {v1, v0}, Lkik/arcane/chat/fragment/KikContactsListFragment;->displayGenericIqError(I)V
 
     .line 1022
     :cond_1
@@ -101,34 +101,34 @@
 
     .line 1000
     :sswitch_1
-    invoke-static {v1}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v1}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v2
 
     if-eqz v2, :cond_2
 
     .line 1001
-    iget-object v1, p0, Lkik/android/chat/fragment/KikContactsListFragment$10;->a:Lkik/android/chat/fragment/KikContactsListFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$10;->a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
-    iget-object v2, p0, Lkik/android/chat/fragment/KikContactsListFragment$10;->a:Lkik/android/chat/fragment/KikContactsListFragment;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$10;->a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
-    invoke-virtual {v2, v8}, Lkik/android/chat/fragment/KikContactsListFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {v2, v8}, Lkik/arcane/chat/fragment/KikContactsListFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-static {v0}, Lkik/android/util/ce;->a(I)Ljava/lang/String;
+    invoke-static {v0}, Lkik/arcane/util/ce;->a(I)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {v1, v2, v0}, Lkik/android/chat/fragment/KikContactsListFragment;->displayErrorDialog(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v0}, Lkik/arcane/chat/fragment/KikContactsListFragment;->displayErrorDialog(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 
     .line 1004
     :cond_2
-    iget-object v0, p0, Lkik/android/chat/fragment/KikContactsListFragment$10;->a:Lkik/android/chat/fragment/KikContactsListFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$10;->a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
-    iget-object v2, p0, Lkik/android/chat/fragment/KikContactsListFragment$10;->a:Lkik/android/chat/fragment/KikContactsListFragment;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$10;->a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
     const v3, 0x7f0904b8
 
@@ -136,40 +136,40 @@
 
     const/4 v5, 0x0
 
-    iget-object v6, p0, Lkik/android/chat/fragment/KikContactsListFragment$10;->a:Lkik/android/chat/fragment/KikContactsListFragment;
+    iget-object v6, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$10;->a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
-    iget-object v6, v6, Lkik/android/chat/fragment/KikContactsListFragment;->u:Lkik/core/interfaces/v;
+    iget-object v6, v6, Lkik/arcane/chat/fragment/KikContactsListFragment;->u:Lkik/core/interfaces/v;
 
     invoke-interface {v6, v1, v7}, Lkik/core/interfaces/v;->a(Ljava/lang/String;Z)Lkik/core/datatypes/l;
 
     move-result-object v1
 
-    invoke-static {v1}, Lkik/android/util/br;->a(Lkik/core/datatypes/l;)Ljava/lang/String;
+    invoke-static {v1}, Lkik/arcane/util/br;->a(Lkik/core/datatypes/l;)Ljava/lang/String;
 
     move-result-object v1
 
     aput-object v1, v4, v5
 
-    invoke-virtual {v2, v3, v4}, Lkik/android/chat/fragment/KikContactsListFragment;->getStringFromResource(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {v2, v3, v4}, Lkik/arcane/chat/fragment/KikContactsListFragment;->getStringFromResource(I[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
-    iput-object v1, v0, Lkik/android/chat/fragment/KikContactsListFragment;->_errorText:Ljava/lang/String;
+    iput-object v1, v0, Lkik/arcane/chat/fragment/KikContactsListFragment;->_errorText:Ljava/lang/String;
 
     .line 1005
-    iget-object v0, p0, Lkik/android/chat/fragment/KikContactsListFragment$10;->a:Lkik/android/chat/fragment/KikContactsListFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$10;->a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/KikContactsListFragment$10;->a:Lkik/android/chat/fragment/KikContactsListFragment;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$10;->a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
-    invoke-virtual {v1, v8}, Lkik/android/chat/fragment/KikContactsListFragment;->getStringFromResource(I)Ljava/lang/String;
+    invoke-virtual {v1, v8}, Lkik/arcane/chat/fragment/KikContactsListFragment;->getStringFromResource(I)Ljava/lang/String;
 
     move-result-object v1
 
-    iget-object v2, p0, Lkik/android/chat/fragment/KikContactsListFragment$10;->a:Lkik/android/chat/fragment/KikContactsListFragment;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/KikContactsListFragment$10;->a:Lkik/arcane/chat/fragment/KikContactsListFragment;
 
-    iget-object v2, v2, Lkik/android/chat/fragment/KikContactsListFragment;->_errorText:Ljava/lang/String;
+    iget-object v2, v2, Lkik/arcane/chat/fragment/KikContactsListFragment;->_errorText:Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v2}, Lkik/android/chat/fragment/KikContactsListFragment;->displayErrorDialog(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lkik/arcane/chat/fragment/KikContactsListFragment;->displayErrorDialog(Ljava/lang/String;Ljava/lang/String;)V
 
     goto :goto_0
 

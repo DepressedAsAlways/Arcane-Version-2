@@ -1,4 +1,4 @@
-.class final synthetic Lkik/android/chat/view/ai;
+.class final synthetic Lkik/arcane/chat/view/ai;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -17,7 +17,7 @@
 
     const/high16 v0, 0x3f800000    # 1.0f
 
-    iput v0, p0, Lkik/android/chat/view/ai;->a:F
+    iput v0, p0, Lkik/arcane/chat/view/ai;->a:F
 
     return-void
 .end method
@@ -25,9 +25,9 @@
 .method public static a()Landroid/media/MediaPlayer$OnPreparedListener;
     .locals 1
 
-    new-instance v0, Lkik/android/chat/view/ai;
+    new-instance v0, Lkik/arcane/chat/view/ai;
 
-    invoke-direct {v0}, Lkik/android/chat/view/ai;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/view/ai;-><init>()V
 
     return-object v0
 .end method
@@ -37,9 +37,9 @@
 .method public final onPrepared(Landroid/media/MediaPlayer;)V
     .locals 1
 
-    iget v0, p0, Lkik/android/chat/view/ai;->a:F
+    iget v0, p0, Lkik/arcane/chat/view/ai;->a:F
 
-    invoke-static {v0, p1}, Lkik/android/chat/view/PreviewResultsViewImpl;->a(FLandroid/media/MediaPlayer;)V
+    invoke-static {v0, p1}, Lkik/arcane/chat/view/PreviewResultsViewImpl;->a(FLandroid/media/MediaPlayer;)V
 
     return-void
 .end method

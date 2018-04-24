@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/presentation/MediaTrayPresenterImpl$8;
+.class final Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$8;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/presentation/MediaTrayPresenterImpl;->e(Z)V
+    value = Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->e(Z)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,18 +20,18 @@
 # instance fields
 .field final synthetic a:I
 
-.field final synthetic b:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+.field final synthetic b:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/presentation/MediaTrayPresenterImpl;I)V
+.method constructor <init>(Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;I)V
     .locals 0
 
     .prologue
     .line 2914
-    iput-object p1, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$8;->b:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    iput-object p1, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$8;->b:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
-    iput p2, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$8;->a:I
+    iput p2, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$8;->a:I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,40 +45,40 @@
 
     .prologue
     .line 2918
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$8;->b:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$8;->b:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
-    invoke-static {v0}, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->Y(Lkik/android/chat/presentation/MediaTrayPresenterImpl;)I
+    invoke-static {v0}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->Y(Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;)I
 
     move-result v0
 
-    iget v1, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$8;->a:I
+    iget v1, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$8;->a:I
 
     if-eq v0, v1, :cond_1
 
     .line 2923
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$8;->b:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$8;->b:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
-    invoke-static {v0}, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->Z(Lkik/android/chat/presentation/MediaTrayPresenterImpl;)Z
+    invoke-static {v0}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->Z(Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 2924
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$8;->b:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$8;->b:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
-    invoke-static {v0}, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->aa(Lkik/android/chat/presentation/MediaTrayPresenterImpl;)V
+    invoke-static {v0}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->aa(Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;)V
 
     .line 2926
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$8;->b:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$8;->b:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
-    invoke-static {v0}, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->ab(Lkik/android/chat/presentation/MediaTrayPresenterImpl;)Z
+    invoke-static {v0}, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->ab(Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;)Z
 
     .line 2927
-    iget-object v0, p0, Lkik/android/chat/presentation/MediaTrayPresenterImpl$8;->b:Lkik/android/chat/presentation/MediaTrayPresenterImpl;
+    iget-object v0, p0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl$8;->b:Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;
 
-    iget-object v0, v0, Lkik/android/chat/presentation/MediaTrayPresenterImpl;->_contentFrame:Landroid/widget/FrameLayout;
+    iget-object v0, v0, Lkik/arcane/chat/presentation/MediaTrayPresenterImpl;->_contentFrame:Landroid/widget/FrameLayout;
 
     invoke-virtual {v0}, Landroid/widget/FrameLayout;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
 

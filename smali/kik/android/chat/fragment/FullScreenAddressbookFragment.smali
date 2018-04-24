@@ -1,12 +1,12 @@
-.class public Lkik/android/chat/fragment/FullScreenAddressbookFragment;
-.super Lkik/android/chat/fragment/AddressbookFragmentBase;
+.class public Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;
+.super Lkik/arcane/chat/fragment/AddressbookFragmentBase;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;
+        Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;
     }
 .end annotation
 
@@ -18,7 +18,7 @@
     .end annotation
 .end field
 
-.field protected _abmPhoneNumberField:Lkik/android/chat/view/ValidateableInputView;
+.field protected _abmPhoneNumberField:Lkik/arcane/chat/view/ValidateableInputView;
     .annotation build Lbutterknife/BindView;
         value = 0x7f1001d8
     .end annotation
@@ -41,11 +41,11 @@
     .end annotation
 .end field
 
-.field private final b:Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;
+.field private final b:Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;
 
 .field private c:Ljava/lang/String;
 
-.field private d:Lkik/android/util/bd;
+.field private d:Lkik/arcane/util/bd;
 
 
 # direct methods
@@ -54,21 +54,21 @@
 
     .prologue
     .line 38
-    invoke-direct {p0}, Lkik/android/chat/fragment/AddressbookFragmentBase;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/AddressbookFragmentBase;-><init>()V
 
     .line 53
-    new-instance v0, Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;-><init>()V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;
 
     .line 56
-    new-instance v0, Lkik/android/chat/fragment/FullScreenAddressbookFragment$1;
+    new-instance v0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$1;
 
-    invoke-direct {v0, p0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment$1;-><init>(Lkik/android/chat/fragment/FullScreenAddressbookFragment;)V
+    invoke-direct {v0, p0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$1;-><init>(Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;)V
 
-    iput-object v0, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->d:Lkik/android/util/bd;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->d:Lkik/arcane/util/bd;
 
     return-void
 .end method
@@ -78,7 +78,7 @@
 
     .prologue
     .line 186
-    iget-object v0, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->k:Lkik/core/interfaces/b;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->k:Lkik/core/interfaces/b;
 
     const-string v1, "abm_reminders"
 
@@ -98,35 +98,35 @@
     const/4 v2, 0x0
 
     .line 234
-    iget-object v0, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->l:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->l:Lcom/kik/arcane/Mixpanel;
 
     const-string v3, "ABM Opt In Shown"
 
-    invoke-virtual {v0, v3}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v3}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v3
 
     .line 235
     const-string v0, "Source"
 
-    iget-object v4, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;
+    iget-object v4, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;
 
-    invoke-virtual {v4}, Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;->j_()Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-static {v4}, Lkik/android/util/c;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v4}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;->j_()Ljava/lang/String;
 
     move-result-object v4
 
-    invoke-virtual {v3, v0, v4}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-static {v4}, Lkik/arcane/util/c;->a(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-virtual {v3, v0, v4}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     .line 237
     const-string v0, "reminder"
 
-    iget-object v4, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;
+    iget-object v4, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;
 
-    invoke-virtual {v4}, Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;->j_()Ljava/lang/String;
+    invoke-virtual {v4}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;->j_()Ljava/lang/String;
 
     move-result-object v4
 
@@ -139,36 +139,36 @@
     .line 238
     const-string v0, "Reminder Variant"
 
-    invoke-direct {p0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->a()Ljava/lang/String;
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->a()Ljava/lang/String;
 
     move-result-object v4
 
-    invoke-static {v4}, Lkik/android/util/b;->a(Ljava/lang/String;)I
+    invoke-static {v4}, Lkik/arcane/util/b;->a(Ljava/lang/String;)I
 
     move-result v4
 
     int-to-long v4, v4
 
-    invoke-virtual {v3, v0, v4, v5}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v3, v0, v4, v5}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     .line 239
     const-string v0, "Day"
 
-    iget-object v4, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->_storage:Lkik/core/interfaces/ad;
+    iget-object v4, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->_storage:Lkik/core/interfaces/ad;
 
-    invoke-static {v4}, Lkik/android/util/b;->a(Lkik/core/interfaces/ad;)I
+    invoke-static {v4}, Lkik/arcane/util/b;->a(Lkik/core/interfaces/ad;)I
 
     move-result v4
 
     int-to-long v4, v4
 
-    invoke-virtual {v3, v0, v4, v5}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v3, v0, v4, v5}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     .line 242
     :cond_0
     const-string v4, "Already Has Phone Number"
 
-    invoke-static {p1}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {p1}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -177,12 +177,12 @@
     move v0, v1
 
     :goto_0
-    invoke-virtual {v3, v4, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v3, v4, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     .line 243
     const-string v0, "OS Detected Phone Number"
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->k()Ljava/lang/Boolean;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->k()Ljava/lang/Boolean;
 
     move-result-object v4
 
@@ -192,7 +192,7 @@
 
     if-eqz v4, :cond_2
 
-    iget-object v4, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->a:Lkik/core/interfaces/IAddressBookIntegration;
+    iget-object v4, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->a:Lkik/core/interfaces/IAddressBookIntegration;
 
     invoke-interface {v4}, Lkik/core/interfaces/IAddressBookIntegration;->k()Z
 
@@ -201,14 +201,14 @@
     if-nez v4, :cond_2
 
     :goto_1
-    invoke-virtual {v3, v0, v1}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v3, v0, v1}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     .line 244
-    invoke-virtual {v3}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v3}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 245
     return-void
@@ -226,36 +226,36 @@
     goto :goto_1
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/FullScreenAddressbookFragment;)V
+.method static synthetic a(Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;)V
     .locals 2
 
     .prologue
     .line 254
-    iget-object v0, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->_abmPhoneNumberField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->_abmPhoneNumberField:Lkik/arcane/chat/view/ValidateableInputView;
 
     const/4 v1, 0x1
 
-    invoke-virtual {v0, p0, v1}, Lkik/android/chat/view/ValidateableInputView;->a(Lkik/android/util/KeyboardManipulator;Z)V
+    invoke-virtual {v0, p0, v1}, Lkik/arcane/chat/view/ValidateableInputView;->a(Lkik/arcane/util/KeyboardManipulator;Z)V
 
     return-void
 .end method
 
-.method static synthetic a(Lkik/android/chat/fragment/FullScreenAddressbookFragment;Ljava/lang/String;)V
+.method static synthetic a(Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;Ljava/lang/String;)V
     .locals 0
 
     .prologue
     .line 38
-    invoke-direct {p0, p1}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->a(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->a(Ljava/lang/String;)V
 
     return-void
 .end method
 
-.method static synthetic b(Lkik/android/chat/fragment/FullScreenAddressbookFragment;)Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;
+.method static synthetic b(Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;)Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;
     .locals 1
 
     .prologue
     .line 38
-    iget-object v0, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;
 
     return-object v0
 .end method
@@ -265,31 +265,31 @@
 
     .prologue
     .line 191
-    iget-object v0, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->_abmPhoneNumberField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->_abmPhoneNumberField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/ValidateableInputView;->getContext()Landroid/content/Context;
-
-    move-result-object v0
-
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->a(Landroid/content/Context;)Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog;
+    invoke-virtual {v0}, Lkik/arcane/chat/view/ValidateableInputView;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/addressbook/AddressBookOptOutPrivacyOptionsDialog;->f()Lkik/android/chat/fragment/KikDialogFragment;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->a(Landroid/content/Context;)Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lkik/arcane/addressbook/AddressBookOptOutPrivacyOptionsDialog;->f()Lkik/arcane/chat/fragment/KikDialogFragment;
 
     move-result-object v0
 
     .line 193
-    invoke-virtual {p0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->l()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->l()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
     .line 195
     const-string v2, "reminder"
 
-    iget-object v3, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;
+    iget-object v3, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;
 
-    invoke-virtual {v3}, Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;->j_()Ljava/lang/String;
+    invoke-virtual {v3}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;->j_()Ljava/lang/String;
 
     move-result-object v3
 
@@ -302,55 +302,55 @@
     .line 196
     const-string v2, "Reminder Variant"
 
-    invoke-direct {p0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->a()Ljava/lang/String;
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->a()Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-static {v3}, Lkik/android/util/b;->a(Ljava/lang/String;)I
+    invoke-static {v3}, Lkik/arcane/util/b;->a(Ljava/lang/String;)I
 
     move-result v3
 
     int-to-long v4, v3
 
-    invoke-virtual {v1, v2, v4, v5}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v4, v5}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     .line 197
     const-string v2, "Day"
 
-    iget-object v3, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->_storage:Lkik/core/interfaces/ad;
+    iget-object v3, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->_storage:Lkik/core/interfaces/ad;
 
-    invoke-static {v3}, Lkik/android/util/b;->a(Lkik/core/interfaces/ad;)I
+    invoke-static {v3}, Lkik/arcane/util/b;->a(Lkik/core/interfaces/ad;)I
 
     move-result v3
 
     int-to-long v4, v3
 
-    invoke-virtual {v1, v2, v4, v5}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v4, v5}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     .line 200
     :cond_0
-    invoke-virtual {v1}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v1}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 202
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 203
     return-void
 .end method
 
-.method static synthetic c(Lkik/android/chat/fragment/FullScreenAddressbookFragment;)V
+.method static synthetic c(Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;)V
     .locals 4
 
     .prologue
     .line 38
     .line 3207
-    iget-object v0, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;->j_()Ljava/lang/String;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;->j_()Ljava/lang/String;
 
     move-result-object v0
 
@@ -364,7 +364,7 @@
     if-eqz v1, :cond_0
 
     .line 3209
-    iget-object v1, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->_storage:Lkik/core/interfaces/ad;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->_storage:Lkik/core/interfaces/ad;
 
     const-string v2, "kik.abm_reminder_seen"
 
@@ -396,82 +396,82 @@
 
     .line 3212
     :cond_1
-    new-instance v0, Lkik/android/chat/fragment/KikConversationsFragment$a;
+    new-instance v0, Lkik/arcane/chat/fragment/KikConversationsFragment$a;
 
-    invoke-direct {v0}, Lkik/android/chat/fragment/KikConversationsFragment$a;-><init>()V
+    invoke-direct {v0}, Lkik/arcane/chat/fragment/KikConversationsFragment$a;-><init>()V
 
     .line 3720
     const-string v1, "registration"
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/KikConversationsFragment$a;->c(Ljava/lang/String;)Lkik/android/chat/fragment/KikConversationsFragment$a;
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/KikConversationsFragment$a;->c(Ljava/lang/String;)Lkik/arcane/chat/fragment/KikConversationsFragment$a;
 
     move-result-object v0
 
     .line 3212
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->startFragmentForResult(Lkik/android/util/ae;)Lcom/kik/events/Promise;
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->startFragmentForResult(Lkik/arcane/util/ae;)Lcom/kik/events/Promise;
 
     .line 3214
     :cond_2
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->replaceDialog(Lkik/android/chat/fragment/KikDialogFragment;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->replaceDialog(Lkik/arcane/chat/fragment/KikDialogFragment;)V
 
     .line 3216
-    invoke-virtual {p0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->finish()V
 
     .line 38
     return-void
 .end method
 
-.method static synthetic d(Lkik/android/chat/fragment/FullScreenAddressbookFragment;)V
+.method static synthetic d(Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;)V
     .locals 3
 
     .prologue
     .line 38
     .line 4226
-    iget-object v0, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->l:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->l:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "ABM Opt Out Cancelled"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Source"
 
-    iget-object v2, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;
 
     .line 4227
-    invoke-virtual {v2}, Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;->j_()Ljava/lang/String;
+    invoke-virtual {v2}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;->j_()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-static {v2}, Lkik/android/util/c;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Lkik/arcane/util/c;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 4228
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 4229
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 38
     return-void
 .end method
 
-.method static synthetic e(Lkik/android/chat/fragment/FullScreenAddressbookFragment;)Ljava/lang/String;
+.method static synthetic e(Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;)Ljava/lang/String;
     .locals 1
 
     .prologue
     .line 38
-    iget-object v0, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->c:Ljava/lang/String;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->c:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -488,12 +488,12 @@
     return v0
 .end method
 
-.method protected final h()Lkik/android/util/bd;
+.method protected final h()Lkik/arcane/util/bd;
     .locals 1
 
     .prologue
     .line 139
-    iget-object v0, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->d:Lkik/android/util/bd;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->d:Lkik/arcane/util/bd;
 
     return-object v0
 .end method
@@ -503,9 +503,9 @@
 
     .prologue
     .line 260
-    iget-object v0, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;
 
-    invoke-virtual {v0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;->j_()Ljava/lang/String;
+    invoke-virtual {v0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;->j_()Ljava/lang/String;
 
     move-result-object v0
 
@@ -536,7 +536,7 @@
 
     .line 263
     :cond_0
-    invoke-direct {p0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->b()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->b()V
 
     .line 268
     :goto_0
@@ -546,7 +546,7 @@
 
     .line 266
     :cond_1
-    invoke-virtual {p0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->finish()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->finish()V
 
     goto :goto_0
 .end method
@@ -556,9 +556,9 @@
 
     .prologue
     .line 123
-    iget-object v0, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->_abmPhoneNumberField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->_abmPhoneNumberField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
+    invoke-virtual {v0}, Lkik/arcane/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
 
     move-result-object v0
 
@@ -574,21 +574,21 @@
 
     .prologue
     .line 99
-    invoke-super {p0}, Lkik/android/chat/fragment/AddressbookFragmentBase;->j()V
+    invoke-super {p0}, Lkik/arcane/chat/fragment/AddressbookFragmentBase;->j()V
 
     .line 100
-    iget-object v0, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->l:Lcom/kik/android/Mixpanel;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->l:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "ABM Opt In Confirmed"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
     .line 101
-    iget-object v0, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->_abmPhoneNumberField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->_abmPhoneNumberField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
+    invoke-virtual {v0}, Lkik/arcane/chat/view/ValidateableInputView;->f()Landroid/text/Editable;
 
     move-result-object v0
 
@@ -596,7 +596,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v0}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -608,29 +608,29 @@
     :goto_0
     const-string v2, "Source"
 
-    iget-object v3, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;
+    iget-object v3, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;
 
-    invoke-virtual {v3}, Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;->j_()Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-static {v3}, Lkik/android/util/c;->a(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v3}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;->j_()Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-virtual {v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-static {v3}, Lkik/arcane/util/c;->a(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     .line 103
     const-string v2, "Number Manually Set"
 
-    invoke-virtual {v1, v2, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Z)Lcom/kik/arcane/Mixpanel$d;
 
     .line 105
     const-string v0, "reminder"
 
-    iget-object v2, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;
 
-    invoke-virtual {v2}, Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;->j_()Ljava/lang/String;
+    invoke-virtual {v2}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;->j_()Ljava/lang/String;
 
     move-result-object v2
 
@@ -643,41 +643,41 @@
     .line 106
     const-string v0, "Reminder Variant"
 
-    invoke-direct {p0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->a()Ljava/lang/String;
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->a()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-static {v2}, Lkik/android/util/b;->a(Ljava/lang/String;)I
+    invoke-static {v2}, Lkik/arcane/util/b;->a(Ljava/lang/String;)I
 
     move-result v2
 
     int-to-long v2, v2
 
-    invoke-virtual {v1, v0, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v0, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     .line 107
     const-string v0, "Day"
 
-    iget-object v2, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->_storage:Lkik/core/interfaces/ad;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->_storage:Lkik/core/interfaces/ad;
 
-    invoke-static {v2}, Lkik/android/util/b;->a(Lkik/core/interfaces/ad;)I
+    invoke-static {v2}, Lkik/arcane/util/b;->a(Lkik/core/interfaces/ad;)I
 
     move-result v2
 
     int-to-long v2, v2
 
-    invoke-virtual {v1, v0, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v0, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     .line 109
     :cond_0
-    invoke-virtual {v1}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 111
-    invoke-virtual {p0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
@@ -685,13 +685,13 @@
 
     const-wide/16 v2, 0x3e8
 
-    invoke-virtual {p0, v0, v1, v2, v3}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->showTimedProgressDialog(Landroid/content/Context;IJ)Lcom/kik/events/Promise;
+    invoke-virtual {p0, v0, v1, v2, v3}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->showTimedProgressDialog(Landroid/content/Context;IJ)Lcom/kik/events/Promise;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/chat/fragment/FullScreenAddressbookFragment$2;
+    new-instance v1, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$2;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment$2;-><init>(Lkik/android/chat/fragment/FullScreenAddressbookFragment;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$2;-><init>(Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;)V
 
     invoke-virtual {v0, v1}, Lcom/kik/events/Promise;->a(Lcom/kik/events/k;)Lcom/kik/events/k;
 
@@ -710,32 +710,32 @@
 
     .prologue
     .line 145
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/AddressbookFragmentBase;->onCreate(Landroid/os/Bundle;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/AddressbookFragmentBase;->onCreate(Landroid/os/Bundle;)V
 
     .line 146
-    invoke-virtual {p0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->getCoreComponent()Lcom/kik/components/CoreComponent;
 
     move-result-object v0
 
-    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/chat/fragment/FullScreenAddressbookFragment;)V
+    invoke-interface {v0, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;)V
 
     .line 147
-    iget-object v0, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->a:Lkik/core/interfaces/IAddressBookIntegration;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->a:Lkik/core/interfaces/IAddressBookIntegration;
 
     invoke-interface {v0}, Lkik/core/interfaces/IAddressBookIntegration;->j()Ljava/lang/String;
 
     move-result-object v0
 
-    iput-object v0, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->c:Ljava/lang/String;
+    iput-object v0, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->c:Ljava/lang/String;
 
     .line 148
-    iget-object v0, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;
 
-    invoke-virtual {p0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->getArguments()Landroid/os/Bundle;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->getArguments()Landroid/os/Bundle;
 
     move-result-object v1
 
-    invoke-virtual {v0, v1}, Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;->a(Landroid/os/Bundle;)V
+    invoke-virtual {v0, v1}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;->a(Landroid/os/Bundle;)V
 
     .line 149
     return-void
@@ -750,10 +750,10 @@
     const/4 v3, 0x1
 
     .line 155
-    invoke-virtual {p0, v3}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->setScreenOrientation(I)V
+    invoke-virtual {p0, v3}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->setScreenOrientation(I)V
 
     .line 157
-    invoke-super {p0, p1, p2, p3}, Lkik/android/chat/fragment/AddressbookFragmentBase;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Lkik/arcane/chat/fragment/AddressbookFragmentBase;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 
     move-result-object v0
 
@@ -761,16 +761,16 @@
     invoke-static {p0, v0}, Lbutterknife/ButterKnife;->bind(Ljava/lang/Object;Landroid/view/View;)Lbutterknife/Unbinder;
 
     .line 160
-    iget-object v1, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->c:Ljava/lang/String;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->c:Ljava/lang/String;
 
-    invoke-direct {p0, v1}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->a(Ljava/lang/String;)V
+    invoke-direct {p0, v1}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->a(Ljava/lang/String;)V
 
     .line 161
     const-string v1, "registration"
 
-    iget-object v2, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->b:Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;
 
-    invoke-virtual {v2}, Lkik/android/chat/fragment/FullScreenAddressbookFragment$a;->j_()Ljava/lang/String;
+    invoke-virtual {v2}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment$a;->j_()Ljava/lang/String;
 
     move-result-object v2
 
@@ -779,9 +779,9 @@
     move-result v1
 
     .line 163
-    iget-object v2, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->c:Ljava/lang/String;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->c:Ljava/lang/String;
 
-    invoke-static {v2}, Lkik/android/util/br;->d(Ljava/lang/String;)Z
+    invoke-static {v2}, Lkik/arcane/util/br;->d(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -789,7 +789,7 @@
 
     if-nez v1, :cond_1
 
-    iget-object v1, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->a:Lkik/core/interfaces/IAddressBookIntegration;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->a:Lkik/core/interfaces/IAddressBookIntegration;
 
     invoke-interface {v1}, Lkik/core/interfaces/IAddressBookIntegration;->k()Z
 
@@ -801,49 +801,49 @@
     :cond_0
     new-array v1, v3, [Landroid/view/View;
 
-    iget-object v2, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->_abmPhoneNumberField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->_abmPhoneNumberField:Lkik/arcane/chat/view/ValidateableInputView;
 
     aput-object v2, v1, v4
 
-    invoke-static {v1}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v1}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 2250
     new-array v1, v3, [Landroid/view/View;
 
-    iget-object v2, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->_bigDevicePhoneNumberImage:Landroid/view/View;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->_bigDevicePhoneNumberImage:Landroid/view/View;
 
     aput-object v2, v1, v4
 
-    invoke-static {v1}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v1}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     .line 2251
     new-array v1, v3, [Landroid/view/View;
 
-    iget-object v2, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->_abmImage:Landroid/widget/ImageView;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->_abmImage:Landroid/widget/ImageView;
 
     aput-object v2, v1, v4
 
-    invoke-static {v1}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v1}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     .line 2253
-    iget-object v1, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->_abmPhoneNumberField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->_abmPhoneNumberField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    iget-object v2, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->a:Lkik/core/interfaces/IAddressBookIntegration;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->a:Lkik/core/interfaces/IAddressBookIntegration;
 
     invoke-interface {v2}, Lkik/core/interfaces/IAddressBookIntegration;->j()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/view/ValidateableInputView;->e(Ljava/lang/CharSequence;)V
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/view/ValidateableInputView;->e(Ljava/lang/CharSequence;)V
 
     .line 2254
-    iget-object v1, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->_abmPhoneNumberField:Lkik/android/chat/view/ValidateableInputView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->_abmPhoneNumberField:Lkik/arcane/chat/view/ValidateableInputView;
 
-    invoke-static {p0}, Lkik/android/chat/fragment/p;->a(Lkik/android/chat/fragment/FullScreenAddressbookFragment;)Ljava/lang/Runnable;
+    invoke-static {p0}, Lkik/arcane/chat/fragment/p;->a(Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;)Ljava/lang/Runnable;
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Lkik/android/chat/view/ValidateableInputView;->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v1, v2}, Lkik/arcane/chat/view/ValidateableInputView;->post(Ljava/lang/Runnable;)Z
 
     .line 167
     :cond_1
@@ -860,7 +860,7 @@
 
     .prologue
     .line 181
-    invoke-direct {p0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->b()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->b()V
 
     .line 182
     return-void
@@ -892,7 +892,7 @@
 
     .prologue
     .line 130
-    iget-object v0, p0, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->a:Lkik/core/interfaces/IAddressBookIntegration;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->a:Lkik/core/interfaces/IAddressBookIntegration;
 
     invoke-interface {v0}, Lkik/core/interfaces/IAddressBookIntegration;->f()Lkik/core/interfaces/IAddressBookIntegration$UploadInfoPermissionState;
 
@@ -903,11 +903,11 @@
     if-ne v0, v1, :cond_0
 
     .line 131
-    invoke-virtual {p0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->getContext()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->b(Landroid/content/Context;)V
+    invoke-virtual {p0, v0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->b(Landroid/content/Context;)V
 
     .line 135
     :goto_0
@@ -915,7 +915,7 @@
 
     .line 134
     :cond_0
-    invoke-virtual {p0}, Lkik/android/chat/fragment/FullScreenAddressbookFragment;->j()V
+    invoke-virtual {p0}, Lkik/arcane/chat/fragment/FullScreenAddressbookFragment;->j()V
 
     goto :goto_0
 .end method

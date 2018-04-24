@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/view/AddressBookMatchingMatchesBarViewImpl_ViewBinding$1;
+.class final Lkik/arcane/chat/view/AddressBookMatchingMatchesBarViewImpl_ViewBinding$1;
 .super Lbutterknife/internal/DebouncingOnClickListener;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/view/AddressBookMatchingMatchesBarViewImpl_ViewBinding;-><init>(Lkik/android/chat/view/AddressBookMatchingMatchesBarViewImpl;Landroid/view/View;)V
+    value = Lkik/arcane/chat/view/AddressBookMatchingMatchesBarViewImpl_ViewBinding;-><init>(Lkik/arcane/chat/view/AddressBookMatchingMatchesBarViewImpl;Landroid/view/View;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,20 +15,20 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/view/AddressBookMatchingMatchesBarViewImpl;
+.field final synthetic a:Lkik/arcane/chat/view/AddressBookMatchingMatchesBarViewImpl;
 
-.field final synthetic b:Lkik/android/chat/view/AddressBookMatchingMatchesBarViewImpl_ViewBinding;
+.field final synthetic b:Lkik/arcane/chat/view/AddressBookMatchingMatchesBarViewImpl_ViewBinding;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/view/AddressBookMatchingMatchesBarViewImpl_ViewBinding;Lkik/android/chat/view/AddressBookMatchingMatchesBarViewImpl;)V
+.method constructor <init>(Lkik/arcane/chat/view/AddressBookMatchingMatchesBarViewImpl_ViewBinding;Lkik/arcane/chat/view/AddressBookMatchingMatchesBarViewImpl;)V
     .locals 0
 
     .prologue
     .line 43
-    iput-object p1, p0, Lkik/android/chat/view/AddressBookMatchingMatchesBarViewImpl_ViewBinding$1;->b:Lkik/android/chat/view/AddressBookMatchingMatchesBarViewImpl_ViewBinding;
+    iput-object p1, p0, Lkik/arcane/chat/view/AddressBookMatchingMatchesBarViewImpl_ViewBinding$1;->b:Lkik/arcane/chat/view/AddressBookMatchingMatchesBarViewImpl_ViewBinding;
 
-    iput-object p2, p0, Lkik/android/chat/view/AddressBookMatchingMatchesBarViewImpl_ViewBinding$1;->a:Lkik/android/chat/view/AddressBookMatchingMatchesBarViewImpl;
+    iput-object p2, p0, Lkik/arcane/chat/view/AddressBookMatchingMatchesBarViewImpl_ViewBinding$1;->a:Lkik/arcane/chat/view/AddressBookMatchingMatchesBarViewImpl;
 
     invoke-direct {p0}, Lbutterknife/internal/DebouncingOnClickListener;-><init>()V
 
@@ -42,9 +42,9 @@
 
     .prologue
     .line 46
-    iget-object v0, p0, Lkik/android/chat/view/AddressBookMatchingMatchesBarViewImpl_ViewBinding$1;->a:Lkik/android/chat/view/AddressBookMatchingMatchesBarViewImpl;
+    iget-object v0, p0, Lkik/arcane/chat/view/AddressBookMatchingMatchesBarViewImpl_ViewBinding$1;->a:Lkik/arcane/chat/view/AddressBookMatchingMatchesBarViewImpl;
 
-    invoke-virtual {v0}, Lkik/android/chat/view/AddressBookMatchingMatchesBarViewImpl;->onMatchesBarClicked()V
+    invoke-virtual {v0}, Lkik/arcane/chat/view/AddressBookMatchingMatchesBarViewImpl;->onMatchesBarClicked()V
 
     .line 47
     return-void

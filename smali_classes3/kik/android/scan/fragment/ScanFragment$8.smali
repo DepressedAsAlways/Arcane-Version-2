@@ -1,11 +1,11 @@
-.class final Lkik/android/scan/fragment/ScanFragment$8;
+.class final Lkik/arcane/scan/fragment/ScanFragment$8;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/scan/fragment/ScanFragment;->a(Lcom/kik/events/Promise;)Lcom/kik/events/Promise;
+    value = Lkik/arcane/scan/fragment/ScanFragment;->a(Lcom/kik/events/Promise;)Lcom/kik/events/Promise;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,18 +24,18 @@
 # instance fields
 .field final synthetic a:Lcom/kik/events/Promise;
 
-.field final synthetic b:Lkik/android/scan/fragment/ScanFragment;
+.field final synthetic b:Lkik/arcane/scan/fragment/ScanFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/scan/fragment/ScanFragment;Lcom/kik/events/Promise;)V
+.method constructor <init>(Lkik/arcane/scan/fragment/ScanFragment;Lcom/kik/events/Promise;)V
     .locals 0
 
     .prologue
     .line 992
-    iput-object p1, p0, Lkik/android/scan/fragment/ScanFragment$8;->b:Lkik/android/scan/fragment/ScanFragment;
+    iput-object p1, p0, Lkik/arcane/scan/fragment/ScanFragment$8;->b:Lkik/arcane/scan/fragment/ScanFragment;
 
-    iput-object p2, p0, Lkik/android/scan/fragment/ScanFragment$8;->a:Lcom/kik/events/Promise;
+    iput-object p2, p0, Lkik/arcane/scan/fragment/ScanFragment$8;->a:Lcom/kik/events/Promise;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -49,9 +49,9 @@
 
     .prologue
     .line 996
-    iget-object v0, p0, Lkik/android/scan/fragment/ScanFragment$8;->b:Lkik/android/scan/fragment/ScanFragment;
+    iget-object v0, p0, Lkik/arcane/scan/fragment/ScanFragment$8;->b:Lkik/arcane/scan/fragment/ScanFragment;
 
-    invoke-static {v0}, Lkik/android/scan/fragment/ScanFragment;->o(Lkik/android/scan/fragment/ScanFragment;)Ljava/util/List;
+    invoke-static {v0}, Lkik/arcane/scan/fragment/ScanFragment;->o(Lkik/arcane/scan/fragment/ScanFragment;)Ljava/util/List;
 
     move-result-object v1
 
@@ -59,13 +59,13 @@
 
     .line 997
     :try_start_0
-    iget-object v0, p0, Lkik/android/scan/fragment/ScanFragment$8;->b:Lkik/android/scan/fragment/ScanFragment;
+    iget-object v0, p0, Lkik/arcane/scan/fragment/ScanFragment$8;->b:Lkik/arcane/scan/fragment/ScanFragment;
 
-    invoke-static {v0}, Lkik/android/scan/fragment/ScanFragment;->o(Lkik/android/scan/fragment/ScanFragment;)Ljava/util/List;
+    invoke-static {v0}, Lkik/arcane/scan/fragment/ScanFragment;->o(Lkik/arcane/scan/fragment/ScanFragment;)Ljava/util/List;
 
     move-result-object v0
 
-    iget-object v2, p0, Lkik/android/scan/fragment/ScanFragment$8;->a:Lcom/kik/events/Promise;
+    iget-object v2, p0, Lkik/arcane/scan/fragment/ScanFragment$8;->a:Lcom/kik/events/Promise;
 
     invoke-interface {v0, v2}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 

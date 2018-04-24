@@ -1,14 +1,14 @@
-.class final Lkik/android/chat/vm/chats/publicgroups/r$1;
+.class final Lkik/arcane/chat/vm/chats/publicgroups/r$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/view/aj$a;
+.implements Lkik/arcane/chat/view/aj$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/vm/chats/publicgroups/r;->a(Lkik/android/chat/view/TransitionableSearchBarViewImpl;Lkik/android/chat/vm/chats/publicgroups/i;)V
+    value = Lkik/arcane/chat/vm/chats/publicgroups/r;->a(Lkik/arcane/chat/view/TransitionableSearchBarViewImpl;Lkik/arcane/chat/vm/chats/publicgroups/i;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/vm/chats/publicgroups/i;
+.field final synthetic a:Lkik/arcane/chat/vm/chats/publicgroups/i;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/vm/chats/publicgroups/i;)V
+.method constructor <init>(Lkik/arcane/chat/vm/chats/publicgroups/i;)V
     .locals 0
 
     .prologue
     .line 35
-    iput-object p1, p0, Lkik/android/chat/vm/chats/publicgroups/r$1;->a:Lkik/android/chat/vm/chats/publicgroups/i;
+    iput-object p1, p0, Lkik/arcane/chat/vm/chats/publicgroups/r$1;->a:Lkik/arcane/chat/vm/chats/publicgroups/i;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -49,9 +49,9 @@
 
     .prologue
     .line 44
-    iget-object v0, p0, Lkik/android/chat/vm/chats/publicgroups/r$1;->a:Lkik/android/chat/vm/chats/publicgroups/i;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/publicgroups/r$1;->a:Lkik/arcane/chat/vm/chats/publicgroups/i;
 
-    invoke-interface {v0, p1}, Lkik/android/chat/vm/chats/publicgroups/i;->b(Ljava/lang/String;)V
+    invoke-interface {v0, p1}, Lkik/arcane/chat/vm/chats/publicgroups/i;->b(Ljava/lang/String;)V
 
     .line 45
     return-void
@@ -70,9 +70,9 @@
 
     .prologue
     .line 55
-    iget-object v0, p0, Lkik/android/chat/vm/chats/publicgroups/r$1;->a:Lkik/android/chat/vm/chats/publicgroups/i;
+    iget-object v0, p0, Lkik/arcane/chat/vm/chats/publicgroups/r$1;->a:Lkik/arcane/chat/vm/chats/publicgroups/i;
 
-    invoke-interface {v0}, Lkik/android/chat/vm/chats/publicgroups/i;->e()V
+    invoke-interface {v0}, Lkik/arcane/chat/vm/chats/publicgroups/i;->e()V
 
     .line 56
     return-void

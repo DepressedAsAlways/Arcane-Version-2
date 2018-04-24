@@ -1,9 +1,9 @@
-.class public interface abstract Lkik/android/f/j;
+.class public interface abstract Lkik/arcane/f/j;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/f/i;
+.implements Lkik/arcane/f/i;
 
 
 # virtual methods

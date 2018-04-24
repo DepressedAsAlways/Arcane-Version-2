@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/KikCodeFragment$10;
+.class final Lkik/arcane/chat/fragment/KikCodeFragment$10;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/KikCodeFragment;->g()V
+    value = Lkik/arcane/chat/fragment/KikCodeFragment;->g()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/KikCodeFragment;
+.field final synthetic a:Lkik/arcane/chat/fragment/KikCodeFragment;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikCodeFragment;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikCodeFragment;)V
     .locals 0
 
     .prologue
     .line 790
-    iput-object p1, p0, Lkik/android/chat/fragment/KikCodeFragment$10;->a:Lkik/android/chat/fragment/KikCodeFragment;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikCodeFragment$10;->a:Lkik/arcane/chat/fragment/KikCodeFragment;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -47,35 +47,35 @@
 
     const/4 v1, 0x0
 
-    iget-object v2, p0, Lkik/android/chat/fragment/KikCodeFragment$10;->a:Lkik/android/chat/fragment/KikCodeFragment;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/KikCodeFragment$10;->a:Lkik/arcane/chat/fragment/KikCodeFragment;
 
-    iget-object v2, v2, Lkik/android/chat/fragment/KikCodeFragment;->_retryImage:Landroid/widget/ImageView;
+    iget-object v2, v2, Lkik/arcane/chat/fragment/KikCodeFragment;->_retryImage:Landroid/widget/ImageView;
 
     aput-object v2, v0, v1
 
-    invoke-static {v0}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     .line 796
-    iget-object v0, p0, Lkik/android/chat/fragment/KikCodeFragment$10;->a:Lkik/android/chat/fragment/KikCodeFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikCodeFragment$10;->a:Lkik/arcane/chat/fragment/KikCodeFragment;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/KikCodeFragment;->_codeInfo:Landroid/view/ViewGroup;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/KikCodeFragment;->_codeInfo:Landroid/view/ViewGroup;
 
-    invoke-static {v0}, Lkik/android/util/ca;->c(Landroid/view/View;)Z
+    invoke-static {v0}, Lkik/arcane/util/ca;->c(Landroid/view/View;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 797
-    iget-object v0, p0, Lkik/android/chat/fragment/KikCodeFragment$10;->a:Lkik/android/chat/fragment/KikCodeFragment;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikCodeFragment$10;->a:Lkik/arcane/chat/fragment/KikCodeFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/KikCodeFragment;->m(Lkik/android/chat/fragment/KikCodeFragment;)Landroid/view/View;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/KikCodeFragment;->m(Lkik/arcane/chat/fragment/KikCodeFragment;)Landroid/view/View;
 
     move-result-object v0
 
-    new-instance v1, Lkik/android/chat/fragment/KikCodeFragment$10$1;
+    new-instance v1, Lkik/arcane/chat/fragment/KikCodeFragment$10$1;
 
-    invoke-direct {v1, p0}, Lkik/android/chat/fragment/KikCodeFragment$10$1;-><init>(Lkik/android/chat/fragment/KikCodeFragment$10;)V
+    invoke-direct {v1, p0}, Lkik/arcane/chat/fragment/KikCodeFragment$10$1;-><init>(Lkik/arcane/chat/fragment/KikCodeFragment$10;)V
 
     const-wide/16 v2, 0x12c
 

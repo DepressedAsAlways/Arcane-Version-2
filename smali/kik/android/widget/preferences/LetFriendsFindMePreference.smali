@@ -1,5 +1,5 @@
-.class public Lkik/android/widget/preferences/LetFriendsFindMePreference;
-.super Lkik/android/widget/preferences/KikSwitchPreference;
+.class public Lkik/arcane/widget/preferences/LetFriendsFindMePreference;
+.super Lkik/arcane/widget/preferences/KikSwitchPreference;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
     .end annotation
 .end field
 
-.field protected d:Lcom/kik/android/Mixpanel;
+.field protected d:Lcom/kik/arcane/Mixpanel;
     .annotation runtime Ljavax/inject/Inject;
     .end annotation
 .end field
@@ -23,7 +23,7 @@
     .line 29
     const v0, 0x101036d
 
-    invoke-direct {p0, p1, p2, v0}, Lkik/android/widget/preferences/LetFriendsFindMePreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Lkik/arcane/widget/preferences/LetFriendsFindMePreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 30
     return-void
@@ -36,7 +36,7 @@
     .line 34
     sget-object v0, Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;->IGNORE_NEW_PEOPLE:Lcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;
 
-    invoke-direct {p0, p1, p2, p3, v0}, Lkik/android/widget/preferences/KikSwitchPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
+    invoke-direct {p0, p1, p2, p3, v0}, Lkik/arcane/widget/preferences/KikSwitchPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;ILcom/kik/clientmetrics/model/Clientmetrics$ClientMetricsSettingsUsedType;)V
 
     .line 35
     return-void
@@ -49,7 +49,7 @@
 
     .prologue
     .line 40
-    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/android/widget/preferences/LetFriendsFindMePreference;)V
+    invoke-interface {p1, p0}, Lcom/kik/components/CoreComponent;->a(Lkik/arcane/widget/preferences/LetFriendsFindMePreference;)V
 
     .line 41
     return-void
@@ -60,12 +60,12 @@
 
     .prologue
     .line 45
-    invoke-super {p0, p1}, Lkik/android/widget/preferences/KikSwitchPreference;->onCreateView(Landroid/view/ViewGroup;)Landroid/view/View;
+    invoke-super {p0, p1}, Lkik/arcane/widget/preferences/KikSwitchPreference;->onCreateView(Landroid/view/ViewGroup;)Landroid/view/View;
 
     move-result-object v0
 
     .line 46
-    iget-object v1, p0, Lkik/android/widget/preferences/LetFriendsFindMePreference;->c:Lkik/core/interfaces/IAddressBookIntegration;
+    iget-object v1, p0, Lkik/arcane/widget/preferences/LetFriendsFindMePreference;->c:Lkik/core/interfaces/IAddressBookIntegration;
 
     invoke-interface {v1}, Lkik/core/interfaces/IAddressBookIntegration;->d()Ljava/lang/Boolean;
 
@@ -75,10 +75,10 @@
 
     move-result v1
 
-    invoke-virtual {p0, v1}, Lkik/android/widget/preferences/LetFriendsFindMePreference;->setChecked(Z)V
+    invoke-virtual {p0, v1}, Lkik/arcane/widget/preferences/LetFriendsFindMePreference;->setChecked(Z)V
 
     .line 47
-    iget-object v1, p0, Lkik/android/widget/preferences/LetFriendsFindMePreference;->c:Lkik/core/interfaces/IAddressBookIntegration;
+    iget-object v1, p0, Lkik/arcane/widget/preferences/LetFriendsFindMePreference;->c:Lkik/core/interfaces/IAddressBookIntegration;
 
     invoke-interface {v1}, Lkik/core/interfaces/IAddressBookIntegration;->f()Lkik/core/interfaces/IAddressBookIntegration$UploadInfoPermissionState;
 
@@ -91,7 +91,7 @@
     .line 48
     const/4 v1, 0x1
 
-    invoke-virtual {p0, v1}, Lkik/android/widget/preferences/LetFriendsFindMePreference;->setChecked(Z)V
+    invoke-virtual {p0, v1}, Lkik/arcane/widget/preferences/LetFriendsFindMePreference;->setChecked(Z)V
 
     .line 50
     :cond_0
@@ -115,7 +115,7 @@
     move-result v0
 
     .line 58
-    iget-object v1, p0, Lkik/android/widget/preferences/LetFriendsFindMePreference;->c:Lkik/core/interfaces/IAddressBookIntegration;
+    iget-object v1, p0, Lkik/arcane/widget/preferences/LetFriendsFindMePreference;->c:Lkik/core/interfaces/IAddressBookIntegration;
 
     invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
@@ -129,7 +129,7 @@
     invoke-virtual {p1, v0}, Landroid/preference/TwoStatePreference;->setChecked(Z)V
 
     .line 61
-    iget-object v1, p0, Lkik/android/widget/preferences/LetFriendsFindMePreference;->c:Lkik/core/interfaces/IAddressBookIntegration;
+    iget-object v1, p0, Lkik/arcane/widget/preferences/LetFriendsFindMePreference;->c:Lkik/core/interfaces/IAddressBookIntegration;
 
     const-string v2, "settings"
 
@@ -141,11 +141,11 @@
     move-result-object v0
 
     .line 1072
-    iget-object v1, p0, Lkik/android/widget/preferences/LetFriendsFindMePreference;->d:Lcom/kik/android/Mixpanel;
+    iget-object v1, p0, Lkik/arcane/widget/preferences/LetFriendsFindMePreference;->d:Lcom/kik/arcane/Mixpanel;
 
     const-string v2, "ABM Opt Out Options Changed"
 
-    invoke-virtual {v1, v2}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v1
 
@@ -154,19 +154,19 @@
 
     const-string v3, "Privacy Settings"
 
-    invoke-virtual {v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     .line 1074
     const-string v2, "Enabled"
 
-    invoke-virtual {v1, v2, v0}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1, v2, v0}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;Ljava/lang/Object;)Lcom/kik/arcane/Mixpanel$d;
 
     .line 1075
-    invoke-virtual {v1}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v1}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 66
     :cond_0

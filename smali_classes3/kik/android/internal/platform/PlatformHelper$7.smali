@@ -1,11 +1,11 @@
-.class final Lkik/android/internal/platform/PlatformHelper$7;
+.class final Lkik/arcane/internal/platform/PlatformHelper$7;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/internal/platform/PlatformHelper;
+    value = Lkik/arcane/internal/platform/PlatformHelper;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,18 +26,18 @@
 # instance fields
 .field final synthetic a:Lcom/kik/events/Promise;
 
-.field final synthetic b:Lkik/android/internal/platform/PlatformHelper;
+.field final synthetic b:Lkik/arcane/internal/platform/PlatformHelper;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/internal/platform/PlatformHelper;Lcom/kik/events/Promise;)V
+.method constructor <init>(Lkik/arcane/internal/platform/PlatformHelper;Lcom/kik/events/Promise;)V
     .locals 0
 
     .prologue
     .line 1048
-    iput-object p1, p0, Lkik/android/internal/platform/PlatformHelper$7;->b:Lkik/android/internal/platform/PlatformHelper;
+    iput-object p1, p0, Lkik/arcane/internal/platform/PlatformHelper$7;->b:Lkik/arcane/internal/platform/PlatformHelper;
 
-    iput-object p2, p0, Lkik/android/internal/platform/PlatformHelper$7;->a:Lcom/kik/events/Promise;
+    iput-object p2, p0, Lkik/arcane/internal/platform/PlatformHelper$7;->a:Lcom/kik/events/Promise;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -51,7 +51,7 @@
 
     .prologue
     .line 1058
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper$7;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper$7;->a:Lcom/kik/events/Promise;
 
     const/4 v1, 0x0
 
@@ -66,7 +66,7 @@
 
     .prologue
     .line 1052
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper$7;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper$7;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {v0, p1}, Lcom/kik/events/Promise;->a(Ljava/lang/Object;)V
 
@@ -79,7 +79,7 @@
 
     .prologue
     .line 1064
-    iget-object v0, p0, Lkik/android/internal/platform/PlatformHelper$7;->a:Lcom/kik/events/Promise;
+    iget-object v0, p0, Lkik/arcane/internal/platform/PlatformHelper$7;->a:Lcom/kik/events/Promise;
 
     invoke-virtual {v0, p1}, Lcom/kik/events/Promise;->a(Ljava/lang/Throwable;)V
 

@@ -4,11 +4,11 @@
 
 
 # instance fields
-.field private final a:Lkik/android/util/aj;
+.field private final a:Lkik/arcane/util/aj;
 
 
 # direct methods
-.method public constructor <init>(Lkik/android/util/aj;)V
+.method public constructor <init>(Lkik/arcane/util/aj;)V
     .locals 0
 
     .prologue
@@ -16,7 +16,7 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 17
-    iput-object p1, p0, Lcom/kik/modules/dj;->a:Lkik/android/util/aj;
+    iput-object p1, p0, Lcom/kik/modules/dj;->a:Lkik/arcane/util/aj;
 
     .line 18
     return-void
@@ -24,12 +24,12 @@
 
 
 # virtual methods
-.method public final a()Lkik/android/util/aj;
+.method public final a()Lkik/arcane/util/aj;
     .locals 1
 
     .prologue
     .line 23
-    iget-object v0, p0, Lcom/kik/modules/dj;->a:Lkik/android/util/aj;
+    iget-object v0, p0, Lcom/kik/modules/dj;->a:Lkik/arcane/util/aj;
 
     return-object v0
 .end method

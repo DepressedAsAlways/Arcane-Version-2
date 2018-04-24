@@ -259,7 +259,7 @@
 
     .line 62
     :cond_1
-    invoke-static {}, Lkik/android/util/DeviceUtils;->f()Z
+    invoke-static {}, Lkik/arcane/util/DeviceUtils;->f()Z
 
     move-result v3
 

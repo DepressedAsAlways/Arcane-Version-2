@@ -1,9 +1,9 @@
-.class public abstract Lkik/android/chat/vm/profile/a;
-.super Lkik/android/chat/vm/d;
+.class public abstract Lkik/arcane/chat/vm/profile/a;
+.super Lkik/arcane/chat/vm/d;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/chat/vm/profile/do;
+.implements Lkik/arcane/chat/vm/profile/do;
 
 
 # direct methods
@@ -12,7 +12,7 @@
 
     .prologue
     .line 18
-    invoke-direct {p0}, Lkik/android/chat/vm/d;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/vm/d;-><init>()V
 
     return-void
 .end method
@@ -121,7 +121,7 @@
 
     .prologue
     .line 53
-    invoke-virtual {p0}, Lkik/android/chat/vm/profile/a;->j()Z
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/profile/a;->j()Z
 
     move-result v0
 
@@ -144,14 +144,14 @@
 
     .line 57
     :cond_0
-    invoke-virtual {p0}, Lkik/android/chat/vm/profile/a;->aJ_()Z
+    invoke-virtual {p0}, Lkik/arcane/chat/vm/profile/a;->aJ_()Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
     .line 58
-    iget-object v0, p0, Lkik/android/chat/vm/profile/a;->a:Landroid/content/res/Resources;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/a;->a:Landroid/content/res/Resources;
 
     const v1, 0x7f0e007c
 
@@ -171,7 +171,7 @@
 
     .line 61
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/vm/profile/a;->a:Landroid/content/res/Resources;
+    iget-object v0, p0, Lkik/arcane/chat/vm/profile/a;->a:Landroid/content/res/Resources;
 
     const v1, 0x7f0e00d9
 

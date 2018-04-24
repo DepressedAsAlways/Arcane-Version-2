@@ -1,18 +1,18 @@
-.class public Lkik/android/chat/fragment/KikBasicDialog;
-.super Lkik/android/chat/fragment/KikDialogFragment;
+.class public Lkik/arcane/chat/fragment/KikBasicDialog;
+.super Lkik/arcane/chat/fragment/KikDialogFragment;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/chat/fragment/KikBasicDialog$a;
+        Lkik/arcane/chat/fragment/KikBasicDialog$a;
     }
 .end annotation
 
 
 # instance fields
-.field _body:Lkik/android/widget/RobotoTextView;
+.field _body:Lkik/arcane/widget/RobotoTextView;
     .annotation build Lbutterknife/BindView;
         value = 0x7f1001c0
     .end annotation
@@ -36,7 +36,7 @@
     .end annotation
 .end field
 
-.field _title:Lkik/android/widget/RobotoTextView;
+.field _title:Lkik/arcane/widget/RobotoTextView;
     .annotation build Lbutterknife/BindView;
         value = 0x7f1001bf
     .end annotation
@@ -49,7 +49,7 @@
 
     .prologue
     .line 27
-    invoke-direct {p0}, Lkik/android/chat/fragment/KikDialogFragment;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/fragment/KikDialogFragment;-><init>()V
 
     return-void
 .end method
@@ -70,11 +70,11 @@
     .line 52
     new-array v0, v1, [Landroid/view/View;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/KikBasicDialog;->_dialogImage:Landroid/widget/ImageView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikBasicDialog;->_dialogImage:Landroid/widget/ImageView;
 
     aput-object v1, v0, v2
 
-    invoke-static {v0}, Lkik/android/util/ca;->g([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->g([Landroid/view/View;)V
 
     .line 57
     :cond_0
@@ -83,7 +83,7 @@
 
     .line 54
     :cond_1
-    iget-object v0, p0, Lkik/android/chat/fragment/KikBasicDialog;->_dialogImage:Landroid/widget/ImageView;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikBasicDialog;->_dialogImage:Landroid/widget/ImageView;
 
     invoke-virtual {v0}, Landroid/widget/ImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
@@ -94,11 +94,11 @@
     .line 55
     new-array v0, v1, [Landroid/view/View;
 
-    iget-object v1, p0, Lkik/android/chat/fragment/KikBasicDialog;->_dialogImage:Landroid/widget/ImageView;
+    iget-object v1, p0, Lkik/arcane/chat/fragment/KikBasicDialog;->_dialogImage:Landroid/widget/ImageView;
 
     aput-object v1, v0, v2
 
-    invoke-static {v0}, Lkik/android/util/ca;->d([Landroid/view/View;)V
+    invoke-static {v0}, Lkik/arcane/util/ca;->d([Landroid/view/View;)V
 
     goto :goto_0
 .end method
@@ -110,7 +110,7 @@
 
     .prologue
     .line 38
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikDialogFragment;->a(Landroid/view/View;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikDialogFragment;->a(Landroid/view/View;)V
 
     .line 39
     invoke-static {p0, p1}, Lbutterknife/ButterKnife;->bind(Ljava/lang/Object;Landroid/view/View;)Lbutterknife/Unbinder;
@@ -124,12 +124,12 @@
 
     .prologue
     .line 45
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikDialogFragment;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikDialogFragment;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
     .line 46
     iget v0, p1, Landroid/content/res/Configuration;->orientation:I
 
-    invoke-direct {p0, v0}, Lkik/android/chat/fragment/KikBasicDialog;->c(I)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/fragment/KikBasicDialog;->c(I)V
 
     .line 47
     return-void
@@ -140,7 +140,7 @@
 
     .prologue
     .line 62
-    invoke-static {}, Lkik/android/chat/KikApplication;->m()Z
+    invoke-static {}, Lkik/arcane/chat/KikApplication;->m()Z
 
     move-result v0
 
@@ -149,10 +149,10 @@
     const/4 v0, 0x2
 
     :goto_0
-    invoke-direct {p0, v0}, Lkik/android/chat/fragment/KikBasicDialog;->c(I)V
+    invoke-direct {p0, v0}, Lkik/arcane/chat/fragment/KikBasicDialog;->c(I)V
 
     .line 63
-    invoke-super {p0, p1}, Lkik/android/chat/fragment/KikDialogFragment;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
+    invoke-super {p0, p1}, Lkik/arcane/chat/fragment/KikDialogFragment;->onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;
 
     move-result-object v0
 

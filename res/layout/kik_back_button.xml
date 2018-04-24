@@ -4,5 +4,5 @@
     <FrameLayout android:id="@id/back_button" android:background="?selectableItemBackgroundBorderless" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="16.0dip">
         <ImageView android:layout_gravity="center_vertical" android:id="@id/back_button_image" android:duplicateParentState="true" android:layout_width="@dimen/material_navbar_button_width" android:layout_height="@dimen/material_navbar_button_height" android:src="@drawable/ic_back" android:scaleType="center" />
     </FrameLayout>
-    <kik.android.widget.RobotoTextView android:ellipsize="end" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/title_view" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" style="@style/KikTextView.Toolbar.Title" />
+    <kik.arcane.widget.RobotoTextView android:ellipsize="end" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/title_view" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" style="@style/KikTextView.Toolbar.Title" />
 </LinearLayout>

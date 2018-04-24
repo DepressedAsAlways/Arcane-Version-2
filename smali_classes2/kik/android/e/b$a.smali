@@ -1,14 +1,14 @@
-.class public final Lkik/android/e/b$a;
+.class public final Lkik/arcane/e/b$a;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
 # interfaces
-.implements Lkik/android/widget/AutoScrollingRecyclerView$a;
+.implements Lkik/arcane/widget/AutoScrollingRecyclerView$a;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/e/b;
+    value = Lkik/arcane/e/b;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field private a:Lkik/android/chat/vm/messaging/dm;
+.field private a:Lkik/arcane/chat/vm/messaging/dm;
 
 
 # direct methods
@@ -34,12 +34,12 @@
 
 
 # virtual methods
-.method public final a(Lkik/android/chat/vm/messaging/dm;)Lkik/android/e/b$a;
+.method public final a(Lkik/arcane/chat/vm/messaging/dm;)Lkik/arcane/e/b$a;
     .locals 0
 
     .prologue
     .line 398
-    iput-object p1, p0, Lkik/android/e/b$a;->a:Lkik/android/chat/vm/messaging/dm;
+    iput-object p1, p0, Lkik/arcane/e/b$a;->a:Lkik/arcane/chat/vm/messaging/dm;
 
     .line 399
     if-nez p1, :cond_0
@@ -58,13 +58,13 @@
     check-cast p1, Ljava/lang/Boolean;
 
     .line 1403
-    iget-object v0, p0, Lkik/android/e/b$a;->a:Lkik/android/chat/vm/messaging/dm;
+    iget-object v0, p0, Lkik/arcane/e/b$a;->a:Lkik/arcane/chat/vm/messaging/dm;
 
     invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v1
 
-    invoke-interface {v0, v1}, Lkik/android/chat/vm/messaging/dm;->a(Z)V
+    invoke-interface {v0, v1}, Lkik/arcane/chat/vm/messaging/dm;->a(Z)V
 
     .line 395
     return-void

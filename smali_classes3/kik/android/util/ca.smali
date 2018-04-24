@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/ca;
+.class public final Lkik/arcane/util/ca;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,10 +6,10 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lkik/android/util/ca$a;,
-        Lkik/android/util/ca$c;,
-        Lkik/android/util/ca$d;,
-        Lkik/android/util/ca$b;
+        Lkik/arcane/util/ca$a;,
+        Lkik/arcane/util/ca$c;,
+        Lkik/arcane/util/ca$d;,
+        Lkik/arcane/util/ca$b;
     }
 .end annotation
 
@@ -26,7 +26,7 @@
     .line 50
     const-string v0, "http://cdn.kik.com/cards/unsupported.html"
 
-    sput-object v0, Lkik/android/util/ca;->a:Ljava/lang/String;
+    sput-object v0, Lkik/arcane/util/ca;->a:Ljava/lang/String;
 
     return-void
 .end method
@@ -127,7 +127,7 @@
     move-result-object v0
 
     .line 818
-    invoke-static {p0, p2}, Lkik/android/util/ca;->a(Landroid/view/View;Landroid/animation/ValueAnimator$AnimatorUpdateListener;)Landroid/animation/ValueAnimator$AnimatorUpdateListener;
+    invoke-static {p0, p2}, Lkik/arcane/util/ca;->a(Landroid/view/View;Landroid/animation/ValueAnimator$AnimatorUpdateListener;)Landroid/animation/ValueAnimator$AnimatorUpdateListener;
 
     move-result-object v1
 
@@ -161,7 +161,7 @@
     check-cast v0, Landroid/view/ViewGroup$MarginLayoutParams;
 
     .line 884
-    invoke-static {v0, p0, p1}, Lkik/android/util/cc;->a(Landroid/view/ViewGroup$MarginLayoutParams;Landroid/view/View;Landroid/animation/ValueAnimator$AnimatorUpdateListener;)Landroid/animation/ValueAnimator$AnimatorUpdateListener;
+    invoke-static {v0, p0, p1}, Lkik/arcane/util/cc;->a(Landroid/view/ViewGroup$MarginLayoutParams;Landroid/view/View;Landroid/animation/ValueAnimator$AnimatorUpdateListener;)Landroid/animation/ValueAnimator$AnimatorUpdateListener;
 
     move-result-object v0
 
@@ -175,7 +175,7 @@
     const/4 v0, 0x0
 
     .line 854
-    invoke-static {p0, p1, v0, v0}, Lkik/android/util/ca;->a(Landroid/view/View;ILandroid/animation/ValueAnimator$AnimatorUpdateListener;Landroid/animation/Animator$AnimatorListener;)Landroid/animation/ValueAnimator;
+    invoke-static {p0, p1, v0, v0}, Lkik/arcane/util/ca;->a(Landroid/view/View;ILandroid/animation/ValueAnimator$AnimatorUpdateListener;Landroid/animation/Animator$AnimatorListener;)Landroid/animation/ValueAnimator;
 
     move-result-object v0
 
@@ -219,7 +219,7 @@
     move-result-object v0
 
     .line 864
-    invoke-static {p0, p2}, Lkik/android/util/ca;->a(Landroid/view/View;Landroid/animation/ValueAnimator$AnimatorUpdateListener;)Landroid/animation/ValueAnimator$AnimatorUpdateListener;
+    invoke-static {p0, p2}, Lkik/arcane/util/ca;->a(Landroid/view/View;Landroid/animation/ValueAnimator$AnimatorUpdateListener;)Landroid/animation/ValueAnimator$AnimatorUpdateListener;
 
     move-result-object v1
 
@@ -294,21 +294,21 @@
     goto :goto_0
 .end method
 
-.method public static a(Landroid/view/View;)Lkik/android/util/ca$b;
+.method public static a(Landroid/view/View;)Lkik/arcane/util/ca$b;
     .locals 2
 
     .prologue
     .line 279
-    new-instance v0, Lkik/android/util/ca$b;
+    new-instance v0, Lkik/arcane/util/ca$b;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p0, v1}, Lkik/android/util/ca$b;-><init>(Landroid/view/View;B)V
+    invoke-direct {v0, p0, v1}, Lkik/arcane/util/ca$b;-><init>(Landroid/view/View;B)V
 
     return-object v0
 .end method
 
-.method public static a(Lkik/core/datatypes/messageExtensions/ContentMessage;Landroid/content/Context;Ljava/lang/String;)Lkik/android/util/ca$c;
+.method public static a(Lkik/core/datatypes/messageExtensions/ContentMessage;Landroid/content/Context;Ljava/lang/String;)Lkik/arcane/util/ca$c;
     .locals 9
 
     .prologue
@@ -443,13 +443,13 @@
 
     if-nez v3, :cond_5
 
-    invoke-static {p1, v0}, Lkik/android/util/DeviceUtils;->a(Landroid/content/Context;Ljava/lang/String;)Z
+    invoke-static {p1, v0}, Lkik/arcane/util/DeviceUtils;->a(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v3
 
     if-eqz v3, :cond_5
 
-    sget-object v3, Lkik/android/util/ca;->a:Ljava/lang/String;
+    sget-object v3, Lkik/arcane/util/ca;->a:Ljava/lang/String;
 
     invoke-virtual {v3, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -561,7 +561,7 @@
 
     new-array v3, v8, [Ljava/lang/Object;
 
-    invoke-static {p0}, Lkik/android/util/p;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;)Ljava/lang/String;
+    invoke-static {p0}, Lkik/arcane/util/p;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -586,7 +586,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/ca;->a(Lkik/core/datatypes/q;)Landroid/graphics/Bitmap;
+    invoke-static {v0}, Lkik/arcane/util/ca;->a(Lkik/core/datatypes/q;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
@@ -606,9 +606,9 @@
 
     .line 419
     :cond_9
-    new-instance v2, Lkik/android/util/ca$c;
+    new-instance v2, Lkik/arcane/util/ca$c;
 
-    invoke-direct {v2, v1, v3, v0, v4}, Lkik/android/util/ca$c;-><init>(Ljava/lang/String;Ljava/lang/String;Landroid/graphics/Bitmap;Lcom/kik/contentlink/model/attachments/ContentUri;)V
+    invoke-direct {v2, v1, v3, v0, v4}, Lkik/arcane/util/ca$c;-><init>(Ljava/lang/String;Ljava/lang/String;Landroid/graphics/Bitmap;Lcom/kik/contentlink/model/attachments/ContentUri;)V
 
     goto/16 :goto_0
 
@@ -627,7 +627,7 @@
 
     new-array v2, v8, [Ljava/lang/Object;
 
-    invoke-static {p0}, Lkik/android/util/p;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;)Ljava/lang/String;
+    invoke-static {p0}, Lkik/arcane/util/p;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;)Ljava/lang/String;
 
     move-result-object v3
 
@@ -660,7 +660,7 @@
 
     new-array v3, v8, [Ljava/lang/Object;
 
-    invoke-static {p0}, Lkik/android/util/p;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;)Ljava/lang/String;
+    invoke-static {p0}, Lkik/arcane/util/p;->a(Lkik/core/datatypes/messageExtensions/ContentMessage;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -827,7 +827,7 @@
 
     const/4 v1, 0x0
 
-    invoke-static {p0, v0, v1, p1}, Lkik/android/util/ca;->a(Landroid/view/View;ILandroid/animation/ValueAnimator$AnimatorUpdateListener;Landroid/animation/Animator$AnimatorListener;)Landroid/animation/ValueAnimator;
+    invoke-static {p0, v0, v1, p1}, Lkik/arcane/util/ca;->a(Landroid/view/View;ILandroid/animation/ValueAnimator$AnimatorUpdateListener;Landroid/animation/Animator$AnimatorListener;)Landroid/animation/ValueAnimator;
 
     move-result-object v0
 
@@ -835,9 +835,9 @@
     if-eqz v0, :cond_0
 
     .line 2841
-    new-instance v1, Lkik/android/util/ca$2;
+    new-instance v1, Lkik/arcane/util/ca$2;
 
-    invoke-direct {v1, p0}, Lkik/android/util/ca$2;-><init>(Landroid/view/View;)V
+    invoke-direct {v1, p0}, Lkik/arcane/util/ca$2;-><init>(Landroid/view/View;)V
 
     invoke-virtual {v0, v1}, Landroid/animation/ValueAnimator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
@@ -902,9 +902,9 @@
 
     const/4 v1, 0x0
 
-    new-instance v2, Lkik/android/util/bs$a;
+    new-instance v2, Lkik/arcane/util/bs$a;
 
-    invoke-direct {v2}, Lkik/android/util/bs$a;-><init>()V
+    invoke-direct {v2}, Lkik/arcane/util/bs$a;-><init>()V
 
     aput-object v2, v0, v1
 
@@ -1024,9 +1024,9 @@
     if-eqz p0, :cond_0
 
     .line 2719
-    new-instance v0, Lkik/android/util/ca$1;
+    new-instance v0, Lkik/arcane/util/ca$1;
 
-    invoke-direct {v0, p0}, Lkik/android/util/ca$1;-><init>(Landroid/widget/ScrollView;)V
+    invoke-direct {v0, p0}, Lkik/arcane/util/ca$1;-><init>(Landroid/widget/ScrollView;)V
 
     const-wide/16 v2, 0x258
 
@@ -1156,13 +1156,13 @@
 
     .prologue
     .line 274
-    new-instance v0, Lkik/android/util/ca$b;
+    new-instance v0, Lkik/arcane/util/ca$b;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p0, v1}, Lkik/android/util/ca$b;-><init>(Landroid/view/View;B)V
+    invoke-direct {v0, p0, v1}, Lkik/arcane/util/ca$b;-><init>(Landroid/view/View;B)V
 
-    invoke-virtual {v0, p1}, Lkik/android/util/ca$b;->a(I)Lkik/android/util/ca$b;
+    invoke-virtual {v0, p1}, Lkik/arcane/util/ca$b;->a(I)Lkik/arcane/util/ca$b;
 
     .line 275
     return-void
@@ -1173,7 +1173,7 @@
 
     .prologue
     .line 808
-    invoke-static/range {p0 .. p7}, Lkik/android/util/ca;->a(Landroid/view/View;ILandroid/animation/ValueAnimator$AnimatorUpdateListener;Landroid/animation/Animator$AnimatorListener;JJ)Landroid/animation/Animator;
+    invoke-static/range {p0 .. p7}, Lkik/arcane/util/ca;->a(Landroid/view/View;ILandroid/animation/ValueAnimator$AnimatorUpdateListener;Landroid/animation/Animator$AnimatorListener;JJ)Landroid/animation/Animator;
 
     move-result-object v0
 
@@ -1283,27 +1283,27 @@
     const/4 v2, 0x0
 
     .line 539
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v0
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v1
 
-    invoke-static {v2}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v2}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v2
 
     int-to-float v3, p1
 
     .line 540
-    invoke-static {v3}, Lkik/android/chat/KikApplication;->a(F)I
+    invoke-static {v3}, Lkik/arcane/chat/KikApplication;->a(F)I
 
     move-result v3
 
     .line 539
-    invoke-static {p0, v0, v1, v2, v3}, Lkik/android/util/ca;->a(Landroid/view/View;IIII)V
+    invoke-static {p0, v0, v1, v2, v3}, Lkik/arcane/util/ca;->a(Landroid/view/View;IIII)V
 
     .line 541
     return-void
@@ -1519,7 +1519,7 @@
 
     .line 3073
     :cond_4
-    invoke-static {v0, v3}, Lkik/android/util/ca;->e(Landroid/view/View;I)V
+    invoke-static {v0, v3}, Lkik/arcane/util/ca;->e(Landroid/view/View;I)V
 
     goto :goto_0
 
@@ -1532,23 +1532,23 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lkik/android/util/ca;->a(Landroid/view/View;)Lkik/android/util/ca$b;
+    invoke-static {v0}, Lkik/arcane/util/ca;->a(Landroid/view/View;)Lkik/arcane/util/ca$b;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lkik/android/util/ca$b;->a()Lkik/android/util/ca$b;
+    invoke-virtual {v0}, Lkik/arcane/util/ca$b;->a()Lkik/arcane/util/ca$b;
 
     move-result-object v0
 
-    invoke-virtual {v0, v3}, Lkik/android/util/ca$b;->a(I)Lkik/android/util/ca$b;
+    invoke-virtual {v0, v3}, Lkik/arcane/util/ca$b;->a(I)Lkik/arcane/util/ca$b;
 
     move-result-object v0
 
-    invoke-virtual {v0, v3}, Lkik/android/util/ca$b;->b(I)Lkik/android/util/ca$b;
+    invoke-virtual {v0, v3}, Lkik/arcane/util/ca$b;->b(I)Lkik/arcane/util/ca$b;
 
     move-result-object v0
 
-    invoke-virtual {v0, v3}, Lkik/android/util/ca$b;->c(I)Lkik/android/util/ca$b;
+    invoke-virtual {v0, v3}, Lkik/arcane/util/ca$b;->c(I)Lkik/arcane/util/ca$b;
 
     goto :goto_1
 .end method
@@ -1711,7 +1711,7 @@
     invoke-virtual {p0, v1, v1}, Landroid/view/View;->measure(II)V
 
     .line 808
-    invoke-static {p0, p1}, Lkik/android/util/cb;->a(Landroid/view/View;I)Ljava/lang/Runnable;
+    invoke-static {p0, p1}, Lkik/arcane/util/cb;->a(Landroid/view/View;I)Ljava/lang/Runnable;
 
     move-result-object v0
 

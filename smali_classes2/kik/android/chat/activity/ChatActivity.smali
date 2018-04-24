@@ -1,5 +1,5 @@
-.class public Lkik/android/chat/activity/ChatActivity;
-.super Lkik/android/chat/activity/FragmentWrapperActivity;
+.class public Lkik/arcane/chat/activity/ChatActivity;
+.super Lkik/arcane/chat/activity/FragmentWrapperActivity;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
 
     .prologue
     .line 11
-    invoke-direct {p0}, Lkik/android/chat/activity/FragmentWrapperActivity;-><init>()V
+    invoke-direct {p0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;-><init>()V
 
     return-void
 .end method
@@ -25,7 +25,7 @@
 
     move-result-object v0
 
-    invoke-super {p0, v0}, Lkik/android/chat/activity/FragmentWrapperActivity;->attachBaseContext(Landroid/content/Context;)V
+    invoke-super {p0, v0}, Lkik/arcane/chat/activity/FragmentWrapperActivity;->attachBaseContext(Landroid/content/Context;)V
 
     .line 20
     return-void

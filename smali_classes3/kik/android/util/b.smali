@@ -1,4 +1,4 @@
-.class public final Lkik/android/util/b;
+.class public final Lkik/arcane/util/b;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -141,7 +141,7 @@
 
     move-result-wide v0
 
-    invoke-static {v0, v1}, Lkik/android/util/b;->a(J)J
+    invoke-static {v0, v1}, Lkik/arcane/util/b;->a(J)J
 
     move-result-wide v0
 
@@ -161,7 +161,7 @@
 
     .line 45
     :cond_0
-    invoke-static {p0}, Lkik/android/util/b;->b(Lkik/core/interfaces/ad;)J
+    invoke-static {p0}, Lkik/arcane/util/b;->b(Lkik/core/interfaces/ad;)J
 
     move-result-wide v2
 

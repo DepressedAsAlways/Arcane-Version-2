@@ -1,11 +1,11 @@
-.class final Lkik/android/chat/fragment/KikLoginFragmentAbstract$1$1;
+.class final Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1$1;
 .super Lcom/kik/events/k;
 .source "SourceFile"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/chat/fragment/KikLoginFragmentAbstract$1;->a(Ljava/lang/String;Lkik/core/datatypes/aa;ZLcom/kik/abtesting/rpc/AbService$GetExperimentsResponse;)V
+    value = Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1;->a(Ljava/lang/String;Lkik/core/datatypes/aa;ZLcom/kik/abtesting/rpc/AbService$GetExperimentsResponse;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,20 +28,20 @@
 
 .field final synthetic b:Lkik/core/datatypes/k;
 
-.field final synthetic c:Lkik/android/chat/fragment/KikLoginFragmentAbstract$1;
+.field final synthetic c:Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/KikLoginFragmentAbstract$1;ZLkik/core/datatypes/k;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1;ZLkik/core/datatypes/k;)V
     .locals 0
 
     .prologue
     .line 311
-    iput-object p1, p0, Lkik/android/chat/fragment/KikLoginFragmentAbstract$1$1;->c:Lkik/android/chat/fragment/KikLoginFragmentAbstract$1;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1$1;->c:Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1;
 
-    iput-boolean p2, p0, Lkik/android/chat/fragment/KikLoginFragmentAbstract$1$1;->a:Z
+    iput-boolean p2, p0, Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1$1;->a:Z
 
-    iput-object p3, p0, Lkik/android/chat/fragment/KikLoginFragmentAbstract$1$1;->b:Lkik/core/datatypes/k;
+    iput-object p3, p0, Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1$1;->b:Lkik/core/datatypes/k;
 
     invoke-direct {p0}, Lcom/kik/events/k;-><init>()V
 
@@ -69,15 +69,15 @@
 
     .line 1318
     :cond_0
-    iget-object v0, p0, Lkik/android/chat/fragment/KikLoginFragmentAbstract$1$1;->c:Lkik/android/chat/fragment/KikLoginFragmentAbstract$1;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1$1;->c:Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/KikLoginFragmentAbstract$1;->a:Lkik/android/chat/fragment/KikLoginFragmentAbstract;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1;->a:Lkik/arcane/chat/fragment/KikLoginFragmentAbstract;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/KikLoginFragmentAbstract;->l:Lcom/kik/android/Mixpanel;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/KikLoginFragmentAbstract;->l:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "XData Chat Restore Complete"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -88,7 +88,7 @@
     int-to-long v2, v2
 
     .line 1319
-    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
@@ -99,26 +99,26 @@
     int-to-long v2, v2
 
     .line 1320
-    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 1321
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 1322
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 1323
-    iget-object v0, p0, Lkik/android/chat/fragment/KikLoginFragmentAbstract$1$1;->c:Lkik/android/chat/fragment/KikLoginFragmentAbstract$1;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1$1;->c:Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1;
 
-    iget-boolean v1, p0, Lkik/android/chat/fragment/KikLoginFragmentAbstract$1$1;->a:Z
+    iget-boolean v1, p0, Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1$1;->a:Z
 
-    iget-object v2, p0, Lkik/android/chat/fragment/KikLoginFragmentAbstract$1$1;->b:Lkik/core/datatypes/k;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1$1;->b:Lkik/core/datatypes/k;
 
-    invoke-static {v0, v1, v2}, Lkik/android/chat/fragment/KikLoginFragmentAbstract$1;->a(Lkik/android/chat/fragment/KikLoginFragmentAbstract$1;ZLkik/core/datatypes/k;)V
+    invoke-static {v0, v1, v2}, Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1;->a(Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1;ZLkik/core/datatypes/k;)V
 
     .line 311
     return-void
@@ -131,48 +131,48 @@
     const-wide/16 v2, 0x0
 
     .line 330
-    iget-object v0, p0, Lkik/android/chat/fragment/KikLoginFragmentAbstract$1$1;->c:Lkik/android/chat/fragment/KikLoginFragmentAbstract$1;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1$1;->c:Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/KikLoginFragmentAbstract$1;->a:Lkik/android/chat/fragment/KikLoginFragmentAbstract;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1;->a:Lkik/arcane/chat/fragment/KikLoginFragmentAbstract;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/KikLoginFragmentAbstract;->l:Lcom/kik/android/Mixpanel;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/KikLoginFragmentAbstract;->l:Lcom/kik/arcane/Mixpanel;
 
     const-string v1, "XData Chat Restore Complete"
 
-    invoke-virtual {v0, v1}, Lcom/kik/android/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1}, Lcom/kik/arcane/Mixpanel;->b(Ljava/lang/String;)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Number of 1 to 1 Chats Restored"
 
     .line 331
-    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     const-string v1, "Number of Groups Restored"
 
     .line 332
-    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/android/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0, v1, v2, v3}, Lcom/kik/arcane/Mixpanel$d;->a(Ljava/lang/String;J)Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 333
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->g()Lcom/kik/android/Mixpanel$d;
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->g()Lcom/kik/arcane/Mixpanel$d;
 
     move-result-object v0
 
     .line 334
-    invoke-virtual {v0}, Lcom/kik/android/Mixpanel$d;->b()V
+    invoke-virtual {v0}, Lcom/kik/arcane/Mixpanel$d;->b()V
 
     .line 335
-    iget-object v0, p0, Lkik/android/chat/fragment/KikLoginFragmentAbstract$1$1;->c:Lkik/android/chat/fragment/KikLoginFragmentAbstract$1;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1$1;->c:Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1;
 
-    iget-boolean v1, p0, Lkik/android/chat/fragment/KikLoginFragmentAbstract$1$1;->a:Z
+    iget-boolean v1, p0, Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1$1;->a:Z
 
-    iget-object v2, p0, Lkik/android/chat/fragment/KikLoginFragmentAbstract$1$1;->b:Lkik/core/datatypes/k;
+    iget-object v2, p0, Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1$1;->b:Lkik/core/datatypes/k;
 
-    invoke-static {v0, v1, v2}, Lkik/android/chat/fragment/KikLoginFragmentAbstract$1;->a(Lkik/android/chat/fragment/KikLoginFragmentAbstract$1;ZLkik/core/datatypes/k;)V
+    invoke-static {v0, v1, v2}, Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1;->a(Lkik/arcane/chat/fragment/KikLoginFragmentAbstract$1;ZLkik/core/datatypes/k;)V
 
     .line 336
     return-void

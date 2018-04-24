@@ -1,4 +1,4 @@
-.class final Lkik/android/util/f$8;
+.class final Lkik/arcane/util/f$8;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lkik/android/util/f;->a(Ljava/util/ArrayList;ILcom/kik/cache/KikVolleyImageLoader;)Lkik/android/util/f$a;
+    value = Lkik/arcane/util/f;->a(Ljava/util/ArrayList;ILcom/kik/cache/KikVolleyImageLoader;)Lkik/arcane/util/f$a;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

@@ -1,4 +1,4 @@
-.class final Lkik/android/chat/fragment/AbTestsFragment$3$1;
+.class final Lkik/arcane/chat/fragment/AbTestsFragment$3$1;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lkik/android/chat/fragment/AbTestsFragment$3;
+    value = Lkik/arcane/chat/fragment/AbTestsFragment$3;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,16 +18,16 @@
 
 
 # instance fields
-.field final synthetic a:Lkik/android/chat/fragment/AbTestsFragment$3;
+.field final synthetic a:Lkik/arcane/chat/fragment/AbTestsFragment$3;
 
 
 # direct methods
-.method constructor <init>(Lkik/android/chat/fragment/AbTestsFragment$3;)V
+.method constructor <init>(Lkik/arcane/chat/fragment/AbTestsFragment$3;)V
     .locals 0
 
     .prologue
     .line 186
-    iput-object p1, p0, Lkik/android/chat/fragment/AbTestsFragment$3$1;->a:Lkik/android/chat/fragment/AbTestsFragment$3;
+    iput-object p1, p0, Lkik/arcane/chat/fragment/AbTestsFragment$3$1;->a:Lkik/arcane/chat/fragment/AbTestsFragment$3;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -41,11 +41,11 @@
 
     .prologue
     .line 190
-    iget-object v0, p0, Lkik/android/chat/fragment/AbTestsFragment$3$1;->a:Lkik/android/chat/fragment/AbTestsFragment$3;
+    iget-object v0, p0, Lkik/arcane/chat/fragment/AbTestsFragment$3$1;->a:Lkik/arcane/chat/fragment/AbTestsFragment$3;
 
-    iget-object v0, v0, Lkik/android/chat/fragment/AbTestsFragment$3;->a:Lkik/android/chat/fragment/AbTestsFragment;
+    iget-object v0, v0, Lkik/arcane/chat/fragment/AbTestsFragment$3;->a:Lkik/arcane/chat/fragment/AbTestsFragment;
 
-    invoke-static {v0}, Lkik/android/chat/fragment/AbTestsFragment;->b(Lkik/android/chat/fragment/AbTestsFragment;)Lcom/kik/view/adapters/x;
+    invoke-static {v0}, Lkik/arcane/chat/fragment/AbTestsFragment;->b(Lkik/arcane/chat/fragment/AbTestsFragment;)Lcom/kik/view/adapters/x;
 
     move-result-object v0
 
