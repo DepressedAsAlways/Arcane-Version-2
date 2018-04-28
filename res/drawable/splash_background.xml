@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layer-list
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@color/white" />
-    <item>
-        <bitmap android:gravity="center" android:src="@mipmap/img_splash" />
-    </item>
+<?xml version="1.0" encoding="utf-8" ?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:drawable="@color/bg" />
+	<item>
+		<bitmap android:gravity="center"
+android:tint="@color/theme"
+ android:src="@mipmap/img_splash" />
+	</item>
 </layer-list>
