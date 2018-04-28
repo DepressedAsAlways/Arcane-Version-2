@@ -13,6 +13,7 @@
 	<color name="incoming_bubble_color">#ffffffff</color>
 	<color name="kinky_chat_background">@color/bg</color>
 	<color name="sub_section_background">@color/bg</color>
+<color name="arcane_downstate">#22f44336</color>
 	<color name="sub_section_text">#ffeeeeee</color>
 	<color name="arcane_black">#ff000000</color>
 	<color name="arcane_white">#ffffffff</color>
